@@ -16,6 +16,8 @@ import os
 import random
 import re
 import time
+import unicodedata
+from difflib import SequenceMatcher
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -48,6 +50,25 @@ RULES:
 }
 6. MINIMAL PATCH: Only include an item in 'corrections' when text genuinely needed fixing. Only include in 'types' when changing the semantic type. If nothing needs changing, return empty arrays.
 7. Return raw JSON only without markdown code blocks, explanations, or preamble."""
+
+
+def _fold_ocr_token(value: str) -> str:
+    value = value.casefold().replace("đ", "d")
+    return "".join(
+        char for char in unicodedata.normalize("NFKD", value)
+        if not unicodedata.combining(char)
+    )
+
+
+def _is_source_like(token: str, source_tokens: set[str]) -> bool:
+    folded = _fold_ocr_token(token)
+    if folded in source_tokens:
+        return True
+    return any(
+        abs(len(folded) - len(source)) <= 2
+        and SequenceMatcher(None, folded, source).ratio() >= 0.72
+        for source in source_tokens
+    )
 
 
 def _clean_json_response(content: str) -> dict:
@@ -117,10 +138,15 @@ def _validate_patch(value: dict, source_elements: list[dict]) -> dict:
         raise ValueError("NIM output length is abnormally larger than source text; rejecting hallucinated expansion")
         
     # Anti-hallucination check 2: Novel token ratio check
-    source_tokens = set(re.findall(r"[\wÀ-ỹ]+", source_text.casefold()))
+    source_tokens = {
+        _fold_ocr_token(token)
+        for token in re.findall(r"[\wÀ-ỹ]+", source_text.casefold())
+    }
     normalized_tokens = re.findall(r"[\wÀ-ỹ]+", normalized_text.casefold())
     if normalized_tokens:
-        novel_ratio = sum(t not in source_tokens for t in normalized_tokens) / len(normalized_tokens)
+        novel_ratio = sum(
+            not _is_source_like(token, source_tokens) for token in normalized_tokens
+        ) / len(normalized_tokens)
         if novel_ratio > 0.35:
             raise ValueError(f"NIM output contains {novel_ratio:.1%} novel tokens not present in source text")
             

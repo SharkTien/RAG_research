@@ -24,10 +24,15 @@ RUN pip install --upgrade pip --no-cache-dir
 RUN pip install --no-cache-dir \
     --index-url https://download.pytorch.org/whl/cpu \
     --extra-index-url https://pypi.org/simple/ \
-    "torch>=2.0,<3.0" "torchvision>=0.15,<1.0"
+    "torch==2.12.1+cpu" "torchvision==0.27.1+cpu"
 
-# Bước 3: cài các dependency còn lại (docling sẽ reuse torch CPU ở trên)
-RUN pip install --no-cache-dir --retries 3 -r requirements.txt
+# Bước 3: cài các dependency còn lại (docling sẽ reuse torch CPU ở trên).
+# deepdoc-lib kéo theo datrie, cần compiler để build wheel trên Python 3.12.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends build-essential \
+    && pip install --no-cache-dir --retries 3 -r requirements.txt \
+    && apt-get purge -y --auto-remove build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libgl1 libglib2.0-0 libsm6 libxext6 libxrender-dev libreoffice \

@@ -4,6 +4,8 @@ import json
 import os
 import re
 import time
+import unicodedata
+from difflib import SequenceMatcher
 from urllib.error import URLError, HTTPError
 from urllib.request import Request, urlopen
 
@@ -32,6 +34,27 @@ Return a PATCH only. Do not repeat unchanged elements. Return ONLY valid JSON ma
 Only include an item in corrections when its text genuinely needs an unambiguous OCR correction.
 Only include an item in types when its semantic type needs to change.
 If nothing needs changing, return empty corrections and types arrays. Do not include markdown fences or commentary."""
+
+
+def _fold_ocr_token(value: str) -> str:
+    value = value.casefold().replace("đ", "d")
+    return "".join(
+        char for char in unicodedata.normalize("NFKD", value)
+        if not unicodedata.combining(char)
+    )
+
+
+def _is_source_like(token: str, source_tokens: set[str]) -> bool:
+    folded = _fold_ocr_token(token)
+    if folded in source_tokens:
+        return True
+    # OCR commonly drops one Vietnamese vowel/diacritic.  A bounded fuzzy
+    # comparison permits that repair without allowing wholesale rewriting.
+    return any(
+        abs(len(folded) - len(source)) <= 2
+        and SequenceMatcher(None, folded, source).ratio() >= 0.72
+        for source in source_tokens
+    )
 
 
 def _json_from_response(content: str) -> dict:
@@ -91,10 +114,15 @@ def _validate(value: dict, source_elements: list[dict]) -> dict:
     normalized_text = "\n".join(item["text"] for item in normalized)
     if len(normalized_text) > max(len(source_text) * 1.25, len(source_text) + 300):
         raise ValueError("Qwen output dài bất thường so với raw input; từ chối kết quả mở rộng tài liệu")
-    source_tokens = set(re.findall(r"[\wÀ-ỹ]+", source_text.casefold()))
+    source_tokens = {
+        _fold_ocr_token(token)
+        for token in re.findall(r"[\wÀ-ỹ]+", source_text.casefold())
+    }
     normalized_tokens = re.findall(r"[\wÀ-ỹ]+", normalized_text.casefold())
     if normalized_tokens:
-        novel_ratio = sum(token not in source_tokens for token in normalized_tokens) / len(normalized_tokens)
+        novel_ratio = sum(
+            not _is_source_like(token, source_tokens) for token in normalized_tokens
+        ) / len(normalized_tokens)
         if novel_ratio > 0.30:
             raise ValueError("Qwen output chứa quá nhiều nội dung không có trong raw input")
     return {

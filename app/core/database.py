@@ -26,10 +26,15 @@ class DatabaseManager:
                         status TEXT DEFAULT 'uploaded',
                         error_message TEXT,
                         extracted_data JSONB,
+                        progress SMALLINT DEFAULT 0,
+                        progress_stage TEXT DEFAULT '',
                         created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
                 )
             ''')
                 conn.execute("ALTER TABLE documents ADD COLUMN IF NOT EXISTS sha256 TEXT")
+                conn.execute("ALTER TABLE documents ADD COLUMN IF NOT EXISTS progress SMALLINT DEFAULT 0")
+                conn.execute("ALTER TABLE documents ADD COLUMN IF NOT EXISTS progress_stage TEXT DEFAULT ''")
+                conn.execute("UPDATE documents SET progress = 100 WHERE status = 'processed' AND COALESCE(progress, 0) = 0")
                 # Add the persistent worker state to databases created by the MVP.
                 conn.execute("ALTER TABLE documents DROP CONSTRAINT IF EXISTS documents_status_check")
                 conn.execute("""

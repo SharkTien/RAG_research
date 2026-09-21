@@ -148,6 +148,7 @@ class RagflowExtractor:
             elem_dict = {
                 "element_id": elem_id,
                 "type": sec_type,
+                "element_type": sec_type,
                 "text": sec_text,
                 "page": page_no,
             }
@@ -190,6 +191,7 @@ class RagflowExtractor:
                 normalized_elements.append({
                     "element_id": f"deepdoc_tbl_{tbl_idx:03d}",
                     "type": "table",
+                    "element_type": "table",
                     "text": tbl_content,
                     "page": tbl_page,
                 })

@@ -1,6 +1,7 @@
 import uuid
 import tempfile
 import os
+import time
 from pathlib import Path
 from app.core.storage import StorageManager
 from app.repositories.document_repo import DocumentRepository
@@ -10,11 +11,12 @@ from app.core.config import (
     DOCLING_OCR_ENGINE, DOCLING_OCR_LANG,
     DOCLING_TESSERACT_PSM,
     DOCLING_TESSERACT_OSD,
-    ENABLE_NIM_NORMALIZATION,
+    SEMANTIC_NORMALIZER, SEMANTIC_NORMALIZE_OCR_ONLY,
+    SEMANTIC_OCR_CONFIDENCE_GATE,
 )
 import threading
 from app.services.normalize_service import NormalizeService
-from app.services.nim_normalizer import normalize_parallel as nim_normalize
+from app.services.semantic_normalizer import normalize_document
 from app.services.embedding_service import EmbeddingService
 from app.repositories.chunk_repo import ChunkRepository
 
@@ -98,6 +100,31 @@ class ExtractService:
         except Exception as exc:
             print(f"Could not inspect PDF text layer: {exc}", flush=True)
             return False
+
+    @staticmethod
+    def _merge_semantic_elements(
+        source_elements: list[dict], semantic_elements: list[dict]
+    ) -> list[dict]:
+        """Apply validated text/type patches while preserving source geometry/order."""
+        patches = {
+            str(item.get("element_id")): item
+            for item in semantic_elements
+            if item.get("element_id") is not None
+        }
+        for source in source_elements:
+            patch = patches.get(str(source.get("element_id")))
+            if not patch:
+                continue
+            if patch.get("text") is not None:
+                source["text"] = str(patch["text"])
+            semantic_type = patch.get("type", "text")
+            source["semantic_type"] = semantic_type
+            # Normalize the provider schema to the chunker's boundary types.
+            if semantic_type == "heading":
+                source["element_type"] = "section_header"
+            elif semantic_type in {"title", "paragraph", "list", "table", "caption", "footer"}:
+                source["element_type"] = semantic_type
+        return source_elements
 
     def _get_converter(self, do_ocr: bool):
         if do_ocr not in self._converters:
@@ -241,7 +268,26 @@ class ExtractService:
             
             from app.core.config import DOCUMENT_PARSER_ENGINE, RAGFLOW_MODE
 
-            use_ragflow = (DOCUMENT_PARSER_ENGINE == "ragflow")
+            extraction_started = time.monotonic()
+            source_suffix = Path(original_filename).suffix.lower()
+            native_pdf_text = self._pdf_has_text(tmp_name)
+            extraction_complete = False
+            parser_used = None
+            do_ocr = False
+            page_count = 1
+            ocr_confidence = None
+
+            # Auto mode mirrors the upstream parser guidance: do not OCR a PDF
+            # that already has a usable text layer; use the Vietnamese GPU OCR
+            # service for scans/images; keep DeepDoc opt-in for complex layouts.
+            use_ragflow = DOCUMENT_PARSER_ENGINE == "ragflow"
+            use_tesseract_direct = DOCUMENT_PARSER_ENGINE == "tesseract" or (
+                DOCUMENT_PARSER_ENGINE == "auto"
+                and (source_suffix != ".pdf" or not native_pdf_text)
+                and source_suffix in {".pdf", ".png", ".jpg", ".jpeg"}
+            )
+            use_local_ocr = DOCUMENT_PARSER_ENGINE == "ppocr"
+
             if use_ragflow:
                 try:
                     print(f"[{doc_id}] stage=ragflow_extract_start mode={RAGFLOW_MODE}", flush=True)
@@ -253,13 +299,81 @@ class ExtractService:
                     ocr_bboxes = ragflow_result["ocr_bboxes"]
                     image_bboxes = ragflow_result["image_bboxes"]
                     doc_json = ragflow_result["doc_json"]
+                    page_count = max(
+                        [int(item.get("page") or 1) for item in normalized_elements] or [1]
+                    )
+                    do_ocr = True
+                    parser_used = f"ragflow_{RAGFLOW_MODE}"
+                    extraction_complete = True
                     print(f"[{doc_id}] stage=ragflow_extract_done chars={len(clean_text)} elements={len(normalized_elements)}", flush=True)
                     self.repo.update_progress(doc_id, 70, 'Phân tích cấu trúc văn bản')
                 except Exception as rf_err:
                     print(f"[{doc_id}] ragflow extraction unavailable ({rf_err}), falling back to Docling OCR", flush=True)
-                    use_ragflow = False
+                    extraction_complete = False
 
-            if not use_ragflow:
+            if use_tesseract_direct and not extraction_complete:
+                try:
+                    from app.services.tesseract_extractor import TesseractExtractor
+
+                    print(f"[{doc_id}] stage=tesseract_direct_start", flush=True)
+                    self.repo.update_progress(doc_id, 15, 'OCR tiếng Việt theo trang')
+                    tesseract_result = TesseractExtractor().extract(tmp_name, original_filename)
+                    clean_text = tesseract_result["clean_text"]
+                    normalized_elements = tesseract_result["normalized_elements"]
+                    ocr_bboxes = tesseract_result["ocr_bboxes"]
+                    image_bboxes = tesseract_result["image_bboxes"]
+                    doc_json = tesseract_result["doc_json"]
+                    page_count = tesseract_result["page_count"]
+                    ocr_confidence = tesseract_result.get("confidence")
+                    do_ocr = True
+                    parser_used = "tesseract_direct"
+                    extraction_complete = True
+                    print(
+                        f"[{doc_id}] stage=tesseract_direct_done pages={page_count} "
+                        f"chars={len(clean_text)} elements={len(normalized_elements)}",
+                        flush=True,
+                    )
+                    self.repo.update_progress(doc_id, 68, 'Hoàn tất OCR tiếng Việt')
+                except Exception as tess_err:
+                    print(
+                        f"[{doc_id}] direct Tesseract unavailable ({tess_err}), "
+                        "trying local PP-OCRv6",
+                        flush=True,
+                    )
+                    use_local_ocr = True
+
+            if use_local_ocr and not extraction_complete:
+                try:
+                    from app.services.ppocr_extractor import PpOcrExtractor
+
+                    print(f"[{doc_id}] stage=ppocr_extract_start", flush=True)
+                    self.repo.update_progress(doc_id, 15, 'OCR tiếng Việt bằng GPU local')
+                    ppocr_result = PpOcrExtractor().extract(tmp_name, original_filename)
+                    clean_text = ppocr_result["clean_text"]
+                    normalized_elements = ppocr_result["normalized_elements"]
+                    ocr_bboxes = ppocr_result["ocr_bboxes"]
+                    image_bboxes = ppocr_result["image_bboxes"]
+                    doc_json = ppocr_result["doc_json"]
+                    page_count = ppocr_result["page_count"]
+                    ocr_confidence = ppocr_result.get("confidence")
+                    do_ocr = True
+                    parser_used = "local_ppocrv6"
+                    extraction_complete = True
+                    print(
+                        f"[{doc_id}] stage=ppocr_extract_done pages={page_count} "
+                        f"chars={len(clean_text)} elements={len(normalized_elements)}",
+                        flush=True,
+                    )
+                    self.repo.update_progress(doc_id, 68, 'Hoàn tất OCR tiếng Việt')
+                except Exception as ppocr_err:
+                    print(
+                        f"[{doc_id}] local PP-OCRv6 unavailable ({ppocr_err}), "
+                        "falling back to Docling/Tesseract",
+                        flush=True,
+                    )
+                    extraction_complete = False
+
+            if not extraction_complete:
                 # Đếm trước tổng số trang nếu là PDF
                 total_pages = 1
                 try:
@@ -274,7 +388,9 @@ class ExtractService:
                 elif DOCLING_DO_OCR == "false":
                     do_ocr = False
                 else:
-                    do_ocr = not self._pdf_has_text(tmp_name)
+                    do_ocr = source_suffix in {".png", ".jpg", ".jpeg"} or (
+                        source_suffix == ".pdf" and not native_pdf_text
+                    )
                 print(
                     f"Processing {original_filename}: total_pages={total_pages}, do_ocr={do_ocr}, "
                     f"ocr_engine={DOCLING_OCR_ENGINE}, ocr_lang={DOCLING_OCR_LANG}, "
@@ -323,11 +439,28 @@ class ExtractService:
                 )
                 print(f"[{doc_id}] stage=rule_clean_done chars={len(clean_text)} elements={len(normalized_elements)}", flush=True)
                 self.repo.update_progress(doc_id, 68, 'Phân tích cấu trúc văn bản')
-            if ENABLE_NIM_NORMALIZATION:
-                print(f"[{doc_id}] stage=nim_normalize_start mode=parallel_pages", flush=True)
+                page_count = total_pages
+                parser_used = "docling_tesseract" if do_ocr else "docling_native_text"
+                extraction_complete = True
+
+            extraction_elapsed = round(time.monotonic() - extraction_started, 3)
+            should_semantic_normalize = (
+                SEMANTIC_NORMALIZER not in {"none", "off", "false"}
+                and (do_ocr or not SEMANTIC_NORMALIZE_OCR_ONLY)
+                and not (
+                    parser_used == "tesseract_direct"
+                    and ocr_confidence is not None
+                    and ocr_confidence >= SEMANTIC_OCR_CONFIDENCE_GATE
+                )
+            )
+            if should_semantic_normalize:
+                print(
+                    f"[{doc_id}] stage=semantic_normalize_start policy={SEMANTIC_NORMALIZER}",
+                    flush=True,
+                )
                 self.repo.update_progress(doc_id, 70, 'Phân tích ngữ nghĩa AI')
 
-                def on_nim_progress(done_win, total_win):
+                def on_semantic_progress(done_win, total_win):
                     # Tiến trình tăng dần từ 70% đến 85%
                     ratio = done_win / max(1, total_win)
                     pct = int(70 + ratio * 15)
@@ -335,27 +468,46 @@ class ExtractService:
                     print(f"[{doc_id}] progress={pct}% stage={stage}", flush=True)
                     self.repo.update_progress(doc_id, pct, stage)
 
-                semantic_structure, semantic_error = nim_normalize(
-                    clean_text, normalized_elements, progress_callback=on_nim_progress
+                semantic_structure, semantic_error, semantic_meta = normalize_document(
+                    clean_text,
+                    normalized_elements,
+                    policy=SEMANTIC_NORMALIZER,
+                    progress_callback=on_semantic_progress,
                 )
-                print(f"[{doc_id}] stage=nim_normalize_done status={'processed' if semantic_structure and not semantic_error else 'fallback'}", flush=True)
+                print(
+                    f"[{doc_id}] stage=semantic_normalize_done "
+                    f"provider={semantic_meta.get('provider')} "
+                    f"status={semantic_meta.get('status')}",
+                    flush=True,
+                )
                 self.repo.update_progress(doc_id, 85, 'Phân tích ngữ nghĩa xong')
                 if semantic_structure and semantic_structure.get("elements"):
-                    semantic_elements = semantic_structure["elements"]
-                    element_by_id = {item["element_id"]: item for item in normalized_elements}
-                    semantic_text = "\n\n".join(item["text"] for item in semantic_elements if item.get("text"))
-                    for item in semantic_elements:
-                        if item["element_id"] in element_by_id:
-                            element_by_id[item["element_id"]]["semantic_type"] = item.get("type", "text")
-                    normalized_elements = list(element_by_id.values())
+                    normalized_elements = self._merge_semantic_elements(
+                        normalized_elements, semantic_structure["elements"]
+                    )
+                    semantic_text = "\n\n".join(
+                        item["text"] for item in normalized_elements if item.get("text")
+                    )
                 else:
                     semantic_text = clean_text
                     semantic_structure = {"title": None, "sections": [], "elements": [], "warnings": [semantic_error] if semantic_error else []}
             else:
-                print(f"[{doc_id}] stage=nim_normalize_skipped (chế độ nạp nhanh được kích hoạt)", flush=True)
+                if not do_ocr:
+                    reason = "native_text_fast_path"
+                elif (
+                    parser_used == "tesseract_direct"
+                    and ocr_confidence is not None
+                    and ocr_confidence >= SEMANTIC_OCR_CONFIDENCE_GATE
+                ):
+                    reason = "high_confidence_ocr"
+                else:
+                    reason = "provider_disabled"
+                print(f"[{doc_id}] stage=semantic_normalize_skipped reason={reason}", flush=True)
                 self.repo.update_progress(doc_id, 85, 'Hoàn tất phân tích cấu trúc')
                 semantic_text = clean_text
                 semantic_structure = {"title": None, "sections": [], "elements": normalized_elements, "warnings": []}
+                semantic_error = None
+                semantic_meta = {"provider": "none", "status": "skipped", "reason": reason}
             # Chunk using structure-aware semantic chunker (preferred)
             # Falls back to plain-text SentenceSplitter if no elements
             doc_meta = {"document_id": str(doc_id), "filename": original_filename}
@@ -405,24 +557,29 @@ class ExtractService:
             # Prepare extracted data
             extracted_data = {
                 # The user-facing OCR result is the cleaned/normalized text.
-                "ocr_text": clean_text,
-                "text": clean_text,
+                "ocr_text": semantic_text,
+                "raw_ocr_text": clean_text,
+                "text": semantic_text,
                 "chunks": chunks,
                 "normalized_elements": normalized_elements,
                 "semantic_structure": semantic_structure,
-                "semantic_normalization": {
-                    "provider": "nvidia_nim",
-                    "model": semantic_structure.get("model", os.getenv("NIM_MODEL", "meta/llama-3.3-70b-instruct")),
-                    "status": "processed" if semantic_error is None else "fallback_rule_based",
-                    "error": semantic_error,
-                    "elapsed_seconds": semantic_structure.get("elapsed_seconds"),
-                    "parallel_windows": semantic_structure.get("parallel_windows"),
-                },
+                "semantic_normalization": semantic_meta,
                 "metadata": {
-                    "page_count": len(result.pages) if hasattr(result, "pages") else 1,
-                    "language": "vie,eng",
-                    "confidence_score": 0.995 if not do_ocr else (0.985 if (semantic_structure and not semantic_error) else 0.94),
-                    "ocr_percent": 99.5 if not do_ocr else (98.5 if (semantic_structure and not semantic_error) else 94.0),
+                    "page_count": page_count,
+                    "language": "vie+eng",
+                    "parser": parser_used,
+                    "ocr_applied": do_ocr,
+                    "extraction_elapsed_seconds": extraction_elapsed,
+                    "confidence_score": (
+                        round(ocr_confidence, 4)
+                        if ocr_confidence is not None
+                        else (0.995 if not do_ocr else None)
+                    ),
+                    "ocr_percent": (
+                        round(ocr_confidence * 100, 2)
+                        if ocr_confidence is not None
+                        else (99.5 if not do_ocr else None)
+                    ),
                 },
                 "entities": [], # Phase 2: VLM / Quality Checker
                 "images": image_bboxes,

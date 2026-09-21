@@ -18,6 +18,9 @@ def _timeout_handler(signum, frame):
 
 def main() -> None:
     database = DatabaseManager()
+    # Run idempotent schema migrations here as well: the worker and API start
+    # independently under Compose, so neither may assume the other starts first.
+    database.init_db()
     repo = DocumentRepository(database)
     service = ExtractService(repo, StorageManager())
     while True:
