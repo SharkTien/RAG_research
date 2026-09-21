@@ -11,10 +11,66 @@ from app.core.config import (
     DOCLING_TESSERACT_PSM,
     DOCLING_TESSERACT_OSD,
 )
+import threading
 from app.services.normalize_service import NormalizeService
 from app.services.nim_normalizer import normalize_parallel as nim_normalize
 from app.services.embedding_service import EmbeddingService
 from app.repositories.chunk_repo import ChunkRepository
+
+# ─── PROGRESS TRACKING HOOK CHO DOCLING PIPELINE ────────────────────────────
+_docling_progress_local = threading.local()
+
+def set_page_progress_callback(cb, total_pages=1):
+    _docling_progress_local.cb = cb
+    _docling_progress_local.total_pages = max(1, total_pages)
+
+def get_page_progress_callback():
+    return getattr(_docling_progress_local, "cb", None)
+
+def get_page_progress_total():
+    return getattr(_docling_progress_local, "total_pages", 1)
+
+class TrackedDoclingQueue:
+    """Wrapper queue để đếm số trang Docling đã hoàn thành và cập nhật tiến trình từng trang."""
+    def __init__(self, real_q, callback, total_pages):
+        self._real_q = real_q
+        self._callback = callback
+        self._total_pages = max(1, total_pages)
+        self._completed = 0
+
+    def get_batch(self, batch_size, timeout=0.05):
+        batch = self._real_q.get_batch(batch_size, timeout)
+        if batch:
+            self._completed += len(batch)
+            if self._callback:
+                try:
+                    self._callback(self._completed, self._total_pages)
+                except Exception as exc:
+                    print(f"TrackedDoclingQueue callback error: {exc}", flush=True)
+        return batch
+
+    def __getattr__(self, name):
+        return getattr(self._real_q, name)
+
+# Cài đặt hook vào Docling StandardPdfPipeline._create_run_ctx
+try:
+    from docling.pipeline.standard_pdf_pipeline import StandardPdfPipeline
+    if not hasattr(StandardPdfPipeline, "_orig_create_run_ctx_ntc"):
+        StandardPdfPipeline._orig_create_run_ctx_ntc = StandardPdfPipeline._create_run_ctx
+
+        def _patched_create_run_ctx(self):
+            ctx = self._orig_create_run_ctx_ntc()
+            cb = get_page_progress_callback()
+            if cb and hasattr(ctx, "output_queue"):
+                total = get_page_progress_total()
+                ctx.output_queue = TrackedDoclingQueue(ctx.output_queue, cb, total)
+            return ctx
+
+        StandardPdfPipeline._create_run_ctx = _patched_create_run_ctx
+        print("[ExtractService] Docling StandardPdfPipeline page-tracking hook installed", flush=True)
+except Exception as patch_err:
+    print(f"[ExtractService] Could not hook Docling StandardPdfPipeline: {patch_err}", flush=True)
+
 
 class ExtractService:
     def __init__(self, repo: DocumentRepository, storage: StorageManager):
@@ -180,6 +236,7 @@ class ExtractService:
                 
             self.storage.download_file(object_key, tmp_name)
             print(f"[{doc_id}] stage=download_done", flush=True)
+            self.repo.update_progress(doc_id, 10, 'Tải tệp về máy chủ')
             
             from app.core.config import DOCUMENT_PARSER_ENGINE, RAGFLOW_MODE
 
@@ -187,6 +244,7 @@ class ExtractService:
             if use_ragflow:
                 try:
                     print(f"[{doc_id}] stage=ragflow_extract_start mode={RAGFLOW_MODE}", flush=True)
+                    self.repo.update_progress(doc_id, 15, 'Đọc nội dung tài liệu')
                     from app.services.ragflow_extractor import RagflowExtractor
                     ragflow_result = RagflowExtractor().extract(tmp_name, original_filename)
                     clean_text = ragflow_result["clean_text"]
@@ -195,11 +253,21 @@ class ExtractService:
                     image_bboxes = ragflow_result["image_bboxes"]
                     doc_json = ragflow_result["doc_json"]
                     print(f"[{doc_id}] stage=ragflow_extract_done chars={len(clean_text)} elements={len(normalized_elements)}", flush=True)
+                    self.repo.update_progress(doc_id, 70, 'Phân tích cấu trúc văn bản')
                 except Exception as rf_err:
                     print(f"[{doc_id}] ragflow extraction unavailable ({rf_err}), falling back to Docling OCR", flush=True)
                     use_ragflow = False
 
             if not use_ragflow:
+                # Đếm trước tổng số trang nếu là PDF
+                total_pages = 1
+                try:
+                    from pypdf import PdfReader
+                    reader = PdfReader(tmp_name, strict=False)
+                    total_pages = max(1, len(reader.pages))
+                except Exception:
+                    pass
+
                 if DOCLING_DO_OCR == "true":
                     do_ocr = True
                 elif DOCLING_DO_OCR == "false":
@@ -207,16 +275,36 @@ class ExtractService:
                 else:
                     do_ocr = not self._pdf_has_text(tmp_name)
                 print(
-                    f"Processing {original_filename}: do_ocr={do_ocr}, "
+                    f"Processing {original_filename}: total_pages={total_pages}, do_ocr={do_ocr}, "
                     f"ocr_engine={DOCLING_OCR_ENGINE}, ocr_lang={DOCLING_OCR_LANG}, "
                     f"device={DOCLING_DEVICE}",
                     flush=True,
                 )
                 # Reuse one converter per pipeline configuration in this worker.
                 converter = self._get_converter(do_ocr)
-                print(f"[{doc_id}] stage=docling_start", flush=True)
-                result = converter.convert(tmp_name)
+                print(f"[{doc_id}] stage=docling_start total_pages={total_pages}", flush=True)
+
+                def on_docling_page(done_pages, total):
+                    done = min(done_pages, total)
+                    ratio = done / max(1, total)
+                    # Tiến trình tăng dần từ 15% đến 60%
+                    pct = int(15 + ratio * 45)
+                    if done < total:
+                        stage = f"Đang đọc nội dung trang {done + 1}/{total} (đã xong {done}/{total})"
+                    else:
+                        stage = f"Đã đọc xong toàn bộ {total}/{total} trang"
+                    print(f"[{doc_id}] progress={pct}% stage={stage}", flush=True)
+                    self.repo.update_progress(doc_id, pct, stage)
+
+                set_page_progress_callback(on_docling_page, total_pages)
+                self.repo.update_progress(doc_id, 15, f"Đang đọc nội dung trang 1/{total_pages} (0/{total_pages})")
+                try:
+                    result = converter.convert(tmp_name)
+                finally:
+                    set_page_progress_callback(None)
+
                 print(f"[{doc_id}] stage=docling_done", flush=True)
+                self.repo.update_progress(doc_id, 60, f"Đã đọc xong toàn bộ {total_pages}/{total_pages} trang")
                 if not self.repo.is_document_active(doc_id):
                     return
                 
@@ -233,9 +321,23 @@ class ExtractService:
                     {"document_id": str(doc_id), "filename": original_filename},
                 )
                 print(f"[{doc_id}] stage=rule_clean_done chars={len(clean_text)} elements={len(normalized_elements)}", flush=True)
+                self.repo.update_progress(doc_id, 68, 'Phân tích cấu trúc văn bản')
             print(f"[{doc_id}] stage=nim_normalize_start mode=parallel_pages", flush=True)
-            semantic_structure, semantic_error = nim_normalize(clean_text, normalized_elements)
+            self.repo.update_progress(doc_id, 70, 'Phân tích ngữ nghĩa AI')
+
+            def on_nim_progress(done_win, total_win):
+                # Tiến trình tăng dần từ 70% đến 85%
+                ratio = done_win / max(1, total_win)
+                pct = int(70 + ratio * 15)
+                stage = f"Phân tích ngữ nghĩa AI: trang {done_win}/{total_win}"
+                print(f"[{doc_id}] progress={pct}% stage={stage}", flush=True)
+                self.repo.update_progress(doc_id, pct, stage)
+
+            semantic_structure, semantic_error = nim_normalize(
+                clean_text, normalized_elements, progress_callback=on_nim_progress
+            )
             print(f"[{doc_id}] stage=nim_normalize_done status={'processed' if semantic_structure and not semantic_error else 'fallback'}", flush=True)
+            self.repo.update_progress(doc_id, 85, 'Phân tích ngữ nghĩa xong')
             if semantic_structure and semantic_structure.get("elements"):
                 semantic_elements = semantic_structure["elements"]
                 element_by_id = {item["element_id"]: item for item in normalized_elements}
@@ -247,9 +349,16 @@ class ExtractService:
             else:
                 semantic_text = clean_text
                 semantic_structure = {"title": None, "sections": [], "elements": [], "warnings": [semantic_error] if semantic_error else []}
-            # Chunk only after the semantic stage; this is the text used by a later embedding stage.
-            chunks = self._normalizer.chunk_text(semantic_text, {"document_id": str(doc_id), "filename": original_filename})
+            # Chunk using structure-aware semantic chunker (preferred)
+            # Falls back to plain-text SentenceSplitter if no elements
+            doc_meta = {"document_id": str(doc_id), "filename": original_filename}
+            if normalized_elements:
+                chunks = self._normalizer.chunk_elements(normalized_elements, doc_meta)
+            else:
+                chunks = self._normalizer.chunk_text(semantic_text, doc_meta)
+
             print(f"[{doc_id}] stage=chunk_done chunks={len(chunks)} chars={len(semantic_text)}", flush=True)
+            self.repo.update_progress(doc_id, 88, 'Cắt nhỏ thành các đoạn tìm kiếm')
 
             # Phase 2: Vectorize & Lưu Chunks vào PostgreSQL pgvector
             print(f"[{doc_id}] stage=embedding_start chunks={len(chunks)}", flush=True)
@@ -259,19 +368,27 @@ class ExtractService:
                 chunks_with_vecs = []
                 for idx, c in enumerate(chunks):
                     vec = embeddings[idx] if idx < len(embeddings) else []
+                    chunk_meta = c.get("metadata") or {}
                     chunks_with_vecs.append({
                         "id": uuid.uuid4(),
-                        "chunk_index": idx,
+                        "chunk_index": chunk_meta.get("chunk_index", idx),
                         "content": c.get("text", ""),
                         "metadata": {
-                            **(c.get("metadata") or {}),
+                            **chunk_meta,
                             "document_id": str(doc_id),
                             "filename": original_filename,
+                            # Semantic chunker fields (may already be in chunk_meta)
+                            "chunk_type": chunk_meta.get("chunk_type", "content"),
+                            "section": chunk_meta.get("section", ""),
+                            "page_start": chunk_meta.get("page_start"),
+                            "page_end": chunk_meta.get("page_end"),
                         },
                         "embedding": vec,
                     })
                 saved_chunks = self._chunk_repo.save_chunks_batch(doc_id, chunks_with_vecs)
                 print(f"[{doc_id}] stage=embedding_done saved_chunks={saved_chunks}", flush=True)
+                self.repo.update_progress(doc_id, 95, 'Lưu vào cơ sở dữ liệu')
+
             except Exception as emb_exc:
                 print(f"[{doc_id}] stage=embedding_warning error={emb_exc}", flush=True)
 

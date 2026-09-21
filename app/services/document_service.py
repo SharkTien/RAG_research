@@ -25,6 +25,11 @@ class DocumentService:
                 except (ValueError, TypeError):
                     ocr_pct = None
             page_count = meta.get("page_count", 1)
+            progress = d[9] if len(d) > 9 and d[9] is not None else 0
+            progress_stage = d[10] if len(d) > 10 and d[10] is not None else ''
+            # Neu da xu ly xong thi progress = 100
+            if d[5] == 'processed':
+                progress = 100
             result.append({
                 "id": str(d[0]), "filename": d[1], "content_type": d[2],
                 "size_bytes": d[3], "uploaded_by": d[4], "status": d[5],
@@ -33,6 +38,8 @@ class DocumentService:
                 "ocr_percent": ocr_pct,
                 "confidence_score": conf,
                 "page_count": page_count,
+                "progress": progress,
+                "progress_stage": progress_stage,
             })
             
         return {

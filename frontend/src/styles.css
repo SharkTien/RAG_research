@@ -3,78 +3,101 @@
 @tailwind utilities;
 
 :root {
-  /* Exact Light Mode Palette from Reference UI */
-  --bg-canvas: #f0f2f8;
-  --bg-canvas-gradient: radial-gradient(1300px 900px at 15% 10%, #f9faff 0%, #edf1f8 40%, #e2e6f2 100%);
-  
-  --tablet-bg: rgba(255, 255, 255, 0.65);
-  --tablet-border: rgba(255, 255, 255, 0.85);
-  
-  --glass-surface: rgba(255, 255, 255, 0.82);
-  --glass-card: rgba(255, 255, 255, 0.75);
-  --glass-pill: rgba(255, 255, 255, 0.88);
-  --glass-input: rgba(255, 255, 255, 0.85);
+  /* Elegant Light Mode Palette (Matches User Screenshot) */
+  --bg-canvas: #f1f3fa;
+  --bg-canvas-gradient: radial-gradient(1200px 900px at 15% 15%, #ffffff 0%, #f4f5fc 45%, #e8ebf7 100%);
 
-  --border-glass: rgba(255, 255, 255, 0.9);
-  --border-card: rgba(255, 255, 255, 0.75);
+  --tablet-bg: rgba(255, 255, 255, 0.75);
+  --tablet-border: rgba(255, 255, 255, 0.9);
+
+  --glass-surface: rgba(255, 255, 255, 0.85);
+  --glass-card: rgba(255, 255, 255, 0.65);
+  --glass-pill: rgba(255, 255, 255, 0.9);
+  --glass-input: rgba(255, 255, 255, 0.95);
+
+  --border-glass: rgba(255, 255, 255, 0.95);
+  --border-card: rgba(0, 0, 0, 0.06);
   --border-subtle: rgba(0, 0, 0, 0.04);
-  --border-default: rgba(0, 0, 0, 0.06);
+  --border-default: rgba(0, 0, 0, 0.08);
 
-  --text-primary: #181820;
-  --text-secondary: #4a4d58;
-  --text-muted: #888d9d;
+  --text-primary: #181c2e;
+  --text-secondary: #4a546e;
+  --text-muted: #8590a8;
 
   --accent-blue: #2563eb;
   --accent-blue-active: #1d4ed8;
+  --accent-purple: #7c3aed;
 
-  --sage-gradient: radial-gradient(circle at 60% 70%, rgba(188, 230, 200, 0.65) 0%, rgba(222, 245, 230, 0.4) 50%, rgba(240, 248, 242, 0.15) 100%);
-  --hero-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 0%, rgba(248, 252, 248, 0.75) 45%, rgba(234, 245, 237, 0.6) 100%);
+  --active-card-bg: linear-gradient(135deg, #eff4ff 0%, #e0eaff 100%);
+  --active-card-border: #93c5fd;
+  --active-card-shadow: 0 4px 14px rgba(37, 99, 235, 0.12);
 
-  --card-shadow: 0 14px 34px -10px rgba(50, 60, 90, 0.07), 0 2px 8px -2px rgba(50, 60, 90, 0.02);
+  --card-shadow: 0 14px 34px -10px rgba(50, 60, 90, 0.08), 0 2px 8px -2px rgba(50, 60, 90, 0.03);
   --card-shadow-lg: 0 30px 80px -20px rgba(50, 60, 95, 0.12), 0 2px 10px rgba(0, 0, 0, 0.02);
 
-  --scrollbar-thumb: #cfd4e0;
-  --scrollbar-hover: #b4bac8;
+  --scrollbar-thumb: #cfd4e2;
+  --scrollbar-hover: #b4bac9;
 }
 
 .dark,
 [data-theme="dark"] {
-  /* Luxurious Dark Obsidian Frosted Glass */
-  --bg-canvas: #090c13;
-  --bg-canvas-gradient: radial-gradient(1300px 900px at 15% 10%, #151b2b 0%, #0d121c 45%, #07090f 100%);
+  --bg-canvas: #070913;
+  --bg-canvas-gradient: 
+    radial-gradient(circle at 14% 88%, rgba(115, 52, 200, 0.45) 0%, transparent 52%),
+    radial-gradient(circle at 88% 12%, rgba(45, 62, 138, 0.4) 0%, transparent 48%),
+    radial-gradient(circle at 50% 50%, rgba(20, 25, 58, 0.35) 0%, transparent 68%),
+    linear-gradient(165deg, #0b0e1e 0%, #060811 40%, #0e1022 75%, #181230 100%);
 
-  --tablet-bg: rgba(18, 24, 38, 0.7);
+  --tablet-bg: rgba(14, 18, 34, 0.8);
   --tablet-border: rgba(255, 255, 255, 0.12);
 
-  --glass-surface: rgba(22, 30, 48, 0.82);
-  --glass-card: rgba(28, 38, 60, 0.65);
-  --glass-pill: rgba(30, 42, 66, 0.8);
-  --glass-input: rgba(25, 35, 55, 0.8);
+  --glass-surface: rgba(18, 23, 44, 0.75);
+  --glass-card: rgba(255, 255, 255, 0.04);
+  --glass-pill: rgba(255, 255, 255, 0.06);
+  --glass-input: rgba(14, 18, 34, 0.85);
 
-  --border-glass: rgba(255, 255, 255, 0.14);
-  --border-card: rgba(255, 255, 255, 0.1);
-  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-glass: rgba(255, 255, 255, 0.12);
+  --border-card: rgba(255, 255, 255, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.05);
   --border-default: rgba(255, 255, 255, 0.08);
 
   --text-primary: #f8fafc;
-  --text-secondary: #9aa4b8;
-  --text-muted: #626c80;
+  --text-secondary: #cbd5e1;
+  --text-muted: #727c92;
 
-  --accent-blue: #3b82f6;
-  --accent-blue-active: #2563eb;
+  --accent-blue: #6366f1;
+  --accent-blue-active: #4f46e5;
+  --accent-purple: #a855f7;
 
-  --sage-gradient: radial-gradient(circle at 60% 70%, rgba(35, 80, 60, 0.45) 0%, rgba(20, 50, 40, 0.3) 50%, transparent 100%);
-  --hero-card-bg: linear-gradient(180deg, rgba(28, 38, 58, 0.85) 0%, rgba(24, 34, 50, 0.7) 45%, rgba(20, 40, 36, 0.5) 100%);
+  --active-card-bg: linear-gradient(135deg, rgba(99, 102, 241, 0.45) 0%, rgba(129, 140, 248, 0.35) 50%, rgba(147, 51, 234, 0.4) 100%);
+  --active-card-border: rgba(199, 210, 254, 0.35);
+  --active-card-shadow: 0 8px 25px -4px rgba(99, 102, 241, 0.35), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25);
 
-  --card-shadow: 0 16px 45px -12px rgba(0, 0, 0, 0.6);
-  --card-shadow-lg: 0 30px 90px -20px rgba(0, 0, 0, 0.8);
+  --card-shadow: 0 16px 45px -12px rgba(0, 0, 0, 0.75);
+  --card-shadow-lg: 0 30px 90px -20px rgba(0, 0, 0, 0.95);
 
-  --scrollbar-thumb: #232d3f;
-  --scrollbar-hover: #37445c;
+  --scrollbar-thumb: #222a3e;
+  --scrollbar-hover: #35405e;
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* ── Allow text selection everywhere by default ── */
+body, p, span, div, h1, h2, h3, h4, h5, h6, li, td, th, pre, code, blockquote {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Keep interactive controls non-selectable */
+button, [role="button"], label, nav, .floating-dock, .sidebar-nav {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 html, body, #root {
@@ -121,27 +144,134 @@ code, pre, kbd {
   background: var(--tablet-bg);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  border-radius: 40px;
+  border-radius: 36px;
   border: 1px solid var(--tablet-border);
   box-shadow: var(--card-shadow-lg);
+  position: relative;
+}
+.dark .bubble-tablet-frame {
+  box-shadow: var(--card-shadow-lg), 0 0 60px -15px rgba(98, 48, 172, 0.2);
 }
 
-/* Left Vertical Slim Floating Pill Dock */
+/* ─── PHẾT LOANG SÁNG THEO CON TRỎ CHUỘT (AMBIENT MOUSE GLOW) ─── */
+.ambient-mouse-glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(
+    650px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh),
+    rgba(99, 102, 241, 0.16) 0%,
+    rgba(168, 85, 247, 0.08) 28%,
+    rgba(59, 130, 246, 0.03) 50%,
+    transparent 72%
+  );
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.dark .ambient-mouse-glow {
+  background: radial-gradient(
+    850px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh),
+    rgba(139, 92, 246, 0.24) 0%,
+    rgba(99, 102, 241, 0.15) 28%,
+    rgba(59, 130, 246, 0.06) 52%,
+    transparent 75%
+  );
+  mix-blend-mode: screen;
+}
+
+/* Ánh phản chiếu loang sáng mềm trên khung làm việc */
+.bubble-tablet-frame::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(
+    550px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh),
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(168, 85, 247, 0.04) 35%,
+    transparent 70%
+  );
+  transition: opacity 0.3s ease;
+}
+
+.dark .bubble-tablet-frame::before {
+  background: radial-gradient(
+    650px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh),
+    rgba(165, 180, 252, 0.09) 0%,
+    rgba(192, 132, 252, 0.05) 35%,
+    transparent 70%
+  );
+}
+
+/* Left Vertical Slim Floating Pill Dock (Matches User Screenshot) */
 .floating-vertical-dock {
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
   border-radius: 9999px;
   border: 1px solid var(--border-glass);
+  box-shadow: 0 8px 24px -4px rgba(50, 60, 90, 0.08);
 }
 .dark .floating-vertical-dock {
-  background: rgba(20, 26, 40, 0.55);
+  background: rgba(16, 20, 36, 0.65);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
 }
 
-/* Hero Document Card (Exact Replica of Parrot Card) */
+/* Active Dock Chat Button (Vivid Blue Pill from Reference) */
+.active-dock-chat-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: #2563eb;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px -2px rgba(37, 99, 235, 0.45);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.active-dock-chat-btn:hover {
+  background: #1d4ed8;
+  transform: scale(1.06);
+}
+
+/* Active Glowing Gradient Card (Matching Phone UI) */
+.active-glow-card {
+  background: var(--active-card-bg) !important;
+  border: 1px solid var(--active-card-border) !important;
+  box-shadow: var(--active-card-shadow) !important;
+  color: var(--text-primary) !important;
+}
+.dark .active-glow-card {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.5) 0%, rgba(129, 140, 248, 0.4) 45%, rgba(147, 51, 234, 0.45) 100%) !important;
+  border: 1px solid rgba(199, 210, 254, 0.4) !important;
+  box-shadow: 0 8px 25px -4px rgba(99, 102, 241, 0.4), inset 0 1px 1px 0 rgba(255, 255, 255, 0.3) !important;
+  color: #ffffff !important;
+}
+
+/* ChatGPT Sidebar Aesthetics - Translucent Frosted Glass */
+.gpt-sidebar {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border-right: 1px solid var(--border-card);
+}
+.dark .gpt-sidebar,
+[data-theme="dark"] .gpt-sidebar {
+  background: rgba(14, 17, 32, 0.7);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Hero Document Card */
 .hero-doc-card {
   border-radius: 28px;
-  background: var(--hero-card-bg);
+  background: rgba(20, 25, 46, 0.6);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border: 1px solid var(--border-card);
@@ -150,7 +280,7 @@ code, pre, kbd {
 }
 .hero-doc-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 20px 42px -10px rgba(50, 70, 90, 0.12);
+  box-shadow: 0 20px 42px -10px rgba(0, 0, 0, 0.7);
 }
 
 .hero-preview-box {
@@ -165,12 +295,13 @@ code, pre, kbd {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border-glass);
-  box-shadow: 0 4px 14px -3px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 4px 14px -3px rgba(0, 0, 0, 0.3);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .frosted-sub-pill:hover {
   transform: translateY(-1.5px);
-  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.4);
 }
 
 /* Quick Tool Action Cards */
@@ -197,14 +328,14 @@ code, pre, kbd {
   width: 36px;
   height: 36px;
   border-radius: 9999px;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--border-glass);
+  border: 1px solid var(--border-card);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   color: var(--text-primary);
 }
@@ -214,50 +345,58 @@ code, pre, kbd {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 .dark .circle-btn {
-  background: rgba(30, 40, 62, 0.85);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 .dark .circle-btn:hover {
-  background: rgba(40, 52, 80, 0.95);
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
 }
 
 .circle-btn-dark {
   width: 34px;
   height: 34px;
   border-radius: 9999px;
-  background: #18181b;
+  background: #181c2e;
   color: #ffffff;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+.dark .circle-btn-dark {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
 }
 .circle-btn-dark:hover {
-  background: #27272a;
   transform: scale(1.06);
 }
 
 /* Chat Messages */
 .user-chat-bubble {
   border-radius: 22px;
-  background: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.95);
-  box-shadow: 0 8px 24px -6px rgba(40, 50, 80, 0.05);
-  color: var(--text-primary);
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 6px 20px -4px rgba(37, 99, 235, 0.3);
 }
 .dark .user-chat-bubble {
-  background: #1a2234;
-  border-color: rgba(255, 255, 255, 0.12);
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.35) 0%, rgba(124, 58, 237, 0.4) 100%);
+  border: 1px solid rgba(165, 180, 252, 0.3);
+  box-shadow: 0 8px 24px -6px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  color: #ffffff;
 }
 
 .assistant-chat-card {
-  border-radius: 28px;
+  border-radius: 26px;
   background: var(--glass-surface);
   backdrop-filter: blur(28px);
   -webkit-backdrop-filter: blur(28px);
   border: 1px solid var(--border-glass);
-  box-shadow: 0 16px 38px -12px rgba(40, 50, 80, 0.06);
+  box-shadow: var(--card-shadow);
   color: var(--text-primary);
 }
 
@@ -265,8 +404,93 @@ code, pre, kbd {
 .bubble-input-bar {
   border-radius: 9999px;
   background: var(--glass-input);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
   border: 1px solid var(--border-glass);
-  box-shadow: 0 10px 30px -8px rgba(30, 40, 70, 0.06);
+  box-shadow: 0 4px 18px -2px rgba(0, 0, 0, 0.12), 0 2px 6px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark .bubble-input-bar {
+  background: #212121;
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.4);
+}
+
+.bubble-input-bar:focus-within {
+  border-color: rgba(99, 102, 241, 0.6);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15), 0 8px 24px -4px rgba(0, 0, 0, 0.25);
+}
+
+.dark .bubble-input-bar:focus-within {
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 8px 28px -4px rgba(0, 0, 0, 0.6);
+}
+
+.chat-input-box {
+  background: var(--glass-input);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.15), 0 2px 6px -1px rgba(0, 0, 0, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chat-input-box:focus-within {
+  border-color: rgba(99, 102, 241, 0.5);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15), 0 8px 24px -4px rgba(0, 0, 0, 0.2);
+}
+
+/* ─── ASSISTANT RESPONSE MARKDOWN TYPOGRAPHY (CHUẨN CÔNG SỞ) ─── */
+.assistant-chat-card .prose {
+  font-size: 14px;
+  line-height: 1.72;
+  color: var(--text-primary);
+  max-width: none;
+}
+
+.assistant-chat-card .prose p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.assistant-chat-card .prose p:last-child {
+  margin-bottom: 0;
+}
+
+.assistant-chat-card .prose ol {
+  list-style-type: decimal;
+  margin-top: 0.85rem;
+  margin-bottom: 1.15rem;
+  padding-left: 1.4rem;
+}
+
+.assistant-chat-card .prose ol > li {
+  margin-bottom: 0.85rem;
+  padding-left: 0.35rem;
+  line-height: 1.7;
+}
+
+.assistant-chat-card .prose ol > li:last-child {
+  margin-bottom: 0.25rem;
+}
+
+.assistant-chat-card .prose ul {
+  list-style-type: disc;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  padding-left: 1.4rem;
+}
+
+.assistant-chat-card .prose ul > li {
+  margin-bottom: 0.6rem;
+  padding-left: 0.35rem;
+  line-height: 1.7;
+}
+
+.assistant-chat-card .prose strong,
+.assistant-chat-card .prose b {
+  font-weight: 700;
+  color: var(--text-primary);
 }

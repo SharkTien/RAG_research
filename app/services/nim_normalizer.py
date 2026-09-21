@@ -304,6 +304,7 @@ def normalize_parallel(
     clean_text: str,
     source_elements: list[dict],
     concurrency: int = NIM_CONCURRENCY,
+    progress_callback = None,
 ) -> tuple[dict | None, str | None]:
     """Normalize all document elements in parallel across pages using NVIDIA NIM.
     
@@ -348,6 +349,7 @@ def normalize_parallel(
     start_time = time.time()
     results_indexed: dict[int, dict] = {}
     errors_recorded: list[str] = []
+    completed_windows = 0
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=actual_concurrency) as executor:
         future_to_index = {}
@@ -364,6 +366,12 @@ def normalize_parallel(
             
         for future in concurrent.futures.as_completed(future_to_index):
             idx, page_tag = future_to_index[future]
+            completed_windows += 1
+            if progress_callback:
+                try:
+                    progress_callback(completed_windows, total_pages)
+                except Exception as cb_err:
+                    print(f"[NIM Normalizer] Callback error: {cb_err}", flush=True)
             try:
                 res_dict, err = future.result()
                 results_indexed[idx] = res_dict
@@ -371,7 +379,7 @@ def normalize_parallel(
                     errors_recorded.append(f"[{page_tag}] {err}")
                     print(f"[NIM Normalizer] Window {page_tag} completed with fallback: {err}", flush=True)
                 else:
-                    print(f"[NIM Normalizer] Window {page_tag} finished successfully", flush=True)
+                    print(f"[NIM Normalizer] Window {page_tag} finished successfully ({completed_windows}/{total_pages})", flush=True)
             except Exception as exc:
                 print(f"[NIM Normalizer] Window {page_tag} exception: {exc}", flush=True)
                 errors_recorded.append(f"[{page_tag}] Exception: {exc}")

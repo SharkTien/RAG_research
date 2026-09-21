@@ -19,7 +19,7 @@ class DocumentRepository:
                 params = (limit, offset)
 
             docs = conn.execute(
-                f"SELECT id, original_filename, content_type, size_bytes, uploaded_by, status, created_at, error_message, (extracted_data->'metadata') as meta FROM documents {where_clause} ORDER BY created_at DESC LIMIT %s OFFSET %s",
+                f"SELECT id, original_filename, content_type, size_bytes, uploaded_by, status, created_at, error_message, (extracted_data->'metadata') as meta, progress, progress_stage FROM documents {where_clause} ORDER BY created_at DESC LIMIT %s OFFSET %s",
                 params
             ).fetchall()
             
@@ -44,12 +44,12 @@ class DocumentRepository:
             ).fetchone()
             if not row:
                 return None
-            conn.execute("UPDATE documents SET status = 'processing' WHERE id = %s", (row[0],))
+            conn.execute("UPDATE documents SET status = 'processing', progress = 0, progress_stage = 'Bat dau xu ly' WHERE id = %s", (row[0],))
             return row[0]
 
     def get_document(self, doc_id, user=None):
         with self.db.connect() as conn:
-            if user:
+            if user and user != 'admin':
                 return conn.execute("SELECT * FROM documents WHERE id = %s AND uploaded_by = %s", (doc_id, user)).fetchone()
             return conn.execute("SELECT * FROM documents WHERE id = %s", (doc_id,)).fetchone()
 
@@ -60,16 +60,23 @@ class DocumentRepository:
 
     def get_document_status_and_data(self, doc_id, user=None):
         with self.db.connect() as conn:
-            if user:
+            if user and user != 'admin':
                 return conn.execute("SELECT status, original_filename, extracted_data FROM documents WHERE id = %s AND uploaded_by = %s", (doc_id, user)).fetchone()
             return conn.execute("SELECT status, original_filename, extracted_data FROM documents WHERE id = %s", (doc_id,)).fetchone()
 
-    def delete_document(self, doc_id, user):
+    def delete_document(self, doc_id, user=None):
         with self.db.connect() as conn:
-            result = conn.execute(
-                "DELETE FROM documents WHERE id = %s AND uploaded_by = %s",
-                (doc_id, user),
-            )
+            if user and user != 'admin':
+                result = conn.execute(
+                    "DELETE FROM documents WHERE id = %s AND uploaded_by = %s",
+                    (doc_id, user),
+                )
+            else:
+                result = conn.execute(
+                    "DELETE FROM documents WHERE id = %s",
+                    (doc_id,),
+                )
+            conn.commit()
             return result.rowcount > 0
 
     def delete_all_documents(self, filter_type: str, user: str):
@@ -92,8 +99,16 @@ class DocumentRepository:
     def update_document_status(self, doc_id, status, error_message=None, extracted_data=None):
         with self.db.connect() as conn:
             if extracted_data is not None:
-                conn.execute("UPDATE documents SET status = %s, extracted_data = %s WHERE id = %s", (status, Jsonb(extracted_data), doc_id))
+                conn.execute("UPDATE documents SET status = %s, extracted_data = %s, progress = 100, progress_stage = 'Hoan thanh' WHERE id = %s", (status, Jsonb(extracted_data), doc_id))
             elif error_message is not None:
                 conn.execute("UPDATE documents SET status = %s, error_message = %s WHERE id = %s", (status, error_message, doc_id))
             else:
                 conn.execute("UPDATE documents SET status = %s WHERE id = %s", (status, doc_id))
+
+    def update_progress(self, doc_id, progress: int, stage: str = ''):
+        """Ghi nhan tien do xu ly thuc te (0-100) va ten giai doan hien tai."""
+        with self.db.connect() as conn:
+            conn.execute(
+                "UPDATE documents SET progress = %s, progress_stage = %s WHERE id = %s",
+                (progress, stage, doc_id)
+            )

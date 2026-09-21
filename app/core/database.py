@@ -95,6 +95,9 @@ class DatabaseManager:
                         created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
                         updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
                     );
+                    ALTER TABLE conversations ADD COLUMN IF NOT EXISTS username TEXT DEFAULT 'admin';
+                    ALTER TABLE conversations ADD COLUMN IF NOT EXISTS created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP;
+                    ALTER TABLE conversations ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP;
                     CREATE TABLE IF NOT EXISTS messages (
                         id UUID PRIMARY KEY,
                         conversation_id UUID REFERENCES conversations(id) ON DELETE CASCADE,
@@ -104,6 +107,7 @@ class DatabaseManager:
                         retrieved_chunks JSONB,
                         created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
                     );
+                    ALTER TABLE messages ADD COLUMN IF NOT EXISTS retrieved_chunks JSONB;
                     CREATE INDEX IF NOT EXISTS idx_messages_conversation_id ON messages(conversation_id);
                     CREATE INDEX IF NOT EXISTS idx_conversations_updated_at ON conversations(updated_at DESC);
                 ''')

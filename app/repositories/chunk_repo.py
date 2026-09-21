@@ -150,7 +150,8 @@ class ChunkRepository:
                         results = []
                         for row in rows:
                             score = float(row[6]) if row[6] is not None else 0.0
-                            if score >= min_similarity or row[7] > 0.01:
+                            # Chỉ giữ chunk nếu đạt min_similarity hoặc text match có vector similarity hợp lệ
+                            if score >= min_similarity or (row[7] > 0.01 and score >= 0.35):
                                 results.append({
                                     "chunk_id": str(row[0]),
                                     "document_id": str(row[1]),
