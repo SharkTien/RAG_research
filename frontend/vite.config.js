@@ -19,14 +19,5 @@ export default defineConfig({
         changeOrigin: true
       }
     }
-  },
-  build: {
-    watch: {
-      include: 'src/**',
-      chokidar: {
-        usePolling: true,
-        interval: 1000
-      }
-    }
   }
 })

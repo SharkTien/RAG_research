@@ -80,7 +80,7 @@ RAGFLOW_API_KEY = os.getenv("RAGFLOW_API_KEY", "").strip()
 EMBEDDING_BASE_URL = os.getenv("EMBEDDING_BASE_URL", "https://integrate.api.nvidia.com/v1").rstrip("/")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "nvidia/nemotron-3-embed-1b")
 EMBEDDING_DIM = int(os.getenv("EMBEDDING_DIM", "2048"))
-TOP_K = int(os.getenv("TOP_K", "5"))
+TOP_K = int(os.getenv("TOP_K", "10"))
 SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", "0.2"))
 LLM_RAG_MODEL = os.getenv("LLM_RAG_MODEL", NIM_MODEL)
 

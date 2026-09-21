@@ -76,18 +76,96 @@ class ChunkRepository:
     def vector_search(
         self,
         query_embedding: List[float],
-        top_k: int = 5,
+        top_k: int = 10,
         document_id: Optional[uuid.UUID] = None,
         min_similarity: float = 0.0,
+        query_text: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
-        Tìm kiếm Top-K chunks tương đồng nhất bằng Cosine Similarity (<=> operator).
+        Tìm kiếm Top-K chunks tương đồng nhất.
+        Hỗ trợ Hybrid Search (Vector Cosine Distance + Full-Text Keyword Ranking RRF).
         """
         if not query_embedding:
             return []
 
         vec_str = "[" + ",".join(str(x) for x in query_embedding) + "]"
 
+        # ─── 1. THỬ HYBRID SEARCH (NẾU CÓ QUERY_TEXT) ───────────────────────────
+        if query_text and query_text.strip():
+            try:
+                hybrid_where_clauses = ["c.embedding IS NOT NULL"]
+                hybrid_where_params: List[Any] = []
+                if document_id:
+                    hybrid_where_clauses.append("c.document_id = %s")
+                    hybrid_where_params.append(document_id)
+
+                hybrid_where_sql = " AND ".join(hybrid_where_clauses)
+                text_clean = query_text.strip()
+
+                hybrid_sql = f"""
+                    WITH vector_ranked AS (
+                        SELECT c.id,
+                               1 - (c.embedding <=> %s::vector) AS sim_score,
+                               ROW_NUMBER() OVER (ORDER BY c.embedding <=> %s::vector ASC) AS rnk
+                        FROM document_chunks c
+                        WHERE {hybrid_where_sql}
+                        LIMIT 50
+                    ),
+                    text_ranked AS (
+                        SELECT c.id,
+                               ts_rank_cd(to_tsvector('simple', c.content), plainto_tsquery('simple', %s)) AS text_score,
+                               ROW_NUMBER() OVER (ORDER BY ts_rank_cd(to_tsvector('simple', c.content), plainto_tsquery('simple', %s)) DESC) AS rnk
+                        FROM document_chunks c
+                        WHERE to_tsvector('simple', c.content) @@ plainto_tsquery('simple', %s)
+                              {"AND c.document_id = %s" if document_id else ""}
+                        LIMIT 50
+                    )
+                    SELECT 
+                        c.id AS chunk_id,
+                        c.document_id,
+                        c.chunk_index,
+                        c.content,
+                        c.metadata,
+                        d.original_filename,
+                        COALESCE(vr.sim_score, 0.5) AS similarity_score,
+                        (COALESCE(1.0 / (60.0 + vr.rnk), 0.0) + COALESCE(1.0 / (60.0 + tr.rnk), 0.0)) AS rrf_score
+                    FROM document_chunks c
+                    JOIN documents d ON c.document_id = d.id
+                    LEFT JOIN vector_ranked vr ON c.id = vr.id
+                    LEFT JOIN text_ranked tr ON c.id = tr.id
+                    WHERE (vr.id IS NOT NULL OR tr.id IS NOT NULL)
+                    ORDER BY rrf_score DESC, similarity_score DESC
+                    LIMIT %s
+                """
+                hybrid_params = [
+                    vec_str, vec_str, *hybrid_where_params,
+                    text_clean, text_clean, text_clean,
+                    *([document_id] if document_id else []),
+                    top_k
+                ]
+
+                with self.db.connect() as conn:
+                    rows = conn.execute(hybrid_sql, hybrid_params).fetchall()
+                    if rows:
+                        results = []
+                        for row in rows:
+                            score = float(row[6]) if row[6] is not None else 0.0
+                            if score >= min_similarity or row[7] > 0.01:
+                                results.append({
+                                    "chunk_id": str(row[0]),
+                                    "document_id": str(row[1]),
+                                    "chunk_index": row[2],
+                                    "content": row[3],
+                                    "metadata": row[4] or {},
+                                    "file_name": row[5],
+                                    "similarity_score": round(score, 4),
+                                })
+                        if results:
+                            return results
+            except Exception as h_exc:
+                logger.warning("Hybrid search fallback to vector-only: %s", h_exc)
+
+        # ─── 2. DENSE VECTOR SEARCH THUẦN TÚY (FALLBACK) ───────────────────────
         where_clauses = ["c.embedding IS NOT NULL"]
         where_params: List[Any] = []
 

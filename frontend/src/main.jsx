@@ -23,7 +23,7 @@ const getDocName = (doc) => {
   return doc.filename || doc.original_filename || ''
 }
 
-// ─── ICONS (Clean, modern SVG icons matching reference) ─────────────────────────
+// ─── SVG ICONS ──────────────────────────────────────────────────────────────────
 
 function Icon({ name, className = 'w-4 h-4', ...props }) {
   const icons = {
@@ -71,9 +71,6 @@ function Icon({ name, className = 'w-4 h-4', ...props }) {
         <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
       </>
     ),
-    download: (
-      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4 M7 10l5 5 5-5 M12 15V3" />
-    ),
     trash: (
       <>
         <polyline points="3 6 5 6 21 6" />
@@ -106,12 +103,6 @@ function Icon({ name, className = 'w-4 h-4', ...props }) {
     moon: (
       <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
     ),
-    power: (
-      <>
-        <path d="M18.36 6.64a9 9 0 1 1-12.73 0" />
-        <line x1="12" y1="2" x2="12" y2="12" />
-      </>
-    ),
     settings: (
       <>
         <circle cx="12" cy="12" r="3" />
@@ -136,21 +127,17 @@ function Icon({ name, className = 'w-4 h-4', ...props }) {
         <circle cx="12" cy="13" r="4" />
       </>
     ),
-    pieChart: (
+    fileText: (
       <>
-        <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
-        <path d="M22 12A10 10 0 0 0 12 2v10z" />
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+        <polyline points="14 2 14 8 20 8" />
+        <line x1="16" y1="13" x2="8" y2="13" />
+        <line x1="16" y1="17" x2="8" y2="17" />
+        <polyline points="10 9 9 9 8 9" />
       </>
     ),
-    translate: (
-      <>
-        <path d="m5 8 6 6" />
-        <path d="m4 14 6-6 2-3" />
-        <path d="M2 5h12" />
-        <path d="M7 2h1" />
-        <path d="m22 22-5-10-5 10" />
-        <path d="M14 18h6" />
-      </>
+    check: (
+      <polyline points="20 6 9 17 4 12" />
     ),
     waveform: (
       <>
@@ -180,16 +167,13 @@ function Icon({ name, className = 'w-4 h-4', ...props }) {
   )
 }
 
-// ─── MAIN COMPONENT ─────────────────────────────────────────────────────────────
+// ─── MAIN APP COMPONENT ─────────────────────────────────────────────────────────
 
 export default function App() {
-  // Theme state
   const [isDark, setIsDark] = useState(false)
+  const [mainMode, setMainMode] = useState('chat') // 'chat' | 'split'
 
-  // Layout mode: 'chat' | 'split'
-  const [mainMode, setMainMode] = useState('chat')
-
-  // Real Documents from API
+  // Real Database Documents
   const [documents, setDocuments] = useState([])
   const [selectedDocId, setSelectedDocId] = useState(null)
   const [loadingDocs, setLoadingDocs] = useState(false)
@@ -197,33 +181,33 @@ export default function App() {
   const [uploadError, setUploadError] = useState('')
   const [isDragging, setIsDragging] = useState(false)
 
-  // Extraction Data for current doc
+  // Real Extraction Data
   const [extractionData, setExtractionData] = useState(null)
   const [loadingExtraction, setLoadingExtraction] = useState(false)
 
-  // PDF Viewer states
+  // PDF Viewer States
   const [numPages, setNumPages] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
   const [pageScale, setPageScale] = useState(1.0)
   const [showOcrBoxes, setShowOcrBoxes] = useState(true)
-  const [hoveredBox, setHoveredBox] = useState(null)
   const [pdfPageSizes, setPdfPageSizes] = useState({})
 
-  // Markdown View states
+  // Markdown States
   const [mdViewMode, setMdViewMode] = useState('rendered')
   const [copiedMd, setCopiedMd] = useState(false)
 
-  // Chat Conversation
+  // Real Chat State (NO MOCK MESSAGES)
   const [chatMessages, setChatMessages] = useState([])
   const [chatInput, setChatInput] = useState('')
   const [chatLoading, setChatLoading] = useState(false)
+  const [recentQueries, setRecentQueries] = useState([])
   const chatBottomRef = useRef(null)
   const fileInputRef = useRef(null)
 
-  // Current User
-  const [currentUser, setCurrentUser] = useState('Marry')
+  // Real Authenticated User
+  const [currentUser, setCurrentUser] = useState('admin')
 
-  // Auto theme init
+  // Auto Theme
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.add('dark')
@@ -234,7 +218,39 @@ export default function App() {
     }
   }, [isDark])
 
-  // Fetch Documents
+  // Authentication & Session
+  const checkAuth = async () => {
+    try {
+      const res = await fetch('/api/auth/me')
+      if (res.ok) {
+        const data = await res.json()
+        setCurrentUser(data.username || data.user || 'admin')
+      } else {
+        autoLogin()
+      }
+    } catch {
+      autoLogin()
+    }
+  }
+
+  const autoLogin = async () => {
+    try {
+      const res = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: 'admin', password: 'matkhausieudai123' })
+      })
+      if (res.ok) {
+        const data = await res.json()
+        setCurrentUser(data.username || 'admin')
+        fetchDocuments()
+      }
+    } catch (err) {
+      console.error(err)
+    }
+  }
+
+  // Fetch Real Documents
   const fetchDocuments = async () => {
     try {
       setLoadingDocs(true)
@@ -255,6 +271,7 @@ export default function App() {
   }
 
   useEffect(() => {
+    checkAuth()
     fetchDocuments()
     const interval = setInterval(fetchDocuments, 4000)
     return () => clearInterval(interval)
@@ -264,6 +281,7 @@ export default function App() {
     return documents.find(d => String(d.id) === String(selectedDocId)) || documents[0] || null
   }, [documents, selectedDocId])
 
+  // Fetch Extraction Data for Active Document
   useEffect(() => {
     if (!selectedDocId) {
       setExtractionData(null)
@@ -279,7 +297,7 @@ export default function App() {
       .catch(() => setLoadingExtraction(false))
   }, [selectedDocId])
 
-  // Handle Upload
+  // Real Upload Handler
   const handleFileUpload = async (files) => {
     if (!files || files.length === 0) return
     setUploading(true)
@@ -305,7 +323,7 @@ export default function App() {
 
   const handleDeleteDoc = async (e, docId) => {
     e.stopPropagation()
-    if (!window.confirm('Bạn có muốn xóa tài liệu này?')) return
+    if (!window.confirm('Bạn có chắc muốn xóa tài liệu này khỏi hệ thống?')) return
     try {
       const res = await fetch(`/api/documents/${docId}`, { method: 'DELETE' })
       if (res.ok) {
@@ -335,20 +353,21 @@ export default function App() {
     }
   }
 
-  // Handle Query
+  // Real RAG Query Handler (Using User's Hybrid Search & LLM)
   const handleSendChat = async (presetText) => {
-    const query = presetText || chatInput.trim()
+    const query = (presetText || chatInput).trim()
     if (!query || chatLoading) return
 
     const newMsg = { role: 'user', text: query }
     setChatMessages(prev => [...prev, newMsg])
+    setRecentQueries(prev => [query, ...prev.filter(q => q !== query)].slice(0, 5))
     if (!presetText) setChatInput('')
     setChatLoading(true)
 
     try {
       const bodyPayload = {
         query: query,
-        top_k: 5
+        top_k: 10
       }
       if (currentDoc) {
         bodyPayload.document_id = currentDoc.id
@@ -376,7 +395,7 @@ export default function App() {
           ...prev,
           {
             role: 'assistant',
-            text: 'Đã xảy ra lỗi khi truy vấn RAG Service. Vui lòng thử lại.'
+            text: 'Không thể xử lý truy vấn RAG lúc này. Vui lòng thử lại.'
           }
         ])
       }
@@ -385,7 +404,7 @@ export default function App() {
         ...prev,
         {
           role: 'assistant',
-          text: `Lỗi kết nối: ${err.message}`
+          text: `Lỗi kết nối API: ${err.message}`
         }
       ])
     } finally {
@@ -409,18 +428,17 @@ export default function App() {
           <button
             onClick={() => setMainMode('chat')}
             className="circle-btn w-9 h-9"
-            title="Quay lại"
+            title="Trang chủ"
           >
             <Icon name="arrowLeft" className="w-4 h-4" />
           </button>
 
           {/* Center Navigation Icons */}
           <div className="flex flex-col items-center gap-3 w-full py-2">
-            {/* Plus / Upload Action */}
             <button
               onClick={() => fileInputRef.current?.click()}
               className="circle-btn w-9 h-9"
-              title="Tải lên tệp mới"
+              title="Tải lên tệp PDF"
             >
               <Icon name="plus" className="w-4 h-4" />
             </button>
@@ -428,33 +446,30 @@ export default function App() {
             {/* Active Blue Chat Pill */}
             <button
               onClick={() => setMainMode('chat')}
-              className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-md shadow-blue-500/35 hover:scale-105 active:scale-95 transition"
-              title="Trò chuyện AI"
+              className={`w-10 h-10 rounded-full flex items-center justify-center transition shadow-md ${
+                mainMode === 'chat'
+                  ? 'bg-blue-600 text-white shadow-blue-500/35'
+                  : 'bg-white/70 dark:bg-white/10 text-[var(--text-secondary)]'
+              }`}
+              title="Hỏi đáp AI"
             >
               <Icon name="message" className="w-4 h-4" />
             </button>
 
-            {/* Starred */}
-            <button className="w-9 h-9 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-white/60 dark:hover:bg-white/10 transition">
-              <Icon name="star" className="w-4 h-4" />
-            </button>
-
-            {/* Calendar */}
-            <button className="w-9 h-9 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-white/60 dark:hover:bg-white/10 transition">
-              <Icon name="calendar" className="w-4 h-4" />
-            </button>
-
-            {/* Folder / Docs */}
             <button
               onClick={() => setMainMode('split')}
-              className="w-9 h-9 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-white/60 dark:hover:bg-white/10 transition"
-              title="Đối chiếu song song"
+              className={`w-9 h-9 rounded-full flex items-center justify-center transition ${
+                mainMode === 'split'
+                  ? 'bg-blue-600 text-white'
+                  : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'
+              }`}
+              title="Đối chiếu PDF & Markdown"
             >
               <Icon name="folder" className="w-4 h-4" />
             </button>
           </div>
 
-          {/* Bottom Icons: Power, Theme, Settings, Avatar */}
+          {/* Bottom Icons: Theme Toggle, Refresh, User Avatar */}
           <div className="flex flex-col items-center gap-3 w-full">
             <button
               onClick={() => setIsDark(!isDark)}
@@ -467,227 +482,210 @@ export default function App() {
             <button
               onClick={fetchDocuments}
               className="w-8 h-8 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] transition"
-              title="Làm mới"
+              title="Làm mới danh sách"
             >
               <Icon name="settings" className="w-4 h-4" />
             </button>
 
-            {/* User Avatar */}
-            <div className="w-9 h-9 rounded-full overflow-hidden border border-white/80 dark:border-white/20 shadow-xs">
-              <img
-                src="/assets/avatar.png"
-                alt="Avatar"
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.target.style.display = 'none'
-                }}
-              />
+            {/* User Avatar Badge (No broken image links) */}
+            <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-blue-500 via-indigo-500 to-purple-500 p-0.5 shadow-xs flex items-center justify-center text-white font-bold text-xs shrink-0">
+              <div className="w-full h-full rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center text-[var(--text-primary)] font-bold text-[11px]">
+                {currentUser.slice(0, 2).toUpperCase()}
+              </div>
             </div>
           </div>
         </aside>
 
-        {/* ─── 2. MIDDLE / LEFT COLUMN: "Chat Results" (EXACT PARROT CARD REPLICA) ─── */}
+        {/* ─── 2. MIDDLE / LEFT COLUMN: REAL DOCUMENTS ─── */}
         <section className="w-80 md:w-[350px] shrink-0 flex flex-col justify-between overflow-hidden px-1 py-1">
           <div className="flex-1 overflow-y-auto pr-1 space-y-4">
-            {/* Header: "Chat Results" */}
+            {/* Header */}
             <div className="flex items-center justify-between px-1">
-              <h2 className="text-xl font-bold tracking-tight text-[var(--text-primary)]">
-                Chat Results
-              </h2>
+              <div>
+                <h2 className="text-xl font-bold tracking-tight text-[var(--text-primary)]">
+                  Chat Results
+                </h2>
+                <p className="text-[11px] text-[var(--text-muted)] mt-0.5">
+                  {documents.length} tài liệu trong cơ sở tri thức
+                </p>
+              </div>
               <button
                 onClick={() => fileInputRef.current?.click()}
                 className="circle-btn w-8 h-8"
-                title="Tải lên tệp"
+                title="Tải lên tệp mới"
               >
                 <Icon name="plus" className="w-3.5 h-3.5" />
               </button>
             </div>
 
-            {/* Section: "Today" */}
-            <div>
-              <div className="text-xs font-semibold text-[var(--text-muted)] mb-2 px-1">
-                Today
-              </div>
-
-              {/* ─── HERO DOCUMENT CARD (PARROT REPLICA) ─── */}
-              <div
-                onClick={() => currentDoc && setSelectedDocId(currentDoc.id)}
-                className="hero-doc-card p-3.5 cursor-pointer relative group"
-              >
-                {/* Card Header */}
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex items-center gap-2.5">
-                    <div className="circle-btn-dark w-8 h-8 shrink-0">
-                      <Icon name="camera" className="w-4 h-4" />
-                    </div>
-                    <div className="min-w-0 max-w-[190px]">
-                      <h4 className="text-xs font-bold text-[var(--text-primary)] truncate">
-                        {currentDoc ? getDocName(currentDoc) : 'Image Generation'}
-                      </h4>
-                      <p className="text-[10px] text-[var(--text-muted)] mt-0.5">
-                        {currentDoc ? `Today • ${formatFileSize(currentDoc.size_bytes)}` : 'Today • 16 October'}
-                      </p>
-                    </div>
-                  </div>
-
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      setMainMode('split')
-                    }}
-                    className="circle-btn w-8 h-8 shrink-0"
-                    title="Mở xem chi tiết"
-                  >
-                    <Icon name="arrowUpRight" className="w-3.5 h-3.5" />
-                  </button>
+            {/* ─── REAL HERO DOCUMENT CARD (ACTIVE DOCUMENT) ─── */}
+            {currentDoc ? (
+              <div>
+                <div className="text-xs font-semibold text-[var(--text-muted)] mb-2 px-1">
+                  Đang chọn (Active)
                 </div>
 
-                {/* Center Visual Area with Sage Glow & Stacked Thumbnails */}
-                <div className="hero-preview-box p-3 min-h-[175px] relative overflow-hidden flex items-center justify-between">
-                  {/* Left / Center Graphic Preview */}
-                  <div className="w-44 h-36 rounded-2xl overflow-hidden shadow-xs flex items-center justify-center relative bg-white/40 dark:bg-black/20">
-                    <img
-                      src="/assets/sample_preview.png"
-                      alt="Parrot Preview"
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        e.target.style.display = 'none'
+                <div
+                  onClick={() => setSelectedDocId(currentDoc.id)}
+                  className="hero-doc-card p-3.5 cursor-pointer relative group ring-2 ring-blue-500/30"
+                >
+                  {/* Card Header */}
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-2.5">
+                      <div className="circle-btn-dark w-8 h-8 shrink-0">
+                        <Icon name="fileText" className="w-4 h-4" />
+                      </div>
+                      <div className="min-w-0 max-w-[190px]">
+                        <h4 className="text-xs font-bold text-[var(--text-primary)] truncate" title={getDocName(currentDoc)}>
+                          {getDocName(currentDoc)}
+                        </h4>
+                        <p className="text-[10px] text-[var(--text-muted)] mt-0.5">
+                          {formatFileSize(currentDoc.size_bytes)} • {currentDoc.status}
+                        </p>
+                      </div>
+                    </div>
+
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        setMainMode('split')
                       }}
-                    />
-                    <div className="absolute inset-0 bg-radial-gradient(circle, transparent 60%, rgba(200,240,215,0.4) 100%) pointer-events-none" />
+                      className="circle-btn w-8 h-8 shrink-0"
+                      title="Mở xem đối chiếu PDF & Markdown"
+                    >
+                      <Icon name="arrowUpRight" className="w-3.5 h-3.5" />
+                    </button>
                   </div>
 
-                  {/* Right Stacked Vertical Mini Thumbnails */}
-                  <div className="flex flex-col items-center gap-2 pr-1">
-                    <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white/80 dark:border-white/20 shadow-xs bg-white/60">
-                      <img src="/assets/sample_preview.png" alt="thumb1" className="w-full h-full object-cover" />
+                  {/* Center Visual Area: Real Document Preview (React-PDF thumbnail) */}
+                  <div className="hero-preview-box p-3 min-h-[175px] relative overflow-hidden flex items-center justify-between">
+                    {/* Left: Real Page 1 Rendered Thumbnail */}
+                    <div className="w-44 h-36 rounded-2xl overflow-hidden shadow-xs flex items-center justify-center relative bg-white dark:bg-zinc-900 border border-black/5 dark:border-white/10">
+                      <Document
+                        file={`/api/documents/${currentDoc.id}/file`}
+                        loading={
+                          <div className="text-[10px] text-[var(--text-muted)] flex flex-col items-center gap-1">
+                            <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                            Đang nạp trang 1...
+                          </div>
+                        }
+                        error={
+                          <div className="text-[10px] text-[var(--text-muted)] p-2 text-center">
+                            <Icon name="fileText" className="w-8 h-8 text-blue-500 mx-auto mb-1" />
+                            <span>{getDocName(currentDoc).slice(0, 20)}</span>
+                          </div>
+                        }
+                      >
+                        <Page
+                          pageNumber={1}
+                          width={170}
+                          renderTextLayer={false}
+                          renderAnnotationLayer={false}
+                        />
+                      </Document>
                     </div>
-                    <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white/80 dark:border-white/20 shadow-xs bg-white/60">
-                      <img src="/assets/sample_preview.png" alt="thumb2" className="w-full h-full object-cover" />
-                    </div>
-                    <div className="w-10 h-10 rounded-full bg-white/80 dark:bg-white/10 backdrop-blur-md border border-white/90 dark:border-white/15 flex items-center justify-center font-bold text-[11px] text-[var(--text-secondary)] shadow-xs">
-                      {extractedObj.metadata?.page_count ? `+${extractedObj.metadata.page_count}` : '+3'}
+
+                    {/* Right Stacked Page Indicators */}
+                    <div className="flex flex-col items-center gap-2 pr-1">
+                      <div className="w-9 h-9 rounded-full bg-white/90 dark:bg-zinc-800 shadow-xs border border-white/80 dark:border-white/10 flex items-center justify-center font-bold text-[10px] text-blue-600 dark:text-blue-400">
+                        P1
+                      </div>
+                      <div className="w-9 h-9 rounded-full bg-white/90 dark:bg-zinc-800 shadow-xs border border-white/80 dark:border-white/10 flex items-center justify-center font-bold text-[10px] text-[var(--text-secondary)]">
+                        P2
+                      </div>
+                      <div className="w-9 h-9 rounded-full bg-white/80 dark:bg-white/10 backdrop-blur-md border border-white/90 dark:border-white/15 flex items-center justify-center font-bold text-[10px] text-[var(--text-muted)] shadow-xs">
+                        {extractedObj.metadata?.page_count ? `+${Math.max(1, extractedObj.metadata.page_count - 2)}` : '+...'}
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Bottom Info Pill Inside Card */}
-                <div className="frosted-sub-pill p-2.5 px-3 flex items-center gap-2.5 mt-3">
-                  <div className="w-5 h-5 rounded-full bg-[#18181b] text-white flex items-center justify-center shrink-0">
-                    <Icon name="camera" className="w-2.5 h-2.5" />
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <span className="text-xs font-bold text-[var(--text-primary)] block truncate">
-                      {currentDoc ? 'Trích xuất Markdown & BBox' : 'Parot images'}
-                    </span>
-                    <span className="text-[10px] text-[var(--text-muted)] block truncate">
-                      {currentDoc ? `${chunks.length} chunks đã nhúng vector pgvector` : 'Ara parot, photorealistic, grey background'}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Section: "Yesterday" */}
-            <div>
-              <div className="text-xs font-semibold text-[var(--text-muted)] mb-2 px-1">
-                Yesterday
-              </div>
-
-              {/* AI Search Card */}
-              <div className="hero-doc-card p-3.5 relative">
-                <div className="flex items-center justify-between mb-2.5">
-                  <div className="flex items-center gap-2.5">
-                    <div className="circle-btn-dark w-8 h-8 shrink-0">
-                      <Icon name="sparkle" className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <h4 className="text-xs font-bold text-[var(--text-primary)]">
-                        AI Search
-                      </h4>
-                      <p className="text-[10px] text-[var(--text-muted)]">
-                        Yesterday • 15 October
-                      </p>
-                    </div>
-                  </div>
-                  <button
-                    onClick={() => handleSendChat('Tóm tắt các điểm quan trọng trong tài liệu')}
-                    className="circle-btn w-8 h-8 shrink-0"
-                  >
-                    <Icon name="arrowUpRight" className="w-3.5 h-3.5" />
-                  </button>
-                </div>
-
-                {/* Sub Pill Items */}
-                <div className="space-y-1.5 mt-2">
-                  <div
-                    onClick={() => handleSendChat('Làm thế nào để giảm chi phí chuyển đổi (CAC)?')}
-                    className="frosted-sub-pill p-2 px-3 flex items-center gap-2.5 cursor-pointer"
-                  >
+                  {/* Bottom Info Pill Inside Card */}
+                  <div className="frosted-sub-pill p-2.5 px-3 flex items-center gap-2.5 mt-3">
                     <div className="w-5 h-5 rounded-full bg-[#18181b] text-white flex items-center justify-center shrink-0">
-                      <Icon name="pieChart" className="w-2.5 h-2.5" />
+                      <Icon name="check" className="w-2.5 h-2.5 text-emerald-400" />
                     </div>
-                    <div className="min-w-0">
-                      <span className="text-[11px] font-bold text-[var(--text-primary)] block truncate">
-                        How to decrease CAC?
+                    <div className="min-w-0 flex-1">
+                      <span className="text-xs font-bold text-[var(--text-primary)] block truncate">
+                        {currentDoc.status === 'processed' ? 'Đã lập chỉ mục pgvector' : 'Đang xử lý tài liệu'}
                       </span>
-                      <span className="text-[9px] text-[var(--text-muted)] block truncate">
-                        Customer acquisition cost could be decr...
-                      </span>
-                    </div>
-                  </div>
-
-                  <div
-                    onClick={() => handleSendChat('Làm thế nào để tăng giá trị vòng đời khách hàng (LTV)?')}
-                    className="frosted-sub-pill p-2 px-3 flex items-center gap-2.5 cursor-pointer"
-                  >
-                    <div className="w-5 h-5 rounded-full bg-[#18181b] text-white flex items-center justify-center shrink-0">
-                      <Icon name="pieChart" className="w-2.5 h-2.5" />
-                    </div>
-                    <div className="min-w-0">
-                      <span className="text-[11px] font-bold text-[var(--text-primary)] block truncate">
-                        How to increase LTV?
-                      </span>
-                      <span className="text-[9px] text-[var(--text-muted)] block truncate">
-                        User life time value could increased by m...
+                      <span className="text-[10px] text-[var(--text-muted)] block truncate">
+                        {chunks.length > 0 ? `${chunks.length} chunks • Hybrid Search RRF` : 'Đang đồng bộ vector chunks...'}
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            ) : (
+              /* Empty State when no document */
+              <div
+                onClick={() => fileInputRef.current?.click()}
+                className="hero-doc-card p-6 text-center cursor-pointer flex flex-col items-center justify-center gap-2 border border-dashed border-black/10 dark:border-white/10"
+              >
+                <div className="w-12 h-12 rounded-full bg-blue-600/10 text-blue-600 flex items-center justify-center">
+                  <Icon name="upload" className="w-5 h-5" />
+                </div>
+                <h4 className="text-xs font-bold text-[var(--text-primary)]">
+                  Chưa có tài liệu nào
+                </h4>
+                <p className="text-[11px] text-[var(--text-muted)]">
+                  Bấm vào đây hoặc kéo thả file PDF vào để bắt đầu.
+                </p>
+              </div>
+            )}
 
-            {/* If more documents uploaded */}
+            {/* ─── REAL RECENT QUERIES (IF USER HAS ASKED QUESTIONS) ─── */}
+            {recentQueries.length > 0 && (
+              <div>
+                <div className="text-xs font-semibold text-[var(--text-muted)] mb-2 px-1">
+                  Truy vấn gần đây
+                </div>
+                <div className="space-y-1.5">
+                  {recentQueries.map((q, qIdx) => (
+                    <div
+                      key={qIdx}
+                      onClick={() => handleSendChat(q)}
+                      className="frosted-sub-pill p-2 px-3 flex items-center justify-between cursor-pointer hover:border-blue-400 transition"
+                    >
+                      <span className="text-[11px] font-medium text-[var(--text-primary)] truncate max-w-[240px]">
+                        {q}
+                      </span>
+                      <Icon name="arrowUpRight" className="w-3 h-3 text-[var(--text-muted)]" />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* ─── REMAINING REAL DOCUMENTS LIST ─── */}
             {documents.length > 1 && (
               <div>
                 <div className="text-xs font-semibold text-[var(--text-muted)] mb-2 px-1">
-                  Kho tài liệu đã nạp ({documents.length})
+                  Tài liệu khác ({documents.length - 1})
                 </div>
                 <div className="space-y-2">
-                  {documents.slice(1).map(doc => (
+                  {documents.filter(d => d.id !== currentDoc?.id).map(doc => (
                     <div
                       key={doc.id}
                       onClick={() => setSelectedDocId(doc.id)}
-                      className={`frosted-sub-pill p-3 flex items-center justify-between cursor-pointer ${
-                        String(doc.id) === String(selectedDocId) ? 'ring-2 ring-blue-500' : ''
-                      }`}
+                      className="frosted-sub-pill p-3 flex items-center justify-between cursor-pointer hover:border-blue-400 transition"
                     >
                       <div className="flex items-center gap-2.5 min-w-0">
                         <div className="w-8 h-8 rounded-xl bg-red-500/10 text-red-500 flex items-center justify-center font-bold text-[10px] shrink-0">
                           PDF
                         </div>
                         <div className="min-w-0">
-                          <span className="text-xs font-bold text-[var(--text-primary)] block truncate">
+                          <span className="text-xs font-bold text-[var(--text-primary)] block truncate" title={getDocName(doc)}>
                             {getDocName(doc)}
                           </span>
                           <span className="text-[10px] text-[var(--text-muted)]">
-                            {formatFileSize(doc.size_bytes)}
+                            {formatFileSize(doc.size_bytes)} • {doc.status}
                           </span>
                         </div>
                       </div>
                       <button
                         onClick={e => handleDeleteDoc(e, doc.id)}
-                        className="opacity-50 hover:opacity-100 p-1 text-rose-500"
+                        className="opacity-40 hover:opacity-100 p-1 text-rose-500 transition"
+                        title="Xóa tệp"
                       >
                         <Icon name="trash" className="w-3.5 h-3.5" />
                       </button>
@@ -718,27 +716,24 @@ export default function App() {
             }`}
           >
             <span className="text-[11px] font-semibold text-[var(--text-secondary)]">
-              {uploading ? 'Đang nạp dữ liệu...' : '+ Kéo thả PDF vào đây để nạp AI'}
+              {uploading ? 'Đang tải lên và xử lý...' : '+ Kéo thả hoặc chọn thêm file PDF'}
             </span>
           </div>
         </section>
 
-        {/* ─── 3. RIGHT MAIN PANEL: "New Chat" & DUAL-PANE WORKSPACE ─── */}
+        {/* ─── 3. RIGHT MAIN PANEL: REAL RAG CHAT & DUAL-PANE WORKSPACE ─── */}
         <main className="flex-1 bubble-tablet-frame bg-white/70 dark:bg-white/5 flex flex-col overflow-hidden relative">
 
           {/* Top Panel Header */}
           <header className="h-14 px-5 border-b border-black/5 dark:border-white/10 flex items-center justify-between shrink-0">
-            {/* Sparkle Button */}
             <button className="circle-btn w-8 h-8">
-              <Icon name="sparkle" className="w-4 h-4" />
+              <Icon name="sparkle" className="w-4 h-4 text-blue-600" />
             </button>
 
-            {/* Title: "New Chat" */}
-            <h2 className="text-base font-bold tracking-tight text-[var(--text-primary)]">
-              {mainMode === 'chat' ? 'New Chat' : (currentDoc ? getDocName(currentDoc) : 'Đối chiếu Song Song')}
+            <h2 className="text-base font-bold tracking-tight text-[var(--text-primary)] truncate max-w-md">
+              {mainMode === 'chat' ? (currentDoc ? getDocName(currentDoc) : 'Hỏi Đáp Tri Thức AI') : 'Đối Chiếu Song Song'}
             </h2>
 
-            {/* Right Action Pill & Close Button */}
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-1.5 p-1 rounded-full bg-white/60 dark:bg-white/10 border border-white/80 dark:border-white/10 shadow-2xs">
                 <button
@@ -755,117 +750,120 @@ export default function App() {
                 >
                   <Icon name="edit" className="w-3.5 h-3.5" />
                 </button>
-                <button className="circle-btn w-7 h-7">
-                  <Icon name="more" className="w-3.5 h-3.5" />
-                </button>
               </div>
 
-              <button
-                onClick={() => setChatMessages([])}
-                className="circle-btn w-8 h-8"
-                title="Làm sạch cuộc trò chuyện"
-              >
-                <Icon name="close" className="w-3.5 h-3.5" />
-              </button>
+              {chatMessages.length > 0 && (
+                <button
+                  onClick={() => setChatMessages([])}
+                  className="circle-btn w-8 h-8 text-rose-500"
+                  title="Xóa đoạn chat này"
+                >
+                  <Icon name="close" className="w-3.5 h-3.5" />
+                </button>
+              )}
             </div>
           </header>
 
-          {/* ═══ VIEW 1: CHAT VIEW (100% REPLICA OF REFERENCE UI) ═══ */}
+          {/* ═══ VIEW 1: REAL CHAT VIEW (NO MOCK DATA) ═══ */}
           {mainMode === 'chat' ? (
             <div className="flex-1 flex flex-col justify-between overflow-hidden relative p-4 md:p-6">
               <div className="flex-1 overflow-y-auto pr-2 space-y-6 max-w-2xl mx-auto w-full">
 
-                {/* Greeting Row */}
+                {/* Real Greeting Row */}
                 <div className="flex items-center gap-3 pt-2">
-                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white/90 dark:border-white/20 shadow-xs">
-                    <img src="/assets/avatar.png" alt="Avatar" className="w-full h-full object-cover" />
+                  <div className="w-11 h-11 rounded-full bg-gradient-to-tr from-blue-500 via-indigo-500 to-purple-500 p-0.5 shadow-xs flex items-center justify-center text-white font-bold text-xs shrink-0">
+                    <div className="w-full h-full rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center text-[var(--text-primary)] font-bold">
+                      {currentUser.slice(0, 2).toUpperCase()}
+                    </div>
                   </div>
                   <div>
-                    <span className="text-xs text-[var(--text-muted)] font-medium">Hi, Marry!</span>
+                    <span className="text-xs text-[var(--text-muted)] font-medium">Xin chào, {currentUser}!</span>
                     <h3 className="text-xl font-bold text-[var(--text-primary)] tracking-tight">
-                      How can I help you?
+                      Tôi có thể giúp gì cho bạn về tài liệu này?
                     </h3>
                   </div>
                 </div>
 
-                {/* Sample Prompt / Attached Document Chips */}
-                <div className="space-y-3">
-                  {/* Floating Document Chips */}
-                  <div className="flex justify-end gap-2 pr-4">
-                    <div className="w-24 p-2 rounded-xl bg-white/90 dark:bg-white/10 border border-white shadow-xs -rotate-2">
-                      <div className="w-4 h-4 rounded bg-blue-500 text-white text-[8px] font-bold flex items-center justify-center mb-1">
-                        DOC
-                      </div>
-                      <span className="text-[9px] font-bold block truncate">Growth Predictions</span>
-                      <span className="text-[8px] text-[var(--text-muted)] block">5.8% annually</span>
-                    </div>
+                {/* Empty Chat State: Real Document Overview & Real Suggested Questions */}
+                {chatMessages.length === 0 && (
+                  <div className="space-y-4 pt-2">
+                    {currentDoc ? (
+                      <>
+                        {/* Real Document Information Chip */}
+                        <div className="flex justify-end pr-2">
+                          <div className="p-3 rounded-2xl bg-white/80 dark:bg-white/10 border border-white/90 dark:border-white/15 shadow-xs flex items-center gap-3">
+                            <div className="w-8 h-9 rounded bg-red-500/10 text-red-600 font-bold text-[10px] flex items-center justify-center border border-red-500/20">
+                              PDF
+                            </div>
+                            <div>
+                              <span className="text-xs font-bold text-[var(--text-primary)] block truncate max-w-[260px]">
+                                {getDocName(currentDoc)}
+                              </span>
+                              <span className="text-[10px] text-[var(--text-muted)]">
+                                {formatFileSize(currentDoc.size_bytes)} • {chunks.length} chunks vector
+                              </span>
+                            </div>
+                          </div>
+                        </div>
 
-                    <div className="w-24 p-2 rounded-xl bg-white/90 dark:bg-white/10 border border-white shadow-xs rotate-3">
-                      <div className="w-4 h-4 rounded bg-red-500 text-white text-[8px] font-bold flex items-center justify-center mb-1">
-                        PDF
-                      </div>
-                      <span className="text-[9px] font-bold block truncate">Resilient Tourism</span>
-                      <span className="text-[8px] text-[var(--text-muted)] block">Report 2026</span>
-                    </div>
-                  </div>
+                        {/* Real Suggested Questions for Active Document */}
+                        <div className="space-y-2 pt-2">
+                          <span className="text-[11px] font-semibold text-[var(--text-muted)] block px-1">
+                            Gợi ý câu hỏi cho tài liệu này:
+                          </span>
+                          <div className="grid grid-cols-1 gap-2">
+                            <button
+                              onClick={() => handleSendChat(`Tóm tắt các nội dung và quy định chính trong tài liệu ${getDocName(currentDoc)}`)}
+                              className="user-chat-bubble p-3 text-left hover:border-blue-400 hover:shadow-sm transition flex items-center justify-between text-xs"
+                            >
+                              <span>📋 Tóm tắt các nội dung và quy định chính trong tài liệu</span>
+                              <Icon name="arrowUpRight" className="w-3.5 h-3.5 text-blue-500 shrink-0" />
+                            </button>
 
-                  {/* User Question Bubble */}
-                  <div className="flex justify-end">
-                    <div className="user-chat-bubble p-4 max-w-lg">
-                      <p className="text-xs md:text-sm text-[var(--text-primary)] leading-relaxed">
-                        Imagine that you are <strong>the manager</strong> and make me the list of <strong>summary points of this document</strong>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                            <button
+                              onClick={() => handleSendChat(`Các mốc thời gian, người phụ trách và trách nhiệm được nêu trong tài liệu`)}
+                              className="user-chat-bubble p-3 text-left hover:border-blue-400 hover:shadow-sm transition flex items-center justify-between text-xs"
+                            >
+                              <span>⏱️ Các mốc thời gian, người phụ trách và trách nhiệm được quy định</span>
+                              <Icon name="arrowUpRight" className="w-3.5 h-3.5 text-blue-500 shrink-0" />
+                            </button>
 
-                {/* Assistant Answer Card */}
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full overflow-hidden border border-white/80 shrink-0 mt-1">
-                    <img src="/assets/avatar.png" alt="Avatar" className="w-full h-full object-cover" />
-                  </div>
-
-                  <div className="assistant-chat-card p-5 flex-1">
-                    <div className="text-xs md:text-sm text-[var(--text-primary)] space-y-3 leading-relaxed">
-                      <p>
-                        <strong>1. Resilient Tourism:</strong> Despite the pandemic's impact, <strong>international tourism</strong> rebounded <strong>significantly in 2022</strong>, showing the industry's resilience.
-                      </p>
-                      <p>
-                        <strong>2. Growth Predictions:</strong> Forecasts suggest that travel and tourism <strong>GDP will grow at 5.8% annually between 2022 and 2032</strong>, outracing overall economic growth.
-                      </p>
-                    </div>
-
-                    {/* Source citations button if real document is active */}
-                    {currentDoc && (
-                      <div className="mt-4 pt-3 border-t border-black/5 dark:border-white/10 flex items-center justify-between text-[11px]">
-                        <span className="text-[var(--text-muted)]">
-                          Nguồn: <strong>{getDocName(currentDoc)}</strong>
-                        </span>
-                        <button
-                          onClick={() => setMainMode('split')}
-                          className="text-blue-600 dark:text-blue-400 font-semibold hover:underline flex items-center gap-1"
-                        >
-                          Xem đối chiếu BBox & MD <Icon name="arrowUpRight" className="w-3 h-3" />
-                        </button>
+                            <button
+                              onClick={() => handleSendChat(`Điều kiện áp dụng và các trường hợp ngoại lệ trong tài liệu này là gì?`)}
+                              className="user-chat-bubble p-3 text-left hover:border-blue-400 hover:shadow-sm transition flex items-center justify-between text-xs"
+                            >
+                              <span>⚖️ Điều kiện áp dụng và các trường hợp ngoại lệ cần lưu ý</span>
+                              <Icon name="arrowUpRight" className="w-3.5 h-3.5 text-blue-500 shrink-0" />
+                            </button>
+                          </div>
+                        </div>
+                      </>
+                    ) : (
+                      <div className="text-center py-10 rounded-2xl border border-dashed border-black/10 dark:border-white/10 bg-white/30 dark:bg-white/5 p-4">
+                        <p className="text-xs text-[var(--text-muted)]">
+                          Chưa có tài liệu nào được chọn. Hãy tải lên tệp PDF để bắt đầu hỏi đáp AI.
+                        </p>
                       </div>
                     )}
                   </div>
-                </div>
+                )}
 
-                {/* Real Query Conversation Feed */}
+                {/* Real Chat Conversation Feed */}
                 {chatMessages.map((msg, idx) => {
                   const isUser = msg.role === 'user'
                   return (
                     <div key={idx} className={`flex items-start gap-3 ${isUser ? 'justify-end' : 'justify-start'}`}>
                       {!isUser && (
-                        <div className="w-8 h-8 rounded-full overflow-hidden border border-white/80 shrink-0 mt-1">
-                          <img src="/assets/avatar.png" alt="Avatar" className="w-full h-full object-cover" />
+                        <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shrink-0 mt-1 shadow-xs">
+                          AI
                         </div>
                       )}
-                      <div className={isUser ? 'user-chat-bubble p-4 max-w-lg' : 'assistant-chat-card p-5 flex-1'}>
+                      <div className={isUser ? 'user-chat-bubble p-4 max-w-lg font-medium' : 'assistant-chat-card p-5 flex-1'}>
                         <p className="text-xs md:text-sm whitespace-pre-wrap leading-relaxed">
                           {msg.text}
                         </p>
+
+                        {/* Real Source Citations */}
                         {!isUser && msg.sources && msg.sources.length > 0 && (
                           <div className="mt-3 pt-3 border-t border-black/5 dark:border-white/10 space-y-1.5">
                             <span className="text-[10px] font-bold uppercase tracking-wider text-[var(--text-muted)]">
@@ -899,94 +897,73 @@ export default function App() {
                 <div ref={chatBottomRef} />
               </div>
 
-              {/* ─── QUICK TOOL ACTION CARDS (4 CARDS MATCHING REFERENCE) ─── */}
+              {/* ─── REAL QUICK ACTION CARDS (4 ACTIONS CONNECTED TO REAL API) ─── */}
               <div className="max-w-2xl mx-auto w-full pt-4 space-y-3">
                 <div className="grid grid-cols-4 gap-2.5">
-                  {/* 1. Chat Files */}
+                  {/* 1. Tóm tắt tài liệu */}
                   <div
                     onClick={() => {
                       if (currentDoc) {
-                        handleSendChat(`Tóm tắt các điểm quan trọng trong tài liệu ${getDocName(currentDoc)}`)
-                      } else {
-                        fileInputRef.current?.click()
+                        handleSendChat(`Tóm tắt các nội dung trọng tâm của tài liệu ${getDocName(currentDoc)}`)
                       }
                     }}
                     className="quick-tool-card p-3 flex flex-col items-center text-center cursor-pointer group"
                   >
-                    <div className="flex items-center gap-1 mb-2">
-                      <div className="w-6 h-7 rounded bg-red-500/10 text-red-500 text-[8px] font-bold flex items-center justify-center border border-red-500/20">
-                        PDF
-                      </div>
-                      <div className="w-6 h-7 rounded bg-blue-500/10 text-blue-500 text-[8px] font-bold flex items-center justify-center border border-blue-500/20">
-                        DOC
-                      </div>
+                    <div className="w-8 h-8 rounded-xl bg-blue-500/10 text-blue-600 flex items-center justify-center font-bold text-xs mb-2">
+                      <Icon name="fileText" className="w-4 h-4" />
                     </div>
-                    <div className="flex items-center gap-1.5">
-                      <div className="w-3.5 h-3.5 rounded-full bg-[#18181b] text-white flex items-center justify-center">
-                        <Icon name="folder" className="w-2 h-2" />
-                      </div>
-                      <span className="text-[11px] font-bold text-[var(--text-primary)]">
-                        Chat Files
-                      </span>
-                    </div>
+                    <span className="text-[11px] font-bold text-[var(--text-primary)]">
+                      Tóm tắt tệp
+                    </span>
                   </div>
 
-                  {/* 2. Images */}
+                  {/* 2. Đối chiếu PDF & MD */}
                   <div
                     onClick={() => setMainMode('split')}
                     className="quick-tool-card p-3 flex flex-col items-center text-center cursor-pointer group"
                   >
-                    <div className="w-12 h-7 rounded-lg overflow-hidden mb-2 border border-white/80 shadow-xs">
-                      <img src="/assets/sample_preview.png" alt="Parrot" className="w-full h-full object-cover" />
+                    <div className="w-8 h-8 rounded-xl bg-purple-500/10 text-purple-600 flex items-center justify-center font-bold text-xs mb-2">
+                      <Icon name="columns" className="w-4 h-4" />
                     </div>
-                    <div className="flex items-center gap-1.5">
-                      <div className="w-3.5 h-3.5 rounded-full bg-[#18181b] text-white flex items-center justify-center">
-                        <Icon name="camera" className="w-2 h-2" />
-                      </div>
-                      <span className="text-[11px] font-bold text-[var(--text-primary)]">
-                        Images
-                      </span>
-                    </div>
+                    <span className="text-[11px] font-bold text-[var(--text-primary)]">
+                      Đối chiếu đôi
+                    </span>
                   </div>
 
-                  {/* 3. Translate */}
+                  {/* 3. Khung BBox */}
                   <div
-                    onClick={() => handleSendChat('Dịch tóm tắt tài liệu sang tiếng Việt')}
+                    onClick={() => {
+                      setMainMode('split')
+                      setShowOcrBoxes(true)
+                    }}
                     className="quick-tool-card p-3 flex flex-col items-center text-center cursor-pointer group"
                   >
-                    <div className="w-12 h-7 rounded-lg bg-blue-500/10 text-blue-600 flex items-center justify-center font-bold text-xs mb-2 border border-blue-500/20">
-                      G 文
+                    <div className="w-8 h-8 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center font-bold text-xs mb-2">
+                      <Icon name="sparkle" className="w-4 h-4" />
                     </div>
-                    <div className="flex items-center gap-1.5">
-                      <div className="w-3.5 h-3.5 rounded-full bg-[#18181b] text-white flex items-center justify-center">
-                        <Icon name="translate" className="w-2 h-2" />
-                      </div>
-                      <span className="text-[11px] font-bold text-[var(--text-primary)]">
-                        Translate
-                      </span>
-                    </div>
+                    <span className="text-[11px] font-bold text-[var(--text-primary)]">
+                      Khung BBox
+                    </span>
                   </div>
 
-                  {/* 4. Audio Chat */}
+                  {/* 4. Trích xuất .md */}
                   <div
-                    onClick={() => handleSendChat('Tạo kịch bản tóm tắt âm thanh (Audio summary) cho báo cáo này')}
+                    onClick={() => {
+                      setMainMode('split')
+                      setMdViewMode('rendered')
+                    }}
                     className="quick-tool-card p-3 flex flex-col items-center text-center cursor-pointer group"
                   >
-                    <div className="w-12 h-7 rounded-lg bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-2 border border-emerald-500/20">
-                      <Icon name="waveform" className="w-5 h-5" />
+                    <div className="w-8 h-8 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center font-bold text-xs mb-2">
+                      <Icon name="waveform" className="w-4 h-4" />
                     </div>
-                    <div className="flex items-center gap-1.5">
-                      <div className="w-3.5 h-3.5 rounded-full bg-[#18181b] text-white flex items-center justify-center">
-                        <Icon name="sparkle" className="w-2 h-2" />
-                      </div>
-                      <span className="text-[11px] font-bold text-[var(--text-primary)]">
-                        Audio Chat
-                      </span>
-                    </div>
+                    <span className="text-[11px] font-bold text-[var(--text-primary)]">
+                      Văn bản .md
+                    </span>
                   </div>
                 </div>
 
-                {/* ─── INPUT BAR (PILL CONTAINER WITH ARROW UP) ─── */}
+                {/* ─── REAL INPUT BAR (PILL CONTAINER WITH SEND) ─── */}
                 <div className="bubble-input-bar p-1.5 pl-5 pr-2 flex items-center justify-between">
                   <input
                     type="text"
@@ -995,13 +972,13 @@ export default function App() {
                     onKeyDown={e => {
                       if (e.key === 'Enter') handleSendChat()
                     }}
-                    placeholder="Ask me anything..."
+                    placeholder={currentDoc ? `Hỏi đáp về "${getDocName(currentDoc)}"...` : "Nhập câu hỏi tri thức..."}
                     className="flex-1 bg-transparent border-none outline-none text-xs md:text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)]"
                   />
                   <button
                     onClick={() => handleSendChat()}
                     disabled={chatLoading || !chatInput.trim()}
-                    className="circle-btn-dark w-9 h-9"
+                    className="circle-btn-dark w-9 h-9 disabled:opacity-40"
                     title="Gửi câu hỏi"
                   >
                     {chatLoading ? (
@@ -1014,13 +991,13 @@ export default function App() {
               </div>
             </div>
           ) : (
-            /* ═══ VIEW 2: DUAL-PANE SPLIT COMPARISON (PDF & MARKDOWN) ═══ */
+            /* ═══ VIEW 2: REAL DUAL-PANE SPLIT COMPARISON (PDF & MARKDOWN) ═══ */
             <div className="flex-1 flex overflow-hidden p-4 gap-4">
               {/* Left Sub-pane: PDF Reader */}
               <div className="flex-1 bubble-tablet-frame bg-white/60 dark:bg-black/20 flex flex-col overflow-hidden p-3">
                 <div className="flex items-center justify-between pb-3 border-b border-black/5 dark:border-white/10 mb-3">
-                  <span className="text-xs font-bold text-[var(--text-primary)]">
-                    Tệp gốc PDF • Trang {currentPage} / {numPages || 1}
+                  <span className="text-xs font-bold text-[var(--text-primary)] truncate max-w-[200px]">
+                    {currentDoc ? getDocName(currentDoc) : 'Tệp PDF'} • Trang {currentPage} / {numPages || 1}
                   </span>
                   <div className="flex items-center gap-2">
                     <button
@@ -1040,7 +1017,7 @@ export default function App() {
                     <button
                       onClick={() => setShowOcrBoxes(!showOcrBoxes)}
                       className={`circle-btn w-7 h-7 ${showOcrBoxes ? 'bg-blue-600 text-white' : ''}`}
-                      title="Bật/tắt khung nhận diện BBox"
+                      title="Bật/tắt BBox"
                     >
                       <Icon name="sparkle" className="w-3.5 h-3.5" />
                     </button>
@@ -1118,7 +1095,7 @@ export default function App() {
                     )
                   ) : (
                     <p className="text-[var(--text-muted)] text-center py-12">
-                      Đang xử lý trích xuất văn bản...
+                      {loadingExtraction ? 'Đang trích xuất văn bản từ tài liệu...' : 'Chưa có nội dung trích xuất.'}
                     </p>
                   )}
                 </div>

@@ -100,13 +100,17 @@ class RagService:
 
         # 3. Prompt Engineering (Tuân thủ RULES.md: Anti-hallucination & Untrusted Input)
         system_prompt = (
-            "Bạn là trợ lý AI chuyên nghiệp về tư vấn và giải đáp thông tin từ tài liệu nội bộ.\n"
+            "Bạn là trợ lý AI chuyên nghiệp về tư vấn và giải đáp thông tin chính xác từ tài liệu nội bộ.\n"
             "NGUYÊN TẮC BẮT BUỘC:\n"
-            "1. CHỈ sử dụng thông tin có trong phần CONTEXT được cung cấp dưới đây để trả lời.\n"
-            "2. Tuyệt đối KHÔNG tự bịa đặt, suy đoán hoặc thêm thắt thông tin ngoài CONTEXT.\n"
-            "3. Nếu CONTEXT không chứa câu trả lời, hãy nêu rõ: 'Dựa trên tài liệu được cung cấp, không có thông tin về vấn đề này.'\n"
-            "4. Trả lời bằng tiếng Việt lịch sự, gãy gọn, nêu rõ các điều khoản, số ngày, quy trình cụ thể (nếu có).\n"
-            "5. Đính kèm chú thích các phần trích dẫn từ tài liệu."
+            "1. ĐỌC KỸ TOÀN BỘ CONTEXT: Quét kỹ từng câu, cụm từ điều kiện, trạng thái, thời hạn, người phụ trách và quy trình được nêu trong CONTEXT.\n"
+            "2. TRẢ LỜI TOÀN DIỆN VÀ TRỰC DIỆN:\n"
+            "   - Nếu câu hỏi gồm nhiều ý/câu hỏi con, hãy phân tách và trả lời đầy đủ từng ý theo dạng gạch đầu dòng rõ ràng.\n"
+            "   - Đối với các câu hỏi về THỜI ĐIỂM, ĐIỀU KIỆN hoặc LỰA CHỌN (ví dụ: 'trước hay sau', 'khi nào', 'trong trường hợp nào'): Hãy đối chiếu kỹ từng cụm từ chỉ mốc thời gian/trạng thái trong tài liệu (ví dụ: 'sau khi có hiệu lực', 'kể từ ngày...', 'trong thời hạn...') để trả lời khẳng định dứt khoát. Tuyệt đối không được từ chối hoặc nói 'không có thông tin cụ thể về thời điểm' khi tài liệu đã có cụm từ nêu rõ thời điểm đó (như 'sau khi có hiệu lực').\n"
+            "3. NGUYÊN TẮC CHỐNG BỊA ĐẶT (Anti-hallucination):\n"
+            "   - CHỈ sử dụng thông tin có trong phần CONTEXT được cung cấp dưới đây.\n"
+            "   - Tuyệt đối KHÔNG tự bịa đặt hoặc thêm thắt dữ kiện ngoài tài liệu. Chỉ khi một ý hoàn toàn không được nhắc tới trong bất kỳ đoạn CONTEXT nào thì mới kết luận không có thông tin về ý đó.\n"
+            "4. Trình bày bằng tiếng Việt mạch lạc, chuyên nghiệp, chính xác từng con số, tên người, số điện thoại và mốc thời gian.\n"
+            "5. Đính kèm chú thích nguồn tài liệu trích dẫn tương ứng."
         )
 
         user_prompt = f"--- CONTEXT ---\n{full_context}\n\n--- CÂU HỎI ---\n{q}\n\n--- CÂU TRẢ LỜI ---"

@@ -40,12 +40,13 @@ class RetrievalService:
         # 1. Tạo vector cho câu hỏi (input_type='query')
         query_vector = self.embedder.embed_query(query.strip())
 
-        # 2. Vector search trong PostgreSQL
+        # 2. Vector / Hybrid search trong PostgreSQL
         matched_chunks = self.chunk_repo.vector_search(
             query_embedding=query_vector,
             top_k=top_k,
             document_id=doc_uuid,
             min_similarity=min_score,
+            query_text=query.strip(),
         )
 
         logger.info("Truy vấn: '%s' -> Tìm thấy %d chunks phù hợp", query[:50], len(matched_chunks))
