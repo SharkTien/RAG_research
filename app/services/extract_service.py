@@ -10,6 +10,7 @@ from app.core.config import (
     DOCLING_OCR_ENGINE, DOCLING_OCR_LANG,
     DOCLING_TESSERACT_PSM,
     DOCLING_TESSERACT_OSD,
+    ENABLE_NIM_NORMALIZATION,
 )
 import threading
 from app.services.normalize_service import NormalizeService
@@ -322,33 +323,39 @@ class ExtractService:
                 )
                 print(f"[{doc_id}] stage=rule_clean_done chars={len(clean_text)} elements={len(normalized_elements)}", flush=True)
                 self.repo.update_progress(doc_id, 68, 'Phân tích cấu trúc văn bản')
-            print(f"[{doc_id}] stage=nim_normalize_start mode=parallel_pages", flush=True)
-            self.repo.update_progress(doc_id, 70, 'Phân tích ngữ nghĩa AI')
+            if ENABLE_NIM_NORMALIZATION:
+                print(f"[{doc_id}] stage=nim_normalize_start mode=parallel_pages", flush=True)
+                self.repo.update_progress(doc_id, 70, 'Phân tích ngữ nghĩa AI')
 
-            def on_nim_progress(done_win, total_win):
-                # Tiến trình tăng dần từ 70% đến 85%
-                ratio = done_win / max(1, total_win)
-                pct = int(70 + ratio * 15)
-                stage = f"Phân tích ngữ nghĩa AI: trang {done_win}/{total_win}"
-                print(f"[{doc_id}] progress={pct}% stage={stage}", flush=True)
-                self.repo.update_progress(doc_id, pct, stage)
+                def on_nim_progress(done_win, total_win):
+                    # Tiến trình tăng dần từ 70% đến 85%
+                    ratio = done_win / max(1, total_win)
+                    pct = int(70 + ratio * 15)
+                    stage = f"Phân tích ngữ nghĩa AI: trang {done_win}/{total_win}"
+                    print(f"[{doc_id}] progress={pct}% stage={stage}", flush=True)
+                    self.repo.update_progress(doc_id, pct, stage)
 
-            semantic_structure, semantic_error = nim_normalize(
-                clean_text, normalized_elements, progress_callback=on_nim_progress
-            )
-            print(f"[{doc_id}] stage=nim_normalize_done status={'processed' if semantic_structure and not semantic_error else 'fallback'}", flush=True)
-            self.repo.update_progress(doc_id, 85, 'Phân tích ngữ nghĩa xong')
-            if semantic_structure and semantic_structure.get("elements"):
-                semantic_elements = semantic_structure["elements"]
-                element_by_id = {item["element_id"]: item for item in normalized_elements}
-                semantic_text = "\n\n".join(item["text"] for item in semantic_elements if item.get("text"))
-                for item in semantic_elements:
-                    if item["element_id"] in element_by_id:
-                        element_by_id[item["element_id"]]["semantic_type"] = item.get("type", "text")
-                normalized_elements = list(element_by_id.values())
+                semantic_structure, semantic_error = nim_normalize(
+                    clean_text, normalized_elements, progress_callback=on_nim_progress
+                )
+                print(f"[{doc_id}] stage=nim_normalize_done status={'processed' if semantic_structure and not semantic_error else 'fallback'}", flush=True)
+                self.repo.update_progress(doc_id, 85, 'Phân tích ngữ nghĩa xong')
+                if semantic_structure and semantic_structure.get("elements"):
+                    semantic_elements = semantic_structure["elements"]
+                    element_by_id = {item["element_id"]: item for item in normalized_elements}
+                    semantic_text = "\n\n".join(item["text"] for item in semantic_elements if item.get("text"))
+                    for item in semantic_elements:
+                        if item["element_id"] in element_by_id:
+                            element_by_id[item["element_id"]]["semantic_type"] = item.get("type", "text")
+                    normalized_elements = list(element_by_id.values())
+                else:
+                    semantic_text = clean_text
+                    semantic_structure = {"title": None, "sections": [], "elements": [], "warnings": [semantic_error] if semantic_error else []}
             else:
+                print(f"[{doc_id}] stage=nim_normalize_skipped (chế độ nạp nhanh được kích hoạt)", flush=True)
+                self.repo.update_progress(doc_id, 85, 'Hoàn tất phân tích cấu trúc')
                 semantic_text = clean_text
-                semantic_structure = {"title": None, "sections": [], "elements": [], "warnings": [semantic_error] if semantic_error else []}
+                semantic_structure = {"title": None, "sections": [], "elements": normalized_elements, "warnings": []}
             # Chunk using structure-aware semantic chunker (preferred)
             # Falls back to plain-text SentenceSplitter if no elements
             doc_meta = {"document_id": str(doc_id), "filename": original_filename}

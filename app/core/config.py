@@ -62,6 +62,7 @@ NIM_MODEL = os.getenv("NIM_MODEL", "meta/llama-3.2-11b-vision-instruct")
 NIM_CONCURRENCY = int(os.getenv("NIM_CONCURRENCY", "4"))
 NIM_TIMEOUT_SECONDS = int(os.getenv("NIM_TIMEOUT_SECONDS", "120"))
 NIM_MAX_INPUT_CHARS = int(os.getenv("NIM_MAX_INPUT_CHARS", "16000"))
+ENABLE_NIM_NORMALIZATION = os.getenv("ENABLE_NIM_NORMALIZATION", "false").lower() == "true"
 # Hugging Face Token Configuration (từ HF_KEY hoặc HF_TOKEN)
 HF_TOKEN = (os.getenv("HF_TOKEN") or os.getenv("HF_KEY") or os.getenv("HUGGING_FACE_HUB_TOKEN") or "").strip()
 if HF_TOKEN:
