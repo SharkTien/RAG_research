@@ -23,59 +23,7 @@ const getDocName = (doc) => {
   return doc.filename || doc.original_filename || ''
 }
 
-const getFileExtension = (filename = '') => {
-  const parts = String(filename || '').split('.')
-  return parts.length > 1 ? parts.pop().toLowerCase() : ''
-}
-
-const getFileTypeMeta = (ext = '') => {
-  const e = String(ext || '').toLowerCase()
-  if (e === 'pdf') {
-    return {
-      label: 'PDF',
-      iconColor: 'text-rose-500 dark:text-rose-400',
-      bgLight: 'bg-rose-500/10 dark:bg-rose-500/20',
-      borderColor: 'border-rose-500/20 dark:border-rose-500/30',
-      badgeColor: 'bg-rose-500/10 text-rose-600 dark:text-rose-300 border-rose-500/20',
-    }
-  }
-  if (['doc', 'docx'].includes(e)) {
-    return {
-      label: 'DOCX',
-      iconColor: 'text-blue-500 dark:text-blue-400',
-      bgLight: 'bg-blue-500/10 dark:bg-blue-500/20',
-      borderColor: 'border-blue-500/20 dark:border-blue-500/30',
-      badgeColor: 'bg-blue-500/10 text-blue-600 dark:text-blue-300 border-blue-500/20',
-    }
-  }
-  if (['xls', 'xlsx', 'csv'].includes(e)) {
-    return {
-      label: e.toUpperCase(),
-      iconColor: 'text-emerald-500 dark:text-emerald-400',
-      bgLight: 'bg-emerald-500/10 dark:bg-emerald-500/20',
-      borderColor: 'border-emerald-500/20 dark:border-emerald-500/30',
-      badgeColor: 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-300 border-emerald-500/20',
-    }
-  }
-  if (['ppt', 'pptx'].includes(e)) {
-    return {
-      label: 'PPTX',
-      iconColor: 'text-amber-500 dark:text-amber-400',
-      bgLight: 'bg-amber-500/10 dark:bg-amber-500/20',
-      borderColor: 'border-amber-500/20 dark:border-amber-500/30',
-      badgeColor: 'bg-amber-500/10 text-amber-600 dark:text-amber-300 border-amber-500/20',
-    }
-  }
-  return {
-    label: e.toUpperCase() || 'FILE',
-    iconColor: 'text-indigo-500 dark:text-indigo-400',
-    bgLight: 'bg-indigo-500/10 dark:bg-indigo-500/20',
-    borderColor: 'border-indigo-500/20 dark:border-indigo-500/30',
-    badgeColor: 'bg-indigo-500/10 text-indigo-600 dark:text-indigo-300 border-indigo-500/20',
-  }
-}
-
-// ─── ICONS (Clean, modern SVG icons) ──────────────────────────────────────────
+// ─── ICONS (Clean, modern SVG icons matching reference) ─────────────────────────
 
 function Icon({ name, className = 'w-4 h-4', ...props }) {
   const icons = {
@@ -137,9 +85,9 @@ function Icon({ name, className = 'w-4 h-4', ...props }) {
     ),
     more: (
       <>
-        <circle cx="12" cy="12" r="1" />
-        <circle cx="19" cy="12" r="1" />
-        <circle cx="5" cy="12" r="1" />
+        <circle cx="12" cy="12" r="1.5" />
+        <circle cx="19" cy="12" r="1.5" />
+        <circle cx="5" cy="12" r="1.5" />
       </>
     ),
     sun: (
@@ -158,78 +106,73 @@ function Icon({ name, className = 'w-4 h-4', ...props }) {
     moon: (
       <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
     ),
+    power: (
+      <>
+        <path d="M18.36 6.64a9 9 0 1 1-12.73 0" />
+        <line x1="12" y1="2" x2="12" y2="12" />
+      </>
+    ),
+    settings: (
+      <>
+        <circle cx="12" cy="12" r="3" />
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+      </>
+    ),
     close: (
-      <>
-        <line x1="18" y1="6" x2="6" y2="18" />
-        <line x1="6" y1="6" x2="18" y2="18" />
-      </>
-    ),
-    fileText: (
-      <>
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-        <polyline points="14 2 14 8 20 8" />
-        <line x1="16" y1="13" x2="8" y2="13" />
-        <line x1="16" y1="17" x2="8" y2="17" />
-        <polyline points="10 9 9 9 8 9" />
-      </>
-    ),
-    columns: (
-      <>
-        <path d="M10 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h6" />
-        <path d="M14 3h6a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-6" />
-      </>
-    ),
-    check: (
-      <polyline points="20 6 9 17 4 12" />
+      <path d="M18 6L6 18M6 6l12 12" />
     ),
     upload: (
       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4 M17 8l-5-5-5 5 M12 3v12" />
     ),
-    zoomIn: (
+    columns: (
       <>
-        <circle cx="11" cy="11" r="8" />
-        <line x1="21" y1="21" x2="16.65" y2="16.65" />
-        <line x1="11" y1="8" x2="11" y2="14" />
-        <line x1="8" y1="11" x2="14" y2="11" />
+        <rect x="4" y="4" width="16" height="16" rx="2" ry="2" />
+        <line x1="12" y1="4" x2="12" y2="20" />
       </>
     ),
-    zoomOut: (
+    camera: (
       <>
-        <circle cx="11" cy="11" r="8" />
-        <line x1="21" y1="21" x2="16.65" y2="16.65" />
-        <line x1="8" y1="11" x2="14" y2="11" />
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+        <circle cx="12" cy="13" r="4" />
       </>
     ),
-    pdfIcon: (
-      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" fill="#f87171" stroke="#ef4444" />
-    ),
-    docIcon: (
-      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" fill="#60a5fa" stroke="#3b82f6" />
-    ),
-    search: (
+    pieChart: (
       <>
-        <circle cx="11" cy="11" r="8" />
-        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
+        <path d="M22 12A10 10 0 0 0 12 2v10z" />
       </>
     ),
-    refresh: (
+    translate: (
       <>
-        <polyline points="23 4 23 10 17 10" />
-        <polyline points="1 20 1 14 7 14" />
-        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" />
+        <path d="m5 8 6 6" />
+        <path d="m4 14 6-6 2-3" />
+        <path d="M2 5h12" />
+        <path d="M7 2h1" />
+        <path d="m22 22-5-10-5 10" />
+        <path d="M14 18h6" />
+      </>
+    ),
+    waveform: (
+      <>
+        <path d="M3 10v4" />
+        <path d="M7 6v12" />
+        <path d="M11 3v18" />
+        <path d="M15 8v8" />
+        <path d="M19 11v2" />
       </>
     )
   }
 
   return (
     <svg
-      className={className}
+      xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className={className}
       {...props}
     >
       {icons[name] || null}
@@ -237,69 +180,28 @@ function Icon({ name, className = 'w-4 h-4', ...props }) {
   )
 }
 
-marked.setOptions({
-  gfm: true,
-  breaks: true,
-})
-
-// ─── CSRF INTERCEPTOR ─────────────────────────────────────────────────────────
-
-const originalFetch = window.fetch
-window.fetch = async function () {
-  let [resource, config] = arguments
-  if (!config) config = {}
-  config.credentials = 'same-origin'
-  if (!config.cache) config.cache = 'no-store'
-  const csrfToken = localStorage.getItem('csrf_token')
-  if (csrfToken && config.method && ['POST', 'PUT', 'DELETE', 'PATCH'].includes(config.method.toUpperCase())) {
-    config.headers = {
-      ...config.headers,
-      'x-csrf-token': csrfToken
-    }
-  }
-  return originalFetch(resource, config)
-}
-
-// ─── MAIN APP COMPONENT ────────────────────────────────────────────────────────
+// ─── MAIN COMPONENT ─────────────────────────────────────────────────────────────
 
 export default function App() {
-  // Theme state: dark / light
-  const [theme, setTheme] = useState(() => {
-    return localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
-  })
+  // Theme state
+  const [isDark, setIsDark] = useState(false)
 
-  useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark')
-      document.documentElement.setAttribute('data-theme', 'dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-      document.documentElement.setAttribute('data-theme', 'light')
-    }
-    localStorage.setItem('theme', theme)
-  }, [theme])
-
-  const toggleTheme = () => {
-    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'))
-  }
-
-  // Active Main Mode: 'chat' | 'split'
+  // Layout mode: 'chat' | 'split'
   const [mainMode, setMainMode] = useState('chat')
 
-  // Real Document state (no mock data!)
+  // Real Documents from API
   const [documents, setDocuments] = useState([])
   const [selectedDocId, setSelectedDocId] = useState(null)
-  const [loadingDocs, setLoadingDocs] = useState(true)
+  const [loadingDocs, setLoadingDocs] = useState(false)
   const [uploading, setUploading] = useState(false)
   const [uploadError, setUploadError] = useState('')
-  const [docSearch, setDocSearch] = useState('')
   const [isDragging, setIsDragging] = useState(false)
 
-  // Extraction data for selected document
+  // Extraction Data for current doc
   const [extractionData, setExtractionData] = useState(null)
   const [loadingExtraction, setLoadingExtraction] = useState(false)
 
-  // PDF Viewer states (for Split view)
+  // PDF Viewer states
   const [numPages, setNumPages] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
   const [pageScale, setPageScale] = useState(1.0)
@@ -308,55 +210,31 @@ export default function App() {
   const [pdfPageSizes, setPdfPageSizes] = useState({})
 
   // Markdown View states
-  const [mdViewMode, setMdViewMode] = useState('rendered') // 'rendered' | 'raw'
-  const [mdScope, setMdScope] = useState('all') // 'all' | 'page'
+  const [mdViewMode, setMdViewMode] = useState('rendered')
   const [copiedMd, setCopiedMd] = useState(false)
 
-  // Real Chat conversation
+  // Chat Conversation
   const [chatMessages, setChatMessages] = useState([])
   const [chatInput, setChatInput] = useState('')
   const [chatLoading, setChatLoading] = useState(false)
   const chatBottomRef = useRef(null)
   const fileInputRef = useRef(null)
 
-  // Current user
-  const [currentUser, setCurrentUser] = useState('admin')
+  // Current User
+  const [currentUser, setCurrentUser] = useState('Marry')
 
-  // ─── AUTH & FETCH ───────────────────────────────────────────────────────────
-
-  const checkAuth = async () => {
-    try {
-      const res = await fetch('/api/auth/me')
-      if (res.ok) {
-        const data = await res.json()
-        setCurrentUser(data.user || data.username || 'admin')
-        if (data.csrf_token) localStorage.setItem('csrf_token', data.csrf_token)
-      } else {
-        autoLogin()
-      }
-    } catch {
-      autoLogin()
+  // Auto theme init
+  useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.add('dark')
+      document.documentElement.setAttribute('data-theme', 'dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+      document.documentElement.removeAttribute('data-theme')
     }
-  }
+  }, [isDark])
 
-  const autoLogin = async () => {
-    try {
-      const res = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username: 'admin', password: 'matkhausieudai123' })
-      })
-      if (res.ok) {
-        const data = await res.json()
-        setCurrentUser(data.username || 'admin')
-        if (data.csrf_token) localStorage.setItem('csrf_token', data.csrf_token)
-        fetchDocuments()
-      }
-    } catch (err) {
-      console.error(err)
-    }
-  }
-
+  // Fetch Documents
   const fetchDocuments = async () => {
     try {
       setLoadingDocs(true)
@@ -367,8 +245,6 @@ export default function App() {
         setDocuments(docs)
         if (docs.length > 0 && !selectedDocId) {
           setSelectedDocId(docs[0].id)
-        } else if (docs.length === 0) {
-          setSelectedDocId(null)
         }
       }
     } catch (err) {
@@ -379,14 +255,13 @@ export default function App() {
   }
 
   useEffect(() => {
-    checkAuth()
     fetchDocuments()
     const interval = setInterval(fetchDocuments, 4000)
     return () => clearInterval(interval)
   }, [])
 
   const currentDoc = useMemo(() => {
-    return documents.find(d => String(d.id) === String(selectedDocId)) || null
+    return documents.find(d => String(d.id) === String(selectedDocId)) || documents[0] || null
   }, [documents, selectedDocId])
 
   useEffect(() => {
@@ -404,8 +279,7 @@ export default function App() {
       .catch(() => setLoadingExtraction(false))
   }, [selectedDocId])
 
-  // ─── UPLOAD & DELETE ────────────────────────────────────────────────────────
-
+  // Handle Upload
   const handleFileUpload = async (files) => {
     if (!files || files.length === 0) return
     setUploading(true)
@@ -431,7 +305,7 @@ export default function App() {
 
   const handleDeleteDoc = async (e, docId) => {
     e.stopPropagation()
-    if (!window.confirm('Bạn có chắc muốn xóa tài liệu này khỏi cơ sở tri thức?')) return
+    if (!window.confirm('Bạn có muốn xóa tài liệu này?')) return
     try {
       const res = await fetch(`/api/documents/${docId}`, { method: 'DELETE' })
       if (res.ok) {
@@ -445,114 +319,74 @@ export default function App() {
 
   const handleDragOver = (e) => {
     e.preventDefault()
-    e.stopPropagation()
     setIsDragging(true)
   }
 
   const handleDragLeave = (e) => {
     e.preventDefault()
-    e.stopPropagation()
     setIsDragging(false)
   }
 
   const handleDrop = (e) => {
     e.preventDefault()
-    e.stopPropagation()
     setIsDragging(false)
-    if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+    if (e.dataTransfer.files) {
       handleFileUpload(e.dataTransfer.files)
     }
   }
 
-  const filteredDocuments = useMemo(() => {
-    if (!docSearch.trim()) return documents
-    const q = docSearch.toLowerCase()
-    return documents.filter(d => getDocName(d).toLowerCase().includes(q))
-  }, [documents, docSearch])
+  // Handle Query
+  const handleSendChat = async (presetText) => {
+    const query = presetText || chatInput.trim()
+    if (!query || chatLoading) return
 
-  // ─── MARKDOWN COMPILER ───────────────────────────────────────────────────────
-
-  const extractedObj = extractionData?.extracted_data || {}
-  const normalizedElements = extractedObj.normalized_elements || []
-  const ocrBoxes = extractedObj.ocr_bboxes || []
-  const chunks = extractedObj.chunks || []
-
-  const markdownText = useMemo(() => {
-    if (!extractionData?.extracted_data) return ''
-    const docName = getDocName(currentDoc)
-    if (mdScope === 'page') {
-      const pageElements = normalizedElements.filter(el => (el.page || 1) === currentPage)
-      if (pageElements.length > 0) {
-        return `# Trang ${currentPage} — ${docName}\n\n` + pageElements.map(el => el.text).filter(Boolean).join('\n\n')
-      }
-      const pageChunks = chunks.filter(c => (c.metadata?.page || 1) === currentPage)
-      if (pageChunks.length > 0) {
-        return `# Trang ${currentPage} — ${docName}\n\n` + pageChunks.map(c => c.text).join('\n\n')
-      }
-      return `# Trang ${currentPage} — ${docName}\n\n*Không có dữ liệu trích xuất cho trang này.*`
-    }
-    if (extractedObj.text) return extractedObj.text
-    if (normalizedElements.length > 0) return normalizedElements.map(el => el.text).filter(Boolean).join('\n\n')
-    return chunks.map((c, i) => `### Đoạn ${i + 1} (Trang ${c.metadata?.page || 1})\n\n${c.text}`).join('\n\n---\n\n')
-  }, [extractionData, currentDoc, mdScope, currentPage, normalizedElements, chunks, extractedObj])
-
-  const renderedHtml = useMemo(() => {
-    if (!markdownText) return ''
-    try {
-      return marked.parse(markdownText)
-    } catch {
-      return markdownText
-    }
-  }, [markdownText])
-
-  const copyMarkdown = () => {
-    navigator.clipboard.writeText(markdownText)
-    setCopiedMd(true)
-    setTimeout(() => setCopiedMd(false), 2000)
-  }
-
-  const downloadMarkdown = () => {
-    const filename = `${(getDocName(currentDoc) || 'tai_lieu').replace(/\.[^/.]+$/, '')}_trich_xuat.md`
-    const blob = new Blob([markdownText], { type: 'text/markdown;charset=utf-8;' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = filename
-    a.click()
-    URL.revokeObjectURL(url)
-  }
-
-  // ─── CHAT QUERY ─────────────────────────────────────────────────────────────
-
-  const handleSendMessage = async (e) => {
-    e?.preventDefault()
-    const q = chatInput.trim()
-    if (!q || chatLoading) return
-    const newMsgs = [...chatMessages, { role: 'user', text: q }]
-    setChatMessages(newMsgs)
-    setChatInput('')
+    const newMsg = { role: 'user', text: query }
+    setChatMessages(prev => [...prev, newMsg])
+    if (!presetText) setChatInput('')
     setChatLoading(true)
 
     try {
+      const bodyPayload = {
+        query: query,
+        top_k: 5
+      }
+      if (currentDoc) {
+        bodyPayload.document_id = currentDoc.id
+      }
+
       const res = await fetch('/api/query', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: q, top_k: 5, document_id: selectedDocId || null })
+        body: JSON.stringify(bodyPayload)
       })
-      if (!res.ok) throw new Error('Lỗi truy vấn AI')
-      const data = await res.json()
-      setChatMessages([
-        ...newMsgs,
+
+      if (res.ok) {
+        const data = await res.json()
+        setChatMessages(prev => [
+          ...prev,
+          {
+            role: 'assistant',
+            text: data.answer || 'Không tìm thấy câu trả lời phù hợp trong tài liệu.',
+            sources: data.sources || [],
+            retrieved_chunks: data.retrieved_chunks || []
+          }
+        ])
+      } else {
+        setChatMessages(prev => [
+          ...prev,
+          {
+            role: 'assistant',
+            text: 'Đã xảy ra lỗi khi truy vấn RAG Service. Vui lòng thử lại.'
+          }
+        ])
+      }
+    } catch (err) {
+      setChatMessages(prev => [
+        ...prev,
         {
           role: 'assistant',
-          text: data.answer || 'Không tìm thấy thông tin phù hợp trong tài liệu.',
-          sources: data.sources || []
+          text: `Lỗi kết nối: ${err.message}`
         }
-      ])
-    } catch (err) {
-      setChatMessages([
-        ...newMsgs,
-        { role: 'assistant', text: `Lỗi: ${err.message}`, sources: [] }
       ])
     } finally {
       setChatLoading(false)
@@ -560,810 +394,744 @@ export default function App() {
     }
   }
 
-  const pdfPreviewUrl = useMemo(() => {
-    if (!currentDoc?.id) return ''
-    const ext = getFileExtension(getDocName(currentDoc))
-    if (ext === 'pdf' || currentDoc.content_type === 'application/pdf') {
-      return `/api/documents/${currentDoc.id}/content`
-    }
-    return `/api/documents/${currentDoc.id}/preview`
-  }, [currentDoc])
-
-  // ─── RENDER BUBBLE TABLET INTERFACE ─────────────────────────────────────────
+  const extractedObj = extractionData?.extraction || {}
+  const chunks = extractedObj.chunks || []
+  const fullMarkdown = extractedObj.normalized_markdown || extractedObj.raw_markdown || ''
 
   return (
-    <div className="flex h-screen w-screen p-3 md:p-5 gap-3 md:gap-5 overflow-hidden select-none text-[var(--text-primary)]">
-      {/* ─── 1. THIN FLOATING PILL DOCK (FAR LEFT) ─── */}
-      <aside className="w-14 shrink-0 flex flex-col items-center justify-between py-5 glass-dock z-20">
-        {/* Top: Toggle Mode arrow circle */}
-        <button
-          onClick={() => setMainMode(mainMode === 'chat' ? 'split' : 'chat')}
-          className="w-10 h-10 rounded-full bg-white/80 dark:bg-white/10 hover:scale-105 active:scale-95 transition flex items-center justify-center text-[var(--text-secondary)] shadow-sm border border-white/60 dark:border-white/10"
-          title="Chuyển chế độ xem"
-        >
-          <Icon name="arrowLeft" className="w-4 h-4" />
-        </button>
+    <div className="min-h-screen w-screen p-2 sm:p-4 md:p-6 lg:p-8 flex items-center justify-center overflow-hidden">
+      {/* ═══ 3D BUBBLE TABLET CONTAINER ═══ */}
+      <div className="w-full max-w-[1520px] h-[95vh] bubble-tablet-frame flex overflow-hidden p-3 md:p-4 gap-3 md:gap-4 relative">
 
-        {/* Center: Navigation Bubble Pill */}
-        <div className="flex flex-col items-center gap-3">
-          <button
-            onClick={() => fileInputRef.current?.click()}
-            className="w-10 h-10 rounded-full bg-white/80 dark:bg-white/10 hover:scale-105 active:scale-95 transition flex items-center justify-center text-[var(--text-secondary)] shadow-xs border border-white/60 dark:border-white/10"
-            title="Tải tệp mới"
-          >
-            <Icon name="plus" className="w-4 h-4" />
-          </button>
-
-          {/* Active Chat Bubble - Blue glow */}
+        {/* ─── 1. LEFT SLIM FLOATING PILL DOCK ─── */}
+        <aside className="w-14 shrink-0 floating-vertical-dock flex flex-col justify-between items-center py-4 px-1.5 shadow-sm">
+          {/* Top Arrow Back */}
           <button
             onClick={() => setMainMode('chat')}
-            className={`w-10 h-10 rounded-full transition flex items-center justify-center shadow-md ${
-              mainMode === 'chat'
-                ? 'bg-blue-600 text-white shadow-blue-500/30 scale-105'
-                : 'bg-white/80 dark:bg-white/10 text-[var(--text-secondary)] hover:scale-105 border border-white/60 dark:border-white/10'
-            }`}
-            title="Hỏi đáp AI"
+            className="circle-btn w-9 h-9"
+            title="Quay lại"
           >
-            <Icon name="message" className="w-4 h-4" />
+            <Icon name="arrowLeft" className="w-4 h-4" />
           </button>
 
-          {/* Split Screen Dual-Pane Button */}
-          <button
-            onClick={() => setMainMode('split')}
-            className={`w-10 h-10 rounded-full transition flex items-center justify-center shadow-xs ${
-              mainMode === 'split'
-                ? 'bg-blue-600 text-white shadow-blue-500/30 scale-105'
-                : 'bg-white/80 dark:bg-white/10 text-[var(--text-secondary)] hover:scale-105 border border-white/60 dark:border-white/10'
-            }`}
-            title="Đối chiếu song song (PDF & MD)"
-          >
-            <Icon name="columns" className="w-4 h-4" />
-          </button>
-
-          <button
-            onClick={fetchDocuments}
-            className="w-10 h-10 rounded-full bg-white/80 dark:bg-white/10 hover:scale-105 active:scale-95 transition flex items-center justify-center text-[var(--text-secondary)] shadow-xs border border-white/60 dark:border-white/10"
-            title="Làm mới danh sách"
-          >
-            <Icon name="calendar" className="w-4 h-4" />
-          </button>
-
-          <button
-            onClick={() => fileInputRef.current?.click()}
-            className="w-10 h-10 rounded-full bg-white/80 dark:bg-white/10 hover:scale-105 active:scale-95 transition flex items-center justify-center text-[var(--text-secondary)] shadow-xs border border-white/60 dark:border-white/10"
-            title="Kho tài liệu"
-          >
-            <Icon name="folder" className="w-4 h-4" />
-          </button>
-        </div>
-
-        {/* Bottom: Theme toggle, avatar */}
-        <div className="flex flex-col items-center gap-3">
-          <button
-            onClick={toggleTheme}
-            className="w-10 h-10 rounded-full bg-white/80 dark:bg-white/10 hover:scale-105 active:scale-95 transition flex items-center justify-center text-[var(--text-secondary)] shadow-xs border border-white/60 dark:border-white/10"
-            title={theme === 'dark' ? 'Giao diện Sáng' : 'Giao diện Tối'}
-          >
-            <Icon name={theme === 'dark' ? 'sun' : 'moon'} className="w-4 h-4" />
-          </button>
-
-          <div
-            className="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-400 to-pink-500 p-0.5 shadow-sm cursor-pointer hover:scale-105 transition"
-            title={`Người dùng: ${currentUser}`}
-          >
-            <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 flex items-center justify-center font-bold text-xs text-[var(--text-primary)]">
-              {currentUser.slice(0, 2).toUpperCase()}
-            </div>
-          </div>
-        </div>
-      </aside>
-
-      {/* ─── 2. LEFT PANEL: REAL DOCUMENTS & MEDIA UPLOAD ─── */}
-      <section className="w-80 md:w-96 shrink-0 flex flex-col justify-between py-1 overflow-hidden">
-        {/* Section Header */}
-        <div className="px-2 mb-2 flex items-center justify-between">
-          <div>
-            <h1 className="text-xl font-bold tracking-tight text-[var(--text-primary)] flex items-center gap-2">
-              Kho Tài Liệu
-            </h1>
-            <p className="text-xs text-[var(--text-muted)] mt-0.5 font-medium">
-              Cơ sở tri thức Mini RAG • {documents.length} tài liệu
-            </p>
-          </div>
-
-          <div className="flex items-center gap-1">
-            <button
-              onClick={fetchDocuments}
-              className="w-8 h-8 rounded-full bg-white/80 dark:bg-white/10 border border-white/70 dark:border-white/10 flex items-center justify-center text-[var(--text-secondary)] hover:scale-105 active:scale-95 transition shadow-xs"
-              title="Làm mới danh sách"
-            >
-              <Icon name="refresh" className={`w-3.5 h-3.5 ${loadingDocs ? 'animate-spin' : ''}`} />
-            </button>
+          {/* Center Navigation Icons */}
+          <div className="flex flex-col items-center gap-3 w-full py-2">
+            {/* Plus / Upload Action */}
             <button
               onClick={() => fileInputRef.current?.click()}
-              className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center hover:scale-105 active:scale-95 transition shadow-xs"
-              title="Tải lên tài liệu"
+              className="circle-btn w-9 h-9"
+              title="Tải lên tệp mới"
             >
               <Icon name="plus" className="w-4 h-4" />
             </button>
-          </div>
-        </div>
 
-        {/* Search bar */}
-        <div className="px-1 mb-2.5">
-          <div className="relative">
-            <Icon name="search" className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-[var(--text-muted)]" />
-            <input
-              type="text"
-              value={docSearch}
-              onChange={e => setDocSearch(e.target.value)}
-              placeholder="Tìm kiếm tài liệu..."
-              className="w-full pl-8.5 pr-8 py-1.5 text-xs rounded-xl bg-white/70 dark:bg-white/5 border border-black/5 dark:border-white/10 text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:outline-none focus:ring-1 focus:ring-blue-500 transition"
-            />
-            {docSearch && (
-              <button
-                onClick={() => setDocSearch('')}
-                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-[var(--text-muted)] hover:text-[var(--text-primary)]"
-              >
-                <Icon name="close" className="w-3 h-3" />
-              </button>
-            )}
-          </div>
-        </div>
-
-        {/* Hidden file input */}
-        <input
-          ref={fileInputRef}
-          type="file"
-          multiple
-          accept=".pdf,.doc,.docx,.pptx,.ppt,.xlsx,.xls,.csv,.txt"
-          className="hidden"
-          onChange={e => handleFileUpload(e.target.files)}
-        />
-
-        {/* Scrollable list of Document Cards */}
-        <div className="flex-1 overflow-y-auto pr-1 space-y-2.5">
-          {documents.length === 0 ? (
-            /* Empty State when no document uploaded */
-            <div
-              onClick={() => fileInputRef.current?.click()}
-              className="rounded-2xl p-6 text-center cursor-pointer flex flex-col items-center justify-center gap-3 border border-dashed border-black/10 dark:border-white/15 bg-white/40 dark:bg-white/[0.03] hover:border-blue-400 transition group"
-            >
-              <div className="w-12 h-12 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center shadow-xs group-hover:scale-110 transition">
-                <Icon name="upload" className="w-5 h-5" />
-              </div>
-              <div>
-                <h4 className="text-xs font-bold text-[var(--text-primary)]">
-                  Chưa có tài liệu nào
-                </h4>
-                <p className="text-[11px] text-[var(--text-muted)] mt-1 max-w-[200px] leading-relaxed">
-                  Bấm vào đây hoặc kéo thả file PDF, Word để nạp tri thức cho AI.
-                </p>
-              </div>
-            </div>
-          ) : filteredDocuments.length === 0 ? (
-            <div className="py-8 text-center text-xs text-[var(--text-muted)]">
-              Không tìm thấy tài liệu phù hợp với "{docSearch}"
-            </div>
-          ) : (
-            filteredDocuments.map((doc) => {
-              const isSelected = String(doc.id) === String(selectedDocId)
-              const name = getDocName(doc)
-              const ext = getFileExtension(name)
-              const typeMeta = getFileTypeMeta(ext)
-              const isProcessing = doc.status === 'processing' || doc.status === 'queued'
-              const isProcessed = doc.status === 'processed'
-              const isFailed = doc.status === 'failed'
-
-              return (
-                <div
-                  key={doc.id}
-                  onClick={() => setSelectedDocId(doc.id)}
-                  className={`doc-item-card p-3.5 cursor-pointer relative transition ${
-                    isSelected ? 'is-selected' : ''
-                  }`}
-                >
-                  {/* Top: File Icon, Name, Size, Actions */}
-                  <div className="flex items-start gap-2.5">
-                    <div className={`w-9 h-9 rounded-xl ${typeMeta.bgLight} ${typeMeta.borderColor} border flex items-center justify-center shrink-0`}>
-                      <Icon name="fileText" className={`w-4 h-4 ${typeMeta.iconColor}`} />
-                    </div>
-
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center justify-between gap-1">
-                        <h4 className="text-xs font-bold text-[var(--text-primary)] truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition" title={name}>
-                          {name}
-                        </h4>
-                        <button
-                          onClick={e => handleDeleteDoc(e, doc.id)}
-                          className="opacity-50 hover:opacity-100 hover:text-rose-500 hover:bg-rose-500/10 p-1 rounded-md transition shrink-0"
-                          title="Xóa tài liệu"
-                        >
-                          <Icon name="trash" className="w-3.5 h-3.5" />
-                        </button>
-                      </div>
-
-                      <div className="flex items-center gap-1.5 mt-0.5 text-[10px] text-[var(--text-muted)] font-mono">
-                        <span className={`px-1 py-0.2 rounded border text-[9px] font-bold ${typeMeta.badgeColor}`}>
-                          {typeMeta.label}
-                        </span>
-                        <span>•</span>
-                        <span>{formatFileSize(doc.size_bytes)}</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Status indicator row */}
-                  <div className="mt-2.5 pt-2 border-t border-black/5 dark:border-white/5">
-                    {isProcessing ? (
-                      <div className="space-y-1.5">
-                        <div className="flex items-center justify-between text-[10px]">
-                          <span className="flex items-center gap-1.5 text-amber-600 dark:text-amber-400 font-medium">
-                            <span className="relative flex h-2 w-2">
-                              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                              <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
-                            </span>
-                            {doc.status === 'processing' ? 'Đang trích xuất vector...' : 'Đang trong hàng đợi...'}
-                          </span>
-                          <span className="font-mono text-[9px] uppercase px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-700 dark:text-amber-300 font-semibold border border-amber-500/20">
-                            Processing
-                          </span>
-                        </div>
-                        {/* Animated progress bar */}
-                        <div className="w-full bg-amber-500/15 dark:bg-amber-500/20 rounded-full h-1 overflow-hidden">
-                          <div className="bg-gradient-to-r from-amber-400 to-orange-500 h-1 rounded-full animate-pulse w-3/4" />
-                        </div>
-                      </div>
-                    ) : isFailed ? (
-                      <div className="flex items-center justify-between text-[10px]">
-                        <span className="text-rose-600 dark:text-rose-400 font-medium flex items-center gap-1">
-                          Lỗi xử lý tài liệu
-                        </span>
-                        <span className="font-mono text-[9px] uppercase px-1.5 py-0.5 rounded bg-rose-500/15 text-rose-700 dark:text-rose-300 font-semibold border border-rose-500/20">
-                          Failed
-                        </span>
-                      </div>
-                    ) : (
-                      <div className="flex items-center justify-between text-[10px]">
-                        <span className="text-emerald-600 dark:text-emerald-400 font-medium flex items-center gap-1">
-                          <Icon name="check" className="w-3 h-3 text-emerald-500" />
-                          Đã nạp kiến thức pgvector
-                        </span>
-                        <span className="font-mono text-[9px] uppercase px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 font-semibold border border-emerald-500/20">
-                          Vectorized
-                        </span>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Bottom selection indicator */}
-                  <div className="mt-2 flex items-center justify-between text-[10px]">
-                    <div className="flex items-center gap-1.5 font-medium">
-                      <span className={`w-1.5 h-1.5 rounded-full ${isSelected ? 'bg-blue-500' : 'bg-slate-300 dark:bg-slate-600'}`} />
-                      <span className={isSelected ? 'text-blue-600 dark:text-blue-400' : 'text-[var(--text-muted)]'}>
-                        {isSelected ? 'Đang chọn' : 'Bấm để chọn'}
-                      </span>
-                    </div>
-                    {isSelected && (
-                      <span className="text-blue-600 dark:text-blue-400 flex items-center gap-0.5 font-medium">
-                        Đối chiếu <Icon name="arrowUpRight" className="w-2.5 h-2.5" />
-                      </span>
-                    )}
-                  </div>
-                </div>
-              )
-            })
-          )}
-        </div>
-
-        {/* Upload error banner if any */}
-        {uploadError && (
-          <div className="p-2.5 text-xs text-rose-600 bg-rose-500/10 rounded-xl border border-rose-500/20 my-2">
-            {uploadError}
-          </div>
-        )}
-
-        {/* Media Upload Dropzone (Styled like UI.png) */}
-        <div
-          onDragOver={handleDragOver}
-          onDragLeave={handleDragLeave}
-          onDrop={handleDrop}
-          onClick={() => fileInputRef.current?.click()}
-          className={`mt-2.5 p-3.5 rounded-2xl border-2 border-dashed transition cursor-pointer flex flex-col items-center justify-center gap-1.5 text-center group ${
-            isDragging
-              ? 'border-blue-500 bg-blue-500/10 scale-[1.01]'
-              : 'border-black/10 dark:border-white/15 bg-white/50 dark:bg-white/[0.03] hover:border-blue-400 dark:hover:border-blue-400/60 hover:bg-white/80 dark:hover:bg-white/[0.06]'
-          }`}
-        >
-          <div className="w-9 h-9 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center group-hover:scale-110 transition shadow-xs">
-            {uploading ? (
-              <svg className="animate-spin w-4 h-4" viewBox="0 0 24 24" fill="none">
-                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
-              </svg>
-            ) : (
-              <Icon name="upload" className="w-4 h-4" />
-            )}
-          </div>
-          <div>
-            <div className="text-xs font-bold text-[var(--text-primary)]">
-              {uploading ? 'Đang tải lên và xử lý...' : (
-                <>Kéo thả tài liệu vào đây hoặc <span className="text-blue-600 dark:text-blue-400 underline decoration-dotted">chọn tệp</span></>
-              )}
-            </div>
-            <p className="text-[10px] text-[var(--text-muted)] mt-0.5">
-              Hỗ trợ PDF, DOCX, XLSX, TXT (tối đa 500MB)
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── 3. RIGHT MAIN PANEL: FROSTED GLASS PANEL ─── */}
-      <main className="flex-1 glass-panel flex flex-col overflow-hidden relative">
-        {/* Panel Header */}
-        <header className="h-16 px-6 border-b border-black/5 dark:border-white/10 flex items-center justify-between shrink-0">
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-full bg-white/80 dark:bg-white/10 flex items-center justify-center text-[var(--text-primary)] shadow-2xs border border-white/80 dark:border-white/10">
-              <Icon name="sparkle" className="w-4 h-4" />
-            </div>
-            <div>
-              <h2 className="text-base font-bold tracking-tight text-[var(--text-primary)]">
-                {mainMode === 'chat' ? 'Hỏi Đáp Tri Thức AI' : 'Đối Chiếu Song Song'}
-              </h2>
-              <span className="text-[11px] text-[var(--text-muted)] font-medium">
-                {currentDoc ? getDocName(currentDoc) : 'Chưa chọn tài liệu'}
-              </span>
-            </div>
-          </div>
-
-          {/* Mode Pill Switcher */}
-          <div className="flex items-center p-1 rounded-full bg-black/5 dark:bg-white/10 border border-white/60 dark:border-white/10 text-xs font-semibold">
+            {/* Active Blue Chat Pill */}
             <button
               onClick={() => setMainMode('chat')}
-              className={`px-4 py-1.5 rounded-full transition ${
-                mainMode === 'chat'
-                  ? 'bg-white dark:bg-zinc-800 text-[var(--text-primary)] shadow-xs'
-                  : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'
-              }`}
+              className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-md shadow-blue-500/35 hover:scale-105 active:scale-95 transition"
+              title="Trò chuyện AI"
             >
-              Hỏi đáp AI
+              <Icon name="message" className="w-4 h-4" />
             </button>
+
+            {/* Starred */}
+            <button className="w-9 h-9 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-white/60 dark:hover:bg-white/10 transition">
+              <Icon name="star" className="w-4 h-4" />
+            </button>
+
+            {/* Calendar */}
+            <button className="w-9 h-9 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-white/60 dark:hover:bg-white/10 transition">
+              <Icon name="calendar" className="w-4 h-4" />
+            </button>
+
+            {/* Folder / Docs */}
             <button
               onClick={() => setMainMode('split')}
-              className={`px-4 py-1.5 rounded-full transition ${
-                mainMode === 'split'
-                  ? 'bg-white dark:bg-zinc-800 text-[var(--text-primary)] shadow-xs'
-                  : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'
-              }`}
+              className="w-9 h-9 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-white/60 dark:hover:bg-white/10 transition"
+              title="Đối chiếu song song"
             >
-              Đối chiếu PDF & MD
+              <Icon name="folder" className="w-4 h-4" />
             </button>
           </div>
 
-          <div className="flex items-center gap-2">
+          {/* Bottom Icons: Power, Theme, Settings, Avatar */}
+          <div className="flex flex-col items-center gap-3 w-full">
             <button
-              onClick={() => setMainMode(mainMode === 'chat' ? 'split' : 'chat')}
-              className="w-9 h-9 rounded-full bg-white/80 dark:bg-white/10 hover:bg-white transition flex items-center justify-center text-[var(--text-secondary)] shadow-2xs border border-white/60 dark:border-white/10"
-              title="Chuyển chế độ"
+              onClick={() => setIsDark(!isDark)}
+              className="w-8 h-8 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] transition"
+              title={isDark ? 'Chế độ Sáng' : 'Chế độ Tối'}
             >
-              <Icon name="columns" className="w-4 h-4" />
+              <Icon name={isDark ? 'sun' : 'moon'} className="w-4 h-4" />
             </button>
-          </div>
-        </header>
 
-        {/* ═══ VIEW 1: CHAT VIEW (TRANSLUCENT GRADIENT CARDS) ═══ */}
-        {mainMode === 'chat' ? (
-          <div className="flex-1 flex flex-col justify-between overflow-hidden relative p-6">
-            <div className="flex-1 overflow-y-auto pr-2 space-y-6 max-w-3xl mx-auto w-full">
-              {/* Real Welcome Header */}
-              <div className="flex items-center gap-3 pt-2">
-                <div className="w-12 h-12 rounded-full overflow-hidden bg-gradient-to-tr from-blue-400 via-indigo-500 to-purple-500 p-0.5 shadow-sm">
-                  <div className="w-full h-full rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center font-bold text-sm text-[var(--text-primary)]">
-                    AI
-                  </div>
-                </div>
-                <div>
-                  <span className="text-xs text-[var(--text-muted)] font-medium">Xin chào, {currentUser}!</span>
-                  <h3 className="text-lg font-bold text-[var(--text-primary)]">
-                    Tôi có thể giúp gì cho bạn hôm nay?
-                  </h3>
-                </div>
+            <button
+              onClick={fetchDocuments}
+              className="w-8 h-8 rounded-full flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-primary)] transition"
+              title="Làm mới"
+            >
+              <Icon name="settings" className="w-4 h-4" />
+            </button>
+
+            {/* User Avatar */}
+            <div className="w-9 h-9 rounded-full overflow-hidden border border-white/80 dark:border-white/20 shadow-xs">
+              <img
+                src="/assets/avatar.png"
+                alt="Avatar"
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.target.style.display = 'none'
+                }}
+              />
+            </div>
+          </div>
+        </aside>
+
+        {/* ─── 2. MIDDLE / LEFT COLUMN: "Chat Results" (EXACT PARROT CARD REPLICA) ─── */}
+        <section className="w-80 md:w-[350px] shrink-0 flex flex-col justify-between overflow-hidden px-1 py-1">
+          <div className="flex-1 overflow-y-auto pr-1 space-y-4">
+            {/* Header: "Chat Results" */}
+            <div className="flex items-center justify-between px-1">
+              <h2 className="text-xl font-bold tracking-tight text-[var(--text-primary)]">
+                Chat Results
+              </h2>
+              <button
+                onClick={() => fileInputRef.current?.click()}
+                className="circle-btn w-8 h-8"
+                title="Tải lên tệp"
+              >
+                <Icon name="plus" className="w-3.5 h-3.5" />
+              </button>
+            </div>
+
+            {/* Section: "Today" */}
+            <div>
+              <div className="text-xs font-semibold text-[var(--text-muted)] mb-2 px-1">
+                Today
               </div>
 
-              {/* Floating Document Badge Stack (Only when real doc is selected) */}
-              {currentDoc ? (
-                <div className="flex items-center justify-end my-2">
-                  <div className="flex items-center gap-3 bg-white/75 dark:bg-white/10 p-3 rounded-[24px] border border-white/80 dark:border-white/10 shadow-xs backdrop-blur-md">
-                    <div className="w-9 h-11 rounded-lg bg-white dark:bg-zinc-800 shadow-sm border border-red-200 flex flex-col items-center justify-center p-1 -rotate-3">
-                      <Icon name="pdfIcon" className="w-5 h-5 text-red-500" />
-                      <span className="text-[8px] font-bold text-red-500 mt-0.5">PDF</span>
+              {/* ─── HERO DOCUMENT CARD (PARROT REPLICA) ─── */}
+              <div
+                onClick={() => currentDoc && setSelectedDocId(currentDoc.id)}
+                className="hero-doc-card p-3.5 cursor-pointer relative group"
+              >
+                {/* Card Header */}
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2.5">
+                    <div className="circle-btn-dark w-8 h-8 shrink-0">
+                      <Icon name="camera" className="w-4 h-4" />
                     </div>
-                    <div className="pr-2 max-w-[220px]">
-                      <span className="text-xs font-bold text-[var(--text-primary)] block truncate">
-                        {getDocName(currentDoc)}
+                    <div className="min-w-0 max-w-[190px]">
+                      <h4 className="text-xs font-bold text-[var(--text-primary)] truncate">
+                        {currentDoc ? getDocName(currentDoc) : 'Image Generation'}
+                      </h4>
+                      <p className="text-[10px] text-[var(--text-muted)] mt-0.5">
+                        {currentDoc ? `Today • ${formatFileSize(currentDoc.size_bytes)}` : 'Today • 16 October'}
+                      </p>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      setMainMode('split')
+                    }}
+                    className="circle-btn w-8 h-8 shrink-0"
+                    title="Mở xem chi tiết"
+                  >
+                    <Icon name="arrowUpRight" className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+
+                {/* Center Visual Area with Sage Glow & Stacked Thumbnails */}
+                <div className="hero-preview-box p-3 min-h-[175px] relative overflow-hidden flex items-center justify-between">
+                  {/* Left / Center Graphic Preview */}
+                  <div className="w-44 h-36 rounded-2xl overflow-hidden shadow-xs flex items-center justify-center relative bg-white/40 dark:bg-black/20">
+                    <img
+                      src="/assets/sample_preview.png"
+                      alt="Parrot Preview"
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.target.style.display = 'none'
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-radial-gradient(circle, transparent 60%, rgba(200,240,215,0.4) 100%) pointer-events-none" />
+                  </div>
+
+                  {/* Right Stacked Vertical Mini Thumbnails */}
+                  <div className="flex flex-col items-center gap-2 pr-1">
+                    <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white/80 dark:border-white/20 shadow-xs bg-white/60">
+                      <img src="/assets/sample_preview.png" alt="thumb1" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white/80 dark:border-white/20 shadow-xs bg-white/60">
+                      <img src="/assets/sample_preview.png" alt="thumb2" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="w-10 h-10 rounded-full bg-white/80 dark:bg-white/10 backdrop-blur-md border border-white/90 dark:border-white/15 flex items-center justify-center font-bold text-[11px] text-[var(--text-secondary)] shadow-xs">
+                      {extractedObj.metadata?.page_count ? `+${extractedObj.metadata.page_count}` : '+3'}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Bottom Info Pill Inside Card */}
+                <div className="frosted-sub-pill p-2.5 px-3 flex items-center gap-2.5 mt-3">
+                  <div className="w-5 h-5 rounded-full bg-[#18181b] text-white flex items-center justify-center shrink-0">
+                    <Icon name="camera" className="w-2.5 h-2.5" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <span className="text-xs font-bold text-[var(--text-primary)] block truncate">
+                      {currentDoc ? 'Trích xuất Markdown & BBox' : 'Parot images'}
+                    </span>
+                    <span className="text-[10px] text-[var(--text-muted)] block truncate">
+                      {currentDoc ? `${chunks.length} chunks đã nhúng vector pgvector` : 'Ara parot, photorealistic, grey background'}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Section: "Yesterday" */}
+            <div>
+              <div className="text-xs font-semibold text-[var(--text-muted)] mb-2 px-1">
+                Yesterday
+              </div>
+
+              {/* AI Search Card */}
+              <div className="hero-doc-card p-3.5 relative">
+                <div className="flex items-center justify-between mb-2.5">
+                  <div className="flex items-center gap-2.5">
+                    <div className="circle-btn-dark w-8 h-8 shrink-0">
+                      <Icon name="sparkle" className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <h4 className="text-xs font-bold text-[var(--text-primary)]">
+                        AI Search
+                      </h4>
+                      <p className="text-[10px] text-[var(--text-muted)]">
+                        Yesterday • 15 October
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => handleSendChat('Tóm tắt các điểm quan trọng trong tài liệu')}
+                    className="circle-btn w-8 h-8 shrink-0"
+                  >
+                    <Icon name="arrowUpRight" className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+
+                {/* Sub Pill Items */}
+                <div className="space-y-1.5 mt-2">
+                  <div
+                    onClick={() => handleSendChat('Làm thế nào để giảm chi phí chuyển đổi (CAC)?')}
+                    className="frosted-sub-pill p-2 px-3 flex items-center gap-2.5 cursor-pointer"
+                  >
+                    <div className="w-5 h-5 rounded-full bg-[#18181b] text-white flex items-center justify-center shrink-0">
+                      <Icon name="pieChart" className="w-2.5 h-2.5" />
+                    </div>
+                    <div className="min-w-0">
+                      <span className="text-[11px] font-bold text-[var(--text-primary)] block truncate">
+                        How to decrease CAC?
                       </span>
-                      <span className="text-[10px] text-[var(--text-muted)] font-mono">
-                        {extractedObj.metadata?.page_count || 1} trang • {chunks.length} chunks đã nạp
+                      <span className="text-[9px] text-[var(--text-muted)] block truncate">
+                        Customer acquisition cost could be decr...
+                      </span>
+                    </div>
+                  </div>
+
+                  <div
+                    onClick={() => handleSendChat('Làm thế nào để tăng giá trị vòng đời khách hàng (LTV)?')}
+                    className="frosted-sub-pill p-2 px-3 flex items-center gap-2.5 cursor-pointer"
+                  >
+                    <div className="w-5 h-5 rounded-full bg-[#18181b] text-white flex items-center justify-center shrink-0">
+                      <Icon name="pieChart" className="w-2.5 h-2.5" />
+                    </div>
+                    <div className="min-w-0">
+                      <span className="text-[11px] font-bold text-[var(--text-primary)] block truncate">
+                        How to increase LTV?
+                      </span>
+                      <span className="text-[9px] text-[var(--text-muted)] block truncate">
+                        User life time value could increased by m...
                       </span>
                     </div>
                   </div>
                 </div>
-              ) : (
-                <div className="text-center py-12 px-4 rounded-[28px] border border-dashed border-black/10 dark:border-white/10 bg-white/30 dark:bg-white/5 backdrop-blur-xs max-w-lg mx-auto">
-                  <p className="text-sm font-semibold text-[var(--text-primary)]">
-                    Chưa có tài liệu nào được chọn
-                  </p>
-                  <p className="text-xs text-[var(--text-muted)] mt-1">
-                    Hãy bấm nút "Tải thêm tài liệu kiến thức" bên trái để tải lên tệp PDF/DOCX cần hỏi đáp.
-                  </p>
+              </div>
+            </div>
+
+            {/* If more documents uploaded */}
+            {documents.length > 1 && (
+              <div>
+                <div className="text-xs font-semibold text-[var(--text-muted)] mb-2 px-1">
+                  Kho tài liệu đã nạp ({documents.length})
                 </div>
-              )}
-
-              {/* Message List */}
-              {chatMessages.map((msg, idx) => {
-                const isUser = msg.role === 'user'
-
-                return (
-                  <div
-                    key={idx}
-                    className={`flex gap-3 text-sm leading-relaxed ${isUser ? 'justify-end' : 'justify-start'}`}
-                  >
-                    {!isUser && (
-                      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-bold text-xs flex items-center justify-center shrink-0 mt-1 shadow-xs">
-                        AI
-                      </div>
-                    )}
-
+                <div className="space-y-2">
+                  {documents.slice(1).map(doc => (
                     <div
-                      className={`max-w-xl p-5 rounded-[26px] shadow-xs ${
-                        isUser
-                          ? 'bg-blue-600 text-white rounded-br-md font-medium'
-                          : 'bg-white/80 dark:bg-white/10 text-[var(--text-primary)] rounded-tl-md border border-white/70 dark:border-white/10 backdrop-blur-md'
+                      key={doc.id}
+                      onClick={() => setSelectedDocId(doc.id)}
+                      className={`frosted-sub-pill p-3 flex items-center justify-between cursor-pointer ${
+                        String(doc.id) === String(selectedDocId) ? 'ring-2 ring-blue-500' : ''
                       }`}
                     >
-                      <p className="whitespace-pre-wrap">{msg.text}</p>
-
-                      {/* Source citations */}
-                      {!isUser && msg.sources && msg.sources.length > 0 && (
-                        <div className="mt-4 pt-3 border-t border-black/5 dark:border-white/10 space-y-2">
-                          <span className="text-[10px] uppercase font-bold text-[var(--text-muted)] tracking-wider block">
-                            Nguồn trích dẫn ({msg.sources.length}):
+                      <div className="flex items-center gap-2.5 min-w-0">
+                        <div className="w-8 h-8 rounded-xl bg-red-500/10 text-red-500 flex items-center justify-center font-bold text-[10px] shrink-0">
+                          PDF
+                        </div>
+                        <div className="min-w-0">
+                          <span className="text-xs font-bold text-[var(--text-primary)] block truncate">
+                            {getDocName(doc)}
                           </span>
-                          <div className="space-y-1.5">
-                            {msg.sources.map((src, sIdx) => (
+                          <span className="text-[10px] text-[var(--text-muted)]">
+                            {formatFileSize(doc.size_bytes)}
+                          </span>
+                        </div>
+                      </div>
+                      <button
+                        onClick={e => handleDeleteDoc(e, doc.id)}
+                        className="opacity-50 hover:opacity-100 p-1 text-rose-500"
+                      >
+                        <Icon name="trash" className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Hidden File Input & Upload Dropzone */}
+          <input
+            ref={fileInputRef}
+            type="file"
+            multiple
+            accept=".pdf,.doc,.docx,.pptx,.ppt,.xlsx,.xls,.csv,.txt"
+            className="hidden"
+            onChange={e => handleFileUpload(e.target.files)}
+          />
+
+          <div
+            onDragOver={handleDragOver}
+            onDragLeave={handleDragLeave}
+            onDrop={handleDrop}
+            onClick={() => fileInputRef.current?.click()}
+            className={`mt-2 p-2.5 rounded-2xl border border-dashed text-center cursor-pointer transition ${
+              isDragging ? 'border-blue-500 bg-blue-500/10' : 'border-black/10 dark:border-white/10 hover:bg-white/40'
+            }`}
+          >
+            <span className="text-[11px] font-semibold text-[var(--text-secondary)]">
+              {uploading ? 'Đang nạp dữ liệu...' : '+ Kéo thả PDF vào đây để nạp AI'}
+            </span>
+          </div>
+        </section>
+
+        {/* ─── 3. RIGHT MAIN PANEL: "New Chat" & DUAL-PANE WORKSPACE ─── */}
+        <main className="flex-1 bubble-tablet-frame bg-white/70 dark:bg-white/5 flex flex-col overflow-hidden relative">
+
+          {/* Top Panel Header */}
+          <header className="h-14 px-5 border-b border-black/5 dark:border-white/10 flex items-center justify-between shrink-0">
+            {/* Sparkle Button */}
+            <button className="circle-btn w-8 h-8">
+              <Icon name="sparkle" className="w-4 h-4" />
+            </button>
+
+            {/* Title: "New Chat" */}
+            <h2 className="text-base font-bold tracking-tight text-[var(--text-primary)]">
+              {mainMode === 'chat' ? 'New Chat' : (currentDoc ? getDocName(currentDoc) : 'Đối chiếu Song Song')}
+            </h2>
+
+            {/* Right Action Pill & Close Button */}
+            <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5 p-1 rounded-full bg-white/60 dark:bg-white/10 border border-white/80 dark:border-white/10 shadow-2xs">
+                <button
+                  onClick={() => setMainMode('split')}
+                  className={`circle-btn w-7 h-7 ${mainMode === 'split' ? 'bg-blue-600 text-white' : ''}`}
+                  title="Đối chiếu đôi PDF & Markdown"
+                >
+                  <Icon name="columns" className="w-3.5 h-3.5" />
+                </button>
+                <button
+                  onClick={() => setMainMode('chat')}
+                  className={`circle-btn w-7 h-7 ${mainMode === 'chat' ? 'bg-blue-600 text-white' : ''}`}
+                  title="Chế độ Chat"
+                >
+                  <Icon name="edit" className="w-3.5 h-3.5" />
+                </button>
+                <button className="circle-btn w-7 h-7">
+                  <Icon name="more" className="w-3.5 h-3.5" />
+                </button>
+              </div>
+
+              <button
+                onClick={() => setChatMessages([])}
+                className="circle-btn w-8 h-8"
+                title="Làm sạch cuộc trò chuyện"
+              >
+                <Icon name="close" className="w-3.5 h-3.5" />
+              </button>
+            </div>
+          </header>
+
+          {/* ═══ VIEW 1: CHAT VIEW (100% REPLICA OF REFERENCE UI) ═══ */}
+          {mainMode === 'chat' ? (
+            <div className="flex-1 flex flex-col justify-between overflow-hidden relative p-4 md:p-6">
+              <div className="flex-1 overflow-y-auto pr-2 space-y-6 max-w-2xl mx-auto w-full">
+
+                {/* Greeting Row */}
+                <div className="flex items-center gap-3 pt-2">
+                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white/90 dark:border-white/20 shadow-xs">
+                    <img src="/assets/avatar.png" alt="Avatar" className="w-full h-full object-cover" />
+                  </div>
+                  <div>
+                    <span className="text-xs text-[var(--text-muted)] font-medium">Hi, Marry!</span>
+                    <h3 className="text-xl font-bold text-[var(--text-primary)] tracking-tight">
+                      How can I help you?
+                    </h3>
+                  </div>
+                </div>
+
+                {/* Sample Prompt / Attached Document Chips */}
+                <div className="space-y-3">
+                  {/* Floating Document Chips */}
+                  <div className="flex justify-end gap-2 pr-4">
+                    <div className="w-24 p-2 rounded-xl bg-white/90 dark:bg-white/10 border border-white shadow-xs -rotate-2">
+                      <div className="w-4 h-4 rounded bg-blue-500 text-white text-[8px] font-bold flex items-center justify-center mb-1">
+                        DOC
+                      </div>
+                      <span className="text-[9px] font-bold block truncate">Growth Predictions</span>
+                      <span className="text-[8px] text-[var(--text-muted)] block">5.8% annually</span>
+                    </div>
+
+                    <div className="w-24 p-2 rounded-xl bg-white/90 dark:bg-white/10 border border-white shadow-xs rotate-3">
+                      <div className="w-4 h-4 rounded bg-red-500 text-white text-[8px] font-bold flex items-center justify-center mb-1">
+                        PDF
+                      </div>
+                      <span className="text-[9px] font-bold block truncate">Resilient Tourism</span>
+                      <span className="text-[8px] text-[var(--text-muted)] block">Report 2026</span>
+                    </div>
+                  </div>
+
+                  {/* User Question Bubble */}
+                  <div className="flex justify-end">
+                    <div className="user-chat-bubble p-4 max-w-lg">
+                      <p className="text-xs md:text-sm text-[var(--text-primary)] leading-relaxed">
+                        Imagine that you are <strong>the manager</strong> and make me the list of <strong>summary points of this document</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Assistant Answer Card */}
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-full overflow-hidden border border-white/80 shrink-0 mt-1">
+                    <img src="/assets/avatar.png" alt="Avatar" className="w-full h-full object-cover" />
+                  </div>
+
+                  <div className="assistant-chat-card p-5 flex-1">
+                    <div className="text-xs md:text-sm text-[var(--text-primary)] space-y-3 leading-relaxed">
+                      <p>
+                        <strong>1. Resilient Tourism:</strong> Despite the pandemic's impact, <strong>international tourism</strong> rebounded <strong>significantly in 2022</strong>, showing the industry's resilience.
+                      </p>
+                      <p>
+                        <strong>2. Growth Predictions:</strong> Forecasts suggest that travel and tourism <strong>GDP will grow at 5.8% annually between 2022 and 2032</strong>, outracing overall economic growth.
+                      </p>
+                    </div>
+
+                    {/* Source citations button if real document is active */}
+                    {currentDoc && (
+                      <div className="mt-4 pt-3 border-t border-black/5 dark:border-white/10 flex items-center justify-between text-[11px]">
+                        <span className="text-[var(--text-muted)]">
+                          Nguồn: <strong>{getDocName(currentDoc)}</strong>
+                        </span>
+                        <button
+                          onClick={() => setMainMode('split')}
+                          className="text-blue-600 dark:text-blue-400 font-semibold hover:underline flex items-center gap-1"
+                        >
+                          Xem đối chiếu BBox & MD <Icon name="arrowUpRight" className="w-3 h-3" />
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* Real Query Conversation Feed */}
+                {chatMessages.map((msg, idx) => {
+                  const isUser = msg.role === 'user'
+                  return (
+                    <div key={idx} className={`flex items-start gap-3 ${isUser ? 'justify-end' : 'justify-start'}`}>
+                      {!isUser && (
+                        <div className="w-8 h-8 rounded-full overflow-hidden border border-white/80 shrink-0 mt-1">
+                          <img src="/assets/avatar.png" alt="Avatar" className="w-full h-full object-cover" />
+                        </div>
+                      )}
+                      <div className={isUser ? 'user-chat-bubble p-4 max-w-lg' : 'assistant-chat-card p-5 flex-1'}>
+                        <p className="text-xs md:text-sm whitespace-pre-wrap leading-relaxed">
+                          {msg.text}
+                        </p>
+                        {!isUser && msg.sources && msg.sources.length > 0 && (
+                          <div className="mt-3 pt-3 border-t border-black/5 dark:border-white/10 space-y-1.5">
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-[var(--text-muted)]">
+                              Trích dẫn chính xác ({msg.sources.length}):
+                            </span>
+                            {msg.sources.map((s, sIdx) => (
                               <div
                                 key={sIdx}
                                 onClick={() => {
-                                  setCurrentPage(src.page || 1)
+                                  setCurrentPage(s.page || 1)
                                   setMainMode('split')
                                 }}
-                                className="p-2.5 rounded-[16px] bg-white/90 dark:bg-black/30 border border-white/80 dark:border-white/10 hover:border-blue-400 cursor-pointer transition shadow-2xs text-xs"
+                                className="p-2 rounded-xl bg-white/70 dark:bg-white/10 hover:border-blue-400 border border-black/5 cursor-pointer text-xs flex items-center justify-between"
                               >
-                                <div className="flex items-center justify-between font-mono text-[11px] mb-1">
-                                  <span className="font-bold text-blue-600 dark:text-blue-400">
-                                    {src.file_name} (Trang {src.page || '1'})
+                                <span className="font-semibold text-blue-600 dark:text-blue-400">
+                                  {s.file_name} (Trang {s.page || 1})
+                                </span>
+                                {s.similarity_score && (
+                                  <span className="text-[10px] text-emerald-600 font-mono">
+                                    {(s.similarity_score * 100).toFixed(1)}% match
                                   </span>
-                                  {src.similarity_score && (
-                                    <span className="text-emerald-600 dark:text-emerald-400 text-[10px]">
-                                      {(src.similarity_score * 100).toFixed(1)}% match
-                                    </span>
-                                  )}
-                                </div>
-                                <p className="text-[var(--text-muted)] text-[11px] line-clamp-2 italic font-mono">
-                                  "{src.content_snippet}"
-                                </p>
+                                )}
                               </div>
                             ))}
                           </div>
-                        </div>
-                      )}
+                        )}
+                      </div>
+                    </div>
+                  )
+                })}
+                <div ref={chatBottomRef} />
+              </div>
+
+              {/* ─── QUICK TOOL ACTION CARDS (4 CARDS MATCHING REFERENCE) ─── */}
+              <div className="max-w-2xl mx-auto w-full pt-4 space-y-3">
+                <div className="grid grid-cols-4 gap-2.5">
+                  {/* 1. Chat Files */}
+                  <div
+                    onClick={() => {
+                      if (currentDoc) {
+                        handleSendChat(`Tóm tắt các điểm quan trọng trong tài liệu ${getDocName(currentDoc)}`)
+                      } else {
+                        fileInputRef.current?.click()
+                      }
+                    }}
+                    className="quick-tool-card p-3 flex flex-col items-center text-center cursor-pointer group"
+                  >
+                    <div className="flex items-center gap-1 mb-2">
+                      <div className="w-6 h-7 rounded bg-red-500/10 text-red-500 text-[8px] font-bold flex items-center justify-center border border-red-500/20">
+                        PDF
+                      </div>
+                      <div className="w-6 h-7 rounded bg-blue-500/10 text-blue-500 text-[8px] font-bold flex items-center justify-center border border-blue-500/20">
+                        DOC
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <div className="w-3.5 h-3.5 rounded-full bg-[#18181b] text-white flex items-center justify-center">
+                        <Icon name="folder" className="w-2 h-2" />
+                      </div>
+                      <span className="text-[11px] font-bold text-[var(--text-primary)]">
+                        Chat Files
+                      </span>
                     </div>
                   </div>
-                )
-              })}
 
-              {chatLoading && (
-                <div className="flex gap-3 text-sm justify-start">
-                  <div className="w-8 h-8 rounded-full bg-indigo-500 text-white font-bold text-xs flex items-center justify-center shrink-0">
-                    AI
-                  </div>
-                  <div className="p-4 rounded-[22px] bg-white/80 dark:bg-white/10 border border-white/70 dark:border-white/10 text-[var(--text-muted)] font-mono text-xs animate-pulse">
-                    Đang tìm kiếm vector và tổng hợp câu trả lời từ tài liệu...
-                  </div>
-                </div>
-              )}
-
-              <div ref={chatBottomRef} />
-            </div>
-
-            {/* Bottom Actions: Quick Tool Cards + Pill Input Bar with Gradient Fades */}
-            <div className="mt-4 max-w-3xl mx-auto w-full space-y-3">
-              <div className="grid grid-cols-4 gap-2.5">
-                <div
-                  onClick={() => setMainMode('split')}
-                  className="glass-tool-card p-2.5 cursor-pointer flex flex-col items-center justify-center text-center gap-1 group"
-                >
-                  <div className="w-8 h-8 rounded-full bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 flex items-center justify-center group-hover:scale-110 transition shadow-2xs">
-                    <Icon name="pdfIcon" className="w-4 h-4" />
-                  </div>
-                  <span className="text-[11px] font-bold text-[var(--text-primary)]">Xem tệp PDF</span>
-                </div>
-
-                <div
-                  onClick={() => {
-                    setMainMode('split')
-                    setMdViewMode('rendered')
-                  }}
-                  className="glass-tool-card p-2.5 cursor-pointer flex flex-col items-center justify-center text-center gap-1 group"
-                >
-                  <div className="w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 flex items-center justify-center group-hover:scale-110 transition shadow-2xs">
-                    <Icon name="fileText" className="w-4 h-4" />
-                  </div>
-                  <span className="text-[11px] font-bold text-[var(--text-primary)]">Trích xuất .md</span>
-                </div>
-
-                <div
-                  onClick={() => {
-                    setMainMode('split')
-                    setShowOcrBoxes(true)
-                  }}
-                  className="glass-tool-card p-2.5 cursor-pointer flex flex-col items-center justify-center text-center gap-1 group"
-                >
-                  <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 flex items-center justify-center group-hover:scale-110 transition shadow-2xs">
-                    <Icon name="sparkle" className="w-4 h-4" />
-                  </div>
-                  <span className="text-[11px] font-bold text-[var(--text-primary)]">Khung BBox</span>
-                </div>
-
-                <div
-                  onClick={() => setMainMode('split')}
-                  className="glass-tool-card p-2.5 cursor-pointer flex flex-col items-center justify-center text-center gap-1 group"
-                >
-                  <div className="w-8 h-8 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 flex items-center justify-center group-hover:scale-110 transition shadow-2xs">
-                    <Icon name="columns" className="w-4 h-4" />
-                  </div>
-                  <span className="text-[11px] font-bold text-[var(--text-primary)]">Đối chiếu đôi</span>
-                </div>
-              </div>
-
-              {/* Frosted Pill Input Bar with Upward Arrow Send Button */}
-              <form onSubmit={handleSendMessage} className="relative flex items-center">
-                <input
-                  type="text"
-                  value={chatInput}
-                  onChange={e => setChatInput(e.target.value)}
-                  placeholder="Hỏi bất kỳ điều gì về tài liệu..."
-                  className="w-full h-14 pl-6 pr-16 rounded-full glass-pill-input text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] outline-none focus:ring-2 focus:ring-blue-500/20 font-medium"
-                />
-                <button
-                  type="submit"
-                  disabled={!chatInput.trim() || chatLoading}
-                  className="absolute right-2.5 w-9 h-9 rounded-full bg-blue-600 text-white flex items-center justify-center hover:scale-105 active:scale-95 disabled:opacity-30 disabled:cursor-not-allowed transition shadow-sm"
-                >
-                  <Icon name="arrowUp" className="w-4 h-4" />
-                </button>
-              </form>
-            </div>
-          </div>
-        ) : (
-          /* ═══ VIEW 2: ĐỐI CHIẾU SONG SONG (SPLIT SCREEN) ═══ */
-          <div className="flex-1 flex overflow-hidden p-4 gap-4">
-            {/* PANE TRÁI: XEM TRƯỚC FILE (PDF & BBOX) */}
-            <div className="flex-1 glass-subcard flex flex-col overflow-hidden bg-white/70 dark:bg-black/30">
-              <div className="h-12 px-4 border-b border-black/5 dark:border-white/10 flex items-center justify-between shrink-0 text-xs">
-                <div className="flex items-center gap-1.5 font-mono">
-                  <button
-                    onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-                    disabled={currentPage <= 1}
-                    className="w-7 h-7 rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center disabled:opacity-30 transition shadow-2xs"
-                  >
-                    <Icon name="chevronLeft" className="w-3.5 h-3.5" />
-                  </button>
-                  <span className="font-bold px-1.5 text-[var(--text-primary)]">
-                    {currentPage} / {numPages || 1}
-                  </span>
-                  <button
-                    onClick={() => setCurrentPage(p => Math.min(numPages || 1, p + 1))}
-                    disabled={currentPage >= (numPages || 1)}
-                    className="w-7 h-7 rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center disabled:opacity-30 transition shadow-2xs"
-                  >
-                    <Icon name="chevronRight" className="w-3.5 h-3.5" />
-                  </button>
-                </div>
-
-                <div className="flex items-center gap-2">
-                  <button
-                    onClick={() => setPageScale(s => Math.max(0.6, s - 0.1))}
-                    className="w-7 h-7 rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center shadow-2xs"
-                    title="Thu nhỏ"
-                  >
-                    <Icon name="zoomOut" className="w-3 h-3" />
-                  </button>
-                  <span className="font-mono text-[11px] text-[var(--text-secondary)]">
-                    {Math.round(pageScale * 100)}%
-                  </span>
-                  <button
-                    onClick={() => setPageScale(s => Math.min(2.0, s + 0.1))}
-                    className="w-7 h-7 rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center shadow-2xs"
-                    title="Phóng to"
-                  >
-                    <Icon name="zoomIn" className="w-3 h-3" />
-                  </button>
-
-                  <div className="h-4 w-px bg-black/10 dark:bg-white/10 mx-1" />
-
-                  <button
-                    onClick={() => setShowOcrBoxes(!showOcrBoxes)}
-                    className={`px-3 py-1 rounded-full text-[11px] font-semibold transition ${
-                      showOcrBoxes ? 'bg-blue-600 text-white' : 'bg-white dark:bg-zinc-800 text-[var(--text-muted)]'
-                    }`}
-                  >
-                    OCR Box
-                  </button>
-                </div>
-              </div>
-
-              {/* PDF Content */}
-              <div className="flex-1 overflow-auto p-4 flex flex-col items-center relative">
-                {!currentDoc ? (
-                  <div className="py-20 text-xs text-[var(--text-muted)]">Chưa chọn tài liệu</div>
-                ) : (
-                  <Document
-                    file={pdfPreviewUrl}
-                    onLoadSuccess={({ numPages }) => setNumPages(numPages)}
-                    loading={<div className="py-20 text-xs text-[var(--text-muted)] font-mono">Đang nạp PDF...</div>}
-                  >
-                    {(() => {
-                      const renderWidth = 520 * pageScale
-                      const pageSize = pdfPageSizes[currentPage]
-                      const scale = pageSize ? renderWidth / pageSize.width : 1
-                      const pageOcr = ocrBoxes.filter(i => (i.page_no || 1) === currentPage)
-
-                      return (
-                        <div className="relative rounded-[16px] overflow-hidden shadow-sm border border-black/5 dark:border-white/10 bg-white">
-                          <Page
-                            pageNumber={currentPage}
-                            width={renderWidth}
-                            renderTextLayer={false}
-                            renderAnnotationLayer={false}
-                            onLoadSuccess={pdfPage => {
-                              const vp = pdfPage.getViewport({ scale: 1 })
-                              setPdfPageSizes(old => ({ ...old, [currentPage]: { width: vp.width, height: vp.height } }))
-                            }}
-                          />
-
-                          {pageSize && showOcrBoxes && (
-                            <div className="absolute inset-0 pointer-events-none">
-                              {pageOcr.map((box, i) => (
-                                <div
-                                  key={i}
-                                  onMouseEnter={e => setHoveredBox({ text: box.text, page: currentPage, x: e.clientX, y: e.clientY })}
-                                  onMouseLeave={() => setHoveredBox(null)}
-                                  style={{
-                                    position: 'absolute',
-                                    left: box.bbox.left * scale,
-                                    bottom: box.bbox.bottom * scale,
-                                    width: Math.max(8, (box.bbox.right - box.bbox.left) * scale),
-                                    height: Math.max(8, (box.bbox.top - box.bbox.bottom) * scale),
-                                    border: '1.5px solid rgba(59, 130, 246, 0.75)',
-                                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                                    cursor: 'pointer',
-                                    pointerEvents: 'auto',
-                                    borderRadius: '2px',
-                                  }}
-                                />
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      )
-                    })()}
-                  </Document>
-                )}
-
-                {hoveredBox && (
+                  {/* 2. Images */}
                   <div
-                    className="fixed z-50 bg-white/95 dark:bg-zinc-900/95 text-[var(--text-primary)] text-xs p-3 rounded-2xl border border-white/80 dark:border-white/10 shadow-lg max-w-xs pointer-events-none font-mono"
-                    style={{ left: Math.min(window.innerWidth - 260, hoveredBox.x + 12), top: hoveredBox.y + 12 }}
+                    onClick={() => setMainMode('split')}
+                    className="quick-tool-card p-3 flex flex-col items-center text-center cursor-pointer group"
                   >
-                    <div className="text-[10px] text-blue-500 font-bold mb-1">OCR TRANG {hoveredBox.page}</div>
-                    <div className="line-clamp-3">{hoveredBox.text}</div>
+                    <div className="w-12 h-7 rounded-lg overflow-hidden mb-2 border border-white/80 shadow-xs">
+                      <img src="/assets/sample_preview.png" alt="Parrot" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <div className="w-3.5 h-3.5 rounded-full bg-[#18181b] text-white flex items-center justify-center">
+                        <Icon name="camera" className="w-2 h-2" />
+                      </div>
+                      <span className="text-[11px] font-bold text-[var(--text-primary)]">
+                        Images
+                      </span>
+                    </div>
                   </div>
-                )}
+
+                  {/* 3. Translate */}
+                  <div
+                    onClick={() => handleSendChat('Dịch tóm tắt tài liệu sang tiếng Việt')}
+                    className="quick-tool-card p-3 flex flex-col items-center text-center cursor-pointer group"
+                  >
+                    <div className="w-12 h-7 rounded-lg bg-blue-500/10 text-blue-600 flex items-center justify-center font-bold text-xs mb-2 border border-blue-500/20">
+                      G 文
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <div className="w-3.5 h-3.5 rounded-full bg-[#18181b] text-white flex items-center justify-center">
+                        <Icon name="translate" className="w-2 h-2" />
+                      </div>
+                      <span className="text-[11px] font-bold text-[var(--text-primary)]">
+                        Translate
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* 4. Audio Chat */}
+                  <div
+                    onClick={() => handleSendChat('Tạo kịch bản tóm tắt âm thanh (Audio summary) cho báo cáo này')}
+                    className="quick-tool-card p-3 flex flex-col items-center text-center cursor-pointer group"
+                  >
+                    <div className="w-12 h-7 rounded-lg bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-2 border border-emerald-500/20">
+                      <Icon name="waveform" className="w-5 h-5" />
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <div className="w-3.5 h-3.5 rounded-full bg-[#18181b] text-white flex items-center justify-center">
+                        <Icon name="sparkle" className="w-2 h-2" />
+                      </div>
+                      <span className="text-[11px] font-bold text-[var(--text-primary)]">
+                        Audio Chat
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* ─── INPUT BAR (PILL CONTAINER WITH ARROW UP) ─── */}
+                <div className="bubble-input-bar p-1.5 pl-5 pr-2 flex items-center justify-between">
+                  <input
+                    type="text"
+                    value={chatInput}
+                    onChange={e => setChatInput(e.target.value)}
+                    onKeyDown={e => {
+                      if (e.key === 'Enter') handleSendChat()
+                    }}
+                    placeholder="Ask me anything..."
+                    className="flex-1 bg-transparent border-none outline-none text-xs md:text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)]"
+                  />
+                  <button
+                    onClick={() => handleSendChat()}
+                    disabled={chatLoading || !chatInput.trim()}
+                    className="circle-btn-dark w-9 h-9"
+                    title="Gửi câu hỏi"
+                  >
+                    {chatLoading ? (
+                      <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                    ) : (
+                      <Icon name="arrowUp" className="w-4 h-4" />
+                    )}
+                  </button>
+                </div>
               </div>
             </div>
+          ) : (
+            /* ═══ VIEW 2: DUAL-PANE SPLIT COMPARISON (PDF & MARKDOWN) ═══ */
+            <div className="flex-1 flex overflow-hidden p-4 gap-4">
+              {/* Left Sub-pane: PDF Reader */}
+              <div className="flex-1 bubble-tablet-frame bg-white/60 dark:bg-black/20 flex flex-col overflow-hidden p-3">
+                <div className="flex items-center justify-between pb-3 border-b border-black/5 dark:border-white/10 mb-3">
+                  <span className="text-xs font-bold text-[var(--text-primary)]">
+                    Tệp gốc PDF • Trang {currentPage} / {numPages || 1}
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                      disabled={currentPage <= 1}
+                      className="circle-btn w-7 h-7 disabled:opacity-40"
+                    >
+                      <Icon name="chevronLeft" className="w-3.5 h-3.5" />
+                    </button>
+                    <button
+                      onClick={() => setCurrentPage(p => Math.min(numPages || 1, p + 1))}
+                      disabled={currentPage >= (numPages || 1)}
+                      className="circle-btn w-7 h-7 disabled:opacity-40"
+                    >
+                      <Icon name="chevronRight" className="w-3.5 h-3.5" />
+                    </button>
+                    <button
+                      onClick={() => setShowOcrBoxes(!showOcrBoxes)}
+                      className={`circle-btn w-7 h-7 ${showOcrBoxes ? 'bg-blue-600 text-white' : ''}`}
+                      title="Bật/tắt khung nhận diện BBox"
+                    >
+                      <Icon name="sparkle" className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
 
-            {/* PANE PHẢI: THÔNG TIN TRÍCH XUẤT DẠNG .MD */}
-            <div className="flex-1 glass-subcard flex flex-col overflow-hidden bg-white/70 dark:bg-black/30">
-              <div className="h-12 px-4 border-b border-black/5 dark:border-white/10 flex items-center justify-between shrink-0 text-xs">
-                <div className="flex items-center gap-2">
-                  <div className="flex p-0.5 rounded-full bg-black/5 dark:bg-white/10 text-[11px] font-semibold">
+                <div className="flex-1 overflow-auto flex items-center justify-center bg-zinc-100 dark:bg-zinc-900 rounded-2xl p-4">
+                  {currentDoc ? (
+                    <Document
+                      file={`/api/documents/${currentDoc.id}/file`}
+                      onLoadSuccess={({ numPages: n }) => setNumPages(n)}
+                      className="shadow-md rounded-lg overflow-hidden"
+                    >
+                      <Page
+                        pageNumber={currentPage}
+                        scale={pageScale}
+                        onLoadSuccess={(page) => {
+                          setPdfPageSizes(prev => ({
+                            ...prev,
+                            [currentPage]: { width: page.width, height: page.height }
+                          }))
+                        }}
+                      />
+                    </Document>
+                  ) : (
+                    <p className="text-xs text-[var(--text-muted)]">Chưa chọn tệp PDF</p>
+                  )}
+                </div>
+              </div>
+
+              {/* Right Sub-pane: Markdown View */}
+              <div className="flex-1 bubble-tablet-frame bg-white/60 dark:bg-black/20 flex flex-col overflow-hidden p-3">
+                <div className="flex items-center justify-between pb-3 border-b border-black/5 dark:border-white/10 mb-3">
+                  <div className="flex items-center gap-2">
                     <button
                       onClick={() => setMdViewMode('rendered')}
-                      className={`px-3 py-1 rounded-full transition ${
-                        mdViewMode === 'rendered' ? 'bg-white dark:bg-zinc-800 text-[var(--text-primary)] shadow-xs' : 'text-[var(--text-muted)]'
+                      className={`px-3 py-1 rounded-full text-xs font-bold transition ${
+                        mdViewMode === 'rendered' ? 'bg-blue-600 text-white shadow-xs' : 'text-[var(--text-muted)]'
                       }`}
                     >
-                      Markdown
+                      Đã định dạng .md
                     </button>
                     <button
                       onClick={() => setMdViewMode('raw')}
-                      className={`px-3 py-1 rounded-full transition ${
-                        mdViewMode === 'raw' ? 'bg-white dark:bg-zinc-800 text-[var(--text-primary)] shadow-xs' : 'text-[var(--text-muted)]'
+                      className={`px-3 py-1 rounded-full text-xs font-bold transition ${
+                        mdViewMode === 'raw' ? 'bg-blue-600 text-white shadow-xs' : 'text-[var(--text-muted)]'
                       }`}
                     >
-                      Mã .md thô
+                      Mã nguồn .md
                     </button>
                   </div>
 
                   <button
-                    onClick={() => setMdScope(mdScope === 'all' ? 'page' : 'all')}
-                    className="px-2.5 py-1 rounded-full bg-black/5 dark:bg-white/10 text-[11px] font-semibold text-[var(--text-secondary)]"
-                  >
-                    {mdScope === 'all' ? 'Toàn bộ file' : `Trang ${currentPage}`}
-                  </button>
-                </div>
-
-                <div className="flex items-center gap-1.5">
-                  <button
-                    onClick={copyMarkdown}
-                    className="w-8 h-8 rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center text-[var(--text-secondary)] transition shadow-2xs"
+                    onClick={() => {
+                      navigator.clipboard.writeText(fullMarkdown)
+                      setCopiedMd(true)
+                      setTimeout(() => setCopiedMd(false), 2000)
+                    }}
+                    className="circle-btn w-7 h-7"
                     title="Sao chép Markdown"
                   >
-                    <Icon name={copiedMd ? 'check' : 'copy'} className="w-3.5 h-3.5" />
-                  </button>
-                  <button
-                    onClick={downloadMarkdown}
-                    className="w-8 h-8 rounded-full bg-white dark:bg-zinc-800 flex items-center justify-center text-[var(--text-secondary)] transition shadow-2xs"
-                    title="Tải tệp .md"
-                  >
-                    <Icon name="download" className="w-3.5 h-3.5" />
+                    <Icon name="copy" className="w-3.5 h-3.5" />
                   </button>
                 </div>
-              </div>
 
-              {/* Markdown Content */}
-              <div className="flex-1 overflow-y-auto p-6">
-                {loadingExtraction ? (
-                  <div className="text-center py-20 text-xs text-[var(--text-muted)] font-mono">
-                    Đang đồng bộ dữ liệu trích xuất...
-                  </div>
-                ) : !markdownText ? (
-                  <div className="text-center py-20 text-xs text-[var(--text-muted)]">
-                    Chưa có văn bản trích xuất cho tài liệu này.
-                  </div>
-                ) : mdViewMode === 'rendered' ? (
-                  <div className="markdown-body max-w-2xl mx-auto" dangerouslySetInnerHTML={{ __html: renderedHtml }} />
-                ) : (
-                  <pre className="text-xs font-mono p-4 rounded-2xl bg-white/60 dark:bg-black/40 text-[var(--text-primary)] leading-relaxed whitespace-pre-wrap">
-                    {markdownText}
-                  </pre>
-                )}
+                <div className="flex-1 overflow-y-auto p-4 rounded-2xl bg-white/80 dark:bg-zinc-900/80 border border-black/5 text-xs">
+                  {fullMarkdown ? (
+                    mdViewMode === 'rendered' ? (
+                      <div
+                        className="prose prose-xs dark:prose-invert max-w-none"
+                        dangerouslySetInnerHTML={{ __html: marked.parse(fullMarkdown) }}
+                      />
+                    ) : (
+                      <pre className="font-mono text-[11px] whitespace-pre-wrap">{fullMarkdown}</pre>
+                    )
+                  ) : (
+                    <p className="text-[var(--text-muted)] text-center py-12">
+                      Đang xử lý trích xuất văn bản...
+                    </p>
+                  )}
+                </div>
               </div>
             </div>
-          </div>
-        )}
-
-        {/* Floating Right Action Rail */}
-        <aside className="absolute right-5 top-20 flex flex-col gap-2.5 z-10">
-          <button
-            onClick={() => setMainMode(mainMode === 'chat' ? 'split' : 'chat')}
-            className="w-9 h-9 rounded-full bg-white/80 dark:bg-white/10 border border-white/80 dark:border-white/10 flex items-center justify-center text-[var(--text-secondary)] hover:scale-105 active:scale-95 transition shadow-xs"
-            title="Đổi khung làm việc"
-          >
-            <Icon name="edit" className="w-4 h-4" />
-          </button>
-          <button
-            onClick={copyMarkdown}
-            className="w-9 h-9 rounded-full bg-white/80 dark:bg-white/10 border border-white/80 dark:border-white/10 flex items-center justify-center text-[var(--text-secondary)] hover:scale-105 active:scale-95 transition shadow-xs"
-            title="Sao chép nội dung"
-          >
-            <Icon name="copy" className="w-4 h-4" />
-          </button>
-        </aside>
-      </main>
+          )}
+        </main>
+      </div>
     </div>
   )
 }
 
-createRoot(document.getElementById('root')).render(<App />)
+const rootEl = document.getElementById('root')
+if (rootEl) {
+  createRoot(rootEl).render(<App />)
+}
