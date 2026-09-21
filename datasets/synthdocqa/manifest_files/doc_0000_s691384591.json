@@ -1,0 +1,3282 @@
+{
+  "doc_id": "doc_0000_s691384591",
+  "title": "Operational Excellence: Benchmarking Cycle Time, First‑Pass Yield and Capacity Utilisation — Lean Improvement Opportunities and Financial Impact Assessment",
+  "subtitle": "Operational Excellence Review — Benchmarking Cycle Times, First‑Pass Yield & Capacity Utilization; Lean Improvement Opportunities with Projected Financial Impact",
+  "topic_id": "operational_efficiency_review",
+  "recipe_name": "data_focused",
+  "seed": 691384591,
+  "document_brief": {
+    "narrative_theme": "This operational excellence review benchmarks end-to-end process cycle times, first-pass yield, and capacity utilisation across plants to prioritise lean improvements and quantify a credible 12-month financial impact.",
+    "sections": [
+      {
+        "heading": "Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants",
+        "key_facts": [
+          "Baseline data was collected from 2026-01-01 to 2026-03-31 across Plants A, B, and C.",
+          "Plant B Order-to-Ship median cycle time is 9.6 days versus Plant A at 6.2 days.",
+          "Plant C first-pass yield is 92.4% versus Plant A at 97.1%."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Lean Opportunity Portfolio and 12-Month Financial Impact Projection",
+        "key_facts": [
+          "The portfolio targets a 1.8-day cycle-time reduction for Plant B Order-to-Ship within 12 months.",
+          "Projected annualised savings total $3.4M with a one-time implementation cost of $0.9M.",
+          "The largest single initiative is SMED on Line 2 with $1.2M projected annualised savings."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Cycle-time benchmarking (median days) by process step and plant, baseline 2026-01-01 to 2026-03-31",
+        "purpose": "Compares end-to-end and step-level cycle times across Plants A, B, and C to pinpoint where delays concentrate and where lean flow improvements should be targeted.",
+        "key_data": {
+          "Order-to-Ship | Plant A (median days)": "6.2",
+          "Order-to-Ship | Plant B (median days)": "9.6",
+          "Plan-to-Schedule | Plant B (median days)": "2.8",
+          "Pick-Pack-Load | Plant C (median days)": "1.9"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "First-pass yield (FPY) benchmarking by plant and top defect family, baseline 2026-01-01 to 2026-03-31",
+        "purpose": "Benchmarks FPY and the dominant defect families by plant to identify rework drivers and quantify quality-related lean opportunities.",
+        "key_data": {
+          "Overall FPY | Plant A": "97.1%",
+          "Overall FPY | Plant C": "92.4%",
+          "Top defect family | Plant C": "Seal leak",
+          "Rework rate | Plant C": "6.8%"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Capacity utilisation and constraint indicators by line and plant, baseline 2026-01-01 to 2026-03-31",
+        "purpose": "Shows utilisation, OEE, and constraint signals to distinguish true bottlenecks from scheduling losses and to target capacity release initiatives.",
+        "key_data": {
+          "Line 2 utilisation | Plant B": "88%",
+          "Line 2 OEE | Plant B": "62%",
+          "Line 1 utilisation | Plant A": "74%",
+          "Constraint flag | Plant B Line 2": "Yes"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "capacity)",
+        "purpose": "Lists prioritised lean initiatives tied directly to the benchmark gaps, including accountable owners and quantified operational outcomes to manage execution.",
+        "key_data": {
+          "Initiative": "SMED on Line 2",
+          "Site": "Plant B",
+          "Owner": "J. Patel",
+          "Expected impact": "Changeover -35%"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "12-month financial impact model by initiative (savings, one-time cost, and payback)",
+        "purpose": "Quantifies the projected annualised savings and required investment for each initiative to support funding decisions and benefits tracking.",
+        "key_data": {
+          "SMED on Line 2 | Annualised savings": "$1.2M",
+          "SMED on Line 2 | One-time cost": "$0.25M",
+          "Portfolio total | Annualised savings": "$3.4M",
+          "Portfolio total | One-time cost": "$0.9M"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Implementation roadmap and KPI targets by month (cycle time, FPY, utilisation), 2026-04 to 2027-03",
+        "purpose": "Provides a month-by-month plan linking initiative milestones to KPI targets to ensure the benchmarking gaps close with measurable outcomes.",
+        "key_data": {
+          "Month": "2026-06",
+          "Plant B Order-to-Ship target (days)": "8.7",
+          "Plant C FPY target": "94.5%",
+          "Plant B Line 2 utilisation target": "82%"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s691384591.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_stam_3b713154.png",
+      "scan_llm_hand_6f8c8acc.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 42,
+    "actual_page_count": 20
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "cx_table_0000_ec12aedb",
+      "table_number": 1,
+      "caption": "Table 1: Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective categories are the column groups?",
+          "answer": "Customer Outcomes; Operational Performance; Financial Impact.",
+          "assertions": [
+            {
+              "text": "The response must state 'Customer Outcomes; Operational Performance; Financial Impact.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many initiatives fall under the \"Flow & Throughput\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the alignment rating of \"SMED on Bottleneck Press Line (Changeover < 30 min)\" for the \"Capacity Utilisation\" objective?",
+          "answer": "H (High).",
+          "assertions": [
+            {
+              "text": "The response must state 'H (High).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the total score for the \"Pull Replenishment (Kanban) for Top 50 SKUs\" initiative?",
+          "answer": "72.",
+          "assertions": [
+            {
+              "text": "The response must state '72.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective category has the highest weighted total score?",
+          "answer": "Operational Performance (sum of its objectives: 412) has the highest weighted total score.",
+          "assertions": [
+            {
+              "text": "The response must state 'Operational Performance (sum of its objectives: 412) has the highest weighted total score.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what are the top-level header labels across the page?",
+          "answer": "Customer Outcomes; Operational Performance; Financial Impact; Total Score",
+          "assertions": [
+            {
+              "text": "The response must state 'Customer Outcomes; Operational Performance; Financial Impact; Total Score'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many data rows are listed in the table?",
+          "answer": "18 data rows",
+          "assertions": [
+            {
+              "text": "The response must state '18 data rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which priority indicator denotes the highest level?",
+          "answer": "H (High)",
+          "assertions": [
+            {
+              "text": "The response must state 'H (High)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what does footnote H explain?",
+          "answer": "H (High)",
+          "assertions": [
+            {
+              "text": "The response must state 'H (High)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the subtotal count for initiatives shown in the table?",
+          "answer": "4 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "cx_table_0001_b034d9ec",
+      "table_number": 2,
+      "caption": "Table 2: Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", which objective categories are the column groups?",
+          "answer": "Service & Customer Outcomes; Process Performance; Capacity & Reliability; Financial Impact.",
+          "assertions": [
+            {
+              "text": "The response must state 'Service & Customer Outcomes; Process Performance; Capacity & Reliability; Financial Impact.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", how many initiatives fall under the \"Capacity & Utilisation Optimisation\" initiative category?",
+          "answer": "3 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '3 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": " Setup Time\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", what is the total score for the \"Value Stream Mapping & Bottleneck Removal (Order-to-Ship)\" initiative?",
+          "answer": "74.",
+          "assertions": [
+            {
+              "text": "The response must state '74.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", which objective category has the highest weighted total score?",
+          "answer": "Process Performance (total 280).",
+          "assertions": [
+            {
+              "text": "The response must state 'Process Performance (total 280).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", which label is used for the second top-level header column?",
+          "answer": "Service & Customer Outcomes",
+          "assertions": [
+            {
+              "text": "The response must state 'Service & Customer Outcomes'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", how many header tiers appear at the top of the table?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", which is greater: the number of header tiers or the number of data rows?",
+          "answer": "Data rows (17)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (17)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", what does the annotation 'S' denote?",
+          "answer": "Service & Customer Outcomes; Process Performance; Capacity & Reliability; Financial Impact",
+          "assertions": [
+            {
+              "text": "The response must state 'Service & Customer Outcomes; Process Performance; Capacity & Reliability; Financial Impact'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", what is the subtotal count for the initiatives group shown in the table?",
+          "answer": "3 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '3 initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "table_0001_210c9e50",
+      "table_number": 3,
+      "caption": "Table 3: First-pass yield (FPY) benchmarking by plant and top defect family, baseline 2026-01-01 to 2026-03-31",
+      "columns": [
+        "Metric",
+        "Plant D",
+        "Plant A",
+        "Plant B",
+        "Plant C"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Overall FPY",
+          "96.3%",
+          "97.1%",
+          "95.6%",
+          "92.4%"
+        ],
+        [
+          "Rework rate",
+          "2.9%",
+          "2.1%",
+          "3.8%",
+          "6.8%"
+        ],
+        [
+          "Top defect family",
+          "Wiring fault",
+          "Surface blemish",
+          "Alignment error",
+          "Seal leak"
+        ],
+        [
+          "Capacity utilisation",
+          "93%",
+          "88%",
+          "91%",
+          "85%"
+        ],
+        [
+          "Cost of Poor Quality (% of sales)",
+          "2.2%",
+          "1.9%",
+          "2.7%",
+          "4.5%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Plant D": 194.4,
+        "max_Plant D": 96.3,
+        "min_Plant D": 2.2,
+        "sum_Plant A": 189.1,
+        "max_Plant A": 97.1,
+        "min_Plant A": 1.9,
+        "sum_Plant B": 193.1,
+        "max_Plant B": 95.6,
+        "min_Plant B": 2.7,
+        "sum_Plant C": 188.70000000000002,
+        "max_Plant C": 92.4,
+        "min_Plant C": 4.5
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"First-pass yield (FPY) benchmarking by plant and top defect family, baseline 2026-01-01 to 2026-03-31\", what is the Rework rate for Plant B?",
+          "answer": "3.8%",
+          "assertions": [
+            {
+              "text": "The response must state 3.8%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"First-pass yield (FPY) benchmarking by plant and top defect family, baseline 2026-01-01 to 2026-03-31\", what is the Top defect family listed for Plant C?",
+          "answer": "Seal leak",
+          "assertions": [
+            {
+              "text": "The response must state Seal leak."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"First-pass yield (FPY) benchmarking by plant and top defect family, baseline 2026-01-01 to 2026-03-31\", what is the Capacity utilisation for Plant A?",
+          "answer": "88%",
+          "assertions": [
+            {
+              "text": "The response must state 88%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "table_0000_856a6a71",
+      "table_number": 4,
+      "caption": "Table 4: Cycle-time benchmarking (median days) by process step and plant, baseline 2026-01-01 to 2026-03-31",
+      "columns": [
+        "Process Step",
+        "Plant B (median days)",
+        "Plant A (median days)",
+        "Plant C (median days)"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Order-to-Ship",
+          "9.6",
+          "6.2",
+          "7.4"
+        ],
+        [
+          "Order Entry Validation",
+          "1.1",
+          "0.8",
+          "0.9"
+        ],
+        [
+          "Credit & Compliance Check",
+          "0.9",
+          "0.6",
+          "0.7"
+        ],
+        [
+          "Plan-to-Schedule",
+          "2.8",
+          "2.1",
+          "2.4"
+        ],
+        [
+          "Material Allocation",
+          "1.5",
+          "0.9",
+          "1.2"
+        ],
+        [
+          "Production Cycle",
+          "4.8",
+          "3.4",
+          "3.9"
+        ],
+        [
+          "Quality Inspection & Release",
+          "1.2",
+          "0.7",
+          "0.8"
+        ],
+        [
+          "Pick-Pack-Load",
+          "2.2",
+          "1.4",
+          "1.9"
+        ],
+        [
+          "Dispatch & Carrier Handover",
+          "0.9",
+          "0.5",
+          "0.6"
+        ],
+        [
+          "Invoice & Documentation Closure",
+          "0.7",
+          "0.4",
+          "0.5"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Plant B (median days)": 25.7,
+        "max_Plant B (median days)": 9.6,
+        "min_Plant B (median days)": 0.7,
+        "sum_Plant A (median days)": 17.0,
+        "max_Plant A (median days)": 6.2,
+        "min_Plant A (median days)": 0.4,
+        "sum_Plant C (median days)": 20.3,
+        "max_Plant C (median days)": 7.4,
+        "min_Plant C (median days)": 0.5
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Cycle-time benchmarking (median days) by process step and plant, baseline 2026-01-01 to 2026-03-31\", what is the median days value for Production Cycle at Plant A (median days)?",
+          "answer": "3.4",
+          "assertions": [
+            {
+              "text": "The response must state 3.4."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cycle-time benchmarking (median days) by process step and plant, baseline 2026-01-01 to 2026-03-31\", what value is listed for Order Entry Validation under Plant B (median days)?",
+          "answer": "1.1",
+          "assertions": [
+            {
+              "text": "The response must state 1.1."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cycle-time benchmarking (median days) by process step and plant, baseline 2026-01-01 to 2026-03-31\", what is the median days value for Dispatch & Carrier Handover at Plant C (median days)?",
+          "answer": "0.6",
+          "assertions": [
+            {
+              "text": "The response must state 0.6."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "cx_table_0002_1a537922",
+      "table_number": 5,
+      "caption": "Table 5: Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective categories are the column groups?",
+          "answer": "Customer & Service Outcomes; Process Performance; Asset & Workforce Utilisation; Financial Impact.",
+          "assertions": [
+            {
+              "text": "The response must state 'Customer & Service Outcomes; Process Performance; Asset & Workforce Utilisation; Financial Impact.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many initiatives fall under the \"Quality & FPY\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "Setup Time\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the total score for the \"Constraint Management (TOC) & Drum‑Buffer‑Rope Scheduling\" initiative?",
+          "answer": "123.",
+          "assertions": [
+            {
+              "text": "The response must state '123.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective category has the highest weighted total score?",
+          "answer": "Financial Impact (total 277, from 76 + 67 + 53 + 81).",
+          "assertions": [
+            {
+              "text": "The response must state 'Financial Impact (total 277, from 76 + 67 + 53 + 81).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the third header label in the first header row?",
+          "answer": "Process Performance",
+          "assertions": [
+            {
+              "text": "The response must state 'Process Performance'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many header tiers are present?",
+          "answer": "Three",
+          "assertions": [
+            {
+              "text": "The response must state 'Three'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which is greater, the number of data rows or the number of initiatives?",
+          "answer": "Data rows (18)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (18)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what annotation label is listed in the table facts (footnote)?",
+          "answer": "H",
+          "assertions": [
+            {
+              "text": "The response must state 'H'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the subtotal count for the Strategic Initiatives group across objectives?",
+          "answer": "4 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "text",
+      "variant_id": "text_0000_fba32aa1",
+      "heading": "Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants",
+      "word_count": 227,
+      "text_content": [
+        "**Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants**",
+        "Baseline operational data were collected from 2026-01-01 to 2026-03-31 across Plants A, B, and C to establish a common benchmarking dataset. Data elements captured included Order-to-Ship cycle time, process-stage cycle times, first-pass yield, and capacity utilisation at line and plant level. Collection used standardized timestamping, audit logs, and production reports consolidated in the central analytics repository. This consistent window enables direct comparisons across entities, normalizes for weekly cadence, and supports time-bound performance trending for the subsequent improvement prioritisation activities analysis.",
+        "Cycle-time benchmarking highlighted material divergence: Plant B median Order-to-Ship cycle time is 9.6 days versus Plant A at 6.2 days, indicating a 54% longer throughput interval at Plant B on median. Detailed stage analysis revealed extended queue times and handoff delays at outbound staging and scheduling synchronization issues. Priorities for diagnostic work include lead-time breakdowns by workstation, percentage time spent waiting, and cross-functional scheduling alignment. These findings inform targeted lean interventions to reduce non-value wait and improve on-time fulfilment rates.",
+        "Quality and utilisation metrics completed the baseline: Plant C first-pass yield is 92.4% versus Plant A at 97.1%, identifying higher rework and scrap exposure at Plant C and quantifying defect-related throughput loss. Capacity utilisation assessments showed differing effective utilisation rates by line, driven by downtime patterns, changeover frequency, and demand mix. Recommended actions include defect root-cause tracing, setup reduction programs, and targeted preventive maintenance to raise first-pass yield and available capacity. Financial and operational impacts will be modeled against baseline."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants\" section, what was the data collection period for the baseline operational data?",
+          "answer": "2026-01-01 to 2026-03-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-01-01 to 2026-03-31."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants\" section, what is the median Order-to-Ship cycle time reported for Plant B?",
+          "answer": "9.6 days",
+          "assertions": [
+            {
+              "text": "The response must state 9.6 days."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants\" section, what first-pass yield percentage is reported for Plant C?",
+          "answer": "92.4%",
+          "assertions": [
+            {
+              "text": "The response must state 92.4%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "text",
+      "variant_id": "text_0001_8c6b9104",
+      "heading": "Lean Opportunity Portfolio and 12-Month Financial Impact Projection",
+      "word_count": 167,
+      "text_content": [
+        "**Lean Opportunity Portfolio and 12-Month Financial Impact Projection**",
+        "The lean opportunity portfolio prioritises targeted operational improvements to deliver measurable outcomes at Plant B. Key target: a 1.8-day cycle-time reduction for Plant B Order-to-Ship within 12 months, achieved through takt realignment, line balancing, and quick-change initiatives on critical flows. Execution ownership rests with the Operations Excellence Program Office and Plant B leadership.",
+        "Financial modelling projects $3.4M in annualised savings against a one-time implementation cost of $0.9M, yielding first-year net benefit of $2.5M. The largest single initiative, SMED on Line 2, contributes $1.2M of the annualised savings; the balance ($2.2M) is allocated across efficiency, yield, and capacity projects. Estimated simple payback is ~3.2 months (0.27 years).",
+        "Implementation will run from May 2026 to May 2027 with staged milestones at 3, 6, 9 and 12 months. Governance is led by the Operations Excellence Program Office with oversight from the Continuous Improvement Council; KPIs tracked weekly include Order-to-Ship cycle-time, first-pass yield, capacity utilisation, and realised cost savings. Sensitivity analysis models a ±15% variance in savings to inform contingency planning."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Lean Opportunity Portfolio and 12-Month Financial Impact Projection\" section, what is the targeted cycle-time reduction for Plant B Order-to-Ship within 12 months?",
+          "answer": "1.8-day cycle-time reduction",
+          "assertions": [
+            {
+              "text": "The response must state 1.8-day cycle-time reduction."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Lean Opportunity Portfolio and 12-Month Financial Impact Projection\" section, what is the projected annualised savings amount?",
+          "answer": "$3.4M",
+          "assertions": [
+            {
+              "text": "The response must state $3.4M."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Lean Opportunity Portfolio and 12-Month Financial Impact Projection\" section, what is the estimated simple payback period?",
+          "answer": "~3.2 months (0.27 years)",
+          "assertions": [
+            {
+              "text": "The response must state ~3.2 months (0.27 years)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_ac512ca0",
+      "table_number": 6,
+      "caption": "Table 6: Employee Activity Report",
+      "columns": [
+        "Employee Name",
+        "Department",
+        "Avg Cycle Time (hrs)",
+        "First-Pass Yield (%)",
+        "Capacity Utilization (%)"
+      ],
+      "row_count": 70,
+      "cells": [
+        [
+          "Maria Chen",
+          "Assembly",
+          "5.4",
+          "96.2",
+          "87.5"
+        ],
+        [
+          "David Ramirez",
+          "Assembly",
+          "6.1",
+          "94.8",
+          "82.3"
+        ],
+        [
+          "Aisha Khan",
+          "Quality Assurance",
+          "4.8",
+          "98.5",
+          "79.4"
+        ],
+        [
+          "Liam O'Connor",
+          "Packaging",
+          "5.9",
+          "95.6",
+          "84.1"
+        ],
+        [
+          "Sofia Martinez",
+          "Assembly",
+          "6.3",
+          "93.9",
+          "88.7"
+        ],
+        [
+          "Ethan Brooks",
+          "Maintenance",
+          "7.2",
+          "97.1",
+          "76.8"
+        ],
+        [
+          "Olivia Nguyen",
+          "Quality Assurance",
+          "4.5",
+          "99.0",
+          "81.2"
+        ],
+        [
+          "Noah Patel",
+          "Logistics",
+          "6.8",
+          "92.7",
+          "85.6"
+        ],
+        [
+          "Isabella Rossi",
+          "Packaging",
+          "5.7",
+          "96.8",
+          "83.9"
+        ],
+        [
+          "James Wilson",
+          "Assembly",
+          "6.0",
+          "95.2",
+          "89.4"
+        ],
+        [
+          "Mia Johansson",
+          "Logistics",
+          "6.5",
+          "94.1",
+          "80.5"
+        ],
+        [
+          "Benjamin Lee",
+          "Maintenance",
+          "7.0",
+          "96.4",
+          "78.9"
+        ],
+        [
+          "Charlotte Brown",
+          "Quality Assurance",
+          "4.9",
+          "98.1",
+          "77.6"
+        ],
+        [
+          "Lucas Silva",
+          "Assembly",
+          "5.6",
+          "95.9",
+          "86.2"
+        ],
+        [
+          "Amelia Davis",
+          "Packaging",
+          "5.8",
+          "97.3",
+          "82.7"
+        ],
+        [
+          "Priya Natarajan",
+          "Manufacturing",
+          "5.8",
+          "92.4",
+          "84.1"
+        ],
+        [
+          "Liam O'Connor",
+          "Quality Assurance",
+          "4.3",
+          "96.8",
+          "78.5"
+        ],
+        [
+          "Sofia Martinez",
+          "Assembly",
+          "6.1",
+          "89.7",
+          "88.9"
+        ],
+        [
+          "Ethan Brooks",
+          "Packaging",
+          "3.9",
+          "94.5",
+          "81.3"
+        ],
+        [
+          "Maya Chen",
+          "Production",
+          "5.4",
+          "91.2",
+          "86.7"
+        ],
+        [
+          "Noah Williams",
+          "Maintenance",
+          "7.2",
+          "88.3",
+          "73.4"
+        ],
+        [
+          "Ava Patel",
+          "Manufacturing",
+          "4.7",
+          "95.1",
+          "82.6"
+        ],
+        [
+          "Lucas Schneider",
+          "Logistics",
+          "6.5",
+          "90.4",
+          "79.8"
+        ],
+        [
+          "Isabella Rossi",
+          "Quality Assurance",
+          "3.8",
+          "97.3",
+          "75.9"
+        ],
+        [
+          "James Thompson",
+          "Assembly",
+          "5.9",
+          "92.8",
+          "87.2"
+        ],
+        [
+          "Amara Okafor",
+          "Production",
+          "4.6",
+          "93.5",
+          "83.7"
+        ],
+        [
+          "Benjamin Lee",
+          "Packaging",
+          "3.5",
+          "96.1",
+          "80.4"
+        ],
+        [
+          "Charlotte Dubois",
+          "Manufacturing",
+          "6.8",
+          "89.9",
+          "90.2"
+        ],
+        [
+          "Daniel Kim",
+          "Maintenance",
+          "7.5",
+          "87.6",
+          "72.8"
+        ],
+        [
+          "Elena Petrova",
+          "Logistics",
+          "5.2",
+          "94.0",
+          "85.6"
+        ],
+        [
+          "Employee 31",
+          "Manufacturing",
+          "5.4",
+          "92.1",
+          "84.3"
+        ],
+        [
+          "Employee 32",
+          "Quality Assurance",
+          "4.8",
+          "96.5",
+          "78.9"
+        ],
+        [
+          "Employee 33",
+          "Operations",
+          "6.2",
+          "89.7",
+          "88.4"
+        ],
+        [
+          "Employee 34",
+          "Production",
+          "5.9",
+          "91.3",
+          "82.6"
+        ],
+        [
+          "Employee 35",
+          "Engineering",
+          "4.5",
+          "94.8",
+          "76.2"
+        ],
+        [
+          "Employee 36",
+          "Manufacturing",
+          "6.7",
+          "87.9",
+          "90.1"
+        ],
+        [
+          "Employee 37",
+          "Quality Assurance",
+          "4.2",
+          "97.1",
+          "74.5"
+        ],
+        [
+          "Employee 38",
+          "Operations",
+          "5.6",
+          "90.4",
+          "85.7"
+        ],
+        [
+          "Employee 39",
+          "Production",
+          "6.1",
+          "88.6",
+          "87.3"
+        ],
+        [
+          "Employee 40",
+          "Engineering",
+          "4.9",
+          "93.2",
+          "79.8"
+        ],
+        [
+          "Employee 41",
+          "Manufacturing",
+          "5.3",
+          "91.7",
+          "83.9"
+        ],
+        [
+          "Employee 42",
+          "Quality Assurance",
+          "4.6",
+          "95.9",
+          "77.4"
+        ],
+        [
+          "Employee 43",
+          "Operations",
+          "6.4",
+          "89.1",
+          "89.6"
+        ],
+        [
+          "Employee 44",
+          "Production",
+          "5.7",
+          "92.8",
+          "81.5"
+        ],
+        [
+          "Employee 45",
+          "Engineering",
+          "4.3",
+          "96.2",
+          "75.9"
+        ],
+        [
+          "Rowan Patel",
+          "Manufacturing",
+          "5.6",
+          "93.4",
+          "87.2"
+        ],
+        [
+          "Elena Rodriguez",
+          "Quality Assurance",
+          "4.8",
+          "96.1",
+          "82.5"
+        ],
+        [
+          "Marcus Chen",
+          "Operations",
+          "6.3",
+          "91.7",
+          "89.9"
+        ],
+        [
+          "Sophie Nguyen",
+          "Production",
+          "5.1",
+          "94.8",
+          "85.3"
+        ],
+        [
+          "Daniel Brooks",
+          "Logistics",
+          "7.4",
+          "89.5",
+          "78.6"
+        ],
+        [
+          "Aisha Khan",
+          "Manufacturing",
+          "4.5",
+          "97.2",
+          "90.4"
+        ],
+        [
+          "Liam O'Connor",
+          "Maintenance",
+          "6.8",
+          "92.3",
+          "84.1"
+        ],
+        [
+          "Isabella Martinez",
+          "Quality Assurance",
+          "4.2",
+          "98.0",
+          "88.7"
+        ],
+        [
+          "Noah Johnson",
+          "Operations",
+          "5.9",
+          "93.9",
+          "86.8"
+        ],
+        [
+          "Mia Thompson",
+          "Production",
+          "5.3",
+          "95.1",
+          "87.9"
+        ],
+        [
+          "Ethan Williams",
+          "Logistics",
+          "7.1",
+          "90.4",
+          "80.2"
+        ],
+        [
+          "Olivia Davis",
+          "Manufacturing",
+          "4.7",
+          "96.5",
+          "91.3"
+        ],
+        [
+          "Benjamin Lee",
+          "Maintenance",
+          "6.5",
+          "92.8",
+          "83.4"
+        ],
+        [
+          "Charlotte Wilson",
+          "Operations",
+          "5.4",
+          "94.2",
+          "88.1"
+        ],
+        [
+          "James Anderson",
+          "Production",
+          "5.0",
+          "95.6",
+          "89.5"
+        ],
+        [
+          "Olivia Martinez",
+          "Manufacturing",
+          "5.8",
+          "96.4",
+          "88.9"
+        ],
+        [
+          "Ethan Clark",
+          "Quality Assurance",
+          "4.3",
+          "98.7",
+          "91.2"
+        ],
+        [
+          "Sophia Turner",
+          "Operations",
+          "6.1",
+          "94.9",
+          "85.7"
+        ],
+        [
+          "Liam Rodriguez",
+          "Production",
+          "5.5",
+          "95.6",
+          "89.3"
+        ],
+        [
+          "Ava Patel",
+          "Engineering",
+          "4.9",
+          "97.8",
+          "87.6"
+        ],
+        [
+          "Noah Simmons",
+          "Manufacturing",
+          "6.4",
+          "93.5",
+          "84.8"
+        ],
+        [
+          "Isabella Brooks",
+          "Quality Assurance",
+          "4.1",
+          "99.1",
+          "92.5"
+        ],
+        [
+          "Mason Lee",
+          "Operations",
+          "5.7",
+          "96.2",
+          "88.1"
+        ],
+        [
+          "Charlotte Nguyen",
+          "Production",
+          "5.2",
+          "95.4",
+          "90.6"
+        ],
+        [
+          "James Carter",
+          "Engineering",
+          "4.6",
+          "97.2",
+          "86.9"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Avg Cycle Time (hrs)": 387.5,
+        "max_Avg Cycle Time (hrs)": 7.5,
+        "min_Avg Cycle Time (hrs)": 3.5,
+        "sum_First-Pass Yield (%)": 6594.8,
+        "max_First-Pass Yield (%)": 99.1,
+        "min_First-Pass Yield (%)": 87.6,
+        "sum_Capacity Utilization (%)": 5891.5,
+        "max_Capacity Utilization (%)": 92.5,
+        "min_Capacity Utilization (%)": 72.8
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Avg Cycle Time (hrs) for Maria Chen?",
+          "answer": "5.4",
+          "assertions": [
+            {
+              "text": "The response must state 5.4."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", which department is Aisha Khan listed under?",
+          "answer": "Quality Assurance",
+          "assertions": [
+            {
+              "text": "The response must state Quality Assurance."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the max_First-Pass Yield (%) value shown in the Aggregates?",
+          "answer": "99.1",
+          "assertions": [
+            {
+              "text": "The response must state 99.1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "table_0002_e93e7a42",
+      "table_number": 7,
+      "caption": "Table 7: Capacity utilisation and constraint indicators by line and plant, baseline 2026-01-01 to 2026-03-31",
+      "columns": [
+        "Plant",
+        "Line",
+        "Utilisation (%)",
+        "OEE (%)",
+        "First-Pass Yield (%)",
+        "Week)",
+        "Constraint Flag",
+        "Primary Loss Driver",
+        "Opportunity Type",
+        "Projected Capacity Release (%)",
+        "Estimated Annual Impact (USD)"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Plant A",
+          "Line 1",
+          "74%",
+          "68%",
+          "93%",
+          "12000",
+          "No",
+          "Minor stoppages",
+          "SMED reduction",
+          "6%",
+          "$180,000"
+        ],
+        [
+          "Plant A",
+          "Line 2",
+          "81%",
+          "72%",
+          "95%",
+          "13500",
+          "No",
+          "Changeover losses",
+          "Scheduling optimisation",
+          "4%",
+          "$140,000"
+        ],
+        [
+          "Plant A",
+          "Line 3",
+          "69%",
+          "65%",
+          "92%",
+          "10000",
+          "No",
+          "Unplanned downtime",
+          "TPM program",
+          "8%",
+          "$210,000"
+        ],
+        [
+          "Plant B",
+          "Line 1",
+          "83%",
+          "75%",
+          "96%",
+          "15000",
+          "No",
+          "Speed losses",
+          "Line balancing",
+          "5%",
+          "$175,000"
+        ],
+        [
+          "Plant B",
+          "Line 2",
+          "88%",
+          "62%",
+          "89%",
+          "16000",
+          "Yes",
+          "Chronic micro-stops",
+          "Bottleneck debottlenecking",
+          "12%",
+          "$420,000"
+        ],
+        [
+          "Plant B",
+          "Line 3",
+          "77%",
+          "70%",
+          "94%",
+          "14000",
+          "No",
+          "Material shortages",
+          "Kanban pull system",
+          "5%",
+          "$160,000"
+        ],
+        [
+          "Plant C",
+          "Line 1",
+          "71%",
+          "67%",
+          "91%",
+          "11000",
+          "No",
+          "Quality rework",
+          "Root cause quality fix",
+          "7%",
+          "$190,000"
+        ],
+        [
+          "Plant C",
+          "Line 2",
+          "85%",
+          "78%",
+          "97%",
+          "15500",
+          "No",
+          "Operator variability",
+          "Standard work rollout",
+          "4%",
+          "$130,000"
+        ],
+        [
+          "Plant C",
+          "Line 3",
+          "73%",
+          "69%",
+          "93%",
+          "12500",
+          "No",
+          "Planned maintenance overlap",
+          "Maintenance rescheduling",
+          "5%",
+          "$150,000"
+        ],
+        [
+          "Plant D",
+          "Line 1",
+          "79%",
+          "74%",
+          "95%",
+          "14500",
+          "No",
+          "Speed variability",
+          "Process stabilisation",
+          "6%",
+          "$200,000"
+        ],
+        [
+          "Plant D",
+          "Line 2",
+          "82%",
+          "76%",
+          "96%",
+          "15000",
+          "No",
+          "Minor changeover delays",
+          "SMED optimisation",
+          "5%",
+          "$165,000"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Utilisation (%)": 862.0,
+        "max_Utilisation (%)": 88.0,
+        "min_Utilisation (%)": 69.0,
+        "sum_OEE (%)": 776.0,
+        "max_OEE (%)": 78.0,
+        "min_OEE (%)": 62.0,
+        "sum_First-Pass Yield (%)": 1031.0,
+        "max_First-Pass Yield (%)": 97.0,
+        "min_First-Pass Yield (%)": 89.0,
+        "sum_Capacity (Units/Week)": 149000.0,
+        "max_Capacity (Units/Week)": 16000.0,
+        "min_Capacity (Units/Week)": 10000.0,
+        "sum_Projected Capacity Release (%)": 67.0,
+        "max_Projected Capacity Release (%)": 12.0,
+        "min_Projected Capacity Release (%)": 4.0,
+        "sum_Estimated Annual Impact (USD)": 2120000.0,
+        "max_Estimated Annual Impact (USD)": 420000.0,
+        "min_Estimated Annual Impact (USD)": 130000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Capacity utilisation and constraint indicators by line and plant, baseline 2026-01-01 to 2026-03-31\", what is the Constraint Flag for Plant B | Line 2?",
+          "answer": "Yes",
+          "assertions": [
+            {
+              "text": "The response must state Yes."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Capacity utilisation and constraint indicators by line and plant, baseline 2026-01-01 to 2026-03-31\", what is the Primary Loss Driver for Plant C | Line 1?",
+          "answer": "Quality rework",
+          "assertions": [
+            {
+              "text": "The response must state Quality rework."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Capacity utilisation and constraint indicators by line and plant, baseline 2026-01-01 to 2026-03-31\", what is the Estimated Annual Impact (USD) for Plant B | Line 2?",
+          "answer": "$420,000",
+          "assertions": [
+            {
+              "text": "The response must state $420,000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0004_31500acd",
+      "table_number": 8,
+      "caption": "Table 8: 12-month financial impact model by initiative (savings, one-time cost, and payback)",
+      "columns": [
+        "Initiative",
+        "Annualised savings",
+        "One-time cost",
+        "Payback (months)",
+        "Implementation status"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "SMED on Line 2",
+          "$1.2M",
+          "$0.25M",
+          "3",
+          "Pilot completed – scaling Q3"
+        ],
+        [
+          "First-Pass Yield Improvement – Assembly",
+          "$0.6M",
+          "$0.15M",
+          "3",
+          "In progress"
+        ],
+        [
+          "Capacity Optimisation – Packaging",
+          "$0.4M",
+          "$0.1M",
+          "4",
+          "Planned – Q4 start"
+        ],
+        [
+          "Preventive Maintenance Optimisation",
+          "$0.3M",
+          "$0.12M",
+          "5",
+          "In progress"
+        ],
+        [
+          "Layout Redesign – Warehouse Flow",
+          "$0.25M",
+          "$0.08M",
+          "4",
+          "Approved – pending capex release"
+        ],
+        [
+          "Digital OEE Dashboard Implementation",
+          "$0.35M",
+          "$0.2M",
+          "7",
+          "Vendor selected"
+        ],
+        [
+          "Supplier Lead Time Reduction Program",
+          "$0.3M",
+          "$0.0M",
+          "1",
+          "Quick win implemented"
+        ],
+        [
+          "Portfolio total",
+          "$3.4M",
+          "$0.9M",
+          "4 (weighted avg)",
+          "Overall programme on track"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Payback (months)": 27.0,
+        "max_Payback (months)": 7.0,
+        "min_Payback (months)": 1.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"12-month financial impact model by initiative (savings, one-time cost, and payback)\", what is the Payback (months) value for \"Digital OEE Dashboard Implementation\"?",
+          "answer": "7",
+          "assertions": [
+            {
+              "text": "The response must state 7."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"12-month financial impact model by initiative (savings, one-time cost, and payback)\", what is the One-time cost listed for \"Supplier Lead Time Reduction Program\"?",
+          "answer": "$0.0M",
+          "assertions": [
+            {
+              "text": "The response must state $0.0M."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"12-month financial impact model by initiative (savings, one-time cost, and payback)\", what is the Implementation status for \"Layout Redesign – Warehouse Flow\"?",
+          "answer": "Approved – pending capex release",
+          "assertions": [
+            {
+              "text": "The response must state Approved – pending capex release."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "table_0005_f683790f",
+      "table_number": 9,
+      "caption": "Table 9: Implementation roadmap and KPI targets by month (cycle time, FPY, utilisation), 2026-04 to 2027-03",
+      "columns": [
+        "Month",
+        "Plant B Line 2 Utilisation Target",
+        "Projected Monthly Financial Impact (USD)",
+        "Plant B Order-to-Ship Target (days)",
+        "Plant C FPY Target",
+        "Key Milestone",
+        "Status",
+        "Plant A Order-to-Ship Target (days)"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "2026-04",
+          "76%",
+          "25000",
+          "9.8",
+          "92.0%",
+          "Benchmark validation & gap confirmation",
+          "Completed",
+          "10.5"
+        ],
+        [
+          "2026-05",
+          "78%",
+          "40000",
+          "9.2",
+          "93.0%",
+          "Lean training & value stream mapping",
+          "Completed",
+          "10.0"
+        ],
+        [
+          "2026-06",
+          "82%",
+          "65000",
+          "8.7",
+          "94.5%",
+          "SMED events & quality control plan rollout",
+          "In Progress",
+          "9.6"
+        ],
+        [
+          "2026-07",
+          "84%",
+          "85000",
+          "8.4",
+          "95.0%",
+          "Line balancing & takt alignment",
+          "Planned",
+          "9.2"
+        ],
+        [
+          "2026-08",
+          "85%",
+          "105000",
+          "8.0",
+          "95.5%",
+          "Supplier lead-time compression initiative",
+          "Planned",
+          "8.9"
+        ],
+        [
+          "2026-09",
+          "87%",
+          "125000",
+          "7.8",
+          "96.0%",
+          "Preventive maintenance optimisation",
+          "Planned",
+          "8.6"
+        ],
+        [
+          "2026-10",
+          "88%",
+          "150000",
+          "7.5",
+          "96.5%",
+          "Advanced quality analytics deployment",
+          "Planned",
+          "8.3"
+        ],
+        [
+          "2026-11",
+          "90%",
+          "175000",
+          "7.2",
+          "97.0%",
+          "Capacity reallocation & bottleneck removal",
+          "Planned",
+          "8.0"
+        ],
+        [
+          "2026-12",
+          "91%",
+          "190000",
+          "7.0",
+          "97.2%",
+          "Standard work audit & sustainment review",
+          "Planned",
+          "7.8"
+        ],
+        [
+          "2027-01",
+          "92%",
+          "210000",
+          "6.8",
+          "97.5%",
+          "Full performance validation & financial audit",
+          "Planned",
+          "7.5"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Plant B Line 2 Utilisation Target": 853.0,
+        "max_Plant B Line 2 Utilisation Target": 92.0,
+        "min_Plant B Line 2 Utilisation Target": 76.0,
+        "sum_Projected Monthly Financial Impact (USD)": 1170000.0,
+        "max_Projected Monthly Financial Impact (USD)": 210000.0,
+        "min_Projected Monthly Financial Impact (USD)": 25000.0,
+        "sum_Plant B Order-to-Ship Target (days)": 80.4,
+        "max_Plant B Order-to-Ship Target (days)": 9.8,
+        "min_Plant B Order-to-Ship Target (days)": 6.8,
+        "sum_Plant C FPY Target": 954.2,
+        "max_Plant C FPY Target": 97.5,
+        "min_Plant C FPY Target": 92.0,
+        "sum_Plant A Order-to-Ship Target (days)": 88.4,
+        "max_Plant A Order-to-Ship Target (days)": 10.5,
+        "min_Plant A Order-to-Ship Target (days)": 7.5
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Implementation roadmap and KPI targets by month (cycle time, FPY, utilisation), 2026-04 to 2027-03\", what is the Projected Monthly Financial Impact (USD) for 2026-08?",
+          "answer": "105000",
+          "assertions": [
+            {
+              "text": "The response must state 105000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Implementation roadmap and KPI targets by month (cycle time, FPY, utilisation), 2026-04 to 2027-03\", what is the Status listed for 2026-06?",
+          "answer": "In Progress",
+          "assertions": [
+            {
+              "text": "The response must state In Progress."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Implementation roadmap and KPI targets by month (cycle time, FPY, utilisation), 2026-04 to 2027-03\", what is the Plant A Order-to-Ship Target (days) for 2026-04?",
+          "answer": "10.5",
+          "assertions": [
+            {
+              "text": "The response must state 10.5."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "cx_table_0003_3a05faba",
+      "table_number": 10,
+      "caption": "Table 10: Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", which leaf metric columns fall under the \"Lean Opportunity & Financial Impact\" super-group?",
+          "answer": "Opportunity Type → Lean Lever, Primary Waste; Annualised Impact → Savings (USD), Capex Avoided (USD).",
+          "assertions": [
+            {
+              "text": "The response must state 'Opportunity Type → Lean Lever, Primary Waste; Annualised Impact → Savings (USD), Capex Avoided (USD).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", how many rows does the \"Inbound Receiving\" process area label span?",
+          "answer": "5 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what is the First-Pass Yield (%) for the \"Supplier Compliance\" sub-category (first data row under that sub-category) in the Operational Performance Benchmarks columns?",
+          "answer": "97.5%.",
+          "assertions": [
+            {
+              "text": "The response must state '97.5%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what is the grand total for Savings (USD)?",
+          "answer": "1,770,000 USD.",
+          "assertions": [
+            {
+              "text": "The response must state '1,770,000 USD.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what does the \"Dock-to-Stock Sub-Total\" row show for Savings (USD)?",
+          "answer": "590,000 USD.",
+          "assertions": [
+            {
+              "text": "The response must state '590,000 USD.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what does the 'Opportunity Type' and 'Annualised Impact' mapping show?",
+          "answer": "Opportunity Type → Lean Lever, Primary Waste; Annualised Impact → Savings (USD), Capex Avoided (USD).",
+          "assertions": [
+            {
+              "text": "The response must state 'Opportunity Type → Lean Lever, Primary Waste; Annualised Impact → Savings (USD), Capex Avoided (USD).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", how many header tiers are present?",
+          "answer": "Three header tiers.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three header tiers.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what is the highest first-pass yield reported?",
+          "answer": "97.5%.",
+          "assertions": [
+            {
+              "text": "The response must state '97.5%.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what does footnote 1 explain?",
+          "answer": "Primary Waste; Annualised Impact = Savings, Capex Avoided.",
+          "assertions": [
+            {
+              "text": "Primary Waste; Annualised Impact = Savings, Capex Avoided.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what is the subtotal row count for the Lean Opportunity & Financial Impact section?",
+          "answer": "5 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "table",
+      "variant_id": "table_0003_fba1937c",
+      "table_number": 11,
+      "caption": "capacity)",
+      "columns": [
+        "Initiative",
+        "Site",
+        "Benchmark Gap Addressed",
+        "Owner",
+        "Start Date",
+        "Status",
+        "Expected Impact",
+        "Projected Annual Financial Impact (USD)"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "SMED on Line 2",
+          "Plant B",
+          "Changeover time 42% above benchmark",
+          "J. Patel",
+          "2026-06-01",
+          "Approved",
+          "Changeover -35%",
+          "$420,000"
+        ],
+        [
+          "First-Pass Yield Improvement Program",
+          "Plant A",
+          "FPY 6.5 pts below industry median",
+          "L. Chen",
+          "2026-05-15",
+          "In Progress",
+          "FPY +5 pts",
+          "$310,000"
+        ],
+        [
+          "Capacity Rebalancing & Line Balancing",
+          "Plant C",
+          "Utilisation variance 18% across shifts",
+          "M. Rodriguez",
+          "2026-07-01",
+          "Planned",
+          "Throughput +12%",
+          "$515,000"
+        ],
+        [
+          "Standard Work & Visual Management Rollout",
+          "Plant B",
+          "Operator cycle variation 22% vs. takt",
+          "S. Ahmed",
+          "2026-05-20",
+          "In Progress",
+          "Cycle time -10%",
+          "$185,000"
+        ],
+        [
+          "Preventive Maintenance Optimisation",
+          "Plant A",
+          "Unplanned downtime 9% above benchmark",
+          "R. Singh",
+          "2026-06-10",
+          "Approved",
+          "Downtime -25%",
+          "$390,000"
+        ],
+        [
+          "Scrap Reduction Kaizen",
+          "Plant C",
+          "Scrap rate 3.2% vs. 1.8% benchmark",
+          "E. Novak",
+          "2026-05-25",
+          "In Progress",
+          "Scrap -30%",
+          "$275,000"
+        ],
+        [
+          "Warehouse Flow & Layout Redesign",
+          "Plant B",
+          "Internal material lead time 28% above peer avg.",
+          "D. Williams",
+          "2026-07-15",
+          "Planned",
+          "Lead time -20%",
+          "$160,000"
+        ],
+        [
+          "Digital OEE Dashboard Deployment",
+          "Plant A",
+          "OEE visibility lagging real-time benchmark",
+          "K. Müller",
+          "2026-06-05",
+          "Approved",
+          "OEE +8 pts",
+          "$240,000"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Projected Annual Financial Impact (USD)": 2495000.0,
+        "max_Projected Annual Financial Impact (USD)": 515000.0,
+        "min_Projected Annual Financial Impact (USD)": 160000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "capacity)\", what is the Projected Annual Financial Impact (USD) for \"Capacity Rebalancing & Line Balancing\"?",
+          "answer": "$515,000",
+          "assertions": [
+            {
+              "text": "The response must state $515,000."
+            }
+          ]
+        },
+        {
+          "question": "capacity)\", who is the Owner of \"Preventive Maintenance Optimisation\"?",
+          "answer": "R. Singh",
+          "assertions": [
+            {
+              "text": "The response must state R. Singh."
+            }
+          ]
+        },
+        {
+          "question": "capacity)\", what is the Start Date for \"Digital OEE Dashboard Deployment\"?",
+          "answer": "2026-06-05",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-05."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_17fc6e61",
+      "table_number": 12,
+      "caption": "Table 12: Purchase Order Register",
+      "columns": [
+        "PO_Number",
+        "Supplier_Name",
+        "Order_Value_USD",
+        "Cycle_Time_Days",
+        "Status"
+      ],
+      "row_count": 53,
+      "cells": [
+        [
+          "PO-2026-001",
+          "Alpha Industrial Components",
+          "125000",
+          "18",
+          "Closed"
+        ],
+        [
+          "PO-2026-002",
+          "Beta Precision Parts",
+          "84250",
+          "22",
+          "Closed"
+        ],
+        [
+          "PO-2026-003",
+          "Gamma Manufacturing Ltd",
+          "156780",
+          "30",
+          "In Review"
+        ],
+        [
+          "PO-2026-004",
+          "Delta Process Equipment",
+          "64200",
+          "15",
+          "Closed"
+        ],
+        [
+          "PO-2026-005",
+          "Epsilon Automation Systems",
+          "210500",
+          "45",
+          "Approved"
+        ],
+        [
+          "PO-2026-006",
+          "Zeta Tooling Solutions",
+          "97300",
+          "28",
+          "Closed"
+        ],
+        [
+          "PO-2026-007",
+          "Eta Supply Chain Services",
+          "48350",
+          "12",
+          "Closed"
+        ],
+        [
+          "PO-2026-008",
+          "Theta Industrial Supplies",
+          "132900",
+          "35",
+          "In Review"
+        ],
+        [
+          "PO-2026-009",
+          "Iota Engineering Co.",
+          "76540",
+          "20",
+          "Closed"
+        ],
+        [
+          "PO-2026-010",
+          "Kappa Fabrication Group",
+          "189600",
+          "40",
+          "Approved"
+        ],
+        [
+          "PO-2026-011",
+          "Lambda Logistics Ltd",
+          "55400",
+          "14",
+          "Closed"
+        ],
+        [
+          "PO-2026-012",
+          "Mu Process Technologies",
+          "143250",
+          "33",
+          "In Review"
+        ],
+        [
+          "PO-2026-013",
+          "Nu Industrial Controls",
+          "118900",
+          "26",
+          "Closed"
+        ],
+        [
+          "PO-2026-014",
+          "Xi Component Manufacturing",
+          "69230",
+          "19",
+          "Closed"
+        ],
+        [
+          "PO-2026-015",
+          "Omicron Automation Parts",
+          "175800",
+          "38",
+          "Approved"
+        ],
+        [
+          "PO-1016",
+          "Apex Industrial Co.",
+          "48250.00",
+          "12",
+          "Closed"
+        ],
+        [
+          "PO-1017",
+          "North Ridge Components",
+          "15780.45",
+          "7",
+          "In Progress"
+        ],
+        [
+          "PO-1018",
+          "Summit Process Solutions",
+          "92340.10",
+          "18",
+          "Closed"
+        ],
+        [
+          "PO-1019",
+          "BlueLine Manufacturing",
+          "27495.60",
+          "9",
+          "Pending"
+        ],
+        [
+          "PO-1020",
+          "Vertex Safety Supplies",
+          "6835.20",
+          "5",
+          "Closed"
+        ],
+        [
+          "PO-1021",
+          "Prime Alloy Industries",
+          "120450.00",
+          "22",
+          "In Progress"
+        ],
+        [
+          "PO-1022",
+          "Delta Control Systems",
+          "35890.75",
+          "14",
+          "Closed"
+        ],
+        [
+          "PO-1023",
+          "Evergreen Hydraulics",
+          "19460.30",
+          "11",
+          "Closed"
+        ],
+        [
+          "PO-1024",
+          "Titanium Fabricators Ltd.",
+          "76420.90",
+          "16",
+          "Pending"
+        ],
+        [
+          "PO-1025",
+          "Precision Parts Network",
+          "14325.00",
+          "6",
+          "Closed"
+        ],
+        [
+          "PO-1026",
+          "Global Maintenance Corp.",
+          "53870.55",
+          "13",
+          "In Progress"
+        ],
+        [
+          "PO-1027",
+          "RapidTurn Logistics",
+          "11240.80",
+          "4",
+          "Closed"
+        ],
+        [
+          "PO-1028",
+          "Optima Industrial Tools",
+          "26795.35",
+          "8",
+          "Closed"
+        ],
+        [
+          "PO-1029",
+          "Metro Electrical Supply",
+          "31860.00",
+          "10",
+          "Pending"
+        ],
+        [
+          "PO-1030",
+          "Pioneer Process Equipment",
+          "88975.25",
+          "19",
+          "In Progress"
+        ],
+        [
+          "PO-031",
+          "Apex Industrial Controls",
+          "48250.75",
+          "12",
+          "Closed"
+        ],
+        [
+          "PO-032",
+          "Summit Process Equipment",
+          "125900.0",
+          "18",
+          "In Progress"
+        ],
+        [
+          "PO-033",
+          "BlueRiver Components Ltd.",
+          "7640.2",
+          "7",
+          "Closed"
+        ],
+        [
+          "PO-034",
+          "Northstar Automation Inc.",
+          "98210.55",
+          "21",
+          "Pending"
+        ],
+        [
+          "PO-035",
+          "Vertex Safety Supplies",
+          "15430.0",
+          "5",
+          "Closed"
+        ],
+        [
+          "PO-036",
+          "PrimeFlow Hydraulics",
+          "67325.4",
+          "16",
+          "In Progress"
+        ],
+        [
+          "PO-037",
+          "Optima Manufacturing Solutions",
+          "210450.9",
+          "25",
+          "Pending"
+        ],
+        [
+          "PO-038",
+          "Delta Precision Parts",
+          "38975.6",
+          "9",
+          "Closed"
+        ],
+        [
+          "PO-039",
+          "Evergreen Industrial Gases",
+          "11820.0",
+          "4",
+          "Closed"
+        ],
+        [
+          "PO-040",
+          "Titan Robotics Corp.",
+          "305780.0",
+          "30",
+          "In Progress"
+        ],
+        [
+          "PO-041",
+          "Metro Electrical Systems",
+          "54260.35",
+          "14",
+          "Closed"
+        ],
+        [
+          "PO-042",
+          "Pioneer Conveyor Technologies",
+          "88995.99",
+          "19",
+          "Pending"
+        ],
+        [
+          "PO-043",
+          "Allied Quality Assurance Labs",
+          "12950.0",
+          "6",
+          "Closed"
+        ],
+        [
+          "PO-044",
+          "Global Maintenance Services",
+          "45780.8",
+          "11",
+          "In Progress"
+        ],
+        [
+          "PO-045",
+          "Sterling Packaging Machinery",
+          "173600.25",
+          "22",
+          "Pending"
+        ],
+        [
+          "PO-046",
+          "Apex Industrial Components",
+          "48250.75",
+          "18",
+          "Closed"
+        ],
+        [
+          "PO-047",
+          "NovaTech Manufacturing",
+          "125300.0",
+          "27",
+          "In Review"
+        ],
+        [
+          "PO-048",
+          "Summit Process Solutions",
+          "76440.2",
+          "22",
+          "Closed"
+        ],
+        [
+          "PO-049",
+          "Vertex Precision Tools",
+          "38990.5",
+          "15",
+          "Approved"
+        ],
+        [
+          "PO-050",
+          "PrimeFlow Systems",
+          "214875.99",
+          "34",
+          "Pending"
+        ],
+        [
+          "PO-051",
+          "BlueLine Packaging Co.",
+          "59320.1",
+          "19",
+          "Closed"
+        ],
+        [
+          "PO-052",
+          "Orion Fabrication Group",
+          "142660.45",
+          "29",
+          "In Progress"
+        ],
+        [
+          "PO-053",
+          "Pioneer Automation Ltd.",
+          "98750.0",
+          "24",
+          "Approved"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Order_Value_USD": 4527949.03,
+        "max_Order_Value_USD": 305780.0,
+        "min_Order_Value_USD": 6835.2,
+        "sum_Cycle_Time_Days": 976.0,
+        "max_Cycle_Time_Days": 45.0,
+        "min_Cycle_Time_Days": 4.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Order_Value_USD for PO-2026-003?",
+          "answer": "156780",
+          "assertions": [
+            {
+              "text": "The response must state 156780."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Status of PO-052?",
+          "answer": "In Progress",
+          "assertions": [
+            {
+              "text": "The response must state In Progress."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Supplier_Name for PO-1027?",
+          "answer": "RapidTurn Logistics",
+          "assertions": [
+            {
+              "text": "The response must state RapidTurn Logistics."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "cx_table_0000_ec12aedb": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 18,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "operational_efficiency_review"
+    },
+    "cx_table_0001_b034d9ec": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 17,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "operational_efficiency_review"
+    },
+    "table_0001_210c9e50": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Benchmarks_FPY_and_the_dominant_defect_families_by_plant_to_",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Metric",
+        "Plant D",
+        "Plant A",
+        "Plant B",
+        "Plant C"
+      ],
+      "topic_id": "operational_efficiency_review"
+    },
+    "table_0000_856a6a71": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Compares_end-to-end_and_step-level_cycle_times_across_Plants",
+      "row_count": 10,
+      "col_count": 4,
+      "columns": [
+        "Process Step",
+        "Plant B (median days)",
+        "Plant A (median days)",
+        "Plant C (median days)"
+      ],
+      "topic_id": "operational_efficiency_review"
+    },
+    "cx_table_0002_1a537922": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 18,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "operational_efficiency_review"
+    },
+    "text_0000_fba32aa1": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants",
+      "word_count": 227,
+      "text_type": "llm_prose",
+      "topic_id": "operational_efficiency_review"
+    },
+    "text_0001_8c6b9104": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "abbreviations"
+      ],
+      "heading": "Lean Opportunity Portfolio and 12-Month Financial Impact Projection",
+      "word_count": 167,
+      "text_type": "llm_prose",
+      "topic_id": "operational_efficiency_review"
+    },
+    "llm_mp_table_0001_ac512ca0": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "employee_activity_report",
+      "row_count": 70,
+      "col_count": 5,
+      "columns": [
+        "Employee Name",
+        "Department",
+        "Avg Cycle Time (hrs)",
+        "First-Pass Yield (%)",
+        "Capacity Utilization (%)"
+      ],
+      "topic_id": ""
+    },
+    "table_0002_e93e7a42": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Shows_utilisation,_OEE,_and_constraint_signals_to_distinguis",
+      "row_count": 11,
+      "col_count": 11,
+      "columns": [
+        "Plant",
+        "Line",
+        "Utilisation (%)",
+        "OEE (%)",
+        "First-Pass Yield (%)",
+        "Week)",
+        "Constraint Flag",
+        "Primary Loss Driver",
+        "Opportunity Type",
+        "Projected Capacity Release (%)",
+        "Estimated Annual Impact (USD)"
+      ],
+      "topic_id": "operational_efficiency_review"
+    },
+    "table_0004_31500acd": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Quantifies_the_projected_annualised_savings_and_required_inv",
+      "row_count": 8,
+      "col_count": 5,
+      "columns": [
+        "Initiative",
+        "Annualised savings",
+        "One-time cost",
+        "Payback (months)",
+        "Implementation status"
+      ],
+      "topic_id": "operational_efficiency_review"
+    },
+    "table_0005_f683790f": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "formatting"
+      ],
+      "base_type": "Provides_a_month-by-month_plan_linking_initiative_milestones",
+      "row_count": 10,
+      "col_count": 8,
+      "columns": [
+        "Month",
+        "Plant B Line 2 Utilisation Target",
+        "Projected Monthly Financial Impact (USD)",
+        "Plant B Order-to-Ship Target (days)",
+        "Plant C FPY Target",
+        "Key Milestone",
+        "Status",
+        "Plant A Order-to-Ship Target (days)"
+      ],
+      "topic_id": "operational_efficiency_review"
+    },
+    "cx_table_0003_3a05faba": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 18,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "operational_efficiency_review"
+    },
+    "table_0003_fba1937c": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Lists_prioritised_lean_initiatives_tied_directly_to_the_benc",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Initiative",
+        "Site",
+        "Benchmark Gap Addressed",
+        "Owner",
+        "Start Date",
+        "Status",
+        "Expected Impact",
+        "Projected Annual Financial Impact (USD)"
+      ],
+      "topic_id": "operational_efficiency_review"
+    },
+    "llm_mp_table_0000_17fc6e61": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "purchase_order_register",
+      "row_count": 53,
+      "col_count": 5,
+      "columns": [
+        "PO_Number",
+        "Supplier_Name",
+        "Order_Value_USD",
+        "Cycle_Time_Days",
+        "Status"
+      ],
+      "topic_id": ""
+    },
+    "scan_llm_0011_edd96b67": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_3b713154.png",
+      "topic_id": ""
+    },
+    "scan_llm_0006_580becf5": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_6f8c8acc.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective categories are the column groups?",
+      "answer": "Customer Outcomes; Operational Performance; Financial Impact.",
+      "assertions": [
+        {
+          "text": "The response must state 'Customer Outcomes; Operational Performance; Financial Impact.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many initiatives fall under the \"Flow & Throughput\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the alignment rating of \"SMED on Bottleneck Press Line (Changeover < 30 min)\" for the \"Capacity Utilisation\" objective?",
+      "answer": "H (High).",
+      "assertions": [
+        {
+          "text": "The response must state 'H (High).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the total score for the \"Pull Replenishment (Kanban) for Top 50 SKUs\" initiative?",
+      "answer": "72.",
+      "assertions": [
+        {
+          "text": "The response must state '72.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective category has the highest weighted total score?",
+      "answer": "Operational Performance (sum of its objectives: 412) has the highest weighted total score.",
+      "assertions": [
+        {
+          "text": "The response must state 'Operational Performance (sum of its objectives: 412) has the highest weighted total score.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what are the top-level header labels across the page?",
+      "answer": "Customer Outcomes; Operational Performance; Financial Impact; Total Score",
+      "assertions": [
+        {
+          "text": "The response must state 'Customer Outcomes; Operational Performance; Financial Impact; Total Score'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many data rows are listed in the table?",
+      "answer": "18 data rows",
+      "assertions": [
+        {
+          "text": "The response must state '18 data rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which priority indicator denotes the highest level?",
+      "answer": "H (High)",
+      "assertions": [
+        {
+          "text": "The response must state 'H (High)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what does footnote H explain?",
+      "answer": "H (High)",
+      "assertions": [
+        {
+          "text": "The response must state 'H (High)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the subtotal count for initiatives shown in the table?",
+      "answer": "4 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", which objective categories are the column groups?",
+      "answer": "Service & Customer Outcomes; Process Performance; Capacity & Reliability; Financial Impact.",
+      "assertions": [
+        {
+          "text": "The response must state 'Service & Customer Outcomes; Process Performance; Capacity & Reliability; Financial Impact.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", how many initiatives fall under the \"Capacity & Utilisation Optimisation\" initiative category?",
+      "answer": "3 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '3 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": " Setup Time\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", what is the total score for the \"Value Stream Mapping & Bottleneck Removal (Order-to-Ship)\" initiative?",
+      "answer": "74.",
+      "assertions": [
+        {
+          "text": "The response must state '74.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", which objective category has the highest weighted total score?",
+      "answer": "Process Performance (total 280).",
+      "assertions": [
+        {
+          "text": "The response must state 'Process Performance (total 280).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", which label is used for the second top-level header column?",
+      "answer": "Service & Customer Outcomes",
+      "assertions": [
+        {
+          "text": "The response must state 'Service & Customer Outcomes'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", how many header tiers appear at the top of the table?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", which is greater: the number of header tiers or the number of data rows?",
+      "answer": "Data rows (17)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (17)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", what does the annotation 'S' denote?",
+      "answer": "Service & Customer Outcomes; Process Performance; Capacity & Reliability; Financial Impact",
+      "assertions": [
+        {
+          "text": "The response must state 'Service & Customer Outcomes; Process Performance; Capacity & Reliability; Financial Impact'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking Cross-Reference Grid: Strategic Initiatives vs. Objectives (Cycle Time, FPY, Utilisation, Lean Impact)\", what is the subtotal count for the initiatives group shown in the table?",
+      "answer": "3 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '3 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"First-pass yield (FPY) benchmarking by plant and top defect family, baseline 2026-01-01 to 2026-03-31\", what is the Rework rate for Plant B?",
+      "answer": "3.8%",
+      "assertions": [
+        {
+          "text": "The response must state 3.8%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"First-pass yield (FPY) benchmarking by plant and top defect family, baseline 2026-01-01 to 2026-03-31\", what is the Top defect family listed for Plant C?",
+      "answer": "Seal leak",
+      "assertions": [
+        {
+          "text": "The response must state Seal leak."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"First-pass yield (FPY) benchmarking by plant and top defect family, baseline 2026-01-01 to 2026-03-31\", what is the Capacity utilisation for Plant A?",
+      "answer": "88%",
+      "assertions": [
+        {
+          "text": "The response must state 88%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cycle-time benchmarking (median days) by process step and plant, baseline 2026-01-01 to 2026-03-31\", what is the median days value for Production Cycle at Plant A (median days)?",
+      "answer": "3.4",
+      "assertions": [
+        {
+          "text": "The response must state 3.4."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cycle-time benchmarking (median days) by process step and plant, baseline 2026-01-01 to 2026-03-31\", what value is listed for Order Entry Validation under Plant B (median days)?",
+      "answer": "1.1",
+      "assertions": [
+        {
+          "text": "The response must state 1.1."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cycle-time benchmarking (median days) by process step and plant, baseline 2026-01-01 to 2026-03-31\", what is the median days value for Dispatch & Carrier Handover at Plant C (median days)?",
+      "answer": "0.6",
+      "assertions": [
+        {
+          "text": "The response must state 0.6."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective categories are the column groups?",
+      "answer": "Customer & Service Outcomes; Process Performance; Asset & Workforce Utilisation; Financial Impact.",
+      "assertions": [
+        {
+          "text": "The response must state 'Customer & Service Outcomes; Process Performance; Asset & Workforce Utilisation; Financial Impact.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many initiatives fall under the \"Quality & FPY\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "Setup Time\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the total score for the \"Constraint Management (TOC) & Drum‑Buffer‑Rope Scheduling\" initiative?",
+      "answer": "123.",
+      "assertions": [
+        {
+          "text": "The response must state '123.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective category has the highest weighted total score?",
+      "answer": "Financial Impact (total 277, from 76 + 67 + 53 + 81).",
+      "assertions": [
+        {
+          "text": "The response must state 'Financial Impact (total 277, from 76 + 67 + 53 + 81).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the third header label in the first header row?",
+      "answer": "Process Performance",
+      "assertions": [
+        {
+          "text": "The response must state 'Process Performance'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many header tiers are present?",
+      "answer": "Three",
+      "assertions": [
+        {
+          "text": "The response must state 'Three'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which is greater, the number of data rows or the number of initiatives?",
+      "answer": "Data rows (18)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (18)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what annotation label is listed in the table facts (footnote)?",
+      "answer": "H",
+      "assertions": [
+        {
+          "text": "The response must state 'H'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the subtotal count for the Strategic Initiatives group across objectives?",
+      "answer": "4 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants\" section, what was the data collection period for the baseline operational data?",
+      "answer": "2026-01-01 to 2026-03-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-01-01 to 2026-03-31."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants\" section, what is the median Order-to-Ship cycle time reported for Plant B?",
+      "answer": "9.6 days",
+      "assertions": [
+        {
+          "text": "The response must state 9.6 days."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Benchmarking Baseline: Cycle Time, First-Pass Yield, and Capacity Utilisation Across Plants\" section, what first-pass yield percentage is reported for Plant C?",
+      "answer": "92.4%",
+      "assertions": [
+        {
+          "text": "The response must state 92.4%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Lean Opportunity Portfolio and 12-Month Financial Impact Projection\" section, what is the targeted cycle-time reduction for Plant B Order-to-Ship within 12 months?",
+      "answer": "1.8-day cycle-time reduction",
+      "assertions": [
+        {
+          "text": "The response must state 1.8-day cycle-time reduction."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Lean Opportunity Portfolio and 12-Month Financial Impact Projection\" section, what is the projected annualised savings amount?",
+      "answer": "$3.4M",
+      "assertions": [
+        {
+          "text": "The response must state $3.4M."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Lean Opportunity Portfolio and 12-Month Financial Impact Projection\" section, what is the estimated simple payback period?",
+      "answer": "~3.2 months (0.27 years)",
+      "assertions": [
+        {
+          "text": "The response must state ~3.2 months (0.27 years)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Avg Cycle Time (hrs) for Maria Chen?",
+      "answer": "5.4",
+      "assertions": [
+        {
+          "text": "The response must state 5.4."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", which department is Aisha Khan listed under?",
+      "answer": "Quality Assurance",
+      "assertions": [
+        {
+          "text": "The response must state Quality Assurance."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the max_First-Pass Yield (%) value shown in the Aggregates?",
+      "answer": "99.1",
+      "assertions": [
+        {
+          "text": "The response must state 99.1."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Capacity utilisation and constraint indicators by line and plant, baseline 2026-01-01 to 2026-03-31\", what is the Constraint Flag for Plant B | Line 2?",
+      "answer": "Yes",
+      "assertions": [
+        {
+          "text": "The response must state Yes."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Capacity utilisation and constraint indicators by line and plant, baseline 2026-01-01 to 2026-03-31\", what is the Primary Loss Driver for Plant C | Line 1?",
+      "answer": "Quality rework",
+      "assertions": [
+        {
+          "text": "The response must state Quality rework."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Capacity utilisation and constraint indicators by line and plant, baseline 2026-01-01 to 2026-03-31\", what is the Estimated Annual Impact (USD) for Plant B | Line 2?",
+      "answer": "$420,000",
+      "assertions": [
+        {
+          "text": "The response must state $420,000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"12-month financial impact model by initiative (savings, one-time cost, and payback)\", what is the Payback (months) value for \"Digital OEE Dashboard Implementation\"?",
+      "answer": "7",
+      "assertions": [
+        {
+          "text": "The response must state 7."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"12-month financial impact model by initiative (savings, one-time cost, and payback)\", what is the One-time cost listed for \"Supplier Lead Time Reduction Program\"?",
+      "answer": "$0.0M",
+      "assertions": [
+        {
+          "text": "The response must state $0.0M."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"12-month financial impact model by initiative (savings, one-time cost, and payback)\", what is the Implementation status for \"Layout Redesign – Warehouse Flow\"?",
+      "answer": "Approved – pending capex release",
+      "assertions": [
+        {
+          "text": "The response must state Approved – pending capex release."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Implementation roadmap and KPI targets by month (cycle time, FPY, utilisation), 2026-04 to 2027-03\", what is the Projected Monthly Financial Impact (USD) for 2026-08?",
+      "answer": "105000",
+      "assertions": [
+        {
+          "text": "The response must state 105000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Implementation roadmap and KPI targets by month (cycle time, FPY, utilisation), 2026-04 to 2027-03\", what is the Status listed for 2026-06?",
+      "answer": "In Progress",
+      "assertions": [
+        {
+          "text": "The response must state In Progress."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Implementation roadmap and KPI targets by month (cycle time, FPY, utilisation), 2026-04 to 2027-03\", what is the Plant A Order-to-Ship Target (days) for 2026-04?",
+      "answer": "10.5",
+      "assertions": [
+        {
+          "text": "The response must state 10.5."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", which leaf metric columns fall under the \"Lean Opportunity & Financial Impact\" super-group?",
+      "answer": "Opportunity Type → Lean Lever, Primary Waste; Annualised Impact → Savings (USD), Capex Avoided (USD).",
+      "assertions": [
+        {
+          "text": "The response must state 'Opportunity Type → Lean Lever, Primary Waste; Annualised Impact → Savings (USD), Capex Avoided (USD).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", how many rows does the \"Inbound Receiving\" process area label span?",
+      "answer": "5 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what is the First-Pass Yield (%) for the \"Supplier Compliance\" sub-category (first data row under that sub-category) in the Operational Performance Benchmarks columns?",
+      "answer": "97.5%.",
+      "assertions": [
+        {
+          "text": "The response must state '97.5%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what is the grand total for Savings (USD)?",
+      "answer": "1,770,000 USD.",
+      "assertions": [
+        {
+          "text": "The response must state '1,770,000 USD.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what does the \"Dock-to-Stock Sub-Total\" row show for Savings (USD)?",
+      "answer": "590,000 USD.",
+      "assertions": [
+        {
+          "text": "The response must state '590,000 USD.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what does the 'Opportunity Type' and 'Annualised Impact' mapping show?",
+      "answer": "Opportunity Type → Lean Lever, Primary Waste; Annualised Impact → Savings (USD), Capex Avoided (USD).",
+      "assertions": [
+        {
+          "text": "The response must state 'Opportunity Type → Lean Lever, Primary Waste; Annualised Impact → Savings (USD), Capex Avoided (USD).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", how many header tiers are present?",
+      "answer": "Three header tiers.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three header tiers.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what is the highest first-pass yield reported?",
+      "answer": "97.5%.",
+      "assertions": [
+        {
+          "text": "The response must state '97.5%.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what does footnote 1 explain?",
+      "answer": "Primary Waste; Annualised Impact = Savings, Capex Avoided.",
+      "assertions": [
+        {
+          "text": "Primary Waste; Annualised Impact = Savings, Capex Avoided.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Excellence Benchmarking — Cycle Time, FPY, Capacity Utilisation & Lean Financial Impact (Quarterly Review)\", what is the subtotal row count for the Lean Opportunity & Financial Impact section?",
+      "answer": "5 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows.'"
+        }
+      ]
+    },
+    {
+      "question": "capacity)\", what is the Projected Annual Financial Impact (USD) for \"Capacity Rebalancing & Line Balancing\"?",
+      "answer": "$515,000",
+      "assertions": [
+        {
+          "text": "The response must state $515,000."
+        }
+      ]
+    },
+    {
+      "question": "capacity)\", who is the Owner of \"Preventive Maintenance Optimisation\"?",
+      "answer": "R. Singh",
+      "assertions": [
+        {
+          "text": "The response must state R. Singh."
+        }
+      ]
+    },
+    {
+      "question": "capacity)\", what is the Start Date for \"Digital OEE Dashboard Deployment\"?",
+      "answer": "2026-06-05",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-05."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Order_Value_USD for PO-2026-003?",
+      "answer": "156780",
+      "assertions": [
+        {
+          "text": "The response must state 156780."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Status of PO-052?",
+      "answer": "In Progress",
+      "assertions": [
+        {
+          "text": "The response must state In Progress."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Supplier_Name for PO-1027?",
+      "answer": "RapidTurn Logistics",
+      "assertions": [
+        {
+          "text": "The response must state RapidTurn Logistics."
+        }
+      ]
+    }
+  ]
+}

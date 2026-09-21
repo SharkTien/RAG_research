@@ -1,0 +1,2934 @@
+{
+  "doc_id": "doc_0000_s531984517",
+  "title": "Three-Year Corporate Strategic Plan: Growth Ambitions, Market Positioning, Capability Investments and Business Unit Performance Milestones",
+  "subtitle": "Three‑Year Corporate Strategic Plan — Growth, Market Positioning, Capability Investment & Business Unit Milestones",
+  "topic_id": "strategic_plan_three_year",
+  "recipe_name": "executive_visual",
+  "seed": 531984517,
+  "document_brief": {
+    "narrative_theme": "Over 2026–2028, the company will reposition as a premium, sustainability-led platform by accelerating profitable growth, investing in differentiating capabilities, and executing measurable milestones across each business unit.",
+    "sections": [
+      {
+        "heading": "2026–2028 Growth Ambitions and Market Positioning by Business Unit",
+        "key_facts": [
+          "By FY2028, total revenue will reach $3.2B (from $2.4B in FY2025).",
+          "By FY2028, EBITDA margin will reach 18% (from 14% in FY2025).",
+          "In 2027, we will enter two new countries: Germany and Japan."
+        ],
+        "data_references": [
+          "chart_0",
+          "chart_1",
+          "chart_2"
+        ]
+      },
+      {
+        "heading": "Capability Investment Priorities and Performance Milestones (2026–2028 Execution Roadmap)",
+        "key_facts": [
+          "From 2026–2028, we will invest $240M in capabilities: $90M in Digital & Data, $70M in Sales & Marketing, $50M in Operations, and $30M in People & Culture.",
+          "By Q4 2027, 60% of customer interactions will be self-serve via digital channels.",
+          "By Q4 2028, Scope 1 and 2 emissions will be reduced by 35% versus the 2025 baseline."
+        ],
+        "data_references": [
+          "chart_3",
+          "chart_4",
+          "chart_5"
+        ]
+      }
+    ],
+    "tables": [],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Revenue Growth Trajectory by Business Unit (FY2025–FY2028)",
+        "chart_type": "line",
+        "x_label": "Fiscal Year (FY2025–FY2028)",
+        "y_label": "Revenue (USD, billions)",
+        "purpose": "Shows the planned revenue ramp by business unit and the total path to $3.2B by FY2028, supporting the three-year growth ambition."
+      },
+      {
+        "id": "chart_1",
+        "title": "Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)",
+        "chart_type": "bar",
+        "x_label": "Priority Segment (with competitor set)",
+        "y_label": "Market Share (%)",
+        "purpose": "Compares baseline (2025) and target (2028) market share by segment to evidence intended market positioning gains."
+      },
+      {
+        "id": "chart_2",
+        "title": "Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)",
+        "chart_type": "scatter",
+        "x_label": "Projected 2028 EBITDA Margin (%)",
+        "y_label": "Projected 2026–2028 CAGR (%)",
+        "purpose": "Positions business units on a growth-versus-profitability map to justify where to prioritize expansion while achieving the 18% EBITDA margin goal."
+      },
+      {
+        "id": "chart_3",
+        "title": "2026–2028 Capability Investment Allocation by Strategic Theme",
+        "chart_type": "pie",
+        "x_label": "Capability Theme",
+        "y_label": "Share of Total Investment (%)",
+        "purpose": "Visualizes the $240M investment split across Digital & Data, Sales & Marketing, Operations, and People & Culture to align spending with the strategic narrative."
+      },
+      {
+        "id": "chart_4",
+        "title": "Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)",
+        "chart_type": "line",
+        "x_label": "Quarter (2026 Q1 to 2028 Q4)",
+        "y_label": "Milestone Progress (% of Target Achieved)",
+        "purpose": "Tracks quarterly progress toward key execution milestones, including reaching 60% self-serve customer interactions by Q4 2027."
+      },
+      {
+        "id": "chart_5",
+        "title": "Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline",
+        "chart_type": "line",
+        "x_label": "Year (2025 Baseline, 2026–2028)",
+        "y_label": "Emissions Index (2025 = 100)",
+        "purpose": "Shows the annual emissions reduction path required to achieve a 35% reduction in Scope 1 and 2 emissions by Q4 2028, reinforcing premium sustainability-led positioning."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s531984517.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0003_af70b34a.png",
+      "scan_llm_text_f2075cc7.png",
+      "cmp_0001_7a9ba4f8.png",
+      "img_0005_924ec5ec.png",
+      "scan_llm_data_e2aed01a.png",
+      "hub_0000_303f2c12.png",
+      "img_0000_2c0f7268.png",
+      "cmp_0000_31755fca.png",
+      "img_0001_be61aec1.png",
+      "cmp_0004_75db4673.png",
+      "img_0002_f58a2a40.png",
+      "dash_0002_44974aef.png",
+      "img_0004_689180ab.png",
+      "dash_0005_58ccd199.png",
+      "dash_0000_794d73a3.png",
+      "dash_0003_9ed04cb1.png",
+      "hub_0002_073b69eb.png",
+      "hub_0003_5ca14314.png",
+      "dash_0004_83eb332e.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 22,
+    "actual_page_count": 13
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "img_0003_af70b34a",
+      "figure_number": 1,
+      "image_path": "img_0003_af70b34a.png",
+      "caption": "Figure 1: 2026–2028 Capability Investment Allocation by Strategic Theme",
+      "chart_type": "stacked_area",
+      "chart_title": "2026–2028 Capability Investment Allocation by Strategic Theme",
+      "x_label": "Capability Theme",
+      "y_label": "Share of Total Investment (%)",
+      "categories": [
+        "Digital & Data",
+        "Sales & Marketing",
+        "Operations",
+        "People & Culture"
+      ],
+      "series_names": [
+        "Investment Share (%)"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Investment Share (%)"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", what does the Y-axis represent?",
+          "answer": "Share of Total Investment (%)",
+          "assertions": [
+            {
+              "text": "The response must state Share of Total Investment (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", name one of the capability themes on the X-axis.",
+          "answer": "Digital & Data",
+          "assertions": [
+            {
+              "text": "The response must state Digital & Data."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "scan_llm_0000_201a3151",
+      "figure_number": 2,
+      "image_path": "scan_llm_text_f2075cc7.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 2: 2026–2028 Corporate Strategic Plan Overview",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "2026–2028 Corporate Strategic Plan Overview",
+        "subtitle": "Ref: CSP-26-28 | Date: 12 January 2026 | Prepared by: Strategy & Transformation Office",
+        "sections": [
+          {
+            "heading": "Strategic Intent and Positioning",
+            "body": "Between 2026 and 2028, Orion Industrial Solutions will reposition itself as a premium, sustainability-led platform serving mid-market and enterprise clients across North America and Western Europe. Our ambition is to increase revenue from €1.2 billion in FY2025 to €1.75 billion by FY2028 while expanding adjusted EBITDA margins from 14.8% to 19.5%. The strategy centers on profitable growth, disciplined capital allocation, and brand elevation anchored in low-carbon products and lifecycle service excellence."
+          },
+          {
+            "heading": "Growth Ambitions by Business Unit",
+            "body": "The Advanced Materials division will target 9–11% annual organic growth through premium product launches and selective price optimization, supported by two bolt-on acquisitions in specialty composites. The Smart Systems unit will prioritize recurring revenue expansion, aiming to increase service contracts from 38% to 55% of segment revenue by 2028. Meanwhile, Global Distribution will streamline its footprint, exiting three subscale markets and reinvesting in digital channels to improve inventory turns from 4.2x to 6.0x."
+          },
+          {
+            "heading": "Capability Investments",
+            "body": "We will allocate approximately €210 million over three years toward differentiating capabilities, including a new Sustainability Innovation Center in Rotterdam and enterprise-wide ERP modernization. Digital enablement initiatives will deploy advanced demand forecasting, AI-assisted design tools, and end-to-end supply chain visibility to reduce lead times by 20%. Talent investments include upskilling 1,500 employees in sustainable engineering and launching a leadership accelerator for high-potential managers across all regions."
+          },
+          {
+            "heading": "Sustainability and ESG Commitments",
+            "body": "A cornerstone of our repositioning is achieving a 45% reduction in Scope 1 and 2 emissions by the end of 2028 relative to the 2024 baseline. All new product development will adhere to eco-design standards, targeting a minimum 30% recycled or bio-based input materials where technically feasible. We will publish audited annual sustainability disclosures aligned with the CSRD framework and link 20% of executive variable compensation to verified environmental and safety metrics."
+          },
+          {
+            "heading": "Performance Milestones and Governance",
+            "body": "Quarterly performance reviews will track revenue growth, gross margin progression, free cash flow conversion (target: >85%), and return on invested capital (target: 18% by 2028). A cross-functional Transformation Steering Committee, chaired by the CFO and Chief Sustainability Officer, will oversee milestone delivery and risk mitigation. Key 2026 milestones include completion of ERP Phase I, closure of two underperforming facilities, and launch of the premium \"Aurelia\" product line in Q4."
+          }
+        ],
+        "footer_note": "Confidential — Internal Use Only | Page 1 of 4",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Strategic Intent and Positioning",
+        "Growth Ambitions by Business Unit",
+        "Capability Investments",
+        "Sustainability and ESG Commitments",
+        "Performance Milestones and Governance"
+      ],
+      "cells": [
+        {
+          "heading": "Strategic Intent and Positioning",
+          "body": "Between 2026 and 2028, Orion Industrial Solutions will reposition itself as a premium, sustainability-led platform serving mid-market and enterprise clients across North America and Western Europe. Our ambition is to increase revenue from €1.2 billion in FY2025 to €1.75 billion by FY2028 while expanding adjusted EBITDA margins from 14.8% to 19.5%. The strategy centers on profitable growth, disciplined capital allocation, and brand elevation anchored in low-carbon products and lifecycle service excellence."
+        },
+        {
+          "heading": "Growth Ambitions by Business Unit",
+          "body": "The Advanced Materials division will target 9–11% annual organic growth through premium product launches and selective price optimization, supported by two bolt-on acquisitions in specialty composites. The Smart Systems unit will prioritize recurring revenue expansion, aiming to increase service contracts from 38% to 55% of segment revenue by 2028. Meanwhile, Global Distribution will streamline its footprint, exiting three subscale markets and reinvesting in digital channels to improve inventory turns from 4.2x to 6.0x."
+        },
+        {
+          "heading": "Capability Investments",
+          "body": "We will allocate approximately €210 million over three years toward differentiating capabilities, including a new Sustainability Innovation Center in Rotterdam and enterprise-wide ERP modernization. Digital enablement initiatives will deploy advanced demand forecasting, AI-assisted design tools, and end-to-end supply chain visibility to reduce lead times by 20%. Talent investments include upskilling 1,500 employees in sustainable engineering and launching a leadership accelerator for high-potential managers across all regions."
+        },
+        {
+          "heading": "Sustainability and ESG Commitments",
+          "body": "A cornerstone of our repositioning is achieving a 45% reduction in Scope 1 and 2 emissions by the end of 2028 relative to the 2024 baseline. All new product development will adhere to eco-design standards, targeting a minimum 30% recycled or bio-based input materials where technically feasible. We will publish audited annual sustainability disclosures aligned with the CSRD framework and link 20% of executive variable compensation to verified environmental and safety metrics."
+        },
+        {
+          "heading": "Performance Milestones and Governance",
+          "body": "Quarterly performance reviews will track revenue growth, gross margin progression, free cash flow conversion (target: >85%), and return on invested capital (target: 18% by 2028). A cross-functional Transformation Steering Committee, chaired by the CFO and Chief Sustainability Officer, will oversee milestone delivery and risk mitigation. Key 2026 milestones include completion of ERP Phase I, closure of two underperforming facilities, and launch of the premium \"Aurelia\" product line in Q4."
+        }
+      ],
+      "full_text": "2026–2028 Corporate Strategic Plan Overview\nRef: CSP-26-28 | Date: 12 January 2026 | Prepared by: Strategy & Transformation Office\n\nSection Strategic Intent and Positioning\nBetween 2026 and 2028, Orion Industrial Solutions will reposition itself as a premium, sustainability-led platform serving mid-market and enterprise clients across North America and Western Europe. Our ambition is to increase revenue from €1.2 billion in FY2025 to €1.75 billion by FY2028 while expanding adjusted EBITDA margins from 14.8% to 19.5%. The strategy centers on profitable growth, disciplined capital allocation, and brand elevation anchored in low-carbon products and lifecycle service excellence.\n\nSection Growth Ambitions by Business Unit\nThe Advanced Materials division will target 9–11% annual organic growth through premium product launches and selective price optimization, supported by two bolt-on acquisitions in specialty composites. The Smart Systems unit will prioritize recurring revenue expansion, aiming to increase service contracts from 38% to 55% of segment revenue by 2028. Meanwhile, Global Distribution will streamline its footprint, exiting three subscale markets and reinvesting in digital channels to improve inventory turns from 4.2x to 6.0x.\n\nSection Capability Investments\nWe will allocate approximately €210 million over three years toward differentiating capabilities, including a new Sustainability Innovation Center in Rotterdam and enterprise-wide ERP modernization. Digital enablement initiatives will deploy advanced demand forecasting, AI-assisted design tools, and end-to-end supply chain visibility to reduce lead times by 20%. Talent investments include upskilling 1,500 employees in sustainable engineering and launching a leadership accelerator for high-potential managers across all regions.\n\nSection Sustainability and ESG Commitments\nA cornerstone of our repositioning is achieving a 45% reduction in Scope 1 and 2 emissions by the end of 2028 relative to the 2024 baseline. All new product development will adhere to eco-design standards, targeting a minimum 30% recycled or bio-based input materials where technically feasible. We will publish audited annual sustainability disclosures aligned with the CSRD framework and link 20% of executive variable compensation to verified environmental and safety metrics.\n\nSection Performance Milestones and Governance\nQuarterly performance reviews will track revenue growth, gross margin progression, free cash flow conversion (target: >85%), and return on invested capital (target: 18% by 2028). A cross-functional Transformation Steering Committee, chaired by the CFO and Chief Sustainability Officer, will oversee milestone delivery and risk mitigation. Key 2026 milestones include completion of ERP Phase I, closure of two underperforming facilities, and launch of the premium \"Aurelia\" product line in Q4.\n\nConfidential — Internal Use Only | Page 1 of 4",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"2026–2028 Corporate Strategic Plan Overview\", how does Orion Industrial Solutions plan to reposition itself between 2026 and 2028?",
+          "answer": "As a premium, sustainability-led platform serving mid-market and en",
+          "assertions": [
+            {
+              "text": "The response must state 'As a premium, sustainability-led platform serving mid-market and en'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2026–2028 Corporate Strategic Plan Overview\", what annual organic growth range is the Advanced Materials division targeting?",
+          "answer": "9–11% annual organic growth",
+          "assertions": [
+            {
+              "text": "The response must state '9–11% annual organic growth'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2026–2028 Corporate Strategic Plan Overview\", how much funding will be allocated over three years toward differentiating capabilities?",
+          "answer": "Approximately €210 million over three years",
+          "assertions": [
+            {
+              "text": "The response must state 'Approximately €210 million over three years'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2026–2028 Corporate Strategic Plan Overview\", what is the emissions reduction target for Scope 1 and 2 by the end of 2028 relative to the 2024 baseline?",
+          "answer": "45% reduction",
+          "assertions": [
+            {
+              "text": "The response must state '45% reduction'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document \"2026–2028 Corporate Strategic Plan Overview\", how many total pages are indicated in the footer?",
+          "answer": "4 pages",
+          "assertions": [
+            {
+              "text": "The response must state '4 pages'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "cmp_0001_7a9ba4f8",
+      "figure_number": 3,
+      "image_path": "cmp_0001_7a9ba4f8.png",
+      "subtype": "comparison",
+      "caption": "Figure 3: Comparison: Three-Year Strategic Plan Options",
+      "title": "Three-Year Strategic Plan Options",
+      "theme": "emerald_finance",
+      "options": [
+        {
+          "name": "Organic Growth Plan",
+          "recommended": false
+        },
+        {
+          "name": "Balanced Expansion Plan",
+          "recommended": true
+        },
+        {
+          "name": "Aggressive Transformation Plan",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Three-Year Strategic Plan Options' diagram, which option is identified as the recommended choice?",
+          "answer": "Balanced Expansion Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'Balanced Expansion Plan'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Strategic Plan Options', how many planning options are presented?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Strategic Plan Options' comparison, what is the name of the first option listed?",
+          "answer": "Organic Growth Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'Organic Growth Plan'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "image",
+      "variant_id": "img_0005_924ec5ec",
+      "figure_number": 4,
+      "image_path": "img_0005_924ec5ec.png",
+      "caption": "Figure 4: Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline",
+      "chart_type": "ridgeline",
+      "chart_title": "Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline",
+      "x_label": "Year (2025 Baseline, 2026–2028)",
+      "y_label": "Emissions Index (2025 = 100)",
+      "categories": [
+        "2025 (Baseline)",
+        "2026",
+        "2027",
+        "2028 (Q4 Target)"
+      ],
+      "series_names": [
+        "Scope 1 & 2 Emissions Index (Target Pathway)"
+      ],
+      "value_range": [
+        60,
+        100
+      ],
+      "trend": "decreasing",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "2025 (Baseline)",
+          "2026",
+          "2027",
+          "2028 (Q4 Target)"
+        ],
+        "value_range": [
+          60,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline\", what does the Y-axis represent?",
+          "answer": "Emissions Index (2025 = 100)",
+          "assertions": [
+            {
+              "text": "The response must state Emissions Index (2025 = 100)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline\", what is the overall trend shown?",
+          "answer": "decreasing",
+          "assertions": [
+            {
+              "text": "The response must state decreasing."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline\", what is the value range shown?",
+          "answer": "[60, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [60, 100]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "scan_llm_0001_0ff5bc43",
+      "figure_number": 5,
+      "image_path": "scan_llm_data_e2aed01a.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 5: 2026–2028 Strategic Growth and Capability Investment Plan",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "2026–2028 Strategic Growth and Capability Investment Plan",
+        "caption": "Projected growth rates, capital allocation, and milestone targets by business unit under the 2026–2028 premium sustainability strategy.",
+        "headers": [
+          "Business Unit",
+          "2026-28 CAGR %",
+          "Capex ($m)",
+          "2028 EBITDA %",
+          "Key 2028 Milestone"
+        ],
+        "rows": [
+          [
+            "North America Consumer",
+            "9.5%",
+            "145",
+            "22%",
+            "Launch fully certified carbon-neutral product line"
+          ],
+          [
+            "European Enterprise",
+            "11.2%",
+            "120",
+            "24%",
+            "Achieve 70% revenue from premium-tier contracts"
+          ],
+          [
+            "APAC Industrial",
+            "13.8%",
+            "98",
+            "21%",
+            "Open Singapore sustainability innovation hub"
+          ],
+          [
+            "Latin America Retail",
+            "8.1%",
+            "64",
+            "18%",
+            "Convert 60% stores to low-energy format"
+          ],
+          [
+            "Digital Platforms",
+            "16.5%",
+            "175",
+            "31%",
+            "Deploy unified AI-driven customer platform"
+          ],
+          [
+            "Sustainable Materials",
+            "14.4%",
+            "132",
+            "27%",
+            "Scale recycled inputs to 55% of total volume"
+          ],
+          [
+            "Aftermarket Services",
+            "10.7%",
+            "52",
+            "29%",
+            "Introduce subscription-based service model globally"
+          ],
+          [
+            "Healthcare Solutions",
+            "12.9%",
+            "88",
+            "23%",
+            "Secure ISO sustainability certification across portfolio"
+          ],
+          [
+            "Mobility Systems",
+            "7.6%",
+            "73",
+            "19%",
+            "Electrify 40% of product range"
+          ],
+          [
+            "Energy Optimization",
+            "15.3%",
+            "110",
+            "30%",
+            "Install 1,200 smart efficiency systems"
+          ],
+          [
+            "Data & Analytics",
+            "18.2%",
+            "95",
+            "34%",
+            "Reach $250m annual recurring revenue"
+          ],
+          [
+            "Corporate Shared Services",
+            "6.0%",
+            "40",
+            "16%",
+            "Reduce enterprise emissions intensity by 35%"
+          ]
+        ],
+        "summary_note": "Higher-growth digital and sustainability-focused units receive proportionally greater capital allocation and are expected to deliver above-average margin expansion by 2028. Traditional regional units focus on premium repositioning and operational efficiency improvements.",
+        "date": "January 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Business Unit",
+        "2026-28 CAGR %",
+        "Capex ($m)",
+        "2028 EBITDA %",
+        "Key 2028 Milestone"
+      ],
+      "cells": [
+        [
+          "North America Consumer",
+          "9.5%",
+          "145",
+          "22%",
+          "Launch fully certified carbon-neutral product line"
+        ],
+        [
+          "European Enterprise",
+          "11.2%",
+          "120",
+          "24%",
+          "Achieve 70% revenue from premium-tier contracts"
+        ],
+        [
+          "APAC Industrial",
+          "13.8%",
+          "98",
+          "21%",
+          "Open Singapore sustainability innovation hub"
+        ],
+        [
+          "Latin America Retail",
+          "8.1%",
+          "64",
+          "18%",
+          "Convert 60% stores to low-energy format"
+        ],
+        [
+          "Digital Platforms",
+          "16.5%",
+          "175",
+          "31%",
+          "Deploy unified AI-driven customer platform"
+        ],
+        [
+          "Sustainable Materials",
+          "14.4%",
+          "132",
+          "27%",
+          "Scale recycled inputs to 55% of total volume"
+        ],
+        [
+          "Aftermarket Services",
+          "10.7%",
+          "52",
+          "29%",
+          "Introduce subscription-based service model globally"
+        ],
+        [
+          "Healthcare Solutions",
+          "12.9%",
+          "88",
+          "23%",
+          "Secure ISO sustainability certification across portfolio"
+        ],
+        [
+          "Mobility Systems",
+          "7.6%",
+          "73",
+          "19%",
+          "Electrify 40% of product range"
+        ],
+        [
+          "Energy Optimization",
+          "15.3%",
+          "110",
+          "30%",
+          "Install 1,200 smart efficiency systems"
+        ],
+        [
+          "Data & Analytics",
+          "18.2%",
+          "95",
+          "34%",
+          "Reach $250m annual recurring revenue"
+        ],
+        [
+          "Corporate Shared Services",
+          "6.0%",
+          "40",
+          "16%",
+          "Reduce enterprise emissions intensity by 35%"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Higher-growth digital and sustainability-focused units receive proportionally greater capital allocation and are expected to deliver above-average margin expansion by 2028. Traditional regional units focus on premium repositioning and operational efficiency improvements.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"2026–2028 Strategic Growth and Capability Investment Plan\", what is the 2026–28 CAGR for Latin America Retail?",
+          "answer": "8.1%",
+          "assertions": [
+            {
+              "text": "The response must state '8.1%'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2026–2028 Strategic Growth and Capability Investment Plan\", how much Capex ($m) is allocated to Sustainable Materials?",
+          "answer": "$132m",
+          "assertions": [
+            {
+              "text": "The response must state '$132m'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"2026–2028 Strategic Growth and Capability Investment Plan\", how many total rows does the table contain?",
+          "answer": "12 rows total",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows total'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2026–2028 Strategic Growth and Capability Investment Plan\", which business unit has a 2028 EBITDA of 31%?",
+          "answer": "Digital Platforms",
+          "assertions": [
+            {
+              "text": "The response must state 'Digital Platforms'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned page titled \"2026–2028 Strategic Growth and Capability Investment Plan\", what strategic focus is described for traditional regional units in the summary?",
+          "answer": "Premium repositioning and operational efficiency improvements",
+          "assertions": [
+            {
+              "text": "The response must state 'Premium repositioning and operational efficiency improvements'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "image",
+      "variant_id": "hub_0000_303f2c12",
+      "figure_number": 6,
+      "image_path": "hub_0000_303f2c12.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 6: Hub-Spoke: Three-Year Strategic Growth Plan",
+      "title": "Three-Year Strategic Growth Plan",
+      "theme": "burgundy_legal",
+      "center": "2026–2028 Strategic Plan",
+      "spokes": [
+        "Growth Ambitions",
+        "Market Positioning",
+        "Capability Investments",
+        "Operational Excellence",
+        "Performance Milestones"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, what phrase appears at the central hub?",
+          "answer": "2026–2028 Strategic Plan",
+          "assertions": [
+            {
+              "text": "The response must state '2026–2028 Strategic Plan'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, how many spokes (branches) extend from the center?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Strategic Growth Plan' diagram, which spoke label refers to investments in capabilities?",
+          "answer": "Capability Investments",
+          "assertions": [
+            {
+              "text": "The response must state 'Capability Investments'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "img_0000_2c0f7268",
+      "figure_number": 7,
+      "image_path": "img_0000_2c0f7268.png",
+      "caption": "Figure 7: Revenue Growth Trajectory by Business Unit (FY2025–FY2028)",
+      "chart_type": "grouped_bar",
+      "chart_title": "Revenue Growth Trajectory by Business Unit (FY2025–FY2028)",
+      "x_label": "Fiscal Year (FY2025–FY2028)",
+      "y_label": "Revenue (USD, billions)",
+      "categories": [
+        "FY2025",
+        "FY2026",
+        "FY2027",
+        "FY2028"
+      ],
+      "series_names": [
+        "Enterprise Solutions",
+        "Mid-Market",
+        "Digital Services",
+        "International"
+      ],
+      "value_range": [
+        0.2,
+        3.2
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "FY2025",
+          "FY2026",
+          "FY2027",
+          "FY2028"
+        ],
+        "series": [
+          "Enterprise Solutions",
+          "Mid-Market",
+          "Digital Services"
+        ],
+        "value_range": [
+          0.2,
+          3.2
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Revenue Growth Trajectory by Business Unit (FY2025–FY2028)\", what does the Y-axis represent?",
+          "answer": "Revenue (USD, billions)",
+          "assertions": [
+            {
+              "text": "The response must state Revenue (USD, billions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Revenue Growth Trajectory by Business Unit (FY2025–FY2028)\", what is the overall trend shown?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Revenue Growth Trajectory by Business Unit (FY2025–FY2028)\", what is the value range?",
+          "answer": "[0.2, 3.2]",
+          "assertions": [
+            {
+              "text": "The response must state [0.2, 3.2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "cmp_0000_31755fca",
+      "figure_number": 8,
+      "image_path": "cmp_0000_31755fca.png",
+      "subtype": "comparison",
+      "caption": "Figure 8: Comparison: Three-Year Strategy Plan Comparison",
+      "title": "Three-Year Strategy Plan Comparison",
+      "theme": "burgundy_legal",
+      "options": [
+        {
+          "name": "Incremental Growth Plan",
+          "recommended": false
+        },
+        {
+          "name": "Balanced Transformation Plan",
+          "recommended": true
+        },
+        {
+          "name": "Aggressive Expansion Plan",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Three-Year Strategy Plan Comparison', which option is marked as recommended?",
+          "answer": "Balanced Transformation Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'Balanced Transformation Plan'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Strategy Plan Comparison', how many options are being compared?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Strategy Plan Comparison', what subtitle appears beneath the title?",
+          "answer": "Approaches to corporate growth and capability planning",
+          "assertions": [
+            {
+              "text": "The response must state 'Approaches to corporate growth and capability planning'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "image",
+      "variant_id": "img_0001_be61aec1",
+      "figure_number": 9,
+      "image_path": "img_0001_be61aec1.png",
+      "caption": "Figure 9: Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)",
+      "chart_type": "violin",
+      "chart_title": "Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)",
+      "x_label": "Priority Segment (with competitor set)",
+      "y_label": "Market Share (%)",
+      "categories": [
+        "Enterprise Cloud Solutions (vs. Global Tier-1 Providers)",
+        "Mid-Market SaaS Platforms (vs. Regional Specialists)",
+        "Digital Infrastructure Services (vs. Legacy Integrators)",
+        "AI-Enabled Analytics (vs. Niche Innovators)",
+        "Cybersecurity Solutions (vs. Pure-Play Security Firms)"
+      ],
+      "series_names": [
+        "2025 Baseline",
+        "2028 Target"
+      ],
+      "value_range": [
+        0,
+        35
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "Enterprise Cloud Solutions (vs. Global Tier-1 Providers)",
+          "Mid-Market SaaS Platforms (vs. Regional Specialists)",
+          "Digital Infrastructure Services (vs. Legacy Integrators)",
+          "AI-Enabled Analytics (vs. Niche Innovators)",
+          "Cybersecurity Solutions (vs. Pure-Play Security Firms)"
+        ],
+        "value_range": [
+          0,
+          35
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)\", what does the Y-axis represent?",
+          "answer": "Market Share (%)",
+          "assertions": [
+            {
+              "text": "The response must state Market Share (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)\", what is the value range shown?",
+          "answer": "[0, 35]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 35]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)\", what is one of the listed categories on the X-axis?",
+          "answer": "AI-Enabled Analytics (vs. Niche Innovators)",
+          "assertions": [
+            {
+              "text": "The response must state AI-Enabled Analytics (vs. Niche Innovators)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "cmp_0004_75db4673",
+      "figure_number": 10,
+      "image_path": "cmp_0004_75db4673.png",
+      "subtype": "comparison",
+      "caption": "Figure 10: Comparison: Three-Year Strategy Plan Options",
+      "title": "Three-Year Strategy Plan Options",
+      "theme": "warm_amber",
+      "options": [
+        {
+          "name": "Option A",
+          "recommended": false
+        },
+        {
+          "name": "Option B",
+          "recommended": true
+        },
+        {
+          "name": "Option C",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Three-Year Strategy Plan Options', which option is identified as the recommended choice?",
+          "answer": "Option B",
+          "assertions": [
+            {
+              "text": "The response must state 'Option B'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Strategy Plan Options' comparison, how many options are presented?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Three-Year Strategy Plan Options', which option names are shown in the diagram?",
+          "answer": "Option A, Option B, Option C",
+          "assertions": [
+            {
+              "text": "The response must state 'Option A, Option B, Option C'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "img_0002_f58a2a40",
+      "figure_number": 11,
+      "image_path": "img_0002_f58a2a40.png",
+      "caption": "Figure 11: Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)",
+      "chart_type": "heatmap",
+      "chart_title": "Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)",
+      "x_label": "Projected 2028 EBITDA Margin (%)",
+      "y_label": "Projected 2026–2028 CAGR (%)",
+      "categories": [
+        "Enterprise Solutions",
+        "Mid-Market Services",
+        "Digital Platforms",
+        "International Expansion",
+        "Emerging Ventures"
+      ],
+      "series_names": [
+        "Business Units"
+      ],
+      "value_range": [
+        0,
+        30
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Enterprise Solutions",
+          "Mid-Market Services",
+          "Digital Platforms",
+          "International Expansion",
+          "Emerging Ventures"
+        ],
+        "series": [
+          "Business Units"
+        ],
+        "value_range": [
+          0,
+          30
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)\", what does the Y-axis represent?",
+          "answer": "Projected 2026–2028 CAGR (%)",
+          "assertions": [
+            {
+              "text": "The response must state Projected 2026–2028 CAGR (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)\", what is the value range shown in the heatmap?",
+          "answer": "[0, 30]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 30]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)\", name one of the categories displayed.",
+          "answer": "Enterprise Solutions",
+          "assertions": [
+            {
+              "text": "The response must state Enterprise Solutions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "image",
+      "variant_id": "dash_0002_44974aef",
+      "figure_number": 12,
+      "image_path": "dash_0002_44974aef.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 12: Dashboard: Three-Year Strategic Growth Dashboard",
+      "title": "Three-Year Strategic Growth Dashboard",
+      "theme": "midnight_dark",
+      "subtitle": "Growth, Investment & Performance Milestones",
+      "period_badge": "FY2026 Y1 Review",
+      "kpis": [
+        {
+          "label": "Total Revenue",
+          "value": "$1.84B",
+          "delta": "+12.4%",
+          "trend": "up",
+          "sparkline": [
+            1450,
+            1520,
+            1605,
+            1710,
+            1840
+          ]
+        },
+        {
+          "label": "Market Share",
+          "value": "18.7%",
+          "delta": "+2.1%",
+          "trend": "up",
+          "sparkline": [
+            14.2,
+            15.0,
+            16.3,
+            17.5,
+            18.7
+          ]
+        },
+        {
+          "label": "Capability Investment",
+          "value": "$320M",
+          "delta": "+8.5%",
+          "trend": "up",
+          "sparkline": [
+            210,
+            240,
+            275,
+            295,
+            320
+          ]
+        },
+        {
+          "label": "Strategic Milestones Achieved",
+          "value": " 30",
+          "delta": "-3.0%",
+          "trend": "down",
+          "sparkline": [
+            4,
+            9,
+            15,
+            20,
+            22
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Business Unit",
+        "labels": [
+          "Enterprise Solutions",
+          "Consumer Products",
+          "Digital Services",
+          "Emerging Ventures"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              720,
+              540,
+              410,
+              170
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              650,
+              500,
+              360,
+              120
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise Solutions driving 38% of total growth",
+        "Digital Services investment aligned to AI capability build-out",
+        "Emerging Ventures behind milestone schedule by two initiatives"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Three-Year Strategic Growth Dashboard', what figure is displayed for Total Revenue?",
+          "answer": "$1.84B",
+          "assertions": [
+            {
+              "text": "The response must state '$1.84B'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Strategic Growth Dashboard', what is the dashboard's subtitle?",
+          "answer": "Growth, Investment & Performance Milestones",
+          "assertions": [
+            {
+              "text": "The response must state 'Growth, Investment & Performance Milestones'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Strategic Growth Dashboard', which period badge is shown on the dashboard?",
+          "answer": "FY2026 Y1 Review",
+          "assertions": [
+            {
+              "text": "The response must state 'FY2026 Y1 Review'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "image",
+      "variant_id": "img_0004_689180ab",
+      "figure_number": 13,
+      "image_path": "img_0004_689180ab.png",
+      "caption": "Figure 13: Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)",
+      "chart_type": "bubble_scatter",
+      "chart_title": "Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)",
+      "x_label": "Quarter (2026 Q1 to 2028 Q4)",
+      "y_label": "Milestone Progress (% of Target Achieved)",
+      "categories": [
+        "2026 Q1",
+        "2026 Q2",
+        "2026 Q3",
+        "2026 Q4",
+        "2027 Q1",
+        "2027 Q2",
+        "2027 Q3",
+        "2027 Q4",
+        "2028 Q1",
+        "2028 Q2",
+        "2028 Q3",
+        "2028 Q4"
+      ],
+      "series_names": [
+        "Digital Self-Serve & Operational Readiness Progress"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "bubble_scatter",
+        "series": [
+          "Digital Self-Serve & Operational Readiness Progress"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)\", what does the Y-axis represent?",
+          "answer": "Milestone Progress (% of Target Achieved)",
+          "assertions": [
+            {
+              "text": "The response must state Milestone Progress (% of Target Achieved)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)\", what is the overall trend?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "dash_0005_58ccd199",
+      "figure_number": 14,
+      "image_path": "dash_0005_58ccd199.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 14: Dashboard: Three-Year Strategic Plan Performance",
+      "title": "Three-Year Strategic Plan Performance",
+      "theme": "warm_amber",
+      "subtitle": "Growth, Investment & Business Unit Milestones",
+      "period_badge": "FY2024–FY2026 Plan",
+      "kpis": [
+        {
+          "label": "Revenue CAGR",
+          "value": "12.8%",
+          "delta": "+1.4%",
+          "trend": "up",
+          "sparkline": [
+            8.5,
+            9.6,
+            10.8,
+            11.9,
+            12.8
+          ]
+        },
+        {
+          "label": "Market Share",
+          "value": "18.2%",
+          "delta": "+2.1%",
+          "trend": "up",
+          "sparkline": [
+            14.0,
+            15.3,
+            16.7,
+            17.5,
+            18.2
+          ]
+        },
+        {
+          "label": "Capability Investment",
+          "value": "$145M",
+          "delta": "+8%",
+          "trend": "up",
+          "sparkline": [
+            95,
+            110,
+            125,
+            138,
+            145
+          ]
+        },
+        {
+          "label": "Strategic Milestones Achieved",
+          "value": " 30",
+          "delta": "-3%",
+          "trend": "down",
+          "sparkline": [
+            6,
+            12,
+            18,
+            24,
+            22
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Business Unit",
+        "labels": [
+          "Enterprise Solutions",
+          "Consumer Products",
+          "Digital Services",
+          "International"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              420,
+              310,
+              275,
+              190
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              365,
+              295,
+              210,
+              160
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise Solutions driving majority of incremental revenue growth",
+        "Digital Services showing fastest year-over-year expansion",
+        "International market expansion ahead of strategic target"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Three-Year Strategic Plan Performance' dashboard, what value is shown for Capability Investment?",
+          "answer": "$145M",
+          "assertions": [
+            {
+              "text": "The response must state '$145M'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Strategic Plan Performance' dashboard, which callout highlights Enterprise Solutions' contribution to growth?",
+          "answer": "Enterprise Solutions driving majority of incremental revenue growth",
+          "assertions": [
+            {
+              "text": "The response must state 'Enterprise Solutions driving majority of incremental revenue growth'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Strategic Plan Performance' dashboard header, what period badge is displayed?",
+          "answer": "FY2024–FY2026 Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'FY2024–FY2026 Plan'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "dash_0000_794d73a3",
+      "figure_number": 15,
+      "image_path": "dash_0000_794d73a3.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 15: Dashboard: Three-Year Strategic Growth Dashboard",
+      "title": "Three-Year Strategic Growth Dashboard",
+      "theme": "corporate_blue",
+      "subtitle": "Growth Ambitions, Investment & Milestones",
+      "period_badge": "FY2024–FY2026 Plan",
+      "kpis": [
+        {
+          "label": "Revenue CAGR",
+          "value": "12.8%",
+          "delta": "+2.1%",
+          "trend": "up",
+          "sparkline": [
+            8.5,
+            9.6,
+            10.8,
+            11.9,
+            12.8
+          ]
+        },
+        {
+          "label": "Market Share",
+          "value": "18.4%",
+          "delta": "+1.3%",
+          "trend": "up",
+          "sparkline": [
+            15.2,
+            16.1,
+            16.9,
+            17.6,
+            18.4
+          ]
+        },
+        {
+          "label": "Capability Investment",
+          "value": "$145M",
+          "delta": "+18%",
+          "trend": "up",
+          "sparkline": [
+            95,
+            110,
+            125,
+            138,
+            145
+          ]
+        },
+        {
+          "label": "Milestones Achieved",
+          "value": " 30",
+          "delta": "+5",
+          "trend": "up",
+          "sparkline": [
+            8,
+            12,
+            16,
+            19,
+            22
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Business Unit",
+        "labels": [
+          "Consumer",
+          "Enterprise",
+          "Digital Services",
+          "International"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              420,
+              610,
+              285,
+              340
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              380,
+              540,
+              240,
+              295
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise unit driving 15% YoY growth, leading overall CAGR acceleration",
+        "Digital Services investment increased to support AI-enabled product roadmap",
+        "22 of 30 strategic milestones delivered, on track for 2026 targets"
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'Three-Year Strategic Growth Dashboard', what value is shown for Capability Investment?",
+          "answer": "$145M",
+          "assertions": [
+            {
+              "text": "The response must state '$145M'."
+            }
+          ]
+        },
+        {
+          "question": "What timeframe badge is displayed on the 'Three-Year Strategic Growth Dashboard'?",
+          "answer": "FY2024–FY2026 Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'FY2024–FY2026 Plan'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Strategic Growth Dashboard', which callout notes enterprise growth and its effect on CAGR acceleration?",
+          "answer": "Enterprise unit driving 15% YoY growth, leading overall CAGR acceleration",
+          "assertions": [
+            {
+              "text": "The response must state 'Enterprise unit driving 15% YoY growth, leading overall CAGR acceleration'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "image",
+      "variant_id": "dash_0003_9ed04cb1",
+      "figure_number": 16,
+      "image_path": "dash_0003_9ed04cb1.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 16: Dashboard: Three-Year Strategic Growth Plan",
+      "title": "Three-Year Strategic Growth Plan",
+      "theme": "midnight_dark",
+      "subtitle": "Growth, Investment & Milestone Performance Metrics",
+      "period_badge": "FY2026 Y1 Review",
+      "kpis": [
+        {
+          "label": "Revenue Growth vs Plan",
+          "value": "12.4%",
+          "delta": "+2.1%",
+          "trend": "up",
+          "sparkline": [
+            6.5,
+            8.2,
+            9.7,
+            11.3,
+            12.4
+          ]
+        },
+        {
+          "label": "Strategic Investment Deployed",
+          "value": "$148M",
+          "delta": "+8.5%",
+          "trend": "up",
+          "sparkline": [
+            82,
+            96,
+            110,
+            129,
+            148
+          ]
+        },
+        {
+          "label": "New Market Expansion Index",
+          "value": "74%",
+          "delta": "+5.0%",
+          "trend": "up",
+          "sparkline": [
+            55,
+            60,
+            66,
+            70,
+            74
+          ]
+        },
+        {
+          "label": "Operating Margin",
+          "value": "18.9%",
+          "delta": "-1.3%",
+          "trend": "down",
+          "sparkline": [
+            20.5,
+            20.1,
+            19.8,
+            19.3,
+            18.9
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Business Unit",
+        "labels": [
+          "Enterprise Solutions",
+          "Consumer Products",
+          "Digital Services",
+          "Emerging Ventures"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              420,
+              315,
+              260,
+              95
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              380,
+              290,
+              210,
+              70
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise Solutions driving 60% of incremental growth",
+        "Digital Services exceeding three-year CAGR target ahead of schedule",
+        "Margin pressure linked to front-loaded capability investments"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Three-Year Strategic Growth Plan' dashboard, what value is reported for Operating Margin?",
+          "answer": "18.9%",
+          "assertions": [
+            {
+              "text": "The response must state '18.9%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Strategic Growth Plan', what subtitle appears under the title?",
+          "answer": "Growth, Investment & Milestone Performance Metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'Growth, Investment & Milestone Performance Metrics'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Strategic Growth Plan', which callout describes Enterprise Solutions' impact on incremental growth?",
+          "answer": "Enterprise Solutions driving 60% of incremental growth",
+          "assertions": [
+            {
+              "text": "The response must state 'Enterprise Solutions driving 60% of incremental growth'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "text",
+      "variant_id": "text_0000_92afc523",
+      "heading": "2026–2028 Growth Ambitions and Market Positioning by Business Unit",
+      "word_count": 348,
+      "text_content": [
+        "**2026–2028 Growth Ambitions and Market Positioning by Business Unit**",
+        "Over the 2026–2028 planning horizon, the company will accelerate growth to achieve clearly defined financial targets: by FY2028, total revenue will reach $3.2B (from $2.4B in FY2025) and by FY2028 the consolidated EBITDA margin will reach 18% (from 14% in FY2025). These targets reflect a compounded annual growth rate in revenue of approximately 10% and a disciplined margin expansion driven by portfolio optimization, pricing, and productivity gains. Quarterly metrics and board reviews will monitor progress against these milestones. Investments will prioritize scalable platforms, capacity, and customer success.",
+        "In 2027, we will enter two new countries: Germany and Japan, establishing local entities and regulatory frameworks to support product launches and channel development. Market entry will follow a phased sequence: establish legal presence and compliance, recruit sales and service teams, and secure initial anchor customers in manufacturing and enterprise technology segments. Germany will serve as our European hub for advanced manufacturing accounts; Japan will prioritize strategic partnerships in automotive and consumer electronics. Performance gates in H1 and H2 2027 will determine investment pacing and scale targets.",
+        "Business unit-level ambitions are differentiated to capture market opportunities and margin improvement across three primary units: Products, Services, and Cloud. Products targets include a 12% CAGR in FY2026–FY2028 through accelerated R&D, internationalization, and higher-margin modular offerings. Services will focus on cross-selling, lifting attach rates by 25% and improving utilization to increase operating leverage. Cloud aims for 40% annual recurring revenue growth with strategic partnerships for infrastructure and software-as-a-service distribution. Each unit will maintain bi-annual KPIs tied to revenue, gross margin, customer retention, and product roadmap delivery targets.",
+        "To realize margin expansion and sustainable market positioning, we will implement targeted go-to-market and operational initiatives emphasizing scale, automation, and strategic alliances. Key measures include: 1. consolidating procurement to capture at least 150 basis points of cost savings; 2. migrating 60% of enterprise customers to standardized service tiers to reduce delivery complexity; and 3. pursuing selective M&A to acquire complementary capabilities and accelerate time-to-revenue. Execution milestones are set quarterly, with FY2027 as a pivotal year for integration and FY2028 to reflect full run-rate contribution to profitability targets."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"2026–2028 Growth Ambitions and Market Positioning by Business Unit\" section, what total revenue is targeted by FY2028?",
+          "answer": "$3.2B",
+          "assertions": [
+            {
+              "text": "The response must state $3.2B."
+            }
+          ]
+        },
+        {
+          "question": "In the \"2026–2028 Growth Ambitions and Market Positioning by Business Unit\" section, which two new countries will the company enter in 2027?",
+          "answer": "Germany and Japan",
+          "assertions": [
+            {
+              "text": "The response must state Germany and Japan."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"2026–2028 Growth Ambitions and Market Positioning by Business Unit\" section, what percentage of enterprise customers will be migrated to standardized service tiers?",
+          "answer": "60%",
+          "assertions": [
+            {
+              "text": "The response must state 60%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "image",
+      "variant_id": "hub_0002_073b69eb",
+      "figure_number": 17,
+      "image_path": "hub_0002_073b69eb.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 17: Hub-Spoke: Three-Year Corporate Growth Plan",
+      "title": "Three-Year Corporate Growth Plan",
+      "theme": "slate_tech",
+      "center": "2027 Strategic Ambition",
+      "spokes": [
+        "Revenue Expansion",
+        "Market Positioning",
+        "Capability Investment",
+        "Operational Excellence",
+        "Performance Milestones"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Three-Year Corporate Growth Plan' hub-and-spoke diagram, what is the central hub topic?",
+          "answer": "2027 Strategic Ambition",
+          "assertions": [
+            {
+              "text": "The response must state '2027 Strategic Ambition'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Corporate Growth Plan', how many spokes are shown in the diagram?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Corporate Growth Plan' hub-and-spoke diagram, name one of the spoke labels.",
+          "answer": "Revenue Expansion",
+          "assertions": [
+            {
+              "text": "The response must state 'Revenue Expansion'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "image",
+      "variant_id": "hub_0003_5ca14314",
+      "figure_number": 18,
+      "image_path": "hub_0003_5ca14314.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 18: Hub-Spoke: Three-Year Strategic Growth Plan",
+      "title": "Three-Year Strategic Growth Plan",
+      "theme": "burgundy_legal",
+      "center": "2026–2028 Strategic Plan",
+      "spokes": [
+        "Market Expansion",
+        "Competitive Positioning",
+        "Capability Investment",
+        "Operational Excellence",
+        "Financial Performance"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, what is the central hub topic?",
+          "answer": "2026–2028 Strategic Plan",
+          "assertions": [
+            {
+              "text": "The response must state '2026–2028 Strategic Plan'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, how many spokes are shown?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, what is the subtitle shown under the title?",
+          "answer": "Corporate roadmap for growth, positioning, and performance",
+          "assertions": [
+            {
+              "text": "The response must state 'Corporate roadmap for growth, positioning, and performance'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "dash_0004_83eb332e",
+      "figure_number": 19,
+      "image_path": "dash_0004_83eb332e.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 19: Dashboard: 3-Year Strategic Growth Dashboard",
+      "title": "3-Year Strategic Growth Dashboard",
+      "theme": "sand_neutral",
+      "subtitle": "Growth, Investment & Performance Milestones",
+      "period_badge": "FY2026 Y1 Review",
+      "kpis": [
+        {
+          "label": "Revenue Growth Rate",
+          "value": "12.8%",
+          "delta": "+3.2%",
+          "trend": "up",
+          "sparkline": [
+            6.5,
+            8.2,
+            9.7,
+            11.4,
+            12.8
+          ]
+        },
+        {
+          "label": "Market Share",
+          "value": "18.4%",
+          "delta": "+1.1%",
+          "trend": "up",
+          "sparkline": [
+            15.2,
+            16.0,
+            16.9,
+            17.6,
+            18.4
+          ]
+        },
+        {
+          "label": "Capability Investment",
+          "value": "$42M",
+          "delta": "+8.5%",
+          "trend": "up",
+          "sparkline": [
+            28,
+            31,
+            35,
+            39,
+            42
+          ]
+        },
+        {
+          "label": "Operating Margin",
+          "value": "21.3%",
+          "delta": "-0.9%",
+          "trend": "down",
+          "sparkline": [
+            22.5,
+            22.1,
+            21.9,
+            21.6,
+            21.3
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Business Unit",
+        "labels": [
+          "Enterprise",
+          "Mid-Market",
+          "SMB",
+          "International"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              320,
+              210,
+              145,
+              175
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              285,
+              195,
+              130,
+              150
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise unit driving 45% of total growth",
+        "International expansion exceeding Year 1 milestone by 6%",
+        "Margin pressure linked to accelerated capability investments"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the '3-Year Strategic Growth Dashboard', what percentage is reported for the Revenue Growth Rate?",
+          "answer": "12.8%",
+          "assertions": [
+            {
+              "text": "The response must state '12.8%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the '3-Year Strategic Growth Dashboard', what dollar amount is listed for Capability Investment?",
+          "answer": "$42M",
+          "assertions": [
+            {
+              "text": "The response must state '$42M'."
+            }
+          ]
+        },
+        {
+          "question": "On the '3-Year Strategic Growth Dashboard', which period badge appears on the dashboard?",
+          "answer": "FY2026 Y1 Review",
+          "assertions": [
+            {
+              "text": "The response must state 'FY2026 Y1 Review'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "img_0003_af70b34a": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion",
+        "low_contrast"
+      ],
+      "chart_type": "stacked_area",
+      "chart_title": "2026–2028 Capability Investment Allocation by Strategic Theme",
+      "x_label": "Capability Theme",
+      "y_label": "Share of Total Investment (%)",
+      "categories": [
+        "Digital & Data",
+        "Sales & Marketing",
+        "Operations",
+        "People & Culture"
+      ],
+      "series_names": [
+        "Investment Share (%)"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "filename": "img_0003_af70b34a.png",
+      "image_path": "img_0003_af70b34a.png",
+      "topic_id": "strategic_plan_three_year"
+    },
+    "scan_llm_0000_201a3151": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_f2075cc7.png",
+      "topic_id": ""
+    },
+    "cmp_0001_7a9ba4f8": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategic Plan Options",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0001_7a9ba4f8.png",
+      "topic_id": ""
+    },
+    "img_0005_924ec5ec": {
+      "kind": "image",
+      "perturbations": [
+        "rotation"
+      ],
+      "chart_type": "ridgeline",
+      "chart_title": "Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline",
+      "x_label": "Year (2025 Baseline, 2026–2028)",
+      "y_label": "Emissions Index (2025 = 100)",
+      "categories": [
+        "2025 (Baseline)",
+        "2026",
+        "2027",
+        "2028 (Q4 Target)"
+      ],
+      "series_names": [
+        "Scope 1 & 2 Emissions Index (Target Pathway)"
+      ],
+      "value_range": [
+        60,
+        100
+      ],
+      "trend": "decreasing",
+      "filename": "img_0005_924ec5ec.png",
+      "image_path": "img_0005_924ec5ec.png",
+      "topic_id": "strategic_plan_three_year"
+    },
+    "scan_llm_0001_0ff5bc43": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_e2aed01a.png",
+      "topic_id": ""
+    },
+    "hub_0000_303f2c12": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategic Growth Plan",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0000_303f2c12.png",
+      "topic_id": ""
+    },
+    "img_0000_2c0f7268": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "grouped_bar",
+      "chart_title": "Revenue Growth Trajectory by Business Unit (FY2025–FY2028)",
+      "x_label": "Fiscal Year (FY2025–FY2028)",
+      "y_label": "Revenue (USD, billions)",
+      "categories": [
+        "FY2025",
+        "FY2026",
+        "FY2027",
+        "FY2028"
+      ],
+      "series_names": [
+        "Enterprise Solutions",
+        "Mid-Market",
+        "Digital Services",
+        "International"
+      ],
+      "value_range": [
+        0.2,
+        3.2
+      ],
+      "trend": "increasing",
+      "filename": "img_0000_2c0f7268.png",
+      "image_path": "img_0000_2c0f7268.png",
+      "topic_id": "strategic_plan_three_year"
+    },
+    "cmp_0000_31755fca": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategy Plan Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0000_31755fca.png",
+      "topic_id": ""
+    },
+    "img_0001_be61aec1": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "violin",
+      "chart_title": "Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)",
+      "x_label": "Priority Segment (with competitor set)",
+      "y_label": "Market Share (%)",
+      "categories": [
+        "Enterprise Cloud Solutions (vs. Global Tier-1 Providers)",
+        "Mid-Market SaaS Platforms (vs. Regional Specialists)",
+        "Digital Infrastructure Services (vs. Legacy Integrators)",
+        "AI-Enabled Analytics (vs. Niche Innovators)",
+        "Cybersecurity Solutions (vs. Pure-Play Security Firms)"
+      ],
+      "series_names": [
+        "2025 Baseline",
+        "2028 Target"
+      ],
+      "value_range": [
+        0,
+        35
+      ],
+      "trend": "increasing",
+      "filename": "img_0001_be61aec1.png",
+      "image_path": "img_0001_be61aec1.png",
+      "topic_id": "strategic_plan_three_year"
+    },
+    "cmp_0004_75db4673": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategy Plan Options",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0004_75db4673.png",
+      "topic_id": ""
+    },
+    "img_0002_f58a2a40": {
+      "kind": "image",
+      "perturbations": [
+        "blur"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)",
+      "x_label": "Projected 2028 EBITDA Margin (%)",
+      "y_label": "Projected 2026–2028 CAGR (%)",
+      "categories": [
+        "Enterprise Solutions",
+        "Mid-Market Services",
+        "Digital Platforms",
+        "International Expansion",
+        "Emerging Ventures"
+      ],
+      "series_names": [
+        "Business Units"
+      ],
+      "value_range": [
+        0,
+        30
+      ],
+      "trend": "increasing",
+      "filename": "img_0002_f58a2a40.png",
+      "image_path": "img_0002_f58a2a40.png",
+      "topic_id": "strategic_plan_three_year"
+    },
+    "dash_0002_44974aef": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategic Growth Dashboard",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0002_44974aef.png",
+      "topic_id": ""
+    },
+    "img_0004_689180ab": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "bubble_scatter",
+      "chart_title": "Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)",
+      "x_label": "Quarter (2026 Q1 to 2028 Q4)",
+      "y_label": "Milestone Progress (% of Target Achieved)",
+      "categories": [
+        "2026 Q1",
+        "2026 Q2",
+        "2026 Q3",
+        "2026 Q4",
+        "2027 Q1",
+        "2027 Q2",
+        "2027 Q3",
+        "2027 Q4",
+        "2028 Q1",
+        "2028 Q2",
+        "2028 Q3",
+        "2028 Q4"
+      ],
+      "series_names": [
+        "Digital Self-Serve & Operational Readiness Progress"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "filename": "img_0004_689180ab.png",
+      "image_path": "img_0004_689180ab.png",
+      "topic_id": "strategic_plan_three_year"
+    },
+    "dash_0005_58ccd199": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategic Plan Performance",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0005_58ccd199.png",
+      "topic_id": ""
+    },
+    "dash_0000_794d73a3": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategic Growth Dashboard",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0000_794d73a3.png",
+      "topic_id": ""
+    },
+    "dash_0003_9ed04cb1": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategic Growth Plan",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0003_9ed04cb1.png",
+      "topic_id": ""
+    },
+    "text_0000_92afc523": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats"
+      ],
+      "heading": "2026–2028 Growth Ambitions and Market Positioning by Business Unit",
+      "word_count": 348,
+      "text_type": "llm_prose",
+      "topic_id": "strategic_plan_three_year"
+    },
+    "hub_0002_073b69eb": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Corporate Growth Plan",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0002_073b69eb.png",
+      "topic_id": ""
+    },
+    "hub_0003_5ca14314": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Three-Year Strategic Growth Plan",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0003_5ca14314.png",
+      "topic_id": ""
+    },
+    "dash_0004_83eb332e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "3-Year Strategic Growth Dashboard",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0004_83eb332e.png",
+      "topic_id": ""
+    },
+    "text_0001_b0dca736": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats",
+        "abbreviations"
+      ],
+      "heading": "Capability Investment Priorities and Performance Milestones (2026–2028 Execution Roadmap)",
+      "word_count": 168,
+      "text_type": "llm_prose",
+      "topic_id": "strategic_plan_three_year"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", what does the Y-axis represent?",
+      "answer": "Share of Total Investment (%)",
+      "assertions": [
+        {
+          "text": "The response must state Share of Total Investment (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", name one of the capability themes on the X-axis.",
+      "answer": "Digital & Data",
+      "assertions": [
+        {
+          "text": "The response must state Digital & Data."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2026–2028 Corporate Strategic Plan Overview\", how does Orion Industrial Solutions plan to reposition itself between 2026 and 2028?",
+      "answer": "As a premium, sustainability-led platform serving mid-market and en",
+      "assertions": [
+        {
+          "text": "The response must state 'As a premium, sustainability-led platform serving mid-market and en'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2026–2028 Corporate Strategic Plan Overview\", what annual organic growth range is the Advanced Materials division targeting?",
+      "answer": "9–11% annual organic growth",
+      "assertions": [
+        {
+          "text": "The response must state '9–11% annual organic growth'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2026–2028 Corporate Strategic Plan Overview\", how much funding will be allocated over three years toward differentiating capabilities?",
+      "answer": "Approximately €210 million over three years",
+      "assertions": [
+        {
+          "text": "The response must state 'Approximately €210 million over three years'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2026–2028 Corporate Strategic Plan Overview\", what is the emissions reduction target for Scope 1 and 2 by the end of 2028 relative to the 2024 baseline?",
+      "answer": "45% reduction",
+      "assertions": [
+        {
+          "text": "The response must state '45% reduction'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document \"2026–2028 Corporate Strategic Plan Overview\", how many total pages are indicated in the footer?",
+      "answer": "4 pages",
+      "assertions": [
+        {
+          "text": "The response must state '4 pages'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the 'Three-Year Strategic Plan Options' diagram, which option is identified as the recommended choice?",
+      "answer": "Balanced Expansion Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'Balanced Expansion Plan'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategic Plan Options', how many planning options are presented?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategic Plan Options' comparison, what is the name of the first option listed?",
+      "answer": "Organic Growth Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'Organic Growth Plan'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline\", what does the Y-axis represent?",
+      "answer": "Emissions Index (2025 = 100)",
+      "assertions": [
+        {
+          "text": "The response must state Emissions Index (2025 = 100)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline\", what is the overall trend shown?",
+      "answer": "decreasing",
+      "assertions": [
+        {
+          "text": "The response must state decreasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Sustainability Performance Roadmap: Scope 1 & 2 Emissions Reduction vs. 2025 Baseline\", what is the value range shown?",
+      "answer": "[60, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [60, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2026–2028 Strategic Growth and Capability Investment Plan\", what is the 2026–28 CAGR for Latin America Retail?",
+      "answer": "8.1%",
+      "assertions": [
+        {
+          "text": "The response must state '8.1%'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2026–2028 Strategic Growth and Capability Investment Plan\", how much Capex ($m) is allocated to Sustainable Materials?",
+      "answer": "$132m",
+      "assertions": [
+        {
+          "text": "The response must state '$132m'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"2026–2028 Strategic Growth and Capability Investment Plan\", how many total rows does the table contain?",
+      "answer": "12 rows total",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows total'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2026–2028 Strategic Growth and Capability Investment Plan\", which business unit has a 2028 EBITDA of 31%?",
+      "answer": "Digital Platforms",
+      "assertions": [
+        {
+          "text": "The response must state 'Digital Platforms'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned page titled \"2026–2028 Strategic Growth and Capability Investment Plan\", what strategic focus is described for traditional regional units in the summary?",
+      "answer": "Premium repositioning and operational efficiency improvements",
+      "assertions": [
+        {
+          "text": "The response must state 'Premium repositioning and operational efficiency improvements'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, what phrase appears at the central hub?",
+      "answer": "2026–2028 Strategic Plan",
+      "assertions": [
+        {
+          "text": "The response must state '2026–2028 Strategic Plan'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, how many spokes (branches) extend from the center?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategic Growth Plan' diagram, which spoke label refers to investments in capabilities?",
+      "answer": "Capability Investments",
+      "assertions": [
+        {
+          "text": "The response must state 'Capability Investments'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Revenue Growth Trajectory by Business Unit (FY2025–FY2028)\", what does the Y-axis represent?",
+      "answer": "Revenue (USD, billions)",
+      "assertions": [
+        {
+          "text": "The response must state Revenue (USD, billions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Revenue Growth Trajectory by Business Unit (FY2025–FY2028)\", what is the overall trend shown?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Revenue Growth Trajectory by Business Unit (FY2025–FY2028)\", what is the value range?",
+      "answer": "[0.2, 3.2]",
+      "assertions": [
+        {
+          "text": "The response must state [0.2, 3.2]."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Three-Year Strategy Plan Comparison', which option is marked as recommended?",
+      "answer": "Balanced Transformation Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'Balanced Transformation Plan'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategy Plan Comparison', how many options are being compared?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategy Plan Comparison', what subtitle appears beneath the title?",
+      "answer": "Approaches to corporate growth and capability planning",
+      "assertions": [
+        {
+          "text": "The response must state 'Approaches to corporate growth and capability planning'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)\", what does the Y-axis represent?",
+      "answer": "Market Share (%)",
+      "assertions": [
+        {
+          "text": "The response must state Market Share (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)\", what is the value range shown?",
+      "answer": "[0, 35]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 35]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Share Expansion vs. Key Competitors in Priority Segments (2025 Baseline to 2028 Target)\", what is one of the listed categories on the X-axis?",
+      "answer": "AI-Enabled Analytics (vs. Niche Innovators)",
+      "assertions": [
+        {
+          "text": "The response must state AI-Enabled Analytics (vs. Niche Innovators)."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategy Plan Options', which option is identified as the recommended choice?",
+      "answer": "Option B",
+      "assertions": [
+        {
+          "text": "The response must state 'Option B'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategy Plan Options' comparison, how many options are presented?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Three-Year Strategy Plan Options', which option names are shown in the diagram?",
+      "answer": "Option A, Option B, Option C",
+      "assertions": [
+        {
+          "text": "The response must state 'Option A, Option B, Option C'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)\", what does the Y-axis represent?",
+      "answer": "Projected 2026–2028 CAGR (%)",
+      "assertions": [
+        {
+          "text": "The response must state Projected 2026–2028 CAGR (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)\", what is the value range shown in the heatmap?",
+      "answer": "[0, 30]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 30]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Growth Portfolio Map: Profitability vs. Growth Rate by Business Unit (2028 Target View)\", name one of the categories displayed.",
+      "answer": "Enterprise Solutions",
+      "assertions": [
+        {
+          "text": "The response must state Enterprise Solutions."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Three-Year Strategic Growth Dashboard', what figure is displayed for Total Revenue?",
+      "answer": "$1.84B",
+      "assertions": [
+        {
+          "text": "The response must state '$1.84B'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategic Growth Dashboard', what is the dashboard's subtitle?",
+      "answer": "Growth, Investment & Performance Milestones",
+      "assertions": [
+        {
+          "text": "The response must state 'Growth, Investment & Performance Milestones'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategic Growth Dashboard', which period badge is shown on the dashboard?",
+      "answer": "FY2026 Y1 Review",
+      "assertions": [
+        {
+          "text": "The response must state 'FY2026 Y1 Review'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)\", what does the Y-axis represent?",
+      "answer": "Milestone Progress (% of Target Achieved)",
+      "assertions": [
+        {
+          "text": "The response must state Milestone Progress (% of Target Achieved)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Milestone Timeline: Digital Self-Serve Adoption and Operational Readiness (2026–2028)\", what is the overall trend?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Three-Year Strategic Plan Performance' dashboard, what value is shown for Capability Investment?",
+      "answer": "$145M",
+      "assertions": [
+        {
+          "text": "The response must state '$145M'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategic Plan Performance' dashboard, which callout highlights Enterprise Solutions' contribution to growth?",
+      "answer": "Enterprise Solutions driving majority of incremental revenue growth",
+      "assertions": [
+        {
+          "text": "The response must state 'Enterprise Solutions driving majority of incremental revenue growth'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategic Plan Performance' dashboard header, what period badge is displayed?",
+      "answer": "FY2024–FY2026 Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'FY2024–FY2026 Plan'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategic Growth Dashboard', what value is shown for Capability Investment?",
+      "answer": "$145M",
+      "assertions": [
+        {
+          "text": "The response must state '$145M'."
+        }
+      ]
+    },
+    {
+      "question": "What timeframe badge is displayed on the 'Three-Year Strategic Growth Dashboard'?",
+      "answer": "FY2024–FY2026 Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'FY2024–FY2026 Plan'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategic Growth Dashboard', which callout notes enterprise growth and its effect on CAGR acceleration?",
+      "answer": "Enterprise unit driving 15% YoY growth, leading overall CAGR acceleration",
+      "assertions": [
+        {
+          "text": "The response must state 'Enterprise unit driving 15% YoY growth, leading overall CAGR acceleration'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Three-Year Strategic Growth Plan' dashboard, what value is reported for Operating Margin?",
+      "answer": "18.9%",
+      "assertions": [
+        {
+          "text": "The response must state '18.9%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategic Growth Plan', what subtitle appears under the title?",
+      "answer": "Growth, Investment & Milestone Performance Metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'Growth, Investment & Milestone Performance Metrics'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategic Growth Plan', which callout describes Enterprise Solutions' impact on incremental growth?",
+      "answer": "Enterprise Solutions driving 60% of incremental growth",
+      "assertions": [
+        {
+          "text": "The response must state 'Enterprise Solutions driving 60% of incremental growth'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"2026–2028 Growth Ambitions and Market Positioning by Business Unit\" section, what total revenue is targeted by FY2028?",
+      "answer": "$3.2B",
+      "assertions": [
+        {
+          "text": "The response must state $3.2B."
+        }
+      ]
+    },
+    {
+      "question": "In the \"2026–2028 Growth Ambitions and Market Positioning by Business Unit\" section, which two new countries will the company enter in 2027?",
+      "answer": "Germany and Japan",
+      "assertions": [
+        {
+          "text": "The response must state Germany and Japan."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"2026–2028 Growth Ambitions and Market Positioning by Business Unit\" section, what percentage of enterprise customers will be migrated to standardized service tiers?",
+      "answer": "60%",
+      "assertions": [
+        {
+          "text": "The response must state 60%."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Three-Year Corporate Growth Plan' hub-and-spoke diagram, what is the central hub topic?",
+      "answer": "2027 Strategic Ambition",
+      "assertions": [
+        {
+          "text": "The response must state '2027 Strategic Ambition'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Corporate Growth Plan', how many spokes are shown in the diagram?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Corporate Growth Plan' hub-and-spoke diagram, name one of the spoke labels.",
+      "answer": "Revenue Expansion",
+      "assertions": [
+        {
+          "text": "The response must state 'Revenue Expansion'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, what is the central hub topic?",
+      "answer": "2026–2028 Strategic Plan",
+      "assertions": [
+        {
+          "text": "The response must state '2026–2028 Strategic Plan'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, how many spokes are shown?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Three-Year Strategic Growth Plan' hub-and-spoke diagram, what is the subtitle shown under the title?",
+      "answer": "Corporate roadmap for growth, positioning, and performance",
+      "assertions": [
+        {
+          "text": "The response must state 'Corporate roadmap for growth, positioning, and performance'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the '3-Year Strategic Growth Dashboard', what percentage is reported for the Revenue Growth Rate?",
+      "answer": "12.8%",
+      "assertions": [
+        {
+          "text": "The response must state '12.8%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the '3-Year Strategic Growth Dashboard', what dollar amount is listed for Capability Investment?",
+      "answer": "$42M",
+      "assertions": [
+        {
+          "text": "The response must state '$42M'."
+        }
+      ]
+    },
+    {
+      "question": "On the '3-Year Strategic Growth Dashboard', which period badge appears on the dashboard?",
+      "answer": "FY2026 Y1 Review",
+      "assertions": [
+        {
+          "text": "The response must state 'FY2026 Y1 Review'."
+        }
+      ]
+    }
+  ]
+}

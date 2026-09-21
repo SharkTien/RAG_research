@@ -1,0 +1,1487 @@
+[
+  {
+    "doc_id": "doc_0000_s71722309",
+    "title": "Business Continuity and Crisis Management Plan: Recovery Time Objectives, Critical Process Dependencies, Roles and Communication Protocols, and Tabletop Exercise Results",
+    "recipe": "annotation_dominant",
+    "topic": "business_continuity_plan",
+    "pdf_filename": "doc_0000_s71722309.pdf",
+    "downloaded": true,
+    "size_mb": 0.86,
+    "num_questions": 151,
+    "sample_questions": [
+      "On the 'this element', what banner label is displayed?",
+      "According to the 'this element', what callout label appears next to the content?",
+      "Looking at the 'this element', how many phrases are highlighted?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1131058660",
+    "title": "Change Management Plan for Major Organizational and System Transformation: Stakeholder Impact Analysis, Readiness Assessment, Communication Strategy, Training Approach, and Adoption Measurement",
+    "recipe": "annotation_heavy",
+    "topic": "change_management_plan",
+    "pdf_filename": "doc_0000_s1131058660.pdf",
+    "downloaded": true,
+    "size_mb": 0.5,
+    "num_questions": 131,
+    "sample_questions": [
+      "In this element, how many freetext annotation boxes are attached?",
+      "On this element, what phrase is listed as the first annotated phrase?",
+      "In the table titled \"Stakeholder impact analysis for NexusERP by role, process change intensity, and risk\", what is the Change Priority for IT Application Support?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s341236940",
+    "title": "Board Strategy Presentation: Macro Environment Analysis, Portfolio Performance, Strategic Options, and Requested Board Decisions",
+    "recipe": "balanced_equal",
+    "topic": "board_strategy_presentation",
+    "pdf_filename": "doc_0000_s341236940.pdf",
+    "downloaded": true,
+    "size_mb": 28.5,
+    "num_questions": 221,
+    "sample_questions": [
+      "In the table titled \"Table 2: Project Milestone Tracker\", what is the Target Date for milestone MS-14 (Final board presentation and decision session)?",
+      "In the table titled \"Table 2: Project Milestone Tracker\", what is the Budget (USD '000) for milestone 49 (Develop capital allocation optimization framework)?",
+      "In the table titled \"Table 2: Project Milestone Tracker\", what is the Completion (%) for milestone 58 (Deliver final board-level strategy presentation)?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s39946201",
+    "title": "AML Compliance Review: Transaction Monitoring Effectiveness, Customer Due Diligence Quality, Suspicious Activity Reporting Statistics, and Recommended Programme Enhancements",
+    "recipe": "compliance_report",
+    "topic": "anti_money_laundering_review",
+    "pdf_filename": "doc_0000_s39946201.pdf",
+    "downloaded": true,
+    "size_mb": 1.91,
+    "num_questions": 139,
+    "sample_questions": [
+      "How many total items are listed on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'?",
+      "What completion percentage is shown on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'?",
+      "Name one task that is marked as checked on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1045958549",
+    "title": "Capital Investment Request for Proposed Asset Purchase or Infrastructure Upgrade — Business Case, Expected ROI, Payback Period, Risk‑Adjusted NPV and Funding Requirements",
+    "recipe": "mixed_document",
+    "topic": "capital_expenditure_proposal",
+    "pdf_filename": "doc_0000_s1045958549.pdf",
+    "downloaded": true,
+    "size_mb": 40.25,
+    "num_questions": 235,
+    "sample_questions": [
+      "On the 'Capital Expenditure Approval Form', what is the form number printed on the document?",
+      "According to the 'Capital Expenditure Approval Form', how many sections are included in the form?",
+      "In the 'Capital Expenditure Approval Form', how many fields are marked as required?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s922202437",
+    "title": "Compliance Status Report: Mapping Regulatory Obligations to Internal Controls, Open Examination Findings, and Remediation Progress with Target Closure Dates",
+    "recipe": "annotation_heavy",
+    "topic": "regulatory_compliance_assessment",
+    "pdf_filename": "doc_0000_s922202437.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 181,
+    "sample_questions": [
+      "In the 'this element' sticky-note in the meeting area, how many notes are attached?",
+      "According to the 'this element' meeting sticky-note, what phrase was annotated first?",
+      "According to the \"Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)\" section, what percentage of regulatory obligations are mapped to internal controls?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1255027758",
+    "title": "Quarterly Earnings Report: Revenue vs. Analyst Consensus, Gross Margin Trends, Operating Expense Breakdown, and Management Commentary on Business Drivers and Risks",
+    "recipe": "annotation_heavy",
+    "topic": "quarterly_earnings_review",
+    "pdf_filename": "doc_0000_s1255027758.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 113,
+    "sample_questions": [
+      "According to the \"Gross Margin Trajectory, Operating Expense Mix, and Management Commentary on Risks\" section, what was the Non-GAAP gross margin in Q1 FY2026?",
+      "In the \"Gross Margin Trajectory, Operating Expense Mix, and Management Commentary on Risks\" section, what were total operating expenses in Q1 FY2026?",
+      "According to the \"Gross Margin Trajectory, Operating Expense Mix, and Management Commentary on Risks\" section, what primary near-term driver did management cite related to AI demand on the 2026-05-02 earnings call?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2135251044",
+    "title": "Operational Excellence Review and Benchmarking: Cycle Times, First‑Pass Yield, Capacity Utilisation, and Lean Improvement Opportunities with Projected Financial Impact",
+    "recipe": "balanced_equal",
+    "topic": "operational_efficiency_review",
+    "pdf_filename": "doc_0000_s2135251044.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 190,
+    "sample_questions": [
+      "In the 'Operational Excellence Benchmarking Review Checklist', how many total items are listed?",
+      "According to the 'Operational Excellence Benchmarking Review Checklist', how many items have been marked as completed?",
+      "On the 'Operational Excellence Benchmarking Review Checklist', name one item that is marked as checked."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s988495287",
+    "title": "Annual Financial Results and Investor Presentation: Full‑Year Revenue, Operating Margins, Earnings Per Share, Segment Performance and Forward Guidance",
+    "recipe": "compliance_report",
+    "topic": "annual_report_financial_performance",
+    "pdf_filename": "doc_0000_s988495287.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 104,
+    "sample_questions": [
+      "In the table titled \"Table 2: Employee Activity Report\", what is the Business Segment listed for Employee ID E-1003?",
+      "In the table titled \"Table 2: Employee Activity Report\", what is the Billable Hours (FY) value for Employee ID 72?",
+      "In the table titled \"Table 2: Employee Activity Report\", what is the Performance Rating (1-5) for Employee ID E-1001?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1835770277",
+    "title": "Cybersecurity Posture Assessment Report: Threat Landscape, Penetration Testing Results, Vulnerability Remediation Backlog, Security Control Maturity Scores, and Risk‑Prioritized Remediation Roadmap",
+    "recipe": "compliance_report",
+    "topic": "cybersecurity_posture_assessment",
+    "pdf_filename": "doc_0000_s1835770277.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 148,
+    "sample_questions": [
+      "On the 'this element', which classification banner appears on the rendered document?",
+      "According to the 'this element', what inline status label is visible in the PDF?",
+      "In the table titled \"Cybersecurity Posture Assessment — Strategic Initiatives vs. Objectives Alignment Grid\", which objective categories are the column groups?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1727434391",
+    "title": "Enterprise IT Strategy and Architecture Roadmap: Target-State Architecture, Legacy System Decommissioning, Investment Priorities, and Business Capability Alignment",
+    "recipe": "compliance_report",
+    "topic": "it_strategy_roadmap",
+    "pdf_filename": "doc_0000_s1727434391.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 83,
+    "sample_questions": [
+      "In the table titled \"Roadmap Milestones and Governance Gates (2026–2028) for Architecture Delivery and Decommissioning)\", what is the Funding Release (USD) for \"Milestone_2: 2027-01-31: DataMart-Oracle11g cutover complete\"?",
+      "In the table titled \"Roadmap Milestones and Governance Gates (2026–2028) for Architecture Delivery and Decommissioning)\", what is the Status of \"ERP Core upgrade to SaaS completed\"?",
+      "In the table titled \"Roadmap Milestones and Governance Gates (2026–2028) for Architecture Delivery and Decommissioning)\", what is the Business Capability Impact for \"Gate: 2026-06-01: Architecture Review Board approves API standards v2\"?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1199790258",
+    "title": "Internal Audit Report — Business Process Controls: Scope, Methodology, Key Findings, Root Causes, Management Responses and Recommended Corrective Actions",
+    "recipe": "compliance_report",
+    "topic": "internal_audit_report",
+    "pdf_filename": "doc_0000_s1199790258.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 83,
+    "sample_questions": [
+      "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what is the Invoice Sample Size listed under Sample Selection?",
+      "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what are the Audit Coverage Dates under Scope Period?",
+      "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what is the Status for 3-Way Match Verification?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1552865917",
+    "title": "Logistics Network Optimisation Study: Distribution Centre Configurations, Carrier Lane Performance, Last‑Mile Cost Drivers and Recommended Network Changes to Reduce Cost‑to‑Serve",
+    "recipe": "compliance_report",
+    "topic": "logistics_network_design",
+    "pdf_filename": "doc_0000_s1552865917.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 178,
+    "sample_questions": [
+      "In the table titled \"Strategic Initiatives vs. Objectives — Logistics Network Optimisation Alignment Grid (Distribution Centres, Carrier Lanes, Last-Mile)\", which objective categories are the column groups?",
+      "In the table titled \"Strategic Initiatives vs. Objectives — Logistics Network Optimisation Alignment Grid (Distribution Centres, Carrier Lanes, Last-Mile)\", how many initiatives fall under the \"Last-Mile Cost-to-Serve Levers\" initiative category?",
+      "In the table titled \"Strategic Initiatives vs. Objectives — Logistics Network Optimisation Alignment Grid (Distribution Centres, Carrier Lanes, Last-Mile)\", what is the alignment rating of \"Dynamic delivery promise by ZIP and cut-off (align SLA to network capacity)\" for the objective \"Cost-to-Serve (All-in)\"?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s825316683",
+    "title": "Manufacturing Quality Performance Report: Defect Rates by Product Line, Root-Cause Analysis of Top Failure Modes, Corrective & Preventive Action (CAPA) Status, and Customer Return Trends",
+    "recipe": "compliance_report",
+    "topic": "quality_management_report",
+    "pdf_filename": "doc_0000_s825316683.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 174,
+    "sample_questions": [
+      "In the 'this element', how many highlighted phrases are present?",
+      "On the 'this element', what phrase is highlighted in red?",
+      "In the 'Financial Performance Summary' (this element), how many columns does the colored table have?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2093914151",
+    "title": "Regulatory Compliance Status Report: Mapping Obligations to Internal Controls, Open Examination Findings, and Remediation Progress with Target Closure Dates",
+    "recipe": "compliance_report",
+    "topic": "regulatory_compliance_assessment",
+    "pdf_filename": "doc_0000_s2093914151.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 169,
+    "sample_questions": [
+      "In the table titled \"Target Closure Calendar (Q2–Q3 2026) for Open Findings — grouped by month\", what is the Capacity Gap for 2026-10?",
+      "In the table titled \"Target Closure Calendar (Q2–Q3 2026) for Open Findings — grouped by month\", what is the Monthly Capacity (Remediation Slots) for 2026-07?",
+      "In the table titled \"Target Closure Calendar (Q2–Q3 2026) for Open Findings — grouped by month\", how many High-Risk Findings Due are listed for 2026-06?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1187868978",
+    "title": "Strategic Sourcing and Contracting Framework for Major Spend Category: Category Spend Analysis, Make‑vs‑Buy Decisions, Supplier Selection Criteria and Contracting Approach",
+    "recipe": "compliance_report",
+    "topic": "procurement_sourcing_strategy",
+    "pdf_filename": "doc_0000_s1187868978.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 112,
+    "sample_questions": [
+      "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Value for \"Total annual category spend (FY2025)\"?",
+      "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Insight for \"Top supplier share of spend\"?",
+      "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Value for \"Contracts expiring within 12 months\"?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2027986639",
+    "title": "Annual Financial Report and Investor Outlook: Full-Year Revenue, Operating Margins, EPS, Segment Performance and Forward Guidance",
+    "recipe": "data_focused",
+    "topic": "annual_report_financial_performance",
+    "pdf_filename": "doc_0000_s2027986639.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the FY2025 Operating Margin for Cloud & Subscriptions?",
+      "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the Margin Change (bps) for Consumer Devices?",
+      "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the Earnings Growth Driver listed for Emerging Ventures?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s567418186",
+    "title": "Annual Financial Results and Forward Guidance for Investors and Analysts — Full-Year Revenue, Operating Margins, Earnings Per Share and Segment Performance",
+    "recipe": "data_focused",
+    "topic": "annual_report_financial_performance",
+    "pdf_filename": "doc_0000_s567418186.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 167,
+    "sample_questions": [
+      "In the table titled \"FY2026 Strategic Initiative Alignment Grid — Objectives, Weights, and Weighted Scores\", which objective categories are the column groups?",
+      "In the table titled \"FY2026 Strategic Initiative Alignment Grid — Objectives, Weights, and Weighted Scores\", how many initiatives fall under the \"Operational Excellence\" initiative category?",
+      "In the table titled \"FY2026 Strategic Initiative Alignment Grid — Objectives, Weights, and Weighted Scores\", what is the alignment rating of \"Cloud FinOps & Infrastructure Optimization (commit management, autoscaling, storage tiering)\" for the \"Operating Margin\" objective?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s671685459",
+    "title": "Board Strategy Presentation: Macro Environment Analysis, Portfolio Performance, Strategic Options and Requested Board Decisions",
+    "recipe": "data_focused",
+    "topic": "board_strategy_presentation",
+    "pdf_filename": "doc_0000_s671685459.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 108,
+    "sample_questions": [
+      "According to the \"Macro Environment Outlook and Implications for Cost of Capital, Demand, and Risk\" section, what global GDP growth rate is assumed in the base-case 2026 outlook?",
+      "In the \"Macro Environment Outlook and Implications for Cost of Capital, Demand, and Risk\" section, to what percentage did the planning WACC increase for FY2026 portfolio decisions?",
+      "According to the \"Macro Environment Outlook and Implications for Cost of Capital, Demand, and Risk\" section, what is the 12-month forward USD/EUR planning rate set at as of 2026/04/15?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1672015148",
+    "title": "Board Strategy Review: Macro Environment, Portfolio Performance, Strategic Options and Decision Requests",
+    "recipe": "data_focused",
+    "topic": "board_strategy_presentation",
+    "pdf_filename": "doc_0000_s1672015148.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 134,
+    "sample_questions": [
+      "On the 'Board-Level Strategy Presentation Briefing Form', how many sections does the form contain?",
+      "According to the 'Board-Level Strategy Presentation Briefing Form', what is the description text shown on the form?",
+      "In the 'Board-Level Strategy Presentation Briefing Form', what is the name of the first section listed?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1526062819",
+    "title": "Cloud Migration Programme Status Report: Workload Migration Progress, Cost Optimisation vs On‑Premises Baseline, Operational Readiness and Next‑Phase Planning",
+    "recipe": "data_focused",
+    "topic": "cloud_migration_programme",
+    "pdf_filename": "doc_0000_s1526062819.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 94,
+    "sample_questions": [
+      "In the table titled \"Top cost optimisation actions and realised savings (through 2026-05-03)\", what is the Status listed for \"Idle resource cleanup (accounts)\"?",
+      "In the table titled \"Top cost optimisation actions and realised savings (through 2026-05-03)\", what is the Last Reviewed date for \"Auto-scaling policy optimisation\"?",
+      "In the table titled \"Top cost optimisation actions and realised savings (through 2026-05-03)\", what is the Current Value for \"License mobility & BYOL validation\"?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1626637786",
+    "title": "Compensation Benchmarking Report: Market Alignment, Attrition Risk Analysis, and Recommended Salary Band and Equity Adjustments",
+    "recipe": "data_focused",
+    "topic": "compensation_benchmarking_study",
+    "pdf_filename": "doc_0000_s1626637786.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 55,
+    "sample_questions": [
+      "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Midpoint-to-P50 Ratio for Software Engineering at level L4?",
+      "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Band Midpoint ($) for Product Management at level L5?",
+      "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Positioning Status for IT Infrastructure at level L3?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1063316786",
+    "title": "Comprehensive M&A Due Diligence Report: Financial Health, Legal Exposures, Operational Risks, Synergy Assessment, and Recommended Valuation Range",
+    "recipe": "data_focused",
+    "topic": "mergers_acquisitions_due_diligence",
+    "pdf_filename": "doc_0000_s1063316786.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 105,
+    "sample_questions": [
+      "In the table titled \"M&A Due Diligence Summary — TargetCo Financial, Legal, Operational, Synergy, and Valuation Assessment\", what sub-columns fall under the \"Income Statement\" group header in the inner financial table within the \"Financial Health\" row?",
+      "In the table titled \"M&A Due Diligence Summary — TargetCo Financial, Legal, Operational, Synergy, and Valuation Assessment\", how many rows does the \"Cash Conversion Cycle\" label span in the inner working-capital breakdown table within the \"Financial Health\" row?",
+      "In the table titled \"M&A Due Diligence Summary — TargetCo Financial, Legal, Operational, Synergy, and Valuation Assessment\", what does footnote 1 explain?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1959817031",
+    "title": "Enterprise Data Governance Framework and Operating Model: Ownership, Classification, Quality, Lineage, and Stewardship Roles",
+    "recipe": "data_focused",
+    "topic": "data_governance_framework",
+    "pdf_filename": "doc_0000_s1959817031.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "In the table titled \"Governance operating model: roles, decision rights, and meeting cadence\", what is the Escalation Path for the Data Governance Council?",
+      "In the table titled \"Governance operating model: roles, decision rights, and meeting cadence\", what is the Key Artifact / Control listed for the Chief Data Officer (CDO) that includes the number of KPIs?",
+      "In the table titled \"Governance operating model: roles, decision rights, and meeting cadence\", what is the Cadence for the Data Steward?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1645358205",
+    "title": "Enterprise Risk Register: Top Risks by Likelihood & Impact, Control Effectiveness, Residual Risk Levels and Risk Owner Accountabilities",
+    "recipe": "data_focused",
+    "topic": "enterprise_risk_register",
+    "pdf_filename": "doc_0000_s1645358205.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", who is the Risk Owner for R-03?",
+      "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", what is the Residual Risk Level for R-06?",
+      "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", what is the Executive Accountable for R-08?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1788688767",
+    "title": "Executive Briefing: Competitive Landscape — Market Share Movements, Competitor Product Launches, Pricing Actions, and Recommended Strategic Responses",
+    "recipe": "data_focused",
+    "topic": "competitive_intelligence_briefing",
+    "pdf_filename": "doc_0000_s1788688767.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 128,
+    "sample_questions": [
+      "Referencing the 'Competitive Landscape Briefing — Q2 Market Share & Response Checklist', what is the total number of items listed?",
+      "On the 'Competitive Landscape Briefing — Q2 Market Share & Response Checklist', how many items are currently marked as completed?",
+      "According to the 'Competitive Landscape Briefing — Q2 Market Share & Response Checklist', what is the completion rate percentage shown?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1595121215",
+    "title": "Logistics Network Optimization: Comparative Assessment of Distribution Centre Configurations, Carrier Lane Performance, and Last‑Mile Cost Drivers with Recommendations to Reduce Cost‑to‑Serve",
+    "recipe": "data_focused",
+    "topic": "logistics_network_design",
+    "pdf_filename": "doc_0000_s1595121215.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "According to the \"Carrier Lane and Last‑Mile Cost Driver Diagnostics with Network Change Recommendations\" section, what is the cost per mile for the Dallas, TX → Atlanta, GA linehaul in 2025-03?",
+      "In the \"Carrier Lane and Last‑Mile Cost Driver Diagnostics with Network Change Recommendations\" section, what percentage of last-mile accessorials is attributed to residential delivery and fuel surcharge in 2025-04?",
+      "According to the \"Carrier Lane and Last‑Mile Cost Driver Diagnostics with Network Change Recommendations\" section, what is the projected annual transportation spend reduction from the recommended network changes?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1501987032",
+    "title": "M&A Due Diligence Report: Financial Health, Legal Exposures, Operational Risks, Synergy Potential and Recommended Valuation Range",
+    "recipe": "data_focused",
+    "topic": "mergers_acquisitions_due_diligence",
+    "pdf_filename": "doc_0000_s1501987032.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 217,
+    "sample_questions": [
+      "In the chart titled \"Synergy realization curve over 24 months\", what does the Y-axis represent?",
+      "In the chart titled \"Synergy realization curve over 24 months\", what is the value range shown?",
+      "In the chart titled \"Synergy realization curve over 24 months\", what is the overall trend?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1304631502",
+    "title": "Market Entry Assessment: Sizing the Total Addressable Market, Analyzing Competitive Intensity, Regulatory Requirements, and Go‑to‑Market Options",
+    "recipe": "data_focused",
+    "topic": "market_entry_feasibility",
+    "pdf_filename": "doc_0000_s1304631502.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 169,
+    "sample_questions": [
+      "In the table titled \"Segment-level demand drivers and pricing assumptions for Germany fleet charging (logistics, last-mile, field service)\", what is the Value for Logistics fleets (2026 addressable vehicles) under Total vehicles in scope for initial geography?",
+      "In the table titled \"Segment-level demand drivers and pricing assumptions for Germany fleet charging (logistics, last-mile, field service)\", what is the Value listed for Blended price (€/kWh)?",
+      "In the table titled \"Segment-level demand drivers and pricing assumptions for Germany fleet charging (logistics, last-mile, field service)\", what is the Value for Field service (avg sessions/vehicle/week)?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2132920160",
+    "title": "Marketing Campaign Effectiveness Report: Channel Attribution, Cost‑Per‑Acquisition, Conversion Funnel Performance, Brand Awareness Lift, and Budget Reallocation Recommendations",
+    "recipe": "data_focused",
+    "topic": "marketing_campaign_effectiveness",
+    "pdf_filename": "doc_0000_s2132920160.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "According to the \"Channel Attribution and Cost per Acquisition (CPA) Performance — Q1 2026\" section, what was the total spend recorded in Q1 2026?",
+      "In the \"Channel Attribution and Cost per Acquisition (CPA) Performance — Q1 2026\" section, how many attributed conversions did Paid Search deliver in Q1 2026?",
+      "According to the \"Channel Attribution and Cost per Acquisition (CPA) Performance — Q1 2026\" section, what CPA did Paid Social achieve in Q1 2026?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s646172878",
+    "title": "Omnichannel Customer Experience Report: NPS, CSAT and Effort Scores by Channel, Verbatim Sentiment Themes, Journey Pain Points, and Improvement Action Plan",
+    "recipe": "data_focused",
+    "topic": "customer_experience_report",
+    "pdf_filename": "doc_0000_s646172878.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "According to the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the overall NPS in Q1 2026?",
+      "In the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the Mobile App NPS in Q1 2026?",
+      "According to the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the Phone Support CES in Q1 2026?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s691384591",
+    "title": "Operational Excellence: Benchmarking Cycle Time, First‑Pass Yield and Capacity Utilisation — Lean Improvement Opportunities and Financial Impact Assessment",
+    "recipe": "data_focused",
+    "topic": "operational_efficiency_review",
+    "pdf_filename": "doc_0000_s691384591.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 70,
+    "sample_questions": [
+      "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", which objective categories are the column groups?",
+      "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", how many initiatives fall under the \"Flow & Throughput\" initiative category?",
+      "In the table titled \"Operational Excellence Review — Strategic Initiatives vs. Objectives (Cycle Time, FPY, Capacity Utilisation, Lean Financial Impact)\", what is the alignment rating of \"SMED on Bottleneck Press Line (Changeover < 30 min)\" for the \"Capacity Utilisation\" objective?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1464256503",
+    "title": "Programme Status Report and Steering Committee Briefing — Milestone Health, Budget‑at‑Completion Forecast, Dependency Risks, Escalations & Next‑Period Commitments",
+    "recipe": "data_focused",
+    "topic": "programme_status_report",
+    "pdf_filename": "doc_0000_s1464256503.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", how many sub-columns does each period group span?",
+      "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what is the H1 Attainment% for \"Release Readiness (gated approvals, %)\"?",
+      "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", how many metrics does the \"Financials\" category rowspan cover?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s235711402",
+    "title": "Quarterly Treasury and Liquidity Report — Upcoming Quarter: Cash Position, Short‑Term Funding, Credit Facility Utilisation, FX Exposure and Stress Scenarios",
+    "recipe": "data_focused",
+    "topic": "treasury_liquidity_report",
+    "pdf_filename": "doc_0000_s235711402.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 48,
+    "sample_questions": [
+      "In the table titled \"Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)\", what is the Minimum Cash (Date) for the \"Revenue -20%\" scenario?",
+      "In the table titled \"Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)\", what is the Incremental Cash Impact for \"AR delay +30 days\"?",
+      "In the table titled \"Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)\", what is the Trigger Point / Action for \"Combined downside (Revenue -20% + AR +15d)\"?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1529144208",
+    "title": "Sourcing Strategy and Contracting Framework for Major Spend Category: Category Spend Analysis, Make‑vs‑Buy Decisions, Supplier Selection Criteria and Contracting Approach",
+    "recipe": "data_focused",
+    "topic": "procurement_sourcing_strategy",
+    "pdf_filename": "doc_0000_s1529144208.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 60,
+    "sample_questions": [
+      "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what sub-columns fall under the grouped header \"Impact\" in the AMS row’s inner Demand / Cost Drivers table?",
+      "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", how many rows does the \"Run (L2/L3 support)\" label span in the AMS row’s inner Make-vs-Buy & Preferred Suppliers table?",
+      "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what does footnote 1 explain?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s370229337",
+    "title": "Supply Chain Resilience Assessment: Identifying Single-Source Dependencies, Lead-Time Vulnerabilities, Inventory Buffer Adequacy, and Supplier Diversification Roadmap",
+    "recipe": "data_focused",
+    "topic": "supply_chain_resilience_report",
+    "pdf_filename": "doc_0000_s370229337.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 89,
+    "sample_questions": [
+      "In the table titled \"Table 2: Purchase Order Register\", what is the Lead_Time_Days for PO-2026-001?",
+      "In the table titled \"Table 2: Purchase Order Register\", what is the Supplier_Name for PO-030?",
+      "In the table titled \"Table 2: Purchase Order Register\", what is the PO_Value_USD for PO-0045?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s627016921",
+    "title": "Supply Chain Resilience Report: Single-Source Dependency Analysis, Lead-Time Vulnerabilities, Inventory Buffer Assessment, and Supplier Diversification Roadmap",
+    "recipe": "data_focused",
+    "topic": "supply_chain_resilience_report",
+    "pdf_filename": "doc_0000_s627016921.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 86,
+    "sample_questions": [
+      "In the table titled \"Table 1: Inventory Audit Log\", what is the supplier listed for the item \"CHIP-MCU-A7\"?",
+      "In the table titled \"Table 1: Inventory Audit Log\", what value appears in Col3 for the row \"BEARING-6205\"?",
+      "In the table titled \"Table 1: Inventory Audit Log\", what mitigation action is listed for \"ERP outage caused 48-hour delay in purchase order processing\"?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s853044545",
+    "title": "Three‑Year Corporate Strategic Plan: Growth Ambitions, Market Positioning, Capability Investment Priorities, and Business Unit Performance Milestones",
+    "recipe": "data_focused",
+    "topic": "strategic_plan_three_year",
+    "pdf_filename": "doc_0000_s853044545.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "In the table titled \"Three-Year Strategic Plan (Year 1) — Baseline vs Actuals Quarterly Operating Investment by Strategic Capability ($000)\", how many period columns does each version group span?",
+      "In the table titled \"Three-Year Strategic Plan (Year 1) — Baseline vs Actuals Quarterly Operating Investment by Strategic Capability ($000)\", what is the Actuals Q3 value for \"Core platform modernization (cloud + microservices)\"?",
+      "In the table titled \"Three-Year Strategic Plan (Year 1) — Baseline vs Actuals Quarterly Operating Investment by Strategic Capability ($000)\", what is the \"Product & Platform Capability Investment — Subtotal\" for Baseline Q1?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1889213097",
+    "title": "Transfer Pricing Study and Documentation: Intercompany Transactions, Benchmarking Analysis, Methodology Selection and OECD Arm's‑Length Compliance",
+    "recipe": "data_focused",
+    "topic": "transfer_pricing_documentation",
+    "pdf_filename": "doc_0000_s1889213097.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 86,
+    "sample_questions": [
+      "According to the \"Intercompany Transaction Overview and Functional (FAR) Analysis for FY2024\" section, what is the fiscal year end date of Orion Components Manufacturing Sp. z o.o.?",
+      "In the \"Intercompany Transaction Overview and Functional (FAR) Analysis for FY2024\" section, what percentage IP royalty is paid by Orion Components Manufacturing Sp. z o.o. to Orion IP Ltd. (Ireland)?",
+      "According to the \"Intercompany Transaction Overview and Functional (FAR) Analysis for FY2024\" section, what is the amount of contract manufacturing sales to Orion Components GmbH (Germany) in FY2024?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s310348488",
+    "title": "Treasury Outlook for the Upcoming Quarter: Cash Position, Short‑Term Funding, Credit Facility Utilisation, FX Exposure and Liquidity Stress Scenarios",
+    "recipe": "data_focused",
+    "topic": "treasury_liquidity_report",
+    "pdf_filename": "doc_0000_s310348488.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "According to the \"Credit Facility Utilisation, FX Exposure, and Liquidity Stress Scenarios (Q3 2026)\" section, what percentage utilisation of committed lines is reported as of 30 Jun 2026?",
+      "In the \"Credit Facility Utilisation, FX Exposure, and Liquidity Stress Scenarios (Q3 2026)\" section, what is the reported net FX exposure position in euros for Q3 2026?",
+      "According to the \"Credit Facility Utilisation, FX Exposure, and Liquidity Stress Scenarios (Q3 2026)\" section, under the 'Customer Delay + FX Shock' scenario, what is the minimum liquidity headroom and on what date does it occur?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s555746529",
+    "title": "Accounts Receivable Ageing Report — Outstanding Balances by Bucket, Customer Credit Risk Ratings, Disputed Amounts, and Collections Action Plan",
+    "recipe": "data_narrative",
+    "topic": "accounts_receivable_collections",
+    "pdf_filename": "doc_0000_s555746529.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 70,
+    "sample_questions": [
+      "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", which objective categories are the column groups?",
+      "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", how many initiatives fall under the \"Collections Execution\" initiative category?",
+      "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", what is the alignment rating of \"Risk-Tiered Dunning Cadence (30/60/90+)\" for the \"Days Sales Outstanding (DSO)\" objective?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s96086155",
+    "title": "Annual Report and Forward Guidance: Full-Year Revenue, Operating Margins, Earnings Per Share and Segment Performance",
+    "recipe": "dense_data",
+    "topic": "annual_report_financial_performance",
+    "pdf_filename": "doc_0000_s96086155.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 66,
+    "sample_questions": [
+      "In the table titled \"Segment performance: FY2025 revenue and operating margin by reportable segment\", what is the Operating Margin (%) for Cloud Services?",
+      "In the table titled \"Segment performance: FY2025 revenue and operating margin by reportable segment\", what value is listed under Revenue (USD billions) for Healthcare Technology?",
+      "In the table titled \"Segment performance: FY2025 revenue and operating margin by reportable segment\", what is the YoY Growth (%) for Corporate & Other?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s791687779",
+    "title": "Cost Transformation Programme Report: Identified Savings, Realised Efficiencies, Accountable Owners and Milestone Roadmap to Close Remaining Gaps",
+    "recipe": "dense_data",
+    "topic": "cost_reduction_initiative",
+    "pdf_filename": "doc_0000_s791687779.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 70,
+    "sample_questions": [
+      "In the table titled \"Top at-risk initiatives and mitigations impacting delivery of the FY2026 savings target\", what is the Value at risk for Supplier renegotiation delays?",
+      "In the table titled \"Top at-risk initiatives and mitigations impacting delivery of the FY2026 savings target\", who is the Mitigation owner for IT decommission dependency?",
+      "In the table titled \"Top at-risk initiatives and mitigations impacting delivery of the FY2026 savings target\", what is the Status of Benefits tracking data gaps?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1699242621",
+    "title": "Quarterly Earnings Analysis: Revenue vs. Analyst Consensus, Gross Margin Trends, Operating Expense Breakdown, and Management Commentary on Business Drivers and Risks",
+    "recipe": "dense_data",
+    "topic": "quarterly_earnings_review",
+    "pdf_filename": "doc_0000_s1699242621.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 70,
+    "sample_questions": [
+      "In the table titled \"Quarterly Earnings Heatmap Pivot — H1 vs H2 Actual vs Analyst Consensus\", how many sub-columns does each period group span?",
+      "In the table titled \"Quarterly Earnings Heatmap Pivot — H1 vs H2 Actual vs Analyst Consensus\", what is the H1 Attainment% for \"Gross Profit\"?",
+      "In the table titled \"Quarterly Earnings Heatmap Pivot — H1 vs H2 Actual vs Analyst Consensus\", how many metrics does the \"Operating Expenses\" category rowspan cover?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1943240978",
+    "title": " Cancel Recommendations",
+    "recipe": "editorial_review",
+    "topic": "project_portfolio_review",
+    "pdf_filename": "doc_0000_s1943240978.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 151,
+    "sample_questions": [
+      "On the 'this element', what label appears at the top of the callout box?",
+      "According to the 'this element', what text is shown inside the callout box?",
+      "According to the \"Portfolio Scoring Model and Governance for FY2026 Review Cycle\" section, how many active initiatives does the FY2026 portfolio review cover as of 2026-05-01?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1511271169",
+    "title": "Workforce Planning Report: Functional Headcount Forecast, Critical Skills Gap Analysis, and Talent Acquisition Strategy (Internal Mobility vs External Hiring)",
+    "recipe": "editorial_review",
+    "topic": "workforce_planning_report",
+    "pdf_filename": "doc_0000_s1511271169.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 47,
+    "sample_questions": [
+      "According to the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections are in the form?",
+      "In the 'Workforce Planning and Talent Acquisition Strategy Report', what is the total number of required fields?",
+      "On the 'Workforce Planning and Talent Acquisition Strategy Report', is the form marked as filled?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1704121861",
+    "title": "Market Entry Assessment for a New Geography or Product Category: Sizing the Total Addressable Market, Analyzing Competitive Intensity, Regulatory Requirements, and Go‑to‑Market Options",
+    "recipe": "exec_data",
+    "topic": "market_entry_feasibility",
+    "pdf_filename": "doc_0000_s1704121861.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 92,
+    "sample_questions": [
+      "In the scanned document titled \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", what is the projected number of battery-electric vehicles (BEVs) in Germany by end-2027?",
+      "According to \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", which charge point operators are mentioned in the competitive landscape?",
+      "According to \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", which law must deployments adhere to for metering accuracy?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1549747935",
+    "title": "Executive Competitive Landscape Briefing: Market Share Movements, Competitor Product Launches, Pricing Actions, and Strategic Recommendations",
+    "recipe": "executive_visual",
+    "topic": "competitive_intelligence_briefing",
+    "pdf_filename": "doc_0000_s1549747935.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 79,
+    "sample_questions": [
+      "According to the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, what market share did ApexSoft reach in Q1 2026?",
+      "In the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, on what date was NovaSuite AI Assist launched?",
+      "According to the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, what was the combined top three market share in Q1 2026?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s733706182",
+    "title": "Loss Analysis, Sales Cycle Metrics, and Account Manager Productivity Benchmarks",
+    "recipe": "executive_visual",
+    "topic": "sales_performance_review",
+    "pdf_filename": "doc_0000_s733706182.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 72,
+    "sample_questions": [
+      "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", what does the Y-axis represent?",
+      "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", what is the value range shown?",
+      "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", name one of the Sales Region categories."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2041481022",
+    "title": "M&A Due Diligence Report: Financial Health, Legal Exposures, Operational Risks, Synergy Potential and Recommended Valuation Range for the Target Company",
+    "recipe": "executive_visual",
+    "topic": "mergers_acquisitions_due_diligence",
+    "pdf_filename": "doc_0000_s2041481022.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 94,
+    "sample_questions": [
+      "In the chart titled \"Operational Risk Heatmap (Likelihood vs. Impact)\", what does the Y-axis represent?",
+      "In the chart titled \"Operational Risk Heatmap (Likelihood vs. Impact)\", what is the value range for the Risk Severity Score?",
+      "In the chart titled \"Operational Risk Heatmap (Likelihood vs. Impact)\", what is the trend shown?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s403014459",
+    "title": "Post‑Merger Integration Plan: Day 1 Readiness, Workstream Ownership, Synergy Capture Timeline, Cultural Integration Risks, and 100‑Day Milestones Tracker",
+    "recipe": "executive_visual",
+    "topic": "post_merger_integration_plan",
+    "pdf_filename": "doc_0000_s403014459.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 78,
+    "sample_questions": [
+      "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what does the X-axis represent?",
+      "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what is the value range shown?",
+      "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what does the Y-axis represent?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s163203284",
+    "title": "Product Launch Readiness Assessment: Go-to-Market Workstream Verification and Risk Mitigation",
+    "recipe": "executive_visual",
+    "topic": "product_launch_readiness",
+    "pdf_filename": "doc_0000_s163203284.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 78,
+    "sample_questions": [
+      "In the chart titled \"Go-to-Market Workstream Completion Status (as of 2026-06-10)\", what does the Y-axis represent?",
+      "In the chart titled \"Go-to-Market Workstream Completion Status (as of 2026-06-10)\", what is the value range shown on the chart?",
+      "In the chart titled \"Go-to-Market Workstream Completion Status (as of 2026-06-10)\", which category appears on the X-axis?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s221972919",
+    "title": "Three-Year Corporate Strategic Plan: Growth Ambitions, Market Positioning, Capability Investment Priorities, and Business Unit Performance Milestones",
+    "recipe": "executive_visual",
+    "topic": "strategic_plan_three_year",
+    "pdf_filename": "doc_0000_s221972919.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 62,
+    "sample_questions": [
+      "In the scanned document titled \"FY2027–FY2029 Corporate Strategic Plan Overview\", how many priority growth markets will Horizon Ridge Holdings reposition its portfolio around?",
+      "According to \"FY2027–FY2029 Corporate Strategic Plan Overview\", what is the total capital expenditure planned over the planning horizon?",
+      "In the scanned document titled \"FY2027–FY2029 Corporate Strategic Plan Overview\", what percentage of capital expenditures is directed toward capability expansion?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s531984517",
+    "title": "Three-Year Corporate Strategic Plan: Growth Ambitions, Market Positioning, Capability Investments and Business Unit Performance Milestones",
+    "recipe": "executive_visual",
+    "topic": "strategic_plan_three_year",
+    "pdf_filename": "doc_0000_s531984517.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 64,
+    "sample_questions": [
+      "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", what does the Y-axis represent?",
+      "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", what is the value range shown?",
+      "In the chart titled \"2026–2028 Capability Investment Allocation by Strategic Theme\", name one of the capability themes on the X-axis."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s141564320",
+    "title": "Transformation Programme Status Report - Milestone Health, Budget-at-Completion Forecast, Dependency Risks, Steering Committee Escalations, and Next-Period Commitments",
+    "recipe": "executive_visual",
+    "topic": "programme_status_report",
+    "pdf_filename": "doc_0000_s141564320.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 63,
+    "sample_questions": [
+      "In the scanned document titled \"Transformation Programme Milestone & Financial Status\", what is the aggregate BAC forecast?",
+      "According to \"Transformation Programme Milestone & Financial Status\", how many workstreams require steering committee decisions?",
+      "In \"Transformation Programme Milestone & Financial Status\", which workstreams are marked as requiring steering committee decisions?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s308098343",
+    "title": "Compensation Benchmarking and Pay Equity Report: Market Comparison, Attrition Risk Analysis, and Salary Band Recommendations",
+    "recipe": "field_ops",
+    "topic": "compensation_benchmarking_study",
+    "pdf_filename": "doc_0000_s308098343.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 102,
+    "sample_questions": [
+      "In the 'Compensation Benchmarking and Salary Band Adjustment Form', how many sections does the form include on the rendered page?",
+      "According to the 'Compensation Benchmarking and Salary Band Adjustment Form', what is the title of the third section displayed on the form?",
+      "On the 'Compensation Benchmarking and Salary Band Adjustment Form', how many dropdown fields are present in the filled form?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2047460608",
+    "title": "Leadership Succession Plan: Bench-Strength Assessment, High-Potential Development, and Emergency Succession Gap Analysis",
+    "recipe": "field_ops",
+    "topic": "leadership_succession_plan",
+    "pdf_filename": "doc_0000_s2047460608.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 131,
+    "sample_questions": [
+      "How many total items are on the 'Leadership Succession Bench Strength Assessment Checklist' checklist?",
+      "According to the 'Leadership Succession Bench Strength Assessment Checklist', how many items are marked as completed?",
+      "On the 'Leadership Succession Bench Strength Assessment Checklist', name one item that is marked as checked."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s71304498",
+    "title": "Logistics Network Optimisation Study: Distribution Centre Configurations, Carrier Lane Performance, Last-Mile Cost Drivers and Recommendations to Reduce Cost-to-Serve",
+    "recipe": "field_ops",
+    "topic": "logistics_network_design",
+    "pdf_filename": "doc_0000_s71304498.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 130,
+    "sample_questions": [
+      "In the chart titled \"Carrier lane performance heatmap: on-time delivery by lane and carrier,\" what does the Y-axis represent?",
+      "In the chart titled \"Carrier lane performance heatmap: on-time delivery by lane and carrier,\" what is the value range shown?",
+      "In the chart titled \"Carrier lane performance heatmap: on-time delivery by lane and carrier,\" what is the stated trend?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s887928342",
+    "title": "Manufacturing Quality Performance Report: Defect Rates by Product Line, Root-Cause Analysis of Top Failure Modes, CAPA Status, and Customer Return Trends",
+    "recipe": "field_ops",
+    "topic": "quality_management_report",
+    "pdf_filename": "doc_0000_s887928342.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 135,
+    "sample_questions": [
+      "In the chart titled \"Pareto of top failure modes driving internal defects (Mar 2026)\", what does the Y-axis represent?",
+      "In the chart titled \"Pareto of top failure modes driving internal defects (Mar 2026)\", what is the value range shown?",
+      "In the chart titled \"Pareto of top failure modes driving internal defects (Mar 2026)\", which category corresponds to FM-03?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1802278732",
+    "title": "Manufacturing Quality Report: Defect Rates by Product Line, Root-Cause Analysis of Top Failure Modes, Corrective and Preventive Action Status, and Customer Return Trends",
+    "recipe": "field_ops",
+    "topic": "quality_management_report",
+    "pdf_filename": "doc_0000_s1802278732.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 78,
+    "sample_questions": [
+      "In the chart titled \"Monthly customer return (RMA) rate trend by product line (Jan–Apr 2026)\", what does the Y-axis represent?",
+      "In the chart titled \"Monthly customer return (RMA) rate trend by product line (Jan–Apr 2026)\", what is the overall trend shown?",
+      "In the chart titled \"Monthly customer return (RMA) rate trend by product line (Jan–Apr 2026)\", what is the value range?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1660635685",
+    "title": "Procurement Sourcing Strategy for Major Spend Categories: Spend Analysis, Make‑vs‑Buy Assessment, Supplier Selection Criteria and Contracting Approach",
+    "recipe": "field_ops",
+    "topic": "procurement_sourcing_strategy",
+    "pdf_filename": "doc_0000_s1660635685.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 58,
+    "sample_questions": [
+      "In the chart titled \"Supplier Concentration: Share of Total IT Services Spend by Vendor (Top 8)\", what does the Y-axis represent?",
+      "In the chart titled \"Supplier Concentration: Share of Total IT Services Spend by Vendor (Top 8)\", what is the value range shown?",
+      "In the chart titled \"Supplier Concentration: Share of Total IT Services Spend by Vendor (Top 8)\", which vendor appears as a category on the X-axis?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s140095988",
+    "title": "Strategic Sourcing Plan for Major Spend Category: Category Spend Analysis, Make‑versus‑Buy Decisions, Preferred Supplier Selection Criteria and Contracting Approach",
+    "recipe": "field_ops",
+    "topic": "procurement_sourcing_strategy",
+    "pdf_filename": "doc_0000_s140095988.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 68,
+    "sample_questions": [
+      "In the chart titled \"Monthly IT Services Spend Trend (Jan–Dec 2025) and Target Run-Rate for FY2026)\", what does the Y-axis represent?",
+      "In the chart titled \"Monthly IT Services Spend Trend (Jan–Dec 2025) and Target Run-Rate for FY2026)\", what is the value range shown?",
+      "In the chart titled \"Monthly IT Services Spend Trend (Jan–Dec 2025) and Target Run-Rate for FY2026)\", what trend is described?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1647835190",
+    "title": "Compensation Benchmarking Report: Market Alignment of Pay Bands, Attrition Risk Assessment, and Recommended Salary Band and Equity Adjustments",
+    "recipe": "forms_workflow",
+    "topic": "compensation_benchmarking_study",
+    "pdf_filename": "doc_0000_s1647835190.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 46,
+    "sample_questions": [
+      "On the 'Compensation Benchmarking and Pay Band Adjustment Report Form', how many sections does the document display?",
+      "According to the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what form number is shown on the report?",
+      "In the 'Compensation Benchmarking and Pay Band Adjustment Report Form', how many total fields are included in the form?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s328978252",
+    "title": "Critical Leadership Succession Plan: Bench Strength Assessment, High-Potential Development, and Emergency Succession Gaps",
+    "recipe": "forms_workflow",
+    "topic": "leadership_succession_plan",
+    "pdf_filename": "doc_0000_s328978252.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 60,
+    "sample_questions": [
+      "What form number is printed on the 'Leadership Succession Planning and Bench Strength Assessment Form'?",
+      "According to the 'Leadership Succession Planning and Bench Strength Assessment Form', how many sections does the form contain?",
+      "On the 'Leadership Succession Planning and Bench Strength Assessment Form', what is the name of the third section?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s979421902",
+    "title": "Critical Roles Succession Plan: Bench Strength Assessment, High-Potential Development Plans, and Emergency Succession Gap Analysis",
+    "recipe": "forms_workflow",
+    "topic": "leadership_succession_plan",
+    "pdf_filename": "doc_0000_s979421902.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 62,
+    "sample_questions": [
+      "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are displayed?",
+      "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, what is the total number of fields on the form?",
+      "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are marked as required?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s755391577",
+    "title": "Employee Engagement Survey Report: Overall Engagement Score, Key Driver Analysis, Demographic Breakdowns, Year‑on‑Year Trends and a Prioritised People Action Plan",
+    "recipe": "forms_workflow",
+    "topic": "employee_engagement_survey",
+    "pdf_filename": "doc_0000_s755391577.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 68,
+    "sample_questions": [
+      "On the 'Employee Engagement Survey Results Report', what form number is shown?",
+      "According to the 'Employee Engagement Survey Results Report', how many required fields must be completed?",
+      "In the 'Employee Engagement Survey Results Report', what is the title of the third section?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s275516533",
+    "title": "Employee Engagement Survey Report: Scores, Key Drivers, Demographics, Year‑on‑Year Trends and Prioritised People Action Plan",
+    "recipe": "forms_workflow",
+    "topic": "employee_engagement_survey",
+    "pdf_filename": "doc_0000_s275516533.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 94,
+    "sample_questions": [
+      "In the 'Employee Engagement Survey Results Report', how many sections are included in the report?",
+      "According to the 'Employee Engagement Survey Results Report', what form number appears on the report?",
+      "On the 'Employee Engagement Survey Results Report', how many fields are marked as required?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s425516221",
+    "title": "Functional Headcount Forecast and Talent Strategy: Critical Skill Gaps, Internal Mobility Assessment, and Recruitment Recommendations",
+    "recipe": "forms_workflow",
+    "topic": "workforce_planning_report",
+    "pdf_filename": "doc_0000_s425516221.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 184,
+    "sample_questions": [
+      "In the 'Workforce Planning and Talent Strategy Report Form', what does the description text say?",
+      "According to the 'Workforce Planning and Talent Strategy Report Form', how many sections are on the form?",
+      "On the 'Workforce Planning and Talent Strategy Report Form', what is the name of the second section?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1592386153",
+    "title": "Leadership Succession Plan and Bench-Strength Assessment: High-Potential Development Plans and Emergency Succession Gaps for Critical Roles",
+    "recipe": "forms_workflow",
+    "topic": "leadership_succession_plan",
+    "pdf_filename": "doc_0000_s1592386153.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 58,
+    "sample_questions": [
+      "On the 'Leadership Succession Planning and Bench Strength Assessment Form', how many sections are displayed?",
+      "According to the 'Leadership Succession Planning and Bench Strength Assessment Form', what is the form number printed on the document?",
+      "In the 'Leadership Succession Planning and Bench Strength Assessment Form', what is the indicated form type?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s223800554",
+    "title": "Strategic Sourcing and Contracting Plan for Major Spend Category: Category Spend Analysis, Make‑vs‑Buy Assessment, Preferred Supplier Selection Criteria and Contracting Approach",
+    "recipe": "forms_workflow",
+    "topic": "procurement_sourcing_strategy",
+    "pdf_filename": "doc_0000_s223800554.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 62,
+    "sample_questions": [
+      "How many total items are on the 'Enterprise Cloud Infrastructure Sourcing Strategy Checklist' checklist?",
+      "According to the 'Enterprise Cloud Infrastructure Sourcing Strategy Checklist', what completion rate percentage is shown?",
+      "On the 'Enterprise Cloud Infrastructure Sourcing Strategy Checklist', name one item that is marked as checked."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1280344647",
+    "title": "Workforce Planning Report: Functional Headcount Forecasts, Critical Skills Gap Analysis, Internal Mobility Assessment, and Talent Acquisition Strategy",
+    "recipe": "forms_workflow",
+    "topic": "workforce_planning_report",
+    "pdf_filename": "doc_0000_s1280344647.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 63,
+    "sample_questions": [
+      "On the 'Workforce Planning and Talent Acquisition Strategy Report', what form number is shown?",
+      "According to the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections are included in the report?",
+      "In the 'Workforce Planning and Talent Acquisition Strategy Report', which heading is listed as the first section?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s789468268",
+    "title": "Cloud Migration Programme Status Report — Workload Migration Progress, Cost Optimisation vs On‑Premises Baseline, Operational Readiness and Next‑Phase Planning",
+    "recipe": "mixed_document",
+    "topic": "cloud_migration_programme",
+    "pdf_filename": "doc_0000_s789468268.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 106,
+    "sample_questions": [
+      "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what does the Y-axis represent?",
+      "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what is the overall trend shown?",
+      "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what is the value range shown?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s108660953",
+    "title": "Customer Experience Report: NPS, CSAT & Effort Scores by Channel — Verbatim Sentiment Themes, Journey Pain Points, and Customer Improvement Action Plan",
+    "recipe": "mixed_document",
+    "topic": "customer_experience_report",
+    "pdf_filename": "doc_0000_s108660953.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 133,
+    "sample_questions": [
+      "How many total items are on the 'Q2 CX Report Completion Checklist (NPS, CSAT & Effort by Channel)' checklist?",
+      "According to the 'Q2 CX Report Completion Checklist (NPS, CSAT & Effort by Channel)', what completion rate is shown?",
+      "On the 'Q2 CX Report Completion Checklist (NPS, CSAT & Effort by Channel)', name one item that is marked as checked."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1093730429",
+    "title": "Employee Engagement Survey Report: Overall Score, Key Drivers, Demographic Breakdowns, Year-on-Year Trends and Prioritised People Action Plan",
+    "recipe": "mixed_document",
+    "topic": "employee_engagement_survey",
+    "pdf_filename": "doc_0000_s1093730429.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 77,
+    "sample_questions": [
+      "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the Status for Overall engagement (favorable %)?",
+      "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the FY2024 value for eNPS (FY2024)?",
+      "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the FY2024 value for Wellbeing index (FY2024 favorable %)?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2017617731",
+    "title": "Enterprise Data Governance Framework: Data Ownership, Classification Policies, Quality Standards, Lineage Requirements, and Stewardship Operating Model",
+    "recipe": "mixed_document",
+    "topic": "data_governance_framework",
+    "pdf_filename": "doc_0000_s2017617731.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 92,
+    "sample_questions": [
+      "According to the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, what is the minimum Completeness threshold required for Tier-1 critical data elements effective 2026-07-01?",
+      "In the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, by what date must 95% of Tier-1 datasets have documented end-to-end lineage?",
+      "According to the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, on what date will the Data Stewardship Working Group begin meeting weekly?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2021814853",
+    "title": "Operational Excellence Review and Benchmarking: Process Cycle Times, First-Pass Yield Rates, Capacity Utilisation, and Lean Improvement Opportunities with Projected Financial Impact",
+    "recipe": "mixed_document",
+    "topic": "operational_efficiency_review",
+    "pdf_filename": "doc_0000_s2021814853.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 98,
+    "sample_questions": [
+      "On the 'Operational Excellence Review & Benchmarking Assessment Form', what is the descriptive instruction shown on the form?",
+      "According to the 'Operational Excellence Review & Benchmarking Assessment Form', how many sections are present in the form?",
+      "In the 'Operational Excellence Review & Benchmarking Assessment Form', which section appears first on the rendered form?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1238336771",
+    "title": "Product Launch Readiness Assessment — Go-to-Market Workstream Verification and Risk Mitigation",
+    "recipe": "mixed_document",
+    "topic": "product_launch_readiness",
+    "pdf_filename": "doc_0000_s1238336771.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 38,
+    "sample_questions": [
+      "In the chart titled \"Sales enablement certification progress vs target (Apr 20–May 15, 2026)\", what does the Y-axis represent?",
+      "In the chart titled \"Sales enablement certification progress vs target (Apr 20–May 15, 2026)\", what is the value range shown?",
+      "In the chart titled \"Sales enablement certification progress vs target (Apr 20–May 15, 2026)\", what is the trend direction?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s164140691",
+    "title": "Quarterly Treasury and Liquidity Report: Cash Position, Short‑Term Funding, Credit Facility Utilisation, FX Exposure and Liquidity Stress Scenarios for the Coming Quarter",
+    "recipe": "mixed_document",
+    "topic": "treasury_liquidity_report",
+    "pdf_filename": "doc_0000_s164140691.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 217,
+    "sample_questions": [
+      "In the chart titled \"Projected RCF drawdown path under base vs combined stress scenario (Q3 2026)\", what does the Y-axis represent?",
+      "In the chart titled \"Projected RCF drawdown path under base vs combined stress scenario (Q3 2026)\", what is the value range shown?",
+      "In the chart titled \"Projected RCF drawdown path under base vs combined stress scenario (Q3 2026)\", what is the overall trend?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s369515222",
+    "title": "Strategic Workforce Plan and Talent Acquisition Strategy: Headcount Forecast by Function, Skills Gap Analysis, and Internal Mobility Evaluation",
+    "recipe": "mixed_document",
+    "topic": "workforce_planning_report",
+    "pdf_filename": "doc_0000_s369515222.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 137,
+    "sample_questions": [
+      "In the chart titled \"Time-to-Fill vs. Hiring Volume by Function (FY2025 External Hiring Plan)\", what does the Y-axis represent?",
+      "In the chart titled \"Time-to-Fill vs. Hiring Volume by Function (FY2025 External Hiring Plan)\", what is the value range shown?",
+      "In the chart titled \"Time-to-Fill vs. Hiring Volume by Function (FY2025 External Hiring Plan)\", what is the overall trend?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s307879766",
+    "title": "Annual ESG Performance Report: Scope 1-3 Emissions, Social Impact Metrics, Diversity Data, Board Governance Practices, and Progress on Public Sustainability Commitments",
+    "recipe": "narrative_report",
+    "topic": "esg_performance_report",
+    "pdf_filename": "doc_0000_s307879766.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 100,
+    "sample_questions": [
+      "In the table titled \"Board governance and sustainability oversight practices (FY2024) supporting delivery of 2030 commitments\", what is the Current Value for \"Board size (directors)\"?",
+      "In the table titled \"Board governance and sustainability oversight practices (FY2024) supporting delivery of 2030 commitments\", what is the Current Value for \"Executive variable pay linked to ESG, %\"?",
+      "In the table titled \"Board governance and sustainability oversight practices (FY2024) supporting delivery of 2030 commitments\", what is the Current Value for \"Public reporting on ESG oversight\"?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1732901225",
+    "title": "Executive Competitive Landscape Briefing: Market Share Movements, Competitor Product Launches, Pricing Actions, and Strategic Recommendations",
+    "recipe": "narrative_report",
+    "topic": "competitive_intelligence_briefing",
+    "pdf_filename": "doc_0000_s1732901225.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 125,
+    "sample_questions": [
+      "According to the \"Competitor Launches and Executive Response Plan (Q2 2025–Q3 2026) to Recover Share and Protect Margin\" section, on what date did Competitor B launch the NovaX product line?",
+      "In the \"Competitor Launches and Executive Response Plan (Q2 2025–Q3 2026) to Recover Share and Protect Margin\" section, what is the targeted market share recovery by Q3 2026?",
+      "According to the \"Competitor Launches and Executive Response Plan (Q2 2025–Q3 2026) to Recover Share and Protect Margin\" section, what gross margin impact requires CFO sign-off?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1334591252",
+    "title": "Regulatory Compliance Status Report: Control Mapping, Open Examination Findings, and Remediation Progress with Target Closure Dates",
+    "recipe": "regulatory",
+    "topic": "regulatory_compliance_assessment",
+    "pdf_filename": "doc_0000_s1334591252.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 94,
+    "sample_questions": [
+      "According to the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, what percentage of regulatory obligations are mapped to internal controls as of 2026-05-01?",
+      "In the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, which regulatory obligation is identified as having no designated control owner?",
+      "According to the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, when are the immediate actions to address coverage and ownership gaps scheduled to begin?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s533483416",
+    "title": "Annual Financial Report — Full-Year Revenue, Operating Margins, Earnings per Share, Segment Performance and Forward Guidance",
+    "recipe": "research_paper",
+    "topic": "annual_report_financial_performance",
+    "pdf_filename": "doc_0000_s533483416.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 125,
+    "sample_questions": [
+      "In the table titled \"FY2025 Annual Performance Snapshot — Revenue, Margins, EPS, Segment Results, and FY2026 Guidance\", what sub-columns fall under \"FY2025 Results\" in the Total Company row's Headline Metrics inner table?",
+      "In the table titled \"FY2025 Annual Performance Snapshot — Revenue, Margins, EPS, Segment Results, and FY2026 Guidance\", how many rows does the \"Starting EPS (FY2024)\" label span in the EPS bridge inner table within the Capital Allocation & EPS Bridge row?",
+      "In the table titled \"FY2025 Annual Performance Snapshot — Revenue, Margins, EPS, Segment Results, and FY2026 Guidance\", what does footnote 1 explain?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1668512102",
+    "title": "Annual Report — Full-Year Financial Results, Segment Performance and Forward Guidance",
+    "recipe": "research_paper",
+    "topic": "annual_report_financial_performance",
+    "pdf_filename": "doc_0000_s1668512102.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 117,
+    "sample_questions": [
+      "According to the \"Segment Momentum, Margin Mix Shift, and FY2026 Investor Guidance\" section, what was the FY2025 revenue for Cloud & Subscriptions?",
+      "In the \"Segment Momentum, Margin Mix Shift, and FY2026 Investor Guidance\" section, what segment operating margin is reported for Hardware & Devices in FY2025?",
+      "According to the \"Segment Momentum, Margin Mix Shift, and FY2026 Investor Guidance\" section, what operating margin range is provided in the FY2026 guidance?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1901646627",
+    "title": "Clinical Data Analysis Report: Patient Cohort Outcomes, Treatment Efficacy Metrics, Adverse Event Rates, Protocol Compliance, and Evidence‑Based Recommendations for Clinical Pathway Optimisation",
+    "recipe": "research_paper",
+    "topic": "clinical_data_analysis",
+    "pdf_filename": "doc_0000_s1901646627.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 122,
+    "sample_questions": [
+      "In the table titled \"Clinical Cohort Outcomes & Pathway Optimisation Metrics (Q1–Q2 2026, Adult Inpatient Cohort)\", which leaf metric columns fall under the super-group header \"Safety (Adverse Events)\"?",
+      "In the table titled \"Clinical Cohort Outcomes & Pathway Optimisation Metrics (Q1–Q2 2026, Adult Inpatient Cohort)\", how many rows does the category label \"HFrEF Pathway\" span?",
+      "In the table titled \"Clinical Cohort Outcomes & Pathway Optimisation Metrics (Q1–Q2 2026, Adult Inpatient Cohort)\", what is the \"Clinical response at Day 7 (%)\" for the sub-category \"SOC + early source control bundle\" (first data row of that sub-category) under the \"Outcomes & Treatment Efficacy\" super-group?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1392886788",
+    "title": "Software Delivery Pipeline Performance Report: DORA Metrics, Technical Debt Inventory, and Continuous Improvement Roadmap",
+    "recipe": "research_paper",
+    "topic": "software_delivery_performance",
+    "pdf_filename": "doc_0000_s1392886788.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 57,
+    "sample_questions": [
+      "According to the \"Technical Debt Inventory and 90-Day Continuous Improvement Roadmap to Improve Lead Time and MTTR\" section, what is the total quantified technical debt as of 30-06-2026?",
+      "In the \"Technical Debt Inventory and 90-Day Continuous Improvement Roadmap to Improve Lead Time and MTTR\" section, what is the time frame during which the 90-day roadmap runs?",
+      "According to the \"Technical Debt Inventory and 90-Day Continuous Improvement Roadmap to Improve Lead Time and MTTR\" section, what reduction target is set for MTTR by the end of the roadmap?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1080272810",
+    "title": "Employee Engagement Survey Results and Prioritised People Action Plan: Overall Score, Key Drivers, Demographic Breakdown and Year-on-Year Trends",
+    "recipe": "scanned_archive",
+    "topic": "employee_engagement_survey",
+    "pdf_filename": "doc_0000_s1080272810.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 96,
+    "sample_questions": [
+      "In the scanned document titled \"Employee Engagement Results Certification Form\", who is listed as the inspector and their role?",
+      "According to \"Employee Engagement Results Certification Form\", how many employees responded to the survey?",
+      "According to \"Employee Engagement Results Certification Form\", what is the overall engagement score and the year-over-year change?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2121192011",
+    "title": "Manufacturing Quality Performance Report — Defect Rates by Product Line, Root‑Cause Analysis of Top Failure Modes, Corrective and Preventive Action (CAPA) Status, and Customer Return Trends",
+    "recipe": "scanned_archive",
+    "topic": "quality_management_report",
+    "pdf_filename": "doc_0000_s2121192011.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 127,
+    "sample_questions": [
+      "In the scanned document titled \"Manufacturing Quality Performance & CAPA Status Report\", who is listed as the inspector?",
+      "According to \"Manufacturing Quality Performance & CAPA Status Report\", what is the overall defect rate for Q1 2026 and how does it compare to Q4 2025?",
+      "In the scanned document titled \"Manufacturing Quality Performance & CAPA Status Report\", how many primary product lines were reviewed?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1625488644",
+    "title": "Manufacturing Quality Report: Defect Rates by Product Line, Root Cause Analysis of Top Failure Modes, CAPA Status, and Customer Return Trends",
+    "recipe": "scanned_archive",
+    "topic": "quality_management_report",
+    "pdf_filename": "doc_0000_s1625488644.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 99,
+    "sample_questions": [
+      "In the scanned document titled \"April 2026 Manufacturing Quality Performance Report\", what was the overall plant defect rate in April 2026?",
+      "In the scanned document titled \"April 2026 Manufacturing Quality Performance Report\", how many of the open CAPAs had been closed and verified for effectiveness as of April 30, 2026?",
+      "According to \"April 2026 Manufacturing Quality Performance Report\", what defect rate did the Orion Valve Assembly record in April 2026 and how did that compare to March?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1268707307",
+    "title": "Workforce Planning Report: Functional Headcount Forecast, Critical Skill-Gap Analysis, Internal Mobility Assessment, and Talent Acquisition Strategy",
+    "recipe": "scanned_archive",
+    "topic": "workforce_planning_report",
+    "pdf_filename": "doc_0000_s1268707307.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 71,
+    "sample_questions": [
+      "According to the \"Critical Skill Gaps and Talent Acquisition Strategy: Internal Mobility vs. External Hiring\" section, what percentage of net new roles in 2026 are recommended to be filled via internal mobility?",
+      "In the \"Critical Skill Gaps and Talent Acquisition Strategy: Internal Mobility vs. External Hiring\" section, how many Data Engineering hires are planned in 2026?",
+      "According to the \"Critical Skill Gaps and Talent Acquisition Strategy: Internal Mobility vs. External Hiring\" section, what is the target time-to-fill for priority roles effective 2026-01-01?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s2086894600",
+    "title": "Leadership Succession Assessment and Action Plan: Bench Strength, High-Potential Development, and Emergency Succession Gaps",
+    "recipe": "small_mixed",
+    "topic": "leadership_succession_plan",
+    "pdf_filename": "doc_0000_s2086894600.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 61,
+    "sample_questions": [
+      "How many total items are on the 'Leadership Succession Bench Strength Assessment Checklist' checklist?",
+      "According to the 'Leadership Succession Bench Strength Assessment Checklist', what is the completion rate percentage shown?",
+      "On the 'Leadership Succession Bench Strength Assessment Checklist', name one item that is marked as checked."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1330963132",
+    "title": "Board Strategy Presentation: Macro Environment Analysis, Portfolio Performance, Strategic Options and Requested Decisions",
+    "recipe": "text_heavy",
+    "topic": "board_strategy_presentation",
+    "pdf_filename": "doc_0000_s1330963132.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 38,
+    "sample_questions": [
+      "How many total items are on the 'Q2 2026 Board Strategy Presentation Checklist' checklist?",
+      "According to the 'Q2 2026 Board Strategy Presentation Checklist', what completion rate percentage is shown?",
+      "In the 'Q2 2026 Board Strategy Presentation Checklist', name one item listed as checked."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1430788463",
+    "title": "Employee Engagement Survey Report: Overall Score, Key Driver Analysis, Demographic Breakdowns, Year-on-Year Trends and Prioritised People Action Plan",
+    "recipe": "text_heavy",
+    "topic": "employee_engagement_survey",
+    "pdf_filename": "doc_0000_s1430788463.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 6,
+    "sample_questions": [
+      "According to the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, what overall engagement score was achieved in 2025?",
+      "In the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, during what dates did the survey fieldwork run?",
+      "According to the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, in which month and year will results be presented to the Executive Committee and People & Culture leadership?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1250502457",
+    "title": "Cloud Migration Programme Status Report: Workload Migration Progress, Cost Optimisation vs On‑Premises Baseline, Operational Readiness and Next‑Phase Planning",
+    "recipe": "ui_forms",
+    "topic": "cloud_migration_programme",
+    "pdf_filename": "doc_0000_s1250502457.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 80,
+    "sample_questions": [
+      "How many buttons are shown in the 'Migration Status Controls' button group?",
+      "In the 'Migration Status Controls', what is the label of the first button?",
+      "Which button in the 'Migration Status Controls' is styled 'danger'?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s329988706",
+    "title": "Enterprise IT Strategy and Architecture Roadmap: Target State Architecture, Legacy System Decommissioning, Investment Priorities, and Business Capability Alignment",
+    "recipe": "visual_all",
+    "topic": "it_strategy_roadmap",
+    "pdf_filename": "doc_0000_s329988706.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 103,
+    "sample_questions": [
+      "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", what does the Y-axis represent?",
+      "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", what is the value range shown?",
+      "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", name one business capability domain shown on the X-axis."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s581545093",
+    "title": "Transfer Pricing Documentation and Benchmarking Report: Intercompany Transactions, Methodology Selection and OECD Arm's Length Compliance",
+    "recipe": "visual_data",
+    "topic": "transfer_pricing_documentation",
+    "pdf_filename": "doc_0000_s581545093.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 141,
+    "sample_questions": [
+      "In the chart titled \"FY2025 Intercompany Charges by Counterparty Entity (USD millions)\", what does the Y-axis represent?",
+      "In the chart titled \"FY2025 Intercompany Charges by Counterparty Entity (USD millions)\", what type of chart is used?",
+      "In the chart titled \"FY2025 Intercompany Charges by Counterparty Entity (USD millions)\", what is the value range shown?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s326671804",
+    "title": "Customer Experience Report: NPS, CSAT and Effort Scores by Channel, Verbatim Sentiment Themes, Journey Pain Points, and Improvement Action Plan",
+    "recipe": "visual_heavy",
+    "topic": "customer_experience_report",
+    "pdf_filename": "doc_0000_s326671804.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 28,
+    "sample_questions": [
+      "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what does the Y-axis represent?",
+      "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what is the value range shown?",
+      "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what is the overall trend?"
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s91525277",
+    "title": "Quarterly Treasury Report: Cash Position, Short-Term Funding, Credit Facility Utilisation, FX Exposure and Liquidity Stress Scenarios",
+    "recipe": "visual_heavy",
+    "topic": "treasury_liquidity_report",
+    "pdf_filename": "doc_0000_s91525277.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 34,
+    "sample_questions": [
+      "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", what does the Y-axis represent?",
+      "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", what is the value range shown?",
+      "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", name one of the funding instrument categories displayed on the X-axis."
+    ]
+  },
+  {
+    "doc_id": "doc_0000_s1548396111",
+    "title": "Omnichannel Customer Experience Report: NPS, CSAT and Effort Scores by Channel, Verbatim Sentiment Themes, Journey Pain Points, and Improvement Action Plan",
+    "recipe": "visual_only",
+    "topic": "customer_experience_report",
+    "pdf_filename": "doc_0000_s1548396111.pdf",
+    "downloaded": false,
+    "size_mb": 0.0,
+    "num_questions": 47,
+    "sample_questions": [
+      "In the chart titled \"Heatmap of journey step effort (CES) by channel (Q1 2026)\", what does the Y-axis represent?",
+      "In the chart titled \"Heatmap of journey step effort (CES) by channel (Q1 2026)\", what is the value range shown?",
+      "In the chart titled \"Heatmap of journey step effort (CES) by channel (Q1 2026)\", what is one of the journey step categories on the X-axis?"
+    ]
+  }
+]

@@ -1,0 +1,3220 @@
+{
+  "doc_id": "doc_0000_s403014459",
+  "title": "Post‑Merger Integration Plan: Day 1 Readiness, Workstream Ownership, Synergy Capture Timeline, Cultural Integration Risks, and 100‑Day Milestones Tracker",
+  "subtitle": "Post‑Merger Integration Plan | Day 1 Readiness · Workstream Owners · Synergy Capture Timeline · Cultural Risks · 100‑Day Milestones",
+  "topic_id": "post_merger_integration_plan",
+  "recipe_name": "executive_visual",
+  "seed": 403014459,
+  "document_brief": {
+    "narrative_theme": "This post-merger integration plan aligns Day 1 operational readiness with clear workstream ownership, a quantified synergy capture timeline, proactive cultural risk management, and a disciplined 100-day milestones tracker to deliver measurable value quickly and safely.",
+    "sections": [
+      {
+        "heading": "Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)",
+        "key_facts": [
+          "Day 1 is 2026-07-01.",
+          "The Integration Management Office (IMO) is led by Maria Chen.",
+          "There are 6 integration workstreams: Finance, HR, IT, Operations, Sales, and Legal."
+        ],
+        "data_references": [
+          "chart_0",
+          "chart_1",
+          "chart_5"
+        ]
+      },
+      {
+        "heading": "Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker",
+        "key_facts": [
+          "Target run-rate synergies total $60M by 2027-06-30.",
+          "The synergy mix is 65% cost synergies and 35% revenue synergies.",
+          "The 100-day plan includes 12 milestones with the first checkpoint on Day 30."
+        ],
+        "data_references": [
+          "chart_2",
+          "chart_3",
+          "chart_4",
+          "chart_5"
+        ]
+      }
+    ],
+    "tables": [],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Day 1 Readiness Status by Workstream (RAG)",
+        "chart_type": "bar",
+        "x_label": "Integration workstream",
+        "y_label": "Readiness score (0–100) as of 2026-06-15",
+        "purpose": "Visualizes Day 1 readiness scoring by workstream to prioritize pre-close actions and escalation paths."
+      },
+      {
+        "id": "chart_1",
+        "title": "Workstream Ownership and Decision Rights Coverage",
+        "chart_type": "heatmap",
+        "x_label": "Decision areas (Policy, Process, Systems, People)",
+        "y_label": "Workstreams (Finance, HR, IT, Operations, Sales, Legal)",
+        "purpose": "overlaps and confirm Day 1 governance coverage."
+      },
+      {
+        "id": "chart_2",
+        "title": "Synergy Capture Timeline to $60M Run-Rate by 2027-06-30",
+        "chart_type": "line",
+        "x_label": "Month (from 2026-07 to 2027-06)",
+        "y_label": "Cumulative run-rate synergies captured (USD millions)",
+        "purpose": "Tracks cumulative synergy realization over time against the $60M target to manage value delivery and course-correct early."
+      },
+      {
+        "id": "chart_3",
+        "title": "Synergy Mix: Cost vs Revenue Contribution",
+        "chart_type": "pie",
+        "x_label": "Synergy type",
+        "y_label": "Share of total synergies (%)",
+        "purpose": "Communicates the planned 65% cost and 35% revenue synergy mix to align stakeholders on where value is expected to come from."
+      },
+      {
+        "id": "chart_4",
+        "title": "Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category",
+        "chart_type": "heatmap",
+        "x_label": "Impact (Low to High)",
+        "y_label": "Risk categories (Leadership alignment, Incentives, Ways of working, Communication, Change fatigue)",
+        "purpose": "Highlights top cultural integration risks to inform mitigation actions and leadership messaging during the first 100 days."
+      },
+      {
+        "id": "chart_5",
+        "title": "100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint",
+        "chart_type": "scatter",
+        "x_label": "Checkpoint day (Day 0, Day 30, Day 60, Day 90, Day 100)",
+        "y_label": "Milestones completed (count out of 12)",
+        "purpose": "Monitors execution discipline by comparing planned vs actual milestone completion across the 100-day window, including the Day 30 checkpoint."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s403014459.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0001_8fe8a553.png",
+      "scan_llm_text_9d656b84.png",
+      "cmp_0000_23d2efd2.png",
+      "img_0002_fd6971e2.png",
+      "scan_llm_data_957d329a.png",
+      "tl_0001_f5fae292.png",
+      "img_0000_1a502254.png",
+      "cmp_0001_765bd73b.png",
+      "img_0004_f6a50ad1.png",
+      "dash_0002_b07e54bc.png",
+      "img_0003_443d7110.png",
+      "fp_0000_7e674170.png",
+      "img_0005_d8c2d723.png",
+      "tl_0000_2d23668c.png",
+      "hub_0002_add4e2d8.png",
+      "fp_0001_b2b9ddf4.png",
+      "fp_0002_76c2af82.png",
+      "hub_0000_49052c66.png",
+      "tl_0002_580e2b88.png",
+      "proc_0001_ce7be4bb.png",
+      "hub_0001_4d3f4f76.png",
+      "mag_0001_e60f9527.png",
+      "dash_0000_7dbea058.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 28,
+    "actual_page_count": 15
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "img_0001_8fe8a553",
+      "figure_number": 1,
+      "image_path": "img_0001_8fe8a553.png",
+      "caption": "Figure 1: Workstream Ownership and Decision Rights Coverage",
+      "chart_type": "heatmap",
+      "chart_title": "Workstream Ownership and Decision Rights Coverage",
+      "x_label": "Decision areas (Policy, Process, Systems, People)",
+      "y_label": "Workstreams (Finance, HR, IT, Operations, Sales, Legal)",
+      "categories": [
+        "Policy",
+        "Process",
+        "Systems",
+        "People"
+      ],
+      "series_names": [
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales",
+        "Legal"
+      ],
+      "value_range": [
+        0,
+        1
+      ],
+      "trend": "uniform",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Policy",
+          "Process",
+          "Systems",
+          "People"
+        ],
+        "series": [
+          "Finance",
+          "HR",
+          "IT",
+          "Operations",
+          "Sales"
+        ],
+        "value_range": [
+          0,
+          1
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what does the X-axis represent?",
+          "answer": "Decision areas (Policy, Process, Systems, People)",
+          "assertions": [
+            {
+              "text": "The response must state Decision areas (Policy, Process, Systems, People)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what is the value range shown?",
+          "answer": "[0, 1]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 1]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what does the Y-axis represent?",
+          "answer": "Workstreams (Finance, HR, IT, Operations, Sales, Legal)",
+          "assertions": [
+            {
+              "text": "The response must state Workstreams (Finance, HR, IT, Operations, Sales, Legal)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "scan_llm_0000_3c573d5f",
+      "figure_number": 2,
+      "image_path": "scan_llm_text_9d656b84.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 2: Post-Merger Integration Plan — Day 1 to Day 100 Roadmap",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Post-Merger Integration Plan — Day 1 to Day 100 Roadmap",
+        "subtitle": "Ref: PMI-8457609 | Date: 04 May 2026 | From: Integration Management Office (IMO)",
+        "sections": [
+          {
+            "heading": "Transaction Overview and Integration Objectives",
+            "body": "Following the acquisition of NorthBridge Analytics by HelixPoint Systems effective 1 June 2026, this integration plan outlines the coordinated activities required to ensure uninterrupted operations and accelerated value realization. The primary objectives are to secure Day 1 business continuity, establish accountable workstream ownership, and deliver $18.4M in identified annual run-rate synergies by Q2 FY2027. Integration governance will be led by the IMO under the executive sponsorship of COO Marisol Kent and CFO David Huang."
+          },
+          {
+            "heading": "Day 1 Operational Readiness",
+            "body": "Day 1 readiness activities focus on customer continuity, payroll and benefits harmonization, IT access provisioning, and regulatory compliance confirmations across 11 operating jurisdictions. A detailed readiness checklist has been completed at 96% with remaining items confined to secondary vendor novations scheduled for closure within 10 business days post-close. All employee communications, including the CEO joint announcement and manager toolkits, are staged for release at 08:00 local time on close date. Critical systems (ERP, CRM, and Service Desk) have been tested for single sign-on interoperability with fallback protocols validated during the 22 April 2026 simulation."
+          },
+          {
+            "heading": "Workstream Governance and Ownership",
+            "body": "Eight core workstreams have been established: Finance, HR, IT, Commercial, Operations, Legal & Compliance, Supply Chain, and Communications. Each workstream is led by a designated HelixPoint VP paired with a NorthBridge functional lead to ensure balanced representation and knowledge transfer. Weekly milestone reporting will feed into the IMO dashboard, with red-amber-green status tracking and quantified risk exposure. Escalation thresholds are defined at variance levels exceeding 5% of budget or two-week schedule slippage."
+          },
+          {
+            "heading": "Synergy Capture Timeline",
+            "body": "Total identified synergies are projected at $23.7M gross, with $18.4M net after one-time integration costs of $5.3M. Cost synergies ($14.1M) derive primarily from vendor consolidation, facility rationalization of two overlapping offices in Denver and Leeds, and shared services centralization. Revenue synergies ($4.3M) are expected through cross-selling bundled analytics and cloud migration services to a combined top-150 client base. Approximately 40% of run-rate savings are targeted within the first 100 days, with full realization by Month 15."
+          },
+          {
+            "heading": "Cultural Integration Risks and 100-Day Milestones",
+            "body": "Cultural assessment surveys conducted in March 2026 indicate differing decision-making tempos and risk tolerance between the two organizations, posing potential friction in product development and client engagement. To mitigate this, cross-company integration squads and leadership alignment workshops will be deployed within the first 30 days. The 100-day tracker includes 27 defined milestones, including ERP chart-of-accounts alignment (Day 45), unified sales compensation plan rollout (Day 60), and consolidated procurement contracts (Day 90). Progress will be reviewed biweekly by the Executive Steering Committee to ensure disciplined execution and early risk intervention."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Transaction Overview and Integration Objectives",
+        "Day 1 Operational Readiness",
+        "Workstream Governance and Ownership",
+        "Synergy Capture Timeline",
+        "Cultural Integration Risks and 100-Day Milestones"
+      ],
+      "cells": [
+        {
+          "heading": "Transaction Overview and Integration Objectives",
+          "body": "Following the acquisition of NorthBridge Analytics by HelixPoint Systems effective 1 June 2026, this integration plan outlines the coordinated activities required to ensure uninterrupted operations and accelerated value realization. The primary objectives are to secure Day 1 business continuity, establish accountable workstream ownership, and deliver $18.4M in identified annual run-rate synergies by Q2 FY2027. Integration governance will be led by the IMO under the executive sponsorship of COO Marisol Kent and CFO David Huang."
+        },
+        {
+          "heading": "Day 1 Operational Readiness",
+          "body": "Day 1 readiness activities focus on customer continuity, payroll and benefits harmonization, IT access provisioning, and regulatory compliance confirmations across 11 operating jurisdictions. A detailed readiness checklist has been completed at 96% with remaining items confined to secondary vendor novations scheduled for closure within 10 business days post-close. All employee communications, including the CEO joint announcement and manager toolkits, are staged for release at 08:00 local time on close date. Critical systems (ERP, CRM, and Service Desk) have been tested for single sign-on interoperability with fallback protocols validated during the 22 April 2026 simulation."
+        },
+        {
+          "heading": "Workstream Governance and Ownership",
+          "body": "Eight core workstreams have been established: Finance, HR, IT, Commercial, Operations, Legal & Compliance, Supply Chain, and Communications. Each workstream is led by a designated HelixPoint VP paired with a NorthBridge functional lead to ensure balanced representation and knowledge transfer. Weekly milestone reporting will feed into the IMO dashboard, with red-amber-green status tracking and quantified risk exposure. Escalation thresholds are defined at variance levels exceeding 5% of budget or two-week schedule slippage."
+        },
+        {
+          "heading": "Synergy Capture Timeline",
+          "body": "Total identified synergies are projected at $23.7M gross, with $18.4M net after one-time integration costs of $5.3M. Cost synergies ($14.1M) derive primarily from vendor consolidation, facility rationalization of two overlapping offices in Denver and Leeds, and shared services centralization. Revenue synergies ($4.3M) are expected through cross-selling bundled analytics and cloud migration services to a combined top-150 client base. Approximately 40% of run-rate savings are targeted within the first 100 days, with full realization by Month 15."
+        },
+        {
+          "heading": "Cultural Integration Risks and 100-Day Milestones",
+          "body": "Cultural assessment surveys conducted in March 2026 indicate differing decision-making tempos and risk tolerance between the two organizations, posing potential friction in product development and client engagement. To mitigate this, cross-company integration squads and leadership alignment workshops will be deployed within the first 30 days. The 100-day tracker includes 27 defined milestones, including ERP chart-of-accounts alignment (Day 45), unified sales compensation plan rollout (Day 60), and consolidated procurement contracts (Day 90). Progress will be reviewed biweekly by the Executive Steering Committee to ensure disciplined execution and early risk intervention."
+        }
+      ],
+      "full_text": "Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\nRef: PMI-8457609 | Date: 04 May 2026 | From: Integration Management Office (IMO)\n\nSection Transaction Overview and Integration Objectives\nFollowing the acquisition of NorthBridge Analytics by HelixPoint Systems effective 1 June 2026, this integration plan outlines the coordinated activities required to ensure uninterrupted operations and accelerated value realization. The primary objectives are to secure Day 1 business continuity, establish accountable workstream ownership, and deliver $18.4M in identified annual run-rate synergies by Q2 FY2027. Integration governance will be led by the IMO under the executive sponsorship of COO Marisol Kent and CFO David Huang.\n\nSection Day 1 Operational Readiness\nDay 1 readiness activities focus on customer continuity, payroll and benefits harmonization, IT access provisioning, and regulatory compliance confirmations across 11 operating jurisdictions. A detailed readiness checklist has been completed at 96% with remaining items confined to secondary vendor novations scheduled for closure within 10 business days post-close. All employee communications, including the CEO joint announcement and manager toolkits, are staged for release at 08:00 local time on close date. Critical systems (ERP, CRM, and Service Desk) have been tested for single sign-on interoperability with fallback protocols validated during the 22 April 2026 simulation.\n\nSection Workstream Governance and Ownership\nEight core workstreams have been established: Finance, HR, IT, Commercial, Operations, Legal & Compliance, Supply Chain, and Communications. Each workstream is led by a designated HelixPoint VP paired with a NorthBridge functional lead to ensure balanced representation and knowledge transfer. Weekly milestone reporting will feed into the IMO dashboard, with red-amber-green status tracking and quantified risk exposure. Escalation thresholds are defined at variance levels exceeding 5% of budget or two-week schedule slippage.\n\nSection Synergy Capture Timeline\nTotal identified synergies are projected at $23.7M gross, with $18.4M net after one-time integration costs of $5.3M. Cost synergies ($14.1M) derive primarily from vendor consolidation, facility rationalization of two overlapping offices in Denver and Leeds, and shared services centralization. Revenue synergies ($4.3M) are expected through cross-selling bundled analytics and cloud migration services to a combined top-150 client base. Approximately 40% of run-rate savings are targeted within the first 100 days, with full realization by Month 15.\n\nSection Cultural Integration Risks and 100-Day Milestones\nCultural assessment surveys conducted in March 2026 indicate differing decision-making tempos and risk tolerance between the two organizations, posing potential friction in product development and client engagement. To mitigate this, cross-company integration squads and leadership alignment workshops will be deployed within the first 30 days. The 100-day tracker includes 27 defined milestones, including ERP chart-of-accounts alignment (Day 45), unified sales compensation plan rollout (Day 60), and consolidated procurement contracts (Day 90). Progress will be reviewed biweekly by the Executive Steering Committee to ensure disciplined execution and early risk intervention.\n\nConfidential — Internal Distribution Only | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", who was acquired and by whom, and what was the effective date?",
+          "answer": "NorthBridge Analytics was acquired by HelixPoint Systems, effective 1 June 2026.",
+          "assertions": [
+            {
+              "text": "The response must state 'NorthBridge Analytics was acquired by HelixPoint Systems, effective 1 June 2026.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", what are the primary Day 1 operational readiness activities listed?",
+          "answer": "Customer continuity, payroll and benefits harmonization, IT access provisioning, and regulatory compliance.",
+          "assertions": [
+            {
+              "text": "The response must state 'Customer continuity, payroll and benefits harmonization, IT access provisioning, and regulatory compliance.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", how many core workstreams have been established?",
+          "answer": "Eight.",
+          "assertions": [
+            {
+              "text": "The response must state 'Eight.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", what are the total identified synergies gross, the net synergies after one-time costs, and the one-time integration cost amount?",
+          "answer": "$23.7M gross; $18.4M net after one-time integration costs of $5.3M.",
+          "assertions": [
+            {
+              "text": "The response must state '$23.7M gross; $18.4M net after one-time integration costs of $5.3M.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", is the page marked confidential and what page number is shown in the footer?",
+          "answer": "Yes — Confidential: Internal Distribution Only; Page 1 of 1.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — Confidential: Internal Distribution Only; Page 1 of 1.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "cmp_0000_23d2efd2",
+      "figure_number": 3,
+      "image_path": "cmp_0000_23d2efd2.png",
+      "subtype": "comparison",
+      "caption": "Figure 3: Comparison: Post-Merger Integration Plan Comparison",
+      "title": "Post-Merger Integration Plan Comparison",
+      "theme": "burgundy_legal",
+      "options": [
+        {
+          "name": "Internal PMO-Led",
+          "recommended": false
+        },
+        {
+          "name": "Hybrid Consulting Model",
+          "recommended": true
+        },
+        {
+          "name": "Full-Service Integration Firm",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Post-Merger Integration Plan Comparison', which approach is identified as the recommended option?",
+          "answer": "Hybrid Consulting Model",
+          "assertions": [
+            {
+              "text": "The response must state 'Hybrid Consulting Model'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Post-Merger Integration Plan Comparison', what is the total number of approach options displayed?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Plan Comparison', what is the subtitle describing the focus of the plan?",
+          "answer": "Approach options for Day 1 readiness and 100-day execution",
+          "assertions": [
+            {
+              "text": "The response must state 'Approach options for Day 1 readiness and 100-day execution'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "image",
+      "variant_id": "img_0002_fd6971e2",
+      "figure_number": 4,
+      "image_path": "img_0002_fd6971e2.png",
+      "caption": "Figure 4: Synergy Capture Timeline to $60M Run-Rate by 2027-06-30",
+      "chart_type": "heatmap",
+      "chart_title": "Synergy Capture Timeline to $60M Run-Rate by 2027-06-30",
+      "x_label": "Month (from 2026-07 to 2027-06)",
+      "y_label": "Cumulative run-rate synergies captured (USD millions)",
+      "categories": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10",
+        "2026-11",
+        "2026-12",
+        "2027-01",
+        "2027-02",
+        "2027-03",
+        "2027-04",
+        "2027-05",
+        "2027-06"
+      ],
+      "series_names": [
+        "Cumulative Run-Rate Synergies"
+      ],
+      "value_range": [
+        0,
+        60
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "2026-07",
+          "2026-08",
+          "2026-09",
+          "2026-10",
+          "2026-11",
+          "2026-12"
+        ],
+        "series": [
+          "Cumulative Run-Rate Synergies"
+        ],
+        "value_range": [
+          0,
+          60
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Synergy Capture Timeline to $60M Run-Rate by 2027-06-30\", what does the Y-axis represent?",
+          "answer": "Cumulative run-rate synergies captured (USD millions)",
+          "assertions": [
+            {
+              "text": "The response must state Cumulative run-rate synergies captured (USD millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Synergy Capture Timeline to $60M Run-Rate by 2027-06-30\", what is the value range shown?",
+          "answer": "[0, 60]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 60]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Synergy Capture Timeline to $60M Run-Rate by 2027-06-30\", what is the overall trend indicated?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "scan_llm_0001_253fb306",
+      "figure_number": 5,
+      "image_path": "scan_llm_data_957d329a.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 5: Post-Merger Integration 100-Day Tracker and Synergy Plan",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Post-Merger Integration 100-Day Tracker and Synergy Plan",
+        "caption": "Overview of Day 1 readiness status, accountable workstream leads, targeted synergies, and 100-day milestone checkpoints.",
+        "headers": [
+          "Workstream",
+          "Lead",
+          "Day 1 Status",
+          "Synergy Target ($M)",
+          "100-Day Milestone"
+        ],
+        "rows": [
+          [
+            "Finance Integration",
+            "L. Navarro",
+            "Ready",
+            "4.5",
+            "Unified chart of accounts by Day 45"
+          ],
+          [
+            "HR & Talent",
+            "C. Mbaye",
+            "Partial",
+            "2.1",
+            "Harmonized benefits rollout by Day 75"
+          ],
+          [
+            "IT Systems",
+            "R. Kulkarni",
+            "At Risk",
+            "6.8",
+            "ERP instance consolidation by Day 100"
+          ],
+          [
+            "Supply Chain",
+            "J. Petersen",
+            "Ready",
+            "5.4",
+            "Vendor contract renegotiation by Day 60"
+          ],
+          [
+            "Sales Operations",
+            "A. Romero",
+            "Ready",
+            "3.7",
+            "Cross-sell playbook launch by Day 30"
+          ],
+          [
+            "Marketing",
+            "D. Okafor",
+            "Partial",
+            "1.9",
+            "Brand architecture decision by Day 40"
+          ],
+          [
+            "Legal & Compliance",
+            "S. Whitmore",
+            "Ready",
+            "0.8",
+            "Policy harmonization by Day 50"
+          ],
+          [
+            "Customer Support",
+            "M. Tanaka",
+            "Partial",
+            "2.6",
+            "CRM data migration by Day 70"
+          ],
+          [
+            "Manufacturing",
+            "E. Rossi",
+            "At Risk",
+            "7.2",
+            "Plant footprint optimization plan by Day 90"
+          ],
+          [
+            "Procurement",
+            "H. Andersson",
+            "Ready",
+            "3.3",
+            "Strategic sourcing wave 1 by Day 55"
+          ],
+          [
+            "Data & Analytics",
+            "P. Singh",
+            "Partial",
+            "1.4",
+            "KPI dashboard integration by Day 65"
+          ],
+          [
+            "Corporate Communications",
+            "B. Hughes",
+            "Ready",
+            "0.6",
+            "Cultural alignment townhalls by Day 25"
+          ]
+        ],
+        "summary_note": "Total identified synergies amount to $40.3M, with IT Systems and Manufacturing representing the largest value pools but also the highest execution risk within the first 100 days.",
+        "date": "Q2 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Workstream",
+        "Lead",
+        "Day 1 Status",
+        "Synergy Target ($M)",
+        "100-Day Milestone"
+      ],
+      "cells": [
+        [
+          "Finance Integration",
+          "L. Navarro",
+          "Ready",
+          "4.5",
+          "Unified chart of accounts by Day 45"
+        ],
+        [
+          "HR & Talent",
+          "C. Mbaye",
+          "Partial",
+          "2.1",
+          "Harmonized benefits rollout by Day 75"
+        ],
+        [
+          "IT Systems",
+          "R. Kulkarni",
+          "At Risk",
+          "6.8",
+          "ERP instance consolidation by Day 100"
+        ],
+        [
+          "Supply Chain",
+          "J. Petersen",
+          "Ready",
+          "5.4",
+          "Vendor contract renegotiation by Day 60"
+        ],
+        [
+          "Sales Operations",
+          "A. Romero",
+          "Ready",
+          "3.7",
+          "Cross-sell playbook launch by Day 30"
+        ],
+        [
+          "Marketing",
+          "D. Okafor",
+          "Partial",
+          "1.9",
+          "Brand architecture decision by Day 40"
+        ],
+        [
+          "Legal & Compliance",
+          "S. Whitmore",
+          "Ready",
+          "0.8",
+          "Policy harmonization by Day 50"
+        ],
+        [
+          "Customer Support",
+          "M. Tanaka",
+          "Partial",
+          "2.6",
+          "CRM data migration by Day 70"
+        ],
+        [
+          "Manufacturing",
+          "E. Rossi",
+          "At Risk",
+          "7.2",
+          "Plant footprint optimization plan by Day 90"
+        ],
+        [
+          "Procurement",
+          "H. Andersson",
+          "Ready",
+          "3.3",
+          "Strategic sourcing wave 1 by Day 55"
+        ],
+        [
+          "Data & Analytics",
+          "P. Singh",
+          "Partial",
+          "1.4",
+          "KPI dashboard integration by Day 65"
+        ],
+        [
+          "Corporate Communications",
+          "B. Hughes",
+          "Ready",
+          "0.6",
+          "Cultural alignment townhalls by Day 25"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Total identified synergies amount to $40.3M, with IT Systems and Manufacturing representing the largest value pools but also the highest execution risk within the first 100 days.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", who is listed as the lead for Finance Integration?",
+          "answer": "L. Navarro.",
+          "assertions": [
+            {
+              "text": "The response must state 'L. Navarro.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", what is the total identified synergies amount?",
+          "answer": "$40.3M.",
+          "assertions": [
+            {
+              "text": "The response must state '$40.3M.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", which workstreams are called out as representing the largest value pools and the highest execution risk?",
+          "answer": "IT Systems and Manufacturing.",
+          "assertions": [
+            {
+              "text": "The response must state 'IT Systems and Manufacturing.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", how many rows (workstreams) are included in the table?",
+          "answer": "12 rows total.",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows total.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", what is the 100-day milestone for Sales Operations?",
+          "answer": "Cross-sell playbook launch by Day 30.",
+          "assertions": [
+            {
+              "text": "The response must state 'Cross-sell playbook launch by Day 30.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "text",
+      "variant_id": "text_0001_d00ac9fd",
+      "heading": "Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker",
+      "word_count": 309,
+      "text_content": [
+        "**Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker**",
+        "The synergy capture timeline targets a run-rate of $60M by 2027-06-30, allocated as $39M (65%) in cost synergies and $21M (35%) in revenue synergies. The Integration Management Office (IMO) will manage phased delivery: Phase 1 (Day 0–Day 180) focuses on $12M of quick-win cost actions and customer cross-sell pilots; Phase 2 (Day 181–Day 540) delivers $24M through procurement consolidation, supply-chain redesign, and pricing optimization; Phase 3 (to 2027-06-30) captures the remaining $24M through transformation programs and new go-to-market initiatives. The CFO and business unit heads will report monthly to the Executive Integration Committee on measured run-rate progression. Governance uses monthly scorecards and variance thresholds.",
+        "Cultural integration risks are material and will be monitored across talent retention, decision-making styles, and operating rhythm alignment. The CHRO will track voluntary attrition with a target to keep key-talent loss below 12% in the first 12 months; failure to meet this target poses a projected impact on synergy realization and client continuity. Specific risks include conflicting performance metrics between legacy teams, inconsistent customer experience from integration of Sales and Service, and slow adoption of common systems by IT and Operations. Mitigations include a 90-day cultural alignment program led by HR and the CEO, targeted retention bonuses, local leadership workshops, and pulse surveys.",
+        "The 100-day milestones tracker contains 12 milestones with the first checkpoint on Day 30 (30 days post-close); cadence is weekly reviews and monthly executive updates. Primary owners are the Integration Lead, CIO, CHRO, General Counsel, and Sales Lead. Milestones include: 1. Day 30: Governance and communication plan finalized (Integration Lead); 2. Day 45: Key-system accounts migrated (CIO); 3. Day 60: Cost quick wins validated ($12M) (CFO); 4. Day 75: Sales cross-sell pilots launched (Head of Sales); 5. Day 90: HR integration executed and retention actions implemented (CHRO); 6–12: subsequent operational, compliance, and customer milestones through Day 100. Progress tracked in the IMO dashboard."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker\" section, what is the targeted run-rate amount by 2027-06-30?",
+          "answer": "$60M",
+          "assertions": [
+            {
+              "text": "The response must state $60M."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker\" section, what is the target to keep key-talent loss below in the first 12 months?",
+          "answer": "12%",
+          "assertions": [
+            {
+              "text": "The response must state 12%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker\" section, on which day is the Governance and communication plan finalized?",
+          "answer": "Day 30",
+          "assertions": [
+            {
+              "text": "The response must state Day 30."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "tl_0001_f5fae292",
+      "figure_number": 6,
+      "image_path": "tl_0001_f5fae292.png",
+      "subtype": "timeline",
+      "caption": "Figure 6: Timeline: Post-Merger Integration Roadmap",
+      "title": "Post-Merger Integration Roadmap",
+      "theme": "slate_tech",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Pre-Close Planning & Day 1 Readiness",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Day 1 Launch & Governance Activation",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "100-Day Synergy Acceleration",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Operational & Systems Integration",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "Synergy Realization & Cultural Stabilization",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Post-Merger Integration Roadmap', how many milestones are listed?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Roadmap', which milestone is marked as the current milestone?",
+          "answer": "100-Day Synergy Acceleration",
+          "assertions": [
+            {
+              "text": "The response must state '100-Day Synergy Acceleration'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Post-Merger Integration Roadmap', what is the status of the 'Day 1 Launch & Governance Activation' milestone?",
+          "answer": "done",
+          "assertions": [
+            {
+              "text": "The response must state 'done'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "img_0000_1a502254",
+      "figure_number": 7,
+      "image_path": "img_0000_1a502254.png",
+      "caption": "Figure 7: Day 1 Readiness Status by Workstream (RAG)",
+      "chart_type": "grouped_bar",
+      "chart_title": "Day 1 Readiness Status by Workstream (RAG)",
+      "x_label": "Integration workstream",
+      "y_label": "Readiness score (0–100) as of 2026-06-15",
+      "categories": [
+        "Finance & Accounting",
+        "IT & Systems",
+        "HR & Talent",
+        "Legal & Compliance",
+        "Operations",
+        "Sales & Customer",
+        "Supply Chain",
+        "Communications"
+      ],
+      "series_names": [
+        "Readiness Score"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "Finance & Accounting",
+          "IT & Systems",
+          "HR & Talent",
+          "Legal & Compliance",
+          "Operations",
+          "Sales & Customer"
+        ],
+        "series": [
+          "Readiness Score"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Day 1 Readiness Status by Workstream (RAG)\", what does the Y-axis represent?",
+          "answer": "Readiness score (0–100) as of 2026-06-15",
+          "assertions": [
+            {
+              "text": "The response must state Readiness score (0–100) as of 2026-06-15."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Day 1 Readiness Status by Workstream (RAG)\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Day 1 Readiness Status by Workstream (RAG)\", name one integration workstream category.",
+          "answer": "Finance & Accounting",
+          "assertions": [
+            {
+              "text": "The response must state Finance & Accounting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "image",
+      "variant_id": "cmp_0001_765bd73b",
+      "figure_number": 8,
+      "image_path": "cmp_0001_765bd73b.png",
+      "subtype": "comparison",
+      "caption": "Figure 8: Comparison: Post-Merger Integration Plan Comparison",
+      "title": "Post-Merger Integration Plan Comparison",
+      "theme": "corporate_blue",
+      "options": [
+        {
+          "name": "Basic PMI Framework",
+          "recommended": false
+        },
+        {
+          "name": "Structured PMI Program",
+          "recommended": true
+        },
+        {
+          "name": "Enterprise PMI Office",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "Within the 'Post-Merger Integration Plan Comparison', which option is shown as the recommended choice?",
+          "answer": "Structured PMI Program",
+          "assertions": [
+            {
+              "text": "The response must state 'Structured PMI Program'."
+            }
+          ]
+        },
+        {
+          "question": "How many options are presented in the 'Post-Merger Integration Plan Comparison'?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Plan Comparison', what subtitle is displayed beneath the title?",
+          "answer": "Day 1 readiness and 100-day execution roadmap",
+          "assertions": [
+            {
+              "text": "The response must state 'Day 1 readiness and 100-day execution roadmap'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "img_0004_f6a50ad1",
+      "figure_number": 9,
+      "image_path": "img_0004_f6a50ad1.png",
+      "caption": "Figure 9: Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category",
+      "chart_type": "heatmap",
+      "chart_title": "Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category",
+      "x_label": "Impact (Low to High)",
+      "y_label": "Risk categories (Leadership alignment, Incentives, Ways of working, Communication, Change fatigue)",
+      "categories": [
+        "Leadership alignment",
+        "Incentives",
+        "Ways of working",
+        "Communication",
+        "Change fatigue"
+      ],
+      "series_names": [
+        "Likelihood score"
+      ],
+      "value_range": [
+        1,
+        5
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Leadership alignment",
+          "Incentives",
+          "Ways of working",
+          "Communication",
+          "Change fatigue"
+        ],
+        "series": [
+          "Likelihood score"
+        ],
+        "value_range": [
+          1,
+          5
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category\", what does the X-axis represent?",
+          "answer": "Impact (Low to High)",
+          "assertions": [
+            {
+              "text": "The response must state Impact (Low to High)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category\", what is the value range shown?",
+          "answer": "[1, 5]",
+          "assertions": [
+            {
+              "text": "The response must state [1, 5]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category\", name one of the risk categories displayed on the Y-axis.",
+          "answer": "Leadership alignment",
+          "assertions": [
+            {
+              "text": "The response must state Leadership alignment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "dash_0002_b07e54bc",
+      "figure_number": 10,
+      "image_path": "dash_0002_b07e54bc.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 10: Dashboard: Post-Merger Integration Dashboard",
+      "title": "Post-Merger Integration Dashboard",
+      "theme": "burgundy_legal",
+      "subtitle": "Day 1 Readiness, Synergies & 100-Day Milestones",
+      "period_badge": "Day 75 Post-Close",
+      "kpis": [
+        {
+          "label": "Day 1 Readiness Completion",
+          "value": "96%",
+          "delta": "+4%",
+          "trend": "up",
+          "sparkline": [
+            82,
+            88,
+            91,
+            94,
+            96
+          ]
+        },
+        {
+          "label": "Synergies Realized",
+          "value": "$48.3M",
+          "delta": "+12%",
+          "trend": "up",
+          "sparkline": [
+            22.5,
+            30.1,
+            36.8,
+            42.7,
+            48.3
+          ]
+        },
+        {
+          "label": "Workstreams On Track",
+          "value": "22",
+          "delta": "-5%",
+          "trend": "down",
+          "sparkline": [
+            20,
+            20,
+            19,
+            19,
+            18
+          ]
+        },
+        {
+          "label": "Cultural Risk Index",
+          "value": "100)",
+          "delta": "-8%",
+          "trend": "down",
+          "sparkline": [
+            74,
+            70,
+            68,
+            65,
+            62
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "100-Day Milestone Progress by Workstream",
+        "labels": [
+          "Finance",
+          "HR",
+          "IT",
+          "Operations"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              85,
+              78,
+              72,
+              88
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              70,
+              65,
+              60,
+              75
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "96% of Day 1 critical activities completed before legal close",
+        "$48.3M synergies captured, tracking 6% above integration plan",
+        "Cultural risk score declining as joint leadership roadshows expand"
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'Post-Merger Integration Dashboard', what period badge is shown near the title?",
+          "answer": "Day 75 Post-Close",
+          "assertions": [
+            {
+              "text": "The response must state 'Day 75 Post-Close'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Post-Merger Integration Dashboard', what amount is reported for Synergies Realized?",
+          "answer": "$48.3M",
+          "assertions": [
+            {
+              "text": "The response must state '$48.3M'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Post-Merger Integration Dashboard', how many workstreams are shown as on track?",
+          "answer": "22",
+          "assertions": [
+            {
+              "text": "22'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "image",
+      "variant_id": "img_0003_443d7110",
+      "figure_number": 11,
+      "image_path": "img_0003_443d7110.png",
+      "caption": "Figure 11: Synergy Mix: Cost vs Revenue Contribution",
+      "chart_type": "stacked_area",
+      "chart_title": "Synergy Mix: Cost vs Revenue Contribution",
+      "x_label": "Synergy type",
+      "y_label": "Share of total synergies (%)",
+      "categories": [
+        "Cost synergies",
+        "Revenue synergies"
+      ],
+      "series_names": [
+        "Share of total synergies (%)"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Share of total synergies (%)"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Synergy Mix: Cost vs Revenue Contribution\", what does the Y-axis represent?",
+          "answer": "Share of total synergies (%)",
+          "assertions": [
+            {
+              "text": "The response must state Share of total synergies (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Synergy Mix: Cost vs Revenue Contribution\", what is the chart type?",
+          "answer": "stacked_area",
+          "assertions": [
+            {
+              "text": "The response must state stacked_area."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Synergy Mix: Cost vs Revenue Contribution\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "image",
+      "variant_id": "fp_0000_7e674170",
+      "figure_number": 12,
+      "image_path": "fp_0000_7e674170.png",
+      "subtype": "floor_plan",
+      "caption": "Figure 12: Floor plan: Integration Nexus HQ — Floor 1",
+      "title": "Integration Nexus HQ — Floor 1",
+      "theme": "",
+      "scale": "1:100",
+      "rooms": [
+        "Reception & Day 1 Command Desk",
+        "Executive Steering Meeting Room",
+        "Synergy War Room",
+        "IT & Data Server Room",
+        "Integration Management Office (IMO)",
+        "Workstream Collaboration Zone",
+        "Kitchen & Break Area",
+        "Cultural Integration Lounge",
+        "Restrooms",
+        "Records & Documentation Storage",
+        "Internal Corridor"
+      ],
+      "room_count": 11,
+      "qa_candidates": [
+        {
+          "question": "When looking at 'Integration Nexus HQ — Floor 1', how many rooms are listed on the plan?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'Integration Nexus HQ — Floor 1', what scale is specified on the drawing?",
+          "answer": "1:100",
+          "assertions": [
+            {
+              "text": "The response must state '1:100'."
+            }
+          ]
+        },
+        {
+          "question": "Which room is listed first on 'Integration Nexus HQ — Floor 1'?",
+          "answer": "Reception & Day 1 Command Desk",
+          "assertions": [
+            {
+              "text": "The response must state 'Reception & Day 1 Command Desk'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "text",
+      "variant_id": "text_0000_9ad2f459",
+      "heading": "Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)",
+      "word_count": 300,
+      "text_content": [
+        "**Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)**",
+        "Day 1 is 2026-07-01 and represents the operative go-live for combined entity systems, policies, and customer-facing processes. The Integration Management Office (IMO) is led by Maria Chen and will execute the initial 72-hour stabilization plan, with a contingency reserve of 10% of integration budget allocated to immediate remediation. As of 2026-06-25, 94% of critical Day 1 tasks were verified in the IMO dashboard; remaining items target closure by 2026-06-29. Key Day 1 actions include payroll cutover, network segmentation, customer communication release, and legal entity mapping; each action has an assigned owner and SLA. Executive steering will convene within 24 hours.",
+        "The integration program is organized into six workstreams: Finance, HR, IT, Operations, Sales, and Legal, each with defined Day 1 owners and pre-approved decision rights. Owner assignments: Finance — CFO Office (owner: David Patel); HR — Head of People (owner: Anika Rao); IT — CIO (owner: Luis Ortega); Operations — COO (owner: Priya Singh); Sales — CSO (owner: Mark Bennett); Legal — General Counsel (owner: Elena Rossi). Workstream Day 1 deliverables are doc.ed with metrics: Finance (100% payroll readiness), HR (100% benefits enrollment transition), IT (98% system cutover), Operations (95% facility access), Sales (95% CRM migration), Legal (entity filings 100%).",
+        "The operating model formalizes decision rights, escalation paths, and approval thresholds to ensure Day 1 continuity. A RACI-based decision rights matrix was finalized on 2026-06-20 and assigns primary authority to functional workstream owners while reserving 12 escalation items for executive review. Approximately 80% of routine Day 1 decisions are pre-authorized; 95% of vendor contract approvals below $250k have delegated authority to workstream leads. Escalation SLAs require initial response within 2 hours and resolution or executive escalation within 24 hours. Governance cadence: daily IMO stand-ups at 07:30 (starting 2026-07-01), weekly Steering Committee on Wednesdays, and biweekly sponsor reviews. Escalations are logged."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)\" section, who leads the Integration Management Office (IMO)?",
+          "answer": "Maria Chen",
+          "assertions": [
+            {
+              "text": "The response must state Maria Chen."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)\" section, what percentage of vendor contract approvals below $250k have delegated authority to workstream leads?",
+          "answer": "95%",
+          "assertions": [
+            {
+              "text": "The response must state 95%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)\" section, on what date was the RACI-based decision rights matrix finalized?",
+          "answer": "2026-06-20",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-20."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "img_0005_d8c2d723",
+      "figure_number": 13,
+      "image_path": "img_0005_d8c2d723.png",
+      "caption": "Figure 13: 100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint",
+      "chart_type": "ridgeline",
+      "chart_title": "100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint",
+      "x_label": "Checkpoint day (Day 0, Day 30, Day 60, Day 90, Day 100)",
+      "y_label": "Milestones completed (count out of 12)",
+      "categories": [
+        "Day 0",
+        "Day 30",
+        "Day 60",
+        "Day 90",
+        "Day 100"
+      ],
+      "series_names": [
+        "Planned",
+        "Actual"
+      ],
+      "value_range": [
+        0,
+        12
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "Day 0",
+          "Day 30",
+          "Day 60",
+          "Day 90",
+          "Day 100"
+        ],
+        "value_range": [
+          0,
+          12
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint,\" what does the Y-axis represent?",
+          "answer": "Milestones completed (count out of 12)",
+          "assertions": [
+            {
+              "text": "The response must state Milestones completed (count out of 12)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint,\" what is the value range shown?",
+          "answer": "[0, 12]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 12]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint,\" what trend is indicated?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "image",
+      "variant_id": "tl_0000_2d23668c",
+      "figure_number": 14,
+      "image_path": "tl_0000_2d23668c.png",
+      "subtype": "timeline",
+      "caption": "Figure 14: Timeline: Post-Merger Integration 100-Day Roadmap",
+      "title": "Post-Merger Integration 100-Day Roadmap",
+      "theme": "sand_neutral",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Pre-Close Planning & Workstream Setup",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Day 1 Launch & Operational Continuity",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "100-Day Execution & Early Synergies",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Systems Integration & Process Harmonization",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "Full Synergy Capture & Culture Embed",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many milestones are shown on the 'Post-Merger Integration 100-Day Roadmap' timeline?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Post-Merger Integration 100-Day Roadmap', what is the current milestone?",
+          "answer": "100-Day Execution & Early Synergies",
+          "assertions": [
+            {
+              "text": "The response must state '100-Day Execution & Early Synergies'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration 100-Day Roadmap', what milestone is scheduled for Q4 2024?",
+          "answer": "Systems Integration & Process Harmonization",
+          "assertions": [
+            {
+              "text": "The response must state 'Systems Integration & Process Harmonization'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "image",
+      "variant_id": "hub_0002_add4e2d8",
+      "figure_number": 15,
+      "image_path": "hub_0002_add4e2d8.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 15: Hub-Spoke: Post-Merger Integration Plan",
+      "title": "Post-Merger Integration Plan",
+      "theme": "healthcare_teal",
+      "center": "Post-Merger Integration",
+      "spokes": [
+        "Day 1 Readiness",
+        "Workstream Ownership",
+        "Synergy Capture Timeline",
+        "Cultural Integration Risks",
+        "100-Day Milestones"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Post-Merger Integration Plan' hub-and-spoke diagram, what label appears at the center hub?",
+          "answer": "Post-Merger Integration",
+          "assertions": [
+            {
+              "text": "The response must state 'Post-Merger Integration'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Post-Merger Integration Plan' diagram, how many spokes are shown extending from the hub?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Plan' hub-and-spoke diagram, which spoke label includes the word 'Cultural'?",
+          "answer": "Cultural Integration Risks",
+          "assertions": [
+            {
+              "text": "The response must state 'Cultural Integration Risks'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "image",
+      "variant_id": "fp_0001_b2b9ddf4",
+      "figure_number": 16,
+      "image_path": "fp_0001_b2b9ddf4.png",
+      "subtype": "floor_plan",
+      "caption": "Figure 16: Floor plan: Integration Command Center — Floor 1",
+      "title": "Integration Command Center — Floor 1",
+      "theme": "",
+      "scale": "1:100",
+      "rooms": [
+        "Reception",
+        "Day 1 Readiness War Room",
+        "100-Day Milestones Tracker Room",
+        "Bathroom",
+        "Storage",
+        "Workstream Ownership Open Office",
+        "Main Corridor",
+        "Cultural Integration Lounge",
+        "Kitchen",
+        "Server Room",
+        "Synergy Capture Lab",
+        "Executive Integration Meeting Room"
+      ],
+      "room_count": 12,
+      "qa_candidates": [
+        {
+          "question": "On the 'Integration Command Center — Floor 1' floor plan, what scale is indicated?",
+          "answer": "1:100",
+          "assertions": [
+            {
+              "text": "The response must state '1:100'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Integration Command Center — Floor 1' floor plan, how many rooms are shown?",
+          "answer": "12",
+          "assertions": [
+            {
+              "text": "The response must state '12'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Integration Command Center — Floor 1' floor plan, what is the name of the first room shown?",
+          "answer": "Reception",
+          "assertions": [
+            {
+              "text": "The response must state 'Reception'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "image",
+      "variant_id": "fp_0002_76c2af82",
+      "figure_number": 17,
+      "image_path": "fp_0002_76c2af82.png",
+      "subtype": "floor_plan",
+      "caption": "Figure 17: Floor plan: Synergy Integration Center — Floor 1",
+      "title": "Synergy Integration Center — Floor 1",
+      "theme": "",
+      "scale": "1:100",
+      "rooms": [
+        "Reception",
+        "Corridor",
+        "Open Plan Office",
+        "Day 1 Readiness Meeting Room",
+        "Synergy Tracking Room",
+        "100-Day Milestones War Room",
+        "Cultural Integration Lounge",
+        "Kitchen",
+        "Server Room",
+        "Storage",
+        "Bathroom"
+      ],
+      "room_count": 11,
+      "qa_candidates": [
+        {
+          "question": "On the 'Synergy Integration Center — Floor 1' floor plan, how many rooms are labeled?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Synergy Integration Center — Floor 1' drawing, what scale is indicated?",
+          "answer": "1:100",
+          "assertions": [
+            {
+              "text": "The response must state '1:100'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Synergy Integration Center — Floor 1' floor plan, what is the name of the first room shown?",
+          "answer": "Reception",
+          "assertions": [
+            {
+              "text": "The response must state 'Reception'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "hub_0000_49052c66",
+      "figure_number": 18,
+      "image_path": "hub_0000_49052c66.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 18: Hub-Spoke: Post-Merger Integration Roadmap",
+      "title": "Post-Merger Integration Roadmap",
+      "theme": "healthcare_teal",
+      "center": "Post-Merger Integration Plan",
+      "spokes": [
+        "Day 1 Readiness",
+        "Workstream Ownership",
+        "Synergy Capture Timeline",
+        "Cultural Integration Risks",
+        "100-Day Milestones"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Post-Merger Integration Roadmap' hub-and-spoke diagram, what label appears in the center hub?",
+          "answer": "Post-Merger Integration Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'Post-Merger Integration Plan'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Post-Merger Integration Roadmap', how many spokes radiate from the central hub?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Roadmap' diagram, what is the exact label of the spoke mentioning cultural integration?",
+          "answer": "Cultural Integration Risks",
+          "assertions": [
+            {
+              "text": "The response must state 'Cultural Integration Risks'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "image",
+      "variant_id": "tl_0002_580e2b88",
+      "figure_number": 19,
+      "image_path": "tl_0002_580e2b88.png",
+      "subtype": "timeline",
+      "caption": "Figure 19: Timeline: Post-Merger Integration Roadmap",
+      "title": "Post-Merger Integration Roadmap",
+      "theme": "corporate_blue",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Pre-Close Planning & Workstream Setup",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Day 1 Readiness & Communication Launch",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "100-Day Execution & Early Synergy Capture",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Operational Integration & Cultural Alignment",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "Full Synergy Realization & Optimization",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Post-Merger Integration Roadmap', how many milestones are shown?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Post-Merger Integration Roadmap', what is the subtitle shown beneath the title?",
+          "answer": "Day 1 readiness, synergy capture, and 100-day execution milestones",
+          "assertions": [
+            {
+              "text": "The response must state 'Day 1 readiness, synergy capture, and 100-day execution milestones'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Roadmap', which milestone is marked as 'current'?",
+          "answer": "100-Day Execution & Early Synergy Capture",
+          "assertions": [
+            {
+              "text": "The response must state '100-Day Execution & Early Synergy Capture'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "image",
+      "variant_id": "proc_0001_ce7be4bb",
+      "figure_number": 20,
+      "image_path": "proc_0001_ce7be4bb.png",
+      "subtype": "process_steps",
+      "caption": "Figure 20: Process: Post-Merger Integration Roadmap",
+      "title": "Post-Merger Integration Roadmap",
+      "theme": "burgundy_legal",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Day 1 Readiness Planning",
+          "duration": "30 days pre-close"
+        },
+        {
+          "number": "02",
+          "title": "Workstream Ownership Setup",
+          "duration": "2 weeks"
+        },
+        {
+          "number": "03",
+          "title": "Synergy Capture Roadmap",
+          "duration": "4 weeks"
+        },
+        {
+          "number": "04",
+          "title": "Cultural Integration Management",
+          "duration": "Ongoing (100 days)"
+        },
+        {
+          "number": "05",
+          "title": "100-Day Milestone Tracking",
+          "duration": "100 days"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many steps does the 'Post-Merger Integration Roadmap' display?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Post-Merger Integration Roadmap', what is the subtitle shown beneath the title?",
+          "answer": "Structured 100-day plan covering readiness, ownership, synergies, and culture",
+          "assertions": [
+            {
+              "text": "The response must state 'Structured 100-day plan covering readiness, ownership, synergies, and culture'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Roadmap', what duration is listed for step 04, Cultural Integration Management?",
+          "answer": "Ongoing (100 days)",
+          "assertions": [
+            {
+              "text": "The response must state 'Ongoing (100 days)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "image",
+      "variant_id": "hub_0001_4d3f4f76",
+      "figure_number": 21,
+      "image_path": "hub_0001_4d3f4f76.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 21: Hub-Spoke: Post-Merger Integration Roadmap",
+      "title": "Post-Merger Integration Roadmap",
+      "theme": "slate_tech",
+      "center": "Post-Merger Integration Plan",
+      "spokes": [
+        "Day 1 Readiness",
+        "Workstream Ownership",
+        "Synergy Capture Timeline",
+        "Cultural Integration Risks",
+        "100-Day Milestones"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Post-Merger Integration Roadmap' hub-and-spoke diagram, what is the central hub topic?",
+          "answer": "Post-Merger Integration Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'Post-Merger Integration Plan'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Post-Merger Integration Roadmap' diagram, how many spokes (branches) are shown?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Roadmap', which spoke is labeled to highlight cultural risks?",
+          "answer": "Cultural Integration Risks",
+          "assertions": [
+            {
+              "text": "The response must state 'Cultural Integration Risks'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "image",
+      "variant_id": "mag_0001_e60f9527",
+      "figure_number": 22,
+      "image_path": "mag_0001_e60f9527.png",
+      "subtype": "magazine",
+      "caption": "Figure 22: Magazine: 100-Day PMI Blueprint",
+      "title": "100-Day PMI Blueprint",
+      "theme": "slate_tech",
+      "hero_number": "100",
+      "hero_label": "Days to full integration stabilization",
+      "qa_candidates": [
+        {
+          "question": "On the '100-Day PMI Blueprint' magazine-style infographic, what large hero number is shown?",
+          "answer": "100",
+          "assertions": [
+            {
+              "text": "The response must state '100'."
+            }
+          ]
+        },
+        {
+          "question": "According to the '100-Day PMI Blueprint', what phrase explains what the hero number measures?",
+          "answer": "Days to full integration stabilization",
+          "assertions": [
+            {
+              "text": "The response must state 'Days to full integration stabilization'."
+            }
+          ]
+        },
+        {
+          "question": "In the '100-Day PMI Blueprint', what callout summarizes the key predictors of merger value realization?",
+          "answer": "Disciplined governance and early cultural alignment are the strongest predictors of merger value realization.",
+          "assertions": [
+            {
+              "text": "The response must state 'Disciplined governance and early cultural alignment are the strongest predictors of merger value realization.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "type": "image",
+      "variant_id": "dash_0000_7dbea058",
+      "figure_number": 23,
+      "image_path": "dash_0000_7dbea058.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 23: Dashboard: Post-Merger Integration Performance",
+      "title": "Post-Merger Integration Performance",
+      "theme": "warm_amber",
+      "subtitle": "Day 1 Readiness, Synergies & 100-Day Milestones",
+      "period_badge": "Day 75 Post-Close",
+      "kpis": [
+        {
+          "label": "Day 1 Readiness Completion",
+          "value": "98%",
+          "delta": "+3%",
+          "trend": "up",
+          "sparkline": [
+            85,
+            90,
+            94,
+            96,
+            98
+          ]
+        },
+        {
+          "label": "Synergies Realized (Run-Rate)",
+          "value": "$42.5M",
+          "delta": "+12%",
+          "trend": "up",
+          "sparkline": [
+            28.0,
+            31.5,
+            35.0,
+            38.7,
+            42.5
+          ]
+        },
+        {
+          "label": "Workstreams On Track",
+          "value": "22",
+          "delta": "-5%",
+          "trend": "down",
+          "sparkline": [
+            20,
+            20,
+            19,
+            19,
+            18
+          ]
+        },
+        {
+          "label": "Cultural Integration Risk Index",
+          "value": "100)",
+          "delta": "-8%",
+          "trend": "down",
+          "sparkline": [
+            74,
+            71,
+            68,
+            65,
+            62
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Synergy Capture by Workstream ($M)",
+        "labels": [
+          "Procurement",
+          "Headcount",
+          "IT Systems",
+          "Facilities"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              14.2,
+              11.5,
+              9.8,
+              7.0
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              10.5,
+              9.2,
+              6.1,
+              5.4
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Day 1 critical systems fully stabilized with 98% checklist completion",
+        "Run-rate synergies exceed plan by $4.3M driven by procurement savings",
+        "Cultural risk trending downward following leadership roadshows and pulse surveys"
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Post-Merger Integration Performance' dashboard, what is the subtitle?",
+          "answer": "Day 1 Readiness, Synergies & 100-Day Milestones",
+          "assertions": [
+            {
+              "text": "The response must state 'Day 1 Readiness, Synergies & 100-Day Milestones'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Post-Merger Integration Performance' dashboard, what value is shown for the Synergies Realized (Run-Rate) KPI?",
+          "answer": "$42.5M",
+          "assertions": [
+            {
+              "text": "The response must state '$42.5M'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Post-Merger Integration Performance' dashboard, what callout mentions procurement savings?",
+          "answer": "Run-rate synergies exceed plan by $4.3M driven by procurement savings",
+          "assertions": [
+            {
+              "text": "The response must state 'Run-rate synergies exceed plan by $4.3M driven by procurement savings'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "img_0001_8fe8a553": {
+      "kind": "image",
+      "perturbations": [
+        "rotation"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Workstream Ownership and Decision Rights Coverage",
+      "x_label": "Decision areas (Policy, Process, Systems, People)",
+      "y_label": "Workstreams (Finance, HR, IT, Operations, Sales, Legal)",
+      "categories": [
+        "Policy",
+        "Process",
+        "Systems",
+        "People"
+      ],
+      "series_names": [
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales",
+        "Legal"
+      ],
+      "value_range": [
+        0,
+        1
+      ],
+      "trend": "uniform",
+      "filename": "img_0001_8fe8a553.png",
+      "image_path": "img_0001_8fe8a553.png",
+      "topic_id": "post_merger_integration_plan"
+    },
+    "scan_llm_0000_3c573d5f": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_9d656b84.png",
+      "topic_id": ""
+    },
+    "cmp_0000_23d2efd2": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Plan Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0000_23d2efd2.png",
+      "topic_id": ""
+    },
+    "img_0002_fd6971e2": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "heatmap",
+      "chart_title": "Synergy Capture Timeline to $60M Run-Rate by 2027-06-30",
+      "x_label": "Month (from 2026-07 to 2027-06)",
+      "y_label": "Cumulative run-rate synergies captured (USD millions)",
+      "categories": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10",
+        "2026-11",
+        "2026-12",
+        "2027-01",
+        "2027-02",
+        "2027-03",
+        "2027-04",
+        "2027-05",
+        "2027-06"
+      ],
+      "series_names": [
+        "Cumulative Run-Rate Synergies"
+      ],
+      "value_range": [
+        0,
+        60
+      ],
+      "trend": "increasing",
+      "filename": "img_0002_fd6971e2.png",
+      "image_path": "img_0002_fd6971e2.png",
+      "topic_id": "post_merger_integration_plan"
+    },
+    "scan_llm_0001_253fb306": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_957d329a.png",
+      "topic_id": ""
+    },
+    "text_0001_d00ac9fd": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations",
+        "unicode_punctuation"
+      ],
+      "heading": "Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker",
+      "word_count": 309,
+      "text_type": "llm_prose",
+      "topic_id": "post_merger_integration_plan"
+    },
+    "tl_0001_f5fae292": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0001_f5fae292.png",
+      "topic_id": ""
+    },
+    "img_0000_1a502254": {
+      "kind": "image",
+      "perturbations": [
+        "blur",
+        "low_contrast"
+      ],
+      "chart_type": "grouped_bar",
+      "chart_title": "Day 1 Readiness Status by Workstream (RAG)",
+      "x_label": "Integration workstream",
+      "y_label": "Readiness score (0–100) as of 2026-06-15",
+      "categories": [
+        "Finance & Accounting",
+        "IT & Systems",
+        "HR & Talent",
+        "Legal & Compliance",
+        "Operations",
+        "Sales & Customer",
+        "Supply Chain",
+        "Communications"
+      ],
+      "series_names": [
+        "Readiness Score"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "volatile",
+      "filename": "img_0000_1a502254.png",
+      "image_path": "img_0000_1a502254.png",
+      "topic_id": "post_merger_integration_plan"
+    },
+    "cmp_0001_765bd73b": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Plan Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0001_765bd73b.png",
+      "topic_id": ""
+    },
+    "img_0004_f6a50ad1": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "heatmap",
+      "chart_title": "Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category",
+      "x_label": "Impact (Low to High)",
+      "y_label": "Risk categories (Leadership alignment, Incentives, Ways of working, Communication, Change fatigue)",
+      "categories": [
+        "Leadership alignment",
+        "Incentives",
+        "Ways of working",
+        "Communication",
+        "Change fatigue"
+      ],
+      "series_names": [
+        "Likelihood score"
+      ],
+      "value_range": [
+        1,
+        5
+      ],
+      "trend": "volatile",
+      "filename": "img_0004_f6a50ad1.png",
+      "image_path": "img_0004_f6a50ad1.png",
+      "topic_id": "post_merger_integration_plan"
+    },
+    "dash_0002_b07e54bc": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Dashboard",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0002_b07e54bc.png",
+      "topic_id": ""
+    },
+    "img_0003_443d7110": {
+      "kind": "image",
+      "perturbations": [
+        "blur"
+      ],
+      "chart_type": "stacked_area",
+      "chart_title": "Synergy Mix: Cost vs Revenue Contribution",
+      "x_label": "Synergy type",
+      "y_label": "Share of total synergies (%)",
+      "categories": [
+        "Cost synergies",
+        "Revenue synergies"
+      ],
+      "series_names": [
+        "Share of total synergies (%)"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "filename": "img_0003_443d7110.png",
+      "image_path": "img_0003_443d7110.png",
+      "topic_id": "post_merger_integration_plan"
+    },
+    "fp_0000_7e674170": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Integration Nexus HQ — Floor 1",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0000_7e674170.png",
+      "topic_id": ""
+    },
+    "text_0000_9ad2f459": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations",
+        "unicode_punctuation"
+      ],
+      "heading": "Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)",
+      "word_count": 300,
+      "text_type": "llm_prose",
+      "topic_id": "post_merger_integration_plan"
+    },
+    "img_0005_d8c2d723": {
+      "kind": "image",
+      "perturbations": [
+        "watermark",
+        "blur"
+      ],
+      "chart_type": "ridgeline",
+      "chart_title": "100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint",
+      "x_label": "Checkpoint day (Day 0, Day 30, Day 60, Day 90, Day 100)",
+      "y_label": "Milestones completed (count out of 12)",
+      "categories": [
+        "Day 0",
+        "Day 30",
+        "Day 60",
+        "Day 90",
+        "Day 100"
+      ],
+      "series_names": [
+        "Planned",
+        "Actual"
+      ],
+      "value_range": [
+        0,
+        12
+      ],
+      "trend": "increasing",
+      "filename": "img_0005_d8c2d723.png",
+      "image_path": "img_0005_d8c2d723.png",
+      "topic_id": "post_merger_integration_plan"
+    },
+    "tl_0000_2d23668c": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration 100-Day Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0000_2d23668c.png",
+      "topic_id": ""
+    },
+    "hub_0002_add4e2d8": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Plan",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0002_add4e2d8.png",
+      "topic_id": ""
+    },
+    "fp_0001_b2b9ddf4": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Integration Command Center — Floor 1",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0001_b2b9ddf4.png",
+      "topic_id": ""
+    },
+    "fp_0002_76c2af82": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Synergy Integration Center — Floor 1",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0002_76c2af82.png",
+      "topic_id": ""
+    },
+    "hub_0000_49052c66": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0000_49052c66.png",
+      "topic_id": ""
+    },
+    "tl_0002_580e2b88": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0002_580e2b88.png",
+      "topic_id": ""
+    },
+    "proc_0001_ce7be4bb": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "proc_0001_ce7be4bb.png",
+      "topic_id": ""
+    },
+    "hub_0001_4d3f4f76": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0001_4d3f4f76.png",
+      "topic_id": ""
+    },
+    "mag_0001_e60f9527": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "100-Day PMI Blueprint",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "mag_0001_e60f9527.png",
+      "topic_id": ""
+    },
+    "dash_0000_7dbea058": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Post-Merger Integration Performance",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0000_7dbea058.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what does the X-axis represent?",
+      "answer": "Decision areas (Policy, Process, Systems, People)",
+      "assertions": [
+        {
+          "text": "The response must state Decision areas (Policy, Process, Systems, People)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what is the value range shown?",
+      "answer": "[0, 1]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 1]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Workstream Ownership and Decision Rights Coverage,\" what does the Y-axis represent?",
+      "answer": "Workstreams (Finance, HR, IT, Operations, Sales, Legal)",
+      "assertions": [
+        {
+          "text": "The response must state Workstreams (Finance, HR, IT, Operations, Sales, Legal)."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", who was acquired and by whom, and what was the effective date?",
+      "answer": "NorthBridge Analytics was acquired by HelixPoint Systems, effective 1 June 2026.",
+      "assertions": [
+        {
+          "text": "The response must state 'NorthBridge Analytics was acquired by HelixPoint Systems, effective 1 June 2026.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", what are the primary Day 1 operational readiness activities listed?",
+      "answer": "Customer continuity, payroll and benefits harmonization, IT access provisioning, and regulatory compliance.",
+      "assertions": [
+        {
+          "text": "The response must state 'Customer continuity, payroll and benefits harmonization, IT access provisioning, and regulatory compliance.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", how many core workstreams have been established?",
+      "answer": "Eight.",
+      "assertions": [
+        {
+          "text": "The response must state 'Eight.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", what are the total identified synergies gross, the net synergies after one-time costs, and the one-time integration cost amount?",
+      "answer": "$23.7M gross; $18.4M net after one-time integration costs of $5.3M.",
+      "assertions": [
+        {
+          "text": "The response must state '$23.7M gross; $18.4M net after one-time integration costs of $5.3M.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Post-Merger Integration Plan — Day 1 to Day 100 Roadmap\", is the page marked confidential and what page number is shown in the footer?",
+      "answer": "Yes — Confidential: Internal Distribution Only; Page 1 of 1.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — Confidential: Internal Distribution Only; Page 1 of 1.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Post-Merger Integration Plan Comparison', which approach is identified as the recommended option?",
+      "answer": "Hybrid Consulting Model",
+      "assertions": [
+        {
+          "text": "The response must state 'Hybrid Consulting Model'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration Plan Comparison', what is the total number of approach options displayed?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Plan Comparison', what is the subtitle describing the focus of the plan?",
+      "answer": "Approach options for Day 1 readiness and 100-day execution",
+      "assertions": [
+        {
+          "text": "The response must state 'Approach options for Day 1 readiness and 100-day execution'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Synergy Capture Timeline to $60M Run-Rate by 2027-06-30\", what does the Y-axis represent?",
+      "answer": "Cumulative run-rate synergies captured (USD millions)",
+      "assertions": [
+        {
+          "text": "The response must state Cumulative run-rate synergies captured (USD millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Synergy Capture Timeline to $60M Run-Rate by 2027-06-30\", what is the value range shown?",
+      "answer": "[0, 60]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 60]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Synergy Capture Timeline to $60M Run-Rate by 2027-06-30\", what is the overall trend indicated?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", who is listed as the lead for Finance Integration?",
+      "answer": "L. Navarro.",
+      "assertions": [
+        {
+          "text": "The response must state 'L. Navarro.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", what is the total identified synergies amount?",
+      "answer": "$40.3M.",
+      "assertions": [
+        {
+          "text": "The response must state '$40.3M.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", which workstreams are called out as representing the largest value pools and the highest execution risk?",
+      "answer": "IT Systems and Manufacturing.",
+      "assertions": [
+        {
+          "text": "The response must state 'IT Systems and Manufacturing.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", how many rows (workstreams) are included in the table?",
+      "answer": "12 rows total.",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows total.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Post-Merger Integration 100-Day Tracker and Synergy Plan\", what is the 100-day milestone for Sales Operations?",
+      "answer": "Cross-sell playbook launch by Day 30.",
+      "assertions": [
+        {
+          "text": "The response must state 'Cross-sell playbook launch by Day 30.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker\" section, what is the targeted run-rate amount by 2027-06-30?",
+      "answer": "$60M",
+      "assertions": [
+        {
+          "text": "The response must state $60M."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker\" section, what is the target to keep key-talent loss below in the first 12 months?",
+      "answer": "12%",
+      "assertions": [
+        {
+          "text": "The response must state 12%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Synergy Capture Timeline, Cultural Integration Risks, and 100-Day Milestones Tracker\" section, on which day is the Governance and communication plan finalized?",
+      "answer": "Day 30",
+      "assertions": [
+        {
+          "text": "The response must state Day 30."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration Roadmap', how many milestones are listed?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Roadmap', which milestone is marked as the current milestone?",
+      "answer": "100-Day Synergy Acceleration",
+      "assertions": [
+        {
+          "text": "The response must state '100-Day Synergy Acceleration'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Post-Merger Integration Roadmap', what is the status of the 'Day 1 Launch & Governance Activation' milestone?",
+      "answer": "done",
+      "assertions": [
+        {
+          "text": "The response must state 'done'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Day 1 Readiness Status by Workstream (RAG)\", what does the Y-axis represent?",
+      "answer": "Readiness score (0–100) as of 2026-06-15",
+      "assertions": [
+        {
+          "text": "The response must state Readiness score (0–100) as of 2026-06-15."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Day 1 Readiness Status by Workstream (RAG)\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Day 1 Readiness Status by Workstream (RAG)\", name one integration workstream category.",
+      "answer": "Finance & Accounting",
+      "assertions": [
+        {
+          "text": "The response must state Finance & Accounting."
+        }
+      ]
+    },
+    {
+      "question": "Within the 'Post-Merger Integration Plan Comparison', which option is shown as the recommended choice?",
+      "answer": "Structured PMI Program",
+      "assertions": [
+        {
+          "text": "The response must state 'Structured PMI Program'."
+        }
+      ]
+    },
+    {
+      "question": "How many options are presented in the 'Post-Merger Integration Plan Comparison'?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Plan Comparison', what subtitle is displayed beneath the title?",
+      "answer": "Day 1 readiness and 100-day execution roadmap",
+      "assertions": [
+        {
+          "text": "The response must state 'Day 1 readiness and 100-day execution roadmap'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category\", what does the X-axis represent?",
+      "answer": "Impact (Low to High)",
+      "assertions": [
+        {
+          "text": "The response must state Impact (Low to High)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category\", what is the value range shown?",
+      "answer": "[1, 5]",
+      "assertions": [
+        {
+          "text": "The response must state [1, 5]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cultural Integration Risk Heatmap (Likelihood vs Impact) by Risk Category\", name one of the risk categories displayed on the Y-axis.",
+      "answer": "Leadership alignment",
+      "assertions": [
+        {
+          "text": "The response must state Leadership alignment."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Dashboard', what period badge is shown near the title?",
+      "answer": "Day 75 Post-Close",
+      "assertions": [
+        {
+          "text": "The response must state 'Day 75 Post-Close'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Post-Merger Integration Dashboard', what amount is reported for Synergies Realized?",
+      "answer": "$48.3M",
+      "assertions": [
+        {
+          "text": "The response must state '$48.3M'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration Dashboard', how many workstreams are shown as on track?",
+      "answer": "22",
+      "assertions": [
+        {
+          "text": "22'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Synergy Mix: Cost vs Revenue Contribution\", what does the Y-axis represent?",
+      "answer": "Share of total synergies (%)",
+      "assertions": [
+        {
+          "text": "The response must state Share of total synergies (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Synergy Mix: Cost vs Revenue Contribution\", what is the chart type?",
+      "answer": "stacked_area",
+      "assertions": [
+        {
+          "text": "The response must state stacked_area."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Synergy Mix: Cost vs Revenue Contribution\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "When looking at 'Integration Nexus HQ — Floor 1', how many rooms are listed on the plan?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'Integration Nexus HQ — Floor 1', what scale is specified on the drawing?",
+      "answer": "1:100",
+      "assertions": [
+        {
+          "text": "The response must state '1:100'."
+        }
+      ]
+    },
+    {
+      "question": "Which room is listed first on 'Integration Nexus HQ — Floor 1'?",
+      "answer": "Reception & Day 1 Command Desk",
+      "assertions": [
+        {
+          "text": "The response must state 'Reception & Day 1 Command Desk'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)\" section, who leads the Integration Management Office (IMO)?",
+      "answer": "Maria Chen",
+      "assertions": [
+        {
+          "text": "The response must state Maria Chen."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)\" section, what percentage of vendor contract approvals below $250k have delegated authority to workstream leads?",
+      "answer": "95%",
+      "assertions": [
+        {
+          "text": "The response must state 95%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Day 1 Readiness and Workstream Ownership (Operating Model and Decision Rights)\" section, on what date was the RACI-based decision rights matrix finalized?",
+      "answer": "2026-06-20",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-20."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint,\" what does the Y-axis represent?",
+      "answer": "Milestones completed (count out of 12)",
+      "assertions": [
+        {
+          "text": "The response must state Milestones completed (count out of 12)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint,\" what is the value range shown?",
+      "answer": "[0, 12]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 12]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"100-Day Milestones Tracker: Planned vs Actual Completion by Checkpoint,\" what trend is indicated?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "How many milestones are shown on the 'Post-Merger Integration 100-Day Roadmap' timeline?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration 100-Day Roadmap', what is the current milestone?",
+      "answer": "100-Day Execution & Early Synergies",
+      "assertions": [
+        {
+          "text": "The response must state '100-Day Execution & Early Synergies'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration 100-Day Roadmap', what milestone is scheduled for Q4 2024?",
+      "answer": "Systems Integration & Process Harmonization",
+      "assertions": [
+        {
+          "text": "The response must state 'Systems Integration & Process Harmonization'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Post-Merger Integration Plan' hub-and-spoke diagram, what label appears at the center hub?",
+      "answer": "Post-Merger Integration",
+      "assertions": [
+        {
+          "text": "The response must state 'Post-Merger Integration'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration Plan' diagram, how many spokes are shown extending from the hub?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Plan' hub-and-spoke diagram, which spoke label includes the word 'Cultural'?",
+      "answer": "Cultural Integration Risks",
+      "assertions": [
+        {
+          "text": "The response must state 'Cultural Integration Risks'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Integration Command Center — Floor 1' floor plan, what scale is indicated?",
+      "answer": "1:100",
+      "assertions": [
+        {
+          "text": "The response must state '1:100'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Integration Command Center — Floor 1' floor plan, how many rooms are shown?",
+      "answer": "12",
+      "assertions": [
+        {
+          "text": "The response must state '12'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Integration Command Center — Floor 1' floor plan, what is the name of the first room shown?",
+      "answer": "Reception",
+      "assertions": [
+        {
+          "text": "The response must state 'Reception'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Synergy Integration Center — Floor 1' floor plan, how many rooms are labeled?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Synergy Integration Center — Floor 1' drawing, what scale is indicated?",
+      "answer": "1:100",
+      "assertions": [
+        {
+          "text": "The response must state '1:100'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Synergy Integration Center — Floor 1' floor plan, what is the name of the first room shown?",
+      "answer": "Reception",
+      "assertions": [
+        {
+          "text": "The response must state 'Reception'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Post-Merger Integration Roadmap' hub-and-spoke diagram, what label appears in the center hub?",
+      "answer": "Post-Merger Integration Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'Post-Merger Integration Plan'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration Roadmap', how many spokes radiate from the central hub?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Roadmap' diagram, what is the exact label of the spoke mentioning cultural integration?",
+      "answer": "Cultural Integration Risks",
+      "assertions": [
+        {
+          "text": "The response must state 'Cultural Integration Risks'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Post-Merger Integration Roadmap', how many milestones are shown?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration Roadmap', what is the subtitle shown beneath the title?",
+      "answer": "Day 1 readiness, synergy capture, and 100-day execution milestones",
+      "assertions": [
+        {
+          "text": "The response must state 'Day 1 readiness, synergy capture, and 100-day execution milestones'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Roadmap', which milestone is marked as 'current'?",
+      "answer": "100-Day Execution & Early Synergy Capture",
+      "assertions": [
+        {
+          "text": "The response must state '100-Day Execution & Early Synergy Capture'."
+        }
+      ]
+    },
+    {
+      "question": "How many steps does the 'Post-Merger Integration Roadmap' display?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Roadmap', what duration is listed for step 04, Cultural Integration Management?",
+      "answer": "Ongoing (100 days)",
+      "assertions": [
+        {
+          "text": "The response must state 'Ongoing (100 days)'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Post-Merger Integration Roadmap' hub-and-spoke diagram, what is the central hub topic?",
+      "answer": "Post-Merger Integration Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'Post-Merger Integration Plan'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration Roadmap' diagram, how many spokes (branches) are shown?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Roadmap', which spoke is labeled to highlight cultural risks?",
+      "answer": "Cultural Integration Risks",
+      "assertions": [
+        {
+          "text": "The response must state 'Cultural Integration Risks'."
+        }
+      ]
+    },
+    {
+      "question": "On the '100-Day PMI Blueprint' magazine-style infographic, what large hero number is shown?",
+      "answer": "100",
+      "assertions": [
+        {
+          "text": "The response must state '100'."
+        }
+      ]
+    },
+    {
+      "question": "According to the '100-Day PMI Blueprint', what phrase explains what the hero number measures?",
+      "answer": "Days to full integration stabilization",
+      "assertions": [
+        {
+          "text": "The response must state 'Days to full integration stabilization'."
+        }
+      ]
+    },
+    {
+      "question": "In the '100-Day PMI Blueprint', what callout summarizes the key predictors of merger value realization?",
+      "answer": "Disciplined governance and early cultural alignment are the strongest predictors of merger value realization.",
+      "assertions": [
+        {
+          "text": "The response must state 'Disciplined governance and early cultural alignment are the strongest predictors of merger value realization.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Post-Merger Integration Performance' dashboard, what is the subtitle?",
+      "answer": "Day 1 Readiness, Synergies & 100-Day Milestones",
+      "assertions": [
+        {
+          "text": "The response must state 'Day 1 Readiness, Synergies & 100-Day Milestones'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Post-Merger Integration Performance' dashboard, what value is shown for the Synergies Realized (Run-Rate) KPI?",
+      "answer": "$42.5M",
+      "assertions": [
+        {
+          "text": "The response must state '$42.5M'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Post-Merger Integration Performance' dashboard, what callout mentions procurement savings?",
+      "answer": "Run-rate synergies exceed plan by $4.3M driven by procurement savings",
+      "assertions": [
+        {
+          "text": "The response must state 'Run-rate synergies exceed plan by $4.3M driven by procurement savings'."
+        }
+      ]
+    }
+  ]
+}

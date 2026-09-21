@@ -1,0 +1,1925 @@
+{
+  "doc_id": "doc_0000_s979421902",
+  "title": "Critical Roles Succession Plan: Bench Strength Assessment, High-Potential Development Plans, and Emergency Succession Gap Analysis",
+  "subtitle": "Leadership Succession — Bench Strength Assessment, High-Potential Development Plans, and Emergency Succession Gaps",
+  "topic_id": "leadership_succession_plan",
+  "recipe_name": "forms_workflow",
+  "seed": 979421902,
+  "document_brief": {
+    "narrative_theme": "This succession plan establishes enterprise readiness for leadership continuity by quantifying bench strength for critical roles, naming high-potential successors, detailing time-bound development actions, and highlighting emergency coverage gaps requiring immediate mitigation.",
+    "sections": [
+      {
+        "heading": "Enterprise Bench Strength Assessment for Critical Leadership Roles (FY2026)",
+        "key_facts": [
+          "As of 2026-05-01, the succession slate covers 12 critical roles across the enterprise.",
+          "Bench strength is rated Ready Now for 4 of 12 roles, Ready in 1–2 Years for 5 of 12 roles, and No Identified Successor for 3 of 12 roles.",
+          "The three roles with No Identified Successor are Chief Information Security Officer (CISO), Head of Supply Chain, and VP, Customer Support."
+        ],
+        "data_references": []
+      },
+      {
+        "heading": "High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps",
+        "key_facts": [
+          "The high-potential successor pool includes 9 named candidates: Aisha Khan, Miguel Santos, Priya Patel, Jordan Lee, Chen Wei, Sofia Rossi, Daniel Okafor, Emma Johnson, and Ravi Menon.",
+          "By 2026-09-30, each high-potential candidate will complete 2 development actions: one cross-functional rotation and one executive sponsor assignment.",
+          "Emergency succession coverage is defined as a designated interim leader within 72 hours; as of 2026-05-01, 3 of 12 critical roles do not meet this standard."
+        ],
+        "data_references": []
+      }
+    ],
+    "tables": [],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s979421902.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_text_b5a265c9.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 18,
+    "actual_page_count": 14
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "filled_form",
+      "variant_id": "filled_form_0008_55b8c638",
+      "title": "Leadership Succession Planning & Bench Strength Assessment",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Identification",
+        "Development Plans & Emergency Coverage"
+      ],
+      "required_fields": [
+        "Critical Role Title",
+        "Current Role Incumbent",
+        "Business Function",
+        "Role Criticality Level",
+        "Number of Ready Now Successors",
+        "Successor Readiness Level",
+        "High-Potential Status",
+        "Individual Development Actions Planned",
+        "Emergency Interim Successor Identified",
+        "Overall Succession Gap Assessment"
+      ],
+      "description": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "ShadowsIntoLight, cursive",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 11.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are displayed?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, what is the total number of fields on the form?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are marked as required?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "Reviewing the 'Leadership Succession Planning & Bench Strength Assessment' form, what description explains the purpose of the form?",
+          "answer": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "filled_form",
+      "variant_id": "filled_form_0006_05eba86f",
+      "title": "Leadership Succession Planning and Bench Strength Assessment",
+      "caption": "Leadership Succession Planning and Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Candidates",
+        "Development & Emergency Succession Planning"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Current Incumbent Name",
+        "Incumbent Retirement Risk (1-3 Years)",
+        "Impact Level if Role Becomes Vacant",
+        "Identified Successor #1 Name",
+        "Successor Readiness Level",
+        "High-Potential Designation Status",
+        "Individual Development Plan Summary",
+        "Emergency Interim Successor Identified",
+        "Emergency Succession Risk Level"
+      ],
+      "description": "Complete this form to evaluate critical leadership roles, assess bench strength, identify high-potential successors, and document development and emergency succession plans.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "CaveatRegular, cursive",
+        "ink_color": "#6b1c9e",
+        "font_size_pt": 10.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning and Bench Strength Assessment' form, how many sections does the form contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment' form, how many total fields are listed on the form?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning and Bench Strength Assessment' form, how many fields are marked as required?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Leadership Succession Planning and Bench Strength Assessment' form, what is the description that explains the purpose of the form?",
+          "answer": "Complete this form to evaluate critical leadership roles, assess bench strength, identify high-potential successors, and document development and emergency succession plans.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to evaluate critical leadership roles, assess bench strength, identify high-potential successors, and document development and emergency succession plans.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "filled_form",
+      "variant_id": "filled_form_0002_01e42332",
+      "title": "Leadership Succession Planning & Bench Strength Assessment",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 18,
+      "required_field_count": 10,
+      "sections": [
+        "Critical Role Assessment",
+        "High-Potential Successor Identification",
+        "Development Plan & Risk Mitigation"
+      ],
+      "required_fields": [
+        "Critical Role Title",
+        "Current Incumbent Name",
+        "Incumbent Expected Departure Timeline",
+        "Business Impact if Vacant",
+        "Candidate Name",
+        "Current Position",
+        "Readiness Level",
+        "Key Competency Gaps Identified",
+        "Planned Development Actions",
+        "Emergency Successor Identified"
+      ],
+      "description": "Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development plans, and highlight any immediate succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "PatrickHand, cursive",
+        "ink_color": "#b51c1c",
+        "font_size_pt": 10.5
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are included?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, what description is provided for completing the form?",
+          "answer": "Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development plans, and highlight any immediate succession risks.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development plans, and highlight any immediate succession risks.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, which section appears immediately after 'Critical Role Assessment'?",
+          "answer": "High-Potential Successor Identification",
+          "assertions": [
+            {
+              "text": "The response must state 'High-Potential Successor Identification'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment' form, how many required fields are listed?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "filled_form",
+      "variant_id": "filled_form_0011_162916f1",
+      "title": "Leadership Succession Planning and Bench Strength Assessment",
+      "caption": "Leadership Succession Planning and Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Candidates",
+        "Development Plans & Risk Mitigation"
+      ],
+      "required_fields": [
+        "Critical Role Title",
+        " Department",
+        "Current Incumbent Name",
+        "Incumbent Planned Exit Timeline",
+        "Identified Successor Name",
+        "Current Position of Successor",
+        "Readiness Level",
+        "Primary Development Actions",
+        "Emergency Interim Successor Identified",
+        "Succession Risk Level"
+      ],
+      "description": "Complete this form to evaluate succession readiness for critical roles, identify high-potential talent, and document development plans and emergency coverage gaps.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "GrandHotel, cursive",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 12.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning and Bench Strength Assessment' form, how many sections are there?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment', how many required fields does the form contain?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning and Bench Strength Assessment' form, what is the section listed immediately after 'Critical Role Assessment'?",
+          "answer": "Bench Strength & High-Potential Candidates",
+          "assertions": [
+            {
+              "text": "The response must state 'Bench Strength & High-Potential Candidates'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Leadership Succession Planning and Bench Strength Assessment' form, which required field explicitly requests the identified successor's name?",
+          "answer": "Identified Successor Name",
+          "assertions": [
+            {
+              "text": "The response must state 'Identified Successor Name'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "filled_form",
+      "variant_id": "filled_form_0004_b2c3effc",
+      "title": "Leadership Succession Planning and Bench Strength Assessment",
+      "caption": "Leadership Succession Planning and Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Critical Role Assessment",
+        "High-Potential Candidate Identification",
+        "Development Plans and Risk Mitigation"
+      ],
+      "required_fields": [
+        "Critical Role Title",
+        "Current Incumbent Name",
+        "Business Impact Level",
+        "Primary Successor Candidate Name",
+        "Candidate Current Position",
+        "Performance Rating (Last Review Cycle)",
+        "Key Competency Gaps Identified",
+        "Target Readiness Timeframe",
+        "Emergency Interim Successor Identified"
+      ],
+      "description": "Complete this form to evaluate succession readiness for critical roles, identify high-potential talent, and document development actions and emergency coverage gaps.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Times-Roman, serif",
+        "ink_color": "#6b1c9e",
+        "font_size_pt": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning and Bench Strength Assessment' form, how many sections does it contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment', what is the title of the second section?",
+          "answer": "High-Potential Candidate Identification",
+          "assertions": [
+            {
+              "text": "The response must state 'High-Potential Candidate Identification'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning and Bench Strength Assessment' form, how many responses are required?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state '9'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Leadership Succession Planning and Bench Strength Assessment' form, which required entry captures the target time until a successor is ready?",
+          "answer": "Target Readiness Timeframe",
+          "assertions": [
+            {
+              "text": "The response must state 'Target Readiness Timeframe'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "filled_form",
+      "variant_id": "filled_form_0007_182201f2",
+      "title": "Leadership Succession Planning & Bench Strength Assessment",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Candidates",
+        "Development Plans & Emergency Coverage"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Current Role Incumbent",
+        "Role Criticality Level",
+        "Risk of Vacancy Within 12 Months",
+        "Identified Successor #1 Name",
+        "Successor #1 Readiness Level",
+        "Bench Strength Rating for This Role",
+        "Key Competency Gaps Identified",
+        "Planned Development Actions (Next 12 Months)",
+        "Emergency Coverage Readiness"
+      ],
+      "description": "Complete this form to evaluate leadership bench strength, identify high-potential successors, and document development plans and emergency coverage gaps for critical roles.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "PatrickHand, cursive",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 11.0
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are included?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, what is the title of the second section?",
+          "answer": "Bench Strength & High-Potential Candidates",
+          "assertions": [
+            {
+              "text": "The response must state 'Bench Strength & High-Potential Candidates'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many required fields are indicated?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment' form, which required field is used to record the name of the first identified successor?",
+          "answer": "Identified Successor #1 Name",
+          "assertions": [
+            {
+              "text": "The response must state 'Identified Successor #1 Name'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "filled_form",
+      "variant_id": "filled_form_0009_aaae9e0c",
+      "title": "Leadership Succession Planning & Bench Strength Assessment",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Identification",
+        "Development Plan & Succession Risk"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Incumbent Name",
+        "Incumbent Planned Exit Timeframe",
+        "Role Impact Level on Operations",
+        "Number of Ready-Now Successors",
+        "Primary Successor Candidate Name",
+        "Primary Successor Readiness Level",
+        "Critical Competency Gaps Identified",
+        "Planned Development Actions",
+        "Emergency Interim Successor Identified"
+      ],
+      "description": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "CaveatRegular, cursive",
+        "ink_color": "#222222",
+        "font_size_pt": 10.5
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are displayed?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, what is the title of the second section?",
+          "answer": "Bench Strength & High-Potential Identification",
+          "assertions": [
+            {
+              "text": "The response must state 'Bench Strength & High-Potential Identification'."
+            }
+          ]
+        },
+        {
+          "question": "Viewing the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are indicated as required?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, is the form marked as filled?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "filled_form",
+      "variant_id": "filled_form_0014_3dcaaee8",
+      "title": "Leadership Succession Planning & Bench Strength Assessment Form",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Identification",
+        "Development Plans & Emergency Gaps"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Role Criticality Level",
+        "Number of Ready Now Successors",
+        "Primary Candidate Readiness Level",
+        "Overall Bench Strength Rating",
+        "Key Development Actions for Identified Successors",
+        "Emergency Interim Successor Identified",
+        "Emergency Succession Risk Level"
+      ],
+      "description": "Complete this form to evaluate bench strength for critical roles, identify high-potential talent, and document development actions and emergency succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Times-Roman, serif",
+        "ink_color": "#1c2db5",
+        "font_size_pt": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment Form', how many sections are shown on the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment Form', what is the exact description displayed on the form?",
+          "answer": "Complete this form to evaluate bench strength for critical roles, identify high-potential talent, and document development actions and emergency succession risks.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to evaluate bench strength for critical roles, identify high-potential talent, and document development actions and emergency succession risks.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment Form', what is the title of the third section as shown on the form?",
+          "answer": "Development Plans & Emergency Gaps",
+          "assertions": [
+            {
+              "text": "The response must state 'Development Plans & Emergency Gaps'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'Leadership Succession Planning & Bench Strength Assessment Form', how many required fields are indicated?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state '9'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "text",
+      "variant_id": "text_0000_96970cea",
+      "heading": "Enterprise Bench Strength Assessment for Critical Leadership Roles (FY2026)",
+      "word_count": 242,
+      "text_content": [
+        "**Enterprise Bench Strength Assessment for Critical Leadership Roels (FY2026)**",
+        "As of 20260-5-01, the succession slate covers 12 critical roles across the enterprise. Bench strength is rated Ready Now for 4 of 12 roles, Ready in 1–2 Years for 5 of 12 roles, and No Identified Successor for 3 of 12 roles. This distribution equates to 33.3% Ready Now, 41.7% Ready in 1 to 2 years, and 25.0% with no identified successor, highlighting a concentrated shortfall. The current inventory was validated against organizational charts, performance data, and role criitcality metrics.",
+        "The distribution signals elevated enterprise risk that requires immediate governance attention from the Board of Directors, the CEO, and the Chief Human Resources Officer (CHRO). With 33.3% of critical roles Ready Now, we lack immediate depth for 66.7% of positions, creating potential continuity exposure in high-volume business units and regulatory functions. Talent investments should rpioritize accelerated leadership programs, cross-functional rotations, and a 12–24 month internal mobility target to shift two Ready in 1–2 Years successors into Ready Now status by Q2 FY2027.",
+        "The three roles with No Identified Successor are Chief Information Security Officer (CISO), Head of Supply Chain, and VP, Customer Support. Immediate actions include designation of interim owners within 30 days, initiation of focused external candidate searches with executive search partners by 2026-06-01, and fast-track development plans for internal candidates to be assessed quarterly. An emergency succession playbook will be published by the CHRO by 2026-06-15 and include 90-day stabilization protocols, role-specific KPIs, contingency reporting lines, and monitoring cadence."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Enterprise Bench Strength Assessment for Critical Leadership Roels (FY2026)\" section, how many critical roles are covered in the succession slate?",
+          "answer": "12 critical roles",
+          "assertions": [
+            {
+              "text": "The response must state 12 critical roles."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Enterprise Bench Strength Assessment for Critical Leadership Roels (FY2026)\" section, what percentage of roles are rated Ready in 1 to 2 years?",
+          "answer": "41.7%",
+          "assertions": [
+            {
+              "text": "The response must state 41.7%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Enterprise Bench Strength Assessment for Critical Leadership Roels (FY2026)\" section, by what date will the emergency succession playbook be published by the CHRO?",
+          "answer": "2026-06-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-15."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "filled_form",
+      "variant_id": "filled_form_0010_788fc7ae",
+      "title": "Leadership Succession Planning and Bench Strength Assessment",
+      "caption": "Leadership Succession Planning and Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Identification",
+        "Development Plans & Risk Gaps"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Current Role Incumbent",
+        "Role Criticality Level",
+        "Emergency Backup Identified",
+        "Number of Ready-Now Successors",
+        "Primary High-Potential Candidate Name",
+        "High-Potential Performance Rating",
+        "Key Competency Gaps Identified",
+        "Planned Development Actions (e.g., stretch assignments, mentoring)",
+        "Risk Level if Role Becomes Vacant Today"
+      ],
+      "description": "Complete this form to evaluate bench strength for critical roles, identify high-potential successors, document development plans, and highlight any immediate succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "GrandHotel, cursive",
+        "ink_color": "#6b1c9e",
+        "font_size_pt": 11.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning and Bench Strength Assessment' form, how many sections does the form contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment' form, how many fields are marked as required?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning and Bench Strength Assessment' form, what is the title of the second section header shown?",
+          "answer": "Bench Strength & High-Potential Identification",
+          "assertions": [
+            {
+              "text": "The response must state 'Bench Strength & High-Potential Identification'."
+            }
+          ]
+        },
+        {
+          "question": "When reviewing the 'Leadership Succession Planning and Bench Strength Assessment' form, how many dropdown fields are listed?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "filled_form",
+      "variant_id": "filled_form_0000_7a393d94",
+      "title": "Leadership Succession Planning & Bench Strength Assessment",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Candidates",
+        "Development Plan & Emergency Coverage"
+      ],
+      "required_fields": [
+        "Critical Role Title",
+        " Department",
+        "Current Incumbent Name",
+        "Incumbent Planned Exit Timeline",
+        "Identified Successor Name",
+        "Current Position of Successor",
+        "Readiness Level",
+        "Key Competency Gaps Identified",
+        "Planned Development Actions",
+        "Emergency Interim Successor Identified"
+      ],
+      "description": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development actions and emergency coverage gaps.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "IndieFlower, cursive",
+        "ink_color": "#1c2db5",
+        "font_size_pt": 10.5
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are displayed on the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, how many required fields are marked on the form?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, what description is shown explaining the purpose of the form?",
+          "answer": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development actions and emergency coverage gaps.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development actions and emergency coverage gaps.'."
+            }
+          ]
+        },
+        {
+          "question": "Viewing the 'Leadership Succession Planning & Bench Strength Assessment' form, which required item explicitly addresses emergency coverage?",
+          "answer": "Emergency Interim Successor Identified",
+          "assertions": [
+            {
+              "text": "The response must state 'Emergency Interim Successor Identified'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "filled_form",
+      "variant_id": "filled_form_0005_c947fb6d",
+      "title": "Leadership Succession Planning & Bench Strength Assessment",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Identification",
+        "Development Plans & Emergency Succession"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Current Role Incumbent",
+        "Role Criticality Level",
+        "Number of Ready Now Successors",
+        "Primary Successor Candidate Name",
+        "Successor Readiness Level",
+        "Individual Development Actions (Next 12 Months)",
+        "Emergency Interim Successor Identified"
+      ],
+      "description": "Complete this form to evaluate leadership bench strength, identify high-potential successors, and document development actions and emergency succession risks for critical roles.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Courier, monospace",
+        "ink_color": "#004d66",
+        "font_size_pt": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are listed?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment', what is the title of the second section in the form?",
+          "answer": "Bench Strength & High-Potential Identification",
+          "assertions": [
+            {
+              "text": "The response must state 'Bench Strength & High-Potential Identification'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are marked as required?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state '9'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment', which required field requests planned actions for the next 12 months?",
+          "answer": "Individual Development Actions (Next 12 Months)",
+          "assertions": [
+            {
+              "text": "The response must state 'Individual Development Actions (Next 12 Months)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "filled_form",
+      "variant_id": "filled_form_0001_af7f084e",
+      "title": "Leadership Succession Planning & Bench Strength Assessment",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 8,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Identification",
+        "Development Plans & Emergency Coverage"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Current Role Incumbent",
+        "Identified Successor #1 Name",
+        "Successor #1 Readiness Level",
+        "Key Competency Gaps for Successor #1",
+        "Primary Development Actions (Next 12 Months)",
+        "Interim Emergency Successor Identified"
+      ],
+      "description": "Complete this form to evaluate bench strength for critical roles, identify high-potential talent, document development actions, and highlight any immediate succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "DancingScript, cursive",
+        "ink_color": "#1c2db5",
+        "font_size_pt": 12.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are included?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment', what is the title of the third section?",
+          "answer": "Development Plans & Emergency Coverage",
+          "assertions": [
+            {
+              "text": "The response must state 'Development Plans & Emergency Coverage'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are marked required?",
+          "answer": "8",
+          "assertions": [
+            {
+              "text": "The response must state '8'."
+            }
+          ]
+        },
+        {
+          "question": "Reviewing the 'Leadership Succession Planning & Bench Strength Assessment', what description is shown at the top of the form?",
+          "answer": "Complete this form to evaluate bench strength for critical roles, identify high-potential talent, document development actions, and highlight any immediate succession risks.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to evaluate bench strength for critical roles, identify high-potential talent, document development actions, and highlight any immediate succession risks.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "filled_form",
+      "variant_id": "filled_form_0013_3ce225ad",
+      "title": "Leadership Succession Planning & Bench Strength Assessment",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength & High-Potential Candidates",
+        "Development Plan & Risk Mitigation"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Current Role Incumbent",
+        "Role Criticality Level",
+        "Identified Successor Name",
+        "Successor Readiness Level",
+        "High-Potential Status",
+        "Primary Development Actions (Next 12 Months)",
+        "Emergency Succession Coverage in Place"
+      ],
+      "description": "Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "GrandHotel, cursive",
+        "ink_color": "#004d66",
+        "font_size_pt": 11.5
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections does the document contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment', what is the title of the first section listed?",
+          "answer": "Critical Role Assessment",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical Role Assessment'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are marked as required?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state '9'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment' form, what description or purpose is provided at the top of the form?",
+          "answer": "Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "text",
+      "variant_id": "text_0001_5bd8d78a",
+      "heading": "High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps",
+      "word_count": 192,
+      "text_content": [
+        "**High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps**",
+        "The high-potential successor pool includes nine named candidates: Aisha Khan, Miguel Santos, Priya Patel, Jordan Lee, Chen Wei, Sofia Rossi, Daniel Okafor, Emma Johnson, and Ravi Menon. These individuals were identified through calibrated performance ratings, leadership assessments, and strategic role-alignment reviews. This cohort represents 75% of targeted mid-to-senior talent identified in the enterprise assessment and will be tracked against competency milestones and retention indicators.",
+        "Each high-potential candidate will complete two development actions by 2026-09-30: one cross-functional rotation and one executive sponsor assignment. Development plans will be individualized, measurable, and reviewed quarterly by the Talent Council. Priority activities include 1) 6–12 month rotational placements, 2) executive sponsorship with defined goals, and 3) targeted leadership training. Progress metrics will inform promotion readiness and succession readiness scoring and retention risk mitigation.",
+        "Emergency succession coverage is defined as a designated interim leader available within 72 hours. As of 2026-05-01, three of twelve critical roles do not meet this standard. To remediate, assign named contingency interims, document handover protocols, and provide accelerated readiness coaching over a 60-day window. Completion of gap closures will be monitored monthly; unresolved exposures will escalate to the Executive Risk Committee for review."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps\" section, how many named candidates are included in the high-potential successor pool?",
+          "answer": "nine",
+          "assertions": [
+            {
+              "text": "The response must state nine."
+            }
+          ]
+        },
+        {
+          "question": "In the \"High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps\" section, by what date must each high-potential candidate complete two development actions?",
+          "answer": "2026-09-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-09-30."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps\" section, how many of the twelve critical roles do not meet the 72-hour emergency succession standard as of 2026-05-01?",
+          "answer": "three",
+          "assertions": [
+            {
+              "text": "The response must state three."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "filled_form",
+      "variant_id": "filled_form_0003_8c557ddb",
+      "title": "Leadership Succession Planning and Bench Strength Assessment",
+      "caption": "Leadership Succession Planning and Bench Strength Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Critical Role Assessment",
+        "Bench Strength and High-Potential Candidates",
+        "Development Plans and Succession Risks"
+      ],
+      "required_fields": [
+        " Department",
+        "Critical Role Title",
+        "Current Incumbent Name",
+        "Identified Successor Name",
+        "Current Position of Successor",
+        "Readiness Level",
+        "Key Competency Gaps Identified",
+        "Planned Development Actions",
+        "Emergency Successor Identified"
+      ],
+      "description": "Complete this form to evaluate bench strength for critical roles, identify high-potential successors, and document development plans and succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Helvetica, sans-serif",
+        "ink_color": "#004d66",
+        "font_size_pt": 10.5
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning and Bench Strength Assessment', how many sections does the form include?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment' form, what is the title of the second section?",
+          "answer": "Bench Strength and High-Potential Candidates",
+          "assertions": [
+            {
+              "text": "The response must state 'Bench Strength and High-Potential Candidates'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning and Bench Strength Assessment', how many total fields are shown on the form?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "Within the 'Leadership Succession Planning and Bench Strength Assessment' form, which required field confirms whether an emergency backup is named?",
+          "answer": "Emergency Successor Identified",
+          "assertions": [
+            {
+              "text": "The response must state 'Emergency Successor Identified'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "filled_form",
+      "variant_id": "filled_form_0012_1f99d031",
+      "title": "Leadership Succession Planning & Bench Strength Assessment Form",
+      "caption": "Leadership Succession Planning & Bench Strength Assessment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Critical Role Assessment",
+        "High-Potential Candidate Identification",
+        "Development & Risk Mitigation Plan"
+      ],
+      "required_fields": [
+        "Critical Role Title",
+        "Current Incumbent Name",
+        "Business Impact if Vacant",
+        "Timeframe Risk of Vacancy",
+        "Bench Strength Rating",
+        "Identified Successor Name",
+        "Current Position of Successor",
+        "Readiness Level",
+        "Key Competency Gaps Identified",
+        "Emergency Interim Successor Identified"
+      ],
+      "description": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development plans and emergency succession risks.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "ShadowsIntoLight, cursive",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 11.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Leadership Succession Planning & Bench Strength Assessment Form', what is the form description shown on the document?",
+          "answer": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development plans and emergency succession risks.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development plans and emergency succession risks.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Leadership Succession Planning & Bench Strength Assessment Form', how many required fields are indicated?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment Form', how many total fields does the form contain?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment Form', what is the title of the second section listed on the form?",
+          "answer": "High-Potential Candidate Identification",
+          "assertions": [
+            {
+              "text": "The response must state 'High-Potential Candidate Identification'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "filled_form_0008_55b8c638": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0006_05eba86f": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0002_01e42332": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0011_162916f1": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0004_b2c3effc": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0007_182201f2": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0009_aaae9e0c": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0014_3dcaaee8": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0000_96970cea": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations",
+        "typos"
+      ],
+      "heading": "Enterprise Bench Strength Assessment for Critical Leadership Roles (FY2026)",
+      "word_count": 242,
+      "text_type": "llm_prose",
+      "topic_id": "leadership_succession_plan"
+    },
+    "filled_form_0010_788fc7ae": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0000_7a393d94": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0005_c947fb6d": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0001_af7f084e": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0013_3ce225ad": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0001_5bd8d78a": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps",
+      "word_count": 192,
+      "text_type": "llm_prose",
+      "topic_id": "leadership_succession_plan"
+    },
+    "filled_form_0003_8c557ddb": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0012_1f99d031": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0000_a2f492aa": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_b5a265c9.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are displayed?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, what is the total number of fields on the form?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are marked as required?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "Reviewing the 'Leadership Succession Planning & Bench Strength Assessment' form, what description explains the purpose of the form?",
+      "answer": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning and Bench Strength Assessment' form, how many sections does the form contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment' form, how many total fields are listed on the form?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning and Bench Strength Assessment' form, how many fields are marked as required?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Leadership Succession Planning and Bench Strength Assessment' form, what is the description that explains the purpose of the form?",
+      "answer": "Complete this form to evaluate critical leadership roles, assess bench strength, identify high-potential successors, and document development and emergency succession plans.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to evaluate critical leadership roles, assess bench strength, identify high-potential successors, and document development and emergency succession plans.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are included?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, what description is provided for completing the form?",
+      "answer": "Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development plans, and highlight any immediate succession risks.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development plans, and highlight any immediate succession risks.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, which section appears immediately after 'Critical Role Assessment'?",
+      "answer": "High-Potential Successor Identification",
+      "assertions": [
+        {
+          "text": "The response must state 'High-Potential Successor Identification'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment' form, how many required fields are listed?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning and Bench Strength Assessment' form, how many sections are there?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment', how many required fields does the form contain?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning and Bench Strength Assessment' form, what is the section listed immediately after 'Critical Role Assessment'?",
+      "answer": "Bench Strength & High-Potential Candidates",
+      "assertions": [
+        {
+          "text": "The response must state 'Bench Strength & High-Potential Candidates'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Leadership Succession Planning and Bench Strength Assessment' form, which required field explicitly requests the identified successor's name?",
+      "answer": "Identified Successor Name",
+      "assertions": [
+        {
+          "text": "The response must state 'Identified Successor Name'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning and Bench Strength Assessment' form, how many sections does it contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment', what is the title of the second section?",
+      "answer": "High-Potential Candidate Identification",
+      "assertions": [
+        {
+          "text": "The response must state 'High-Potential Candidate Identification'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning and Bench Strength Assessment' form, how many responses are required?",
+      "answer": "9",
+      "assertions": [
+        {
+          "text": "The response must state '9'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Leadership Succession Planning and Bench Strength Assessment' form, which required entry captures the target time until a successor is ready?",
+      "answer": "Target Readiness Timeframe",
+      "assertions": [
+        {
+          "text": "The response must state 'Target Readiness Timeframe'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are included?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, what is the title of the second section?",
+      "answer": "Bench Strength & High-Potential Candidates",
+      "assertions": [
+        {
+          "text": "The response must state 'Bench Strength & High-Potential Candidates'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many required fields are indicated?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment' form, which required field is used to record the name of the first identified successor?",
+      "answer": "Identified Successor #1 Name",
+      "assertions": [
+        {
+          "text": "The response must state 'Identified Successor #1 Name'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are displayed?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Viewing the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are indicated as required?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, is the form marked as filled?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment Form', how many sections are shown on the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment Form', what is the exact description displayed on the form?",
+      "answer": "Complete this form to evaluate bench strength for critical roles, identify high-potential talent, and document development actions and emergency succession risks.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to evaluate bench strength for critical roles, identify high-potential talent, and document development actions and emergency succession risks.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment Form', what is the title of the third section as shown on the form?",
+      "answer": "Development Plans & Emergency Gaps",
+      "assertions": [
+        {
+          "text": "The response must state 'Development Plans & Emergency Gaps'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Leadership Succession Planning & Bench Strength Assessment Form', how many required fields are indicated?",
+      "answer": "9",
+      "assertions": [
+        {
+          "text": "The response must state '9'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Bench Strength Assessment for Critical Leadership Roels (FY2026)\" section, how many critical roles are covered in the succession slate?",
+      "answer": "12 critical roles",
+      "assertions": [
+        {
+          "text": "The response must state 12 critical roles."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Enterprise Bench Strength Assessment for Critical Leadership Roels (FY2026)\" section, what percentage of roles are rated Ready in 1 to 2 years?",
+      "answer": "41.7%",
+      "assertions": [
+        {
+          "text": "The response must state 41.7%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Bench Strength Assessment for Critical Leadership Roels (FY2026)\" section, by what date will the emergency succession playbook be published by the CHRO?",
+      "answer": "2026-06-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-15."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment' form, how many fields are marked as required?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning and Bench Strength Assessment' form, what is the title of the second section header shown?",
+      "answer": "Bench Strength & High-Potential Identification",
+      "assertions": [
+        {
+          "text": "The response must state 'Bench Strength & High-Potential Identification'."
+        }
+      ]
+    },
+    {
+      "question": "When reviewing the 'Leadership Succession Planning and Bench Strength Assessment' form, how many dropdown fields are listed?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are displayed on the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment' form, how many required fields are marked on the form?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, what description is shown explaining the purpose of the form?",
+      "answer": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development actions and emergency coverage gaps.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development actions and emergency coverage gaps.'."
+        }
+      ]
+    },
+    {
+      "question": "Viewing the 'Leadership Succession Planning & Bench Strength Assessment' form, which required item explicitly addresses emergency coverage?",
+      "answer": "Emergency Interim Successor Identified",
+      "assertions": [
+        {
+          "text": "The response must state 'Emergency Interim Successor Identified'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections are listed?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment', what is the title of the second section in the form?",
+      "answer": "Bench Strength & High-Potential Identification",
+      "assertions": [
+        {
+          "text": "The response must state 'Bench Strength & High-Potential Identification'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment', which required field requests planned actions for the next 12 months?",
+      "answer": "Individual Development Actions (Next 12 Months)",
+      "assertions": [
+        {
+          "text": "The response must state 'Individual Development Actions (Next 12 Months)'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment', what is the title of the third section?",
+      "answer": "Development Plans & Emergency Coverage",
+      "assertions": [
+        {
+          "text": "The response must state 'Development Plans & Emergency Coverage'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are marked required?",
+      "answer": "8",
+      "assertions": [
+        {
+          "text": "The response must state '8'."
+        }
+      ]
+    },
+    {
+      "question": "Reviewing the 'Leadership Succession Planning & Bench Strength Assessment', what description is shown at the top of the form?",
+      "answer": "Complete this form to evaluate bench strength for critical roles, identify high-potential talent, document development actions, and highlight any immediate succession risks.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to evaluate bench strength for critical roles, identify high-potential talent, document development actions, and highlight any immediate succession risks.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment' form, how many sections does the document contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment', what is the title of the first section listed?",
+      "answer": "Critical Role Assessment",
+      "assertions": [
+        {
+          "text": "The response must state 'Critical Role Assessment'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment' form, how many fields are marked as required?",
+      "answer": "9",
+      "assertions": [
+        {
+          "text": "The response must state '9'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment' form, what description or purpose is provided at the top of the form?",
+      "answer": "Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to evaluate bench strength for critical roles, identify high-potential successors, outline development actions, and highlight any immediate succession risks.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps\" section, how many named candidates are included in the high-potential successor pool?",
+      "answer": "nine",
+      "assertions": [
+        {
+          "text": "The response must state nine."
+        }
+      ]
+    },
+    {
+      "question": "In the \"High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps\" section, by what date must each high-potential candidate complete two development actions?",
+      "answer": "2026-09-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-09-30."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"High-Potential Successor Identification, Development Plans, and Emergency Succession Gaps\" section, how many of the twelve critical roles do not meet the 72-hour emergency succession standard as of 2026-05-01?",
+      "answer": "three",
+      "assertions": [
+        {
+          "text": "The response must state three."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning and Bench Strength Assessment', how many sections does the form include?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning and Bench Strength Assessment' form, what is the title of the second section?",
+      "answer": "Bench Strength and High-Potential Candidates",
+      "assertions": [
+        {
+          "text": "The response must state 'Bench Strength and High-Potential Candidates'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning and Bench Strength Assessment', how many total fields are shown on the form?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "Within the 'Leadership Succession Planning and Bench Strength Assessment' form, which required field confirms whether an emergency backup is named?",
+      "answer": "Emergency Successor Identified",
+      "assertions": [
+        {
+          "text": "The response must state 'Emergency Successor Identified'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Leadership Succession Planning & Bench Strength Assessment Form', what is the form description shown on the document?",
+      "answer": "Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development plans and emergency succession risks.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to evaluate current bench strength for critical roles, identify high-potential successors, and document development plans and emergency succession risks.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Leadership Succession Planning & Bench Strength Assessment Form', how many required fields are indicated?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Leadership Succession Planning & Bench Strength Assessment Form', how many total fields does the form contain?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Leadership Succession Planning & Bench Strength Assessment Form', what is the title of the second section listed on the form?",
+      "answer": "High-Potential Candidate Identification",
+      "assertions": [
+        {
+          "text": "The response must state 'High-Potential Candidate Identification'."
+        }
+      ]
+    }
+  ]
+}

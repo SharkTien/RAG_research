@@ -1,0 +1,1585 @@
+{
+  "doc_id": "doc_0000_s91525277",
+  "title": "Quarterly Treasury Report: Cash Position, Short-Term Funding, Credit Facility Utilisation, FX Exposure and Liquidity Stress Scenarios",
+  "subtitle": "Treasury Quarterly: Cash Position, Short-Term Funding, Credit Facility Utilisation, FX Exposure & Liquidity Stress Scenarios",
+  "topic_id": "treasury_liquidity_report",
+  "recipe_name": "visual_heavy",
+  "seed": 91525277,
+  "document_brief": {
+    "narrative_theme": "The report demonstrates that Q3 2026 liquidity remains resilient through disciplined cash forecasting, diversified short-term funding, controlled credit facility utilisation, and quantified FX and stress-scenario impacts.",
+    "sections": [
+      {
+        "heading": "Q3 2026 Cash Position Outlook and Short‑Term Funding Plan",
+        "key_facts": [
+          "As of 30 Jun 2026, Group cash and cash equivalents total USD 312.4m.",
+          "The forecasted minimum daily cash balance in Q3 2026 is USD 185.0m on 22 Aug 2026.",
+          "Planned short-term funding for Q3 2026 includes issuing USD 150.0m of 90-day commercial paper on 15 Jul 2026."
+        ],
+        "data_references": [
+          "chart_0",
+          "chart_1",
+          "chart_2"
+        ]
+      },
+      {
+        "heading": "Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026",
+        "key_facts": [
+          "The Revolving Credit Facility (RCF) commitment is USD 500.0m, with USD 120.0m drawn and USD 10.0m in LCs outstanding as of 30 Jun 2026.",
+          "Net transactional FX exposure for Q3 2026 is EUR 65.0m and GBP 40.0m as of 30 Jun 2026.",
+          "In the 'Severe' liquidity stress scenario, the projected minimum liquidity headroom is USD 45.0m on 05 Sep 2026."
+        ],
+        "data_references": [
+          "chart_3",
+          "chart_4",
+          "chart_5"
+        ]
+      }
+    ],
+    "tables": [],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)",
+        "chart_type": "line",
+        "x_label": "Date (Jul–Sep 2026)",
+        "y_label": "Cash balance (USD millions)",
+        "purpose": "Shows the projected daily cash balance through Q3 2026 against the minimum operating cash threshold to evidence baseline liquidity resilience."
+      },
+      {
+        "id": "chart_1",
+        "title": "Short‑Term Funding Sources by Instrument (Planned Q3 2026)",
+        "chart_type": "bar",
+        "x_label": "Funding instrument (Commercial Paper, Money Market Borrowing, Supplier Finance, Intercompany Loan)",
+        "y_label": "Planned amount (USD millions)",
+        "purpose": "Compares planned short-term funding volumes by instrument to demonstrate diversification and coverage of forecasted cash troughs."
+      },
+      {
+        "id": "chart_2",
+        "title": "Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)",
+        "chart_type": "bar",
+        "x_label": "Week ending date (Q3 2026)",
+        "y_label": "Net cash flow (USD millions)",
+        "purpose": "Visualizes weekly net cash flow drivers to connect the cash position outlook to operational seasonality and planned financing actions."
+      },
+      {
+        "id": "chart_3",
+        "title": "Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)",
+        "chart_type": "bar",
+        "x_label": "Facility component (Drawn, LCs outstanding, Undrawn)",
+        "y_label": "Amount (USD millions)",
+        "purpose": "Summarizes utilisation of committed credit lines to quantify available liquidity backstops supporting Q3 2026 resilience."
+      },
+      {
+        "id": "chart_4",
+        "title": "Net Transactional FX Exposure by Currency (Q3 2026)",
+        "chart_type": "bar",
+        "x_label": "Currency (EUR, GBP, JPY, CAD, AUD)",
+        "y_label": "Net exposure (USD equivalent, millions)",
+        "purpose": "Highlights the largest net transactional FX exposures to support hedging priorities and assess liquidity sensitivity to currency moves."
+      },
+      {
+        "id": "chart_5",
+        "title": "Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026",
+        "chart_type": "line",
+        "x_label": "Date (Jul–Sep 2026)",
+        "y_label": "Liquidity headroom (USD millions)",
+        "purpose": "Tracks projected liquidity headroom under base and stress scenarios to quantify downside risk and timing of potential covenant or funding actions."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s91525277.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0001_41961b3a.png",
+      "scan_llm_data_e53e2074.png",
+      "img_0003_00958b6e.png",
+      "scan_llm_text_ead9064a.png",
+      "img_0002_958ce9d4.png",
+      "img_0004_06c197d7.png",
+      "img_0000_4a356377.png",
+      "img_0005_a336527e.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 20,
+    "actual_page_count": 8
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "img_0001_41961b3a",
+      "figure_number": 1,
+      "image_path": "img_0001_41961b3a.png",
+      "caption": "Figure 1: Short‑Term Funding Sources by Instrument (Planned Q3 2026)",
+      "chart_type": "violin",
+      "chart_title": "Short‑Term Funding Sources by Instrument (Planned Q3 2026)",
+      "x_label": "Funding instrument (Commercial Paper, Money Market Borrowing, Supplier Finance, Intercompany Loan)",
+      "y_label": "Planned amount (USD millions)",
+      "categories": [
+        "Commercial Paper",
+        "Money Market Borrowing",
+        "Supplier Finance",
+        "Intercompany Loan"
+      ],
+      "series_names": [
+        "Planned Q3 2026"
+      ],
+      "value_range": [
+        0,
+        500
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "Commercial Paper",
+          "Money Market Borrowing",
+          "Supplier Finance",
+          "Intercompany Loan"
+        ],
+        "value_range": [
+          0,
+          500
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", what does the Y-axis represent?",
+          "answer": "Planned amount (USD millions)",
+          "assertions": [
+            {
+              "text": "The response must state Planned amount (USD millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", what is the value range shown?",
+          "answer": "[0, 500]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 500]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", name one of the funding instrument categories displayed on the X-axis.",
+          "answer": "Supplier Finance",
+          "assertions": [
+            {
+              "text": "The response must state Supplier Finance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "scan_llm_0001_7aedb41b",
+      "figure_number": 2,
+      "image_path": "scan_llm_data_e53e2074.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 2: Q3 2026 Liquidity & Funding Overview",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Q3 2026 Liquidity & Funding Overview",
+        "caption": "Summary of projected cash balances, short-term funding sources, credit facility usage, and FX sensitivity for Q3 2026.",
+        "headers": [
+          "Category",
+          " Detail",
+          "Amount (USD m)",
+          " Impact"
+        ],
+        "rows": [
+          [
+            "Opening Cash (1 Jul 2026)",
+            "Consolidated cash balance",
+            "842.5",
+            "A"
+          ],
+          [
+            "Operating Cash Inflow",
+            "Net forecast receipts",
+            "615.3",
+            "Q3 cumulative"
+          ],
+          [
+            "Operating Cash Outflow",
+            "Payroll, suppliers, tax",
+            "-588.7",
+            "Q3 cumulative"
+          ],
+          [
+            "Commercial Paper",
+            "30–90 day issuance",
+            "220.0",
+            "68% of $325m program"
+          ],
+          [
+            "Revolving Credit Facility",
+            "Syndicated RCF ($750m)",
+            "185.0",
+            "25% drawn"
+          ],
+          [
+            "Bilateral Credit Line",
+            "Banco Norte facility",
+            "60.0",
+            "40% drawn"
+          ],
+          [
+            "Accounts Receivable Facility",
+            "Asset-backed line",
+            "140.0",
+            "55% utilised"
+          ],
+          [
+            "FX Exposure – EUR",
+            "Net payable position",
+            "95.4",
+            "1% USD move = $0.95m impact"
+          ],
+          [
+            "FX Exposure – JPY",
+            "Net receivable position",
+            "72.8",
+            "1% USD move = $0.73m impact"
+          ],
+          [
+            "Interest Expense (Q3)",
+            "Blended short-term rate 4.9%",
+            "-18.6",
+            "Projected"
+          ],
+          [
+            "Minimum Liquidity Covenant",
+            "Required threshold",
+            "300.0",
+            "Headroom $412.1m"
+          ],
+          [
+            "Stress Scenario A",
+            "10% revenue decline",
+            "Projected low cash 512.4",
+            "Above covenant by $212.4m"
+          ],
+          [
+            "Stress Scenario B",
+            "RCF market freeze",
+            "Alt. liquidity 655.0",
+            "R + cash"
+          ],
+          [
+            "Closing Cash (30 Sep 2026)",
+            "Projected ending balance",
+            "869.1",
+            "Resilient position"
+          ]
+        ],
+        "summary_note": "Forecasts indicate that Q3 2026 liquidity remains well above covenant thresholds even under revenue and funding stress scenarios, supported by diversified short-term funding and moderate credit facility utilisation.",
+        "date": "Q3 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Category",
+        " Detail",
+        "Amount (USD m)",
+        " Impact"
+      ],
+      "cells": [
+        [
+          "Opening Cash (1 Jul 2026)",
+          "Consolidated cash balance",
+          "842.5",
+          "A"
+        ],
+        [
+          "Operating Cash Inflow",
+          "Net forecast receipts",
+          "615.3",
+          "Q3 cumulative"
+        ],
+        [
+          "Operating Cash Outflow",
+          "Payroll, suppliers, tax",
+          "-588.7",
+          "Q3 cumulative"
+        ],
+        [
+          "Commercial Paper",
+          "30–90 day issuance",
+          "220.0",
+          "68% of $325m program"
+        ],
+        [
+          "Revolving Credit Facility",
+          "Syndicated RCF ($750m)",
+          "185.0",
+          "25% drawn"
+        ],
+        [
+          "Bilateral Credit Line",
+          "Banco Norte facility",
+          "60.0",
+          "40% drawn"
+        ],
+        [
+          "Accounts Receivable Facility",
+          "Asset-backed line",
+          "140.0",
+          "55% utilised"
+        ],
+        [
+          "FX Exposure – EUR",
+          "Net payable position",
+          "95.4",
+          "1% USD move = $0.95m impact"
+        ],
+        [
+          "FX Exposure – JPY",
+          "Net receivable position",
+          "72.8",
+          "1% USD move = $0.73m impact"
+        ],
+        [
+          "Interest Expense (Q3)",
+          "Blended short-term rate 4.9%",
+          "-18.6",
+          "Projected"
+        ],
+        [
+          "Minimum Liquidity Covenant",
+          "Required threshold",
+          "300.0",
+          "Headroom $412.1m"
+        ],
+        [
+          "Stress Scenario A",
+          "10% revenue decline",
+          "Projected low cash 512.4",
+          "Above covenant by $212.4m"
+        ],
+        [
+          "Stress Scenario B",
+          "RCF market freeze",
+          "Alt. liquidity 655.0",
+          "R + cash"
+        ],
+        [
+          "Closing Cash (30 Sep 2026)",
+          "Projected ending balance",
+          "869.1",
+          "Resilient position"
+        ]
+      ],
+      "row_count": 14,
+      "col_count": 4,
+      "summary": "Forecasts indicate that Q3 2026 liquidity remains well above covenant thresholds even under revenue and funding stress scenarios, supported by diversified short-term funding and moderate credit facility utilisation.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Q3 2026 Liquidity & Funding Overview\", what is the Opening Cash (1 Jul 2026) consolidated cash balance?",
+          "answer": "USD 842.5 million.",
+          "assertions": [
+            {
+              "text": "The response must state 'USD 842.5 million.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q3 2026 Liquidity & Funding Overview\", what is the amount of Commercial Paper (30–90 day issuance)?",
+          "answer": "USD 220.0 million.",
+          "assertions": [
+            {
+              "text": "The response must state 'USD 220.0 million.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document \"Q3 2026 Liquidity & Funding Overview\", how many rows does the table contain in total?",
+          "answer": "14 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '14 rows.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q3 2026 Liquidity & Funding Overview\", do forecasts indicate Q3 2026 liquidity remains above covenant thresholds under revenue and funding stress scenarios?",
+          "answer": "Yes; forecasts indicate liquidity remains well above covenant thresholds even under revenue and funding stress scenarios.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes; forecasts indicate liquidity remains well above covenant thresholds even under revenue and funding stress scenarios.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Q3 2026 Liquidity & Funding Overview\", which institution provides the Bilateral Credit Line and what is its utilisation?",
+          "answer": "Banco Norte; USD 60.0 million facility, 40% drawn.",
+          "assertions": [
+            {
+              "text": "The response must state 'Banco Norte; USD 60.0 million facility, 40% drawn.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "img_0003_00958b6e",
+      "figure_number": 3,
+      "image_path": "img_0003_00958b6e.png",
+      "caption": "Figure 3: Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)",
+      "chart_type": "stacked_area",
+      "chart_title": "Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)",
+      "x_label": "Facility component (Drawn, LCs outstanding, Undrawn)",
+      "y_label": "Amount (USD millions)",
+      "categories": [
+        "Drawn",
+        "LCs outstanding",
+        "Undrawn"
+      ],
+      "series_names": [
+        "Amount (USD millions)"
+      ],
+      "value_range": [
+        0,
+        5000
+      ],
+      "trend": "decreasing",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Amount (USD millions)"
+        ],
+        "value_range": [
+          0,
+          5000
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)\", what does the Y-axis represent?",
+          "answer": "Amount (USD millions)",
+          "assertions": [
+            {
+              "text": "The response must state Amount (USD millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)\", what are the facility component categories shown on the X-axis?",
+          "answer": "Drawn, LCs outstanding, Undrawn",
+          "assertions": [
+            {
+              "text": "The response must state Drawn, LCs outstanding, Undrawn."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)\", what is the value range displayed?",
+          "answer": "[0, 5000]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 5000]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "image",
+      "variant_id": "scan_llm_0000_8efe29bb",
+      "figure_number": 4,
+      "image_path": "scan_llm_text_ead9064a.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 4: Q3 2026 Treasury Liquidity Assessment",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Q3 2026 Treasury Liquidity Assessment",
+        "subtitle": "Ref: TR-26-118 | Date: 7 August 2026 | From: Group Treasury Department",
+        "sections": [
+          {
+            "heading": "Executive Overview",
+            "body": "As of 31 July 2026, consolidated cash and cash equivalents totalled USD 428.6 million, reflecting disciplined forecasting and conservative outflow assumptions for the remainder of the quarter. Net operating inflows for July exceeded plan by 4.2%, primarily due to earlier-than-expected collections in the North American segment. Based on current projections, minimum month-end liquidity through September 2026 is expected to remain above USD 310 million, comfortably above the Board-approved floor of USD 250 million."
+          },
+          {
+            "heading": "Short-Term Funding Sources",
+            "body": "The Group maintains diversified short-term funding lines comprising USD 200 million in committed revolving credit facilities, EUR 90 million in bilateral overdrafts, and a USD 75 million commercial paper program. As of the reporting date, commercial paper outstanding stands at USD 32 million with weighted average maturity of 41 days. No bilateral overdrafts are currently drawn. Treasury has staggered maturities to ensure that no more than USD 50 million falls due within any rolling 14-day period."
+          },
+          {
+            "heading": "Credit Facility Utilisation",
+            "body": "Total utilisation of committed revolving facilities is 38%, equivalent to USD 76 million drawn under the syndicated RCF maturing in March 2029. Headroom under committed lines therefore amounts to USD 124 million, excluding ancillary facilities. All covenant tests as of 30 June 2026 were passed with significant cushion, including net leverage at 2.1x versus a covenant threshold of 3.5x. No waivers or amendments are anticipated for the current quarter."
+          },
+          {
+            "heading": "Foreign Exchange Exposure",
+            "body": "Forecast transactional FX exposure for Q3 2026 is primarily concentrated in EUR and GBP revenues against a USD reporting base. Net exposure over the next three months is estimated at EUR 54 million and GBP 22 million. Treasury has hedged 72% of forecast EUR exposure and 65% of GBP exposure using forward contracts with maturities aligned to projected cash receipts. A 10% adverse movement in both currencies would reduce EBITDA by approximately USD 6.4 million on an unhedged basis; after hedging, the residual impact is limited to USD 1.9 million."
+          },
+          {
+            "heading": "Liquidity Stress Scenarios",
+            "body": "Stress testing was conducted under three scenarios: (i) 15% revenue shortfall, (ii) 60-day delay in receivables collection for two major customers, and (iii) simultaneous FX depreciation of 12% in EUR and GBP. Under the combined severe case, minimum projected liquidity declines to USD 268 million in mid-September, remaining above the internal threshold. Management action levers—including suspension of discretionary capex (USD 35 million) and temporary reduction in share repurchases—provide additional buffer if required."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Executive Overview",
+        "Short-Term Funding Sources",
+        "Credit Facility Utilisation",
+        "Foreign Exchange Exposure",
+        "Liquidity Stress Scenarios"
+      ],
+      "cells": [
+        {
+          "heading": "Executive Overview",
+          "body": "As of 31 July 2026, consolidated cash and cash equivalents totalled USD 428.6 million, reflecting disciplined forecasting and conservative outflow assumptions for the remainder of the quarter. Net operating inflows for July exceeded plan by 4.2%, primarily due to earlier-than-expected collections in the North American segment. Based on current projections, minimum month-end liquidity through September 2026 is expected to remain above USD 310 million, comfortably above the Board-approved floor of USD 250 million."
+        },
+        {
+          "heading": "Short-Term Funding Sources",
+          "body": "The Group maintains diversified short-term funding lines comprising USD 200 million in committed revolving credit facilities, EUR 90 million in bilateral overdrafts, and a USD 75 million commercial paper program. As of the reporting date, commercial paper outstanding stands at USD 32 million with weighted average maturity of 41 days. No bilateral overdrafts are currently drawn. Treasury has staggered maturities to ensure that no more than USD 50 million falls due within any rolling 14-day period."
+        },
+        {
+          "heading": "Credit Facility Utilisation",
+          "body": "Total utilisation of committed revolving facilities is 38%, equivalent to USD 76 million drawn under the syndicated RCF maturing in March 2029. Headroom under committed lines therefore amounts to USD 124 million, excluding ancillary facilities. All covenant tests as of 30 June 2026 were passed with significant cushion, including net leverage at 2.1x versus a covenant threshold of 3.5x. No waivers or amendments are anticipated for the current quarter."
+        },
+        {
+          "heading": "Foreign Exchange Exposure",
+          "body": "Forecast transactional FX exposure for Q3 2026 is primarily concentrated in EUR and GBP revenues against a USD reporting base. Net exposure over the next three months is estimated at EUR 54 million and GBP 22 million. Treasury has hedged 72% of forecast EUR exposure and 65% of GBP exposure using forward contracts with maturities aligned to projected cash receipts. A 10% adverse movement in both currencies would reduce EBITDA by approximately USD 6.4 million on an unhedged basis; after hedging, the residual impact is limited to USD 1.9 million."
+        },
+        {
+          "heading": "Liquidity Stress Scenarios",
+          "body": "Stress testing was conducted under three scenarios: (i) 15% revenue shortfall, (ii) 60-day delay in receivables collection for two major customers, and (iii) simultaneous FX depreciation of 12% in EUR and GBP. Under the combined severe case, minimum projected liquidity declines to USD 268 million in mid-September, remaining above the internal threshold. Management action levers—including suspension of discretionary capex (USD 35 million) and temporary reduction in share repurchases—provide additional buffer if required."
+        }
+      ],
+      "full_text": "Q3 2026 Treasury Liquidity Assessment\nRef: TR-26-118 | Date: 7 August 2026 | From: Group Treasury Department\n\nSection Executive Overview\nAs of 31 July 2026, consolidated cash and cash equivalents totalled USD 428.6 million, reflecting disciplined forecasting and conservative outflow assumptions for the remainder of the quarter. Net operating inflows for July exceeded plan by 4.2%, primarily due to earlier-than-expected collections in the North American segment. Based on current projections, minimum month-end liquidity through September 2026 is expected to remain above USD 310 million, comfortably above the Board-approved floor of USD 250 million.\n\nSection Short-Term Funding Sources\nThe Group maintains diversified short-term funding lines comprising USD 200 million in committed revolving credit facilities, EUR 90 million in bilateral overdrafts, and a USD 75 million commercial paper program. As of the reporting date, commercial paper outstanding stands at USD 32 million with weighted average maturity of 41 days. No bilateral overdrafts are currently drawn. Treasury has staggered maturities to ensure that no more than USD 50 million falls due within any rolling 14-day period.\n\nSection Credit Facility Utilisation\nTotal utilisation of committed revolving facilities is 38%, equivalent to USD 76 million drawn under the syndicated RCF maturing in March 2029. Headroom under committed lines therefore amounts to USD 124 million, excluding ancillary facilities. All covenant tests as of 30 June 2026 were passed with significant cushion, including net leverage at 2.1x versus a covenant threshold of 3.5x. No waivers or amendments are anticipated for the current quarter.\n\nSection Foreign Exchange Exposure\nForecast transactional FX exposure for Q3 2026 is primarily concentrated in EUR and GBP revenues against a USD reporting base. Net exposure over the next three months is estimated at EUR 54 million and GBP 22 million. Treasury has hedged 72% of forecast EUR exposure and 65% of GBP exposure using forward contracts with maturities aligned to projected cash receipts. A 10% adverse movement in both currencies would reduce EBITDA by approximately USD 6.4 million on an unhedged basis; after hedging, the residual impact is limited to USD 1.9 million.\n\nSection Liquidity Stress Scenarios\nStress testing was conducted under three scenarios: (i) 15% revenue shortfall, (ii) 60-day delay in receivables collection for two major customers, and (iii) simultaneous FX depreciation of 12% in EUR and GBP. Under the combined severe case, minimum projected liquidity declines to USD 268 million in mid-September, remaining above the internal threshold. Management action levers—including suspension of discretionary capex (USD 35 million) and temporary reduction in share repurchases—provide additional buffer if required.\n\nConfidential — Internal Distribution Only | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Q3 2026 Treasury Liquidity Assessment\", what were consolidated cash and cash equivalents as of 31 July 2026?",
+          "answer": "USD 428.6 million",
+          "assertions": [
+            {
+              "text": "The response must state 'USD 428.6 million'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q3 2026 Treasury Liquidity Assessment\", what is the size of the committed revolving credit facilities in USD under Short-Term Funding Sources?",
+          "answer": "USD 200 million",
+          "assertions": [
+            {
+              "text": "The response must state 'USD 200 million'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Q3 2026 Treasury Liquidity Assessment\", what EUR amount is listed among the Group's short-term funding lines?",
+          "answer": "EUR 90 million",
+          "assertions": [
+            {
+              "text": "The response must state 'EUR 90 million'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q3 2026 Treasury Liquidity Assessment\", how much has been drawn under the syndicated revolving credit facility (RCF)?",
+          "answer": "USD 76 million",
+          "assertions": [
+            {
+              "text": "The response must state 'USD 76 million'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Q3 2026 Treasury Liquidity Assessment\", which currencies are identified as the primary sources of forecast transactional FX exposure for Q3 2026?",
+          "answer": "EUR and GBP",
+          "assertions": [
+            {
+              "text": "The response must state 'EUR and GBP'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "img_0002_958ce9d4",
+      "figure_number": 5,
+      "image_path": "img_0002_958ce9d4.png",
+      "caption": "Figure 5: Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)",
+      "chart_type": "heatmap",
+      "chart_title": "Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)",
+      "x_label": "Week ending date (Q3 2026)",
+      "y_label": "Net cash flow (USD millions)",
+      "categories": [
+        "Jul 5",
+        "Jul 12",
+        "Jul 19",
+        "Jul 26",
+        "Aug 2",
+        "Aug 9",
+        "Aug 16",
+        "Aug 23",
+        "Aug 30",
+        "Sep 6",
+        "Sep 13",
+        "Sep 20",
+        "Sep 27"
+      ],
+      "series_names": [
+        "Operating Cash Flow",
+        "Investing Cash Flow",
+        "Financing Cash Flow"
+      ],
+      "value_range": [
+        -150,
+        200
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Jul 5",
+          "Jul 12",
+          "Jul 19",
+          "Jul 26",
+          "Aug 2",
+          "Aug 9"
+        ],
+        "series": [
+          "Operating Cash Flow",
+          "Investing Cash Flow",
+          "Financing Cash Flow"
+        ],
+        "value_range": [
+          -150,
+          200
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)\", what does the Y-axis represent?",
+          "answer": "Net cash flow (USD millions)",
+          "assertions": [
+            {
+              "text": "The response must state Net cash flow (USD millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)\", what is the value range shown?",
+          "answer": "[-150, 200]",
+          "assertions": [
+            {
+              "text": "The response must state [-150, 200]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)\", what type of chart is displayed?",
+          "answer": "heatmap",
+          "assertions": [
+            {
+              "text": "The response must state heatmap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "text",
+      "variant_id": "text_0001_89fe5294",
+      "heading": "Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026",
+      "word_count": 176,
+      "text_content": [
+        "**Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026**",
+        "The Group’s committed Revolving Credit Facility (RCF) remains USD 500.0m, with USD 120.0m drawn and USD 10.0m in letters of credit outstanding as of 30 Jun 2026, representing a utilisation rate of 24.0% and contingent utilisation of 2.0%. Available undrawn capacity is USD 370.0m. All covenant metrics are currently within tested limits; near‑term refinancing and accordion options are reviewed monthly.",
+        "Net transactional FX exposure entering Q3 2026 is EUR 65.0m and GBP 40.0m as of 30 Jun 2026. The treasury plan deploys a layered hedging approach: 1. short‑dated forwards for near cashflows, 2. selectively executed collars for forecasted receipts, and 3. natural offsets within regional cash pools. Quarterly review on 15 Jul 2026 will reassess hedge ratios.",
+        "In liquidity stress testing, base and adverse scenarios maintain acceptable headroom; in the Severe scenario the projected minimum liquidity headroom is USD 45.0m on 05 Sep 2026. Contingency triggers include RCF draw to pre‑empt shortfalls, suspension of discretionary cash outflows, and accelerated receivables collection. Actions are sequenced with governance oversight by the CFO and treasury committee and external counterparties."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026\" section, what is the total committed amount of the Revolving Credit Facility (RCF)?",
+          "answer": "USD 500.0m",
+          "assertions": [
+            {
+              "text": "The response must state USD 500.0m."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026\" section, what is the projected minimum liquidity headroom in the Severe scenario?",
+          "answer": "USD 45.0m",
+          "assertions": [
+            {
+              "text": "The response must state USD 45.0m."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026\" section, on what date will the quarterly review reassess hedge ratios?",
+          "answer": "15 Jul 2026",
+          "assertions": [
+            {
+              "text": "The response must state 15 Jul 2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "img_0004_06c197d7",
+      "figure_number": 6,
+      "image_path": "img_0004_06c197d7.png",
+      "caption": "Figure 6: Net Transactional FX Exposure by Currency (Q3 2026)",
+      "chart_type": "bubble_scatter",
+      "chart_title": "Net Transactional FX Exposure by Currency (Q3 2026)",
+      "x_label": "Currency (EUR, GBP, JPY, CAD, AUD)",
+      "y_label": "Net exposure (USD equivalent, millions)",
+      "categories": [
+        "EUR",
+        "GBP",
+        "JPY",
+        "CAD",
+        "AUD"
+      ],
+      "series_names": [
+        "Net Transactional FX Exposure"
+      ],
+      "value_range": [
+        -150,
+        200
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "bubble_scatter",
+        "series": [
+          "Net Transactional FX Exposure"
+        ],
+        "value_range": [
+          -150,
+          200
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Net Transactional FX Exposure by Currency (Q3 2026)\", what does the Y-axis represent?",
+          "answer": "Net exposure (USD equivalent, millions)",
+          "assertions": [
+            {
+              "text": "The response must state Net exposure (USD equivalent, millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Net Transactional FX Exposure by Currency (Q3 2026)\", what is the value range shown?",
+          "answer": "[-150, 200]",
+          "assertions": [
+            {
+              "text": "The response must state [-150, 200]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Net Transactional FX Exposure by Currency (Q3 2026)\", what type of chart is used?",
+          "answer": "bubble_scatter",
+          "assertions": [
+            {
+              "text": "The response must state bubble_scatter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "img_0000_4a356377",
+      "figure_number": 7,
+      "image_path": "img_0000_4a356377.png",
+      "caption": "Figure 7: Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)",
+      "chart_type": "grouped_bar",
+      "chart_title": "Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)",
+      "x_label": "Date (Jul–Sep 2026)",
+      "y_label": "Cash balance (USD millions)",
+      "categories": [
+        "Jul 1",
+        "Jul 15",
+        "Jul 31",
+        "Aug 15",
+        "Aug 31",
+        "Sep 15",
+        "Sep 30"
+      ],
+      "series_names": [
+        "Projected Daily Cash Balance",
+        "Minimum Operating Threshold"
+      ],
+      "value_range": [
+        150,
+        600
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "Jul 1",
+          "Jul 15",
+          "Jul 31",
+          "Aug 15",
+          "Aug 31",
+          "Sep 15"
+        ],
+        "series": [
+          "Projected Daily Cash Balance",
+          "Minimum Operating Threshold"
+        ],
+        "value_range": [
+          150,
+          600
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)\", what does the Y-axis represent?",
+          "answer": "Cash balance (USD millions)",
+          "assertions": [
+            {
+              "text": "The response must state Cash balance (USD millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)\", what is the value range shown?",
+          "answer": "[150, 600]",
+          "assertions": [
+            {
+              "text": "The response must state [150, 600]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)\", what trend is indicated?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "text",
+      "variant_id": "text_0000_dd06acc9",
+      "heading": "Q3 2026 Cash Position Outlook and Short‑Term Funding Plan",
+      "word_count": 272,
+      "text_content": [
+        "**Q3 2026 Cash Position Outlook and Short‑Term Funding Plan**",
+        "As of 30 June 2026 the Group's cash and cash equivalents total USD 312.4m, reported on a consolidated basis and held primarily in U.S. dollar‑denominated demand deposits and money market instruments. These balances are available for immediate use and are concentrated across the principal banking counterparties used by Group Treasury to ensure operational access and intraday liquidity. Short‑term placements and sweep arrangements account for a modest portion of the total; unrestricted cash forms the majority, while restricted balances related to escrow and collateral are monitored separately and excluded from day‑to‑day cash deployment.",
+        "The short‑term cash forecast for Q3 2026 identifies a lowest single‑day projected balance of USD 185.0m on 22 August 2026. This point estimate will be tracked through daily forecasting and intraday reporting to the Group CFO and Treasury desk, with variance analysis performed weekly. The USD 185.0m low represents approximately 59.2% of the 30 June cash position and informs timing for funding actions and payment sequencing. Receipts from customers, scheduled tax payments, and planned intercompany movements are the principal drivers of the intra‑quarter trough and will be reviewed regularly thereafter.",
+        "Planned short‑term funding for Q3 2026 includes issuing USD 150.0m of 90‑day commercial paper on 15 July 2026 to replenish transactional balances and maintain the intended liquidity buffer. The issuance is scheduled through the existing dealer panel and will be priced competitively in the primary CP market with settlement on issuance date; proceeds will be available immediately for deployment. Contingency measures if market access is impaired include temporary working‑capital measures, timing of discretionary payments, and activation of internal cash concentration mechanics to preserve the forecasted minimum balance and covenant headroom."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Q3 2026 Cash Position Outlook and Short‑Term Funding Plan\" section, what was the Group's total cash and cash equivalents as of 30 June 2026?",
+          "answer": "USD 312.4m",
+          "assertions": [
+            {
+              "text": "The response must state USD 312.4m."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Q3 2026 Cash Position Outlook and Short‑Term Funding Plan\" section, what is the lowest single‑day projected balance identified for Q3 2026?",
+          "answer": "USD 185.0m",
+          "assertions": [
+            {
+              "text": "The response must state USD 185.0m."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Q3 2026 Cash Position Outlook and Short‑Term Funding Plan\" section, on what date is the USD 150.0m 90‑day commercial paper issuance scheduled?",
+          "answer": "15 July 2026",
+          "assertions": [
+            {
+              "text": "The response must state 15 July 2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "img_0005_a336527e",
+      "figure_number": 8,
+      "image_path": "img_0005_a336527e.png",
+      "caption": "Figure 8: Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026",
+      "chart_type": "ridgeline",
+      "chart_title": "Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026",
+      "x_label": "Date (Jul–Sep 2026)",
+      "y_label": "Liquidity headroom (USD millions)",
+      "categories": [
+        "Jul 2026",
+        "Aug 2026",
+        "Sep 2026"
+      ],
+      "series_names": [
+        "Base",
+        "Moderate",
+        "Severe"
+      ],
+      "value_range": [
+        50,
+        400
+      ],
+      "trend": "decreasing",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "Jul 2026",
+          "Aug 2026",
+          "Sep 2026"
+        ],
+        "value_range": [
+          50,
+          400
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026\", what does the Y-axis represent?",
+          "answer": "Liquidity headroom (USD millions)",
+          "assertions": [
+            {
+              "text": "The response must state Liquidity headroom (USD millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026\", what is the value range shown?",
+          "answer": "[50, 400]",
+          "assertions": [
+            {
+              "text": "The response must state [50, 400]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026\", what is the overall trend?",
+          "answer": "decreasing",
+          "assertions": [
+            {
+              "text": "The response must state decreasing."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "img_0001_41961b3a": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion",
+        "blur"
+      ],
+      "chart_type": "violin",
+      "chart_title": "Short‑Term Funding Sources by Instrument (Planned Q3 2026)",
+      "x_label": "Funding instrument (Commercial Paper, Money Market Borrowing, Supplier Finance, Intercompany Loan)",
+      "y_label": "Planned amount (USD millions)",
+      "categories": [
+        "Commercial Paper",
+        "Money Market Borrowing",
+        "Supplier Finance",
+        "Intercompany Loan"
+      ],
+      "series_names": [
+        "Planned Q3 2026"
+      ],
+      "value_range": [
+        0,
+        500
+      ],
+      "trend": "volatile",
+      "filename": "img_0001_41961b3a.png",
+      "image_path": "img_0001_41961b3a.png",
+      "topic_id": "treasury_liquidity_report"
+    },
+    "scan_llm_0001_7aedb41b": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_e53e2074.png",
+      "topic_id": ""
+    },
+    "img_0003_00958b6e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "stacked_area",
+      "chart_title": "Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)",
+      "x_label": "Facility component (Drawn, LCs outstanding, Undrawn)",
+      "y_label": "Amount (USD millions)",
+      "categories": [
+        "Drawn",
+        "LCs outstanding",
+        "Undrawn"
+      ],
+      "series_names": [
+        "Amount (USD millions)"
+      ],
+      "value_range": [
+        0,
+        5000
+      ],
+      "trend": "decreasing",
+      "filename": "img_0003_00958b6e.png",
+      "image_path": "img_0003_00958b6e.png",
+      "topic_id": "treasury_liquidity_report"
+    },
+    "scan_llm_0000_8efe29bb": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_ead9064a.png",
+      "topic_id": ""
+    },
+    "img_0002_958ce9d4": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)",
+      "x_label": "Week ending date (Q3 2026)",
+      "y_label": "Net cash flow (USD millions)",
+      "categories": [
+        "Jul 5",
+        "Jul 12",
+        "Jul 19",
+        "Jul 26",
+        "Aug 2",
+        "Aug 9",
+        "Aug 16",
+        "Aug 23",
+        "Aug 30",
+        "Sep 6",
+        "Sep 13",
+        "Sep 20",
+        "Sep 27"
+      ],
+      "series_names": [
+        "Operating Cash Flow",
+        "Investing Cash Flow",
+        "Financing Cash Flow"
+      ],
+      "value_range": [
+        -150,
+        200
+      ],
+      "trend": "volatile",
+      "filename": "img_0002_958ce9d4.png",
+      "image_path": "img_0002_958ce9d4.png",
+      "topic_id": "treasury_liquidity_report"
+    },
+    "text_0001_89fe5294": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "date_formats"
+      ],
+      "heading": "Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026",
+      "word_count": 176,
+      "text_type": "llm_prose",
+      "topic_id": "treasury_liquidity_report"
+    },
+    "img_0004_06c197d7": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "bubble_scatter",
+      "chart_title": "Net Transactional FX Exposure by Currency (Q3 2026)",
+      "x_label": "Currency (EUR, GBP, JPY, CAD, AUD)",
+      "y_label": "Net exposure (USD equivalent, millions)",
+      "categories": [
+        "EUR",
+        "GBP",
+        "JPY",
+        "CAD",
+        "AUD"
+      ],
+      "series_names": [
+        "Net Transactional FX Exposure"
+      ],
+      "value_range": [
+        -150,
+        200
+      ],
+      "trend": "volatile",
+      "filename": "img_0004_06c197d7.png",
+      "image_path": "img_0004_06c197d7.png",
+      "topic_id": "treasury_liquidity_report"
+    },
+    "img_0000_4a356377": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "grouped_bar",
+      "chart_title": "Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)",
+      "x_label": "Date (Jul–Sep 2026)",
+      "y_label": "Cash balance (USD millions)",
+      "categories": [
+        "Jul 1",
+        "Jul 15",
+        "Jul 31",
+        "Aug 15",
+        "Aug 31",
+        "Sep 15",
+        "Sep 30"
+      ],
+      "series_names": [
+        "Projected Daily Cash Balance",
+        "Minimum Operating Threshold"
+      ],
+      "value_range": [
+        150,
+        600
+      ],
+      "trend": "volatile",
+      "filename": "img_0000_4a356377.png",
+      "image_path": "img_0000_4a356377.png",
+      "topic_id": "treasury_liquidity_report"
+    },
+    "text_0000_dd06acc9": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Q3 2026 Cash Position Outlook and Short‑Term Funding Plan",
+      "word_count": 272,
+      "text_type": "llm_prose",
+      "topic_id": "treasury_liquidity_report"
+    },
+    "img_0005_a336527e": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "ridgeline",
+      "chart_title": "Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026",
+      "x_label": "Date (Jul–Sep 2026)",
+      "y_label": "Liquidity headroom (USD millions)",
+      "categories": [
+        "Jul 2026",
+        "Aug 2026",
+        "Sep 2026"
+      ],
+      "series_names": [
+        "Base",
+        "Moderate",
+        "Severe"
+      ],
+      "value_range": [
+        50,
+        400
+      ],
+      "trend": "decreasing",
+      "filename": "img_0005_a336527e.png",
+      "image_path": "img_0005_a336527e.png",
+      "topic_id": "treasury_liquidity_report"
+    },
+    "llm_mp_table_0000_5a208279": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "inventory_audit_log",
+      "row_count": 53,
+      "col_count": 5,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", what does the Y-axis represent?",
+      "answer": "Planned amount (USD millions)",
+      "assertions": [
+        {
+          "text": "The response must state Planned amount (USD millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", what is the value range shown?",
+      "answer": "[0, 500]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 500]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Short‑Term Funding Sources by Instrument (Planned Q3 2026)\", name one of the funding instrument categories displayed on the X-axis.",
+      "answer": "Supplier Finance",
+      "assertions": [
+        {
+          "text": "The response must state Supplier Finance."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q3 2026 Liquidity & Funding Overview\", what is the Opening Cash (1 Jul 2026) consolidated cash balance?",
+      "answer": "USD 842.5 million.",
+      "assertions": [
+        {
+          "text": "The response must state 'USD 842.5 million.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q3 2026 Liquidity & Funding Overview\", what is the amount of Commercial Paper (30–90 day issuance)?",
+      "answer": "USD 220.0 million.",
+      "assertions": [
+        {
+          "text": "The response must state 'USD 220.0 million.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document \"Q3 2026 Liquidity & Funding Overview\", how many rows does the table contain in total?",
+      "answer": "14 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '14 rows.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q3 2026 Liquidity & Funding Overview\", do forecasts indicate Q3 2026 liquidity remains above covenant thresholds under revenue and funding stress scenarios?",
+      "answer": "Yes; forecasts indicate liquidity remains well above covenant thresholds even under revenue and funding stress scenarios.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes; forecasts indicate liquidity remains well above covenant thresholds even under revenue and funding stress scenarios.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q3 2026 Liquidity & Funding Overview\", which institution provides the Bilateral Credit Line and what is its utilisation?",
+      "answer": "Banco Norte; USD 60.0 million facility, 40% drawn.",
+      "assertions": [
+        {
+          "text": "The response must state 'Banco Norte; USD 60.0 million facility, 40% drawn.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)\", what does the Y-axis represent?",
+      "answer": "Amount (USD millions)",
+      "assertions": [
+        {
+          "text": "The response must state Amount (USD millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)\", what are the facility component categories shown on the X-axis?",
+      "answer": "Drawn, LCs outstanding, Undrawn",
+      "assertions": [
+        {
+          "text": "The response must state Drawn, LCs outstanding, Undrawn."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Credit Facility Utilisation: Drawn, LCs, and Undrawn Availability (As of 30 Jun 2026)\", what is the value range displayed?",
+      "answer": "[0, 5000]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 5000]."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q3 2026 Treasury Liquidity Assessment\", what were consolidated cash and cash equivalents as of 31 July 2026?",
+      "answer": "USD 428.6 million",
+      "assertions": [
+        {
+          "text": "The response must state 'USD 428.6 million'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q3 2026 Treasury Liquidity Assessment\", what is the size of the committed revolving credit facilities in USD under Short-Term Funding Sources?",
+      "answer": "USD 200 million",
+      "assertions": [
+        {
+          "text": "The response must state 'USD 200 million'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Q3 2026 Treasury Liquidity Assessment\", what EUR amount is listed among the Group's short-term funding lines?",
+      "answer": "EUR 90 million",
+      "assertions": [
+        {
+          "text": "The response must state 'EUR 90 million'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q3 2026 Treasury Liquidity Assessment\", how much has been drawn under the syndicated revolving credit facility (RCF)?",
+      "answer": "USD 76 million",
+      "assertions": [
+        {
+          "text": "The response must state 'USD 76 million'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Q3 2026 Treasury Liquidity Assessment\", which currencies are identified as the primary sources of forecast transactional FX exposure for Q3 2026?",
+      "answer": "EUR and GBP",
+      "assertions": [
+        {
+          "text": "The response must state 'EUR and GBP'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)\", what does the Y-axis represent?",
+      "answer": "Net cash flow (USD millions)",
+      "assertions": [
+        {
+          "text": "The response must state Net cash flow (USD millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)\", what is the value range shown?",
+      "answer": "[-150, 200]",
+      "assertions": [
+        {
+          "text": "The response must state [-150, 200]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Weekly Net Cash Flow Bridge: Operating, Investing, Financing (Q3 2026)\", what type of chart is displayed?",
+      "answer": "heatmap",
+      "assertions": [
+        {
+          "text": "The response must state heatmap."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026\" section, what is the total committed amount of the Revolving Credit Facility (RCF)?",
+      "answer": "USD 500.0m",
+      "assertions": [
+        {
+          "text": "The response must state USD 500.0m."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026\" section, what is the projected minimum liquidity headroom in the Severe scenario?",
+      "answer": "USD 45.0m",
+      "assertions": [
+        {
+          "text": "The response must state USD 45.0m."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Credit Facilities, FX Exposure, and Liquidity Stress Scenarios for Q3 2026\" section, on what date will the quarterly review reassess hedge ratios?",
+      "answer": "15 Jul 2026",
+      "assertions": [
+        {
+          "text": "The response must state 15 Jul 2026."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Net Transactional FX Exposure by Currency (Q3 2026)\", what does the Y-axis represent?",
+      "answer": "Net exposure (USD equivalent, millions)",
+      "assertions": [
+        {
+          "text": "The response must state Net exposure (USD equivalent, millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Net Transactional FX Exposure by Currency (Q3 2026)\", what is the value range shown?",
+      "answer": "[-150, 200]",
+      "assertions": [
+        {
+          "text": "The response must state [-150, 200]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Net Transactional FX Exposure by Currency (Q3 2026)\", what type of chart is used?",
+      "answer": "bubble_scatter",
+      "assertions": [
+        {
+          "text": "The response must state bubble_scatter."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)\", what does the Y-axis represent?",
+      "answer": "Cash balance (USD millions)",
+      "assertions": [
+        {
+          "text": "The response must state Cash balance (USD millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)\", what is the value range shown?",
+      "answer": "[150, 600]",
+      "assertions": [
+        {
+          "text": "The response must state [150, 600]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Daily Cash Balance Forecast vs Minimum Operating Threshold (Q3 2026)\", what trend is indicated?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Q3 2026 Cash Position Outlook and Short‑Term Funding Plan\" section, what was the Group's total cash and cash equivalents as of 30 June 2026?",
+      "answer": "USD 312.4m",
+      "assertions": [
+        {
+          "text": "The response must state USD 312.4m."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Q3 2026 Cash Position Outlook and Short‑Term Funding Plan\" section, what is the lowest single‑day projected balance identified for Q3 2026?",
+      "answer": "USD 185.0m",
+      "assertions": [
+        {
+          "text": "The response must state USD 185.0m."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Q3 2026 Cash Position Outlook and Short‑Term Funding Plan\" section, on what date is the USD 150.0m 90‑day commercial paper issuance scheduled?",
+      "answer": "15 July 2026",
+      "assertions": [
+        {
+          "text": "The response must state 15 July 2026."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026\", what does the Y-axis represent?",
+      "answer": "Liquidity headroom (USD millions)",
+      "assertions": [
+        {
+          "text": "The response must state Liquidity headroom (USD millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026\", what is the value range shown?",
+      "answer": "[50, 400]",
+      "assertions": [
+        {
+          "text": "The response must state [50, 400]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Liquidity Headroom Under Stress Scenarios (Base, Moderate, Severe) Across Q3 2026\", what is the overall trend?",
+      "answer": "decreasing",
+      "assertions": [
+        {
+          "text": "The response must state decreasing."
+        }
+      ]
+    }
+  ]
+}

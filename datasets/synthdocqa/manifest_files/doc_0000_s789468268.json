@@ -1,0 +1,4938 @@
+{
+  "doc_id": "doc_0000_s789468268",
+  "title": "Cloud Migration Programme Status Report — Workload Migration Progress, Cost Optimisation vs On‑Premises Baseline, Operational Readiness and Next‑Phase Planning",
+  "subtitle": "Cloud Migration Programme — Status Report: Workload Migration Progress · Cost vs On‑Premises Baseline · Operational Readiness · Next‑Phase Planning",
+  "topic_id": "cloud_migration_programme",
+  "recipe_name": "mixed_document",
+  "seed": 789468268,
+  "document_brief": {
+    "narrative_theme": "This status report shows how the Cloud Migration Programme is accelerating workload cutover while proving cost optimisation against the on‑prem baseline, validating operational readiness, and locking the next-phase plan to hit FY2026 targets.",
+    "sections": [
+      {
+        "heading": "Migration Execution Status and Cost Optimisation vs On‑Prem Baseline",
+        "key_facts": [
+          "As of 2026-04-30, 68 of 120 workloads (56.7%) have been migrated to cloud.",
+          "The on‑prem baseline is $1.20M per month (FY2025 run rate), and April 2026 cloud run cost is $0.92M per month (23.3% lower).",
+          "Wave 2 cutover completed on 2026-04-18, migrating 14 workloads including CRM-App01 and DataHub-ETL."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2",
+          "chart_0",
+          "chart_1",
+          "chart_2"
+        ]
+      },
+      {
+        "heading": "Operational Readiness, Risk Posture, and Next-Phase (Wave 3) Plan",
+        "key_facts": [
+          "100.",
+          "There are 9 open migration risks as of 2026-04-30, including 2 High risks (R-07 and R-09).",
+          "Wave 3 is scheduled for 2026-05-15 to 2026-06-30 and targets 22 additional workloads, including Billing-Core and HRIS-Portal."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5",
+          "chart_3",
+          "chart_4",
+          "chart_5",
+          "chart_6"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Workload migration progress by wave and current state (as of 2026-04-30)",
+        "purpose": "Provides the authoritative count of workloads by migration wave and status to substantiate overall progress and identify remaining scope.",
+        "key_data": {
+          "Total workloads (programme scope)": "120",
+          "Migrated (Production cutover complete)": "68",
+          "In-flight (Build/Test/Cutover planned)": "27",
+          "Not started": "25",
+          "Wave 2 migrated workloads": "14"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Cloud run cost vs on‑prem baseline and realised optimisation (FY2025 baseline; April 2026 actual)",
+        "purpose": "Quantifies cost optimisation by comparing the FY2025 on‑prem monthly baseline to current cloud run costs and computing variance.",
+        "key_data": {
+          "On‑prem baseline (FY2025 run rate)": "month",
+          "Cloud run cost (April 2026)": "month",
+          "Variance vs baseline": "month",
+          "Percent improvement vs baseline": "23.3%",
+          "Top optimisation lever": "Reserved Instances coverage 58%"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Wave 2 cutover summary with named workloads and outcomes (cutover date: 2026-04-18)",
+        "purpose": "Documents the completed Wave 2 cutover, including representative workloads and measurable cutover results used in the status narrative.",
+        "key_data": {
+          "Cutover date": "2026-04-18",
+          "Workloads migrated in Wave 2": "14",
+          "Named workloads included": "CRM-App01; DataHub-ETL",
+          "Post-cutover Sev-1 incidents (first 7 days)": "0",
+          "Rollback events": "0"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Operational Readiness Assessment (ORA) scorecard by domain (assessment date: 2026-04-29)",
+        "purpose": "Shows readiness gaps that must be closed before scaling migration volume, linking ORA scores to next-phase actions.",
+        "key_data": {
+          "ORA overall score": "100",
+          "Incident Management score": "100",
+          "Monitoring & Alerting score": "100",
+          "Backup & DR score": "100",
+          "Change Management score": "100"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Open risk and issue register for migration execution and operations (as of 2026-04-30)",
+        "purpose": "issues, their severity, and ownership to support governance decisions for Wave 3 entry criteria.",
+        "key_data": {
+          "Open risks (total)": "9",
+          "High risks": "2",
+          "High risk IDs": "R-07; R-09",
+          "Top risk theme": "Legacy identity integration",
+          "Risk owner (example)": "A. Patel"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Wave 3 plan: schedule, workload targets, and critical dependencies (2026-05-15 to 2026-06-30)",
+        "purpose": "Defines the next-phase plan with dates, target workload volume, and dependencies required to maintain the programme’s cost and readiness trajectory.",
+        "key_data": {
+          "Wave 3 start date": "2026-05-15",
+          "Wave 3 end date": "2026-06-30",
+          "Wave 3 target workloads": "22",
+          "Named Wave 3 workloads": "Billing-Core; HRIS-Portal",
+          "Critical dependency": "Network egress policy approval by 2026-05-10"
+        }
+      }
+    ],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)",
+        "chart_type": "line",
+        "x_label": "Week ending date",
+        "y_label": "Cumulative workloads migrated (count)",
+        "purpose": "Visualises migration velocity and progress toward the 120-workload scope, highlighting the trajectory into Wave 3."
+      },
+      {
+        "id": "chart_1",
+        "title": "Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)",
+        "chart_type": "bar",
+        "x_label": "Month",
+        "y_label": "Run cost (USD, millions)",
+        "purpose": "Compares current cloud run cost to the on‑prem baseline to evidence realised savings and identify months with cost drift."
+      },
+      {
+        "id": "chart_2",
+        "title": "Cost optimisation drivers contributing to April 2026 savings vs baseline",
+        "chart_type": "pie",
+        "x_label": "Optimisation lever",
+        "y_label": "Share of savings (%)",
+        "purpose": "Breaks down the sources of cost improvement (e.g., Reserved Instances, rightsizing, storage tiering) supporting the 23.3% reduction claim."
+      },
+      {
+        "id": "chart_3",
+        "title": "Operational Readiness Assessment scores by domain (2026-04-29)",
+        "chart_type": "bar",
+        "x_label": "Readiness domain",
+        "y_label": "Score (0–100)",
+        "purpose": "100) that gate Wave 3 scale-up."
+      },
+      {
+        "id": "chart_4",
+        "title": "Migration risks heatmap by likelihood and impact (as of 2026-04-30)",
+        "chart_type": "heatmap",
+        "x_label": "Likelihood (1–5)",
+        "y_label": "Impact (1–5)",
+        "purpose": "Shows concentration of open risks, emphasizing the two High risks (R-07, R-09) requiring mitigation before Wave 3."
+      },
+      {
+        "id": "chart_5",
+        "title": "Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)",
+        "chart_type": "line",
+        "x_label": "Week ending date",
+        "y_label": "Workloads completed in Wave 3 (count)",
+        "purpose": "Tracks schedule confidence for the 22-workload Wave 3 target and supports next-phase resource and dependency decisions."
+      },
+      {
+        "id": "chart_6",
+        "title": "Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)",
+        "chart_type": "scatter",
+        "x_label": "Migrated workloads in production (count)",
+        "y_label": "P2 incidents (count)",
+        "purpose": "Tests whether increased migration volume is correlating with operational instability, informing readiness and cutover pacing."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s789468268.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0000_2c2683b3.png",
+      "scan_llm_hand_6ce4f0b8.png",
+      "img_0003_231a6faa.png",
+      "scan_llm_data_eeedcf91.png",
+      "img_0005_a0f62a3d.png",
+      "scan_llm_text_697dcac9.png",
+      "img_0004_edcf502d.png",
+      "img_0006_7b965a5c.png",
+      "img_0002_95e7327f.png",
+      "img_0001_157eed3a.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 40,
+    "actual_page_count": 29
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "img_0000_2c2683b3",
+      "figure_number": 1,
+      "image_path": "img_0000_2c2683b3.png",
+      "caption": "Figure 1: Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)",
+      "chart_type": "grouped_bar",
+      "chart_title": "Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)",
+      "x_label": "Week ending date",
+      "y_label": "Cumulative workloads migrated (count)",
+      "categories": [
+        "2026-02-28",
+        "2026-03-07",
+        "2026-03-14",
+        "2026-03-21",
+        "2026-03-28",
+        "2026-04-04",
+        "2026-04-11",
+        "2026-04-18",
+        "2026-04-25",
+        "2026-04-30"
+      ],
+      "series_names": [
+        "Cumulative workloads migrated"
+      ],
+      "value_range": [
+        0,
+        120
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "2026-02-28",
+          "2026-03-07",
+          "2026-03-14",
+          "2026-03-21",
+          "2026-03-28",
+          "2026-04-04"
+        ],
+        "series": [
+          "Cumulative workloads migrated"
+        ],
+        "value_range": [
+          0,
+          120
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what does the Y-axis represent?",
+          "answer": "Cumulative workloads migrated (count)",
+          "assertions": [
+            {
+              "text": "The response must state Cumulative workloads migrated (count)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what is the overall trend shown?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what is the value range shown?",
+          "answer": "[0, 120]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 120]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "scan_llm_0002_62efd3c5",
+      "figure_number": 2,
+      "image_path": "scan_llm_hand_6ce4f0b8.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "Figure 2: Cloud Migration Programme — Weekly Status",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "Cloud Migration Programme — Weekly Status",
+        "lines": [
+          "Date: 04 May 2026 — PMO sync notes",
+          " 175 apps).",
+          "Wave 5 completed last Friday — HRIS + 3 finance batch jobs now live in Azure.",
+          "Performance stable: avg. CPU utilisation 42%, no SLA breaches in first 7 days.",
+          "Cost view vs on‑prem baseline (FY2024 run rate £6.8m):",
+          "→ Current cloud run rate projected £5.1m (incl. support + licences).",
+          "→ Net saving trajectory: ~25% YoY once DC lease ends (Oct 2026).",
+          "Reserved Instances + Savings Plan coverage now at 63% of steady-state load.",
+          "Action: increase commitment to 75% after Wave 6 to lock pricing.",
+          "Operational readiness check:",
+          "- L2 support fully trained (cloud monitoring + incident triage).",
+          "- DR failover test (East US → West Europe) passed in 38 mins.",
+          "90 retention standard.",
+          "Risk: Legacy Oracle DB for Supply Chain still latency-sensitive.",
+          "Mitigation: refactor to PaaS PostgreSQL in Phase 2 (Q3 start).",
+          "Security posture: 98% resources tagged, 0 critical Defender alerts open.",
+          "Next phase (Wave 6 & 7): 28 workloads incl. customer portal + API gateway.",
+          "Target: reach 85% migration by end of Q2 FY2026 to hit board milestone."
+        ],
+        "style": "neat",
+        "has_signature": true,
+        "signature_name": "Daniel Whitcombe",
+        "date": "2026",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Date: 04 May 2026 — PMO sync notes"
+        ],
+        [
+          " 175 apps)."
+        ],
+        [
+          "Wave 5 completed last Friday — HRIS + 3 finance batch jobs now live in Azure."
+        ],
+        [
+          "Performance stable: avg. CPU utilisation 42%, no SLA breaches in first 7 days."
+        ],
+        [
+          "Cost view vs on‑prem baseline (FY2024 run rate £6.8m):"
+        ],
+        [
+          "→ Current cloud run rate projected £5.1m (incl. support + licences)."
+        ],
+        [
+          "→ Net saving trajectory: ~25% YoY once DC lease ends (Oct 2026)."
+        ],
+        [
+          "Reserved Instances + Savings Plan coverage now at 63% of steady-state load."
+        ],
+        [
+          "Action: increase commitment to 75% after Wave 6 to lock pricing."
+        ],
+        [
+          "Operational readiness check:"
+        ],
+        [
+          "- L2 support fully trained (cloud monitoring + incident triage)."
+        ],
+        [
+          "- DR failover test (East US → West Europe) passed in 38 mins."
+        ],
+        [
+          "90 retention standard."
+        ],
+        [
+          "Risk: Legacy Oracle DB for Supply Chain still latency-sensitive."
+        ],
+        [
+          "Mitigation: refactor to PaaS PostgreSQL in Phase 2 (Q3 start)."
+        ],
+        [
+          "Security posture: 98% resources tagged, 0 critical Defender alerts open."
+        ],
+        [
+          "Next phase (Wave 6 & 7): 28 workloads incl. customer portal + API gateway."
+        ],
+        [
+          "Target: reach 85% migration by end of Q2 FY2026 to hit board milestone."
+        ]
+      ],
+      "line_count": 18,
+      "hw_style": "neat",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme — Weekly Status\", what is the overall migration progress as a percentage and the number of apps cut over?",
+          "answer": "71% (124 of 175 apps).",
+          "assertions": [
+            {
+              "text": "The response must state '71% (124 of 175 apps).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Cloud Migration Programme — Weekly Status\", how many finance batch jobs went live in Azure as part of Wave 5?",
+          "answer": "Three finance batch jobs.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three finance batch jobs.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme — Weekly Status\", what is the projected current cloud run rate and what was the FY2024 on‑prem baseline run rate?",
+          "answer": "Projected cloud run rate £5.1m vs FY2024 on‑prem baseline £6.8m.",
+          "assertions": [
+            {
+              "text": "The response must state 'Projected cloud run rate £5.1m vs FY2024 on‑prem baseline £6.8m.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Cloud Migration Programme — Weekly Status\", did the DR failover test pass and how long did the failover take?",
+          "answer": "Yes — it passed in 38 minutes (East US → West Europe).",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — it passed in 38 minutes (East US → West Europe).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme — Weekly Status\", who signed the PMO sync notes?",
+          "answer": "Daniel Whitcombe.",
+          "assertions": [
+            {
+              "text": "The response must state 'Daniel Whitcombe.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "text",
+      "variant_id": "text_0000_ef5f5332",
+      "heading": "Migration Execution Status and Cost Optimisation vs On‑Prem Baseline",
+      "word_count": 183,
+      "text_content": [
+        "**Migration Execution Status and Cost Optimisation vs On‑Prem Baseline**",
+        "As of 30-04-2026, 68 of 120 workloads (56.7%) have been migrated to cloud, meeting the programme mid‑point target. This progress reflects completed migrations across infrastructure, middleware, and selected applications, with remaining workloads prioritized by dependency, criticality, and technical fit. Migration velocity has been steady month-over-month and will be re-evaluated against programme milestones to ensure completion within contracted timelines, with executive review.",
+        "The on‑prem baseline is $1.20M per month (FY2025 run rate), and April 2026 cloud run cost is $0.92M per month (23.3% lower). Savings are primarily driven by rightsizing compute, Reserved Instance commitments, storage tiering, and reduced data centre overhead. Remaining optimisation focus areas include licence rationalisation, workload replatforming, and automated instance lifecycle management to sustain and improve run‑rate reductions. And reporting remains monthly.",
+        "18, migrating 14 workloads including CRM-App01 and DataHub-ETL. Post-cutover validation cycles were executed, rollback windows closed, and operational handover completed for transitioned services. Outstanding actions have been captured in the remediation backlog with priority SLAs; these items will inform post-cutover process improvements, runbook refinements, monitoring thresholds, and on-call staffing adjustments. And final audit scheduled."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Migration Execution Status and Cost Optimisation vs On‑Prem Baseline\" section, how many workloads have been migrated to cloud as of 30-04-2026?",
+          "answer": "68 of 120 workloads (56.7%)",
+          "assertions": [
+            {
+              "text": "The response must state 68 of 120 workloads (56.7%)."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Migration Execution Status and Cost Optimisation vs On‑Prem Baseline\" section, what is the on‑prem baseline monthly run rate?",
+          "answer": "$1.20M per month (FY2025 run rate)",
+          "assertions": [
+            {
+              "text": "The response must state $1.20M per month (FY2025 run rate)."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Migration Execution Status and Cost Optimisation vs On‑Prem Baseline\" section, on what date was Wave 2 cutover completed?",
+          "answer": "18",
+          "assertions": [
+            {
+              "text": "18."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "cx_table_0003_b35496cc",
+      "table_number": 1,
+      "caption": "Table 1: Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", which leaf metric columns fall under the super-group \"Cost Optimisation vs On‑Prem Baseline\"?",
+          "answer": "mo); Optimisation Actions Open (#).",
+          "assertions": [
+            {
+              "text": "mo); Optimisation Actions Open (#).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", how many rows does the \"Digital Channels\" category label span?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "mo) for the sub-category \"Payments & Checkout\"?",
+          "answer": "285,000 per month.",
+          "assertions": [
+            {
+              "text": "The response must state '285,000 per month.'."
+            }
+          ]
+        },
+        {
+          "question": "mo)?",
+          "answer": "-87,000 per month.",
+          "assertions": [
+            {
+              "text": "The response must state '-87,000 per month.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", what does the \"Data Lake & ETL Sub-Total\" row show for Optimisation Actions Open (#)?",
+          "answer": "9 optimisation actions open.",
+          "assertions": [
+            {
+              "text": "The response must state '9 optimisation actions open.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", what columns are listed under \"Cost Optimisation vs On‑Prem Baseline\"?",
+          "answer": "mo); Optimisation Actions Open (#).",
+          "assertions": [
+            {
+              "text": "mo); Optimisation Actions Open (#).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", how many header tiers does the table have?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", which cost column indicates the difference between cloud run-rate and on‑prem baseline?",
+          "answer": "mo).",
+          "assertions": [
+            {
+              "text": "mo).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", what does the table annotation explain about its layout and merging?",
+          "answer": "colspan merging.",
+          "assertions": [
+            {
+              "text": "colspan merging.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", what is the subtotal for the Workload Progress group in the On‑Prem Baseline column?",
+          "answer": "285,000 per month.",
+          "assertions": [
+            {
+              "text": "The response must state '285,000 per month.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "text",
+      "variant_id": "text_0001_1e1d540e",
+      "heading": "Operational Readiness, Risk Posture, and Next-Phase (Wave 3) Plan",
+      "word_count": 258,
+      "text_content": [
+        "**Operational Readiness, Risk Posture, and Next-Phase (Wave 3) Plan**",
+        "2026. Success will be measured via MTTA and MTTR targets, with progress reports to the Cloud Programme Board. Tracker shows priorities and owners for rapid remediation completion.",
+        "30 there are 9 open migration risks, including two High risks (R-07 and R-09) requiring immediate mitigation. R-07 (data migration fidelity) and R-09 (third-party dependency) are assigned to the Data Migration Lead and Vendor Manager, with remediation plans and 14-day checkpoints. The remaining seven risks are Medium or Low and tracked in the central risk register and heatmap. Controls include increased validation testing, contractual escalation with the vendor, formal cutover dry-runs, and a reserved contingency of 10% of the phase budget for risk response.",
+        "no-go decision, and a 14-day stabilization period before operational transfer to Cloud Operations. Resource allocations and stakeholder communications are documented in the Wave 3 plan."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Operational Readiness, Risk Posture, and Next-Phase (Wave 3) Plan\" section, what score did the Operations Readiness Assessment receive on 29-04-2026?",
+          "answer": "100",
+          "assertions": [
+            {
+              "text": "100."
+            }
+          ]
+        },
+        {
+          "question": "30?",
+          "answer": "9 open migration risks",
+          "assertions": [
+            {
+              "text": "The response must state 9 open migration risks."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Operational Readiness, Risk Posture, and Next-Phase (Wave 3) Plan\" section, what is the reserved contingency percentage of the phase budget for risk response?",
+          "answer": "10% of the phase budget",
+          "assertions": [
+            {
+              "text": "The response must state 10% of the phase budget."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_a13ebb4b",
+      "table_number": 2,
+      "caption": "Table 2: Budget Expenditure Ledger",
+      "columns": [
+        "Month",
+        "Workstream",
+        "BudgetAllocatedUSD",
+        "ActualSpendUSD",
+        "VarianceUSD"
+      ],
+      "row_count": 67,
+      "cells": [
+        [
+          "Jan-2026",
+          "Landing Zone & Network Setup",
+          "250000",
+          "238500",
+          "-11500"
+        ],
+        [
+          "Jan-2026",
+          "Migration Factory – Wave 1",
+          "320000",
+          "305400",
+          "-14600"
+        ],
+        [
+          "Feb-2026",
+          "Security & Compliance Enablement",
+          "180000",
+          "192300",
+          "12300"
+        ],
+        [
+          "Feb-2026",
+          "Application Refactoring – Wave 1",
+          "275000",
+          "268900",
+          "-6100"
+        ],
+        [
+          "Mar-2026",
+          "Data Platform Migration",
+          "310000",
+          "329750",
+          "19750"
+        ],
+        [
+          "Mar-2026",
+          "Migration Factory – Wave 2",
+          "340000",
+          "334200",
+          "-5800"
+        ],
+        [
+          "Apr-2026",
+          "Operational Readiness & Training",
+          "150000",
+          "142600",
+          "-7400"
+        ],
+        [
+          "Apr-2026",
+          "Cloud Cost Optimisation Tooling",
+          "120000",
+          "115500",
+          "-4500"
+        ],
+        [
+          "May-2026",
+          "Application Refactoring – Wave 2",
+          "290000",
+          "301800",
+          "11800"
+        ],
+        [
+          "May-2026",
+          "Security Enhancements – Phase 2",
+          "160000",
+          "154200",
+          "-5800"
+        ],
+        [
+          "Jun-2026",
+          "Data Platform Optimisation",
+          "200000",
+          "189450",
+          "-10550"
+        ],
+        [
+          "Jun-2026",
+          "Migration Factory – Wave 3",
+          "360000",
+          "372600",
+          "12600"
+        ],
+        [
+          "Jul-2026",
+          "Disaster Recovery Implementation",
+          "220000",
+          "214300",
+          "-5700"
+        ],
+        [
+          "Jul-2026",
+          "Decommissioning On-Prem Systems",
+          "185000",
+          "176900",
+          "-8100"
+        ],
+        [
+          "Aug-2026",
+          "Programme Management Office",
+          "140000",
+          "138250",
+          "-1750"
+        ],
+        [
+          "Month 4",
+          "Application Migration",
+          "150000",
+          "142350",
+          "-7650"
+        ],
+        [
+          "Month 4",
+          "Infrastructure Modernisation",
+          "98000",
+          "102420",
+          "4420"
+        ],
+        [
+          "Month 4",
+          "Security & Compliance",
+          "65000",
+          "61800",
+          "-3200"
+        ],
+        [
+          "Month 5",
+          "Application Migration",
+          "175000",
+          "181600",
+          "6600"
+        ],
+        [
+          "Month 5",
+          "Infrastructure Modernisation",
+          "120000",
+          "115750",
+          "-4250"
+        ],
+        [
+          "Month 5",
+          "Data Migration",
+          "89000",
+          "93450",
+          "4450"
+        ],
+        [
+          "Month 6",
+          "Application Migration",
+          "160000",
+          "154200",
+          "-5800"
+        ],
+        [
+          "Month 6",
+          "Security & Compliance",
+          "72000",
+          "74890",
+          "2890"
+        ],
+        [
+          "Month 6",
+          "Cloud Governance",
+          "54000",
+          "49800",
+          "-4200"
+        ],
+        [
+          "Month 7",
+          "Application Migration",
+          "185000",
+          "192300",
+          "7300"
+        ],
+        [
+          "Month 7",
+          "Infrastructure Modernisation",
+          "110000",
+          "107650",
+          "-2350"
+        ],
+        [
+          "Month 7",
+          "Cost Optimisation",
+          "60000",
+          "55240",
+          "-4760"
+        ],
+        [
+          "Month 8",
+          "Data Migration",
+          "95000",
+          "100880",
+          "5880"
+        ],
+        [
+          "Month 8",
+          "Security & Compliance",
+          "70000",
+          "68210",
+          "-1790"
+        ],
+        [
+          "Month 8",
+          "Cloud Governance",
+          "58000",
+          "60125",
+          "2125"
+        ],
+        [
+          "2026-07",
+          "Migration Factory",
+          "120000",
+          "110500",
+          "9500"
+        ],
+        [
+          "2026-08",
+          "Security & Compliance",
+          "95000",
+          "102300",
+          "-7300"
+        ],
+        [
+          "2026-09",
+          "Data Platform",
+          "150000",
+          "149200",
+          "800"
+        ],
+        [
+          "2026-10",
+          "Application Modernization",
+          "80000",
+          "76000",
+          "4000"
+        ],
+        [
+          "2026-11",
+          "Infrastructure & Networking",
+          "200000",
+          "215500",
+          "-15500"
+        ],
+        [
+          "2026-12",
+          "Disaster Recovery",
+          "175000",
+          "160000",
+          "15000"
+        ],
+        [
+          "2027-01",
+          "Governance & PMO",
+          "90000",
+          "90500",
+          "-500"
+        ],
+        [
+          "2027-02",
+          "Cloud FinOps",
+          "130000",
+          "120000",
+          "10000"
+        ],
+        [
+          "2027-03",
+          "DevOps Enablement",
+          "60000",
+          "58500",
+          "1500"
+        ],
+        [
+          "2027-04",
+          "Workload Migration Wave 3",
+          "140000",
+          "155000",
+          "-15000"
+        ],
+        [
+          "2027-05",
+          "Training & Change Management",
+          "110000",
+          "98000",
+          "12000"
+        ],
+        [
+          "2027-06",
+          "Data Migration",
+          "170000",
+          "168750",
+          "1250"
+        ],
+        [
+          "2027-07",
+          "Identity & Access Management",
+          "100000",
+          "112000",
+          "-12000"
+        ],
+        [
+          "2027-08",
+          "Automation & Tooling",
+          "85000",
+          "83000",
+          "2000"
+        ],
+        [
+          "2027-09",
+          "Optimization & Rightsizing",
+          "190000",
+          "175000",
+          "15000"
+        ],
+        [
+          "May",
+          "Application Migration",
+          "185000",
+          "178450",
+          "6550"
+        ],
+        [
+          "May",
+          "Infrastructure Modernization",
+          "220000",
+          "234300",
+          "-14300"
+        ],
+        [
+          "May",
+          "Security & Compliance",
+          "95000",
+          "88900",
+          "6100"
+        ],
+        [
+          "May",
+          "Cloud Operations",
+          "120000",
+          "125750",
+          "-5750"
+        ],
+        [
+          "May",
+          "FinOps & Cost Optimization",
+          "60000",
+          "54320",
+          "5680"
+        ],
+        [
+          "June",
+          "Application Migration",
+          "210000",
+          "205600",
+          "4400"
+        ],
+        [
+          "June",
+          "Infrastructure Modernization",
+          "240000",
+          "252800",
+          "-12800"
+        ],
+        [
+          "June",
+          "Security & Compliance",
+          "100000",
+          "97350",
+          "2650"
+        ],
+        [
+          "June",
+          "Cloud Operations",
+          "130000",
+          "128400",
+          "1600"
+        ],
+        [
+          "June",
+          "FinOps & Cost Optimization",
+          "65000",
+          "70250",
+          "-5250"
+        ],
+        [
+          "July",
+          "Application Migration",
+          "195000",
+          "189900",
+          "5100"
+        ],
+        [
+          "July",
+          "Infrastructure Modernization",
+          "230000",
+          "221450",
+          "8550"
+        ],
+        [
+          "July",
+          "Security & Compliance",
+          "105000",
+          "112300",
+          "-7300"
+        ],
+        [
+          "July",
+          "Cloud Operations",
+          "135000",
+          "131600",
+          "3400"
+        ],
+        [
+          "July",
+          "FinOps & Cost Optimization",
+          "70000",
+          "66480",
+          "3520"
+        ],
+        [
+          "2026-01",
+          "Workload Migration",
+          "120000",
+          "115500",
+          "4500"
+        ],
+        [
+          "2026-02",
+          "Security & Compliance",
+          "90000",
+          "97500",
+          "-7500"
+        ],
+        [
+          "2026-03",
+          "FinOps Optimization",
+          "75000",
+          "70250",
+          "4750"
+        ],
+        [
+          "2026-04",
+          "Data Platform Migration",
+          "150000",
+          "162300",
+          "-12300"
+        ],
+        [
+          "2026-05",
+          "Application Refactoring",
+          "110000",
+          "104800",
+          "5200"
+        ],
+        [
+          "2026-06",
+          "Infrastructure Decommissioning",
+          "60000",
+          "58350",
+          "1650"
+        ],
+        [
+          "2026-07",
+          "Governance & PMO",
+          "85000",
+          "89200",
+          "-4200"
+        ]
+      ],
+      "derived_answers": {
+        "sum_BudgetAllocatedUSD": 9806000.0,
+        "max_BudgetAllocatedUSD": 360000.0,
+        "min_BudgetAllocatedUSD": 54000.0,
+        "sum_ActualSpendUSD": 9765315.0,
+        "max_ActualSpendUSD": 372600.0,
+        "min_ActualSpendUSD": 49800.0,
+        "sum_VarianceUSD": -10685.0,
+        "max_VarianceUSD": 19750.0,
+        "min_VarianceUSD": -15500.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the VarianceUSD for Jan-2026 under \"Landing Zone & Network Setup\"?",
+          "answer": "-11500",
+          "assertions": [
+            {
+              "text": "The response must state -11500."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the BudgetAllocatedUSD for Month 6 under \"Cloud Governance\"?",
+          "answer": "54000",
+          "assertions": [
+            {
+              "text": "The response must state 54000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what Workstream is listed for 2026-07?",
+          "answer": "Governance & PMO",
+          "assertions": [
+            {
+              "text": "The response must state Governance & PMO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "img_0003_231a6faa",
+      "figure_number": 3,
+      "image_path": "img_0003_231a6faa.png",
+      "caption": "Figure 3: Operational Readiness Assessment scores by domain (2026-04-29)",
+      "chart_type": "stacked_area",
+      "chart_title": "Operational Readiness Assessment scores by domain (2026-04-29)",
+      "x_label": "Readiness domain",
+      "y_label": "Score (0–100)",
+      "categories": [
+        "Governance & Compliance",
+        "Security & Identity",
+        "Platform Operations",
+        "Cost Management (FinOps)",
+        "Backup & DR",
+        "Incident Management",
+        "Monitoring & Observability",
+        "Change & Release Management"
+      ],
+      "series_names": [
+        "Readiness Score"
+      ],
+      "value_range": [
+        70,
+        92
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Readiness Score"
+        ],
+        "value_range": [
+          70,
+          92
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Operational Readiness Assessment scores by domain (2026-04-29)\", what does the Y-axis represent?",
+          "answer": "Score (0–100)",
+          "assertions": [
+            {
+              "text": "The response must state Score (0–100)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Operational Readiness Assessment scores by domain (2026-04-29)\", what is the value range shown for the Readiness Score?",
+          "answer": "[70, 92]",
+          "assertions": [
+            {
+              "text": "The response must state [70, 92]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Operational Readiness Assessment scores by domain (2026-04-29)\", what is the overall trend described?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "cx_table_0001_674f3811",
+      "table_number": 3,
+      "caption": "Table 3: Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", which objective categories are the column groups?",
+          "answer": "Migration Progress; Operational Readiness; Cost Optimisation.",
+          "assertions": [
+            {
+              "text": "The response must state 'Migration Progress; Operational Readiness; Cost Optimisation.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", how many initiatives fall under the \"Migration Execution\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", what is the alignment rating of \"Refactor Priority Apps (containerisation & managed PaaS)\" for the objective \"Run-Rate vs On‑Prem Baseline\"?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "Cloud SQL, schema changes)\"?",
+          "answer": "76.",
+          "assertions": [
+            {
+              "text": "The response must state '76.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", which objective has the highest weighted total score in the \"Objective Weighted Total\" row?",
+          "answer": "Security & Compliance Controls and Run-Rate vs On‑Prem Baseline (tie at 102 each).",
+          "assertions": [
+            {
+              "text": "The response must state 'Security & Compliance Controls and Run-Rate vs On‑Prem Baseline (tie at 102 each).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", how many data rows are shown?",
+          "answer": "18",
+          "assertions": [
+            {
+              "text": "The response must state '18'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", which top-level headers appear in the first header row?",
+          "answer": "Migration Progress; Operational Readiness; Cost Optimisation; Total Score",
+          "assertions": [
+            {
+              "text": "The response must state 'Migration Progress; Operational Readiness; Cost Optimisation; Total Score'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", which is greater: number of data rows or number of initiatives?",
+          "answer": "Data rows (18) greater than initiatives (4).",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (18) greater than initiatives (4).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", what does footnote N explain?",
+          "answer": "H",
+          "assertions": [
+            {
+              "text": "The response must state 'H'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", what is the subtotal for the initiatives group in the Total Score column?",
+          "answer": "4 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "cx_table_0000_278d7ed8",
+      "table_number": 4,
+      "caption": "Table 4: Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", which objective categories are the column groups?",
+          "answer": "Migration Delivery; Operational Readiness; Financial Optimisation.",
+          "assertions": [
+            {
+              "text": "The response must state 'Migration Delivery; Operational Readiness; Financial Optimisation.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", how many initiatives fall under the \"Cost Optimisation\" initiative category?",
+          "answer": "3 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '3 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", what is the alignment rating of \"Wave 3 Modernisation (Containerisation & Managed PaaS)\" for the \"Unit Cost vs On‑Prem\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "No-Go, runbooks, support handover)\" initiative?",
+          "answer": "56.",
+          "assertions": [
+            {
+              "text": "The response must state '56.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", which objective category has the highest weighted total score?",
+          "answer": "Operational Readiness (weighted total 132 across its three objectives).",
+          "assertions": [
+            {
+              "text": "The response must state 'Operational Readiness (weighted total 132 across its three objectives).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", which objective columns are shown in the top header?",
+          "answer": "Migration Delivery; Operational Readiness; Financial Optimisation",
+          "assertions": [
+            {
+              "text": "The response must state 'Migration Delivery; Operational Readiness; Financial Optimisation.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", how many data rows are present in the table?",
+          "answer": "19",
+          "assertions": [
+            {
+              "text": "The response must state '19.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", which count is larger, the number of initiatives or the number of data rows?",
+          "answer": "Data rows (19)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (19).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", what does footnote 1 explain?",
+          "answer": "H",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", what is the subtotal for the initiatives group in the Score column?",
+          "answer": "3 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '3 initiatives.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0002_38df3579",
+      "table_number": 5,
+      "caption": "Table 5: Wave 2 cutover summary with named workloads and outcomes (cutover date: 2026-04-18)",
+      "columns": [
+        "Metric",
+        "Value",
+        "Status",
+        "Notes"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Cutover date",
+          "2026-04-18",
+          "Completed",
+          "Wave 2 production cutover executed during approved change window"
+        ],
+        [
+          "Workloads migrated in Wave 2",
+          "14",
+          "Completed",
+          "Includes customer-facing and data platform services"
+        ],
+        [
+          "Named workloads included",
+          "CRM-App01; DataHub-ETL",
+          "Completed",
+          "Representative Tier-1 application and core data integration pipeline"
+        ],
+        [
+          "Post-cutover Sev-1 incidents (first 7 days)",
+          "0",
+          "Within target",
+          "No critical business impact incidents recorded"
+        ],
+        [
+          "Rollback events",
+          "0",
+          "Within target",
+          "No workloads required reversion to on-premises"
+        ],
+        [
+          "Average cutover duration (per workload)",
+          "2.3 hours",
+          "On plan",
+          "Aligned with rehearsal benchmarks and runbook estimates"
+        ],
+        [
+          "Cost variance vs on-prem baseline (first 30 days)",
+          "-18%",
+          "Favourable",
+          "Driven by rightsizing and reserved capacity adoption"
+        ],
+        [
+          "Application availability (first 7 days)",
+          "99.98%",
+          "Above SLA",
+          "Exceeded 99.9% availability target"
+        ],
+        [
+          "Operational readiness sign-off date",
+          "2026-04-25",
+          "Approved",
+          "Operations, security, and support teams formally accepted handover"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Value": 95.98,
+        "max_Value": 99.98,
+        "min_Value": -18.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Wave 2 cutover summary with named workloads and outcomes (cutover date: 2026-04-18)\", what is the value for \"Workloads migrated in Wave 2\"?",
+          "answer": "14",
+          "assertions": [
+            {
+              "text": "The response must state 14."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Wave 2 cutover summary with named workloads and outcomes (cutover date: 2026-04-18)\", what is the \"Application availability (first 7 days)\" value?",
+          "answer": "99.98%",
+          "assertions": [
+            {
+              "text": "The response must state 99.98%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Wave 2 cutover summary with named workloads and outcomes (cutover date: 2026-04-18)\", what is the \"Operational readiness sign-off date\"?",
+          "answer": "2026-04-25",
+          "assertions": [
+            {
+              "text": "The response must state 2026-04-25."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "scan_llm_0001_fcdd1efb",
+      "figure_number": 4,
+      "image_path": "scan_llm_data_eeedcf91.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 4: Cloud Migration Programme Status – Wave Progress & Cost Performance",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Cloud Migration Programme Status – Wave Progress & Cost Performance",
+        "caption": "Current status of workload migration waves showing cutover progress, cost optimisation versus on-prem baseline, and operational readiness validation.",
+        "headers": [
+          "Wave",
+          "Workloads Migrated",
+          "Cutover %",
+          "Cost Variance vs Baseline",
+          "Ops Readiness"
+        ],
+        "rows": [
+          [
+            "Wave 1 – Finance Core",
+            "18",
+            "100%",
+            "-28%",
+            "Validated"
+          ],
+          [
+            "Wave 2 – HR & Payroll",
+            "11",
+            "100%",
+            "-22%",
+            "Validated"
+          ],
+          [
+            "Wave 3 – CRM Platforms",
+            "14",
+            "93%",
+            "-17%",
+            "Validated"
+          ],
+          [
+            "Wave 4 – Data Warehouse",
+            "9",
+            "78%",
+            "-12%",
+            "In Progress"
+          ],
+          [
+            "Wave 5 – Web Portals",
+            "21",
+            "86%",
+            "-19%",
+            "Validated"
+          ],
+          [
+            "Wave 6 – Supply Chain",
+            "13",
+            "69%",
+            "-9%",
+            "In Progress"
+          ],
+          [
+            "Wave 7 – Analytics Sandbox",
+            "7",
+            "100%",
+            "-34%",
+            "Validated"
+          ],
+          [
+            "Wave 8 – Identity Services",
+            "6",
+            "83%",
+            "-15%",
+            "In Progress"
+          ],
+          [
+            "Wave 9 – Manufacturing Apps",
+            "10",
+            "72%",
+            "-11%",
+            "In Progress"
+          ],
+          [
+            "Wave 10 – Archive Systems",
+            "15",
+            "95%",
+            "-26%",
+            "Validated"
+          ],
+          [
+            "Wave 11 – Collaboration Suite",
+            "12",
+            "88%",
+            "-18%",
+            "Validated"
+          ],
+          [
+            "Wave 12 – Risk & Compliance",
+            "8",
+            "61%",
+            "-6%",
+            "Planned Validation"
+          ]
+        ],
+        "summary_note": "Across twelve waves, 144 workloads have been migrated with an average cost reduction of 18% against the on-premises baseline. Operational readiness has been validated for over half of the completed waves, positioning the programme to meet FY2026 optimisation targets.",
+        "date": "April 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Wave",
+        "Workloads Migrated",
+        "Cutover %",
+        "Cost Variance vs Baseline",
+        "Ops Readiness"
+      ],
+      "cells": [
+        [
+          "Wave 1 – Finance Core",
+          "18",
+          "100%",
+          "-28%",
+          "Validated"
+        ],
+        [
+          "Wave 2 – HR & Payroll",
+          "11",
+          "100%",
+          "-22%",
+          "Validated"
+        ],
+        [
+          "Wave 3 – CRM Platforms",
+          "14",
+          "93%",
+          "-17%",
+          "Validated"
+        ],
+        [
+          "Wave 4 – Data Warehouse",
+          "9",
+          "78%",
+          "-12%",
+          "In Progress"
+        ],
+        [
+          "Wave 5 – Web Portals",
+          "21",
+          "86%",
+          "-19%",
+          "Validated"
+        ],
+        [
+          "Wave 6 – Supply Chain",
+          "13",
+          "69%",
+          "-9%",
+          "In Progress"
+        ],
+        [
+          "Wave 7 – Analytics Sandbox",
+          "7",
+          "100%",
+          "-34%",
+          "Validated"
+        ],
+        [
+          "Wave 8 – Identity Services",
+          "6",
+          "83%",
+          "-15%",
+          "In Progress"
+        ],
+        [
+          "Wave 9 – Manufacturing Apps",
+          "10",
+          "72%",
+          "-11%",
+          "In Progress"
+        ],
+        [
+          "Wave 10 – Archive Systems",
+          "15",
+          "95%",
+          "-26%",
+          "Validated"
+        ],
+        [
+          "Wave 11 – Collaboration Suite",
+          "12",
+          "88%",
+          "-18%",
+          "Validated"
+        ],
+        [
+          "Wave 12 – Risk & Compliance",
+          "8",
+          "61%",
+          "-6%",
+          "Planned Validation"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Across twelve waves, 144 workloads have been migrated with an average cost reduction of 18% against the on-premises baseline. Operational readiness has been validated for over half of the completed waves, positioning the programme to meet FY2026 optimisation targets.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", how many workloads have been migrated across all twelve waves?",
+          "answer": "144 workloads.",
+          "assertions": [
+            {
+              "text": "The response must state '144 workloads.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", what is the average cost reduction against the on-premises baseline?",
+          "answer": "18% average cost reduction vs baseline.",
+          "assertions": [
+            {
+              "text": "The response must state '18% average cost reduction vs baseline.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", what is the operational readiness status for Wave 4 – Data Warehouse?",
+          "answer": "In Progress.",
+          "assertions": [
+            {
+              "text": "The response must state 'In Progress.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", what cutover percentage is reported for Wave 3 – CRM Platforms?",
+          "answer": "93%.",
+          "assertions": [
+            {
+              "text": "The response must state '93%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", which waves have reached 100% cutover?",
+          "answer": "Wave 1 – Finance Core and Wave 2 – HR & Payroll.",
+          "assertions": [
+            {
+              "text": "The response must state 'Wave 1 – Finance Core and Wave 2 – HR & Payroll.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "table_0003_b84a2f66",
+      "table_number": 6,
+      "caption": "Table 6: Operational Readiness Assessment (ORA) scorecard by domain (assessment date: 2026-04-29)",
+      "columns": [
+        "Readiness Area",
+        "ORA Score",
+        "Target Score",
+        "Gap to Target",
+        "Risk Level",
+        "Next-Phase Action"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Overall Operational Readiness",
+          "100",
+          "100",
+          "8 points",
+          "Medium",
+          "Close priority capability gaps before increasing migration wave from 15 to 25 workloads per month"
+        ],
+        [
+          "Incident Management",
+          "100",
+          "100",
+          "11 points",
+          "High",
+          "7 cloud L2 support model and automate ticket enrichment by 30 Jun 2026"
+        ],
+        [
+          "Monitoring & Alerting",
+          "100",
+          "100",
+          "5 points",
+          "Medium",
+          "Expand synthetic monitoring coverage to 100% of Tier 1 services before next release cycle"
+        ],
+        [
+          "Backup & DR",
+          "100",
+          "100",
+          "4 points",
+          "Low",
+          "Complete cross-region failover test for remaining 6 production workloads by 15 Jul 2026"
+        ],
+        [
+          "Change Management",
+          "100",
+          "100",
+          "7 points",
+          "Medium",
+          "Integrate cloud change workflows with ITSM and enforce CAB review for high-risk deployments"
+        ],
+        [
+          "Security & Access Management",
+          "100",
+          "100",
+          "11 points",
+          "High",
+          "Roll out conditional access policies and remediate 42 non-compliant IAM roles prior to scaling migration wave 3"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Operational Readiness Assessment (ORA) scorecard by domain (assessment date: 2026-04-29)\", what is the ORA Score for Incident Management?",
+          "answer": "100",
+          "assertions": [
+            {
+              "text": "100."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Readiness Assessment (ORA) scorecard by domain (assessment date: 2026-04-29)\", what is the Risk Level for Security & Access Management?",
+          "answer": "High",
+          "assertions": [
+            {
+              "text": "The response must state High."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Operational Readiness Assessment (ORA) scorecard by domain (assessment date: 2026-04-29)\", what is the Next-Phase Action for Backup & DR?",
+          "answer": "Complete cross-region failover test for remaining 6 production workloads by 15 Jul 2026",
+          "assertions": [
+            {
+              "text": "The response must state Complete cross-region failover test for remaining 6 production workloads by 15 Jul 2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "table",
+      "variant_id": "table_0001_917b0f53",
+      "table_number": 7,
+      "caption": "Table 7: Cloud run cost vs on‑prem baseline and realised optimisation (FY2025 baseline; April 2026 actual)",
+      "columns": [
+        "Metric",
+        "Measurement Period",
+        "Value",
+        "Unit",
+        "Notes"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "On‑prem baseline (FY2025 run rate)",
+          "FY2025 average",
+          "month",
+          "USD",
+          "Represents fully loaded data centre run cost including hardware, facilities, and support contracts"
+        ],
+        [
+          "Cloud run cost (April 2026)",
+          "April 2026",
+          "month",
+          "USD",
+          "Includes compute, storage, network, managed services, and enterprise support"
+        ],
+        [
+          "Variance vs baseline",
+          "April 2026 vs FY2025 baseline",
+          "month",
+          "USD",
+          "Net reduction in monthly operating cost after migration of 68% of workloads"
+        ],
+        [
+          "Percent improvement vs baseline",
+          "April 2026 vs FY202 5baseline",
+          "23.3%",
+          "Percentage",
+          "Calculated as cost reduction divided by on‑prem baseline run rate"
+        ],
+        [
+          "Top optimisation lever",
+          "Q4 FY2026 optimisation review",
+          "Reserved Instances coverage 58%",
+          "Coverage rate",
+          "Primary savings driver from compute ocmmitment strategy and workload rightsizing"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Value": 23.3,
+        "max_Value": 23.3,
+        "min_Value": 23.3
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Cloud run cost vs on‑prem baseline and realised optimisation (FY2025 baseline; April 2026 actual)\", what is the Value listed for \"Cloud run cost (April 2026)\"?",
+          "answer": "month",
+          "assertions": [
+            {
+              "text": "month."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud run cost vs on‑prem baseline and realised optimisation (FY2025 baseline; April 2026 actual)\", what is the Unit for \"Percent improvement vs baseline\"?",
+          "answer": "Percentage",
+          "assertions": [
+            {
+              "text": "The response must state Percentage."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud run cost vs on‑prem baseline and realised optimisation (FY2025 baseline; April 2026 actual)\", what is the Value for \"Top optimisation lever\"?",
+          "answer": "Reserved Instances coverage 58%",
+          "assertions": [
+            {
+              "text": "The response must state Reserved Instances coverage 58%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "table",
+      "variant_id": "cx_table_0002_3c208fe2",
+      "table_number": 8,
+      "caption": "Table 8: Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", which objective categories are the column groups?",
+          "answer": "Migration Delivery; Operational Readiness; Financial Optimisation; Governance & Risk.",
+          "assertions": [
+            {
+              "text": "The response must state 'Migration Delivery; Operational Readiness; Financial Optimisation; Governance & Risk.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", how many initiatives fall under the \"Migration Execution\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "CD, Runbooks)\" for the \"SRE & Monitoring\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", what is the total score for the \"Decommissioning & On‑Prem Exit (DC footprint reduction)\" initiative?",
+          "answer": "70.",
+          "assertions": [
+            {
+              "text": "The response must state '70.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", which objective category has the highest weighted total score?",
+          "answer": "Governance & Risk (total 306).",
+          "assertions": [
+            {
+              "text": "The response must state 'Governance & Risk (total 306).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", what primary objectives are listed across the top header?",
+          "answer": "Migration Delivery; Operational Readiness; Financial Optimisation; Governance & Risk.",
+          "assertions": [
+            {
+              "text": "The response must state 'Migration Delivery; Operational Readiness; Financial Optimisation; Governance & Risk.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", how many header tiers does the table include?",
+          "answer": "Three.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", which objective appears leftmost in the top header?",
+          "answer": "Migration Delivery.",
+          "assertions": [
+            {
+              "text": "The response must state 'Migration Delivery.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", what annotation explains how the table was generated?",
+          "answer": "LLM-generated cross reference grid.",
+          "assertions": [
+            {
+              "text": "The response must state 'LLM-generated cross reference grid.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", what is the subtotal count for initiatives in the programme?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "img_0005_a0f62a3d",
+      "figure_number": 5,
+      "image_path": "img_0005_a0f62a3d.png",
+      "caption": "Figure 5: Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)",
+      "chart_type": "ridgeline",
+      "chart_title": "Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)",
+      "x_label": "Week ending date",
+      "y_label": "Workloads completed in Wave 3 (count)",
+      "categories": [
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-26",
+        "2026-06-30"
+      ],
+      "series_names": [
+        "Planned completions",
+        "Forecast completions"
+      ],
+      "value_range": [
+        0,
+        6
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "2026-05-15",
+          "2026-05-22",
+          "2026-05-29",
+          "2026-06-05",
+          "2026-06-12"
+        ],
+        "value_range": [
+          0,
+          6
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)\", what does the Y-axis represent?",
+          "answer": "Workloads completed in Wave 3 (count)",
+          "assertions": [
+            {
+              "text": "The response must state Workloads completed in Wave 3 (count)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)\", what is the value range shown?",
+          "answer": "[0, 6]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 6]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)\", what trend is indicated?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "table",
+      "variant_id": "table_0004_8bea02bb",
+      "table_number": 9,
+      "caption": "Table 9: Open risk and issue register for migration execution and operations (as of 2026-04-30)",
+      "columns": [
+        "Risk ID",
+        "Status",
+        "Severity",
+        "Owner",
+        " Theme",
+        "Target Mitigation Date"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Portfolio Summary",
+          "Active",
+          "A",
+          "PMO",
+          "Open risks (total): 9; High risks: 2; High risk IDs: R-07; R-09; Top risk theme: Legacy identity integration",
+          "2026-06-30"
+        ],
+        [
+          "R-05",
+          "Mitigation in progress",
+          "Medium",
+          "L. Chen",
+          "Incomplete cost tagging impacting optimisation reporting vs on-prem baseline",
+          "2026-05-28"
+        ],
+        [
+          "R-06",
+          "Action plan agreed",
+          "Medium",
+          "S. Kumar",
+          "L3 cloud support model",
+          "2026-06-15"
+        ],
+        [
+          "R-07",
+          "Escalated - remediation sprint planned",
+          "High",
+          "A. Patel",
+          "Legacy identity integration causing authentication failures in migrated workloads",
+          "2026-05-20"
+        ],
+        [
+          "-R08",
+          "Monitornig",
+          "Low",
+          "M. Rossi",
+          "Data residency validation pending for two EU workloads",
+          "2026-06-05"
+        ],
+        [
+          "R-09",
+          "Capacity expansion approved",
+          "High",
+          "D. Williams",
+          "Wave 3 landing zone capacity constraints impacting migration schedule",
+          "2026-05-25"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Open risk and issue register for migration execution and operations (as of 2026-04-30)\", what is the Severity listed for Risk ID R-07?",
+          "answer": "High",
+          "assertions": [
+            {
+              "text": "The response must state High."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Open risk and issue register for migration execution and operations (as of 2026-04-30)\", what is the Owner for Risk ID R-06?",
+          "answer": "S. Kumar",
+          "assertions": [
+            {
+              "text": "The response must state S. Kumar."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Open risk and issue register for migration execution and operations (as of 2026-04-30)\", what is the Target Mitigation Date for the Portfolio Summary row?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "image",
+      "variant_id": "scan_llm_0000_928192a5",
+      "figure_number": 6,
+      "image_path": "scan_llm_text_697dcac9.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 6: Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation",
+        "subtitle": "Ref: CMP-22-3846447 | Date: 04 May 2026 | Reporting Period: Q3 FY2026 | From: Enterprise Cloud Transformation Office",
+        "sections": [
+          {
+            "heading": "Executive Summary",
+            "body": "As of 30 April 2026, the programme has migrated 312 of 428 in-scope workloads (73%), marking a 9% increase since the previous quarter. Cutover velocity improved following the standardisation of migration runbooks and automated landing zone provisioning. The programme remains on track to meet the FY2026 target of 85% workload migration by year-end. Cost optimisation performance continues to trend positively against the approved on-premises baseline."
+          },
+          {
+            "heading": "Migration Progress and Cutover Performance",
+            "body": "During Q3, 54 production workloads were successfully cut over to Azure and AWS environments, including the Finance Reporting Suite and the Regional Claims Portal. Average migration cycle time reduced from 11.2 weeks to 8.6 weeks due to improved dependency mapping and pre-cutover validation testing. Two legacy Oracle-based systems were replatformed to managed database services, eliminating $420K in projected hardware refresh spend. Remaining complex workloads are concentrated in the Data Analytics and Manufacturing Execution domains."
+          },
+          {
+            "heading": "Cost Optimisation vs On-Prem Baseline",
+            "body": "Actual cloud run-rate for migrated workloads is 18.7% below the FY2024 on-prem baseline when adjusted for inflation and licensing uplifts. Savings have been realised through reserved instance commitments, rightsizing of compute, and decommissioning of three secondary data centre racks in Milton Keynes. Storage lifecycle policies reduced monthly object storage costs by 23% compared to initial post-migration estimates. Forecast models indicate a cumulative net benefit of £6.4M by the end of FY2026 if current optimisation controls are maintained."
+          },
+          {
+            "heading": "Operational Readiness and Service Stability",
+            "body": "Operational readiness reviews were completed for all Q3 migrations, with 96% of workloads meeting Day-1 monitoring, backup, and DR compliance standards at go-live. Mean time to recovery (MTTR) for cloud-hosted services has improved to 42 minutes, compared to 68 minutes in the legacy estate. A minor incident in February related to misconfigured network security groups was resolved within SLA and led to enhanced automated policy checks. Cloud Operations has completed cross-training of 28 infrastructure engineers on FinOps and SRE practices to support steady-state operations."
+          },
+          {
+            "heading": "Next-Phase Plan (Q4 FY2026)",
+            "body": "The next phase will prioritise migration of the remaining high-complexity analytics clusters and the SAP BW environment, representing approximately 14% of total infrastructure cost. A structured application rationalisation review will target retirement or consolidation of at least 12 low-utilisation services before migration. Contract negotiations for extended reserved capacity are underway to lock in pricing before the July rate adjustment window. The programme board has endorsed the revised roadmap, confirming alignment with the FY2026 objective of 85% migration and a minimum 20% cost reduction against the original on-prem baseline."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Cloud Migration Programme | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Executive Summary",
+        "Migration Progress and Cutover Performance",
+        "Cost Optimisation vs On-Prem Baseline",
+        "Operational Readiness and Service Stability",
+        "Next-Phase Plan (Q4 FY2026)"
+      ],
+      "cells": [
+        {
+          "heading": "Executive Summary",
+          "body": "As of 30 April 2026, the programme has migrated 312 of 428 in-scope workloads (73%), marking a 9% increase since the previous quarter. Cutover velocity improved following the standardisation of migration runbooks and automated landing zone provisioning. The programme remains on track to meet the FY2026 target of 85% workload migration by year-end. Cost optimisation performance continues to trend positively against the approved on-premises baseline."
+        },
+        {
+          "heading": "Migration Progress and Cutover Performance",
+          "body": "During Q3, 54 production workloads were successfully cut over to Azure and AWS environments, including the Finance Reporting Suite and the Regional Claims Portal. Average migration cycle time reduced from 11.2 weeks to 8.6 weeks due to improved dependency mapping and pre-cutover validation testing. Two legacy Oracle-based systems were replatformed to managed database services, eliminating $420K in projected hardware refresh spend. Remaining complex workloads are concentrated in the Data Analytics and Manufacturing Execution domains."
+        },
+        {
+          "heading": "Cost Optimisation vs On-Prem Baseline",
+          "body": "Actual cloud run-rate for migrated workloads is 18.7% below the FY2024 on-prem baseline when adjusted for inflation and licensing uplifts. Savings have been realised through reserved instance commitments, rightsizing of compute, and decommissioning of three secondary data centre racks in Milton Keynes. Storage lifecycle policies reduced monthly object storage costs by 23% compared to initial post-migration estimates. Forecast models indicate a cumulative net benefit of £6.4M by the end of FY2026 if current optimisation controls are maintained."
+        },
+        {
+          "heading": "Operational Readiness and Service Stability",
+          "body": "Operational readiness reviews were completed for all Q3 migrations, with 96% of workloads meeting Day-1 monitoring, backup, and DR compliance standards at go-live. Mean time to recovery (MTTR) for cloud-hosted services has improved to 42 minutes, compared to 68 minutes in the legacy estate. A minor incident in February related to misconfigured network security groups was resolved within SLA and led to enhanced automated policy checks. Cloud Operations has completed cross-training of 28 infrastructure engineers on FinOps and SRE practices to support steady-state operations."
+        },
+        {
+          "heading": "Next-Phase Plan (Q4 FY2026)",
+          "body": "The next phase will prioritise migration of the remaining high-complexity analytics clusters and the SAP BW environment, representing approximately 14% of total infrastructure cost. A structured application rationalisation review will target retirement or consolidation of at least 12 low-utilisation services before migration. Contract negotiations for extended reserved capacity are underway to lock in pricing before the July rate adjustment window. The programme board has endorsed the revised roadmap, confirming alignment with the FY2026 objective of 85% migration and a minimum 20% cost reduction against the original on-prem baseline."
+        }
+      ],
+      "full_text": "Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\nRef: CMP-22-3846447 | Date: 04 May 2026 | Reporting Period: Q3 FY2026 | From: Enterprise Cloud Transformation Office\n\nSection Executive Summary\nAs of 30 April 2026, the programme has migrated 312 of 428 in-scope workloads (73%), marking a 9% increase since the previous quarter. Cutover velocity improved following the standardisation of migration runbooks and automated landing zone provisioning. The programme remains on track to meet the FY2026 target of 85% workload migration by year-end. Cost optimisation performance continues to trend positively against the approved on-premises baseline.\n\nSection Migration Progress and Cutover Performance\nDuring Q3, 54 production workloads were successfully cut over to Azure and AWS environments, including the Finance Reporting Suite and the Regional Claims Portal. Average migration cycle time reduced from 11.2 weeks to 8.6 weeks due to improved dependency mapping and pre-cutover validation testing. Two legacy Oracle-based systems were replatformed to managed database services, eliminating $420K in projected hardware refresh spend. Remaining complex workloads are concentrated in the Data Analytics and Manufacturing Execution domains.\n\nSection Cost Optimisation vs On-Prem Baseline\nActual cloud run-rate for migrated workloads is 18.7% below the FY2024 on-prem baseline when adjusted for inflation and licensing uplifts. Savings have been realised through reserved instance commitments, rightsizing of compute, and decommissioning of three secondary data centre racks in Milton Keynes. Storage lifecycle policies reduced monthly object storage costs by 23% compared to initial post-migration estimates. Forecast models indicate a cumulative net benefit of £6.4M by the end of FY2026 if current optimisation controls are maintained.\n\nSection Operational Readiness and Service Stability\nOperational readiness reviews were completed for all Q3 migrations, with 96% of workloads meeting Day-1 monitoring, backup, and DR compliance standards at go-live. Mean time to recovery (MTTR) for cloud-hosted services has improved to 42 minutes, compared to 68 minutes in the legacy estate. A minor incident in February related to misconfigured network security groups was resolved within SLA and led to enhanced automated policy checks. Cloud Operations has completed cross-training of 28 infrastructure engineers on FinOps and SRE practices to support steady-state operations.\n\nSection Next-Phase Plan (Q4 FY2026)\nThe next phase will prioritise migration of the remaining high-complexity analytics clusters and the SAP BW environment, representing approximately 14% of total infrastructure cost. A structured application rationalisation review will target retirement or consolidation of at least 12 low-utilisation services before migration. Contract negotiations for extended reserved capacity are underway to lock in pricing before the July rate adjustment window. The programme board has endorsed the revised roadmap, confirming alignment with the FY2026 objective of 85% migration and a minimum 20% cost reduction against the original on-prem baseline.\n\nConfidential — Internal Distribution Only | Cloud Migration Programme | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", as of 30 April 2026 how many in-scope workloads had been migrated?",
+          "answer": "312 of 428 in-scope workloads (73%).",
+          "assertions": [
+            {
+              "text": "The response must state '312 of 428 in-scope workloads (73%).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", what percentage increase in migrated workloads was recorded since the previous quarter?",
+          "answer": "A 9% increase since the previous quarter.",
+          "assertions": [
+            {
+              "text": "The response must state 'A 9% increase since the previous quarter.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", how many production workloads were cut over during Q3 and to which cloud providers?",
+          "answer": "54 production workloads were cut over to Azure and AWS.",
+          "assertions": [
+            {
+              "text": "The response must state '54 production workloads were cut over to Azure and AWS.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", how does the actual cloud run-rate for migrated workloads compare to the FY2024 on-prem baseline?",
+          "answer": "The actual cloud run-rate is 18.7% below the FY2024 on‑prem baseline (adjusted for inflation and licensing uplifts).",
+          "assertions": [
+            {
+              "text": "The response must state 'The actual cloud run-rate is 18.7% below the FY2024 on‑prem baseline (adjusted for inflation and licensing uplifts).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", were operational readiness reviews completed for all Q3 migrations and what percentage met Day‑1 monitoring, backup, and DR compliance?",
+          "answer": "Yes — reviews were completed for all Q3 migrations, and 96% met Day‑1 monitoring, backup, and DR compliance.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — reviews were completed for all Q3 migrations, and 96% met Day‑1 monitoring, backup, and DR compliance.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_2d51b79a",
+      "table_number": 10,
+      "caption": "Table 10: Employee Activity Report",
+      "columns": [
+        "Employee Name",
+        "Role",
+        "Workloads Migrated (Count)",
+        "Cost Optimisation Achieved (USD Thousands)",
+        "Operational Readiness Score (%)"
+      ],
+      "row_count": 73,
+      "cells": [
+        [
+          "Alicia Gomez",
+          "Cloud Migration Lead",
+          "12",
+          "480",
+          "92"
+        ],
+        [
+          "Ravi Patel",
+          "Cloud Solutions Architect",
+          "9",
+          "365",
+          "88"
+        ],
+        [
+          "Monica Chen",
+          "DevOps Engineer",
+          "15",
+          "510",
+          "94"
+        ],
+        [
+          "Daniel Brooks",
+          "Infrastructure Engineer",
+          "7",
+          "295",
+          "85"
+        ],
+        [
+          "Sara Ibrahim",
+          "FinOps Analyst",
+          "5",
+          "420",
+          "90"
+        ],
+        [
+          "Liam O'Connor",
+          "Security Engineer",
+          "6",
+          "250",
+          "89"
+        ],
+        [
+          "Elena Petrova",
+          "Application Modernisation Lead",
+          "11",
+          "470",
+          "91"
+        ],
+        [
+          "Marcus Johnson",
+          "Cloud Operations Manager",
+          "8",
+          "330",
+          "87"
+        ],
+        [
+          "Priya Nair",
+          "Automation Engineer",
+          "10",
+          "390",
+          "93"
+        ],
+        [
+          "Thomas Müller",
+          "Database Migration Specialist",
+          "6",
+          "275",
+          "86"
+        ],
+        [
+          "Hannah Kim",
+          "Platform Engineer",
+          "13",
+          "505",
+          "95"
+        ],
+        [
+          "Carlos Ramirez",
+          "Network Architect",
+          "4",
+          "210",
+          "84"
+        ],
+        [
+          "Fatima Al-Sayed",
+          "Business Analyst",
+          "3",
+          "180",
+          "83"
+        ],
+        [
+          "George Williams",
+          "Service Transition Manager",
+          "5",
+          "240",
+          "88"
+        ],
+        [
+          "Isabella Rossi",
+          "Cloud Cost Analyst",
+          "2",
+          "310",
+          "90"
+        ],
+        [
+          "Alicia Romero",
+          "Cloud Migration Lead",
+          "28",
+          "520",
+          "92"
+        ],
+        [
+          "Darnell Hughes",
+          "Cloud Solutions Architect",
+          "24",
+          "410",
+          "88"
+        ],
+        [
+          "Mei Lin Chen",
+          "DevOps Engineer",
+          "31",
+          "465",
+          "90"
+        ],
+        [
+          "Ravi Patel",
+          "Infrastructure Engineer",
+          "19",
+          "275",
+          "85"
+        ],
+        [
+          "Sofia Martinez",
+          "Cloud Operations Manager",
+          "22",
+          "350",
+          "87"
+        ],
+        [
+          "Lukas Schneider",
+          "Site Reliability Engineer",
+          "27",
+          "390",
+          "91"
+        ],
+        [
+          "Fatima Al-Nouri",
+          "Security Engineer",
+          "18",
+          "260",
+          "89"
+        ],
+        [
+          "Ethan Brooks",
+          "Migration Analyst",
+          "16",
+          "210",
+          "83"
+        ],
+        [
+          "Isabella Rossi",
+          "FinOps Specialist",
+          "14",
+          "480",
+          "86"
+        ],
+        [
+          "Noah Kim",
+          "Platform Engineer",
+          "29",
+          "430",
+          "93"
+        ],
+        [
+          "Olivia Johnson",
+          "Application Modernization Lead",
+          "21",
+          "305",
+          "84"
+        ],
+        [
+          "Mateo Garcia",
+          "Cloud Support Engineer",
+          "17",
+          "195",
+          "82"
+        ],
+        [
+          "Hannah Müller",
+          "Compliance & Governance Officer",
+          "13",
+          "170",
+          "88"
+        ],
+        [
+          "James O’Connor",
+          "Enterprise Architect",
+          "26",
+          "540",
+          "94"
+        ],
+        [
+          "Priya Nair",
+          "Automation Engineer",
+          "23",
+          "365",
+          "90"
+        ],
+        [
+          "Row 31 - Daniel Harper",
+          "Cloud Migration Lead",
+          "18",
+          "245",
+          "92"
+        ],
+        [
+          "Row 32 - Aisha Rahman",
+          "Cloud Solutions Architect",
+          "22",
+          "310",
+          "95"
+        ],
+        [
+          "Row 33 - Miguel Santos",
+          "DevOps Engineer",
+          "15",
+          "180",
+          "88"
+        ],
+        [
+          "Row 34 - Priya Nair",
+          "Infrastructure Engineer",
+          "19",
+          "205",
+          "90"
+        ],
+        [
+          "Row 35 - Liam O'Connor",
+          "Cloud Operations Manager",
+          "25",
+          "340",
+          "97"
+        ],
+        [
+          "Row 36 - Chen Wei",
+          "Site Reliability Engineer",
+          "17",
+          "190",
+          "89"
+        ],
+        [
+          "Row 37 - Sofia Martinez",
+          "Application Migration Specialist",
+          "21",
+          "275",
+          "93"
+        ],
+        [
+          "Row 38 - Ethan Brown",
+          "Cloud Financial Analyst",
+          "14",
+          "220",
+          "91"
+        ],
+        [
+          "Row 39 - Fatima Al-Zahra",
+          "Security Engineer",
+          "16",
+          "160",
+          "94"
+        ],
+        [
+          "Row 40 - Noah Kim",
+          "Platform Engineer",
+          "20",
+          "230",
+          "90"
+        ],
+        [
+          "Row 41 - Isabella Rossi",
+          "Enterprise Architect",
+          "23",
+          "355",
+          "96"
+        ],
+        [
+          "Row 42 - Arjun Mehta",
+          "Automation Engineer",
+          "18",
+          "210",
+          "92"
+        ],
+        [
+          "Row 43 - Hannah Wilson",
+          "Cloud Project Manager",
+          "24",
+          "300",
+          "95"
+        ],
+        [
+          "Row 44 - Omar El-Sayed",
+          "Systems Engineer",
+          "13",
+          "150",
+          "87"
+        ],
+        [
+          "Row 45 - Chloe Dubois",
+          "Migration Analyst",
+          "12",
+          "140",
+          "86"
+        ],
+        [
+          "Row 46 - Priya Nair",
+          "Cloud Migration Lead",
+          "28",
+          "540",
+          "92"
+        ],
+        [
+          "Row 47 - Daniel Brooks",
+          "Senior Cloud Engineer",
+          "19",
+          "410",
+          "88"
+        ],
+        [
+          "Row 48 - Mei Lin",
+          "DevOps Engineer",
+          "23",
+          "375",
+          "90"
+        ],
+        [
+          "Row 49 - Carlos Ramirez",
+          "Infrastructure Architect",
+          "31",
+          "620",
+          "94"
+        ],
+        [
+          "Row 50 - Aisha Khan",
+          "Cloud Operations Manager",
+          "17",
+          "295",
+          "85"
+        ],
+        [
+          "Row 51 - Lukas Schneider",
+          "Site Reliability Engineer",
+          "26",
+          "455",
+          "91"
+        ],
+        [
+          "Row 52 - Hannah Kim",
+          "Cloud Security Specialist",
+          "14",
+          "260",
+          "87"
+        ],
+        [
+          "Row 53 - James O'Connor",
+          "Platform Engineer",
+          "21",
+          "389",
+          "89"
+        ],
+        [
+          "Row 54 - Sofia Martinez",
+          "Cloud Financial Analyst",
+          "12",
+          "515",
+          "93"
+        ],
+        [
+          "Row 55 - Ethan Williams",
+          "Migration Engineer",
+          "24",
+          "430",
+          "90"
+        ],
+        [
+          "Row 56 - Fatima El-Sayed",
+          "Enterprise Architect",
+          "29",
+          "680",
+          "95"
+        ],
+        [
+          "Row 57 - Noah Johnson",
+          "Automation Engineer",
+          "18",
+          "340",
+          "86"
+        ],
+        [
+          "Row 58 - Isabella Rossi",
+          "Cloud Consultant",
+          "16",
+          "300",
+          "84"
+        ],
+        [
+          "Row 59 - Raj Patel",
+          "Technical Program Manager",
+          "27",
+          "590",
+          "92"
+        ],
+        [
+          "Row 60 - Chloe Dubois",
+          "Application Modernisation Lead",
+          "22",
+          "470",
+          "91"
+        ],
+        [
+          "61. Priya Nair",
+          "Cloud Migration Lead",
+          "42",
+          "185",
+          "92"
+        ],
+        [
+          "62. Daniel Brooks",
+          "Senior Cloud Engineer",
+          "37",
+          "142",
+          "88"
+        ],
+        [
+          "63. Mei Lin",
+          "DevOps Engineer",
+          "29",
+          "96",
+          "85"
+        ],
+        [
+          "64. Carlos Ramirez",
+          "Infrastructure Architect",
+          "51",
+          "210",
+          "94"
+        ],
+        [
+          "65. Aisha Khan",
+          "Cloud Operations Manager",
+          "33",
+          "120",
+          "89"
+        ],
+        [
+          "66. Liam O'Connor",
+          "Site Reliability Engineer",
+          "27",
+          "78",
+          "83"
+        ],
+        [
+          "67. Sofia Petrova",
+          "Cloud Solutions Architect",
+          "46",
+          "175",
+          "91"
+        ],
+        [
+          "68. Ethan Williams",
+          "Migration Specialist",
+          "31",
+          "104",
+          "87"
+        ],
+        [
+          "69. Hannah Kim",
+          "Platform Engineer",
+          "24",
+          "69",
+          "82"
+        ],
+        [
+          "70. Marcus Johansson",
+          "Cloud Financial Analyst",
+          "18",
+          "154",
+          "86"
+        ],
+        [
+          "71. Isabella Rossi",
+          "Application Modernisation Lead",
+          "39",
+          "133",
+          "90"
+        ],
+        [
+          "72. Noah Schneider",
+          "Systems Integration Engineer",
+          "22",
+          "71",
+          "84"
+        ],
+        [
+          "73. Grace Thompson",
+          "Cloud Programme Manager",
+          "55",
+          "248",
+          "95"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Workloads Migrated (Count)": 1502.0,
+        "max_Workloads Migrated (Count)": 55.0,
+        "min_Workloads Migrated (Count)": 2.0,
+        "sum_Cost Optimisation Achieved (USD Thousands)": 22559.0,
+        "max_Cost Optimisation Achieved (USD Thousands)": 680.0,
+        "min_Cost Optimisation Achieved (USD Thousands)": 69.0,
+        "sum_Operational Readiness Score (%)": 6525.0,
+        "max_Operational Readiness Score (%)": 97.0,
+        "min_Operational Readiness Score (%)": 82.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Operational Readiness Score (%) for Grace Thompson?",
+          "answer": "95",
+          "assertions": [
+            {
+              "text": "The response must state 95."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Role listed for Chloe Dubois?",
+          "answer": "Application Modernisation Lead",
+          "assertions": [
+            {
+              "text": "The response must state Application Modernisation Lead."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Cost Optimisation Achieved (USD Thousands) for Ravi Patel in the role of Infrastructure Engineer?",
+          "answer": "275",
+          "assertions": [
+            {
+              "text": "The response must state 275."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "table",
+      "variant_id": "table_0000_7a8d3270",
+      "table_number": 11,
+      "caption": "Table 11: Workload migration progress by wave and current state (as of 2026-04-30)",
+      "columns": [
+        "Migration Wave",
+        "Total Workloads (Scope)",
+        "Migrated (Production cutover complete)",
+        "Cutover planned)",
+        "Not started",
+        "Target Completion",
+        "RAG Status"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Wave 0 (Pilot)",
+          "10",
+          "10",
+          "0",
+          "0",
+          "2025-09-30",
+          "Green"
+        ],
+        [
+          "Wave 1",
+          "25",
+          "22",
+          "3",
+          "0",
+          "2025-12-15",
+          "Green"
+        ],
+        [
+          "Wave 2",
+          "20",
+          "14",
+          "4",
+          "2",
+          "2026-02-28",
+          "Amber"
+        ],
+        [
+          "Wave 3",
+          "18",
+          "8",
+          "6",
+          "4",
+          "",
+          "Amber"
+        ],
+        [
+          "Wave 4",
+          "17",
+          "6",
+          "7",
+          "4",
+          "2026-08-31",
+          "Amber"
+        ],
+        [
+          "Wave 5",
+          "15",
+          "5",
+          "5",
+          "5",
+          "2026-11-30",
+          "Red"
+        ],
+        [
+          "Wave 6",
+          "15",
+          "3",
+          "2",
+          "",
+          "2027-02-28",
+          "Red"
+        ],
+        [
+          "Programme Total",
+          "120",
+          "68",
+          "27",
+          "25",
+          "2027-02-28",
+          "Amber"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Total Workloads (Scope)": 240.0,
+        "max_Total Workloads (Scope)": 120.0,
+        "min_Total Workloads (Scope)": 10.0,
+        "sum_Migrated (Production cutover complete)": 136.0,
+        "max_Migrated (Production cutover complete)": 68.0,
+        "min_Migrated (Production cutover complete)": 3.0,
+        "sum_In-flight (Build/Test/Cutover planned)": 54.0,
+        "max_In-flight (Build/Test/Cutover planned)": 27.0,
+        "min_In-flight (Build/Test/Cutover planned)": 0.0,
+        "sum_Not started": 40.0,
+        "max_Not started": 25.0,
+        "min_Not started": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Workload migration progress by wave and current state (as of 2026-04-30)\", what is the RAG Status for Wave 5?",
+          "answer": "Red",
+          "assertions": [
+            {
+              "text": "The response must state Red."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Workload migration progress by wave and current state (as of 2026-04-30)\", what is the Target Completion date for Wave 4?",
+          "answer": "2026-08-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-08-31."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Workload migration progress by wave and current state (as of 2026-04-30)\", how many Total Workloads (Scope) are listed for Programme Total?",
+          "answer": "120",
+          "assertions": [
+            {
+              "text": "The response must state 120."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "img_0004_edcf502d",
+      "figure_number": 7,
+      "image_path": "img_0004_edcf502d.png",
+      "caption": "Figure 7: Migration risks heatmap by likelihood and impact (as of 2026-04-30)",
+      "chart_type": "heatmap",
+      "chart_title": "Migration risks heatmap by likelihood and impact (as of 2026-04-30)",
+      "x_label": "Likelihood (1–5)",
+      "y_label": "Impact (1–5)",
+      "categories": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "series_names": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "value_range": [
+        0,
+        5
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "series": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "value_range": [
+          0,
+          5
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Migration risks heatmap by likelihood and impact (as of 2026-04-30)\", what does the Y-axis represent?",
+          "answer": "Impact (1–5)",
+          "assertions": [
+            {
+              "text": "The response must state Impact (1–5)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Migration risks heatmap by likelihood and impact (as of 2026-04-30)\", what is the value range shown?",
+          "answer": "[0, 5]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 5]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Migration risks heatmap by likelihood and impact (as of 2026-04-30)\", what is the chart type?",
+          "answer": "heatmap",
+          "assertions": [
+            {
+              "text": "The response must state heatmap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "table",
+      "variant_id": "table_0005_b7616a1b",
+      "table_number": 12,
+      "caption": "Table 12: Wave 3 plan: schedule, workload targets, and critical dependencies (2026-05-15 to 2026-06-30)",
+      "columns": [
+        " Wave",
+        "Status",
+        "Target Workloads",
+        " Scope",
+        "Critical Dependencies",
+        "End Date",
+        "Start Date"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Wave 3",
+          "Approved – Mobilisation in progress",
+          "22",
+          "Billing-Core; HRIS-Portal; Finance-Reporting; CRM-API",
+          "Network egress policy approval by 2026-05-10",
+          "2026-06-30",
+          "2026-05-15"
+        ],
+        [
+          "Wave 4",
+          "Planned",
+          "18",
+          "Data-Warehouse ETL; Marketing-Automation; Ops-Analytics",
+          "Completion of Wave 3 hypercare and security pattern validation",
+          "2026-09-15",
+          "2026-07-15"
+        ],
+        [
+          "Operational Readiness Uplift",
+          "In progress",
+          "A",
+          "Cloud cost governance automation; DR runbook validation",
+          "FinOps tooling configuration and SOC sign-off",
+          "2026-07-31",
+          "2026-05-01"
+        ],
+        [
+          "Cost Optimisation Sprint 2",
+          "Planned – Business case under review",
+          "Applies to 40 migrated workloads",
+          "Rightsizing; Savings Plans purchase; Storage tiering",
+          "Executive approval of 3-year Savings Plan commitment",
+          "2026-08-15",
+          "2026-06-01"
+        ],
+        [
+          "Wave 5 (Preliminary Planning)",
+          "Draft schedule – Pending Wave 4 validation",
+          "25",
+          "Legacy-ERP; SupplyChain-EDI; Archive-Services",
+          "Data centre exit notice confirmation and vendor contract amendments",
+          "2026-11-30",
+          "2026-09-20"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Target Workloads": 65.0,
+        "max_Target Workloads": 25.0,
+        "min_Target Workloads": 18.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Wave 3 plan: schedule, workload targets, and critical dependencies (2026-05-15 to 2026-06-30)\", what is the End Date for Wave 3?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Wave 3 plan: schedule, workload targets, and critical dependencies (2026-05-15 to 2026-06-30)\", what is the Status of \"Cost Optimisation Sprint 2\"?",
+          "answer": "Planned – Business case under review",
+          "assertions": [
+            {
+              "text": "The response must state Planned – Business case under review."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Wave 3 plan: schedule, workload targets, and critical dependencies (2026-05-15 to 2026-06-30)\", what is the Critical Dependencies entry for \"Wave 5 (Preliminary Planning)\"?",
+          "answer": "Data centre exit notice confirmation and vendor contract amendments",
+          "assertions": [
+            {
+              "text": "The response must state Data centre exit notice confirmation and vendor contract amendments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "image",
+      "variant_id": "img_0006_7b965a5c",
+      "figure_number": 8,
+      "image_path": "img_0006_7b965a5c.png",
+      "caption": "Figure 8: Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)",
+      "chart_type": "grouped_bar",
+      "chart_title": "Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)",
+      "x_label": "Migrated workloads in production (count)",
+      "y_label": "P2 incidents (count)",
+      "categories": [
+        "2026-03-11",
+        "2026-03-18",
+        "2026-03-25",
+        "2026-04-01",
+        "2026-04-08",
+        "2026-04-15",
+        "2026-04-22",
+        "2026-04-29"
+      ],
+      "series_names": [
+        "P2 incidents vs migrated workload count"
+      ],
+      "value_range": [
+        0,
+        120
+      ],
+      "trend": "uniform",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "2026-03-11",
+          "2026-03-18",
+          "2026-03-25",
+          "2026-04-01",
+          "2026-04-08",
+          "2026-04-15"
+        ],
+        "series": [
+          "P2 incidents vs migrated workload count"
+        ],
+        "value_range": [
+          0,
+          120
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)\", what does the Y-axis represent?",
+          "answer": "P2 incidents (count)",
+          "assertions": [
+            {
+              "text": "P2 incidents (count)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)\", what is the value range shown?",
+          "answer": "[0, 120]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 120]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)\", what is one of the listed category dates?",
+          "answer": "2026-03-11",
+          "assertions": [
+            {
+              "text": "The response must state 2026-03-11."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "image",
+      "variant_id": "img_0002_95e7327f",
+      "figure_number": 9,
+      "image_path": "img_0002_95e7327f.png",
+      "caption": "Figure 9: Cost optimisation drivers contributing to April 2026 savings vs baseline",
+      "chart_type": "heatmap",
+      "chart_title": "Cost optimisation drivers contributing to April 2026 savings vs baseline",
+      "x_label": "Optimisation lever",
+      "y_label": "Share of savings (%)",
+      "categories": [
+        "Reserved Instances & Savings Plans",
+        "Compute Rightsizing",
+        "Storage Tiering & Lifecycle Policies",
+        "Decommissioning of Idle Resources",
+        "Network Optimisation",
+        "Licensing Optimisation (BYOL)"
+      ],
+      "series_names": [
+        "Share of total savings"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Reserved Instances & Savings Plans",
+          "Compute Rightsizing",
+          "Storage Tiering & Lifecycle Policies",
+          "Decommissioning of Idle Resources",
+          "Network Optimisation",
+          "Licensing Optimisation (BYOL)"
+        ],
+        "series": [
+          "Share of total savings"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Cost optimisation drivers contributing to April 2026 savings vs baseline\", what does the Y-axis represent?",
+          "answer": "Share of savings (%)",
+          "assertions": [
+            {
+              "text": "The response must state Share of savings (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Cost optimisation drivers contributing to April 2026 savings vs baseline\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Cost optimisation drivers contributing to April 2026 savings vs baseline\", name one optimisation lever category shown on the X-axis.",
+          "answer": "Compute Rightsizing",
+          "assertions": [
+            {
+              "text": "The response must state Compute Rightsizing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "image",
+      "variant_id": "img_0001_157eed3a",
+      "figure_number": 10,
+      "image_path": "img_0001_157eed3a.png",
+      "caption": "Figure 10: Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)",
+      "chart_type": "violin",
+      "chart_title": "Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)",
+      "x_label": "Month",
+      "y_label": "Run cost (USD, millions)",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series_names": [
+        "On‑prem baseline (FY2025)",
+        "Cloud actual (2026 YTD)"
+      ],
+      "value_range": [
+        2.5,
+        4.2
+      ],
+      "trend": "decreasing",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May"
+        ],
+        "value_range": [
+          2.5,
+          4.2
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)\", what does the Y-axis represent?",
+          "answer": "Run cost (USD, millions)",
+          "assertions": [
+            {
+              "text": "The response must state Run cost (USD, millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)\", what is the overall trend shown?",
+          "answer": "decreasing",
+          "assertions": [
+            {
+              "text": "The response must state decreasing."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)\", what is the value range displayed?",
+          "answer": "[2.5, 4.2]",
+          "assertions": [
+            {
+              "text": "The response must state [2.5, 4.2]."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "img_0000_2c2683b3": {
+      "kind": "image",
+      "perturbations": [
+        "rotation",
+        "watermark"
+      ],
+      "chart_type": "grouped_bar",
+      "chart_title": "Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)",
+      "x_label": "Week ending date",
+      "y_label": "Cumulative workloads migrated (count)",
+      "categories": [
+        "2026-02-28",
+        "2026-03-07",
+        "2026-03-14",
+        "2026-03-21",
+        "2026-03-28",
+        "2026-04-04",
+        "2026-04-11",
+        "2026-04-18",
+        "2026-04-25",
+        "2026-04-30"
+      ],
+      "series_names": [
+        "Cumulative workloads migrated"
+      ],
+      "value_range": [
+        0,
+        120
+      ],
+      "trend": "increasing",
+      "filename": "img_0000_2c2683b3.png",
+      "image_path": "img_0000_2c2683b3.png",
+      "topic_id": "cloud_migration_programme"
+    },
+    "scan_llm_0002_62efd3c5": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_6ce4f0b8.png",
+      "topic_id": ""
+    },
+    "text_0000_ef5f5332": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats"
+      ],
+      "heading": "Migration Execution Status and Cost Optimisation vs On‑Prem Baseline",
+      "word_count": 183,
+      "text_type": "llm_prose",
+      "topic_id": "cloud_migration_programme"
+    },
+    "cx_table_0003_b35496cc": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 26,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "cloud_migration_programme"
+    },
+    "text_0001_1e1d540e": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats",
+        "unicode_punctuation"
+      ],
+      "heading": "Operational Readiness, Risk Posture, and Next-Phase (Wave 3) Plan",
+      "word_count": 258,
+      "text_type": "llm_prose",
+      "topic_id": "cloud_migration_programme"
+    },
+    "llm_mp_table_0001_a13ebb4b": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "budget_expenditure_ledger",
+      "row_count": 67,
+      "col_count": 5,
+      "columns": [
+        "Month",
+        "Workstream",
+        "BudgetAllocatedUSD",
+        "ActualSpendUSD",
+        "VarianceUSD"
+      ],
+      "topic_id": ""
+    },
+    "img_0003_231a6faa": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "stacked_area",
+      "chart_title": "Operational Readiness Assessment scores by domain (2026-04-29)",
+      "x_label": "Readiness domain",
+      "y_label": "Score (0–100)",
+      "categories": [
+        "Governance & Compliance",
+        "Security & Identity",
+        "Platform Operations",
+        "Cost Management (FinOps)",
+        "Backup & DR",
+        "Incident Management",
+        "Monitoring & Observability",
+        "Change & Release Management"
+      ],
+      "series_names": [
+        "Readiness Score"
+      ],
+      "value_range": [
+        70,
+        92
+      ],
+      "trend": "volatile",
+      "filename": "img_0003_231a6faa.png",
+      "image_path": "img_0003_231a6faa.png",
+      "topic_id": "cloud_migration_programme"
+    },
+    "cx_table_0001_674f3811": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 18,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "cloud_migration_programme"
+    },
+    "cx_table_0000_278d7ed8": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 19,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "cloud_migration_programme"
+    },
+    "table_0002_38df3579": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Documents_the_completed_Wave_2_cutover,_including_representa",
+      "row_count": 9,
+      "col_count": 4,
+      "columns": [
+        "Metric",
+        "Value",
+        "Status",
+        "Notes"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "scan_llm_0001_fcdd1efb": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_eeedcf91.png",
+      "topic_id": ""
+    },
+    "table_0003_b84a2f66": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Shows_readiness_gaps_that_must_be_closed_before_scaling_migr",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Readiness Area",
+        "ORA Score",
+        "Target Score",
+        "Gap to Target",
+        "Risk Level",
+        "Next-Phase Action"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "table_0001_917b0f53": {
+      "kind": "table",
+      "perturbations": [
+        "noise",
+        "structural"
+      ],
+      "base_type": "Quantifies_cost_optimisation_by_comparing_the_FY2025_on‑prem",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Metric",
+        "Measurement Period",
+        "Value",
+        "Unit",
+        "Notes"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "cx_table_0002_3c208fe2": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 22,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "cloud_migration_programme"
+    },
+    "img_0005_a0f62a3d": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "ridgeline",
+      "chart_title": "Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)",
+      "x_label": "Week ending date",
+      "y_label": "Workloads completed in Wave 3 (count)",
+      "categories": [
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-26",
+        "2026-06-30"
+      ],
+      "series_names": [
+        "Planned completions",
+        "Forecast completions"
+      ],
+      "value_range": [
+        0,
+        6
+      ],
+      "trend": "increasing",
+      "filename": "img_0005_a0f62a3d.png",
+      "image_path": "img_0005_a0f62a3d.png",
+      "topic_id": "cloud_migration_programme"
+    },
+    "table_0004_8bea02bb": {
+      "kind": "table",
+      "perturbations": [
+        "noise",
+        "semantic"
+      ],
+      "base_type": "issues,_their_severity,_and_ownersh",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Risk ID",
+        "Status",
+        "Severity",
+        "Owner",
+        " Theme",
+        "Target Mitigation Date"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "scan_llm_0000_928192a5": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_697dcac9.png",
+      "topic_id": ""
+    },
+    "llm_mp_table_0000_2d51b79a": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "employee_activity_report",
+      "row_count": 73,
+      "col_count": 5,
+      "columns": [
+        "Employee Name",
+        "Role",
+        "Workloads Migrated (Count)",
+        "Cost Optimisation Achieved (USD Thousands)",
+        "Operational Readiness Score (%)"
+      ],
+      "topic_id": ""
+    },
+    "table_0000_7a8d3270": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Provides_the_authoritative_count_of_workloads_by_migration_w",
+      "row_count": 8,
+      "col_count": 7,
+      "columns": [
+        "Migration Wave",
+        "Total Workloads (Scope)",
+        "Migrated (Production cutover complete)",
+        "Cutover planned)",
+        "Not started",
+        "Target Completion",
+        "RAG Status"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "img_0004_edcf502d": {
+      "kind": "image",
+      "perturbations": [
+        "blur"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Migration risks heatmap by likelihood and impact (as of 2026-04-30)",
+      "x_label": "Likelihood (1–5)",
+      "y_label": "Impact (1–5)",
+      "categories": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "series_names": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "value_range": [
+        0,
+        5
+      ],
+      "trend": "volatile",
+      "filename": "img_0004_edcf502d.png",
+      "image_path": "img_0004_edcf502d.png",
+      "topic_id": "cloud_migration_programme"
+    },
+    "table_0005_b7616a1b": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "formatting"
+      ],
+      "base_type": "Defines_the_next-phase_plan_with_dates,_target_workload_volu",
+      "row_count": 5,
+      "col_count": 7,
+      "columns": [
+        " Wave",
+        "Status",
+        "Target Workloads",
+        " Scope",
+        "Critical Dependencies",
+        "End Date",
+        "Start Date"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "img_0006_7b965a5c": {
+      "kind": "image",
+      "perturbations": [
+        "rotation"
+      ],
+      "chart_type": "grouped_bar",
+      "chart_title": "Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)",
+      "x_label": "Migrated workloads in production (count)",
+      "y_label": "P2 incidents (count)",
+      "categories": [
+        "2026-03-11",
+        "2026-03-18",
+        "2026-03-25",
+        "2026-04-01",
+        "2026-04-08",
+        "2026-04-15",
+        "2026-04-22",
+        "2026-04-29"
+      ],
+      "series_names": [
+        "P2 incidents vs migrated workload count"
+      ],
+      "value_range": [
+        0,
+        120
+      ],
+      "trend": "uniform",
+      "filename": "img_0006_7b965a5c.png",
+      "image_path": "img_0006_7b965a5c.png",
+      "topic_id": "cloud_migration_programme"
+    },
+    "img_0002_95e7327f": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "heatmap",
+      "chart_title": "Cost optimisation drivers contributing to April 2026 savings vs baseline",
+      "x_label": "Optimisation lever",
+      "y_label": "Share of savings (%)",
+      "categories": [
+        "Reserved Instances & Savings Plans",
+        "Compute Rightsizing",
+        "Storage Tiering & Lifecycle Policies",
+        "Decommissioning of Idle Resources",
+        "Network Optimisation",
+        "Licensing Optimisation (BYOL)"
+      ],
+      "series_names": [
+        "Share of total savings"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "volatile",
+      "filename": "img_0002_95e7327f.png",
+      "image_path": "img_0002_95e7327f.png",
+      "topic_id": "cloud_migration_programme"
+    },
+    "img_0001_157eed3a": {
+      "kind": "image",
+      "perturbations": [
+        "blur",
+        "rotation"
+      ],
+      "chart_type": "violin",
+      "chart_title": "Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)",
+      "x_label": "Month",
+      "y_label": "Run cost (USD, millions)",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series_names": [
+        "On‑prem baseline (FY2025)",
+        "Cloud actual (2026 YTD)"
+      ],
+      "value_range": [
+        2.5,
+        4.2
+      ],
+      "trend": "decreasing",
+      "filename": "img_0001_157eed3a.png",
+      "image_path": "img_0001_157eed3a.png",
+      "topic_id": "cloud_migration_programme"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what does the Y-axis represent?",
+      "answer": "Cumulative workloads migrated (count)",
+      "assertions": [
+        {
+          "text": "The response must state Cumulative workloads migrated (count)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what is the overall trend shown?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cumulative workloads migrated vs programme scope (weekly through 2026-04-30)\", what is the value range shown?",
+      "answer": "[0, 120]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 120]."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme — Weekly Status\", what is the overall migration progress as a percentage and the number of apps cut over?",
+      "answer": "71% (124 of 175 apps).",
+      "assertions": [
+        {
+          "text": "The response must state '71% (124 of 175 apps).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Cloud Migration Programme — Weekly Status\", how many finance batch jobs went live in Azure as part of Wave 5?",
+      "answer": "Three finance batch jobs.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three finance batch jobs.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme — Weekly Status\", what is the projected current cloud run rate and what was the FY2024 on‑prem baseline run rate?",
+      "answer": "Projected cloud run rate £5.1m vs FY2024 on‑prem baseline £6.8m.",
+      "assertions": [
+        {
+          "text": "The response must state 'Projected cloud run rate £5.1m vs FY2024 on‑prem baseline £6.8m.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Cloud Migration Programme — Weekly Status\", did the DR failover test pass and how long did the failover take?",
+      "answer": "Yes — it passed in 38 minutes (East US → West Europe).",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — it passed in 38 minutes (East US → West Europe).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme — Weekly Status\", who signed the PMO sync notes?",
+      "answer": "Daniel Whitcombe.",
+      "assertions": [
+        {
+          "text": "The response must state 'Daniel Whitcombe.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Migration Execution Status and Cost Optimisation vs On‑Prem Baseline\" section, how many workloads have been migrated to cloud as of 30-04-2026?",
+      "answer": "68 of 120 workloads (56.7%)",
+      "assertions": [
+        {
+          "text": "The response must state 68 of 120 workloads (56.7%)."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Migration Execution Status and Cost Optimisation vs On‑Prem Baseline\" section, what is the on‑prem baseline monthly run rate?",
+      "answer": "$1.20M per month (FY2025 run rate)",
+      "assertions": [
+        {
+          "text": "The response must state $1.20M per month (FY2025 run rate)."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Migration Execution Status and Cost Optimisation vs On‑Prem Baseline\" section, on what date was Wave 2 cutover completed?",
+      "answer": "18",
+      "assertions": [
+        {
+          "text": "18."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", which leaf metric columns fall under the super-group \"Cost Optimisation vs On‑Prem Baseline\"?",
+      "answer": "mo); Optimisation Actions Open (#).",
+      "assertions": [
+        {
+          "text": "mo); Optimisation Actions Open (#).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", how many rows does the \"Digital Channels\" category label span?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "mo) for the sub-category \"Payments & Checkout\"?",
+      "answer": "285,000 per month.",
+      "assertions": [
+        {
+          "text": "The response must state '285,000 per month.'."
+        }
+      ]
+    },
+    {
+      "question": "mo)?",
+      "answer": "-87,000 per month.",
+      "assertions": [
+        {
+          "text": "The response must state '-87,000 per month.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", what does the \"Data Lake & ETL Sub-Total\" row show for Optimisation Actions Open (#)?",
+      "answer": "9 optimisation actions open.",
+      "assertions": [
+        {
+          "text": "The response must state '9 optimisation actions open.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", what columns are listed under \"Cost Optimisation vs On‑Prem Baseline\"?",
+      "answer": "mo); Optimisation Actions Open (#).",
+      "assertions": [
+        {
+          "text": "mo); Optimisation Actions Open (#).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", how many header tiers does the table have?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", which cost column indicates the difference between cloud run-rate and on‑prem baseline?",
+      "answer": "mo).",
+      "assertions": [
+        {
+          "text": "mo).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", what does the table annotation explain about its layout and merging?",
+      "answer": "colspan merging.",
+      "assertions": [
+        {
+          "text": "colspan merging.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, Cost Optimisation, Operational Readiness, and Next-Phase Plan (FY26 Q2)\", what is the subtotal for the Workload Progress group in the On‑Prem Baseline column?",
+      "answer": "285,000 per month.",
+      "assertions": [
+        {
+          "text": "The response must state '285,000 per month.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Operational Readiness, Risk Posture, and Next-Phase (Wave 3) Plan\" section, what score did the Operations Readiness Assessment receive on 29-04-2026?",
+      "answer": "100",
+      "assertions": [
+        {
+          "text": "100."
+        }
+      ]
+    },
+    {
+      "question": "30?",
+      "answer": "9 open migration risks",
+      "assertions": [
+        {
+          "text": "The response must state 9 open migration risks."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Operational Readiness, Risk Posture, and Next-Phase (Wave 3) Plan\" section, what is the reserved contingency percentage of the phase budget for risk response?",
+      "answer": "10% of the phase budget",
+      "assertions": [
+        {
+          "text": "The response must state 10% of the phase budget."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the VarianceUSD for Jan-2026 under \"Landing Zone & Network Setup\"?",
+      "answer": "-11500",
+      "assertions": [
+        {
+          "text": "The response must state -11500."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the BudgetAllocatedUSD for Month 6 under \"Cloud Governance\"?",
+      "answer": "54000",
+      "assertions": [
+        {
+          "text": "The response must state 54000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what Workstream is listed for 2026-07?",
+      "answer": "Governance & PMO",
+      "assertions": [
+        {
+          "text": "The response must state Governance & PMO."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Operational Readiness Assessment scores by domain (2026-04-29)\", what does the Y-axis represent?",
+      "answer": "Score (0–100)",
+      "assertions": [
+        {
+          "text": "The response must state Score (0–100)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Operational Readiness Assessment scores by domain (2026-04-29)\", what is the value range shown for the Readiness Score?",
+      "answer": "[70, 92]",
+      "assertions": [
+        {
+          "text": "The response must state [70, 92]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Operational Readiness Assessment scores by domain (2026-04-29)\", what is the overall trend described?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", which objective categories are the column groups?",
+      "answer": "Migration Progress; Operational Readiness; Cost Optimisation.",
+      "assertions": [
+        {
+          "text": "The response must state 'Migration Progress; Operational Readiness; Cost Optimisation.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", how many initiatives fall under the \"Migration Execution\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", what is the alignment rating of \"Refactor Priority Apps (containerisation & managed PaaS)\" for the objective \"Run-Rate vs On‑Prem Baseline\"?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "Cloud SQL, schema changes)\"?",
+      "answer": "76.",
+      "assertions": [
+        {
+          "text": "The response must state '76.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", which objective has the highest weighted total score in the \"Objective Weighted Total\" row?",
+      "answer": "Security & Compliance Controls and Run-Rate vs On‑Prem Baseline (tie at 102 each).",
+      "assertions": [
+        {
+          "text": "The response must state 'Security & Compliance Controls and Run-Rate vs On‑Prem Baseline (tie at 102 each).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", how many data rows are shown?",
+      "answer": "18",
+      "assertions": [
+        {
+          "text": "The response must state '18'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", which top-level headers appear in the first header row?",
+      "answer": "Migration Progress; Operational Readiness; Cost Optimisation; Total Score",
+      "assertions": [
+        {
+          "text": "The response must state 'Migration Progress; Operational Readiness; Cost Optimisation; Total Score'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", which is greater: number of data rows or number of initiatives?",
+      "answer": "Data rows (18) greater than initiatives (4).",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (18) greater than initiatives (4).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", what does footnote N explain?",
+      "answer": "H",
+      "assertions": [
+        {
+          "text": "The response must state 'H'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Strategic Initiatives vs Objectives Alignment Grid\", what is the subtotal for the initiatives group in the Total Score column?",
+      "answer": "4 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", which objective categories are the column groups?",
+      "answer": "Migration Delivery; Operational Readiness; Financial Optimisation.",
+      "assertions": [
+        {
+          "text": "The response must state 'Migration Delivery; Operational Readiness; Financial Optimisation.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", how many initiatives fall under the \"Cost Optimisation\" initiative category?",
+      "answer": "3 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '3 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", what is the alignment rating of \"Wave 3 Modernisation (Containerisation & Managed PaaS)\" for the \"Unit Cost vs On‑Prem\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "No-Go, runbooks, support handover)\" initiative?",
+      "answer": "56.",
+      "assertions": [
+        {
+          "text": "The response must state '56.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", which objective category has the highest weighted total score?",
+      "answer": "Operational Readiness (weighted total 132 across its three objectives).",
+      "assertions": [
+        {
+          "text": "The response must state 'Operational Readiness (weighted total 132 across its three objectives).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", which objective columns are shown in the top header?",
+      "answer": "Migration Delivery; Operational Readiness; Financial Optimisation",
+      "assertions": [
+        {
+          "text": "The response must state 'Migration Delivery; Operational Readiness; Financial Optimisation.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", how many data rows are present in the table?",
+      "answer": "19",
+      "assertions": [
+        {
+          "text": "The response must state '19.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", which count is larger, the number of initiatives or the number of data rows?",
+      "answer": "Data rows (19)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (19).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", what does footnote 1 explain?",
+      "answer": "H",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Optimisation, Readiness, Next-Phase)\", what is the subtotal for the initiatives group in the Score column?",
+      "answer": "3 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '3 initiatives.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 2 cutover summary with named workloads and outcomes (cutover date: 2026-04-18)\", what is the value for \"Workloads migrated in Wave 2\"?",
+      "answer": "14",
+      "assertions": [
+        {
+          "text": "The response must state 14."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 2 cutover summary with named workloads and outcomes (cutover date: 2026-04-18)\", what is the \"Application availability (first 7 days)\" value?",
+      "answer": "99.98%",
+      "assertions": [
+        {
+          "text": "The response must state 99.98%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 2 cutover summary with named workloads and outcomes (cutover date: 2026-04-18)\", what is the \"Operational readiness sign-off date\"?",
+      "answer": "2026-04-25",
+      "assertions": [
+        {
+          "text": "The response must state 2026-04-25."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", how many workloads have been migrated across all twelve waves?",
+      "answer": "144 workloads.",
+      "assertions": [
+        {
+          "text": "The response must state '144 workloads.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", what is the average cost reduction against the on-premises baseline?",
+      "answer": "18% average cost reduction vs baseline.",
+      "assertions": [
+        {
+          "text": "The response must state '18% average cost reduction vs baseline.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", what is the operational readiness status for Wave 4 – Data Warehouse?",
+      "answer": "In Progress.",
+      "assertions": [
+        {
+          "text": "The response must state 'In Progress.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", what cutover percentage is reported for Wave 3 – CRM Platforms?",
+      "answer": "93%.",
+      "assertions": [
+        {
+          "text": "The response must state '93%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme Status – Wave Progress & Cost Performance\", which waves have reached 100% cutover?",
+      "answer": "Wave 1 – Finance Core and Wave 2 – HR & Payroll.",
+      "assertions": [
+        {
+          "text": "The response must state 'Wave 1 – Finance Core and Wave 2 – HR & Payroll.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Readiness Assessment (ORA) scorecard by domain (assessment date: 2026-04-29)\", what is the ORA Score for Incident Management?",
+      "answer": "100",
+      "assertions": [
+        {
+          "text": "100."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Readiness Assessment (ORA) scorecard by domain (assessment date: 2026-04-29)\", what is the Risk Level for Security & Access Management?",
+      "answer": "High",
+      "assertions": [
+        {
+          "text": "The response must state High."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Operational Readiness Assessment (ORA) scorecard by domain (assessment date: 2026-04-29)\", what is the Next-Phase Action for Backup & DR?",
+      "answer": "Complete cross-region failover test for remaining 6 production workloads by 15 Jul 2026",
+      "assertions": [
+        {
+          "text": "The response must state Complete cross-region failover test for remaining 6 production workloads by 15 Jul 2026."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud run cost vs on‑prem baseline and realised optimisation (FY2025 baseline; April 2026 actual)\", what is the Value listed for \"Cloud run cost (April 2026)\"?",
+      "answer": "month",
+      "assertions": [
+        {
+          "text": "month."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud run cost vs on‑prem baseline and realised optimisation (FY2025 baseline; April 2026 actual)\", what is the Unit for \"Percent improvement vs baseline\"?",
+      "answer": "Percentage",
+      "assertions": [
+        {
+          "text": "The response must state Percentage."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud run cost vs on‑prem baseline and realised optimisation (FY2025 baseline; April 2026 actual)\", what is the Value for \"Top optimisation lever\"?",
+      "answer": "Reserved Instances coverage 58%",
+      "assertions": [
+        {
+          "text": "The response must state Reserved Instances coverage 58%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", which objective categories are the column groups?",
+      "answer": "Migration Delivery; Operational Readiness; Financial Optimisation; Governance & Risk.",
+      "assertions": [
+        {
+          "text": "The response must state 'Migration Delivery; Operational Readiness; Financial Optimisation; Governance & Risk.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", how many initiatives fall under the \"Migration Execution\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "CD, Runbooks)\" for the \"SRE & Monitoring\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", what is the total score for the \"Decommissioning & On‑Prem Exit (DC footprint reduction)\" initiative?",
+      "answer": "70.",
+      "assertions": [
+        {
+          "text": "The response must state '70.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", which objective category has the highest weighted total score?",
+      "answer": "Governance & Risk (total 306).",
+      "assertions": [
+        {
+          "text": "The response must state 'Governance & Risk (total 306).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", what primary objectives are listed across the top header?",
+      "answer": "Migration Delivery; Operational Readiness; Financial Optimisation; Governance & Risk.",
+      "assertions": [
+        {
+          "text": "The response must state 'Migration Delivery; Operational Readiness; Financial Optimisation; Governance & Risk.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", how many header tiers does the table include?",
+      "answer": "Three.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", which objective appears leftmost in the top header?",
+      "answer": "Migration Delivery.",
+      "assertions": [
+        {
+          "text": "The response must state 'Migration Delivery.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", what annotation explains how the table was generated?",
+      "answer": "LLM-generated cross reference grid.",
+      "assertions": [
+        {
+          "text": "The response must state 'LLM-generated cross reference grid.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme — Strategic Initiatives vs Objectives Alignment Grid (Status, Cost Optimisation, Readiness, Next-Phase Planning)\", what is the subtotal count for initiatives in the programme?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)\", what does the Y-axis represent?",
+      "answer": "Workloads completed in Wave 3 (count)",
+      "assertions": [
+        {
+          "text": "The response must state Workloads completed in Wave 3 (count)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)\", what is the value range shown?",
+      "answer": "[0, 6]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 6]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Wave 3 delivery plan: planned vs forecast workload completions (2026-05-15 to 2026-06-30)\", what trend is indicated?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open risk and issue register for migration execution and operations (as of 2026-04-30)\", what is the Severity listed for Risk ID R-07?",
+      "answer": "High",
+      "assertions": [
+        {
+          "text": "The response must state High."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open risk and issue register for migration execution and operations (as of 2026-04-30)\", what is the Owner for Risk ID R-06?",
+      "answer": "S. Kumar",
+      "assertions": [
+        {
+          "text": "The response must state S. Kumar."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open risk and issue register for migration execution and operations (as of 2026-04-30)\", what is the Target Mitigation Date for the Portfolio Summary row?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", as of 30 April 2026 how many in-scope workloads had been migrated?",
+      "answer": "312 of 428 in-scope workloads (73%).",
+      "assertions": [
+        {
+          "text": "The response must state '312 of 428 in-scope workloads (73%).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", what percentage increase in migrated workloads was recorded since the previous quarter?",
+      "answer": "A 9% increase since the previous quarter.",
+      "assertions": [
+        {
+          "text": "The response must state 'A 9% increase since the previous quarter.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", how many production workloads were cut over during Q3 and to which cloud providers?",
+      "answer": "54 production workloads were cut over to Azure and AWS.",
+      "assertions": [
+        {
+          "text": "The response must state '54 production workloads were cut over to Azure and AWS.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", how does the actual cloud run-rate for migrated workloads compare to the FY2024 on-prem baseline?",
+      "answer": "The actual cloud run-rate is 18.7% below the FY2024 on‑prem baseline (adjusted for inflation and licensing uplifts).",
+      "assertions": [
+        {
+          "text": "The response must state 'The actual cloud run-rate is 18.7% below the FY2024 on‑prem baseline (adjusted for inflation and licensing uplifts).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Cloud Migration Programme Status Report – Workload Acceleration & Cost Realisation\", were operational readiness reviews completed for all Q3 migrations and what percentage met Day‑1 monitoring, backup, and DR compliance?",
+      "answer": "Yes — reviews were completed for all Q3 migrations, and 96% met Day‑1 monitoring, backup, and DR compliance.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — reviews were completed for all Q3 migrations, and 96% met Day‑1 monitoring, backup, and DR compliance.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Operational Readiness Score (%) for Grace Thompson?",
+      "answer": "95",
+      "assertions": [
+        {
+          "text": "The response must state 95."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Role listed for Chloe Dubois?",
+      "answer": "Application Modernisation Lead",
+      "assertions": [
+        {
+          "text": "The response must state Application Modernisation Lead."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Cost Optimisation Achieved (USD Thousands) for Ravi Patel in the role of Infrastructure Engineer?",
+      "answer": "275",
+      "assertions": [
+        {
+          "text": "The response must state 275."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Workload migration progress by wave and current state (as of 2026-04-30)\", what is the RAG Status for Wave 5?",
+      "answer": "Red",
+      "assertions": [
+        {
+          "text": "The response must state Red."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Workload migration progress by wave and current state (as of 2026-04-30)\", what is the Target Completion date for Wave 4?",
+      "answer": "2026-08-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-08-31."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Workload migration progress by wave and current state (as of 2026-04-30)\", how many Total Workloads (Scope) are listed for Programme Total?",
+      "answer": "120",
+      "assertions": [
+        {
+          "text": "The response must state 120."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Migration risks heatmap by likelihood and impact (as of 2026-04-30)\", what does the Y-axis represent?",
+      "answer": "Impact (1–5)",
+      "assertions": [
+        {
+          "text": "The response must state Impact (1–5)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Migration risks heatmap by likelihood and impact (as of 2026-04-30)\", what is the value range shown?",
+      "answer": "[0, 5]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 5]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Migration risks heatmap by likelihood and impact (as of 2026-04-30)\", what is the chart type?",
+      "answer": "heatmap",
+      "assertions": [
+        {
+          "text": "The response must state heatmap."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 3 plan: schedule, workload targets, and critical dependencies (2026-05-15 to 2026-06-30)\", what is the End Date for Wave 3?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 3 plan: schedule, workload targets, and critical dependencies (2026-05-15 to 2026-06-30)\", what is the Status of \"Cost Optimisation Sprint 2\"?",
+      "answer": "Planned – Business case under review",
+      "assertions": [
+        {
+          "text": "The response must state Planned – Business case under review."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 3 plan: schedule, workload targets, and critical dependencies (2026-05-15 to 2026-06-30)\", what is the Critical Dependencies entry for \"Wave 5 (Preliminary Planning)\"?",
+      "answer": "Data centre exit notice confirmation and vendor contract amendments",
+      "assertions": [
+        {
+          "text": "The response must state Data centre exit notice confirmation and vendor contract amendments."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)\", what does the Y-axis represent?",
+      "answer": "P2 incidents (count)",
+      "assertions": [
+        {
+          "text": "P2 incidents (count)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)\", what is the value range shown?",
+      "answer": "[0, 120]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 120]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Service stability after migration: incident volume vs migrated workload count (last 8 weeks to 2026-04-30)\", what is one of the listed category dates?",
+      "answer": "2026-03-11",
+      "assertions": [
+        {
+          "text": "The response must state 2026-03-11."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cost optimisation drivers contributing to April 2026 savings vs baseline\", what does the Y-axis represent?",
+      "answer": "Share of savings (%)",
+      "assertions": [
+        {
+          "text": "The response must state Share of savings (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cost optimisation drivers contributing to April 2026 savings vs baseline\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cost optimisation drivers contributing to April 2026 savings vs baseline\", name one optimisation lever category shown on the X-axis.",
+      "answer": "Compute Rightsizing",
+      "assertions": [
+        {
+          "text": "The response must state Compute Rightsizing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)\", what does the Y-axis represent?",
+      "answer": "Run cost (USD, millions)",
+      "assertions": [
+        {
+          "text": "The response must state Run cost (USD, millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)\", what is the overall trend shown?",
+      "answer": "decreasing",
+      "assertions": [
+        {
+          "text": "The response must state decreasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Monthly run cost comparison: on‑prem baseline vs cloud actual (FY2025 baseline; 2026 YTD)\", what is the value range displayed?",
+      "answer": "[2.5, 4.2]",
+      "assertions": [
+        {
+          "text": "The response must state [2.5, 4.2]."
+        }
+      ]
+    }
+  ]
+}

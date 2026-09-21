@@ -1,0 +1,1861 @@
+{
+  "doc_id": "doc_0000_s1280344647",
+  "title": "Workforce Planning Report: Functional Headcount Forecasts, Critical Skills Gap Analysis, Internal Mobility Assessment, and Talent Acquisition Strategy",
+  "subtitle": "Workforce Planning — Functional Headcount Forecasts, Critical Skill Gaps, Mobility Assessment & Talent Acquisition Strategy",
+  "topic_id": "workforce_planning_report",
+  "recipe_name": "forms_workflow",
+  "seed": 1280344647,
+  "document_brief": {
+    "narrative_theme": "This workforce planning report aligns 2026 headcount growth with prioritized skill-gap closures by balancing internal mobility and targeted external hiring to deliver a cost-effective talent acquisition strategy.",
+    "sections": [
+      {
+        "heading": "2026 Headcount Forecast by Function and Capacity Assumptions",
+        "key_facts": [
+          "Total headcount increases from 1,200 on 2025-12-31 to 1,320 on 2026-12-31 (+120).",
+          "Engineering grows from 420 on 2025-12-31 to 500 on 2026-12-31 (+80).",
+          "Sales grows from 260 on 2025-12-31 to 290 on 2026-12-31 (+30)."
+        ],
+        "data_references": []
+      },
+      {
+        "heading": "Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan",
+        "key_facts": [
+          "The 2026 critical skill gaps are 35 Data Engineers, 20 Cloud Security Engineers, and 15 Product Managers.",
+          "The recommended fill mix is 60% internal mobility (72 of 120 roles) and 40% external hiring (48 of 120 roles).",
+          "The external hiring plan targets an average time-to-fill of 55 days in 2026."
+        ],
+        "data_references": []
+      }
+    ],
+    "tables": [],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1280344647.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_hand_5686fb78.png",
+      "scan_llm_text_a1eb9c96.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 42,
+    "actual_page_count": 15
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "fillable_form",
+      "variant_id": "fillable_0001_bdc98813",
+      "title": "Workforce Planning and Talent Acquisition Strategy Report",
+      "caption": "Workforce Planning and Talent Acquisition Strategy Report",
+      "section_count": 4,
+      "field_count": 18,
+      "required_field_count": 12,
+      "sections": [
+        "Report Overview",
+        "Headcount Forecast by Function",
+        "Critical Skill Gap Analysis",
+        "Talent Strategy and Hiring Approach"
+      ],
+      "required_fields": [
+        "Reporting Period Start Date",
+        "Reporting Period End Date",
+        " Department",
+        "Prepared By (Name and Title)",
+        " Department",
+        "Current Headcount",
+        "Projected Headcount (12 Months)",
+        "Key Function or Role Analyzed",
+        "Critical Skills Required",
+        "Identified Skill Gaps",
+        "Primary Strategy",
+        "Recommended Talent Acquisition Actions"
+      ],
+      "description": "",
+      "form_number": "HR-WFP-2026-01",
+      "instructions": "Complete all applicable sections to document projected workforce needs, skill gap analysis, and recommended talent strategies. Submit the finalized report to HR Leadership and Finance for review and approval.",
+      "qa_candidates": [
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', what form number is shown?",
+          "answer": "HR-WFP-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-WFP-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections are included in the report?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', which heading is listed as the first section?",
+          "answer": "Report Overview",
+          "assertions": [
+            {
+              "text": "The response must state 'Report Overview'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are marked as required to complete?",
+          "answer": "12",
+          "assertions": [
+            {
+              "text": "The response must state '12'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', which required field asks for the name and title of the preparer?",
+          "answer": "Prepared By (Name and Title)",
+          "assertions": [
+            {
+              "text": "The response must state 'Prepared By (Name and Title)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0002_534cb35e",
+      "title": "Workforce Planning and Talent Acquisition Strategy Report",
+      "caption": "Workforce Planning and Talent Acquisition Strategy Report",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Organizational Overview",
+        "Headcount Forecast by Function",
+        "Critical Skill Gap Analysis",
+        "Talent Sourcing Strategy"
+      ],
+      "required_fields": [
+        " Department",
+        "Report Prepared By",
+        "Report Date",
+        "Planning Horizon (Years)",
+        "Primary Function",
+        "Current Headcount",
+        "Projected Headcount (End of Planning Horizon)",
+        "Critical Skill Area Identified",
+        "Current Skill Proficiency Level",
+        "Required Skill Proficiency Level",
+        "Business Risk if Gap Not Addressed",
+        "Primary Approach",
+        "Executive Approval for Recommended Strategy"
+      ],
+      "description": "",
+      "form_number": "HR-WFP-2026-01",
+      "instructions": "Complete all required fields with the most current workforce data and projections. Submit the finalized report to HR Leadership and Finance for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "GochiHand, cursive",
+        "ink_color": "#004d66",
+        "font_size_pt": 11.5
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', what form number appears on the document?",
+          "answer": "HR-WFP-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-WFP-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections does the report contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are designated as required?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Workforce Planning and Talent Acquisition Strategy Report', what form type is shown on the report?",
+          "answer": "filled_fillable",
+          "assertions": [
+            {
+              "text": "The response must state 'filled_fillable'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "checklist",
+      "variant_id": "checklist_0002_f96c782f",
+      "title": "Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy",
+      "caption": "Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Compile historical and current headcount by function, level, and location (last 3 years)",
+        "Build a 3-year headcount forecast model by function using demand drivers and business scenarios",
+        "Analyze attrition, promotion, and retirement rates to quantify internal mobility potential",
+        "Map current employee skills and certifications to future role requirements to identify critical skill gaps",
+        "Evaluate internal mobility versus external hiring by comparing cost, time-to-fill, ramp time, and quality metrics"
+      ],
+      "unchecked_items": [
+        "Quantify critical skill gaps per function and estimate required FTEs to close gaps via training or hiring",
+        "Develop a prioritized talent acquisition strategy recommending sourcing channels, agency partners, and internal upskilling programs",
+        "Draft a phased implementation roadmap with owners, milestones, KPIs, and risk mitigations for recommended actions",
+        "Estimate budget, headcount impact, and ROI for each recommended recruitment and development initiative",
+        "Prepare an executive summary and decision memo highlighting key forecasts, critical gaps, recommended strategy, and required leadership approvals"
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy', how many total items are listed?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy', how many items are marked as completed?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy', give one task that is checked.",
+          "answer": "Compile historical and current headcount by function, level, and location (last 3 years)",
+          "assertions": [
+            {
+              "text": "The response must state 'Compile historical and current headcount by function, level, and location (last 3 years)'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy', name one item that remains unchecked.",
+          "answer": "Draft a phased implementation roadmap with owners, milestones, KPIs, and risk mitigations for recommended actions",
+          "assertions": [
+            {
+              "text": "The response must state 'Draft a phased implementation roadmap with owners, milestones, KPIs, and risk mitigations for recommended actions'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0001_757a07f5",
+      "title": "Workforce Planning and Talent Acquisition Strategy Report",
+      "caption": "Workforce Planning and Talent Acquisition Strategy Report",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 16,
+      "sections": [
+        "Organizational Overview",
+        "Headcount Forecast by Function",
+        "Critical Skill Gap Analysis",
+        "Internal Mobility and Talent Acquisition Strategy"
+      ],
+      "required_fields": [
+        " Department Name",
+        "Report Prepared By",
+        "Preparer Email",
+        "Reporting Period Start Date",
+        "Reporting Period End Date",
+        "Primary Business Function",
+        "Current Headcount",
+        "Projected Headcount (12 Months)",
+        "Key Assumptions Driving Forecast",
+        "Identified Critical Skills",
+        "Current Skill Coverage Level (%)",
+        "Impact of Skill Gaps on Business Objectives",
+        "Urgency Level",
+        "Estimated Roles Fillable via Internal Mobility (%)",
+        "Estimated Roles Requiring External Hiring (%)",
+        "Recommended Talent Acquisition Strategy Summary"
+      ],
+      "description": "",
+      "form_number": "HR-WFP-2026-01",
+      "instructions": "Complete all required fields to document projected workforce needs, skill gaps, and recommended hiring strategies. Submit the finalized form to the HR Strategy and Finance departments for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "DancingScript, cursive",
+        "ink_color": "#004d66",
+        "font_size_pt": 11.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', what form number is shown on the document?",
+          "answer": "HR-WFP-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-WFP-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections are included in the report?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are required to be completed?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state '16'."
+            }
+          ]
+        },
+        {
+          "question": "Is the 'Workforce Planning and Talent Acquisition Strategy Report' form marked as filled?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "checklist",
+      "variant_id": "checklist_0001_29cf28e7",
+      "title": "2026-2027 Workforce Planning Forecast Checklist",
+      "caption": "2026-2027 Workforce Planning Forecast Checklist",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Collect historical headcount, recruitment, and attrition data by function for the past 36 months",
+        "Forecast headcount needs by function for the next 24 months using base, optimistic, and pessimistic scenarios",
+        "Identify critical skill gaps by function through gap analysis of current competencies versus projected role requirements",
+        "Map internal talent, succession readiness, and estimated ramp times to assess internal mobility potential for key roles",
+        "Compare internal mobility versus external hiring for each critical role using cost, time-to-fill, quality, and retention projections"
+      ],
+      "unchecked_items": [
+        "Evaluate external sourcing channels and candidate pipelines for priority skills, including diversity and inclusion impact assessment",
+        "Develop a talent acquisition strategy that prioritizes sourcing channels, employer brand messages, and contingency hiring plans aligned to the forecast",
+        "Design reskilling, upskilling, and rotation programs tied to identified skill gaps and internal mobility pathways",
+        "Create a hiring prioritization matrix by function that factors role criticality, business impact, and recruitment lead time",
+        "Validate report assumptions and recommendations with business leaders, HR operations, and finance, and update the final plan accordingly"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the '2026-2027 Workforce Planning Forecast Checklist', how many total items are on the checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the '2026-2027 Workforce Planning Forecast Checklist', what percentage of the checklist is complete?",
+          "answer": "50.0%",
+          "assertions": [
+            {
+              "text": "The response must state '50.0%'."
+            }
+          ]
+        },
+        {
+          "question": "On the '2026-2027 Workforce Planning Forecast Checklist', how many items are marked as completed?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "From the '2026-2027 Workforce Planning Forecast Checklist', name one task listed as unchecked.",
+          "answer": "Develop a talent acquisition strategy that prioritizes sourcing channels, employer brand messages, and contingency hiring plans aligned to the forecast",
+          "assertions": [
+            {
+              "text": "The response must state 'Develop a talent acquisition strategy that prioritizes sourcing channels, employer brand messages, and contingency hiring plans aligned to the forecast'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "fillable_form",
+      "variant_id": "fillable_0002_1e2d1a93",
+      "title": "Workforce Planning and Talent Acquisition Strategy Report Form",
+      "caption": "Workforce Planning and Talent Acquisition Strategy Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Organizational Overview and Planning Scope",
+        "Headcount Forecast by Function",
+        "Critical Skill Gaps Assessment",
+        "Internal Mobility vs External Hiring Strategy"
+      ],
+      "required_fields": [
+        " Department Name",
+        "Planning Period Start Date",
+        "Planning Period End Date",
+        "Prepared By (Name and Title)",
+        " Department",
+        "Current Headcount",
+        "Projected Headcount (End of Planning Period)",
+        "Critical Roles Identified",
+        "Key Skills in Short Supply",
+        "Impact Level of Skill Gaps",
+        "Internal Talent Available for Redeployment (Number of Employees)",
+        "Estimated External Hires Required",
+        "Recommended Talent Acquisition Strategy Summary"
+      ],
+      "description": "",
+      "form_number": "HR-WFP-2026-01",
+      "instructions": "Complete all required fields with current workforce data and projections for the upcoming planning period. Submit the finalized form to HR Leadership and Finance for review and approval.",
+      "qa_candidates": [
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report Form', what is the form number shown?",
+          "answer": "HR-WFP-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-WFP-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report Form', how many fields are required to be completed?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report Form', what is the name of the second section?",
+          "answer": "Headcount Forecast by Function",
+          "assertions": [
+            {
+              "text": "The response must state 'Headcount Forecast by Function'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report Form', which planning period date labels are listed as required?",
+          "answer": "Planning Period Start Date and Planning Period End Date",
+          "assertions": [
+            {
+              "text": "The response must state 'Planning Period Start Date and Planning Period End Date'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report Form', what instruction is given about submitting the finalized form?",
+          "answer": "Submit the finalized form to HR Leadership and Finance for review and approval.",
+          "assertions": [
+            {
+              "text": "The response must state 'Submit the finalized form to HR Leadership and Finance for review and approval.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "text",
+      "variant_id": "text_0000_31c9c5ab",
+      "heading": "2026 Headcount Forecast by Function and Capacity Assumptions",
+      "word_count": 320,
+      "text_content": [
+        "**2026 Headcount Forecast by Function and Capacity Assumptions**",
+        "By plan year-end the organization increases total headcount from 1,200 on 2025-12-31 to 1,320 on 2026-12-31, a net addition of +120 headcount representing a 10.0% increase. This growth aligns with strategic priorities for product expansion and market penetration scheduled across 2026. The headcount target presumes execution across twelve months, with quarterly checkpoint reviews on 2026-03-31, 2026-06-30, and 2026-09-30 to validate hiring pace, budget variance, and operational capacity against the 2026-12-31 objective. Finance will publish monthly hiring dashboards to enable tracking.",
+        "Function-level allocations reflect concentrated investment in Engineering and Sales. Engineering headcount increases from 420 on 2025-12-31 to 500 on 2026-12-31, a +80 change (+19.05%), supporting accelerated product delivery and platform scalability. Sales grows from 260 on 2025-12-31 to 290 on 2026-12-31, a +30 change (+11.54%), enabling expanded go-to-market coverage. The remaining +10 headcount (to reach total +120) is allocated to Customer Success, Data, and Operations to sustain retention, analytics, and operating cadence. Engineering staffing focuses on backend, infrastructure, and security.",
+        "Our capacity model assumes an annual voluntary attrition rate of 12.0% applied to the 2025 baseline, with role-specific time-to-fill assumptions: Engineering 70 days and Sales 45 days median. Offer acceptance is modeled at 80% with a 1.25:1 offer-to-req ratio. New hire productivity ramps linearly to full capacity at six months for Engineering and three months for Sales, delivering approximately 60% and 80% of steady-state output in month one respectively. Budget assumes average fully-burdened cost per FTE of $140,000 in 2026.",
+        "The hiring cadence is phased monthly to meet the 2026-12-31 target with prioritized fills in Q1 and Q2 for critical Engineering cores and Q3 expansion for Sales. A contingency buffer of 10% overplan in requisitions accounts for attrition and offer fallout. Scenario sensitivity modeled: base +120, downside -15% hiring pace, upside +10% acceleration. Key monitoring metrics include hires-to-plan, time-to-productivity, budget variance, and headcount by function reviewed weekly by People Operations and Finance. Monthly dashboards will drive corrective actions and approvals."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"2026 Headcount Forecast by Function and Capacity Assumptions\" section, what is the total headcount target on 2026-12-31?",
+          "answer": "1,320",
+          "assertions": [
+            {
+              "text": "The response must state 1,320."
+            }
+          ]
+        },
+        {
+          "question": "In the \"2026 Headcount Forecast by Function and Capacity Assumptions\" section, what annual voluntary attrition rate is assumed in the capacity model?",
+          "answer": "12.0%",
+          "assertions": [
+            {
+              "text": "The response must state 12.0%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"2026 Headcount Forecast by Function and Capacity Assumptions\" section, what is the average fully-burdened cost per FTE assumed for 2026?",
+          "answer": "$140,000",
+          "assertions": [
+            {
+              "text": "The response must state $140,000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "form",
+      "variant_id": "form_0001_46893af7",
+      "title": "Workforce Planning and Talent Strategy Report Form",
+      "caption": "Workforce Planning and Talent Strategy Report Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Headcount Forecast by Function",
+        "Critical Skill Gaps Assessment",
+        "Internal Mobility and Talent Acquisition Strategy"
+      ],
+      "required_fields": [
+        "Planning Horizon End Date",
+        "Business Unit or Division",
+        "Primary Function Analyzed",
+        "Current Headcount (FTE)",
+        "Key Skills Required to Achieve Strategic Goals",
+        "Severity of Identified Skill Gaps",
+        "Impact of Skill Gaps on Business Performance",
+        "Preferred Talent Strategy",
+        "Critical Roles Requiring External Hiring"
+      ],
+      "description": "Complete this form to document forecasted headcount needs, identify critical skill gaps, and recommend a talent acquisition strategy based on workforce analysis.",
+      "qa_candidates": [
+        {
+          "question": "What does the description text on the 'Workforce Planning and Talent Strategy Report Form' say?",
+          "answer": "Complete this form to document forecasted headcount needs, identify critical skill gaps, and recommend a talent acquisition strategy based on workforce analysis.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document forecasted headcount needs, identify critical skill gaps, and recommend a talent acquisition strategy based on workforce analysis.'."
+            }
+          ]
+        },
+        {
+          "question": "How many sections does the 'Workforce Planning and Talent Strategy Report Form' contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Which section is listed second on the 'Workforce Planning and Talent Strategy Report Form'?",
+          "answer": "Critical Skill Gaps Assessment",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical Skill Gaps Assessment'."
+            }
+          ]
+        },
+        {
+          "question": "How many required fields are listed on the 'Workforce Planning and Talent Strategy Report Form'?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state '9'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "checklist",
+      "variant_id": "checklist_0003_ca566328",
+      "title": "FY27 Workforce Planning & Talent Acquisition Strategy Checklist",
+      "caption": "FY27 Workforce Planning & Talent Acquisition Strategy Checklist",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Gather historical headcount, FTE status, and attrition rates by function for the past 24 months",
+        "Model headcount forecasts by function for the next 18 months using projected business drivers and scenario-based assumptions",
+        "Identify and prioritize critical skill gaps per function tied to upcoming projects, product roadmap, and emerging technologies",
+        "Map internal talent supply by skills, certifications, tenure, and mobility readiness across departments",
+        "Quantify net hiring needs by role level and geography after accounting for expected promotions, transfers, and redeployments"
+      ],
+      "unchecked_items": [
+        "Assess cost, time-to-fill, and quality trade-offs between internal mobility and external hiring for high-priority roles",
+        "Develop a targeted talent acquisition strategy specifying sourcing channels, diversity targets, and employer-branding initiatives",
+        "Create an implementation roadmap with milestones, owners, hiring velocity targets, and success metrics for 12 months",
+        "Recommend upskilling and reskilling programs with curriculum priorities, delivery modality, and budget estimates to close top 3 skill gaps",
+        "Prepare an executive summary and present prioritized hiring vs. redeployment scenarios and recommended next steps to leadership"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'FY27 Workforce Planning & Talent Acquisition Strategy Checklist' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'FY27 Workforce Planning & Talent Acquisition Strategy Checklist', what is the completion rate percentage shown?",
+          "answer": "50.0%",
+          "assertions": [
+            {
+              "text": "The response must state '50.0%'."
+            }
+          ]
+        },
+        {
+          "question": "Name one item that is marked as checked on the 'FY27 Workforce Planning & Talent Acquisition Strategy Checklist'.",
+          "answer": "Model headcount forecasts by function for the next 18 months using projected business drivers and scenario-based assumptions",
+          "assertions": [
+            {
+              "text": "The response must state 'Model headcount forecasts by function for the next 18 months using projected business drivers and scenario-based assumptions'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'FY27 Workforce Planning & Talent Acquisition Strategy Checklist', name one item that is not yet checked.",
+          "answer": "Develop a targeted talent acquisition strategy specifying sourcing channels, diversity targets, and employer-branding initiatives",
+          "assertions": [
+            {
+              "text": "The response must state 'Develop a targeted talent acquisition strategy specifying sourcing channels, diversity targets, and employer-branding initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "text",
+      "variant_id": "text_0001_813fa0a7",
+      "heading": "Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan",
+      "word_count": 307,
+      "text_content": [
+        "**Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan**",
+        "The 2026 critical skill gaps identified in this forecast require immediate attention: 35 Data Engineers, 20 Cloud Security Engineers, and 15 Product Managers. These shortfalls concentrate risk within Data & Analytics, Cloud Infrastructure, and Product organizations, threatening roadmap delivery for Q1–Q4 2026 and key initiatives with projected revenue impact in FY2026. HR Business Partners and Engineering leadership must treat these as priority hires and internal development targets; otherwise projected capacity constraints will increase time-to-market and escalate contractor spend. The profile of required competencies includes scalable ETL design, cloud-native security tooling (IAM, WAF, CSPM), and product discovery expertise with stakeholder facilitation at senior levels.",
+        "Our recommended fill mix balances growth and retention: 60% internal mobility (72 of 120 roles) and 40% external hiring (48 of 120 roles). By setting an internal mobility target of 72 positions, People & Culture and Learning & Development will deploy accelerated reskilling programs, rotational assignments, and defined succession plans across the affected functions beginning Q2 2025 and scaling through 2026. Expected benefits include reduced hiring cost-per-hire, faster cultural assimilation, and improved institutional knowledge transfer; risks include uneven geographic capability and temporary backfill reqs.. Governance will include quarterly talent reviews, competency assessments, and targeted career pathways for Data, Cloud, and Product streams.",
+        "The external hiring plan will address the remaining 48 roles with an operational target: an average time-to-fill of 55 days in 2026. Talent Acquisition (TA) will prioritize roles by criticality—Cloud Security Engineers and Data Engineers receive top sourcing focus—using a mix of direct sourcing, university partnerships, specialist agencies, and diversity-focused job boards and referrals. Key execution steps include: 1. streamlined interview templates and calibrated scorecards; 2. dedicated TA pod per function; 3. competitive compensation benchmarking with quarterly adjustments. Monitoring will be weekly via a TA dashboard, with escalation to HR leadership if average time-to-fill exceeds 70 days or offer-acceptance falls below 70%."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan\" section, how many Data Engineers are identified as a 2026 critical skill gap?",
+          "answer": "35 Data Engineers",
+          "assertions": [
+            {
+              "text": "The response must state 35 Data Engineers."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan\" section, what percentage of roles is targeted for internal mobility?",
+          "answer": "60% internal mobility",
+          "assertions": [
+            {
+              "text": "The response must state 60% internal mobility."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan\" section, what is the operational average time-to-fill target for 2026?",
+          "answer": "55 days",
+          "assertions": [
+            {
+              "text": "The response must state 55 days."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0000_f49e5905",
+      "title": "Workforce Planning and Talent Acquisition Strategy Report Form",
+      "caption": "Workforce Planning and Talent Acquisition Strategy Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Organizational Overview",
+        "Headcount Forecast by Function",
+        "Critical Skill Gap Analysis",
+        "Talent Sourcing and Acquisition Strategy"
+      ],
+      "required_fields": [
+        " Department Name",
+        "Report Prepared By",
+        "Report Date",
+        "Planning Horizon (Months)",
+        "Current Total Headcount",
+        "Projected Headcount (End of Planning Period)",
+        "Functions Impacted (e.g., IT, Sales, Operations)",
+        "Key Strategic Capabilities Required",
+        "Identified Critical Skill Gaps",
+        "Impact Level of Skill Gaps",
+        "Preferred Approach",
+        "Internal Mobility Opportunities Identified",
+        "Estimated External Hiring Needs"
+      ],
+      "description": "",
+      "form_number": "HR-WFP-2026-02",
+      "instructions": "Complete all applicable sections to forecast workforce needs and recommend a talent acquisition strategy. Submit the finalized form to HR Leadership and Finance for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "IndieFlower, cursive",
+        "ink_color": "#004d66",
+        "font_size_pt": 12.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report Form', what is the form number printed on the form?",
+          "answer": "HR-WFP-2026-02",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-WFP-2026-02'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report Form', how many sections are included?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report Form', list the section headings shown on the form.",
+          "answer": "Organizational Overview; Headcount Forecast by Function; Critical Skill Gap Analysis; Talent Sourcing and Acquisition Strategy",
+          "assertions": [
+            {
+              "text": "The response must state 'Organizational Overview; Headcount Forecast by Function; Critical Skill Gap Analysis; Talent Sourcing and Acquisition Strategy'."
+            }
+          ]
+        },
+        {
+          "question": "Referring to the 'Workforce Planning and Talent Acquisition Strategy Report Form', how many fields are marked required?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "form",
+      "variant_id": "form_0003_0b8ed802",
+      "title": "Workforce Planning and Talent Acquisition Strategy Report",
+      "caption": "Workforce Planning and Talent Acquisition Strategy Report",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Headcount Forecast by Function",
+        "Critical Skill Gap Assessment",
+        "Internal Mobility vs External Hiring Strategy"
+      ],
+      "required_fields": [
+        "Planning Period Start Date",
+        "Planning Period End Date",
+        "Business Unit or Department",
+        "Primary Function Impacted",
+        "Projected Net Headcount Change",
+        "Key Roles with Anticipated Shortages",
+        "Top Critical Skills Lacking",
+        "Severity of Skill Gaps",
+        "Percentage of Roles to Fill via Internal Mobility",
+        "Primary Talent Acquisition Strategy"
+      ],
+      "description": "Complete this form to document projected headcount needs, critical skill gaps, and recommended hiring and mobility strategies for the upcoming planning period.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections are shown on the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report', what is the name of the first section listed?",
+          "answer": "Headcount Forecast by Function",
+          "assertions": [
+            {
+              "text": "The response must state 'Headcount Forecast by Function'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are marked required?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Workforce Planning and Talent Acquisition Strategy Report', what is the description text displayed on the form?",
+          "answer": "Complete this form to document projected headcount needs, critical skill gaps, and recommended hiring and mobility strategies for the upcoming planning period.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document projected headcount needs, critical skill gaps, and recommended hiring and mobility strategies for the upcoming planning period.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "form",
+      "variant_id": "form_0002_3b46c9e6",
+      "title": "Workforce Planning and Talent Strategy Report Form",
+      "caption": "Workforce Planning and Talent Strategy Report Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Headcount Forecast by Function",
+        "Critical Skill Gaps Assessment",
+        "Internal Mobility vs External Hiring Strategy"
+      ],
+      "required_fields": [
+        "Planning Period Start Date",
+        "Planning Period End Date",
+        "Primary Business Unit",
+        "Current Total Headcount",
+        "Projected Net Headcount Change",
+        "Key Functions Experiencing Talent Shortages",
+        "Top Critical Skills in Short Supply",
+        "Estimated Impact of Skill Gaps on Business Objectives",
+        "Percentage of Roles Planned for Internal Mobility",
+        "Percentage of Roles Planned for External Hiring",
+        "Recommended Talent Acquisition Strategy Summary"
+      ],
+      "description": "Complete this form to document headcount forecasts, skill gap analysis, and recommended talent acquisition strategies for the upcoming planning period.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Workforce Planning and Talent Strategy Report Form', what does the description text say?",
+          "answer": "Complete this form to document headcount forecasts, skill gap analysis, and recommended talent acquisition strategies for the upcoming planning period.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document headcount forecasts, skill gap analysis, and recommended talent acquisition strategies for the upcoming planning period.'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Strategy Report Form', how many fields are on the form in total?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Workforce Planning and Talent Strategy Report Form', what is the name of the first section listed?",
+          "answer": "Headcount Forecast by Function",
+          "assertions": [
+            {
+              "text": "The response must state 'Headcount Forecast by Function'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Workforce Planning and Talent Strategy Report Form', which required field requests the planning period start date?",
+          "answer": "Planning Period Start Date",
+          "assertions": [
+            {
+              "text": "The response must state 'Planning Period Start Date'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "checklist",
+      "variant_id": "checklist_0000_b5e08228",
+      "title": "FY27 Workforce Planning Report Checklist",
+      "caption": "FY27 Workforce Planning Report Checklist",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Gather and validate HRIS, payroll, finance, and business-unit headcount data for the past 36 months",
+        "Build a function-level headcount forecast model with monthly granularity for a 36-month horizon, incorporating attrition and planned initiatives",
+        "Identify and prioritize critical skill gaps and single points of failure by function, role, and geography",
+        "Evaluate internal mobility versus external hiring using comparative metrics: time-to-fill, cost-per-hire, ramp time, and retention projections",
+        "Develop a recommended talent acquisition strategy with sourcing channels, employer value proposition, diversity targets, and contingency plans"
+      ],
+      "unchecked_items": [
+        "Define forecasting horizon, functional drivers (revenue per FTE, productivity targets), and key assumptions with business leaders",
+        "Run scenario and sensitivity analyses (e.g., 10% growth, hiring freeze, ±2% attrition) and document headcount ranges by function",
+        "Map internal skills inventory and readiness for redeployment, including estimated training time and certification gaps",
+        "Quantify short-term and long-term hiring needs and model budget impact of internal reallocation versus external recruitment",
+        "Prepare an executive summary and implementation roadmap with owners, milestones, KPIs, and present findings to leadership for approval"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'FY27 Workforce Planning Report Checklist' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'FY27 Workforce Planning Report Checklist', how many items are marked as completed?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'FY27 Workforce Planning Report Checklist', name one item that is marked as checked.",
+          "answer": "Develop a recommended talent acquisition strategy with sourcing channels, employer value proposition, diversity targets, and contingency plans",
+          "assertions": [
+            {
+              "text": "The response must state 'Develop a recommended talent acquisition strategy with sourcing channels, employer value proposition, diversity targets, and contingency plans'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'FY27 Workforce Planning Report Checklist', name one item that is not yet checked.",
+          "answer": "Prepare an executive summary and implementation roadmap with owners, milestones, KPIs, and present findings to leadership for approval",
+          "assertions": [
+            {
+              "text": "The response must state 'Prepare an executive summary and implementation roadmap with owners, milestones, KPIs, and present findings to leadership for approval'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "form",
+      "variant_id": "form_0000_3fbfffcf",
+      "title": "Workforce Planning and Talent Strategy Report Form",
+      "caption": "Workforce Planning and Talent Strategy Report Form",
+      "section_count": 3,
+      "field_count": 16,
+      "required_field_count": 10,
+      "sections": [
+        "Headcount Forecast by Function",
+        "Critical Skills and Capability Gaps",
+        "Talent Mobility and Acquisition Strategy"
+      ],
+      "required_fields": [
+        "Planning Horizon End Date",
+        "Primary Business Unit",
+        "Current Total Headcount",
+        "Projected Headcount in 12 Months",
+        "Top Three Critical Skills in Short Supply",
+        "Impact Level of Identified Skill Gaps",
+        "Functions Most Affected by Skill Gaps",
+        "Preferred Approach to Address Gaps",
+        "Recruitment Channels to Prioritize",
+        "Overall Talent Acquisition Strategy Summary"
+      ],
+      "description": "Complete this form to document projected headcount needs, identify critical skill gaps, and define the recommended talent acquisition strategy.",
+      "qa_candidates": [
+        {
+          "question": "On the 'Workforce Planning and Talent Strategy Report Form', what does the description at the top of the form say?",
+          "answer": "Complete this form to document projected headcount needs, identify critical skill gaps, and define the recommended talent acquisition strategy.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document projected headcount needs, identify critical skill gaps, and define the recommended talent acquisition strategy.'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Strategy Report Form', how many sections are there?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Workforce Planning and Talent Strategy Report Form', what is the title of the second section listed?",
+          "answer": "Critical Skills and Capability Gaps",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical Skills and Capability Gaps'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'Workforce Planning and Talent Strategy Report Form', how many fields are marked required?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "fillable_form",
+      "variant_id": "fillable_0000_ad49dadd",
+      "title": "Workforce Planning and Talent Acquisition Strategy Report",
+      "caption": "Workforce Planning and Talent Acquisition Strategy Report",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Organizational Overview and Planning Horizon",
+        "Headcount Forecast by Function",
+        "Critical Skill Gaps Assessment",
+        "Internal Mobility and Talent Acquisition Strategy"
+      ],
+      "required_fields": [
+        " Business Unit Name",
+        "Report Prepared By",
+        "Reporting Period Start Date",
+        "Reporting Period End Date",
+        "Current Total Headcount",
+        "Projected Headcount (End of Period)",
+        "Functions with Increased Demand (List Key Functions)",
+        "Critical Skills Required for Future State",
+        "Existing Skill Gaps Identified",
+        "Impact Level of Skill Gaps",
+        "Estimated Positions Filled via Internal Mobility",
+        "Estimated Positions Requiring External Hiring",
+        "Recommended Talent Acquisition Strategy Summary"
+      ],
+      "description": "",
+      "form_number": "HR-WFP-2026-01",
+      "instructions": "Complete all applicable sections to forecast workforce needs and outline the recommended talent acquisition strategy. Submit the finalized form to HR Leadership and Finance for review and approval.",
+      "qa_candidates": [
+        {
+          "question": "What form number is shown on the 'Workforce Planning and Talent Acquisition Strategy Report' form?",
+          "answer": "HR-WFP-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-WFP-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections does the report contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', what is the name of the first section?",
+          "answer": "Organizational Overview and Planning Horizon",
+          "assertions": [
+            {
+              "text": "The response must state 'Organizational Overview and Planning Horizon'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are marked as required?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        },
+        {
+          "question": "What do the instructions on the 'Workforce Planning and Talent Acquisition Strategy Report' instruct the preparer to do?",
+          "answer": "Complete all applicable sections to forecast workforce needs and outline the recommended talent acquisition strategy. Submit the finalized form to HR Leadership and Finance for review and approval.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete all applicable sections to forecast workforce needs and outline the recommended talent acquisition strategy. Submit the finalized form to HR Leadership and Finance for review and approval.'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "fillable_0001_bdc98813": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0002_534cb35e": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0002_f96c782f": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0001_757a07f5": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0001_29cf28e7": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "fillable_0002_1e2d1a93": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0000_31c9c5ab": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "2026 Headcount Forecast by Function and Capacity Assumptions",
+      "word_count": 320,
+      "text_type": "llm_prose",
+      "topic_id": "workforce_planning_report"
+    },
+    "form_0001_46893af7": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0003_ca566328": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0001_813fa0a7": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "abbreviations"
+      ],
+      "heading": "Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan",
+      "word_count": 307,
+      "text_type": "llm_prose",
+      "topic_id": "workforce_planning_report"
+    },
+    "filled_fillable_0000_f49e5905": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "form_0003_0b8ed802": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "form_0002_3b46c9e6": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0000_b5e08228": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "form_0000_3fbfffcf": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "fillable_0000_ad49dadd": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0000_70031f7c": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_5686fb78.png",
+      "topic_id": ""
+    },
+    "scan_llm_0003_18155381": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_a1eb9c96.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', what form number is shown?",
+      "answer": "HR-WFP-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-WFP-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections are included in the report?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', which heading is listed as the first section?",
+      "answer": "Report Overview",
+      "assertions": [
+        {
+          "text": "The response must state 'Report Overview'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are marked as required to complete?",
+      "answer": "12",
+      "assertions": [
+        {
+          "text": "The response must state '12'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', which required field asks for the name and title of the preparer?",
+      "answer": "Prepared By (Name and Title)",
+      "assertions": [
+        {
+          "text": "The response must state 'Prepared By (Name and Title)'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', what form number appears on the document?",
+      "answer": "HR-WFP-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-WFP-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections does the report contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are designated as required?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Workforce Planning and Talent Acquisition Strategy Report', what form type is shown on the report?",
+      "answer": "filled_fillable",
+      "assertions": [
+        {
+          "text": "The response must state 'filled_fillable'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy', how many total items are listed?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy', how many items are marked as completed?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy', give one task that is checked.",
+      "answer": "Compile historical and current headcount by function, level, and location (last 3 years)",
+      "assertions": [
+        {
+          "text": "The response must state 'Compile historical and current headcount by function, level, and location (last 3 years)'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning Report Checklist — Headcount Forecast & Talent Acquisition Strategy', name one item that remains unchecked.",
+      "answer": "Draft a phased implementation roadmap with owners, milestones, KPIs, and risk mitigations for recommended actions",
+      "assertions": [
+        {
+          "text": "The response must state 'Draft a phased implementation roadmap with owners, milestones, KPIs, and risk mitigations for recommended actions'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', what form number is shown on the document?",
+      "answer": "HR-WFP-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-WFP-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are required to be completed?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state '16'."
+        }
+      ]
+    },
+    {
+      "question": "Is the 'Workforce Planning and Talent Acquisition Strategy Report' form marked as filled?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In the '2026-2027 Workforce Planning Forecast Checklist', how many total items are on the checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the '2026-2027 Workforce Planning Forecast Checklist', what percentage of the checklist is complete?",
+      "answer": "50.0%",
+      "assertions": [
+        {
+          "text": "The response must state '50.0%'."
+        }
+      ]
+    },
+    {
+      "question": "On the '2026-2027 Workforce Planning Forecast Checklist', how many items are marked as completed?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "From the '2026-2027 Workforce Planning Forecast Checklist', name one task listed as unchecked.",
+      "answer": "Develop a talent acquisition strategy that prioritizes sourcing channels, employer brand messages, and contingency hiring plans aligned to the forecast",
+      "assertions": [
+        {
+          "text": "The response must state 'Develop a talent acquisition strategy that prioritizes sourcing channels, employer brand messages, and contingency hiring plans aligned to the forecast'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report Form', what is the form number shown?",
+      "answer": "HR-WFP-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-WFP-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report Form', how many fields are required to be completed?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report Form', what is the name of the second section?",
+      "answer": "Headcount Forecast by Function",
+      "assertions": [
+        {
+          "text": "The response must state 'Headcount Forecast by Function'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report Form', which planning period date labels are listed as required?",
+      "answer": "Planning Period Start Date and Planning Period End Date",
+      "assertions": [
+        {
+          "text": "The response must state 'Planning Period Start Date and Planning Period End Date'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report Form', what instruction is given about submitting the finalized form?",
+      "answer": "Submit the finalized form to HR Leadership and Finance for review and approval.",
+      "assertions": [
+        {
+          "text": "The response must state 'Submit the finalized form to HR Leadership and Finance for review and approval.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"2026 Headcount Forecast by Function and Capacity Assumptions\" section, what is the total headcount target on 2026-12-31?",
+      "answer": "1,320",
+      "assertions": [
+        {
+          "text": "The response must state 1,320."
+        }
+      ]
+    },
+    {
+      "question": "In the \"2026 Headcount Forecast by Function and Capacity Assumptions\" section, what annual voluntary attrition rate is assumed in the capacity model?",
+      "answer": "12.0%",
+      "assertions": [
+        {
+          "text": "The response must state 12.0%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"2026 Headcount Forecast by Function and Capacity Assumptions\" section, what is the average fully-burdened cost per FTE assumed for 2026?",
+      "answer": "$140,000",
+      "assertions": [
+        {
+          "text": "The response must state $140,000."
+        }
+      ]
+    },
+    {
+      "question": "What does the description text on the 'Workforce Planning and Talent Strategy Report Form' say?",
+      "answer": "Complete this form to document forecasted headcount needs, identify critical skill gaps, and recommend a talent acquisition strategy based on workforce analysis.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document forecasted headcount needs, identify critical skill gaps, and recommend a talent acquisition strategy based on workforce analysis.'."
+        }
+      ]
+    },
+    {
+      "question": "How many sections does the 'Workforce Planning and Talent Strategy Report Form' contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Which section is listed second on the 'Workforce Planning and Talent Strategy Report Form'?",
+      "answer": "Critical Skill Gaps Assessment",
+      "assertions": [
+        {
+          "text": "The response must state 'Critical Skill Gaps Assessment'."
+        }
+      ]
+    },
+    {
+      "question": "How many required fields are listed on the 'Workforce Planning and Talent Strategy Report Form'?",
+      "answer": "9",
+      "assertions": [
+        {
+          "text": "The response must state '9'."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'FY27 Workforce Planning & Talent Acquisition Strategy Checklist' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'FY27 Workforce Planning & Talent Acquisition Strategy Checklist', what is the completion rate percentage shown?",
+      "answer": "50.0%",
+      "assertions": [
+        {
+          "text": "The response must state '50.0%'."
+        }
+      ]
+    },
+    {
+      "question": "Name one item that is marked as checked on the 'FY27 Workforce Planning & Talent Acquisition Strategy Checklist'.",
+      "answer": "Model headcount forecasts by function for the next 18 months using projected business drivers and scenario-based assumptions",
+      "assertions": [
+        {
+          "text": "The response must state 'Model headcount forecasts by function for the next 18 months using projected business drivers and scenario-based assumptions'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'FY27 Workforce Planning & Talent Acquisition Strategy Checklist', name one item that is not yet checked.",
+      "answer": "Develop a targeted talent acquisition strategy specifying sourcing channels, diversity targets, and employer-branding initiatives",
+      "assertions": [
+        {
+          "text": "The response must state 'Develop a targeted talent acquisition strategy specifying sourcing channels, diversity targets, and employer-branding initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan\" section, how many Data Engineers are identified as a 2026 critical skill gap?",
+      "answer": "35 Data Engineers",
+      "assertions": [
+        {
+          "text": "The response must state 35 Data Engineers."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan\" section, what percentage of roles is targeted for internal mobility?",
+      "answer": "60% internal mobility",
+      "assertions": [
+        {
+          "text": "The response must state 60% internal mobility."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Critical Skill Gaps and Internal Mobility vs. External Hiring Talent Acquisition Plan\" section, what is the operational average time-to-fill target for 2026?",
+      "answer": "55 days",
+      "assertions": [
+        {
+          "text": "The response must state 55 days."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report Form', what is the form number printed on the form?",
+      "answer": "HR-WFP-2026-02",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-WFP-2026-02'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report Form', how many sections are included?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report Form', list the section headings shown on the form.",
+      "answer": "Organizational Overview; Headcount Forecast by Function; Critical Skill Gap Analysis; Talent Sourcing and Acquisition Strategy",
+      "assertions": [
+        {
+          "text": "The response must state 'Organizational Overview; Headcount Forecast by Function; Critical Skill Gap Analysis; Talent Sourcing and Acquisition Strategy'."
+        }
+      ]
+    },
+    {
+      "question": "Referring to the 'Workforce Planning and Talent Acquisition Strategy Report Form', how many fields are marked required?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', how many sections are shown on the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning and Talent Acquisition Strategy Report', what is the name of the first section listed?",
+      "answer": "Headcount Forecast by Function",
+      "assertions": [
+        {
+          "text": "The response must state 'Headcount Forecast by Function'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are marked required?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Workforce Planning and Talent Acquisition Strategy Report', what is the description text displayed on the form?",
+      "answer": "Complete this form to document projected headcount needs, critical skill gaps, and recommended hiring and mobility strategies for the upcoming planning period.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document projected headcount needs, critical skill gaps, and recommended hiring and mobility strategies for the upcoming planning period.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Strategy Report Form', what does the description text say?",
+      "answer": "Complete this form to document headcount forecasts, skill gap analysis, and recommended talent acquisition strategies for the upcoming planning period.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document headcount forecasts, skill gap analysis, and recommended talent acquisition strategies for the upcoming planning period.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning and Talent Strategy Report Form', how many fields are on the form in total?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Strategy Report Form', what is the name of the first section listed?",
+      "answer": "Headcount Forecast by Function",
+      "assertions": [
+        {
+          "text": "The response must state 'Headcount Forecast by Function'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Workforce Planning and Talent Strategy Report Form', which required field requests the planning period start date?",
+      "answer": "Planning Period Start Date",
+      "assertions": [
+        {
+          "text": "The response must state 'Planning Period Start Date'."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'FY27 Workforce Planning Report Checklist' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'FY27 Workforce Planning Report Checklist', how many items are marked as completed?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'FY27 Workforce Planning Report Checklist', name one item that is marked as checked.",
+      "answer": "Develop a recommended talent acquisition strategy with sourcing channels, employer value proposition, diversity targets, and contingency plans",
+      "assertions": [
+        {
+          "text": "The response must state 'Develop a recommended talent acquisition strategy with sourcing channels, employer value proposition, diversity targets, and contingency plans'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'FY27 Workforce Planning Report Checklist', name one item that is not yet checked.",
+      "answer": "Prepare an executive summary and implementation roadmap with owners, milestones, KPIs, and present findings to leadership for approval",
+      "assertions": [
+        {
+          "text": "The response must state 'Prepare an executive summary and implementation roadmap with owners, milestones, KPIs, and present findings to leadership for approval'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Strategy Report Form', what does the description at the top of the form say?",
+      "answer": "Complete this form to document projected headcount needs, identify critical skill gaps, and define the recommended talent acquisition strategy.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document projected headcount needs, identify critical skill gaps, and define the recommended talent acquisition strategy.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Workforce Planning and Talent Strategy Report Form', how many sections are there?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Strategy Report Form', what is the title of the second section listed?",
+      "answer": "Critical Skills and Capability Gaps",
+      "assertions": [
+        {
+          "text": "The response must state 'Critical Skills and Capability Gaps'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Workforce Planning and Talent Strategy Report Form', how many fields are marked required?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "What form number is shown on the 'Workforce Planning and Talent Acquisition Strategy Report' form?",
+      "answer": "HR-WFP-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-WFP-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Workforce Planning and Talent Acquisition Strategy Report', what is the name of the first section?",
+      "answer": "Organizational Overview and Planning Horizon",
+      "assertions": [
+        {
+          "text": "The response must state 'Organizational Overview and Planning Horizon'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Workforce Planning and Talent Acquisition Strategy Report', how many fields are marked as required?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "What do the instructions on the 'Workforce Planning and Talent Acquisition Strategy Report' instruct the preparer to do?",
+      "answer": "Complete all applicable sections to forecast workforce needs and outline the recommended talent acquisition strategy. Submit the finalized form to HR Leadership and Finance for review and approval.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete all applicable sections to forecast workforce needs and outline the recommended talent acquisition strategy. Submit the finalized form to HR Leadership and Finance for review and approval.'."
+        }
+      ]
+    }
+  ]
+}

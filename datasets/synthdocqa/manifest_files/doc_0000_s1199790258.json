@@ -1,0 +1,4206 @@
+{
+  "doc_id": "doc_0000_s1199790258",
+  "title": "Internal Audit Report — Business Process Controls: Scope, Methodology, Key Findings, Root Causes, Management Responses and Recommended Corrective Actions",
+  "subtitle": "Internal Audit — Process Control Review | Scope, Methodology, Key Findings, Root Causes, Management Responses & Recommended Corrective Actions",
+  "topic_id": "internal_audit_report",
+  "recipe_name": "compliance_report",
+  "seed": 1199790258,
+  "document_brief": {
+    "narrative_theme": "This internal audit report assesses the Procure-to-Pay (P2P) controls at Northwind Components to explain why invoice exceptions and late payments increased and to define corrective actions that restore timely, compliant vendor payments.",
+    "sections": [],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)",
+        "purpose": "Defines the exact scope period, locations, and transaction samples used to test key P2P controls so readers can interpret findings in context.",
+        "key_data": {
+          "Scope period": "2026-01-01 to 2026-03-31",
+          "Invoice sample size": "120 invoices",
+          "PO sample size": "60 purchase orders",
+          "Locations in scope": "Dallas Plant; Reno Distribution Center"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Control design vs. operating effectiveness test results for P2P key controls",
+        "purpose": "Summarizes which specific controls failed design or operation to directly support the report’s key findings and recommendations.",
+        "key_data": {
+          "3-way match enforced before payment": "120) compliant",
+          "Vendor master change approval workflow": "20) compliant",
+          "Segregation of duties (create vendor vs. pay vendor)": "Exceptions: 4 users with conflicting access",
+          "Duplicate invoice detection rule": "blocked as expected"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Exception analysis: invoice processing failures and business impact (Jan–Mar 2026)",
+        "purpose": "Quantifies the volume and financial impact of exceptions (holds, rework, late fees) to establish materiality and prioritize remediation.",
+        "key_data": {
+          "Invoices with exceptions": "38 of 120 (31.7%)",
+          "Late payment rate": "120)",
+          "Late fees paid": "$18,450",
+          "Average approval cycle time (days)": "9.6"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Root cause mapping for P2P control failures (people, process, technology)",
+        "purpose": "Links each high-impact finding to a clear root cause category to ensure corrective actions address underlying drivers rather than symptoms.",
+        "key_data": {
+          "Finding F-01 (3-way match bypass)": "Technology: ERP tolerance set to 15% allowing auto-release",
+          "Finding F-02 (PO not referenced on invoice)": "Process: receiving not completed within 48 hours",
+          "Finding F-03 (vendor master changes)": "People: approver backlog—median 6 days",
+          "Finding F-04 (duplicate invoices)": "Technology: rule excludes credits and split invoices"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Management responses, owners, and target dates for corrective actions",
+        "purpose": "Records management’s formal commitments, accountable owners, and deadlines to enable follow-up validation and governance oversight.",
+        "key_data": {
+          "Action A-01 (reduce match tolerance to 2%)": "Owner: Priya Desai; Target: 2026-06-15",
+          "Action A-02 (mandatory receiving within 24 hours)": "Owner: Miguel Alvarez; Target: 2026-07-01",
+          "Action A-03 (vendor master dual-approval)": "Owner: Hannah Kim; Target: 2026-06-30",
+          "Action A-04 (enhance duplicate detection)": "Owner: IT Apps Team; Target: 2026-08-15"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Recommended corrective action plan with expected risk reduction and KPIs",
+        "purpose": "Translates findings into prioritized recommendations with measurable outcomes (KPIs) so leadership can track whether P2P performance and compliance improve.",
+        "key_data": {
+          "KPI: exception rate target": "≤10% by 2026-09-30",
+          "KPI: late payment rate target": "≤5% by 2026-09-30",
+          "Expected annualized savings (late fees avoided)": "$60,000",
+          "Follow-up audit date": "2026-10-15"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1199790258.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_data_e23e6155.png",
+      "scan_llm_stam_d33d8b2c.png",
+      "scan_llm_stam_c7090b2b.png",
+      "scan_llm_data_91e07f3f.png",
+      "scan_llm_data_8ba26064.png",
+      "scan_llm_stam_30ac5229.png",
+      "scan_llm_stam_2f0d1d73.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 36,
+    "actual_page_count": 34
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "table_0000_42985430",
+      "table_number": 1,
+      "caption": "Table 1: Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)",
+      "columns": [
+        "Category",
+        "Item",
+        "Details",
+        "Status"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Scope Period",
+          "Audit Coverage Dates",
+          "2026-01-01 to 2026-03-31",
+          "Completed"
+        ],
+        [
+          "Organizational Scope",
+          "Locations in Scope",
+          "Dallas Plant; Reno Distribution Center",
+          "Included"
+        ],
+        [
+          "Process Area",
+          "Procure-to-Pay (P2P)",
+          "Requisition to Payment Cycle",
+          "Included"
+        ],
+        [
+          "Sample Selection",
+          "Invoice Sample Size",
+          "120 invoices",
+          "Tested"
+        ],
+        [
+          "Sample Selection",
+          "PO Sample Size",
+          "60 purchase orders",
+          "Tested"
+        ],
+        [
+          "Control Testing",
+          "3-Way Match Verification",
+          "Matched PO, Invoice, and Goods Receipt",
+          "Performed"
+        ],
+        [
+          "Control Testing",
+          "Approval Authority Review",
+          "Delegation of Authority Matrix Validation",
+          "Performed"
+        ],
+        [
+          "Transaction Testing",
+          "High-Value Transactions",
+          ">$50,000 threshold review",
+          "Completed"
+        ],
+        [
+          "Transaction Testing",
+          "Duplicate Payment Check",
+          "System duplicate detection report analysis",
+          "Completed"
+        ],
+        [
+          "Compliance Review",
+          "Vendor Master Changes",
+          "Review of new and modified vendor records",
+          "Completed"
+        ],
+        [
+          "Methodology",
+          "Sampling Approach",
+          "Random and risk-based sampling across both locations",
+          "Applied"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what is the Invoice Sample Size listed under Sample Selection?",
+          "answer": "120 invoices",
+          "assertions": [
+            {
+              "text": "The response must state 120 invoices."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what are the Audit Coverage Dates under Scope Period?",
+          "answer": "2026-01-01 to 2026-03-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-01-01 to 2026-03-31."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what is the Status for 3-Way Match Verification?",
+          "answer": "Performed",
+          "assertions": [
+            {
+              "text": "The response must state Performed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "table_0003_b5850411",
+      "table_number": 2,
+      "caption": "Table 2: Root cause mapping for P2P control failures (people, process, technology)",
+      "columns": [
+        "Finding ID & Title",
+        " Risk Rating",
+        "Root Cause Category & Detail",
+        "Management Response",
+        " Status"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Finding F-01 (3-way match bypass)",
+          " High",
+          "Technology: ERP tolerance set to 15% allowing auto-release",
+          "Reduce tolerance to 5%, require secondary approval for variances >$10,000, and implement monthly tolerance monitoring report.",
+          " In Progress"
+        ],
+        [
+          "Finding F-02 (PO not referenced on invoice)",
+          " High",
+          "Process: receiving not completed within 48 hours",
+          "Mandate goods receipt within 24 hours, configure system block for invoices without PO reference, and provide refresher training to receiving staff.",
+          " Open"
+        ],
+        [
+          "Finding F-03 (vendor master changes)",
+          " Medium",
+          "People: approver backlog—median 6 days",
+          "Reassign approval authority to two additional managers, implement SLA of 2 business days, and deploy dashboard tracking pending requests.",
+          " In Progress"
+        ],
+        [
+          "Finding F-04 (duplicate invoices)",
+          " High",
+          "Technology: rule excludes credits and split invoices",
+          "Enhance duplicate detection rule set to include credit notes and split invoices; perform retrospective duplicate scan for prior 12 months.",
+          " Open"
+        ],
+        [
+          "Finding F-05 (inactive vendor accounts not reviewed)",
+          " Medium",
+          "Process: no periodic vendor master review control defined",
+          "Establish quarterly vendor master review, automate inactivity report, and deactivate vendors exceeding 12 months inactivity without justification.",
+          " Planned"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": " Status for Finding F-02 (PO not referenced on invoice)?",
+          "answer": " Open",
+          "assertions": [
+            {
+              "text": " Open."
+            }
+          ]
+        },
+        {
+          "question": " Risk Rating listed for Finding F-04 (duplicate invoices)?",
+          "answer": " High",
+          "assertions": [
+            {
+              "text": " High."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Root cause mapping for P2P control failures (people, process, technology)\", what is the Root Cause Category & Detail for Finding F-01 (3-way match bypass)?",
+          "answer": "Technology: ERP tolerance set to 15% allowing auto-release",
+          "assertions": [
+            {
+              "text": "The response must state Technology: ERP tolerance set to 15% allowing auto-release."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "cx_table_0000_4ee93943",
+      "table_number": 3,
+      "caption": "Table 3: Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", how many period columns does each version group span?",
+          "answer": "4 (Q1–Q4).",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1–Q4).'."
+            }
+          ]
+        },
+        {
+          "question": "Invoice)\"?",
+          "answer": "74 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '74 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", what is the \"Access & SoD Subtotal\" for Baseline Q1?",
+          "answer": "141 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '141 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", which version shows the highest Q4 value for \"Vendor bank account change verification (call-back)\"?",
+          "answer": "Actuals (Q4 Actuals = 38 vs Q4 Baseline = 30, both in $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (Q4 Actuals = 38 vs Q4 Baseline = 30, both in $000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", what is the delta (Net $K) for \"Transaction Monitoring Subtotal\"?",
+          "answer": "94.",
+          "assertions": [
+            {
+              "text": "The response must state '94.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", how many quarterly periods are represented?",
+          "answer": "4 (Q1–Q4)",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1–Q4)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", how many data rows are listed?",
+          "answer": "25",
+          "assertions": [
+            {
+              "text": "The response must state '25'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", which reported total is larger, 74 ($000) or 141 ($000)?",
+          "answer": "141 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '141 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", what does footnote 1 explain?",
+          "answer": "No footnotes shown.",
+          "assertions": [
+            {
+              "text": "The response must state 'No footnotes shown.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", what is the Baseline subtotal in $000?",
+          "answer": "74 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '74 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "cx_table_0003_b630de8d",
+      "table_number": 4,
+      "caption": "Table 4: Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what sub-columns fall under the \"Impact Assessment\" group label in the \"Vendor Master Controls\" row's inner root-cause table?",
+          "answer": "Likelihood and Severity.",
+          "assertions": [
+            {
+              "text": "The response must state 'Likelihood and Severity.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", how many rows does the \"Process\" label span in the inner root-cause table for \"Vendor Master Controls\"?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what does footnote 2 explain?",
+          "answer": "It explains that callback verification must use a pre-approved phone number from the vendor master record, not a number provided in the change request.",
+          "assertions": [
+            {
+              "text": "The response must state 'It explains that callback verification must use a pre-approved phone number from the vendor master record, not a number provided in the change request.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what is the sample size for \"Bank detail changes\" in the \"Vendor Master Controls\" row's inner scope & methodology table?",
+          "answer": "20.",
+          "assertions": [
+            {
+              "text": "The response must state '20.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what risk rating (Likelihood and Severity) is shown for the first \"Process\" root-cause detail in the \"Vendor Master Controls\" row's inner root-cause table?",
+          "answer": "Likelihood: Medium; Severity: High.",
+          "assertions": [
+            {
+              "text": "The response must state 'Likelihood: Medium; Severity: High.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what risk assessment label is shown?",
+          "answer": "Likelihood and Severity.",
+          "assertions": [
+            {
+              "text": "The response must state 'Likelihood and Severity.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", how many header rows are in the table?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", which has the highest count, the header rows or the data rows?",
+          "answer": "data rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'data rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what does footnote 1 explain about callback verification?",
+          "answer": "Use pre-approved vendor master phone, not number from change request.",
+          "assertions": [
+            {
+              "text": "The response must state 'Use pre-approved vendor master phone, not number from change request.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what is the subtotal for group 'data rows' in column 'Corrective Action Status'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_76aa5156",
+      "table_number": 5,
+      "caption": "Table 5: Budget Expenditure Ledger",
+      "columns": [
+        "Cost Center",
+        "Expense Category",
+        "Approved Budget (USD)",
+        "Actual Expenditure (USD)",
+        "Variance (USD)"
+      ],
+      "row_count": 69,
+      "cells": [
+        [
+          "Internal Audit",
+          "Personnel Costs",
+          "120000",
+          "125500",
+          "-5500"
+        ],
+        [
+          "Internal Audit",
+          "External Consultants",
+          "45000",
+          "38750",
+          "6250"
+        ],
+        [
+          "Internal Audit",
+          "Audit Software Licenses",
+          "18000",
+          "17200",
+          "800"
+        ],
+        [
+          "Internal Audit",
+          "Travel and Lodging",
+          "22000",
+          "25680",
+          "-3680"
+        ],
+        [
+          "Internal Audit",
+          "Training and Certification",
+          "15000",
+          "13250",
+          "1750"
+        ],
+        [
+          "Internal Audit",
+          "Data Analytics Tools",
+          "12000",
+          "11940",
+          "60"
+        ],
+        [
+          "Internal Audit",
+          "IT Support Services",
+          "10000",
+          "10820",
+          "-820"
+        ],
+        [
+          "Internal Audit",
+          "Document Management System",
+          "8000",
+          "7600",
+          "400"
+        ],
+        [
+          "Internal Audit",
+          "Office Supplies",
+          "5000",
+          "4625",
+          "375"
+        ],
+        [
+          "Internal Audit",
+          "Communication Expenses",
+          "4000",
+          "3890",
+          "110"
+        ],
+        [
+          "Internal Audit",
+          "Risk Assessment Workshops",
+          "9000",
+          "9450",
+          "-450"
+        ],
+        [
+          "Internal Audit",
+          "Compliance Monitoring Tools",
+          "11000",
+          "10275",
+          "725"
+        ],
+        [
+          "Internal Audit",
+          "Quality Assurance Reviews",
+          "7000",
+          "7350",
+          "-350"
+        ],
+        [
+          "Internal Audit",
+          "Contingency Reserve",
+          "20000",
+          "15000",
+          "5000"
+        ],
+        [
+          "Internal Audit",
+          "Miscellaneous Expenses",
+          "6000",
+          "6425",
+          "-425"
+        ],
+        [
+          "IT Audit",
+          "External Audit Consultants",
+          "50000",
+          "48250",
+          "1750"
+        ],
+        [
+          "Finance",
+          "Forensic Analysis Services",
+          "32000",
+          "34780",
+          "-2780"
+        ],
+        [
+          "Operations",
+          "Process Mapping Workshops",
+          "15000",
+          "14950",
+          "50"
+        ],
+        [
+          "Compliance",
+          "Regulatory Review Fees",
+          "27500",
+          "30120",
+          "-2620"
+        ],
+        [
+          "Risk Management",
+          "Control Testing Tools",
+          "42000",
+          "38900",
+          "3100"
+        ],
+        [
+          "Human Resources",
+          "Audit Training Programs",
+          "18000",
+          "17240",
+          "760"
+        ],
+        [
+          "Procurement",
+          "Vendor Assessment Reviews",
+          "22000",
+          "25110",
+          "-3110"
+        ],
+        [
+          "Information Security",
+          "Penetration Testing",
+          "12500",
+          "11875",
+          "625"
+        ],
+        [
+          "Internal Audit",
+          "Travel Expenses",
+          "36000",
+          "33333",
+          "2667"
+        ],
+        [
+          "Legal",
+          "Advisory Services",
+          "41000",
+          "44550",
+          "-3550"
+        ],
+        [
+          "Administration",
+          "Documentation & Reporting Supplies",
+          "9500",
+          "9025",
+          "475"
+        ],
+        [
+          "Quality Assurance",
+          "Data Analytics Software Licenses",
+          "28500",
+          "26000",
+          "2500"
+        ],
+        [
+          "Enterprise Risk",
+          "System Access Reviews",
+          "60000",
+          "61200",
+          "-1200"
+        ],
+        [
+          "Corporate Services",
+          "Meeting & Workshop Facilities",
+          "14000",
+          "13750",
+          "250"
+        ],
+        [
+          "Finance",
+          "Audit Documentation Management System",
+          "30500",
+          "29990",
+          "510"
+        ],
+        [
+          "Internal Audit",
+          "External Audit Support",
+          "25000",
+          "23850",
+          "1150"
+        ],
+        [
+          "Internal Audit",
+          "Travel and Lodging",
+          "18000",
+          "19450",
+          "-1450"
+        ],
+        [
+          "Finance",
+          "Consulting Fees",
+          "42000",
+          "40120",
+          "1880"
+        ],
+        [
+          "IT Security",
+          "Access Control Review Tools",
+          "15000",
+          "15000",
+          "0"
+        ],
+        [
+          "Compliance",
+          "Regulatory Filing Costs",
+          "32000",
+          "34780",
+          "-2780"
+        ],
+        [
+          "Risk Management",
+          "Risk Assessment Workshops",
+          "27000",
+          "25990",
+          "1010"
+        ],
+        [
+          "Operations",
+          "Process Mapping Software",
+          "22000",
+          "21050",
+          "950"
+        ],
+        [
+          "IT Security",
+          "Penetration Testing Services",
+          "38000",
+          "39220",
+          "-1220"
+        ],
+        [
+          "Human Resources",
+          "Audit Training Programs",
+          "12000",
+          "11840",
+          "160"
+        ],
+        [
+          "Finance",
+          "Data Analytics Software Licenses",
+          "46000",
+          "43000",
+          "3000"
+        ],
+        [
+          "Compliance",
+          "Policy Documentation Updates",
+          "17500",
+          "16980",
+          "520"
+        ],
+        [
+          "Operations",
+          "Internal Control Testing",
+          "29000",
+          "30560",
+          "-1560"
+        ],
+        [
+          "Risk Management",
+          "Third-Party Risk Reviews",
+          "34000",
+          "33110",
+          "890"
+        ],
+        [
+          "IT Security",
+          "System Access Recertification",
+          "21000",
+          "19875",
+          "1125"
+        ],
+        [
+          "Internal Audit",
+          "Reporting and Documentation",
+          "26000",
+          "27440",
+          "-1440"
+        ],
+        [
+          "Internal Audit",
+          "Consulting Services",
+          "18500",
+          "19240",
+          "-740"
+        ],
+        [
+          "Compliance",
+          "Regulatory Filing Fees",
+          "7200",
+          "6985",
+          "215"
+        ],
+        [
+          "IT Security",
+          "Access Control Review",
+          "13400",
+          "12875",
+          "525"
+        ],
+        [
+          "Finance",
+          "Data Analytics Tools",
+          "9600",
+          "10020",
+          "-420"
+        ],
+        [
+          "Operations",
+          "Process Mapping Workshops",
+          "11250",
+          "10980",
+          "270"
+        ],
+        [
+          "Human Resources",
+          "Training & Certification",
+          "8400",
+          "8650",
+          "-250"
+        ],
+        [
+          "Procurement",
+          "Vendor Risk Assessment",
+          "15750",
+          "14990",
+          "760"
+        ],
+        [
+          "Risk Management",
+          "Control Testing",
+          "12300",
+          "11840",
+          "460"
+        ],
+        [
+          "IT Infrastructure",
+          "System Log Monitoring",
+          "17600",
+          "18210",
+          "-610"
+        ],
+        [
+          "Legal",
+          "Policy Review",
+          "9100",
+          "8875",
+          "225"
+        ],
+        [
+          "Corporate Services",
+          "Travel & Lodging",
+          "6800",
+          "7425",
+          "-625"
+        ],
+        [
+          "Audit Analytics",
+          "Software Licenses",
+          "14350",
+          "13990",
+          "360"
+        ],
+        [
+          "Quality Assurance",
+          "Documentation Updates",
+          "7700",
+          "7520",
+          "180"
+        ],
+        [
+          "Administration",
+          "Office Supplies",
+          "3200",
+          "2950",
+          "250"
+        ],
+        [
+          "Executive Oversight",
+          "Steering Committee Meetings",
+          "5400",
+          "5635",
+          "-235"
+        ],
+        [
+          "Finance Operations",
+          "External Audit Support Fees",
+          "18500",
+          "19275",
+          "-775"
+        ],
+        [
+          "IT Security",
+          "Audit Management Software Licenses",
+          "12400",
+          "11890",
+          "510"
+        ],
+        [
+          "Human Resources",
+          "Internal Auditor Overtime",
+          "9600",
+          "10420",
+          "-820"
+        ],
+        [
+          "Compliance",
+          "Regulatory Filing Fees",
+          "7300",
+          "7300",
+          "0"
+        ],
+        [
+          "Operations",
+          "Process Documentation Updates",
+          "5400",
+          "4985",
+          "415"
+        ],
+        [
+          "Procurement",
+          "Third-Party Risk Assessments",
+          "15800",
+          "16240",
+          "-440"
+        ],
+        [
+          "Executive Office",
+          "Audit Committee Reporting Costs",
+          "6800",
+          "6425",
+          "375"
+        ],
+        [
+          "Data Analytics",
+          "Data Extraction and Analysis Tools",
+          "11250",
+          "10980",
+          "270"
+        ],
+        [
+          "Training & Development",
+          "Internal Control Training Workshops",
+          "8750",
+          "9215",
+          "-465"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Approved Budget (USD)": 1411350.0,
+        "max_Approved Budget (USD)": 120000.0,
+        "min_Approved Budget (USD)": 3200.0,
+        "sum_Actual Expenditure (USD)": 1406008.0,
+        "max_Actual Expenditure (USD)": 125500.0,
+        "min_Actual Expenditure (USD)": 2950.0,
+        "sum_Variance (USD)": 5342.0,
+        "max_Variance (USD)": 6250.0,
+        "min_Variance (USD)": -5500.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the Actual Expenditure (USD) for Internal Audit under Personnel Costs?",
+          "answer": "125500",
+          "assertions": [
+            {
+              "text": "The response must state 125500."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the Variance (USD) for Finance under Forensic Analysis Services?",
+          "answer": "-2780",
+          "assertions": [
+            {
+              "text": "The response must state -2780."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the Approved Budget (USD) for Executive Office under Audit Committee Reporting Costs?",
+          "answer": "6800",
+          "assertions": [
+            {
+              "text": "The response must state 6800."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "cx_table_0001_a418fbdf",
+      "table_number": 6,
+      "caption": "Table 6: Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", which groups fall under the \"Control Exceptions (Testing Results)\" super-group?",
+          "answer": "Invoice & Approval Controls; Vendor Master & SoD Controls.",
+          "assertions": [
+            {
+              "text": "The response must state 'Invoice & Approval Controls; Vendor Master & SoD Controls.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", how many leaf metric columns does the \"Corrective Action Management (CAPA)\" super-group contain?",
+          "answer": "4 leaf metric columns (CAPA Backlog Value, CAPA Backlog Chg %, CAPA Timeliness Value, CAPA Timeliness Chg %).",
+          "assertions": [
+            {
+              "text": "The response must state '4 leaf metric columns (CAPA Backlog Value, CAPA Backlog Chg %, CAPA Timeliness Value, CAPA Timeliness Chg %).'."
+            }
+          ]
+        },
+        {
+          "question": "Vendor Master & SoD Controls?",
+          "answer": "3.2%.",
+          "assertions": [
+            {
+              "text": "The response must state '3.2%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", what is the grand total \"Value\" for \"CAPA Backlog\" under the \"Corrective Action Management (CAPA)\" super-group?",
+          "answer": "128 actions.",
+          "assertions": [
+            {
+              "text": "The response must state '128 actions.'."
+            }
+          ]
+        },
+        {
+          "question": "Invoice & Approval Controls?",
+          "answer": "APAC Operations (+0.6%).",
+          "assertions": [
+            {
+              "text": "The response must state 'APAC Operations (+0.6%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", what overall exception rate is displayed?",
+          "answer": "3.2%",
+          "assertions": [
+            {
+              "text": "The response must state '3.2%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", which columns fall under the header \"Corrective Action Management (CAPA)\"?",
+          "answer": "CAPA Backlog Value, CAPA Backlog Chg %, CAPA Timeliness Value, CAPA Timeliness Chg %",
+          "assertions": [
+            {
+              "text": "The response must state 'CAPA Backlog Value, CAPA Backlog Chg %, CAPA Timeliness Value, CAPA Timeliness Chg %'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", which control area is listed before the other: Invoice & Approval Controls or Vendor Master & SoD Controls?",
+          "answer": "Invoice & Approval Controls",
+          "assertions": [
+            {
+              "text": "The response must state 'Invoice & Approval Controls'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", what does the table annotation explain about its formatting and test design?",
+          "answer": "Merged cells and multi-tier headers",
+          "assertions": [
+            {
+              "text": "The response must state 'Merged cells and multi-tier headers'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", what is the subtotal for \"Corrective Action Management (CAPA)\" in the leaf-metric count column?",
+          "answer": "4 leaf metric columns",
+          "assertions": [
+            {
+              "text": "The response must state '4 leaf metric columns'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "cx_table_0002_8c8c2aaa",
+      "table_number": 7,
+      "caption": "Table 7: Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what sub-columns fall under \"Match Outcomes\" in the inner table within the \"3) Three-Way Match & Invoice Processing\" row?",
+          "answer": "Auto-match; Manual review; Override used.",
+          "assertions": [
+            {
+              "text": "The response must state 'Auto-match; Manual review; Override used.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", how many rows does the \"Process\" label span in the inner \"Root Cause Category\" table within the \"1) Vendor Master Data Controls\" row?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what does footnote 1 explain?",
+          "answer": "Population derived from ERP vendor master change logs; excludes vendors managed solely by the outsourced indirect-tax platform.",
+          "assertions": [
+            {
+              "text": "The response must state 'Population derived from ERP vendor master change logs; excludes vendors managed solely by the outsourced indirect-tax platform.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what is the exception count for \"Bank detail changes\" in the inner evidence table within the \"1) Vendor Master Data Controls\" row?",
+          "answer": "2.",
+          "assertions": [
+            {
+              "text": "The response must state '2.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what severity is shown for the \"Monitoring\" root cause in the inner root-cause table within the \"4) Payment Run Controls & Bank File Transmission\" row?",
+          "answer": "High.",
+          "assertions": [
+            {
+              "text": "The response must state 'High.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what matching outcomes are listed under Key Findings?",
+          "answer": "Auto-match; Manual review; Override used.",
+          "assertions": [
+            {
+              "text": "The response must state 'Auto-match; Manual review; Override used.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", how many header rows are shown in the table?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", which is larger: the number of header rows or the number of data rows?",
+          "answer": "Data rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what does the footnote explain about the vendor population?",
+          "answer": "Population derived from ERP vendor master change logs; excludes vendors managed by outsourced indirect-tax platform.",
+          "assertions": [
+            {
+              "text": "The response must state 'Population derived from ERP vendor master change logs; excludes vendors managed by outsourced indirect-tax platform.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what is the subtotal for the vendor population shown in Scope & Methodology?",
+          "answer": "Population derived from ERP vendor master change logs; excludes outsourced indirect-tax vendors.",
+          "assertions": [
+            {
+              "text": "The response must state 'Population derived from ERP vendor master change logs; excludes outsourced indirect-tax vendors.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "table_0005_189b8174",
+      "table_number": 8,
+      "caption": "Table 8: Recommended corrective action plan with expected risk reduction and KPIs",
+      "columns": [
+        "Finding ID",
+        "Key Finding",
+        "Root Cause",
+        "Recommendation",
+        "Priority",
+        "Owner",
+        " Target",
+        "Due Date",
+        "Status",
+        "Expected Benefit",
+        "Follow-Up"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "F1",
+          "High invoice exception rate (18%) in P2P process",
+          "Manual three-way match and inconsistent PO usage",
+          "Implement automated three-way matching and mandatory PO policy",
+          "High",
+          "Head of Procurement",
+          "KPI: exception rate target: ≤10% by 2026-09-30",
+          "2026-08-31",
+          "In Progress",
+          "Improved invoice accuracy and reduced rework hours",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F2",
+          "Late supplier payments averaging 12% of monthly invoices",
+          "Inefficient approval workflow and lack of reminders",
+          "Deploy automated approval routing with escalation alerts",
+          "High",
+          "AP Manager",
+          "KPI: late payment rate target: ≤5% by 2026-09-30",
+          "2026-08-15",
+          "In Progress",
+          "Expected annualized savings (late fees avoided): $60,000",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F3",
+          "Duplicate payments detected in 4 instances",
+          "Lack of duplicate invoice validation controls",
+          "Enable system-based duplicate invoice detection rules",
+          "Medium",
+          "Finance Systems Lead",
+          "Duplicate payment rate ≤0.5% by 2026-09-30",
+          "2026-07-31",
+          "Planned",
+          "Reduced financial leakage and recovery efforts",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F4",
+          "Vendor master data inconsistencies (7% incomplete records)",
+          "Decentralized vendor onboarding process",
+          "Centralize vendor onboarding and enforce required fields",
+          "Medium",
+          "Vendor Master Data Lead",
+          "100% vendor records complete by 2026-09-30",
+          "2026-07-15",
+          "In Progress",
+          "Improved data integrity and reporting accuracy",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F5",
+          "Unauthorized purchases below approval threshold",
+          "Lack of spend visibility and policy awareness",
+          "Introduce quarterly compliance training and spend analytics dashboard",
+          "Medium",
+          "Procurement Compliance Officer",
+          "Maverick spend ≤3% of total spend by 2026-09-30",
+          "2026-09-01",
+          "Planned",
+          "Stronger policy adherence and cost control",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F6",
+          "Delayed GRN (Goods Receipt Note) entries impacting matching",
+          "Warehouse staff not trained on timely system updates",
+          "Provide targeted ERP training and enforce 24-hour GRN entry SLA",
+          "Medium",
+          "Logistics Manager",
+          "95% GRNs recorded within 24 hours by 2026-09-30",
+          "2026-08-20",
+          "In Progress",
+          "Faster invoice processing cycle time",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F7",
+          "Manual journal entries to correct AP errors increased by 22%",
+          "Inadequate review controls before posting",
+          "Implement supervisory review checklist in ERP workflow",
+          "Low",
+          "Controller",
+          "Manual AP adjustments reduced by 50% by 2026-09-30",
+          "2026-09-10",
+          "Planned",
+          "Reduced financial statement risk",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F8",
+          "Average invoice processing time at 14 days",
+          "Paper-based invoice intake and routing delays",
+          "Transition to e-invoicing platform",
+          "High",
+          "Digital Transformation Lead",
+          "Average processing time ≤7 days by 2026-09-30",
+          "2026-08-31",
+          "In Progress",
+          "Improved supplier satisfaction and early payment discount capture",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F9",
+          "Low utilization of early payment discounts (captured 40%)",
+          "Lack of visibility into discount terms",
+          "Configure ERP alerts for discount windows",
+          "Medium",
+          "Treasury Manager",
+          "Early payment discount capture ≥80% by 2026-09-30",
+          "2026-08-15",
+          "Planned",
+          "Annual savings increase of $45,000 from discounts",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F10",
+          "Segregation of duties conflicts in AP system (3 conflicts identified)",
+          "User access not periodically reviewed",
+          "Conduct quarterly access reviews and remediate conflicts",
+          "High",
+          "IT Security Manager",
+          "Zero unresolved SoD conflicts by 2026-09-30",
+          "2026-07-31",
+          "In Progress",
+          "Reduced fraud risk and stronger compliance posture",
+          "Follow-up audit date: 2026-10-15"
+        ],
+        [
+          "F11",
+          "Inadequate KPI reporting to leadership",
+          "No standardized P2P dashboard",
+          "Develop executive P2P dashboard with monthly KPI reporting",
+          "Medium",
+          "Finance Director",
+          "Monthly dashboard issued within 5 business days of month-end by 2026-09-30",
+          "2026-07-15",
+          "Planned",
+          "Enhanced transparency and accountability",
+          "Follow-up audit date: 2026-10-15"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Recommended corrective action plan with expected risk reduction and KPIs\", what is the Due Date for Finding ID F4?",
+          "answer": "2026-07-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-15."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Recommended corrective action plan with expected risk reduction and KPIs\", who is listed as the Owner for Finding ID F2?",
+          "answer": "AP Manager",
+          "assertions": [
+            {
+              "text": "The response must state AP Manager."
+            }
+          ]
+        },
+        {
+          "question": " Target for Finding ID F8?",
+          "answer": "Average processing time ≤7 days by 2026-09-30",
+          "assertions": [
+            {
+              "text": "The response must state Average processing time ≤7 days by 2026-09-30."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "table_0004_cdd42452",
+      "table_number": 9,
+      "caption": "Table 9: Management responses, owners, and target dates for corrective actions",
+      "columns": [
+        "Action ID",
+        "Action Description",
+        "Owner",
+        "Target Date",
+        "Priority",
+        "Status",
+        "Control Area",
+        "Validation Method"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "A-01",
+          "Reduce match tolerance to 2%",
+          "Priya Desai",
+          "2026-06-15",
+          "High",
+          "In Progress",
+          "Procure-to-Pay (3-Way Match)",
+          "Re-performance testing of 30 sampled invoices"
+        ],
+        [
+          "A-02",
+          "Mandatory receiving within 24 hours",
+          "Miguel Alvarez",
+          "2026-07-01",
+          "High",
+          "Not Started",
+          "Receiving & Inventory Controls",
+          "System timestamp review and exception report validation"
+        ],
+        [
+          "A-03",
+          "Vendor master dual-approval",
+          "Hannah Kim",
+          "2026-06-30",
+          "High",
+          "In Progress",
+          "Vendor Master Data Management",
+          "Access control review and approval workflow testing"
+        ],
+        [
+          "A-04",
+          "Enhance duplicate detection",
+          "IT Apps Team",
+          "2026-08-15",
+          "Medium",
+          "Planned",
+          "Accounts Payable Automation",
+          "Duplicate invoice simulation and analytics testing"
+        ],
+        [
+          "A-05",
+          "Implement quarterly vendor statement reconciliations",
+          "Laura Chen",
+          "2026-09-30",
+          "Medium",
+          "Planned",
+          "Accounts Payable Reconciliations",
+          "Review of completed reconciliations and variance follow-up"
+        ],
+        [
+          "A-06",
+          "Formalize segregation of duties review for AP roles",
+          "Daniel Brooks",
+          "2026-07-15",
+          "High",
+          "In Progress",
+          "Access & Segregation of Duties",
+          "User access matrix review and conflict testing"
+        ],
+        [
+          "A-07",
+          "Develop KPI dashboard for invoice cycle time monitoring",
+          "Sofia Martinez",
+          "2026-08-01",
+          "Medium",
+          "Not Started",
+          "Performance Monitoring",
+          "Dashboard inspection and KPI trend analysis"
+        ],
+        [
+          "A-08",
+          "Conduct annual fraud risk assessment for P2P process",
+          "James O'Connor",
+          "2026-10-15",
+          "Medium",
+          "Planned",
+          "Fraud Risk Management",
+          "Review of documented risk assessment and mitigation plan"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Management responses, owners, and target dates for corrective actions\", what is the Target Date for Action ID A-03?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Management responses, owners, and target dates for corrective actions\", who is the Owner for the action \"Enhance duplicate detection\"?",
+          "answer": "IT Apps Team",
+          "assertions": [
+            {
+              "text": "The response must state IT Apps Team."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Management responses, owners, and target dates for corrective actions\", what is the Validation Method listed for Action ID A-01?",
+          "answer": "Re-performance testing of 30 sampled invoices",
+          "assertions": [
+            {
+              "text": "The response must state Re-performance testing of 30 sampled invoices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0001_45438532",
+      "table_number": 10,
+      "caption": "Table 10: Control design vs. operating effectiveness test results for P2P key controls",
+      "columns": [
+        "Control ID",
+        "Control Description",
+        "Control Type",
+        "Frequency",
+        "Design Effectiveness",
+        " Exceptions",
+        "Risk Impact",
+        "Root Cause",
+        "Recommended Corrective Action"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "AP-01",
+          "Three-way match (PO, GRN, Invoice) prior to payment release",
+          "Preventive",
+          "Per transaction",
+          "Effective",
+          "120) compliant",
+          "Risk of unauthorized or inaccurate payments",
+          "Manual override capability without secondary review",
+          "Configure system to block payment release without completed match and require controller approval for overrides"
+        ],
+        [
+          "AP-02",
+          "Vendor master file change approval workflow",
+          "Preventive",
+          "Per change",
+          "Effective",
+          "20) compliant",
+          "Risk of fraudulent vendor setup or modification",
+          "Emergency changes processed outside workflow",
+          "Disable direct table edits and enforce automated approval routing for all changes"
+        ],
+        [
+          "AP-03",
+          "Segregation of duties between vendor creation and payment processing",
+          "Preventive",
+          "Continuous",
+          "Partially Effective",
+          "Segregation of duties (create vendor vs. pay vendor): Exceptions: 4 users with conflicting access",
+          "Risk of fictitious vendor payments",
+          "Role design not updated after organizational restructuring",
+          "Remediate conflicting access and implement quarterly SOD review with documented sign-off"
+        ],
+        [
+          "AP-04",
+          "Automated duplicate invoice detection rule",
+          "Preventive",
+          "Per transaction",
+          "Effective",
+          "blocked as expected",
+          "Risk of duplicate payments",
+          "Tolerance thresholds set too high and inconsistent invoice numbering formats",
+          "Refine matching logic (invoice number, amount, vendor) and reduce tolerance levels"
+        ],
+        [
+          "AP-05",
+          "Monthly vendor statement reconciliation",
+          "Detective",
+          "Monthly",
+          "Partially Effective",
+          "10) months completed timely",
+          "Delayed identification of overpayments",
+          "Resource constraints during month-end close",
+          "Establish reconciliation calendar with automated reminders and supervisory review"
+        ],
+        [
+          "AP-06",
+          "Payment batch review and approval by AP Manager",
+          "Preventive",
+          "Weekly",
+          "Effective",
+          "40) batches evidenced review",
+          "Unauthorized or erroneous disbursements",
+          "Inconsistent documentation retention",
+          "Mandate electronic approval evidence prior to bank file release"
+        ],
+        [
+          "AP-07",
+          "Access review of accounts payable system roles",
+          "Detective",
+          "Quarterly",
+          "Partially Effective",
+          "4) quarterly reviews completed",
+          "Excessive access increasing fraud risk",
+          "Lack of formal ownership of access review process",
+          "Assign control owner and implement automated access certification workflow"
+        ],
+        [
+          "AP-08",
+          "Bank account change verification callback procedure",
+          "Preventive",
+          "Per change",
+          "Design Gap Identified",
+          "10) changes independently verified",
+          "Payments diverted to fraudulent accounts",
+          "No mandatory documented callback script",
+          "Implement standardized callback checklist and require documentation upload before approval"
+        ],
+        [
+          "AP-09",
+          "Aging report review for long-outstanding invoices",
+          "Detective",
+          "Monthly",
+          "Effective",
+          "10) reviews performed with evidence",
+          "Accumulation of unresolved liabilities or credits",
+          "Competing priorities at month-end",
+          "Integrate aging review into close checklist with CFO oversight"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Control design vs. operating effectiveness test results for P2P key controls\", what is the Frequency listed for control AP-06?",
+          "answer": "Weekly",
+          "assertions": [
+            {
+              "text": "The response must state Weekly."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Control design vs. operating effectiveness test results for P2P key controls\", what is the Design Effectiveness for control AP-08?",
+          "answer": "Design Gap Identified",
+          "assertions": [
+            {
+              "text": "The response must state Design Gap Identified."
+            }
+          ]
+        },
+        {
+          "question": " Exceptions entry for AP-03?",
+          "answer": "Segregation of duties (create vendor vs. pay vendor): Exceptions: 4 users with conflicting access",
+          "assertions": [
+            {
+              "text": "The response must state Segregation of duties (create vendor vs. pay vendor): Exceptions: 4 users with conflicting access."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "scan_llm_0003_114fdb21",
+      "figure_number": 1,
+      "image_path": "scan_llm_data_e23e6155.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 1: Invoice Exception and Late Payment Analysis – P2P Cycle",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Invoice Exception and Late Payment Analysis – P2P Cycle",
+        "caption": "Summary of invoice exception drivers and payment delays identified during the internal audit of Procure-to-Pay controls at Northwind Components.",
+        "headers": [
+          "Exception Type",
+          "Invoices Impacted",
+          "Avg Days Late"
+        ],
+        "rows": [
+          [
+            "PO-Price Mismatch",
+            "184",
+            "17"
+          ],
+          [
+            "Missing Goods Receipt",
+            "139",
+            "22"
+          ],
+          [
+            "Duplicate Invoice Flag",
+            "61",
+            "9"
+          ],
+          [
+            "Incorrect Vendor Master Data",
+            "47",
+            "14"
+          ],
+          [
+            "Unapproved Purchase Order",
+            "93",
+            "26"
+          ],
+          [
+            "Three-Way Match Failure",
+            "128",
+            "19"
+          ],
+          [
+            "Tax Calculation Error",
+            "35",
+            "11"
+          ],
+          [
+            "Manual Payment Hold",
+            "72",
+            "24"
+          ],
+          [
+            "Coding to Wrong Cost Center",
+            "54",
+            "13"
+          ],
+          [
+            "System Workflow Routing Error",
+            "29",
+            "21"
+          ],
+          [
+            "Contract Rate Not Updated",
+            "41",
+            "16"
+          ]
+        ],
+        "summary_note": "The highest volume of exceptions relates to PO-price mismatches and three-way match failures, both contributing materially to extended payment delays. Workflow and approval control gaps appear to be primary drivers of late payments exceeding 20 days.",
+        "date": "31 Mar 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Exception Type",
+        "Invoices Impacted",
+        "Avg Days Late"
+      ],
+      "cells": [
+        [
+          "PO-Price Mismatch",
+          "184",
+          "17"
+        ],
+        [
+          "Missing Goods Receipt",
+          "139",
+          "22"
+        ],
+        [
+          "Duplicate Invoice Flag",
+          "61",
+          "9"
+        ],
+        [
+          "Incorrect Vendor Master Data",
+          "47",
+          "14"
+        ],
+        [
+          "Unapproved Purchase Order",
+          "93",
+          "26"
+        ],
+        [
+          "Three-Way Match Failure",
+          "128",
+          "19"
+        ],
+        [
+          "Tax Calculation Error",
+          "35",
+          "11"
+        ],
+        [
+          "Manual Payment Hold",
+          "72",
+          "24"
+        ],
+        [
+          "Coding to Wrong Cost Center",
+          "54",
+          "13"
+        ],
+        [
+          "System Workflow Routing Error",
+          "29",
+          "21"
+        ],
+        [
+          "Contract Rate Not Updated",
+          "41",
+          "16"
+        ]
+      ],
+      "row_count": 11,
+      "col_count": 3,
+      "summary": "The highest volume of exceptions relates to PO-price mismatches and three-way match failures, both contributing materially to extended payment delays. Workflow and approval control gaps appear to be primary drivers of late payments exceeding 20 days.",
+      "qa_candidates": [
+        {
+          "question": "According to \"Invoice Exception and Late Payment Analysis – P2P Cycle\", how many invoices were impacted by PO-Price Mismatch?",
+          "answer": "184 invoices",
+          "assertions": [
+            {
+              "text": "The response must state '184 invoices'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Invoice Exception and Late Payment Analysis – P2P Cycle\", what is the average days late for Missing Goods Receipt?",
+          "answer": "22 days",
+          "assertions": [
+            {
+              "text": "The response must state '22 days'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Invoice Exception and Late Payment Analysis – P2P Cycle\", which exception listed has the highest average days late and what is that value?",
+          "answer": "Unapproved Purchase Order — 26 days",
+          "assertions": [
+            {
+              "text": "The response must state 'Unapproved Purchase Order — 26 days'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Invoice Exception and Late Payment Analysis – P2P Cycle\", does the summary identify workflow and approval control gaps as primary drivers of late payments exceeding 20 days?",
+          "answer": "Yes; workflow and approval control gaps are identified as primary drivers.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes; workflow and approval control gaps are identified as primary drivers.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Invoice Exception and Late Payment Analysis – P2P Cycle\", which two exceptions are noted as the highest volume contributors to extended payment delays?",
+          "answer": "PO-Price Mismatch and Three-Way Match Failure",
+          "assertions": [
+            {
+              "text": "The response must state 'PO-Price Mismatch and Three-Way Match Failure'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "table_0002_bdd36761",
+      "table_number": 11,
+      "caption": "Table 11: Exception analysis: invoice processing failures and business impact (Jan–Mar 2026)",
+      "columns": [
+        "Metric",
+        " Rate",
+        "Financial Impact (USD)",
+        "Audit Relevance"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Total invoices reviewed (Q1 FY2026)",
+          "120",
+          "$1,245,000 total spend reviewed",
+          "Defines audit sample population"
+        ],
+        [
+          "Invoices with exceptions",
+          "Invoices with exceptions: 38 of 120 (31.7%)",
+          "$214,300 tied to exception invoices",
+          "Indicates control breakdown frequency"
+        ],
+        [
+          "Late payments",
+          "120)",
+          "Contributes to penalties and vendor dissatisfaction",
+          "Measures timeliness control effectiveness"
+        ],
+        [
+          "Late fees incurred (Q1 FY2026)",
+          "26 invoices assessed penalties",
+          "Late fees paid: $18,450",
+          "Direct financial loss due to process delays"
+        ],
+        [
+          "Average approval cycle time",
+          "Average approval cycle time (days): 9.6",
+          "Extended cycle contributes to $18,450 in late fees",
+          "Highlights workflow inefficiency"
+        ],
+        [
+          "Invoices requiring rework",
+          "18 invoices (15.0%)",
+          "$96,750 in reprocessed spend",
+          "Indicates data entry or 3-way match issues"
+        ],
+        [
+          "Invoices placed on hold >5 days",
+          "14 invoices (11.7%)",
+          "$58,200 delayed disbursement",
+          "Signals approval bottlenecks"
+        ],
+        [
+          "Duplicate or pricing discrepancies",
+          "6 invoices (5.0%)",
+          "$12,640 potential overtsatement (corrected before payment)",
+          "Shows preventive control effectiveness"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Volume / Rate": 120.0,
+        "max_Volume / Rate": 120.0,
+        "min_Volume / Rate": 120.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Exception analysis: invoice processing failures and business impact (Jan–Mar 2026)\", what is the total spend reviewed for \"Total invoices reviewed (Q1 FY2026)\" under Financial Impact (USD)?",
+          "answer": "$1,245,000 total spend reviewed",
+          "assertions": [
+            {
+              "text": "The response must state $1,245,000 total spend reviewed."
+            }
+          ]
+        },
+        {
+          "question": " Rate?",
+          "answer": "120)",
+          "assertions": [
+            {
+              "text": "120)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Exception analysis: invoice processing failures and business impact (Jan–Mar 2026)\", what is the Financial Impact (USD) for \"Duplicate or pricing discrepancies\"?",
+          "answer": "$12,640 potential overtsatement (corrected before payment)",
+          "assertions": [
+            {
+              "text": "The response must state $12,640 potential overtsatement (corrected before payment)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_bee4bdfd",
+      "table_number": 12,
+      "caption": "Table 12: Purchase Order Register",
+      "columns": [
+        "PO Number",
+        "Vendor Name",
+        "PO Date",
+        "PO Amount (USD)",
+        "Status"
+      ],
+      "row_count": 51,
+      "cells": [
+        [
+          "PO-2025-001",
+          "Alpha Office Supplies",
+          "2025-01-05",
+          "1250.0",
+          "Approved"
+        ],
+        [
+          "PO-2025-002",
+          "Global IT Solutions",
+          "2025-01-12",
+          "18450.75",
+          "Approved"
+        ],
+        [
+          "PO-2025-003",
+          "Prime Facility Services",
+          "2025-01-18",
+          "7320.4",
+          "Closed"
+        ],
+        [
+          "PO-2025-004",
+          "Vertex Consulting Group",
+          "2025-01-25",
+          "15600.0",
+          "Pending Approval"
+        ],
+        [
+          "PO-2025-005",
+          "Metro Hardware Ltd.",
+          "2025-02-02",
+          "2890.99",
+          "Approved"
+        ],
+        [
+          "PO-2025-006",
+          "SecureNet Technologies",
+          "2025-02-10",
+          "22475.5",
+          "Closed"
+        ],
+        [
+          "PO-2025-007",
+          "BrightStar Marketing",
+          "2025-02-14",
+          "9800.0",
+          "Approved"
+        ],
+        [
+          "PO-2025-008",
+          "EcoClean Supplies",
+          "2025-02-21",
+          "1640.3",
+          "Closed"
+        ],
+        [
+          "PO-2025-009",
+          "Northwind Traders",
+          "2025-03-03",
+          "4575.2",
+          "Approved"
+        ],
+        [
+          "PO-2025-010",
+          "Pioneer Logistics",
+          "2025-03-11",
+          "12340.6",
+          "Pending Approval"
+        ],
+        [
+          "PO-2025-011",
+          "Summit Training Co.",
+          "2025-03-18",
+          "6750.0",
+          "Closed"
+        ],
+        [
+          "PO-2025-012",
+          "Delta Safety Equipment",
+          "2025-03-24",
+          "3895.45",
+          "Approved"
+        ],
+        [
+          "PO-2025-013",
+          "BlueWave Software Inc.",
+          "2025-04-01",
+          "30500.0",
+          "Approved"
+        ],
+        [
+          "PO-2025-014",
+          "Urban Interiors Ltd.",
+          "2025-04-09",
+          "14220.8",
+          "Closed"
+        ],
+        [
+          "PO-2025-015",
+          "NextGen Data Systems",
+          "2025-04-15",
+          "26780.35",
+          "Pending Approval"
+        ],
+        [
+          "PO-016",
+          "Apex Compliance Advisors",
+          "2026-01-12",
+          "18450.00",
+          "Approved"
+        ],
+        [
+          "PO-017",
+          "BlueRock Consulting Group",
+          "2026-01-18",
+          "9250.75",
+          "Closed"
+        ],
+        [
+          "PO-018",
+          "Crestline IT Audits",
+          "2026-01-25",
+          "14320.00",
+          "Pending"
+        ],
+        [
+          "PO-019",
+          "Delta Risk Solutions",
+          "2026-02-02",
+          "27680.40",
+          "Approved"
+        ],
+        [
+          "PO-020",
+          "Evergreen Documentation Services",
+          "2026-02-05",
+          "3890.00",
+          "Closed"
+        ],
+        [
+          "PO-021",
+          "Fidelity Assurance Partners",
+          "2026-02-11",
+          "22145.60",
+          "Approved"
+        ],
+        [
+          "PO-022",
+          "Granite Data Analytics",
+          "2026-02-14",
+          "16780.00",
+          "In Progress"
+        ],
+        [
+          "PO-023",
+          "Harborview Internal Controls",
+          "2026-02-20",
+          "30550.25",
+          "Pending"
+        ],
+        [
+          "PO-024",
+          "Insight Process Auditors LLC",
+          "2026-02-27",
+          "7425.00",
+          "Closed"
+        ],
+        [
+          "PO-025",
+          "Junction Security Review Co.",
+          "2026-03-03",
+          "19860.90",
+          "Approved"
+        ],
+        [
+          "PO-026",
+          "Keystone Governance Advisors",
+          "2026-03-09",
+          "25410.00",
+          "In Progress"
+        ],
+        [
+          "PO-027",
+          "Lighthouse Compliance Experts",
+          "2026-03-15",
+          "11875.50",
+          "Closed"
+        ],
+        [
+          "PO-028",
+          "Meridian Control Testing Inc.",
+          "2026-03-22",
+          "20990.00",
+          "Approved"
+        ],
+        [
+          "PO-029",
+          "Northbridge Risk Consulting",
+          "2026-03-28",
+          "13440.75",
+          "Pending"
+        ],
+        [
+          "PO-030",
+          "Oakridge Business Audit Services",
+          "2026-04-02",
+          "28765.30",
+          "In Progress"
+        ],
+        [
+          "PO-031",
+          "Grant Thornton Advisory",
+          "2026-02-03",
+          "18450.00",
+          "Approved"
+        ],
+        [
+          "PO-032",
+          "Insight Risk Consulting LLC",
+          "2026-02-05",
+          "9725.50",
+          "Closed"
+        ],
+        [
+          "PO-033",
+          "TechSecure Solutions Inc.",
+          "2026-02-08",
+          "25680.00",
+          "Approved"
+        ],
+        [
+          "PO-034",
+          "BrightPath Compliance Services",
+          "2026-02-10",
+          "7430.00",
+          "Pending"
+        ],
+        [
+          "PO-035",
+          "NorthBridge Audit Partners",
+          "2026-02-12",
+          "31200.75",
+          "Approved"
+        ],
+        [
+          "PO-036",
+          "DataShield Analytics Corp.",
+          "2026-02-15",
+          "15890.00",
+          "Closed"
+        ],
+        [
+          "PO-037",
+          "Summit Internal Audit Group",
+          "2026-02-18",
+          "22145.60",
+          "Approved"
+        ],
+        [
+          "PO-038",
+          "ClearView Process Advisors",
+          "2026-02-20",
+          "6890.00",
+          "Cancelled"
+        ],
+        [
+          "PO-039",
+          "Vertex Governance Solutions",
+          "2026-02-22",
+          "27410.30",
+          "Approved"
+        ],
+        [
+          "PO-040",
+          "PrimeLedger Consulting",
+          "2026-02-25",
+          "11975.00",
+          "Closed"
+        ],
+        [
+          "PO-041",
+          "Apex Control Assessments LLC",
+          "2026-02-27",
+          "14360.00",
+          "Pending"
+        ],
+        [
+          "PO-042",
+          "BlueRidge Risk Advisory",
+          "2026-03-01",
+          "19875.45",
+          "Approved"
+        ],
+        [
+          "PO-043",
+          "Integrity Assurance Partners",
+          "2026-03-03",
+          "30550.00",
+          "Approved"
+        ],
+        [
+          "PO-044",
+          "Metro Compliance Consulting",
+          "2026-03-05",
+          "8640.20",
+          "Closed"
+        ],
+        [
+          "PO-045",
+          "Pinnacle Audit & Advisory",
+          "2026-03-07",
+          "24790.00",
+          "Pending"
+        ],
+        [
+          "PO-0046",
+          "Grant Thornton Advisory",
+          "2026-02-18",
+          "18450.00",
+          "Approved"
+        ],
+        [
+          "PO-0047",
+          "Summit Risk Analytics LLC",
+          "2026-02-21",
+          "9725.50",
+          "Closed"
+        ],
+        [
+          "PO-0048",
+          "BluePeak Consulting Group",
+          "2026-02-25",
+          "25680.00",
+          "Issued"
+        ],
+        [
+          "PO-0049",
+          "Internal Controls Solutions Inc.",
+          "2026-03-02",
+          "14390.75",
+          "Pending"
+        ],
+        [
+          "PO-0050",
+          "Northbridge Compliance Partners",
+          "2026-03-05",
+          "31860.00",
+          "Approved"
+        ],
+        [
+          "PO-0051",
+          "Vertex Audit Technologies",
+          "2026-03-11",
+          "7895.20",
+          "Closed"
+        ]
+      ],
+      "derived_answers": {
+        "sum_PO Amount (USD)": 832339.04,
+        "max_PO Amount (USD)": 31860.0,
+        "min_PO Amount (USD)": 1250.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the PO Amount (USD) for PO-2025-002?",
+          "answer": "18450.75",
+          "assertions": [
+            {
+              "text": "The response must state 18450.75."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Status for PO-018?",
+          "answer": "Pending",
+          "assertions": [
+            {
+              "text": "The response must state Pending."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the value of the sum_PO Amount (USD) aggregate?",
+          "answer": "832339.04",
+          "assertions": [
+            {
+              "text": "The response must state 832339.04."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "scan_llm_0006_b0d13a3d",
+      "figure_number": 2,
+      "image_path": "scan_llm_stam_d33d8b2c.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 2: Internal Audit Review Form – Procure-to-Pay (P2P) Controls",
+      "scan_quality": "aged",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Internal Audit Review Form – Procure-to-Pay (P2P) Controls",
+        "form_fields": [
+          {
+            "label": "Business Unit",
+            "value": "Northwind Components – Corporate Operations"
+          },
+          {
+            "label": "Audit Scope Period",
+            "value": "01 October 2025 – 31 March 2026"
+          },
+          {
+            "label": "Process Owner",
+            "value": "Elena Marquez, Director of Procurement"
+          },
+          {
+            "label": "Accounts Payable Manager",
+            "value": "Darren Liu"
+          },
+          {
+            "label": "Total Invoices Sampled",
+            "value": "165 invoices (out of 4,820 processed)"
+          },
+          {
+            "label": "Invoice Exception Rate",
+            "value": "18.2% (Prior Period: 7.6%)"
+          },
+          {
+            "label": "Late Payment Rate (>30 days)",
+            "value": "22.5% of sampled invoices"
+          },
+          {
+            "label": "Primary Root Causes Identified",
+            "value": "3-way match failures, delayed PO approvals, vendor master data inaccuracies"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "services receipt",
+            "checked": false
+          },
+          {
+            "text": "Three-way match (PO, GRN, Invoice) consistently enforced",
+            "checked": false
+          },
+          {
+            "text": "Vendor master file changes independently reviewed",
+            "checked": false
+          },
+          {
+            "text": "Segregation of duties between PO creation and invoice approval maintained",
+            "checked": true
+          },
+          {
+            "text": "Invoice exception log maintained and reviewed weekly",
+            "checked": true
+          },
+          {
+            "text": "Automated payment terms aligned with vendor contracts",
+            "checked": false
+          },
+          {
+            "text": "Management monitoring of overdue liabilities performed monthly",
+            "checked": true
+          }
+        ],
+        "stamps": [
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          },
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          }
+        ],
+        "inspector": "Marcus J. Whitfield, CIA",
+        "reference": "IA-P2P-7392568-NWC",
+        "date": "18 April 2026",
+        "quality_tier": "aged"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Business Unit",
+          "Northwind Components – Corporate Operations"
+        ],
+        [
+          "Audit Scope Period",
+          "01 October 2025 – 31 March 2026"
+        ],
+        [
+          "Process Owner",
+          "Elena Marquez, Director of Procurement"
+        ],
+        [
+          "Accounts Payable Manager",
+          "Darren Liu"
+        ],
+        [
+          "Total Invoices Sampled",
+          "165 invoices (out of 4,820 processed)"
+        ],
+        [
+          "Invoice Exception Rate",
+          "18.2% (Prior Period: 7.6%)"
+        ],
+        [
+          "Late Payment Rate (>30 days)",
+          "22.5% of sampled invoices"
+        ],
+        [
+          "Primary Root Causes Identified",
+          "3-way match failures, delayed PO approvals, vendor master data inaccuracies"
+        ]
+      ],
+      "stamps": [
+        "CONFIDENTIAL",
+        "REVIEWED"
+      ],
+      "inspector": "Marcus J. Whitfield, CIA",
+      "reference": "IA-P2P-7392568-NWC",
+      "checked_items": [
+        {
+          "text": "Segregation of duties between PO creation and invoice approval maintained",
+          "checked": true
+        },
+        {
+          "text": "Invoice exception log maintained and reviewed weekly",
+          "checked": true
+        },
+        {
+          "text": "Management monitoring of overdue liabilities performed monthly",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", who is listed as the inspector and what is the reference and date?",
+          "answer": "Marcus J. Whitfield, CIA; Ref: IA-P2P-7392568-NWC; Date: 18 April 2026.",
+          "assertions": [
+            {
+              "text": "The response must state 'Marcus J. Whitfield, CIA; Ref: IA-P2P-7392568-NWC; Date: 18 April 2026.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", how many invoices were sampled and how many were processed in total?",
+          "answer": "165 invoices sampled out of 4,820 processed.",
+          "assertions": [
+            {
+              "text": "The response must state '165 invoices sampled out of 4,820 processed.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", what is the invoice exception rate and how does it compare to the prior period?",
+          "answer": "Invoice exception rate 18.2% (Prior Period: 7.6%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Invoice exception rate 18.2% (Prior Period: 7.6%).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", is the 'Three-way match (PO, GRN, Invoice) consistently enforced' control checked or unchecked?",
+          "answer": "Unchecked (not consistently enforced).",
+          "assertions": [
+            {
+              "text": "The response must state 'Unchecked (not consistently enforced).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", what are the primary root causes identified?",
+          "answer": "3-way match failures; delayed PO approvals; vendor master data inaccuracies.",
+          "assertions": [
+            {
+              "text": "The response must state '3-way match failures; delayed PO approvals; vendor master data inaccuracies.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "scan_llm_0004_831ffb2c",
+      "figure_number": 3,
+      "image_path": "scan_llm_stam_c7090b2b.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 3: Internal Audit Review Form – Procure-to-Pay (P2P) Controls",
+      "scan_quality": "aged",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Internal Audit Review Form – Procure-to-Pay (P2P) Controls",
+        "form_fields": [
+          {
+            "label": "Business Unit",
+            "value": "Northwind Components – Corporate Operations"
+          },
+          {
+            "label": "Process Under Review",
+            "value": "Procure-to-Pay (Vendor Invoicing & Disbursements)"
+          },
+          {
+            "label": "Audit Period Covered",
+            "value": "01 October 2025 – 31 March 2026"
+          },
+          {
+            "label": "Total Invoices Sampled",
+            "value": "145 invoices (from 3,842 processed)"
+          },
+          {
+            "label": "Exception Rate Identified",
+            "value": "17.9% (26 invoices with discrepancies)"
+          },
+          {
+            "label": "Late Payment Percentage",
+            "value": "22% paid beyond 30-day terms"
+          },
+          {
+            "label": "Primary Root Cause",
+            "value": "Three-way match failures due to delayed goods receipt postings and manual PO amendments"
+          },
+          {
+            "label": "Estimated Late Fees Incurred",
+            "value": "$48,760 during audit period"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Purchase Orders approved prior to invoice receipt",
+            "checked": true
+          },
+          {
+            "text": "Three-way match (PO, GRN, Invoice) consistently enforced",
+            "checked": false
+          },
+          {
+            "text": "Vendor master data reviewed for duplicates and accuracy",
+            "checked": true
+          },
+          {
+            "text": "Segregation of duties between AP processing and vendor setup",
+            "checked": true
+          },
+          {
+            "text": "Invoice exception log maintained and monitored weekly",
+            "checked": false
+          },
+          {
+            "text": "Automated payment scheduling aligned with contract terms",
+            "checked": false
+          },
+          {
+            "text": "Management review of aging AP report documented monthly",
+            "checked": true
+          }
+        ],
+        "stamps": [
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          },
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          }
+        ],
+        "inspector": "Elena M. Carver, CIA",
+        "reference": "IA-P2P-2026-041",
+        "date": "15 April 2026",
+        "quality_tier": "aged"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Business Unit",
+          "Northwind Components – Corporate Operations"
+        ],
+        [
+          "Process Under Review",
+          "Procure-to-Pay (Vendor Invoicing & Disbursements)"
+        ],
+        [
+          "Audit Period Covered",
+          "01 October 2025 – 31 March 2026"
+        ],
+        [
+          "Total Invoices Sampled",
+          "145 invoices (from 3,842 processed)"
+        ],
+        [
+          "Exception Rate Identified",
+          "17.9% (26 invoices with discrepancies)"
+        ],
+        [
+          "Late Payment Percentage",
+          "22% paid beyond 30-day terms"
+        ],
+        [
+          "Primary Root Cause",
+          "Three-way match failures due to delayed goods receipt postings and manual PO amendments"
+        ],
+        [
+          "Estimated Late Fees Incurred",
+          "$48,760 during audit period"
+        ]
+      ],
+      "stamps": [
+        "CONFIDENTIAL",
+        "REVIEWED"
+      ],
+      "inspector": "Elena M. Carver, CIA",
+      "reference": "IA-P2P-2026-041",
+      "checked_items": [
+        {
+          "text": "Purchase Orders approved prior to invoice receipt",
+          "checked": true
+        },
+        {
+          "text": "Vendor master data reviewed for duplicates and accuracy",
+          "checked": true
+        },
+        {
+          "text": "Segregation of duties between AP processing and vendor setup",
+          "checked": true
+        },
+        {
+          "text": "Management review of aging AP report documented monthly",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", who is listed as the inspector and what are the reference number and date?",
+          "answer": "Inspector: Elena M. Carver, CIA; Ref: IA-P2P-2026-041; Date: 15 April 2026.",
+          "assertions": [
+            {
+              "text": "The response must state 'Inspector: Elena M. Carver, CIA; Ref: IA-P2P-2026-041; Date: 15 April 2026.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", how many invoices were sampled and how many were processed in total?",
+          "answer": "145 invoices sampled; 3,842 processed in total.",
+          "assertions": [
+            {
+              "text": "The response must state '145 invoices sampled; 3,842 processed in total.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", what exception rate was identified during the audit?",
+          "answer": "17.9% (26 invoices with discrepancies).",
+          "assertions": [
+            {
+              "text": "The response must state '17.9% (26 invoices with discrepancies).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", what is identified as the primary root cause of the issues?",
+          "answer": "Three-way match failures due to delayed goods receipt postings and manual PO amendments.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three-way match failures due to delayed goods receipt postings and manual PO amendments.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", was the 'Three-way match (PO, GRN, Invoice) consistently enforced' checkbox marked?",
+          "answer": "No — the checkbox was unchecked.",
+          "assertions": [
+            {
+              "text": "The response must state 'No — the checkbox was unchecked.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "image",
+      "variant_id": "scan_llm_0009_412ad45f",
+      "figure_number": 4,
+      "image_path": "scan_llm_data_91e07f3f.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 4: P2P Exception and Late Payment Analysis",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "P2P Exception and Late Payment Analysis",
+        "caption": "Summary of invoice exception drivers and late payment metrics identified during the Procure-to-Pay control review at Northwind Components.",
+        "headers": [
+          "Vendor Group",
+          "Invoices Reviewed",
+          "Exception Rate %",
+          "Avg Days Late",
+          "Primary Cause"
+        ],
+        "rows": [
+          [
+            "Raw Materials",
+            "186",
+            "18.3",
+            "9",
+            "3-way match failures"
+          ],
+          [
+            "Electronic Parts",
+            "142",
+            "22.5",
+            "14",
+            "PO price discrepancies"
+          ],
+          [
+            "MRO Supplies",
+            "97",
+            "11.4",
+            "6",
+            "Missing receipts"
+          ],
+          [
+            "Logistics",
+            "64",
+            "27.8",
+            "18",
+            "Contract rate mismatches"
+          ],
+          [
+            "IT Services",
+            "53",
+            "15.1",
+            "12",
+            "Manual invoice entry errors"
+          ],
+          [
+            "Packaging",
+            "88",
+            "9.7",
+            "5",
+            "Late PO creation"
+          ],
+          [
+            "Consulting",
+            "41",
+            "31.6",
+            "21",
+            "Unapproved SOW changes"
+          ],
+          [
+            "Facility Services",
+            "76",
+            "13.2",
+            "8",
+            "Coding inaccuracies"
+          ],
+          [
+            "Capital Equipment",
+            "29",
+            "24.1",
+            "16",
+            "Delayed GRN posting"
+          ],
+          [
+            "Temp Labor",
+            "112",
+            "19.6",
+            "11",
+            "Timesheet approval delays"
+          ],
+          [
+            "Freight Forwarders",
+            "58",
+            "28.4",
+            "17",
+            "Accessorial charge disputes"
+          ],
+          [
+            "Office Supplies",
+            "134",
+            "7.9",
+            "4",
+            "Duplicate invoice flags"
+          ]
+        ],
+        "summary_note": "Higher exception rates and extended payment delays are concentrated in service-based and logistics vendors, primarily due to control breakdowns in three-way matching and delayed receipt or approval processes.",
+        "date": "31 March 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Vendor Group",
+        "Invoices Reviewed",
+        "Exception Rate %",
+        "Avg Days Late",
+        "Primary Cause"
+      ],
+      "cells": [
+        [
+          "Raw Materials",
+          "186",
+          "18.3",
+          "9",
+          "3-way match failures"
+        ],
+        [
+          "Electronic Parts",
+          "142",
+          "22.5",
+          "14",
+          "PO price discrepancies"
+        ],
+        [
+          "MRO Supplies",
+          "97",
+          "11.4",
+          "6",
+          "Missing receipts"
+        ],
+        [
+          "Logistics",
+          "64",
+          "27.8",
+          "18",
+          "Contract rate mismatches"
+        ],
+        [
+          "IT Services",
+          "53",
+          "15.1",
+          "12",
+          "Manual invoice entry errors"
+        ],
+        [
+          "Packaging",
+          "88",
+          "9.7",
+          "5",
+          "Late PO creation"
+        ],
+        [
+          "Consulting",
+          "41",
+          "31.6",
+          "21",
+          "Unapproved SOW changes"
+        ],
+        [
+          "Facility Services",
+          "76",
+          "13.2",
+          "8",
+          "Coding inaccuracies"
+        ],
+        [
+          "Capital Equipment",
+          "29",
+          "24.1",
+          "16",
+          "Delayed GRN posting"
+        ],
+        [
+          "Temp Labor",
+          "112",
+          "19.6",
+          "11",
+          "Timesheet approval delays"
+        ],
+        [
+          "Freight Forwarders",
+          "58",
+          "28.4",
+          "17",
+          "Accessorial charge disputes"
+        ],
+        [
+          "Office Supplies",
+          "134",
+          "7.9",
+          "4",
+          "Duplicate invoice flags"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Higher exception rates and extended payment delays are concentrated in service-based and logistics vendors, primarily due to control breakdowns in three-way matching and delayed receipt or approval processes.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"P2P Exception and Late Payment Analysis\", how many total rows are in the table?",
+          "answer": "12 rows total.",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows total.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"P2P Exception and Late Payment Analysis\", what is the Exception Rate % for the Electronic Parts vendor group?",
+          "answer": "22.5%.",
+          "assertions": [
+            {
+              "text": "The response must state '22.5%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"P2P Exception and Late Payment Analysis\", which vendor has the highest average days late among the listed rows and what is that value?",
+          "answer": "Logistics — 18 days.",
+          "assertions": [
+            {
+              "text": "The response must state 'Logistics — 18 days.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"P2P Exception and Late Payment Analysis\", what is the primary cause listed for the Raw Materials vendor group?",
+          "answer": "3-way match failures.",
+          "assertions": [
+            {
+              "text": "The response must state '3-way match failures.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"P2P Exception and Late Payment Analysis\", where are higher exception rates and extended payment delays concentrated according to the summary?",
+          "answer": "approval processes.",
+          "assertions": [
+            {
+              "text": "approval processes.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "table_0000_42985430": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Defines_the_exact_scope_period,_locations,_and_transaction_s",
+      "row_count": 11,
+      "col_count": 4,
+      "columns": [
+        "Category",
+        "Item",
+        "Details",
+        "Status"
+      ],
+      "topic_id": "internal_audit_report"
+    },
+    "table_0003_b5850411": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Links_each_high-impact_finding_to_a_clear_root_cause_categor",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Finding ID & Title",
+        " Risk Rating",
+        "Root Cause Category & Detail",
+        "Management Response",
+        " Status"
+      ],
+      "topic_id": "internal_audit_report"
+    },
+    "cx_table_0000_4ee93943": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "internal_audit_report"
+    },
+    "cx_table_0003_b630de8d": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "internal_audit_report"
+    },
+    "llm_mp_table_0001_76aa5156": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "budget_expenditure_ledger",
+      "row_count": 69,
+      "col_count": 5,
+      "columns": [
+        "Cost Center",
+        "Expense Category",
+        "Approved Budget (USD)",
+        "Actual Expenditure (USD)",
+        "Variance (USD)"
+      ],
+      "topic_id": ""
+    },
+    "cx_table_0001_a418fbdf": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 10,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "internal_audit_report"
+    },
+    "cx_table_0002_8c8c2aaa": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "internal_audit_report"
+    },
+    "table_0005_189b8174": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Translates_findings_into_prioritized_recommendations_with_me",
+      "row_count": 11,
+      "col_count": 11,
+      "columns": [
+        "Finding ID",
+        "Key Finding",
+        "Root Cause",
+        "Recommendation",
+        "Priority",
+        "Owner",
+        " Target",
+        "Due Date",
+        "Status",
+        "Expected Benefit",
+        "Follow-Up"
+      ],
+      "topic_id": "internal_audit_report"
+    },
+    "table_0004_cdd42452": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Records_management’s_formal_commitments,_accountable_owners,",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Action ID",
+        "Action Description",
+        "Owner",
+        "Target Date",
+        "Priority",
+        "Status",
+        "Control Area",
+        "Validation Method"
+      ],
+      "topic_id": "internal_audit_report"
+    },
+    "table_0001_45438532": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Summarizes_which_specific_controls_failed_design_or_operatio",
+      "row_count": 9,
+      "col_count": 9,
+      "columns": [
+        "Control ID",
+        "Control Description",
+        "Control Type",
+        "Frequency",
+        "Design Effectiveness",
+        " Exceptions",
+        "Risk Impact",
+        "Root Cause",
+        "Recommended Corrective Action"
+      ],
+      "topic_id": "internal_audit_report"
+    },
+    "scan_llm_0003_114fdb21": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_e23e6155.png",
+      "topic_id": ""
+    },
+    "table_0002_bdd36761": {
+      "kind": "table",
+      "perturbations": [
+        "noise",
+        "formatting"
+      ],
+      "base_type": "Quantifies_the_volume_and_financial_impact_of_exceptions_(ho",
+      "row_count": 8,
+      "col_count": 4,
+      "columns": [
+        "Metric",
+        " Rate",
+        "Financial Impact (USD)",
+        "Audit Relevance"
+      ],
+      "topic_id": "internal_audit_report"
+    },
+    "llm_mp_table_0000_bee4bdfd": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "purchase_order_register",
+      "row_count": 51,
+      "col_count": 5,
+      "columns": [
+        "PO Number",
+        "Vendor Name",
+        "PO Date",
+        "PO Amount (USD)",
+        "Status"
+      ],
+      "topic_id": ""
+    },
+    "scan_llm_0006_b0d13a3d": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_d33d8b2c.png",
+      "topic_id": ""
+    },
+    "scan_llm_0004_831ffb2c": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_c7090b2b.png",
+      "topic_id": ""
+    },
+    "scan_llm_0009_412ad45f": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_91e07f3f.png",
+      "topic_id": ""
+    },
+    "form_0002_b6fde7d1": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0007_9314347e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_8ba26064.png",
+      "topic_id": ""
+    },
+    "form_0003_efc06bc6": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0000_5273fa96": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_30ac5229.png",
+      "topic_id": ""
+    },
+    "scan_llm_0002_d0785b3a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_2f0d1d73.png",
+      "topic_id": ""
+    },
+    "form_0001_4bc0e7a2": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what is the Invoice Sample Size listed under Sample Selection?",
+      "answer": "120 invoices",
+      "assertions": [
+        {
+          "text": "The response must state 120 invoices."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what are the Audit Coverage Dates under Scope Period?",
+      "answer": "2026-01-01 to 2026-03-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-01-01 to 2026-03-31."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Audit scope and sample composition for Northwind Components P2P controls (Jan–Mar 2026)\", what is the Status for 3-Way Match Verification?",
+      "answer": "Performed",
+      "assertions": [
+        {
+          "text": "The response must state Performed."
+        }
+      ]
+    },
+    {
+      "question": " Status for Finding F-02 (PO not referenced on invoice)?",
+      "answer": " Open",
+      "assertions": [
+        {
+          "text": " Open."
+        }
+      ]
+    },
+    {
+      "question": " Risk Rating listed for Finding F-04 (duplicate invoices)?",
+      "answer": " High",
+      "assertions": [
+        {
+          "text": " High."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Root cause mapping for P2P control failures (people, process, technology)\", what is the Root Cause Category & Detail for Finding F-01 (3-way match bypass)?",
+      "answer": "Technology: ERP tolerance set to 15% allowing auto-release",
+      "assertions": [
+        {
+          "text": "The response must state Technology: ERP tolerance set to 15% allowing auto-release."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", how many period columns does each version group span?",
+      "answer": "4 (Q1–Q4).",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1–Q4).'."
+        }
+      ]
+    },
+    {
+      "question": "Invoice)\"?",
+      "answer": "74 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '74 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", what is the \"Access & SoD Subtotal\" for Baseline Q1?",
+      "answer": "141 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '141 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", which version shows the highest Q4 value for \"Vendor bank account change verification (call-back)\"?",
+      "answer": "Actuals (Q4 Actuals = 38 vs Q4 Baseline = 30, both in $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (Q4 Actuals = 38 vs Q4 Baseline = 30, both in $000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", what is the delta (Net $K) for \"Transaction Monitoring Subtotal\"?",
+      "answer": "94.",
+      "assertions": [
+        {
+          "text": "The response must state '94.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", how many quarterly periods are represented?",
+      "answer": "4 (Q1–Q4)",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1–Q4)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", how many data rows are listed?",
+      "answer": "25",
+      "assertions": [
+        {
+          "text": "The response must state '25'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", which reported total is larger, 74 ($000) or 141 ($000)?",
+      "answer": "141 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '141 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", what does footnote 1 explain?",
+      "answer": "No footnotes shown.",
+      "assertions": [
+        {
+          "text": "The response must state 'No footnotes shown.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit — Procure-to-Pay Controls: Quarterly Control Cost Comparison (Baseline vs Actuals)\", what is the Baseline subtotal in $000?",
+      "answer": "74 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '74 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what sub-columns fall under the \"Impact Assessment\" group label in the \"Vendor Master Controls\" row's inner root-cause table?",
+      "answer": "Likelihood and Severity.",
+      "assertions": [
+        {
+          "text": "The response must state 'Likelihood and Severity.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", how many rows does the \"Process\" label span in the inner root-cause table for \"Vendor Master Controls\"?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what does footnote 2 explain?",
+      "answer": "It explains that callback verification must use a pre-approved phone number from the vendor master record, not a number provided in the change request.",
+      "assertions": [
+        {
+          "text": "The response must state 'It explains that callback verification must use a pre-approved phone number from the vendor master record, not a number provided in the change request.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what is the sample size for \"Bank detail changes\" in the \"Vendor Master Controls\" row's inner scope & methodology table?",
+      "answer": "20.",
+      "assertions": [
+        {
+          "text": "The response must state '20.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what risk rating (Likelihood and Severity) is shown for the first \"Process\" root-cause detail in the \"Vendor Master Controls\" row's inner root-cause table?",
+      "answer": "Likelihood: Medium; Severity: High.",
+      "assertions": [
+        {
+          "text": "The response must state 'Likelihood: Medium; Severity: High.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what risk assessment label is shown?",
+      "answer": "Likelihood and Severity.",
+      "assertions": [
+        {
+          "text": "The response must state 'Likelihood and Severity.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", how many header rows are in the table?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", which has the highest count, the header rows or the data rows?",
+      "answer": "data rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'data rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what does footnote 1 explain about callback verification?",
+      "answer": "Use pre-approved vendor master phone, not number from change request.",
+      "assertions": [
+        {
+          "text": "The response must state 'Use pre-approved vendor master phone, not number from change request.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Management Responses, and Corrective Actions\", what is the subtotal for group 'data rows' in column 'Corrective Action Status'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the Actual Expenditure (USD) for Internal Audit under Personnel Costs?",
+      "answer": "125500",
+      "assertions": [
+        {
+          "text": "The response must state 125500."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the Variance (USD) for Finance under Forensic Analysis Services?",
+      "answer": "-2780",
+      "assertions": [
+        {
+          "text": "The response must state -2780."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Budget Expenditure Ledger\", what is the Approved Budget (USD) for Executive Office under Audit Committee Reporting Costs?",
+      "answer": "6800",
+      "assertions": [
+        {
+          "text": "The response must state 6800."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", which groups fall under the \"Control Exceptions (Testing Results)\" super-group?",
+      "answer": "Invoice & Approval Controls; Vendor Master & SoD Controls.",
+      "assertions": [
+        {
+          "text": "The response must state 'Invoice & Approval Controls; Vendor Master & SoD Controls.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", how many leaf metric columns does the \"Corrective Action Management (CAPA)\" super-group contain?",
+      "answer": "4 leaf metric columns (CAPA Backlog Value, CAPA Backlog Chg %, CAPA Timeliness Value, CAPA Timeliness Chg %).",
+      "assertions": [
+        {
+          "text": "The response must state '4 leaf metric columns (CAPA Backlog Value, CAPA Backlog Chg %, CAPA Timeliness Value, CAPA Timeliness Chg %).'."
+        }
+      ]
+    },
+    {
+      "question": "Vendor Master & SoD Controls?",
+      "answer": "3.2%.",
+      "assertions": [
+        {
+          "text": "The response must state '3.2%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", what is the grand total \"Value\" for \"CAPA Backlog\" under the \"Corrective Action Management (CAPA)\" super-group?",
+      "answer": "128 actions.",
+      "assertions": [
+        {
+          "text": "The response must state '128 actions.'."
+        }
+      ]
+    },
+    {
+      "question": "Invoice & Approval Controls?",
+      "answer": "APAC Operations (+0.6%).",
+      "assertions": [
+        {
+          "text": "The response must state 'APAC Operations (+0.6%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", what overall exception rate is displayed?",
+      "answer": "3.2%",
+      "assertions": [
+        {
+          "text": "The response must state '3.2%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", which columns fall under the header \"Corrective Action Management (CAPA)\"?",
+      "answer": "CAPA Backlog Value, CAPA Backlog Chg %, CAPA Timeliness Value, CAPA Timeliness Chg %",
+      "assertions": [
+        {
+          "text": "The response must state 'CAPA Backlog Value, CAPA Backlog Chg %, CAPA Timeliness Value, CAPA Timeliness Chg %'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", which control area is listed before the other: Invoice & Approval Controls or Vendor Master & SoD Controls?",
+      "answer": "Invoice & Approval Controls",
+      "assertions": [
+        {
+          "text": "The response must state 'Invoice & Approval Controls'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", what does the table annotation explain about its formatting and test design?",
+      "answer": "Merged cells and multi-tier headers",
+      "assertions": [
+        {
+          "text": "The response must state 'Merged cells and multi-tier headers'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Exception Rates, Root-Cause Attribution, and Remediation Status by Business Unit (FY2026 Q2 vs Q1)\", what is the subtotal for \"Corrective Action Management (CAPA)\" in the leaf-metric count column?",
+      "answer": "4 leaf metric columns",
+      "assertions": [
+        {
+          "text": "The response must state '4 leaf metric columns'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what sub-columns fall under \"Match Outcomes\" in the inner table within the \"3) Three-Way Match & Invoice Processing\" row?",
+      "answer": "Auto-match; Manual review; Override used.",
+      "assertions": [
+        {
+          "text": "The response must state 'Auto-match; Manual review; Override used.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", how many rows does the \"Process\" label span in the inner \"Root Cause Category\" table within the \"1) Vendor Master Data Controls\" row?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what does footnote 1 explain?",
+      "answer": "Population derived from ERP vendor master change logs; excludes vendors managed solely by the outsourced indirect-tax platform.",
+      "assertions": [
+        {
+          "text": "The response must state 'Population derived from ERP vendor master change logs; excludes vendors managed solely by the outsourced indirect-tax platform.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what is the exception count for \"Bank detail changes\" in the inner evidence table within the \"1) Vendor Master Data Controls\" row?",
+      "answer": "2.",
+      "assertions": [
+        {
+          "text": "The response must state '2.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what severity is shown for the \"Monitoring\" root cause in the inner root-cause table within the \"4) Payment Run Controls & Bank File Transmission\" row?",
+      "answer": "High.",
+      "assertions": [
+        {
+          "text": "The response must state 'High.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what matching outcomes are listed under Key Findings?",
+      "answer": "Auto-match; Manual review; Override used.",
+      "assertions": [
+        {
+          "text": "The response must state 'Auto-match; Manual review; Override used.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", how many header rows are shown in the table?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", which is larger: the number of header rows or the number of data rows?",
+      "answer": "Data rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what does the footnote explain about the vendor population?",
+      "answer": "Population derived from ERP vendor master change logs; excludes vendors managed by outsourced indirect-tax platform.",
+      "assertions": [
+        {
+          "text": "The response must state 'Population derived from ERP vendor master change logs; excludes vendors managed by outsourced indirect-tax platform.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Internal Audit Report — Procure-to-Pay (P2P) Controls: Scope, Methodology, Findings, Root Causes, Responses, and Corrective Actions\", what is the subtotal for the vendor population shown in Scope & Methodology?",
+      "answer": "Population derived from ERP vendor master change logs; excludes outsourced indirect-tax vendors.",
+      "assertions": [
+        {
+          "text": "The response must state 'Population derived from ERP vendor master change logs; excludes outsourced indirect-tax vendors.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Recommended corrective action plan with expected risk reduction and KPIs\", what is the Due Date for Finding ID F4?",
+      "answer": "2026-07-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-15."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Recommended corrective action plan with expected risk reduction and KPIs\", who is listed as the Owner for Finding ID F2?",
+      "answer": "AP Manager",
+      "assertions": [
+        {
+          "text": "The response must state AP Manager."
+        }
+      ]
+    },
+    {
+      "question": " Target for Finding ID F8?",
+      "answer": "Average processing time ≤7 days by 2026-09-30",
+      "assertions": [
+        {
+          "text": "The response must state Average processing time ≤7 days by 2026-09-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Management responses, owners, and target dates for corrective actions\", what is the Target Date for Action ID A-03?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Management responses, owners, and target dates for corrective actions\", who is the Owner for the action \"Enhance duplicate detection\"?",
+      "answer": "IT Apps Team",
+      "assertions": [
+        {
+          "text": "The response must state IT Apps Team."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Management responses, owners, and target dates for corrective actions\", what is the Validation Method listed for Action ID A-01?",
+      "answer": "Re-performance testing of 30 sampled invoices",
+      "assertions": [
+        {
+          "text": "The response must state Re-performance testing of 30 sampled invoices."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Control design vs. operating effectiveness test results for P2P key controls\", what is the Frequency listed for control AP-06?",
+      "answer": "Weekly",
+      "assertions": [
+        {
+          "text": "The response must state Weekly."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Control design vs. operating effectiveness test results for P2P key controls\", what is the Design Effectiveness for control AP-08?",
+      "answer": "Design Gap Identified",
+      "assertions": [
+        {
+          "text": "The response must state Design Gap Identified."
+        }
+      ]
+    },
+    {
+      "question": " Exceptions entry for AP-03?",
+      "answer": "Segregation of duties (create vendor vs. pay vendor): Exceptions: 4 users with conflicting access",
+      "assertions": [
+        {
+          "text": "The response must state Segregation of duties (create vendor vs. pay vendor): Exceptions: 4 users with conflicting access."
+        }
+      ]
+    },
+    {
+      "question": "According to \"Invoice Exception and Late Payment Analysis – P2P Cycle\", how many invoices were impacted by PO-Price Mismatch?",
+      "answer": "184 invoices",
+      "assertions": [
+        {
+          "text": "The response must state '184 invoices'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Invoice Exception and Late Payment Analysis – P2P Cycle\", what is the average days late for Missing Goods Receipt?",
+      "answer": "22 days",
+      "assertions": [
+        {
+          "text": "The response must state '22 days'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Invoice Exception and Late Payment Analysis – P2P Cycle\", which exception listed has the highest average days late and what is that value?",
+      "answer": "Unapproved Purchase Order — 26 days",
+      "assertions": [
+        {
+          "text": "The response must state 'Unapproved Purchase Order — 26 days'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Invoice Exception and Late Payment Analysis – P2P Cycle\", does the summary identify workflow and approval control gaps as primary drivers of late payments exceeding 20 days?",
+      "answer": "Yes; workflow and approval control gaps are identified as primary drivers.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes; workflow and approval control gaps are identified as primary drivers.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Invoice Exception and Late Payment Analysis – P2P Cycle\", which two exceptions are noted as the highest volume contributors to extended payment delays?",
+      "answer": "PO-Price Mismatch and Three-Way Match Failure",
+      "assertions": [
+        {
+          "text": "The response must state 'PO-Price Mismatch and Three-Way Match Failure'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Exception analysis: invoice processing failures and business impact (Jan–Mar 2026)\", what is the total spend reviewed for \"Total invoices reviewed (Q1 FY2026)\" under Financial Impact (USD)?",
+      "answer": "$1,245,000 total spend reviewed",
+      "assertions": [
+        {
+          "text": "The response must state $1,245,000 total spend reviewed."
+        }
+      ]
+    },
+    {
+      "question": " Rate?",
+      "answer": "120)",
+      "assertions": [
+        {
+          "text": "120)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Exception analysis: invoice processing failures and business impact (Jan–Mar 2026)\", what is the Financial Impact (USD) for \"Duplicate or pricing discrepancies\"?",
+      "answer": "$12,640 potential overtsatement (corrected before payment)",
+      "assertions": [
+        {
+          "text": "The response must state $12,640 potential overtsatement (corrected before payment)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the PO Amount (USD) for PO-2025-002?",
+      "answer": "18450.75",
+      "assertions": [
+        {
+          "text": "The response must state 18450.75."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Status for PO-018?",
+      "answer": "Pending",
+      "assertions": [
+        {
+          "text": "The response must state Pending."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the value of the sum_PO Amount (USD) aggregate?",
+      "answer": "832339.04",
+      "assertions": [
+        {
+          "text": "The response must state 832339.04."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", who is listed as the inspector and what is the reference and date?",
+      "answer": "Marcus J. Whitfield, CIA; Ref: IA-P2P-7392568-NWC; Date: 18 April 2026.",
+      "assertions": [
+        {
+          "text": "The response must state 'Marcus J. Whitfield, CIA; Ref: IA-P2P-7392568-NWC; Date: 18 April 2026.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", how many invoices were sampled and how many were processed in total?",
+      "answer": "165 invoices sampled out of 4,820 processed.",
+      "assertions": [
+        {
+          "text": "The response must state '165 invoices sampled out of 4,820 processed.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", what is the invoice exception rate and how does it compare to the prior period?",
+      "answer": "Invoice exception rate 18.2% (Prior Period: 7.6%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Invoice exception rate 18.2% (Prior Period: 7.6%).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", is the 'Three-way match (PO, GRN, Invoice) consistently enforced' control checked or unchecked?",
+      "answer": "Unchecked (not consistently enforced).",
+      "assertions": [
+        {
+          "text": "The response must state 'Unchecked (not consistently enforced).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", what are the primary root causes identified?",
+      "answer": "3-way match failures; delayed PO approvals; vendor master data inaccuracies.",
+      "assertions": [
+        {
+          "text": "The response must state '3-way match failures; delayed PO approvals; vendor master data inaccuracies.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", who is listed as the inspector and what are the reference number and date?",
+      "answer": "Inspector: Elena M. Carver, CIA; Ref: IA-P2P-2026-041; Date: 15 April 2026.",
+      "assertions": [
+        {
+          "text": "The response must state 'Inspector: Elena M. Carver, CIA; Ref: IA-P2P-2026-041; Date: 15 April 2026.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", what exception rate was identified during the audit?",
+      "answer": "17.9% (26 invoices with discrepancies).",
+      "assertions": [
+        {
+          "text": "The response must state '17.9% (26 invoices with discrepancies).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", what is identified as the primary root cause of the issues?",
+      "answer": "Three-way match failures due to delayed goods receipt postings and manual PO amendments.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three-way match failures due to delayed goods receipt postings and manual PO amendments.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Internal Audit Review Form – Procure-to-Pay (P2P) Controls\", was the 'Three-way match (PO, GRN, Invoice) consistently enforced' checkbox marked?",
+      "answer": "No — the checkbox was unchecked.",
+      "assertions": [
+        {
+          "text": "The response must state 'No — the checkbox was unchecked.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"P2P Exception and Late Payment Analysis\", how many total rows are in the table?",
+      "answer": "12 rows total.",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows total.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"P2P Exception and Late Payment Analysis\", what is the Exception Rate % for the Electronic Parts vendor group?",
+      "answer": "22.5%.",
+      "assertions": [
+        {
+          "text": "The response must state '22.5%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"P2P Exception and Late Payment Analysis\", which vendor has the highest average days late among the listed rows and what is that value?",
+      "answer": "Logistics — 18 days.",
+      "assertions": [
+        {
+          "text": "The response must state 'Logistics — 18 days.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"P2P Exception and Late Payment Analysis\", what is the primary cause listed for the Raw Materials vendor group?",
+      "answer": "3-way match failures.",
+      "assertions": [
+        {
+          "text": "The response must state '3-way match failures.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"P2P Exception and Late Payment Analysis\", where are higher exception rates and extended payment delays concentrated according to the summary?",
+      "answer": "approval processes.",
+      "assertions": [
+        {
+          "text": "approval processes.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    }
+  ]
+}

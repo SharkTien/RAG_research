@@ -1,0 +1,3775 @@
+{
+  "doc_id": "doc_0000_s1334591252",
+  "title": "Regulatory Compliance Status Report: Control Mapping, Open Examination Findings, and Remediation Progress with Target Closure Dates",
+  "subtitle": "Compliance Status Report — Regulatory-to-Control Mapping, Open Findings & Remediation Timelines",
+  "topic_id": "regulatory_compliance_assessment",
+  "recipe_name": "regulatory",
+  "seed": 1334591252,
+  "document_brief": {
+    "narrative_theme": "This compliance status report links regulatory obligations to internal controls, summarizes examination findings, and provides an accountable remediation plan with target closure dates to demonstrate sustained regulatory readiness.",
+    "sections": [
+      {
+        "heading": "Regulatory Obligation-to-Control Coverage and Ownership Overview",
+        "key_facts": [
+          "As of 2026-05-01, 12 of 15 regulatory obligations are mapped to internal controls (80%).",
+          "Three obligations remain unmapped: GLBA Safeguards Rule 16 CFR Part 314, NYDFS 23 NYCRR 500.12, and PCI DSS v4.0 Req. 10.",
+          "Control owners are assigned for 14 of 15 obligations, with one owner missing for NYDFS 23 NYCRR 500.12."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Examination Findings, Remediation Progress, and Target Closure Commitments",
+        "key_facts": [
+          "The 2026-03-15 OCC exam produced 9 findings: 2 High, 5 Medium, and 2 Low.",
+          "As of 2026-05-01, 5 of 9 findings are Closed and 4 of 9 are Open.",
+          "The latest target closure date among Open findings is 2026-08-30."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Regulatory obligation inventory with mapped internal controls and control owners (as of 2026-05-01)",
+        "purpose": "Establishes the authoritative list of in-scope obligations and shows which internal controls and accountable owners provide coverage, enabling gap identification and ownership escalation.",
+        "key_data": {
+          "GLBA Safeguards Rule 16 CFR Part 314": "Unmapped; Owner: Information Security (vacant)",
+          "SOX 404 ITGC": "Mapped to ITGC-01; Owner: IT Risk",
+          "NYDFS 23 NYCRR 500.12": "Unmapped; Owner: TBD",
+          "PCI DSS v4.0 Req. 10": "Unmapped; Owner: Payments Security"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Obligation-to-control mapping detail showing control IDs, control names, and evidence artifacts",
+        "purpose": "Provides traceability from each regulatory obligation to specific internal control statements and the evidence required to demonstrate operating effectiveness during audits and exams.",
+        "key_data": {
+          "SOX 404 ITGC → ITGC-01": "Access Provisioning & Deprovisioning; Evidence: Jira tickets + quarterly access review",
+          "SOC 2 CC6.1 → SEC-03": "MFA Enforcement; Evidence: IdP policy export dated 2026-04-15",
+          "GLBA 16 CFR Part 314": "A",
+          "NYDFS 500.12 → (gap)": "A"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Coverage metrics by regulation and business unit with unmapped obligation summary",
+        "purpose": "Quantifies coverage and highlights concentration of gaps by regulation and organization, supporting prioritization of remediation and resourcing decisions.",
+        "key_data": {
+          "Overall coverage (2026-05-01)": "15 (80%) mapped",
+          "Information Security coverage": "8 obligations mapped",
+          "Payments coverage": "3 obligations mapped",
+          "Unmapped obligations count": "3"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Open and closed examination findings register for the 2026-03-15 OCC exam",
+        "purpose": "Creates a single source of truth for exam findings, including severity, status, and linkage to the underlying regulatory obligation and internal control gaps.",
+        "key_data": {
+          "FND-2026-001": "High; Status: Open; Obligation: GLBA 16 CFR Part 314",
+          "FND-2026-004": "Medium; Status: Closed; Obligation: SOX 404 ITGC",
+          "FND-2026-007": "Low; Status: Closed; Obligation: SOC 2 CC6.1",
+          "Total findings": "9 (2 High, 5 Medium, 2 Low)"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Remediation plan tracker with milestones, owners, and target closure dates for Open findings",
+        "purpose": "Tracks execution against commitments for each Open finding, including accountable owners, interim milestones, and target closure dates to support governance reporting.",
+        "key_data": {
+          "FND-2026-001": "Owner: CISO; Target closure: 2026-08-30",
+          "FND-2026-002": "Owner: Head of IT Ops; Target closure: 2026-07-15",
+          "FND-2026-005": "Owner: Payments Security; Target closure: 2026-06-30",
+          "Open findings count (as of 2026-05-01)": "4"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Remediation progress summary by severity with aging and closure performance (as of 2026-05-01)",
+        "purpose": "closed counts by severity and how long findings have remained open, enabling risk-based escalation.",
+        "key_data": {
+          "High findings": "2 total; 1 open; 1 closed",
+          "Medium findings": "5 total; 2 open; 3 closed",
+          "Low findings": "2 total; 1 open; 1 closed",
+          "Oldest open finding age": "47 days"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1334591252.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_data_41695f1c.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 48,
+    "actual_page_count": 30
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "text",
+      "variant_id": "text_0000_023aca6d",
+      "heading": "Regulatory Obligation-to-Control Coverage and Ownership Overview",
+      "word_count": 210,
+      "text_content": [
+        "**Regulatory Obligation-to-Control Coverage and Ownership Overview**",
+        "As of 2026-05-01 the compliance mapping shows 12 of 15 regulatory obligations are mapped to internal controls, representing 80% coverage. The three unmapped obligations are GLBA Safeguards Rule 16 CFR Part 314, NYDFS 23 NYCRR 500.12, and PCI DSS v4.0 Req. 10. These gaps are recorded in the compliance repository and prioritized for analysis to determine whether new controls are required or existing controls should be modified to achieve coverage.",
+        "Control owner assignments exist for 14 of 15 obligations; the single ownership gap is NYDFS 23 NYCRR 500.12, where no owner has been designated. Assigned control owners and escalation contacts are maintained in the Governance, Risk, and Compliance (GRC) platform. Ownership status is reviewed monthly by the Compliance Office and validated at quarterly governance meetings to ensure accountability, role alignment, and inform resource planning for control implementation and monitoring.",
+        "Immediate actions to address coverage and ownership gaps include: 1) designating a control owner for NYDFS 23 NYCRR 500.12; 2) mapping or adapting controls for GLBA 16 CFR Part 314 and PCI DSS v4.0 Req. 10; and 3) updating the mapping dashboard. These tasks are scheduled to begin in Q2 2026, with checkpoints aligned to monthly ownership reviews and quarterly governance validation; remediation timelines are documented in the Examination Findings section."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, what percentage of regulatory obligations are mapped to internal controls as of 2026-05-01?",
+          "answer": "80% coverage",
+          "assertions": [
+            {
+              "text": "The response must state 80% coverage."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, which regulatory obligation is identified as having no designated control owner?",
+          "answer": "NYDFS 23 NYCRR 500.12",
+          "assertions": [
+            {
+              "text": "The response must state NYDFS 23 NYCRR 500.12."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, when are the immediate actions to address coverage and ownership gaps scheduled to begin?",
+          "answer": "Q2 2026",
+          "assertions": [
+            {
+              "text": "The response must state Q2 2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "form",
+      "variant_id": "form_0004_a5c8191b",
+      "title": "Regulatory Compliance Status and Remediation Tracking Report",
+      "caption": "Regulatory Compliance Status and Remediation Tracking Report",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Regulatory Obligation Mapping",
+        "Examination Findings",
+        "Remediation and Closure Tracking"
+      ],
+      "required_fields": [
+        "Regulation or Standard Name",
+        "Jurisdiction",
+        "Applicable Business Unit",
+        "Summary of Regulatory Requirement",
+        "Examination Authority",
+        "Examination Period End Date",
+        "Finding Reference Number",
+        "Finding Severity Level",
+        "Remediation Action Plan Summary",
+        "Responsible Action Owner (Name and Title)",
+        "Target Closure Date"
+      ],
+      "description": "Complete this form to document regulatory obligations, map them to internal controls, record examination findings, and track remediation status with target closure dates.",
+      "qa_candidates": [
+        {
+          "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report', what is the description shown on the form?",
+          "answer": "Complete this form to document regulatory obligations, map them to internal controls, record examination findings, and track remediation status with target closure dates.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, record examination findings, and track remediation status with target closure dates.'."
+            }
+          ]
+        },
+        {
+          "question": "How many sections are listed on the 'Regulatory Compliance Status and Remediation Tracking Report'?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Regulatory Compliance Status and Remediation Tracking Report', what is the title of the third section?",
+          "answer": "Remediation and Closure Tracking",
+          "assertions": [
+            {
+              "text": "The response must state 'Remediation and Closure Tracking'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', how many required fields are there?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "form",
+      "variant_id": "form_0000_291fda1f",
+      "title": "Compliance Status Report and Remediation Tracking Form",
+      "caption": "Compliance Status Report and Remediation Tracking Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Regulatory Obligation Overview",
+        "Control Mapping and Assessment",
+        "Examination Findings and Remediation Tracking"
+      ],
+      "required_fields": [
+        "Regulation or Standard Name",
+        "Regulatory Authority",
+        "Applicable Business Unit",
+        "Obligation Summary",
+        "Compliance Risk Rating",
+        "Internal Control ID",
+        "Control Description",
+        "Control Effectiveness Status",
+        "Examination or Audit Reference",
+        "Finding Description",
+        "Remediation Target Closure Date"
+      ],
+      "description": "Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Compliance Status Report and Remediation Tracking Form', how many sections does the form contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compliance Status Report and Remediation Tracking Form', what is the name of the third section shown on the form?",
+          "answer": "Examination Findings and Remediation Tracking",
+          "assertions": [
+            {
+              "text": "The response must state 'Examination Findings and Remediation Tracking'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compliance Status Report and Remediation Tracking Form', how many fields in total are on the form?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'Compliance Status Report and Remediation Tracking Form', what instruction does the form description give to the person completing it?",
+          "answer": "Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "cx_table_0000_17d8c23a",
+      "table_number": 1,
+      "caption": "Table 1: Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", how many period columns does each version group span?",
+          "answer": "Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).",
+          "assertions": [
+            {
+              "text": "The response must state 'Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the Actuals Q3 value for \"Control remediation execution (process & system changes)\"?",
+          "answer": "135 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '135 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the \"Examination Findings Management — Subtotal\" for Baseline Q1?",
+          "answer": "265 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '265 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", which version shows the highest Q4 value for \"Third-party due diligence control alignment (SOC reports, SLAs)\"?",
+          "answer": "Actuals is higher in Q4 (47 vs 45, $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals is higher in Q4 (47 vs 45, $000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the delta (Net $K) for \"Regulator response packages & evidence compilation\"?",
+          "answer": "13 ($K).",
+          "assertions": [
+            {
+              "text": "The response must state '13 ($K).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", which columns fall under the Baseline header?",
+          "answer": "Q1–Q4",
+          "assertions": [
+            {
+              "text": "The response must state 'Q1–Q4'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the Baseline amount listed?",
+          "answer": "135 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '135 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", which version group has the higher amount, Baseline or Actuals?",
+          "answer": "Actuals — 265 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals — 265 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what does the \"($000)\" notation indicate?",
+          "answer": "thousands of dollars",
+          "assertions": [
+            {
+              "text": "The response must state 'thousands of dollars'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the subtotal shown for the Actuals group?",
+          "answer": "265 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '265 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "form",
+      "variant_id": "form_0003_538e1b15",
+      "title": "Regulatory Compliance Status and Remediation Tracking Report",
+      "caption": "Regulatory Compliance Status and Remediation Tracking Report",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Regulatory Obligation Mapping",
+        "Examination Findings",
+        "Remediation and Closure Tracking"
+      ],
+      "required_fields": [
+        "Regulation or Supervisory Authority",
+        "Specific Regulatory Citation or Requirement",
+        "Associated Internal Control ID",
+        "Examination Type",
+        "Finding Reference Number",
+        "Finding Severity Level",
+        "Assigned Remediation Owner (Name and Title)",
+        "Remediation Action Plan Summary",
+        "Current Remediation Status"
+      ],
+      "description": "Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Regulatory Compliance Status and Remediation Tracking Report', how many sections does the form contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', what is the name of the first section shown on the form?",
+          "answer": "Regulatory Obligation Mapping",
+          "assertions": [
+            {
+              "text": "The response must state 'Regulatory Obligation Mapping'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report' description, what is the stated purpose of the form?",
+          "answer": "Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', which required field identifies the person responsible for remediation by name and title?",
+          "answer": "Assigned Remediation Owner (Name and Title)",
+          "assertions": [
+            {
+              "text": "The response must state 'Assigned Remediation Owner (Name and Title)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "form",
+      "variant_id": "form_0002_7ca4b1f7",
+      "title": "Regulatory Compliance Status and Remediation Tracking Report",
+      "caption": "Regulatory Compliance Status and Remediation Tracking Report",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 12,
+      "sections": [
+        "Regulatory Obligation Overview",
+        "Control Mapping and Assessment",
+        "Examination Findings and Remediation Tracking"
+      ],
+      "required_fields": [
+        "Regulation or Governing Authority",
+        "Specific Rule or Citation Reference",
+        "Business Unit Responsible",
+        "Obligation Description",
+        "Compliance Applicability Status",
+        "Internal Control ID",
+        "Control Description",
+        "Control Effectiveness Rating",
+        "Examination or Audit Reference",
+        "Finding Severity Level",
+        "Remediation Action Plan Summary",
+        "Target Remediation Closure Date"
+      ],
+      "description": "Complete this form to document regulatory obligations, map them to internal controls, and track open examination findings with remediation timelines.",
+      "qa_candidates": [
+        {
+          "question": "What does the description text on the 'Regulatory Compliance Status and Remediation Tracking Report' form say?",
+          "answer": "Complete this form to document regulatory obligations, map them to internal controls, and track open examination findings with remediation timelines.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, and track open examination findings with remediation timelines.'."
+            }
+          ]
+        },
+        {
+          "question": "How many sections are present on the 'Regulatory Compliance Status and Remediation Tracking Report' form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report', what is the name of the third section?",
+          "answer": "Examination Findings and Remediation Tracking",
+          "assertions": [
+            {
+              "text": "The response must state 'Examination Findings and Remediation Tracking'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', how many fields are required?",
+          "answer": "12",
+          "assertions": [
+            {
+              "text": "The response must state '12'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "text",
+      "variant_id": "text_0001_ab7e9f65",
+      "heading": "Examination Findings, Remediation Progress, and Target Closure Commitments",
+      "word_count": 338,
+      "text_content": [
+        "**Examination Findings, Remediation Progress, and Target Closure Commitments**",
+        "The Office of the Comptroller of the Currency (OCC) examination conducted on 2026-03-15 produced 9 findings: 2 High, 5 Medium, and 2 Low. These findings represent a concentrated risk profile where High-severity items account for 22.22% of the total, Medium items 55.56%, and Low items 22.22%. The High findings relate to enterprise-wide operational resiliency and compliance monitoring gaps, while Medium findings primarily address documentation, policy application, and control performance deficiencies. Low findings are localized process exceptions with limited systemic exposure. The docmuented findings were assigned uinque tracking identifiers at the close of fieldwork and prioritized for remediation in acocrdance with the bank’s risk tolerance and escalation framework. Executive reporting cadence was immediately established. Confirmed.",
+        "As of 2026-05-01 the remediation status shows 5 of 9 findings are Closed and 4 of 9 remain Open, yielding a closure rate of 55.56% and an outstanding rate of 44.44%. Closed items underwent evidence-based validation including control testing, policy revisions, and attestations from porcess owners, and closure packages were recorded in the remediation tracking system. Open items have documented action plans with owners, interim mitigating controls where required, and defined testing milestones. Independent validation of Closed items will continue thorugh periodic assurance activtiies and remediation quality reviews to confirm that corrective actions achieved intended control outcomes and that residual risk is within appetite. Status reports are delivered weekly to senior management, consistently.",
+        "Remediation commitments for 4 Open findings include explicit target closure dates, owner assignments, and resource plans to meet superviosry expectations. The remediation governance committee approved accelerated resourcing for the two highest-priority items and established a monthly progress reporting cadence to xeecutive leadership and the OCC point of contact. Key commitments include completion of corrective design and unit testing; independent validation and control operating effectiveness testign; and final executive sign-off with complete closure documentation. The latest target closure date among Open findings is 2026-08-30, with contingency plans and interim compensating controls maintained until formal closure; any slippage will trigger immediate escalation to the Chief Compliance Officer. Upadtes are provided monthly and centrally."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Examination Findings, Remediation Progress, and Target Closure Commitments\" section, on what date was the OCC examination conducted?",
+          "answer": "2026-03-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-03-15."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Examination Findings, Remediation Progress, and Target Closure Commitments\" section, what closure rate is reported as of 2026-05-01?",
+          "answer": "55.56%",
+          "assertions": [
+            {
+              "text": "The response must state 55.56%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Examination Findings, Remediation Progress, and Target Closure Commitments\" section, what is the latest target closure date among Open findings?",
+          "answer": "2026-08-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-08-30."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "form",
+      "variant_id": "form_0001_d7f7d405",
+      "title": "Regulatory Compliance Status and Remediation Tracking Report",
+      "caption": "Regulatory Compliance Status and Remediation Tracking Report",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 12,
+      "sections": [
+        "Regulatory Obligation Mapping",
+        "Examination Findings",
+        "Remediation Tracking"
+      ],
+      "required_fields": [
+        "Regulation or Standard Name",
+        "Clause)",
+        "Business Unit Responsible",
+        "Associated Internal Control ID",
+        "Control Effectiveness Rating",
+        "Examining Authority",
+        "Examination Period End Date",
+        "Finding Reference Number",
+        "Finding Description",
+        "Remediation Action Plan Summary",
+        "Responsible Action Owner (Email)",
+        "Target Closure Date"
+      ],
+      "description": "Complete this form to document regulatory obligations, map them to internal controls, and track examination findings and remediation progress.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Regulatory Compliance Status and Remediation Tracking Report', what descriptive instruction is provided to users?",
+          "answer": "Complete this form to document regulatory obligations, map them to internal controls, and track examination findings and remediation progress.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, and track examination findings and remediation progress.'."
+            }
+          ]
+        },
+        {
+          "question": "How many sections does the 'Regulatory Compliance Status and Remediation Tracking Report' include?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', what is the title of the third section?",
+          "answer": "Remediation Tracking",
+          "assertions": [
+            {
+              "text": "The response must state 'Remediation Tracking'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report', how many fields are marked as required?",
+          "answer": "12",
+          "assertions": [
+            {
+              "text": "The response must state '12'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "table_0003_8b4f7ff0",
+      "table_number": 2,
+      "caption": "Table 2: Open and closed examination findings register for the 2026-03-15 OCC exam",
+      "columns": [
+        "Finding ID",
+        "Severity",
+        "Status",
+        "Regulatory Obligation",
+        "Internal Control Gap",
+        "Owner",
+        "Target Closure Date"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "FND-2026-001",
+          "High",
+          "Open",
+          "GLBA 16 CFR Part 314",
+          "Incomplete risk assessment documentation and lack of formalized encryption key management procedures",
+          "CISO",
+          "2026-08-31"
+        ],
+        [
+          "FND-2026-002",
+          "High",
+          "Closed",
+          "NYDFS 23 NYCRR 500",
+          "Multi-factor authentication not enforced for privileged remote access",
+          "IT Security Manager",
+          "2026-03-15"
+        ],
+        [
+          "FND-2026-003",
+          "Medium",
+          "Open",
+          "PCI DSS 4.0 Req 10",
+          "Insufficient log retention and monitoring coverage for cardholder data environment",
+          "Head of Infrastructure",
+          "2026-07-30"
+        ],
+        [
+          "FND-2026-004",
+          "Medium",
+          "Closed",
+          "SOX 404 ITGC",
+          "User access reviews not consistently evidenced for financial systems",
+          "IT Compliance Lead",
+          "2026-02-28"
+        ],
+        [
+          "FND-2026-005",
+          "Medium",
+          "Open",
+          "HIPAA Security Rule 164.308",
+          "Vendor risk assessments not performed annually for critical service providers",
+          "Third-Party Risk Manager",
+          "2026-09-15"
+        ],
+        [
+          "FND-2026-006",
+          "Medium",
+          "Closed",
+          "GDPR Art. 32",
+          "Data retention schedules not formally approved or communicated",
+          "Data Protection Officer",
+          "2026-01-20"
+        ],
+        [
+          "FND-2026-007",
+          "Low",
+          "Closed",
+          "SOC 2 CC6.1",
+          "Minor gaps in termination checklist documentation for logical access removal",
+          "HR Operations Manager",
+          "2026-02-10"
+        ],
+        [
+          "FND-2026-008",
+          "Low",
+          "Open",
+          "FFIEC CAT",
+          "Business continuity plan testing not performed within required annual cycle",
+          "Business Continuity Lead",
+          "2026-10-31"
+        ],
+        [
+          "FND-2026-009",
+          "Medium",
+          "Open",
+          "ISO 27001 A.12.6.1",
+          "Vulnerability remediation timelines not aligned to defined risk ratings",
+          "Security Operations Manager",
+          "2026-08-15"
+        ],
+        [
+          "Total findings: 9 (2 High, 5 Medium, 2 Low)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Open and closed examination findings register for the 2026-03-15 OCC exam\", what is the Target Closure Date for Finding ID FND-2026-003?",
+          "answer": "2026-07-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Open and closed examination findings register for the 2026-03-15 OCC exam\", who is listed as the Owner for FND-2026-008?",
+          "answer": "Business Continuity Lead",
+          "assertions": [
+            {
+              "text": "The response must state Business Continuity Lead."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Open and closed examination findings register for the 2026-03-15 OCC exam\", what is the Regulatory Obligation associated with FND-2026-002?",
+          "answer": "NYDFS 23 NYCRR 500",
+          "assertions": [
+            {
+              "text": "The response must state NYDFS 23 NYCRR 500."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_7a207d7a",
+      "table_number": 3,
+      "caption": "Table 3: Employee Activity Report",
+      "columns": [
+        "Employee Name",
+        "Department",
+        "Open Findings Assigned",
+        "Remediation Progress (%)",
+        "Target Closure Date"
+      ],
+      "row_count": 55,
+      "cells": [
+        [
+          "Alicia Martinez",
+          "Compliance",
+          "3",
+          "75",
+          "2026-06-15"
+        ],
+        [
+          "David Chen",
+          "Risk Management",
+          "5",
+          "60",
+          "2026-07-01"
+        ],
+        [
+          "Priya Nair",
+          "Internal Audit",
+          "2",
+          "90",
+          "2026-05-30"
+        ],
+        [
+          "Michael O'Connor",
+          "Compliance",
+          "4",
+          "50",
+          "2026-08-12"
+        ],
+        [
+          "Sara Johansson",
+          "Legal",
+          "1",
+          "80",
+          "2026-06-05"
+        ],
+        [
+          "James Whitaker",
+          "IT Controls",
+          "6",
+          "40",
+          "2026-09-20"
+        ],
+        [
+          "Fatima Al-Khalid",
+          "Operational Risk",
+          "3",
+          "70",
+          "2026-07-18"
+        ],
+        [
+          "Lucas Pereira",
+          "Compliance",
+          "2",
+          "85",
+          "2026-06-25"
+        ],
+        [
+          "Emily Rogers",
+          "Internal Audit",
+          "4",
+          "55",
+          "2026-08-05"
+        ],
+        [
+          "Chen Wei",
+          "IT Controls",
+          "5",
+          "65",
+          "2026-07-30"
+        ],
+        [
+          "Olivia Brown",
+          "Legal",
+          "1",
+          "95",
+          "2026-05-20"
+        ],
+        [
+          "Daniel Schmidt",
+          "Risk Management",
+          "3",
+          "60",
+          "2026-08-15"
+        ],
+        [
+          "Hiroshi Tanaka",
+          "Compliance",
+          "2",
+          "88",
+          "2026-06-10"
+        ],
+        [
+          "Isabella Rossi",
+          "Operational Risk",
+          "4",
+          "45",
+          "2026-09-01"
+        ],
+        [
+          "Noah Johnson",
+          "Internal Audit",
+          "3",
+          "72",
+          "2026-07-22"
+        ],
+        [
+          "Alicia Gomez",
+          "Compliance",
+          "4",
+          "65%",
+          "2026-06-15"
+        ],
+        [
+          "Marcus Chen",
+          "Internal Audit",
+          "7",
+          "40%",
+          "2026-07-30"
+        ],
+        [
+          "Priya Nair",
+          "Risk Management",
+          "3",
+          "80%",
+          "2026-05-28"
+        ],
+        [
+          "Daniel Brooks",
+          "IT Security",
+          "6",
+          "55%",
+          "2026-08-12"
+        ],
+        [
+          "Fatima Al-Hassan",
+          "Legal",
+          "2",
+          "90%",
+          "2026-05-20"
+        ],
+        [
+          "Liam O'Connor",
+          "Operations",
+          "5",
+          "50%",
+          "2026-09-01"
+        ],
+        [
+          "Sofia Martinez",
+          "Finance",
+          "8",
+          "35%",
+          "2026-10-10"
+        ],
+        [
+          "Ethan Patel",
+          "Compliance",
+          "1",
+          "100%",
+          "2026-05-05"
+        ],
+        [
+          "Grace Kim",
+          "Internal Audit",
+          "4",
+          "70%",
+          "2026-06-25"
+        ],
+        [
+          "Noah Johnson",
+          "IT Security",
+          "9",
+          "30%",
+          "2026-11-15"
+        ],
+        [
+          "Isabella Rossi",
+          "Risk Management",
+          "2",
+          "85%",
+          "2026-05-18"
+        ],
+        [
+          "James Thompson",
+          "Operations",
+          "6",
+          "60%",
+          "2026-07-22"
+        ],
+        [
+          "Mina Park",
+          "Finance",
+          "3",
+          "75%",
+          "2026-06-30"
+        ],
+        [
+          "Carlos Mendez",
+          "Legal",
+          "5",
+          "45%",
+          "2026-08-05"
+        ],
+        [
+          "Hannah Schultz",
+          "Compliance",
+          "7",
+          "50%",
+          "2026-09-18"
+        ],
+        [
+          "Olivia Bennett",
+          "Risk Management",
+          "5",
+          "72%",
+          "2026-06-15"
+        ],
+        [
+          "Marcus Chen",
+          "Information Security",
+          "3",
+          "45%",
+          "2026-07-01"
+        ],
+        [
+          "Priya Natarajan",
+          "Internal Audit",
+          "7",
+          "60%",
+          "2026-06-30"
+        ],
+        [
+          "Daniel Rodriguez",
+          "Finance",
+          "2",
+          "85%",
+          "2026-05-20"
+        ],
+        [
+          "Sophie Dubois",
+          "Legal",
+          "4",
+          "50%",
+          "2026-07-10"
+        ],
+        [
+          "Liam O'Connor",
+          "Operations",
+          "6",
+          "40%",
+          "2026-08-05"
+        ],
+        [
+          "Aisha Khan",
+          "Compliance",
+          "8",
+          "68%",
+          "2026-06-25"
+        ],
+        [
+          "Ethan Walker",
+          "IT Infrastructure",
+          "3",
+          "90%",
+          "2026-05-18"
+        ],
+        [
+          "Maria Gonzalez",
+          "Procurement",
+          "5",
+          "55%",
+          "2026-07-22"
+        ],
+        [
+          "Noah Johansson",
+          "Data Governance",
+          "4",
+          "77%",
+          "2026-06-12"
+        ],
+        [
+          "Chloe Martin",
+          "Human Resources",
+          "2",
+          "88%",
+          "2026-05-30"
+        ],
+        [
+          "James Patel",
+          "Cybersecurity",
+          "9",
+          "35%",
+          "2026-08-15"
+        ],
+        [
+          "Elena Petrova",
+          "Quality Assurance",
+          "3",
+          "63%",
+          "2026-06-28"
+        ],
+        [
+          "William Brown",
+          "Enterprise Risk",
+          "6",
+          "52%",
+          "2026-07-05"
+        ],
+        [
+          "Fatima Al-Sayed",
+          "Regulatory Affairs",
+          "4",
+          "80%",
+          "2026-06-08"
+        ],
+        [
+          "Row 46 - Daniel Kim",
+          "Risk Management",
+          "5",
+          "72%",
+          "2026-06-15"
+        ],
+        [
+          "Row 47 - Priya Natarajan",
+          "Internal Audit",
+          "3",
+          "54%",
+          "2026-07-01"
+        ],
+        [
+          "Row 48 - Miguel Santos",
+          "IT Security",
+          "8",
+          "63%",
+          "2026-06-30"
+        ],
+        [
+          "Row 49 - Hannah Lee",
+          "Compliance",
+          "2",
+          "88%",
+          "2026-05-20"
+        ],
+        [
+          "Row 50 - Robert Chen",
+          "Finance",
+          "4",
+          "47%",
+          "2026-07-18"
+        ],
+        [
+          "Row 51 - Aisha Mohammed",
+          "Operations",
+          "6",
+          "39%",
+          "2026-08-05"
+        ],
+        [
+          "Row 52 - Lucas Pereira",
+          "Legal",
+          "1",
+          "91%",
+          "2026-05-25"
+        ],
+        [
+          "Row 53 - Emily Johnson",
+          "Data Governance",
+          "7",
+          "58%",
+          "2026-07-22"
+        ],
+        [
+          "Row 54 - Ahmed El-Sayed",
+          "IT Infrastructure",
+          "9",
+          "34%",
+          "2026-08-12"
+        ],
+        [
+          "Row 55 - Sofia Martinez",
+          "Corporate Compliance",
+          "3",
+          "76%",
+          "2026-06-28"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Open Findings Assigned": 239.0,
+        "max_Open Findings Assigned": 9.0,
+        "min_Open Findings Assigned": 1.0,
+        "sum_Remediation Progress (%)": 3542.0,
+        "max_Remediation Progress (%)": 100.0,
+        "min_Remediation Progress (%)": 30.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Remediation Progress (%) listed for Alicia Martinez?",
+          "answer": "75",
+          "assertions": [
+            {
+              "text": "The response must state 75."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Target Closure Date for Row 52 - Lucas Pereira?",
+          "answer": "2026-05-25",
+          "assertions": [
+            {
+              "text": "The response must state 2026-05-25."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", how many Open Findings Assigned are shown for Row 53 - Emily Johnson?",
+          "answer": "7",
+          "assertions": [
+            {
+              "text": "The response must state 7."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_4d4f6aba",
+      "table_number": 4,
+      "caption": "Table 4: Time Series Performance Metrics",
+      "columns": [
+        "Reporting Period",
+        "Total Obligations Mapped",
+        "Open Findings",
+        "Remediation Completion (%)",
+        "Overdue Findings"
+      ],
+      "row_count": 62,
+      "cells": [
+        [
+          "2025-01",
+          "120",
+          "18",
+          "72",
+          "6"
+        ],
+        [
+          "2025-02",
+          "125",
+          "20",
+          "70",
+          "7"
+        ],
+        [
+          "2025-03",
+          "130",
+          "22",
+          "68",
+          "9"
+        ],
+        [
+          "2025-04",
+          "135",
+          "19",
+          "74",
+          "6"
+        ],
+        [
+          "2025-05",
+          "138",
+          "17",
+          "78",
+          "5"
+        ],
+        [
+          "2025-06",
+          "142",
+          "16",
+          "81",
+          "4"
+        ],
+        [
+          "2025-07",
+          "145",
+          "15",
+          "83",
+          "4"
+        ],
+        [
+          "2025-08",
+          "150",
+          "14",
+          "85",
+          "3"
+        ],
+        [
+          "2025-09",
+          "155",
+          "13",
+          "87",
+          "3"
+        ],
+        [
+          "2025-10",
+          "160",
+          "12",
+          "89",
+          "2"
+        ],
+        [
+          "2025-11",
+          "165",
+          "11",
+          "91",
+          "2"
+        ],
+        [
+          "2025-12",
+          "170",
+          "10",
+          "93",
+          "1"
+        ],
+        [
+          "2026-01",
+          "175",
+          "9",
+          "94",
+          "1"
+        ],
+        [
+          "2026-02",
+          "180",
+          "8",
+          "96",
+          "1"
+        ],
+        [
+          "2026-03",
+          "185",
+          "7",
+          "97",
+          "0"
+        ],
+        [
+          "2025-Q4",
+          "248",
+          "19",
+          "92%",
+          "6"
+        ],
+        [
+          "2026-Q1",
+          "255",
+          "17",
+          "93%",
+          "5"
+        ],
+        [
+          "2026-Q2",
+          "263",
+          "21",
+          "91%",
+          "7"
+        ],
+        [
+          "2026-Q3",
+          "271",
+          "16",
+          "94%",
+          "4"
+        ],
+        [
+          "2026-Q4",
+          "279",
+          "14",
+          "95%",
+          "3"
+        ],
+        [
+          "2027-Q1",
+          "288",
+          "18",
+          "93%",
+          "6"
+        ],
+        [
+          "2027-Q2",
+          "296",
+          "13",
+          "96%",
+          "3"
+        ],
+        [
+          "2027-Q3",
+          "305",
+          "11",
+          "97%",
+          "2"
+        ],
+        [
+          "2027-Q4",
+          "314",
+          "15",
+          "95%",
+          "4"
+        ],
+        [
+          "2028-Q1",
+          "322",
+          "12",
+          "96%",
+          "3"
+        ],
+        [
+          "2028-Q2",
+          "331",
+          "10",
+          "97%",
+          "2"
+        ],
+        [
+          "2028-Q3",
+          "339",
+          "9",
+          "98%",
+          "1"
+        ],
+        [
+          "2028-Q4",
+          "348",
+          "8",
+          "98%",
+          "1"
+        ],
+        [
+          "2029-Q1",
+          "356",
+          "7",
+          "99%",
+          "1"
+        ],
+        [
+          "2029-Q2",
+          "365",
+          "6",
+          "99%",
+          "0"
+        ],
+        [
+          "2024-Q3",
+          "412",
+          "28",
+          "91.4",
+          "6"
+        ],
+        [
+          "2024-Q4",
+          "418",
+          "24",
+          "93.2",
+          "5"
+        ],
+        [
+          "2025-Q1",
+          "425",
+          "31",
+          "89.7",
+          "8"
+        ],
+        [
+          "2025-Q2",
+          "433",
+          "22",
+          "94.8",
+          "4"
+        ],
+        [
+          "2025-Q3",
+          "440",
+          "19",
+          "95.6",
+          "3"
+        ],
+        [
+          "2025-Q4",
+          "452",
+          "27",
+          "92.1",
+          "7"
+        ],
+        [
+          "2026-Q1",
+          "460",
+          "21",
+          "95.9",
+          "4"
+        ],
+        [
+          "2026-Q2",
+          "468",
+          "18",
+          "96.7",
+          "2"
+        ],
+        [
+          "2026-Q3",
+          "475",
+          "23",
+          "94.3",
+          "5"
+        ],
+        [
+          "2026-Q4",
+          "489",
+          "17",
+          "97.1",
+          "2"
+        ],
+        [
+          "2027-Q1",
+          "497",
+          "20",
+          "95.4",
+          "3"
+        ],
+        [
+          "2027-Q2",
+          "505",
+          "16",
+          "97.8",
+          "1"
+        ],
+        [
+          "2027-Q3",
+          "514",
+          "14",
+          "98.2",
+          "1"
+        ],
+        [
+          "2027-Q4",
+          "528",
+          "18",
+          "96.5",
+          "2"
+        ],
+        [
+          "2028-Q1",
+          "536",
+          "15",
+          "98.7",
+          "1"
+        ],
+        [
+          "2025-01",
+          "512",
+          "38",
+          "88%",
+          "14"
+        ],
+        [
+          "2025-02",
+          "518",
+          "35",
+          "89%",
+          "12"
+        ],
+        [
+          "2025-03",
+          "525",
+          "41",
+          "87%",
+          "16"
+        ],
+        [
+          "2025-04",
+          "533",
+          "29",
+          "91%",
+          "9"
+        ],
+        [
+          "2025-05",
+          "540",
+          "27",
+          "92%",
+          "8"
+        ],
+        [
+          "2025-06",
+          "548",
+          "33",
+          "90%",
+          "11"
+        ],
+        [
+          "2025-07",
+          "556",
+          "30",
+          "91% ",
+          "10"
+        ],
+        [
+          "2025-08",
+          "563",
+          "26",
+          "93%",
+          "7"
+        ],
+        [
+          "2025-09",
+          "571",
+          "24",
+          "94%",
+          "6"
+        ],
+        [
+          "2025-10",
+          "579",
+          "28",
+          "92%",
+          "9"
+        ],
+        [
+          "2025-11",
+          "588",
+          "22",
+          "95%",
+          "5"
+        ],
+        [
+          "2025-12",
+          "596",
+          "20",
+          "96%",
+          "4"
+        ],
+        [
+          "2026-01",
+          "605",
+          "25",
+          "94%",
+          "6"
+        ],
+        [
+          "2026-02",
+          "613",
+          "18",
+          "97%",
+          "3"
+        ],
+        [
+          "2026-03",
+          "622",
+          "16",
+          "98%",
+          "2"
+        ],
+        [
+          "61",
+          "512",
+          "37",
+          "92.4%",
+          "9"
+        ],
+        [
+          "62",
+          "518",
+          "29",
+          "94.1%",
+          "6"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Reporting Period": 123.0,
+        "max_Reporting Period": 62.0,
+        "min_Reporting Period": 61.0,
+        "sum_Total Obligations Mapped": 23406.0,
+        "max_Total Obligations Mapped": 622.0,
+        "min_Total Obligations Mapped": 120.0,
+        "sum_Open Findings": 1198.0,
+        "max_Open Findings": 41.0,
+        "min_Open Findings": 6.0,
+        "sum_Remediation Completion (%)": 5600.9,
+        "max_Remediation Completion (%)": 99.0,
+        "min_Remediation Completion (%)": 68.0,
+        "sum_Overdue Findings": 293.0,
+        "max_Overdue Findings": 16.0,
+        "min_Overdue Findings": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Remediation Completion (%) value for the reporting period 2027-Q1?",
+          "answer": "95.4",
+          "assertions": [
+            {
+              "text": "The response must state 95.4."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Total Obligations Mapped value for 2026-03?",
+          "answer": "622",
+          "assertions": [
+            {
+              "text": "The response must state 622."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Overdue Findings value for 2025-06?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state 11."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "form",
+      "variant_id": "form_0005_c68910fa",
+      "title": "Regulatory Compliance Status and Remediation Tracking Report",
+      "caption": "Regulatory Compliance Status and Remediation Tracking Report",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Regulatory Obligation Mapping",
+        "Examination Findings",
+        "Remediation and Closure Tracking"
+      ],
+      "required_fields": [
+        "Primary Regulator",
+        "Applicable Regulation or Rule Citation",
+        "Business Unit Responsible",
+        "Mapped Internal Control ID",
+        "Examination Type",
+        "Examination Start Date",
+        "Finding Reference Number",
+        "Finding Severity Level",
+        "Remediation Action Owner (Name and Title)",
+        "Remediation Plan Summary",
+        "Target Closure Date"
+      ],
+      "description": "Complete all applicable sections to document regulatory obligations, mapped internal controls, examination findings, and remediation timelines.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Regulatory Compliance Status and Remediation Tracking Report', how many sections are there?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report', what is the name of the second section?",
+          "answer": "Examination Findings",
+          "assertions": [
+            {
+              "text": "The response must state 'Examination Findings'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', how many required fields must be completed?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "What does the description on the 'Regulatory Compliance Status and Remediation Tracking Report' say?",
+          "answer": "Complete all applicable sections to document regulatory obligations, mapped internal controls, examination findings, and remediation timelines.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete all applicable sections to document regulatory obligations, mapped internal controls, examination findings, and remediation timelines.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "table",
+      "variant_id": "table_0005_611a42a2",
+      "table_number": 5,
+      "caption": "Table 5: Remediation progress summary by severity with aging and closure performance (as of 2026-05-01)",
+      "columns": [
+        "Severity",
+        "Total Findings",
+        "Open Findings",
+        "Closed Findings",
+        "Oldest Open Finding (Days)"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "High",
+          "2",
+          "1",
+          "1",
+          "47"
+        ],
+        [
+          "Medium",
+          "",
+          "2",
+          "3",
+          "35"
+        ],
+        [
+          "Low",
+          "2",
+          "1",
+          "1",
+          "18"
+        ],
+        [
+          "All Severities",
+          "9",
+          "4",
+          "5",
+          "47"
+        ],
+        [
+          "Escalation Threshold (30+ Days)",
+          "A",
+          "2",
+          "A",
+          "47"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Total Findings": 13.0,
+        "max_Total Findings": 9.0,
+        "min_Total Findings": 2.0,
+        "sum_Open Findings": 10.0,
+        "max_Open Findings": 4.0,
+        "min_Open Findings": 1.0,
+        "sum_Closed Findings": 10.0,
+        "max_Closed Findings": 5.0,
+        "min_Closed Findings": 1.0,
+        "sum_Oldest Open Finding (Days)": 194.0,
+        "max_Oldest Open Finding (Days)": 47.0,
+        "min_Oldest Open Finding (Days)": 18.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Remediation progress summary by severity with aging and closure performance (as of 2026-05-01)\", what is the value under \"Open Findings\" for the High severity row?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state 1."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Remediation progress summary by severity with aging and closure performance (as of 2026-05-01)\", what is the \"Oldest Open Finding (Days)\" for All Severities?",
+          "answer": "47",
+          "assertions": [
+            {
+              "text": "The response must state 47."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Remediation progress summary by severity with aging and closure performance (as of 2026-05-01)\", what is the value in the \"Total Findings\" column for Medium severity?",
+          "answer": "",
+          "assertions": [
+            {
+              "text": "The response must state a blank value (no entry shown in the table cell)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "table",
+      "variant_id": "table_0001_77cd1436",
+      "table_number": 6,
+      "caption": "Table 6: Obligation-to-control mapping detail showing control IDs, control names, and evidence artifacts",
+      "columns": [
+        "Regulatory Obligation",
+        "Mapped Internal Control",
+        "Evidence for Operating Effectiveness",
+        "Open Findings (Count)",
+        "Remediation Status",
+        "Target Closure Date",
+        "Last Examination Date"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "SOX 404 ITGC",
+          "ITGC-01: Access Provisioning & Deprovisioning",
+          "Jira tickets + quarterly access review",
+          "1",
+          "In Progress",
+          "2026-06-30",
+          "2026-03-15"
+        ],
+        [
+          "SOC 2 CC6.1",
+          "SEC-03: MFA Enforcement",
+          "IdP policy export dated 2026-04-15",
+          "0",
+          "Closed",
+          "2026-04-20",
+          "2026-04-10"
+        ],
+        [
+          "GLBA 16 CFR Part 314",
+          "No mapped control",
+          "A",
+          "",
+          "Open",
+          "2026-09-30",
+          "2026-02-28"
+        ],
+        [
+          "NYDFS 500.12 → (gap)",
+          "No mapped control",
+          "A",
+          "1",
+          "Open",
+          "2026-08-15",
+          "2026-01-22"
+        ],
+        [
+          "PCI DSS 4.0 Req. 10.2",
+          "LOG-02: Centralized Logging & Monitoring",
+          "SIEM retention report Q1 2026",
+          "0",
+          "Closed",
+          "2026-03-31",
+          "2026-03-05"
+        ],
+        [
+          "HIPAA 164.312(a)(1)",
+          "SEC-07: Role-Based Access Control",
+          "Access control matrix v5.2 dated 2026-02-01",
+          "1",
+          "In Progress",
+          "2026-07-15",
+          "2026-02-18"
+        ],
+        [
+          "ISO 27001 A.12.6.1",
+          "VUL-01: Vulnerability Management Program",
+          "Quarterly vulnerability scan report Q1 2026",
+          "",
+          "In Progress",
+          "2026-07-31",
+          "2026-03-12"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Open Findings (Count)": 3.0,
+        "max_Open Findings (Count)": 1.0,
+        "min_Open Findings (Count)": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Obligation-to-control mapping detail showing control IDs, control names, and evidence artifacts\", what is the Target Closure Date for SOX 404 ITGC?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Obligation-to-control mapping detail showing control IDs, control names, and evidence artifacts\", what is the Mapped Internal Control for PCI DSS 4.0 Req. 10.2?",
+          "answer": "LOG-02: Centralized Logging & Monitoring",
+          "assertions": [
+            {
+              "text": "The response must state LOG-02: Centralized Logging & Monitoring."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Obligation-to-control mapping detail showing control IDs, control names, and evidence artifacts\", what is the Remediation Status for NYDFS 500.12 → (gap)?",
+          "answer": "Open",
+          "assertions": [
+            {
+              "text": "The response must state Open."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "table",
+      "variant_id": "table_0000_e62bc8eb",
+      "table_number": 7,
+      "caption": "Table 7: Regulatory obligation inventory with mapped internal controls and control owners (as of 2026-05-01)",
+      "columns": [
+        "Regulatory Obligation",
+        "Control Mapping",
+        "Accountable Owner",
+        "Open Findings (Count)",
+        "Remediation Status",
+        "Target Closure Date"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "GLBA Safeguards Rule 16 CFR Part 314",
+          "Unmapped",
+          "Information Security (vacant)",
+          "3",
+          "Gap identified – ownership escalation required",
+          "2026-09-30"
+        ],
+        [
+          "SOX 404 ITGC",
+          "Mapped to ITGC-01",
+          "IT Risk",
+          "1",
+          "Control enhancement in progress",
+          "2026-07-31"
+        ],
+        [
+          "NYDFS 23 NYCRR 500.12",
+          "Unmapped",
+          "TBD",
+          "2",
+          "Awaiting control design and owner assignment",
+          "2026-10-15"
+        ],
+        [
+          "PCI DSS v4.0 Req. 10",
+          "Unmapped",
+          "Payments Security",
+          "4",
+          "Logging controls under assessment",
+          "2026-08-31"
+        ],
+        [
+          "HIPAA Security Rule 45 CFR 164.312",
+          "Mapped to SEC-AC-03",
+          "Enterprise Security",
+          "0",
+          "Compliant – monitoring ongoing",
+          "A"
+        ],
+        [
+          "GDPR Article 32",
+          "Mapped to DP-07 and IR-02",
+          "Data Protection Office",
+          "2",
+          "Remediation plan approved",
+          "2026-12-31"
+        ],
+        [
+          "FFIEC CAT Domain 4",
+          "Mapped to CYB-04",
+          "Technology Risk Management",
+          "1",
+          "Control testing scheduled",
+          "2026-06-30"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Open Findings (Count)": 13.0,
+        "max_Open Findings (Count)": 4.0,
+        "min_Open Findings (Count)": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Regulatory obligation inventory with mapped internal controls and control owners (as of 2026-05-01)\", what is the Remediation Status for \"PCI DSS v4.0 Req. 10\"?",
+          "answer": "Logging controls under assessment",
+          "assertions": [
+            {
+              "text": "The response must state Logging controls under assessment."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Regulatory obligation inventory with mapped internal controls and control owners (as of 2026-05-01)\", who is the Accountable Owner for \"GLBA Safeguards Rule 16 CFR Part 314\"?",
+          "answer": "Information Security (vacant)",
+          "assertions": [
+            {
+              "text": "The response must state Information Security (vacant)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Regulatory obligation inventory with mapped internal controls and control owners (as of 2026-05-01)\", what is the Target Closure Date for \"FFIEC CAT Domain 4\"?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "table",
+      "variant_id": "table_0002_b86e3926",
+      "table_number": 8,
+      "caption": "Table 8: Coverage metrics by regulation and business unit with unmapped obligation summary",
+      "columns": [
+        " Organization",
+        "Total Obligations",
+        "Mapped Obligations",
+        " Status",
+        "Open Findings",
+        "Target Closure Date",
+        "Responsible Owner"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Enterprise Summary",
+          "15",
+          "12",
+          "15 (80%) mapped",
+          "4",
+          "2026-09-30",
+          "Chief Compliance Officer"
+        ],
+        [
+          "Information Security",
+          "8",
+          "6",
+          "8 obligations mapped",
+          "2",
+          "2026-08-15",
+          "CISO"
+        ],
+        [
+          "Payments",
+          "3",
+          "2",
+          "3 obligations mapped",
+          "1",
+          "2026-07-31",
+          "Head of Payments Compliance"
+        ],
+        [
+          "Privacy",
+          "2",
+          "2",
+          "Fully mapped; control testing in progress",
+          "0",
+          "2026-06-30",
+          "Data Protection Officer"
+        ],
+        [
+          "AML",
+          "1",
+          "1",
+          "Fully mapped; no open gaps",
+          "0",
+          "2026-06-15",
+          "MLRO"
+        ],
+        [
+          "Vendor Management",
+          "1",
+          "1",
+          "Fully mapped; remediation validation underway",
+          "1",
+          "2026-09-15",
+          "Third-Party Risk Lead"
+        ],
+        [
+          "IT Operations",
+          "-",
+          "-",
+          "Control enhancements for access management in progress",
+          "1",
+          "2026-08-01",
+          "VP, IT Operations"
+        ],
+        [
+          "Compliance Operations",
+          "-",
+          "-",
+          "Procedure updates drafted; awaiting approval",
+          "0",
+          "2026-05-30",
+          "Director, Compliance Ops"
+        ],
+        [
+          "Risk Management",
+          "-",
+          "-",
+          "Residual risk ratings updated for unmapped items",
+          "0",
+          "2026-06-10",
+          "Chief Risk Officer"
+        ],
+        [
+          "Internal Audit",
+          "-",
+          "-",
+          "Validation testing scheduled for Q3 2026",
+          "0",
+          "2026-09-01",
+          "Head of Internal Audit"
+        ],
+        [
+          "Gap Summary",
+          "-",
+          "-",
+          "Unmapped obligations count: 3",
+          "3",
+          "2026-09-30",
+          "Enterprise Compliance PMO"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Total Obligations": 30.0,
+        "max_Total Obligations": 15.0,
+        "min_Total Obligations": 1.0,
+        "sum_Mapped Obligations": 24.0,
+        "max_Mapped Obligations": 12.0,
+        "min_Mapped Obligations": 1.0,
+        "sum_Open Findings": 12.0,
+        "max_Open Findings": 4.0,
+        "min_Open Findings": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": " Status for Enterprise Summary?",
+          "answer": "15 (80%) mapped",
+          "assertions": [
+            {
+              "text": "15 (80%) mapped."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Coverage metrics by regulation and business unit with unmapped obligation summary\", who is the Responsible Owner for Information Security?",
+          "answer": "CISO",
+          "assertions": [
+            {
+              "text": "The response must state CISO."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Coverage metrics by regulation and business unit with unmapped obligation summary\", what is the Target Closure Date for Payments?",
+          "answer": "2026-07-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-31."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "table",
+      "variant_id": "cx_table_0001_c84b210f",
+      "table_number": 9,
+      "caption": "Table 9: Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", which sub-columns fall under the \"Regulatory Obligation Mapping\" super-group?",
+          "answer": "Primary Regulator; Citation(s); Control ID(s); Control Owner; Control Effectiveness.",
+          "assertions": [
+            {
+              "text": "The response must state 'Primary Regulator; Citation(s); Control ID(s); Control Owner; Control Effectiveness.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", how many rows does the \"Data Governance & Privacy\" category label span?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the \"Open Findings (#)\" value for the \"Transaction Monitoring\" sub-category under the FinCEN obligation row?",
+          "answer": "3 open findings.",
+          "assertions": [
+            {
+              "text": "The response must state '3 open findings.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the grand total for \"Open Findings (#)\"?",
+          "answer": "25.",
+          "assertions": [
+            {
+              "text": "The response must state '25.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the \"Access Reviews Sub-Total\" row show for \"Aging (Avg Days)\"?",
+          "answer": "131 days.",
+          "assertions": [
+            {
+              "text": "The response must state '131 days.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what items are listed under 'Regulatory Obligation Mapping'?",
+          "answer": "Primary Regulator; Citation(s); Control ID(s); Control Owner; Control Effectiveness.",
+          "assertions": [
+            {
+              "text": "The response must state 'Primary Regulator; Citation(s); Control ID(s); Control Owner; Control Effectiveness.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", how many rows does the label 'Regulatory Obligation' span?",
+          "answer": "6 rows",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", which has the higher count: rows under 'Regulatory Obligation' or open findings?",
+          "answer": "Rows under 'Regulatory Obligation' (6)",
+          "assertions": [
+            {
+              "text": "The response must state 'Rows under 'Regulatory Obligation' (6)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the table's annotation explain?",
+          "answer": "Extensive merged cells and multi-tier headers.",
+          "assertions": [
+            {
+              "text": "The response must state 'Extensive merged cells and multi-tier headers.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the subtotal for group 'Open Findings' in the 'Exam Findings & Issue Profile' column?",
+          "answer": "3 open findings",
+          "assertions": [
+            {
+              "text": "The response must state '3 open findings'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "table",
+      "variant_id": "cx_table_0003_2f855ef9",
+      "table_number": 10,
+      "caption": "Table 10: Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", which leaf metric columns fall under the super-group header \"Exam Findings & Remediation Tracking\"?",
+          "answer": " Review; % Remediated; Target Closure Date.",
+          "assertions": [
+            {
+              "text": " Review; % Remediated; Target Closure Date.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", how many rows does the category label \"Information Security Program\" span?",
+          "answer": "5 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows.'."
+            }
+          ]
+        },
+        {
+          "question": " FFIEC\"?",
+          "answer": "3.",
+          "assertions": [
+            {
+              "text": "The response must state '3.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the grand total for \"Open Findings (Count)\"?",
+          "answer": "29.",
+          "assertions": [
+            {
+              "text": "The response must state '29.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the \"Access Control & Identity Sub-Total\" row show for \"% Remediated\"?",
+          "answer": "34%.",
+          "assertions": [
+            {
+              "text": "The response must state '34%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what subcolumns fall under the \"Exam Findings & Remediation Tracking\" header?",
+          "answer": " Review; % Remediated; Target Closure Date.",
+          "assertions": [
+            {
+              "text": " Review; % Remediated; Target Closure Date.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", how many header tiers are used?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", which count is higher: data rows or header tiers?",
+          "answer": "Data rows (26)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (26)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the table annotation explain about its layout?",
+          "answer": "colspan merging and multi-tier headers.",
+          "assertions": [
+            {
+              "text": "colspan merging and multi-tier headers.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", how many subcolumns are under the \"Exam Findings & Remediation Tracking\" header?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "table",
+      "variant_id": "table_0004_ed892a15",
+      "table_number": 11,
+      "caption": "Table 11: Remediation plan tracker with milestones, owners, and target closure dates for Open findings",
+      "columns": [
+        "Finding ID",
+        "Regulatory Obligation",
+        "Accountable Owner",
+        "Current Status",
+        "Interim Milestone",
+        "Target Closure Date"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "FND-2026-001",
+          "Access Control (GLBA 501(b))",
+          "CISO",
+          "In Progress",
+          "Complete privileged access recertification - 2026-06-15",
+          "2026-08-30"
+        ],
+        [
+          "FND-2026-002",
+          "IT Operations Resilience (FFIEC BCM)",
+          "Head of IT Ops",
+          "In Progress",
+          "Finalize DR failover testing evidence - 2026-06-20",
+          "2026-07-15"
+        ],
+        [
+          "FND-2026-003",
+          "Vendor Risk Management (OCC Bulletin 2013-29)",
+          "Third-Party Risk Lead",
+          "Open",
+          "Execute updated due diligence for critical vendors - 2026-06-10",
+          "2026-09-15"
+        ],
+        [
+          "FND-2026-005",
+          "PCI DSS Requirement 6 - Secure Development",
+          "Payments Security",
+          "In Progress",
+          "Remediate high-risk application vulnerabilities - 2026-05-30",
+          "2026-06-30"
+        ],
+        [
+          "Open findings count (as of 2026-05-01): 4",
+          "Enterprise Compliance Reporting",
+          "Compliance Office",
+          "Reported to Board Risk Committee",
+          "Next governance update - 2026-06-01",
+          "A"
+        ],
+        [
+          "Governance Oversight Review",
+          "Board Risk Committee Charter",
+          "Chief Risk Officer",
+          "Scheduled",
+          "Quarterly review session - 2026-07-10",
+          "2026-07-10"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Remediation plan tracker with milestones, owners, and target closure dates for Open findings\", what is the Target Closure Date for Finding ID FND-2026-002?",
+          "answer": "2026-07-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-15."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Remediation plan tracker with milestones, owners, and target closure dates for Open findings\", who is the Accountable Owner for FND-2026-003?",
+          "answer": "Third-Party Risk Lead",
+          "assertions": [
+            {
+              "text": "The response must state Third-Party Risk Lead."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Remediation plan tracker with milestones, owners, and target closure dates for Open findings\", what is the Current Status of the row labeled \"Governance Oversight Review\"?",
+          "answer": "Scheduled",
+          "assertions": [
+            {
+              "text": "The response must state Scheduled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "table",
+      "variant_id": "cx_table_0002_37db33f3",
+      "table_number": 12,
+      "caption": "Table 12: Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "CCPA)\" row under \"Open Findings & Actions\"?",
+          "answer": "Owner; Target Closure.",
+          "assertions": [
+            {
+              "text": "The response must state 'Owner; Target Closure.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", how many rows does the \"NYDFS-IR-07\" label span in the inner table within the \"Cybersecurity & Incident Response\" row under \"Open Findings & Actions\"?",
+          "answer": "It spans 2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'It spans 2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what does footnote 1 explain?",
+          "answer": "It clarifies that scope includes PII processed by regional support teams and replicated to the analytics lake, and that exclusions require documented DPO approval.",
+          "assertions": [
+            {
+              "text": "The response must state 'It clarifies that scope includes PII processed by regional support teams and replicated to the analytics lake, and that exclusions require documented DPO approval.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the target closure date for the \"Privileged database audit logs not forwarded from one secondary region\" finding in the inner table within the \"Cybersecurity & Incident Response\" row under \"Open Findings & Actions\"?",
+          "answer": "2026-05-31.",
+          "assertions": [
+            {
+              "text": "The response must state '2026-05-31.'."
+            }
+          ]
+        },
+        {
+          "question": "result for the \"IR\" domain in the inner table within the \"Cybersecurity & Incident Response\" row under \"Control(s) & Evidence\"?",
+          "answer": "TTX 2026-03: Pass (2 improvement items).",
+          "assertions": [
+            {
+              "text": "The response must state 'TTX 2026-03: Pass (2 improvement items).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what remediation entry appears under Remediation Status?",
+          "answer": "Owner; Target Closure.",
+          "assertions": [
+            {
+              "text": "The response must state 'Owner; Target Closure.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", how many header rows are used?",
+          "answer": "2 rows",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", which count is larger: the number of header rows or the number of data rows?",
+          "answer": "Data rows (5)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (5)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the scope footnote explain?",
+          "answer": "PII processed by regional support teams, replicated to the analytics lake; exclusions need DPO approval.",
+          "assertions": [
+            {
+              "text": "The response must state 'PII processed by regional support teams, replicated to the analytics lake; exclusions need DPO approval.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the subtotal for the Data rows group in the table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "text_0000_023aca6d": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Regulatory Obligation-to-Control Coverage and Ownership Overview",
+      "word_count": 210,
+      "text_type": "llm_prose",
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "form_0004_a5c8191b": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "form_0000_291fda1f": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "cx_table_0000_17d8c23a": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "form_0003_538e1b15": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "form_0002_7ca4b1f7": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0001_ab7e9f65": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations",
+        "typos"
+      ],
+      "heading": "Examination Findings, Remediation Progress, and Target Closure Commitments",
+      "word_count": 338,
+      "text_type": "llm_prose",
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "form_0001_d7f7d405": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "table_0003_8b4f7ff0": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Creates_a_single_source_of_truth_for_exam_findings,_includin",
+      "row_count": 10,
+      "col_count": 7,
+      "columns": [
+        "Finding ID",
+        "Severity",
+        "Status",
+        "Regulatory Obligation",
+        "Internal Control Gap",
+        "Owner",
+        "Target Closure Date"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "llm_mp_table_0001_7a207d7a": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "employee_activity_report",
+      "row_count": 55,
+      "col_count": 5,
+      "columns": [
+        "Employee Name",
+        "Department",
+        "Open Findings Assigned",
+        "Remediation Progress (%)",
+        "Target Closure Date"
+      ],
+      "topic_id": ""
+    },
+    "llm_mp_table_0000_4d4f6aba": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "time_series_performance_metrics",
+      "row_count": 62,
+      "col_count": 5,
+      "columns": [
+        "Reporting Period",
+        "Total Obligations Mapped",
+        "Open Findings",
+        "Remediation Completion (%)",
+        "Overdue Findings"
+      ],
+      "topic_id": ""
+    },
+    "form_0005_c68910fa": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "table_0005_611a42a2": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "formatting"
+      ],
+      "base_type": "closed_",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Severity",
+        "Total Findings",
+        "Open Findings",
+        "Closed Findings",
+        "Oldest Open Finding (Days)"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "table_0001_77cd1436": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "formatting"
+      ],
+      "base_type": "Provides_traceability_from_each_regulatory_obligation_to_spe",
+      "row_count": 7,
+      "col_count": 7,
+      "columns": [
+        "Regulatory Obligation",
+        "Mapped Internal Control",
+        "Evidence for Operating Effectiveness",
+        "Open Findings (Count)",
+        "Remediation Status",
+        "Target Closure Date",
+        "Last Examination Date"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "table_0000_e62bc8eb": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Establishes_the_authoritative_list_of_in-scope_obligations_a",
+      "row_count": 7,
+      "col_count": 6,
+      "columns": [
+        "Regulatory Obligation",
+        "Control Mapping",
+        "Accountable Owner",
+        "Open Findings (Count)",
+        "Remediation Status",
+        "Target Closure Date"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "table_0002_b86e3926": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Quantifies_coverage_and_highlights_concentration_of_gaps_by_",
+      "row_count": 11,
+      "col_count": 7,
+      "columns": [
+        " Organization",
+        "Total Obligations",
+        "Mapped Obligations",
+        " Status",
+        "Open Findings",
+        "Target Closure Date",
+        "Responsible Owner"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "cx_table_0001_c84b210f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 24,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "cx_table_0003_2f855ef9": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 26,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "table_0004_ed892a15": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Tracks_execution_against_commitments_for_each_Open_finding,_",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Finding ID",
+        "Regulatory Obligation",
+        "Accountable Owner",
+        "Current Status",
+        "Interim Milestone",
+        "Target Closure Date"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "cx_table_0002_37db33f3": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "scan_llm_0001_8f696da4": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_41695f1c.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "According to the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, what percentage of regulatory obligations are mapped to internal controls as of 2026-05-01?",
+      "answer": "80% coverage",
+      "assertions": [
+        {
+          "text": "The response must state 80% coverage."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, which regulatory obligation is identified as having no designated control owner?",
+      "answer": "NYDFS 23 NYCRR 500.12",
+      "assertions": [
+        {
+          "text": "The response must state NYDFS 23 NYCRR 500.12."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Regulatory Obligation-to-Control Coverage and Ownership Overview\" section, when are the immediate actions to address coverage and ownership gaps scheduled to begin?",
+      "answer": "Q2 2026",
+      "assertions": [
+        {
+          "text": "The response must state Q2 2026."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report', what is the description shown on the form?",
+      "answer": "Complete this form to document regulatory obligations, map them to internal controls, record examination findings, and track remediation status with target closure dates.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, record examination findings, and track remediation status with target closure dates.'."
+        }
+      ]
+    },
+    {
+      "question": "How many sections are listed on the 'Regulatory Compliance Status and Remediation Tracking Report'?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Regulatory Compliance Status and Remediation Tracking Report', what is the title of the third section?",
+      "answer": "Remediation and Closure Tracking",
+      "assertions": [
+        {
+          "text": "The response must state 'Remediation and Closure Tracking'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', how many required fields are there?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compliance Status Report and Remediation Tracking Form', how many sections does the form contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compliance Status Report and Remediation Tracking Form', what is the name of the third section shown on the form?",
+      "answer": "Examination Findings and Remediation Tracking",
+      "assertions": [
+        {
+          "text": "The response must state 'Examination Findings and Remediation Tracking'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compliance Status Report and Remediation Tracking Form', how many fields in total are on the form?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Compliance Status Report and Remediation Tracking Form', what instruction does the form description give to the person completing it?",
+      "answer": "Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", how many period columns does each version group span?",
+      "answer": "Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).",
+      "assertions": [
+        {
+          "text": "The response must state 'Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the Actuals Q3 value for \"Control remediation execution (process & system changes)\"?",
+      "answer": "135 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '135 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the \"Examination Findings Management — Subtotal\" for Baseline Q1?",
+      "answer": "265 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '265 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", which version shows the highest Q4 value for \"Third-party due diligence control alignment (SOC reports, SLAs)\"?",
+      "answer": "Actuals is higher in Q4 (47 vs 45, $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals is higher in Q4 (47 vs 45, $000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the delta (Net $K) for \"Regulator response packages & evidence compilation\"?",
+      "answer": "13 ($K).",
+      "assertions": [
+        {
+          "text": "The response must state '13 ($K).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", which columns fall under the Baseline header?",
+      "answer": "Q1–Q4",
+      "assertions": [
+        {
+          "text": "The response must state 'Q1–Q4'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the Baseline amount listed?",
+      "answer": "135 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '135 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", which version group has the higher amount, Baseline or Actuals?",
+      "answer": "Actuals — 265 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals — 265 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what does the \"($000)\" notation indicate?",
+      "answer": "thousands of dollars",
+      "assertions": [
+        {
+          "text": "The response must state 'thousands of dollars'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Control Mapping, Open Exam Findings, and Remediation Tracking (Baseline vs Actuals, Quarterly)\", what is the subtotal shown for the Actuals group?",
+      "answer": "265 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '265 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Regulatory Compliance Status and Remediation Tracking Report', how many sections does the form contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', what is the name of the first section shown on the form?",
+      "answer": "Regulatory Obligation Mapping",
+      "assertions": [
+        {
+          "text": "The response must state 'Regulatory Obligation Mapping'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report' description, what is the stated purpose of the form?",
+      "answer": "Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, and track open findings with remediation status and target closure dates.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', which required field identifies the person responsible for remediation by name and title?",
+      "answer": "Assigned Remediation Owner (Name and Title)",
+      "assertions": [
+        {
+          "text": "The response must state 'Assigned Remediation Owner (Name and Title)'."
+        }
+      ]
+    },
+    {
+      "question": "What does the description text on the 'Regulatory Compliance Status and Remediation Tracking Report' form say?",
+      "answer": "Complete this form to document regulatory obligations, map them to internal controls, and track open examination findings with remediation timelines.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, and track open examination findings with remediation timelines.'."
+        }
+      ]
+    },
+    {
+      "question": "How many sections are present on the 'Regulatory Compliance Status and Remediation Tracking Report' form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report', what is the name of the third section?",
+      "answer": "Examination Findings and Remediation Tracking",
+      "assertions": [
+        {
+          "text": "The response must state 'Examination Findings and Remediation Tracking'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', how many fields are required?",
+      "answer": "12",
+      "assertions": [
+        {
+          "text": "The response must state '12'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Examination Findings, Remediation Progress, and Target Closure Commitments\" section, on what date was the OCC examination conducted?",
+      "answer": "2026-03-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-03-15."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Examination Findings, Remediation Progress, and Target Closure Commitments\" section, what closure rate is reported as of 2026-05-01?",
+      "answer": "55.56%",
+      "assertions": [
+        {
+          "text": "The response must state 55.56%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Examination Findings, Remediation Progress, and Target Closure Commitments\" section, what is the latest target closure date among Open findings?",
+      "answer": "2026-08-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-08-30."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Regulatory Compliance Status and Remediation Tracking Report', what descriptive instruction is provided to users?",
+      "answer": "Complete this form to document regulatory obligations, map them to internal controls, and track examination findings and remediation progress.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document regulatory obligations, map them to internal controls, and track examination findings and remediation progress.'."
+        }
+      ]
+    },
+    {
+      "question": "How many sections does the 'Regulatory Compliance Status and Remediation Tracking Report' include?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', what is the title of the third section?",
+      "answer": "Remediation Tracking",
+      "assertions": [
+        {
+          "text": "The response must state 'Remediation Tracking'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report', how many fields are marked as required?",
+      "answer": "12",
+      "assertions": [
+        {
+          "text": "The response must state '12'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open and closed examination findings register for the 2026-03-15 OCC exam\", what is the Target Closure Date for Finding ID FND-2026-003?",
+      "answer": "2026-07-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open and closed examination findings register for the 2026-03-15 OCC exam\", who is listed as the Owner for FND-2026-008?",
+      "answer": "Business Continuity Lead",
+      "assertions": [
+        {
+          "text": "The response must state Business Continuity Lead."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open and closed examination findings register for the 2026-03-15 OCC exam\", what is the Regulatory Obligation associated with FND-2026-002?",
+      "answer": "NYDFS 23 NYCRR 500",
+      "assertions": [
+        {
+          "text": "The response must state NYDFS 23 NYCRR 500."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Remediation Progress (%) listed for Alicia Martinez?",
+      "answer": "75",
+      "assertions": [
+        {
+          "text": "The response must state 75."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Target Closure Date for Row 52 - Lucas Pereira?",
+      "answer": "2026-05-25",
+      "assertions": [
+        {
+          "text": "The response must state 2026-05-25."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", how many Open Findings Assigned are shown for Row 53 - Emily Johnson?",
+      "answer": "7",
+      "assertions": [
+        {
+          "text": "The response must state 7."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Remediation Completion (%) value for the reporting period 2027-Q1?",
+      "answer": "95.4",
+      "assertions": [
+        {
+          "text": "The response must state 95.4."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Total Obligations Mapped value for 2026-03?",
+      "answer": "622",
+      "assertions": [
+        {
+          "text": "The response must state 622."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Overdue Findings value for 2025-06?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state 11."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Regulatory Compliance Status and Remediation Tracking Report', how many sections are there?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Regulatory Compliance Status and Remediation Tracking Report', what is the name of the second section?",
+      "answer": "Examination Findings",
+      "assertions": [
+        {
+          "text": "The response must state 'Examination Findings'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Regulatory Compliance Status and Remediation Tracking Report', how many required fields must be completed?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "What does the description on the 'Regulatory Compliance Status and Remediation Tracking Report' say?",
+      "answer": "Complete all applicable sections to document regulatory obligations, mapped internal controls, examination findings, and remediation timelines.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete all applicable sections to document regulatory obligations, mapped internal controls, examination findings, and remediation timelines.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation progress summary by severity with aging and closure performance (as of 2026-05-01)\", what is the value under \"Open Findings\" for the High severity row?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state 1."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation progress summary by severity with aging and closure performance (as of 2026-05-01)\", what is the \"Oldest Open Finding (Days)\" for All Severities?",
+      "answer": "47",
+      "assertions": [
+        {
+          "text": "The response must state 47."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation progress summary by severity with aging and closure performance (as of 2026-05-01)\", what is the value in the \"Total Findings\" column for Medium severity?",
+      "answer": "",
+      "assertions": [
+        {
+          "text": "The response must state a blank value (no entry shown in the table cell)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Obligation-to-control mapping detail showing control IDs, control names, and evidence artifacts\", what is the Target Closure Date for SOX 404 ITGC?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Obligation-to-control mapping detail showing control IDs, control names, and evidence artifacts\", what is the Mapped Internal Control for PCI DSS 4.0 Req. 10.2?",
+      "answer": "LOG-02: Centralized Logging & Monitoring",
+      "assertions": [
+        {
+          "text": "The response must state LOG-02: Centralized Logging & Monitoring."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Obligation-to-control mapping detail showing control IDs, control names, and evidence artifacts\", what is the Remediation Status for NYDFS 500.12 → (gap)?",
+      "answer": "Open",
+      "assertions": [
+        {
+          "text": "The response must state Open."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Regulatory obligation inventory with mapped internal controls and control owners (as of 2026-05-01)\", what is the Remediation Status for \"PCI DSS v4.0 Req. 10\"?",
+      "answer": "Logging controls under assessment",
+      "assertions": [
+        {
+          "text": "The response must state Logging controls under assessment."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Regulatory obligation inventory with mapped internal controls and control owners (as of 2026-05-01)\", who is the Accountable Owner for \"GLBA Safeguards Rule 16 CFR Part 314\"?",
+      "answer": "Information Security (vacant)",
+      "assertions": [
+        {
+          "text": "The response must state Information Security (vacant)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Regulatory obligation inventory with mapped internal controls and control owners (as of 2026-05-01)\", what is the Target Closure Date for \"FFIEC CAT Domain 4\"?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": " Status for Enterprise Summary?",
+      "answer": "15 (80%) mapped",
+      "assertions": [
+        {
+          "text": "15 (80%) mapped."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Coverage metrics by regulation and business unit with unmapped obligation summary\", who is the Responsible Owner for Information Security?",
+      "answer": "CISO",
+      "assertions": [
+        {
+          "text": "The response must state CISO."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Coverage metrics by regulation and business unit with unmapped obligation summary\", what is the Target Closure Date for Payments?",
+      "answer": "2026-07-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-31."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", which sub-columns fall under the \"Regulatory Obligation Mapping\" super-group?",
+      "answer": "Primary Regulator; Citation(s); Control ID(s); Control Owner; Control Effectiveness.",
+      "assertions": [
+        {
+          "text": "The response must state 'Primary Regulator; Citation(s); Control ID(s); Control Owner; Control Effectiveness.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", how many rows does the \"Data Governance & Privacy\" category label span?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the \"Open Findings (#)\" value for the \"Transaction Monitoring\" sub-category under the FinCEN obligation row?",
+      "answer": "3 open findings.",
+      "assertions": [
+        {
+          "text": "The response must state '3 open findings.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the grand total for \"Open Findings (#)\"?",
+      "answer": "25.",
+      "assertions": [
+        {
+          "text": "The response must state '25.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the \"Access Reviews Sub-Total\" row show for \"Aging (Avg Days)\"?",
+      "answer": "131 days.",
+      "assertions": [
+        {
+          "text": "The response must state '131 days.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what items are listed under 'Regulatory Obligation Mapping'?",
+      "answer": "Primary Regulator; Citation(s); Control ID(s); Control Owner; Control Effectiveness.",
+      "assertions": [
+        {
+          "text": "The response must state 'Primary Regulator; Citation(s); Control ID(s); Control Owner; Control Effectiveness.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", how many rows does the label 'Regulatory Obligation' span?",
+      "answer": "6 rows",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", which has the higher count: rows under 'Regulatory Obligation' or open findings?",
+      "answer": "Rows under 'Regulatory Obligation' (6)",
+      "assertions": [
+        {
+          "text": "The response must state 'Rows under 'Regulatory Obligation' (6)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the table's annotation explain?",
+      "answer": "Extensive merged cells and multi-tier headers.",
+      "assertions": [
+        {
+          "text": "The response must state 'Extensive merged cells and multi-tier headers.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the subtotal for group 'Open Findings' in the 'Exam Findings & Issue Profile' column?",
+      "answer": "3 open findings",
+      "assertions": [
+        {
+          "text": "The response must state '3 open findings'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", which leaf metric columns fall under the super-group header \"Exam Findings & Remediation Tracking\"?",
+      "answer": " Review; % Remediated; Target Closure Date.",
+      "assertions": [
+        {
+          "text": " Review; % Remediated; Target Closure Date.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", how many rows does the category label \"Information Security Program\" span?",
+      "answer": "5 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows.'."
+        }
+      ]
+    },
+    {
+      "question": " FFIEC\"?",
+      "answer": "3.",
+      "assertions": [
+        {
+          "text": "The response must state '3.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the grand total for \"Open Findings (Count)\"?",
+      "answer": "29.",
+      "assertions": [
+        {
+          "text": "The response must state '29.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the \"Access Control & Identity Sub-Total\" row show for \"% Remediated\"?",
+      "answer": "34%.",
+      "assertions": [
+        {
+          "text": "The response must state '34%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what subcolumns fall under the \"Exam Findings & Remediation Tracking\" header?",
+      "answer": " Review; % Remediated; Target Closure Date.",
+      "assertions": [
+        {
+          "text": " Review; % Remediated; Target Closure Date.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", how many header tiers are used?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", which count is higher: data rows or header tiers?",
+      "answer": "Data rows (26)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (26)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the table annotation explain about its layout?",
+      "answer": "colspan merging and multi-tier headers.",
+      "assertions": [
+        {
+          "text": "colspan merging and multi-tier headers.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations to Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", how many subcolumns are under the \"Exam Findings & Remediation Tracking\" header?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation plan tracker with milestones, owners, and target closure dates for Open findings\", what is the Target Closure Date for Finding ID FND-2026-002?",
+      "answer": "2026-07-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-15."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation plan tracker with milestones, owners, and target closure dates for Open findings\", who is the Accountable Owner for FND-2026-003?",
+      "answer": "Third-Party Risk Lead",
+      "assertions": [
+        {
+          "text": "The response must state Third-Party Risk Lead."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation plan tracker with milestones, owners, and target closure dates for Open findings\", what is the Current Status of the row labeled \"Governance Oversight Review\"?",
+      "answer": "Scheduled",
+      "assertions": [
+        {
+          "text": "The response must state Scheduled."
+        }
+      ]
+    },
+    {
+      "question": "CCPA)\" row under \"Open Findings & Actions\"?",
+      "answer": "Owner; Target Closure.",
+      "assertions": [
+        {
+          "text": "The response must state 'Owner; Target Closure.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", how many rows does the \"NYDFS-IR-07\" label span in the inner table within the \"Cybersecurity & Incident Response\" row under \"Open Findings & Actions\"?",
+      "answer": "It spans 2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'It spans 2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what does footnote 1 explain?",
+      "answer": "It clarifies that scope includes PII processed by regional support teams and replicated to the analytics lake, and that exclusions require documented DPO approval.",
+      "assertions": [
+        {
+          "text": "The response must state 'It clarifies that scope includes PII processed by regional support teams and replicated to the analytics lake, and that exclusions require documented DPO approval.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the target closure date for the \"Privileged database audit logs not forwarded from one secondary region\" finding in the inner table within the \"Cybersecurity & Incident Response\" row under \"Open Findings & Actions\"?",
+      "answer": "2026-05-31.",
+      "assertions": [
+        {
+          "text": "The response must state '2026-05-31.'."
+        }
+      ]
+    },
+    {
+      "question": "result for the \"IR\" domain in the inner table within the \"Cybersecurity & Incident Response\" row under \"Control(s) & Evidence\"?",
+      "answer": "TTX 2026-03: Pass (2 improvement items).",
+      "assertions": [
+        {
+          "text": "The response must state 'TTX 2026-03: Pass (2 improvement items).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what remediation entry appears under Remediation Status?",
+      "answer": "Owner; Target Closure.",
+      "assertions": [
+        {
+          "text": "The response must state 'Owner; Target Closure.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", how many header rows are used?",
+      "answer": "2 rows",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", which count is larger: the number of header rows or the number of data rows?",
+      "answer": "Data rows (5)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (5)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the scope footnote explain?",
+      "answer": "PII processed by regional support teams, replicated to the analytics lake; exclusions need DPO approval.",
+      "assertions": [
+        {
+          "text": "The response must state 'PII processed by regional support teams, replicated to the analytics lake; exclusions need DPO approval.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Mapping, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the subtotal for the Data rows group in the table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    }
+  ]
+}

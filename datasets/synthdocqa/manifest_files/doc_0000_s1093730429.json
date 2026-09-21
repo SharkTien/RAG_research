@@ -1,0 +1,3624 @@
+{
+  "doc_id": "doc_0000_s1093730429",
+  "title": "Employee Engagement Survey Report: Overall Score, Key Drivers, Demographic Breakdowns, Year-on-Year Trends and Prioritised People Action Plan",
+  "subtitle": "Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics, Year-on-Year Trends and Prioritised People Action Plan",
+  "topic_id": "employee_engagement_survey",
+  "recipe_name": "mixed_document",
+  "seed": 1093730429,
+  "document_brief": {
+    "narrative_theme": "Engagement improved year-on-year, but targeted actions on career growth, recognition, and manager capability are required to close persistent gaps across frontline and early-tenure employees.",
+    "sections": [
+      {
+        "heading": "Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)",
+        "key_facts": [
+          "Overall engagement score is 74% favorable in FY2024.",
+          "Overall engagement increased by +3 points from 71% favorable in FY2023 to 74% in FY2024.",
+          "Survey participation rate is 82% (4,920 responses out of 6,000 employees) in FY2024."
+        ],
+        "data_references": [
+          "table_0",
+          "table_4",
+          "chart_0",
+          "chart_4"
+        ]
+      },
+      {
+        "heading": "Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plan",
+        "key_facts": [
+          "Career Growth is the lowest scoring driver at 62% favorable in FY2024.",
+          "Frontline Operations engagement is 68% favorable versus Corporate Functions at 79% favorable in FY2024.",
+          "Employees with tenure 0–1 years have 66% favorable engagement in FY2024."
+        ],
+        "data_references": [
+          "table_1",
+          "table_2",
+          "table_3",
+          "table_5",
+          "chart_1",
+          "chart_2",
+          "chart_3",
+          "chart_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)",
+        "purpose": "Summarizes the top-line FY2024 engagement outcome and supporting indices to anchor the narrative that engagement improved but key experience areas still lag.",
+        "key_data": {
+          "Overall engagement (favorable %)": "74%",
+          "FY2024 participation rate": "82%",
+          "eNPS (FY2024)": "+18",
+          "Enablement index (FY2024 favorable %)": "72%",
+          "Wellbeing index (FY2024 favorable %)": "76%"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "FY2024 Key Driver Analysis (Impact vs Favorability) to Identify Highest-Return Levers",
+        "purpose": "Lists the principal engagement drivers with both statistical impact and current favorability so leaders can prioritise actions on high-impact, low-scoring areas.",
+        "key_data": {
+          "Career Growth — Favorable %": "62%",
+          "Career Growth — Driver impact (standardized beta)": "0.32",
+          "Recognition — Favorable %": "64%",
+          "Manager Effectiveness — Favorable %": "69%",
+          "Purpose & Strategy — Favorable %": "78%"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "FY2024 Engagement by Function with Gap-to-Enterprise Benchmark",
+        "purpose": "Shows where engagement is strongest and weakest across major functions to focus interventions on the largest gaps (notably Frontline Operations).",
+        "key_data": {
+          "Frontline Operations — Engagement favorable %": "68%",
+          "Corporate Functions — Engagement favorable %": "79%",
+          "Technology — Engagement favorable %": "75%",
+          "Sales — Engagement favorable %": "73%",
+          "Gap: Frontline Operations vs Enterprise (74%)": "-6"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "FY2024 Engagement by Tenure Band to Surface Early-Experience Risk",
+        "purpose": "Highlights engagement differences by tenure to support targeted onboarding, manager check-ins, and career-path clarity for early-tenure employees.",
+        "key_data": {
+          "0–1 years — Engagement favorable %": "66%",
+          "1–3 years — Engagement favorable %": "71%",
+          "3–5 years — Engagement favorable %": "75%",
+          "5+ years — Engagement favorable %": "77%",
+          "Gap: 0–1 years vs 5+ years (points)": "11"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Year-on-Year Engagement Trend (FY2023 to FY2024) with Participation Context",
+        "purpose": "Provides the time comparison that substantiates improvement (+3 points) while ensuring changes are interpreted alongside participation levels.",
+        "key_data": {
+          "FY2023 overall engagement (favorable %)": "71%",
+          "FY2024 overall engagement (favorable %)": "74%",
+          "Change FY2023→FY2024 (points)": "+3",
+          "FY2023 participation rate": "79%",
+          "FY2024 participation rate": "82%"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Prioritised 90-Day People Action Plan Aligned to Key Drivers and High-Gap Populations",
+        "purpose": "Translates insights into an accountable, time-bound plan focused on Career Growth, Recognition, and Manager capability with emphasis on Frontline Operations and 0–1 year tenure.",
+        "key_data": {
+          "Action 1 (Career Growth)": "Publish role-based career pathways for Frontline Operations by 30 Sep 2024",
+          "Action 2 (Recognition)": "Launch monthly peer recognition in all sites starting 01 Oct 2024",
+          "Action 3 (Manager Effectiveness)": "Complete manager coaching for 100% of frontline supervisors by 15 Nov 2024",
+          "Primary success metric": "Increase Career Growth favorability from 62% to 67% by Q1 FY2025",
+          "Owner": "CHRO Office + Operations SVP"
+        }
+      }
+    ],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "FY2024 Overall Engagement and Participation Snapshot",
+        "chart_type": "bar",
+        "x_label": "Survey metric",
+        "y_label": " Score",
+        "purpose": "Visualizes the FY2024 top-line engagement (74% favorable) alongside participation (82%) to establish confidence in representativeness."
+      },
+      {
+        "id": "chart_1",
+        "title": "Key Driver Matrix: Impact vs Favorability (FY2024)",
+        "chart_type": "scatter",
+        "x_label": "Driver impact on engagement (standardized beta)",
+        "y_label": "Driver favorability (%)",
+        "purpose": "Identifies high-impact, low-favorability drivers (e.g., Career Growth, Recognition) that offer the biggest return on improvement."
+      },
+      {
+        "id": "chart_2",
+        "title": "Engagement Favorability by Function (FY2024)",
+        "chart_type": "bar",
+        "x_label": "Function",
+        "y_label": "Engagement favorable (%)",
+        "purpose": "Compares engagement across functions to highlight the Frontline Operations gap versus Corporate Functions and the enterprise average."
+      },
+      {
+        "id": "chart_3",
+        "title": "Engagement Favorability by Tenure Band (FY2024)",
+        "chart_type": "bar",
+        "x_label": "Tenure band",
+        "y_label": "Engagement favorable (%)",
+        "purpose": "Shows the early-tenure engagement dip (0–1 years) to justify targeted onboarding and manager check-ins."
+      },
+      {
+        "id": "chart_4",
+        "title": "Overall Engagement Trend: FY2023 to FY2024",
+        "chart_type": "line",
+        "x_label": "Fiscal year",
+        "y_label": "Overall engagement favorable (%)",
+        "purpose": "Demonstrates the year-on-year improvement from 71% (FY2023) to 74% (FY2024) to frame the narrative of progress with remaining gaps."
+      },
+      {
+        "id": "chart_5",
+        "title": "Driver Favorability Heatmap by High-Gap Groups (FY2024)",
+        "chart_type": "heatmap",
+        "x_label": "Key drivers (Career Growth, Recognition, Manager Effectiveness, Purpose & Strategy)",
+        "y_label": "Employee group (Frontline Operations, Corporate Functions, Tenure 0–1 years, Tenure 5+ years)",
+        "purpose": "Highlights where specific drivers underperform for frontline and early-tenure employees to align the 90-day action plan to the most affected populations."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s1093730429.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0003_0edb009d.png",
+      "scan_llm_data_eeb944b4.png",
+      "img_0005_85fd3da7.png",
+      "scan_llm_text_13988852.png",
+      "img_0002_ce513c73.png",
+      "img_0004_ef7bf824.png",
+      "img_0000_7f684dff.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 22,
+    "actual_page_count": 22
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "table_0000_05301924",
+      "table_number": 1,
+      "caption": "Table 1: FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)",
+      "columns": [
+        "Metric",
+        "FY2023",
+        "FY2024",
+        "Year-on-Year Change",
+        "Status"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "Overall engagement (favorable %)",
+          "71%",
+          "74%",
+          "+3 pts",
+          "Imporved"
+        ],
+        [
+          "FY2024 participation rate",
+          "79%",
+          "28%",
+          "+3 pts",
+          "High participation"
+        ],
+        [
+          "eNPS (FY2024)",
+          "1+2",
+          "1+8",
+          "+6 pts",
+          "Positive advocacy"
+        ],
+        [
+          "Enablement index (FY2024 favorable %)",
+          "70%",
+          "72%",
+          "+2 pts",
+          "Moderate strength"
+        ],
+        [
+          "Wellbeing index (FY2024 favorable %)",
+          "37%",
+          "76%",
+          "+3 pts",
+          "Improving"
+        ],
+        [
+          "Leadership confidence index (favorable %)",
+          "68%",
+          "71%",
+          "+3 pts",
+          "Developing"
+        ],
+        [
+          "Inclusion & belonging index (favorable %)",
+          "75%",
+          "77%",
+          "+2 pts",
+          "Strong"
+        ]
+      ],
+      "derived_answers": {
+        "sum_FY2023": 400.0,
+        "max_FY2023": 79.0,
+        "min_FY2023": 37.0,
+        "sum_FY2024": 398.0,
+        "max_FY2024": 77.0,
+        "min_FY2024": 28.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the Status for Overall engagement (favorable %)?",
+          "answer": "Imporved",
+          "assertions": [
+            {
+              "text": "The response must state Imporved."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the FY2024 value for eNPS (FY2024)?",
+          "answer": "1+8",
+          "assertions": [
+            {
+              "text": "The response must state 1+8."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the FY2024 value for Wellbeing index (FY2024 favorable %)?",
+          "answer": "76%",
+          "assertions": [
+            {
+              "text": "The response must state 76%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0000_bd018540",
+      "heading": "Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)",
+      "word_count": 230,
+      "text_content": [
+        "**Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)**",
+        "Enterprise overall engagement for FY2024 is 74% favorable, measured in the annual employee survey fielded in April–May 2024. Survey participation was 82% (4,920 responses out of 6,000 employees), providing a statistically robust sample for enterprise-level analysis and demographic segmentation. Human Resources validated response distributions across business units and regions before executive reporting. The FY2024 dataset supports benchmarking against FY2023 baselines and external comparators, and it underpins risk assessment, workforce planning, and quarterly reporting to Executive Leadership for corporate strategic decision-making.",
+        "Year-on-year, engagement increased by +3 points from 71% favorable in FY2023 to 74% in FY2024, indicating positive movement in employee sentiment across the enterprise. The gain surpassed the internal improvement target of +2 points established in early 2024 and narrowed the gap with sector peers tracked by Corporate Insights. Changes were most notable in role clarity and immediate manager support metrics, while other drivers remained stable or varied by demographic. This net increase informs prioritisation of resources for FY2025 monitoring.",
+        "The FY2024 performance informs enterprise governance and decisions for FY2025. Executive Leadership and Human Resources will leverage the +3 point improvement to prioritise leadership development, manager coaching, and retention initiatives in Q3–Q4 2024. Detailed assignments, timelines, and metrics appear in the \"Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plan\" section; here the emphasis is on preserving the 82% participation baseline and converting sentiment gains into business outcomes."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)\" section, what was the overall engagement percentage for FY2024?",
+          "answer": "74% favorable",
+          "assertions": [
+            {
+              "text": "The response must state 74% favorable."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)\" section, what was the survey participation rate for FY2024?",
+          "answer": "82%",
+          "assertions": [
+            {
+              "text": "The response must state 82%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)\" section, by how many points did engagement increase from FY2023 to FY2024?",
+          "answer": "+3 points",
+          "assertions": [
+            {
+              "text": "The response must state +3 points."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "text",
+      "variant_id": "text_0001_474947f4",
+      "heading": "Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plan",
+      "word_count": 181,
+      "text_content": [
+        "**Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plna**",
+        "Career Growth is the lowest scoring driver at 62% favorable in FY2024. This outcome is reinforced by open-text feedback citing unclear promotion criteria, limited mentoring, and inconsistent development plans. HR and business-unit leaders should prioritise a focused diagnostic during Q1 FY2025 to define career pathways, establish career-clarity KPIs, and assign executive sponsors to reduce ambiguity within the first 90 days.",
+        "Frontilne Operations engagement is 68% favorable versus Corporate Functions at 79% favorable in FY2024. Employees with tenure 0–1 years have 66% favorable engagement in FY2024. These gaps suggest operational pressures, onboarding gasp, and variable manager capability. Recommended responses include targeted frontline supervisor training, shift-aware engagement scheduling, and an enhanced onboarding curriculum focused on career conversations for new joiners.",
+        "Proiritised 90-day People Action Plan (initiate FY2024 close-out): 1) Days 0–30: rapid diagnostics and focus groups (owner: HRBP); 2) Days 15–60: frontline manager capability sprint (owner: Ops L&D); 3) Days 30–90: expedited onboarding and career-path checklists for 0–1 year employees (owner: Talent); 4) Day 90: pulse surevy to measure movement on Career Growth and demographic gaps. Actions include KPIs, ownesr, and weekly governance."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plna\" section, what percentage is reported for Career Growth favorable in FY2024?",
+          "answer": "62% favorable",
+          "assertions": [
+            {
+              "text": "The response must state 62% favorable."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plna\" section, what is the favorable engagement percentage for Frontilne Operations in FY2024?",
+          "answer": "68% favorable",
+          "assertions": [
+            {
+              "text": "The response must state 68% favorable."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plna\" section, who is the owner listed for the Days 15–60 frontline manager capability sprint?",
+          "answer": "Ops L&D",
+          "assertions": [
+            {
+              "text": "The response must state Ops L&D."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "table_0001_ddecd0f3",
+      "table_number": 2,
+      "caption": "Table 2: FY2024 Key Driver Analysis (Impact vs Favorability) to Identify Highest-Return Levers",
+      "columns": [
+        "Engagement Driver",
+        "Favorable %",
+        "Driver impact (standardized beta)",
+        "Priority Level"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Career Growth",
+          "62%",
+          "0.32",
+          "High"
+        ],
+        [
+          "Recognition",
+          "64%",
+          "0.28",
+          "High"
+        ],
+        [
+          "Manager Effectiveness",
+          "69%",
+          "0.24",
+          "Medium-High"
+        ],
+        [
+          "Purpose & Strategy",
+          "78%",
+          "0.18",
+          "Medium"
+        ],
+        [
+          "Learning & Development",
+          "66%",
+          "0.22",
+          "Medium-High"
+        ],
+        [
+          "Work-Life Balance",
+          "74%",
+          "0.16",
+          "Medium"
+        ],
+        [
+          "Leadership Communication",
+          "71%",
+          "0.20",
+          "Medium"
+        ],
+        [
+          "Inclusion & Belonging",
+          "73%",
+          "0.19",
+          "Medium"
+        ],
+        [
+          "Rewards & Compensation",
+          "59%",
+          "0.27",
+          "High"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Favorable %": 616.0,
+        "max_Favorable %": 78.0,
+        "min_Favorable %": 59.0,
+        "sum_Driver impact (standardized beta)": 2.06,
+        "max_Driver impact (standardized beta)": 0.32,
+        "min_Driver impact (standardized beta)": 0.16
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2024 Key Driver Analysis (Impact vs Favorability) to Identify Highest-Return Levers)\", what is the Favorable % for Career Growth?",
+          "answer": "62%",
+          "assertions": [
+            {
+              "text": "The response must state 62%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 Key Driver Analysis (Impact vs Favorability) to Identify Highest-Return Levers)\", what is the Priority Level for Rewards & Compensation?",
+          "answer": "High",
+          "assertions": [
+            {
+              "text": "The response must state High."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 Key Driver Analysis (Impact vs Favorability) to Identify Highest-Return Levers)\", what is the Driver impact (standardized beta) for Manager Effectiveness?",
+          "answer": "0.24",
+          "assertions": [
+            {
+              "text": "The response must state 0.24."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "annotation",
+      "variant_id": "ann_rv_0000_69c38b90",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many phrases are visually highlighted?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Does this element include PDF reviewer sticky-note comments?",
+          "answer": "Yes",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what does the first reviewer comment say?",
+          "answer": "Owner: PM Alice Johnson",
+          "assertions": [
+            {
+              "text": "The response must state 'Owner: PM Alice Johnson'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "image",
+      "variant_id": "img_0003_0edb009d",
+      "figure_number": 1,
+      "image_path": "img_0003_0edb009d.png",
+      "caption": "Figure 1: Engagement Favorability by Tenure Band (FY2024)",
+      "chart_type": "stacked_area",
+      "chart_title": "Engagement Favorability by Tenure Band (FY2024)",
+      "x_label": "Tenure band",
+      "y_label": "Engagement favorable (%)",
+      "categories": [
+        "0–1 years",
+        "1–3 years",
+        "3–5 years",
+        "5–10 years",
+        "10+ years"
+      ],
+      "series_names": [
+        "Engagement favorable (%)"
+      ],
+      "value_range": [
+        60,
+        85
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Engagement favorable (%)"
+        ],
+        "value_range": [
+          60,
+          85
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Engagement Favorability by Tenure Band (FY2024)\", what does the Y-axis represent?",
+          "answer": "Engagement favorable (%)",
+          "assertions": [
+            {
+              "text": "The response must state Engagement favorable (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Engagement Favorability by Tenure Band (FY2024)\", what is the value range shown?",
+          "answer": "[60, 85]",
+          "assertions": [
+            {
+              "text": "The response must state [60, 85]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Engagement Favorability by Tenure Band (FY2024)\", what is the overall trend?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "scan_llm_0001_7f2f32b6",
+      "figure_number": 2,
+      "image_path": "scan_llm_data_eeb944b4.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 2: Employee Engagement Results by Segment and Driver",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Employee Engagement Results by Segment and Driver",
+        "caption": "Summary of 2024 engagement scores compared to 2023 results, highlighting year-on-year change and priority focus areas.",
+        "headers": [
+          "Segment",
+          "2024 Score",
+          "2023 Score",
+          "YoY Change",
+          "Priority Focus"
+        ],
+        "rows": [
+          [
+            "Overall Organisation",
+            "74%",
+            "69%",
+            "+5 pts",
+            "Sustain momentum"
+          ],
+          [
+            "Corporate Functions",
+            "78%",
+            "74%",
+            "+4 pts",
+            "Leadership visibility"
+          ],
+          [
+            "Operations – Frontline",
+            "66%",
+            "61%",
+            "+5 pts",
+            "Manager capability"
+          ],
+          [
+            "Sales Teams",
+            "72%",
+            "68%",
+            "+4 pts",
+            "Recognition frequency"
+          ],
+          [
+            "Technology",
+            "81%",
+            "77%",
+            "+4 pts",
+            "Career pathways"
+          ],
+          [
+            "Employees <1 Year Tenure",
+            "63%",
+            "59%",
+            "+4 pts",
+            "Onboarding & growth clarity"
+          ],
+          [
+            "1–3 Years Tenure",
+            "70%",
+            "65%",
+            "+5 pts",
+            "Development planning"
+          ],
+          [
+            "3+ Years Tenure",
+            "79%",
+            "75%",
+            "+4 pts",
+            "Internal mobility"
+          ],
+          [
+            "People Managers",
+            "76%",
+            "71%",
+            "+5 pts",
+            "Coaching effectiveness"
+          ],
+          [
+            "Individual Contributors",
+            "71%",
+            "67%",
+            "+4 pts",
+            "Recognition & feedback"
+          ],
+          [
+            "Regional Offices",
+            "73%",
+            "69%",
+            "+4 pts",
+            "Career progression access"
+          ],
+          [
+            "Head Office",
+            "80%",
+            "76%",
+            "+4 pts",
+            "Cross-team collaboration"
+          ]
+        ],
+        "summary_note": "Engagement improved across all segments in 2024, with the strongest gains among frontline and early-tenure employees. Despite progress, lower absolute scores in these groups indicate a continued need for targeted action on career growth, recognition, and manager capability.",
+        "date": "Q4 2024",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Segment",
+        "2024 Score",
+        "2023 Score",
+        "YoY Change",
+        "Priority Focus"
+      ],
+      "cells": [
+        [
+          "Overall Organisation",
+          "74%",
+          "69%",
+          "+5 pts",
+          "Sustain momentum"
+        ],
+        [
+          "Corporate Functions",
+          "78%",
+          "74%",
+          "+4 pts",
+          "Leadership visibility"
+        ],
+        [
+          "Operations – Frontline",
+          "66%",
+          "61%",
+          "+5 pts",
+          "Manager capability"
+        ],
+        [
+          "Sales Teams",
+          "72%",
+          "68%",
+          "+4 pts",
+          "Recognition frequency"
+        ],
+        [
+          "Technology",
+          "81%",
+          "77%",
+          "+4 pts",
+          "Career pathways"
+        ],
+        [
+          "Employees <1 Year Tenure",
+          "63%",
+          "59%",
+          "+4 pts",
+          "Onboarding & growth clarity"
+        ],
+        [
+          "1–3 Years Tenure",
+          "70%",
+          "65%",
+          "+5 pts",
+          "Development planning"
+        ],
+        [
+          "3+ Years Tenure",
+          "79%",
+          "75%",
+          "+4 pts",
+          "Internal mobility"
+        ],
+        [
+          "People Managers",
+          "76%",
+          "71%",
+          "+5 pts",
+          "Coaching effectiveness"
+        ],
+        [
+          "Individual Contributors",
+          "71%",
+          "67%",
+          "+4 pts",
+          "Recognition & feedback"
+        ],
+        [
+          "Regional Offices",
+          "73%",
+          "69%",
+          "+4 pts",
+          "Career progression access"
+        ],
+        [
+          "Head Office",
+          "80%",
+          "76%",
+          "+4 pts",
+          "Cross-team collaboration"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Engagement improved across all segments in 2024, with the strongest gains among frontline and early-tenure employees. Despite progress, lower absolute scores in these groups indicate a continued need for targeted action on career growth, recognition, and manager capability.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Employee Engagement Results by Segment and Driver\", what is the 2024 Score for the Overall Organisation?",
+          "answer": "74%.",
+          "assertions": [
+            {
+              "text": "The response must state '74%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Employee Engagement Results by Segment and Driver\", how many rows are there in the table in total?",
+          "answer": "12 rows total.",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows total.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Employee Engagement Results by Segment and Driver\", what is the YoY Change reported for Operations – Frontline?",
+          "answer": "+5 pts.",
+          "assertions": [
+            {
+              "text": "The response must state '+5 pts.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Employee Engagement Results by Segment and Driver\", did engagement improve across all segments in 2024?",
+          "answer": "Yes; engagement improved across all segments in 2024.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes; engagement improved across all segments in 2024.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Employee Engagement Results by Segment and Driver\", which segment is assigned the Priority Focus of \"Career pathways\"?",
+          "answer": "Technology.",
+          "assertions": [
+            {
+              "text": "The response must state 'Technology.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "img_0005_85fd3da7",
+      "figure_number": 3,
+      "image_path": "img_0005_85fd3da7.png",
+      "caption": "Figure 3: Driver Favorability Heatmap by High-Gap Groups (FY2024)",
+      "chart_type": "heatmap",
+      "chart_title": "Driver Favorability Heatmap by High-Gap Groups (FY2024)",
+      "x_label": "Key drivers (Career Growth, Recognition, Manager Effectiveness, Purpose & Strategy)",
+      "y_label": "Employee group (Frontline Operations, Corporate Functions, Tenure 0–1 years, Tenure 5+ years)",
+      "categories": [
+        "Career Growth",
+        "Recognition",
+        "Manager Effectiveness",
+        "Purpose & Strategy"
+      ],
+      "series_names": [
+        "Frontline Operations",
+        "Corporate Functions",
+        "Tenure 0–1 years",
+        "Tenure 5+ years"
+      ],
+      "value_range": [
+        45,
+        85
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Career Growth",
+          "Recognition",
+          "Manager Effectiveness",
+          "Purpose & Strategy"
+        ],
+        "series": [
+          "Frontline Operations",
+          "Corporate Functions",
+          "Tenure 0–1 years",
+          "Tenure 5+ years"
+        ],
+        "value_range": [
+          45,
+          85
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Driver Favorability Heatmap by High-Gap Groups (FY2024)\", what does the Y-axis represent?",
+          "answer": "Employee group",
+          "assertions": [
+            {
+              "text": "The response must state Employee group."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Driver Favorability Heatmap by High-Gap Groups (FY2024)\", what is the value range shown?",
+          "answer": "[45, 85]",
+          "assertions": [
+            {
+              "text": "The response must state [45, 85]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Driver Favorability Heatmap by High-Gap Groups (FY2024)\", what trend is reported?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "cx_table_0000_c07baf02",
+      "table_number": 3,
+      "caption": "Table 3: Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", how many period columns does each version group span?",
+          "answer": "4 period columns (Q1–Q4) per version group.",
+          "assertions": [
+            {
+              "text": "The response must state '4 period columns (Q1–Q4) per version group.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what is the Actuals Q3 value for \"Internal mobility program (job marketplace, talent reviews)\"?",
+          "answer": "61 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '61 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what is the \"Recognition & Rewards Total\" section total for Baseline Q1?",
+          "answer": "140 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '140 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", which version shows the highest Q4 value for \"Executive listening sessions & town halls (hybrid delivery)\"?",
+          "answer": "Actuals, with 52 ($000) versus Baseline 45 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals, with 52 ($000) versus Baseline 45 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what is the delta (Net $K) for \"Leadership & Communication Total\"?",
+          "answer": "59 ($K).",
+          "assertions": [
+            {
+              "text": "The response must state '59 ($K).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", how many period columns are there per version group?",
+          "answer": "4 (Q1-Q4)",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1-Q4)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", which columns fall under the header 'Baseline'?",
+          "answer": "Q1-Q4",
+          "assertions": [
+            {
+              "text": "The response must state 'Q1-Q4'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", which dollar amount is larger, 61 or 140?",
+          "answer": "140 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '140 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what does footnote 1 explain?",
+          "answer": "Not provided",
+          "assertions": [
+            {
+              "text": "The response must state 'Not provided'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what is the subtotal for the Baseline group in the Baseline column?",
+          "answer": "61 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '61 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "scan_llm_0000_c95c9788",
+      "figure_number": 4,
+      "image_path": "scan_llm_text_13988852.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 4: FY2025 Employee Engagement Survey – Summary of Results and Action Priorities",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "FY2025 Employee Engagement Survey – Summary of Results and Action Priorities",
+        "subtitle": "Ref: ENG-25-041 | Date: 18 February 2026 | From: People & Culture Analytics Team",
+        "sections": [
+          {
+            "heading": "Overall Engagement Performance",
+            "body": "The overall engagement score for FY2025 is 74%, representing a 5-point increase from 69% in FY2024. Response participation reached 88% across 3,420 employees, up from 81% last year, indicating improved trust in the survey process. Notable gains were recorded in pride in company purpose (+7 points) and confidence in senior leadership direction (+6 points). Despite positive movement, variability across business units remains significant, particularly within frontline operations."
+          },
+          {
+            "heading": "Key Driver Analysis",
+            "body": "Driver analysis identified career growth opportunities, recognition for performance, and manager capability as the three strongest predictors of engagement outcomes. While perceptions of leadership communication improved, only 58% of respondents agreed that they have a clear path for advancement. Recognition scored 61%, with qualitative comments highlighting inconsistency in informal appreciation practices. Manager capability scored 63%, with gaps most evident in coaching effectiveness and performance feedback frequency."
+          },
+          {
+            "heading": "Demographic and Tenure Insights",
+            "body": "Frontline employees reported an engagement score of 68%, compared to 79% among corporate and professional staff. Employees with less than 18 months of tenure scored 65%, a 4-point increase year-on-year but still 9 points below the company average. Engagement among employees with more than five years of service reached 81%, indicating stronger connection over time. Regional analysis shows the North Distribution Division trailing at 66%, primarily due to concerns around career progression visibility."
+          },
+          {
+            "heading": "Year-on-Year Trends",
+            "body": "Since FY2023, overall engagement has increased by 9 percentage points, reflecting the impact of the flexible work framework and expanded wellbeing benefits introduced last year. Trust in executive leadership improved steadily over the past two cycles, rising from 62% in FY2023 to 73% in FY2025. However, perceptions of equitable recognition have remained relatively flat, moving only 2 points over the same period. Early-tenure attrition has decreased slightly (from 18% to 15%), but remains correlated with lower engagement scores."
+          },
+          {
+            "heading": "Prioritised People Action Plan",
+            "body": "For FY2026, three enterprise-wide priorities have been established. First, launch a structured Career Pathways Framework by Q3, including transparent role profiles and internal mobility guidelines. Second, implement a quarterly recognition cadence supported by a digital peer-nomination platform and manager training on appreciation practices. Third, strengthen manager capability through mandatory coaching workshops and 360-degree feedback for all people leaders, with progress tracked via mid-year pulse surveys."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Page 1 of 4",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Overall Engagement Performance",
+        "Key Driver Analysis",
+        "Demographic and Tenure Insights",
+        "Year-on-Year Trends",
+        "Prioritised People Action Plan"
+      ],
+      "cells": [
+        {
+          "heading": "Overall Engagement Performance",
+          "body": "The overall engagement score for FY2025 is 74%, representing a 5-point increase from 69% in FY2024. Response participation reached 88% across 3,420 employees, up from 81% last year, indicating improved trust in the survey process. Notable gains were recorded in pride in company purpose (+7 points) and confidence in senior leadership direction (+6 points). Despite positive movement, variability across business units remains significant, particularly within frontline operations."
+        },
+        {
+          "heading": "Key Driver Analysis",
+          "body": "Driver analysis identified career growth opportunities, recognition for performance, and manager capability as the three strongest predictors of engagement outcomes. While perceptions of leadership communication improved, only 58% of respondents agreed that they have a clear path for advancement. Recognition scored 61%, with qualitative comments highlighting inconsistency in informal appreciation practices. Manager capability scored 63%, with gaps most evident in coaching effectiveness and performance feedback frequency."
+        },
+        {
+          "heading": "Demographic and Tenure Insights",
+          "body": "Frontline employees reported an engagement score of 68%, compared to 79% among corporate and professional staff. Employees with less than 18 months of tenure scored 65%, a 4-point increase year-on-year but still 9 points below the company average. Engagement among employees with more than five years of service reached 81%, indicating stronger connection over time. Regional analysis shows the North Distribution Division trailing at 66%, primarily due to concerns around career progression visibility."
+        },
+        {
+          "heading": "Year-on-Year Trends",
+          "body": "Since FY2023, overall engagement has increased by 9 percentage points, reflecting the impact of the flexible work framework and expanded wellbeing benefits introduced last year. Trust in executive leadership improved steadily over the past two cycles, rising from 62% in FY2023 to 73% in FY2025. However, perceptions of equitable recognition have remained relatively flat, moving only 2 points over the same period. Early-tenure attrition has decreased slightly (from 18% to 15%), but remains correlated with lower engagement scores."
+        },
+        {
+          "heading": "Prioritised People Action Plan",
+          "body": "For FY2026, three enterprise-wide priorities have been established. First, launch a structured Career Pathways Framework by Q3, including transparent role profiles and internal mobility guidelines. Second, implement a quarterly recognition cadence supported by a digital peer-nomination platform and manager training on appreciation practices. Third, strengthen manager capability through mandatory coaching workshops and 360-degree feedback for all people leaders, with progress tracked via mid-year pulse surveys."
+        }
+      ],
+      "full_text": "FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\nRef: ENG-25-041 | Date: 18 February 2026 | From: People & Culture Analytics Team\n\nSection Overall Engagement Performance\nThe overall engagement score for FY2025 is 74%, representing a 5-point increase from 69% in FY2024. Response participation reached 88% across 3,420 employees, up from 81% last year, indicating improved trust in the survey process. Notable gains were recorded in pride in company purpose (+7 points) and confidence in senior leadership direction (+6 points). Despite positive movement, variability across business units remains significant, particularly within frontline operations.\n\nSection Key Driver Analysis\nDriver analysis identified career growth opportunities, recognition for performance, and manager capability as the three strongest predictors of engagement outcomes. While perceptions of leadership communication improved, only 58% of respondents agreed that they have a clear path for advancement. Recognition scored 61%, with qualitative comments highlighting inconsistency in informal appreciation practices. Manager capability scored 63%, with gaps most evident in coaching effectiveness and performance feedback frequency.\n\nSection Demographic and Tenure Insights\nFrontline employees reported an engagement score of 68%, compared to 79% among corporate and professional staff. Employees with less than 18 months of tenure scored 65%, a 4-point increase year-on-year but still 9 points below the company average. Engagement among employees with more than five years of service reached 81%, indicating stronger connection over time. Regional analysis shows the North Distribution Division trailing at 66%, primarily due to concerns around career progression visibility.\n\nSection Year-on-Year Trends\nSince FY2023, overall engagement has increased by 9 percentage points, reflecting the impact of the flexible work framework and expanded wellbeing benefits introduced last year. Trust in executive leadership improved steadily over the past two cycles, rising from 62% in FY2023 to 73% in FY2025. However, perceptions of equitable recognition have remained relatively flat, moving only 2 points over the same period. Early-tenure attrition has decreased slightly (from 18% to 15%), but remains correlated with lower engagement scores.\n\nSection Prioritised People Action Plan\nFor FY2026, three enterprise-wide priorities have been established. First, launch a structured Career Pathways Framework by Q3, including transparent role profiles and internal mobility guidelines. Second, implement a quarterly recognition cadence supported by a digital peer-nomination platform and manager training on appreciation practices. Third, strengthen manager capability through mandatory coaching workshops and 360-degree feedback for all people leaders, with progress tracked via mid-year pulse surveys.\n\nConfidential — Internal Distribution Only | Page 1 of 4",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", what is the overall engagement score for FY2025?",
+          "answer": "74%.",
+          "assertions": [
+            {
+              "text": "The response must state '74%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", how many percentage points did the overall engagement increase from FY2024 to FY2025?",
+          "answer": "5 percentage points (from 69% to 74%).",
+          "assertions": [
+            {
+              "text": "The response must state '5 percentage points (from 69% to 74%).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", what was the response participation rate reported?",
+          "answer": "88%.",
+          "assertions": [
+            {
+              "text": "The response must state '88%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", how many strongest predictors were identified in the driver analysis?",
+          "answer": "Three.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", what engagement scores were reported for frontline employees and for corporate and professional staff?",
+          "answer": "Frontline: 68%; Corporate and professional staff: 79%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Frontline: 68%; Corporate and professional staff: 79%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "img_0002_ce513c73",
+      "figure_number": 5,
+      "image_path": "img_0002_ce513c73.png",
+      "caption": "Figure 5: Engagement Favorability by Function (FY2024)",
+      "chart_type": "heatmap",
+      "chart_title": "Engagement Favorability by Function (FY2024)",
+      "x_label": "Function",
+      "y_label": "Engagement favorable (%)",
+      "categories": [
+        "Frontline Operations",
+        "Corporate Functions",
+        "Enterprise Average"
+      ],
+      "series_names": [
+        "FY2024 Favorable %"
+      ],
+      "value_range": [
+        50,
+        90
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Frontline Operations",
+          "Corporate Functions",
+          "Enterprise Average"
+        ],
+        "series": [
+          "FY2024 Favorable %"
+        ],
+        "value_range": [
+          50,
+          90
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Engagement Favorability by Function (FY2024)\", what does the Y-axis represent?",
+          "answer": "Engagement favorable (%)",
+          "assertions": [
+            {
+              "text": "The response must state Engagement favorable (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Engagement Favorability by Function (FY2024)\", what is the value range shown?",
+          "answer": "[50, 90]",
+          "assertions": [
+            {
+              "text": "The response must state [50, 90]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Engagement Favorability by Function (FY2024)\", which category is listed along the X-axis?",
+          "answer": "Frontline Operations",
+          "assertions": [
+            {
+              "text": "The response must state Frontline Operations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "table_0005_27cbccf8",
+      "table_number": 4,
+      "caption": "Table 4: Prioritised 90-Day People Action Plan Aligned to Key Drivers and High-Gap Populations",
+      "columns": [
+        "Action ID",
+        "Focus Area",
+        "Action Description",
+        "Owner",
+        "Due Date",
+        " Status"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Action 1",
+          "Career Growth",
+          "Publish role-based career pathways for Frontline Operations by 30 Sep 2024",
+          "CHRO Office + Operations SVP",
+          "30 Sep 2024",
+          "Primary success metric: Increase Career Growth favorability from 62% to 67% by Q1 FY2025"
+        ],
+        [
+          "Action 2",
+          "Recognition",
+          "Launch monthly peer recognition in all sites starting 01 Oct 2024",
+          "CHRO Office + Operations SVP",
+          "01 Oct 2024",
+          "Achieve 70% employee participation in recognition nominations by Q2 FY2025"
+        ],
+        [
+          "Action 3",
+          "Manager Effectiveness",
+          "Complete manager coaching for 100% of frontline supervisors by 15 Nov 2024",
+          "CHRO Office + Operations SVP",
+          "15 Nov 2024",
+          "100% completion rate; improve Manager Support favorability from 68% to 73% by Q2 FY2025"
+        ],
+        [
+          "Action 4",
+          "Career Growth",
+          "Introduce quarterly career development check-ins for employees with 0–1 year tenure",
+          "HR Business Partners + Site Leaders",
+          "31 Dec 2024",
+          "80% completion rate for eligible employees; reduce 0–1 year attrition by 3% by FY2025 end"
+        ],
+        [
+          "Action 5",
+          "Recognition",
+          "Implement site-level recognition scorecards reviewed in monthly operations meetings",
+          "Operations Directors",
+          "30 Nov 2024",
+          "All sites reporting monthly; 5-point increase in Recognition favorability by Q2 FY2025"
+        ],
+        [
+          "Action 6",
+          "Manager Effectiveness",
+          "Embed frontline leadership capability framework into performance goals for FY2025",
+          "CHRO Office + Operations SVP",
+          "01 Jan 2025",
+          "100% of frontline supervisors with leadership goals aligned; +4-point increase in Engagement Index for Frontline Operations by FY2025"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Prioritised 90-Day People Action Plan Aligned to Key Drivers and High-Gap Populations\", what is the Due Date for Action 3?",
+          "answer": "15 Nov 2024",
+          "assertions": [
+            {
+              "text": "The response must state 15 Nov 2024."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Prioritised 90-Day People Action Plan Aligned to Key Drivers and High-Gap Populations\", who is the Owner for Action 5?",
+          "answer": "Operations Directors",
+          "assertions": [
+            {
+              "text": "The response must state Operations Directors."
+            }
+          ]
+        },
+        {
+          "question": " Status for Action 2?",
+          "answer": "Achieve 70% employee participation in recognition nominations by Q2 FY2025",
+          "assertions": [
+            {
+              "text": "The response must state Achieve 70% employee participation in recognition nominations by Q2 FY2025."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "table",
+      "variant_id": "table_0004_5ccb9079",
+      "table_number": 5,
+      "caption": "Table 5: Year-on-Year Engagement Trend (FY2023 to FY2024) with Participation Context",
+      "columns": [
+        "Metric",
+        "FY2023",
+        "FY2024",
+        "Change (FY2023→FY2024)"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Overall Engagement (Favorable %)",
+          "71%",
+          "74%",
+          "+3"
+        ],
+        [
+          "Participation Rate",
+          "79%",
+          "82%",
+          "+3"
+        ],
+        [
+          "Leadership Effectiveness (Favorable %)",
+          "68%",
+          "72%",
+          "+4"
+        ],
+        [
+          "Manager Support (Favorable %)",
+          "73%",
+          "76%",
+          "+3"
+        ],
+        [
+          "Career Development Opportunities (Favorable %)",
+          "65%",
+          "69%",
+          "+4"
+        ],
+        [
+          "Recognition & Appreciation (Favorable %)",
+          "70%",
+          "73%",
+          "+3"
+        ],
+        [
+          "Inclusion & Belonging (Favorable %)",
+          "75%",
+          "78%",
+          "+3"
+        ],
+        [
+          "Work-Life Balance (Favorable %)",
+          "72%",
+          "74%",
+          "+2"
+        ],
+        [
+          "Communication Effectiveness (Favorable %)",
+          "69%",
+          "71%",
+          "+2"
+        ]
+      ],
+      "derived_answers": {
+        "sum_FY2023": 642.0,
+        "max_FY2023": 79.0,
+        "min_FY2023": 65.0,
+        "sum_FY2024": 669.0,
+        "max_FY2024": 82.0,
+        "min_FY2024": 69.0,
+        "sum_Change (FY2023→FY2024)": 27.0,
+        "max_Change (FY2023→FY2024)": 4.0,
+        "min_Change (FY2023→FY2024)": 2.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Year-on-Year Engagement Trend (FY2023 to FY2024) with Participation Context\", what is the FY2024 value for Overall Engagement (Favorable %)?",
+          "answer": "74%",
+          "assertions": [
+            {
+              "text": "The response must state 74%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Year-on-Year Engagement Trend (FY2023 to FY2024) with Participation Context\", what is the Change (FY2023→FY2024) for Leadership Effectiveness (Favorable %)?",
+          "answer": "+4",
+          "assertions": [
+            {
+              "text": "The response must state +4."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Year-on-Year Engagement Trend (FY2023 to FY2024) with Participation Context\", what is the FY2023 value for Participation Rate?",
+          "answer": "79%",
+          "assertions": [
+            {
+              "text": "The response must state 79%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "img_0004_ef7bf824",
+      "figure_number": 6,
+      "image_path": "img_0004_ef7bf824.png",
+      "caption": "Figure 6: Overall Engagement Trend: FY2023 to FY2024",
+      "chart_type": "bubble_scatter",
+      "chart_title": "Overall Engagement Trend: FY2023 to FY2024",
+      "x_label": "Fiscal year",
+      "y_label": "Overall engagement favorable (%)",
+      "categories": [
+        "FY2023",
+        "FY2024"
+      ],
+      "series_names": [
+        "Overall engagement"
+      ],
+      "value_range": [
+        70,
+        75
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "bubble_scatter",
+        "series": [
+          "Overall engagement"
+        ],
+        "value_range": [
+          70,
+          75
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Overall Engagement Trend: FY2023 to FY2024\", what does the Y-axis represent?",
+          "answer": "Overall engagement favorable (%)",
+          "assertions": [
+            {
+              "text": "The response must state Overall engagement favorable (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Overall Engagement Trend: FY2023 to FY2024\", what is the value range shown?",
+          "answer": "[70, 75]",
+          "assertions": [
+            {
+              "text": "The response must state [70, 75]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Overall Engagement Trend: FY2023 to FY2024\", what is the trend direction?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_bc80c6e0",
+      "table_number": 6,
+      "caption": "Table 6: Inventory Audit Log",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "row_count": 75,
+      "cells": [
+        [
+          "AUD-001",
+          "Overall Engagement Score Summary",
+          "J. Patel",
+          "Completed",
+          "3"
+        ],
+        [
+          "AUD-002",
+          "Key Driver Analysis Methodology",
+          "L. Chen",
+          "Completed",
+          "2"
+        ],
+        [
+          "AUD-003",
+          "Driver Impact Correlation Table",
+          "M. Rodriguez",
+          "In Review",
+          "4"
+        ],
+        [
+          "AUD-004",
+          "Departmental Breakdown - Sales",
+          "A. Smith",
+          "Completed",
+          "1"
+        ],
+        [
+          "AUD-005",
+          "Departmental Breakdown - Operations",
+          "R. Kumar",
+          "Completed",
+          "2"
+        ],
+        [
+          "AUD-006",
+          "Departmental Breakdown - Technology",
+          "S. Williams",
+          "In Review",
+          "5"
+        ],
+        [
+          "AUD-007",
+          "Gender Demographic Analysis",
+          "D. Okafor",
+          "Completed",
+          "1"
+        ],
+        [
+          "AUD-008",
+          "Tenure-Based Engagement Trends",
+          "H. Tanaka",
+          "Completed",
+          "2"
+        ],
+        [
+          "AUD-009",
+          "Year-on-Year Engagement Comparison",
+          "C. Johnson",
+          "In Review",
+          "3"
+        ],
+        [
+          "AUD-010",
+          "Attrition Risk Indicators",
+          "P. Garcia",
+          "Completed",
+          "2"
+        ],
+        [
+          "AUD-011",
+          "Manager Effectiveness Scores",
+          "E. Brown",
+          "Completed",
+          "4"
+        ],
+        [
+          "AUD-012",
+          "Action Plan Prioritisation Matrix",
+          "K. Müller",
+          "In Review",
+          "3"
+        ],
+        [
+          "AUD-013",
+          "Communication Effectiveness Findings",
+          "T. Nguyen",
+          "Completed",
+          "1"
+        ],
+        [
+          "AUD-014",
+          "Recognition & Rewards Analysis",
+          "B. Wilson",
+          "Completed",
+          "2"
+        ],
+        [
+          "AUD-015",
+          "Executive Summary Validation",
+          "F. Dubois",
+          "Approved",
+          "0"
+        ],
+        [
+          "16",
+          "2026-04-12 09:14",
+          "HR_Analyst1",
+          "Updated overall engagement score from 78% to 81% after final weighting adjustment",
+          "Version 1.2 saved"
+        ],
+        [
+          "17",
+          "2026-04-12 10:02",
+          "Data_Team",
+          "Validated response count (N=1,248) against raw survey export",
+          "No discrepancies found"
+        ],
+        [
+          "18",
+          "2026-04-12 11:37",
+          "HR_Director",
+          "Reviewed key driver regression analysis section",
+          "Approved with minor edits"
+        ],
+        [
+          "19",
+          "2026-04-12 13:05",
+          "Comms_Manager",
+          "Revised executive summary language for clarity",
+          "Pending final approval"
+        ],
+        [
+          "20",
+          "2026-04-12 14:22",
+          "People_Analytics",
+          "Corrected engagement driver ranking order",
+          "Recalculated impact scores"
+        ],
+        [
+          "21",
+          "2026-04-13 08:48",
+          "HR_Analyst2",
+          "Added departmental breakdown for Sales and IT",
+          "Charts updated"
+        ],
+        [
+          "22",
+          "2026-04-13 09:30",
+          "Data_Team",
+          "Flagged 12 incomplete responses for exclusion",
+          "Dataset cleaned"
+        ],
+        [
+          "23",
+          "2026-04-13 10:11",
+          "HR_Director",
+          "Requested additional commentary on retention risk indicator",
+          "Action assigned"
+        ],
+        [
+          "24",
+          "2026-04-13 11:56",
+          "People_Analytics",
+          "Inserted heatmap visualization for engagement by tenure",
+          "Visualization verified"
+        ],
+        [
+          "25",
+          "2026-04-13 13:18",
+          "Comms_Manager",
+          "Standardized terminology (engagement index vs engagement score)",
+          "Document consistency improved"
+        ],
+        [
+          "26",
+          "2026-04-13 14:47",
+          "HR_Analyst1",
+          "Updated benchmark comparison against 2025 industry data",
+          "Benchmark source cited"
+        ],
+        [
+          "27",
+          "2026-04-14 09:05",
+          "IT_Admin",
+          "Confirmed secure storage of raw survey data on encrypted drive",
+          "Access restricted"
+        ],
+        [
+          "28",
+          "2026-04-14 10:42",
+          "HR_Director",
+          "Approved final key driver narrative",
+          "Ready for executive review"
+        ],
+        [
+          "29",
+          "2026-04-14 12:27",
+          "Executive_Assistant",
+          "Formatted report for board presentation template",
+          "Branding aligned"
+        ],
+        [
+          "30",
+          "2026-04-14 15:03",
+          "CHRO",
+          "Signed off on final engagement survey results report",
+          "Version 2.0 published"
+        ],
+        [
+          "31",
+          "2026-04-12 09:14",
+          "J.Smith",
+          "Verified overall engagement score calculations against raw survey data",
+          "No discrepancies found"
+        ],
+        [
+          "32",
+          "2026-04-12 10:02",
+          "A.Patel",
+          "Reviewed key driver regression analysis outputs",
+          "Minor coefficient rounding adjusted"
+        ],
+        [
+          "33",
+          "2026-04-12 11:18",
+          "L.Chen",
+          "Validated response rate by department",
+          "HR department response rate updated to 87%"
+        ],
+        [
+          "34",
+          "2026-04-12 13:45",
+          "M.Garcia",
+          "Checked data anonymization compliance",
+          "All identifiers properly removed"
+        ],
+        [
+          "35",
+          "2026-04-12 14:30",
+          "S.Khan",
+          "Cross-checked engagement benchmark comparisons",
+          "Benchmarks aligned with 2025 industry dataset"
+        ],
+        [
+          "36",
+          "2026-04-13 08:55",
+          "D.Robinson",
+          "Audited driver impact heatmap visual accuracy",
+          "Color scale adjusted for clarity"
+        ],
+        [
+          "37",
+          "2026-04-13 09:40",
+          "K.Nguyen",
+          "Confirmed executive summary narrative consistency",
+          "Language refined for score alignment"
+        ],
+        [
+          "38",
+          "2026-04-13 10:22",
+          "T.Wilson",
+          "Reviewed participation trend year-over-year chart",
+          "2024 data label corrected"
+        ],
+        [
+          "39",
+          "2026-04-13 11:05",
+          "R.Johnson",
+          "Validated open-text theme categorization counts",
+          "Two comments reclassified under Leadership"
+        ],
+        [
+          "40",
+          "2026-04-13 13:15",
+          "E.Martinez",
+          "Checked engagement index formula documentation",
+          "Formula appendix expanded for clarity"
+        ],
+        [
+          "41",
+          "2026-04-13 14:02",
+          "P.Davis",
+          "Tested dashboard filter functionality for report export",
+          "Filters operating as expected"
+        ],
+        [
+          "42",
+          "2026-04-14 09:11",
+          "H.Lee",
+          "Reviewed action planning recommendations section",
+          "Added timeline milestones"
+        ],
+        [
+          "43",
+          "2026-04-14 10:37",
+          "C.Brown",
+          "Confirmed confidentiality statement inclusion",
+          "Statement updated to 2026 policy version"
+        ],
+        [
+          "44",
+          "2026-04-14 11:20",
+          "N.White",
+          "Validated statistical significance thresholds",
+          "P-value threshold clarified at 0.05"
+        ],
+        [
+          "45",
+          "2026-04-14 12:48",
+          "O.Clark",
+          "Final quality assurance review before publication",
+          "Approved for distribution"
+        ],
+        [
+          "46",
+          "Overall Engagement Score Table",
+          "Verified",
+          "A. Martinez",
+          "Cross-checked with HR dataset v3.2 on 2026-04-18"
+        ],
+        [
+          "47",
+          "Executive Summary Narrative",
+          "Revised",
+          "L. Chen",
+          "Updated to reflect final engagement score of 78%"
+        ],
+        [
+          "48",
+          "Key Driver Analysis – Regression Output",
+          "Validated",
+          "R. Singh",
+          "Confirmed statistical significance levels"
+        ],
+        [
+          "49",
+          "Department Breakdown Chart",
+          "Corrected",
+          "M. Alvarez",
+          "Adjusted labeling inconsistency in Sales segment"
+        ],
+        [
+          "50",
+          "Response Rate Summary",
+          "Verified",
+          "J. Okafor",
+          "Response rate finalized at 84%"
+        ],
+        [
+          "51",
+          "Trend Comparison (2024 vs 2025)",
+          "Updated",
+          "S. Bennett",
+          "Added year-over-year variance commentary"
+        ],
+        [
+          "52",
+          "Engagement Heatmap Visualization",
+          "Approved",
+          "K. Yamamoto",
+          "Color scale aligned with reporting standards"
+        ],
+        [
+          "53",
+          "Driver Impact Ranking Table",
+          "Revised",
+          "D. Patel",
+          "Reordered drivers by weighted impact score"
+        ],
+        [
+          "54",
+          "Confidentiality Statement",
+          "Confirmed",
+          "H. Laurent",
+          "Legal review completed 2026-04-20"
+        ],
+        [
+          "55",
+          "Appendix A – Survey Methodology",
+          "Verified",
+          "T. Nguyen",
+          "Sample size and margin of error validated"
+        ],
+        [
+          "56",
+          "Appendix B – Question List",
+          "Updated",
+          "C. Romero",
+          "Aligned item wording with final survey instrument"
+        ],
+        [
+          "57",
+          "Leadership Effectiveness Section",
+          "Edited",
+          "P. Johnson",
+          "Clarified narrative on manager communication scores"
+        ],
+        [
+          "58",
+          "Action Planning Recommendations",
+          "Pending Approval",
+          "E. Schmidt",
+          "Awaiting executive feedback"
+        ],
+        [
+          "59",
+          "Data Integrity Audit Trail",
+          "Completed",
+          "R. Wallace",
+          "No discrepancies found in raw data export"
+        ],
+        [
+          "60",
+          "Final Report PDF Version Control",
+          "Logged",
+          "M. Rossi",
+          "Version 1.0 archived in document repository"
+        ],
+        [
+          "61",
+          "ENG-SURV-2026-Q1",
+          "Data Validation Check",
+          "No discrepancies found in engagement score calculations",
+          "Completed"
+        ],
+        [
+          "62",
+          "ENG-SURV-2026-Q1",
+          "Driver Analysis Review",
+          "Leadership communication identified as top driver",
+          "Verified"
+        ],
+        [
+          "63",
+          "ENG-SURV-2026-Q1",
+          "Response Rate Audit",
+          "Overall response rate recorded at 78%",
+          "Approved"
+        ],
+        [
+          "64",
+          "ENG-SURV-2026-Q1",
+          "Department Breakdown",
+          "Sales engagement score below company average by 6%",
+          "Flagged"
+        ],
+        [
+          "65",
+          "ENG-SURV-2026-Q1",
+          "Comment Theming",
+          "Work-life balance frequently mentioned in open text",
+          "Logged"
+        ],
+        [
+          "66",
+          "ENG-SURV-2026-Q1",
+          "Benchmark Comparison",
+          "Engagement score 4% above industry median",
+          "Validated"
+        ],
+        [
+          "67",
+          "ENG-SURV-2026-Q1",
+          "Data Anonymization Check",
+          "All identifiable fields removed prior to reporting",
+          "Confirmed"
+        ],
+        [
+          "68",
+          "ENG-SURV-2026-Q1",
+          "Heatmap Accuracy Review",
+          "Color scale aligned with score thresholds",
+          "Completed"
+        ],
+        [
+          "69",
+          "ENG-SURV-2026-Q1",
+          "Manager Effectiveness Metric",
+          "10",
+          "Recorded"
+        ],
+        [
+          "70",
+          "ENG-SURV-2026-Q1",
+          "Action Planning Status",
+          "HR drafting follow-up initiatives",
+          "In Progress"
+        ],
+        [
+          "71",
+          "ENG-SURV-2026-Q1",
+          "Survey Tool Integrity",
+          "No system outages during survey window",
+          "Verified"
+        ],
+        [
+          "72",
+          "ENG-SURV-2026-Q1",
+          "Trend Analysis",
+          "Engagement increased 3 points from previous year",
+          "Approved"
+        ],
+        [
+          "73",
+          "ENG-SURV-2026-Q1",
+          "Participation Audit",
+          "Highest participation in Operations at 91%",
+          "Logged"
+        ],
+        [
+          "74",
+          "ENG-SURV-2026-Q1",
+          "Data Export Review",
+          "Final report exported to PDF and PPT formats",
+          "Completed"
+        ],
+        [
+          "75",
+          "ENG-SURV-2026-Q1",
+          "Executive Summary Check",
+          "Key findings aligned with detailed analysis",
+          "Signed Off"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col1": 2730.0,
+        "max_Col1": 75.0,
+        "min_Col1": 16.0,
+        "sum_Col5": 35.0,
+        "max_Col5": 5.0,
+        "min_Col5": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Inventory Audit Log\", what is the status (Col4) for AUD-003?",
+          "answer": "In Review",
+          "assertions": [
+            {
+              "text": "The response must state In Review."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Inventory Audit Log\", who is listed in Col3 for the row with ID 45?",
+          "answer": "O.Clark",
+          "assertions": [
+            {
+              "text": "The response must state O.Clark."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Inventory Audit Log\", what is the description (Col3) for entry 66?",
+          "answer": "Engagement score 4% above industry median",
+          "assertions": [
+            {
+              "text": "The response must state Engagement score 4% above industry median."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "table",
+      "variant_id": "cx_table_0001_57de91eb",
+      "table_number": 7,
+      "caption": "Table 7: Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", which groups fall under the \"Engagement Outcomes\" super-group?",
+          "answer": "Overall Engagement Score; Key Driver Index (Top 3 Avg.).",
+          "assertions": [
+            {
+              "text": "The response must state 'Overall Engagement Score; Key Driver Index (Top 3 Avg.).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", how many leaf metric columns does the \"People Insights & Trends\" super-group contain?",
+          "answer": "4 leaf columns.",
+          "assertions": [
+            {
+              "text": "The response must state '4 leaf columns.'."
+            }
+          ]
+        },
+        {
+          "question": "Key Driver Index (Top 3 Avg.)?",
+          "answer": "77.",
+          "assertions": [
+            {
+              "text": "The response must state '77.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", what is the grand total \"Value\" for the \"Engagement Outcomes\" super-group's Overall Engagement Score?",
+          "answer": "73.",
+          "assertions": [
+            {
+              "text": "The response must state '73.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", which entity shows the highest \"Chg %\" for Overall Engagement Score?",
+          "answer": "Technology (+2.7%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Technology (+2.7%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", what is the Overall Engagement Score?",
+          "answer": "77",
+          "assertions": [
+            {
+              "text": "The response must state '77'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", which top-level header sits between 'Entity' and 'People Insights & Trends'?",
+          "answer": "Engagement Outcomes",
+          "assertions": [
+            {
+              "text": "The response must state 'Engagement Outcomes'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", what annotation explains how the Key Driver Index is calculated?",
+          "answer": "Top 3 Avg.",
+          "assertions": [
+            {
+              "text": "The response must state 'Top 3 Avg.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", how many data rows are shown in the table?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "image",
+      "variant_id": "img_0000_7f684dff",
+      "figure_number": 7,
+      "image_path": "img_0000_7f684dff.png",
+      "caption": "Figure 7: FY2024 Overall Engagement and Participation Snapshot",
+      "chart_type": "grouped_bar",
+      "chart_title": "FY2024 Overall Engagement and Participation Snapshot",
+      "x_label": "Survey metric",
+      "y_label": " Score",
+      "categories": [
+        "Overall Engagement (Favorable)",
+        "Survey Participation Rate"
+      ],
+      "series_names": [
+        "FY2024"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "Overall Engagement (Favorable)",
+          "Survey Participation Rate"
+        ],
+        "series": [
+          "FY2024"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"FY2024 Overall Engagement and Participation Snapshot,\" what does the Y-axis represent?",
+          "answer": " Score",
+          "assertions": [
+            {
+              "text": " Score."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"FY2024 Overall Engagement and Participation Snapshot,\" what are the categories shown on the X-axis?",
+          "answer": "Overall Engagement (Favorable), Survey Participation Rate",
+          "assertions": [
+            {
+              "text": "The response must state Overall Engagement (Favorable), Survey Participation Rate."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"FY2024 Overall Engagement and Participation Snapshot,\" what is the value range displayed?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "table",
+      "variant_id": "table_0003_c4d2a6ed",
+      "table_number": 8,
+      "caption": "Table 8: FY2024 Engagement by Tenure Band to Surface Early-Experience Risk",
+      "columns": [
+        "Tenure segment",
+        "Headcount",
+        "Engagement favorable %",
+        "Enablement index (%)",
+        "Intent to stay (%)",
+        "Gap vs 5+ years (points)",
+        "Priority action"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "0–1 years",
+          "128",
+          "66%",
+          "62",
+          "70%",
+          "1-1",
+          "Strengthen onboarding and 30-60-90 day check-ins"
+        ],
+        [
+          "1–3 years",
+          "214",
+          "71%",
+          "68",
+          "74%",
+          "-6",
+          "Enhance career-path clarity and mentoring"
+        ],
+        [
+          "3–5 years",
+          "176",
+          "75%",
+          "72",
+          "97%",
+          "-2",
+          "Expand skill development and internal mobility"
+        ],
+        [
+          "5+ years",
+          "342",
+          "77%",
+          "75",
+          "83%",
+          "0",
+          "Leverage as engagement ambassadors"
+        ],
+        [
+          "Overall average",
+          "860",
+          "73%",
+          "70",
+          "77%",
+          "-4",
+          "Align manager capability programs"
+        ],
+        [
+          "0–1 years – High performers",
+          "34",
+          "72%",
+          "69",
+          "76%",
+          "-5",
+          "Accelerated development plans"
+        ],
+        [
+          "0–1 years – Remote employees",
+          "52",
+          "63%",
+          "60",
+          "68%",
+          "-14",
+          "Improve virtual onboarding experience"
+        ],
+        [
+          "1–3 years – Individual contributors",
+          "168",
+          "70%",
+          "67",
+          "73%",
+          "-7",
+          "Structured career conversations"
+        ],
+        [
+          "3–5 years – Managers",
+          "48",
+          "78%",
+          "74",
+          "82%",
+          "+1",
+          "Leadership coaching and succession planning"
+        ],
+        [
+          "Gap: 0–1 years vs 5+ years (points)",
+          "—",
+          "—",
+          "—",
+          "—",
+          "11",
+          "Target early-tenure engagement uplift plan"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Headcount": 2022.0,
+        "max_Headcount": 860.0,
+        "min_Headcount": 34.0,
+        "sum_Engagement favorable %": 645.0,
+        "max_Engagement favorable %": 78.0,
+        "min_Engagement favorable %": 63.0,
+        "sum_Enablement index (%)": 617.0,
+        "max_Enablement index (%)": 75.0,
+        "min_Enablement index (%)": 60.0,
+        "sum_Intent to stay (%)": 700.0,
+        "max_Intent to stay (%)": 97.0,
+        "min_Intent to stay (%)": 68.0,
+        "sum_Gap vs 5+ years (points)": -26.0,
+        "max_Gap vs 5+ years (points)": 11.0,
+        "min_Gap vs 5+ years (points)": -14.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2024 Engagement by Tenure Band to Surface Early-Experience Risk\", what is the Headcount for the 3–5 years tenure segment?",
+          "answer": "176",
+          "assertions": [
+            {
+              "text": "The response must state 176."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 Engagement by Tenure Band to Surface Early-Experience Risk\", what is the Priority action listed for 0–1 years – Remote employees?",
+          "answer": "Improve virtual onboarding experience",
+          "assertions": [
+            {
+              "text": "The response must state Improve virtual onboarding experience."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 Engagement by Tenure Band to Surface Early-Experience Risk\", what is the Engagement favorable % for the Overall average row?",
+          "answer": "73%",
+          "assertions": [
+            {
+              "text": "The response must state 73%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "table",
+      "variant_id": "table_0002_07b8a6b3",
+      "table_number": 9,
+      "caption": "Table 9: FY2024 Engagement by Function with Gap-to-Enterprise Benchmark",
+      "columns": [
+        "Function",
+        "Engagement Favorable %",
+        "Headcount",
+        "Action Priority",
+        "Risk Level",
+        "Enterprise Benchmark %",
+        "Gap vs Enterprise (pp)",
+        "YoY Change (pp)"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Frontline Operations",
+          "68%",
+          "1,240",
+          "1 - Immediate Focus",
+          "High",
+          "74%",
+          "-6",
+          "-3"
+        ],
+        [
+          "Corporate Functions",
+          "79%",
+          "430",
+          "4 - Maintain",
+          "Low",
+          "74%",
+          "+5",
+          "+1"
+        ],
+        [
+          "Technology",
+          "75%",
+          "520",
+          "3 - Targeted Improvements",
+          "Moderate",
+          "74%",
+          "+1",
+          "+2"
+        ],
+        [
+          "Sales",
+          "73%",
+          "610",
+          "2 - Monitor Closely",
+          "Moderate",
+          "74%",
+          "-1",
+          "0"
+        ],
+        [
+          "Customer Support",
+          "71%",
+          "390",
+          "2 - Prioritised Action",
+          "Moderate-High",
+          "74%",
+          "-3",
+          ""
+        ],
+        [
+          "Marketing",
+          "77%",
+          "210",
+          "4 - Maintain",
+          "Low",
+          "74%",
+          "+3",
+          "+1"
+        ],
+        [
+          "Finance",
+          "76%",
+          "180",
+          "4 - Maintain",
+          "Low",
+          "74%",
+          "+2",
+          "+1"
+        ],
+        [
+          "HR",
+          "80%",
+          "95",
+          "4 - Maintain",
+          "Low",
+          "74%",
+          "+6",
+          "+2"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Engagement Favorable %": 599.0,
+        "max_Engagement Favorable %": 80.0,
+        "min_Engagement Favorable %": 68.0,
+        "sum_Headcount": 3675.0,
+        "max_Headcount": 1240.0,
+        "min_Headcount": 95.0,
+        "sum_Enterprise Benchmark %": 592.0,
+        "max_Enterprise Benchmark %": 74.0,
+        "min_Enterprise Benchmark %": 74.0,
+        "sum_Gap vs Enterprise (pp)": 7.0,
+        "max_Gap vs Enterprise (pp)": 6.0,
+        "min_Gap vs Enterprise (pp)": -6.0,
+        "sum_YoY Change (pp)": 4.0,
+        "max_YoY Change (pp)": 2.0,
+        "min_YoY Change (pp)": -3.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2024 Engagement by Function with Gap-to-Enterprise Benchmark\", what is the Risk Level listed for Frontline Operations?",
+          "answer": "High",
+          "assertions": [
+            {
+              "text": "The response must state High."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 Engagement by Function with Gap-to-Enterprise Benchmark\", what is the Engagement Favorable % for HR?",
+          "answer": "80%",
+          "assertions": [
+            {
+              "text": "The response must state 80%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 Engagement by Function with Gap-to-Enterprise Benchmark\", what is the Action Priority for Technology?",
+          "answer": "3 - Targeted Improvements",
+          "assertions": [
+            {
+              "text": "The response must state 3 - Targeted Improvements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "annotation",
+      "variant_id": "ann_lb_0000_5fa1bc73",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "Looking at 'this element' on the page, what wording appears in the large classification banner?",
+          "answer": "FOR INTERNAL USE ONLY",
+          "assertions": [
+            {
+              "text": "The response must state 'FOR INTERNAL USE ONLY'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', what inline status label is displayed near the content?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "table_0000_05301924": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Summarizes_the_top-line_FY2024_engagement_outcome_and_suppor",
+      "row_count": 7,
+      "col_count": 5,
+      "columns": [
+        "Metric",
+        "FY2023",
+        "FY2024",
+        "Year-on-Year Change",
+        "Status"
+      ],
+      "topic_id": "employee_engagement_survey"
+    },
+    "text_0000_bd018540": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation"
+      ],
+      "heading": "Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)",
+      "word_count": 230,
+      "text_type": "llm_prose",
+      "topic_id": "employee_engagement_survey"
+    },
+    "text_0001_474947f4": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats",
+        "typos"
+      ],
+      "heading": "Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plan",
+      "word_count": 181,
+      "text_type": "llm_prose",
+      "topic_id": "employee_engagement_survey"
+    },
+    "table_0001_ddecd0f3": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Lists_the_principal_engagement_drivers_with_both_statistical",
+      "row_count": 9,
+      "col_count": 4,
+      "columns": [
+        "Engagement Driver",
+        "Favorable %",
+        "Driver impact (standardized beta)",
+        "Priority Level"
+      ],
+      "topic_id": "employee_engagement_survey"
+    },
+    "ann_rv_0000_69c38b90": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "img_0003_0edb009d": {
+      "kind": "image",
+      "perturbations": [
+        "watermark",
+        "occlusion"
+      ],
+      "chart_type": "stacked_area",
+      "chart_title": "Engagement Favorability by Tenure Band (FY2024)",
+      "x_label": "Tenure band",
+      "y_label": "Engagement favorable (%)",
+      "categories": [
+        "0–1 years",
+        "1–3 years",
+        "3–5 years",
+        "5–10 years",
+        "10+ years"
+      ],
+      "series_names": [
+        "Engagement favorable (%)"
+      ],
+      "value_range": [
+        60,
+        85
+      ],
+      "trend": "increasing",
+      "filename": "img_0003_0edb009d.png",
+      "image_path": "img_0003_0edb009d.png",
+      "topic_id": "employee_engagement_survey"
+    },
+    "scan_llm_0001_7f2f32b6": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_eeb944b4.png",
+      "topic_id": ""
+    },
+    "img_0005_85fd3da7": {
+      "kind": "image",
+      "perturbations": [
+        "rotation"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Driver Favorability Heatmap by High-Gap Groups (FY2024)",
+      "x_label": "Key drivers (Career Growth, Recognition, Manager Effectiveness, Purpose & Strategy)",
+      "y_label": "Employee group (Frontline Operations, Corporate Functions, Tenure 0–1 years, Tenure 5+ years)",
+      "categories": [
+        "Career Growth",
+        "Recognition",
+        "Manager Effectiveness",
+        "Purpose & Strategy"
+      ],
+      "series_names": [
+        "Frontline Operations",
+        "Corporate Functions",
+        "Tenure 0–1 years",
+        "Tenure 5+ years"
+      ],
+      "value_range": [
+        45,
+        85
+      ],
+      "trend": "volatile",
+      "filename": "img_0005_85fd3da7.png",
+      "image_path": "img_0005_85fd3da7.png",
+      "topic_id": "employee_engagement_survey"
+    },
+    "cx_table_0000_c07baf02": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "employee_engagement_survey"
+    },
+    "scan_llm_0000_c95c9788": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_13988852.png",
+      "topic_id": ""
+    },
+    "img_0002_ce513c73": {
+      "kind": "image",
+      "perturbations": [
+        "blur"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Engagement Favorability by Function (FY2024)",
+      "x_label": "Function",
+      "y_label": "Engagement favorable (%)",
+      "categories": [
+        "Frontline Operations",
+        "Corporate Functions",
+        "Enterprise Average"
+      ],
+      "series_names": [
+        "FY2024 Favorable %"
+      ],
+      "value_range": [
+        50,
+        90
+      ],
+      "trend": "increasing",
+      "filename": "img_0002_ce513c73.png",
+      "image_path": "img_0002_ce513c73.png",
+      "topic_id": "employee_engagement_survey"
+    },
+    "table_0005_27cbccf8": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Translates_insights_into_an_accountable,_time-bound_plan_foc",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Action ID",
+        "Focus Area",
+        "Action Description",
+        "Owner",
+        "Due Date",
+        " Status"
+      ],
+      "topic_id": "employee_engagement_survey"
+    },
+    "table_0004_5ccb9079": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Provides_the_time_comparison_that_substantiates_improvement_",
+      "row_count": 9,
+      "col_count": 4,
+      "columns": [
+        "Metric",
+        "FY2023",
+        "FY2024",
+        "Change (FY2023→FY2024)"
+      ],
+      "topic_id": "employee_engagement_survey"
+    },
+    "img_0004_ef7bf824": {
+      "kind": "image",
+      "perturbations": [
+        "watermark"
+      ],
+      "chart_type": "bubble_scatter",
+      "chart_title": "Overall Engagement Trend: FY2023 to FY2024",
+      "x_label": "Fiscal year",
+      "y_label": "Overall engagement favorable (%)",
+      "categories": [
+        "FY2023",
+        "FY2024"
+      ],
+      "series_names": [
+        "Overall engagement"
+      ],
+      "value_range": [
+        70,
+        75
+      ],
+      "trend": "increasing",
+      "filename": "img_0004_ef7bf824.png",
+      "image_path": "img_0004_ef7bf824.png",
+      "topic_id": "employee_engagement_survey"
+    },
+    "llm_mp_table_0000_bc80c6e0": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "inventory_audit_log",
+      "row_count": 75,
+      "col_count": 5,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "topic_id": ""
+    },
+    "cx_table_0001_57de91eb": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 10,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "employee_engagement_survey"
+    },
+    "img_0000_7f684dff": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "grouped_bar",
+      "chart_title": "FY2024 Overall Engagement and Participation Snapshot",
+      "x_label": "Survey metric",
+      "y_label": " Score",
+      "categories": [
+        "Overall Engagement (Favorable)",
+        "Survey Participation Rate"
+      ],
+      "series_names": [
+        "FY2024"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "filename": "img_0000_7f684dff.png",
+      "image_path": "img_0000_7f684dff.png",
+      "topic_id": "employee_engagement_survey"
+    },
+    "table_0003_c4d2a6ed": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Highlights_engagement_differences_by_tenure_to_support_targe",
+      "row_count": 10,
+      "col_count": 7,
+      "columns": [
+        "Tenure segment",
+        "Headcount",
+        "Engagement favorable %",
+        "Enablement index (%)",
+        "Intent to stay (%)",
+        "Gap vs 5+ years (points)",
+        "Priority action"
+      ],
+      "topic_id": "employee_engagement_survey"
+    },
+    "table_0002_07b8a6b3": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "semantic"
+      ],
+      "base_type": "Shows_where_engagement_is_strongest_and_weakest_across_major",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Function",
+        "Engagement Favorable %",
+        "Headcount",
+        "Action Priority",
+        "Risk Level",
+        "Enterprise Benchmark %",
+        "Gap vs Enterprise (pp)",
+        "YoY Change (pp)"
+      ],
+      "topic_id": "employee_engagement_survey"
+    },
+    "ann_lb_0000_5fa1bc73": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the Status for Overall engagement (favorable %)?",
+      "answer": "Imporved",
+      "assertions": [
+        {
+          "text": "The response must state Imporved."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the FY2024 value for eNPS (FY2024)?",
+      "answer": "1+8",
+      "assertions": [
+        {
+          "text": "The response must state 1+8."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Enterprise Engagement Scorecard (Overall, Participation, and Core Indices)\", what is the FY2024 value for Wellbeing index (FY2024 favorable %)?",
+      "answer": "76%",
+      "assertions": [
+        {
+          "text": "The response must state 76%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)\" section, what was the overall engagement percentage for FY2024?",
+      "answer": "74% favorable",
+      "assertions": [
+        {
+          "text": "The response must state 74% favorable."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)\" section, what was the survey participation rate for FY2024?",
+      "answer": "82%",
+      "assertions": [
+        {
+          "text": "The response must state 82%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Engagement Performance and Year-on-Year Trend Summary (FY2024 vs FY2023)\" section, by how many points did engagement increase from FY2023 to FY2024?",
+      "answer": "+3 points",
+      "assertions": [
+        {
+          "text": "The response must state +3 points."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plna\" section, what percentage is reported for Career Growth favorable in FY2024?",
+      "answer": "62% favorable",
+      "assertions": [
+        {
+          "text": "The response must state 62% favorable."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plna\" section, what is the favorable engagement percentage for Frontilne Operations in FY2024?",
+      "answer": "68% favorable",
+      "assertions": [
+        {
+          "text": "The response must state 68% favorable."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Key Driver Insights, Demographic Gaps, and Prioritised 90-Day People Action Plna\" section, who is the owner listed for the Days 15–60 frontline manager capability sprint?",
+      "answer": "Ops L&D",
+      "assertions": [
+        {
+          "text": "The response must state Ops L&D."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Key Driver Analysis (Impact vs Favorability) to Identify Highest-Return Levers)\", what is the Favorable % for Career Growth?",
+      "answer": "62%",
+      "assertions": [
+        {
+          "text": "The response must state 62%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Key Driver Analysis (Impact vs Favorability) to Identify Highest-Return Levers)\", what is the Priority Level for Rewards & Compensation?",
+      "answer": "High",
+      "assertions": [
+        {
+          "text": "The response must state High."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Key Driver Analysis (Impact vs Favorability) to Identify Highest-Return Levers)\", what is the Driver impact (standardized beta) for Manager Effectiveness?",
+      "answer": "0.24",
+      "assertions": [
+        {
+          "text": "The response must state 0.24."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many phrases are visually highlighted?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Does this element include PDF reviewer sticky-note comments?",
+      "answer": "Yes",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what does the first reviewer comment say?",
+      "answer": "Owner: PM Alice Johnson",
+      "assertions": [
+        {
+          "text": "The response must state 'Owner: PM Alice Johnson'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Engagement Favorability by Tenure Band (FY2024)\", what does the Y-axis represent?",
+      "answer": "Engagement favorable (%)",
+      "assertions": [
+        {
+          "text": "The response must state Engagement favorable (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Engagement Favorability by Tenure Band (FY2024)\", what is the value range shown?",
+      "answer": "[60, 85]",
+      "assertions": [
+        {
+          "text": "The response must state [60, 85]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Engagement Favorability by Tenure Band (FY2024)\", what is the overall trend?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Employee Engagement Results by Segment and Driver\", what is the 2024 Score for the Overall Organisation?",
+      "answer": "74%.",
+      "assertions": [
+        {
+          "text": "The response must state '74%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Employee Engagement Results by Segment and Driver\", how many rows are there in the table in total?",
+      "answer": "12 rows total.",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows total.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Employee Engagement Results by Segment and Driver\", what is the YoY Change reported for Operations – Frontline?",
+      "answer": "+5 pts.",
+      "assertions": [
+        {
+          "text": "The response must state '+5 pts.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Employee Engagement Results by Segment and Driver\", did engagement improve across all segments in 2024?",
+      "answer": "Yes; engagement improved across all segments in 2024.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes; engagement improved across all segments in 2024.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Employee Engagement Results by Segment and Driver\", which segment is assigned the Priority Focus of \"Career pathways\"?",
+      "answer": "Technology.",
+      "assertions": [
+        {
+          "text": "The response must state 'Technology.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Driver Favorability Heatmap by High-Gap Groups (FY2024)\", what does the Y-axis represent?",
+      "answer": "Employee group",
+      "assertions": [
+        {
+          "text": "The response must state Employee group."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Driver Favorability Heatmap by High-Gap Groups (FY2024)\", what is the value range shown?",
+      "answer": "[45, 85]",
+      "assertions": [
+        {
+          "text": "The response must state [45, 85]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Driver Favorability Heatmap by High-Gap Groups (FY2024)\", what trend is reported?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", how many period columns does each version group span?",
+      "answer": "4 period columns (Q1–Q4) per version group.",
+      "assertions": [
+        {
+          "text": "The response must state '4 period columns (Q1–Q4) per version group.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what is the Actuals Q3 value for \"Internal mobility program (job marketplace, talent reviews)\"?",
+      "answer": "61 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '61 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what is the \"Recognition & Rewards Total\" section total for Baseline Q1?",
+      "answer": "140 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '140 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", which version shows the highest Q4 value for \"Executive listening sessions & town halls (hybrid delivery)\"?",
+      "answer": "Actuals, with 52 ($000) versus Baseline 45 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals, with 52 ($000) versus Baseline 45 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what is the delta (Net $K) for \"Leadership & Communication Total\"?",
+      "answer": "59 ($K).",
+      "assertions": [
+        {
+          "text": "The response must state '59 ($K).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", how many period columns are there per version group?",
+      "answer": "4 (Q1-Q4)",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1-Q4)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", which columns fall under the header 'Baseline'?",
+      "answer": "Q1-Q4",
+      "assertions": [
+        {
+          "text": "The response must state 'Q1-Q4'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", which dollar amount is larger, 61 or 140?",
+      "answer": "140 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '140 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what does footnote 1 explain?",
+      "answer": "Not provided",
+      "assertions": [
+        {
+          "text": "The response must state 'Not provided'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Engagement Investment Plan (Baseline vs Actuals) by Quarter\", what is the subtotal for the Baseline group in the Baseline column?",
+      "answer": "61 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '61 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", what is the overall engagement score for FY2025?",
+      "answer": "74%.",
+      "assertions": [
+        {
+          "text": "The response must state '74%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", how many percentage points did the overall engagement increase from FY2024 to FY2025?",
+      "answer": "5 percentage points (from 69% to 74%).",
+      "assertions": [
+        {
+          "text": "The response must state '5 percentage points (from 69% to 74%).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", what was the response participation rate reported?",
+      "answer": "88%.",
+      "assertions": [
+        {
+          "text": "The response must state '88%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", how many strongest predictors were identified in the driver analysis?",
+      "answer": "Three.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"FY2025 Employee Engagement Survey – Summary of Results and Action Priorities\", what engagement scores were reported for frontline employees and for corporate and professional staff?",
+      "answer": "Frontline: 68%; Corporate and professional staff: 79%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Frontline: 68%; Corporate and professional staff: 79%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Engagement Favorability by Function (FY2024)\", what does the Y-axis represent?",
+      "answer": "Engagement favorable (%)",
+      "assertions": [
+        {
+          "text": "The response must state Engagement favorable (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Engagement Favorability by Function (FY2024)\", what is the value range shown?",
+      "answer": "[50, 90]",
+      "assertions": [
+        {
+          "text": "The response must state [50, 90]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Engagement Favorability by Function (FY2024)\", which category is listed along the X-axis?",
+      "answer": "Frontline Operations",
+      "assertions": [
+        {
+          "text": "The response must state Frontline Operations."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Prioritised 90-Day People Action Plan Aligned to Key Drivers and High-Gap Populations\", what is the Due Date for Action 3?",
+      "answer": "15 Nov 2024",
+      "assertions": [
+        {
+          "text": "The response must state 15 Nov 2024."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Prioritised 90-Day People Action Plan Aligned to Key Drivers and High-Gap Populations\", who is the Owner for Action 5?",
+      "answer": "Operations Directors",
+      "assertions": [
+        {
+          "text": "The response must state Operations Directors."
+        }
+      ]
+    },
+    {
+      "question": " Status for Action 2?",
+      "answer": "Achieve 70% employee participation in recognition nominations by Q2 FY2025",
+      "assertions": [
+        {
+          "text": "The response must state Achieve 70% employee participation in recognition nominations by Q2 FY2025."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Year-on-Year Engagement Trend (FY2023 to FY2024) with Participation Context\", what is the FY2024 value for Overall Engagement (Favorable %)?",
+      "answer": "74%",
+      "assertions": [
+        {
+          "text": "The response must state 74%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Year-on-Year Engagement Trend (FY2023 to FY2024) with Participation Context\", what is the Change (FY2023→FY2024) for Leadership Effectiveness (Favorable %)?",
+      "answer": "+4",
+      "assertions": [
+        {
+          "text": "The response must state +4."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Year-on-Year Engagement Trend (FY2023 to FY2024) with Participation Context\", what is the FY2023 value for Participation Rate?",
+      "answer": "79%",
+      "assertions": [
+        {
+          "text": "The response must state 79%."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Overall Engagement Trend: FY2023 to FY2024\", what does the Y-axis represent?",
+      "answer": "Overall engagement favorable (%)",
+      "assertions": [
+        {
+          "text": "The response must state Overall engagement favorable (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Overall Engagement Trend: FY2023 to FY2024\", what is the value range shown?",
+      "answer": "[70, 75]",
+      "assertions": [
+        {
+          "text": "The response must state [70, 75]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Overall Engagement Trend: FY2023 to FY2024\", what is the trend direction?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Inventory Audit Log\", what is the status (Col4) for AUD-003?",
+      "answer": "In Review",
+      "assertions": [
+        {
+          "text": "The response must state In Review."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Inventory Audit Log\", who is listed in Col3 for the row with ID 45?",
+      "answer": "O.Clark",
+      "assertions": [
+        {
+          "text": "The response must state O.Clark."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Inventory Audit Log\", what is the description (Col3) for entry 66?",
+      "answer": "Engagement score 4% above industry median",
+      "assertions": [
+        {
+          "text": "The response must state Engagement score 4% above industry median."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", which groups fall under the \"Engagement Outcomes\" super-group?",
+      "answer": "Overall Engagement Score; Key Driver Index (Top 3 Avg.).",
+      "assertions": [
+        {
+          "text": "The response must state 'Overall Engagement Score; Key Driver Index (Top 3 Avg.).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", how many leaf metric columns does the \"People Insights & Trends\" super-group contain?",
+      "answer": "4 leaf columns.",
+      "assertions": [
+        {
+          "text": "The response must state '4 leaf columns.'."
+        }
+      ]
+    },
+    {
+      "question": "Key Driver Index (Top 3 Avg.)?",
+      "answer": "77.",
+      "assertions": [
+        {
+          "text": "The response must state '77.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", what is the grand total \"Value\" for the \"Engagement Outcomes\" super-group's Overall Engagement Score?",
+      "answer": "73.",
+      "assertions": [
+        {
+          "text": "The response must state '73.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", which entity shows the highest \"Chg %\" for Overall Engagement Score?",
+      "answer": "Technology (+2.7%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Technology (+2.7%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", what is the Overall Engagement Score?",
+      "answer": "77",
+      "assertions": [
+        {
+          "text": "The response must state '77'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", how many header tiers are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", which top-level header sits between 'Entity' and 'People Insights & Trends'?",
+      "answer": "Engagement Outcomes",
+      "assertions": [
+        {
+          "text": "The response must state 'Engagement Outcomes'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", what annotation explains how the Key Driver Index is calculated?",
+      "answer": "Top 3 Avg.",
+      "assertions": [
+        {
+          "text": "The response must state 'Top 3 Avg.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics & Year-on-Year Trends (FY2026 vs FY2025)\", how many data rows are shown in the table?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"FY2024 Overall Engagement and Participation Snapshot,\" what does the Y-axis represent?",
+      "answer": " Score",
+      "assertions": [
+        {
+          "text": " Score."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"FY2024 Overall Engagement and Participation Snapshot,\" what are the categories shown on the X-axis?",
+      "answer": "Overall Engagement (Favorable), Survey Participation Rate",
+      "assertions": [
+        {
+          "text": "The response must state Overall Engagement (Favorable), Survey Participation Rate."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"FY2024 Overall Engagement and Participation Snapshot,\" what is the value range displayed?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Engagement by Tenure Band to Surface Early-Experience Risk\", what is the Headcount for the 3–5 years tenure segment?",
+      "answer": "176",
+      "assertions": [
+        {
+          "text": "The response must state 176."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Engagement by Tenure Band to Surface Early-Experience Risk\", what is the Priority action listed for 0–1 years – Remote employees?",
+      "answer": "Improve virtual onboarding experience",
+      "assertions": [
+        {
+          "text": "The response must state Improve virtual onboarding experience."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Engagement by Tenure Band to Surface Early-Experience Risk\", what is the Engagement favorable % for the Overall average row?",
+      "answer": "73%",
+      "assertions": [
+        {
+          "text": "The response must state 73%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Engagement by Function with Gap-to-Enterprise Benchmark\", what is the Risk Level listed for Frontline Operations?",
+      "answer": "High",
+      "assertions": [
+        {
+          "text": "The response must state High."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Engagement by Function with Gap-to-Enterprise Benchmark\", what is the Engagement Favorable % for HR?",
+      "answer": "80%",
+      "assertions": [
+        {
+          "text": "The response must state 80%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 Engagement by Function with Gap-to-Enterprise Benchmark\", what is the Action Priority for Technology?",
+      "answer": "3 - Targeted Improvements",
+      "assertions": [
+        {
+          "text": "The response must state 3 - Targeted Improvements."
+        }
+      ]
+    },
+    {
+      "question": "Looking at 'this element' on the page, what wording appears in the large classification banner?",
+      "answer": "FOR INTERNAL USE ONLY",
+      "assertions": [
+        {
+          "text": "The response must state 'FOR INTERNAL USE ONLY'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what inline status label is displayed near the content?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    }
+  ]
+}

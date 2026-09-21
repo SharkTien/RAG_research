@@ -1,0 +1,4697 @@
+{
+  "metadata": {
+    "file_name": "QĐ.NTC.HR-01-QUY TRÌNH, QUY ĐỊNH QUẢN LÝ NGHỈ PHÉP.pdf",
+    "file_size_bytes": 1832332,
+    "generated_at": "2026-09-19T11:07:38.936857",
+    "total_elapsed_seconds": 348.37,
+    "docling_elapsed_seconds": 64.0,
+    "do_ocr": true,
+    "total_chunks": 6,
+    "total_normalized_elements": 306,
+    "total_ocr_bboxes": 344,
+    "total_image_bboxes": 12,
+    "nim_status": "processed"
+  },
+  "semantic_structure": {
+    "title": null,
+    "sections": [
+      {
+        "heading": null,
+        "level": 0,
+        "element_ids": [
+          "#/texts/1",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/8",
+          "#/texts/6"
+        ]
+      },
+      {
+        "heading": "PHAN THEO DOI SỬA DOI",
+        "level": 1,
+        "element_ids": [
+          "#/texts/39",
+          "#/texts/49",
+          "#/texts/42",
+          "#/texts/48",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/41",
+          "#/texts/44",
+          "#/texts/56",
+          "#/texts/43",
+          "#/texts/55",
+          "#/texts/45",
+          "#/texts/40",
+          "#/texts/54",
+          "#/texts/52",
+          "#/texts/57",
+          "#/texts/62",
+          "#/texts/61",
+          "#/texts/59",
+          "#/texts/60"
+        ]
+      },
+      {
+        "heading": "MỤC LỤC",
+        "level": 1,
+        "element_ids": [
+          "#/texts/69",
+          "#/texts/84",
+          "#/texts/82",
+          "#/texts/97",
+          "#/texts/94",
+          "#/texts/96",
+          "#/texts/95",
+          "#/texts/93"
+        ]
+      },
+      {
+        "heading": "Quy trình. quy định quản lý nghỉ phép Quy trình, quy định quản lý nghỉ phép",
+        "level": 0,
+        "element_ids": [
+          "#/texts/151"
+        ]
+      },
+      {
+        "heading": "|. MỤC DICH",
+        "level": 1,
+        "element_ids": [
+          "#/texts/158"
+        ]
+      },
+      {
+        "heading": "Il. PHAM VI ÁP DỤNG",
+        "level": 1,
+        "element_ids": [
+          "#/texts/164"
+        ]
+      },
+      {
+        "heading": "IH. KHÁI NIEM, THUẬT NGỮ",
+        "level": 1,
+        "element_ids": [
+          "#/texts/166"
+        ]
+      },
+      {
+        "heading": "Iv. CÁC LOẠI NGÀY NGHĨ",
+        "level": 1,
+        "element_ids": [
+          "#/texts/169"
+        ]
+      },
+      {
+        "heading": "4.1. Nghỉ phép năm:",
+        "level": 2,
+        "element_ids": [
+          "#/texts/170"
+        ]
+      },
+      {
+        "heading": "4.2. Nghĩ lễ tết:",
+        "level": 2,
+        "element_ids": [
+          "#/texts/179"
+        ]
+      },
+      {
+        "heading": "Quy trình, quy định quản lý nghỉ phép",
+        "level": 1,
+        "element_ids": [
+          "#/texts/187",
+          "#/texts/190",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198"
+        ]
+      },
+      {
+        "heading": "Cac trường hợp đặc biệt",
+        "level": 2,
+        "element_ids": [
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211"
+        ]
+      },
+      {
+        "heading": "V. TRÌNH NGHĨ PHÉP",
+        "level": 5,
+        "element_ids": [
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251",
+          "#/texts/252",
+          "#/texts/253",
+          "#/texts/254",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259",
+          "#/texts/260",
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265",
+          "#/texts/266",
+          "#/texts/267",
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/273",
+          "#/texts/274",
+          "#/texts/275",
+          "#/texts/276",
+          "#/texts/277",
+          "#/texts/278",
+          "#/texts/279",
+          "#/texts/280",
+          "#/texts/281",
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286",
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/289",
+          "#/texts/290",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293"
+        ]
+      },
+      {
+        "heading": "QUY đồ",
+        "level": 5,
+        "element_ids": [
+          "#/texts/228"
+        ]
+      },
+      {
+        "heading": "5.1. Lưu",
+        "level": 6,
+        "element_ids": [
+          "#/texts/227"
+        ]
+      },
+      {
+        "heading": "5.2. Diễn giải",
+        "level": 6,
+        "element_ids": [
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286",
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/289",
+          "#/texts/290",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293"
+        ]
+      },
+      {
+        "heading": "VI. QUY ĐỊNH THỜI GIAN XIN NGHI PHÉP VÀ QUYEN HAN PHÊ DUYET NGHI PHÉP",
+        "level": 1,
+        "element_ids": [
+          "#/texts/325",
+          "#/texts/326",
+          "#/texts/327",
+          "#/texts/328",
+          "#/texts/329",
+          "#/texts/330",
+          "#/texts/331",
+          "#/texts/332",
+          "#/texts/333",
+          "#/texts/334",
+          "#/texts/335"
+        ]
+      },
+      {
+        "heading": "Cấp quản lý xem xét và phê duyệt",
+        "level": 1,
+        "element_ids": [
+          "#/texts/314",
+          "#/texts/315",
+          "#/texts/316",
+          "#/texts/317",
+          "#/texts/318",
+          "#/texts/319",
+          "#/texts/320"
+        ]
+      },
+      {
+        "heading": "Hệ thống ghi nhận dữ liệu",
+        "level": 1,
+        "element_ids": [
+          "#/texts/311",
+          "#/texts/312",
+          "#/texts/313"
+        ]
+      },
+      {
+        "heading": "Nghỉ việc riêng có hưởng lương đối với trường hợp kết hôn, con kết hôn là ít nhất 03 ngày trước ngày nghỉ;",
+        "level": 2,
+        "element_ids": [
+          "#/texts/307"
+        ]
+      },
+      {
+        "heading": "Nghỉ từ 7 ngày trở lên báo trước 10 ngày làm việc",
+        "level": 2,
+        "element_ids": [
+          "#/texts/306"
+        ]
+      },
+      {
+        "heading": "Nghỉ từ 5 đến dưới 7 ngày làm việc báo trước 7 ngày làm việc",
+        "level": 2,
+        "element_ids": [
+          "#/texts/305"
+        ]
+      },
+      {
+        "heading": "Trường hợp phát sinh đột xuất thì chi cần thông báo cho Quản lý trực tiếp, bé sung đăng ký xin nghỉ phép và các chứng từ cần thiết sau 03 ngày khi quay trở lại làm việc.",
+        "level": 2,
+        "element_ids": [
+          "#/texts/308"
+        ]
+      },
+      {
+        "heading": "Người xin nghỉ phép phải có bàn giao công việc trong quá trình vắng mặt tại Công ty.",
+        "level": 2,
+        "element_ids": [
+          "#/texts/309"
+        ]
+      },
+      {
+        "heading": "Tiếp nhận thông tin:",
+        "level": 2,
+        "element_ids": [
+          "#/texts/333",
+          "#/texts/334",
+          "#/texts/335"
+        ]
+      },
+      {
+        "heading": "Phòng Nhân sự theo doi và cập nhật dữ liệu",
+        "level": 2,
+        "element_ids": [
+          "#/texts/321",
+          "#/texts/322",
+          "#/texts/323",
+          "#/texts/324"
+        ]
+      },
+      {
+        "heading": "Cấp nhân viên/Chuyên viên (Level 1)",
+        "level": 2,
+        "element_ids": [
+          "#/texts/327",
+          "#/texts/328"
+        ]
+      },
+      {
+        "heading": "Cấp Trưởng phòng/Ban (Leader — Level 2)",
+        "level": 2,
+        "element_ids": [
+          "#/texts/329",
+          "#/texts/330"
+        ]
+      },
+      {
+        "heading": "Cấp Giám đốc Chỉ nhánh (Level 3)",
+        "level": 2,
+        "element_ids": [
+          "#/texts/331",
+          "#/texts/332"
+        ]
+      },
+      {
+        "heading": "Việc phê duyệt nghỉ phép, nghỉ không lương của người lao động được thực hiện theo số ngày nghỉ và quyền hạn cap quản lý tương ứng, cụ thé như sau:",
+        "level": 2,
+        "element_ids": [
+          "#/texts/326"
+        ]
+      },
+      {
+        "heading": "Hệ thống tự động ghi nhận dit liệu và lưu vào database hệ thống.",
+        "level": 3,
+        "element_ids": [
+          "#/texts/312"
+        ]
+      },
+      {
+        "heading": "_ Đồng thời gửi email thông báo đến cấp quản lý trực tiếp dé xem xét yêu cầu nghỉ phép.",
+        "level": 3,
+        "element_ids": [
+          "#/texts/313"
+        ]
+      },
+      {
+        "heading": "Kiểm tra thông tin yêu cầu nghỉ phép qua mail.",
+        "level": 3,
+        "element_ids": [
+          "#/texts/315"
+        ]
+      },
+      {
+        "heading": "_ Xem xét tình hình công việc và nhân sự của bộ phận.",
+        "level": 3,
+        "element_ids": [
+          "#/texts/316"
+        ]
+      },
+      {
+        "heading": "_ Thực hiện phê duyệt hoặc từ chối yêu cầu nghỉ phép.",
+        "level": 3,
+        "element_ids": [
+          "#/texts/317"
+        ]
+      },
+      {
+        "heading": "Thông báo kết qua chờ duyệt",
+        "level": 3,
+        "element_ids": [
+          "#/texts/318"
+        ]
+      },
+      {
+        "heading": "Két quả phê duyệt được cập nhật trên hệ thống email.",
+        "level": 3,
+        "element_ids": [
+          "#/texts/319"
+        ]
+      },
+      {
+        "heading": "Nhân viên nhận được email thông báo kết quả (được duyệt hoặc không được duyệt)",
+        "level": 3,
+        "element_ids": [
+          "#/texts/320"
+        ]
+      },
+      {
+        "heading": "Theo đõi dit liệu nghỉ phép website hệ thống",
+        "level": 3,
+        "element_ids": [
+          "#/texts/322"
+        ]
+      },
+      {
+        "heading": "_ Kiểm tra tính hợp lệ của yêu cầu nghỉ phép",
+        "level": 3,
+        "element_ids": [
+          "#/texts/323"
+        ]
+      },
+      {
+        "heading": "Cập nhật vào bảng quan lý ngày phép của nhân viên",
+        "level": 3,
+        "element_ids": [
+          "#/texts/324"
+        ]
+      },
+      {
+        "heading": "Phong nhân sự tiếp nhận thông tin và cập nhật vào bang cham công.",
+        "level": 3,
+        "element_ids": [
+          "#/texts/334"
+        ]
+      },
+      {
+        "heading": "Lưu hồ sơ",
+        "level": 3,
+        "element_ids": [
+          "#/texts/335"
+        ]
+      },
+      {
+        "heading": "Trường hợp không duyệt sẽ ghi rõ lý do dé người viết đơn nắm bắt.",
+        "level": 3,
+        "element_ids": [
+          "#/texts/310"
+        ]
+      },
+      {
+        "heading": "à",
+        "level": 3,
+        "element_ids": [
+          "#/texts/337"
+        ]
+      },
+      {
+        "heading": "3",
+        "level": 3,
+        "element_ids": [
+          "#/texts/338"
+        ]
+      },
+      {
+        "heading": "“7",
+        "level": 3,
+        "element_ids": [
+          "#/texts/340"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "element_id": "#/texts/1",
+        "type": "title",
+        "text": "Free)",
+        "page": 1,
+        "bbox": {
+          "left": 83.66666666666667,
+          "bottom": 796.6666666666666,
+          "right": 102.0,
+          "top": 810.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/3",
+        "type": "paragraph",
+        "text": "ep",
+        "page": 1,
+        "bbox": {
+          "left": 75.0,
+          "bottom": 777.6666666666666,
+          "right": 108.33333333333334,
+          "top": 802.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/4",
+        "type": "paragraph",
+        "text": "sat",
+        "page": 1,
+        "bbox": {
+          "left": 119.66666666666666,
+          "bottom": 784.3333333333334,
+          "right": 166.66666666666669,
+          "top": 802.0
+        }
+      },
+      {
+        "element_id": "#/texts/8",
+        "type": "paragraph",
+        "text": "1G",
+        "page": 1,
+        "bbox": {
+          "left": 562.6666666666666,
+          "bottom": 552.3333333333333,
+          "right": 571.3333333333334,
+          "top": 560.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/6",
+        "type": "paragraph",
+        "text": "[mm",
+        "page": 1,
+        "bbox": {
+          "left": 151.0,
+          "bottom": 332.6666666666667,
+          "right": 476.0,
+          "top": 364.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/12",
+        "type": "unknown",
+        "text": "đt",
+        "page": 2,
+        "bbox": {
+          "left": 73.0,
+          "bottom": 777.3333333333334,
+          "right": 99.0,
+          "top": 811.0
+        }
+      },
+      {
+        "element_id": "#/texts/13",
+        "type": "unknown",
+        "text": "nholiên chung",
+        "page": 2,
+        "bbox": {
+          "left": 103.33333333333334,
+          "bottom": 782.3333333333334,
+          "right": 177.66666666666669,
+          "top": 807.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/14",
+        "type": "unknown",
+        "text": "mã",
+        "page": 2,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 706.6666666666666,
+          "right": 183.0,
+          "top": 742.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/15",
+        "type": "unknown",
+        "text": "SOẠN THẢO",
+        "page": 2,
+        "bbox": {
+          "left": 247.66666666666666,
+          "bottom": 717.0,
+          "right": 318.33333333333337,
+          "top": 730.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/16",
+        "type": "unknown",
+        "text": "PHÊ DUYỆT",
+        "page": 2,
+        "bbox": {
+          "left": 437.3333333333333,
+          "bottom": 717.0,
+          "right": 505.3333333333333,
+          "top": 730.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/19",
+        "type": "unknown",
+        "text": "Tổng Giám Đốc",
+        "page": 2,
+        "bbox": {
+          "left": 430.6666666666667,
+          "bottom": 681.6666666666667,
+          "right": 511.0,
+          "top": 695.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/17",
+        "type": "unknown",
+        "text": "Chức danh",
+        "page": 2,
+        "bbox": {
+          "left": 107.0,
+          "bottom": 684.3333333333333,
+          "right": 162.66666666666669,
+          "top": 693.0
+        }
+      },
+      {
+        "element_id": "#/texts/18",
+        "type": "unknown",
+        "text": "Phòng HCNS",
+        "page": 2,
+        "bbox": {
+          "left": 249.0,
+          "bottom": 681.6666666666667,
+          "right": 317.0,
+          "top": 693.0
+        }
+      },
+      {
+        "element_id": "#/texts/20",
+        "type": "unknown",
+        "text": "7816834",
+        "page": 2,
+        "bbox": {
+          "left": 427.0,
+          "bottom": 657.6666666666667,
+          "right": 471.6666666666667,
+          "top": 666.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/31",
+        "type": "unknown",
+        "text": "7816834",
+        "page": 2,
+        "bbox": {
+          "left": 427.0,
+          "bottom": 657.6666666666667,
+          "right": 471.6666666666667,
+          "top": 666.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/22",
+        "type": "unknown",
+        "text": "(a",
+        "page": 2,
+        "bbox": {
+          "left": 250.33333333333334,
+          "bottom": 605.0,
+          "right": 340.0,
+          "top": 634.0
+        }
+      },
+      {
+        "element_id": "#/texts/38",
+        "type": "unknown",
+        "text": "(a",
+        "page": 2,
+        "bbox": {
+          "left": 250.33333333333334,
+          "bottom": 605.0,
+          "right": 340.0,
+          "top": 634.0
+        }
+      },
+      {
+        "element_id": "#/texts/21",
+        "type": "unknown",
+        "text": "Chữ ký",
+        "page": 2,
+        "bbox": {
+          "left": 117.33333333333334,
+          "bottom": 613.3333333333334,
+          "right": 152.33333333333331,
+          "top": 624.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/27",
+        "type": "unknown",
+        "text": "chữ phép",
+        "page": 2,
+        "bbox": {
+          "left": 404.0,
+          "bottom": 583.6666666666666,
+          "right": 475.3333333333333,
+          "top": 623.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/36",
+        "type": "unknown",
+        "text": "chữ phép",
+        "page": 2,
+        "bbox": {
+          "left": 404.0,
+          "bottom": 583.6666666666666,
+          "right": 475.3333333333333,
+          "top": 623.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/24",
+        "type": "unknown",
+        "text": "chữ ký",
+        "page": 2,
+        "bbox": {
+          "left": 413.6666666666667,
+          "bottom": 615.6666666666666,
+          "right": 426.3333333333333,
+          "top": 621.0
+        }
+      },
+      {
+        "element_id": "#/texts/33",
+        "type": "unknown",
+        "text": "chữ ký",
+        "page": 2,
+        "bbox": {
+          "left": 413.6666666666667,
+          "bottom": 615.6666666666666,
+          "right": 426.3333333333333,
+          "top": 621.0
+        }
+      },
+      {
+        "element_id": "#/texts/25",
+        "type": "unknown",
+        "text": "thông tin",
+        "page": 2,
+        "bbox": {
+          "left": 456.6666666666667,
+          "bottom": 613.3333333333334,
+          "right": 489.3333333333333,
+          "top": 621.0
+        }
+      },
+      {
+        "element_id": "#/texts/34",
+        "type": "unknown",
+        "text": "thông tin",
+        "page": 2,
+        "bbox": {
+          "left": 456.6666666666667,
+          "bottom": 613.3333333333334,
+          "right": 489.3333333333333,
+          "top": 621.0
+        }
+      },
+      {
+        "element_id": "#/texts/26",
+        "type": "unknown",
+        "text": "ô",
+        "page": 2,
+        "bbox": {
+          "left": 447.6666666666667,
+          "bottom": 599.0,
+          "right": 455.0,
+          "top": 605.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/35",
+        "type": "unknown",
+        "text": "ô",
+        "page": 2,
+        "bbox": {
+          "left": 447.6666666666667,
+          "bottom": 599.0,
+          "right": 455.0,
+          "top": 605.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/28",
+        "type": "unknown",
+        "text": "ô",
+        "page": 2,
+        "bbox": {
+          "left": 433.6666666666667,
+          "bottom": 575.0,
+          "right": 436.6666666666667,
+          "top": 579.0
+        }
+      },
+      {
+        "element_id": "#/texts/37",
+        "type": "unknown",
+        "text": "ô",
+        "page": 2,
+        "bbox": {
+          "left": 433.6666666666667,
+          "bottom": 575.0,
+          "right": 436.6666666666667,
+          "top": 579.0
+        }
+      },
+      {
+        "element_id": "#/texts/29",
+        "type": "unknown",
+        "text": "Đường Thị Châu",
+        "page": 2,
+        "bbox": {
+          "left": 229.0,
+          "bottom": 547.6666666666666,
+          "right": 336.3333333333333,
+          "top": 561.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/30",
+        "type": "unknown",
+        "text": "Hồ Vi Đại Nghĩa",
+        "page": 2,
+        "bbox": {
+          "left": 419.6666666666667,
+          "bottom": 548.0,
+          "right": 521.6666666666667,
+          "top": 561.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/39",
+        "type": "unknown",
+        "text": "Phân Thêo Đổi Sửa Đổi",
+        "page": 2,
+        "bbox": {
+          "left": 225.0,
+          "bottom": 488.6666666666667,
+          "right": 398.6666666666667,
+          "top": 501.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/49",
+        "type": "unknown",
+        "text": "hồ",
+        "page": 2,
+        "bbox": {
+          "left": 504.0,
+          "bottom": 414.3333333333333,
+          "right": 516.3333333333333,
+          "top": 424.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/42",
+        "type": "unknown",
+        "text": "đôi",
+        "page": 2,
+        "bbox": {
+          "left": 270.66666666666663,
+          "bottom": 413.6666666666667,
+          "right": 283.66666666666663,
+          "top": 423.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/48",
+        "type": "unknown",
+        "text": "thị",
+        "page": 2,
+        "bbox": {
+          "left": 467.3333333333333,
+          "bottom": 413.0,
+          "right": 481.6666666666667,
+          "top": 422.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/50",
+        "type": "unknown",
+        "text": "vi",
+        "page": 2,
+        "bbox": {
+          "left": 520.0,
+          "bottom": 414.6666666666667,
+          "right": 528.6666666666667,
+          "top": 422.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/51",
+        "type": "unknown",
+        "text": "đại",
+        "page": 2,
+        "bbox": {
+          "left": 532.6666666666667,
+          "bottom": 414.6666666666667,
+          "right": 547.3333333333333,
+          "top": 422.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/46",
+        "type": "unknown",
+        "text": "trình",
+        "page": 2,
+        "bbox": {
+          "left": 341.6666666666667,
+          "bottom": 414.3333333333333,
+          "right": 361.6666666666667,
+          "top": 422.0
+        }
+      },
+      {
+        "element_id": "#/texts/47",
+        "type": "unknown",
+        "text": "đường",
+        "page": 2,
+        "bbox": {
+          "left": 434.6666666666667,
+          "bottom": 414.3333333333333,
+          "right": 458.6666666666667,
+          "top": 422.0
+        }
+      },
+      {
+        "element_id": "#/texts/41",
+        "type": "unknown",
+        "text": "sửa",
+        "page": 2,
+        "bbox": {
+          "left": 251.33333333333334,
+          "bottom": 413.6666666666667,
+          "right": 267.66666666666663,
+          "top": 421.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/44",
+        "type": "unknown",
+        "text": "v",
+        "page": 2,
+        "bbox": {
+          "left": 309.33333333333337,
+          "bottom": 414.3333333333333,
+          "right": 316.33333333333337,
+          "top": 421.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/56",
+        "type": "unknown",
+        "text": "quy",
+        "page": 2,
+        "bbox": {
+          "left": 320.0,
+          "bottom": 411.6666666666667,
+          "right": 338.3333333333333,
+          "top": 421.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/43",
+        "type": "unknown",
+        "text": "mục",
+        "page": 2,
+        "bbox": {
+          "left": 287.66666666666663,
+          "bottom": 413.6666666666667,
+          "right": 305.66666666666663,
+          "top": 419.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/55",
+        "type": "unknown",
+        "text": "v",
+        "page": 2,
+        "bbox": {
+          "left": 296.0,
+          "bottom": 412.3333333333333,
+          "right": 301.0,
+          "top": 419.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/45",
+        "type": "unknown",
+        "text": "quy",
+        "page": 2,
+        "bbox": {
+          "left": 327.66666666666663,
+          "bottom": 414.0,
+          "right": 333.0,
+          "top": 419.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/40",
+        "type": "unknown",
+        "text": "5",
+        "page": 2,
+        "bbox": {
+          "left": 139.66666666666669,
+          "bottom": 413.0,
+          "right": 141.0,
+          "top": 414.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/54",
+        "type": "unknown",
+        "text": "16/04/2026",
+        "page": 2,
+        "bbox": {
+          "left": 189.33333333333331,
+          "bottom": 402.0,
+          "right": 237.0,
+          "top": 413.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/52",
+        "type": "unknown",
+        "text": "lần",
+        "page": 2,
+        "bbox": {
+          "left": 132.33333333333334,
+          "bottom": 404.3333333333333,
+          "right": 148.0,
+          "top": 412.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/57",
+        "type": "unknown",
+        "text": "5",
+        "page": 2,
+        "bbox": {
+          "left": 396.6666666666667,
+          "bottom": 404.6666666666667,
+          "right": 401.0,
+          "top": 412.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/62",
+        "type": "unknown",
+        "text": "nghĩa",
+        "page": 2,
+        "bbox": {
+          "left": 512.6666666666667,
+          "bottom": 393.3333333333333,
+          "right": 539.0,
+          "top": 403.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/61",
+        "type": "unknown",
+        "text": "châu",
+        "page": 2,
+        "bbox": {
+          "left": 446.6666666666667,
+          "bottom": 395.3333333333333,
+          "right": 469.3333333333333,
+          "top": 403.0
+        }
+      },
+      {
+        "element_id": "#/texts/59",
+        "type": "unknown",
+        "text": "ghi",
+        "page": 2,
+        "bbox": {
+          "left": 256.66666666666663,
+          "bottom": 392.6666666666667,
+          "right": 269.66666666666663,
+          "top": 402.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/60",
+        "type": "unknown",
+        "text": "phép",
+        "page": 2,
+        "bbox": {
+          "left": 273.33333333333337,
+          "bottom": 392.6666666666667,
+          "right": 294.33333333333337,
+          "top": 402.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/66",
+        "type": "unknown",
+        "text": "ree)",
+        "page": 3,
+        "bbox": {
+          "left": 83.0,
+          "bottom": 789.0,
+          "right": 100.66666666666666,
+          "top": 803.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/67",
+        "type": "unknown",
+        "text": "nhattienchung,",
+        "page": 3,
+        "bbox": {
+          "left": 104.0,
+          "bottom": 786.3333333333334,
+          "right": 160.0,
+          "top": 800.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/68",
+        "type": "unknown",
+        "text": "vn",
+        "page": 3,
+        "bbox": {
+          "left": 166.66666666666669,
+          "bottom": 786.6666666666666,
+          "right": 179.0,
+          "top": 795.0
+        }
+      },
+      {
+        "element_id": "#/texts/69",
+        "type": "unknown",
+        "text": "MỤC LỤC",
+        "page": 3,
+        "bbox": {
+          "left": 276.33333333333337,
+          "bottom": 694.3333333333334,
+          "right": 350.6666666666667,
+          "top": 709.0
+        }
+      },
+      {
+        "element_id": "#/texts/71",
+        "type": "unknown",
+        "text": "PP\"...",
+        "page": 3,
+        "bbox": {
+          "left": 116.66666666666666,
+          "bottom": 675.6666666666666,
+          "right": 161.66666666666669,
+          "top": 690.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/72",
+        "type": "unknown",
+        "text": "cc—~——iiziksiiirsr=siricoiksscgogiisSGGaggtgsxAayvdtxxskscocoi",
+        "page": 3,
+        "bbox": {
+          "left": 162.33333333333331,
+          "bottom": 679.0,
+          "right": 554.0,
+          "top": 689.0
+        }
+      },
+      {
+        "element_id": "#/texts/70",
+        "type": "unknown",
+        "text": "I1",
+        "page": 3,
+        "bbox": {
+          "left": 73.0,
+          "bottom": 677.0,
+          "right": 108.0,
+          "top": 686.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/74",
+        "type": "unknown",
+        "text": "TT",
+        "page": 3,
+        "bbox": {
+          "left": 138.33333333333331,
+          "bottom": 664.0,
+          "right": 152.33333333333331,
+          "top": 673.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/81",
+        "type": "unknown",
+        "text": "a",
+        "page": 3,
+        "bbox": {
+          "left": 536.6666666666667,
+          "bottom": 664.0,
+          "right": 554.0,
+          "top": 672.0
+        }
+      },
+      {
+        "element_id": "#/texts/73",
+        "type": "unknown",
+        "text": "HN",
+        "page": 3,
+        "bbox": {
+          "left": 73.0,
+          "bottom": 661.3333333333334,
+          "right": 119.33333333333334,
+          "top": 671.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/80",
+        "type": "unknown",
+        "text": "Scorn",
+        "page": 3,
+        "bbox": {
+          "left": 476.6666666666667,
+          "bottom": 664.0,
+          "right": 528.0,
+          "top": 666.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/76",
+        "type": "unknown",
+        "text": "nn",
+        "page": 3,
+        "bbox": {
+          "left": 222.33333333333334,
+          "bottom": 663.6666666666666,
+          "right": 283.66666666666663,
+          "top": 666.0
+        }
+      },
+      {
+        "element_id": "#/texts/77",
+        "type": "unknown",
+        "text": "ce",
+        "page": 3,
+        "bbox": {
+          "left": 296.33333333333337,
+          "bottom": 664.0,
+          "right": 313.33333333333337,
+          "top": 666.0
+        }
+      },
+      {
+        "element_id": "#/texts/78",
+        "type": "unknown",
+        "text": "ee",
+        "page": 3,
+        "bbox": {
+          "left": 322.0,
+          "bottom": 664.0,
+          "right": 357.6666666666667,
+          "top": 666.0
+        }
+      },
+      {
+        "element_id": "#/texts/79",
+        "type": "unknown",
+        "text": "a",
+        "page": 3,
+        "bbox": {
+          "left": 393.6666666666667,
+          "bottom": 664.0,
+          "right": 434.6666666666667,
+          "top": 666.0
+        }
+      },
+      {
+        "element_id": "#/texts/85",
+        "type": "unknown",
+        "text": "IN",
+        "page": 3,
+        "bbox": {
+          "left": 199.0,
+          "bottom": 644.3333333333333,
+          "right": 206.66666666666666,
+          "top": 659.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/86",
+        "type": "unknown",
+        "text": "GO",
+        "page": 3,
+        "bbox": {
+          "left": 210.33333333333334,
+          "bottom": 644.3333333333333,
+          "right": 220.66666666666666,
+          "top": 659.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/88",
+        "type": "unknown",
+        "text": "sss",
+        "page": 3,
+        "bbox": {
+          "left": 361.6666666666667,
+          "bottom": 644.3333333333333,
+          "right": 414.3333333333333,
+          "top": 659.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/89",
+        "type": "unknown",
+        "text": "A",
+        "page": 3,
+        "bbox": {
+          "left": 455.3333333333333,
+          "bottom": 644.3333333333333,
+          "right": 463.0,
+          "top": 659.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/90",
+        "type": "unknown",
+        "text": "SN",
+        "page": 3,
+        "bbox": {
+          "left": 466.6666666666667,
+          "bottom": 644.3333333333333,
+          "right": 476.6666666666667,
+          "top": 659.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/91",
+        "type": "unknown",
+        "text": "Raa",
+        "page": 3,
+        "bbox": {
+          "left": 484.0,
+          "bottom": 644.3333333333333,
+          "right": 511.6666666666667,
+          "top": 659.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/92",
+        "type": "unknown",
+        "text": "AE",
+        "page": 3,
+        "bbox": {
+          "left": 530.3333333333333,
+          "bottom": 644.3333333333333,
+          "right": 555.6666666666667,
+          "top": 659.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/83",
+        "type": "unknown",
+        "text": "KHAILNEM,",
+        "page": 3,
+        "bbox": {
+          "left": 91.33333333333333,
+          "bottom": 645.6666666666667,
+          "right": 155.33333333333331,
+          "top": 658.0
+        }
+      },
+      {
+        "element_id": "#/texts/87",
+        "type": "unknown",
+        "text": "isssscscaaazccamascscxceacasoncnana",
+        "page": 3,
+        "bbox": {
+          "left": 217.66666666666666,
+          "bottom": 648.3333333333333,
+          "right": 554.0,
+          "top": 658.0
+        }
+      },
+      {
+        "element_id": "#/texts/84",
+        "type": "unknown",
+        "text": "THUẬT",
+        "page": 3,
+        "bbox": {
+          "left": 158.33333333333331,
+          "bottom": 646.0,
+          "right": 197.33333333333334,
+          "top": 657.0
+        }
+      },
+      {
+        "element_id": "#/texts/82",
+        "type": "unknown",
+        "text": "TUT:",
+        "page": 3,
+        "bbox": {
+          "left": 73.0,
+          "bottom": 647.6666666666667,
+          "right": 87.66666666666667,
+          "top": 655.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/97",
+        "type": "unknown",
+        "text": "NGH",
+        "page": 3,
+        "bbox": {
+          "left": 182.66666666666669,
+          "bottom": 628.6666666666667,
+          "right": 201.33333333333334,
+          "top": 644.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/94",
+        "type": "unknown",
+        "text": "CÁC",
+        "page": 3,
+        "bbox": {
+          "left": 89.0,
+          "bottom": 632.3333333333333,
+          "right": 112.0,
+          "top": 642.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/96",
+        "type": "unknown",
+        "text": "NGÀY",
+        "page": 3,
+        "bbox": {
+          "left": 146.66666666666669,
+          "bottom": 632.3333333333333,
+          "right": 178.33333333333331,
+          "top": 642.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/98",
+        "type": "unknown",
+        "text": "Loucccccssssssessessssessecssssseeeecssnneessssennneeecesssneesessssnusesessnuueessssunessessnnneesssssnnusessessnneesessned",
+        "page": 3,
+        "bbox": {
+          "left": 198.66666666666666,
+          "bottom": 632.6666666666667,
+          "right": 554.0,
+          "top": 642.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/95",
+        "type": "unknown",
+        "text": "LOẠI",
+        "page": 3,
+        "bbox": {
+          "left": 116.0,
+          "bottom": 630.0,
+          "right": 142.66666666666669,
+          "top": 640.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/93",
+        "type": "unknown",
+        "text": "TV.",
+        "page": 3,
+        "bbox": {
+          "left": 73.33333333333333,
+          "bottom": 632.3333333333333,
+          "right": 85.66666666666667,
+          "top": 640.0
+        }
+      },
+      {
+        "element_id": "#/texts/102",
+        "type": "unknown",
+        "text": "nĂm:.....................cecosoceeosoeoeeooGoonociLDEG.G00042000066003066080360004009006000306000204090940966666603060900g00001036301-",
+        "page": 3,
+        "bbox": {
+          "left": 161.66666666666669,
+          "bottom": 616.6666666666667,
+          "right": 554.0,
+          "top": 625.0
+        }
+      },
+      {
+        "element_id": "#/texts/100",
+        "type": "unknown",
+        "text": "Nghĩ",
+        "page": 3,
+        "bbox": {
+          "left": 110.33333333333334,
+          "bottom": 614.6666666666667,
+          "right": 132.0,
+          "top": 624.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/101",
+        "type": "unknown",
+        "text": "phép",
+        "page": 3,
+        "bbox": {
+          "left": 135.33333333333331,
+          "bottom": 614.3333333333333,
+          "right": 158.0,
+          "top": 624.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/99",
+        "type": "unknown",
+        "text": "4.1.",
+        "page": 3,
+        "bbox": {
+          "left": 90.33333333333333,
+          "bottom": 616.6666666666667,
+          "right": 106.33333333333334,
+          "top": 624.0
+        }
+      },
+      {
+        "element_id": "#/texts/106",
+        "type": "unknown",
+        "text": "Ế(:..........................-es<22445SSO2244959E9244699999503469999995846990903984999990446999900884655900804ssoesoovsessorooessessoooe",
+        "page": 3,
+        "bbox": {
+          "left": 146.0,
+          "bottom": 601.0,
+          "right": 546.3333333333333,
+          "top": 611.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/105",
+        "type": "unknown",
+        "text": "lỄ",
+        "page": 3,
+        "bbox": {
+          "left": 135.33333333333331,
+          "bottom": 601.0,
+          "right": 142.66666666666669,
+          "top": 611.0
+        }
+      },
+      {
+        "element_id": "#/texts/107",
+        "type": "unknown",
+        "text": "3",
+        "page": 3,
+        "bbox": {
+          "left": 549.0,
+          "bottom": 601.3333333333333,
+          "right": 554.0,
+          "top": 609.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/103",
+        "type": "unknown",
+        "text": "4.2.",
+        "page": 3,
+        "bbox": {
+          "left": 90.66666666666667,
+          "bottom": 601.0,
+          "right": 106.33333333333334,
+          "top": 609.0
+        }
+      },
+      {
+        "element_id": "#/texts/104",
+        "type": "unknown",
+        "text": "Nghi",
+        "page": 3,
+        "bbox": {
+          "left": 110.0,
+          "bottom": 598.6666666666667,
+          "right": 131.66666666666669,
+          "top": 609.0
+        }
+      },
+      {
+        "element_id": "#/texts/113",
+        "type": "unknown",
+        "text": "DIR",
+        "page": 3,
+        "bbox": {
+          "left": 207.33333333333334,
+          "bottom": 583.3333333333334,
+          "right": 224.0,
+          "top": 593.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/110",
+        "type": "unknown",
+        "text": "trường",
+        "page": 3,
+        "bbox": {
+          "left": 131.0,
+          "bottom": 583.0,
+          "right": 163.66666666666669,
+          "top": 593.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/115",
+        "type": "unknown",
+        "text": "4",
+        "page": 3,
+        "bbox": {
+          "left": 549.0,
+          "bottom": 585.6666666666666,
+          "right": 554.3333333333333,
+          "top": 593.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/108",
+        "type": "unknown",
+        "text": "4.3.",
+        "page": 3,
+        "bbox": {
+          "left": 90.66666666666667,
+          "bottom": 585.0,
+          "right": 106.66666666666666,
+          "top": 593.0
+        }
+      },
+      {
+        "element_id": "#/texts/109",
+        "type": "unknown",
+        "text": "Các",
+        "page": 3,
+        "bbox": {
+          "left": 110.0,
+          "bottom": 585.3333333333334,
+          "right": 127.66666666666667,
+          "top": 593.0
+        }
+      },
+      {
+        "element_id": "#/texts/111",
+        "type": "unknown",
+        "text": "hợp",
+        "page": 3,
+        "bbox": {
+          "left": 167.0,
+          "bottom": 583.0,
+          "right": 184.33333333333331,
+          "top": 593.0
+        }
+      },
+      {
+        "element_id": "#/texts/112",
+        "type": "unknown",
+        "text": "đặc",
+        "page": 3,
+        "bbox": {
+          "left": 187.66666666666669,
+          "bottom": 583.3333333333334,
+          "right": 204.0,
+          "top": 593.0
+        }
+      },
+      {
+        "element_id": "#/texts/114",
+        "type": "unknown",
+        "text": "sscsssesssscsssssescssossosesecosecssseceonsasesesenensetensavesionsesenasasisenessssesssssssasesssncssssseccosee",
+        "page": 3,
+        "bbox": {
+          "left": 225.33333333333334,
+          "bottom": 585.6666666666666,
+          "right": 546.6666666666667,
+          "top": 591.0
+        }
+      },
+      {
+        "element_id": "#/texts/117",
+        "type": "unknown",
+        "text": "0",
+        "page": 3,
+        "bbox": {
+          "left": 137.66666666666669,
+          "bottom": 566.0,
+          "right": 152.0,
+          "top": 581.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/116",
+        "type": "unknown",
+        "text": "May",
+        "page": 3,
+        "bbox": {
+          "left": 72.66666666666667,
+          "bottom": 567.6666666666666,
+          "right": 147.0,
+          "top": 580.0
+        }
+      },
+      {
+        "element_id": "#/texts/118",
+        "type": "unknown",
+        "text": "on",
+        "page": 3,
+        "bbox": {
+          "left": 151.0,
+          "bottom": 570.0,
+          "right": 179.0,
+          "top": 580.0
+        }
+      },
+      {
+        "element_id": "#/texts/119",
+        "type": "unknown",
+        "text": "ẽẽẽẽ............... ",
+        "page": 3,
+        "bbox": {
+          "left": 183.33333333333331,
+          "bottom": 569.6666666666666,
+          "right": 554.3333333333333,
+          "top": 580.0
+        }
+      },
+      {
+        "element_id": "#/texts/123",
+        "type": "unknown",
+        "text": "ee",
+        "page": 3,
+        "bbox": {
+          "left": 443.0,
+          "bottom": 550.3333333333334,
+          "right": 502.0,
+          "top": 566.0
+        }
+      },
+      {
+        "element_id": "#/texts/124",
+        "type": "unknown",
+        "text": "ae",
+        "page": 3,
+        "bbox": {
+          "left": 505.6666666666667,
+          "bottom": 550.3333333333334,
+          "right": 549.0,
+          "top": 566.0
+        }
+      },
+      {
+        "element_id": "#/texts/121",
+        "type": "unknown",
+        "text": "2",
+        "page": 3,
+        "bbox": {
+          "left": 146.66666666666669,
+          "bottom": 554.3333333333334,
+          "right": 207.0,
+          "top": 564.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/120",
+        "type": "unknown",
+        "text": "CD",
+        "page": 3,
+        "bbox": {
+          "left": 90.66666666666667,
+          "bottom": 554.0,
+          "right": 129.0,
+          "top": 562.0
+        }
+      },
+      {
+        "element_id": "#/texts/122",
+        "type": "unknown",
+        "text": "ee",
+        "page": 3,
+        "bbox": {
+          "left": 208.0,
+          "bottom": 554.3333333333334,
+          "right": 554.3333333333333,
+          "top": 562.0
+        }
+      },
+      {
+        "element_id": "#/texts/129",
+        "type": "unknown",
+        "text": "ey",
+        "page": 3,
+        "bbox": {
+          "left": 447.6666666666667,
+          "bottom": 535.0,
+          "right": 550.0,
+          "top": 552.0
+        }
+      },
+      {
+        "element_id": "#/texts/145",
+        "type": "unknown",
+        "text": "mr",
+        "page": 3,
+        "bbox": {
+          "left": 576.6666666666666,
+          "bottom": 547.6666666666666,
+          "right": 592.0,
+          "top": 550.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/126",
+        "type": "unknown",
+        "text": "a)",
+        "page": 3,
+        "bbox": {
+          "left": 124.66666666666666,
+          "bottom": 536.3333333333334,
+          "right": 142.66666666666669,
+          "top": 548.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/125",
+        "type": "unknown",
+        "text": "Ee",
+        "page": 3,
+        "bbox": {
+          "left": 90.66666666666667,
+          "bottom": 538.3333333333334,
+          "right": 106.66666666666666,
+          "top": 546.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/128",
+        "type": "unknown",
+        "text": "ee",
+        "page": 3,
+        "bbox": {
+          "left": 149.0,
+          "bottom": 538.6666666666666,
+          "right": 554.3333333333333,
+          "top": 546.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/146",
+        "type": "unknown",
+        "text": "aut",
+        "page": 3,
+        "bbox": {
+          "left": 575.0,
+          "bottom": 520.3333333333334,
+          "right": 592.0,
+          "top": 539.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/139",
+        "type": "unknown",
+        "text": "QUYEN",
+        "page": 3,
+        "bbox": {
+          "left": 318.0,
+          "bottom": 521.6666666666666,
+          "right": 356.6666666666667,
+          "top": 533.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/133",
+        "type": "unknown",
+        "text": "THỜI",
+        "page": 3,
+        "bbox": {
+          "left": 149.0,
+          "bottom": 523.0,
+          "right": 176.66666666666669,
+          "top": 533.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/136",
+        "type": "unknown",
+        "text": "NGHĨ",
+        "page": 3,
+        "bbox": {
+          "left": 235.33333333333334,
+          "bottom": 523.3333333333334,
+          "right": 263.33333333333337,
+          "top": 533.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/137",
+        "type": "unknown",
+        "text": "PHÉP",
+        "page": 3,
+        "bbox": {
+          "left": 267.33333333333337,
+          "bottom": 523.3333333333334,
+          "right": 296.0,
+          "top": 533.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/138",
+        "type": "unknown",
+        "text": "VA",
+        "page": 3,
+        "bbox": {
+          "left": 299.0,
+          "bottom": 523.3333333333334,
+          "right": 314.0,
+          "top": 533.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/141",
+        "type": "unknown",
+        "text": "PHÊ",
+        "page": 3,
+        "bbox": {
+          "left": 388.3333333333333,
+          "bottom": 523.3333333333334,
+          "right": 409.3333333333333,
+          "top": 533.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/143",
+        "type": "unknown",
+        "text": "NGHỈ",
+        "page": 3,
+        "bbox": {
+          "left": 454.6666666666667,
+          "bottom": 523.0,
+          "right": 482.6666666666667,
+          "top": 533.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/144",
+        "type": "unknown",
+        "text": "PHÉP............6",
+        "page": 3,
+        "bbox": {
+          "left": 486.6666666666667,
+          "bottom": 523.0,
+          "right": 554.3333333333333,
+          "top": 533.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/142",
+        "type": "unknown",
+        "text": "DUYET",
+        "page": 3,
+        "bbox": {
+          "left": 413.3333333333333,
+          "bottom": 521.0,
+          "right": 450.6666666666667,
+          "top": 532.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/140",
+        "type": "unknown",
+        "text": "HAN",
+        "page": 3,
+        "bbox": {
+          "left": 360.6666666666667,
+          "bottom": 521.3333333333334,
+          "right": 383.6666666666667,
+          "top": 531.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/132",
+        "type": "unknown",
+        "text": "ĐỊNH",
+        "page": 3,
+        "bbox": {
+          "left": 117.33333333333334,
+          "bottom": 521.0,
+          "right": 145.33333333333331,
+          "top": 531.0
+        }
+      },
+      {
+        "element_id": "#/texts/134",
+        "type": "unknown",
+        "text": "GIAN",
+        "page": 3,
+        "bbox": {
+          "left": 180.66666666666669,
+          "bottom": 523.3333333333334,
+          "right": 208.33333333333334,
+          "top": 531.0
+        }
+      },
+      {
+        "element_id": "#/texts/135",
+        "type": "unknown",
+        "text": "XIN",
+        "page": 3,
+        "bbox": {
+          "left": 212.33333333333334,
+          "bottom": 523.3333333333334,
+          "right": 231.0,
+          "top": 531.0
+        }
+      },
+      {
+        "element_id": "#/texts/130",
+        "type": "unknown",
+        "text": "VI.",
+        "page": 3,
+        "bbox": {
+          "left": 73.0,
+          "bottom": 523.0,
+          "right": 87.0,
+          "top": 530.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/131",
+        "type": "unknown",
+        "text": "QUY",
+        "page": 3,
+        "bbox": {
+          "left": 90.33333333333333,
+          "bottom": 521.0,
+          "right": 114.0,
+          "top": 530.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/147",
+        "type": "unknown",
+        "text": "cM",
+        "page": 3,
+        "bbox": {
+          "left": 574.3333333333334,
+          "bottom": 508.0,
+          "right": 592.0,
+          "top": 527.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/148",
+        "type": "unknown",
+        "text": "rT",
+        "page": 3,
+        "bbox": {
+          "left": 575.3333333333334,
+          "bottom": 491.33333333333337,
+          "right": 592.0,
+          "top": 505.0
+        }
+      },
+      {
+        "element_id": "#/texts/152",
+        "type": "unknown",
+        "text": "NTO",
+        "page": 4,
+        "bbox": {
+          "left": 76.33333333333333,
+          "bottom": 778.6666666666666,
+          "right": 100.0,
+          "top": 805.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/154",
+        "type": "unknown",
+        "text": "LOM",
+        "page": 4,
+        "bbox": {
+          "left": 72.66666666666667,
+          "bottom": 770.6666666666666,
+          "right": 91.33333333333333,
+          "top": 785.0
+        }
+      },
+      {
+        "element_id": "#/texts/155",
+        "type": "unknown",
+        "text": "810606",
+        "page": 4,
+        "bbox": {
+          "left": 104.66666666666666,
+          "bottom": 775.3333333333334,
+          "right": 135.33333333333331,
+          "top": 779.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/156",
+        "type": "unknown",
+        "text": "nón",
+        "page": 4,
+        "bbox": {
+          "left": 146.66666666666669,
+          "bottom": 778.6666666666666,
+          "right": 150.33333333333331,
+          "top": 779.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/157",
+        "type": "unknown",
+        "text": "cin",
+        "page": 4,
+        "bbox": {
+          "left": 168.0,
+          "bottom": 775.6666666666666,
+          "right": 176.33333333333331,
+          "top": 779.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/151",
+        "type": "unknown",
+        "text": "Quy trình, quy định quản lý nghỉ phép",
+        "page": 4,
+        "bbox": {
+          "left": 382.3333333333333,
+          "bottom": 765.6666666666666,
+          "right": 550.3333333333333,
+          "top": 778.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/158",
+        "type": "unknown",
+        "text": "|. MỤC DICH",
+        "page": 4,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 738.3333333333334,
+          "right": 169.33333333333331,
+          "top": 752.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/159",
+        "type": "unknown",
+        "text": "Quy trình này được ban hành nhằm:",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 722.6666666666666,
+          "right": 256.66666666666663,
+          "top": 736.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/160",
+        "type": "unknown",
+        "text": "Hướng dan cho nhân viên hiểu và thực hiện đúng nội quy Công ty.",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 706.6666666666667,
+          "right": 418.3333333333333,
+          "top": 720.0
+        }
+      },
+      {
+        "element_id": "#/texts/161",
+        "type": "unknown",
+        "text": "Nang cao kỷ luật Công ty.",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 691.0,
+          "right": 223.66666666666666,
+          "top": 702.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/162",
+        "type": "unknown",
+        "text": "Xây dựng căn cứ cho việc cham công, trên cơ sở đó có thé tính lương một cách chính xác.",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 675.0,
+          "right": 530.6666666666667,
+          "top": 689.0
+        }
+      },
+      {
+        "element_id": "#/texts/163",
+        "type": "unknown",
+        "text": "Giải quyết các trường hợp nghỉ phép, nghỉ việc riêng cho cán bộ - công nhân viên (CB-CNV) đảm bảo đúng quy định của luật lao động và quy chế/điều lệ hoạt động của Công ty.",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 643.3333333333334,
+          "right": 551.3333333333333,
+          "top": 673.0
+        }
+      },
+      {
+        "element_id": "#/texts/164",
+        "type": "unknown",
+        "text": "Il. PHAM VI ÁP DỤNG",
+        "page": 4,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 621.6666666666666,
+          "right": 226.0,
+          "top": 636.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/165",
+        "type": "unknown",
+        "text": "Ap dụng cho việc giải quyết các trường hợp xin nghỉ phép, nghỉ việc riêng trong phạm vi tại Công ty.",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 589.6666666666666,
+          "right": 551.6666666666667,
+          "top": 619.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/166",
+        "type": "unknown",
+        "text": "IH. KHÁI NIEM, THUẬT NGỮ",
+        "page": 4,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 568.6666666666666,
+          "right": 266.66666666666663,
+          "top": 583.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/167",
+        "type": "unknown",
+        "text": "Người quản lý trực tiếp: Được hiéu là người trực tiếp quản lý người lao động.",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 552.3333333333333,
+          "right": 479.6666666666667,
+          "top": 566.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/168",
+        "type": "unknown",
+        "text": "Hệ thống cham công của Công ty: Công ty cham công bằng cách ghi nhận dữ liệu ra/vào tại hệ thống nhận điện khuôn mặt hoặc cham công bằng vân tay được lắp tại cửa ra vào các văn phòng và chỉ tiết quy trình xem tại hướng dẫn phía dưới.",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 504.6666666666667,
+          "right": 551.0,
+          "top": 550.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/169",
+        "type": "unknown",
+        "text": "Iv. CÁC LOẠI NGÀY NGHĨ",
+        "page": 4,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 483.6666666666667,
+          "right": 250.0,
+          "top": 498.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/170",
+        "type": "unknown",
+        "text": "4.1. Nghỉ phép năm:",
+        "page": 4,
+        "bbox": {
+          "left": 84.66666666666667,
+          "bottom": 462.6666666666667,
+          "right": 193.33333333333334,
+          "top": 474.0
+        }
+      },
+      {
+        "element_id": "#/texts/171",
+        "type": "unknown",
+        "text": "Chế độ phép năm của Người lao động được quy định như sau:",
+        "page": 4,
+        "bbox": {
+          "left": 85.0,
+          "bottom": 447.0,
+          "right": 397.3333333333333,
+          "top": 460.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/172",
+        "type": "unknown",
+        "text": "Số ngày phép là 12 ngày/năm (bình quân là 01 ngày/tháng), áp dụng đối với nhân viên đã ký hợp đồng lao động chính thức, có thời gian làm việc đủ 12 tháng trong năm.",
+        "page": 4,
+        "bbox": {
+          "left": 85.0,
+          "bottom": 415.0,
+          "right": 551.3333333333333,
+          "top": 445.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/173",
+        "type": "unknown",
+        "text": "Đối với nhân viên làm không đủ năm: Căn cứ theo thời gian thực tế làm việc dé tính ngày phép trong năm theo nguyên tắc hưởng 01 ngày phép/01 tháng làm việc.",
+        "page": 4,
+        "bbox": {
+          "left": 85.0,
+          "bottom": 383.6666666666667,
+          "right": 551.6666666666667,
+          "top": 414.0
+        }
+      },
+      {
+        "element_id": "#/texts/174",
+        "type": "unknown",
+        "text": "Đối với nhân viên thử việc nếu ký hợp đồng chính thức sẽ được cộng số phép trong thời thử việc với điều kiện (Nhân viên bắt đầu làm việc trước ngày 15 của tháng sẽ được tính 01 ngày phép cho tháng đó. Nhân viên bắt đầu làm việc sau ngày 15 của tháng sẽ được tinh 0,5 ngày phép cho tháng đó).",
+        "page": 4,
+        "bbox": {
+          "left": 85.0,
+          "bottom": 320.33333333333326,
+          "right": 552.0,
+          "top": 382.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/175",
+        "type": "unknown",
+        "text": "Số ngày phép trên không áp dụng đối với nhân viên ký đạng hợp đồng thử việc, hợp đồng part-time, hợp đồng lao động thời vụ, hợp đồng cộng tác viên.",
+        "page": 4,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 288.66666666666663,
+          "right": 551.6666666666667,
+          "top": 319.66666666666674
+        }
+      },
+      {
+        "element_id": "#/texts/176",
+        "type": "unknown",
+        "text": "Đối với nhân viên có thâm niên công tác liên tục tại Công ty từ 5 năm trở lên thì cứ mỗi 5 năm công tác sẽ được hưởng thêm 01 ngày phép.",
+        "page": 4,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 257.0,
+          "right": 551.0,
+          "top": 287.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/177",
+        "type": "unknown",
+        "text": "CBNV chỉ được đăng ký và sử dụng số ngày phép đã được tích lũy tại thời điểm đề nghị. Không áp dụng hình thức ứng trước ngày nghỉ phép đưới bat kỳ trường hợp nào.",
+        "page": 4,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 225.0,
+          "right": 551.6666666666667,
+          "top": 256.0
+        }
+      },
+      {
+        "element_id": "#/texts/178",
+        "type": "unknown",
+        "text": "Thời gian tính phép trong năm: Từ ngày 1/1 đến hết ngày 31/12 của năm. Sau ngày 31/12 của năm số phép sẽ bị hủy bỏ, người lao động can sử dụng ngày phép trước ngày 1/1 hàng năm theo quy định hiện tại của Công ty.",
+        "page": 4,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 177.66666666666663,
+          "right": 552.0,
+          "top": 223.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/179",
+        "type": "unknown",
+        "text": "4.2. Nghĩ lễ tết:",
+        "page": 4,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 157.66666666666663,
+          "right": 168.0,
+          "top": 171.0
+        }
+      },
+      {
+        "element_id": "#/texts/180",
+        "type": "unknown",
+        "text": "Hằng năm, người lao động được nghỉ làm việc, hưởng nguyên lương những ngày lễ theo quy định chung của Nhà nước.",
+        "page": 4,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 128.33333333333337,
+          "right": 552.0,
+          "top": 158.0
+        }
+      },
+      {
+        "element_id": "#/texts/181",
+        "type": "unknown",
+        "text": "Tết Dương lịch: 01 ngày (01/01)",
+        "page": 4,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 112.66666666666663,
+          "right": 256.0,
+          "top": 126.0
+        }
+      },
+      {
+        "element_id": "#/texts/182",
+        "type": "unknown",
+        "text": "Tết Âm lịch: 05 ngày",
+        "page": 4,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 97.0,
+          "right": 202.33333333333334,
+          "top": 110.66666666666663
+        }
+      },
+      {
+        "element_id": "#/texts/183",
+        "type": "unknown",
+        "text": "Giỗ Tổ Hùng Vương: 01 ngày (10/03 âm lich)",
+        "page": 4,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 81.66666666666663,
+          "right": 321.6666666666667,
+          "top": 95.0
+        }
+      },
+      {
+        "element_id": "#/texts/184",
+        "type": "unknown",
+        "text": "Ngày Chiến thắng: 01 ngày (30/04)",
+        "page": 4,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 66.0,
+          "right": 270.0,
+          "top": 79.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/186",
+        "type": "unknown",
+        "text": "Phiên bản 1.0 Phiên bản 1.0",
+        "page": 4,
+        "bbox": {
+          "left": 489.6666666666667,
+          "bottom": 38.33333333333337,
+          "right": 552.3333333333334,
+          "top": 46.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/188",
+        "type": "unknown",
+        "text": "NTO",
+        "page": 5,
+        "bbox": {
+          "left": 76.0,
+          "bottom": 779.0,
+          "right": 102.33333333333334,
+          "top": 805.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/190",
+        "type": "unknown",
+        "text": "REM",
+        "page": 5,
+        "bbox": {
+          "left": 74.0,
+          "bottom": 771.3333333333334,
+          "right": 92.66666666666667,
+          "top": 786.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/187",
+        "type": "title",
+        "text": "Quy trình, quy định quản lý nghỉ phép",
+        "page": 5,
+        "bbox": {
+          "left": 384.0,
+          "bottom": 767.3333333333334,
+          "right": 552.0,
+          "top": 781.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/193",
+        "type": "unknown",
+        "text": "thanh",
+        "page": 5,
+        "bbox": {
+          "left": 147.66666666666669,
+          "bottom": 776.3333333333334,
+          "right": 162.33333333333331,
+          "top": 780.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/191",
+        "type": "unknown",
+        "text": "nho",
+        "page": 5,
+        "bbox": {
+          "left": 106.0,
+          "bottom": 776.3333333333334,
+          "right": 119.66666666666666,
+          "top": 780.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/192",
+        "type": "unknown",
+        "text": "ten",
+        "page": 5,
+        "bbox": {
+          "left": 136.0,
+          "bottom": 778.6666666666666,
+          "right": 143.66666666666669,
+          "top": 780.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/194",
+        "type": "unknown",
+        "text": "cin",
+        "page": 5,
+        "bbox": {
+          "left": 174.33333333333331,
+          "bottom": 777.6666666666666,
+          "right": 174.66666666666669,
+          "top": 778.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/195",
+        "type": "unknown",
+        "text": "Ngày Quốc tế Lao động: 01 ngày (01/05)",
+        "page": 5,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 739.3333333333334,
+          "right": 298.66666666666663,
+          "top": 753.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/196",
+        "type": "unknown",
+        "text": "Quốc khánh: 02 ngày (02/09 và 01 ngày liên kẻ)",
+        "page": 5,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 723.3333333333334,
+          "right": 333.3333333333333,
+          "top": 738.0
+        }
+      },
+      {
+        "element_id": "#/texts/197",
+        "type": "unknown",
+        "text": "Ngày văn hóa Việt Nam: 01 ngày (24/11 dương lịch)",
+        "page": 5,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 707.0,
+          "right": 353.6666666666667,
+          "top": 720.0
+        }
+      },
+      {
+        "element_id": "#/texts/198",
+        "type": "unknown",
+        "text": "Trường hợp ngày nghỉ lễ, tết trùng vào ngày nghỉ hằng tuần thì người lao động được nghỉ bù vào ngày làm việc tiếp theo theo quy định của pháp luật hiện hành hoặc theo thông báo của Công ty.",
+        "page": 5,
+        "bbox": {
+          "left": 86.33333333333333,
+          "bottom": 659.6666666666666,
+          "right": 554.0,
+          "top": 705.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/199",
+        "type": "unknown",
+        "text": "4.3. Cac trường hợp đặc biệt:",
+        "page": 5,
+        "bbox": {
+          "left": 86.33333333333333,
+          "bottom": 639.6666666666666,
+          "right": 237.0,
+          "top": 651.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/200",
+        "type": "unknown",
+        "text": "% Nghỉ thai sản: Không áp dụng quy định này. Người lao động sẽ được hưởng chế độ 6m đau theo quy định của pháp luật về Bảo Hiểm Xã Hội.",
+        "page": 5,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 597.6666666666666,
+          "right": 554.3333333333333,
+          "top": 633.0
+        }
+      },
+      {
+        "element_id": "#/texts/201",
+        "type": "unknown",
+        "text": "4+ Nghỉ ốm: Người lao động nghỉ ốm có giấy chứng nhận nghỉ việc hưởng Bảo Hiểm Xã Hội do cơ sở khám chữa bệnh hợp pháp cấp, người lao động sẽ được hưởng chế độ 6m đau theo quy định của pháp luật về Bảo Hiểm Xã Hội.",
+        "page": 5,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 537.6666666666667,
+          "right": 554.0,
+          "top": 589.0
+        }
+      },
+      {
+        "element_id": "#/texts/213",
+        "type": "unknown",
+        "text": "Đề,",
+        "page": 5,
+        "bbox": {
+          "left": 572.6666666666667,
+          "bottom": 548.6666666666667,
+          "right": 591.6666666666666,
+          "top": 571.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/202",
+        "type": "unknown",
+        "text": "Người lao động có trách nhiệm nộp giấy chứng nhận nghỉ việc hưởng bảo hiểm xã hội hoặc giây xác nhận của cơ sở y tê hợp pháp cho Phòng Nhân sự sau 07 ngày làm việc kê từngày quay trở lại làm việc.",
+        "page": 5,
+        "bbox": {
+          "left": 86.33333333333333,
+          "bottom": 490.0,
+          "right": 554.0,
+          "top": 536.0
+        }
+      },
+      {
+        "element_id": "#/texts/216",
+        "type": "unknown",
+        "text": "_",
+        "page": 5,
+        "bbox": {
+          "left": 573.3333333333333,
+          "bottom": 504.0,
+          "right": 576.6666666666666,
+          "top": 507.0
+        }
+      },
+      {
+        "element_id": "#/texts/218",
+        "type": "unknown",
+        "text": "se",
+        "page": 5,
+        "bbox": {
+          "left": 573.0,
+          "bottom": 469.3333333333333,
+          "right": 591.6666666666666,
+          "top": 486.0
+        }
+      },
+      {
+        "element_id": "#/texts/203",
+        "type": "unknown",
+        "text": "Nghỉ việc riêng: Người lao động được nghi việc riêng các ngày sau không bị trừ vào ngày phép và được hưởng 100% lương.",
+        "page": 5,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 448.6666666666667,
+          "right": 553.6666666666667,
+          "top": 480.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/204",
+        "type": "unknown",
+        "text": "Người lao động kết hôn: nghỉ 03 ngày",
+        "page": 5,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 433.0,
+          "right": 284.0,
+          "top": 446.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/205",
+        "type": "unknown",
+        "text": "Con của người lao động kết hôn: nghỉ 01 ngày",
+        "page": 5,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 417.0,
+          "right": 324.0,
+          "top": 431.0
+        }
+      },
+      {
+        "element_id": "#/texts/206",
+        "type": "unknown",
+        "text": "Cha, mẹ; cha, mẹ vợ/chòng; vợ/chồng; con chết: nghỉ 03 ngày.",
+        "page": 5,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 401.0,
+          "right": 401.0,
+          "top": 415.0
+        }
+      },
+      {
+        "element_id": "#/texts/207",
+        "type": "unknown",
+        "text": "Nghỉ không lương: Người lao động nếu có lý do chính đáng, được sự chấp thuận của Cấp quản lý có thể xin nghỉ việc không hưởng lương.",
+        "page": 5,
+        "bbox": {
+          "left": 86.33333333333333,
+          "bottom": 359.3333333333333,
+          "right": 553.3333333333333,
+          "top": 394.0
+        }
+      },
+      {
+        "element_id": "#/texts/208",
+        "type": "unknown",
+        "text": "Nếu người lao động nghỉ không hưởng lương từ 14 ngày làm việc trở lên trong tháng thì Không phải đóng Bảo Hiểm Xã Hội trong tháng đó.",
+        "page": 5,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 328.0,
+          "right": 553.0,
+          "top": 357.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/209",
+        "type": "unknown",
+        "text": "Trường hợp người lao động nghỉ quá thời gian được Công ty cho phép mà không có bat kỳ thông tin chính thức nào cho Công ty thì Công ty có quyền đơn phương chấm dứt hợp đồng lao động.",
+        "page": 5,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 280.0,
+          "right": 553.0,
+          "top": 325.0
+        }
+      },
+      {
+        "element_id": "#/texts/210",
+        "type": "unknown",
+        "text": "Tự ý nghỉ việc: Trường hợp người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý đo chính đáng. Công ty có quyền áp dụng hình thức kỷ luật sa thải theo quy định tại Điều 125 của Bộ luật Lao động 2019.",
+        "page": 5,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 216.33333333333337,
+          "right": 553.6666666666667,
+          "top": 277.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/211",
+        "type": "unknown",
+        "text": "Các trường hợp khác: Trường hợp nghỉ do tai nạn lao động, bệnh nghề ngiệp sẽ được áp dụng theo các quy định hiện hành của Bảo Hiểm Xã Hội, Pháp luật Việt Nam.",
+        "page": 5,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 184.33333333333337,
+          "right": 553.0,
+          "top": 214.0
+        }
+      },
+      {
+        "element_id": "#/texts/219",
+        "type": "unknown",
+        "text": "m—————— Lưu hành nội bộ",
+        "page": 5,
+        "bbox": {
+          "left": 70.66666666666667,
+          "bottom": 35.0,
+          "right": 149.66666666666669,
+          "top": 55.0
+        }
+      },
+      {
+        "element_id": "#/texts/222",
+        "type": "unknown",
+        "text": "ree)",
+        "page": 6,
+        "bbox": {
+          "left": 81.0,
+          "bottom": 790.3333333333334,
+          "right": 99.0,
+          "top": 806.0
+        }
+      },
+      {
+        "element_id": "#/texts/223",
+        "type": "unknown",
+        "text": "nhỏ tiên chung",
+        "page": 6,
+        "bbox": {
+          "left": 107.0,
+          "bottom": 788.0,
+          "right": 165.66666666666669,
+          "top": 802.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/224",
+        "type": "unknown",
+        "text": "bình",
+        "page": 6,
+        "bbox": {
+          "left": 72.0,
+          "bottom": 772.3333333333334,
+          "right": 142.33333333333331,
+          "top": 798.0
+        }
+      },
+      {
+        "element_id": "#/texts/225",
+        "type": "unknown",
+        "text": "để",
+        "page": 6,
+        "bbox": {
+          "left": 167.0,
+          "bottom": 776.3333333333334,
+          "right": 176.66666666666669,
+          "top": 797.0
+        }
+      },
+      {
+        "element_id": "#/texts/226",
+        "type": "unknown",
+        "text": "V. TRÌNH NGHĨ PHÉP",
+        "page": 6,
+        "bbox": {
+          "left": 88.66666666666667,
+          "bottom": 711.0,
+          "right": 240.0,
+          "top": 722.0
+        }
+      },
+      {
+        "element_id": "#/texts/228",
+        "type": "unknown",
+        "text": "QUY đồ",
+        "page": 6,
+        "bbox": {
+          "left": 101.33333333333334,
+          "bottom": 695.0,
+          "right": 148.0,
+          "top": 719.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/227",
+        "type": "unknown",
+        "text": "5.1. Lưu",
+        "page": 6,
+        "bbox": {
+          "left": 88.66666666666667,
+          "bottom": 695.0,
+          "right": 131.66666666666669,
+          "top": 703.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/231",
+        "type": "unknown",
+        "text": "Tiến",
+        "page": 6,
+        "bbox": {
+          "left": 277.0,
+          "bottom": 655.6666666666667,
+          "right": 299.0,
+          "top": 666.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/234",
+        "type": "unknown",
+        "text": "hiện",
+        "page": 6,
+        "bbox": {
+          "left": 358.3333333333333,
+          "bottom": 653.3333333333333,
+          "right": 379.3333333333333,
+          "top": 664.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/229",
+        "type": "unknown",
+        "text": "Trách",
+        "page": 6,
+        "bbox": {
+          "left": 108.66666666666666,
+          "bottom": 655.3333333333333,
+          "right": 138.33333333333331,
+          "top": 664.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/230",
+        "type": "unknown",
+        "text": "nhiệm",
+        "page": 6,
+        "bbox": {
+          "left": 142.33333333333331,
+          "bottom": 653.0,
+          "right": 173.33333333333331,
+          "top": 664.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/232",
+        "type": "unknown",
+        "text": "trình",
+        "page": 6,
+        "bbox": {
+          "left": 303.0,
+          "bottom": 655.6666666666667,
+          "right": 328.0,
+          "top": 664.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/233",
+        "type": "unknown",
+        "text": "thực",
+        "page": 6,
+        "bbox": {
+          "left": 332.0,
+          "bottom": 653.3333333333333,
+          "right": 354.6666666666667,
+          "top": 664.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/239",
+        "type": "unknown",
+        "text": "thông",
+        "page": 6,
+        "bbox": {
+          "left": 349.3333333333333,
+          "bottom": 619.3333333333333,
+          "right": 371.3333333333333,
+          "top": 629.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/235",
+        "type": "unknown",
+        "text": "Đông",
+        "page": 6,
+        "bbox": {
+          "left": 283.0,
+          "bottom": 614.0,
+          "right": 304.33333333333337,
+          "top": 628.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/236",
+        "type": "unknown",
+        "text": "lý",
+        "page": 6,
+        "bbox": {
+          "left": 307.33333333333337,
+          "bottom": 619.3333333333333,
+          "right": 316.0,
+          "top": 628.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/237",
+        "type": "unknown",
+        "text": "trên",
+        "page": 6,
+        "bbox": {
+          "left": 319.0,
+          "bottom": 621.3333333333333,
+          "right": 334.0,
+          "top": 628.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/238",
+        "type": "unknown",
+        "text": "hộ",
+        "page": 6,
+        "bbox": {
+          "left": 337.0,
+          "bottom": 613.6666666666667,
+          "right": 346.6666666666667,
+          "top": 628.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/241",
+        "type": "unknown",
+        "text": "thống",
+        "page": 6,
+        "bbox": {
+          "left": 478.6666666666667,
+          "bottom": 615.3333333333333,
+          "right": 505.3333333333333,
+          "top": 628.0
+        }
+      },
+      {
+        "element_id": "#/texts/242",
+        "type": "unknown",
+        "text": "NTC",
+        "page": 6,
+        "bbox": {
+          "left": 509.3333333333333,
+          "bottom": 617.6666666666667,
+          "right": 532.0,
+          "top": 626.0
+        }
+      },
+      {
+        "element_id": "#/texts/240",
+        "type": "unknown",
+        "text": "Hệ",
+        "page": 6,
+        "bbox": {
+          "left": 462.0,
+          "bottom": 615.6666666666667,
+          "right": 475.0,
+          "top": 625.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/243",
+        "type": "unknown",
+        "text": "AI",
+        "page": 6,
+        "bbox": {
+          "left": 536.3333333333333,
+          "bottom": 617.6666666666667,
+          "right": 547.0,
+          "top": 625.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/250",
+        "type": "unknown",
+        "text": "phép,",
+        "page": 6,
+        "bbox": {
+          "left": 303.0,
+          "bottom": 606.6666666666667,
+          "right": 324.3333333333333,
+          "top": 615.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/251",
+        "type": "unknown",
+        "text": "nghỉ",
+        "page": 6,
+        "bbox": {
+          "left": 328.0,
+          "bottom": 606.6666666666667,
+          "right": 344.6666666666667,
+          "top": 615.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/252",
+        "type": "unknown",
+        "text": "không",
+        "page": 6,
+        "bbox": {
+          "left": 347.6666666666667,
+          "bottom": 606.6666666666667,
+          "right": 371.3333333333333,
+          "top": 615.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/249",
+        "type": "unknown",
+        "text": "nghỉ",
+        "page": 6,
+        "bbox": {
+          "left": 283.66666666666663,
+          "bottom": 606.3333333333333,
+          "right": 299.66666666666663,
+          "top": 615.0
+        }
+      },
+      {
+        "element_id": "#/texts/244",
+        "type": "unknown",
+        "text": "Người",
+        "page": 6,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 600.3333333333334,
+          "right": 116.33333333333334,
+          "top": 611.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/245",
+        "type": "unknown",
+        "text": "có",
+        "page": 6,
+        "bbox": {
+          "left": 120.33333333333334,
+          "bottom": 603.0,
+          "right": 131.33333333333331,
+          "top": 611.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/247",
+        "type": "unknown",
+        "text": "cầu",
+        "page": 6,
+        "bbox": {
+          "left": 155.33333333333331,
+          "bottom": 603.0,
+          "right": 171.66666666666669,
+          "top": 611.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/248",
+        "type": "unknown",
+        "text": "nghỉ",
+        "page": 6,
+        "bbox": {
+          "left": 175.33333333333331,
+          "bottom": 600.6666666666666,
+          "right": 195.66666666666666,
+          "top": 611.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/246",
+        "type": "unknown",
+        "text": "nhu",
+        "page": 6,
+        "bbox": {
+          "left": 134.66666666666669,
+          "bottom": 603.0,
+          "right": 152.0,
+          "top": 611.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/253",
+        "type": "unknown",
+        "text": "lương",
+        "page": 6,
+        "bbox": {
+          "left": 316.0,
+          "bottom": 593.6666666666666,
+          "right": 339.0,
+          "top": 602.0
+        }
+      },
+      {
+        "element_id": "#/texts/259",
+        "type": "unknown",
+        "text": "g",
+        "page": 6,
+        "bbox": {
+          "left": 450.3333333333333,
+          "bottom": 369.3333333333333,
+          "right": 563.0,
+          "top": 461.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/254",
+        "type": "unknown",
+        "text": "DUYỆT",
+        "page": 6,
+        "bbox": {
+          "left": 344.6666666666667,
+          "bottom": 454.3333333333333,
+          "right": 367.0,
+          "top": 460.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/255",
+        "type": "unknown",
+        "text": "xa",
+        "page": 6,
+        "bbox": {
+          "left": 91.33333333333333,
+          "bottom": 413.0,
+          "right": 192.33333333333334,
+          "top": 426.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/261",
+        "type": "unknown",
+        "text": "thông",
+        "page": 6,
+        "bbox": {
+          "left": 320.3333333333333,
+          "bottom": 406.3333333333333,
+          "right": 345.0,
+          "top": 416.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/260",
+        "type": "unknown",
+        "text": "duyệt",
+        "page": 6,
+        "bbox": {
+          "left": 128.66666666666669,
+          "bottom": 401.3333333333333,
+          "right": 150.66666666666669,
+          "top": 410.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/262",
+        "type": "unknown",
+        "text": "uyét",
+        "page": 6,
+        "bbox": {
+          "left": 135.0,
+          "bottom": 399.0,
+          "right": 154.66666666666669,
+          "top": 408.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/264",
+        "type": "unknown",
+        "text": "thống",
+        "page": 6,
+        "bbox": {
+          "left": 278.66666666666663,
+          "bottom": 350.6666666666667,
+          "right": 303.0,
+          "top": 363.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/267",
+        "type": "unknown",
+        "text": "kết",
+        "page": 6,
+        "bbox": {
+          "left": 352.6666666666667,
+          "bottom": 353.3333333333333,
+          "right": 365.0,
+          "top": 363.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/269",
+        "type": "unknown",
+        "text": "cho",
+        "page": 6,
+        "bbox": {
+          "left": 387.0,
+          "bottom": 353.3333333333333,
+          "right": 402.6666666666667,
+          "top": 361.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/265",
+        "type": "unknown",
+        "text": "thông",
+        "page": 6,
+        "bbox": {
+          "left": 306.0,
+          "bottom": 350.6666666666667,
+          "right": 330.6666666666667,
+          "top": 361.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/266",
+        "type": "unknown",
+        "text": "báo",
+        "page": 6,
+        "bbox": {
+          "left": 334.0,
+          "bottom": 353.3333333333333,
+          "right": 349.3333333333333,
+          "top": 361.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/263",
+        "type": "unknown",
+        "text": "Hệ",
+        "page": 6,
+        "bbox": {
+          "left": 263.33333333333337,
+          "bottom": 351.3333333333333,
+          "right": 275.0,
+          "top": 361.0
+        }
+      },
+      {
+        "element_id": "#/texts/268",
+        "type": "unknown",
+        "text": "qua",
+        "page": 6,
+        "bbox": {
+          "left": 368.3333333333333,
+          "bottom": 351.0,
+          "right": 384.0,
+          "top": 361.0
+        }
+      },
+      {
+        "element_id": "#/texts/271",
+        "type": "unknown",
+        "text": "viên",
+        "page": 6,
+        "bbox": {
+          "left": 335.6666666666667,
+          "bottom": 339.3333333333333,
+          "right": 354.0,
+          "top": 347.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/270",
+        "type": "unknown",
+        "text": "nhân",
+        "page": 6,
+        "bbox": {
+          "left": 311.66666666666663,
+          "bottom": 339.0,
+          "right": 332.0,
+          "top": 347.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/272",
+        "type": "unknown",
+        "text": "Phòng",
+        "page": 6,
+        "bbox": {
+          "left": 107.33333333333334,
+          "bottom": 281.33333333333326,
+          "right": 137.33333333333331,
+          "top": 292.33333333333326
+        }
+      },
+      {
+        "element_id": "#/texts/273",
+        "type": "unknown",
+        "text": "nhân",
+        "page": 6,
+        "bbox": {
+          "left": 140.66666666666669,
+          "bottom": 284.0,
+          "right": 163.0,
+          "top": 292.33333333333326
+        }
+      },
+      {
+        "element_id": "#/texts/279",
+        "type": "unknown",
+        "text": "nhật",
+        "page": 6,
+        "bbox": {
+          "left": 362.6666666666667,
+          "bottom": 281.0,
+          "right": 380.6666666666667,
+          "top": 291.0
+        }
+      },
+      {
+        "element_id": "#/texts/275",
+        "type": "unknown",
+        "text": "Theo",
+        "page": 6,
+        "bbox": {
+          "left": 289.66666666666663,
+          "bottom": 282.66666666666674,
+          "right": 311.66666666666663,
+          "top": 290.66666666666674
+        }
+      },
+      {
+        "element_id": "#/texts/276",
+        "type": "unknown",
+        "text": "dồi",
+        "page": 6,
+        "bbox": {
+          "left": 314.66666666666663,
+          "bottom": 282.66666666666674,
+          "right": 328.0,
+          "top": 290.66666666666674
+        }
+      },
+      {
+        "element_id": "#/texts/277",
+        "type": "unknown",
+        "text": "và",
+        "page": 6,
+        "bbox": {
+          "left": 331.6666666666667,
+          "bottom": 282.66666666666674,
+          "right": 341.3333333333333,
+          "top": 290.66666666666674
+        }
+      },
+      {
+        "element_id": "#/texts/278",
+        "type": "unknown",
+        "text": "cập",
+        "page": 6,
+        "bbox": {
+          "left": 344.6666666666667,
+          "bottom": 280.33333333333326,
+          "right": 359.3333333333333,
+          "top": 290.66666666666674
+        }
+      },
+      {
+        "element_id": "#/texts/274",
+        "type": "unknown",
+        "text": "sự",
+        "page": 6,
+        "bbox": {
+          "left": 167.0,
+          "bottom": 282.0,
+          "right": 177.66666666666669,
+          "top": 290.0
+        }
+      },
+      {
+        "element_id": "#/texts/280",
+        "type": "unknown",
+        "text": "bảng",
+        "page": 6,
+        "bbox": {
+          "left": 312.66666666666663,
+          "bottom": 266.66666666666674,
+          "right": 333.6666666666667,
+          "top": 277.0
+        }
+      },
+      {
+        "element_id": "#/texts/281",
+        "type": "unknown",
+        "text": "công",
+        "page": 6,
+        "bbox": {
+          "left": 336.6666666666667,
+          "bottom": 266.66666666666674,
+          "right": 358.0,
+          "top": 277.0
+        }
+      },
+      {
+        "element_id": "#/texts/282",
+        "type": "unknown",
+        "text": "5.2. Diễn giải",
+        "page": 6,
+        "bbox": {
+          "left": 89.66666666666667,
+          "bottom": 228.66666666666674,
+          "right": 155.33333333333331,
+          "top": 241.66666666666674
+        }
+      },
+      {
+        "element_id": "#/texts/283",
+        "type": "unknown",
+        "text": "Yêu cầu nghỉ phép",
+        "page": 6,
+        "bbox": {
+          "left": 100.33333333333334,
+          "bottom": 208.0,
+          "right": 195.0,
+          "top": 221.33333333333326
+        }
+      },
+      {
+        "element_id": "#/texts/284",
+        "type": "unknown",
+        "text": "Người xin nghỉ phép điền thông tin theo mẫu đăng ký nghỉ phép, nghỉ không lương trên hệ thông",
+        "page": 6,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 191.66666666666663,
+          "right": 550.3333333333333,
+          "top": 205.66666666666663
+        }
+      },
+      {
+        "element_id": "#/texts/285",
+        "type": "unknown",
+        "text": "Mã nhân viên",
+        "page": 6,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 178.33333333333337,
+          "right": 165.33333333333331,
+          "top": 187.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/286",
+        "type": "unknown",
+        "text": "Họ và tên",
+        "page": 6,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 161.33333333333337,
+          "right": 146.33333333333331,
+          "top": 171.0
+        }
+      },
+      {
+        "element_id": "#/texts/287",
+        "type": "unknown",
+        "text": "Loại nghỉ phép",
+        "page": 6,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 145.0,
+          "right": 172.33333333333331,
+          "top": 156.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/288",
+        "type": "unknown",
+        "text": "Thời gian nghỉ phép",
+        "page": 6,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 129.33333333333337,
+          "right": 197.0,
+          "top": 140.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/289",
+        "type": "unknown",
+        "text": "Lý do nghi",
+        "page": 6,
+        "bbox": {
+          "left": 85.33333333333333,
+          "bottom": 113.66666666666663,
+          "right": 152.0,
+          "top": 124.66666666666663
+        }
+      },
+      {
+        "element_id": "#/texts/290",
+        "type": "unknown",
+        "text": "4® Thời hạn đăng ký nghỉ phép, nghỉ không lương",
+        "page": 6,
+        "bbox": {
+          "left": 86.0,
+          "bottom": 91.33333333333337,
+          "right": 341.3333333333333,
+          "top": 103.0
+        }
+      },
+      {
+        "element_id": "#/texts/291",
+        "type": "unknown",
+        "text": "Dưới 3 ngày làm việc báo trước tương ứng số ngày nghỉ",
+        "page": 6,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 70.33333333333337,
+          "right": 369.0,
+          "top": 84.0
+        }
+      },
+      {
+        "element_id": "#/texts/292",
+        "type": "unknown",
+        "text": "Nghi từ 3 đến 5 ngày làm việc báo trước 5 ngày làm việc",
+        "page": 6,
+        "bbox": {
+          "left": 85.66666666666667,
+          "bottom": 54.33333333333337,
+          "right": 373.0,
+          "top": 68.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/293",
+        "type": "unknown",
+        "text": "",
+        "page": 6,
+        "bbox": {
+          "left": 72.0,
+          "bottom": 49.0,
+          "right": 553.3333333333333,
+          "top": 53.33333333333337
+        }
+      },
+      {
+        "element_id": "#/texts/295",
+        "type": "unknown",
+        "text": "Phiên bản 1.0 Phiên bản 1.0",
+        "page": 6,
+        "bbox": {
+          "left": 489.6666666666667,
+          "bottom": 40.0,
+          "right": 552.6666666666667,
+          "top": 48.0
+        }
+      },
+      {
+        "element_id": "#/texts/297",
+        "type": "title",
+        "text": "NTO",
+        "page": 7,
+        "bbox": {
+          "left": 76.66666666666667,
+          "bottom": 779.3333333333334,
+          "right": 103.33333333333334,
+          "top": 806.0
+        }
+      },
+      {
+        "element_id": "#/texts/304",
+        "type": "title",
+        "text": "tình",
+        "page": 7,
+        "bbox": {
+          "left": 149.0,
+          "bottom": 766.0,
+          "right": 163.0,
+          "top": 786.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/299",
+        "type": "title",
+        "text": "LM",
+        "page": 7,
+        "bbox": {
+          "left": 74.66666666666667,
+          "bottom": 771.0,
+          "right": 93.33333333333333,
+          "top": 785.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/302",
+        "type": "title",
+        "text": "dng",
+        "page": 7,
+        "bbox": {
+          "left": 136.33333333333331,
+          "bottom": 779.3333333333334,
+          "right": 137.33333333333331,
+          "top": 780.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/300",
+        "type": "title",
+        "text": "rae",
+        "page": 7,
+        "bbox": {
+          "left": 103.66666666666666,
+          "bottom": 776.0,
+          "right": 111.33333333333334,
+          "top": 780.0
+        }
+      },
+      {
+        "element_id": "#/texts/301",
+        "type": "title",
+        "text": "neo",
+        "page": 7,
+        "bbox": {
+          "left": 116.33333333333334,
+          "bottom": 779.6666666666666,
+          "right": 117.33333333333334,
+          "top": 780.0
+        }
+      },
+      {
+        "element_id": "#/texts/303",
+        "type": "title",
+        "text": "dn",
+        "page": 7,
+        "bbox": {
+          "left": 177.66666666666669,
+          "bottom": 776.0,
+          "right": 178.33333333333331,
+          "top": 776.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/305",
+        "type": "heading",
+        "text": "Nghi từ 5 đến dưới 7 ngày làm việc báo trước 7 ngày làm việc",
+        "page": 7,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 739.0,
+          "right": 399.3333333333333,
+          "top": 752.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/306",
+        "type": "heading",
+        "text": "Nghỉ từ 7 ngày trở lên báo trước 10 ngày làm việc",
+        "page": 7,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 723.3333333333334,
+          "right": 341.3333333333333,
+          "top": 734.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/307",
+        "type": "heading",
+        "text": "Nghỉ việc riêng có hưởng lương đối với trường hợp kết hôn, con kết hôn là ít nhất 03 ngày trước ngày nghỉ;",
+        "page": 7,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 691.6666666666667,
+          "right": 553.3333333333333,
+          "top": 721.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/308",
+        "type": "heading",
+        "text": "Trường hợp phát sinh đột xuất thì chi cần thông báo cho Quản lý trực tiếp, bé sung đăng ký xin nghỉ phép và các chứng từ cần thiết sau 03 ngày khi quay trở lại làm việc.",
+        "page": 7,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 659.6666666666666,
+          "right": 553.0,
+          "top": 690.0
+        }
+      },
+      {
+        "element_id": "#/texts/309",
+        "type": "heading",
+        "text": "Người xin nghỉ phép phải có bàn giao công việc trong quá trình vắng mặt tại Công ty.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 644.0,
+          "right": 511.0,
+          "top": 658.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/310",
+        "type": "unknown",
+        "text": "_ Trường hợp không duyệt sẽ ghi rõ lý do dé người viết đơn nắm bắt.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 626.6666666666666,
+          "right": 423.6666666666667,
+          "top": 643.3333333333334
+        }
+      },
+      {
+        "element_id": "#/texts/311",
+        "type": "heading",
+        "text": "Hệ thống ghi nhận dữ liệu",
+        "page": 7,
+        "bbox": {
+          "left": 102.33333333333334,
+          "bottom": 612.3333333333334,
+          "right": 234.33333333333334,
+          "top": 626.0
+        }
+      },
+      {
+        "element_id": "#/texts/312",
+        "type": "heading",
+        "text": "_ Hệ thống tự động ghi nhận dit liệu và lưu vào database hệ thống.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 595.3333333333334,
+          "right": 413.6666666666667,
+          "top": 611.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/313",
+        "type": "heading",
+        "text": "_ Đồng thời gửi email thông báo đến cấp quản lý trực tiếp dé xem xét yêu cầu nghỉ phép.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 579.3333333333334,
+          "right": 521.6666666666667,
+          "top": 596.0
+        }
+      },
+      {
+        "element_id": "#/texts/314",
+        "type": "heading",
+        "text": "Cấp quản lý xem xét và phê duyệt",
+        "page": 7,
+        "bbox": {
+          "left": 102.0,
+          "bottom": 564.3333333333334,
+          "right": 274.66666666666663,
+          "top": 578.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/315",
+        "type": "heading",
+        "text": "Kiểm tra thông tin yêu cầu nghỉ phép qua mail.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 549.0,
+          "right": 327.0,
+          "top": 562.6666666666666
+        }
+      },
+      {
+        "element_id": "#/texts/316",
+        "type": "heading",
+        "text": "_ Xem xét tình hình công việc và nhân sự của bộ phận.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 531.6666666666667,
+          "right": 355.6666666666667,
+          "top": 545.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/317",
+        "type": "heading",
+        "text": "_ Thực hiện phê duyệt hoặc từ chối yêu cầu nghỉ phép.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 516.0,
+          "right": 360.3333333333333,
+          "top": 532.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/318",
+        "type": "heading",
+        "text": "Thông báo kết qua chờ duyệt",
+        "page": 7,
+        "bbox": {
+          "left": 88.33333333333333,
+          "bottom": 501.3333333333333,
+          "right": 251.0,
+          "top": 515.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/337",
+        "type": "unknown",
+        "text": "à",
+        "page": 7,
+        "bbox": {
+          "left": 550.0,
+          "bottom": 477.0,
+          "right": 562.3333333333333,
+          "top": 515.0
+        }
+      },
+      {
+        "element_id": "#/texts/319",
+        "type": "heading",
+        "text": "Két quả phê duyệt được cập nhật trên hệ thống email.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 485.3333333333333,
+          "right": 357.3333333333333,
+          "top": 499.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/320",
+        "type": "heading",
+        "text": "Nhân viên nhận được email thông báo kết quả (được duyệt hoặc không được duyệt)",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 470.0,
+          "right": 502.3333333333333,
+          "top": 483.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/338",
+        "type": "unknown",
+        "text": "3",
+        "page": 7,
+        "bbox": {
+          "left": 544.0,
+          "bottom": 474.3333333333333,
+          "right": 547.6666666666667,
+          "top": 481.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/340",
+        "type": "unknown",
+        "text": "“7",
+        "page": 7,
+        "bbox": {
+          "left": 542.0,
+          "bottom": 450.0,
+          "right": 555.6666666666667,
+          "top": 467.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/321",
+        "type": "heading",
+        "text": "Phòng Nhân sự theo doi và cập nhật dữ liệu",
+        "page": 7,
+        "bbox": {
+          "left": 88.33333333333333,
+          "bottom": 454.0,
+          "right": 325.6666666666667,
+          "top": 465.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/322",
+        "type": "heading",
+        "text": "Theo đõi dit liệu nghỉ phép website hệ thống",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 438.3333333333333,
+          "right": 317.33333333333337,
+          "top": 452.0
+        }
+      },
+      {
+        "element_id": "#/texts/323",
+        "type": "heading",
+        "text": "_ Kiểm tra tính hợp lệ của yêu cầu nghỉ phép",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 420.6666666666667,
+          "right": 311.66666666666663,
+          "top": 437.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/324",
+        "type": "heading",
+        "text": "Cập nhật vào bảng quan lý ngày phép của nhân viên",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 406.3333333333333,
+          "right": 351.3333333333333,
+          "top": 418.0
+        }
+      },
+      {
+        "element_id": "#/texts/325",
+        "type": "title",
+        "text": "VI. QUY ĐỊNH THỜI GIAN XIN NGHI PHÉP VÀ QUYEN HAN PHÊ DUYET NGHI PHÉP",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 377.0,
+          "right": 501.6666666666667,
+          "top": 404.6666666666667
+        }
+      },
+      {
+        "element_id": "#/texts/326",
+        "type": "title",
+        "text": "Việc phê duyệt nghỉ phép, nghỉ không lương của người lao động được thực hiện theo số ngày nghỉ và quyền hạn cap quản lý tương ứng, cụ thé như sau:",
+        "page": 7,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 343.0,
+          "right": 552.6666666666667,
+          "top": 373.0
+        }
+      },
+      {
+        "element_id": "#/texts/327",
+        "type": "title",
+        "text": "|. Cấp nhân viên/Chuyên viên (Level 1)",
+        "page": 7,
+        "bbox": {
+          "left": 88.66666666666667,
+          "bottom": 327.0,
+          "right": 291.0,
+          "top": 341.0
+        }
+      },
+      {
+        "element_id": "#/texts/328",
+        "type": "title",
+        "text": "Khi người lao động đăng ký nghỉ phép, nghỉ không lương nghỉ tối đa 02 ngày: Yêu cầu nghỉ phép sẽ do Trưởng phòng/Ban (Leader — Level 2) xem xét và phê duyệt.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 295.33333333333337,
+          "right": 553.0,
+          "top": 325.3333333333333
+        }
+      },
+      {
+        "element_id": "#/texts/329",
+        "type": "title",
+        "text": "Cấp Trưởng phòng/Ban (Leader — Level 2)",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 279.33333333333337,
+          "right": 319.66666666666663,
+          "top": 293.0
+        }
+      },
+      {
+        "element_id": "#/texts/330",
+        "type": "title",
+        "text": "Khi người lao động đăng ký nghỉ phép, nghỉ không lương từ 03 ngày: Yêu cầu nghỉ phép can được Giám đốc Chỉ nhánh (Level 3) xem xét và phê duyệt.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 248.33333333333337,
+          "right": 552.6666666666667,
+          "top": 277.66666666666663
+        }
+      },
+      {
+        "element_id": "#/texts/331",
+        "type": "title",
+        "text": "Cấp Giám đốc Chỉ nhánh (Level 3)",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 232.0,
+          "right": 280.0,
+          "top": 245.66666666666663
+        }
+      },
+      {
+        "element_id": "#/texts/332",
+        "type": "title",
+        "text": "Khi người lao động đăng ký nghỉ phép, nghỉ không lương từ 04 ngày trở lên, yêu cầu nghỉ phép cần được Tổng Giám đốc (Level 4) xem xét và phê duyệt.",
+        "page": 7,
+        "bbox": {
+          "left": 87.0,
+          "bottom": 200.0,
+          "right": 552.3333333333333,
+          "top": 229.66666666666663
+        }
+      },
+      {
+        "element_id": "#/texts/333",
+        "type": "title",
+        "text": "Tiếp nhận thông tin:",
+        "page": 7,
+        "bbox": {
+          "left": 101.66666666666666,
+          "bottom": 184.0,
+          "right": 218.0,
+          "top": 198.0
+        }
+      },
+      {
+        "element_id": "#/texts/334",
+        "type": "title",
+        "text": "Phong nhân sự tiếp nhận thông tin và cập nhật vào bang cham công.",
+        "page": 7,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 168.33333333333337,
+          "right": 427.0,
+          "top": 182.0
+        }
+      },
+      {
+        "element_id": "#/texts/335",
+        "type": "title",
+        "text": "Lưu hồ sơ",
+        "page": 7,
+        "bbox": {
+          "left": 86.66666666666667,
+          "bottom": 155.33333333333337,
+          "right": 150.33333333333331,
+          "top": 166.33333333333337
+        }
+      }
+    ],
+    "warnings": [],
+    "elapsed_seconds": 268.52,
+    "parallel_windows": 7,
+    "model": "meta/llama-3.2-11b-vision-instruct"
+  },
+  "semantic_error": "",
+  "clean_text": "Fre)\n\nep\n\nsat\n\n1G\n\n[mm\n\nđt\n\nnholienchung.n\n\nma\n\nSOẠN THẢO\n\nPHÊ DUYỆT\n\nTổng Giám Đốc\n\nChức danh\n\nPhòng HCNS\n\n7816834\n\n7816834\n\n(a\n\n(a\n\nChữ ký\n\ncept,\n\ncept,\n\nÍmwoevÉÀ\n\nÍmwoevÉÀ\n\nTHONG)\n\nTHONG)\n\nx\n\nx\n\nO\n\nO\n\nDUONG THI CHAU\n\nHO VI DAI NGHIA\n\nPHAN THEO DOI SỬA DOI\n\nHồ\n\nđôi\n\nThị\n\nVi\n\nĐại\n\ntrình\n\nDương\n\nSửa\n\nV\n\nQuy\n\nmục\n\nv\n\nQuy\n\n5\n\n16/04/2026\n\nLan\n\n5\n\nNghia\n\nChau\n\nghi\n\nphép\n\nree)\n\nnhattienchung,\n\nvn\n\nMỤC LỤC\n\nPP\"...\n\ncc—~——iiziksiiirsr=siricoiksscgogiisSGGaggtgsxAayvdtxxskscocoi\n\nI1\n\nTT\n\na\n\nHN\n\nScorn\n\nnn\n\nce\n\nee\n\na\n\nIN\n\nGO\n\nsss\n\nA\n\nSN\n\nRaa\n\nAE\n\nKHAILNEM,\n\nisssscscaaazccamascscxceacasoncnana\n\nTHUẬT\n\nTUT:\n\nNGH\n\nCÁC\n\nNGÀY\n\nLoucccccssssssessessssessecssssseeeecssnneessssennneeecesssneesessssnusesessnuueessssunessessnnneesssssnnusessessnneesessned\n\nLOẠI\n\nTV.\n\nnĂm:.....................cecosoceeosoeoeeooGoonociLDEG.G00042000066003066080360004009006000306000204090940966666603060900g00001036301-\n\nNghĩ\n\nphép\n\n4.1.\n\nẾ(:..........................-es<22445SSO2244959E9244699999503469999995846990903984999990446999900884655900804ssoesoovsessorooessessoooe\n\nlỄ\n\n3\n\n4.2.\n\nNghi\n\nDIR\n\ntrường\n\n4\n\n4.3.\n\nCác\n\nhợp\n\nđặc\n\nsscsssesssscsssssescssossosesecosecssseceonsasesesenensetensavesionsesenasasisenessssesssssssasesssncssssseccosee\n\n0\n\nMay\n\non\n\nẽẽẽẽ...............\n\nee\n\nae\n\n2\n\nCD\n\nee\n\ney\n\nmr\n\na)\n\nEe\n\nee\n\naut\n\nQUYEN\n\nTHỜI\n\nNGHĨ\n\nPHÉP\n\nVA\n\nPHÊ\n\nNGHỈ\n\nPHÉP............6\n\nDUYET\n\nHAN\n\nĐỊNH\n\nGIAN\n\nXIN\n\nVI.\n\nQUY\n\ncM\n\nrT\n\nNTO\n\nLOM\n\n810606\n\nnón\n\ncin\n\nQuy trình. quy định quản lý nghỉ phép Quy trình, quy định quản lý nghỉ phép\n\n|. MỤC DICH\n\nQuy trình này được ban hành nhằm:\n\nHướng dan cho nhân viên hiểu và thực hiện đúng nội quy Công ty.\n\nNang cao kỷ luật Công ty.\n\nXây dựng căn cứ cho việc cham công, trên cơ sở đó có thé tính lương một cách chính xác.\n\nGiải quyết các trường hợp nghỉ phép, nghỉ việc riêng cho cán bộ - công nhân viên (CB-CNV) đảm bảo đúng quy định của luật lao động và quy chế/điều lệ hoạt động của Công ty.\n\nIl. PHAM VI ÁP DỤNG\n\nAp dụng cho việc giải quyết các trường hợp xin nghỉ phép, nghỉ việc riêng trong phạm vi tại Công ty.\n\nIH. KHÁI NIEM, THUẬT NGỮ\n\nNgười quản lý trực tiếp: Được hiéu là người trực tiếp quản lý người lao động.\n\nHệ thống cham công của Công ty: Công ty cham công bằng cách ghi nhận dữ liệu ra/vào tại hệ thống nhận điện khuôn mặt hoặc cham công bằng vân tay được lắp tại cửa ra vào các văn phòng và chỉ tiết quy trình xem tại hướng dẫn phía dưới.\n\nIv. CÁC LOẠI NGÀY NGHĨ\n\n4.1. Nghỉ phép năm:\n\nChế độ phép năm của Người lao động được quy định như sau:\n\nSố ngày phép là 12 ngày/năm (bình quân là 01 ngày/tháng), áp dụng đối với nhân viên đã ký hợp đồng lao động chính thức, có thời gian làm việc đủ 12 tháng trong năm.\n\nĐối với nhân viên làm không đủ năm: Căn cứ theo thời gian thực tế làm việc dé tính ngày phép trong năm theo nguyên tắc hưởng 01 ngày phép/01 tháng làm việc.\n\nĐối với nhân viên thử việc nếu ký hợp đồng chính thức sẽ được cộng số phép trong thời thử việc với điều kiện (Nhân viên bắt đầu làm việc trước ngày 15 của tháng sẽ được tính 01 ngày phép cho tháng đó. Nhân viên bắt đầu làm việc sau ngày 15 của tháng sẽ được tinh 0,5 ngày phép cho tháng đó).\n\nSố ngày phép trên không áp dụng đối với nhân viên ký đạng hợp đồng thử việc, hợp đồng part-time, hợp đồng lao động thời vụ, hợp đồng cộng tác viên.\n\nĐối với nhân viên có thâm niên công tác liên tục tại Công ty từ 5 năm trở lên thì cứ mỗi 5 năm công tác sẽ được hưởng thêm 01 ngày phép.\n\nCBNV chỉ được đăng ký và sử dụng số ngày phép đã được tích lũy tại thời điểm đề nghị. Không áp dụng hình thức ứng trước ngày nghỉ phép đưới bat kỳ trường hợp nào.\n\nThời gian tính phép trong năm: Từ ngày 1/1 đến hết ngày 31/12 của năm. Sau ngày 31/12 của năm số phép sẽ bị hủy bỏ, người lao động can sử dụng ngày phép trước ngày 1/1 hàng năm theo quy định hiện tại của Công ty.\n\n4.2. Nghĩ lễ tết:\n\nHằng năm, người lao động được nghỉ làm việc, hưởng nguyên lương những ngày lễ theo quy định chung của Nhà nước.\n\nTết Dương lịch: 01 ngày (01/01)\n\nTết Âm lịch: 05 ngày\n\nGiỗ Tổ Hùng Vương: 01 ngày (10/03 âm lich)\n\nNgày Chiến thắng: 01 ngày (30/04)\n\nPhiên bản 1.0 Phiên bản 1.0\n\nNTO\n\nREM\n\nQuy trình, quy định quan lý nghỉ phép Quy trình, quy định quản lý nghỉ phép\n\nthant\n\nnhớt\n\ntên\n\ncin\n\nNgày Quốc tế Lao động: 01 ngày (01/05)\n\nQuốc khánh: 02 ngày (02/09 và 01 ngày liên kẻ)\n\nNgày văn hóa Việt Nam: 01 ngày (24/11 dương lịch)\n\nTrường hợp ngày nghỉ lễ, tết trùng vào ngày nghỉ hằng tuần thì người lao động được nghỉ bù vào ngày làm việc tiếp theo theo quy định của pháp luật hiện hành hoặc theo thông báo của Công ty.\n\n4.3. Cac trường hợp đặc biệt:\n\n% Nghỉ thai sản: Không áp dụng quy định này. Người lao động sẽ được hưởng chế độ 6m đau theo quy định của pháp luật về Bảo Hiểm Xã Hội.\n\n4+ Nghỉ ốm: Người lao động nghỉ ốm có giấy chứng nhận nghỉ việc hưởng Bảo Hiểm Xã Hội do cơ sở khám chữa bệnh hợp pháp cấp, người lao động sẽ được hưởng chế độ 6m đau theo quy định của pháp luật về Bảo Hiểm Xã Hội.\n\nĐề,\n\nNgười lao động có trách nhiệm nộp giấy chứng nhận nghỉ việc hưởng bảo hiểm xã hội hoặc giây xác nhận của cơ sở y tê hợp pháp cho Phòng Nhân sự sau 07 ngày làm việc kê từngày quay trở lại làm việc.\n\n_\n\nse\n\nNghỉ việc riêng: Người lao động được nghi việc riêng các ngày sau không bị trừ vào ngày phép và được hưởng 100% lương.\n\nNgười lao động kết hôn: nghỉ 03 ngày\n\nCon của người lao động kết hôn: nghỉ 01 ngày\n\nCha, mẹ; cha, mẹ vợ/chòng; vợ/chồng; con chết: nghỉ 03 ngày.\n\nNghỉ không lương: Người lao động nếu có lý do chính đáng, được sự chấp thuận của Cấp quản lý có thể xin nghỉ việc không hưởng lương.\n\nNếu người lao động nghỉ không hưởng lương từ 14 ngày làm việc trở lên trong tháng thì Không phải đóng Bảo Hiểm Xã Hội trong tháng đó.\n\nTrường hợp người lao động nghỉ quá thời gian được Công ty cho phép mà không có bat kỳ thông tin chính thức nào cho Công ty thì Công ty có quyền đơn phương chấm dứt hợp đồng lao động.\n\nTự ý nghỉ việc: Trường hợp người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý đo chính đáng. Công ty có quyền áp dụng hình thức kỷ luật sa thải theo quy định tại Điều 125 của Bộ luật Lao động 2019.\n\nCác trường hợp khác: Trường hợp nghỉ do tai nạn lao động, bệnh nghề ngiệp sẽ được áp dụng theo các quy định hiện hành của Bảo Hiểm Xã Hội, Pháp luật Việt Nam.\n\nm—————— Lưu hành nội bộ\n\nree)\n\nnho†ienchung.\n\nbine\n\nde\n\nV. TRÌNH NGHĨ PHÉP\n\nQUY đồ\n\n5.1. Lưu\n\nTiến\n\nhiện\n\nTrách\n\nnhiệm\n\ntrình\n\nthực\n\nthông\n\nĐông\n\nlý\n\ntrên\n\nhộ\n\nthống\n\nNTC\n\nHệ\n\nAI\n\nphép,\n\nnghỉ\n\nkhông\n\nnghỉ\n\nNgười\n\ncó\n\ncầu\n\nnghỉ\n\nnhu\n\nlương\n\ng\n\nDUYỆT\n\nxa\n\nthong\n\nduyé\n\nuyét\n\nthống\n\nkết\n\ncho\n\nthông\n\nbáo\n\nHệ\n\nqua\n\nviên\n\nnhân\n\nPhòng\n\nnhân\n\nnhật\n\nTheo\n\ndồi\n\nvà\n\ncập\n\nsự\n\nbảng\n\ncông\n\n5.2. Diễn giải\n\nYêu cầu nghỉ phép\n\nNgười xin nghỉ phép điền thông tin theo mẫu đăng ký nghỉ phép, nghỉ không lương trên hệ thông\n\nMã nhân viên\n\nHọ và tên\n\nLoại nghỉ phép\n\nThời gian nghỉ phép\n\nLý do nghi\n\n4® Thời hạn đăng ký nghỉ phép, nghỉ không lương\n\nDưới 3 ngày làm việc báo trước tương ứng số ngày nghỉ\n\nNghi từ 3 đến 5 ngày làm việc báo trước 5 ngày làm việc\n\n¬———_—_—_——Ễ_—_—Ễ———.\n\nPhiên bản 1.0 Phiên bản 1.0\n\nNTO\n\ntình\n\nLM\n\ndng\n\nrae\n\nneo\n\ndn\n\nNghi từ 5 đến dưới 7 ngày làm việc báo trước 7 ngày làm việc\n\nNghỉ từ 7 ngày trở lên báo trước 10 ngày làm việc\n\nNghỉ việc riêng có hưởng lương đối với trường hợp kết hôn, con kết hôn là ít nhất 03 ngày trước ngày nghỉ;\n\nTrường hợp phát sinh đột xuất thì chi cần thông báo cho Quản lý trực tiếp, bé sung đăng ký xin nghỉ phép và các chứng từ cần thiết sau 03 ngày khi quay trở lại làm việc.\n\nNgười xin nghỉ phép phải có bàn giao công việc trong quá trình vắng mặt tại Công ty.\n\n_ Trường hợp không duyệt sẽ ghi rõ lý do dé người viết đơn nắm bắt.\n\nHệ thống ghi nhận dữ liệu\n\n_ Hệ thống tự động ghi nhận dit liệu và lưu vào database hệ thống.\n\n_ Đồng thời gửi email thông báo đến cấp quản lý trực tiếp dé xem xét yêu cầu nghỉ phép.\n\nCấp quản lý xem xét và phê duyệt\n\nKiểm tra thông tin yêu cầu nghỉ phép qua mail.\n\n_ Xem xét tình hình công việc và nhân sự của bộ phận.\n\n_ Thực hiện phê duyệt hoặc từ chối yêu cầu nghỉ phép.\n\nThông báo kết qua chờ duyệt\n\nà\n\nKét quả phê duyệt được cập nhật trên hệ thống email.\n\nNhân viên nhận được email thông báo kết quả (được duyệt hoặc không được duyệt)\n\n3\n\n“7\n\nPhòng Nhân sự theo doi và cập nhật dữ liệu\n\nTheo đõi dit liệu nghỉ phép website hệ thống\n\n_ Kiểm tra tính hợp lệ của yêu cầu nghỉ phép\n\nCập nhật vào bảng quan lý ngày phép của nhân viên\n\nVI. QUY ĐỊNH THỜI GIAN XIN NGHI PHÉP VÀ QUYEN HAN PHÊ DUYET NGHI PHÉP\n\nViệc phê duyệt nghỉ phép, nghỉ không lương của người lao động được thực hiện theo số ngày nghỉ và quyền hạn cap quản lý tương ứng, cụ thé như sau:\n\n|. Cấp nhân viên/Chuyên viên (Level 1)\n\nKhi người lao động đăng ký nghỉ phép, nghỉ không lương nghỉ tối đa 02 ngày: Yêu cầu nghỉ phép sẽ do Trưởng phòng/Ban (Leader — Level 2) xem xét và phê duyệt.\n\nCấp Trưởng phòng/Ban (Leader — Level 2)\n\nKhi người lao động đăng ký nghỉ phép, nghỉ không lương từ 03 ngày: Yêu cầu nghỉ phép can được Giám đốc Chỉ nhánh (Level 3) xem xét và phê duyệt.\n\nCấp Giám đốc Chỉ nhánh (Level 3)\n\nKhi người lao động đăng ký nghỉ phép, nghỉ không lương từ 04 ngày trở lên, yêu cầu nghỉ phép cần được Tổng Giám đốc (Level 4) xem xét và phê duyệt.\n\nTiếp nhận thông tin:\n\nPhong nhân sự tiếp nhận thông tin và cập nhật vào bang cham công.\n\nLưu hồ sơ",
+  "chunks": [
+    {
+      "id": "5b0b8779-014d-462d-94cc-a98be3aed278",
+      "text": "Free)\n\nep\n\nsat\n\n1G\n\n[mm\n\nđt\n\nnholiên chung\n\nmã\n\nSOẠN THẢO\n\nPHÊ DUYỆT\n\nTổng Giám Đốc\n\nChức danh\n\nPhòng HCNS\n\n7816834\n\n7816834\n\n(a\n\n(a\n\nChữ ký\n\nchữ phép\n\nchữ phép\n\nchữ ký\n\nchữ ký\n\nthông tin\n\nthông tin\n\nô\n\nô\n\nô\n\nô\n\nĐường Thị Châu\n\nHồ Vi Đại Nghĩa\n\nPhân Thêo Đổi Sửa Đổi\n\nhồ\n\nđôi\n\nthị\n\nvi\n\nđại\n\ntrình\n\nđường\n\nsửa\n\nv\n\nquy\n\nmục\n\nv\n\nquy\n\n5\n\n16/04/2026\n\nlần\n\n5\n\nnghĩa\n\nchâu\n\nghi\n\nphép\n\nree)\n\nnhattienchung,\n\nvn\n\nMỤC LỤC\n\nPP\"...\n\ncc—~——iiziksiiirsr=siricoiksscgogiisSGGaggtgsxAayvdtxxskscocoi\n\nI1\n\nTT\n\na\n\nHN\n\nScorn\n\nnn\n\nce\n\nee\n\na\n\nIN\n\nGO\n\nsss\n\nA\n\nSN\n\nRaa\n\nAE\n\nKHAILNEM,\n\nisssscscaaazccamascscxceacasoncnana\n\nTHUẬT\n\nTUT:\n\nNGH\n\nCÁC\n\nNGÀY\n\nLoucccccssssssessessssessecssssseeeecssnneessssennneeecesssneesessssnusesessnuueessssunessessnnneesssssnnusessessnneesessned\n\nLOẠI\n\nTV.\n\nnĂm:.....................cecosoceeosoeoeeooGoonociLDEG.G00042000066003066080360004009006000306000204090940966666603060900g00001036301-\n\nNghĩ\n\nphép\n\n4.1.\n\nẾ(:..........................-es<22445SSO2244959E9244699999503469999995846990903984999990446999900884655900804ssoesoovsessorooessessoooe\n\nlỄ\n\n3\n\n4.2.\n\nNghi\n\nDIR\n\ntrường\n\n4\n\n4.3.\n\nCác\n\nhợp\n\nđặc\n\nsscsssesssscsssssescssossosesecosecssseceonsasesesenensetensavesionsesenasasisenessssesssssssasesssncssssseccosee\n\n0\n\nMay\n\non\n\nẽẽẽẽ............... \n\nee\n\nae\n\n2\n\nCD\n\nee\n\ney\n\nmr\n\na)\n\nEe\n\nee\n\naut\n\nQUYEN\n\nTHỜI\n\nNGHĨ\n\nPHÉP\n\nVA\n\nPHÊ\n\nNGHỈ\n\nPHÉP............6\n\nDUYET\n\nHAN\n\nĐỊNH\n\nGIAN\n\nXIN\n\nVI.\n\nQUY\n\ncM\n\nrT\n\nNTO\n\nLOM\n\n810606\n\nnón\n\ncin\n\nQuy trình, quy định quản lý nghỉ phép\n\n|. MỤC DICH\n\nQuy trình này được ban hành nhằm:\n\nHướng dan cho nhân viên hiểu và thực hiện đúng nội quy Công ty.\n\nNang cao kỷ luật Công ty.\n\nXây dựng căn cứ cho việc cham công, trên cơ sở đó có thé tính lương một cách chính xác.\n\nGiải quyết các trường hợp nghỉ phép, nghỉ việc riêng cho cán bộ - công nhân viên (CB-CNV) đảm bảo đúng quy định của luật lao động và quy chế/điều lệ hoạt động của Công ty.\n\nIl.",
+      "metadata": {
+        "document_id": "debug-test-0000",
+        "filename": "QĐ.NTC.HR-01-QUY TRÌNH, QUY ĐỊNH QUẢN LÝ NGHỈ PHÉP.pdf"
+      }
+    },
+    {
+      "id": "203cb729-2b62-498a-a152-5ff9863987b4",
+      "text": "Nang cao kỷ luật Công ty.\n\nXây dựng căn cứ cho việc cham công, trên cơ sở đó có thé tính lương một cách chính xác.\n\nGiải quyết các trường hợp nghỉ phép, nghỉ việc riêng cho cán bộ - công nhân viên (CB-CNV) đảm bảo đúng quy định của luật lao động và quy chế/điều lệ hoạt động của Công ty.\n\nIl. PHAM VI ÁP DỤNG\n\nAp dụng cho việc giải quyết các trường hợp xin nghỉ phép, nghỉ việc riêng trong phạm vi tại Công ty.\n\nIH. KHÁI NIEM, THUẬT NGỮ\n\nNgười quản lý trực tiếp: Được hiéu là người trực tiếp quản lý người lao động.\n\nHệ thống cham công của Công ty: Công ty cham công bằng cách ghi nhận dữ liệu ra/vào tại hệ thống nhận điện khuôn mặt hoặc cham công bằng vân tay được lắp tại cửa ra vào các văn phòng và chỉ tiết quy trình xem tại hướng dẫn phía dưới.\n\nIv. CÁC LOẠI NGÀY NGHĨ\n\n4.1. Nghỉ phép năm:\n\nChế độ phép năm của Người lao động được quy định như sau:\n\nSố ngày phép là 12 ngày/năm (bình quân là 01 ngày/tháng), áp dụng đối với nhân viên đã ký hợp đồng lao động chính thức, có thời gian làm việc đủ 12 tháng trong năm.\n\nĐối với nhân viên làm không đủ năm: Căn cứ theo thời gian thực tế làm việc dé tính ngày phép trong năm theo nguyên tắc hưởng 01 ngày phép/01 tháng làm việc.\n\nĐối với nhân viên thử việc nếu ký hợp đồng chính thức sẽ được cộng số phép trong thời thử việc với điều kiện (Nhân viên bắt đầu làm việc trước ngày 15 của tháng sẽ được tính 01 ngày phép cho tháng đó. Nhân viên bắt đầu làm việc sau ngày 15 của tháng sẽ được tinh 0,5 ngày phép cho tháng đó).\n\nSố ngày phép trên không áp dụng đối với nhân viên ký đạng hợp đồng thử việc, hợp đồng part-time, hợp đồng lao động thời vụ, hợp đồng cộng tác viên.\n\nĐối với nhân viên có thâm niên công tác liên tục tại Công ty từ 5 năm trở lên thì cứ mỗi 5 năm công tác sẽ được hưởng thêm 01 ngày phép.\n\nCBNV chỉ được đăng ký và sử dụng số ngày phép đã được tích lũy tại thời điểm đề nghị. Không áp dụng hình thức ứng trước ngày nghỉ phép đưới bat kỳ trường hợp nào.",
+      "metadata": {
+        "document_id": "debug-test-0000",
+        "filename": "QĐ.NTC.HR-01-QUY TRÌNH, QUY ĐỊNH QUẢN LÝ NGHỈ PHÉP.pdf"
+      }
+    },
+    {
+      "id": "01f94e38-da03-4f59-88b5-7f5a853feecc",
+      "text": "Đối với nhân viên có thâm niên công tác liên tục tại Công ty từ 5 năm trở lên thì cứ mỗi 5 năm công tác sẽ được hưởng thêm 01 ngày phép.\n\nCBNV chỉ được đăng ký và sử dụng số ngày phép đã được tích lũy tại thời điểm đề nghị. Không áp dụng hình thức ứng trước ngày nghỉ phép đưới bat kỳ trường hợp nào.\n\nThời gian tính phép trong năm: Từ ngày 1/1 đến hết ngày 31/12 của năm. Sau ngày 31/12 của năm số phép sẽ bị hủy bỏ, người lao động can sử dụng ngày phép trước ngày 1/1 hàng năm theo quy định hiện tại của Công ty.\n\n4.2. Nghĩ lễ tết:\n\nHằng năm, người lao động được nghỉ làm việc, hưởng nguyên lương những ngày lễ theo quy định chung của Nhà nước.\n\nTết Dương lịch: 01 ngày (01/01)\n\nTết Âm lịch: 05 ngày\n\nGiỗ Tổ Hùng Vương: 01 ngày (10/03 âm lich)\n\nNgày Chiến thắng: 01 ngày (30/04)\n\nPhiên bản 1.0 Phiên bản 1.0\n\nNTO\n\nREM\n\nQuy trình, quy định quản lý nghỉ phép\n\nthanh\n\nnho\n\nten\n\ncin\n\nNgày Quốc tế Lao động: 01 ngày (01/05)\n\nQuốc khánh: 02 ngày (02/09 và 01 ngày liên kẻ)\n\nNgày văn hóa Việt Nam: 01 ngày (24/11 dương lịch)\n\nTrường hợp ngày nghỉ lễ, tết trùng vào ngày nghỉ hằng tuần thì người lao động được nghỉ bù vào ngày làm việc tiếp theo theo quy định của pháp luật hiện hành hoặc theo thông báo của Công ty.\n\n4.3. Cac trường hợp đặc biệt:\n\n% Nghỉ thai sản: Không áp dụng quy định này. Người lao động sẽ được hưởng chế độ 6m đau theo quy định của pháp luật về Bảo Hiểm Xã Hội.\n\n4+ Nghỉ ốm: Người lao động nghỉ ốm có giấy chứng nhận nghỉ việc hưởng Bảo Hiểm Xã Hội do cơ sở khám chữa bệnh hợp pháp cấp, người lao động sẽ được hưởng chế độ 6m đau theo quy định của pháp luật về Bảo Hiểm Xã Hội.\n\nĐề,\n\nNgười lao động có trách nhiệm nộp giấy chứng nhận nghỉ việc hưởng bảo hiểm xã hội hoặc giây xác nhận của cơ sở y tê hợp pháp cho Phòng Nhân sự sau 07 ngày làm việc kê từngày quay trở lại làm việc.",
+      "metadata": {
+        "document_id": "debug-test-0000",
+        "filename": "QĐ.NTC.HR-01-QUY TRÌNH, QUY ĐỊNH QUẢN LÝ NGHỈ PHÉP.pdf"
+      }
+    },
+    {
+      "id": "1308793f-b94c-4769-b5f9-9615b93b3f0d",
+      "text": "Đề,\n\nNgười lao động có trách nhiệm nộp giấy chứng nhận nghỉ việc hưởng bảo hiểm xã hội hoặc giây xác nhận của cơ sở y tê hợp pháp cho Phòng Nhân sự sau 07 ngày làm việc kê từngày quay trở lại làm việc.\n\n_\n\nse\n\nNghỉ việc riêng: Người lao động được nghi việc riêng các ngày sau không bị trừ vào ngày phép và được hưởng 100% lương.\n\nNgười lao động kết hôn: nghỉ 03 ngày\n\nCon của người lao động kết hôn: nghỉ 01 ngày\n\nCha, mẹ; cha, mẹ vợ/chòng; vợ/chồng; con chết: nghỉ 03 ngày.\n\nNghỉ không lương: Người lao động nếu có lý do chính đáng, được sự chấp thuận của Cấp quản lý có thể xin nghỉ việc không hưởng lương.\n\nNếu người lao động nghỉ không hưởng lương từ 14 ngày làm việc trở lên trong tháng thì Không phải đóng Bảo Hiểm Xã Hội trong tháng đó.\n\nTrường hợp người lao động nghỉ quá thời gian được Công ty cho phép mà không có bat kỳ thông tin chính thức nào cho Công ty thì Công ty có quyền đơn phương chấm dứt hợp đồng lao động.\n\nTự ý nghỉ việc: Trường hợp người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý đo chính đáng. Công ty có quyền áp dụng hình thức kỷ luật sa thải theo quy định tại Điều 125 của Bộ luật Lao động 2019.\n\nCác trường hợp khác: Trường hợp nghỉ do tai nạn lao động, bệnh nghề ngiệp sẽ được áp dụng theo các quy định hiện hành của Bảo Hiểm Xã Hội, Pháp luật Việt Nam.\n\nm—————— Lưu hành nội bộ\n\nree)\n\nnhỏ tiên chung\n\nbình\n\nđể\n\nV. TRÌNH NGHĨ PHÉP\n\nQUY đồ\n\n5.1. Lưu\n\nTiến\n\nhiện\n\nTrách\n\nnhiệm\n\ntrình\n\nthực\n\nthông\n\nĐông\n\nlý\n\ntrên\n\nhộ\n\nthống\n\nNTC\n\nHệ\n\nAI\n\nphép,\n\nnghỉ\n\nkhông\n\nnghỉ\n\nNgười\n\ncó\n\ncầu\n\nnghỉ\n\nnhu\n\nlương\n\ng\n\nDUYỆT\n\nxa\n\nthông\n\nduyệt\n\nuyét\n\nthống\n\nkết\n\ncho\n\nthông\n\nbáo\n\nHệ\n\nqua\n\nviên\n\nnhân\n\nPhòng\n\nnhân\n\nnhật\n\nTheo\n\ndồi\n\nvà\n\ncập\n\nsự\n\nbảng\n\ncông\n\n5.2.",
+      "metadata": {
+        "document_id": "debug-test-0000",
+        "filename": "QĐ.NTC.HR-01-QUY TRÌNH, QUY ĐỊNH QUẢN LÝ NGHỈ PHÉP.pdf"
+      }
+    },
+    {
+      "id": "55b70cc2-aa81-431c-b872-8b29460bf2f7",
+      "text": "Diễn giải\n\nYêu cầu nghỉ phép\n\nNgười xin nghỉ phép điền thông tin theo mẫu đăng ký nghỉ phép, nghỉ không lương trên hệ thông\n\nMã nhân viên\n\nHọ và tên\n\nLoại nghỉ phép\n\nThời gian nghỉ phép\n\nLý do nghi\n\n4® Thời hạn đăng ký nghỉ phép, nghỉ không lương\n\nDưới 3 ngày làm việc báo trước tương ứng số ngày nghỉ\n\nNghi từ 3 đến 5 ngày làm việc báo trước 5 ngày làm việc\n\nPhiên bản 1.0 Phiên bản 1.0\n\nNTO\n\ntình\n\nLM\n\ndng\n\nrae\n\nneo\n\ndn\n\nNghi từ 5 đến dưới 7 ngày làm việc báo trước 7 ngày làm việc\n\nNghỉ từ 7 ngày trở lên báo trước 10 ngày làm việc\n\nNghỉ việc riêng có hưởng lương đối với trường hợp kết hôn, con kết hôn là ít nhất 03 ngày trước ngày nghỉ;\n\nTrường hợp phát sinh đột xuất thì chi cần thông báo cho Quản lý trực tiếp, bé sung đăng ký xin nghỉ phép và các chứng từ cần thiết sau 03 ngày khi quay trở lại làm việc.\n\nNgười xin nghỉ phép phải có bàn giao công việc trong quá trình vắng mặt tại Công ty.\n\n_ Trường hợp không duyệt sẽ ghi rõ lý do dé người viết đơn nắm bắt.\n\nHệ thống ghi nhận dữ liệu\n\n_ Hệ thống tự động ghi nhận dit liệu và lưu vào database hệ thống.\n\n_ Đồng thời gửi email thông báo đến cấp quản lý trực tiếp dé xem xét yêu cầu nghỉ phép.\n\nCấp quản lý xem xét và phê duyệt\n\nKiểm tra thông tin yêu cầu nghỉ phép qua mail.\n\n_ Xem xét tình hình công việc và nhân sự của bộ phận.\n\n_ Thực hiện phê duyệt hoặc từ chối yêu cầu nghỉ phép.\n\nThông báo kết qua chờ duyệt\n\nà\n\nKét quả phê duyệt được cập nhật trên hệ thống email.\n\nNhân viên nhận được email thông báo kết quả (được duyệt hoặc không được duyệt)\n\n3\n\n“7\n\nPhòng Nhân sự theo doi và cập nhật dữ liệu\n\nTheo đõi dit liệu nghỉ phép website hệ thống\n\n_ Kiểm tra tính hợp lệ của yêu cầu nghỉ phép\n\nCập nhật vào bảng quan lý ngày phép của nhân viên\n\nVI. QUY ĐỊNH THỜI GIAN XIN NGHI PHÉP VÀ QUYEN HAN PHÊ DUYET NGHI PHÉP\n\nViệc phê duyệt nghỉ phép, nghỉ không lương của người lao động được thực hiện theo số ngày nghỉ và quyền hạn cap quản lý tương ứng, cụ thé như sau:\n\n|.",
+      "metadata": {
+        "document_id": "debug-test-0000",
+        "filename": "QĐ.NTC.HR-01-QUY TRÌNH, QUY ĐỊNH QUẢN LÝ NGHỈ PHÉP.pdf"
+      }
+    },
+    {
+      "id": "63039057-4ab6-4d69-bbbc-d7525cb8b0c0",
+      "text": "QUY ĐỊNH THỜI GIAN XIN NGHI PHÉP VÀ QUYEN HAN PHÊ DUYET NGHI PHÉP\n\nViệc phê duyệt nghỉ phép, nghỉ không lương của người lao động được thực hiện theo số ngày nghỉ và quyền hạn cap quản lý tương ứng, cụ thé như sau:\n\n|. Cấp nhân viên/Chuyên viên (Level 1)\n\nKhi người lao động đăng ký nghỉ phép, nghỉ không lương nghỉ tối đa 02 ngày: Yêu cầu nghỉ phép sẽ do Trưởng phòng/Ban (Leader — Level 2) xem xét và phê duyệt.\n\nCấp Trưởng phòng/Ban (Leader — Level 2)\n\nKhi người lao động đăng ký nghỉ phép, nghỉ không lương từ 03 ngày: Yêu cầu nghỉ phép can được Giám đốc Chỉ nhánh (Level 3) xem xét và phê duyệt.\n\nCấp Giám đốc Chỉ nhánh (Level 3)\n\nKhi người lao động đăng ký nghỉ phép, nghỉ không lương từ 04 ngày trở lên, yêu cầu nghỉ phép cần được Tổng Giám đốc (Level 4) xem xét và phê duyệt.\n\nTiếp nhận thông tin:\n\nPhong nhân sự tiếp nhận thông tin và cập nhật vào bang cham công.\n\nLưu hồ sơ",
+      "metadata": {
+        "document_id": "debug-test-0000",
+        "filename": "QĐ.NTC.HR-01-QUY TRÌNH, QUY ĐỊNH QUẢN LÝ NGHỈ PHÉP.pdf"
+      }
+    }
+  ],
+  "ocr_bboxes_count": 344,
+  "ocr_bboxes_sample": [
+    {
+      "id": "#/texts/0",
+      "page_no": 1,
+      "text": "Quy trình, quy định quản lý nghỉ phép",
+      "bbox": {
+        "left": 387.3333333333333,
+        "bottom": 773.3333333333334,
+        "right": 556.0,
+        "top": 786.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/1",
+      "page_no": 1,
+      "text": "Fre)",
+      "bbox": {
+        "left": 83.66666666666667,
+        "bottom": 796.6666666666666,
+        "right": 102.0,
+        "top": 810.6666666666666
+      }
+    },
+    {
+      "id": "#/texts/2",
+      "page_no": 1,
+      "text": "nhattienchung.vn",
+      "bbox": {
+        "left": 105.0,
+        "bottom": 793.0,
+        "right": 180.0,
+        "top": 807.0
+      }
+    },
+    {
+      "id": "#/texts/3",
+      "page_no": 1,
+      "text": "ep",
+      "bbox": {
+        "left": 75.0,
+        "bottom": 777.6666666666666,
+        "right": 108.33333333333334,
+        "top": 802.6666666666666
+      }
+    },
+    {
+      "id": "#/texts/4",
+      "page_no": 1,
+      "text": "sat",
+      "bbox": {
+        "left": 119.66666666666666,
+        "bottom": 784.3333333333334,
+        "right": 166.66666666666669,
+        "top": 802.0
+      }
+    },
+    {
+      "id": "#/texts/5",
+      "page_no": 1,
+      "text": "QUY TRÌNH. QUY ĐỊNH QUAN LÝ NGHĨ PHÉP",
+      "bbox": {
+        "left": 173.33333333333334,
+        "bottom": 572.6666666666667,
+        "right": 454.3333333333333,
+        "top": 642.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/6",
+      "page_no": 1,
+      "text": "[mm",
+      "bbox": {
+        "left": 151.0,
+        "bottom": 332.6666666666667,
+        "right": 476.0,
+        "top": 364.3333333333333
+      }
+    },
+    {
+      "id": "#/texts/7",
+      "page_no": 1,
+      "text": "|",
+      "bbox": {
+        "left": 302.66666666666663,
+        "bottom": 321.33333333333337,
+        "right": 327.66666666666663,
+        "top": 380.6666666666667
+      }
+    },
+    {
+      "id": "#/texts/8",
+      "page_no": 1,
+      "text": "1G",
+      "bbox": {
+        "left": 562.6666666666666,
+        "bottom": 552.3333333333333,
+        "right": 571.3333333333334,
+        "top": 560.3333333333333
+      }
+    },
+    {
+      "id": "#/texts/9",
+      "page_no": 1,
+      "text": "Lưu hành nội bộ",
+      "bbox": {
+        "left": 73.33333333333333,
+        "bottom": 29.66666666666663,
+        "right": 150.33333333333331,
+        "top": 39.66666666666663
+      }
+    },
+    {
+      "id": "#/texts/10",
+      "page_no": 1,
+      "text": "Phiên bản 1.0",
+      "bbox": {
+        "left": 488.6666666666667,
+        "bottom": 31.66666666666663,
+        "right": 553.6666666666666,
+        "top": 39.66666666666663
+      }
+    },
+    {
+      "id": "#/texts/11",
+      "page_no": 2,
+      "text": "Quy trình, quy định quản lý nghỉ phép",
+      "bbox": {
+        "left": 382.6666666666667,
+        "bottom": 772.0,
+        "right": 550.3333333333334,
+        "top": 785.0
+      }
+    },
+    {
+      "id": "#/texts/12",
+      "page_no": 2,
+      "text": "đt",
+      "bbox": {
+        "left": 73.0,
+        "bottom": 777.3333333333334,
+        "right": 99.0,
+        "top": 811.0
+      }
+    },
+    {
+      "id": "#/texts/13",
+      "page_no": 2,
+      "text": "nholienchung.n",
+      "bbox": {
+        "left": 103.33333333333334,
+        "bottom": 782.3333333333334,
+        "right": 177.66666666666669,
+        "top": 807.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/14",
+      "page_no": 2,
+      "text": "ma",
+      "bbox": {
+        "left": 85.33333333333333,
+        "bottom": 706.6666666666666,
+        "right": 183.0,
+        "top": 742.6666666666666
+      }
+    },
+    {
+      "id": "#/texts/15",
+      "page_no": 2,
+      "text": "SOẠN THẢO",
+      "bbox": {
+        "left": 247.66666666666666,
+        "bottom": 717.0,
+        "right": 318.33333333333337,
+        "top": 730.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/16",
+      "page_no": 2,
+      "text": "PHÊ DUYỆT",
+      "bbox": {
+        "left": 437.3333333333333,
+        "bottom": 717.0,
+        "right": 505.3333333333333,
+        "top": 730.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/17",
+      "page_no": 2,
+      "text": "Chức danh",
+      "bbox": {
+        "left": 107.0,
+        "bottom": 684.3333333333333,
+        "right": 162.66666666666669,
+        "top": 693.0
+      }
+    },
+    {
+      "id": "#/texts/18",
+      "page_no": 2,
+      "text": "Phòng HCNS",
+      "bbox": {
+        "left": 249.0,
+        "bottom": 681.6666666666667,
+        "right": 317.0,
+        "top": 693.0
+      }
+    },
+    {
+      "id": "#/texts/19",
+      "page_no": 2,
+      "text": "Tổng Giám Đốc",
+      "bbox": {
+        "left": 430.6666666666667,
+        "bottom": 681.6666666666667,
+        "right": 511.0,
+        "top": 695.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/20",
+      "page_no": 2,
+      "text": "7816834",
+      "bbox": {
+        "left": 427.0,
+        "bottom": 657.6666666666667,
+        "right": 471.6666666666667,
+        "top": 666.3333333333333
+      }
+    },
+    {
+      "id": "#/texts/21",
+      "page_no": 2,
+      "text": "Chữ ký",
+      "bbox": {
+        "left": 117.33333333333334,
+        "bottom": 613.3333333333334,
+        "right": 152.33333333333331,
+        "top": 624.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/22",
+      "page_no": 2,
+      "text": "(a",
+      "bbox": {
+        "left": 250.33333333333334,
+        "bottom": 605.0,
+        "right": 340.0,
+        "top": 634.0
+      }
+    },
+    {
+      "id": "#/texts/23",
+      "page_no": 2,
+      "text": "=",
+      "bbox": {
+        "left": 394.3333333333333,
+        "bottom": 618.0,
+        "right": 400.3333333333333,
+        "top": 623.6666666666666
+      }
+    },
+    {
+      "id": "#/texts/24",
+      "page_no": 2,
+      "text": "ÍmwoevÉÀ",
+      "bbox": {
+        "left": 413.6666666666667,
+        "bottom": 615.6666666666666,
+        "right": 426.3333333333333,
+        "top": 621.0
+      }
+    },
+    {
+      "id": "#/texts/25",
+      "page_no": 2,
+      "text": "THONG)",
+      "bbox": {
+        "left": 456.6666666666667,
+        "bottom": 613.3333333333334,
+        "right": 489.3333333333333,
+        "top": 621.0
+      }
+    },
+    {
+      "id": "#/texts/26",
+      "page_no": 2,
+      "text": "x",
+      "bbox": {
+        "left": 447.6666666666667,
+        "bottom": 599.0,
+        "right": 455.0,
+        "top": 605.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/27",
+      "page_no": 2,
+      "text": "cept,",
+      "bbox": {
+        "left": 404.0,
+        "bottom": 583.6666666666666,
+        "right": 475.3333333333333,
+        "top": 623.3333333333334
+      }
+    },
+    {
+      "id": "#/texts/28",
+      "page_no": 2,
+      "text": "O",
+      "bbox": {
+        "left": 433.6666666666667,
+        "bottom": 575.0,
+        "right": 436.6666666666667,
+        "top": 579.0
+      }
+    },
+    {
+      "id": "#/texts/29",
+      "page_no": 2,
+      "text": "DUONG THI CHAU",
+      "bbox": {
+        "left": 229.0,
+        "bottom": 547.6666666666666,
+        "right": 336.3333333333333,
+        "top": 561.3333333333334
+      }
+    }
+  ],
+  "image_bboxes": [
+    {
+      "id": "#/pictures/0",
+      "page_no": 1,
+      "bbox": {
+        "left": 73.05809020996094,
+        "bottom": 775.0487747192383,
+        "right": 181.0126953125,
+        "top": 812.952226638794
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/1",
+      "page_no": 1,
+      "bbox": {
+        "left": 556.8370971679688,
+        "bottom": 499.9966735839844,
+        "right": 593.0,
+        "top": 599.3434600830078
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/2",
+      "page_no": 2,
+      "bbox": {
+        "left": 71.26084899902344,
+        "bottom": 774.8541374206543,
+        "right": 179.1852569580078,
+        "top": 813.3342761993408
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/3",
+      "page_no": 2,
+      "bbox": {
+        "left": 385.1288146972656,
+        "bottom": 570.8526306152344,
+        "right": 517.3218994140625,
+        "top": 670.4224700927734
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/4",
+      "page_no": 2,
+      "bbox": {
+        "left": 250.75025939941406,
+        "bottom": 605.3184661865234,
+        "right": 344.99896240234375,
+        "top": 634.0657653808594
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/5",
+      "page_no": 3,
+      "bbox": {
+        "left": 72.32087707519531,
+        "bottom": 770.3206253051758,
+        "right": 180.14370727539062,
+        "top": 805.8192958831787
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/6",
+      "page_no": 4,
+      "bbox": {
+        "left": 71.27912139892578,
+        "bottom": 769.9125442504883,
+        "right": 178.65896606445312,
+        "top": 806.3532333374023
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/7",
+      "page_no": 5,
+      "bbox": {
+        "left": 72.40007781982422,
+        "bottom": 771.0123825073242,
+        "right": 180.31427001953125,
+        "top": 806.2940979003906
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/8",
+      "page_no": 5,
+      "bbox": {
+        "left": 570.38427734375,
+        "bottom": 468.4793395996094,
+        "right": 592.8853149414062,
+        "top": 572.1095581054688
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/9",
+      "page_no": 6,
+      "bbox": {
+        "left": 70.24345397949219,
+        "bottom": 770.3310699462891,
+        "right": 177.92381286621094,
+        "top": 808.4304962158203
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/10",
+      "page_no": 7,
+      "bbox": {
+        "left": 73.28443145751953,
+        "bottom": 770.2101135253906,
+        "right": 180.4543914794922,
+        "top": 807.4877243041992
+      },
+      "label": "picture"
+    },
+    {
+      "id": "#/pictures/11",
+      "page_no": 7,
+      "bbox": {
+        "left": 537.7817993164062,
+        "bottom": 439.14715576171875,
+        "right": 566.4586791992188,
+        "top": 520.6766357421875
+      },
+      "label": "picture"
+    }
+  ]
+}

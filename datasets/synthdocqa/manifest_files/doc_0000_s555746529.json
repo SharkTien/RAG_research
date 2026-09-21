@@ -1,0 +1,3363 @@
+{
+  "doc_id": "doc_0000_s555746529",
+  "title": "Accounts Receivable Ageing Report — Outstanding Balances by Bucket, Customer Credit Risk Ratings, Disputed Amounts, and Collections Action Plan",
+  "subtitle": "Accounts Receivable Ageing Report — Credit Risk Ratings, Disputes & Collections Action Plan | Finance",
+  "topic_id": "accounts_receivable_collections",
+  "recipe_name": "data_narrative",
+  "seed": 555746529,
+  "document_brief": {
+    "narrative_theme": "This accounts receivable ageing report shows how $4.86M in outstanding invoices as of 2026-04-30 is distributed across ageing buckets, concentrated in higher-risk customers and disputes, and prioritized into a time-bound collections action plan to reduce >60-day delinquency.",
+    "sections": [
+      {
+        "heading": "Ageing Snapshot and Concentration of Overdue Exposure (as of 2026-04-30)",
+        "key_facts": [
+          "R is $4.86M as of 2026-04-30.",
+          "Invoices aged >60 days total $1.42M as of 2026-04-30.",
+          "Northbridge Retail Co. has $312,450 outstanding, including $180,000 aged >90 days."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Credit Risk, Dispute Root Causes, and Overdue Collections Action Plan (May–June 2026)",
+        "key_facts": [
+          "R as of 2026-04-30.",
+          "R is $640,000 as of 2026-04-30, including $210,000 tied to pricing discrepancies.",
+          "The collections plan targets reducing >60-day overdue from $1.42M to $0.90M by 2026-06-30."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "R ageing summary by bucket (USD) as of 2026-04-30",
+        "purpose": "Quantifies total receivables and delinquency concentration by ageing bucket to anchor the report’s $4.86M exposure and the $1.42M aged >60 days.",
+        "key_data": {
+          "Current (0–30 days)": "$2.10M",
+          "31–60 days": "$1.34M",
+          ">60 days total": "$1.42M",
+          ">90 days": "$0.78M"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Top overdue customers and invoice ageing mix (USD) as of 2026-04-30",
+        "purpose": "Identifies customer-level concentration drivers of delinquency, highlighting where >90-day balances are concentrated for immediate collections focus.",
+        "key_data": {
+          "Northbridge Retail Co. — Total A/R": "$312,450",
+          "Northbridge Retail Co. — >90 days": "$180,000",
+          "Summit Industrial LLC — Total A/R": "$268,900",
+          "Apex Health Systems — Total A/R": "$241,600"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Outstanding invoice register with due dates, ageing bucket, and dispute flag (sample) as of 2026-04-30",
+        "purpose": "Provides invoice-level traceability from the ageing totals to specific invoices, due dates, and dispute status to support targeted follow-up.",
+        "key_data": {
+          "INV-104983 (Northbridge Retail Co.) — Due 2026-01-15": "$120,000 — >90 days — Disputed: No",
+          "INV-105221 (Summit Industrial LLC) — Due 2026-03-10": "$85,400 — 31–60 days — Disputed: Yes",
+          "INV-105487 (Apex Health Systems) — Due 2026-02-05": "$64,800 — >60 days — Disputed: No",
+          "INV-105612 (Blue Harbor Logistics) — Due 2026-04-05": "$49,950 — Current (0–30) — Disputed: No"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Customer credit risk ratings and exposure (USD) as of 2026-04-30",
+        "purpose": "Links ageing exposure to customer credit risk to prioritize collections intensity and escalation paths, including the $1.18M in 'High' risk balances.",
+        "key_data": {
+          "High risk — Total A/R": "$1.18M",
+          "Medium risk — Total A/R": "$2.07M",
+          "Low risk — Total A/R": "$1.61M",
+          "Northbridge Retail Co. — Risk rating": "High"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "R breakdown by dispute reason and ageing (USD) as of 2026-04-30",
+        "purpose": "Separates disputed balances from collectible balances and pinpoints root causes (e.g., pricing) that must be resolved to unlock cash, including $640,000 total disputes.",
+        "key_data": {
+          "Total disputed A/R": "$640,000",
+          "Pricing discrepancies — Disputed amount": "$210,000",
+          "Proof of delivery pending — Disputed amount": "$165,000",
+          "Short shipment/quantity variance — Disputed amount": "$125,000"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Collections action plan for overdue balances with owners, dates, and expected cash impact (May–June 2026)",
+        "purpose": "Translates ageing and risk insights into a sequenced action plan with accountable owners and target dates to reduce >60-day overdue from $1.42M to $0.90M by 2026-06-30.",
+        "key_data": {
+          "Northbridge Retail Co. — Owner: J. Patel — Action: Escalate to CFO call — Target date": "2026-05-10",
+          "Summit Industrial LLC — Owner: L. Chen — Action: Resolve pricing dispute — Target date": "2026-05-20",
+          "Apex Health Systems — Owner: M. Rivera — Action: Issue demand letter — Target date": "2026-05-31",
+          "Expected >60-day overdue by 2026-06-30": "$0.90M"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s555746529.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_stam_902a75a8.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 50,
+    "actual_page_count": 28
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "cx_table_0000_4036cc38",
+      "table_number": 1,
+      "caption": "Table 1: Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", which objective categories are the column groups?",
+          "answer": "Credit Risk & Exposure; Dispute & Billing Integrity; Collections Effectiveness.",
+          "assertions": [
+            {
+              "text": "The response must state 'Credit Risk & Exposure; Dispute & Billing Integrity; Collections Effectiveness.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", how many initiatives fall under the \"Collections Execution\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "90+)\" for the \"Days Sales Outstanding (DSO)\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", what is the total score for the \"Dispute Triage Workflow (ageing + risk priority)\" initiative?",
+          "answer": "31.",
+          "assertions": [
+            {
+              "text": "The response must state '31.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", which objective category has the highest weighted total score?",
+          "answer": "Collections Effectiveness (total 287 across its objectives).",
+          "assertions": [
+            {
+              "text": "The response must state 'Collections Effectiveness (total 287 across its objectives).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", which main initiative categories are listed in the top header?",
+          "answer": "Credit Risk & Exposure; Dispute & Billing Integrity; Collections Effectiveness",
+          "assertions": [
+            {
+              "text": "The response must state 'Credit Risk & Exposure; Dispute & Billing Integrity; Collections Effectiveness'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", how many initiatives are listed in the grid?",
+          "answer": "4 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", what footnote label appears for an annotation?",
+          "answer": "H",
+          "assertions": [
+            {
+              "text": "The response must state 'H'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", what is the subtotal count of data rows shown in the grid?",
+          "answer": "18",
+          "assertions": [
+            {
+              "text": "The response must state '18'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0001_89ceacff",
+      "heading": "Credit Risk, Dispute Root Causes, and Overdue Collections Action Plan (May–June 2026)",
+      "word_count": 292,
+      "text_content": [
+        "**Credit Risk, Dispute Root Causes, and Overdue Collections Action Plan (May–June 2026)**",
+        "12. These measures aim to limit incremental exposure while preserving governed remediation paths for strategically important accounts. Recovery scenarios include contingency collateral calls where applicable.",
+        "2026 to standardize resolution workflows, enforce a 30-day dispute SLA, and implement a new dispute-tracking dashboard integrated into ERP for end-to-end visibility. The team will prioritize disputes by dollar impact and customer credit rating to accelerate cash realization and reduce dispute recurrence. Monthly root-cause reports commence June 2026.",
+        "2026, a $520,000 reduction target. Key elements owned by AR Operations, Commercial, and Legal include: 1. prioritized collection outreach for high-risk and high-dollar accounts; 2. negotiated payment plans with milestone payments and final settlement dates; 3. escalation to external collections or litigation absent agreed cures by 15-06-2026. Operational governance will use weekly aging reviews, a collections KPI dashboard, and reporting to the CFO to confirm progress against the June 30 target and revise credit terms as necessary."
+      ],
+      "qa_candidates": [
+        {
+          "question": "2026 is attributed to customers rated 'High'?",
+          "answer": "$1.18M",
+          "assertions": [
+            {
+              "text": "The response must state $1.18M."
+            }
+          ]
+        },
+        {
+          "question": "2026?",
+          "answer": "$640,000",
+          "assertions": [
+            {
+              "text": "The response must state $640,000."
+            }
+          ]
+        },
+        {
+          "question": "2026?",
+          "answer": "$0.90M",
+          "assertions": [
+            {
+              "text": "The response must state $0.90M."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "text",
+      "variant_id": "text_0000_1f2b01f1",
+      "heading": "Ageing Snapshot and Concentration of Overdue Exposure (as of 2026-04-30)",
+      "word_count": 228,
+      "text_content": [
+        "**Ageing Snapshot and Concentration of Overdue Exposure (as of 2026-04-30)**",
+        "R). Current invoices (0–30 days) comprise the remaining balance and reflect recent billed activity. The ledger mix and the >60‑day concentration establish the monthly monitoring baseline for April 2026. They drive provisioning and short-term cash planning decisions.",
+        "R and 12.7% of the >60‑day balance. The top ten customers account for a disproportionate share of overdue exposure. 1) Northbridge Retail Co.: $312,450 ($180,000 >90 days). 2) Other high exposures are monitored under standard credit limits. Escalation triggers are defined per policy. Customer-level concentration as of 2026-04-30 increases counterparty risk metrics.",
+        "R and represents 57.6% of that customer’s outstanding. Disputed amounts are recorded separately in the ledger and routed to the Disputes and Legal teams for validation; resolution timelines are tracked against SLA metrics dated 2026-04-30 to measure impacts on cash forecasting and executive management reporting."
+      ],
+      "qa_candidates": [
+        {
+          "question": "R at 2026-04-30?",
+          "answer": "$4.86M",
+          "assertions": [
+            {
+              "text": "The response must state $4.86M."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Ageing Snapshot and Concentration of Overdue Exposure (as of 2026-04-30)\" section, what amount of invoices aged >60 days is reported?",
+          "answer": "$1.42M",
+          "assertions": [
+            {
+              "text": "The response must state $1.42M."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Ageing Snapshot and Concentration of Overdue Exposure (as of 2026-04-30)\" section, how much of Northbridge Retail Co.’s balance is aged >90 days?",
+          "answer": "$180,000",
+          "assertions": [
+            {
+              "text": "The response must state $180,000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "cx_table_0003_dc74d4a2",
+      "table_number": 2,
+      "caption": "Table 2: Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", how many period columns does each version group span?",
+          "answer": "4 period columns (Q1–Q4) per version group.",
+          "assertions": [
+            {
+              "text": "The response must state '4 period columns (Q1–Q4) per version group.'."
+            }
+          ]
+        },
+        {
+          "question": " returns pending\"?",
+          "answer": "60 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '60 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what is the \"31–60 Total\" section total for Baseline Q1?",
+          "answer": "800 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '800 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", which version shows the highest Q4 value for \"A-rated customers — Undisputed open invoices\"?",
+          "answer": "Actuals (1,120 vs Baseline 1,080, $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (1,120 vs Baseline 1,080, $000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what is the delta (Net $K) for \"90+ Total\"?",
+          "answer": "49 ($K).",
+          "assertions": [
+            {
+              "text": "The response must state '49 ($K).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", how many period columns (quarters) are displayed per version group?",
+          "answer": "4 (Q1–Q4)",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1–Q4)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what is the Baseline total amount?",
+          "answer": "60 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '60 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", which version group has the highest total amount?",
+          "answer": "Actuals (800 $000)",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (800 $000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what does the unit footnote explain?",
+          "answer": "Amounts are in $000.",
+          "assertions": [
+            {
+              "text": "The response must state 'Amounts are in $000.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what is the subtotal for Outstanding Invoices in the Actuals column?",
+          "answer": "800 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '800 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "table_0004_1739e24f",
+      "table_number": 3,
+      "caption": "R breakdown by dispute reason and ageing (USD) as of 2026-04-30",
+      "columns": [
+        " Category",
+        " Ref",
+        "Age Bucket",
+        "Credit Risk Rating",
+        "R",
+        "Disputed Amount",
+        "Root Cause",
+        " Status"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "R: $640,000",
+          "All open disputes",
+          "All buckets",
+          "Mixed",
+          "$640,000",
+          "$640,000",
+          "Aggregate of all dispute categories",
+          "Executive review of top disputes; cross-functional resolution taskforce established"
+        ],
+        [
+          "Pricing discrepancies",
+          "Multiple invoices",
+          "61–90 days",
+          "Medium",
+          "$210,000",
+          "$210,000",
+          "Pricing discrepancies",
+          "Sales to validate contract pricing; issue credit memos where required by 2026-05-20"
+        ],
+        [
+          "Proof of delivery pending",
+          "Multiple invoices",
+          "31–60 days",
+          "Low",
+          "$165,000",
+          "$165,000",
+          "Proof of delivery pending",
+          "Logistics to upload POD documents and resubmit to customers within 5 business days"
+        ],
+        [
+          "quantity variance",
+          "Multiple invoices",
+          "61–90 days",
+          "Medium",
+          "$125,000",
+          "$125,000",
+          "quantity variance",
+          "Warehouse audit and customer reconciliation calls scheduled; adjust invoices if confirmed"
+        ],
+        [
+          " incorrect tax",
+          "Multiple invoices",
+          "0–30 days",
+          "Low",
+          "$90,000",
+          "$90,000",
+          "Billing errors",
+          "AR team correcting tax codes and reissuing invoices by 2026-05-12"
+        ],
+        [
+          "Contract terms interpretation",
+          "Multiple invoices",
+          "91–120 days",
+          "High",
+          "$50,000",
+          "$50,000",
+          "Contract terms dispute",
+          "Legal and sales reviewing rebate clauses; settlement proposal in progress"
+        ],
+        [
+          "Northstar Retail Group",
+          "INV-45821",
+          "31–60 days",
+          "Low",
+          "$185,000",
+          "$0",
+          "None – collectible balance",
+          "Routine collection calls; payment promised by 2026-05-15"
+        ],
+        [
+          "Summit Industrial Supply",
+          "INV-46277",
+          "91–120 days",
+          "High",
+          "$320,000",
+          "$0",
+          "None – overdue but undisputed",
+          "Escalated to senior management; payment plan under negotiation, weekly follow-up calls"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Total A/R": 1785000.0,
+        "max_Total A/R": 640000.0,
+        "min_Total A/R": 50000.0,
+        "sum_Disputed Amount": 1280000.0,
+        "max_Disputed Amount": 640000.0,
+        "min_Disputed Amount": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "R breakdown by dispute reason and ageing (USD) as of 2026-04-30\", what is the Disputed Amount for Pricing discrepancies?",
+          "answer": "$210,000",
+          "assertions": [
+            {
+              "text": "The response must state $210,000."
+            }
+          ]
+        },
+        {
+          "question": "R breakdown by dispute reason and ageing (USD) as of 2026-04-30\", what is the Credit Risk Rating for Contract terms interpretation?",
+          "answer": "High",
+          "assertions": [
+            {
+              "text": "The response must state High."
+            }
+          ]
+        },
+        {
+          "question": " Ref for Summit Industrial Supply?",
+          "answer": "INV-46277",
+          "assertions": [
+            {
+              "text": "The response must state INV-46277."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "table_0005_872cdf43",
+      "table_number": 4,
+      "caption": "Table 4: Collections action plan for overdue balances with owners, dates, and expected cash impact (May–June 2026)",
+      "columns": [
+        "Customer",
+        ">60-Day Overdue ($)",
+        "Credit Risk Rating",
+        "Disputed Amount ($)",
+        "Owner",
+        "Action",
+        "Target Date",
+        " Notes"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Northbridge Retail Co.",
+          "420000",
+          "High",
+          "0",
+          "J. Patel",
+          "Escalate to CFO call",
+          "2026-05-10",
+          "CFO escalation to secure structured payment plan"
+        ],
+        [
+          "Summit Industrial LLC",
+          "315000",
+          "Medium",
+          "85000",
+          "L. Chen",
+          "Resolve pricing dispute",
+          "2026-05-20",
+          "Pricing variance under review with procurement"
+        ],
+        [
+          "Apex Health Systems",
+          "280000",
+          "High",
+          "0",
+          "M. Rivera",
+          "Issue demand letter",
+          "2026-05-31",
+          "Final notice prior to external collections referral"
+        ],
+        [
+          "Orion Manufacturing Ltd.",
+          "190000",
+          "Medium",
+          "25000",
+          "S. Gupta",
+          "Negotiate payment schedule",
+          "2026-05-18",
+          "Installment proposal pending CFO approval"
+        ],
+        [
+          "BlueWave Distribution Inc.",
+          "215000",
+          "Low",
+          "0",
+          "T. Alvarez",
+          "Offer early settlement discount",
+          "2026-05-25",
+          "2% discount for payment by 2026-06-15"
+        ],
+        [
+          ">60-Day Focus)",
+          "1420000",
+          "Mixed",
+          "110000",
+          "AR Leadership",
+          "Monitor weekly and report to CFO",
+          "2026-06-30",
+          "Expected >60-day overdue by 2026-06-30: $0.90M"
+        ]
+      ],
+      "derived_answers": {
+        "sum_\\>60-Day Overdue ($)": 2840000.0,
+        "max_\\>60-Day Overdue ($)": 1420000.0,
+        "min_\\>60-Day Overdue ($)": 190000.0,
+        "sum_Disputed Amount ($)": 220000.0,
+        "max_Disputed Amount ($)": 110000.0,
+        "min_Disputed Amount ($)": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Collections action plan for overdue balances with owners, dates, and expected cash impact (May–June 2026)\", what is the Target Date for Apex Health Systems?",
+          "answer": "2026-05-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-05-31."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Collections action plan for overdue balances with owners, dates, and expected cash impact (May–June 2026)\", what is the Disputed Amount ($) for Summit Industrial LLC?",
+          "answer": "85000",
+          "assertions": [
+            {
+              "text": "The response must state 85000."
+            }
+          ]
+        },
+        {
+          "question": " Notes entry for BlueWave Distribution Inc.?",
+          "answer": "2% discount for payment by 2026-06-15",
+          "assertions": [
+            {
+              "text": "The response must state 2% discount for payment by 2026-06-15."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0003_d46cb749",
+      "table_number": 5,
+      "caption": "Table 5: Customer credit risk ratings and exposure (USD) as of 2026-04-30",
+      "columns": [
+        " Segment",
+        "Risk Rating",
+        "0–30 Days",
+        "31–60 Days",
+        "61–90 Days",
+        "90+ Days",
+        "Disputed Amount",
+        "Collections Action Plan"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "R: $1.18M",
+          "High",
+          "$210,000",
+          "$340,000",
+          "$290,000",
+          "$340,000",
+          "$145,000",
+          "Immediate call cadence (2x weekly), credit hold on new orders, escalate >90 days to legal review"
+        ],
+        [
+          "R: $2.07M",
+          "Medium",
+          "$820,000",
+          "$540,000",
+          "$410,000",
+          "$300,000",
+          "$96,000",
+          "Weekly follow-ups, negotiate payment plans for >60 days, monitor credit utilization"
+        ],
+        [
+          "R: $1.61M",
+          "Low",
+          "$1,020,000",
+          "$310,000",
+          "$180,000",
+          "$100,000",
+          "$42,000",
+          "Standard monthly statements, courtesy reminders at 45 days"
+        ],
+        [
+          "Northbridge Retail Co. — Risk rating: High",
+          "High",
+          "$95,000",
+          "$140,000",
+          "$110,000",
+          "$160,000",
+          "$58,000",
+          "Escalated to senior collections manager, payment plan under negotiation, suspend shipments >$50K"
+        ],
+        [
+          "Summit Industrial Supply",
+          "Medium",
+          "$210,000",
+          "$175,000",
+          "$120,000",
+          "$85,000",
+          "$22,000",
+          "Bi-weekly check-ins, partial payment received, monitor disputed freight charges"
+        ],
+        [
+          "Lakeside Health Group",
+          "Low",
+          "$340,000",
+          "$90,000",
+          "$45,000",
+          "$20,000",
+          "$8,000",
+          "Send reminder at 30 days, maintain open credit line, no escalation required"
+        ]
+      ],
+      "derived_answers": {
+        "sum_0–30 Days": 2695000.0,
+        "max_0–30 Days": 1020000.0,
+        "min_0–30 Days": 95000.0,
+        "sum_31–60 Days": 1595000.0,
+        "max_31–60 Days": 540000.0,
+        "min_31–60 Days": 90000.0,
+        "sum_61–90 Days": 1155000.0,
+        "max_61–90 Days": 410000.0,
+        "min_61–90 Days": 45000.0,
+        "sum_90+ Days": 1005000.0,
+        "max_90+ Days": 340000.0,
+        "min_90+ Days": 20000.0,
+        "sum_Disputed Amount": 371000.0,
+        "max_Disputed Amount": 145000.0,
+        "min_Disputed Amount": 8000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "R: $1.18M?",
+          "answer": "$145,000",
+          "assertions": [
+            {
+              "text": "The response must state $145,000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Customer credit risk ratings and exposure (USD) as of 2026-04-30)\", what is the 31–60 Days amount for Summit Industrial Supply?",
+          "answer": "$175,000",
+          "assertions": [
+            {
+              "text": "The response must state $175,000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Customer credit risk ratings and exposure (USD) as of 2026-04-30)\", what is the Collections Action Plan for Lakeside Health Group?",
+          "answer": "Send reminder at 30 days, maintain open credit line, no escalation required",
+          "assertions": [
+            {
+              "text": "The response must state Send reminder at 30 days, maintain open credit line, no escalation required."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "table_0000_1e85d9f8",
+      "table_number": 6,
+      "caption": "R ageing summary by bucket (USD) as of 2026-04-30",
+      "columns": [
+        " Segment",
+        "Outstanding Amount",
+        "% of Total Receivables",
+        "Avg. Credit Risk Rating",
+        "Disputed Amount",
+        "Collections Action Plan"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Current (0–30 days)",
+          "$2.10M",
+          "43.2%",
+          "Low–Moderate",
+          "$0.12M",
+          "Routine follow-ups; monitor upcoming due dates"
+        ],
+        [
+          "31–60 days",
+          "$1.34M",
+          "27.6%",
+          "Moderate",
+          "$0.18M",
+          "Reminder notices; account manager outreach"
+        ],
+        [
+          "61–90 days",
+          "$0.64M",
+          "13.2%",
+          "Moderate–High",
+          "$0.06M",
+          "Escalation calls; payment plans initiated"
+        ],
+        [
+          ">90 days",
+          "$0.78M",
+          "16.0%",
+          "High",
+          "$0.09M",
+          "Final demand letters; consider external collections"
+        ],
+        [
+          ">60 days total",
+          "$1.42M",
+          "29.2%",
+          "Moderate–High",
+          "$0.15M",
+          "Dedicated recovery team oversight; weekly status review"
+        ],
+        [
+          "Top 5 Customers (All Buckets)",
+          "$3.25M",
+          "66.9%",
+          "Mixed (Low–High)",
+          "$0.21M",
+          "Executive-level engagement; credit limit reassessment"
+        ],
+        [
+          "Total Disputed Invoices",
+          "$0.36M",
+          "7.4%",
+          "A",
+          "$0.36M",
+          "Cross-functional resolution with billing and sales"
+        ],
+        [
+          "Grand Total Exposure",
+          "$4.86M",
+          "100%",
+          "Portfolio Weighted Avg: Moderate",
+          "$0.36M",
+          "Comprehensive collections strategy aligned to ageing profile"
+        ]
+      ],
+      "derived_answers": {
+        "sum_% of Total Receivables": 303.5,
+        "max_% of Total Receivables": 100.0,
+        "min_% of Total Receivables": 7.4
+      },
+      "qa_candidates": [
+        {
+          "question": "R ageing summary by bucket (USD) as of 2026-04-30\", what is the Outstanding Amount for the row \"61–90 days\"?",
+          "answer": "$0.64M",
+          "assertions": [
+            {
+              "text": "The response must state $0.64M."
+            }
+          ]
+        },
+        {
+          "question": "R ageing summary by bucket (USD) as of 2026-04-30\", what is the Collections Action Plan listed for \">90 days\"?",
+          "answer": "Final demand letters; consider external collections",
+          "assertions": [
+            {
+              "text": "The response must state Final demand letters; consider external collections."
+            }
+          ]
+        },
+        {
+          "question": "R ageing summary by bucket (USD) as of 2026-04-30\", what is the Avg. Credit Risk Rating shown for \"Grand Total Exposure\"?",
+          "answer": "Portfolio Weighted Avg: Moderate",
+          "assertions": [
+            {
+              "text": "The response must state Portfolio Weighted Avg: Moderate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "cx_table_0002_da8eaa6b",
+      "table_number": 7,
+      "caption": "Table 7: Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what sub-columns fall under the grouped header \"Outstanding\" in the inner ageing breakdown table within the \"Strategic Accounts\" row?",
+          "answer": "USD and % of Total.",
+          "assertions": [
+            {
+              "text": "The response must state 'USD and % of Total.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", how many rows does the \"Pricing variance\" label span in the inner disputes table within the \"Strategic Accounts\" row?",
+          "answer": "It spans 2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'It spans 2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what does footnote 1 explain?",
+          "answer": "It explains that the Current–30 balance includes $215,000 billed on 2026-04-29 with payment terms starting upon customer acceptance per contract.",
+          "assertions": [
+            {
+              "text": "The response must state 'It explains that the Current–30 balance includes $215,000 billed on 2026-04-29 with payment terms starting upon customer acceptance per contract.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what is the USD amount for the \"61–90\" bucket in the inner ageing breakdown table within the \"Strategic Accounts\" row?",
+          "answer": "198,600.",
+          "assertions": [
+            {
+              "text": "The response must state '198,600.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what escalation level is listed for the second row under \"Dunning emails\" in the inner action plan table within the \"Mid-Market Customers\" row?",
+          "answer": "Level 2.",
+          "assertions": [
+            {
+              "text": "The response must state 'Level 2.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what units are used to present Outstanding Invoices?",
+          "answer": "USD and % of Total.",
+          "assertions": [
+            {
+              "text": "The response must state 'USD and % of Total.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", how many header tiers does the table have?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", which top-level header likely contains the most sub-columns?",
+          "answer": "Ageing Buckets (USD).",
+          "assertions": [
+            {
+              "text": "The response must state 'Ageing Buckets (USD).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what does the table note explain about the Current–30 balance?",
+          "answer": "Current–30 includes $215,000 billed 2026-04-29, payment due on customer acceptance.",
+          "assertions": [
+            {
+              "text": "The response must state 'Current–30 includes $215,000 billed 2026-04-29, payment due on customer acceptance.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what is the subtotal for group Current–30 in the Ageing Buckets (USD) column?",
+          "answer": "$215,000.",
+          "assertions": [
+            {
+              "text": "The response must state '$215,000.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0001_17c17ff1",
+      "table_number": 8,
+      "caption": "Table 8: Top overdue customers and invoice ageing mix (USD) as of 2026-04-30",
+      "columns": [
+        "Customer Name",
+        "Credit Risk Rating",
+        "R",
+        "Current (0-30)",
+        "31-60 Days",
+        "61-90 Days",
+        ">90 Days",
+        "Disputed Amount",
+        "Collections Action Plan"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Northbridge Retail Co.",
+          "High",
+          "$312,450",
+          "$52,300",
+          "$40,150",
+          "$40,000",
+          "$180,000",
+          "$25,000",
+          "Escalated to senior collections specialist; demand letter issued; weekly follow-up calls"
+        ],
+        [
+          "Summit Industrial LLC",
+          "Medium",
+          "$268,900",
+          "$120,500",
+          "$58,400",
+          "$44,000",
+          "$46,000",
+          "$12,500",
+          "Payment plan under negotiation; biweekly check-ins with AP manager"
+        ],
+        [
+          "Apex Health Systems",
+          "Low",
+          "$241,600",
+          "$180,200",
+          "$32,400",
+          "$18,000",
+          "$11,000",
+          "$5,200",
+          "Routine follow-up emails; monitor for payment by next cycle"
+        ],
+        [
+          "Greenfield Distribution Inc.",
+          "High",
+          "$198,750",
+          "$40,000",
+          "$28,750",
+          "$30,000",
+          "$100,000",
+          "$18,400",
+          "Final notice sent; account on credit hold; consider third-party collections"
+        ],
+        [
+          "Orion Manufacturing Group",
+          "Medium",
+          "$154,320",
+          "$60,120",
+          "$34,200",
+          "$29,000",
+          "$31,000",
+          "$6,800",
+          "Senior account manager outreach; dispute documentation under review"
+        ],
+        [
+          "Lakeview Hospitality Partners",
+          "High",
+          "$129,875",
+          "$25,300",
+          "$19,575",
+          "$15,000",
+          "$70,000",
+          "$9,500",
+          "Executive escalation; negotiate lump-sum settlement; suspend future shipments"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Total A/R": 1305895.0,
+        "max_Total A/R": 312450.0,
+        "min_Total A/R": 129875.0,
+        "sum_Current (0-30)": 478420.0,
+        "max_Current (0-30)": 180200.0,
+        "min_Current (0-30)": 25300.0,
+        "sum_31-60 Days": 213475.0,
+        "max_31-60 Days": 58400.0,
+        "min_31-60 Days": 19575.0,
+        "sum_61-90 Days": 176000.0,
+        "max_61-90 Days": 44000.0,
+        "min_61-90 Days": 15000.0,
+        "sum_>90 Days": 438000.0,
+        "max_>90 Days": 180000.0,
+        "min_>90 Days": 11000.0,
+        "sum_Disputed Amount": 77400.0,
+        "max_Disputed Amount": 25000.0,
+        "min_Disputed Amount": 5200.0
+      },
+      "qa_candidates": [
+        {
+          "question": "R for Northbridge Retail Co.?",
+          "answer": "$312,450",
+          "assertions": [
+            {
+              "text": "The response must state $312,450."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top overdue customers and invoice ageing mix (USD) as of 2026-04-30)\", what is the Credit Risk Rating for Apex Health Systems?",
+          "answer": "Low",
+          "assertions": [
+            {
+              "text": "The response must state Low."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top overdue customers and invoice ageing mix (USD) as of 2026-04-30)\", what is the Disputed Amount for Greenfield Distribution Inc.?",
+          "answer": "$18,400",
+          "assertions": [
+            {
+              "text": "The response must state $18,400."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_df251cd9",
+      "table_number": 9,
+      "caption": "Table 9: Purchase Order Register",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "row_count": 73,
+      "cells": [
+        [
+          "PO-1001",
+          "Alpha Retail Ltd",
+          "2026-01-12",
+          "15240.5",
+          "A"
+        ],
+        [
+          "PO-1002",
+          "Brightstar Electronics",
+          "2026-01-18",
+          "8740.0",
+          "B"
+        ],
+        [
+          "PO-1003",
+          "Crestview Medical Supplies",
+          "2026-01-25",
+          "21980.75",
+          "A"
+        ],
+        [
+          "PO-1004",
+          "Delta Industrial Co",
+          "2026-02-02",
+          "13450.0",
+          "C"
+        ],
+        [
+          "PO-1005",
+          "Evergreen Hospitality Group",
+          "2026-02-10",
+          "9875.2",
+          "B"
+        ],
+        [
+          "PO-1006",
+          "Frontline Logistics",
+          "2026-02-14",
+          "17660.0",
+          "A"
+        ],
+        [
+          "PO-1007",
+          "GlobalTech Solutions",
+          "2026-02-20",
+          "24310.4",
+          "B"
+        ],
+        [
+          "PO-1008",
+          "Harborview Construction",
+          "2026-03-01",
+          "31250.0",
+          "D"
+        ],
+        [
+          "PO-1009",
+          "Inspire Fitness Corp",
+          "2026-03-05",
+          "7685.9",
+          "B"
+        ],
+        [
+          "PO-1010",
+          "Jupiter Office Supplies",
+          "2026-03-12",
+          "4580.0",
+          "A"
+        ],
+        [
+          "PO-1011",
+          "Kingston Wholesale Traders",
+          "2026-03-18",
+          "18940.6",
+          "C"
+        ],
+        [
+          "PO-1012",
+          "Lakeside Pharmaceuticals",
+          "2026-03-22",
+          "27500.0",
+          "A"
+        ],
+        [
+          "PO-1013",
+          "Metro Energy Systems",
+          "2026-04-01",
+          "34210.75",
+          "B"
+        ],
+        [
+          "PO-1014",
+          "Northshore Apparel",
+          "2026-04-07",
+          "11230.0",
+          "C"
+        ],
+        [
+          "PO-1015",
+          "Optimum IT Services",
+          "2026-04-15",
+          "15995.35",
+          "A"
+        ],
+        [
+          "PO-016",
+          "2026-03-02",
+          "Northbridge Supplies",
+          "$4,850.00",
+          "Pending Approval"
+        ],
+        [
+          "PO-017",
+          "2026-03-03",
+          "Delta Office Equipment",
+          "$12,430.75",
+          "Approved"
+        ],
+        [
+          "PO-018",
+          "2026-03-05",
+          "Summit Industrial Co.",
+          "$8,219.40",
+          "Issued"
+        ],
+        [
+          "PO-019",
+          "2026-03-06",
+          "Greenfield Stationers",
+          "$1,275.90",
+          "Received"
+        ],
+        [
+          "PO-020",
+          "2026-03-08",
+          "Horizon IT Solutions",
+          "$15,640.00",
+          "Partially Received"
+        ],
+        [
+          "PO-021",
+          "2026-03-09",
+          "Metro Logistics Ltd.",
+          "$6,980.55",
+          "Approved"
+        ],
+        [
+          "PO-022",
+          "2026-03-11",
+          "Pioneer Safety Gear",
+          "$3,455.20",
+          "Issued"
+        ],
+        [
+          "PO-023",
+          "2026-03-12",
+          "Vertex Consulting Group",
+          "$9,870.00",
+          "Pending Approval"
+        ],
+        [
+          "PO-024",
+          "2026-03-14",
+          "Bluewave Packaging",
+          "$2,640.30",
+          "Received"
+        ],
+        [
+          "PO-025",
+          "2026-03-16",
+          "Everest Hardware Inc.",
+          "$7,310.80",
+          "Approved"
+        ],
+        [
+          "PO-026",
+          "2026-03-18",
+          "Silverline Furniture",
+          "$18,225.00",
+          "Issued"
+        ],
+        [
+          "PO-027",
+          "2026-03-20",
+          "RapidPrint Services",
+          "$945.60",
+          "Received"
+        ],
+        [
+          "PO-028",
+          "2026-03-22",
+          "Global Tech Components",
+          "$21,478.90",
+          "Partially Received"
+        ],
+        [
+          "PO-029",
+          "2026-03-24",
+          "Atlas Cleaning Supplies",
+          "$1,684.75",
+          "Approved"
+        ],
+        [
+          "PO-030",
+          "2026-03-26",
+          "Crestview Electrical",
+          "$5,932.10",
+          "Pending Approval"
+        ],
+        [
+          "31",
+          "PO-AR-031",
+          "Northbridge Wholesale Ltd",
+          "USD 12,450",
+          "Approved"
+        ],
+        [
+          "32",
+          "PO-AR-032",
+          "Summit Retail Group",
+          "USD 8,975",
+          "Pending Review"
+        ],
+        [
+          "33",
+          "PO-AR-033",
+          "Lakeside Electronics",
+          "USD 15,320",
+          "Approved"
+        ],
+        [
+          "34",
+          "PO-AR-034",
+          "Greenfield Distributors",
+          "USD 6,840",
+          "Closed"
+        ],
+        [
+          "35",
+          "PO-AR-035",
+          "Urban Trend Stores",
+          "USD 19,275",
+          "Approved"
+        ],
+        [
+          "36",
+          "PO-AR-036",
+          "Pioneer Office Supplies",
+          "USD 4,560",
+          "Pending Review"
+        ],
+        [
+          "37",
+          "PO-AR-037",
+          "Silverline Manufacturing",
+          "USD 22,910",
+          "Approved"
+        ],
+        [
+          "38",
+          "PO-AR-038",
+          "Bluewave Technologies",
+          "USD 13,480",
+          "Closed"
+        ],
+        [
+          "39",
+          "PO-AR-039",
+          "Everbright Supermarkets",
+          "USD 9,670",
+          "Approved"
+        ],
+        [
+          "40",
+          "PO-AR-040",
+          "Crescent Hardware Co.",
+          "USD 5,390",
+          "On Hold"
+        ],
+        [
+          "41",
+          "PO-AR-041",
+          "Atlas Industrial Parts",
+          "USD 17,860",
+          "Approved"
+        ],
+        [
+          "42",
+          "PO-AR-042",
+          "Maple Leaf Traders",
+          "USD 3,740",
+          "Closed"
+        ],
+        [
+          "43",
+          "PO-AR-043",
+          "Vertex Pharmaceuticals",
+          "USD 28,430",
+          "Approved"
+        ],
+        [
+          "44",
+          "PO-AR-044",
+          "Harborview Grocers",
+          "USD 7,215",
+          "Pending Review"
+        ],
+        [
+          "45",
+          "PO-AR-045",
+          "Sunrise Apparel Ltd",
+          "USD 11,905",
+          "Approved"
+        ],
+        [
+          "PO-046",
+          "Northbridge Office Supplies",
+          "2026-03-12",
+          "$4,850.00",
+          "Approved"
+        ],
+        [
+          "PO-047",
+          "Summit IT Solutions",
+          "2026-03-14",
+          "$12,430.75",
+          "Pending"
+        ],
+        [
+          "PO-048",
+          "Greenfield Logistics",
+          "2026-03-15",
+          "$2,980.00",
+          "Received"
+        ],
+        [
+          "PO-049",
+          "Metro Equipment Co.",
+          "2026-03-18",
+          "$18,225.40",
+          "Approved"
+        ],
+        [
+          "PO-050",
+          "BrightStar Consulting",
+          "2026-03-19",
+          "$7,560.00",
+          "Closed"
+        ],
+        [
+          "PO-051",
+          "Everest Industrial Parts",
+          "2026-03-22",
+          "$9,874.60",
+          "Approved"
+        ],
+        [
+          "PO-052",
+          "ClearView Software Ltd.",
+          "2026-03-24",
+          "$15,300.00",
+          "Pending"
+        ],
+        [
+          "PO-053",
+          "Harbor Freight Services",
+          "2026-03-26",
+          "$3,415.89",
+          "Received"
+        ],
+        [
+          "PO-054",
+          "Pioneer Safety Supplies",
+          "2026-03-27",
+          "$1,245.30",
+          "Closed"
+        ],
+        [
+          "PO-055",
+          "Atlas Facility Management",
+          "2026-03-29",
+          "$6,780.50",
+          "Approved"
+        ],
+        [
+          "PO-056",
+          "BlueWave Marketing",
+          "2026-04-01",
+          "$5,990.00",
+          "Pending"
+        ],
+        [
+          "PO-057",
+          "Sterling Office Interiors",
+          "2026-04-02",
+          "$21,450.00",
+          "Approved"
+        ],
+        [
+          "PO-058",
+          "Vertex Data Systems",
+          "2026-04-04",
+          "$11,275.25",
+          "Received"
+        ],
+        [
+          "PO-059",
+          "Golden State Packaging",
+          "2026-04-06",
+          "$2,640.80",
+          "Closed"
+        ],
+        [
+          "PO-060",
+          "Redwood Transport Ltd.",
+          "2026-04-08",
+          "$8,930.15",
+          "Approved"
+        ],
+        [
+          "61",
+          "PO-2026-061",
+          "Northbridge Retail Ltd.",
+          "61-90 days",
+          "High"
+        ],
+        [
+          "62",
+          "PO-2026-062",
+          "Silverline Wholesalers",
+          "0-30 days",
+          "Low"
+        ],
+        [
+          "63",
+          "PO-2026-063",
+          "Crescent Industrial Supplies",
+          "31-60 days",
+          "Medium"
+        ],
+        [
+          "64",
+          "PO-2026-064",
+          "Maple Leaf Trading Co.",
+          "91-120 days",
+          "High"
+        ],
+        [
+          "65",
+          "PO-2026-065",
+          "Orion Office Furnishings",
+          "0-30 days",
+          "Low"
+        ],
+        [
+          "66",
+          "PO-2026-066",
+          "Bluewater Logistics Inc.",
+          "121+ days",
+          "Critical"
+        ],
+        [
+          "67",
+          "PO-2026-067",
+          "Summit Tech Distributors",
+          "31-60 days",
+          "Medium"
+        ],
+        [
+          "68",
+          "PO-2026-068",
+          "Greenfield Agricultural Corp.",
+          "61-90 days",
+          "High"
+        ],
+        [
+          "69",
+          "PO-2026-069",
+          "UrbanCore Construction Ltd.",
+          "0-30 days",
+          "Low"
+        ],
+        [
+          "70",
+          "PO-2026-070",
+          "Pioneer Medical Supplies",
+          "91-120 days",
+          "High"
+        ],
+        [
+          "71",
+          "PO-2026-071",
+          "Everbright Electronics",
+          "31-60 days",
+          "Medium"
+        ],
+        [
+          "72",
+          "PO-2026-072",
+          "Harborview Food Services",
+          "121+ days",
+          "Critical"
+        ],
+        [
+          "73",
+          "PO-2026-073",
+          "Atlas Manufacturing Group",
+          "61-90 days",
+          "High"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col1": 1441.0,
+        "max_Col1": 73.0,
+        "min_Col1": 31.0,
+        "sum_Col4": 516537.34,
+        "max_Col4": 34210.75,
+        "min_Col4": 945.6
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Col3 value for PO-1002?",
+          "answer": "2026-01-18",
+          "assertions": [
+            {
+              "text": "The response must state 2026-01-18."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Col4 value for PO-058?",
+          "answer": "$11,275.25",
+          "assertions": [
+            {
+              "text": "The response must state $11,275.25."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Col5 value for PO-2026-072?",
+          "answer": "Critical",
+          "assertions": [
+            {
+              "text": "The response must state Critical."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_ced94c93",
+      "table_number": 10,
+      "caption": "Table 10: Employee Activity Report",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "row_count": 70,
+      "cells": [
+        [
+          "E001 - Maria Lopez",
+          "Senior Collections Officer",
+          "42",
+          "125000.5",
+          "High Risk Portfolio Review"
+        ],
+        [
+          "E002 - James Carter",
+          "Credit Analyst",
+          "38",
+          "98000.0",
+          "Credit Limit Reassessment"
+        ],
+        [
+          "E003 - Aisha Khan",
+          "Collections Specialist",
+          "40",
+          "75640.75",
+          "30-60 Days Follow-up Calls"
+        ],
+        [
+          "E004 - Daniel Schmidt",
+          "Accounts Receivable Clerk",
+          "35",
+          "45210.2",
+          "Invoice Dispute Resolution"
+        ],
+        [
+          "E005 - Priya Patel",
+          "Credit Controller",
+          "41",
+          "134890.0",
+          "60-90 Days Escalations"
+        ],
+        [
+          "E006 - Michael Brown",
+          "Collections Specialist",
+          "39",
+          "88455.6",
+          "Payment Plan Negotiations"
+        ],
+        [
+          "E007 - Elena Garcia",
+          "AR Analyst",
+          "37",
+          "67320.4",
+          "Ageing Report Reconciliation"
+        ],
+        [
+          "E008 - Robert Chen",
+          "Senior Credit Analyst",
+          "43",
+          "152300.9",
+          "High Value Account Monitoring"
+        ],
+        [
+          "E009 - Sophie Dubois",
+          "Collections Officer",
+          "36",
+          "54310.0",
+          "Over 90 Days Legal Review"
+        ],
+        [
+          "E010 - Liam O'Connor",
+          "AR Clerk",
+          "34",
+          "38975.25",
+          "Disputed Invoice Tracking"
+        ],
+        [
+          "E011 - Fatima Hassan",
+          "Credit Risk Officer",
+          "40",
+          "119450.8",
+          "Risk Rating Updates"
+        ],
+        [
+          "E012 - Noah Johnson",
+          "Collections Specialist",
+          "38",
+          "81220.35",
+          "Customer Reminder Campaign"
+        ],
+        [
+          "E013 - Isabella Rossi",
+          "Accounts Receivable Analyst",
+          "39",
+          "94560.1",
+          "Cash Application Review"
+        ],
+        [
+          "E014 - David Kim",
+          "Credit Controller",
+          "42",
+          "128775.65",
+          "Account Suspension Review"
+        ],
+        [
+          "E015 - Chen Wei",
+          "Senior Collections Officer",
+          "44",
+          "167890.55",
+          "Strategic Collections Planning"
+        ],
+        [
+          "16",
+          "Reviewed 61-90 day bucket invoices",
+          "2026-04-12",
+          "3.5",
+          "Identified 4 high-risk accounts for escalation"
+        ],
+        [
+          "17",
+          "Contacted overdue customers (31-60 days)",
+          "2026-04-12",
+          "2.0",
+          "Arranged payment plans with 2 clients"
+        ],
+        [
+          "18",
+          "Updated credit risk ratings",
+          "2026-04-13",
+          "4.0",
+          "Downgraded 1 account due to repeated delays"
+        ],
+        [
+          "19",
+          "Reconciled disputed invoice #INV-4582",
+          "2026-04-13",
+          "1.5",
+          "Resolved billing discrepancy"
+        ],
+        [
+          "20",
+          "Prepared weekly ageing summary report",
+          "2026-04-14",
+          "2.5",
+          "Shared with Finance Manager"
+        ],
+        [
+          "21",
+          "Follow-up emails for 90+ day invoices",
+          "2026-04-14",
+          "3.0",
+          "Escalated 3 accounts to collections"
+        ],
+        [
+          "22",
+          "Customer credit limit review meeting",
+          "2026-04-15",
+          "1.0",
+          "Approved temporary limit increase for Client A"
+        ],
+        [
+          "23",
+          "Analyzed payment trends by customer segment",
+          "2026-04-15",
+          "2.5",
+          "Noted higher delays in retail segment"
+        ],
+        [
+          "24",
+          "Posted incoming payments to ledger",
+          "2026-04-16",
+          "3.0",
+          "Cleared 12 outstanding invoices"
+        ],
+        [
+          "25",
+          "Risk assessment documentation update",
+          "2026-04-16",
+          "2.0",
+          "Added commentary on top 5 overdue accounts"
+        ],
+        [
+          "26",
+          "Internal audit of ageing report accuracy",
+          "2026-04-17",
+          "4.5",
+          "No material discrepancies found"
+        ],
+        [
+          "27",
+          "Coordinated with sales on credit holds",
+          "2026-04-17",
+          "1.5",
+          "Maintained hold on 2 high-risk customers"
+        ],
+        [
+          "28",
+          "Generated month-end ageing dashboard",
+          "2026-04-18",
+          "3.5",
+          "Highlighted increase in 90+ day balance"
+        ],
+        [
+          "29",
+          "Customer call regarding disputed charges",
+          "2026-04-18",
+          "2.0",
+          "Pending revised invoice issuance"
+        ],
+        [
+          "30",
+          "Updated collections forecast model",
+          "2026-04-19",
+          "4.0",
+          "Adjusted projections based on latest receipts"
+        ],
+        [
+          "31",
+          "Maria Chen",
+          "Reviewed 61-90 day ageing bucket and flagged high-risk accounts",
+          "2026-04-12",
+          "Completed"
+        ],
+        [
+          "32",
+          "David Kumar",
+          "Contacted customer regarding 120+ day overdue invoice INV-4587",
+          "2026-04-12",
+          "Pending Response"
+        ],
+        [
+          "33",
+          "Elena Petrova",
+          "Updated credit risk rating for Alpha Logistics",
+          "2026-04-13",
+          "Approved"
+        ],
+        [
+          "34",
+          "James O'Neill",
+          "Reconciled disputed invoice INV-4621 (31-60 days)",
+          "2026-04-13",
+          "In Progress"
+        ],
+        [
+          "35",
+          "Sofia Martinez",
+          "Prepared weekly ageing summary for finance director",
+          "2026-04-14",
+          "Completed"
+        ],
+        [
+          "36",
+          "Liam Johnson",
+          "Escalated non-payment issue for Beta Retail Group",
+          "2026-04-14",
+          "Escalated"
+        ],
+        [
+          "37",
+          "Aisha Rahman",
+          "Adjusted credit limit for Delta Manufacturing",
+          "2026-04-15",
+          "Approved"
+        ],
+        [
+          "38",
+          "Noah Williams",
+          "Reviewed unapplied cash impacting 0-30 day bucket",
+          "2026-04-15",
+          "Completed"
+        ],
+        [
+          "39",
+          "Isabella Rossi",
+          "Sent reminder notices for 31-60 day invoices",
+          "2026-04-16",
+          "Sent"
+        ],
+        [
+          "40",
+          "Ethan Brown",
+          "Analyzed bad debt provision for high-risk accounts",
+          "2026-04-16",
+          "Completed"
+        ],
+        [
+          "41",
+          "Olivia Davis",
+          "Updated payment promise date for Gamma Supplies",
+          "2026-04-17",
+          "Monitoring"
+        ],
+        [
+          "42",
+          "Lucas Martin",
+          "Conducted credit review for new customer onboarding",
+          "2026-04-17",
+          "Approved"
+        ],
+        [
+          "43",
+          "Mia Thompson",
+          "Documented dispute details for invoice INV-4702",
+          "2026-04-18",
+          "Under Review"
+        ],
+        [
+          "44",
+          "Benjamin Lee",
+          "Generated customer ageing trend analysis report",
+          "2026-04-18",
+          "Completed"
+        ],
+        [
+          "45",
+          "Charlotte Wilson",
+          "Recommended account hold for 120+ day delinquent client",
+          "2026-04-19",
+          "Recommended Action"
+        ],
+        [
+          "46",
+          "Review aged receivables >120 days",
+          "GlobalTech Industries",
+          "High Risk",
+          "Escalated to collections agency"
+        ],
+        [
+          "47",
+          "Reconcile disputed invoice #INV-4582",
+          "Northbridge Supplies",
+          "Medium Risk",
+          "Awaiting customer documentation"
+        ],
+        [
+          "48",
+          "Send payment reminder - 61-90 days bucket",
+          "Evergreen Retail Group",
+          "Medium Risk",
+          "Email reminder sent 2026-05-04"
+        ],
+        [
+          "49",
+          "Credit limit reassessment",
+          "Summit Logistics Ltd.",
+          "High Risk",
+          "Proposed limit reduction by 15%"
+        ],
+        [
+          "50",
+          "Update ageing report adjustments",
+          "BlueWave Manufacturing",
+          "Low Risk",
+          "Applied credit memo CM-774"
+        ],
+        [
+          "51",
+          "Follow-up call on overdue balance",
+          "Pioneer Office Solutions",
+          "Medium Risk",
+          "Promised payment by 2026-05-12"
+        ],
+        [
+          "52",
+          "Review partial payment allocation",
+          "Crescent Hospitality Co.",
+          "Low Risk",
+          "Allocated to oldest invoice"
+        ],
+        [
+          "53",
+          "Escalate non-responsive account",
+          "Vertex IT Services",
+          "High Risk",
+          "Legal review initiated"
+        ],
+        [
+          "54",
+          "Monitor 31-60 days ageing bucket",
+          "Harborview Construction",
+          "Low Risk",
+          "Within acceptable terms"
+        ],
+        [
+          "55",
+          "Prepare write-off recommendation",
+          "Oakridge Medical Supplies",
+          "High Risk",
+          "Pending CFO approval"
+        ],
+        [
+          "56",
+          "Send statement of account",
+          "Silverline Distribution",
+          "Medium Risk",
+          "Statement emailed and confirmed received"
+        ],
+        [
+          "57",
+          "Assess credit exposure",
+          "Atlas Engineering Corp.",
+          "Medium Risk",
+          "Exposure exceeds threshold by 8%"
+        ],
+        [
+          "58",
+          "Document payment plan agreement",
+          "Redwood Furniture Imports",
+          "High Risk",
+          "Installment plan signed"
+        ],
+        [
+          "59",
+          "Update risk rating after payment",
+          "Metro Energy Solutions",
+          "Low Risk",
+          "Risk downgraded after receipt"
+        ],
+        [
+          "60",
+          "Generate monthly ageing summary",
+          "Lakeside Wholesale Traders",
+          "Low Risk",
+          "Report finalized for management review"
+        ],
+        [
+          "61",
+          "Reviewed 61-90 day ageing bucket for overdue invoices",
+          "Identified 4 high-risk customer accounts",
+          "Coordinated with sales team for payment follow-up",
+          "Medium Risk"
+        ],
+        [
+          "62",
+          "Updated payment status for Customer ID C-1045",
+          "Applied partial payment to invoice INV-7782",
+          "Recalculated outstanding balance",
+          "Low Risk"
+        ],
+        [
+          "63",
+          "Analyzed 90+ day overdue accounts",
+          "Flagged account for potential credit hold",
+          "Escalated case to credit control manager",
+          "High Risk"
+        ],
+        [
+          "64",
+          "Reconciled disputed invoice INV-7841",
+          "Communicated discrepancy with customer",
+          "Adjusted invoice amount after validation",
+          "Resolved"
+        ],
+        [
+          "65",
+          "Generated weekly ageing summary report",
+          "Segmented balances by risk category",
+          "Shared report with finance director",
+          "Completed"
+        ],
+        [
+          "66",
+          "Reviewed customer credit limit for C-2098",
+          "Compared outstanding balance against limit",
+          "Recommended temporary suspension of credit",
+          "High Risk"
+        ],
+        [
+          "67",
+          "Processed received payment batch REF-5567",
+          "Allocated funds across 3 open invoices",
+          "Updated ERP ageing data",
+          "Low Risk"
+        ],
+        [
+          "68",
+          "Contacted customer regarding 75-day overdue invoice",
+          "Negotiated installment payment plan",
+          "Documented agreement in CRM system",
+          "Medium Risk"
+        ],
+        [
+          "69",
+          "Performed trend analysis on ageing buckets",
+          "Noted increase in 60-90 day balances",
+          "Suggested proactive collection strategy",
+          "Advisory"
+        ],
+        [
+          "70",
+          "Prepared month-end accounts receivable ageing report",
+          "Validated totals against general ledger",
+          "Submitted final report to CFO",
+          "Completed"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col1": 2365.0,
+        "max_Col1": 70.0,
+        "min_Col1": 16.0,
+        "sum_Col3": 588.0,
+        "max_Col3": 44.0,
+        "min_Col3": 34.0,
+        "sum_Col4": 1472041.55,
+        "max_Col4": 167890.55,
+        "min_Col4": 1.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the role listed for E002 - James Carter?",
+          "answer": "Credit Analyst",
+          "assertions": [
+            {
+              "text": "The response must state Credit Analyst."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Col4 value for E003 - Aisha Khan?",
+          "answer": "75640.75",
+          "assertions": [
+            {
+              "text": "The response must state 75640.75."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the status shown in Col5 for the row starting with 70?",
+          "answer": "Completed",
+          "assertions": [
+            {
+              "text": "The response must state Completed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "table",
+      "variant_id": "cx_table_0001_2aad9acc",
+      "table_number": 11,
+      "caption": "Table 11: Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", what is the H1 Attainment% for \"90+ days Outstanding\"?",
+          "answer": "73%",
+          "assertions": [
+            {
+              "text": "The response must state '73%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", how many metrics does the \"Credit Risk\" category rowspan cover?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "External Collections\"?",
+          "answer": "External Collections (75%)",
+          "assertions": [
+            {
+              "text": "External Collections (75%)'."
+            }
+          ]
+        },
+        {
+          "question": "E)\"?",
+          "answer": "$3.6M",
+          "assertions": [
+            {
+              "text": "The response must state '$3.6M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", what percentage value is shown among the table facts?",
+          "answer": "73%",
+          "assertions": [
+            {
+              "text": "The response must state '73%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", how many header tiers does the table contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", which contains more entries, the header tiers or the data rows?",
+          "answer": "Data rows",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", what annotation or footnote number appears in the facts?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", what is the total number of data rows (the subtotal for all groups)?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state '16'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "table",
+      "variant_id": "table_0002_6447ab94",
+      "table_number": 12,
+      "caption": "Table 12: Outstanding invoice register with due dates, ageing bucket, and dispute flag (sample) as of 2026-04-30",
+      "columns": [
+        "Invoice ID",
+        "Customer",
+        "Due Date",
+        "Invoice Amount",
+        "Ageing Bucket",
+        "Credit Risk Rating",
+        "Disputed",
+        "Collections Action Plan"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "INV-104983",
+          "Northbridge Retail Co.",
+          "2026-01-15",
+          "$120,000",
+          ">09 days",
+          "High",
+          "No",
+          "Escalated to senior collections; paymentp lan under negotiation"
+        ],
+        [
+          "INV-105221",
+          "Summit Industrial LLC",
+          "2026-03-10",
+          "$85,400",
+          "31–60 days",
+          "Medium",
+          "Yes",
+          "Dispute under review by billing team; follow-up in 7 days"
+        ],
+        [
+          "INV-105487",
+          "Apex Health Systems",
+          "2026-02-05",
+          "$64,800",
+          ">60 days",
+          "Meduim",
+          "No",
+          "Second demand notice issued; schedule call with AP manager"
+        ],
+        [
+          "INV-105612",
+          "Blue Harbor Logistics",
+          "2026-04-05",
+          "$49,950",
+          "Current (0–30)",
+          "Low",
+          "No",
+          "Courtesy reminder email sent; monitor for timely payment"
+        ],
+        [
+          "INV-105734",
+          "Crescent Energy Partners",
+          "2026-02-20",
+          "$98,250",
+          "61–90 days",
+          "High",
+          "No",
+          "Final notice sent; consider credit hold if unpaid by month-end"
+        ],
+        [
+          "INV-105802",
+          "Orion Manufacturing Inc.",
+          "2026-03-18",
+          "$72,600",
+          "31–60 days",
+          "eMdium",
+          "No",
+          "Collections call scheduled; confirm payment date"
+        ],
+        [
+          "INV-105915",
+          "Valleywide Grocers Ltd.",
+          "2026-01-28",
+          "$54,300",
+          ">90 days",
+          "High",
+          "Yes",
+          "Dispute escalated to sales; partial payment requested on undisputed amount"
+        ],
+        [
+          "INV-106004",
+          "Metro Transit Solutions",
+          "2026-04-12",
+          "$39,875",
+          "Current (0–30)",
+          "Low",
+          "No",
+          "No action required; within standard terms"
+        ],
+        [
+          "INV-106118",
+          "Pioneer Data Services",
+          "2026-02-14",
+          "$27,460",
+          "61–90 days",
+          "Medium",
+          "No",
+          "Reminder letter sent; assess risk for service suspension"
+        ],
+        [
+          "INV-106203",
+          "Harborview Construction Group",
+          "2026-30-25",
+          "$110,900",
+          "31–60 days",
+          "Medium",
+          "No",
+          "Follow-up email and statement of account issued"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Invoice Amount": 723535.0,
+        "max_Invoice Amount": 120000.0,
+        "min_Invoice Amount": 27460.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Outstanding invoice register with due dates, ageing bucket, and dispute flag (sample) as of 2026-04-30\", what is the Credit Risk Rating for INV-105802?",
+          "answer": "eMdium",
+          "assertions": [
+            {
+              "text": "The response must state eMdium."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Outstanding invoice register with due dates, ageing bucket, and dispute flag (sample) as of 2026-04-30\", what Due Date is listed for Harborview Construction Group?",
+          "answer": "2026-30-25",
+          "assertions": [
+            {
+              "text": "The response must state 2026-30-25."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Outstanding invoice register with due dates, ageing bucket, and dispute flag (sample) as of 2026-04-30\", what is the Collections Action Plan for INV-104983?",
+          "answer": "Escalated to senior collections; paymentp lan under negotiation",
+          "assertions": [
+            {
+              "text": "The response must state Escalated to senior collections; paymentp lan under negotiation."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "cx_table_0000_4036cc38": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 18,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "text_0001_89ceacff": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats"
+      ],
+      "heading": "Credit Risk, Dispute Root Causes, and Overdue Collections Action Plan (May–June 2026)",
+      "word_count": 292,
+      "text_type": "llm_prose",
+      "topic_id": "accounts_receivable_collections"
+    },
+    "text_0000_1f2b01f1": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations"
+      ],
+      "heading": "Ageing Snapshot and Concentration of Overdue Exposure (as of 2026-04-30)",
+      "word_count": 228,
+      "text_type": "llm_prose",
+      "topic_id": "accounts_receivable_collections"
+    },
+    "cx_table_0003_dc74d4a2": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "table_0004_1739e24f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Separates_disputed_balances_from_collectible_balances_and_pi",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        " Category",
+        " Ref",
+        "Age Bucket",
+        "Credit Risk Rating",
+        "R",
+        "Disputed Amount",
+        "Root Cause",
+        " Status"
+      ],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "table_0005_872cdf43": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Translates_ageing_and_risk_insights_into_a_sequenced_action_",
+      "row_count": 6,
+      "col_count": 8,
+      "columns": [
+        "Customer",
+        ">60-Day Overdue ($)",
+        "Credit Risk Rating",
+        "Disputed Amount ($)",
+        "Owner",
+        "Action",
+        "Target Date",
+        " Notes"
+      ],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "table_0003_d46cb749": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Links_ageing_exposure_to_customer_credit_risk_to_prioritize_",
+      "row_count": 6,
+      "col_count": 8,
+      "columns": [
+        " Segment",
+        "Risk Rating",
+        "0–30 Days",
+        "31–60 Days",
+        "61–90 Days",
+        "90+ Days",
+        "Disputed Amount",
+        "Collections Action Plan"
+      ],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "table_0000_1e85d9f8": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Quantifies_total_receivables_and_delinquency_concentration_b",
+      "row_count": 8,
+      "col_count": 6,
+      "columns": [
+        " Segment",
+        "Outstanding Amount",
+        "% of Total Receivables",
+        "Avg. Credit Risk Rating",
+        "Disputed Amount",
+        "Collections Action Plan"
+      ],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "cx_table_0002_da8eaa6b": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "table_0001_17c17ff1": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Identifies_customer-level_concentration_drivers_of_delinquen",
+      "row_count": 6,
+      "col_count": 9,
+      "columns": [
+        "Customer Name",
+        "Credit Risk Rating",
+        "R",
+        "Current (0-30)",
+        "31-60 Days",
+        "61-90 Days",
+        ">90 Days",
+        "Disputed Amount",
+        "Collections Action Plan"
+      ],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "llm_mp_table_0000_df251cd9": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "purchase_order_register",
+      "row_count": 73,
+      "col_count": 5,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "topic_id": ""
+    },
+    "llm_mp_table_0001_ced94c93": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "employee_activity_report",
+      "row_count": 70,
+      "col_count": 5,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "topic_id": ""
+    },
+    "cx_table_0001_2aad9acc": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "table_0002_6447ab94": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Provides_invoice-level_traceability_from_the_ageing_totals_t",
+      "row_count": 10,
+      "col_count": 8,
+      "columns": [
+        "Invoice ID",
+        "Customer",
+        "Due Date",
+        "Invoice Amount",
+        "Ageing Bucket",
+        "Credit Risk Rating",
+        "Disputed",
+        "Collections Action Plan"
+      ],
+      "topic_id": "accounts_receivable_collections"
+    },
+    "scan_llm_0003_c3176169": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_902a75a8.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", which objective categories are the column groups?",
+      "answer": "Credit Risk & Exposure; Dispute & Billing Integrity; Collections Effectiveness.",
+      "assertions": [
+        {
+          "text": "The response must state 'Credit Risk & Exposure; Dispute & Billing Integrity; Collections Effectiveness.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", how many initiatives fall under the \"Collections Execution\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "90+)\" for the \"Days Sales Outstanding (DSO)\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", what is the total score for the \"Dispute Triage Workflow (ageing + risk priority)\" initiative?",
+      "answer": "31.",
+      "assertions": [
+        {
+          "text": "The response must state '31.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", which objective category has the highest weighted total score?",
+      "answer": "Collections Effectiveness (total 287 across its objectives).",
+      "assertions": [
+        {
+          "text": "The response must state 'Collections Effectiveness (total 287 across its objectives).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", which main initiative categories are listed in the top header?",
+      "answer": "Credit Risk & Exposure; Dispute & Billing Integrity; Collections Effectiveness",
+      "assertions": [
+        {
+          "text": "The response must state 'Credit Risk & Exposure; Dispute & Billing Integrity; Collections Effectiveness'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", how many header tiers are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", how many initiatives are listed in the grid?",
+      "answer": "4 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", what footnote label appears for an annotation?",
+      "answer": "H",
+      "assertions": [
+        {
+          "text": "The response must state 'H'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Cross-Reference Grid — Collections Initiatives vs. Objectives (Credit Risk, Disputes, and Action Plan)\", what is the subtotal count of data rows shown in the grid?",
+      "answer": "18",
+      "assertions": [
+        {
+          "text": "The response must state '18'."
+        }
+      ]
+    },
+    {
+      "question": "2026 is attributed to customers rated 'High'?",
+      "answer": "$1.18M",
+      "assertions": [
+        {
+          "text": "The response must state $1.18M."
+        }
+      ]
+    },
+    {
+      "question": "2026?",
+      "answer": "$640,000",
+      "assertions": [
+        {
+          "text": "The response must state $640,000."
+        }
+      ]
+    },
+    {
+      "question": "2026?",
+      "answer": "$0.90M",
+      "assertions": [
+        {
+          "text": "The response must state $0.90M."
+        }
+      ]
+    },
+    {
+      "question": "R at 2026-04-30?",
+      "answer": "$4.86M",
+      "assertions": [
+        {
+          "text": "The response must state $4.86M."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Ageing Snapshot and Concentration of Overdue Exposure (as of 2026-04-30)\" section, what amount of invoices aged >60 days is reported?",
+      "answer": "$1.42M",
+      "assertions": [
+        {
+          "text": "The response must state $1.42M."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Ageing Snapshot and Concentration of Overdue Exposure (as of 2026-04-30)\" section, how much of Northbridge Retail Co.’s balance is aged >90 days?",
+      "answer": "$180,000",
+      "assertions": [
+        {
+          "text": "The response must state $180,000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", how many period columns does each version group span?",
+      "answer": "4 period columns (Q1–Q4) per version group.",
+      "assertions": [
+        {
+          "text": "The response must state '4 period columns (Q1–Q4) per version group.'."
+        }
+      ]
+    },
+    {
+      "question": " returns pending\"?",
+      "answer": "60 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '60 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what is the \"31–60 Total\" section total for Baseline Q1?",
+      "answer": "800 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '800 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", which version shows the highest Q4 value for \"A-rated customers — Undisputed open invoices\"?",
+      "answer": "Actuals (1,120 vs Baseline 1,080, $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (1,120 vs Baseline 1,080, $000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what is the delta (Net $K) for \"90+ Total\"?",
+      "answer": "49 ($K).",
+      "assertions": [
+        {
+          "text": "The response must state '49 ($K).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", how many period columns (quarters) are displayed per version group?",
+      "answer": "4 (Q1–Q4)",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1–Q4)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what is the Baseline total amount?",
+      "answer": "60 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '60 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", which version group has the highest total amount?",
+      "answer": "Actuals (800 $000)",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (800 $000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what does the unit footnote explain?",
+      "answer": "Amounts are in $000.",
+      "assertions": [
+        {
+          "text": "The response must state 'Amounts are in $000.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (Baseline vs Actuals; Quarterly View)\", what is the subtotal for Outstanding Invoices in the Actuals column?",
+      "answer": "800 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '800 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "R breakdown by dispute reason and ageing (USD) as of 2026-04-30\", what is the Disputed Amount for Pricing discrepancies?",
+      "answer": "$210,000",
+      "assertions": [
+        {
+          "text": "The response must state $210,000."
+        }
+      ]
+    },
+    {
+      "question": "R breakdown by dispute reason and ageing (USD) as of 2026-04-30\", what is the Credit Risk Rating for Contract terms interpretation?",
+      "answer": "High",
+      "assertions": [
+        {
+          "text": "The response must state High."
+        }
+      ]
+    },
+    {
+      "question": " Ref for Summit Industrial Supply?",
+      "answer": "INV-46277",
+      "assertions": [
+        {
+          "text": "The response must state INV-46277."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Collections action plan for overdue balances with owners, dates, and expected cash impact (May–June 2026)\", what is the Target Date for Apex Health Systems?",
+      "answer": "2026-05-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-05-31."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Collections action plan for overdue balances with owners, dates, and expected cash impact (May–June 2026)\", what is the Disputed Amount ($) for Summit Industrial LLC?",
+      "answer": "85000",
+      "assertions": [
+        {
+          "text": "The response must state 85000."
+        }
+      ]
+    },
+    {
+      "question": " Notes entry for BlueWave Distribution Inc.?",
+      "answer": "2% discount for payment by 2026-06-15",
+      "assertions": [
+        {
+          "text": "The response must state 2% discount for payment by 2026-06-15."
+        }
+      ]
+    },
+    {
+      "question": "R: $1.18M?",
+      "answer": "$145,000",
+      "assertions": [
+        {
+          "text": "The response must state $145,000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Customer credit risk ratings and exposure (USD) as of 2026-04-30)\", what is the 31–60 Days amount for Summit Industrial Supply?",
+      "answer": "$175,000",
+      "assertions": [
+        {
+          "text": "The response must state $175,000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Customer credit risk ratings and exposure (USD) as of 2026-04-30)\", what is the Collections Action Plan for Lakeside Health Group?",
+      "answer": "Send reminder at 30 days, maintain open credit line, no escalation required",
+      "assertions": [
+        {
+          "text": "The response must state Send reminder at 30 days, maintain open credit line, no escalation required."
+        }
+      ]
+    },
+    {
+      "question": "R ageing summary by bucket (USD) as of 2026-04-30\", what is the Outstanding Amount for the row \"61–90 days\"?",
+      "answer": "$0.64M",
+      "assertions": [
+        {
+          "text": "The response must state $0.64M."
+        }
+      ]
+    },
+    {
+      "question": "R ageing summary by bucket (USD) as of 2026-04-30\", what is the Collections Action Plan listed for \">90 days\"?",
+      "answer": "Final demand letters; consider external collections",
+      "assertions": [
+        {
+          "text": "The response must state Final demand letters; consider external collections."
+        }
+      ]
+    },
+    {
+      "question": "R ageing summary by bucket (USD) as of 2026-04-30\", what is the Avg. Credit Risk Rating shown for \"Grand Total Exposure\"?",
+      "answer": "Portfolio Weighted Avg: Moderate",
+      "assertions": [
+        {
+          "text": "The response must state Portfolio Weighted Avg: Moderate."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what sub-columns fall under the grouped header \"Outstanding\" in the inner ageing breakdown table within the \"Strategic Accounts\" row?",
+      "answer": "USD and % of Total.",
+      "assertions": [
+        {
+          "text": "The response must state 'USD and % of Total.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", how many rows does the \"Pricing variance\" label span in the inner disputes table within the \"Strategic Accounts\" row?",
+      "answer": "It spans 2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'It spans 2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what does footnote 1 explain?",
+      "answer": "It explains that the Current–30 balance includes $215,000 billed on 2026-04-29 with payment terms starting upon customer acceptance per contract.",
+      "assertions": [
+        {
+          "text": "The response must state 'It explains that the Current–30 balance includes $215,000 billed on 2026-04-29 with payment terms starting upon customer acceptance per contract.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what is the USD amount for the \"61–90\" bucket in the inner ageing breakdown table within the \"Strategic Accounts\" row?",
+      "answer": "198,600.",
+      "assertions": [
+        {
+          "text": "The response must state '198,600.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what escalation level is listed for the second row under \"Dunning emails\" in the inner action plan table within the \"Mid-Market Customers\" row?",
+      "answer": "Level 2.",
+      "assertions": [
+        {
+          "text": "The response must state 'Level 2.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what units are used to present Outstanding Invoices?",
+      "answer": "USD and % of Total.",
+      "assertions": [
+        {
+          "text": "The response must state 'USD and % of Total.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", how many header tiers does the table have?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", which top-level header likely contains the most sub-columns?",
+      "answer": "Ageing Buckets (USD).",
+      "assertions": [
+        {
+          "text": "The response must state 'Ageing Buckets (USD).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what does the table note explain about the Current–30 balance?",
+      "answer": "Current–30 includes $215,000 billed 2026-04-29, payment due on customer acceptance.",
+      "assertions": [
+        {
+          "text": "The response must state 'Current–30 includes $215,000 billed 2026-04-29, payment due on customer acceptance.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Report — Outstanding Invoices, Credit Risk, Disputes, and Collections Action Plan (as of 2026-04-30)\", what is the subtotal for group Current–30 in the Ageing Buckets (USD) column?",
+      "answer": "$215,000.",
+      "assertions": [
+        {
+          "text": "The response must state '$215,000.'."
+        }
+      ]
+    },
+    {
+      "question": "R for Northbridge Retail Co.?",
+      "answer": "$312,450",
+      "assertions": [
+        {
+          "text": "The response must state $312,450."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top overdue customers and invoice ageing mix (USD) as of 2026-04-30)\", what is the Credit Risk Rating for Apex Health Systems?",
+      "answer": "Low",
+      "assertions": [
+        {
+          "text": "The response must state Low."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top overdue customers and invoice ageing mix (USD) as of 2026-04-30)\", what is the Disputed Amount for Greenfield Distribution Inc.?",
+      "answer": "$18,400",
+      "assertions": [
+        {
+          "text": "The response must state $18,400."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Col3 value for PO-1002?",
+      "answer": "2026-01-18",
+      "assertions": [
+        {
+          "text": "The response must state 2026-01-18."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Col4 value for PO-058?",
+      "answer": "$11,275.25",
+      "assertions": [
+        {
+          "text": "The response must state $11,275.25."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Col5 value for PO-2026-072?",
+      "answer": "Critical",
+      "assertions": [
+        {
+          "text": "The response must state Critical."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the role listed for E002 - James Carter?",
+      "answer": "Credit Analyst",
+      "assertions": [
+        {
+          "text": "The response must state Credit Analyst."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Col4 value for E003 - Aisha Khan?",
+      "answer": "75640.75",
+      "assertions": [
+        {
+          "text": "The response must state 75640.75."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the status shown in Col5 for the row starting with 70?",
+      "answer": "Completed",
+      "assertions": [
+        {
+          "text": "The response must state Completed."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", how many sub-columns does each period group span?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", what is the H1 Attainment% for \"90+ days Outstanding\"?",
+      "answer": "73%",
+      "assertions": [
+        {
+          "text": "The response must state '73%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", how many metrics does the \"Credit Risk\" category rowspan cover?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "External Collections\"?",
+      "answer": "External Collections (75%)",
+      "assertions": [
+        {
+          "text": "External Collections (75%)'."
+        }
+      ]
+    },
+    {
+      "question": "E)\"?",
+      "answer": "$3.6M",
+      "assertions": [
+        {
+          "text": "The response must state '$3.6M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", what percentage value is shown among the table facts?",
+      "answer": "73%",
+      "assertions": [
+        {
+          "text": "The response must state '73%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", how many header tiers does the table contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", which contains more entries, the header tiers or the data rows?",
+      "answer": "Data rows",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", what annotation or footnote number appears in the facts?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Accounts Receivable Ageing Heatmap Pivot (Outstanding Invoices, Disputes, Credit Risk & Collections Plan) — H1 vs H2\", what is the total number of data rows (the subtotal for all groups)?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state '16'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Outstanding invoice register with due dates, ageing bucket, and dispute flag (sample) as of 2026-04-30\", what is the Credit Risk Rating for INV-105802?",
+      "answer": "eMdium",
+      "assertions": [
+        {
+          "text": "The response must state eMdium."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Outstanding invoice register with due dates, ageing bucket, and dispute flag (sample) as of 2026-04-30\", what Due Date is listed for Harborview Construction Group?",
+      "answer": "2026-30-25",
+      "assertions": [
+        {
+          "text": "The response must state 2026-30-25."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Outstanding invoice register with due dates, ageing bucket, and dispute flag (sample) as of 2026-04-30\", what is the Collections Action Plan for INV-104983?",
+      "answer": "Escalated to senior collections; paymentp lan under negotiation",
+      "assertions": [
+        {
+          "text": "The response must state Escalated to senior collections; paymentp lan under negotiation."
+        }
+      ]
+    }
+  ]
+}

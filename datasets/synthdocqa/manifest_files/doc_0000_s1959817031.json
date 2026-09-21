@@ -1,0 +1,2358 @@
+{
+  "doc_id": "doc_0000_s1959817031",
+  "title": "Enterprise Data Governance Framework and Operating Model: Ownership, Classification, Quality, Lineage, and Stewardship Roles",
+  "subtitle": "Enterprise Data Governance — Data Ownership, Classification, Quality, Lineage & Stewardship",
+  "topic_id": "data_governance_framework",
+  "recipe_name": "data_focused",
+  "seed": 1959817031,
+  "document_brief": {
+    "narrative_theme": "This framework aligns enterprise-wide data ownership, classification, quality, lineage, and stewardship into a single operating model to reduce risk and improve trusted reporting across the company.",
+    "sections": [
+      {
+        "heading": "Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)",
+        "key_facts": [
+          "The framework is effective on 2026-07-01.",
+          "All 12 enterprise data domains must have a named Data Owner and a named Data Steward by 2026-09-30.",
+          "The classification policy uses exactly four levels: Public, Internal, Confidential, Restricted."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)",
+        "key_facts": [
+          "Tier-1 Critical Data Elements must achieve at least 98.5% completeness and 99.0% accuracy on a rolling 30-day basis.",
+          "Automated end-to-end lineage for Tier-1 datasets must cover at least 95% of transformations by 2026-12-31.",
+          "The Data Governance Council meets on the first Tuesday of each month."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Enterprise Data Domain Ownership Matrix for the 12-domain governance rollout",
+        "purpose": "Defines accountable Data Owners and operational Data Stewards per domain to implement the framework consistently across the enterprise by the stated deadlines.",
+        "key_data": {
+          "Customer Domain": "Data Owner: VP Sales Ops; Data Steward: CRM Product Owner",
+          "Finance Domain": "Data Owner: Corporate Controller; Data Steward: FP&A Data Lead",
+          "HR Domain": "Data Owner: VP People; Data Steward: HRIS Manager",
+          "Supply Chain Domain": "Data Owner: VP Operations; Data Steward: ERP Data Analyst"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Four-level data classification policy with required handling controls",
+        "purpose": "Restricted) and maps each level to minimum handling requirements to reduce compliance and security risk.",
+        "key_data": {
+          "Public": "No access restrictions; publishable externally",
+          "Internal": "Employee access; no external sharing without approval",
+          "Confidential": "Need-to-know; encryption in transit and at rest",
+          "Restricted": "Privileged access only; MFA + quarterly access review"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Classification decision rules and examples for consistent labeling across domains",
+        "purpose": "Provides practical decision criteria and representative examples so Data Owners and Stewards apply the four-level policy uniformly.",
+        "key_data": {
+          "Customer email address": "Confidential",
+          "Employee SSN / national ID": "Restricted",
+          "Quarterly earnings press release": "Public",
+          "Internal cost center hierarchy": "Internal"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Data quality standards for Tier-1 Critical Data Elements (CDEs) with measurable thresholds",
+        "purpose": "Defines enterprise minimum quality thresholds and measurement windows for Tier-1 CDEs to ensure trusted reporting and operational decision-making.",
+        "key_data": {
+          "Completeness": ">= 98.5% (rolling 30 days)",
+          "Accuracy": ">= 99.0% (rolling 30 days)",
+          "Timeliness": "<= 24 hours latency for daily feeds",
+          "Uniqueness": ">= 99.5% distinct keys per dataset"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Lineage requirements by tier and verification method (coverage target: 95% for Tier-1 by 2026-12-31)",
+        "purpose": "Sets minimum lineage scope (source-to-report), required metadata, and verification methods to support auditability, impact analysis, and change control.",
+        "key_data": {
+          "Tier-1": "Automated lineage; >= 95% transformations covered; verified monthly",
+          "Tier-2": "Hybrid lineage; >= 80% transformations covered; verified quarterly",
+          "Required metadata": "Source system, transformation logic, owner, refresh cadence",
+          "Validation method": "Metadata scan + steward attestation"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Governance operating model: roles, decision rights, and meeting cadence",
+        "purpose": "Clarifies how governance decisions are made and executed (who approves, who implements, and how often) to operationalize ownership, classification, quality, and lineage policies.",
+        "key_data": {
+          "Data Governance Council": "Approves policies and exceptions; meets first Tuesday monthly",
+          "Data Owner": "Accountable for domain data risk and prioritization; approves CDE list",
+          "Data Steward": "Implements standards, monitors DQ, manages glossary; weekly triage",
+          "Data Custodian (IT)": "Implements access controls and lineage tooling; change control via CAB"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1959817031.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_text_3bdb969f.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 26,
+    "actual_page_count": 18
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "table_0005_55b00ae6",
+      "table_number": 1,
+      "caption": "Table 1: Governance operating model: roles, decision rights, and meeting cadence",
+      "columns": [
+        "Role & Accountability",
+        "Decision Authority",
+        "Execution Responsibility",
+        "Cadence",
+        " Controls",
+        "Escalation Path"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Data Governance Council: Approves policies and exceptions; meets first Tuesday monthly;",
+          "Enterprise policy approval and exception ratification",
+          "Delegates implementation to domain owners and stewards",
+          "Monthly (First Tuesday)",
+          "Policy register v3.2; Exception log; Voting quorum ≥75%",
+          "Board Risk Committee"
+        ],
+        [
+          "Data Owner: Accountable for domain data risk and prioritization; approves CDE list;",
+          "Domain-level risk acceptance; CDE approval",
+          "Prioritizes remediation funding (>$250K annually)",
+          "Quarterly review; ad hoc for critical issues",
+          "domain); Risk heatmap",
+          "Data Governance Council"
+        ],
+        [
+          "Data Steward: Implements standards, monitors DQ, manages glossary; weekly triage;",
+          "Operational decisioning on data definitions and DQ thresholds",
+          "Executes DQ rules (≥98% critical DQ SLA); maintains glossary",
+          "Weekly triage (Tuesdays 10:00 AM)",
+          "Business glossary (1,200 terms); DQ dashboard; Issue log",
+          "Data Owner"
+        ],
+        [
+          "Data Custodian (IT): Implements access controls and lineage tooling; change control via CAB",
+          "Technical control approval within IT standards",
+          "Configures RBAC; maintains lineage for 150+ pipelines",
+          "Bi-weekly CAB (Thursdays)",
+          "Access control matrix; Lineage repository; CAB tickets",
+          " Change Advisory Board"
+        ],
+        [
+          "Chief Data Officer (CDO)",
+          "Sets enterprise data strategy and funding model ($3.5M FY2026 budget)",
+          "Oversees governance office and KPI reporting",
+          "Quarterly board reporting",
+          "Enterprise data strategy; KPI scorecard (12 KPIs)",
+          "Executive Committee"
+        ],
+        [
+          "Data Quality Lead",
+          "Defines DQ framework and measurement methodology",
+          "Implements 250+ automated DQ rules across domains",
+          "Monthly DQ council",
+          "DQ rulebook v2.1; Threshold matrix",
+          "Data Governance Council"
+        ],
+        [
+          "Privacy Officer",
+          "Approves data classification for PII and sensitive data",
+          "Conducts DPIAs within 30 days of new processing",
+          "Per regulatory trigger; minimum quarterly review",
+          "Data classification policy; DPIA register",
+          "Chief Risk Officer"
+        ],
+        [
+          "Information Security Lead",
+          "Sets access and encryption standards (AES-256; MFA 100%)",
+          "Monitors access violations; resolves within 48 hrs",
+          "Weekly security ops review",
+          "Access audit logs; SIEM reports",
+          "CISO"
+        ],
+        [
+          "Enterprise Architecture Lead",
+          "Approves lineage tooling standards and integration patterns",
+          "Maintains metadata integrations across 12 core systems",
+          "Monthly architecture review board",
+          "Architecture standards; Integration diagrams",
+          "CTO"
+        ],
+        [
+          "Governance Program Manager",
+          "Tracks policy adoption (target ≥95%) and remediation progress",
+          "Coordinates cross-domain initiatives and reporting",
+          "Bi-weekly status forum",
+          "Roadmap (FY2026); RAID log; Adoption metrics",
+          "Chief Data Officer"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Governance operating model: roles, decision rights, and meeting cadence\", what is the Escalation Path for the Data Governance Council?",
+          "answer": "Board Risk Committee",
+          "assertions": [
+            {
+              "text": "The response must state Board Risk Committee."
+            }
+          ]
+        },
+        {
+          "question": " Control listed for the Chief Data Officer (CDO) that includes the number of KPIs?",
+          "answer": "KPI scorecard (12 KPIs)",
+          "assertions": [
+            {
+              "text": "The response must state KPI scorecard (12 KPIs)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Governance operating model: roles, decision rights, and meeting cadence\", what is the Cadence for the Data Steward?",
+          "answer": "Weekly triage (Tuesdays 10:00 AM)",
+          "assertions": [
+            {
+              "text": "The response must state Weekly triage (Tuesdays 10:00 AM)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "table_0004_42e2035a",
+      "table_number": 2,
+      "caption": "Table 2: Lineage requirements by tier and verification method (coverage target: 95% for Tier-1 by 2026-12-31)",
+      "columns": [
+        "Category",
+        "Requirement",
+        "Effective Date",
+        "Control Owner",
+        "Compliance Status"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Lineage Standard",
+          "Tier-1: Automated lineage; >= 95% transformations covered; verified monthly;",
+          "2026-01-01",
+          "Enterprise Data Architecture",
+          "Active - 98% coverage achieved"
+        ],
+        [
+          "Lineage Standard",
+          "Tier-2: Hybrid lineage; >= 80% transformations covered; verified quarterly;",
+          "2026-01-01",
+          "Domain Data Steward",
+          "Active - 85% coverage achieved"
+        ],
+        [
+          "Lineage Standard",
+          "Tier-3: Manual lineage; >= 60% transformations covered; verified semi-annually;",
+          "2026-01-01",
+          "Business Data Owner",
+          "Active - 63% coverage achieved"
+        ],
+        [
+          "Metadata Standard",
+          "Required metadata: Source system, transformation logic, owner, refresh cadence;",
+          "2026-01-01",
+          "Data Governance Office",
+          "Compliant - 100% critical datasets"
+        ],
+        [
+          "Validation & Assurance",
+          "",
+          "2026-01-01",
+          "Data Quality & Controls Lead",
+          "Operational - Last review 2026-04-15"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Lineage requirements by tier and verification method (coverage target: 95% for Tier-1 by 2026-12-31)\", what is the Compliance Status for Tier-2 under Lineage Standard?",
+          "answer": "Active - 85% coverage achieved",
+          "assertions": [
+            {
+              "text": "The response must state Active - 85% coverage achieved."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Lineage requirements by tier and verification method (coverage target: 95% for Tier-1 by 2026-12-31)\", who is listed as the Control Owner for the Metadata Standard category?",
+          "answer": "Data Governance Office",
+          "assertions": [
+            {
+              "text": "The response must state Data Governance Office."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Lineage requirements by tier and verification method (coverage target: 95% for Tier-1 by 2026-12-31)\", what is the Effective Date for Validation & Assurance?",
+          "answer": "2026-01-01",
+          "assertions": [
+            {
+              "text": "The response must state 2026-01-01."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "cx_table_0000_97d7a03f",
+      "table_number": 3,
+      "caption": "Table 3: Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", which leaf metric columns fall under the super-group \"Ownership & Stewardship Accountability\"?",
+          "answer": "Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).",
+          "assertions": [
+            {
+              "text": "The response must state 'Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", how many rows does the category label \"Data Classification & Access\" span?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what is the value of \"Policy Exceptions Open (#)\" for the sub-category group \"Access Review & Exceptions\" (first data row in that sub-category) under the \"Classification & Access Policy Compliance\" super-group?",
+          "answer": "18.",
+          "assertions": [
+            {
+              "text": "The response must state '18.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what is the grand total for \"DQ Rules Implemented (#)\"?",
+          "answer": "4,565.",
+          "assertions": [
+            {
+              "text": "The response must state '4,565.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what does the \"Lineage & Evidence Sub-Total\" row show for \"End-to-End Lineage Coverage (%)\"?",
+          "answer": "86.5%.",
+          "assertions": [
+            {
+              "text": "The response must state '86.5%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what metrics are listed under Ownership & Stewardship Accountability?",
+          "answer": "Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).",
+          "assertions": [
+            {
+              "text": "The response must state 'Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", how many header tiers does the table have?",
+          "answer": "3 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '3 rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", which has the higher count, header tiers or total data rows?",
+          "answer": "Data rows (27).",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (27).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what does footnote 1 explain?",
+          "answer": "Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).",
+          "assertions": [
+            {
+              "text": "The response must state 'Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what is the subtotal for the Governance Domain group in the Ownership & Stewardship Accountability column?",
+          "answer": "18",
+          "assertions": [
+            {
+              "text": "The response must state '18'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "table_0003_335618ea",
+      "table_number": 4,
+      "caption": "Table 4: Data quality standards for Tier-1 Critical Data Elements (CDEs) with measurable thresholds",
+      "columns": [
+        "Quality Dimension",
+        "Minimum Threshold",
+        "Measurement Window",
+        "Applies To",
+        "Owner",
+        "Status"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Completeness",
+          ">= 98.5% (rolling 30 days)",
+          "Rolling 30 days",
+          "Tier-1 Critical Data Elements (CDEs)",
+          "Domain Data Steward",
+          "Active"
+        ],
+        [
+          "Accuracy",
+          ">= 99.0% (rolling 30 days)",
+          "Rolling 30 days",
+          "Tier-1 Critical Data Elements (CDEs)",
+          "Data Quality Lead",
+          "Active"
+        ],
+        [
+          "Timeliness",
+          "",
+          "Daily batch cycle",
+          "Tier-1 Operational Reporting Datasets",
+          "Platform Operations Manager",
+          "Active"
+        ],
+        [
+          "Uniqueness",
+          ">= 99.5% distinct keys per dataset",
+          "Rolling 30 days",
+          "Master and Reference Data (Tier-1)",
+          "Master Data Steward",
+          "Active"
+        ],
+        [
+          "Validity",
+          ">= 97.0% conforming to approved data standards",
+          "Rolling 30 days",
+          "Regulatory Reporting CDEs",
+          "Enterprise Data Governance Office",
+          "Under Review"
+        ],
+        [
+          "Integrity",
+          "100% referential integrity across critical relationships",
+          "Monthly assessment",
+          "Financial and Risk Tier-1 Datasets",
+          "Data Architecture Lead",
+          "Active"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Data quality standards for Tier-1 Critical Data Elements (CDEs) with measurable thresholds\", what is the Minimum Threshold for Completeness?",
+          "answer": ">= 98.5% (rolling 30 days)",
+          "assertions": [
+            {
+              "text": "The response must state >= 98.5% (rolling 30 days)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data quality standards for Tier-1 Critical Data Elements (CDEs) with measurable thresholds\", who is listed as the Owner for Integrity?",
+          "answer": "Data Architecture Lead",
+          "assertions": [
+            {
+              "text": "The response must state Data Architecture Lead."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data quality standards for Tier-1 Critical Data Elements (CDEs) with measurable thresholds\", what is the Status for Validity?",
+          "answer": "Under Review",
+          "assertions": [
+            {
+              "text": "The response must state Under Review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "table_0002_bb8ab3a9",
+      "table_number": 5,
+      "caption": "Table 5: Classification decision rules and examples for consistent labeling across domains",
+      "columns": [
+        "Example (Asset: Level)",
+        "Decision Criteria Summary",
+        "Primary Data Owner",
+        "Required Controls",
+        "Review Frequency",
+        "Policy Effective Date"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Customer email address: Confidential",
+          "Contains personally identifiable information (PII); unauthorized disclosure could impact customer privacy but not cause severe regulatory breach alone.",
+          "Head of Customer Operations",
+          "Access limited to role-based CRM groups; encryption in transit and at rest; quarterly access review.",
+          "Quarterly",
+          "2026-01-01"
+        ],
+        [
+          " national ID: Restricted",
+          "regulatory protection and breach notification laws.",
+          "Chief Human Resources Officer",
+          "Strict need-to-know access; MFA required; field-level encryption; full audit logging; annual penetration testing.",
+          "Monthly",
+          "2026-01-01"
+        ],
+        [
+          "Quarterly earnings press release: Public",
+          "Approved for external distribution; intended for investors and public markets after executive sign-off.",
+          "Chief Financial Officer",
+          "Pre-release approval workflow; version control; public website publication only after legal review.",
+          "Per Release",
+          "2026-01-01"
+        ],
+        [
+          "Internal cost center hierarchy: Internal",
+          "Operational financial structure data; low external sensitivity but not intended for public disclosure.",
+          "VP Finance Operations",
+          "Accessible to finance and department heads; internal network restriction; annual access certification.",
+          "Annually",
+          "2026-01-01"
+        ],
+        [
+          "Product roadmap (next 12 months): Confidential",
+          "Strategic planning information; disclosure could reduce competitive advantage.",
+          "Chief Product Officer",
+          "Restricted to product leadership; NDA required for contractors; encrypted collaboration workspace.",
+          "Quarterly",
+          "2026-01-01"
+        ],
+        [
+          "Security incident investigation report: Restricted",
+          "Contains vulnerability details and potential exploit paths; disclosure could materially increase risk exposure.",
+          "Chief Information Security Officer",
+          "Access limited to security team; secure document vault; detailed access logging; retention per legal hold policy.",
+          "Per Incident",
+          "2026-01-01"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": " national ID: Restricted\"?",
+          "answer": "Monthly",
+          "assertions": [
+            {
+              "text": "The response must state Monthly."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Classification decision rules and examples for consistent labeling across domains\", who is the Primary Data Owner for \"Product roadmap (next 12 months): Confidential\"?",
+          "answer": "Chief Product Officer",
+          "assertions": [
+            {
+              "text": "The response must state Chief Product Officer."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Classification decision rules and examples for consistent labeling across domains\", what is the Policy Effective Date for \"Security incident investigation report: Restricted\"?",
+          "answer": "2026-01-01",
+          "assertions": [
+            {
+              "text": "The response must state 2026-01-01."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "text",
+      "variant_id": "text_0000_a708ae31",
+      "heading": "Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)",
+      "word_count": 174,
+      "text_content": [
+        "**Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)**",
+        "Effective 2026-07-01, the policy applies enterprise-wide to twelve discrete data domains. 100% of these 12 enterprise data domains must have a named Data Owner and a named Data Steward by 2026-09-30. Scope includes structured, unstructured, master, reference data and associated stakeholders and thirdp-arty custodians.",
+        "Accountability is explicit: the Chief Data Officer assigns Data Owners who hold decision rights; Data Stewards manage operational controls. Legal and Security provide compliance oversight. All role assignments require documented signoff and an audit record within 14 days of assignment per enterprise standards.",
+        "The classification policy defines four levels: Public, Internal, Confidential, Restricted. Handling controls vary by class: Public requires open dissemination; Internal requires authenticated access; Confidential requires role-based access, masking, and 100% encryption at rest and transit; Restricted requires multi-factor access, 256-bit encrytpion, and retention controls.",
+        "Enforcement includes monthly compliance reporting to the CDO and quarterly audits thereafter; progress toward the 2026-09-30 assignment deadline will be reported weekly until 100% completion. Exceptions are approved by CDO with Legal and capped at 5% of datasets per domain, documented and timebound."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)\" section, by what date must 100% of the 12 enterprise data domains have a named Data Owner and a named Data Steward?",
+          "answer": "2026-09-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-09-30."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)\" section, what are the four classification levels defined by the policy?",
+          "answer": "Public, Internal, Confidential, Restricted",
+          "assertions": [
+            {
+              "text": "The response must state Public, Internal, Confidential, Restricted."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)\" section, what is the maximum percentage of datasets per domain that may be approved as exceptions?",
+          "answer": "5%",
+          "assertions": [
+            {
+              "text": "The response must state 5%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0000_1d828c93",
+      "table_number": 6,
+      "caption": "Table 6: Enterprise Data Domain Ownership Matrix for the 12-domain governance rollout",
+      "columns": [
+        "Domain",
+        "Data Owner",
+        "Data Steward",
+        "Classification Level",
+        "Go-Live Deadline",
+        "Current Status",
+        "Last Reviewed"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "Customer Domain",
+          "VP Sales Ops",
+          "CRM Product Owner",
+          "Confidential",
+          "2026-09-30",
+          "In Progress",
+          "2026-04-15"
+        ],
+        [
+          "Finance Domain",
+          "",
+          "FP&A Data Lead",
+          "Restricted",
+          "2026-06-30",
+          "On Track",
+          "2026-04-10"
+        ],
+        [
+          "HR Domain",
+          "VP People",
+          "HRIS Manager",
+          "Highly Restricted",
+          "2026-08-31",
+          "In Progress",
+          "2026-04-18"
+        ],
+        [
+          "Supply Chain Domain",
+          "VP Operations",
+          "ERP Data Analyst",
+          "Confidential",
+          "",
+          "Planning",
+          "2026-04-12"
+        ],
+        [
+          "Marketing Domain",
+          "CMO",
+          "Marketing Data Manager",
+          "Internal",
+          "2026-11-30",
+          "Not Started",
+          "2026-03-28"
+        ],
+        [
+          "IT Domain",
+          "CIO",
+          "Enterprise Data Architect",
+          "Restricted",
+          "2026-07-31",
+          "On Track",
+          "2026-04-05"
+        ],
+        [
+          "Product Domain",
+          "Chief Product Officer",
+          "Product Analytics Lead",
+          "Confidential",
+          "2026-12-15",
+          "Planning",
+          "2026-04-20"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Data Domain Ownership Matrix for the 12-domain governance rollout\", what is the Classification Level for the HR Domain?",
+          "answer": "Highly Restricted",
+          "assertions": [
+            {
+              "text": "The response must state Highly Restricted."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Domain Ownership Matrix for the 12-domain governance rollout\", who is listed as the Data Owner for the IT Domain?",
+          "answer": "CIO",
+          "assertions": [
+            {
+              "text": "The response must state CIO."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Domain Ownership Matrix for the 12-domain governance rollout\", what is the Go-Live Deadline for the Finance Domain?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "cx_table_0002_f7c058d4",
+      "table_number": 7,
+      "caption": "Table 7: Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", what is the H1 Attainment% for \"CDEs with named Data Steward (business + technical)\"?",
+          "answer": "87%",
+          "assertions": [
+            {
+              "text": "The response must state '87%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", how many metrics does the \"Classification & Access\" category rowspan cover?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", which metric has the lower H2 attainment in the \"Data Quality & Lineage\" category?",
+          "answer": "P2) per month (91%)",
+          "assertions": [
+            {
+              "text": "P2) per month (91%)'."
+            }
+          ]
+        },
+        {
+          "question": "Restricted)\"?",
+          "answer": "$1.40M",
+          "assertions": [
+            {
+              "text": "The response must state '$1.40M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", what percentage value is shown in the table facts?",
+          "answer": "87%",
+          "assertions": [
+            {
+              "text": "The response must state '87%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", which top-level column headers are listed in the first header row?",
+          "answer": "Category, Metric, Dir, H1, H2",
+          "assertions": [
+            {
+              "text": "The response must state 'Category, Metric, Dir, H1, H2'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", which is greater: the count of header tiers or the count of data rows?",
+          "answer": "Data rows (16)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (16)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", what does footnote 3 indicate?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", what is the subtotal for the group of all data rows (the total row count)?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state '16'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "table_0001_6651ec62",
+      "table_number": 8,
+      "caption": "Table 8: Four-level data classification policy with required handling controls",
+      "columns": [
+        "Classification Level",
+        "Minimum Controls",
+        "Handling Summary",
+        "Review Cycle",
+        "Typical Data Examples"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Public",
+          "Approved for external distribution; integrity monitoring enabled",
+          "Public: No access restrictions; publishable externally",
+          "Annual review",
+          "Marketing brochures, public website content, press releases"
+        ],
+        [
+          "Internal",
+          "SSO authentication required; sharing requires manager approval",
+          "Internal: Employee access; no external sharing without approval",
+          "Annual review",
+          "Internal policies, project plans, internal directories"
+        ],
+        [
+          "Confidential",
+          "Role-based access control (RBAC); AES-256 encryption; TLS 1.2+",
+          "Confidential: Need-to-know; encryption in transit and at rest",
+          "Semi-annual review",
+          "Customer records, financial reports, non-public contracts"
+        ],
+        [
+          "Restricted",
+          "Privileged Access Management (PAM); MFA enforced; detailed audit logging",
+          "Restricted: Privileged access only; MFA + quarterly access review",
+          "Quarterly review",
+          "SSNs, payment card data, health records, encryption keys"
+        ],
+        [
+          "Public",
+          "Content approval workflow; version control enabled",
+          "Public: No access restrictions; publishable externally",
+          "Annual review",
+          "Open data sets, published research findings"
+        ],
+        [
+          "Internal",
+          "VPN; data loss prevention (DLP) monitoring",
+          "",
+          "Annual review",
+          "Training materials, internal audit summaries"
+        ],
+        [
+          "Confidential",
+          "Data classification labeling required; secure file transfer only",
+          "Confidential: Need-to-know; encryption in transit and at rest",
+          "Semi-annual review",
+          ""
+        ],
+        [
+          "Restricted",
+          "Hardware security modules (HSM); session recording; zero-trust segmentation",
+          "Restricted: Privileged access only; MFA + quarterly access review",
+          "Quarterly review",
+          "Production database credentials, merger & acquisition documents"
+        ],
+        [
+          "Confidential",
+          "Endpoint encryption; access logging retained 365 days",
+          "Confidential: Need-to-know; encryption in transit and at rest",
+          "Semi-annual review",
+          "Board presentations, strategic roadmaps"
+        ],
+        [
+          "Internal",
+          "Access via role-based groups; automatic timeout after 15 minutes idle",
+          "Internal: Employee access; no external sharing without approval",
+          "Annual review",
+          "Operational metrics dashboards, service desk reports"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Four-level data classification policy with required handling controls\", what is the Review Cycle for the Restricted classification level that lists \"Privileged Access Management (PAM); MFA enforced; detailed audit logging\" as Minimum Controls?",
+          "answer": "Quarterly review",
+          "assertions": [
+            {
+              "text": "The response must state Quarterly review."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Four-level data classification policy with required handling controls\", what Typical Data Examples are listed for the Public classification with Minimum Controls \"Approved for external distribution; integrity monitoring enabled\"?",
+          "answer": "Marketing brochures, public website content, press releases",
+          "assertions": [
+            {
+              "text": "The response must state Marketing brochures, public website content, press releases."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Four-level data classification policy with required handling controls\", what are the Minimum Controls for the Confidential classification that includes \"Board presentations, strategic roadmaps\" as Typical Data Examples?",
+          "answer": "Endpoint encryption; access logging retained 365 days",
+          "assertions": [
+            {
+              "text": "The response must state Endpoint encryption; access logging retained 365 days."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "text",
+      "variant_id": "text_0001_3b8f9bdb",
+      "heading": "Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)",
+      "word_count": 267,
+      "text_content": [
+        "**Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)**",
+        "Data quality targets for Tier-1 Critical Data Elements (CDEs) are mandated and measurable: each Tier-1 CDE must achieve at least 98.5% completeness and 99.0% accuracy on a rolling 30-day basis. Quality metrics are computed daily and published in the enterprise Data Quality Scorecard; monthly exceptions trigger formal remediation plans. The Data Quality Office maintains SLAs: critical defects require a root-cause analysis within five business days and a documented remediation plan within ten business days. Sampling, automated validation, and reconciliation rules are defined per dataset, and acceptance gates are enforced before downstream consumption.",
+        "ELT pipelines, streaming processes, and analytic models to capture transformation logic, timestamps, and version identifiers into the enterprise metadata repository. Exceptions requiring manual annotation will be tracked and limited to documented justifications. Quarterly lineage audits will validate coverage claims and feed into compliance reporting. Integration with the data catalog and impact analysis tools is mandatory to support change management and regulatory traceability requirements.",
+        "The governance operating model defines roles, cadence, and decision rights: the Data Governance Council meets on the first Tuesday of each month to adjudicate policy exceptions, approve Tier-1 CDE definitions, and ratify strategy. Data owners retain decision rights for data access and retention, while business data stewards execute daily stewardship tasks and the Data Quality Office enforces measurements. A RACI matrix documents responsibilities across IT, Legal, and Compliance. Regular cadences include weekly stewardship huddles, monthly council reviews, and quarterly executive reporting tied to KPIs and funding decisions."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)\" section, what minimum completeness percentage must each Tier-1 Critical Data Element (CDE) achieve on a rolling 30-day basis?",
+          "answer": "98.5% completeness",
+          "assertions": [
+            {
+              "text": "The response must state 98.5% completeness."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)\" section, by what date must automated end-to-end lineage coverage reach at least 95% of transformations?",
+          "answer": "2026-12-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-12-31."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)\" section, on which day does the Data Governance Council meet each month?",
+          "answer": "the first Tuesday of each month",
+          "assertions": [
+            {
+              "text": "The response must state the first Tuesday of each month."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "cx_table_0001_bd1510a3",
+      "table_number": 9,
+      "caption": "Table 9: Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Restricted)\"?",
+          "answer": "92%",
+          "assertions": [
+            {
+              "text": "The response must state '92%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", how many metrics does the \"Quality & Lineage\" category rowspan cover?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", which metric has the lower H2 attainment in the \"Classification & Policy\" category?",
+          "answer": "Policy exceptions open >90 days",
+          "assertions": [
+            {
+              "text": "The response must state 'Policy exceptions open >90 days'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", what is the H2 target for \"Tier-1 datasets with end-to-end lineage documented\"?",
+          "answer": "$1.20M",
+          "assertions": [
+            {
+              "text": "The response must state '$1.20M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", how many data rows are listed?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", which recorded answer value is the highest among the listed fact answers?",
+          "answer": "92%",
+          "assertions": [
+            {
+              "text": "The response must state '92%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", what does footnote 1 explain?",
+          "answer": "No footnotes present.",
+          "assertions": [
+            {
+              "text": "The response must state 'No footnotes present.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", what is the subtotal for group G in the H1 column?",
+          "answer": "Not specified in the table.",
+          "assertions": [
+            {
+              "text": "The response must state 'Not specified in the table.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_44dcf8bc",
+      "table_number": 10,
+      "caption": "Table 10: Project Milestone Tracker",
+      "columns": [
+        "Milestone ID",
+        "Milestone Name",
+        "Owner",
+        "Planned End Date",
+        "Completion (%)"
+      ],
+      "row_count": 65,
+      "cells": [
+        [
+          "DG-01",
+          "Define Data Ownership Model",
+          "Chief Data Officer",
+          "2026-01-15",
+          "100"
+        ],
+        [
+          "DG-02",
+          "Identify Data Domain Owners",
+          "Data Governance Lead",
+          "2026-01-30",
+          "100"
+        ],
+        [
+          "DG-03",
+          "Draft Data Classification Policy",
+          "Information Security Manager",
+          "2026-02-10",
+          "90"
+        ],
+        [
+          "DG-04",
+          "Approve Data Classification Tiers",
+          "Risk Committee",
+          "2026-02-20",
+          "85"
+        ],
+        [
+          "DG-05",
+          "Establish Data Quality Standards",
+          "Head of Data Quality",
+          "2026-03-01",
+          "75"
+        ],
+        [
+          "DG-06",
+          "Define Data Quality Metrics (KPIs)",
+          "Data Quality Analyst",
+          "2026-03-10",
+          "70"
+        ],
+        [
+          "DG-07",
+          "Develop Data Lineage Requirements",
+          "Enterprise Architect",
+          "2026-03-20",
+          "60"
+        ],
+        [
+          "DG-08",
+          "Select Metadata Management Tool",
+          "IT Director",
+          "2026-03-30",
+          "55"
+        ],
+        [
+          "DG-09",
+          "Document Data Stewardship Roles",
+          "Data Governance Lead",
+          "2026-04-05",
+          "50"
+        ],
+        [
+          "DG-10",
+          "Establish Governance Operating Model",
+          "Chief Data Officer",
+          "2026-04-15",
+          "45"
+        ],
+        [
+          "DG-11",
+          "Create Data Issue Management Workflow",
+          "Data Operations Manager",
+          "2026-04-25",
+          "40"
+        ],
+        [
+          "DG-12",
+          "Define Data Access and Usage Policies",
+          "Information Security Manager",
+          "2026-05-05",
+          "35"
+        ],
+        [
+          "DG-13",
+          "Stakeholder Review and Feedback",
+          "Business Unit Heads",
+          "2026-05-15",
+          "25"
+        ],
+        [
+          "DG-14",
+          "Finalize Data Governance Framework Document",
+          "Chief Data Officer",
+          "2026-05-25",
+          "15"
+        ],
+        [
+          "DG-15",
+          "Executive Approval and Publication",
+          "Executive Board",
+          "2026-06-01",
+          "5"
+        ],
+        [
+          "16",
+          "Data Stewardship Model Approval",
+          "Chief Data Officer",
+          "2026-06-15",
+          "85%"
+        ],
+        [
+          "17",
+          "Metadata Management Standards Publication",
+          "Data Architecture Lead",
+          "2026-06-30",
+          "60%"
+        ],
+        [
+          "18",
+          "Data Classification Policy Finalization",
+          "Information Security Manager",
+          "2026-07-10",
+          "90%"
+        ],
+        [
+          "19",
+          "Data Quality Metrics Definition",
+          "Head of Analytics",
+          "2026-07-25",
+          "70%"
+        ],
+        [
+          "20",
+          "Data Ownership RACI Matrix Sign-off",
+          "Governance Program Manager",
+          "2026-08-05",
+          "55%"
+        ],
+        [
+          "21",
+          "Master Data Domain Prioritization",
+          "Enterprise Architect",
+          "2026-08-18",
+          "40%"
+        ],
+        [
+          "22",
+          "Data Access Control Policy Update",
+          "IT Security Lead",
+          "2026-09-01",
+          "35%"
+        ],
+        [
+          "23",
+          "Data Lifecycle Management Framework",
+          "Records Management Lead",
+          "2026-09-15",
+          "20%"
+        ],
+        [
+          "24",
+          "Data Issue Management Workflow Design",
+          "Data Quality Manager",
+          "2026-09-28",
+          "50%"
+        ],
+        [
+          "25",
+          "Compliance & Regulatory Alignment Review",
+          "Compliance Officer",
+          "2026-10-10",
+          "45%"
+        ],
+        [
+          "26",
+          "Data Governance Council Charter Approval",
+          "Chief Risk Officer",
+          "2026-10-22",
+          "65%"
+        ],
+        [
+          "27",
+          "Data Quality Dashboard Prototype",
+          "BI Development Lead",
+          "2026-11-05",
+          "30%"
+        ],
+        [
+          "28",
+          "Training Materials for Data Owners",
+          "Learning & Development Manager",
+          "2026-11-18",
+          "25%"
+        ],
+        [
+          "29",
+          "Pilot Implementation in Finance Domain",
+          "Finance Data Steward",
+          "2026-12-02",
+          "15%"
+        ],
+        [
+          "30",
+          "Enterprise-wide Governance Framework Launch",
+          "Chief Data Officer",
+          "2026-12-20",
+          "5%"
+        ],
+        [
+          "31",
+          "Define Data Ownership Matrix",
+          "Chief Data Officer",
+          "2026-06-15",
+          "92%"
+        ],
+        [
+          "32",
+          "Validate Data Steward Assignments",
+          "Data Governance Lead",
+          "2026-06-20",
+          "88%"
+        ],
+        [
+          "33",
+          "Approve Data Classification Policy",
+          "Compliance Manager",
+          "2026-06-25",
+          "76%"
+        ],
+        [
+          "34",
+          "Develop Sensitive Data Handling Guidelines",
+          "Information Security Officer",
+          "2026-07-05",
+          "64%"
+        ],
+        [
+          "35",
+          "Establish Data Quality Metrics",
+          "Head of Data Analytics",
+          "2026-07-12",
+          "81%"
+        ],
+        [
+          "36",
+          "Design Data Quality Scorecard Template",
+          "Data Quality Manager",
+          "2026-07-18",
+          "69%"
+        ],
+        [
+          "37",
+          "Conduct Data Ownership Workshops",
+          "Data Governance Office",
+          "2026-07-22",
+          "54%"
+        ],
+        [
+          "38",
+          "Integrate Classification into Data Catalog",
+          "Enterprise Architect",
+          "2026-07-30",
+          "47%"
+        ],
+        [
+          "39",
+          "Define Data Retention Standards",
+          "Records Management Lead",
+          "2026-08-05",
+          "73%"
+        ],
+        [
+          "40",
+          "Align Governance Framework with Legal Requirements",
+          "Legal Counsel",
+          "2026-08-12",
+          "58%"
+        ],
+        [
+          "41",
+          "Develop Data Issue Escalation Process",
+          "Data Operations Manager",
+          "2026-08-18",
+          "61%"
+        ],
+        [
+          "42",
+          "Pilot Data Quality Monitoring Tools",
+          "IT Operations Lead",
+          "2026-08-25",
+          "44%"
+        ],
+        [
+          "43",
+          "Review Third-Party Data Handling Policies",
+          "Vendor Risk Manager",
+          "2026-09-02",
+          "36%"
+        ],
+        [
+          "44",
+          "Finalize Governance Framework Documentation",
+          "Chief Data Officer",
+          "2026-09-10",
+          "29%"
+        ],
+        [
+          "45",
+          "Executive Approval and Sign-off",
+          "Executive Sponsor",
+          "2026-09-15",
+          "12%"
+        ],
+        [
+          "46",
+          "Finalize Data Ownership RACI Matrix",
+          "A. Patel",
+          "2026-06-15",
+          "85%"
+        ],
+        [
+          "47",
+          "Executive Review of Classification Policy",
+          "M. Chen",
+          "2026-06-20",
+          "60%"
+        ],
+        [
+          "48",
+          "Incorporate Legal Feedback on Data Policies",
+          "R. Johnson",
+          "2026-06-25",
+          "40%"
+        ],
+        [
+          "49",
+          "Define Data Stewardship Operating Model",
+          "L. Garcia",
+          "2026-07-01",
+          "70%"
+        ],
+        [
+          "50",
+          "Develop Data Quality Rule Templates",
+          "S. Ahmed",
+          "2026-07-08",
+          "55%"
+        ],
+        [
+          "51",
+          "Pilot Data Quality Monitoring Dashboard",
+          "T. Nguyen",
+          "2026-07-15",
+          "30%"
+        ],
+        [
+          "52",
+          "Approve Enterprise Data Classification Standard",
+          "K. Brown",
+          "2026-07-22",
+          "90%"
+        ],
+        [
+          "53",
+          "Create Data Governance Communication Plan",
+          "D. Wilson",
+          "2026-07-28",
+          "65%"
+        ],
+        [
+          "54",
+          "Conduct Data Owner Training Sessions",
+          "P. Rossi",
+          "2026-08-05",
+          "20%"
+        ],
+        [
+          "55",
+          "Establish Data Issue Escalation Process",
+          "J. Smith",
+          "2026-08-12",
+          "75%"
+        ],
+        [
+          "56",
+          "Implement Metadata Management Guidelines",
+          "E. Davis",
+          "2026-08-20",
+          "50%"
+        ],
+        [
+          "57",
+          "Define KPIs for Data Quality Metrics",
+          "C. Martinez",
+          "2026-08-28",
+          "45%"
+        ],
+        [
+          "58",
+          "Internal Audit of Governance Controls",
+          "H. Lee",
+          "2026-09-05",
+          "10%"
+        ],
+        [
+          "59",
+          "Remediation Plan for Identified Data Gaps",
+          "B. Taylor",
+          "2026-09-15",
+          "0%"
+        ],
+        [
+          "60",
+          "Final Approval and Publication of Framework Document",
+          "A. Patel",
+          "2026-09-30",
+          "5%"
+        ],
+        [
+          "61",
+          "Finalize Data Ownership RACI Matrix",
+          "Data Governance Lead",
+          "2026-06-15",
+          "92%"
+        ],
+        [
+          "62",
+          "Approve Enterprise Data Classification Policy",
+          "Chief Information Security Officer",
+          "2026-06-30",
+          "85%"
+        ],
+        [
+          "63",
+          "Implement Data Quality Monitoring Dashboard",
+          "Head of Data Engineering",
+          "2026-07-20",
+          "68%"
+        ],
+        [
+          "64",
+          "Conduct Data Stewardship Training Sessions",
+          "Data Governance Office",
+          "2026-08-05",
+          "54%"
+        ],
+        [
+          "65",
+          "Publish Data Governance Framework v1.0",
+          "Chief Data Officer",
+          "2026-08-25",
+          "40%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Milestone ID": 2025.0,
+        "max_Milestone ID": 65.0,
+        "min_Milestone ID": 16.0,
+        "sum_Completion (%)": 3463.0,
+        "max_Completion (%)": 100.0,
+        "min_Completion (%)": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Planned End Date for milestone DG-03?",
+          "answer": "2026-02-10",
+          "assertions": [
+            {
+              "text": "The response must state 2026-02-10."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Project Milestone Tracker\", who is the Owner of milestone 60?",
+          "answer": "A. Patel",
+          "assertions": [
+            {
+              "text": "The response must state A. Patel."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Completion (%) for milestone 35?",
+          "answer": "81%",
+          "assertions": [
+            {
+              "text": "The response must state 81%."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "table_0005_55b00ae6": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Clarifies_how_governance_decisions_are_made_and_executed_(wh",
+      "row_count": 10,
+      "col_count": 6,
+      "columns": [
+        "Role & Accountability",
+        "Decision Authority",
+        "Execution Responsibility",
+        "Cadence",
+        " Controls",
+        "Escalation Path"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "table_0004_42e2035a": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "formatting"
+      ],
+      "base_type": "Sets_minimum_lineage_scope_(source-to-report),_required_meta",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Category",
+        "Requirement",
+        "Effective Date",
+        "Control Owner",
+        "Compliance Status"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "cx_table_0000_97d7a03f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 27,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "data_governance_framework"
+    },
+    "table_0003_335618ea": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Defines_enterprise_minimum_quality_thresholds_and_measuremen",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Quality Dimension",
+        "Minimum Threshold",
+        "Measurement Window",
+        "Applies To",
+        "Owner",
+        "Status"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "table_0002_bb8ab3a9": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Provides_practical_decision_criteria_and_representative_exam",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Example (Asset: Level)",
+        "Decision Criteria Summary",
+        "Primary Data Owner",
+        "Required Controls",
+        "Review Frequency",
+        "Policy Effective Date"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "text_0000_a708ae31": {
+      "kind": "text",
+      "perturbations": [
+        "typos",
+        "unicode_punctuation"
+      ],
+      "heading": "Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)",
+      "word_count": 174,
+      "text_type": "llm_prose",
+      "topic_id": "data_governance_framework"
+    },
+    "table_0000_1d828c93": {
+      "kind": "table",
+      "perturbations": [
+        "formatting",
+        "structural"
+      ],
+      "base_type": "Defines_accountable_Data_Owners_and_operational_Data_Steward",
+      "row_count": 7,
+      "col_count": 7,
+      "columns": [
+        "Domain",
+        "Data Owner",
+        "Data Steward",
+        "Classification Level",
+        "Go-Live Deadline",
+        "Current Status",
+        "Last Reviewed"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "cx_table_0002_f7c058d4": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "data_governance_framework"
+    },
+    "table_0001_6651ec62": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "semantic"
+      ],
+      "base_type": "Confi",
+      "row_count": 10,
+      "col_count": 5,
+      "columns": [
+        "Classification Level",
+        "Minimum Controls",
+        "Handling Summary",
+        "Review Cycle",
+        "Typical Data Examples"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "text_0001_3b8f9bdb": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)",
+      "word_count": 267,
+      "text_type": "llm_prose",
+      "topic_id": "data_governance_framework"
+    },
+    "cx_table_0001_bd1510a3": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 15,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "data_governance_framework"
+    },
+    "llm_mp_table_0000_44dcf8bc": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "project_milestone_tracker",
+      "row_count": 65,
+      "col_count": 5,
+      "columns": [
+        "Milestone ID",
+        "Milestone Name",
+        "Owner",
+        "Planned End Date",
+        "Completion (%)"
+      ],
+      "topic_id": ""
+    },
+    "scan_llm_0000_712686d8": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_3bdb969f.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"Governance operating model: roles, decision rights, and meeting cadence\", what is the Escalation Path for the Data Governance Council?",
+      "answer": "Board Risk Committee",
+      "assertions": [
+        {
+          "text": "The response must state Board Risk Committee."
+        }
+      ]
+    },
+    {
+      "question": " Control listed for the Chief Data Officer (CDO) that includes the number of KPIs?",
+      "answer": "KPI scorecard (12 KPIs)",
+      "assertions": [
+        {
+          "text": "The response must state KPI scorecard (12 KPIs)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Governance operating model: roles, decision rights, and meeting cadence\", what is the Cadence for the Data Steward?",
+      "answer": "Weekly triage (Tuesdays 10:00 AM)",
+      "assertions": [
+        {
+          "text": "The response must state Weekly triage (Tuesdays 10:00 AM)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Lineage requirements by tier and verification method (coverage target: 95% for Tier-1 by 2026-12-31)\", what is the Compliance Status for Tier-2 under Lineage Standard?",
+      "answer": "Active - 85% coverage achieved",
+      "assertions": [
+        {
+          "text": "The response must state Active - 85% coverage achieved."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Lineage requirements by tier and verification method (coverage target: 95% for Tier-1 by 2026-12-31)\", who is listed as the Control Owner for the Metadata Standard category?",
+      "answer": "Data Governance Office",
+      "assertions": [
+        {
+          "text": "The response must state Data Governance Office."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Lineage requirements by tier and verification method (coverage target: 95% for Tier-1 by 2026-12-31)\", what is the Effective Date for Validation & Assurance?",
+      "answer": "2026-01-01",
+      "assertions": [
+        {
+          "text": "The response must state 2026-01-01."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", which leaf metric columns fall under the super-group \"Ownership & Stewardship Accountability\"?",
+      "answer": "Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).",
+      "assertions": [
+        {
+          "text": "The response must state 'Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", how many rows does the category label \"Data Classification & Access\" span?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what is the value of \"Policy Exceptions Open (#)\" for the sub-category group \"Access Review & Exceptions\" (first data row in that sub-category) under the \"Classification & Access Policy Compliance\" super-group?",
+      "answer": "18.",
+      "assertions": [
+        {
+          "text": "The response must state '18.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what is the grand total for \"DQ Rules Implemented (#)\"?",
+      "answer": "4,565.",
+      "assertions": [
+        {
+          "text": "The response must state '4,565.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what does the \"Lineage & Evidence Sub-Total\" row show for \"End-to-End Lineage Coverage (%)\"?",
+      "answer": "86.5%.",
+      "assertions": [
+        {
+          "text": "The response must state '86.5%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what metrics are listed under Ownership & Stewardship Accountability?",
+      "answer": "Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).",
+      "assertions": [
+        {
+          "text": "The response must state 'Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", how many header tiers does the table have?",
+      "answer": "3 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '3 rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", which has the higher count, header tiers or total data rows?",
+      "answer": "Data rows (27).",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (27).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what does footnote 1 explain?",
+      "answer": "Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).",
+      "assertions": [
+        {
+          "text": "The response must state 'Data Owners Assigned (#); Stewards Assigned (#); RACI Approved (%); Steward Training Completion (%); Governance Forums Held (#).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (Quarterly Control Dashboard)\", what is the subtotal for the Governance Domain group in the Ownership & Stewardship Accountability column?",
+      "answer": "18",
+      "assertions": [
+        {
+          "text": "The response must state '18'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data quality standards for Tier-1 Critical Data Elements (CDEs) with measurable thresholds\", what is the Minimum Threshold for Completeness?",
+      "answer": ">= 98.5% (rolling 30 days)",
+      "assertions": [
+        {
+          "text": "The response must state >= 98.5% (rolling 30 days)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data quality standards for Tier-1 Critical Data Elements (CDEs) with measurable thresholds\", who is listed as the Owner for Integrity?",
+      "answer": "Data Architecture Lead",
+      "assertions": [
+        {
+          "text": "The response must state Data Architecture Lead."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data quality standards for Tier-1 Critical Data Elements (CDEs) with measurable thresholds\", what is the Status for Validity?",
+      "answer": "Under Review",
+      "assertions": [
+        {
+          "text": "The response must state Under Review."
+        }
+      ]
+    },
+    {
+      "question": " national ID: Restricted\"?",
+      "answer": "Monthly",
+      "assertions": [
+        {
+          "text": "The response must state Monthly."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Classification decision rules and examples for consistent labeling across domains\", who is the Primary Data Owner for \"Product roadmap (next 12 months): Confidential\"?",
+      "answer": "Chief Product Officer",
+      "assertions": [
+        {
+          "text": "The response must state Chief Product Officer."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Classification decision rules and examples for consistent labeling across domains\", what is the Policy Effective Date for \"Security incident investigation report: Restricted\"?",
+      "answer": "2026-01-01",
+      "assertions": [
+        {
+          "text": "The response must state 2026-01-01."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)\" section, by what date must 100% of the 12 enterprise data domains have a named Data Owner and a named Data Steward?",
+      "answer": "2026-09-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-09-30."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)\" section, what are the four classification levels defined by the policy?",
+      "answer": "Public, Internal, Confidential, Restricted",
+      "assertions": [
+        {
+          "text": "The response must state Public, Internal, Confidential, Restricted."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Data Ownership and Classification Policy (Scope, Accountability, and Handling Controls)\" section, what is the maximum percentage of datasets per domain that may be approved as exceptions?",
+      "answer": "5%",
+      "assertions": [
+        {
+          "text": "The response must state 5%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Domain Ownership Matrix for the 12-domain governance rollout\", what is the Classification Level for the HR Domain?",
+      "answer": "Highly Restricted",
+      "assertions": [
+        {
+          "text": "The response must state Highly Restricted."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Domain Ownership Matrix for the 12-domain governance rollout\", who is listed as the Data Owner for the IT Domain?",
+      "answer": "CIO",
+      "assertions": [
+        {
+          "text": "The response must state CIO."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Domain Ownership Matrix for the 12-domain governance rollout\", what is the Go-Live Deadline for the Finance Domain?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", how many sub-columns does each period group span?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", what is the H1 Attainment% for \"CDEs with named Data Steward (business + technical)\"?",
+      "answer": "87%",
+      "assertions": [
+        {
+          "text": "The response must state '87%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", how many metrics does the \"Classification & Access\" category rowspan cover?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", which metric has the lower H2 attainment in the \"Data Quality & Lineage\" category?",
+      "answer": "P2) per month (91%)",
+      "assertions": [
+        {
+          "text": "P2) per month (91%)'."
+        }
+      ]
+    },
+    {
+      "question": "Restricted)\"?",
+      "answer": "$1.40M",
+      "assertions": [
+        {
+          "text": "The response must state '$1.40M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", what percentage value is shown in the table facts?",
+      "answer": "87%",
+      "assertions": [
+        {
+          "text": "The response must state '87%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", which top-level column headers are listed in the first header row?",
+      "answer": "Category, Metric, Dir, H1, H2",
+      "assertions": [
+        {
+          "text": "The response must state 'Category, Metric, Dir, H1, H2'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", which is greater: the count of header tiers or the count of data rows?",
+      "answer": "Data rows (16)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (16)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", what does footnote 3 indicate?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Framework Scorecard — Ownership, Classification, Quality, Lineage & Operating Model (H1 vs H2)\", what is the subtotal for the group of all data rows (the total row count)?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state '16'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Four-level data classification policy with required handling controls\", what is the Review Cycle for the Restricted classification level that lists \"Privileged Access Management (PAM); MFA enforced; detailed audit logging\" as Minimum Controls?",
+      "answer": "Quarterly review",
+      "assertions": [
+        {
+          "text": "The response must state Quarterly review."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Four-level data classification policy with required handling controls\", what Typical Data Examples are listed for the Public classification with Minimum Controls \"Approved for external distribution; integrity monitoring enabled\"?",
+      "answer": "Marketing brochures, public website content, press releases",
+      "assertions": [
+        {
+          "text": "The response must state Marketing brochures, public website content, press releases."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Four-level data classification policy with required handling controls\", what are the Minimum Controls for the Confidential classification that includes \"Board presentations, strategic roadmaps\" as Typical Data Examples?",
+      "answer": "Endpoint encryption; access logging retained 365 days",
+      "assertions": [
+        {
+          "text": "The response must state Endpoint encryption; access logging retained 365 days."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)\" section, what minimum completeness percentage must each Tier-1 Critical Data Element (CDE) achieve on a rolling 30-day basis?",
+      "answer": "98.5% completeness",
+      "assertions": [
+        {
+          "text": "The response must state 98.5% completeness."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)\" section, by what date must automated end-to-end lineage coverage reach at least 95% of transformations?",
+      "answer": "2026-12-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-12-31."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Data Quality, Lineage Requirements, and Governance Operating Model (Roles, Cadence, and Decision Rights)\" section, on which day does the Data Governance Council meet each month?",
+      "answer": "the first Tuesday of each month",
+      "assertions": [
+        {
+          "text": "The response must state the first Tuesday of each month."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", how many sub-columns does each period group span?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Restricted)\"?",
+      "answer": "92%",
+      "assertions": [
+        {
+          "text": "The response must state '92%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", how many metrics does the \"Quality & Lineage\" category rowspan cover?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", which metric has the lower H2 attainment in the \"Classification & Policy\" category?",
+      "answer": "Policy exceptions open >90 days",
+      "assertions": [
+        {
+          "text": "The response must state 'Policy exceptions open >90 days'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", what is the H2 target for \"Tier-1 datasets with end-to-end lineage documented\"?",
+      "answer": "$1.20M",
+      "assertions": [
+        {
+          "text": "The response must state '$1.20M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", how many header tiers are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", how many data rows are listed?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", which recorded answer value is the highest among the listed fact answers?",
+      "answer": "92%",
+      "assertions": [
+        {
+          "text": "The response must state '92%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", what does footnote 1 explain?",
+      "answer": "No footnotes present.",
+      "assertions": [
+        {
+          "text": "The response must state 'No footnotes present.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality & Lineage (H1 vs H2)\", what is the subtotal for group G in the H1 column?",
+      "answer": "Not specified in the table.",
+      "assertions": [
+        {
+          "text": "The response must state 'Not specified in the table.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Planned End Date for milestone DG-03?",
+      "answer": "2026-02-10",
+      "assertions": [
+        {
+          "text": "The response must state 2026-02-10."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Project Milestone Tracker\", who is the Owner of milestone 60?",
+      "answer": "A. Patel",
+      "assertions": [
+        {
+          "text": "The response must state A. Patel."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Completion (%) for milestone 35?",
+      "answer": "81%",
+      "assertions": [
+        {
+          "text": "The response must state 81%."
+        }
+      ]
+    }
+  ]
+}

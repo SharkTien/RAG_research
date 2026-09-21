@@ -1,0 +1,189 @@
+services:
+  ntc_document_rag:
+    build: .
+    container_name: ntc_document_rag
+    restart: unless-stopped
+    ports:
+      - "18765:8000"
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?Set JWT_SECRET_KEY in .env}
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set ADMIN_PASSWORD in .env}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-rag}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/${POSTGRES_DB:-rag}
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER in .env}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD in .env}
+      MINIO_BUCKET: ntc-documents
+      MINIO_SECURE: "false"
+      MAX_UPLOAD_BYTES: ${MAX_UPLOAD_BYTES:-209715200}
+      DOCLING_DO_OCR: ${DOCLING_DO_OCR:-auto}
+      DOCLING_DO_TABLE_STRUCTURE: ${DOCLING_DO_TABLE_STRUCTURE:-false}
+      DOCLING_DEVICE: ${DOCLING_DEVICE:-cpu}
+      DOCLING_NUM_THREADS: ${DOCLING_NUM_THREADS:-4}
+      DOCLING_OCR_BATCH_SIZE: ${DOCLING_OCR_BATCH_SIZE:-4}
+      DOCLING_FORCE_FULL_PAGE_OCR: ${DOCLING_FORCE_FULL_PAGE_OCR:-true}
+      DOCLING_OCR_ENGINE: ${DOCLING_OCR_ENGINE:-tesseract}
+      DOCLING_OCR_LANG: ${DOCLING_OCR_LANG:-vie,eng}
+      DOCLING_TESSERACT_OSD: ${DOCLING_TESSERACT_OSD:-false}
+      NGC_API_KEY: ${NGC_API_KEY:-}
+      NVIDIA_API_KEY: ${NVIDIA_API_KEY:-}
+      NIM_BASE_URL: ${NIM_BASE_URL:-https://integrate.api.nvidia.com/v1}
+      NIM_MODEL: ${NIM_MODEL:-meta/llama-3.2-11b-vision-instruct}
+      NIM_CONCURRENCY: ${NIM_CONCURRENCY:-4}
+      NIM_TIMEOUT_SECONDS: ${NIM_TIMEOUT_SECONDS:-60}
+      HF_TOKEN: ${HF_TOKEN:-${HF_KEY:-}}
+      HF_KEY: ${HF_KEY:-}
+      DOCUMENT_PARSER_ENGINE: ${DOCUMENT_PARSER_ENGINE:-ragflow}
+      RAGFLOW_MODE: ${RAGFLOW_MODE:-deepdoc}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-nvidia/nemotron-3-embed-1b}
+      EMBEDDING_DIM: ${EMBEDDING_DIM:-2048}
+    command:
+      - sh
+      - -c
+      - >-
+        until [ -f /app/frontend/dist/index.html ] && [ -d /app/frontend/dist/assets ]; do
+          echo 'Waiting for frontend build...'; sleep 1;
+        done;
+        exec uvicorn app.main:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./app:/app/app
+      - frontend_dist:/app/frontend/dist
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_started
+
+  frontend_builder:
+    image: node:22-alpine
+    container_name: ntc_document_rag_ui_builder
+    restart: unless-stopped
+    working_dir: /frontend
+    volumes:
+      - ./frontend:/frontend
+      - frontend_dist:/frontend/dist
+      - frontend_node_modules:/frontend/node_modules
+    command: sh -c "npm install --no-audit --no-fund && npx vite build --watch"
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-rag}
+      POSTGRES_USER: ${POSTGRES_USER:-rag}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rag -d rag"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  minio:
+    image: quay.io/minio/minio:latest
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER in .env}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD in .env}
+    ports:
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+  ntc_document_rag_worker:
+    build: .
+    container_name: ntc_document_rag_worker
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0']
+              capabilities: [gpu]
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?Set JWT_SECRET_KEY in .env}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-rag}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/${POSTGRES_DB:-rag}
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER in .env}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD in .env}
+      MINIO_BUCKET: ntc-documents
+      DOCLING_DO_OCR: ${DOCLING_DO_OCR:-auto}
+      DOCLING_DO_TABLE_STRUCTURE: ${DOCLING_DO_TABLE_STRUCTURE:-false}
+      DOCLING_DEVICE: ${DOCLING_DEVICE:-cuda}
+      DOCLING_NUM_THREADS: ${DOCLING_NUM_THREADS:-4}
+      DOCLING_OCR_BATCH_SIZE: ${DOCLING_OCR_BATCH_SIZE:-4}
+      DOCLING_FORCE_FULL_PAGE_OCR: ${DOCLING_FORCE_FULL_PAGE_OCR:-true}
+      DOCLING_OCR_ENGINE: ${DOCLING_OCR_ENGINE:-tesseract}
+      DOCLING_OCR_LANG: ${DOCLING_OCR_LANG:-vie,eng}
+      DOCLING_TESSERACT_OSD: ${DOCLING_TESSERACT_OSD:-false}
+      NGC_API_KEY: ${NGC_API_KEY:-}
+      NVIDIA_API_KEY: ${NVIDIA_API_KEY:-}
+      NIM_BASE_URL: ${NIM_BASE_URL:-https://integrate.api.nvidia.com/v1}
+      NIM_MODEL: ${NIM_MODEL:-meta/llama-3.2-11b-vision-instruct}
+      NIM_CONCURRENCY: ${NIM_CONCURRENCY:-4}
+      NIM_TIMEOUT_SECONDS: ${NIM_TIMEOUT_SECONDS:-60}
+      HF_TOKEN: ${HF_TOKEN:-${HF_KEY:-}}
+      HF_KEY: ${HF_KEY:-}
+      DOCUMENT_PARSER_ENGINE: ${DOCUMENT_PARSER_ENGINE:-ragflow}
+      RAGFLOW_MODE: ${RAGFLOW_MODE:-deepdoc}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-nvidia/nemotron-3-embed-1b}
+      EMBEDDING_DIM: ${EMBEDDING_DIM:-2048}
+      QWEN_BASE_URL: ${QWEN_BASE_URL:-http://host.docker.internal:8027/v1}
+      QWEN_MODEL: ${QWEN_MODEL:-a2genesis/Qwen3.8-27B-NVFP4}
+      QWEN_TIMEOUT_SECONDS: ${QWEN_TIMEOUT_SECONDS:-180}
+      QWEN_MAX_INPUT_CHARS: ${QWEN_MAX_INPUT_CHARS:-16000}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./app:/app/app
+      - /home/ntcai/.cache/huggingface:/root/.cache/huggingface
+    command: ["python", "-m", "app.worker"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_started
+
+  # ─── Debug Runner ────────────────────────────────────────────────
+  # Chạy debug pipeline trực tiếp trong container có đủ dependencies.
+  # Cách dùng:
+  #   docker compose run --rm debug
+  #   docker compose run --rm debug /pdf/file.pdf
+  debug:
+    build: .
+    profiles: ["debug"]
+    working_dir: /app
+    volumes:
+      - ./app:/app/app
+      - ./test:/app/test
+      - ./:/pdf          # mount toàn bộ project root để truy cập PDF
+    environment:
+      NGC_API_KEY: ${NGC_API_KEY:-}
+      NVIDIA_API_KEY: ${NVIDIA_API_KEY:-}
+      NIM_BASE_URL: ${NIM_BASE_URL:-https://integrate.api.nvidia.com/v1}
+      NIM_MODEL: ${NIM_MODEL:-meta/llama-3.3-70b-instruct}
+      NIM_CONCURRENCY: ${NIM_CONCURRENCY:-4}
+      NIM_TIMEOUT_SECONDS: ${NIM_TIMEOUT_SECONDS:-60}
+      DOCLING_DO_OCR: ${DOCLING_DO_OCR:-auto}
+      DOCLING_DO_TABLE_STRUCTURE: ${DOCLING_DO_TABLE_STRUCTURE:-false}
+      DOCLING_DEVICE: ${DOCLING_DEVICE:-cpu}
+      DOCLING_NUM_THREADS: ${DOCLING_NUM_THREADS:-4}
+      DOCLING_OCR_BATCH_SIZE: ${DOCLING_OCR_BATCH_SIZE:-4}
+      DOCLING_FORCE_FULL_PAGE_OCR: ${DOCLING_FORCE_FULL_PAGE_OCR:-false}
+      DOCLING_OCR_ENGINE: ${DOCLING_OCR_ENGINE:-tesseract}
+      DOCLING_OCR_LANG: ${DOCLING_OCR_LANG:-vie,eng}
+      DOCLING_TESSERACT_OSD: ${DOCLING_TESSERACT_OSD:-false}
+    entrypoint: ["python", "/app/test/debug_pipeline.py"]
+    # Không depends_on postgres/minio vì debug chỉ dùng Docling + NIM API
+
+volumes:
+  postgres_data:
+  minio_data:
+  frontend_dist:
+  frontend_node_modules:

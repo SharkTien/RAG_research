@@ -1,0 +1,4907 @@
+{
+  "doc_id": "doc_0000_s1080272810",
+  "title": "Employee Engagement Survey Results and Prioritised People Action Plan: Overall Score, Key Drivers, Demographic Breakdown and Year-on-Year Trends",
+  "subtitle": "Employee Engagement Survey — Overall Score, Key Drivers, Demographics, Year-on-Year Trends & Prioritised People Action Plan",
+  "topic_id": "employee_engagement_survey",
+  "recipe_name": "scanned_archive",
+  "seed": 1080272810,
+  "document_brief": {
+    "narrative_theme": "The 2025 engagement results show solid progress year-on-year, with clear, measurable gaps by demographic group that can be closed through a focused, time-bound people action plan targeting the top engagement drivers.",
+    "sections": [
+      {
+        "heading": "Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)",
+        "key_facts": [
+          "100 in 2025.",
+          "100 in 2025.",
+          "The survey fieldwork ran from 3 March 2025 to 17 March 2025."
+        ],
+        "data_references": []
+      },
+      {
+        "heading": "Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan",
+        "key_facts": [
+          "The top three engagement drivers are Manager Support (r=0.62), Career Growth (r=0.58), and Recognition (r=0.55).",
+          "100 for employees with tenure 5+ years.",
+          "The 90-day action plan includes three enterprise actions owned by People & Culture, with due dates of 30 June 2025, 31 July 2025, and 31 August 2025."
+        ],
+        "data_references": []
+      }
+    ],
+    "tables": [],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1080272810.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_stam_59a26cf9.png",
+      "dash_0001_43d5b8cb.png",
+      "scan_llm_text_d7783076.png",
+      "tl_0000_d44f1fe1.png",
+      "scan_llm_data_833dc53f.png",
+      "proc_0000_06ea7029.png",
+      "scan_llm_hand_b6290247.png",
+      "tl_0001_5069942a.png",
+      "scan_llm_hand_47ff66e0.png",
+      "dash_0000_972f8024.png",
+      "scan_llm_stam_97b7de60.png",
+      "dash_0003_4b4d98b6.png",
+      "scan_llm_data_80301169.png",
+      "proc_0001_5932a388.png",
+      "scan_llm_hand_ca036680.png",
+      "dash_0002_e3f42a1d.png",
+      "scan_llm_stam_30d694ae.png",
+      "proc_0002_ff989040.png",
+      "scan_llm_data_b6d292b4.png",
+      "tl_0002_1938d001.png",
+      "scan_llm_stam_05885f62.png",
+      "scan_llm_text_f8e8a2f6.png",
+      "scan_llm_hand_6a68f4fa.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 34,
+    "actual_page_count": 23
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "scan_llm_0003_0c7659ce",
+      "figure_number": 1,
+      "image_path": "scan_llm_stam_59a26cf9.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 1: Employee Engagement Results Certification Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Employee Engagement Results Certification Form",
+        "form_fields": [
+          {
+            "label": "Reporting Period",
+            "value": "FY2025 (Survey conducted March 2025)"
+          },
+          {
+            "label": "Overall Engagement Score",
+            "value": "78% favorable (↑ 5 pts vs FY2024: 73%)"
+          },
+          {
+            "label": "Top Engagement Drivers",
+            "value": "Trust in Leadership (+7 pts), Career Growth (+6 pts), Recognition (+5 pts)"
+          },
+          {
+            "label": "Lowest Scoring Driver",
+            "value": "Workload Sustainability (64% favorable)"
+          },
+          {
+            "label": "Largest Demographic Gap",
+            "value": "Frontline Operations 72% vs Corporate Functions 83% (11-pt gap)"
+          },
+          {
+            "label": "Manager Effectiveness Score",
+            "value": "81% favorable (↑ 4 pts YoY)"
+          },
+          {
+            "label": "Response Rate",
+            "value": "87% (1,842 of 2,118 employees)"
+          },
+          {
+            "label": "Priority Action Plan Timeline",
+            "value": "July 2025 – June 2026 (Quarterly progress reviews)"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Year-on-year engagement trend validated against prior dataset",
+            "checked": true
+          },
+          {
+            "text": "Driver impact analysis statistically tested (p < 0.05)",
+            "checked": true
+          },
+          {
+            "text": "Demographic breakdown reviewed (gender, tenure, function, region)",
+            "checked": true
+          },
+          {
+            "text": "Action plan aligned to top three engagement drivers",
+            "checked": true
+          },
+          {
+            "text": "Specific targets set to close Frontline vs Corporate gap by ≥5 pts",
+            "checked": false
+          },
+          {
+            "text": "Workload sustainability improvement initiatives funded",
+            "checked": false
+          },
+          {
+            "text": "Quarterly pulse survey schedule confirmed",
+            "checked": true
+          },
+          {
+            "text": "Executive leadership communication plan issued",
+            "checked": true
+          }
+        ],
+        "stamps": [
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          },
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          }
+        ],
+        "inspector": "Marisol Bennett, Director of People Analytics",
+        "reference": "ENG-2025-4419",
+        "date": "18 April 2025",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Reporting Period",
+          "FY2025 (Survey conducted March 2025)"
+        ],
+        [
+          "Overall Engagement Score",
+          "78% favorable (↑ 5 pts vs FY2024: 73%)"
+        ],
+        [
+          "Top Engagement Drivers",
+          "Trust in Leadership (+7 pts), Career Growth (+6 pts), Recognition (+5 pts)"
+        ],
+        [
+          "Lowest Scoring Driver",
+          "Workload Sustainability (64% favorable)"
+        ],
+        [
+          "Largest Demographic Gap",
+          "Frontline Operations 72% vs Corporate Functions 83% (11-pt gap)"
+        ],
+        [
+          "Manager Effectiveness Score",
+          "81% favorable (↑ 4 pts YoY)"
+        ],
+        [
+          "Response Rate",
+          "87% (1,842 of 2,118 employees)"
+        ],
+        [
+          "Priority Action Plan Timeline",
+          "July 2025 – June 2026 (Quarterly progress reviews)"
+        ]
+      ],
+      "stamps": [
+        "REVIEWED",
+        "CONFIDENTIAL"
+      ],
+      "inspector": "Marisol Bennett, Director of People Analytics",
+      "reference": "ENG-2025-4419",
+      "checked_items": [
+        {
+          "text": "Year-on-year engagement trend validated against prior dataset",
+          "checked": true
+        },
+        {
+          "text": "Driver impact analysis statistically tested (p < 0.05)",
+          "checked": true
+        },
+        {
+          "text": "Demographic breakdown reviewed (gender, tenure, function, region)",
+          "checked": true
+        },
+        {
+          "text": "Action plan aligned to top three engagement drivers",
+          "checked": true
+        },
+        {
+          "text": "Quarterly pulse survey schedule confirmed",
+          "checked": true
+        },
+        {
+          "text": "Executive leadership communication plan issued",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Employee Engagement Results Certification Form\", who is listed as the inspector and their role?",
+          "answer": "Marisol Bennett, Director of People Analytics.",
+          "assertions": [
+            {
+              "text": "The response must state 'Marisol Bennett, Director of People Analytics.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Employee Engagement Results Certification Form\", how many employees responded to the survey?",
+          "answer": "1,842 respondents.",
+          "assertions": [
+            {
+              "text": "The response must state '1,842 respondents.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Employee Engagement Results Certification Form\", what is the overall engagement score and the year-over-year change?",
+          "answer": "78% favorable, up 5 points versus FY2024 (73%).",
+          "assertions": [
+            {
+              "text": "The response must state '78% favorable, up 5 points versus FY2024 (73%).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Employee Engagement Results Certification Form\", is the checkbox for 'Specific targets set to close Frontline vs Corporate gap by ≥5 pts' marked?",
+          "answer": "No — it is unchecked.",
+          "assertions": [
+            {
+              "text": "The response must state 'No — it is unchecked.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Employee Engagement Results Certification Form\", what are the top three engagement drivers and their point changes?",
+          "answer": "Trust in Leadership (+7 pts), Career Growth (+6 pts), Recognition (+5 pts).",
+          "assertions": [
+            {
+              "text": "The response must state 'Trust in Leadership (+7 pts), Career Growth (+6 pts), Recognition (+5 pts).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "dash_0001_43d5b8cb",
+      "figure_number": 2,
+      "image_path": "dash_0001_43d5b8cb.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 2: Dashboard: 2026 Employee Engagement Overview",
+      "title": "2026 Employee Engagement Overview",
+      "theme": "healthcare_teal",
+      "subtitle": "Engagement Score, Drivers & Workforce Insights",
+      "period_badge": "FY 2026",
+      "kpis": [
+        {
+          "label": "Overall Engagement Score",
+          "value": "78%",
+          "delta": "+4%",
+          "trend": "up",
+          "sparkline": [
+            70,
+            72,
+            74,
+            75,
+            78
+          ]
+        },
+        {
+          "label": "Favourable Leadership Index",
+          "value": "81%",
+          "delta": "+3%",
+          "trend": "up",
+          "sparkline": [
+            74,
+            76,
+            78,
+            79,
+            81
+          ]
+        },
+        {
+          "label": "Retention Intent",
+          "value": "84%",
+          "delta": "+2%",
+          "trend": "up",
+          "sparkline": [
+            78,
+            80,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "label": "Workload Sustainability",
+          "value": "69%",
+          "delta": "-5%",
+          "trend": "down",
+          "sparkline": [
+            75,
+            74,
+            72,
+            71,
+            69
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Engagement Score by Department",
+        "labels": [
+          "Sales",
+          "Operations",
+          "Technology",
+          "Corporate"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              82,
+              74,
+              80,
+              76
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              78,
+              76,
+              77,
+              73
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Engagement improved 4% year-on-year, led by stronger leadership confidence.",
+        "Workload sustainability declined 5%, particularly in Operations.",
+        "Top priorities: rebalance workloads, expand career pathways, and enhance manager capability training."
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the '2026 Employee Engagement Overview', what value is shown for Workload Sustainability?",
+          "answer": "69%",
+          "assertions": [
+            {
+              "text": "The response must state '69%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the '2026 Employee Engagement Overview', what is the subtitle displayed under the title?",
+          "answer": "Engagement Score, Drivers & Workforce Insights",
+          "assertions": [
+            {
+              "text": "The response must state 'Engagement Score, Drivers & Workforce Insights'."
+            }
+          ]
+        },
+        {
+          "question": "On the '2026 Employee Engagement Overview', which period badge is displayed?",
+          "answer": "FY 2026",
+          "assertions": [
+            {
+              "text": "The response must state 'FY 2026'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "scan_llm_0012_0e32fc8e",
+      "figure_number": 3,
+      "image_path": "scan_llm_text_d7783076.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 3: 2025 Employee Engagement Survey – Results Overview and Action Priorities",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "2025 Employee Engagement Survey – Results Overview and Action Priorities",
+        "subtitle": "Ref: HR-ENG-25-17 | Date: 18 February 2026 | From: Priya Deshmukh, Chief People Officer",
+        "sections": [
+          {
+            "heading": "Overall Engagement Performance",
+            "body": "The 2025 engagement survey achieved a response rate of 87%, representing 3,842 employees across all regions. Our overall engagement score increased to 78%, up 6 percentage points from 72% in 2024, marking the strongest year-on-year improvement since 2021. Notable gains were observed in “Pride in the Organisation” (+9 points) and “Confidence in Senior Leadership” (+7 points). Despite this progress, variability between functions and demographic groups indicates that further targeted action is required."
+          },
+          {
+            "heading": "Key Driver Analysis",
+            "body": "Regression analysis identified three primary engagement drivers for 2025: Manager Effectiveness, Career Development Opportunities, and Workload Sustainability. Manager Effectiveness showed the strongest correlation with engagement (r=0.64) and improved by 5 points year-on-year. However, Career Development scored 68%, remaining 10 points below the overall engagement average, particularly among early-career professionals. Workload Sustainability improved marginally (+2 points), but qualitative comments highlight continued pressure in client-facing teams."
+          },
+          {
+            "heading": "Demographic and Segment Insights",
+            "body": "Engagement among employees with less than two years’ tenure stands at 70%, compared to 82% for those with over five years’ service. Women reported an engagement score of 75%, five points below men at 80%, with the largest gap appearing in perceptions of advancement fairness. Regionally, the Northern Operations division scored 83%, while Central Services lagged at 71%, largely due to concerns around role clarity and workload distribution. These measurable gaps provide a clear basis for targeted intervention."
+          },
+          {
+            "heading": "Year-on-Year Trends",
+            "body": "Since 2023, overall engagement has risen from 69% to 78%, reflecting sustained improvement across most survey dimensions. Trust in immediate managers has improved consistently (+4 points in 2024, +5 points in 2025), aligning with our investment in leadership capability programmes. Conversely, perceptions of cross-functional collaboration have plateaued at 73% for two consecutive years. Exit interview data corroborates survey findings, particularly regarding career progression transparency."
+          },
+          {
+            "heading": "Prioritised People Action Plan (2026)",
+            "body": "The Executive Committee has endorsed a 12-month action plan focused on three priorities: (1) Launching structured career pathways and internal mobility dashboards by Q3 2026; (2) Expanding manager coaching accreditation to 100% of people leaders by year-end; and (3) Implementing workload planning pilots in Central Services and Client Delivery teams by Q2. Success metrics include a minimum 4-point increase in Career Development scores and a 50% reduction in the gender engagement gap by the 2026 survey cycle. Quarterly pulse surveys will track progress and ensure accountability at divisional level."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Overall Engagement Performance",
+        "Key Driver Analysis",
+        "Demographic and Segment Insights",
+        "Year-on-Year Trends",
+        "Prioritised People Action Plan (2026)"
+      ],
+      "cells": [
+        {
+          "heading": "Overall Engagement Performance",
+          "body": "The 2025 engagement survey achieved a response rate of 87%, representing 3,842 employees across all regions. Our overall engagement score increased to 78%, up 6 percentage points from 72% in 2024, marking the strongest year-on-year improvement since 2021. Notable gains were observed in “Pride in the Organisation” (+9 points) and “Confidence in Senior Leadership” (+7 points). Despite this progress, variability between functions and demographic groups indicates that further targeted action is required."
+        },
+        {
+          "heading": "Key Driver Analysis",
+          "body": "Regression analysis identified three primary engagement drivers for 2025: Manager Effectiveness, Career Development Opportunities, and Workload Sustainability. Manager Effectiveness showed the strongest correlation with engagement (r=0.64) and improved by 5 points year-on-year. However, Career Development scored 68%, remaining 10 points below the overall engagement average, particularly among early-career professionals. Workload Sustainability improved marginally (+2 points), but qualitative comments highlight continued pressure in client-facing teams."
+        },
+        {
+          "heading": "Demographic and Segment Insights",
+          "body": "Engagement among employees with less than two years’ tenure stands at 70%, compared to 82% for those with over five years’ service. Women reported an engagement score of 75%, five points below men at 80%, with the largest gap appearing in perceptions of advancement fairness. Regionally, the Northern Operations division scored 83%, while Central Services lagged at 71%, largely due to concerns around role clarity and workload distribution. These measurable gaps provide a clear basis for targeted intervention."
+        },
+        {
+          "heading": "Year-on-Year Trends",
+          "body": "Since 2023, overall engagement has risen from 69% to 78%, reflecting sustained improvement across most survey dimensions. Trust in immediate managers has improved consistently (+4 points in 2024, +5 points in 2025), aligning with our investment in leadership capability programmes. Conversely, perceptions of cross-functional collaboration have plateaued at 73% for two consecutive years. Exit interview data corroborates survey findings, particularly regarding career progression transparency."
+        },
+        {
+          "heading": "Prioritised People Action Plan (2026)",
+          "body": "The Executive Committee has endorsed a 12-month action plan focused on three priorities: (1) Launching structured career pathways and internal mobility dashboards by Q3 2026; (2) Expanding manager coaching accreditation to 100% of people leaders by year-end; and (3) Implementing workload planning pilots in Central Services and Client Delivery teams by Q2. Success metrics include a minimum 4-point increase in Career Development scores and a 50% reduction in the gender engagement gap by the 2026 survey cycle. Quarterly pulse surveys will track progress and ensure accountability at divisional level."
+        }
+      ],
+      "full_text": "2025 Employee Engagement Survey – Results Overview and Action Priorities\nRef: HR-ENG-25-17 | Date: 18 February 2026 | From: Priya Deshmukh, Chief People Officer\n\nSection Overall Engagement Performance\nThe 2025 engagement survey achieved a response rate of 87%, representing 3,842 employees across all regions. Our overall engagement score increased to 78%, up 6 percentage points from 72% in 2024, marking the strongest year-on-year improvement since 2021. Notable gains were observed in “Pride in the Organisation” (+9 points) and “Confidence in Senior Leadership” (+7 points). Despite this progress, variability between functions and demographic groups indicates that further targeted action is required.\n\nSection Key Driver Analysis\nRegression analysis identified three primary engagement drivers for 2025: Manager Effectiveness, Career Development Opportunities, and Workload Sustainability. Manager Effectiveness showed the strongest correlation with engagement (r=0.64) and improved by 5 points year-on-year. However, Career Development scored 68%, remaining 10 points below the overall engagement average, particularly among early-career professionals. Workload Sustainability improved marginally (+2 points), but qualitative comments highlight continued pressure in client-facing teams.\n\nSection Demographic and Segment Insights\nEngagement among employees with less than two years’ tenure stands at 70%, compared to 82% for those with over five years’ service. Women reported an engagement score of 75%, five points below men at 80%, with the largest gap appearing in perceptions of advancement fairness. Regionally, the Northern Operations division scored 83%, while Central Services lagged at 71%, largely due to concerns around role clarity and workload distribution. These measurable gaps provide a clear basis for targeted intervention.\n\nSection Year-on-Year Trends\nSince 2023, overall engagement has risen from 69% to 78%, reflecting sustained improvement across most survey dimensions. Trust in immediate managers has improved consistently (+4 points in 2024, +5 points in 2025), aligning with our investment in leadership capability programmes. Conversely, perceptions of cross-functional collaboration have plateaued at 73% for two consecutive years. Exit interview data corroborates survey findings, particularly regarding career progression transparency.\n\nSection Prioritised People Action Plan (2026)\nThe Executive Committee has endorsed a 12-month action plan focused on three priorities: (1) Launching structured career pathways and internal mobility dashboards by Q3 2026; (2) Expanding manager coaching accreditation to 100% of people leaders by year-end; and (3) Implementing workload planning pilots in Central Services and Client Delivery teams by Q2. Success metrics include a minimum 4-point increase in Career Development scores and a 50% reduction in the gender engagement gap by the 2026 survey cycle. Quarterly pulse surveys will track progress and ensure accountability at divisional level.\n\nConfidential — Internal Distribution Only | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "According to \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", what was the survey response rate?",
+          "answer": "87%.",
+          "assertions": [
+            {
+              "text": "The response must state '87%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", how many employees did the responses represent?",
+          "answer": "3,842 employees.",
+          "assertions": [
+            {
+              "text": "The response must state '3,842 employees.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", which three primary engagement drivers were identified in the Key Driver Analysis?",
+          "answer": "Manager Effectiveness; Career Development Opportunities; and Workl.",
+          "assertions": [
+            {
+              "text": "The response must state 'Manager Effectiveness; Career Development Opportunities; and Workl.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", what were the engagement percentages for employees with less than two years’ tenure and for those with over five years’ service?",
+          "answer": "Less than two years: 70%; Over five years: 82%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Less than two years: 70%; Over five years: 82%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", what is the year-on-year change in overall engagement since 2023?",
+          "answer": "Overall engagement rose from 69% to 78% since 2023.",
+          "assertions": [
+            {
+              "text": "The response must state 'Overall engagement rose from 69% to 78% since 2023.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "text",
+      "variant_id": "text_0001_05afd8bf",
+      "heading": "Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan",
+      "word_count": 258,
+      "text_content": [
+        "**Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan**",
+        "The survey’s key driver analysis identifies three primary predictors of engagement: Manager Support (r=0.62), Career Growth (r=0.58), and Recognition (r=0.55). These correlations indicate moderate to strong relationships with overall engagement and guide priority focus areas for line leaders and People & Culture. Manager Support’s r=0.62 suggests that improvements in supervisory practices will yield the largest incremental gains, while Career Growth and Recognition present meaningful secondary leverage. The analysis also highlights interaction effects between Manager Support and Recognition, suggesting combined interventions may produce greater uplift over time.",
+        "100 for employees with tenure 5+ years, indicating a 12-point decline associated with longer tenure. Additional segmentation shows frontline operations scoring 4 percentage points below corporate functions, and Region East outperforming Region West by 6 percentage points. Gender and age cohorts show smaller differentials (<3 points) after statistical adjustment. These patterns inform targeted retention and career-pathing interventions for high-tenure groups during the next quarter.",
+        "The prioritised 90-day People action plan assigns three enterprise-level initiatives to People & Culture with clear deliverables, metrics, and deadlines: 1. Launch Manager Coaching Program (due 30 June 2025) to address Manager Support; 2. Publish a Career Pathways Framework (due 31 July 2025) to strengthen Career Growth; 3. Implement a Recognition Platform and quarterly awards (due 31 August 2025) to improve Recognition. People & Culture will report progress weekly to Executive Sponsor, track engagement delta by cohort, and measure success using target increases in driver sub-scores."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan\" section, what correlation (r value) is reported for Manager Support?",
+          "answer": "r=0.62",
+          "assertions": [
+            {
+              "text": "The response must state r=0.62."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan\" section, what engagement score is reported for employees with tenure 5+ years?",
+          "answer": "100",
+          "assertions": [
+            {
+              "text": "100."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan\" section, what is the due date for the Career Pathways Framework initiative?",
+          "answer": "31 July 2025",
+          "assertions": [
+            {
+              "text": "The response must state 31 July 2025."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "tl_0000_d44f1fe1",
+      "figure_number": 4,
+      "image_path": "tl_0000_d44f1fe1.png",
+      "subtype": "timeline",
+      "caption": "Figure 4: Timeline: Employee Engagement Survey Reporting Timeline",
+      "title": "Employee Engagement Survey Reporting Timeline",
+      "theme": "healthcare_teal",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Survey Design & Launch",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Data Collection & Validation",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "Analysis & Reporting",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Executive Review & Prioritisation",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "Action Plan Rollout",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many milestones are displayed on the 'Employee Engagement Survey Reporting Timeline'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which milestone is identified as current on the 'Employee Engagement Survey Reporting Timeline'?",
+          "answer": "Analysis & Reporting",
+          "assertions": [
+            {
+              "text": "The response must state 'Analysis & Reporting'."
+            }
+          ]
+        },
+        {
+          "question": "What milestone title is scheduled for Q4 2024 on the 'Employee Engagement Survey Reporting Timeline'?",
+          "answer": "Executive Review & Prioritisation",
+          "assertions": [
+            {
+              "text": "The response must state 'Executive Review & Prioritisation'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "text",
+      "variant_id": "text_0000_b67b9b12",
+      "heading": "Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)",
+      "word_count": 213,
+      "text_content": [
+        "**Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)**",
+        "100 in 2024. The surevy fieldwork ran from 3 March 2025 to 17 March 2025, with a standardised questionnaire and consistent sampling frame applied to enable direct comparison across years and functions. Data collection complied fully with GDPR, privacy protocols and standards.",
+        "Year on year analysis shows the 4 point rise equates to a 5.9% erlative improvement, indicating positive enterprise momentum. Gains were largest in frontline operations and corporate services; several business units recorded marginal change. The upward trend exceeds typical annual variance and positions the organisation above recent sector medians in internal benchmarks. Leadership should treat this as validated improvement and focus on targeted initiatives to sustain progress.",
+        "To usstain momentum, the People & Culture team will implement a governance cadence combining monthly dashboard reviews with quarterly pulse checks and an annual full survey. The Corporate Leadership Team will receive executive summaries and KPIs with defined owners for each priority. Progress metrics will be inetgrated into business unit scorecards and reported on a rolling 12 month basis. The next full engagement survey is scheduled for March 2026 for evaluation."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)\" section, what overall engagement score was achieved in 2025?",
+          "answer": "100",
+          "assertions": [
+            {
+              "text": "100."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)\" section, during what dates did the survey fieldwork run?",
+          "answer": "3 March 2025 to 17 March 2025",
+          "assertions": [
+            {
+              "text": "The response must state 3 March 2025 to 17 March 2025."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)\" section, what percentage is cited for the year-on-year improvement?",
+          "answer": "5.9% erlative improvement",
+          "assertions": [
+            {
+              "text": "The response must state 5.9% erlative improvement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "scan_llm_0009_d52e13ef",
+      "figure_number": 5,
+      "image_path": "scan_llm_data_833dc53f.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 5: 2025 Engagement Results and Key Driver Gaps",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "2025 Engagement Results and Key Driver Gaps",
+        "caption": "Table summarising overall engagement scores, year-on-year movement, and priority gaps by demographic segment for 2025.",
+        "headers": [
+          "Segment",
+          "2025 Score (%)",
+          "2024 Score (%)",
+          "YoY Change (pp)",
+          "Priority Gap (pp)"
+        ],
+        "rows": [
+          [
+            "Overall Organisation",
+            "78",
+            "72",
+            "+6",
+            "—"
+          ],
+          [
+            "Senior Leaders",
+            "84",
+            "80",
+            "+4",
+            "+6 vs Frontline"
+          ],
+          [
+            "Middle Managers",
+            "76",
+            "70",
+            "+6",
+            "+2 vs Overall"
+          ],
+          [
+            "Frontline Employees",
+            "78",
+            "69",
+            "+9",
+            "0"
+          ],
+          [
+            "Corporate Functions",
+            "81",
+            "75",
+            "+6",
+            "+3 vs Operations"
+          ],
+          [
+            "Operations",
+            "78",
+            "71",
+            "+7",
+            "0"
+          ],
+          [
+            "UK Region",
+            "80",
+            "74",
+            "+6",
+            "+4 vs APAC"
+          ],
+          [
+            "North America",
+            "77",
+            "70",
+            "+7",
+            "+1 vs Overall"
+          ],
+          [
+            "APAC Region",
+            "76",
+            "68",
+            "+8",
+            "−2 vs Overall"
+          ],
+          [
+            "Tenure <2 Years",
+            "73",
+            "66",
+            "+7",
+            "−5 vs 5+ Years"
+          ],
+          [
+            "Tenure 2–5 Years",
+            "79",
+            "73",
+            "+6",
+            "+1 vs Overall"
+          ],
+          [
+            "Tenure 5+ Years",
+            "83",
+            "78",
+            "+5",
+            "+5 vs <2 Years"
+          ]
+        ],
+        "summary_note": "Engagement improved across all segments in 2025, with the strongest gains among frontline employees and APAC. Notable gaps remain for employees with under two years’ tenure and in the APAC region, informing the 2026 targeted people action plan.",
+        "date": "March 2025",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Segment",
+        "2025 Score (%)",
+        "2024 Score (%)",
+        "YoY Change (pp)",
+        "Priority Gap (pp)"
+      ],
+      "cells": [
+        [
+          "Overall Organisation",
+          "78",
+          "72",
+          "+6",
+          "—"
+        ],
+        [
+          "Senior Leaders",
+          "84",
+          "80",
+          "+4",
+          "+6 vs Frontline"
+        ],
+        [
+          "Middle Managers",
+          "76",
+          "70",
+          "+6",
+          "+2 vs Overall"
+        ],
+        [
+          "Frontline Employees",
+          "78",
+          "69",
+          "+9",
+          "0"
+        ],
+        [
+          "Corporate Functions",
+          "81",
+          "75",
+          "+6",
+          "+3 vs Operations"
+        ],
+        [
+          "Operations",
+          "78",
+          "71",
+          "+7",
+          "0"
+        ],
+        [
+          "UK Region",
+          "80",
+          "74",
+          "+6",
+          "+4 vs APAC"
+        ],
+        [
+          "North America",
+          "77",
+          "70",
+          "+7",
+          "+1 vs Overall"
+        ],
+        [
+          "APAC Region",
+          "76",
+          "68",
+          "+8",
+          "−2 vs Overall"
+        ],
+        [
+          "Tenure <2 Years",
+          "73",
+          "66",
+          "+7",
+          "−5 vs 5+ Years"
+        ],
+        [
+          "Tenure 2–5 Years",
+          "79",
+          "73",
+          "+6",
+          "+1 vs Overall"
+        ],
+        [
+          "Tenure 5+ Years",
+          "83",
+          "78",
+          "+5",
+          "+5 vs <2 Years"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Engagement improved across all segments in 2025, with the strongest gains among frontline employees and APAC. Notable gaps remain for employees with under two years’ tenure and in the APAC region, informing the 2026 targeted people action plan.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"2025 Engagement Results and Key Driver Gaps\", what was the 2025 Score (%) for the Overall Organisation?",
+          "answer": "78%",
+          "assertions": [
+            {
+              "text": "The response must state '78%'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Results and Key Driver Gaps\", how many rows are in the table?",
+          "answer": "12 rows",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"2025 Engagement Results and Key Driver Gaps\", what was the YoY Change (pp) for Frontline Employees?",
+          "answer": "+9 pp",
+          "assertions": [
+            {
+              "text": "The response must state '+9 pp'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Results and Key Driver Gaps\", did engagement improve across all segments in 2025?",
+          "answer": "Yes — engagement improved across all segments in 2025.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — engagement improved across all segments in 2025.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"2025 Engagement Results and Key Driver Gaps\", which segments are shown with a Priority Gap of '0'?",
+          "answer": "Frontline Employees and Operations",
+          "assertions": [
+            {
+              "text": "The response must state 'Frontline Employees and Operations'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "proc_0000_06ea7029",
+      "figure_number": 6,
+      "image_path": "proc_0000_06ea7029.png",
+      "subtype": "process_steps",
+      "caption": "Figure 6: Process: Employee Engagement Results Reporting",
+      "title": "Employee Engagement Results Reporting",
+      "theme": "sand_neutral",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Data Validation & Preparation",
+          "duration": "2 days"
+        },
+        {
+          "number": "02",
+          "title": "Key Driver Analysis",
+          "duration": "3 days"
+        },
+        {
+          "number": "03",
+          "title": "Demographic & Trend Insights",
+          "duration": "3 days"
+        },
+        {
+          "number": "04",
+          "title": "Report Development",
+          "duration": "2 days"
+        },
+        {
+          "number": "05",
+          "title": "Prioritised Action Planning",
+          "duration": "1 wk"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many steps are shown in the 'Employee Engagement Results Reporting' workflow?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Employee Engagement Results Reporting' process diagram, what is the title of the first step?",
+          "answer": "Data Validation & Preparation",
+          "assertions": [
+            {
+              "text": "The response must state 'Data Validation & Preparation'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Employee Engagement Results Reporting' diagram, how long is the final step scheduled to take?",
+          "answer": "1 wk",
+          "assertions": [
+            {
+              "text": "The response must state '1 wk'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "image",
+      "variant_id": "scan_llm_0002_db2086a9",
+      "figure_number": 7,
+      "image_path": "scan_llm_hand_b6290247.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "Figure 7: 2025 Engagement Survey – Key Points & Actions",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "2025 Engagement Survey – Key Points & Actions",
+        "lines": [
+          "Overall Engagement Score 2025: 78% (+6 pts vs 2024: 72%)",
+          " 1,485 employees)",
+          "Top 3 drivers: Trust in Leadership (81%), Career Growth (76%), Manager Support (83%)",
+          "Biggest YoY lift: Confidence in Strategy +9 pts",
+          "Lowest scoring item: Workload Manageability – 64%",
+          "",
+          "Demographic gaps:",
+          "- Frontline Ops: 70% (−8 vs company avg)",
+          "- Corporate functions: 82%",
+          "- Employees <2 yrs tenure: 73%",
+          "- Women in Tech: 69% (gap of 11 pts vs dept avg)",
+          "",
+          "Action priorities (Q2–Q4 2026):",
+          "1) Manager capability sprint – coaching + monthly 1:1 audits",
+          "2) Career pathways launch for Ops (clear L2–L4 criteria by July)",
+          "3) Workload review pilot in Customer Support (reduce overtime 15%)",
+          " live Q&A to sustain trust gains",
+          "",
+          "Target 2026 overall score: 82% (+4)",
+          "Close Frontline gap to within 3 pts by year-end"
+        ],
+        "style": "neat",
+        "has_signature": true,
+        "signature_name": "Marissa K. Doyle",
+        "date": "12 February 2026",
+        "paper_type": "ruled",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Overall Engagement Score 2025: 78% (+6 pts vs 2024: 72%)"
+        ],
+        [
+          " 1,485 employees)"
+        ],
+        [
+          "Top 3 drivers: Trust in Leadership (81%), Career Growth (76%), Manager Support (83%)"
+        ],
+        [
+          "Biggest YoY lift: Confidence in Strategy +9 pts"
+        ],
+        [
+          "Lowest scoring item: Workload Manageability – 64%"
+        ],
+        [
+          ""
+        ],
+        [
+          "Demographic gaps:"
+        ],
+        [
+          "- Frontline Ops: 70% (−8 vs company avg)"
+        ],
+        [
+          "- Corporate functions: 82%"
+        ],
+        [
+          "- Employees <2 yrs tenure: 73%"
+        ],
+        [
+          "- Women in Tech: 69% (gap of 11 pts vs dept avg)"
+        ],
+        [
+          ""
+        ],
+        [
+          "Action priorities (Q2–Q4 2026):"
+        ],
+        [
+          "1) Manager capability sprint – coaching + monthly 1:1 audits"
+        ],
+        [
+          "2) Career pathways launch for Ops (clear L2–L4 criteria by July)"
+        ],
+        [
+          "3) Workload review pilot in Customer Support (reduce overtime 15%)"
+        ],
+        [
+          " live Q&A to sustain trust gains"
+        ],
+        [
+          ""
+        ],
+        [
+          "Target 2026 overall score: 82% (+4)"
+        ],
+        [
+          "Close Frontline gap to within 3 pts by year-end"
+        ]
+      ],
+      "line_count": 20,
+      "hw_style": "neat",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"2025 Engagement Survey – Key Points & Actions\", what was the overall engagement score for 2025 and how many points did it change versus 2024?",
+          "answer": "Overall engagement was 78%, up +6 points versus 2024 (72%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Overall engagement was 78%, up +6 points versus 2024 (72%).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Survey – Key Points & Actions\", how many employees responded to the survey?",
+          "answer": "1,246 employees responded.",
+          "assertions": [
+            {
+              "text": "The response must state '1,246 employees responded.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"2025 Engagement Survey – Key Points & Actions\", what are the top three drivers and their scores?",
+          "answer": "Trust in Leadership 81%, Career Growth 76%, Manager Support 83%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Trust in Leadership 81%, Career Growth 76%, Manager Support 83%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Survey – Key Points & Actions\", which item showed the biggest year-on-year lift and by how many points?",
+          "answer": "Confidence in Strategy showed the biggest lift, +9 points.",
+          "assertions": [
+            {
+              "text": "The response must state 'Confidence in Strategy showed the biggest lift, +9 points.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"2025 Engagement Survey – Key Points & Actions\", who signed the note?",
+          "answer": "Marissa K. Doyle.",
+          "assertions": [
+            {
+              "text": "The response must state 'Marissa K. Doyle.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "tl_0001_5069942a",
+      "figure_number": 8,
+      "image_path": "tl_0001_5069942a.png",
+      "subtype": "timeline",
+      "caption": "Figure 8: Timeline: Employee Engagement Survey Reporting Timeline",
+      "title": "Employee Engagement Survey Reporting Timeline",
+      "theme": "slate_tech",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Survey Design & Launch",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Data Collection & Validation",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "Analysis & Insights Development",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Report Publication & Leadership Review",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "People Action Plan Rollout",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many milestones are shown on the 'Employee Engagement Survey Reporting Timeline'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Employee Engagement Survey Reporting Timeline', what is the current milestone?",
+          "answer": "Analysis & Insights Development",
+          "assertions": [
+            {
+              "text": "The response must state 'Analysis & Insights Development'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Employee Engagement Survey Reporting Timeline', which quarter is the 'People Action Plan Rollout' scheduled for?",
+          "answer": "Q1 2025",
+          "assertions": [
+            {
+              "text": "The response must state 'Q1 2025'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "scan_llm_0006_613876d7",
+      "figure_number": 9,
+      "image_path": "scan_llm_hand_47ff66e0.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "Figure 9: 2025 Engagement Results – Key Notes",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "2025 Engagement Results – Key Notes",
+        "lines": [
+          "Overall Engagement Score (2025): 78% (+5 pts vs 2024: 73%)",
+          " 1,483 employees)",
+          "Top 3 drivers (correlation >0.60):",
+          "- Trust in senior leadership (0.68)",
+          "- Career growth & internal mobility (0.64)",
+          "- Recognition for good work (0.62)",
+          "Biggest YoY lift: 'I see a future for myself here' +9 pts (71% → 80%)",
+          "Manager effectiveness improved to 82% favorable (+4)",
+          "Demographic gaps still visible:",
+          "- Frontline Ops: 72% (vs Corporate 83%) → 11 pt gap",
+          "- Employees <2 yrs tenure: 69% engagement",
+          "- Women in Tech: 74% vs overall Tech 81%",
+          "Remote staff slightly higher (80%) than site-based (76%)",
+          "Attrition correlation: teams <70% engagement = 1.8x turnover",
+          "Priority focus (Q3–Q4 2025):",
+          "1) Career pathways – publish role maps by Sept 30",
+          "2) Quarterly recognition program – launch July (budget approved €45k)",
+          "3) Leadership visibility – monthly town halls + site visits",
+          "4) Frontline supervisor training – 2 cohorts by Nov",
+          "Target 2026 score: 82% overall, reduce group gaps to <5 pts",
+          "Check-in pulse survey scheduled Jan 2026"
+        ],
+        "style": "neat",
+        "has_signature": true,
+        "signature_name": "Elena Marquez",
+        "date": "18 June 2025",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Overall Engagement Score (2025): 78% (+5 pts vs 2024: 73%)"
+        ],
+        [
+          " 1,483 employees)"
+        ],
+        [
+          "Top 3 drivers (correlation >0.60):"
+        ],
+        [
+          "- Trust in senior leadership (0.68)"
+        ],
+        [
+          "- Career growth & internal mobility (0.64)"
+        ],
+        [
+          "- Recognition for good work (0.62)"
+        ],
+        [
+          "Biggest YoY lift: 'I see a future for myself here' +9 pts (71% → 80%)"
+        ],
+        [
+          "Manager effectiveness improved to 82% favorable (+4)"
+        ],
+        [
+          "Demographic gaps still visible:"
+        ],
+        [
+          "- Frontline Ops: 72% (vs Corporate 83%) → 11 pt gap"
+        ],
+        [
+          "- Employees <2 yrs tenure: 69% engagement"
+        ],
+        [
+          "- Women in Tech: 74% vs overall Tech 81%"
+        ],
+        [
+          "Remote staff slightly higher (80%) than site-based (76%)"
+        ],
+        [
+          "Attrition correlation: teams <70% engagement = 1.8x turnover"
+        ],
+        [
+          "Priority focus (Q3–Q4 2025):"
+        ],
+        [
+          "1) Career pathways – publish role maps by Sept 30"
+        ],
+        [
+          "2) Quarterly recognition program – launch July (budget approved €45k)"
+        ],
+        [
+          "3) Leadership visibility – monthly town halls + site visits"
+        ],
+        [
+          "4) Frontline supervisor training – 2 cohorts by Nov"
+        ],
+        [
+          "Target 2026 score: 82% overall, reduce group gaps to <5 pts"
+        ],
+        [
+          "Check-in pulse survey scheduled Jan 2026"
+        ]
+      ],
+      "line_count": 21,
+      "hw_style": "neat",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "According to \"2025 Engagement Results – Key Notes\", what was the overall engagement score in 2025 and how did it change compared to 2024?",
+          "answer": "78%, up 5 points from 73% in 2024.",
+          "assertions": [
+            {
+              "text": "The response must state '78%, up 5 points from 73% in 2024.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"2025 Engagement Results – Key Notes\", how many employees responded to the survey and what was the response rate?",
+          "answer": "1,246 employees responded, an 84% response rate (out of 1,483).",
+          "assertions": [
+            {
+              "text": "The response must state '1,246 employees responded, an 84% response rate (out of 1,483).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Results – Key Notes\", what are the top three drivers with correlations above 0.60 and their correlation values?",
+          "answer": "Trust in senior leadership (0.68); Career growth & internal mobility (0.64); Recognition for good work (0.62).",
+          "assertions": [
+            {
+              "text": "The response must state 'Trust in senior leadership (0.68); Career growth & internal mobility (0.64); Recognition for good work (0.62).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document \"2025 Engagement Results – Key Notes\", did manager effectiveness improve and what is the reported favorable percentage?",
+          "answer": "Yes — manager effectiveness improved to 82% favorable (up 4 points).",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — manager effectiveness improved to 82% favorable (up 4 points).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Results – Key Notes\", which demographic shows an 11-point gap versus Corporate and what are the two scores?",
+          "answer": "Frontline Ops: 72% versus Corporate 83%, an 11-point gap.",
+          "assertions": [
+            {
+              "text": "The response must state 'Frontline Ops: 72% versus Corporate 83%, an 11-point gap.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "image",
+      "variant_id": "dash_0000_972f8024",
+      "figure_number": 10,
+      "image_path": "dash_0000_972f8024.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 10: Dashboard: 2026 Employee Engagement Overview",
+      "title": "2026 Employee Engagement Overview",
+      "theme": "burgundy_legal",
+      "subtitle": "Engagement Score, Drivers & Workforce Insights",
+      "period_badge": "FY 2026",
+      "kpis": [
+        {
+          "label": "Overall Engagement Score",
+          "value": "78%",
+          "delta": "+4%",
+          "trend": "up",
+          "sparkline": [
+            70,
+            72,
+            74,
+            76,
+            78
+          ]
+        },
+        {
+          "label": "Participation Rate",
+          "value": "86%",
+          "delta": "+3%",
+          "trend": "up",
+          "sparkline": [
+            80,
+            82,
+            83,
+            85,
+            86
+          ]
+        },
+        {
+          "label": "Favourable Leadership Index",
+          "value": "74%",
+          "delta": "+2%",
+          "trend": "up",
+          "sparkline": [
+            68,
+            70,
+            71,
+            73,
+            74
+          ]
+        },
+        {
+          "label": "Intent to Stay (12m)",
+          "value": "81%",
+          "delta": "-1%",
+          "trend": "down",
+          "sparkline": [
+            84,
+            83,
+            82,
+            82,
+            81
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Engagement by Department",
+        "labels": [
+          "Sales",
+          "Operations",
+          "Technology",
+          "HR"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              75,
+              80,
+              83,
+              78
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              72,
+              77,
+              79,
+              76
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Technology shows highest engagement at 83%, +4pts YoY",
+        "Intent to Stay declined slightly despite overall engagement gains",
+        "Action Plan: Prioritise manager capability, career growth pathways, and workload balance initiatives"
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the '2026 Employee Engagement Overview', what value is shown for the Overall Engagement Score KPI?",
+          "answer": "78%",
+          "assertions": [
+            {
+              "text": "The response must state '78%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the '2026 Employee Engagement Overview', what is the subtitle shown beneath the title?",
+          "answer": "Engagement Score, Drivers & Workforce Insights",
+          "assertions": [
+            {
+              "text": "The response must state 'Engagement Score, Drivers & Workforce Insights'."
+            }
+          ]
+        },
+        {
+          "question": "In the '2026 Employee Engagement Overview', what does the Action Plan callout recommend prioritising?",
+          "answer": "Action Plan: Prioritise manager capability, career growth pathways, and workload balance initiatives",
+          "assertions": [
+            {
+              "text": "The response must state 'Action Plan: Prioritise manager capability, career growth pathways, and workload balance initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "image",
+      "variant_id": "scan_llm_0007_12c30346",
+      "figure_number": 11,
+      "image_path": "scan_llm_stam_97b7de60.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 11: Employee Engagement Results Validation & Action Plan Sign-Off Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Employee Engagement Results Validation & Action Plan Sign-Off Form",
+        "form_fields": [
+          {
+            "label": "Overall Engagement Score (2025)",
+            "value": "78% favorable (+5 pts vs 2024)"
+          },
+          {
+            "label": "Top Engagement Drivers",
+            "value": "Trust in Leadership; Career Development Opportunities; Manager Feedback Quality"
+          },
+          {
+            "label": "Lowest Scoring Demographic Group",
+            "value": "Early Career Employees (0–2 years tenure) – 69% favorable"
+          },
+          {
+            "label": "Highest Scoring Demographic Group",
+            "value": "Senior Managers – 86% favorable"
+          },
+          {
+            "label": "Largest Gap Identified",
+            "value": "17-point gap between Early Career and Senior Managers"
+          },
+          {
+            "label": "Year-on-Year Improvement Areas",
+            "value": "Recognition (+8 pts), Hybrid Work Enablement (+6 pts)"
+          },
+          {
+            "label": "Priority Action Plan Timeline",
+            "value": "July 2025 – March 2026 (3 phased interventions)"
+          },
+          {
+            "label": "Target Engagement Score for 2026",
+            "value": "82% overall; reduce demographic gap to <8 pts"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Data validated against survey provider dashboard (PeakPulse Analytics)",
+            "checked": true
+          },
+          {
+            "text": "Demographic breakdown reviewed by HR Business Partners",
+            "checked": true
+          },
+          {
+            "text": "Top three drivers statistically tested for impact strength",
+            "checked": true
+          },
+          {
+            "text": "Action plan owners assigned for each initiative",
+            "checked": true
+          },
+          {
+            "text": "Budget allocation confirmed for FY2025 initiatives",
+            "checked": false
+          },
+          {
+            "text": "Quarterly progress review cadence scheduled",
+            "checked": true
+          },
+          {
+            "text": "Communication plan drafted for all employees",
+            "checked": false
+          }
+        ],
+        "stamps": [
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          },
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          }
+        ],
+        "inspector": "Danielle R. Okafor, Director of People & Culture",
+        "reference": "ENG-2025-4471",
+        "date": "18 June 2025",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Overall Engagement Score (2025)",
+          "78% favorable (+5 pts vs 2024)"
+        ],
+        [
+          "Top Engagement Drivers",
+          "Trust in Leadership; Career Development Opportunities; Manager Feedback Quality"
+        ],
+        [
+          "Lowest Scoring Demographic Group",
+          "Early Career Employees (0–2 years tenure) – 69% favorable"
+        ],
+        [
+          "Highest Scoring Demographic Group",
+          "Senior Managers – 86% favorable"
+        ],
+        [
+          "Largest Gap Identified",
+          "17-point gap between Early Career and Senior Managers"
+        ],
+        [
+          "Year-on-Year Improvement Areas",
+          "Recognition (+8 pts), Hybrid Work Enablement (+6 pts)"
+        ],
+        [
+          "Priority Action Plan Timeline",
+          "July 2025 – March 2026 (3 phased interventions)"
+        ],
+        [
+          "Target Engagement Score for 2026",
+          "82% overall; reduce demographic gap to <8 pts"
+        ]
+      ],
+      "stamps": [
+        "REVIEWED",
+        "CONFIDENTIAL"
+      ],
+      "inspector": "Danielle R. Okafor, Director of People & Culture",
+      "reference": "ENG-2025-4471",
+      "checked_items": [
+        {
+          "text": "Data validated against survey provider dashboard (PeakPulse Analytics)",
+          "checked": true
+        },
+        {
+          "text": "Demographic breakdown reviewed by HR Business Partners",
+          "checked": true
+        },
+        {
+          "text": "Top three drivers statistically tested for impact strength",
+          "checked": true
+        },
+        {
+          "text": "Action plan owners assigned for each initiative",
+          "checked": true
+        },
+        {
+          "text": "Quarterly progress review cadence scheduled",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", who is listed as the inspector and what is their role?",
+          "answer": "Danielle R. Okafor, Director of People & Culture.",
+          "assertions": [
+            {
+              "text": "The response must state 'Danielle R. Okafor, Director of People & Culture.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", what is the Overall Engagement Score for 2025 and how many points did it change versus 2024?",
+          "answer": "78% favorable, +5 points vs 2024.",
+          "assertions": [
+            {
+              "text": "The response must state '78% favorable, +5 points vs 2024.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", what are the top engagement drivers identified?",
+          "answer": "Trust in Leadership; Career Development Opportunities; Manager Feedback Quality.",
+          "assertions": [
+            {
+              "text": "The response must state 'Trust in Leadership; Career Development Opportunities; Manager Feedback Quality.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", which checklist items are marked unchecked?",
+          "answer": "Budget allocation confirmed for FY2025 initiatives; Communication plan drafted for all employees.",
+          "assertions": [
+            {
+              "text": "The response must state 'Budget allocation confirmed for FY2025 initiatives; Communication plan drafted for all employees.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", how many checklist items are marked as checked?",
+          "answer": "Five items are marked checked.",
+          "assertions": [
+            {
+              "text": "The response must state 'Five items are marked checked.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "dash_0003_4b4d98b6",
+      "figure_number": 12,
+      "image_path": "dash_0003_4b4d98b6.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 12: Dashboard: 2025 Employee Engagement Overview",
+      "title": "2025 Employee Engagement Overview",
+      "theme": "healthcare_teal",
+      "subtitle": "Engagement Score, Drivers & Workforce Insights",
+      "period_badge": "FY 2025",
+      "kpis": [
+        {
+          "label": "Overall Engagement Score",
+          "value": "78%",
+          "delta": "+4%",
+          "trend": "up",
+          "sparkline": [
+            70,
+            72,
+            74,
+            75,
+            78
+          ]
+        },
+        {
+          "label": "Favourable Leadership Index",
+          "value": "81%",
+          "delta": "+3%",
+          "trend": "up",
+          "sparkline": [
+            74,
+            76,
+            78,
+            79,
+            81
+          ]
+        },
+        {
+          "label": "Career Growth Satisfaction",
+          "value": "69%",
+          "delta": "-2%",
+          "trend": "down",
+          "sparkline": [
+            73,
+            72,
+            71,
+            70,
+            69
+          ]
+        },
+        {
+          "label": "Employee Participation Rate",
+          "value": "92%",
+          "delta": "+5%",
+          "trend": "up",
+          "sparkline": [
+            82,
+            85,
+            88,
+            90,
+            92
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Engagement Score by Department",
+        "labels": [
+          "Sales",
+          "Operations",
+          "Technology",
+          "HR"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              75,
+              72,
+              83,
+              88
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              71,
+              70,
+              79,
+              84
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Technology and HR show strongest year-on-year improvement",
+        "Career growth is the lowest scoring driver requiring prioritised action",
+        "Participation rate reached record high, increasing data reliability"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the '2025 Employee Engagement Overview', what is the subtitle shown on the dashboard?",
+          "answer": "Engagement Score, Drivers & Workforce Insights",
+          "assertions": [
+            {
+              "text": "The response must state 'Engagement Score, Drivers & Workforce Insights'."
+            }
+          ]
+        },
+        {
+          "question": "According to the '2025 Employee Engagement Overview', what value is listed for Career Growth Satisfaction?",
+          "answer": "69%",
+          "assertions": [
+            {
+              "text": "The response must state '69%'."
+            }
+          ]
+        },
+        {
+          "question": "On the '2025 Employee Engagement Overview', which callout notes that the participation rate reached a record high?",
+          "answer": "Participation rate reached record high, increasing data reliability",
+          "assertions": [
+            {
+              "text": "The response must state 'Participation rate reached record high, increasing data reliability'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "scan_llm_0013_0f49b820",
+      "figure_number": 13,
+      "image_path": "scan_llm_data_80301169.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 13: 2025 Engagement Drivers and Demographic Gaps",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "2025 Engagement Drivers and Demographic Gaps",
+        "caption": "Comparison of 2025 engagement scores by key driver and demographic segment, with year-on-year change and prioritisation.",
+        "headers": [
+          "Driver",
+          "2024 Score",
+          "2025 Score",
+          "YoY Change",
+          "Priority"
+        ],
+        "rows": [
+          [
+            "Overall Engagement",
+            "68%",
+            "74%",
+            "+6 pts",
+            "—"
+          ],
+          [
+            "Leadership Trust",
+            "64%",
+            "71%",
+            "+7 pts",
+            "High"
+          ],
+          [
+            "Career Growth",
+            "59%",
+            "66%",
+            "+7 pts",
+            "High"
+          ],
+          [
+            "Recognition",
+            "62%",
+            "69%",
+            "+7 pts",
+            "Medium"
+          ],
+          [
+            "Manager Effectiveness",
+            "70%",
+            "75%",
+            "+5 pts",
+            "Medium"
+          ],
+          [
+            "Early Career (0–2 yrs)",
+            "61%",
+            "67%",
+            "+6 pts",
+            "High"
+          ],
+          [
+            "Mid Career (3–7 yrs)",
+            "69%",
+            "76%",
+            "+7 pts",
+            "Low"
+          ],
+          [
+            "Senior Tenure (8+ yrs)",
+            "72%",
+            "78%",
+            "+6 pts",
+            "Low"
+          ],
+          [
+            "Operations Division",
+            "63%",
+            "70%",
+            "+7 pts",
+            "High"
+          ],
+          [
+            "Corporate Functions",
+            "71%",
+            "77%",
+            "+6 pts",
+            "Low"
+          ],
+          [
+            "Remote Employees",
+            "66%",
+            "72%",
+            "+6 pts",
+            "Medium"
+          ],
+          [
+            "On-site Employees",
+            "70%",
+            "76%",
+            "+6 pts",
+            "Low"
+          ]
+        ],
+        "summary_note": "Engagement increased across all drivers and segments in 2025, with the largest improvement in Leadership Trust and Career Growth. Gaps remain most pronounced among early career employees and Operations, guiding the high-priority focus areas for the 2026 people plan.",
+        "date": "Q1 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Driver",
+        "2024 Score",
+        "2025 Score",
+        "YoY Change",
+        "Priority"
+      ],
+      "cells": [
+        [
+          "Overall Engagement",
+          "68%",
+          "74%",
+          "+6 pts",
+          "—"
+        ],
+        [
+          "Leadership Trust",
+          "64%",
+          "71%",
+          "+7 pts",
+          "High"
+        ],
+        [
+          "Career Growth",
+          "59%",
+          "66%",
+          "+7 pts",
+          "High"
+        ],
+        [
+          "Recognition",
+          "62%",
+          "69%",
+          "+7 pts",
+          "Medium"
+        ],
+        [
+          "Manager Effectiveness",
+          "70%",
+          "75%",
+          "+5 pts",
+          "Medium"
+        ],
+        [
+          "Early Career (0–2 yrs)",
+          "61%",
+          "67%",
+          "+6 pts",
+          "High"
+        ],
+        [
+          "Mid Career (3–7 yrs)",
+          "69%",
+          "76%",
+          "+7 pts",
+          "Low"
+        ],
+        [
+          "Senior Tenure (8+ yrs)",
+          "72%",
+          "78%",
+          "+6 pts",
+          "Low"
+        ],
+        [
+          "Operations Division",
+          "63%",
+          "70%",
+          "+7 pts",
+          "High"
+        ],
+        [
+          "Corporate Functions",
+          "71%",
+          "77%",
+          "+6 pts",
+          "Low"
+        ],
+        [
+          "Remote Employees",
+          "66%",
+          "72%",
+          "+6 pts",
+          "Medium"
+        ],
+        [
+          "On-site Employees",
+          "70%",
+          "76%",
+          "+6 pts",
+          "Low"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Engagement increased across all drivers and segments in 2025, with the largest improvement in Leadership Trust and Career Growth. Gaps remain most pronounced among early career employees and Operations, guiding the high-priority focus areas for the 2026 people plan.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"2025 Engagement Drivers and Demographic Gaps\", what was the 2025 Score for Overall Engagement?",
+          "answer": "74%.",
+          "assertions": [
+            {
+              "text": "The response must state '74%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Drivers and Demographic Gaps\", how many rows are in the table (total)?",
+          "answer": "12 rows total.",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows total.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"2025 Engagement Drivers and Demographic Gaps\", what YoY Change is listed for Leadership Trust?",
+          "answer": "+7 pts.",
+          "assertions": [
+            {
+              "text": "The response must state '+7 pts.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Drivers and Demographic Gaps\", did engagement increase across all drivers and segments in 2025?",
+          "answer": "Yes — engagement increased across all drivers and segments.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — engagement increased across all drivers and segments.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"2025 Engagement Drivers and Demographic Gaps\", which groups are noted as having the most pronounced gaps guiding high-priority focus areas for 2026?",
+          "answer": "Early career employees and Operations.",
+          "assertions": [
+            {
+              "text": "The response must state 'Early career employees and Operations.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "image",
+      "variant_id": "proc_0001_5932a388",
+      "figure_number": 14,
+      "image_path": "proc_0001_5932a388.png",
+      "subtype": "process_steps",
+      "caption": "Figure 14: Process: Employee Engagement Reporting Workflow",
+      "title": "Employee Engagement Reporting Workflow",
+      "theme": "emerald_finance",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Data Preparation & Validation",
+          "duration": "2 days"
+        },
+        {
+          "number": "02",
+          "title": "Overall Score Calculation",
+          "duration": "1 day"
+        },
+        {
+          "number": "03",
+          "title": "Driver & Demographic Analysis",
+          "duration": "3 days"
+        },
+        {
+          "number": "04",
+          "title": "Year-on-Year Trend Review",
+          "duration": "2 days"
+        },
+        {
+          "number": "05",
+          "title": "Prioritised Action Planning",
+          "duration": "3 days"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many steps are displayed in the 'Employee Engagement Reporting Workflow' process diagram?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Employee Engagement Reporting Workflow', what is the title of the first step (01)?",
+          "answer": "Data Preparation & Validation",
+          "assertions": [
+            {
+              "text": "The response must state 'Data Preparation & Validation'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Employee Engagement Reporting Workflow', what duration is listed for the 'Driver & Demographic Analysis' step?",
+          "answer": "3 days",
+          "assertions": [
+            {
+              "text": "The response must state '3 days'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "image",
+      "variant_id": "scan_llm_0014_b88d52be",
+      "figure_number": 15,
+      "image_path": "scan_llm_hand_ca036680.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "Figure 15: 2025 Engagement Survey — Summary & Actions",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "2025 Engagement Survey — Summary & Actions",
+        "lines": [
+          "Overall Engagement Score 2025: 78% (↑ from 72% in 2024, +6 pts)",
+          " 1,328 employees)",
+          "",
+          "Top Drivers (correlation >0.60):",
+          "• Confidence in senior leadership (r=0.68)",
+          "• Career growth & internal mobility (r=0.64)",
+          "• Recognition for good work (r=0.61)",
+          "",
+          "Biggest gaps by demographic:",
+          "• Early career (0–2 yrs tenure): 70% vs company avg 78% (-8)",
+          "• Operations division: 73% vs Corporate 82% (-9)",
+          "• Hybrid workers: 75% vs on-site 80% (-5)",
+          "",
+          "Year-on-year highlights:",
+          "• Leadership trust +9 pts (now 76%)",
+          "• Inclusion index +5 pts (now 81%)",
+          "• Workload sustainability only +1 pt (concern)",
+          "",
+          "Priority People Plan (Q3–Q4 2025):",
+          "1) Launch structured career pathways (Ops + Early career focus) by Sept",
+          "2) Quarterly recognition awards + peer-nom system (pilot in July)",
+          "3) Manager training on feedback & coaching (100% completion by Nov)",
+          "4) Pulse survey in Oct to track +3 pt uplift target in Ops",
+          "",
+          "Target: Close demographic gaps to ≤3 pts by Dec 2025"
+        ],
+        "style": "neat",
+        "has_signature": true,
+        "signature_name": "Elena Marquez",
+        "date": "18 June 2025",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Overall Engagement Score 2025: 78% (↑ from 72% in 2024, +6 pts)"
+        ],
+        [
+          " 1,328 employees)"
+        ],
+        [
+          ""
+        ],
+        [
+          "Top Drivers (correlation >0.60):"
+        ],
+        [
+          "• Confidence in senior leadership (r=0.68)"
+        ],
+        [
+          "• Career growth & internal mobility (r=0.64)"
+        ],
+        [
+          "• Recognition for good work (r=0.61)"
+        ],
+        [
+          ""
+        ],
+        [
+          "Biggest gaps by demographic:"
+        ],
+        [
+          "• Early career (0–2 yrs tenure): 70% vs company avg 78% (-8)"
+        ],
+        [
+          "• Operations division: 73% vs Corporate 82% (-9)"
+        ],
+        [
+          "• Hybrid workers: 75% vs on-site 80% (-5)"
+        ],
+        [
+          ""
+        ],
+        [
+          "Year-on-year highlights:"
+        ],
+        [
+          "• Leadership trust +9 pts (now 76%)"
+        ],
+        [
+          "• Inclusion index +5 pts (now 81%)"
+        ],
+        [
+          "• Workload sustainability only +1 pt (concern)"
+        ],
+        [
+          ""
+        ],
+        [
+          "Priority People Plan (Q3–Q4 2025):"
+        ],
+        [
+          "1) Launch structured career pathways (Ops + Early career focus) by Sept"
+        ],
+        [
+          "2) Quarterly recognition awards + peer-nom system (pilot in July)"
+        ],
+        [
+          "3) Manager training on feedback & coaching (100% completion by Nov)"
+        ],
+        [
+          "4) Pulse survey in Oct to track +3 pt uplift target in Ops"
+        ],
+        [
+          ""
+        ],
+        [
+          "Target: Close demographic gaps to ≤3 pts by Dec 2025"
+        ]
+      ],
+      "line_count": 25,
+      "hw_style": "neat",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "According to \"2025 Engagement Survey — Summary & Actions\", what was the overall engagement score in 2025 and how did it change from 2024?",
+          "answer": "78%, up 6 points from 72% in 2024.",
+          "assertions": [
+            {
+              "text": "The response must state '78%, up 6 points from 72% in 2024.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Survey — Summary & Actions\", what was the participation rate and how many responses were received out of how many employees?",
+          "answer": "86% participation: 1,142 responses out of 1,328 employees.",
+          "assertions": [
+            {
+              "text": "The response must state '86% participation: 1,142 responses out of 1,328 employees.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Survey — Summary & Actions\", which top driver had the highest correlation and what was its correlation coefficient?",
+          "answer": "Confidence in senior leadership, r = 0.68.",
+          "assertions": [
+            {
+              "text": "The response must state 'Confidence in senior leadership, r = 0.68.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Survey — Summary & Actions\", who signed the document?",
+          "answer": "Elena Marquez.",
+          "assertions": [
+            {
+              "text": "The response must state 'Elena Marquez.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Survey — Summary & Actions\", which demographic showed the largest negative gap versus the company average and what was the gap?",
+          "answer": "Operations division, a -9 point gap (73% vs Corporate 82%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Operations division, a -9 point gap (73% vs Corporate 82%).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "image",
+      "variant_id": "dash_0002_e3f42a1d",
+      "figure_number": 16,
+      "image_path": "dash_0002_e3f42a1d.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 16: Dashboard: 2025 Employee Engagement Overview",
+      "title": "2025 Employee Engagement Overview",
+      "theme": "healthcare_teal",
+      "subtitle": "Engagement Score, Drivers & Workforce Insights",
+      "period_badge": "FY 2025",
+      "kpis": [
+        {
+          "label": "Overall Engagement Score",
+          "value": "78%",
+          "delta": "+4%",
+          "trend": "up",
+          "sparkline": [
+            70,
+            72,
+            74,
+            76,
+            78
+          ]
+        },
+        {
+          "label": "Favourable Leadership Rating",
+          "value": "81%",
+          "delta": "+3%",
+          "trend": "up",
+          "sparkline": [
+            75,
+            77,
+            78,
+            79,
+            81
+          ]
+        },
+        {
+          "label": "Voluntary Attrition",
+          "value": "12%",
+          "delta": "-2%",
+          "trend": "up",
+          "sparkline": [
+            16,
+            15,
+            14,
+            13,
+            12
+          ]
+        },
+        {
+          "label": "Participation Rate",
+          "value": "89%",
+          "delta": "+5%",
+          "trend": "up",
+          "sparkline": [
+            80,
+            82,
+            85,
+            87,
+            89
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Engagement Score by Department",
+        "labels": [
+          "Sales",
+          "Operations",
+          "Technology",
+          "HR"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              74,
+              80,
+              76,
+              85
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              70,
+              77,
+              73,
+              82
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Engagement increased across all departments, with HR highest at 85%.",
+        "Early-tenure employees (0-2 years) show lowest engagement relative to other groups.",
+        "Top priority: strengthen career development and manager effectiveness to sustain gains."
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the '2025 Employee Engagement Overview', what percentage is listed for the Overall Engagement Score?",
+          "answer": "78%",
+          "assertions": [
+            {
+              "text": "The response must state '78%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the '2025 Employee Engagement Overview', what subtitle appears under the title?",
+          "answer": "Engagement Score, Drivers & Workforce Insights",
+          "assertions": [
+            {
+              "text": "The response must state 'Engagement Score, Drivers & Workforce Insights'."
+            }
+          ]
+        },
+        {
+          "question": "On the '2025 Employee Engagement Overview', which employee group is called out as showing the lowest engagement?",
+          "answer": "Early-tenure employees (0-2 years)",
+          "assertions": [
+            {
+              "text": "The response must state 'Early-tenure employees (0-2 years)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "image",
+      "variant_id": "scan_llm_0011_64246559",
+      "figure_number": 17,
+      "image_path": "scan_llm_stam_30d694ae.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 17: 2025 Employee Engagement Results Certification Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "2025 Employee Engagement Results Certification Form",
+        "form_fields": [
+          {
+            "label": "Organisation",
+            "value": "Northbridge Financial Services Ltd."
+          },
+          {
+            "label": "Survey Cycle",
+            "value": "FY2025 Annual Engagement Survey"
+          },
+          {
+            "label": "Overall Engagement Score",
+            "value": "78% favorable (+6 pts vs 2024)"
+          },
+          {
+            "label": "Top Engagement Drivers",
+            "value": "Manager Effectiveness (84%), Career Growth Opportunities (72%), Recognition (76%)"
+          },
+          {
+            "label": "Largest Demographic Gap Identified",
+            "value": "Frontline Operations vs Corporate Functions: -9 pts (71% vs 80%)"
+          },
+          {
+            "label": "Additional Gap Noted",
+            "value": "Employees <2 Years Tenure vs 5+ Years: -7 pts"
+          },
+          {
+            "label": "Year-on-Year Participation Rate",
+            "value": "89% (up from 83% in 2024)"
+          },
+          {
+            "label": "People Action Plan Timeframe",
+            "value": "July 2025 – March 2026 (9 months)"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Overall engagement improvement validated against 2024 baseline",
+            "checked": true
+          },
+          {
+            "text": "Key driver analysis statistically tested (p < 0.05)",
+            "checked": true
+          },
+          {
+            "text": "Demographic breakdown reviewed for gender, tenure, function, and location",
+            "checked": true
+          },
+          {
+            "text": "Action plan includes measurable KPIs for each driver",
+            "checked": true
+          },
+          {
+            "text": "Quarterly pulse surveys scheduled to track progress",
+            "checked": true
+          },
+          {
+            "text": "Budget approval secured for manager capability workshops",
+            "checked": false
+          },
+          {
+            "text": "Communication plan issued to all employees",
+            "checked": false
+          }
+        ],
+        "stamps": [
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          },
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          }
+        ],
+        "inspector": "Marissa L. Ortega, Head of People Analytics",
+        "reference": "ENG-2025-NSF-4472",
+        "date": "18 June 2025",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Organisation",
+          "Northbridge Financial Services Ltd."
+        ],
+        [
+          "Survey Cycle",
+          "FY2025 Annual Engagement Survey"
+        ],
+        [
+          "Overall Engagement Score",
+          "78% favorable (+6 pts vs 2024)"
+        ],
+        [
+          "Top Engagement Drivers",
+          "Manager Effectiveness (84%), Career Growth Opportunities (72%), Recognition (76%)"
+        ],
+        [
+          "Largest Demographic Gap Identified",
+          "Frontline Operations vs Corporate Functions: -9 pts (71% vs 80%)"
+        ],
+        [
+          "Additional Gap Noted",
+          "Employees <2 Years Tenure vs 5+ Years: -7 pts"
+        ],
+        [
+          "Year-on-Year Participation Rate",
+          "89% (up from 83% in 2024)"
+        ],
+        [
+          "People Action Plan Timeframe",
+          "July 2025 – March 2026 (9 months)"
+        ]
+      ],
+      "stamps": [
+        "REVIEWED",
+        "CONFIDENTIAL"
+      ],
+      "inspector": "Marissa L. Ortega, Head of People Analytics",
+      "reference": "ENG-2025-NSF-4472",
+      "checked_items": [
+        {
+          "text": "Overall engagement improvement validated against 2024 baseline",
+          "checked": true
+        },
+        {
+          "text": "Key driver analysis statistically tested (p < 0.05)",
+          "checked": true
+        },
+        {
+          "text": "Demographic breakdown reviewed for gender, tenure, function, and location",
+          "checked": true
+        },
+        {
+          "text": "Action plan includes measurable KPIs for each driver",
+          "checked": true
+        },
+        {
+          "text": "Quarterly pulse surveys scheduled to track progress",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled 2025 Employee Engagement Results Certification Form, who is listed as the inspector?",
+          "answer": "Marissa L. Ortega, Head of People Analytics.",
+          "assertions": [
+            {
+              "text": "The response must state 'Marissa L. Ortega, Head of People Analytics.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to 2025 Employee Engagement Results Certification Form, how many stamps appear on the page and what are they?",
+          "answer": "Two stamps: REVIEWED and CONFIDENTIAL.",
+          "assertions": [
+            {
+              "text": "The response must state 'Two stamps: REVIEWED and CONFIDENTIAL.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled 2025 Employee Engagement Results Certification Form, what is the overall engagement score and the change versus 2024?",
+          "answer": "78% favorable (+6 pts vs 2024).",
+          "assertions": [
+            {
+              "text": "The response must state '78% favorable (+6 pts vs 2024).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to 2025 Employee Engagement Results Certification Form, is budget approval secured for manager capability workshops?",
+          "answer": "No; the budget approval for manager capability workshops is unchecked.",
+          "assertions": [
+            {
+              "text": "The response must state 'No; the budget approval for manager capability workshops is unchecked.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled 2025 Employee Engagement Results Certification Form, what is the People Action Plan timeframe and its duration?",
+          "answer": "July 2025 – March 2026 (9 months).",
+          "assertions": [
+            {
+              "text": "The response must state 'July 2025 – March 2026 (9 months).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "proc_0002_ff989040",
+      "figure_number": 18,
+      "image_path": "proc_0002_ff989040.png",
+      "subtype": "process_steps",
+      "caption": "Figure 18: Process: Employee Engagement Report Workflow",
+      "title": "Employee Engagement Report Workflow",
+      "theme": "warm_amber",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Data Collection & Validation",
+          "duration": "2 days"
+        },
+        {
+          "number": "02",
+          "title": "Overall Score Calculation",
+          "duration": "1 day"
+        },
+        {
+          "number": "03",
+          "title": "Key Driver & Demographic Analysis",
+          "duration": "3 days"
+        },
+        {
+          "number": "04",
+          "title": "Trend & Insight Synthesis",
+          "duration": "2 days"
+        },
+        {
+          "number": "05",
+          "title": "Prioritised Action Planning",
+          "duration": "1 wk"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many steps are shown in the 'Employee Engagement Report Workflow' process diagram?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Employee Engagement Report Workflow', what is the title of step 03?",
+          "answer": "Key Driver & Demographic Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Key Driver & Demographic Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Employee Engagement Report Workflow', what is the duration listed for the final step?",
+          "answer": "1 wk",
+          "assertions": [
+            {
+              "text": "The response must state '1 wk'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "image",
+      "variant_id": "scan_llm_0005_dc98acc3",
+      "figure_number": 19,
+      "image_path": "scan_llm_data_b6d292b4.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 19: 2025 Engagement Score by Demographic Segment",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "2025 Engagement Score by Demographic Segment",
+        "caption": "Table summarising overall engagement results for 2025 by demographic group, including year-on-year movement and variance to company average.",
+        "headers": [
+          "Segment",
+          "Headcount",
+          "2025 Score (%)",
+          "YoY Change (pts)",
+          "Gap vs Overall (pts)"
+        ],
+        "rows": [
+          [
+            "Company Overall",
+            "2,480",
+            "78",
+            "+5",
+            "0"
+          ],
+          [
+            "Senior Leaders",
+            "95",
+            "88",
+            "+4",
+            "+10"
+          ],
+          [
+            "People Managers",
+            "420",
+            "83",
+            "+6",
+            "+5"
+          ],
+          [
+            "Individual Contributors",
+            "1,965",
+            "76",
+            "+5",
+            "-2"
+          ],
+          [
+            "Operations Division",
+            "1,050",
+            "74",
+            "+6",
+            "-4"
+          ],
+          [
+            "Commercial Division",
+            "620",
+            "81",
+            "+3",
+            "+3"
+          ],
+          [
+            "Technology Division",
+            "510",
+            "79",
+            "+7",
+            "+1"
+          ],
+          [
+            "Tenure <1 Year",
+            "310",
+            "71",
+            "+8",
+            "-7"
+          ],
+          [
+            "Tenure 1–3 Years",
+            "890",
+            "75",
+            "+6",
+            "-3"
+          ],
+          [
+            "Tenure 4+ Years",
+            "1,280",
+            "82",
+            "+3",
+            "+4"
+          ],
+          [
+            "Women",
+            "1,180",
+            "77",
+            "+5",
+            "-1"
+          ],
+          [
+            "Men",
+            "1,260",
+            "79",
+            "+4",
+            "+1"
+          ]
+        ],
+        "summary_note": "Engagement improved across all segments compared with 2024, with the largest gains among employees with less than one year of service. The most material gaps remain in Operations and early-tenure populations, representing priority focus areas for the 2025–2026 action plan.",
+        "date": "March 2025",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Segment",
+        "Headcount",
+        "2025 Score (%)",
+        "YoY Change (pts)",
+        "Gap vs Overall (pts)"
+      ],
+      "cells": [
+        [
+          "Company Overall",
+          "2,480",
+          "78",
+          "+5",
+          "0"
+        ],
+        [
+          "Senior Leaders",
+          "95",
+          "88",
+          "+4",
+          "+10"
+        ],
+        [
+          "People Managers",
+          "420",
+          "83",
+          "+6",
+          "+5"
+        ],
+        [
+          "Individual Contributors",
+          "1,965",
+          "76",
+          "+5",
+          "-2"
+        ],
+        [
+          "Operations Division",
+          "1,050",
+          "74",
+          "+6",
+          "-4"
+        ],
+        [
+          "Commercial Division",
+          "620",
+          "81",
+          "+3",
+          "+3"
+        ],
+        [
+          "Technology Division",
+          "510",
+          "79",
+          "+7",
+          "+1"
+        ],
+        [
+          "Tenure <1 Year",
+          "310",
+          "71",
+          "+8",
+          "-7"
+        ],
+        [
+          "Tenure 1–3 Years",
+          "890",
+          "75",
+          "+6",
+          "-3"
+        ],
+        [
+          "Tenure 4+ Years",
+          "1,280",
+          "82",
+          "+3",
+          "+4"
+        ],
+        [
+          "Women",
+          "1,180",
+          "77",
+          "+5",
+          "-1"
+        ],
+        [
+          "Men",
+          "1,260",
+          "79",
+          "+4",
+          "+1"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Engagement improved across all segments compared with 2024, with the largest gains among employees with less than one year of service. The most material gaps remain in Operations and early-tenure populations, representing priority focus areas for the 2025–2026 action plan.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"2025 Engagement Score by Demographic Segment\", what is the Company Overall 2025 Score (%)?",
+          "answer": "78%",
+          "assertions": [
+            {
+              "text": "The response must state '78%'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Score by Demographic Segment\", how many rows (total segments) are in the table?",
+          "answer": "12 rows",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"2025 Engagement Score by Demographic Segment\", what is the 'Gap vs Overall (pts)' for the Operations Division?",
+          "answer": "-4 pts",
+          "assertions": [
+            {
+              "text": "The response must state '-4 pts'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Engagement Score by Demographic Segment\", did engagement improve across all segments compared with 2024?",
+          "answer": "Yes — engagement improved across all segments compared with 2024.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — engagement improved across all segments compared with 2024.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned table titled \"2025 Engagement Score by Demographic Segment\", which segment has the highest 2025 Score (%) and what is that score?",
+          "answer": "Senior Leaders — 88%",
+          "assertions": [
+            {
+              "text": "The response must state 'Senior Leaders — 88%'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "image",
+      "variant_id": "tl_0002_1938d001",
+      "figure_number": 20,
+      "image_path": "tl_0002_1938d001.png",
+      "subtype": "timeline",
+      "caption": "Figure 20: Timeline: Employee Engagement Survey Reporting Roadmap",
+      "title": "Employee Engagement Survey Reporting Roadmap",
+      "theme": "midnight_dark",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Survey Design & Launch",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Data Collection & Validation",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "Analysis & Reporting",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Leadership Review & Prioritisation",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "Action Plan Rollout",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "What is the total number of milestones displayed on the 'Employee Engagement Survey Reporting Roadmap'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which milestone is currently active on the 'Employee Engagement Survey Reporting Roadmap'?",
+          "answer": "Analysis & Reporting",
+          "assertions": [
+            {
+              "text": "The response must state 'Analysis & Reporting'."
+            }
+          ]
+        },
+        {
+          "question": "What milestone is scheduled for Q4 2024 on the 'Employee Engagement Survey Reporting Roadmap'?",
+          "answer": "Leadership Review & Prioritisation",
+          "assertions": [
+            {
+              "text": "The response must state 'Leadership Review & Prioritisation'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "image",
+      "variant_id": "scan_llm_0015_7116034f",
+      "figure_number": 21,
+      "image_path": "scan_llm_stam_05885f62.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 21: 2025 Employee Engagement Results Certification & Action Plan Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "2025 Employee Engagement Results Certification & Action Plan Form",
+        "form_fields": [
+          {
+            "label": "Organisation",
+            "value": "Northbridge Digital Solutions Ltd."
+          },
+          {
+            "label": "Survey Cycle",
+            "value": "Annual Engagement Survey – March 2025"
+          },
+          {
+            "label": "Overall Engagement Score (2025)",
+            "value": "78% favourable"
+          },
+          {
+            "label": "Overall Engagement Score (2024)",
+            "value": "72% favourable"
+          },
+          {
+            "label": "Top Engagement Drivers Identified",
+            "value": "Trust in Leadership; Career Development Opportunities; Recognition & Appreciation; Workload Manageability"
+          },
+          {
+            "label": "Largest Demographic Gap",
+            "value": "Frontline Operations (71%) vs Corporate Functions (83%) – 12-point gap"
+          },
+          {
+            "label": "Priority Action Plan Timeline",
+            "value": "July 2025 – March 2026 (3 phased milestones)"
+          },
+          {
+            "label": "Target Engagement Score for 2026",
+            "value": "82% favourable"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Year-on-year trend analysis completed and validated",
+            "checked": true
+          },
+          {
+            "text": "Driver regression analysis conducted to confirm top 4 impact areas",
+            "checked": true
+          },
+          {
+            "text": "Engagement results segmented by gender, tenure, level, and function",
+            "checked": true
+          },
+          {
+            "text": "Action owners assigned for each priority driver",
+            "checked": true
+          },
+          {
+            "text": "Budget approval secured for leadership development programme",
+            "checked": false
+          },
+          {
+            "text": "Quarterly pulse survey schedule established",
+            "checked": true
+          },
+          {
+            "text": "Frontline listening sessions completed",
+            "checked": false
+          },
+          {
+            "text": "Success metrics and KPIs defined for 2025–2026 action plan",
+            "checked": true
+          }
+        ],
+        "stamps": [
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          },
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          }
+        ],
+        "inspector": "Amelia R. Kovács, Head of People Analytics",
+        "reference": "EE-2025-APR-4179",
+        "date": "18 April 2025",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Organisation",
+          "Northbridge Digital Solutions Ltd."
+        ],
+        [
+          "Survey Cycle",
+          "Annual Engagement Survey – March 2025"
+        ],
+        [
+          "Overall Engagement Score (2025)",
+          "78% favourable"
+        ],
+        [
+          "Overall Engagement Score (2024)",
+          "72% favourable"
+        ],
+        [
+          "Top Engagement Drivers Identified",
+          "Trust in Leadership; Career Development Opportunities; Recognition & Appreciation; Workload Manageability"
+        ],
+        [
+          "Largest Demographic Gap",
+          "Frontline Operations (71%) vs Corporate Functions (83%) – 12-point gap"
+        ],
+        [
+          "Priority Action Plan Timeline",
+          "July 2025 – March 2026 (3 phased milestones)"
+        ],
+        [
+          "Target Engagement Score for 2026",
+          "82% favourable"
+        ]
+      ],
+      "stamps": [
+        "REVIEWED",
+        "CONFIDENTIAL"
+      ],
+      "inspector": "Amelia R. Kovács, Head of People Analytics",
+      "reference": "EE-2025-APR-4179",
+      "checked_items": [
+        {
+          "text": "Year-on-year trend analysis completed and validated",
+          "checked": true
+        },
+        {
+          "text": "Driver regression analysis conducted to confirm top 4 impact areas",
+          "checked": true
+        },
+        {
+          "text": "Engagement results segmented by gender, tenure, level, and function",
+          "checked": true
+        },
+        {
+          "text": "Action owners assigned for each priority driver",
+          "checked": true
+        },
+        {
+          "text": "Quarterly pulse survey schedule established",
+          "checked": true
+        },
+        {
+          "text": "Success metrics and KPIs defined for 2025–2026 action plan",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"2025 Employee Engagement Results Certification & Action Plan Form\", who is listed as the inspector and their role?",
+          "answer": "Amelia R. Kovács, Head of People Analytics.",
+          "assertions": [
+            {
+              "text": "The response must state 'Amelia R. Kovács, Head of People Analytics.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Employee Engagement Results Certification & Action Plan Form\", what is the Overall Engagement Score for 2025?",
+          "answer": "78% favourable.",
+          "assertions": [
+            {
+              "text": "The response must state '78% favourable.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Employee Engagement Results Certification & Action Plan Form\", how many top engagement drivers were identified?",
+          "answer": "Four.",
+          "assertions": [
+            {
+              "text": "The response must state 'Four.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Employee Engagement Results Certification & Action Plan Form\", has budget approval been secured for the leadership development programme?",
+          "answer": "No — it is marked unchecked (not secured).",
+          "assertions": [
+            {
+              "text": "The response must state 'No — it is marked unchecked (not secured).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"2025 Employee Engagement Results Certification & Action Plan Form\", what is the largest demographic gap reported and the point difference?",
+          "answer": "Frontline Operations (71%) vs Corporate Functions (83%) — 12-point gap.",
+          "assertions": [
+            {
+              "text": "The response must state 'Frontline Operations (71%) vs Corporate Functions (83%) — 12-point gap.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "image",
+      "variant_id": "scan_llm_0000_9e6ffc9b",
+      "figure_number": 22,
+      "image_path": "scan_llm_text_f8e8a2f6.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 22: 2025 Employee Engagement Survey – Results Summary and Action Priorities",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "2025 Employee Engagement Survey – Results Summary and Action Priorities",
+        "subtitle": "Ref: ENG-25-603 | Date: 18 February 2026 | From: People & Culture Analytics",
+        "sections": [
+          {
+            "heading": "Overall Engagement Score",
+            "body": "The 2025 overall engagement score increased to 78%, up from 72% in 2024, representing a six-point year-on-year improvement and the highest result recorded since 2021. Participation reached 89% of all employees (2,146 respondents), providing a statistically reliable data set across all divisions. Notable gains were observed in pride in organisation (+8 points) and intent to stay (+7 points). Despite this progress, variability between departments indicates uneven employee experience."
+          },
+          {
+            "heading": "Key Driver Analysis",
+            "body": "Regression analysis identified three primary engagement drivers for 2025: quality of line management, career development clarity, and workload sustainability. Line management effectiveness scored 74%, an increase of five points year-on-year, but remains the strongest predictor of engagement variance. Career development clarity improved modestly to 69%, while workload sustainability declined slightly to 64%, signalling pressure points in Operations and Client Delivery. Targeting these drivers is projected to yield the greatest uplift in overall engagement."
+          },
+          {
+            "heading": "Demographic Breakdown",
+            "body": "Engagement among employees with less than two years’ tenure stands at 70%, compared with 83% for those with five or more years of service, reflecting a 13-point gap. Managers reported 82% engagement versus 75% among individual contributors. Gender analysis shows 80% engagement among men and 76% among women, with qualitative comments highlighting perceived inconsistencies in development opportunities. Regional results vary, with the Northern Region at 81% compared to 73% in the Central Hub."
+          },
+          {
+            "heading": "Year-on-Year Trends",
+            "body": "Since 2022, overall engagement has risen from 69% to 78%, indicating steady recovery following restructuring activities. Trust in senior leadership has improved by 10 points over three years, now at 76%. However, perceptions of cross-functional collaboration have plateaued at 68% for the second consecutive year. Exit survey data corroborates survey findings, particularly around workload and progression transparency."
+          },
+          {
+            "heading": "Prioritised People Action Plan (Q2–Q4 2026)",
+            "body": "Action 1: Launch a structured Line Manager Excellence programme by July 2026, with mandatory coaching and quarterly effectiveness assessments. Action 2: Publish transparent career pathways and internal mobility criteria by September 2026, including role profiles and competency benchmarks. Action 3: Implement workload reviews in Operations and Client Delivery by August 2026, with targeted headcount adjustments where utilisation exceeds 85%. Progress will be tracked through quarterly pulse surveys, aiming to close identified demographic gaps by at least 5 points before the 2026 annual survey."
+          }
+        ],
+        "footer_note": "Confidential — Internal Use Only | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Overall Engagement Score",
+        "Key Driver Analysis",
+        "Demographic Breakdown",
+        "Year-on-Year Trends",
+        "Prioritised People Action Plan (Q2–Q4 2026)"
+      ],
+      "cells": [
+        {
+          "heading": "Overall Engagement Score",
+          "body": "The 2025 overall engagement score increased to 78%, up from 72% in 2024, representing a six-point year-on-year improvement and the highest result recorded since 2021. Participation reached 89% of all employees (2,146 respondents), providing a statistically reliable data set across all divisions. Notable gains were observed in pride in organisation (+8 points) and intent to stay (+7 points). Despite this progress, variability between departments indicates uneven employee experience."
+        },
+        {
+          "heading": "Key Driver Analysis",
+          "body": "Regression analysis identified three primary engagement drivers for 2025: quality of line management, career development clarity, and workload sustainability. Line management effectiveness scored 74%, an increase of five points year-on-year, but remains the strongest predictor of engagement variance. Career development clarity improved modestly to 69%, while workload sustainability declined slightly to 64%, signalling pressure points in Operations and Client Delivery. Targeting these drivers is projected to yield the greatest uplift in overall engagement."
+        },
+        {
+          "heading": "Demographic Breakdown",
+          "body": "Engagement among employees with less than two years’ tenure stands at 70%, compared with 83% for those with five or more years of service, reflecting a 13-point gap. Managers reported 82% engagement versus 75% among individual contributors. Gender analysis shows 80% engagement among men and 76% among women, with qualitative comments highlighting perceived inconsistencies in development opportunities. Regional results vary, with the Northern Region at 81% compared to 73% in the Central Hub."
+        },
+        {
+          "heading": "Year-on-Year Trends",
+          "body": "Since 2022, overall engagement has risen from 69% to 78%, indicating steady recovery following restructuring activities. Trust in senior leadership has improved by 10 points over three years, now at 76%. However, perceptions of cross-functional collaboration have plateaued at 68% for the second consecutive year. Exit survey data corroborates survey findings, particularly around workload and progression transparency."
+        },
+        {
+          "heading": "Prioritised People Action Plan (Q2–Q4 2026)",
+          "body": "Action 1: Launch a structured Line Manager Excellence programme by July 2026, with mandatory coaching and quarterly effectiveness assessments. Action 2: Publish transparent career pathways and internal mobility criteria by September 2026, including role profiles and competency benchmarks. Action 3: Implement workload reviews in Operations and Client Delivery by August 2026, with targeted headcount adjustments where utilisation exceeds 85%. Progress will be tracked through quarterly pulse surveys, aiming to close identified demographic gaps by at least 5 points before the 2026 annual survey."
+        }
+      ],
+      "full_text": "2025 Employee Engagement Survey – Results Summary and Action Priorities\nRef: ENG-25-603 | Date: 18 February 2026 | From: People & Culture Analytics\n\nSection Overall Engagement Score\nThe 2025 overall engagement score increased to 78%, up from 72% in 2024, representing a six-point year-on-year improvement and the highest result recorded since 2021. Participation reached 89% of all employees (2,146 respondents), providing a statistically reliable data set across all divisions. Notable gains were observed in pride in organisation (+8 points) and intent to stay (+7 points). Despite this progress, variability between departments indicates uneven employee experience.\n\nSection Key Driver Analysis\nRegression analysis identified three primary engagement drivers for 2025: quality of line management, career development clarity, and workload sustainability. Line management effectiveness scored 74%, an increase of five points year-on-year, but remains the strongest predictor of engagement variance. Career development clarity improved modestly to 69%, while workload sustainability declined slightly to 64%, signalling pressure points in Operations and Client Delivery. Targeting these drivers is projected to yield the greatest uplift in overall engagement.\n\nSection Demographic Breakdown\nEngagement among employees with less than two years’ tenure stands at 70%, compared with 83% for those with five or more years of service, reflecting a 13-point gap. Managers reported 82% engagement versus 75% among individual contributors. Gender analysis shows 80% engagement among men and 76% among women, with qualitative comments highlighting perceived inconsistencies in development opportunities. Regional results vary, with the Northern Region at 81% compared to 73% in the Central Hub.\n\nSection Year-on-Year Trends\nSince 2022, overall engagement has risen from 69% to 78%, indicating steady recovery following restructuring activities. Trust in senior leadership has improved by 10 points over three years, now at 76%. However, perceptions of cross-functional collaboration have plateaued at 68% for the second consecutive year. Exit survey data corroborates survey findings, particularly around workload and progression transparency.\n\nSection Prioritised People Action Plan (Q2–Q4 2026)\nAction 1: Launch a structured Line Manager Excellence programme by July 2026, with mandatory coaching and quarterly effectiveness assessments. Action 2: Publish transparent career pathways and internal mobility criteria by September 2026, including role profiles and competency benchmarks. Action 3: Implement workload reviews in Operations and Client Delivery by August 2026, with targeted headcount adjustments where utilisation exceeds 85%. Progress will be tracked through quarterly pulse surveys, aiming to close identified demographic gaps by at least 5 points before the 2026 annual survey.\n\nConfidential — Internal Use Only | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", what was the 2025 overall engagement score?",
+          "answer": "78%.",
+          "assertions": [
+            {
+              "text": "The response must state '78%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", how many primary engagement drivers were identified for 2025?",
+          "answer": "Three.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", name one of the three primary engagement drivers identified for 2025.",
+          "answer": "Quality of line management.",
+          "assertions": [
+            {
+              "text": "The response must state 'Quality of line management.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", what were the engagement percentages for employees with less than two years’ tenure and for those with five or more years of service?",
+          "answer": "Less than two years: 70%; Five or more years: 83%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Less than two years: 70%; Five or more years: 83%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", how has overall engagement changed since 2022 and what does this indicate?",
+          "answer": "It rose from 69% to 78% since 2022, indicating a steady recovery following restructuring activities.",
+          "assertions": [
+            {
+              "text": "The response must state 'It rose from 69% to 78% since 2022, indicating a steady recovery following restructuring activities.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "scan_llm_0003_0c7659ce": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_59a26cf9.png",
+      "topic_id": ""
+    },
+    "dash_0001_43d5b8cb": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "2026 Employee Engagement Overview",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0001_43d5b8cb.png",
+      "topic_id": ""
+    },
+    "scan_llm_0012_0e32fc8e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_d7783076.png",
+      "topic_id": ""
+    },
+    "text_0001_05afd8bf": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "abbreviations"
+      ],
+      "heading": "Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan",
+      "word_count": 258,
+      "text_type": "llm_prose",
+      "topic_id": "employee_engagement_survey"
+    },
+    "tl_0000_d44f1fe1": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Employee Engagement Survey Reporting Timeline",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0000_d44f1fe1.png",
+      "topic_id": ""
+    },
+    "text_0000_b67b9b12": {
+      "kind": "text",
+      "perturbations": [
+        "typos"
+      ],
+      "heading": "Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)",
+      "word_count": 213,
+      "text_type": "llm_prose",
+      "topic_id": "employee_engagement_survey"
+    },
+    "scan_llm_0009_d52e13ef": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_833dc53f.png",
+      "topic_id": ""
+    },
+    "proc_0000_06ea7029": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Employee Engagement Results Reporting",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "proc_0000_06ea7029.png",
+      "topic_id": ""
+    },
+    "scan_llm_0002_db2086a9": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_b6290247.png",
+      "topic_id": ""
+    },
+    "tl_0001_5069942a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Employee Engagement Survey Reporting Timeline",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0001_5069942a.png",
+      "topic_id": ""
+    },
+    "scan_llm_0006_613876d7": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_47ff66e0.png",
+      "topic_id": ""
+    },
+    "dash_0000_972f8024": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "2026 Employee Engagement Overview",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0000_972f8024.png",
+      "topic_id": ""
+    },
+    "scan_llm_0007_12c30346": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_97b7de60.png",
+      "topic_id": ""
+    },
+    "dash_0003_4b4d98b6": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "2025 Employee Engagement Overview",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0003_4b4d98b6.png",
+      "topic_id": ""
+    },
+    "scan_llm_0013_0f49b820": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_80301169.png",
+      "topic_id": ""
+    },
+    "proc_0001_5932a388": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Employee Engagement Reporting Workflow",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "proc_0001_5932a388.png",
+      "topic_id": ""
+    },
+    "scan_llm_0014_b88d52be": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_ca036680.png",
+      "topic_id": ""
+    },
+    "dash_0002_e3f42a1d": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "2025 Employee Engagement Overview",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0002_e3f42a1d.png",
+      "topic_id": ""
+    },
+    "scan_llm_0011_64246559": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_30d694ae.png",
+      "topic_id": ""
+    },
+    "proc_0002_ff989040": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Employee Engagement Report Workflow",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "proc_0002_ff989040.png",
+      "topic_id": ""
+    },
+    "scan_llm_0005_dc98acc3": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_b6d292b4.png",
+      "topic_id": ""
+    },
+    "tl_0002_1938d001": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Employee Engagement Survey Reporting Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0002_1938d001.png",
+      "topic_id": ""
+    },
+    "scan_llm_0015_7116034f": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_05885f62.png",
+      "topic_id": ""
+    },
+    "scan_llm_0000_9e6ffc9b": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_f8e8a2f6.png",
+      "topic_id": ""
+    },
+    "llm_mp_table_0001_27b5089a": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "time_series_performance_metrics",
+      "row_count": 79,
+      "col_count": 5,
+      "columns": [
+        "Year",
+        "Overall Engagement Score (%)",
+        "Response Rate (%)",
+        "eNPS",
+        "High Engagement (%)"
+      ],
+      "topic_id": ""
+    },
+    "cx_table_0003_786e4ec0": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 20,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "employee_engagement_survey"
+    },
+    "scan_llm_0010_d85c2cb5": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_6a68f4fa.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the scanned document titled \"Employee Engagement Results Certification Form\", who is listed as the inspector and their role?",
+      "answer": "Marisol Bennett, Director of People Analytics.",
+      "assertions": [
+        {
+          "text": "The response must state 'Marisol Bennett, Director of People Analytics.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Employee Engagement Results Certification Form\", how many employees responded to the survey?",
+      "answer": "1,842 respondents.",
+      "assertions": [
+        {
+          "text": "The response must state '1,842 respondents.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Employee Engagement Results Certification Form\", what is the overall engagement score and the year-over-year change?",
+      "answer": "78% favorable, up 5 points versus FY2024 (73%).",
+      "assertions": [
+        {
+          "text": "The response must state '78% favorable, up 5 points versus FY2024 (73%).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Employee Engagement Results Certification Form\", is the checkbox for 'Specific targets set to close Frontline vs Corporate gap by ≥5 pts' marked?",
+      "answer": "No — it is unchecked.",
+      "assertions": [
+        {
+          "text": "The response must state 'No — it is unchecked.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Employee Engagement Results Certification Form\", what are the top three engagement drivers and their point changes?",
+      "answer": "Trust in Leadership (+7 pts), Career Growth (+6 pts), Recognition (+5 pts).",
+      "assertions": [
+        {
+          "text": "The response must state 'Trust in Leadership (+7 pts), Career Growth (+6 pts), Recognition (+5 pts).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the '2026 Employee Engagement Overview', what value is shown for Workload Sustainability?",
+      "answer": "69%",
+      "assertions": [
+        {
+          "text": "The response must state '69%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the '2026 Employee Engagement Overview', what is the subtitle displayed under the title?",
+      "answer": "Engagement Score, Drivers & Workforce Insights",
+      "assertions": [
+        {
+          "text": "The response must state 'Engagement Score, Drivers & Workforce Insights'."
+        }
+      ]
+    },
+    {
+      "question": "On the '2026 Employee Engagement Overview', which period badge is displayed?",
+      "answer": "FY 2026",
+      "assertions": [
+        {
+          "text": "The response must state 'FY 2026'."
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", what was the survey response rate?",
+      "answer": "87%.",
+      "assertions": [
+        {
+          "text": "The response must state '87%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", how many employees did the responses represent?",
+      "answer": "3,842 employees.",
+      "assertions": [
+        {
+          "text": "The response must state '3,842 employees.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", which three primary engagement drivers were identified in the Key Driver Analysis?",
+      "answer": "Manager Effectiveness; Career Development Opportunities; and Workl.",
+      "assertions": [
+        {
+          "text": "The response must state 'Manager Effectiveness; Career Development Opportunities; and Workl.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", what were the engagement percentages for employees with less than two years’ tenure and for those with over five years’ service?",
+      "answer": "Less than two years: 70%; Over five years: 82%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Less than two years: 70%; Over five years: 82%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Survey – Results Overview and Action Priorities\", what is the year-on-year change in overall engagement since 2023?",
+      "answer": "Overall engagement rose from 69% to 78% since 2023.",
+      "assertions": [
+        {
+          "text": "The response must state 'Overall engagement rose from 69% to 78% since 2023.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan\" section, what correlation (r value) is reported for Manager Support?",
+      "answer": "r=0.62",
+      "assertions": [
+        {
+          "text": "The response must state r=0.62."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan\" section, what engagement score is reported for employees with tenure 5+ years?",
+      "answer": "100",
+      "assertions": [
+        {
+          "text": "100."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Key Driver Insights, Demographic Breakdowns, and Prioritised 90-Day People Action Plan\" section, what is the due date for the Career Pathways Framework initiative?",
+      "answer": "31 July 2025",
+      "assertions": [
+        {
+          "text": "The response must state 31 July 2025."
+        }
+      ]
+    },
+    {
+      "question": "How many milestones are displayed on the 'Employee Engagement Survey Reporting Timeline'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Which milestone is identified as current on the 'Employee Engagement Survey Reporting Timeline'?",
+      "answer": "Analysis & Reporting",
+      "assertions": [
+        {
+          "text": "The response must state 'Analysis & Reporting'."
+        }
+      ]
+    },
+    {
+      "question": "What milestone title is scheduled for Q4 2024 on the 'Employee Engagement Survey Reporting Timeline'?",
+      "answer": "Executive Review & Prioritisation",
+      "assertions": [
+        {
+          "text": "The response must state 'Executive Review & Prioritisation'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)\" section, what overall engagement score was achieved in 2025?",
+      "answer": "100",
+      "assertions": [
+        {
+          "text": "100."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)\" section, during what dates did the survey fieldwork run?",
+      "answer": "3 March 2025 to 17 March 2025",
+      "assertions": [
+        {
+          "text": "The response must state 3 March 2025 to 17 March 2025."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Engagement Snapshot and Year-on-Year Trend (2024–2025)\" section, what percentage is cited for the year-on-year improvement?",
+      "answer": "5.9% erlative improvement",
+      "assertions": [
+        {
+          "text": "The response must state 5.9% erlative improvement."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Results and Key Driver Gaps\", what was the 2025 Score (%) for the Overall Organisation?",
+      "answer": "78%",
+      "assertions": [
+        {
+          "text": "The response must state '78%'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Results and Key Driver Gaps\", how many rows are in the table?",
+      "answer": "12 rows",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Results and Key Driver Gaps\", what was the YoY Change (pp) for Frontline Employees?",
+      "answer": "+9 pp",
+      "assertions": [
+        {
+          "text": "The response must state '+9 pp'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Results and Key Driver Gaps\", did engagement improve across all segments in 2025?",
+      "answer": "Yes — engagement improved across all segments in 2025.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — engagement improved across all segments in 2025.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Results and Key Driver Gaps\", which segments are shown with a Priority Gap of '0'?",
+      "answer": "Frontline Employees and Operations",
+      "assertions": [
+        {
+          "text": "The response must state 'Frontline Employees and Operations'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "How many steps are shown in the 'Employee Engagement Results Reporting' workflow?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Employee Engagement Results Reporting' process diagram, what is the title of the first step?",
+      "answer": "Data Validation & Preparation",
+      "assertions": [
+        {
+          "text": "The response must state 'Data Validation & Preparation'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Employee Engagement Results Reporting' diagram, how long is the final step scheduled to take?",
+      "answer": "1 wk",
+      "assertions": [
+        {
+          "text": "The response must state '1 wk'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Survey – Key Points & Actions\", what was the overall engagement score for 2025 and how many points did it change versus 2024?",
+      "answer": "Overall engagement was 78%, up +6 points versus 2024 (72%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Overall engagement was 78%, up +6 points versus 2024 (72%).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Survey – Key Points & Actions\", how many employees responded to the survey?",
+      "answer": "1,246 employees responded.",
+      "assertions": [
+        {
+          "text": "The response must state '1,246 employees responded.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Survey – Key Points & Actions\", what are the top three drivers and their scores?",
+      "answer": "Trust in Leadership 81%, Career Growth 76%, Manager Support 83%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Trust in Leadership 81%, Career Growth 76%, Manager Support 83%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Survey – Key Points & Actions\", which item showed the biggest year-on-year lift and by how many points?",
+      "answer": "Confidence in Strategy showed the biggest lift, +9 points.",
+      "assertions": [
+        {
+          "text": "The response must state 'Confidence in Strategy showed the biggest lift, +9 points.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Survey – Key Points & Actions\", who signed the note?",
+      "answer": "Marissa K. Doyle.",
+      "assertions": [
+        {
+          "text": "The response must state 'Marissa K. Doyle.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "How many milestones are shown on the 'Employee Engagement Survey Reporting Timeline'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Employee Engagement Survey Reporting Timeline', what is the current milestone?",
+      "answer": "Analysis & Insights Development",
+      "assertions": [
+        {
+          "text": "The response must state 'Analysis & Insights Development'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Employee Engagement Survey Reporting Timeline', which quarter is the 'People Action Plan Rollout' scheduled for?",
+      "answer": "Q1 2025",
+      "assertions": [
+        {
+          "text": "The response must state 'Q1 2025'."
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Results – Key Notes\", what was the overall engagement score in 2025 and how did it change compared to 2024?",
+      "answer": "78%, up 5 points from 73% in 2024.",
+      "assertions": [
+        {
+          "text": "The response must state '78%, up 5 points from 73% in 2024.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"2025 Engagement Results – Key Notes\", how many employees responded to the survey and what was the response rate?",
+      "answer": "1,246 employees responded, an 84% response rate (out of 1,483).",
+      "assertions": [
+        {
+          "text": "The response must state '1,246 employees responded, an 84% response rate (out of 1,483).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Results – Key Notes\", what are the top three drivers with correlations above 0.60 and their correlation values?",
+      "answer": "Trust in senior leadership (0.68); Career growth & internal mobility (0.64); Recognition for good work (0.62).",
+      "assertions": [
+        {
+          "text": "The response must state 'Trust in senior leadership (0.68); Career growth & internal mobility (0.64); Recognition for good work (0.62).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document \"2025 Engagement Results – Key Notes\", did manager effectiveness improve and what is the reported favorable percentage?",
+      "answer": "Yes — manager effectiveness improved to 82% favorable (up 4 points).",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — manager effectiveness improved to 82% favorable (up 4 points).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Results – Key Notes\", which demographic shows an 11-point gap versus Corporate and what are the two scores?",
+      "answer": "Frontline Ops: 72% versus Corporate 83%, an 11-point gap.",
+      "assertions": [
+        {
+          "text": "The response must state 'Frontline Ops: 72% versus Corporate 83%, an 11-point gap.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "On the '2026 Employee Engagement Overview', what value is shown for the Overall Engagement Score KPI?",
+      "answer": "78%",
+      "assertions": [
+        {
+          "text": "The response must state '78%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the '2026 Employee Engagement Overview', what is the subtitle shown beneath the title?",
+      "answer": "Engagement Score, Drivers & Workforce Insights",
+      "assertions": [
+        {
+          "text": "The response must state 'Engagement Score, Drivers & Workforce Insights'."
+        }
+      ]
+    },
+    {
+      "question": "In the '2026 Employee Engagement Overview', what does the Action Plan callout recommend prioritising?",
+      "answer": "Action Plan: Prioritise manager capability, career growth pathways, and workload balance initiatives",
+      "assertions": [
+        {
+          "text": "The response must state 'Action Plan: Prioritise manager capability, career growth pathways, and workload balance initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", who is listed as the inspector and what is their role?",
+      "answer": "Danielle R. Okafor, Director of People & Culture.",
+      "assertions": [
+        {
+          "text": "The response must state 'Danielle R. Okafor, Director of People & Culture.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", what is the Overall Engagement Score for 2025 and how many points did it change versus 2024?",
+      "answer": "78% favorable, +5 points vs 2024.",
+      "assertions": [
+        {
+          "text": "The response must state '78% favorable, +5 points vs 2024.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", what are the top engagement drivers identified?",
+      "answer": "Trust in Leadership; Career Development Opportunities; Manager Feedback Quality.",
+      "assertions": [
+        {
+          "text": "The response must state 'Trust in Leadership; Career Development Opportunities; Manager Feedback Quality.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", which checklist items are marked unchecked?",
+      "answer": "Budget allocation confirmed for FY2025 initiatives; Communication plan drafted for all employees.",
+      "assertions": [
+        {
+          "text": "The response must state 'Budget allocation confirmed for FY2025 initiatives; Communication plan drafted for all employees.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Employee Engagement Results Validation & Action Plan Sign-Off Form\", how many checklist items are marked as checked?",
+      "answer": "Five items are marked checked.",
+      "assertions": [
+        {
+          "text": "The response must state 'Five items are marked checked.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the '2025 Employee Engagement Overview', what is the subtitle shown on the dashboard?",
+      "answer": "Engagement Score, Drivers & Workforce Insights",
+      "assertions": [
+        {
+          "text": "The response must state 'Engagement Score, Drivers & Workforce Insights'."
+        }
+      ]
+    },
+    {
+      "question": "According to the '2025 Employee Engagement Overview', what value is listed for Career Growth Satisfaction?",
+      "answer": "69%",
+      "assertions": [
+        {
+          "text": "The response must state '69%'."
+        }
+      ]
+    },
+    {
+      "question": "On the '2025 Employee Engagement Overview', which callout notes that the participation rate reached a record high?",
+      "answer": "Participation rate reached record high, increasing data reliability",
+      "assertions": [
+        {
+          "text": "The response must state 'Participation rate reached record high, increasing data reliability'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Drivers and Demographic Gaps\", what was the 2025 Score for Overall Engagement?",
+      "answer": "74%.",
+      "assertions": [
+        {
+          "text": "The response must state '74%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Drivers and Demographic Gaps\", how many rows are in the table (total)?",
+      "answer": "12 rows total.",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows total.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Drivers and Demographic Gaps\", what YoY Change is listed for Leadership Trust?",
+      "answer": "+7 pts.",
+      "assertions": [
+        {
+          "text": "The response must state '+7 pts.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Drivers and Demographic Gaps\", did engagement increase across all drivers and segments in 2025?",
+      "answer": "Yes — engagement increased across all drivers and segments.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — engagement increased across all drivers and segments.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Drivers and Demographic Gaps\", which groups are noted as having the most pronounced gaps guiding high-priority focus areas for 2026?",
+      "answer": "Early career employees and Operations.",
+      "assertions": [
+        {
+          "text": "The response must state 'Early career employees and Operations.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "How many steps are displayed in the 'Employee Engagement Reporting Workflow' process diagram?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Employee Engagement Reporting Workflow', what is the title of the first step (01)?",
+      "answer": "Data Preparation & Validation",
+      "assertions": [
+        {
+          "text": "The response must state 'Data Preparation & Validation'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Employee Engagement Reporting Workflow', what duration is listed for the 'Driver & Demographic Analysis' step?",
+      "answer": "3 days",
+      "assertions": [
+        {
+          "text": "The response must state '3 days'."
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Survey — Summary & Actions\", what was the overall engagement score in 2025 and how did it change from 2024?",
+      "answer": "78%, up 6 points from 72% in 2024.",
+      "assertions": [
+        {
+          "text": "The response must state '78%, up 6 points from 72% in 2024.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Survey — Summary & Actions\", what was the participation rate and how many responses were received out of how many employees?",
+      "answer": "86% participation: 1,142 responses out of 1,328 employees.",
+      "assertions": [
+        {
+          "text": "The response must state '86% participation: 1,142 responses out of 1,328 employees.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Survey — Summary & Actions\", which top driver had the highest correlation and what was its correlation coefficient?",
+      "answer": "Confidence in senior leadership, r = 0.68.",
+      "assertions": [
+        {
+          "text": "The response must state 'Confidence in senior leadership, r = 0.68.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Survey — Summary & Actions\", who signed the document?",
+      "answer": "Elena Marquez.",
+      "assertions": [
+        {
+          "text": "The response must state 'Elena Marquez.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Survey — Summary & Actions\", which demographic showed the largest negative gap versus the company average and what was the gap?",
+      "answer": "Operations division, a -9 point gap (73% vs Corporate 82%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Operations division, a -9 point gap (73% vs Corporate 82%).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "Looking at the '2025 Employee Engagement Overview', what percentage is listed for the Overall Engagement Score?",
+      "answer": "78%",
+      "assertions": [
+        {
+          "text": "The response must state '78%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the '2025 Employee Engagement Overview', what subtitle appears under the title?",
+      "answer": "Engagement Score, Drivers & Workforce Insights",
+      "assertions": [
+        {
+          "text": "The response must state 'Engagement Score, Drivers & Workforce Insights'."
+        }
+      ]
+    },
+    {
+      "question": "On the '2025 Employee Engagement Overview', which employee group is called out as showing the lowest engagement?",
+      "answer": "Early-tenure employees (0-2 years)",
+      "assertions": [
+        {
+          "text": "The response must state 'Early-tenure employees (0-2 years)'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled 2025 Employee Engagement Results Certification Form, who is listed as the inspector?",
+      "answer": "Marissa L. Ortega, Head of People Analytics.",
+      "assertions": [
+        {
+          "text": "The response must state 'Marissa L. Ortega, Head of People Analytics.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to 2025 Employee Engagement Results Certification Form, how many stamps appear on the page and what are they?",
+      "answer": "Two stamps: REVIEWED and CONFIDENTIAL.",
+      "assertions": [
+        {
+          "text": "The response must state 'Two stamps: REVIEWED and CONFIDENTIAL.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled 2025 Employee Engagement Results Certification Form, what is the overall engagement score and the change versus 2024?",
+      "answer": "78% favorable (+6 pts vs 2024).",
+      "assertions": [
+        {
+          "text": "The response must state '78% favorable (+6 pts vs 2024).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to 2025 Employee Engagement Results Certification Form, is budget approval secured for manager capability workshops?",
+      "answer": "No; the budget approval for manager capability workshops is unchecked.",
+      "assertions": [
+        {
+          "text": "The response must state 'No; the budget approval for manager capability workshops is unchecked.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled 2025 Employee Engagement Results Certification Form, what is the People Action Plan timeframe and its duration?",
+      "answer": "July 2025 – March 2026 (9 months).",
+      "assertions": [
+        {
+          "text": "The response must state 'July 2025 – March 2026 (9 months).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "How many steps are shown in the 'Employee Engagement Report Workflow' process diagram?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Employee Engagement Report Workflow', what is the title of step 03?",
+      "answer": "Key Driver & Demographic Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Key Driver & Demographic Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Employee Engagement Report Workflow', what is the duration listed for the final step?",
+      "answer": "1 wk",
+      "assertions": [
+        {
+          "text": "The response must state '1 wk'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Engagement Score by Demographic Segment\", what is the Company Overall 2025 Score (%)?",
+      "answer": "78%",
+      "assertions": [
+        {
+          "text": "The response must state '78%'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Score by Demographic Segment\", how many rows (total segments) are in the table?",
+      "answer": "12 rows",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"2025 Engagement Score by Demographic Segment\", what is the 'Gap vs Overall (pts)' for the Operations Division?",
+      "answer": "-4 pts",
+      "assertions": [
+        {
+          "text": "The response must state '-4 pts'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Engagement Score by Demographic Segment\", did engagement improve across all segments compared with 2024?",
+      "answer": "Yes — engagement improved across all segments compared with 2024.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — engagement improved across all segments compared with 2024.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned table titled \"2025 Engagement Score by Demographic Segment\", which segment has the highest 2025 Score (%) and what is that score?",
+      "answer": "Senior Leaders — 88%",
+      "assertions": [
+        {
+          "text": "The response must state 'Senior Leaders — 88%'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "What is the total number of milestones displayed on the 'Employee Engagement Survey Reporting Roadmap'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Which milestone is currently active on the 'Employee Engagement Survey Reporting Roadmap'?",
+      "answer": "Analysis & Reporting",
+      "assertions": [
+        {
+          "text": "The response must state 'Analysis & Reporting'."
+        }
+      ]
+    },
+    {
+      "question": "What milestone is scheduled for Q4 2024 on the 'Employee Engagement Survey Reporting Roadmap'?",
+      "answer": "Leadership Review & Prioritisation",
+      "assertions": [
+        {
+          "text": "The response must state 'Leadership Review & Prioritisation'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Employee Engagement Results Certification & Action Plan Form\", who is listed as the inspector and their role?",
+      "answer": "Amelia R. Kovács, Head of People Analytics.",
+      "assertions": [
+        {
+          "text": "The response must state 'Amelia R. Kovács, Head of People Analytics.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Results Certification & Action Plan Form\", what is the Overall Engagement Score for 2025?",
+      "answer": "78% favourable.",
+      "assertions": [
+        {
+          "text": "The response must state '78% favourable.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Results Certification & Action Plan Form\", how many top engagement drivers were identified?",
+      "answer": "Four.",
+      "assertions": [
+        {
+          "text": "The response must state 'Four.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Results Certification & Action Plan Form\", has budget approval been secured for the leadership development programme?",
+      "answer": "No — it is marked unchecked (not secured).",
+      "assertions": [
+        {
+          "text": "The response must state 'No — it is marked unchecked (not secured).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Employee Engagement Results Certification & Action Plan Form\", what is the largest demographic gap reported and the point difference?",
+      "answer": "Frontline Operations (71%) vs Corporate Functions (83%) — 12-point gap.",
+      "assertions": [
+        {
+          "text": "The response must state 'Frontline Operations (71%) vs Corporate Functions (83%) — 12-point gap.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", what was the 2025 overall engagement score?",
+      "answer": "78%.",
+      "assertions": [
+        {
+          "text": "The response must state '78%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", how many primary engagement drivers were identified for 2025?",
+      "answer": "Three.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", name one of the three primary engagement drivers identified for 2025.",
+      "answer": "Quality of line management.",
+      "assertions": [
+        {
+          "text": "The response must state 'Quality of line management.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", what were the engagement percentages for employees with less than two years’ tenure and for those with five or more years of service?",
+      "answer": "Less than two years: 70%; Five or more years: 83%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Less than two years: 70%; Five or more years: 83%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"2025 Employee Engagement Survey – Results Summary and Action Priorities\", how has overall engagement changed since 2022 and what does this indicate?",
+      "answer": "It rose from 69% to 78% since 2022, indicating a steady recovery following restructuring activities.",
+      "assertions": [
+        {
+          "text": "The response must state 'It rose from 69% to 78% since 2022, indicating a steady recovery following restructuring activities.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    }
+  ]
+}

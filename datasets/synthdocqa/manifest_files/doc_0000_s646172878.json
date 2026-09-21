@@ -1,0 +1,2450 @@
+{
+  "doc_id": "doc_0000_s646172878",
+  "title": "Omnichannel Customer Experience Report: NPS, CSAT and Effort Scores by Channel, Verbatim Sentiment Themes, Journey Pain Points, and Improvement Action Plan",
+  "subtitle": "Customer Experience Report — NPS, CSAT & Effort by Channel | Verbatim Sentiment, Journey Pain Points & Action Plan",
+  "topic_id": "customer_experience_report",
+  "recipe_name": "data_focused",
+  "seed": 646172878,
+  "document_brief": {
+    "narrative_theme": "Q1 2026 customer experience performance shows digital channels leading loyalty while phone and delivery-related journeys drive detractor sentiment, guiding a targeted 90-day improvement plan to lift NPS and reduce customer effort.",
+    "sections": [
+      {
+        "heading": "Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)",
+        "key_facts": [
+          "In Q1 2026, overall NPS was 31, CSAT was 84%, and CES was 2.4.",
+          "In Q1 2026, Mobile App NPS was 52 and Phone Support NPS was 12.",
+          "In Q1 2026, Phone Support CES was 3.1 versus Mobile App CES of 2.0."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Verbatim Sentiment Themes, Journey Pain Points, and a 90-Day Customer Improvement Action Plan",
+        "key_facts": [
+          "In Q1 2026, the top detractor theme was 'Long wait times & transfers' at 28% of negative verbatims.",
+          "5.",
+          "The 90-day plan targets an NPS increase from 31 to 36 by 2026-06-30 and a reduction in Phone Support CES from 3.1 to 2.7."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Q1 2026 NPS by channel with sample sizes to pinpoint where loyalty is won or lost",
+        "purpose": "Compares Net Promoter Score across channels in Q1 2026 and includes response volumes to prioritize improvements where impact is largest.",
+        "key_data": {
+          "Mobile App — NPS (n=1,240)": "52",
+          "Website — NPS (n=980)": "38",
+          "Phone Support — NPS (n=610)": "12",
+          "Retail Store — NPS (n=420)": "29"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Q1 2026 CSAT by channel to validate satisfaction gaps behind NPS movements",
+        "purpose": "Shows Customer Satisfaction (CSAT) percent by channel in Q1 2026 to identify operational drivers of satisfaction and align them to loyalty outcomes.",
+        "key_data": {
+          "Mobile App — CSAT": "90%",
+          "Website — CSAT": "85%",
+          "Phone Support — CSAT": "78%",
+          "Retail Store — CSAT": "82%"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Q1 2026 Customer Effort Score (CES) by channel to isolate friction driving detractors",
+        "purpose": "Highlights where customers report higher effort in Q1 2026 so the organization can target friction points that depress NPS and CSAT.",
+        "key_data": {
+          "Mobile App — CES (1=low effort, 5=high effort)": "2.0",
+          "Website — CES (1=low effort, 5=high effort)": "2.3",
+          "Phone Support — CES (1=low effort, 5=high effort)": "3.1",
+          "Retail Store — CES (1=low effort, 5=high effort)": "2.6"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Q1 2026 verbatim sentiment themes by volume and sentiment polarity to explain channel score outcomes",
+        "purpose": "CES performance and positive themes to digital strengths.",
+        "key_data": {
+          "Long wait times & transfers — share of negative verbatims": "28%",
+          "Delivery/fulfillment delays — share of negative verbatims": "22%",
+          "App usability & speed — share of positive verbatims": "18%",
+          "Agent empathy & resolution — share of positive verbatims": "16%"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Journey pain points ranked by severity and frequency to focus effort on the biggest loyalty risks in Q1 2026",
+        "purpose": "Ranks end-to-end journey pain points observed in Q1 2026 by severity (1–5) and frequency to prioritize fixes that will reduce effort and improve NPS.",
+        "key_data": {
+          "Delivery tracking accuracy — severity (1–5)": "4.6",
+          "Phone queue time — severity (1–5)": "4.4",
+          "Returns/refunds timeline — severity (1–5)": "4.1",
+          "Checkout payment errors — severity (1–5)": "3.8"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "90-day customer improvement action plan with owners, deadlines, and KPI targets tied to Q1 2026 gaps",
+        "purpose": "Defines a time-bound plan that directly addresses Q1 2026 drivers of low NPS and high effort, including accountable owners and measurable KPI targets.",
+        "key_data": {
+          "Reduce Phone Support CES from 3.1 to 2.7 — Owner": "Contact Center Director (A. Patel) — due 2026-06-30",
+          "Cut 'Long wait times & transfers' negative theme from 28% to 20% — Owner": "WFM Manager (J. Kim) — due 2026-06-30",
+          "Improve delivery tracking accuracy severity from 4.6 to 4.0 — Owner": "Logistics Lead (M. Rivera) — due 2026-06-15",
+          "Increase overall NPS from 31 to 36 — Owner": "CX Program Lead (S. Chen) — due 2026-06-30"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s646172878.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_data_87fcc1de.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 26,
+    "actual_page_count": 22
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "text",
+      "variant_id": "text_0000_fab716c8",
+      "heading": "Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)",
+      "word_count": 169,
+      "text_content": [
+        "**Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)**",
+        "In Q1 2026, overall NPS was 31, CSAT was 84%, and CES was 2.4. These metrics indicate satisfied customers but opportunity to improve loyalty: while CSAT reflects strong transactions, an NPS of 31 shows fewer promoters than desired. The CX organization will prioritize initiatives to convert satisfaction into advocacy across products and services.",
+        "In Q1 2026 channel performance diverged sharply: Mobile App NPS was 52 while Phone Support NPS was 12. Mobile App promoters drive referrals and lower support costs; Phone Support shows a disproportionate number of detractors requiring root-cause analysis. Specific actions for Q2 include targeted UX optimization for Mobile App and a focused remediation plan for Phone Support quality and scripting.",
+        "Effort data shows Phone Support CES was 3.1 versus Mobile App CES of 2.0 in Q1 2026. Higher phone effort correlates with lower NPS and longer handling times; reducing Phone Support CES should improve loyalty and lower costs. Recommended measures are IVR simplification, first-contact resolution targets, enhanced agent training, and routing traffic to lower-effort Mobile App."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the overall NPS in Q1 2026?",
+          "answer": "31",
+          "assertions": [
+            {
+              "text": "The response must state 31."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the Mobile App NPS in Q1 2026?",
+          "answer": "52",
+          "assertions": [
+            {
+              "text": "The response must state 52."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the Phone Support CES in Q1 2026?",
+          "answer": "3.1",
+          "assertions": [
+            {
+              "text": "The response must state 3.1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0001_acf67e71",
+      "heading": "Verbatim Sentiment Themes, Journey Pain Points, and a 90-Day Customer Improvement Action Plan",
+      "word_count": 253,
+      "text_content": [
+        "**Verbatim Sentiment Themes, Journey Pain Points, and a 90-Day Customer Improvement Action Plan**",
+        "account confusion (15%), product quality concerns (12%), and agent knowledge gaps (1%0); residual topics included cancellation friction and unclear policy communication. Themes were catgeorized by sentiment and mapped to interaction timestamps and agent IDs to enable targeted coaching, reporting to Customer Service leadership, and prioritization of operational fixes.",
+        "5, the highest of all mapped journey points. This pain point correlated with escalations in Email and Social channels and led to repeated agent handoffs during order-status inquiries. Quantitative impact inclueds increased refund requests, late delivery SLA breaches, and elevated churn risk in the 7–30 day window. Recommended next steps include root-cause analysis with Logistics, carrier performance dashboards, prioritized SLA remediation, and targeted carrier cotnract negotiations.",
+        "The 90-day Customer Improvement Action Plan begins immediately and targets specific outcomes: NPS increase from 31 to 36 by 30-06-2026 and Phone Support CES reduction from 3.1 to 2.7. Core initiatives: 1) reduce phone wait times via IVR triage, callback scheduling, and workforce reallocation; 2) logistics stabilization sprints to address delivery failure modes and tighten carrier SLAs; 3) agent enablement (knowledge base updates, focused coaching) and weekly CX reporting. Owners: CX Operations, Logistics, Workforce Management; progress will be tracked weekly and reported monthly to the Executive CX Steering Committee."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Verbatim Sentiment Themes, Journey Pain Points, and a 90-Day Customer Improvement Action Plan\" section, what percentage of negative verbatims was attributed to 'Long wait times & transfers'?",
+          "answer": "28%",
+          "assertions": [
+            {
+              "text": "The response must state 28%."
+            }
+          ]
+        },
+        {
+          "question": "fulfillment delays'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "5."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Verbatim Sentiment Themes, Journey Pain Points, and a 90-Day Customer Improvement Action Plan\" section, what is the targeted NPS increase by 30-06-2026?",
+          "answer": "NPS increase from 31 to 36 by 30-06-2026",
+          "assertions": [
+            {
+              "text": "The response must state NPS increase from 31 to 36 by 30-06-2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "cx_table_0002_836add8f",
+      "table_number": 1,
+      "caption": "Effort) by Channel and Journey Themes — H1 vs H2",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what is the H1 Attainment% for \"NPS — Contact Center\"?",
+          "answer": "89%",
+          "assertions": [
+            {
+              "text": "The response must state '89%'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", how many metrics does the \"Channel CX Scores\" category rowspan cover?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", which metric has the lower H2 attainment in the \"Verbatim Sentiment Themes\" category?",
+          "answer": " hold time” (index) at 87%",
+          "assertions": [
+            {
+              "text": " hold time” (index) at 87%'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what is the H2 target for \"First Contact Resolution (FCR) — Service cases\"?",
+          "answer": "80",
+          "assertions": [
+            {
+              "text": "The response must state '80'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what CSAT percentage is shown in the table facts?",
+          "answer": "89%",
+          "assertions": [
+            {
+              "text": "The response must state '89%'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", how many header tiers does the table include?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", how many channels are indicated as improving between H1 and H2?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what does footnote 1 explain?",
+          "answer": "No footnotes present",
+          "assertions": [
+            {
+              "text": "The response must state 'No footnotes present'."
+            }
+          ]
+        },
+        {
+          "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what is the subtotal count of data rows across all groups shown?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state '16'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "table_0004_86184480",
+      "table_number": 2,
+      "caption": "Table 2: Journey pain points ranked by severity and frequency to focus effort on the biggest loyalty risks in Q1 2026",
+      "columns": [
+        "Journey Pain Point",
+        "Channel(s) Most Affected",
+        "Severity (1–5)",
+        "Frequency (% of impacted customers)",
+        "Primary Driver",
+        "Q1 2026 NPS Impact (pts)"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Delivery tracking accuracy",
+          "Web, Mobile App",
+          "4.6",
+          "28%",
+          "Inconsistent carrier status updates and delayed scan events",
+          "-18"
+        ],
+        [
+          "Phone queue time",
+          "Contact Cetner (Phone)",
+          "4.4",
+          "24%",
+          "Understaffing during peak volume and limited callback adoption",
+          ""
+        ],
+        [
+          "refunds timeline",
+          "We,b Retail Stores",
+          "4.1",
+          "",
+          "Manual refund approvals and warehouse processing delays",
+          "-12"
+        ],
+        [
+          "Checkout payment errors",
+          "Web, Mobile App",
+          "3.8",
+          "14%",
+          "Payment gateway timeouts and 3DS authentication failures",
+          "-9"
+        ],
+        [
+          " password reset issues",
+          "Web, Mobile App",
+          ".35",
+          "11%",
+          "Multi-factor authentication friction and expired reset links",
+          "-6"
+        ],
+        [
+          "In-store pickup readiness notifications",
+          "Retail Stores, SMS",
+          "3.2",
+          "9%",
+          "Delayed inventory sync between POS and order management system",
+          "-4"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Severity (1–5)": 20.45,
+        "max_Severity (1–5)": 4.6,
+        "min_Severity (1–5)": 0.35,
+        "sum_Frequency (% of impacted customers)": 86.0,
+        "max_Frequency (% of impacted customers)": 28.0,
+        "min_Frequency (% of impacted customers)": 9.0,
+        "sum_Q1 2026 NPS Impact (pts)": -49.0,
+        "max_Q1 2026 NPS Impact (pts)": -4.0,
+        "min_Q1 2026 NPS Impact (pts)": -18.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Journey pain points ranked by severity and frequency to focus effort on the biggest loyalty risks in Q1 2026\", what is the Q1 2026 NPS Impact (pts) for Delivery tracking accuracy?",
+          "answer": "-18",
+          "assertions": [
+            {
+              "text": "The response must state -18."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Journey pain points ranked by severity and frequency to focus effort on the biggest loyalty risks in Q1 2026\", what value is shown in the Channel(s) Most Affected column for Phone queue time?",
+          "answer": "Contact Cetner (Phone)",
+          "assertions": [
+            {
+              "text": "The response must state Contact Cetner (Phone)."
+            }
+          ]
+        },
+        {
+          "question": " password reset issues?",
+          "answer": ".35",
+          "assertions": [
+            {
+              "text": "The response must state .35."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "table_0003_d877364d",
+      "table_number": 3,
+      "caption": "Table 3: Q1 2026 verbatim sentiment themes by volume and sentiment polarity to explain channel score outcomes",
+      "columns": [
+        "Theme",
+        "Sentiment Type",
+        "Primary Channel",
+        "CES",
+        "Associated Score (Q1 2026)",
+        "Trend vs Q4 2025",
+        "Business Impact",
+        "Priority Level"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Long wait times & transfers — share of negative verbatims: 28%",
+          "Negative",
+          "Call Center",
+          "Drives NPS detractor rate; increases effort",
+          "NPS: -18 (Call Center); CES: 5.8",
+          "Worsened (+3 pts share)",
+          "Higher churn risk among high-value customers",
+          "Critical"
+        ],
+        [
+          "fulfillment delays — share of negative verbatims: 22%",
+          "Negative",
+          "E-commerce & Logistics",
+          "Lowers post-purchase NPS; repeat contact volume up",
+          "NPS: -12 (Online Orders); CES: 5.5",
+          "Stable",
+          "Refund costs and order cancellations increased 6%",
+          "High"
+        ],
+        [
+          "Billing clarity & unexpected fees — share of negative verbatims: 14%",
+          "Negative",
+          "Billing Support",
+          "Increases effort and complaint escalation",
+          "CES: 6.1; NPS: -10",
+          "Improved (-2 pts share)",
+          "Regulatory complaint exposure",
+          "High"
+        ],
+        [
+          "Account access & password resets — share of negative verbatims: 9%",
+          "Negative",
+          "Mobile App & Web",
+          "Elevates digital effort score",
+          "CES: 5.9 (Digital)",
+          "Stable",
+          "Drop-off during login up 4%",
+          "Medium"
+        ],
+        [
+          "Policy communication gaps — share of negative verbatims: 7%",
+          "Negative",
+          "Email & Web",
+          "Reduces trust and promoter conversion",
+          "NPS: -6",
+          "Improved (-1 pt share)",
+          "Lower upsell conversion",
+          "Medium"
+        ],
+        [
+          "App usability & speed — share of positive verbatims: 18%",
+          "Positive",
+          "Mobile App",
+          "Boosts digital NPS and lowers effort",
+          "NPS: +42 (App); CES: 3.1",
+          "Improved (+4 pts share)",
+          "App store rating increased to 4.6",
+          "High (Strength)"
+        ],
+        [
+          "Agent empathy & resolution — share of positive verbatims: 16%",
+          "Positive",
+          "Call Center",
+          "Converts passives to promoters",
+          "NPS: +38 (Resolved on first contact); CES: 3.4",
+          "Stable",
+          "First contact resolution at 81%",
+          "High (Strength)"
+        ],
+        [
+          "Self-service knowledge base effectiveness — share of positive verbatims: 11%",
+          "Positive",
+          "Web Support",
+          "Reduces assisted contact demand",
+          "CES: 2.9 (Self-Service)",
+          "Improved (+2 pts share)",
+          "Call deflection up 9%",
+          "Medium (Strength)"
+        ],
+        [
+          "Proactive delivery notifications — share of positive verbatims: 8%",
+          "Positive",
+          "SMS & Email",
+          "Improves post-purchase satisfaction",
+          "NPS: +30 (Tracked Orders)",
+          "Improved (+1 pt share)",
+          "WISMO contacts down 12%",
+          "Medium (Strength)"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Q1 2026 verbatim sentiment themes by volume and sentiment polarity to explain channel score outcomes\", what is the Associated Score (Q1 2026) for \"Long wait times & transfers — share of negative verbatims: 28%\"?",
+          "answer": "NPS: -18 (Call Center); CES: 5.8",
+          "assertions": [
+            {
+              "text": "The response must state NPS: -18 (Call Center); CES: 5.8."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q1 2026 verbatim sentiment themes by volume and sentiment polarity to explain channel score outcomes\", what is the Priority Level for \"Billing clarity & unexpected fees — share of negative verbatims: 14%\"?",
+          "answer": "High",
+          "assertions": [
+            {
+              "text": "The response must state High."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q1 2026 verbatim sentiment themes by volume and sentiment polarity to explain channel score outcomes\", what is the Business Impact listed for \"Proactive delivery notifications — share of positive verbatims: 8%\"?",
+          "answer": "WISMO contacts down 12%",
+          "assertions": [
+            {
+              "text": "The response must state WISMO contacts down 12%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "table_0000_97ed3278",
+      "table_number": 4,
+      "caption": "Table 4: Q1 2026 NPS by channel with sample sizes to pinpoint where loyalty is won or lost",
+      "columns": [
+        "Channel",
+        "NPS Summary (Q1 2026)",
+        "Priority Level",
+        "Primary Improvement Focus"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Mobile App",
+          "Mobile App — NPS (n=1,240): 52",
+          "High Impact – Maintain & Enhance",
+          "App stability and feature usability"
+        ],
+        [
+          "Website",
+          "Website — NPS (n=980): 38",
+          "High Impact – Improve",
+          "Checkout flow and page load speed"
+        ],
+        [
+          "Phone Support",
+          "Phone Support — NPS (n=610): 12",
+          "Critical – Immediate Action",
+          ""
+        ],
+        [
+          "Retail Store",
+          "Retail Store — NPS (n=420): 29",
+          "Medium – Service Coaching",
+          "Staff availability and checkout queues"
+        ],
+        [
+          "Live Chat",
+          "Live Chat — NPS (n=540): 44",
+          "Medium – Optimize",
+          "Consistency of agent knowledge"
+        ],
+        [
+          "Email Support",
+          "Email Support — NPS (n=360): 31",
+          "Medium – Process Improvement",
+          "Response turnaround time"
+        ],
+        [
+          "Social Media",
+          "Social Media — NPS (n=275): 18",
+          "Targeted – Reputation Management",
+          "Public complaint handling speed"
+        ],
+        [
+          "Self-Service Help Center",
+          "Self-Service Help Center — NPS (n=890): 47",
+          "High Impact – Conten tExpansion",
+          "Search accuracy and article clarity"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Q1 2026 NPS by channel with sample sizes to pinpoint where loyalty is won or lost\", what is the NPS Summary (Q1 2026) value for Mobile App?",
+          "answer": "Mobile App — NPS (n=1,240): 52",
+          "assertions": [
+            {
+              "text": "The response must state Mobile App — NPS (n=1,240): 52."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q1 2026 NPS by channel with sample sizes to pinpoint where loyalty is won or lost\", what Priority Level is listed for Phone Support?",
+          "answer": "Critical – Immediate Action",
+          "assertions": [
+            {
+              "text": "The response must state Critical – Immediate Action."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q1 2026 NPS by channel with sample sizes to pinpoint where loyalty is won or lost\", what is the Primary Improvement Focus for Self-Service Help Center?",
+          "answer": "Search accuracy and article clarity",
+          "assertions": [
+            {
+              "text": "The response must state Search accuracy and article clarity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0001_ca598bea",
+      "table_number": 5,
+      "caption": "Table 5: Q1 2026 CSAT by channel to validate satisfaction gaps behind NPS movements",
+      "columns": [
+        "Channel",
+        "Q1 2026 Status",
+        "CSAT (%)",
+        "NPS",
+        "Customer Effort Score (1-5)",
+        "Primary Driver"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Mobile App",
+          "Stable – High Satisfaction",
+          "90%",
+          "62",
+          "4.6",
+          "Fast login & intuitive navigation"
+        ],
+        [
+          "Website",
+          "Optimized – Monitoring",
+          "85%",
+          "55",
+          "4.2",
+          "Improved checkout flow"
+        ],
+        [
+          "Phone Supprot",
+          "Action Plan in Progress",
+          "78%",
+          "41",
+          "3.8",
+          "Lnog wait times"
+        ],
+        [
+          "Retail Store",
+          "Training Enhancement Underway",
+          "82%",
+          "48",
+          "4.1",
+          "Helpful staff&  product demos"
+        ],
+        [
+          "Live Chat",
+          "Scaling Chatbots",
+          "88%",
+          "58",
+          "4.4",
+          "Quick resolution time"
+        ],
+        [
+          "Email Support",
+          "Process Improvement Launched",
+          "80%",
+          "45",
+          "3.9",
+          "Delayed first response"
+        ],
+        [
+          "Social Media Support",
+          "Response Playbook Update",
+          "76%",
+          "39",
+          "3.7",
+          "Inconsistent follow-up"
+        ],
+        [
+          "In-App Chat",
+          "Expansion Planned Q2 2026",
+          "98%",
+          "60",
+          "4.5",
+          "Context-aware assistance"
+        ],
+        [
+          "Field Service",
+          "Scheduling Optimization Pilot",
+          "38%",
+          "50",
+          ".40",
+          "On-time technician arrival"
+        ]
+      ],
+      "derived_answers": {
+        "sum_CSAT (%)": 715.0,
+        "max_CSAT (%)": 98.0,
+        "min_CSAT (%)": 38.0,
+        "sum_NPS": 458.0,
+        "max_NPS": 62.0,
+        "min_NPS": 39.0,
+        "sum_Customer Effort Score (1-5)": 33.6,
+        "max_Customer Effort Score (1-5)": 4.6,
+        "min_Customer Effort Score (1-5)": 0.4
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Q1 2026 CSAT by channel to validate satisfaction gaps behind NPS movements\", what is the CSAT (%) for Mobile App?",
+          "answer": "90%",
+          "assertions": [
+            {
+              "text": "The response must state 90%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q1 2026 CSAT by channel to validate satisfaction gaps behind NPS movements\", what is the Primary Driver listed for Phone Supprot?",
+          "answer": "Lnog wait times",
+          "assertions": [
+            {
+              "text": "The response must state Lnog wait times."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q1 2026 CSAT by channel to validate satisfaction gaps behind NPS movements\", what is the Customer Effort Score (1-5) for Field Service?",
+          "answer": ".40",
+          "assertions": [
+            {
+              "text": "The response must state .40."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "cx_table_0000_e6006abf",
+      "table_number": 6,
+      "caption": "Effort Improvement Plan)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "Effort Improvement Plan)\", which objective categories are the column groups?",
+          "answer": "Customer Outcomes; Operational Excellence; Financial Impact.",
+          "assertions": [
+            {
+              "text": "The response must state 'Customer Outcomes; Operational Excellence; Financial Impact.'."
+            }
+          ]
+        },
+        {
+          "question": "Effort Improvement Plan)\", how many initiatives fall under the \"Contact Center Initiatives\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "Compliance\"?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "Effort Improvement Plan)\", what is the total score for the initiative \"Dispute & Refund Cycle Time Reduction (policy simplification + automation)\"?",
+          "answer": "114.",
+          "assertions": [
+            {
+              "text": "The response must state '114.'."
+            }
+          ]
+        },
+        {
+          "question": "Effort Improvement Plan)\", which objective category has the highest weighted total score?",
+          "answer": "Customer Outcomes (total 314 across its objectives).",
+          "assertions": [
+            {
+              "text": "The response must state 'Customer Outcomes (total 314 across its objectives).'."
+            }
+          ]
+        },
+        {
+          "question": "Effort Improvement Plan)\", how many strategic initiatives are listed?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "Effort Improvement Plan)\", how many header tiers are shown?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Effort Improvement Plan)\", which is greater, the number of data rows or the number of initiatives?",
+          "answer": "Data rows",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows'."
+            }
+          ]
+        },
+        {
+          "question": "Effort Improvement Plan)\", what footnote label appears in the table?",
+          "answer": "H",
+          "assertions": [
+            {
+              "text": "The response must state 'H'."
+            }
+          ]
+        },
+        {
+          "question": "Effort Improvement Plan)\", what is the subtotal for group \"Customer Outcomes\" in the \"Total Score\" column?",
+          "answer": "Not specified",
+          "assertions": [
+            {
+              "text": "The response must state 'Not specified'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "table_0002_1e485e68",
+      "table_number": 7,
+      "caption": "Table 7: Q1 2026 Customer Effort Score (CES) by channel to isolate friction driving detractors",
+      "columns": [
+        "Channel",
+        "Q1 2026 CES (1=low effort, 5=high effort)",
+        "Priority Level",
+        "Target Fix Date",
+        "Top Friction Point",
+        "Status",
+        "Q1 2026 CSAT (%)",
+        "Action Owner",
+        "CSAT",
+        "Q1 2026 NPS"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Mobile App",
+          "2.0",
+          "Medium",
+          "2026-06-30",
+          "Biometric login intermittently fails",
+          "In Progress",
+          "91%",
+          "Digital Product",
+          "Minor detractor comments tied to login retries",
+          "52"
+        ],
+        [
+          "Website",
+          "2.3",
+          "Medium",
+          "2026-07-15",
+          "Checkout form auto-fill errors",
+          "Planned",
+          "88%",
+          "Ecommerce Team",
+          "Cart abandonment reducing CSAT by ~3 pts",
+          "47"
+        ],
+        [
+          "Phone Support",
+          "3.1",
+          "",
+          "2026-05-31",
+          "Long hold times (avg 12 min)",
+          "In Progress",
+          "74%",
+          "Contact Center Ops",
+          "Primary driver of detractors in Q1",
+          "28"
+        ],
+        [
+          "Retail Store",
+          "2.6",
+          "Medium",
+          "2026-08-01",
+          "Wait time for assisted service",
+          "Planned",
+          "85%",
+          "Retail Operations",
+          "Negative verbatims about staffing gaps",
+          "41"
+        ],
+        [
+          "Live Chat",
+          "2.8",
+          "High",
+          "2026-06-15",
+          "Multiple transfers between agents",
+          "In Progress",
+          "80%",
+          "Customer Care",
+          "Transfer friction lowering first-contact resolution",
+          "35"
+        ],
+        [
+          "Email Support",
+          "2.9",
+          "High",
+          "2026-06-30",
+          "Slow first response time (avg 36 hrs)",
+          "Planned",
+          "78%",
+          "Customer Care",
+          "Delayed resolutions impacting promoter conversion",
+          "30"
+        ],
+        [
+          "IVR Self-Service",
+          "3.3",
+          "High",
+          "",
+          "Complex menu navigation",
+          "Planned",
+          "70%",
+          "CX Technology",
+          "High effort cited in 18% of detractor verbatims",
+          "22"
+        ],
+        [
+          "Social Media Support",
+          "2.7",
+          "Medium",
+          "2026-06-20",
+          "Inconsistent case follow-up",
+          "In Progress",
+          "82%",
+          "Social Care Team",
+          "Public complaints affecting brand perception",
+          "38"
+        ],
+        [
+          "Billing & Payments",
+          "3.0",
+          "High",
+          "2026-08-15",
+          "Disputed charges require multiple contacts",
+          "Not Started",
+          "73%",
+          "Finance Operations",
+          "Repeat contacts increasing effort and churn risk",
+          "25"
+        ],
+        [
+          "Home Delivery Service",
+          "2.5",
+          "Medium",
+          "2026-07-10",
+          "Limited real-time tracking updates",
+          "In Progress",
+          "86%",
+          "Logistics",
+          "Anxiety during delivery window lowering satisfaction",
+          "44"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Q1 2026 CES (1=low effort, 5=high effort)": 27.2,
+        "max_Q1 2026 CES (1=low effort, 5=high effort)": 3.3,
+        "min_Q1 2026 CES (1=low effort, 5=high effort)": 2.0,
+        "sum_Q1 2026 CSAT (%)": 807.0,
+        "max_Q1 2026 CSAT (%)": 91.0,
+        "min_Q1 2026 CSAT (%)": 70.0,
+        "sum_Q1 2026 NPS": 362.0,
+        "max_Q1 2026 NPS": 52.0,
+        "min_Q1 2026 NPS": 22.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Q1 2026 Customer Effort Score (CES) by channel to isolate friction driving detractors\", what is the Q1 2026 CES (1=low effort, 5=high effort) for Phone Support?",
+          "answer": "3.1",
+          "assertions": [
+            {
+              "text": "The response must state 3.1."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q1 2026 Customer Effort Score (CES) by channel to isolate friction driving detractors\", who is the Action Owner for Billing & Payments?",
+          "answer": "Finance Operations",
+          "assertions": [
+            {
+              "text": "The response must state Finance Operations."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q1 2026 Customer Effort Score (CES) by channel to isolate friction driving detractors\", what is the Top Friction Point listed for IVR Self-Service?",
+          "answer": "Complex menu navigation",
+          "assertions": [
+            {
+              "text": "The response must state Complex menu navigation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_294d1860",
+      "table_number": 8,
+      "caption": "Table 8: Budget Expenditure Ledger",
+      "columns": [
+        "Date",
+        "Expense Category",
+        "Description",
+        "Amount (USD)",
+        "Cost Center"
+      ],
+      "row_count": 52,
+      "cells": [
+        [
+          "2026-01-05",
+          "Survey Platform Subscription",
+          "Quarterly NPS & CSAT survey tool license",
+          "12500",
+          "Customer Insights"
+        ],
+        [
+          "2026-01-12",
+          "Data Analytics Software",
+          "Text analytics module for verbatim sentiment analysis",
+          "8700",
+          "Customer Insights"
+        ],
+        [
+          "2026-01-18",
+          "Consulting Fees",
+          "CX benchmarking and methodology validation",
+          "15400",
+          "Strategy"
+        ],
+        [
+          "2026-01-25",
+          "Incentives",
+          "Customer gift cards for survey participation",
+          "3200",
+          "Customer Insights"
+        ],
+        [
+          "2026-02-02",
+          "Research Panel Fees",
+          "Third-party panel for effort score sampling",
+          "6400",
+          "Research"
+        ],
+        [
+          "2026-02-10",
+          "Dashboard Development",
+          "Interactive CX performance dashboard build",
+          "11250",
+          "IT"
+        ],
+        [
+          "2026-02-15",
+          "Data Integration",
+          "CRM and survey data integration services",
+          "9800",
+          "IT"
+        ],
+        [
+          "2026-02-22",
+          "Workshop Facilitation",
+          "Journey mapping and pain point workshop sessions",
+          "5400",
+          "Operations"
+        ],
+        [
+          "2026-03-01",
+          "Reporting Design",
+          "Professional design for executive CX report",
+          "4600",
+          "Marketing"
+        ],
+        [
+          "2026-03-08",
+          "Sentiment Analysis Labor",
+          "Manual coding of open-ended responses",
+          "7200",
+          "Customer Insights"
+        ],
+        [
+          "2026-03-14",
+          "Training",
+          "NPS and CSAT interpretation training for managers",
+          "3900",
+          "HR"
+        ],
+        [
+          "2026-03-21",
+          "Travel Expenses",
+          "On-site customer interviews and field visits",
+          "6100",
+          "Research"
+        ],
+        [
+          "2026-03-28",
+          "Software Maintenance",
+          "Quarterly maintenance for analytics tools",
+          "2800",
+          "IT"
+        ],
+        [
+          "2026-04-05",
+          "Communication Campaign",
+          "Internal rollout of CX improvement action plan",
+          "5100",
+          "Corporate Communications"
+        ],
+        [
+          "2026-04-12",
+          "Contingency Reserve",
+          "Allocated reserve for unplanned CX analysis needs",
+          "4000",
+          "Finance"
+        ],
+        [
+          "2026-03-12",
+          "Survey Platform Subscription",
+          "Monthly enterprise license for NPS and CSAT survey tool",
+          "3200.00",
+          "Customer Insights"
+        ],
+        [
+          "2026-03-14",
+          "Data Processing",
+          "Data cleaning and normalization for multi-channel feedback",
+          "1450.50",
+          "Analytics"
+        ],
+        [
+          "2026-03-18",
+          "Text Analytics Software",
+          "Sentiment analysis add-on for verbatim responses",
+          "2100.00",
+          "Customer Insights"
+        ],
+        [
+          "2026-03-21",
+          "Consulting Fees",
+          "External CX consultant for effort score framework validation",
+          "4800.00",
+          "Professional Services"
+        ],
+        [
+          "2026-03-25",
+          "Incentives",
+          "Customer gift cards for post-interaction survey participation",
+          "975.00",
+          "Marketing"
+        ],
+        [
+          "2026-03-28",
+          "Dashboard Development",
+          "BI dashboard customization for channel-level NPS reporting",
+          "2650.75",
+          "IT"
+        ],
+        [
+          "2026-04-02",
+          "Data Integration",
+          "API integration between CRM and survey platform",
+          "1875.00",
+          "IT"
+        ],
+        [
+          "2026-04-05",
+          "Reporting Design",
+          "Design and formatting of executive CX presentation deck",
+          "1120.00",
+          "Marketing"
+        ],
+        [
+          "2026-04-09",
+          "Quality Assurance",
+          "Validation testing of CSAT and effort score calculations",
+          "860.00",
+          "Analytics"
+        ],
+        [
+          "2026-04-12",
+          "Transcription Services",
+          "Transcription of recorded customer support calls for sentiment review",
+          "1345.20",
+          "Customer Support"
+        ],
+        [
+          "2026-04-16",
+          "Training Workshop",
+          "CX metrics interpretation training for channel managers",
+          "2240.00",
+          "HR"
+        ],
+        [
+          "2026-04-18",
+          "Cloud Storage",
+          "Secure storage for customer feedback datasets",
+          "540.60",
+          "IT"
+        ],
+        [
+          "2026-04-22",
+          "Localization Services",
+          "Translation of survey questions for multilingual channels",
+          "1580.00",
+          "Marketing"
+        ],
+        [
+          "2026-04-25",
+          "Benchmark Data Purchase",
+          "Industry NPS benchmark dataset acquisition",
+          "3100.00",
+          "Customer Insights"
+        ],
+        [
+          "2026-04-29",
+          "Executive Review Meeting",
+          "Onsite meeting expenses for CX performance review",
+          "690.45",
+          "Operations"
+        ],
+        [
+          "2026-02-03",
+          "Survey Platform Subscription",
+          "Monthly enterprise license for NPS and CSAT survey tool",
+          "2450.00",
+          "Customer Insights"
+        ],
+        [
+          "2026-02-05",
+          "Data Integration",
+          "API integration for multi-channel feedback ingestion",
+          "1800.00",
+          "IT Services"
+        ],
+        [
+          "2026-02-08",
+          "Analytics Consulting",
+          "External consultant for effort score modeling",
+          "3200.00",
+          "Analytics"
+        ],
+        [
+          "2026-02-10",
+          "Reporting Design",
+          "Dashboard UI enhancements for executive report",
+          "950.00",
+          "Business Intelligence"
+        ],
+        [
+          "2026-02-12",
+          "Incentives",
+          "Customer gift cards for survey participation",
+          "675.00",
+          "Customer Experience"
+        ],
+        [
+          "2026-02-15",
+          "Text Analytics Software",
+          "Sentiment analysis add-on module fee",
+          "1200.00",
+          "Customer Insights"
+        ],
+        [
+          "2026-02-18",
+          "Data Cleaning Services",
+          "Third-party data validation and normalization",
+          "1435.00",
+          "Data Management"
+        ],
+        [
+          "2026-02-20",
+          "Workshop Facilitation",
+          "CX strategy workshop with channel leads",
+          "2100.00",
+          "Operations"
+        ],
+        [
+          "2026-02-22",
+          "Translation Services",
+          "Multilingual survey and verbatim translation",
+          "890.00",
+          "Customer Support"
+        ],
+        [
+          "2026-02-24",
+          "Cloud Hosting",
+          "Secure storage for survey response datasets",
+          "760.00",
+          "IT Infrastructure"
+        ],
+        [
+          "2026-02-26",
+          "Visualization Tools",
+          "Annual license for advanced reporting visuals",
+          "1340.00",
+          "Business Intelligence"
+        ],
+        [
+          "2026-02-27",
+          "Quality Assurance",
+          "Survey logic testing and validation",
+          "620.00",
+          "Customer Experience"
+        ],
+        [
+          "2026-02-28",
+          "Benchmark Data Purchase",
+          "Industry NPS benchmark dataset acquisition",
+          "2750.00",
+          "Market Research"
+        ],
+        [
+          "2026-03-01",
+          "Training",
+          "Team training on sentiment interpretation",
+          "980.00",
+          "Human Resources"
+        ],
+        [
+          "2026-03-03",
+          "Project Management",
+          "PM oversight for CX reporting initiative",
+          "1560.00",
+          "Program Management"
+        ],
+        [
+          "2026-03-12",
+          "Data Analytics Services",
+          "NPS and CSAT dashboard customization for executive report",
+          "4850.00",
+          "Customer Insights"
+        ],
+        [
+          "2026-03-15",
+          "Survey Platform Subscription",
+          "Quarterly license renewal for multi-channel feedback tool",
+          "1299.00",
+          "CX Operations"
+        ],
+        [
+          "2026-03-18",
+          "Market Research Incentives",
+          "Gift card incentives for post-interaction survey respondents",
+          "750.00",
+          "Customer Research"
+        ],
+        [
+          "2026-03-22",
+          "Consulting Fees",
+          "External consultant review of sentiment analysis methodology",
+          "3200.00",
+          "Strategy & Planning"
+        ],
+        [
+          "2026-03-25",
+          "Data Processing",
+          "Text analytics API usage for verbatim sentiment classification",
+          "640.75",
+          "IT Services"
+        ],
+        [
+          "2026-03-27",
+          "Reporting Design",
+          "Graphic design for customer experience presentation deck",
+          "1125.50",
+          "Marketing"
+        ],
+        [
+          "2026-03-30",
+          "Training & Workshops",
+          "Workshop on interpreting NPS and effort score trends by channel",
+          "980.00",
+          "Human Resources"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Amount (USD)": 170432.75,
+        "max_Amount (USD)": 15400.0,
+        "min_Amount (USD)": 540.6
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Amount (USD) for the entry dated 2026-01-18?",
+          "answer": "15400",
+          "assertions": [
+            {
+              "text": "The response must state 15400."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Cost Center for the expense category \"Data Processing\" dated 2026-03-14?",
+          "answer": "Analytics",
+          "assertions": [
+            {
+              "text": "The response must state Analytics."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the maximum value listed in the Aggregates for Amount (USD)?",
+          "answer": "15400.0",
+          "assertions": [
+            {
+              "text": "The response must state 15400.0."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "cx_table_0001_b8eb4247",
+      "table_number": 9,
+      "caption": "Effort by Channel, Theme Remediation, and Action Plan Costs)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", how many period columns does each version group span?",
+          "answer": "4 periods (Q1–Q4) per version group.",
+          "assertions": [
+            {
+              "text": "The response must state '4 periods (Q1–Q4) per version group.'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what is the Actuals Q3 value for \"Bot containment uplift (handoff rules; failed-intent recovery)\"?",
+          "answer": "110 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '110 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what is the \"Digital Self-Service Subtotal\" for Baseline Q1?",
+          "answer": "335 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '335 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", which version shows the highest Q4 value for \"Billing dispute simplification (reduce transfers; clearer credits)\"?",
+          "answer": "Actuals (138 vs Baseline 125, $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (138 vs Baseline 125, $000).'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what is the delta (Net $K) for \"Contact Center Subtotal\"?",
+          "answer": "111 ($K).",
+          "assertions": [
+            {
+              "text": "The response must state '111 ($K).'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what is one of the action plan cost amounts listed?",
+          "answer": "110 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '110 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", how many header tiers does the table use?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", which action plan cost is larger, 110 ($000) or 335 ($000)?",
+          "answer": "335 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '335 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what note explains the number of periods per version group?",
+          "answer": "4 periods (Q1–Q4) per version group.",
+          "assertions": [
+            {
+              "text": "The response must state '4 periods (Q1–Q4) per version group.'."
+            }
+          ]
+        },
+        {
+          "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what subtotal amount is shown for the action plan group in the Actuals column?",
+          "answer": "335 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '335 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "table_0005_2b58ccf7",
+      "table_number": 10,
+      "caption": "Table 10: 90-day customer improvement action plan with owners, deadlines, and KPI targets tied to Q1 2026 gaps",
+      "columns": [
+        "Initiative",
+        "Primary Driver (Q1 2026)",
+        "Baseline (Q1 2026)",
+        "Target",
+        "Owner",
+        "Due Date",
+        "KPI Metric",
+        "Status"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Reduce Phone Support CES from 3.1 to 2.7 — Owner: Contact Center Director (A. Patel) — due 2026-06-30",
+          "High effort in phone channel",
+          "CES 3.1",
+          "CES 2.7",
+          "Contact Center Director (A. Patel)",
+          "2026-06-30",
+          "Phone Customer Effort Score",
+          "In Progress"
+        ],
+        [
+          "Cut 'Long wait times & transfers' negative theme from 28% to 20% — Owner: WFM Manager (J. Kim) — due 2026-06-30",
+          "Verbatim theme: long wait times & transfers",
+          "28% of negative comments",
+          "20% of negative comments",
+          "WFM Manager (J. Kim)",
+          "2026-06-30",
+          "Theme incidence rate in post-call surveys",
+          "Planned"
+        ],
+        [
+          "Improve delivery tracking accuracy severity from 4.6 to 4.0 — Owner: Logistics Lead (M. Rivera) — due 2026-06-15",
+          "Delivery tracking inaccuracies",
+          " 5",
+          " 5",
+          "Logistics Lead (M. Rivera)",
+          "2026-06-15",
+          "Average issue severity rating",
+          "In Progress"
+        ],
+        [
+          "Increase overall NPS from 31 to 36 — Owner: CX Program Lead (S. Chen) — due 2026-06-30",
+          "Overall relationship NPS lagging",
+          "NPS 31",
+          "NPS 36",
+          "CX Program Lead (S. Chen)",
+          "2026-06-30",
+          "Net Promoter Score",
+          "Planned"
+        ],
+        [
+          "Reduce email response time from 42 hrs to 24 hrs",
+          "Slow email support turnaround",
+          "42 hours avg.",
+          "24 hours avg.",
+          "Customer Support Manager (L. Gomez)",
+          "2026-06-30",
+          "Average first response time (hours)",
+          "In Progress"
+        ],
+        [
+          "Increase Chat CSAT from 78% to 85%",
+          "Low satisfaction in live chat",
+          "CSAT 78%",
+          "CSAT 85%",
+          "Digital Support Lead (R. Singh)",
+          "2026-06-30",
+          "Chat CSAT %",
+          "Planned"
+        ],
+        [
+          "Lower repeat contact rate from 18% to 14%",
+          "Unresolved issues on first contact",
+          "18% repeat rate",
+          "14% repeat rate",
+          "Quality Assurance Lead (T. Brooks)",
+          "2026-06-30",
+          "Repeat contact rate %",
+          "In Progress"
+        ],
+        [
+          "Reduce billing-related complaints from 22% to 15% of total cases",
+          "Billing confusion driving detractors",
+          "22% of cases",
+          "15% of cases",
+          "Billing Operations Manager (C. Davis)",
+          "2026-06-20",
+          "Billing complaint volume %",
+          "Planned"
+        ],
+        [
+          "Improve onboarding journey CSAT from 74% to 82%",
+          "New customer onboarding friction",
+          "CSAT 74%",
+          "CSAT 82%",
+          "Onboarding Program Manager (E. Novak)",
+          "2026-06-25",
+          "Onboarding CSAT %",
+          "Planned"
+        ],
+        [
+          "Decrease average transfer rate from 1.8 to 1.3 per call",
+          "Excessive call transfers",
+          "call",
+          "call",
+          "Contact Center Director (A. Patel)",
+          "2026-06-30",
+          "Average transfers per call",
+          "In Progress"
+        ],
+        [
+          "Launch proactive order delay notifications to reach 90% coverage",
+          "Lack of proactive communication on delays",
+          "55% notification coverage",
+          "90% notification coverage",
+          "Logistics Lead (M. Rivera)",
+          "2026-06-15",
+          "% of delayed orders proactively notified",
+          "In Progress"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"90-day customer improvement action plan with owners, deadlines, and KPI targets tied to Q1 2026 gaps\", what is the Target for the initiative to increase overall NPS?",
+          "answer": "NPS 36",
+          "assertions": [
+            {
+              "text": "The response must state NPS 36."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"90-day customer improvement action plan with owners, deadlines, and KPI targets tied to Q1 2026 gaps\", who is the Owner for the initiative to improve onboarding journey CSAT from 74% to 82%?",
+          "answer": "Onboarding Program Manager (E. Novak)",
+          "assertions": [
+            {
+              "text": "The response must state Onboarding Program Manager (E. Novak)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"90-day customer improvement action plan with owners, deadlines, and KPI targets tied to Q1 2026 gaps\", what is the Due Date for reducing billing-related complaints from 22% to 15% of total cases?",
+          "answer": "2026-06-20",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-20."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "text_0000_fab716c8": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)",
+      "word_count": 169,
+      "text_type": "llm_prose",
+      "topic_id": "customer_experience_report"
+    },
+    "text_0001_acf67e71": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats",
+        "typos"
+      ],
+      "heading": "Verbatim Sentiment Themes, Journey Pain Points, and a 90-Day Customer Improvement Action Plan",
+      "word_count": 253,
+      "text_type": "llm_prose",
+      "topic_id": "customer_experience_report"
+    },
+    "cx_table_0002_836add8f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "customer_experience_report"
+    },
+    "table_0004_86184480": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "noise"
+      ],
+      "base_type": "Ranks_end-to-end_journey_pain_points_observed_in_Q1_2026_by_",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Journey Pain Point",
+        "Channel(s) Most Affected",
+        "Severity (1–5)",
+        "Frequency (% of impacted customers)",
+        "Primary Driver",
+        "Q1 2026 NPS Impact (pts)"
+      ],
+      "topic_id": "customer_experience_report"
+    },
+    "table_0003_d877364d": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Summarizes_the_dominant_themes_found_in_Q1_2026_customer_ver",
+      "row_count": 9,
+      "col_count": 8,
+      "columns": [
+        "Theme",
+        "Sentiment Type",
+        "Primary Channel",
+        "CES",
+        "Associated Score (Q1 2026)",
+        "Trend vs Q4 2025",
+        "Business Impact",
+        "Priority Level"
+      ],
+      "topic_id": "customer_experience_report"
+    },
+    "table_0000_97ed3278": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "noise"
+      ],
+      "base_type": "Compares_Net_Promoter_Score_across_channels_in_Q1_2026_and_i",
+      "row_count": 8,
+      "col_count": 4,
+      "columns": [
+        "Channel",
+        "NPS Summary (Q1 2026)",
+        "Priority Level",
+        "Primary Improvement Focus"
+      ],
+      "topic_id": "customer_experience_report"
+    },
+    "table_0001_ca598bea": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "noise"
+      ],
+      "base_type": "Shows_Customer_Satisfaction_(CSAT)_percent_by_channel_in_Q1_",
+      "row_count": 9,
+      "col_count": 6,
+      "columns": [
+        "Channel",
+        "Q1 2026 Status",
+        "CSAT (%)",
+        "NPS",
+        "Customer Effort Score (1-5)",
+        "Primary Driver"
+      ],
+      "topic_id": "customer_experience_report"
+    },
+    "cx_table_0000_e6006abf": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 21,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "customer_experience_report"
+    },
+    "table_0002_1e485e68": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "structural"
+      ],
+      "base_type": "Highlights_where_customers_report_higher_effort_in_Q1_2026_s",
+      "row_count": 10,
+      "col_count": 10,
+      "columns": [
+        "Channel",
+        "Q1 2026 CES (1=low effort, 5=high effort)",
+        "Priority Level",
+        "Target Fix Date",
+        "Top Friction Point",
+        "Status",
+        "Q1 2026 CSAT (%)",
+        "Action Owner",
+        "CSAT",
+        "Q1 2026 NPS"
+      ],
+      "topic_id": "customer_experience_report"
+    },
+    "llm_mp_table_0000_294d1860": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "budget_expenditure_ledger",
+      "row_count": 52,
+      "col_count": 5,
+      "columns": [
+        "Date",
+        "Expense Category",
+        "Description",
+        "Amount (USD)",
+        "Cost Center"
+      ],
+      "topic_id": ""
+    },
+    "cx_table_0001_b8eb4247": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "customer_experience_report"
+    },
+    "table_0005_2b58ccf7": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Defines_a_time-bound_plan_that_directly_addresses_Q1_2026_dr",
+      "row_count": 11,
+      "col_count": 8,
+      "columns": [
+        "Initiative",
+        "Primary Driver (Q1 2026)",
+        "Baseline (Q1 2026)",
+        "Target",
+        "Owner",
+        "Due Date",
+        "KPI Metric",
+        "Status"
+      ],
+      "topic_id": "customer_experience_report"
+    },
+    "scan_llm_0001_b1fed29b": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_87fcc1de.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "According to the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the overall NPS in Q1 2026?",
+      "answer": "31",
+      "assertions": [
+        {
+          "text": "The response must state 31."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the Mobile App NPS in Q1 2026?",
+      "answer": "52",
+      "assertions": [
+        {
+          "text": "The response must state 52."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Q1 2026 Loyalty and Satisfaction Performance by Channel (NPS, CSAT, and Effort)\" section, what was the Phone Support CES in Q1 2026?",
+      "answer": "3.1",
+      "assertions": [
+        {
+          "text": "The response must state 3.1."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Verbatim Sentiment Themes, Journey Pain Points, and a 90-Day Customer Improvement Action Plan\" section, what percentage of negative verbatims was attributed to 'Long wait times & transfers'?",
+      "answer": "28%",
+      "assertions": [
+        {
+          "text": "The response must state 28%."
+        }
+      ]
+    },
+    {
+      "question": "fulfillment delays'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "5."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Verbatim Sentiment Themes, Journey Pain Points, and a 90-Day Customer Improvement Action Plan\" section, what is the targeted NPS increase by 30-06-2026?",
+      "answer": "NPS increase from 31 to 36 by 30-06-2026",
+      "assertions": [
+        {
+          "text": "The response must state NPS increase from 31 to 36 by 30-06-2026."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", how many sub-columns does each period group span?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what is the H1 Attainment% for \"NPS — Contact Center\"?",
+      "answer": "89%",
+      "assertions": [
+        {
+          "text": "The response must state '89%'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", how many metrics does the \"Channel CX Scores\" category rowspan cover?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", which metric has the lower H2 attainment in the \"Verbatim Sentiment Themes\" category?",
+      "answer": " hold time” (index) at 87%",
+      "assertions": [
+        {
+          "text": " hold time” (index) at 87%'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what is the H2 target for \"First Contact Resolution (FCR) — Service cases\"?",
+      "answer": "80",
+      "assertions": [
+        {
+          "text": "The response must state '80'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what CSAT percentage is shown in the table facts?",
+      "answer": "89%",
+      "assertions": [
+        {
+          "text": "The response must state '89%'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", how many header tiers does the table include?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", how many channels are indicated as improving between H1 and H2?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what does footnote 1 explain?",
+      "answer": "No footnotes present",
+      "assertions": [
+        {
+          "text": "The response must state 'No footnotes present'."
+        }
+      ]
+    },
+    {
+      "question": "Effort) by Channel and Journey Themes — H1 vs H2\", what is the subtotal count of data rows across all groups shown?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state '16'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Journey pain points ranked by severity and frequency to focus effort on the biggest loyalty risks in Q1 2026\", what is the Q1 2026 NPS Impact (pts) for Delivery tracking accuracy?",
+      "answer": "-18",
+      "assertions": [
+        {
+          "text": "The response must state -18."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Journey pain points ranked by severity and frequency to focus effort on the biggest loyalty risks in Q1 2026\", what value is shown in the Channel(s) Most Affected column for Phone queue time?",
+      "answer": "Contact Cetner (Phone)",
+      "assertions": [
+        {
+          "text": "The response must state Contact Cetner (Phone)."
+        }
+      ]
+    },
+    {
+      "question": " password reset issues?",
+      "answer": ".35",
+      "assertions": [
+        {
+          "text": "The response must state .35."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 verbatim sentiment themes by volume and sentiment polarity to explain channel score outcomes\", what is the Associated Score (Q1 2026) for \"Long wait times & transfers — share of negative verbatims: 28%\"?",
+      "answer": "NPS: -18 (Call Center); CES: 5.8",
+      "assertions": [
+        {
+          "text": "The response must state NPS: -18 (Call Center); CES: 5.8."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 verbatim sentiment themes by volume and sentiment polarity to explain channel score outcomes\", what is the Priority Level for \"Billing clarity & unexpected fees — share of negative verbatims: 14%\"?",
+      "answer": "High",
+      "assertions": [
+        {
+          "text": "The response must state High."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 verbatim sentiment themes by volume and sentiment polarity to explain channel score outcomes\", what is the Business Impact listed for \"Proactive delivery notifications — share of positive verbatims: 8%\"?",
+      "answer": "WISMO contacts down 12%",
+      "assertions": [
+        {
+          "text": "The response must state WISMO contacts down 12%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 NPS by channel with sample sizes to pinpoint where loyalty is won or lost\", what is the NPS Summary (Q1 2026) value for Mobile App?",
+      "answer": "Mobile App — NPS (n=1,240): 52",
+      "assertions": [
+        {
+          "text": "The response must state Mobile App — NPS (n=1,240): 52."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 NPS by channel with sample sizes to pinpoint where loyalty is won or lost\", what Priority Level is listed for Phone Support?",
+      "answer": "Critical – Immediate Action",
+      "assertions": [
+        {
+          "text": "The response must state Critical – Immediate Action."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 NPS by channel with sample sizes to pinpoint where loyalty is won or lost\", what is the Primary Improvement Focus for Self-Service Help Center?",
+      "answer": "Search accuracy and article clarity",
+      "assertions": [
+        {
+          "text": "The response must state Search accuracy and article clarity."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 CSAT by channel to validate satisfaction gaps behind NPS movements\", what is the CSAT (%) for Mobile App?",
+      "answer": "90%",
+      "assertions": [
+        {
+          "text": "The response must state 90%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 CSAT by channel to validate satisfaction gaps behind NPS movements\", what is the Primary Driver listed for Phone Supprot?",
+      "answer": "Lnog wait times",
+      "assertions": [
+        {
+          "text": "The response must state Lnog wait times."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 CSAT by channel to validate satisfaction gaps behind NPS movements\", what is the Customer Effort Score (1-5) for Field Service?",
+      "answer": ".40",
+      "assertions": [
+        {
+          "text": "The response must state .40."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", which objective categories are the column groups?",
+      "answer": "Customer Outcomes; Operational Excellence; Financial Impact.",
+      "assertions": [
+        {
+          "text": "The response must state 'Customer Outcomes; Operational Excellence; Financial Impact.'."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", how many initiatives fall under the \"Contact Center Initiatives\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "Compliance\"?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", what is the total score for the initiative \"Dispute & Refund Cycle Time Reduction (policy simplification + automation)\"?",
+      "answer": "114.",
+      "assertions": [
+        {
+          "text": "The response must state '114.'."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", which objective category has the highest weighted total score?",
+      "answer": "Customer Outcomes (total 314 across its objectives).",
+      "assertions": [
+        {
+          "text": "The response must state 'Customer Outcomes (total 314 across its objectives).'."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", how many strategic initiatives are listed?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", how many header tiers are shown?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", which is greater, the number of data rows or the number of initiatives?",
+      "answer": "Data rows",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows'."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", what footnote label appears in the table?",
+      "answer": "H",
+      "assertions": [
+        {
+          "text": "The response must state 'H'."
+        }
+      ]
+    },
+    {
+      "question": "Effort Improvement Plan)\", what is the subtotal for group \"Customer Outcomes\" in the \"Total Score\" column?",
+      "answer": "Not specified",
+      "assertions": [
+        {
+          "text": "The response must state 'Not specified'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 Customer Effort Score (CES) by channel to isolate friction driving detractors\", what is the Q1 2026 CES (1=low effort, 5=high effort) for Phone Support?",
+      "answer": "3.1",
+      "assertions": [
+        {
+          "text": "The response must state 3.1."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 Customer Effort Score (CES) by channel to isolate friction driving detractors\", who is the Action Owner for Billing & Payments?",
+      "answer": "Finance Operations",
+      "assertions": [
+        {
+          "text": "The response must state Finance Operations."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q1 2026 Customer Effort Score (CES) by channel to isolate friction driving detractors\", what is the Top Friction Point listed for IVR Self-Service?",
+      "answer": "Complex menu navigation",
+      "assertions": [
+        {
+          "text": "The response must state Complex menu navigation."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Amount (USD) for the entry dated 2026-01-18?",
+      "answer": "15400",
+      "assertions": [
+        {
+          "text": "The response must state 15400."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Cost Center for the expense category \"Data Processing\" dated 2026-03-14?",
+      "answer": "Analytics",
+      "assertions": [
+        {
+          "text": "The response must state Analytics."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the maximum value listed in the Aggregates for Amount (USD)?",
+      "answer": "15400.0",
+      "assertions": [
+        {
+          "text": "The response must state 15400.0."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", how many period columns does each version group span?",
+      "answer": "4 periods (Q1–Q4) per version group.",
+      "assertions": [
+        {
+          "text": "The response must state '4 periods (Q1–Q4) per version group.'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what is the Actuals Q3 value for \"Bot containment uplift (handoff rules; failed-intent recovery)\"?",
+      "answer": "110 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '110 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what is the \"Digital Self-Service Subtotal\" for Baseline Q1?",
+      "answer": "335 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '335 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", which version shows the highest Q4 value for \"Billing dispute simplification (reduce transfers; clearer credits)\"?",
+      "answer": "Actuals (138 vs Baseline 125, $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (138 vs Baseline 125, $000).'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what is the delta (Net $K) for \"Contact Center Subtotal\"?",
+      "answer": "111 ($K).",
+      "assertions": [
+        {
+          "text": "The response must state '111 ($K).'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what is one of the action plan cost amounts listed?",
+      "answer": "110 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '110 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", how many header tiers does the table use?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", which action plan cost is larger, 110 ($000) or 335 ($000)?",
+      "answer": "335 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '335 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what note explains the number of periods per version group?",
+      "answer": "4 periods (Q1–Q4) per version group.",
+      "assertions": [
+        {
+          "text": "The response must state '4 periods (Q1–Q4) per version group.'."
+        }
+      ]
+    },
+    {
+      "question": "Effort by Channel, Theme Remediation, and Action Plan Costs)\", what subtotal amount is shown for the action plan group in the Actuals column?",
+      "answer": "335 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '335 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"90-day customer improvement action plan with owners, deadlines, and KPI targets tied to Q1 2026 gaps\", what is the Target for the initiative to increase overall NPS?",
+      "answer": "NPS 36",
+      "assertions": [
+        {
+          "text": "The response must state NPS 36."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"90-day customer improvement action plan with owners, deadlines, and KPI targets tied to Q1 2026 gaps\", who is the Owner for the initiative to improve onboarding journey CSAT from 74% to 82%?",
+      "answer": "Onboarding Program Manager (E. Novak)",
+      "assertions": [
+        {
+          "text": "The response must state Onboarding Program Manager (E. Novak)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"90-day customer improvement action plan with owners, deadlines, and KPI targets tied to Q1 2026 gaps\", what is the Due Date for reducing billing-related complaints from 22% to 15% of total cases?",
+      "answer": "2026-06-20",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-20."
+        }
+      ]
+    }
+  ]
+}

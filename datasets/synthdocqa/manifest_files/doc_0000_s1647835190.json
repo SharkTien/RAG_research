@@ -1,0 +1,1348 @@
+{
+  "doc_id": "doc_0000_s1647835190",
+  "title": "Compensation Benchmarking Report: Market Alignment of Pay Bands, Attrition Risk Assessment, and Recommended Salary Band and Equity Adjustments",
+  "subtitle": "Compensation Benchmarking | Market Alignment, Attrition Risk Analysis, and Salary Band & Equity Recommendations",
+  "topic_id": "compensation_benchmarking_study",
+  "recipe_name": "forms_workflow",
+  "seed": 1647835190,
+  "document_brief": {
+    "narrative_theme": "This benchmarking study uses market survey data to pinpoint pay misalignment driving attrition risk and to justify targeted salary band adjustments and equity corrections.",
+    "sections": [
+      {
+        "heading": "Market Benchmarking Methodology and Pay-Band Positioning Results",
+        "key_facts": [
+          "The study benchmarks 48 roles using the Mercer Total Remuneration Survey (TRS) 2025 and the Radford Global Technology Survey 2025.",
+          "A market reference point is defined as the 50th percentile (P50), and roles are flagged as below-market when compa-ratio is under 0.90.",
+          "The analysis uses a snapshot date of 2026-03-31 for employee pay and job mapping."
+        ],
+        "data_references": []
+      },
+      {
+        "heading": "Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections",
+        "key_facts": [
+          "Roles with voluntary attrition above 18% in the last 12 months are classified as high attrition risk.",
+          "Salary band adjustments are recommended to bring flagged roles to at least 0.95 of market P50 within 90 days of approval.",
+          "Equity corrections are triggered when statistically adjusted pay gaps exceed 5% for employees performing the same role and level."
+        ],
+        "data_references": []
+      }
+    ],
+    "tables": [],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1647835190.pdf",
+    "markdown": null,
+    "assets": []
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 36,
+    "actual_page_count": 12
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0004_48e21f57",
+      "title": "Compensation Benchmarking and Pay Band Adjustment Report Form",
+      "caption": "Compensation Benchmarking and Pay Band Adjustment Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 16,
+      "sections": [
+        "Study Overview",
+        "Market Comparison Analysis",
+        "Attrition Risk Assessment",
+        "Salary Band and Equity Recommendations"
+      ],
+      "required_fields": [
+        "Study Lead Name",
+        " Business Unit",
+        "Benchmarking Period Start Date",
+        "Benchmarking Period End Date",
+        "Primary Market Survey Source",
+        "Total Roles Benchmarked",
+        "Number of Roles Below Market Median",
+        "Overall Market Positioning Strategy",
+        "Summary of Key Compensation Gaps",
+        "Roles Identified at High Risk of Attrition",
+        "Critical Skill Areas Impacted",
+        "Retention Risk Level",
+        "Proposed Salary Band Adjustments (%)",
+        "Number of Employees Requiring Equity Corrections",
+        "Estimated Total Budget Impact",
+        "Effective Date of Proposed Changes"
+      ],
+      "description": "",
+      "form_number": "HR-COMP-2026-014",
+      "instructions": "Complete all required fields with current benchmarking data and supporting analysis. Submit the finalized form with attached market survey reports to the HR Director and Finance Business Partner for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Times-Roman, serif",
+        "ink_color": "#222222",
+        "font_size_pt": 10.5
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Band Adjustment Report Form', how many sections does the document display?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what form number is shown on the report?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Band Adjustment Report Form', how many total fields are included in the form?",
+          "answer": "20",
+          "assertions": [
+            {
+              "text": "The response must state '20'."
+            }
+          ]
+        },
+        {
+          "question": "Viewing the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what form type is indicated for this document?",
+          "answer": "filled_fillable",
+          "assertions": [
+            {
+              "text": "The response must state 'filled_fillable'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0000_a12639dd",
+      "heading": "Market Benchmarking Methodology and Pay-Band Positioning Results",
+      "word_count": 296,
+      "text_content": [
+        "**Market Benchmarking Methodology and Pay-Band Positioning Results**",
+        "The benchmarking study comprised 48 roles and used two market data sources: Mercer Total Remuneration Survey (TRS) 2025 and the Radford Global Technology Survey 2025 to establish market pay references. Job-to-survey mapping was performed using role profiles, incumbent responsibilities, and market job matches; conservative alignment rules were applied where a perfect match was not available. For clarity and consistency across sources, surveyed pay values were normalized to local currency equivalents and totaled to comparable remuneration metrics. The market reference point for all comparisons was defined as the 50th percentile (P50) of the combined surveys. Analyses were peer-reviewed by HR analytics.",
+        "Compa-ratios were calculated as the incumbent’s total remunerated pay divided by the market reference point (P50). Roles with a compa-ratio under 0.90 were flagged as below-market for immediate attention, consistent with the defined tolerance band. Complementary position bands were defined to facilitate interpretation: below-market (<0.90), market-competitive (0.90–1.10), and above-market (>1.10). Percentile positioning and compa-ratio distributions were produced for each pay band, enabling the identification of central tendency and dispersion across job families. Statistical controls included truncation of extreme outliers and verification against survey population sizes. All calculations treated base salary and role-target variable pay consistently across surveys and currencies globally.",
+        "2026 to ensure temporal consistency between incumbent records and survey pay cycles. Data cleansing steps included validation of incumbents’ job codes, removal of duplicate records, and normalization of pay components to a total cash view where appropriate. Output files present pay-band positioning as compa-ratio histograms, band medians relative to P50, and role-level summaries for each of the 48 benchmarked roles. Results include recommended target ranges for salary band adjustments and an audit trail; detailed figures and role-level tables are provided in the appendix for executive review."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Market Benchmarking Methodology and Pay-Band Positioning Results\" section, what was the snapshot date used for employee pay and job mapping?",
+          "answer": "2026",
+          "assertions": [
+            {
+              "text": "2026."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Market Benchmarking Methodology and Pay-Band Positioning Results\" section, what percentile was defined as the market reference point for all comparisons?",
+          "answer": "50th percentile (P50)",
+          "assertions": [
+            {
+              "text": "The response must state 50th percentile (P50)."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Market Benchmarking Methodology and Pay-Band Positioning Results\" section, how many roles were included in the benchmarking study?",
+          "answer": "48 roles",
+          "assertions": [
+            {
+              "text": "The response must state 48 roles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "filled_form",
+      "variant_id": "filled_form_0004_8f8c9448",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Study Overview and Market Data",
+        "Compensation Analysis and Attrition Risk",
+        "Recommendations and Financial Impact"
+      ],
+      "required_fields": [
+        "Benchmarking Study Lead",
+        "Department or Business Unit Covered",
+        "Market Survey Source",
+        "Survey Data Effective Date",
+        "Number of Roles Benchmarked",
+        "Overall Market Positioning vs. Median",
+        "Roles Identified as High Attrition Risk",
+        "Recommended Salary Band Adjustment Approach",
+        "Estimated Total Annual Cost Impact (in local currency)"
+      ],
+      "description": "Complete this form to document the compensation benchmarking analysis, identify attrition risks, and recommend salary band and equity adjustments based on market data.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "CaveatRegular, cursive",
+        "ink_color": "#6b1c9e",
+        "font_size_pt": 10.0
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Form', how many sections are included in the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Form', what is the total number of fields shown on the form?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Form', how many fields are marked as required?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state '9'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Form', list the section titles as they appear on the form.",
+          "answer": "Study Overview and Market Data; Compensation Analysis and Attrition Risk; Recommendations and Financial Impact",
+          "assertions": [
+            {
+              "text": "The response must state 'Study Overview and Market Data; Compensation Analysis and Attrition Risk; Recommendations and Financial Impact'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "form",
+      "variant_id": "filled_fillable_0000_92f17d81",
+      "title": "Compensation Benchmarking and Pay Equity Review Form",
+      "caption": "Compensation Benchmarking and Pay Equity Review Form",
+      "section_count": 4,
+      "field_count": 16,
+      "required_field_count": 11,
+      "sections": [
+        "Study Overview",
+        "Market Data Sources",
+        "Roles at Risk and Gap Analysis",
+        "Recommended Adjustments and Equity Corrections"
+      ],
+      "required_fields": [
+        "Study Lead Name",
+        " Business Unit",
+        "Benchmarking Period Start Date",
+        "Benchmarking Period End Date",
+        "Primary Market Survey Provider",
+        "Market Percentile Targeted for Pay Positioning",
+        "Number of Roles Benchmarked",
+        "Number of Roles Below Market Median",
+        "Critical Roles Identified at Risk of Attrition",
+        "Proposed Salary Band Adjustment (%)",
+        "Estimated Total Budget Impact"
+      ],
+      "description": "",
+      "qa_candidates": [
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Equity Review Form', what form number appears on the document?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Equity Review Form', how many sections are included in the document?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Equity Review Form', what instructions are provided for completing and submitting the form?",
+          "answer": "Complete all required fields with current and proposed compensation data. Submit the finalized form with supporting market survey documentation to the HR Compensation Committee for review and approval.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete all required fields with current and proposed compensation data. Submit the finalized form with supporting market survey documentation to the HR Compensation Committee for review and approval.'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking and Pay Equity Review Form', which section title is listed third on the page?",
+          "answer": "Roles at Risk and Gap Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Roles at Risk and Gap Analysis'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "form",
+      "variant_id": "filled_form_0002_0b697369",
+      "title": "Compensation Benchmarking and Pay Band Alignment Study Form",
+      "caption": "Compensation Benchmarking and Pay Band Alignment Study Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Study Overview and Market Data",
+        "Role Analysis and Attrition Risk",
+        "Recommendations and Pay Adjustments"
+      ],
+      "required_fields": [
+        "Study Sponsor Name",
+        "HR Lead Email",
+        "Benchmarking Period End Date",
+        "Primary Market Survey Source",
+        "Geographic Scope of Comparison",
+        "Total Number of Roles Benchmarked",
+        "Job Families Included in Review",
+        "Critical Roles at High Risk of Attrition",
+        "Recommended Salary Band Adjustment (%)",
+        "Equity Correction Required"
+      ],
+      "description": "Complete this form to document the compensation benchmarking analysis, identify attrition risks, and recommend salary band and equity adjustments.",
+      "qa_candidates": [
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Band Alignment Study Form', how many sections does the form contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Band Alignment Study Form', what is the title of the second section shown in the form?",
+          "answer": "Role Analysis and Attrition Risk",
+          "assertions": [
+            {
+              "text": "The response must state 'Role Analysis and Attrition Risk'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Band Alignment Study Form', how many fields are listed as required?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the rendered 'Compensation Benchmarking and Pay Band Alignment Study Form', is the form indicated as filled?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "form",
+      "variant_id": "filled_form_0003_b1b2a7b7",
+      "title": "Compensation Benchmarking and Pay Band Alignment Study Form",
+      "caption": "Compensation Benchmarking and Pay Band Alignment Study Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Study Overview and Market Data",
+        "Benchmarking Analysis and Attrition Risk",
+        "Salary Band Adjustments and Equity Corrections"
+      ],
+      "required_fields": [
+        "Organisation Name",
+        "Industry Sector",
+        "Geographic Market Scope",
+        "Number of Roles Benchmarked",
+        "Percentage of Roles Below Market Median",
+        "Primary Comparator Positioning Strategy",
+        "Roles Identified at High Risk of Attrition",
+        "Proposed Salary Band Adjustment Type",
+        "Estimated Total Budget Impact"
+      ],
+      "description": "Complete this form to document market benchmarking results, identify attrition risks, and propose salary band and equity adjustments based on survey data.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Band Alignment Study Form', what is the description shown on the form?",
+          "answer": "Complete this form to document market benchmarking results, identify attrition risks, and propose salary band and equity adjustments based on survey data.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document market benchmarking results, identify attrition risks, and propose salary band and equity adjustments based on survey data.'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Band Alignment Study Form', how many sections are listed on the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Band Alignment Study Form', which fields are marked as required?",
+          "answer": "Organisation Name; Industry Sector; Geographic Market Scope; Number of Roles Benchmarked; Percentage of Roles Below Market Median; Primary Comparator Positioning Strategy; Roles Identified at High Risk of Attrition; Proposed Salary Band Adjustment Type; Estimated Total Budget Impact",
+          "assertions": [
+            {
+              "text": "The response must state 'Organisation Name; Industry Sector; Geographic Market Scope; Number of Roles Benchmarked; Percentage of Roles Below Market Median; Primary Comparator Positioning Strategy; Roles Identified at High Risk of Attrition; Proposed Salary Band Adjustment Type; Estimated Total Budget Impact'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking and Pay Band Alignment Study Form', how many fields of type 'number' does the form contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "form",
+      "variant_id": "filled_form_0001_72b9843d",
+      "title": "Compensation Benchmarking and Pay Equity Assessment Form",
+      "caption": "Compensation Benchmarking and Pay Equity Assessment Form",
+      "section_count": 3,
+      "field_count": 12,
+      "required_field_count": 7,
+      "sections": [
+        "Study Overview",
+        "Market Comparison and Risk Analysis",
+        "Salary Band Adjustments and Equity Review"
+      ],
+      "required_fields": [
+        "Study Lead Name",
+        "Department or Business Unit Reviewed",
+        "Total Number of Roles Benchmarked",
+        "Primary Geographic Market",
+        "Number of Pay Bands Recommended for Adjustment",
+        "Equity Correction Required for Identified Pay Gaps",
+        "Summary of Recommended Salary Band and Equity Actions"
+      ],
+      "description": "Complete this form to document the methodology, findings, and recommendations from the compensation benchmarking study comparing internal pay bands to market data.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Equity Assessment Form', which required field requests the name of the person leading the study?",
+          "answer": "Study Lead Name",
+          "assertions": [
+            {
+              "text": "The response must state 'Study Lead Name'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', how many sections does the form contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Equity Assessment Form', what descriptive text explains the purpose of completing the form?",
+          "answer": "Complete this form to document the methodology, findings, and recommendations from the compensation benchmarking study comparing internal pay bands to market data.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document the methodology, findings, and recommendations from the compensation benchmarking study comparing internal pay bands to market data.'"
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'Compensation Benchmarking and Pay Equity Assessment Form', which required field asks for the geographic area used for comparison?",
+          "answer": "Primary Geographic Market",
+          "assertions": [
+            {
+              "text": "The response must state 'Primary Geographic Market'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "form",
+      "variant_id": "filled_form_0000_ab94e89b",
+      "title": "Compensation Benchmarking and Pay Equity Assessment Form",
+      "caption": "Compensation Benchmarking and Pay Equity Assessment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Study Overview and Scope",
+        "Market Benchmarking Analysis",
+        "Recommendations and Equity Adjustments"
+      ],
+      "required_fields": [
+        "Organisation Name",
+        "Industry Sector",
+        "Geographic Market Scope",
+        "Total Number of Roles Benchmarked",
+        "Percentage of Roles Below Market Median",
+        "Primary Comparator Market Position",
+        "Key Roles Identified at Risk of Attrition",
+        "Proposed Salary Band Adjustment (%)",
+        "Estimated Total Budget Impact"
+      ],
+      "description": "Complete this form to document market benchmarking findings, identify attrition risks, and recommend salary band and equity adjustments.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Equity Assessment Form', how many sections are in the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', what is the description shown on the form?",
+          "answer": "Complete this form to document market benchmarking findings, identify attrition risks, and recommend salary band and equity adjustments.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document market benchmarking findings, identify attrition risks, and recommend salary band and equity adjustments.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Equity Assessment Form', which entry appears as the second section title?",
+          "answer": "Market Benchmarking Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Market Benchmarking Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "Referencing the 'Compensation Benchmarking and Pay Equity Assessment Form', how many required fields are listed?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state '9'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "form",
+      "variant_id": "filled_fillable_0003_584a6638",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Study Overview",
+        "Market Comparison Analysis",
+        "Attrition Risk Assessment",
+        "Salary Band Adjustment & Equity Recommendations"
+      ],
+      "required_fields": [
+        "Study Lead Name",
+        " Business Unit",
+        "Benchmarking Period Start Date",
+        "Benchmarking Period End Date",
+        "Primary Market Survey Source",
+        "Total Roles Benchmarked",
+        "Percentage of Roles Below Market Median (%)",
+        "Key Job Families Analyzed",
+        "Geographic Market Scope",
+        "Roles Identified at High Risk of Attrition",
+        "Critical Skills Impacted",
+        "Proposed Adjustment Type",
+        "Total Estimated Budget Impact (Annual)"
+      ],
+      "description": "",
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what is the form number printed on the document?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections are included in the report?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', which section appears first in the list of sections?",
+          "answer": "Study Overview",
+          "assertions": [
+            {
+              "text": "The response must state 'Study Overview'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many fields are designated as required?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "form",
+      "variant_id": "filled_fillable_0001_10e20bd8",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Report",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Report",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Study Overview",
+        "Benchmarking Scope and Methodology",
+        "Findings and Risk Assessment",
+        "Recommendations and Financial Impact"
+      ],
+      "required_fields": [
+        "Prepared By",
+        "Department",
+        "Date of Analysis",
+        "Market Survey Source",
+        "Job Families Included",
+        "Number of Roles Benchmarked",
+        "Geographic Market Scope",
+        "Roles Identified at Risk of Attrition",
+        "Primary Risk Driver",
+        "Average Market Variance (%)",
+        "Proposed Salary Band Adjustments",
+        "Equity Corrections Required",
+        "Estimated Total Adjustment Cost"
+      ],
+      "description": "",
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report', how many sections does the report contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report', what is the form number shown on the report?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report', which section appears first in the document?",
+          "answer": "Study Overview",
+          "assertions": [
+            {
+              "text": "The response must state 'Study Overview'."
+            }
+          ]
+        },
+        {
+          "question": "Referring to the 'Compensation Benchmarking and Salary Band Adjustment Report', how many required fields are indicated on the form?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "form",
+      "variant_id": "filled_fillable_0002_f7a77a22",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Proposal Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Proposal Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 14,
+      "sections": [
+        "Study Overview",
+        "Market Comparison Analysis",
+        "Attrition Risk Assessment",
+        "Recommended Salary Band Adjustments and Equity Corrections"
+      ],
+      "required_fields": [
+        "Reporting Period",
+        "Prepared By (Name and Title)",
+        " Business Unit in Scope",
+        "Market Survey Source(s) Utilized",
+        "Number of Roles Benchmarked",
+        "Overall Market Positioning (% vs Market Median)",
+        "Roles Below Market by >10%",
+        "Roles Identified at High Risk of Attrition",
+        "Current Voluntary Turnover Rate (%)",
+        "Key Drivers of Attrition (Compensation-Related)",
+        "Impact Level if Attrition Occurs",
+        "Proposed Salary Band Adjustments (%)",
+        "Number of Employees Requiring Equity Adjustments",
+        "Estimated Total Annual Cost Impact"
+      ],
+      "description": "",
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Proposal Form', what form number is shown on the page?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Proposal Form', how many required fields are indicated?",
+          "answer": "14",
+          "assertions": [
+            {
+              "text": "The response must state '14'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Proposal Form', what submission instructions are provided?",
+          "answer": "Complete all required fields with supporting market data and internal analysis. Submit the finalized form to the HR Director and Finance Business Partner for review and approval.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete all required fields with supporting market data and internal analysis. Submit the finalized form to the HR Director and Finance Business Partner for review and approval.'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Proposal Form', which section title comes immediately after 'Market Comparison Analysis'?",
+          "answer": "Attrition Risk Assessment",
+          "assertions": [
+            {
+              "text": "The response must state 'Attrition Risk Assessment'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "form",
+      "variant_id": "text_0001_0d777e30",
+      "title": "",
+      "caption": "",
+      "section_count": 0,
+      "field_count": 0,
+      "required_field_count": 0,
+      "sections": [],
+      "required_fields": [],
+      "description": "",
+      "qa_candidates": [
+        {
+          "question": "According to the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections\" section, what percentage of voluntary attrition is reported for Engineering — Software Development?",
+          "answer": "22.4%",
+          "assertions": [
+            {
+              "text": "The response must state 22.4%."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections\" section, to what level should midpoint placement be brought relative to market P50?",
+          "answer": "0.95 of market P50",
+          "assertions": [
+            {
+              "text": "The response must state 0.95 of market P50."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections\" section, what is the start date of the current fiscal quarter for retroactive pay if material?",
+          "answer": "April 1, 2026",
+          "assertions": [
+            {
+              "text": "The response must state April 1, 2026."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "filled_fillable_0004_48e21f57": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0000_a12639dd": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats"
+      ],
+      "heading": "Market Benchmarking Methodology and Pay-Band Positioning Results",
+      "word_count": 296,
+      "text_type": "llm_prose",
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "filled_form_0004_8f8c9448": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0000_92f17d81": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0002_0b697369": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0003_b1b2a7b7": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0001_72b9843d": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0000_ab94e89b": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0003_584a6638": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0001_10e20bd8": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0002_f7a77a22": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0001_0d777e30": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "typos"
+      ],
+      "heading": "Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections",
+      "word_count": 238,
+      "text_type": "llm_prose",
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "cx_table_0003_fc16d489": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 26,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "compensation_benchmarking_study"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Band Adjustment Report Form', how many sections does the document display?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what form number is shown on the report?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Band Adjustment Report Form', how many total fields are included in the form?",
+      "answer": "20",
+      "assertions": [
+        {
+          "text": "The response must state '20'."
+        }
+      ]
+    },
+    {
+      "question": "Viewing the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what form type is indicated for this document?",
+      "answer": "filled_fillable",
+      "assertions": [
+        {
+          "text": "The response must state 'filled_fillable'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Market Benchmarking Methodology and Pay-Band Positioning Results\" section, what was the snapshot date used for employee pay and job mapping?",
+      "answer": "2026",
+      "assertions": [
+        {
+          "text": "2026."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Market Benchmarking Methodology and Pay-Band Positioning Results\" section, what percentile was defined as the market reference point for all comparisons?",
+      "answer": "50th percentile (P50)",
+      "assertions": [
+        {
+          "text": "The response must state 50th percentile (P50)."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Market Benchmarking Methodology and Pay-Band Positioning Results\" section, how many roles were included in the benchmarking study?",
+      "answer": "48 roles",
+      "assertions": [
+        {
+          "text": "The response must state 48 roles."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Form', how many sections are included in the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Form', what is the total number of fields shown on the form?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Form', how many fields are marked as required?",
+      "answer": "9",
+      "assertions": [
+        {
+          "text": "The response must state '9'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Form', list the section titles as they appear on the form.",
+      "answer": "Study Overview and Market Data; Compensation Analysis and Attrition Risk; Recommendations and Financial Impact",
+      "assertions": [
+        {
+          "text": "The response must state 'Study Overview and Market Data; Compensation Analysis and Attrition Risk; Recommendations and Financial Impact'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Equity Review Form', what form number appears on the document?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Equity Review Form', how many sections are included in the document?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Equity Review Form', what instructions are provided for completing and submitting the form?",
+      "answer": "Complete all required fields with current and proposed compensation data. Submit the finalized form with supporting market survey documentation to the HR Compensation Committee for review and approval.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete all required fields with current and proposed compensation data. Submit the finalized form with supporting market survey documentation to the HR Compensation Committee for review and approval.'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking and Pay Equity Review Form', which section title is listed third on the page?",
+      "answer": "Roles at Risk and Gap Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Roles at Risk and Gap Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Band Alignment Study Form', how many sections does the form contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Band Alignment Study Form', what is the title of the second section shown in the form?",
+      "answer": "Role Analysis and Attrition Risk",
+      "assertions": [
+        {
+          "text": "The response must state 'Role Analysis and Attrition Risk'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Band Alignment Study Form', how many fields are listed as required?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the rendered 'Compensation Benchmarking and Pay Band Alignment Study Form', is the form indicated as filled?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Band Alignment Study Form', what is the description shown on the form?",
+      "answer": "Complete this form to document market benchmarking results, identify attrition risks, and propose salary band and equity adjustments based on survey data.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document market benchmarking results, identify attrition risks, and propose salary band and equity adjustments based on survey data.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Band Alignment Study Form', how many sections are listed on the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Band Alignment Study Form', which fields are marked as required?",
+      "answer": "Organisation Name; Industry Sector; Geographic Market Scope; Number of Roles Benchmarked; Percentage of Roles Below Market Median; Primary Comparator Positioning Strategy; Roles Identified at High Risk of Attrition; Proposed Salary Band Adjustment Type; Estimated Total Budget Impact",
+      "assertions": [
+        {
+          "text": "The response must state 'Organisation Name; Industry Sector; Geographic Market Scope; Number of Roles Benchmarked; Percentage of Roles Below Market Median; Primary Comparator Positioning Strategy; Roles Identified at High Risk of Attrition; Proposed Salary Band Adjustment Type; Estimated Total Budget Impact'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking and Pay Band Alignment Study Form', how many fields of type 'number' does the form contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Equity Assessment Form', which required field requests the name of the person leading the study?",
+      "answer": "Study Lead Name",
+      "assertions": [
+        {
+          "text": "The response must state 'Study Lead Name'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', how many sections does the form contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Equity Assessment Form', what descriptive text explains the purpose of completing the form?",
+      "answer": "Complete this form to document the methodology, findings, and recommendations from the compensation benchmarking study comparing internal pay bands to market data.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document the methodology, findings, and recommendations from the compensation benchmarking study comparing internal pay bands to market data.'"
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Compensation Benchmarking and Pay Equity Assessment Form', which required field asks for the geographic area used for comparison?",
+      "answer": "Primary Geographic Market",
+      "assertions": [
+        {
+          "text": "The response must state 'Primary Geographic Market'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Equity Assessment Form', how many sections are in the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', what is the description shown on the form?",
+      "answer": "Complete this form to document market benchmarking findings, identify attrition risks, and recommend salary band and equity adjustments.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document market benchmarking findings, identify attrition risks, and recommend salary band and equity adjustments.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Equity Assessment Form', which entry appears as the second section title?",
+      "answer": "Market Benchmarking Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Market Benchmarking Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "Referencing the 'Compensation Benchmarking and Pay Equity Assessment Form', how many required fields are listed?",
+      "answer": "9",
+      "assertions": [
+        {
+          "text": "The response must state '9'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what is the form number printed on the document?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections are included in the report?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', which section appears first in the list of sections?",
+      "answer": "Study Overview",
+      "assertions": [
+        {
+          "text": "The response must state 'Study Overview'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many fields are designated as required?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report', how many sections does the report contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report', what is the form number shown on the report?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report', which section appears first in the document?",
+      "answer": "Study Overview",
+      "assertions": [
+        {
+          "text": "The response must state 'Study Overview'."
+        }
+      ]
+    },
+    {
+      "question": "Referring to the 'Compensation Benchmarking and Salary Band Adjustment Report', how many required fields are indicated on the form?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Proposal Form', what form number is shown on the page?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Proposal Form', how many required fields are indicated?",
+      "answer": "14",
+      "assertions": [
+        {
+          "text": "The response must state '14'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Proposal Form', what submission instructions are provided?",
+      "answer": "Complete all required fields with supporting market data and internal analysis. Submit the finalized form to the HR Director and Finance Business Partner for review and approval.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete all required fields with supporting market data and internal analysis. Submit the finalized form to the HR Director and Finance Business Partner for review and approval.'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Proposal Form', which section title comes immediately after 'Market Comparison Analysis'?",
+      "answer": "Attrition Risk Assessment",
+      "assertions": [
+        {
+          "text": "The response must state 'Attrition Risk Assessment'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections\" section, what percentage of voluntary attrition is reported for Engineering — Software Development?",
+      "answer": "22.4%",
+      "assertions": [
+        {
+          "text": "The response must state 22.4%."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections\" section, to what level should midpoint placement be brought relative to market P50?",
+      "answer": "0.95 of market P50",
+      "assertions": [
+        {
+          "text": "The response must state 0.95 of market P50."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections\" section, what is the start date of the current fiscal quarter for retroactive pay if material?",
+      "answer": "April 1, 2026",
+      "assertions": [
+        {
+          "text": "The response must state April 1, 2026."
+        }
+      ]
+    }
+  ]
+}

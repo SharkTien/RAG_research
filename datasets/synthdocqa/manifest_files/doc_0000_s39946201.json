@@ -1,0 +1,5074 @@
+{
+  "doc_id": "doc_0000_s39946201",
+  "title": "AML Compliance Review: Transaction Monitoring Effectiveness, Customer Due Diligence Quality, Suspicious Activity Reporting Statistics, and Recommended Programme Enhancements",
+  "subtitle": "AML Compliance Review | Transaction Monitoring, Customer Due Diligence, SAR Metrics & Programme Enhancements",
+  "topic_id": "anti_money_laundering_review",
+  "recipe_name": "compliance_report",
+  "seed": 39946201,
+  "document_brief": {
+    "narrative_theme": "This AML compliance review demonstrates how targeted improvements to transaction monitoring, customer due diligence, and SAR operations can measurably reduce alert backlogs, improve investigative quality, and strengthen regulatory readiness across 2024–2025.",
+    "sections": [
+      {
+        "heading": "Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)",
+        "key_facts": [
+          "In Q1 2025, the transaction monitoring system generated 48,620 alerts, up from 41,880 in Q4 2024.",
+          "The alert-to-case conversion rate decreased from 7.8% in Q4 2024 to 6.1% in Q1 2025.",
+          "The median alert clearance time increased to 3.6 days in March 2025 from 2.4 days in December 2024."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)",
+        "key_facts": [
+          "A CDD QA review of 300 files completed on 15 February 2025 found an 18.0% material deficiency rate (54 of 300).",
+          "In 2024, 1,246 SARs were filed, and 312 SARs were filed within 30 days of initial detection (25.0%).",
+          "The recommended programme roadmap targets reducing the material CDD deficiency rate to 10.0% by 30 September 2025."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Transaction monitoring alert volumes and conversion outcomes by quarter (Q1 2024–Q1 2025)",
+        "purpose": "Quantifies alert generation, case creation, and conversion rates to evidence monitoring effectiveness trends and where tuning should reduce low-value alerts.",
+        "key_data": {
+          "Q4 2024 – Alerts Generated": "41,880",
+          "Q1 2025 – Alerts Generated": "48,620",
+          "Q4 2024 – Alert-to-Case Conversion Rate": "7.8%",
+          "Q1 2025 – Alert-to-Case Conversion Rate": "6.1%"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Alert clearance timeliness and backlog position (Dec 2024 vs Mar 2025)",
+        "purpose": "process constraints with increasing alert volumes and declining conversion quality.",
+        "key_data": {
+          "December 2024 – Median Alert Clearance Time (days)": "2.4",
+          "March 2025 – Median Alert Clearance Time (days)": "3.6",
+          "December 2024 – Open Alert Backlog (count)": "9,850",
+          "March 2025 – Open Alert Backlog (count)": "14,230"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Top monitoring scenarios driving alerts and observed false-positive rates (Q1 2025 sample)",
+        "purpose": "Identifies which scenarios contribute most to alert volume and false positives to prioritize tuning, threshold changes, and segmentation improvements.",
+        "key_data": {
+          "Scenario: Structuring/Cash Pattern – Share of Alerts": "22%",
+          "Scenario: High-Risk Jurisdiction Transfers – Share of Alerts": "16%",
+          "Scenario: Rapid Movement/Velocity – False-Positive Rate": "72%",
+          "Scenario: High-Risk Jurisdiction Transfers – False-Positive Rate": "58%"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "CDD quality assurance results and deficiency taxonomy (QA completed 15 Feb 2025; n=300 files)",
+        "purpose": "Summarizes CDD file quality and the primary drivers of material deficiencies to focus remediation on documentation, ownership, and risk-rating controls.",
+        "key_data": {
+          "QA Sample Size (files)": "300",
+          "Material Deficiency Rate": "18.0% (54 of 300)",
+          "Top Deficiency: Beneficial Ownership Evidence Missing": "21 cases",
+          "Top Deficiency: Source of Wealth/Funds Not Substantiated": "17 cases"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Suspicious Activity Reporting (SAR) statistics and timeliness (calendar year 2024)",
+        "purpose": "Provides SAR volumes and timeliness metrics to assess reporting effectiveness and whether investigation workflows support regulatory expectations for prompt filing.",
+        "key_data": {
+          "Total SARs Filed (2024)": "1,246",
+          "SARs Filed Within 30 Days (2024)": "312 (25.0%)",
+          "SARs Filed 31–60 Days (2024)": "541 (43.4%)",
+          "Median Days to File (2024)": "44"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Programme enhancement roadmap with measurable targets (Q2 2025–Q4 2025)",
+        "purpose": "Translates review findings into dated initiatives with KPIs to reduce alert backlog, improve CDD quality, and increase SAR timeliness in a controlled, auditable manner.",
+        "key_data": {
+          "Target: Reduce material CDD deficiency rate to 10.0% by": "30 September 2025",
+          "Target: Increase SARs filed within 30 days to": "40.0% by 31 December 2025",
+          "Target: Reduce open alert backlog to": "8,000 by 31 December 2025",
+          "Initiative Owner (Monitoring Tuning Lead)": "J. Patel"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s39946201.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_hand_d20fb7e9.png",
+      "scan_llm_data_1ce165d0.png",
+      "scan_llm_text_6cdc4e84.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 36,
+    "actual_page_count": 31
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "checklist",
+      "variant_id": "checklist_0001_b35f4eea",
+      "title": "AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026",
+      "caption": "AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Validate transaction monitoring rule coverage and mapping to AML risk typologies (including newly onboarded product lines)",
+        "Test a representative sample of alerts for investigation quality and disposition accuracy, including false-positive and false-negative analysis",
+        "Review a random sample of customer due diligence (CDD) files for completeness, risk rating accuracy, and documented source-of-funds verification",
+        "Evaluate the effectiveness of scenario coverage and thresholds by measuring alert volumes, escalation rates, and investigator turnaround times",
+        "KPI definition and reporting cadence recommendations"
+      ],
+      "unchecked_items": [
+        "Back-test historical SAR cases against current monitoring parameters to identify missed alerts and tuning needs",
+        "Reconcile SAR filing statistics by typology and jurisdiction, and identify trends in timeliness, filing quality, and supervisory feedback",
+        "Assess the adequacy of enhanced due diligence (EDD) applied to high-risk customers and politically exposed persons (PEPs) for the review period",
+        "Draft prioritized remediation recommendations for rule tuning, CDD process improvements, and case management workflow enhancements",
+        "Coordinate a training and implementation plan for investigators and frontline staff to address identified quality gaps and new monitoring rules"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are listed on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "What completion percentage is shown on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'?",
+          "answer": "50.0",
+          "assertions": [
+            {
+              "text": "The response must state '50.0'."
+            }
+          ]
+        },
+        {
+          "question": "Name one task that is marked as checked on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'.",
+          "answer": "Validate transaction monitoring rule coverage and mapping to AML risk typologies (including newly onboarded product lines)",
+          "assertions": [
+            {
+              "text": "The response must state 'Validate transaction monitoring rule coverage and mapping to AML risk typologies (including newly onboarded product lines)'."
+            }
+          ]
+        },
+        {
+          "question": "Provide one example of an unchecked item on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'.",
+          "answer": "Back-test historical SAR cases against current monitoring parameters to identify missed alerts and tuning needs",
+          "assertions": [
+            {
+              "text": "The response must state 'Back-test historical SAR cases against current monitoring parameters to identify missed alerts and tuning needs'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "annotation",
+      "variant_id": "ann_co_0000_cecf6867",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what category is listed for the callout?",
+          "answer": "financial",
+          "assertions": [
+            {
+              "text": "The response must state 'financial'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what does the Tip callout instruct the reader to do?",
+          "answer": "You can bulk-upload supplier invoices using the CSV template in the Accounts Payable portal.",
+          "assertions": [
+            {
+              "text": "The response must state 'You can bulk-upload supplier invoices using the CSV template in the Accounts Payable portal.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "annotation",
+      "variant_id": "ann_ct_0000_b57ac19d",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns are shown in the 'this element' colored table?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', how many rows does the table contain?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many rows show a positive trend?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_0cd5b579",
+      "table_number": 1,
+      "caption": "Table 1: Time Series Performance Metrics",
+      "columns": [
+        "Reporting Period",
+        "Total Alerts Generated",
+        "SARs Filed",
+        "CDD Completion Rate (%)",
+        "False Positive Rate (%)"
+      ],
+      "row_count": 70,
+      "cells": [
+        [
+          "2024-01",
+          "1250",
+          "42",
+          "96.5",
+          "38.2"
+        ],
+        [
+          "2024-02",
+          "1185",
+          "39",
+          "97.1",
+          "36.9"
+        ],
+        [
+          "2024-03",
+          "1320",
+          "47",
+          "95.8",
+          "40.5"
+        ],
+        [
+          "2024-04",
+          "1288",
+          "44",
+          "96.9",
+          "37.6"
+        ],
+        [
+          "2024-05",
+          "1355",
+          "52",
+          "97.4",
+          "35.8"
+        ],
+        [
+          "2024-06",
+          "1420",
+          "55",
+          "96.2",
+          "34.1"
+        ],
+        [
+          "2024-07",
+          "1505",
+          "60",
+          "97.8",
+          "32.7"
+        ],
+        [
+          "2024-08",
+          "1478",
+          "58",
+          "98.1",
+          "31.9"
+        ],
+        [
+          "2024-09",
+          "1395",
+          "50",
+          "97.6",
+          "33.4"
+        ],
+        [
+          "2024-10",
+          "1552",
+          "63",
+          "98.4",
+          "29.8"
+        ],
+        [
+          "2024-11",
+          "1608",
+          "68",
+          "98.9",
+          "27.5"
+        ],
+        [
+          "2024-12",
+          "1725",
+          "74",
+          "99.1",
+          "25.9"
+        ],
+        [
+          "2025-01",
+          "1680",
+          "70",
+          "98.7",
+          "26.8"
+        ],
+        [
+          "2025-02",
+          "1742",
+          "76",
+          "99.3",
+          "24.6"
+        ],
+        [
+          "2025-03",
+          "1825",
+          "81",
+          "99.5",
+          "22.3"
+        ],
+        [
+          "2025-04",
+          "1,245",
+          "68",
+          "96.4",
+          "28.7"
+        ],
+        [
+          "2025-05",
+          "1,310",
+          "72",
+          "97.1",
+          "27.9"
+        ],
+        [
+          "2025-06",
+          "1,402",
+          "75",
+          "95.8",
+          "30.2"
+        ],
+        [
+          "2025-07",
+          "1,356",
+          "70",
+          "96.9",
+          "26.8"
+        ],
+        [
+          "2025-08",
+          "1,489",
+          "83",
+          "94.7",
+          "32.5"
+        ],
+        [
+          "2025-09",
+          "1,530",
+          "88",
+          "95.3",
+          "31.4"
+        ],
+        [
+          "2025-10",
+          "1,472",
+          "79",
+          "96.0",
+          "29.6"
+        ],
+        [
+          "2025-11",
+          "1,398",
+          "74",
+          "97.5",
+          "25.9"
+        ],
+        [
+          "2025-12",
+          "1,615",
+          "92",
+          "94.2",
+          "33.8"
+        ],
+        [
+          "2026-01",
+          "1,280",
+          "69",
+          "96.8",
+          "27.1"
+        ],
+        [
+          "2026-02",
+          "1,340",
+          "71",
+          "97.2",
+          "26.4"
+        ],
+        [
+          "2026-03",
+          "1,455",
+          "85",
+          "95.6",
+          "30.7"
+        ],
+        [
+          "2026-04",
+          "1,510",
+          "90",
+          "96.3",
+          "29.8"
+        ],
+        [
+          "2026-05",
+          "1,438",
+          "77",
+          "97.0",
+          "26.9"
+        ],
+        [
+          "2026-06",
+          "1,582",
+          "94",
+          "95.1",
+          "32.1"
+        ],
+        [
+          "2024-01",
+          "1025",
+          "58",
+          "94.2",
+          "38.5"
+        ],
+        [
+          "2024-02",
+          "980",
+          "61",
+          "95.1",
+          "36.9"
+        ],
+        [
+          "2024-03",
+          "1108",
+          "73",
+          "93.8",
+          "41.2"
+        ],
+        [
+          "2024-04",
+          "1203",
+          "69",
+          "92.4",
+          "44.7"
+        ],
+        [
+          "2024-05",
+          "1156",
+          "75",
+          "96.0",
+          "39.8"
+        ],
+        [
+          "2024-06",
+          "990",
+          "54",
+          "97.3",
+          "34.6"
+        ],
+        [
+          "2024-07",
+          "1044",
+          "63",
+          "95.7",
+          "37.1"
+        ],
+        [
+          "2024-08",
+          "1135",
+          "70",
+          "94.9",
+          "42.5"
+        ],
+        [
+          "2024-09",
+          "1250",
+          "82",
+          "93.5",
+          "45.3"
+        ],
+        [
+          "2024-10",
+          "1189",
+          "77",
+          "96.5",
+          "40.4"
+        ],
+        [
+          "2024-11",
+          "1072",
+          "68",
+          "97.8",
+          "33.9"
+        ],
+        [
+          "2024-12",
+          "1325",
+          "91",
+          "92.7",
+          "47.6"
+        ],
+        [
+          "2025-01",
+          "1210",
+          "86",
+          "95.4",
+          "39.2"
+        ],
+        [
+          "2025-02",
+          "1098",
+          "72",
+          "96.9",
+          "35.7"
+        ],
+        [
+          "2025-03",
+          "1176",
+          "80",
+          "94.6",
+          "41.8"
+        ],
+        [
+          "46",
+          "1285",
+          "64",
+          "94.2",
+          "27.8"
+        ],
+        [
+          "47",
+          "1342",
+          "59",
+          "95.1",
+          "26.4"
+        ],
+        [
+          "48",
+          "1198",
+          "53",
+          "93.7",
+          "29.1"
+        ],
+        [
+          "49",
+          "1410",
+          "71",
+          "96.3",
+          "24.9"
+        ],
+        [
+          "50",
+          "1376",
+          "68",
+          "95.8",
+          "25.6"
+        ],
+        [
+          "51",
+          "1259",
+          "61",
+          "94.5",
+          "28.3"
+        ],
+        [
+          "52",
+          "1304",
+          "66",
+          "95.0",
+          "26.7"
+        ],
+        [
+          "53",
+          "1438",
+          "74",
+          "96.7",
+          "23.8"
+        ],
+        [
+          "54",
+          "1395",
+          "69",
+          "95.9",
+          "24.5"
+        ],
+        [
+          "55",
+          "1221",
+          "57",
+          "93.9",
+          "29.7"
+        ],
+        [
+          "56",
+          "1278",
+          "62",
+          "94.8",
+          "27.2"
+        ],
+        [
+          "57",
+          "1452",
+          "76",
+          "97.1",
+          "22.9"
+        ],
+        [
+          "58",
+          "1389",
+          "70",
+          "96.0",
+          "24.1"
+        ],
+        [
+          "59",
+          "1316",
+          "65",
+          "95.4",
+          "26.0"
+        ],
+        [
+          "60",
+          "1475",
+          "79",
+          "97.4",
+          "21.7"
+        ],
+        [
+          "61",
+          "1248",
+          "52",
+          "96.8",
+          "28.4"
+        ],
+        [
+          "62",
+          "1315",
+          "47",
+          "97.1",
+          "30.2"
+        ],
+        [
+          "63",
+          "1189",
+          "55",
+          "95.9",
+          "27.6"
+        ],
+        [
+          "64",
+          "1402",
+          "63",
+          "96.5",
+          "31.8"
+        ],
+        [
+          "65",
+          "1276",
+          "49",
+          "97.4",
+          "26.9"
+        ],
+        [
+          "66",
+          "1358",
+          "58",
+          "96.2",
+          "29.7"
+        ],
+        [
+          "67",
+          "1223",
+          "46",
+          "97.0",
+          "25.8"
+        ],
+        [
+          "68",
+          "1441",
+          "67",
+          "95.6",
+          "32.5"
+        ],
+        [
+          "69",
+          "1299",
+          "53",
+          "96.9",
+          "28.1"
+        ],
+        [
+          "70",
+          "1387",
+          "60",
+          "97.3",
+          "30.9"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Reporting Period": 1450.0,
+        "max_Reporting Period": 70.0,
+        "min_Reporting Period": 46.0,
+        "sum_Total Alerts Generated": 93987.0,
+        "max_Total Alerts Generated": 1825.0,
+        "min_Total Alerts Generated": 980.0,
+        "sum_SARs Filed": 4689.0,
+        "max_SARs Filed": 94.0,
+        "min_SARs Filed": 39.0,
+        "sum_CDD Completion Rate (%)": 6734.5,
+        "max_CDD Completion Rate (%)": 99.5,
+        "min_CDD Completion Rate (%)": 92.4,
+        "sum_False Positive Rate (%)": 2197.6,
+        "max_False Positive Rate (%)": 47.6,
+        "min_False Positive Rate (%)": 21.7
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Total Alerts Generated value for the reporting period 2025-03 (the row showing 1825 alerts)?",
+          "answer": "1825",
+          "assertions": [
+            {
+              "text": "The response must state 1825."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the False Positive Rate (%) for the reporting period 2024-08?",
+          "answer": "31.9",
+          "assertions": [
+            {
+              "text": "The response must state 31.9."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Total Alerts Generated value for the reporting period 2025-04?",
+          "answer": "1,245",
+          "assertions": [
+            {
+              "text": "The response must state 1,245."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "table_0004_9b1f19b1",
+      "table_number": 2,
+      "caption": "Table 2: Suspicious Activity Reporting (SAR) statistics and timeliness (calendar year 2024)",
+      "columns": [
+        "Metric",
+        "2024 Value",
+        "Percentage of Total",
+        "Regulatory Benchmark",
+        "Status",
+        "Observation"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Total SARs Filed (0224)",
+          "1,246",
+          "100%",
+          "A",
+          "Within Expected Volume Range",
+          "Overall reporting volume consistent with customer and transaction growth."
+        ],
+        [
+          "SARs Filed Within 30 Days (2024)",
+          "312",
+          "25.0%",
+          "Regulatory expectation: Prompt filing (generally within 30 days of detection)",
+          "Below Expectation",
+          "Low proportion filed within 30 days indicates investigation delays."
+        ],
+        [
+          "SARs Filed 31–60 Days (2024)",
+          "541",
+          "434.%",
+          "Timely filing rpeferred within 30 days",
+          "Needs Improvement",
+          "Large concentration of filings occurs after the 30-day benchmark."
+        ],
+        [
+          "SARs Filed Over 60 Days (2024)",
+          "393",
+          "31.6%",
+          "Exceptions should be limited and well-documented",
+          "High",
+          "Significant backlog or extended investigations impacting timeliness."
+        ],
+        [
+          "Median Days to File (2024)",
+          "44",
+          "A",
+          "≤30 days preferred",
+          "Above Target",
+          "Median filing time exceeds regulatory expectation for prompt reporting."
+        ],
+        [
+          "Quality Assurance Review Findings (2024)",
+          "8% fo SARs required amendment",
+          "A",
+          "<5% amendment rate",
+          "Monitor Closely",
+          "Revisions primarily due to incomplete narratives and delayed escalation."
+        ]
+      ],
+      "derived_answers": {
+        "sum_2024 Value": 2536.0,
+        "max_2024 Value": 1246.0,
+        "min_2024 Value": 44.0,
+        "sum_Percentage of Total": 590.6,
+        "max_Percentage of Total": 434.0,
+        "min_Percentage of Total": 25.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Suspicious Activity Reporting (SAR) statistics and timeliness (calendar year 2024)\", what is the 2024 Value for \"SARs Filed Within 30 Days (2024)\"?",
+          "answer": "312",
+          "assertions": [
+            {
+              "text": "The response must state 312."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Suspicious Activity Reporting (SAR) statistics and timeliness (calendar year 2024)\", what is the Percentage of Total listed for \"SARs Filed 31–60 Days (2024)\"?",
+          "answer": "434.%",
+          "assertions": [
+            {
+              "text": "The response must state 434.%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Suspicious Activity Reporting (SAR) statistics and timeliness (calendar year 2024)\", what is the 2024 Value for \"Quality Assurance Review Findings (2024)\"?",
+          "answer": "8% fo SARs required amendment",
+          "assertions": [
+            {
+              "text": "The response must state 8% fo SARs required amendment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "table_0000_70d5067a",
+      "table_number": 3,
+      "caption": "Table 3: Transaction monitoring alert volumes and conversion outcomes by quarter (Q1 2024–Q1 2025)",
+      "columns": [
+        "Quarter",
+        "Alerts Generated",
+        "Cases Created",
+        "SARs Filed",
+        "Alert-to-Case Conversion Rate"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Q1 2023",
+          "32,450",
+          "2,920",
+          "640",
+          "9.0%"
+        ],
+        [
+          "Q2 2023",
+          "34,780",
+          "3,050",
+          "682",
+          "8.8%"
+        ],
+        [
+          "Q3 2023",
+          "36,910",
+          "3,140",
+          "701",
+          "8.5%"
+        ],
+        [
+          "Q4 2023",
+          "38,600",
+          "3,210",
+          "715",
+          "8.3%"
+        ],
+        [
+          "Q1 2024",
+          "",
+          "3,180",
+          "698",
+          "8.0%"
+        ],
+        [
+          "Q2 2024",
+          "",
+          "3,150",
+          "689",
+          "7.7%"
+        ],
+        [
+          "Q3 2024",
+          "42,300",
+          "3,240",
+          "705",
+          "7.7%"
+        ],
+        [
+          "Q4 2024",
+          "41,880",
+          "3,267",
+          "712",
+          "7.8%"
+        ],
+        [
+          "Q1 2025",
+          "48,620",
+          "2,966",
+          "655",
+          "6.1%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Alerts Generated": 275540.0,
+        "max_Alerts Generated": 48620.0,
+        "min_Alerts Generated": 32450.0,
+        "sum_Cases Created": 28123.0,
+        "max_Cases Created": 3267.0,
+        "min_Cases Created": 2920.0,
+        "sum_SARs Filed": 6197.0,
+        "max_SARs Filed": 715.0,
+        "min_SARs Filed": 640.0,
+        "sum_Alert-to-Case Conversion Rate": 71.9,
+        "max_Alert-to-Case Conversion Rate": 9.0,
+        "min_Alert-to-Case Conversion Rate": 6.1
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Transaction monitoring alert volumes and conversion outcomes by quarter (Q1 2024–Q1 2025)\", what is the value under \"Alerts Generated\" for Q3 2024?",
+          "answer": "42,300",
+          "assertions": [
+            {
+              "text": "The response must state 42,300."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transaction monitoring alert volumes and conversion outcomes by quarter (Q1 2024–Q1 2025)\", what is the \"Alert-to-Case Conversion Rate\" for Q1 2025?",
+          "answer": "6.1%",
+          "assertions": [
+            {
+              "text": "The response must state 6.1%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transaction monitoring alert volumes and conversion outcomes by quarter (Q1 2024–Q1 2025)\", how many SARs were filed in Q2 2023?",
+          "answer": "682",
+          "assertions": [
+            {
+              "text": "The response must state 682."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0003_1bd7013f",
+      "table_number": 4,
+      "caption": "Table 4: CDD quality assurance results and deficiency taxonomy (QA completed 15 Feb 2025; n=300 files)",
+      "columns": [
+        "Review Area",
+        "Metric",
+        "Value",
+        "Period",
+        "Notes"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "CDD File Quality Testing",
+          "QA Sample Size (files)",
+          "300",
+          "Q1 2026",
+          "Risk-based sample across retail and corporate clients"
+        ],
+        [
+          "CDD File Quality Testing",
+          "Material Deficiency Rate",
+          "18.0% (54 of 300)",
+          "Q1 2026",
+          "Above internal tolerance of 10%"
+        ],
+        [
+          "Primary Deficiency Driver",
+          "Beneficial Ownership Evidence Missing",
+          "21 cases",
+          "Q1 2026",
+          "Predominantly SME and complex ownership structures"
+        ],
+        [
+          "Primary Deficiency Driver",
+          "Funds Not Substantiated",
+          "17 cases",
+          "Q1 2026",
+          "Higher incidence in high-risk customer segment"
+        ],
+        [
+          "Risk Rating & Documentation Controls",
+          "Incorrect or Unsupported Risk Rating",
+          "9 cases",
+          "Q1 2026",
+          "Linked to outdated financial information and incomplete KYC refresh"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Value": 300.0,
+        "max_Value": 300.0,
+        "min_Value": 300.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"CDD quality assurance results and deficiency taxonomy (QA completed 15 Feb 2025; n=300 files)\", what is the QA Sample Size (files) under CDD File Quality Testing?",
+          "answer": "300",
+          "assertions": [
+            {
+              "text": "The response must state 300."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"CDD quality assurance results and deficiency taxonomy (QA completed 15 Feb 2025; n=300 files)\", what is the Material Deficiency Rate?",
+          "answer": "18.0% (54 of 300)",
+          "assertions": [
+            {
+              "text": "The response must state 18.0% (54 of 300)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"CDD quality assurance results and deficiency taxonomy (QA completed 15 Feb 2025; n=300 files)\", how many cases are listed for Beneficial Ownership Evidence Missing?",
+          "answer": "21 cases",
+          "assertions": [
+            {
+              "text": "The response must state 21 cases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "annotation",
+      "variant_id": "ann_ft_0000_ac598308",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many freetext annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what phrase is the first annotated phrase?",
+          "answer": "ISO 27001 certification",
+          "assertions": [
+            {
+              "text": "The response must state 'ISO 27001 certification'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "checklist",
+      "variant_id": "checklist_0000_7b9bd50d",
+      "title": "AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)",
+      "caption": "AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Test 200 sample transaction-monitoring alerts across high-risk product lines to assess rule precision and false-positive rates",
+        "Review 50 enhanced due diligence files for PEPs and high-risk corporates for documentation completeness and risk rationale",
+        "Validate that customer risk-scoring model inputs are current and re-run scores for a 5% customer sample to check score accuracy",
+        "Assess the effectiveness of alert prioritization by measuring analyst disposition times and escalation rates for high-severity alerts",
+        "Prepare a SAR quality dashboard showing filing accuracy, outcomes, supervisory feedback, and month-over-month trends for management reporting"
+      ],
+      "unchecked_items": [
+        "Compare detection rates for sanctioned jurisdictions against the prior quarter to evaluate tuning impacts",
+        "Analyze SAR filing statistics by typology, customer segment, and reporting lag to identify under-reported patterns and timeliness issues",
+        "Reconcile transaction-monitoring system tuning logs with change-control records to verify governance, approvals, and implementation dates",
+        "Update AML program recommendations with prioritized enhancements from the review, including detection rule changes, CDD improvements, and staffing adjustments",
+        "Document observed training gaps and draft targeted analyst training modules to reduce false positives and improve CDD assessments and SAR rationale"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)', how many total items are on the checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)', how many items are marked as completed?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)', name one task that is marked as checked.",
+          "answer": "Validate that customer risk-scoring model inputs are current and re-run scores for a 5% customer sample to check score accuracy",
+          "assertions": [
+            {
+              "text": "The response must state 'Validate that customer risk-scoring model inputs are current and re-run scores for a 5% customer sample to check score accuracy'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)', name one task listed as not yet checked.",
+          "answer": "Reconcile transaction-monitoring system tuning logs with change-control records to verify governance, approvals, and implementation dates",
+          "assertions": [
+            {
+              "text": "The response must state 'Reconcile transaction-monitoring system tuning logs with change-control records to verify governance, approvals, and implementation dates'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "annotation",
+      "variant_id": "ann_sn_0000_6de2a913",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', how many sticky-note annotations appear in the meeting category?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', which phrase is marked by the first sticky-note annotation?",
+          "answer": "AI recommendation engine",
+          "assertions": [
+            {
+              "text": "The response must state 'AI recommendation engine'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "cx_table_0003_8135f412",
+      "table_number": 5,
+      "caption": "Table 5: AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what sub-columns fall under \"Case Handling\" in the Transaction Monitoring (TM) effectiveness row's inner metrics table?",
+          "answer": "Median Age (days) and SLA Met (%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Median Age (days) and SLA Met (%).'."
+            }
+          ]
+        },
+        {
+          "question": " Smurfing\" label span in the inner typology disposition table for the Transaction Monitoring (TM) effectiveness row?",
+          "answer": "It spans 2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'It spans 2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what does footnote 2 explain?",
+          "answer": "uncorroborated beneficial ownership, outdated source-of-wealth rationale, or overdue periodic reviews).",
+          "assertions": [
+            {
+              "text": "uncorroborated beneficial ownership, outdated source-of-wealth rationale, or overdue periodic reviews).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what is the FY2025 YTD \"Generated\" alert count in the inner metrics table for the Transaction Monitoring (TM) effectiveness row?",
+          "answer": "48,320.",
+          "assertions": [
+            {
+              "text": "The response must state '48,320.'."
+            }
+          ]
+        },
+        {
+          "question": " Smurfing\" entry in the Transaction Monitoring (TM) effectiveness row's inner typology disposition table?",
+          "answer": "Pass.",
+          "assertions": [
+            {
+              "text": "The response must state 'Pass.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what is the metric label shown for transaction aging?",
+          "answer": "Median Age (days) and SLA Met (%)",
+          "assertions": [
+            {
+              "text": "The response must state 'Median Age (days) and SLA Met (%)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", how many rows do the header tiers span?",
+          "answer": "2 rows",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", which area has the largest sample size mentioned for file testing?",
+          "answer": "CDD quality (n=275)",
+          "assertions": [
+            {
+              "text": "The response must state 'CDD quality (n=275)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what does the CDD quality footnote explain?",
+          "answer": "Second-line file testing (n=275) and material issue definitions",
+          "assertions": [
+            {
+              "text": "The response must state 'Second-line file testing (n=275) and material issue definitions'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what is the subtotal shown for the CDD quality group in the sample-size cell?",
+          "answer": "n=275",
+          "assertions": [
+            {
+              "text": "The response must state 'n=275'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "annotation",
+      "variant_id": "ann_ar_0001_1866b09f",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, what callout label is displayed in the annotation?",
+          "answer": "Critical",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical'."
+            }
+          ]
+        },
+        {
+          "question": "In 'this element', how many phrases are highlighted in the rendered section?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element' view, does the annotated section include PDF notes?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "table",
+      "variant_id": "table_0005_a21f835f",
+      "table_number": 6,
+      "caption": "Table 6: Programme enhancement roadmap with measurable targets (Q2 2025–Q4 2025)",
+      "columns": [
+        "Initiative ID",
+        "Initiative Description",
+        " Target",
+        "Baseline (Q1 2025)",
+        "Due Date",
+        "Owner",
+        "Status",
+        "Reporting Cadence"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "AML-01",
+          "Comprehensive CDD file remediation and quality assurance uplift across high-risk customer segment",
+          "Target: Reduce material CDD deficiency rate to 10.0% by: 30 September 2025",
+          "Material CDD deficiency rate at 18.7%",
+          "30 September 2025",
+          "Head of Financial Crime Operations",
+          "In Progress (45% complete)",
+          "Monthly to AML Steering Committee"
+        ],
+        [
+          "AML-02",
+          "Transaction monitoring scenario tuning and threshold recalibration to reduce false positives",
+          "Target: Reduce open alert backlog to: 8,000 by 31 December 2025",
+          "Open alert backlog at 14,350 cases",
+          "31 December 2025",
+          "Initiative Owner (Monitoring Tuning Lead): J. Patel",
+          "In Progress (Design phase complete)",
+          "Bi-weekly KPI dashboard"
+        ],
+        [
+          "AML-03",
+          "SAR process optimisation and investigator capacity uplift",
+          "Target: Increase SARs filed within 30 days to: 40.0% by 31 December 2025",
+          "SARs filed within 30 days at 22.5%",
+          "31 December 2025",
+          "MLRO (S. Ahmed)",
+          "In Progress (Recruitment underway)",
+          "Monthly Board Risk Report"
+        ],
+        [
+          "AML-04",
+          "Implementation of automated CDD document expiry tracking and escalation workflow",
+          "Reduce overdue KYC reviews to below 5% of total population",
+          "Overdue KYC reviews at 11.2%",
+          "31 October 2025",
+          "CDD Programme Manager (L. Wong)",
+          "On Track",
+          "Monthly Operations Report"
+        ],
+        [
+          "AML-05",
+          "Enhanced quality assurance sampling for transaction monitoring alerts",
+          "Increase QA pass rate on alert investigations to 95%",
+          "Current QA pass rate at 88.1%",
+          "30 November 2025",
+          "QA Lead (R. Mensah)",
+          "In Progress (Sampling expanded)",
+          "Monthly QA Summary"
+        ],
+        [
+          "AML-06",
+          "Data integrity remediation for customer risk rating inputs",
+          "Reduce customer risk rating data exceptions to under 2%",
+          "Data exceptions at 6.4%",
+          "31 August 2025",
+          "Chief Data Officer (M. Rossi)",
+          "On Track",
+          "Monthly Data Governance Forum"
+        ],
+        [
+          "AML-07",
+          "Deployment of case management workflow automation for alert triage",
+          "Reduce average alert handling time to 18 days",
+          "Average handling time at 27 days",
+          "31 December 2025",
+          "Technology Delivery Lead (A. Novak)",
+          "In Progress (UAT phase)",
+          "Bi-weekly Programme Update"
+        ],
+        [
+          "AML-08",
+          "Targeted AML training for investigators on SAR narrative quality and typology identification",
+          "5",
+          "5",
+          "30 September 2025",
+          "Head of AML Training (C. Dubois)",
+          "Scheduled (Training rollout June 2025)",
+          "Quarterly Training Effectiveness Review"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Programme enhancement roadmap with measurable targets (Q2 2025–Q4 2025)\", what is the Due Date for initiative AML-06?",
+          "answer": "31 August 2025",
+          "assertions": [
+            {
+              "text": "The response must state 31 August 2025."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Programme enhancement roadmap with measurable targets (Q2 2025–Q4 2025)\", what is the Baseline (Q1 2025) for AML-03?",
+          "answer": "SARs filed within 30 days at 22.5%",
+          "assertions": [
+            {
+              "text": "The response must state SARs filed within 30 days at 22.5%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Programme enhancement roadmap with measurable targets (Q2 2025–Q4 2025)\", who is listed as the Owner for AML-02?",
+          "answer": "Initiative Owner (Monitoring Tuning Lead): J. Patel",
+          "assertions": [
+            {
+              "text": "The response must state Initiative Owner (Monitoring Tuning Lead): J. Patel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "table",
+      "variant_id": "cx_table_0001_c629762d",
+      "table_number": 7,
+      "caption": "Table 7: AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", how many period columns does each version group span?",
+          "answer": "4 (Q1–Q4).",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1–Q4).'."
+            }
+          ]
+        },
+        {
+          "question": "L2)\"?",
+          "answer": "590 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '590 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what is the \"CDD Quality Subtotal\" for Baseline Q1?",
+          "answer": "740 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '740 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", which version shows the highest Q4 value for \"Scenario tuning & model calibration\"?",
+          "answer": "Actuals (290 vs Baseline 270, $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (290 vs Baseline 270, $000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what is the delta (Net $K) for \"Programme Enhancements Subtotal\"?",
+          "answer": "129.",
+          "assertions": [
+            {
+              "text": "The response must state '129.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what quarters does the table cover?",
+          "answer": "4 (Q1–Q4)",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1–Q4)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", how many header rows are present?",
+          "answer": "3 header rows",
+          "assertions": [
+            {
+              "text": "The response must state '3 header rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", which amount is higher, 590 ($000) or 740 ($000)?",
+          "answer": "740 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '740 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what does footnote 4 explain?",
+          "answer": "Q1–Q4",
+          "assertions": [
+            {
+              "text": "The response must state 'Q1–Q4'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what is the subtotal for the programme enhancement group in the Baseline column?",
+          "answer": "590 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '590 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "annotation",
+      "variant_id": "ann_ar_0000_0c836dea",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element in the rendered PDF, what banner label is displayed?",
+          "answer": "APPROVED",
+          "assertions": [
+            {
+              "text": "The response must state 'APPROVED'."
+            }
+          ]
+        },
+        {
+          "question": "In this element as viewed in the PDF, what is the label of the callout box?",
+          "answer": "Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Note'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element in the document viewer, how many highlighted phrases can you see?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "button",
+      "variant_id": "button_0000_d834705b",
+      "title": "AML Review Actions",
+      "caption": "AML Review Actions",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Approve Remediation Plan & Publish",
+          "style": "primary"
+        },
+        {
+          "label": "Request Enhanced Transaction Monitoring Analysis",
+          "style": "secondary"
+        },
+        {
+          "label": "Escalate Significant SAR Trends to Board",
+          "style": "warning"
+        },
+        {
+          "label": "Return to Analyst for CDD Rework and Evidence",
+          "style": "danger"
+        },
+        {
+          "label": "TM Metrics + Evidence)",
+          "style": "success"
+        }
+      ],
+      "context": "Appears after an AML compliance reviewer completes an assessment of transaction monitoring effectiveness, customer due diligence quality, suspicious activity reporting statistics, and recommended programme enhancements.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are shown in the 'AML Review Actions' button group?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "What is the label of the first button in the 'AML Review Actions' group?",
+          "answer": "Approve Remediation Plan & Publish",
+          "assertions": [
+            {
+              "text": "The response must state 'Approve Remediation Plan & Publish'."
+            }
+          ]
+        },
+        {
+          "question": "Which button in the 'AML Review Actions' group is presented with a warning style?",
+          "answer": "Escalate Significant SAR Trends to Board",
+          "assertions": [
+            {
+              "text": "The response must state 'Escalate Significant SAR Trends to Board'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'AML Review Actions', which option allows returning the work to an analyst for CDD rework and evidence?",
+          "answer": "Return to Analyst for CDD Rework and Evidence",
+          "assertions": [
+            {
+              "text": "The response must state 'Return to Analyst for CDD Rework and Evidence'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "filled_form",
+      "variant_id": "filled_form_0000_88057182",
+      "title": "AML Compliance Review and Programme Enhancement Assessment",
+      "caption": "AML Compliance Review and Programme Enhancement Assessment",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Transaction Monitoring Effectiveness",
+        "Customer Due Diligence (CDD) Quality Assessment",
+        "Suspicious Activity Reporting (SAR) and Programme Enhancements"
+      ],
+      "required_fields": [
+        "Review Period Start Date",
+        "Review Period End Date",
+        "Primary Transaction Monitoring System",
+        "Overall Effectiveness Rating",
+        "Number of Customer Files Sampled",
+        "Percentage of Files with Complete KYC Documentation",
+        "Risk Rating Methodology Adequacy",
+        "Total SARs Filed During Review Period",
+        "SAR Quality Assessment",
+        "Recommended AML Programme Enhancements"
+      ],
+      "description": "Complete this form to document the findings of the AML compliance review, including transaction monitoring effectiveness, CDD quality, SAR statistics, and recommended enhancements.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "PatrickHand, cursive",
+        "ink_color": "#6b1c9e",
+        "font_size_pt": 10.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'AML Compliance Review and Programme Enhancement Assessment' form, how many sections are included in the document?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'AML Compliance Review and Programme Enhancement Assessment', how many required fields are specified?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'AML Compliance Review and Programme Enhancement Assessment' form, what is the title of the second section as shown in the document?",
+          "answer": "Customer Due Diligence (CDD) Quality Assessment",
+          "assertions": [
+            {
+              "text": "The response must state 'Customer Due Diligence (CDD) Quality Assessment'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'AML Compliance Review and Programme Enhancement Assessment', how many fields of type number are included?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "table",
+      "variant_id": "table_0002_67940629",
+      "table_number": 8,
+      "caption": "Table 8: Top monitoring scenarios driving alerts and observed false-positive rates (Q1 2025 sample)",
+      "columns": [
+        "Scenario",
+        "Share of Alerts (%)",
+        "False-Positive Rate (%)",
+        "True Positive SAR Conversion (%)",
+        "Risk Tier",
+        "Last Tuning Date",
+        "Primary Customer Segment",
+        "Status"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Cash Pattern",
+          "22%",
+          "65%",
+          "6%",
+          "High",
+          "2026-02-15",
+          "Retail & Small Business",
+          "Threshold review in progress"
+        ],
+        [
+          "High-Risk Jurisdiction Transfers",
+          "16%",
+          "58%",
+          "9%",
+          "High",
+          "2026-01-30",
+          "Retail & Commercial",
+          "Enhanced due diligence applied"
+        ],
+        [
+          "Velocity",
+          "14%",
+          "72%",
+          "4%",
+          "Medium-High",
+          "2025-12-10",
+          "Digital Banking",
+          "Model recalibration scheduled"
+        ],
+        [
+          "Unusual Wire Activity",
+          "12%",
+          "54%",
+          "8%",
+          "Medium-High",
+          "2026-03-05",
+          "Commercial Banking",
+          "Under monitoring"
+        ],
+        [
+          "Dormant Account Reactivation",
+          "9%",
+          "49%",
+          "5%",
+          "Medium",
+          "2025-11-22",
+          "Retail",
+          "Threshold adjusted Q1 2026"
+        ],
+        [
+          "Trade Finance Anomalies",
+          "8%",
+          "46%",
+          "11%",
+          "High",
+          "2026-02-01",
+          "Corporate",
+          "Scenario optimization ongoing"
+        ],
+        [
+          "PEP Activity Monitoring",
+          "7%",
+          "52%",
+          "13%",
+          "High",
+          "2026-01-18",
+          "Private Banking",
+          "Enhanced review controls implemented"
+        ],
+        [
+          "ATM Cross-Border Withdrawals",
+          "5%",
+          "67%",
+          "3%",
+          "Medium",
+          "2025-10-30",
+          "Retail",
+          "Segmentation refinement required"
+        ],
+        [
+          "Crypto Exchange Transfers",
+          "4%",
+          "61%",
+          "7%",
+          "Medium-High",
+          "2026-03-12",
+          "Retail & FinTech",
+          "New typology rules added"
+        ],
+        [
+          "Round-Dollar Transactions",
+          "3%",
+          "70%",
+          "2%",
+          "Low-Medium",
+          "2025-09-15",
+          "Retail",
+          "Candidate for decommission review"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Share of Alerts (%)": 100.0,
+        "max_Share of Alerts (%)": 22.0,
+        "min_Share of Alerts (%)": 3.0,
+        "sum_False-Positive Rate (%)": 594.0,
+        "max_False-Positive Rate (%)": 72.0,
+        "min_False-Positive Rate (%)": 46.0,
+        "sum_True Positive SAR Conversion (%)": 68.0,
+        "max_True Positive SAR Conversion (%)": 13.0,
+        "min_True Positive SAR Conversion (%)": 2.0
+      },
+      "qa_candidates": [
+        {
+          "question": "Velocity?",
+          "answer": "72%",
+          "assertions": [
+            {
+              "text": "The response must state 72%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top monitoring scenarios driving alerts and observed false-positive rates (Q1 2025 sample)\", what is the Last Tuning Date for Crypto Exchange Transfers?",
+          "answer": "2026-03-12",
+          "assertions": [
+            {
+              "text": "The response must state 2026-03-12."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top monitoring scenarios driving alerts and observed false-positive rates (Q1 2025 sample)\", what is the Primary Customer Segment for PEP Activity Monitoring?",
+          "answer": "Private Banking",
+          "assertions": [
+            {
+              "text": "The response must state Private Banking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "fillable_form",
+      "variant_id": "fillable_0000_0958c9e8",
+      "title": "Anti-Money Laundering (AML) Compliance Review Report Form",
+      "caption": "Anti-Money Laundering (AML) Compliance Review Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 15,
+      "sections": [
+        "Review Overview",
+        "Transaction Monitoring Effectiveness",
+        "Customer Due Diligence (CDD) Assessment",
+        "Suspicious Activity Reporting (SAR) & Programme Enhancements"
+      ],
+      "required_fields": [
+        "Review Period Start Date",
+        "Review Period End Date",
+        " Entity Reviewed",
+        "Lead Reviewer Name",
+        "Overall AML Risk Rating",
+        "Version",
+        "Number of Alerts Generated During Review Period",
+        "Key Monitoring Scenarios Tested",
+        "Number of Customer Files Sampled",
+        "Percentage of Files with Complete KYC Documentation (%)",
+        "Customer Risk Rating Methodology Adequate",
+        "Total SARs Filed During Review Period",
+        "Regulatory Reporting Deadlines Met",
+        "Summary of Key Findings and Control Gaps",
+        "Recommended Programme Enhancements"
+      ],
+      "description": "",
+      "form_number": "AML-CR-2026-01",
+      "instructions": "Complete all applicable sections of this form to document the AML compliance review findings. Submit the finalized form and supporting documentation to the Compliance Oversight Committee within five business days of review completion.",
+      "qa_candidates": [
+        {
+          "question": "On the 'Anti-Money Laundering (AML) Compliance Review Report Form', what form number is printed on the document?",
+          "answer": "AML-CR-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'AML-CR-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Anti-Money Laundering (AML) Compliance Review Report Form', how many sections does the form contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Anti-Money Laundering (AML) Compliance Review Report Form', what are the instructions for completing and submitting the form?",
+          "answer": "Complete all applicable sections of this form to document the AML compliance review findings. Submit the finalized form and supporting documentation to the Compliance Oversight Committee within five business days of review completion.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete all applicable sections of this form to document the AML compliance review findings. Submit the finalized form and supporting documentation to the Compliance Oversight Committee within five business days of review completion.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Anti-Money Laundering (AML) Compliance Review Report Form', what is the title of the third section listed?",
+          "answer": "Customer Due Diligence (CDD) Assessment",
+          "assertions": [
+            {
+              "text": "The response must state 'Customer Due Diligence (CDD) Assessment'."
+            }
+          ]
+        },
+        {
+          "question": "Reviewing the 'Anti-Money Laundering (AML) Compliance Review Report Form', how many required fields are specified on the form?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_9152e41c",
+      "table_number": 9,
+      "caption": "Table 9: Purchase Order Register",
+      "columns": [
+        "PO_Number",
+        "Vendor_Name",
+        "Description",
+        "Order_Date",
+        "Amount_USD"
+      ],
+      "row_count": 56,
+      "cells": [
+        [
+          "PO-AML-001",
+          "RegTech Analytics Ltd.",
+          "Transaction monitoring system effectiveness assessment",
+          "2026-01-12",
+          "48500"
+        ],
+        [
+          "PO-AML-002",
+          "Compliance Advisory Group",
+          "Customer due diligence file quality review",
+          "2026-01-18",
+          "32750"
+        ],
+        [
+          "PO-AML-003",
+          "DataSecure Solutions",
+          "AML data integrity testing services",
+          "2026-01-25",
+          "21400"
+        ],
+        [
+          "PO-AML-004",
+          "Forensic Risk Consultants",
+          "Independent suspicious activity reporting audit",
+          "2026-02-02",
+          "38900"
+        ],
+        [
+          "PO-AML-005",
+          "FinCrime Training Partners",
+          "Enhanced AML staff training workshops",
+          "2026-02-10",
+          "15600"
+        ],
+        [
+          "PO-AML-006",
+          "TechCore Systems Inc.",
+          "Transaction monitoring rule optimization",
+          "2026-02-18",
+          "44200"
+        ],
+        [
+          "PO-AML-007",
+          "Global Screening Services",
+          "Sanctions and PEP screening validation",
+          "2026-02-24",
+          "19850"
+        ],
+        [
+          "PO-AML-008",
+          "RiskMetrics Advisory",
+          "Enterprise AML risk assessment update",
+          "2026-03-03",
+          "36700"
+        ],
+        [
+          "PO-AML-009",
+          "AuditPro LLP",
+          "Quality assurance review of SAR documentation",
+          "2026-03-11",
+          "25400"
+        ],
+        [
+          "PO-AML-010",
+          "SecureData Hosting",
+          "AML case management system upgrade",
+          "2026-03-19",
+          "52900"
+        ],
+        [
+          "PO-AML-011",
+          "Insight Analytics Co.",
+          "Alert-to-case conversion rate analysis",
+          "2026-03-26",
+          "17350"
+        ],
+        [
+          "PO-AML-012",
+          "PolicyWorks Consulting",
+          "AML policy and procedure enhancement review",
+          "2026-04-02",
+          "28900"
+        ],
+        [
+          "PO-AML-013",
+          "CyberGuard Technologies",
+          "Data access control and segregation testing",
+          "2026-04-10",
+          "31200"
+        ],
+        [
+          "PO-AML-014",
+          "Benchmark Compliance Ltd.",
+          "Peer benchmarking of AML programme metrics",
+          "2026-04-18",
+          "22650"
+        ],
+        [
+          "PO-AML-015",
+          "Strategic Risk Advisors",
+          "Remediation roadmap development for AML findings",
+          "2026-04-25",
+          "40750"
+        ],
+        [
+          "PO-016",
+          "RegTech Analytics LLC",
+          "Transaction monitoring scenario tuning and validation support",
+          "2026-01-12",
+          "18450.00"
+        ],
+        [
+          "PO-017",
+          "SecureID Solutions Inc.",
+          "Enhanced customer identity verification software license",
+          "2026-01-15",
+          "9620.00"
+        ],
+        [
+          "PO-018",
+          "Forensic Data Advisors",
+          "Historical transaction data forensic review services",
+          "2026-01-18",
+          "22175.00"
+        ],
+        [
+          "PO-019",
+          "Compliance Training Partners",
+          "AML refresher training for compliance staff",
+          "2026-01-22",
+          "4850.00"
+        ],
+        [
+          "PO-020",
+          "Global Risk Consulting Group",
+          "Independent AML program effectiveness assessment",
+          "2026-01-25",
+          "31700.00"
+        ],
+        [
+          "PO-021",
+          "DataShield Technologies",
+          "Secure data room subscription for audit documentation",
+          "2026-01-27",
+          "2750.00"
+        ],
+        [
+          "PO-022",
+          "FinCrime Metrics Ltd.",
+          "Customer risk scoring model validation services",
+          "2026-02-02",
+          "14380.00"
+        ],
+        [
+          "PO-023",
+          "AuditTrail Systems",
+          "Case management system configuration updates",
+          "2026-02-05",
+          "7985.00"
+        ],
+        [
+          "PO-024",
+          "LexisNexis Risk Solutions",
+          "Sanctions and PEP screening database subscription renewal",
+          "2026-02-09",
+          "12640.00"
+        ],
+        [
+          "PO-025",
+          "Integrity Advisory Services",
+          "CDD file quality assurance review",
+          "2026-02-12",
+          "10950.00"
+        ],
+        [
+          "PO-026",
+          "CyberComply Inc.",
+          "Secure document retention and encryption services",
+          "2026-02-16",
+          "5340.00"
+        ],
+        [
+          "PO-027",
+          "KYC Data Services Co.",
+          "Beneficial ownership data verification reports",
+          "2026-02-20",
+          "6895.00"
+        ],
+        [
+          "PO-028",
+          "Risk Insight Analytics",
+          "Alert backtesting and model performance analytics",
+          "2026-02-24",
+          "15860.00"
+        ],
+        [
+          "PO-029",
+          "NorthBridge Legal Consultants",
+          "Regulatory gap analysis and remediation guidance",
+          "2026-02-27",
+          "24990.00"
+        ],
+        [
+          "PO-030",
+          "Summit Compliance Labs",
+          "Quality control testing of transaction monitoring alerts",
+          "2026-03-03",
+          "13275.00"
+        ],
+        [
+          "PO-031",
+          "RegTech Analytics LLC",
+          "Transaction monitoring system effectiveness assessment",
+          "2026-01-12",
+          "18450.00"
+        ],
+        [
+          "PO-032",
+          "Global Compliance Advisory",
+          "Customer due diligence (CDD) file quality review",
+          "2026-01-18",
+          "9725.50"
+        ],
+        [
+          "PO-033",
+          "FinSecure Consulting Group",
+          "AML risk assessment framework enhancement",
+          "2026-01-22",
+          "14300.00"
+        ],
+        [
+          "PO-034",
+          "DataTrace Solutions",
+          "Data integrity testing for AML transaction feeds",
+          "2026-01-29",
+          "11280.75"
+        ],
+        [
+          "PO-035",
+          "LexGuard Associates",
+          "Regulatory gap analysis and remediation guidance",
+          "2026-02-03",
+          "15890.00"
+        ],
+        [
+          "PO-036",
+          "ClearView Auditors Inc.",
+          "Independent validation of monitoring scenarios",
+          "2026-02-10",
+          "20640.00"
+        ],
+        [
+          "PO-037",
+          "Insight Compliance Tech",
+          "Customer risk scoring model validation",
+          "2026-02-14",
+          "13175.25"
+        ],
+        [
+          "PO-038",
+          "Northbridge Risk Advisors",
+          "Enhanced due diligence (EDD) sampling review",
+          "2026-02-21",
+          "8875.00"
+        ],
+        [
+          "PO-039",
+          "Summit AML Consulting",
+          "Suspicious activity reporting process evaluation",
+          "2026-02-26",
+          "12460.00"
+        ],
+        [
+          "PO-040",
+          "BluePeak Data Services",
+          "KYC documentation completeness audit",
+          "2026-03-02",
+          "7650.40"
+        ],
+        [
+          "PO-041",
+          "Harbor Regulatory Solutions",
+          "Sanctions screening effectiveness testing",
+          "2026-03-08",
+          "14990.00"
+        ],
+        [
+          "PO-042",
+          "Pinnacle Governance Group",
+          "Policy and procedure compliance benchmarking",
+          "2026-03-15",
+          "10235.00"
+        ],
+        [
+          "PO-043",
+          "Vertex Financial Crime Advisors",
+          "Model tuning and alert optimization services",
+          "2026-03-19",
+          "17820.60"
+        ],
+        [
+          "PO-044",
+          "Sterling Oversight Partners",
+          "Board reporting and AML metrics review",
+          "2026-03-24",
+          "9340.00"
+        ],
+        [
+          "PO-045",
+          "Crestline Compliance Labs",
+          "Independent AML program effectiveness assessment",
+          "2026-03-30",
+          "22150.00"
+        ],
+        [
+          "PO-0046",
+          "Lexbridge Consulting LLC",
+          "Independent validation of transaction monitoring scenarios and alert thresholds",
+          "2026-01-12",
+          "48250.00"
+        ],
+        [
+          "PO-0047",
+          "RegTech Analytics Inc.",
+          "Data quality assessment for AML customer due diligence records",
+          "2026-01-18",
+          "27340.50"
+        ],
+        [
+          "PO-0048",
+          "Summit Risk Advisors",
+          "Enterprise-wide AML risk assessment and gap analysis",
+          "2026-01-25",
+          "61500.00"
+        ],
+        [
+          "PO-0049",
+          "ClearPath Auditing Services",
+          "Internal audit support for AML compliance framework review",
+          "2026-02-02",
+          "38975.25"
+        ],
+        [
+          "PO-0050",
+          "DataSecure Solutions Ltd.",
+          "Secure data extraction and anonymization for compliance testing",
+          "2026-02-09",
+          "21460.00"
+        ],
+        [
+          "PO-0051",
+          "Global Compliance Training Co.",
+          "Specialized AML investigator training workshops",
+          "2026-02-15",
+          "12980.75"
+        ],
+        [
+          "PO-0052",
+          "FinCrime Technology Partners",
+          "Transaction monitoring system effectiveness benchmarking study",
+          "2026-02-21",
+          "53420.00"
+        ],
+        [
+          "PO-0053",
+          "Northbridge Legal Advisory",
+          "Regulatory interpretation memo on enhanced due diligence requirements",
+          "2026-03-03",
+          "17650.00"
+        ],
+        [
+          "PO-0054",
+          "Insight Metrics Group",
+          "KPI development for AML alert review performance metrics",
+          "2026-03-10",
+          "24890.40"
+        ],
+        [
+          "PO-0055",
+          "SecureWatch Testing Labs",
+          "Independent model validation for suspicious activity detection models",
+          "2026-03-18",
+          "45930.60"
+        ],
+        [
+          "PO-0056",
+          "Horizon Data Governance LLC",
+          "Customer risk rating methodology review and documentation update",
+          "2026-03-26",
+          "31275.00"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Amount_USD": 1269565.0,
+        "max_Amount_USD": 61500.0,
+        "min_Amount_USD": 2750.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Purchase Order Register\", what is the Amount_USD for PO-AML-001?",
+          "answer": "48500",
+          "assertions": [
+            {
+              "text": "The response must state 48500."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Purchase Order Register\", what is the Vendor_Name for PO-0055?",
+          "answer": "SecureWatch Testing Labs",
+          "assertions": [
+            {
+              "text": "The response must state SecureWatch Testing Labs."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Purchase Order Register\", what is the Order_Date for PO-028?",
+          "answer": "2026-02-24",
+          "assertions": [
+            {
+              "text": "The response must state 2026-02-24."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0000_49f48a40",
+      "title": "Anti-Money Laundering (AML) Compliance Review Report Form",
+      "caption": "Anti-Money Laundering (AML) Compliance Review Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 10,
+      "sections": [
+        "Review Overview",
+        "Transaction Monitoring Effectiveness",
+        "Customer Due Diligence (CDD) Assessment",
+        "Suspicious Activity Reporting & Programme Enhancements"
+      ],
+      "required_fields": [
+        "Review Period Start Date",
+        "Review Period End Date",
+        " Entity Reviewed",
+        "Version",
+        "Total Transactions Reviewed (Sample Size)",
+        "Number of Alerts Generated",
+        "Number of Customer Files Tested",
+        "Percentage of Files with Complete KYC Documentation",
+        "Total SARs Filed During Review Period",
+        "Identified Control Gaps"
+      ],
+      "description": "",
+      "form_number": "AML-CR-2026-01",
+      "instructions": "Complete all applicable sections to document the findings of the AML compliance review. Submit the finalized form, along with supporting documentation, to the Compliance Committee within five business days of review completion.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "IndieFlower, cursive",
+        "ink_color": "#6b1c9e",
+        "font_size_pt": 12.0
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Anti-Money Laundering (AML) Compliance Review Report Form', what form number appears on the document?",
+          "answer": "AML-CR-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'AML-CR-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Anti-Money Laundering (AML) Compliance Review Report Form', how many sections does the report contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Anti-Money Laundering (AML) Compliance Review Report Form', what submission instruction is provided on the form?",
+          "answer": "Complete all applicable sections to document the findings of the AML compliance review. Submit the finalized form, along with supporting documentation, to the Compliance Committee within five business days of review completion.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete all applicable sections to document the findings of the AML compliance review. Submit the finalized form, along with supporting documentation, to the Compliance Committee within five business days of review completion.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Anti-Money Laundering (AML) Compliance Review Report Form', which required field records the monitoring system and its version?",
+          "answer": "Version",
+          "assertions": [
+            {
+              "text": "Version'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "form",
+      "variant_id": "form_0000_0dffc0a9",
+      "title": "AML Compliance Review Assessment Form",
+      "caption": "AML Compliance Review Assessment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Transaction Monitoring Effectiveness",
+        "Customer Due Diligence (CDD) Quality",
+        "Suspicious Activity Reporting & Programme Enhancements"
+      ],
+      "required_fields": [
+        "Review Period Start Date",
+        "Review Period End Date",
+        "Primary Monitoring System Used",
+        "Number of Alerts Generated During Review Period",
+        "Percentage of Customer Files Reviewed",
+        "Overall CDD Documentation Quality Rating",
+        "Enhanced Due Diligence Applied to High-Risk Customers",
+        "Total Suspicious Activity Reports (SARs) Filed",
+        "SAR Filing Timeliness Compliance Status",
+        "Recommended AML Programme Enhancements"
+      ],
+      "description": "Complete all applicable sections to document the effectiveness of the AML programme and identify areas for enhancement.",
+      "qa_candidates": [
+        {
+          "question": "In the 'AML Compliance Review Assessment Form', what is the description text shown on the form?",
+          "answer": "Complete all applicable sections to document the effectiveness of the AML programme and identify areas for enhancement.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete all applicable sections to document the effectiveness of the AML programme and identify areas for enhancement.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'AML Compliance Review Assessment Form', how many sections are presented?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'AML Compliance Review Assessment Form', what is the title of the third section?",
+          "answer": "Suspicious Activity Reporting & Programme Enhancements",
+          "assertions": [
+            {
+              "text": "The response must state 'Suspicious Activity Reporting & Programme Enhancements'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'AML Compliance Review Assessment Form', how many fields are marked as required?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "table",
+      "variant_id": "cx_table_0000_34472f63",
+      "table_number": 10,
+      "caption": "Table 10: AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", which leaf metric columns fall under the super-group header \"Customer Due Diligence (CDD) Quality\"?",
+          "answer": "Files Reviewed (#); KYC Completeness (%); EDD Timeliness (≤30d) (%); Risk Rating Accuracy (%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Files Reviewed (#); KYC Completeness (%); EDD Timeliness (≤30d) (%); Risk Rating Accuracy (%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", how many rows does the category label \"Scenario Performance\" span?",
+          "answer": "5 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows.'."
+            }
+          ]
+        },
+        {
+          "question": " cash intensity (SMURFing)\" (first row of that sub-category) under the \"Transaction Monitoring (TM) Effectiveness\" super-group?",
+          "answer": "22.7 hours.",
+          "assertions": [
+            {
+              "text": "The response must state '22.7 hours.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what is the grand total for \"SARs Filed (#)\"?",
+          "answer": "191.",
+          "assertions": [
+            {
+              "text": "The response must state '191.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what does the \"Onboarding KYC files (Retail & SME) Sub-Total\" row show for \"Files Reviewed (#)\"?",
+          "answer": "860.",
+          "assertions": [
+            {
+              "text": "The response must state '860.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what is the reported average SAR escalation time?",
+          "answer": "22.7 hours",
+          "assertions": [
+            {
+              "text": "The response must state '22.7 hours'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", which columns fall under the 'Customer Due Diligence (CDD) Quality' header?",
+          "answer": "Files Reviewed (#); KYC Completeness (%); EDD Timeliness (≤30d) (%); Risk Rating Accuracy (%)",
+          "assertions": [
+            {
+              "text": "The response must state 'Files Reviewed (#); KYC Completeness (%); EDD Timeliness (≤30d) (%); Risk Rating Accuracy (%)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", which contains more rows: the full table or the CDD Quality section?",
+          "answer": "Full table, 26 rows",
+          "assertions": [
+            {
+              "text": "The response must state 'Full table, 26 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what does the annotation '(≤30d)' indicate for EDD Timeliness?",
+          "answer": "Measured as 30 days or less",
+          "assertions": [
+            {
+              "text": "The response must state 'Measured as 30 days or less'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what is the subtotal for the CDD Quality group in the rows column?",
+          "answer": "5 rows",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "button",
+      "variant_id": "button_0001_18bc0cad",
+      "title": "AML Review Controls",
+      "caption": "AML Review Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Approve Review Findings",
+          "style": "primary"
+        },
+        {
+          "label": "Request Transaction Re-analysis",
+          "style": "warning"
+        },
+        {
+          "label": "Assign Remediation Plan",
+          "style": "success"
+        },
+        {
+          "label": "Escalate to MLRO",
+          "style": "danger"
+        },
+        {
+          "label": "Export Dashboard & SAR Metrics",
+          "style": "secondary"
+        }
+      ],
+      "context": "Displayed after an AML reviewer completes the assessment of monitoring effectiveness, CDD quality, and SAR statistics.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are present in the 'AML Review Controls' group as rendered?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "What text is shown on the first button in the 'AML Review Controls'?",
+          "answer": "Approve Review Findings",
+          "assertions": [
+            {
+              "text": "The response must state 'Approve Review Findings'."
+            }
+          ]
+        },
+        {
+          "question": "Identify the label of the last button visible in the 'AML Review Controls' group.",
+          "answer": "Export Dashboard & SAR Metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'Export Dashboard & SAR Metrics'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'AML Review Controls', when is this button group displayed?",
+          "answer": "Displayed after an AML reviewer completes the assessment of monitoring effectiveness, CDD quality, and SAR statistics.",
+          "assertions": [
+            {
+              "text": "The response must state 'Displayed after an AML reviewer completes the assessment of monitoring effectiveness, CDD quality, and SAR statistics.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "type": "text",
+      "variant_id": "text_0001_e14b6ce6",
+      "heading": "Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)",
+      "word_count": 307,
+      "text_content": [
+        "**Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)**",
+        "On 15 February 2025, the Compliance Quality Assurance team completed a CDD QA review of 300 account files and identified a material deficiency rate of 18.0% (54 of 300). The deficiencies were concentrated in outdated source-of-funds documentation, inadequate risk-scoring rationale, and incomplete beneficial ownership verification for legal-entity customers. Findings indicate systemic weaknesses in front-line collection and first-line supervisory sign-off. Remediation priorities include immediate file cures for 54 identified accounts, additional targeted re-training for 150 onboarding officers, and a six-week retrospective review of new client acceptances from Q4 2024 to identify gaps. The CDD QA report was presented to Compliance Leadership on 20 February 2025.",
+        "In 2024 the Financial Crimes Reporting unit filed 1,246 suspicious activity reports (SARs), of which 312 were submitted within 30 days of initial detection, representing 25.0% timeliness. The remaining 75.0% were subject to extended investigation timelines driven by complex cross-jurisdictional inquiries, additional evidence collection, and enhanced due diligence on higher-risk entities. Internal review identified case-management bottlenecks in evidence aggregation and legal review backlogs as primary contributors to delayed filings. Immediate corrective steps recommended include strengthening case triage, expanding the SAR investigation team by 12 full-time equivalents, and implementing a 30-day monitoring KPI with weekly senior-management dashboards to improve adherence to statutory expectations.",
+        "The recommended programme roadmap establishes clear milestones to reduce the material CDD deficiency rate from 18.0% to 10.0% by 30 September 2025. Key initiatives include: 1. policy refresh and standardized CDD checklists by 31 March 2025; 2. phased deployment of automated document verification and risk-scoring by 30 June 2025; 3. mandatory CDD certification for all relationship managers with quarterly assessments; and 4. monthly QA cycles with rolling sampling of 200 files and remediation SLAs. Progress will be tracked through a formal steering committee chaired by the Head of Compliance, with baseline (30 June 2025) and final assessments tied to executive remuneration metrics."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)\" section, what material deficiency rate was identified in the CDD QA review of 300 account files?",
+          "answer": "18.0%",
+          "assertions": [
+            {
+              "text": "The response must state 18.0%."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)\" section, how many suspicious activity reports (SARs) were filed in 2024?",
+          "answer": "1,246",
+          "assertions": [
+            {
+              "text": "The response must state 1,246."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)\" section, by what date is the policy refresh and standardized CDD checklists initiative scheduled to be completed?",
+          "answer": "31 March 2025",
+          "assertions": [
+            {
+              "text": "The response must state 31 March 2025."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "type": "table",
+      "variant_id": "cx_table_0002_0ec75d3d",
+      "table_number": 11,
+      "caption": "Table 11: AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", how many period columns does each version group span?",
+          "answer": "Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).",
+          "assertions": [
+            {
+              "text": "The response must state 'Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the Actuals Q3 value for \"TM alert review FTE & overtime\"?",
+          "answer": "1,210 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '1,210 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the \"CDD Quality Subtotal\" for Baseline Q1?",
+          "answer": "1,440 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '1,440 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", which version shows the highest Q4 value for \"SAR investigations & drafting\"?",
+          "answer": "Actuals (640 vs Baseline 580, $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (640 vs Baseline 580, $000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the delta (Net $K) for \"Programme Enhancements Subtotal\"?",
+          "answer": "102 ($K).",
+          "assertions": [
+            {
+              "text": "The response must state '102 ($K).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the Baseline total in ($000)?",
+          "answer": "1,210 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '1,210 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", how many period columns does each version group span?",
+          "answer": "Four (Q1–Q4)",
+          "assertions": [
+            {
+              "text": "The response must state 'Four (Q1–Q4)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", which figure is larger, 1,210 ($000) or 1,440 ($000)?",
+          "answer": "1,440 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '1,440 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what does footnote 1 explain?",
+          "answer": "Not specified in the table facts.",
+          "assertions": [
+            {
+              "text": "The response must state 'Not specified in the table facts.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the subtotal for the Actuals group?",
+          "answer": "1,440 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '1,440 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "type": "text",
+      "variant_id": "text_0000_ba428087",
+      "heading": "Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)",
+      "word_count": 230,
+      "text_content": [
+        "**Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)**",
+        "In Q1 2025 the transaction monitoring system generated 48,620 alerts, an increase from 41,880 alerts in Q4 2024. This 16.1% quarter-on-quarter rise strained analyst capacity and widened the review backlog across Retail Banking and Commercial lines. The higher volume corresponded with product launches and elevated cross-border flows in January and February 2025. Operationally, queue lengths and overtime hours rose; the average daily intake in March 2025 exceeded capacity planning assumptions that were calibrated to Q4 2024 volumes. The escalation in alerts necessitates immediate tuning and prioritisation to maintain risk coverage without unsustainable resource increases.",
+        "The alert-to-case conversion rate fell from 7.8% in Q4 2024 to 6.1% in Q1 2025, indicating lower yield per alert despite the higher volume. This decline suggests either an increase in false positives or that tuning thresholds are no longer aligned with evolving customer behaviour and risk typologies. Compliance and Line 1 partners should review rule-level performance and consider: 1. rebalancing threshold sensitivities; 2. retiring low-value alerts; and 3. implementing risk-scoring enhancements to prioritise high-probability examinations. A data-driven re-tuning plan with defined acceptance criteria is required by end of Q2 2025 to restore conversion performance.",
+        "The median alert clearance time increased to 3.6 days in March 2025 from 2.4 days in December 2024, reflecting backlog effects; remedial actions should include temporary analyst capacity, targeted automation for low-risk alerts, and tightened SLA monitoring through April–June 2025 immediately."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)\" section, how many alerts were generated in Q1 2025?",
+          "answer": "48,620 alerts",
+          "assertions": [
+            {
+              "text": "The response must state 48,620 alerts."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)\" section, what was the alert-to-case conversion rate in Q1 2025?",
+          "answer": "6.1%",
+          "assertions": [
+            {
+              "text": "The response must state 6.1%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)\" section, what was the median alert clearance time in March 2025?",
+          "answer": "3.6 days",
+          "assertions": [
+            {
+              "text": "The response must state 3.6 days."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "type": "annotation",
+      "variant_id": "ann_ct_0001_105db3bd",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns are shown in the 'this element' colored table?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', how many total rows does the table contain?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many rows show a negative trend (highlighted red)?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "type": "annotation",
+      "variant_id": "ann_hl_0001_23aad4c8",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many phrases are highlighted?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, which highlighted phrase is marked with cyan?",
+          "answer": "vendor contract amendments",
+          "assertions": [
+            {
+              "text": "The response must state 'vendor contract amendments'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "type": "annotation",
+      "variant_id": "ann_sn_0001_147f735e",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many sticky-note annotations are present in the financial category?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'this element', which phrase received the first sticky-note annotation?",
+          "answer": "47 days",
+          "assertions": [
+            {
+              "text": "The response must state '47 days'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "type": "annotation",
+      "variant_id": "ann_rv_0000_99511672",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what review category is shown in the PDF?",
+          "answer": "meeting",
+          "assertions": [
+            {
+              "text": "The response must state 'meeting'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element' in the document, how many phrases are visually highlighted?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the PDF view of the 'this element', what text does the first reviewer sticky-note display?",
+          "answer": "Feasibility owner: Bob Smith",
+          "assertions": [
+            {
+              "text": "The response must state 'Feasibility owner: Bob Smith'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "type": "table",
+      "variant_id": "table_0001_0fe47909",
+      "table_number": 12,
+      "caption": "Table 12: Alert clearance timeliness and backlog position (Dec 2024 vs Mar 2025)",
+      "columns": [
+        "Reporting Month",
+        "SAR Conversion Rate (%)",
+        "Alerts Closed (count)",
+        "Open Alert Backlog (count)",
+        "Median Alert Clearance Time (days)",
+        "Alerts Generated (count)"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "May 2024",
+          "18.4",
+          "17680",
+          "8120",
+          "2.1",
+          "18250"
+        ],
+        [
+          "June 2024",
+          "17.9",
+          "18890",
+          "8640",
+          "2.2",
+          "19410"
+        ],
+        [
+          "July 2024",
+          "17.2",
+          "19320",
+          "9025",
+          "2.3",
+          "20135"
+        ],
+        [
+          "August 2024",
+          "16.8",
+          "19875",
+          "9540",
+          "2.3",
+          "20980"
+        ],
+        [
+          "September 2024",
+          "16.1",
+          "20510",
+          "10120",
+          "2.4",
+          "21860"
+        ],
+        [
+          "October 2024",
+          "15.6",
+          "21040",
+          "10755",
+          "2.5",
+          "22675"
+        ],
+        [
+          "November 2024",
+          "15.2",
+          "21530",
+          "11340",
+          "2.5",
+          "23420"
+        ],
+        [
+          "December 2024",
+          "14.8",
+          "21600",
+          "9850",
+          "2.4",
+          "24110"
+        ],
+        [
+          "January 2025",
+          "14.1",
+          "22040",
+          "11985",
+          "2.9",
+          "25675"
+        ],
+        [
+          "February 2025",
+          "13.5",
+          "22310",
+          "13140",
+          "3.2",
+          "26840"
+        ],
+        [
+          "March 2025",
+          "12.9",
+          "22650",
+          "14230",
+          "3.6",
+          "27990"
+        ]
+      ],
+      "derived_answers": {
+        "sum_SAR Conversion Rate (%)": 172.5,
+        "max_SAR Conversion Rate (%)": 18.4,
+        "min_SAR Conversion Rate (%)": 12.9,
+        "sum_Alerts Closed (count)": 227445.0,
+        "max_Alerts Closed (count)": 22650.0,
+        "min_Alerts Closed (count)": 17680.0,
+        "sum_Open Alert Backlog (count)": 116745.0,
+        "max_Open Alert Backlog (count)": 14230.0,
+        "min_Open Alert Backlog (count)": 8120.0,
+        "sum_Median Alert Clearance Time (days)": 28.4,
+        "max_Median Alert Clearance Time (days)": 3.6,
+        "min_Median Alert Clearance Time (days)": 2.1,
+        "sum_Alerts Generated (count)": 251345.0,
+        "max_Alerts Generated (count)": 27990.0,
+        "min_Alerts Generated (count)": 18250.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Alert clearance timeliness and backlog position (Dec 2024 vs Mar 2025)\", what is the SAR Conversion Rate (%) for December 2024?",
+          "answer": "14.8",
+          "assertions": [
+            {
+              "text": "The response must state 14.8."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Alert clearance timeliness and backlog position (Dec 2024 vs Mar 2025)\", how many Alerts Generated (count) are listed for February 2025?",
+          "answer": "26840",
+          "assertions": [
+            {
+              "text": "The response must state 26840."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Alert clearance timeliness and backlog position (Dec 2024 vs Mar 2025)\", what is the Median Alert Clearance Time (days) for May 2024?",
+          "answer": "2.1",
+          "assertions": [
+            {
+              "text": "The response must state 2.1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "type": "annotation",
+      "variant_id": "ann_rv_0001_674114ba",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, how many highlights are visible on the page?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On this element, are PDF reviewer sticky-note comments present?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what does the first reviewer comment say?",
+          "answer": "Contract clause reference",
+          "assertions": [
+            {
+              "text": "The response must state 'Contract clause reference'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "type": "annotation",
+      "variant_id": "ann_hl_0000_114a2466",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many phrases are highlighted?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which phrase is highlighted in red?",
+          "answer": "$20M revolving credit facility",
+          "assertions": [
+            {
+              "text": "The response must state '$20M revolving credit facility'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "type": "annotation",
+      "variant_id": "ann_co_0001_810912a5",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', what label appears in the callout box?",
+          "answer": "Approved",
+          "assertions": [
+            {
+              "text": "The response must state 'Approved'."
+            }
+          ]
+        },
+        {
+          "question": "In 'this element', what message is displayed inside the callout?",
+          "answer": "Audit complete. No material misstatements identified. Report signed off by external auditors.",
+          "assertions": [
+            {
+              "text": "The response must state 'Audit complete. No material misstatements identified. Report signed off by external auditors.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "type": "annotation",
+      "variant_id": "ann_ft_0001_09e19c7d",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many annotation boxes are attached in the financial freetext area?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', what phrase was first annotated in the financial freetext annotation?",
+          "answer": "$3.1M",
+          "assertions": [
+            {
+              "text": "The response must state '$3.1M'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "type": "annotation",
+      "variant_id": "ann_lb_0000_5e7dc210",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, what banner label is shown?",
+          "answer": "LOW RISK",
+          "assertions": [
+            {
+              "text": "The response must state 'LOW RISK'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing this element, which inline status label is displayed?",
+          "answer": "CRITICAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 38,
+      "type": "annotation",
+      "variant_id": "ann_lb_0001_284a3eb7",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', what banner label is displayed for the classification?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', what inline status label indicates the risk level?",
+          "answer": "HIGH RISK",
+          "assertions": [
+            {
+              "text": "The response must state 'HIGH RISK'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "checklist_0001_b35f4eea": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "ann_co_0000_cecf6867": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0000_b57ac19d": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "llm_mp_table_0000_0cd5b579": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "time_series_performance_metrics",
+      "row_count": 70,
+      "col_count": 5,
+      "columns": [
+        "Reporting Period",
+        "Total Alerts Generated",
+        "SARs Filed",
+        "CDD Completion Rate (%)",
+        "False Positive Rate (%)"
+      ],
+      "topic_id": ""
+    },
+    "table_0004_9b1f19b1": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Provides_SAR_volumes_and_timeliness_metrics_to_assess_report",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Metric",
+        "2024 Value",
+        "Percentage of Total",
+        "Regulatory Benchmark",
+        "Status",
+        "Observation"
+      ],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "table_0000_70d5067a": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "semantic"
+      ],
+      "base_type": "Quantifies_alert_generation,_case_creation,_and_conversion_r",
+      "row_count": 9,
+      "col_count": 5,
+      "columns": [
+        "Quarter",
+        "Alerts Generated",
+        "Cases Created",
+        "SARs Filed",
+        "Alert-to-Case Conversion Rate"
+      ],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "table_0003_1bd7013f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Summarizes_CDD_file_quality_and_the_primary_drivers_of_mater",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Review Area",
+        "Metric",
+        "Value",
+        "Period",
+        "Notes"
+      ],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "ann_ft_0000_ac598308": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "checklist_0000_7b9bd50d": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "ann_sn_0000_6de2a913": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "cx_table_0003_8135f412": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "ann_ar_0001_1866b09f": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0005_a21f835f": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Translates_review_findings_into_dated_initiatives_with_KPIs_",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Initiative ID",
+        "Initiative Description",
+        " Target",
+        "Baseline (Q1 2025)",
+        "Due Date",
+        "Owner",
+        "Status",
+        "Reporting Cadence"
+      ],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "cx_table_0001_c629762d": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "ann_ar_0000_0c836dea": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "button_0000_d834705b": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0000_88057182": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "table_0002_67940629": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Identifies_which_scenarios_contribute_most_to_alert_volume_a",
+      "row_count": 10,
+      "col_count": 8,
+      "columns": [
+        "Scenario",
+        "Share of Alerts (%)",
+        "False-Positive Rate (%)",
+        "True Positive SAR Conversion (%)",
+        "Risk Tier",
+        "Last Tuning Date",
+        "Primary Customer Segment",
+        "Status"
+      ],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "fillable_0000_0958c9e8": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "llm_mp_table_0001_9152e41c": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "purchase_order_register",
+      "row_count": 56,
+      "col_count": 5,
+      "columns": [
+        "PO_Number",
+        "Vendor_Name",
+        "Description",
+        "Order_Date",
+        "Amount_USD"
+      ],
+      "topic_id": ""
+    },
+    "filled_fillable_0000_49f48a40": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "form_0000_0dffc0a9": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "cx_table_0000_34472f63": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 26,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "button_0001_18bc0cad": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0001_e14b6ce6": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "abbreviations"
+      ],
+      "heading": "Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)",
+      "word_count": 307,
+      "text_type": "llm_prose",
+      "topic_id": "anti_money_laundering_review"
+    },
+    "cx_table_0002_0ec75d3d": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "text_0000_ba428087": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation"
+      ],
+      "heading": "Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)",
+      "word_count": 230,
+      "text_type": "llm_prose",
+      "topic_id": "anti_money_laundering_review"
+    },
+    "ann_ct_0001_105db3bd": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0001_23aad4c8": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0001_147f735e": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_rv_0000_99511672": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0001_0fe47909": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "formatting"
+      ],
+      "base_type": "Shows_operational_throughput_(median_clearance_time_and_back",
+      "row_count": 11,
+      "col_count": 6,
+      "columns": [
+        "Reporting Month",
+        "SAR Conversion Rate (%)",
+        "Alerts Closed (count)",
+        "Open Alert Backlog (count)",
+        "Median Alert Clearance Time (days)",
+        "Alerts Generated (count)"
+      ],
+      "topic_id": "anti_money_laundering_review"
+    },
+    "ann_rv_0001_674114ba": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0000_114a2466": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0001_810912a5": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0001_09e19c7d": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0000_5e7dc210": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0001_284a3eb7": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "scan_llm_0002_bbff8c05": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_d20fb7e9.png",
+      "topic_id": ""
+    },
+    "scan_llm_0001_e617bb8f": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_1ce165d0.png",
+      "topic_id": ""
+    },
+    "scan_llm_0000_6b9e626a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_6cdc4e84.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "How many total items are listed on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "What completion percentage is shown on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'?",
+      "answer": "50.0",
+      "assertions": [
+        {
+          "text": "The response must state '50.0'."
+        }
+      ]
+    },
+    {
+      "question": "Name one task that is marked as checked on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'.",
+      "answer": "Validate transaction monitoring rule coverage and mapping to AML risk typologies (including newly onboarded product lines)",
+      "assertions": [
+        {
+          "text": "The response must state 'Validate transaction monitoring rule coverage and mapping to AML risk typologies (including newly onboarded product lines)'."
+        }
+      ]
+    },
+    {
+      "question": "Provide one example of an unchecked item on the 'AML Compliance Review Checklist — Transaction Monitoring & CDD Assessment Q1 2026'.",
+      "answer": "Back-test historical SAR cases against current monitoring parameters to identify missed alerts and tuning needs",
+      "assertions": [
+        {
+          "text": "The response must state 'Back-test historical SAR cases against current monitoring parameters to identify missed alerts and tuning needs'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what category is listed for the callout?",
+      "answer": "financial",
+      "assertions": [
+        {
+          "text": "The response must state 'financial'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what does the Tip callout instruct the reader to do?",
+      "answer": "You can bulk-upload supplier invoices using the CSV template in the Accounts Payable portal.",
+      "assertions": [
+        {
+          "text": "The response must state 'You can bulk-upload supplier invoices using the CSV template in the Accounts Payable portal.'."
+        }
+      ]
+    },
+    {
+      "question": "How many columns are shown in the 'this element' colored table?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', how many rows does the table contain?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many rows show a positive trend?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Total Alerts Generated value for the reporting period 2025-03 (the row showing 1825 alerts)?",
+      "answer": "1825",
+      "assertions": [
+        {
+          "text": "The response must state 1825."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the False Positive Rate (%) for the reporting period 2024-08?",
+      "answer": "31.9",
+      "assertions": [
+        {
+          "text": "The response must state 31.9."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Total Alerts Generated value for the reporting period 2025-04?",
+      "answer": "1,245",
+      "assertions": [
+        {
+          "text": "The response must state 1,245."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Suspicious Activity Reporting (SAR) statistics and timeliness (calendar year 2024)\", what is the 2024 Value for \"SARs Filed Within 30 Days (2024)\"?",
+      "answer": "312",
+      "assertions": [
+        {
+          "text": "The response must state 312."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Suspicious Activity Reporting (SAR) statistics and timeliness (calendar year 2024)\", what is the Percentage of Total listed for \"SARs Filed 31–60 Days (2024)\"?",
+      "answer": "434.%",
+      "assertions": [
+        {
+          "text": "The response must state 434.%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Suspicious Activity Reporting (SAR) statistics and timeliness (calendar year 2024)\", what is the 2024 Value for \"Quality Assurance Review Findings (2024)\"?",
+      "answer": "8% fo SARs required amendment",
+      "assertions": [
+        {
+          "text": "The response must state 8% fo SARs required amendment."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transaction monitoring alert volumes and conversion outcomes by quarter (Q1 2024–Q1 2025)\", what is the value under \"Alerts Generated\" for Q3 2024?",
+      "answer": "42,300",
+      "assertions": [
+        {
+          "text": "The response must state 42,300."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transaction monitoring alert volumes and conversion outcomes by quarter (Q1 2024–Q1 2025)\", what is the \"Alert-to-Case Conversion Rate\" for Q1 2025?",
+      "answer": "6.1%",
+      "assertions": [
+        {
+          "text": "The response must state 6.1%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transaction monitoring alert volumes and conversion outcomes by quarter (Q1 2024–Q1 2025)\", how many SARs were filed in Q2 2023?",
+      "answer": "682",
+      "assertions": [
+        {
+          "text": "The response must state 682."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"CDD quality assurance results and deficiency taxonomy (QA completed 15 Feb 2025; n=300 files)\", what is the QA Sample Size (files) under CDD File Quality Testing?",
+      "answer": "300",
+      "assertions": [
+        {
+          "text": "The response must state 300."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"CDD quality assurance results and deficiency taxonomy (QA completed 15 Feb 2025; n=300 files)\", what is the Material Deficiency Rate?",
+      "answer": "18.0% (54 of 300)",
+      "assertions": [
+        {
+          "text": "The response must state 18.0% (54 of 300)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"CDD quality assurance results and deficiency taxonomy (QA completed 15 Feb 2025; n=300 files)\", how many cases are listed for Beneficial Ownership Evidence Missing?",
+      "answer": "21 cases",
+      "assertions": [
+        {
+          "text": "The response must state 21 cases."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many freetext annotation boxes are attached?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what phrase is the first annotated phrase?",
+      "answer": "ISO 27001 certification",
+      "assertions": [
+        {
+          "text": "The response must state 'ISO 27001 certification'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)', how many total items are on the checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)', how many items are marked as completed?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)', name one task that is marked as checked.",
+      "answer": "Validate that customer risk-scoring model inputs are current and re-run scores for a 5% customer sample to check score accuracy",
+      "assertions": [
+        {
+          "text": "The response must state 'Validate that customer risk-scoring model inputs are current and re-run scores for a 5% customer sample to check score accuracy'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'AML Compliance Review Checklist — Transaction Monitoring, CDD & SAR Analysis (Q1 2026)', name one task listed as not yet checked.",
+      "answer": "Reconcile transaction-monitoring system tuning logs with change-control records to verify governance, approvals, and implementation dates",
+      "assertions": [
+        {
+          "text": "The response must state 'Reconcile transaction-monitoring system tuning logs with change-control records to verify governance, approvals, and implementation dates'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', how many sticky-note annotations appear in the meeting category?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', which phrase is marked by the first sticky-note annotation?",
+      "answer": "AI recommendation engine",
+      "assertions": [
+        {
+          "text": "The response must state 'AI recommendation engine'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what sub-columns fall under \"Case Handling\" in the Transaction Monitoring (TM) effectiveness row's inner metrics table?",
+      "answer": "Median Age (days) and SLA Met (%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Median Age (days) and SLA Met (%).'."
+        }
+      ]
+    },
+    {
+      "question": " Smurfing\" label span in the inner typology disposition table for the Transaction Monitoring (TM) effectiveness row?",
+      "answer": "It spans 2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'It spans 2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what does footnote 2 explain?",
+      "answer": "uncorroborated beneficial ownership, outdated source-of-wealth rationale, or overdue periodic reviews).",
+      "assertions": [
+        {
+          "text": "uncorroborated beneficial ownership, outdated source-of-wealth rationale, or overdue periodic reviews).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what is the FY2025 YTD \"Generated\" alert count in the inner metrics table for the Transaction Monitoring (TM) effectiveness row?",
+      "answer": "48,320.",
+      "assertions": [
+        {
+          "text": "The response must state '48,320.'."
+        }
+      ]
+    },
+    {
+      "question": " Smurfing\" entry in the Transaction Monitoring (TM) effectiveness row's inner typology disposition table?",
+      "answer": "Pass.",
+      "assertions": [
+        {
+          "text": "The response must state 'Pass.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what is the metric label shown for transaction aging?",
+      "answer": "Median Age (days) and SLA Met (%)",
+      "assertions": [
+        {
+          "text": "The response must state 'Median Age (days) and SLA Met (%)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", how many rows do the header tiers span?",
+      "answer": "2 rows",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", which area has the largest sample size mentioned for file testing?",
+      "answer": "CDD quality (n=275)",
+      "assertions": [
+        {
+          "text": "The response must state 'CDD quality (n=275)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what does the CDD quality footnote explain?",
+      "answer": "Second-line file testing (n=275) and material issue definitions",
+      "assertions": [
+        {
+          "text": "The response must state 'Second-line file testing (n=275) and material issue definitions'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Reporting, and Programme Enhancement Recommendations (FY2025 YTD)\", what is the subtotal shown for the CDD quality group in the sample-size cell?",
+      "answer": "n=275",
+      "assertions": [
+        {
+          "text": "The response must state 'n=275'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, what callout label is displayed in the annotation?",
+      "answer": "Critical",
+      "assertions": [
+        {
+          "text": "The response must state 'Critical'."
+        }
+      ]
+    },
+    {
+      "question": "In 'this element', how many phrases are highlighted in the rendered section?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element' view, does the annotated section include PDF notes?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Programme enhancement roadmap with measurable targets (Q2 2025–Q4 2025)\", what is the Due Date for initiative AML-06?",
+      "answer": "31 August 2025",
+      "assertions": [
+        {
+          "text": "The response must state 31 August 2025."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Programme enhancement roadmap with measurable targets (Q2 2025–Q4 2025)\", what is the Baseline (Q1 2025) for AML-03?",
+      "answer": "SARs filed within 30 days at 22.5%",
+      "assertions": [
+        {
+          "text": "The response must state SARs filed within 30 days at 22.5%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Programme enhancement roadmap with measurable targets (Q2 2025–Q4 2025)\", who is listed as the Owner for AML-02?",
+      "answer": "Initiative Owner (Monitoring Tuning Lead): J. Patel",
+      "assertions": [
+        {
+          "text": "The response must state Initiative Owner (Monitoring Tuning Lead): J. Patel."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", how many period columns does each version group span?",
+      "answer": "4 (Q1–Q4).",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1–Q4).'."
+        }
+      ]
+    },
+    {
+      "question": "L2)\"?",
+      "answer": "590 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '590 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what is the \"CDD Quality Subtotal\" for Baseline Q1?",
+      "answer": "740 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '740 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", which version shows the highest Q4 value for \"Scenario tuning & model calibration\"?",
+      "answer": "Actuals (290 vs Baseline 270, $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (290 vs Baseline 270, $000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what is the delta (Net $K) for \"Programme Enhancements Subtotal\"?",
+      "answer": "129.",
+      "assertions": [
+        {
+          "text": "The response must state '129.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what quarters does the table cover?",
+      "answer": "4 (Q1–Q4)",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1–Q4)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", how many header rows are present?",
+      "answer": "3 header rows",
+      "assertions": [
+        {
+          "text": "The response must state '3 header rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", which amount is higher, 590 ($000) or 740 ($000)?",
+      "answer": "740 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '740 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what does footnote 4 explain?",
+      "answer": "Q1–Q4",
+      "assertions": [
+        {
+          "text": "The response must state 'Q1–Q4'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Effectiveness and Enhancement Spend (Baseline vs Actuals, Quarterly)\", what is the subtotal for the programme enhancement group in the Baseline column?",
+      "answer": "590 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '590 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "On this element in the rendered PDF, what banner label is displayed?",
+      "answer": "APPROVED",
+      "assertions": [
+        {
+          "text": "The response must state 'APPROVED'."
+        }
+      ]
+    },
+    {
+      "question": "In this element as viewed in the PDF, what is the label of the callout box?",
+      "answer": "Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Note'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element in the document viewer, how many highlighted phrases can you see?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "How many buttons are shown in the 'AML Review Actions' button group?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "What is the label of the first button in the 'AML Review Actions' group?",
+      "answer": "Approve Remediation Plan & Publish",
+      "assertions": [
+        {
+          "text": "The response must state 'Approve Remediation Plan & Publish'."
+        }
+      ]
+    },
+    {
+      "question": "Which button in the 'AML Review Actions' group is presented with a warning style?",
+      "answer": "Escalate Significant SAR Trends to Board",
+      "assertions": [
+        {
+          "text": "The response must state 'Escalate Significant SAR Trends to Board'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'AML Review Actions', which option allows returning the work to an analyst for CDD rework and evidence?",
+      "answer": "Return to Analyst for CDD Rework and Evidence",
+      "assertions": [
+        {
+          "text": "The response must state 'Return to Analyst for CDD Rework and Evidence'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'AML Compliance Review and Programme Enhancement Assessment' form, how many sections are included in the document?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'AML Compliance Review and Programme Enhancement Assessment', how many required fields are specified?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'AML Compliance Review and Programme Enhancement Assessment' form, what is the title of the second section as shown in the document?",
+      "answer": "Customer Due Diligence (CDD) Quality Assessment",
+      "assertions": [
+        {
+          "text": "The response must state 'Customer Due Diligence (CDD) Quality Assessment'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'AML Compliance Review and Programme Enhancement Assessment', how many fields of type number are included?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "Velocity?",
+      "answer": "72%",
+      "assertions": [
+        {
+          "text": "The response must state 72%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top monitoring scenarios driving alerts and observed false-positive rates (Q1 2025 sample)\", what is the Last Tuning Date for Crypto Exchange Transfers?",
+      "answer": "2026-03-12",
+      "assertions": [
+        {
+          "text": "The response must state 2026-03-12."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top monitoring scenarios driving alerts and observed false-positive rates (Q1 2025 sample)\", what is the Primary Customer Segment for PEP Activity Monitoring?",
+      "answer": "Private Banking",
+      "assertions": [
+        {
+          "text": "The response must state Private Banking."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Anti-Money Laundering (AML) Compliance Review Report Form', what form number is printed on the document?",
+      "answer": "AML-CR-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'AML-CR-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Anti-Money Laundering (AML) Compliance Review Report Form', how many sections does the form contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Anti-Money Laundering (AML) Compliance Review Report Form', what are the instructions for completing and submitting the form?",
+      "answer": "Complete all applicable sections of this form to document the AML compliance review findings. Submit the finalized form and supporting documentation to the Compliance Oversight Committee within five business days of review completion.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete all applicable sections of this form to document the AML compliance review findings. Submit the finalized form and supporting documentation to the Compliance Oversight Committee within five business days of review completion.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Anti-Money Laundering (AML) Compliance Review Report Form', what is the title of the third section listed?",
+      "answer": "Customer Due Diligence (CDD) Assessment",
+      "assertions": [
+        {
+          "text": "The response must state 'Customer Due Diligence (CDD) Assessment'."
+        }
+      ]
+    },
+    {
+      "question": "Reviewing the 'Anti-Money Laundering (AML) Compliance Review Report Form', how many required fields are specified on the form?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Purchase Order Register\", what is the Amount_USD for PO-AML-001?",
+      "answer": "48500",
+      "assertions": [
+        {
+          "text": "The response must state 48500."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Purchase Order Register\", what is the Vendor_Name for PO-0055?",
+      "answer": "SecureWatch Testing Labs",
+      "assertions": [
+        {
+          "text": "The response must state SecureWatch Testing Labs."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Purchase Order Register\", what is the Order_Date for PO-028?",
+      "answer": "2026-02-24",
+      "assertions": [
+        {
+          "text": "The response must state 2026-02-24."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Anti-Money Laundering (AML) Compliance Review Report Form', what form number appears on the document?",
+      "answer": "AML-CR-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'AML-CR-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Anti-Money Laundering (AML) Compliance Review Report Form', how many sections does the report contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Anti-Money Laundering (AML) Compliance Review Report Form', what submission instruction is provided on the form?",
+      "answer": "Complete all applicable sections to document the findings of the AML compliance review. Submit the finalized form, along with supporting documentation, to the Compliance Committee within five business days of review completion.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete all applicable sections to document the findings of the AML compliance review. Submit the finalized form, along with supporting documentation, to the Compliance Committee within five business days of review completion.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Anti-Money Laundering (AML) Compliance Review Report Form', which required field records the monitoring system and its version?",
+      "answer": "Version",
+      "assertions": [
+        {
+          "text": "Version'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'AML Compliance Review Assessment Form', what is the description text shown on the form?",
+      "answer": "Complete all applicable sections to document the effectiveness of the AML programme and identify areas for enhancement.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete all applicable sections to document the effectiveness of the AML programme and identify areas for enhancement.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'AML Compliance Review Assessment Form', how many sections are presented?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'AML Compliance Review Assessment Form', what is the title of the third section?",
+      "answer": "Suspicious Activity Reporting & Programme Enhancements",
+      "assertions": [
+        {
+          "text": "The response must state 'Suspicious Activity Reporting & Programme Enhancements'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'AML Compliance Review Assessment Form', how many fields are marked as required?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", which leaf metric columns fall under the super-group header \"Customer Due Diligence (CDD) Quality\"?",
+      "answer": "Files Reviewed (#); KYC Completeness (%); EDD Timeliness (≤30d) (%); Risk Rating Accuracy (%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Files Reviewed (#); KYC Completeness (%); EDD Timeliness (≤30d) (%); Risk Rating Accuracy (%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", how many rows does the category label \"Scenario Performance\" span?",
+      "answer": "5 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows.'."
+        }
+      ]
+    },
+    {
+      "question": " cash intensity (SMURFing)\" (first row of that sub-category) under the \"Transaction Monitoring (TM) Effectiveness\" super-group?",
+      "answer": "22.7 hours.",
+      "assertions": [
+        {
+          "text": "The response must state '22.7 hours.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what is the grand total for \"SARs Filed (#)\"?",
+      "answer": "191.",
+      "assertions": [
+        {
+          "text": "The response must state '191.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what does the \"Onboarding KYC files (Retail & SME) Sub-Total\" row show for \"Files Reviewed (#)\"?",
+      "answer": "860.",
+      "assertions": [
+        {
+          "text": "The response must state '860.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what is the reported average SAR escalation time?",
+      "answer": "22.7 hours",
+      "assertions": [
+        {
+          "text": "The response must state '22.7 hours'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", which columns fall under the 'Customer Due Diligence (CDD) Quality' header?",
+      "answer": "Files Reviewed (#); KYC Completeness (%); EDD Timeliness (≤30d) (%); Risk Rating Accuracy (%)",
+      "assertions": [
+        {
+          "text": "The response must state 'Files Reviewed (#); KYC Completeness (%); EDD Timeliness (≤30d) (%); Risk Rating Accuracy (%)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", which contains more rows: the full table or the CDD Quality section?",
+      "answer": "Full table, 26 rows",
+      "assertions": [
+        {
+          "text": "The response must state 'Full table, 26 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what does the annotation '(≤30d)' indicate for EDD Timeliness?",
+      "answer": "Measured as 30 days or less",
+      "assertions": [
+        {
+          "text": "The response must state 'Measured as 30 days or less'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Transaction Monitoring, CDD Quality, SAR Outcomes, and Programme Enhancements (Quarterly Snapshot)\", what is the subtotal for the CDD Quality group in the rows column?",
+      "answer": "5 rows",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows'."
+        }
+      ]
+    },
+    {
+      "question": "How many buttons are present in the 'AML Review Controls' group as rendered?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "What text is shown on the first button in the 'AML Review Controls'?",
+      "answer": "Approve Review Findings",
+      "assertions": [
+        {
+          "text": "The response must state 'Approve Review Findings'."
+        }
+      ]
+    },
+    {
+      "question": "Identify the label of the last button visible in the 'AML Review Controls' group.",
+      "answer": "Export Dashboard & SAR Metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'Export Dashboard & SAR Metrics'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'AML Review Controls', when is this button group displayed?",
+      "answer": "Displayed after an AML reviewer completes the assessment of monitoring effectiveness, CDD quality, and SAR statistics.",
+      "assertions": [
+        {
+          "text": "The response must state 'Displayed after an AML reviewer completes the assessment of monitoring effectiveness, CDD quality, and SAR statistics.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)\" section, what material deficiency rate was identified in the CDD QA review of 300 account files?",
+      "answer": "18.0%",
+      "assertions": [
+        {
+          "text": "The response must state 18.0%."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)\" section, how many suspicious activity reports (SARs) were filed in 2024?",
+      "answer": "1,246",
+      "assertions": [
+        {
+          "text": "The response must state 1,246."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Customer Due Diligence Quality, Suspicious Activity Reporting Performance, and Programme Enhancements (2024 Results)\" section, by what date is the policy refresh and standardized CDD checklists initiative scheduled to be completed?",
+      "answer": "31 March 2025",
+      "assertions": [
+        {
+          "text": "The response must state 31 March 2025."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", how many period columns does each version group span?",
+      "answer": "Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).",
+      "assertions": [
+        {
+          "text": "The response must state 'Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the Actuals Q3 value for \"TM alert review FTE & overtime\"?",
+      "answer": "1,210 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '1,210 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the \"CDD Quality Subtotal\" for Baseline Q1?",
+      "answer": "1,440 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '1,440 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", which version shows the highest Q4 value for \"SAR investigations & drafting\"?",
+      "answer": "Actuals (640 vs Baseline 580, $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (640 vs Baseline 580, $000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the delta (Net $K) for \"Programme Enhancements Subtotal\"?",
+      "answer": "102 ($K).",
+      "assertions": [
+        {
+          "text": "The response must state '102 ($K).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the Baseline total in ($000)?",
+      "answer": "1,210 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '1,210 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", which figure is larger, 1,210 ($000) or 1,440 ($000)?",
+      "answer": "1,440 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '1,440 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what does footnote 1 explain?",
+      "answer": "Not specified in the table facts.",
+      "assertions": [
+        {
+          "text": "The response must state 'Not specified in the table facts.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"AML Compliance Review — Programme Performance & Investment (Baseline vs Actuals, Quarterly)\", what is the subtotal for the Actuals group?",
+      "answer": "1,440 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '1,440 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)\" section, how many alerts were generated in Q1 2025?",
+      "answer": "48,620 alerts",
+      "assertions": [
+        {
+          "text": "The response must state 48,620 alerts."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)\" section, what was the alert-to-case conversion rate in Q1 2025?",
+      "answer": "6.1%",
+      "assertions": [
+        {
+          "text": "The response must state 6.1%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Transaction Monitoring Effectiveness and Alert-to-Case Conversion (Q1 2024–Q1 2025)\" section, what was the median alert clearance time in March 2025?",
+      "answer": "3.6 days",
+      "assertions": [
+        {
+          "text": "The response must state 3.6 days."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', how many total rows does the table contain?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many rows show a negative trend (highlighted red)?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many phrases are highlighted?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, which highlighted phrase is marked with cyan?",
+      "answer": "vendor contract amendments",
+      "assertions": [
+        {
+          "text": "The response must state 'vendor contract amendments'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many sticky-note annotations are present in the financial category?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'this element', which phrase received the first sticky-note annotation?",
+      "answer": "47 days",
+      "assertions": [
+        {
+          "text": "The response must state '47 days'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what review category is shown in the PDF?",
+      "answer": "meeting",
+      "assertions": [
+        {
+          "text": "The response must state 'meeting'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element' in the document, how many phrases are visually highlighted?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the PDF view of the 'this element', what text does the first reviewer sticky-note display?",
+      "answer": "Feasibility owner: Bob Smith",
+      "assertions": [
+        {
+          "text": "The response must state 'Feasibility owner: Bob Smith'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Alert clearance timeliness and backlog position (Dec 2024 vs Mar 2025)\", what is the SAR Conversion Rate (%) for December 2024?",
+      "answer": "14.8",
+      "assertions": [
+        {
+          "text": "The response must state 14.8."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Alert clearance timeliness and backlog position (Dec 2024 vs Mar 2025)\", how many Alerts Generated (count) are listed for February 2025?",
+      "answer": "26840",
+      "assertions": [
+        {
+          "text": "The response must state 26840."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Alert clearance timeliness and backlog position (Dec 2024 vs Mar 2025)\", what is the Median Alert Clearance Time (days) for May 2024?",
+      "answer": "2.1",
+      "assertions": [
+        {
+          "text": "The response must state 2.1."
+        }
+      ]
+    },
+    {
+      "question": "In this element, how many highlights are visible on the page?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, are PDF reviewer sticky-note comments present?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what does the first reviewer comment say?",
+      "answer": "Contract clause reference",
+      "assertions": [
+        {
+          "text": "The response must state 'Contract clause reference'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many phrases are highlighted?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which phrase is highlighted in red?",
+      "answer": "$20M revolving credit facility",
+      "assertions": [
+        {
+          "text": "The response must state '$20M revolving credit facility'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what label appears in the callout box?",
+      "answer": "Approved",
+      "assertions": [
+        {
+          "text": "The response must state 'Approved'."
+        }
+      ]
+    },
+    {
+      "question": "In 'this element', what message is displayed inside the callout?",
+      "answer": "Audit complete. No material misstatements identified. Report signed off by external auditors.",
+      "assertions": [
+        {
+          "text": "The response must state 'Audit complete. No material misstatements identified. Report signed off by external auditors.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many annotation boxes are attached in the financial freetext area?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what phrase was first annotated in the financial freetext annotation?",
+      "answer": "$3.1M",
+      "assertions": [
+        {
+          "text": "The response must state '$3.1M'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, what banner label is shown?",
+      "answer": "LOW RISK",
+      "assertions": [
+        {
+          "text": "The response must state 'LOW RISK'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing this element, which inline status label is displayed?",
+      "answer": "CRITICAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what banner label is displayed for the classification?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', what inline status label indicates the risk level?",
+      "answer": "HIGH RISK",
+      "assertions": [
+        {
+          "text": "The response must state 'HIGH RISK'."
+        }
+      ]
+    }
+  ]
+}

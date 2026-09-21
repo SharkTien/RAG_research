@@ -1,0 +1,4659 @@
+{
+  "doc_id": "doc_0000_s329988706",
+  "title": "Enterprise IT Strategy and Architecture Roadmap: Target State Architecture, Legacy System Decommissioning, Investment Priorities, and Business Capability Alignment",
+  "subtitle": "Enterprise IT Strategy & Architecture Roadmap | Target State, Legacy Decommissioning & Investment Priorities",
+  "topic_id": "it_strategy_roadmap",
+  "recipe_name": "visual_all",
+  "seed": 329988706,
+  "document_brief": {
+    "narrative_theme": "This roadmap moves the enterprise from fragmented legacy platforms to a secure, cloud-first target architecture that funds business-critical capabilities while systematically decommissioning high-cost systems.",
+    "sections": [
+      {
+        "heading": "Target-State Enterprise Architecture Aligned to Priority Business Capabilities",
+        "key_facts": [
+          "Target state is 70% cloud workloads by Q4 2027.",
+          "The target architecture consolidates 12 integration patterns into 3 standardized patterns by Q2 2026.",
+          "Zero Trust is implemented for 100% of Tier-1 applications by 31 Dec 2026."
+        ],
+        "data_references": [
+          "chart_0",
+          "chart_1",
+          "chart_2",
+          "chart_6"
+        ]
+      },
+      {
+        "heading": "Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes",
+        "key_facts": [
+          "Decommission 18 legacy applications by 30 Jun 2028.",
+          "Reduce annual run cost from $48M in 2025 to $33M in 2028.",
+          "Allocate $60M total change investment across 2026–2028."
+        ],
+        "data_references": [
+          "chart_3",
+          "chart_4",
+          "chart_5",
+          "chart_6"
+        ]
+      }
+    ],
+    "tables": [],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Business Capability Coverage Achieved by Target-State Platforms (2026–2028)",
+        "chart_type": "bar",
+        "x_label": "Business capability domain",
+        "y_label": "Coverage delivered by target-state platforms (%)",
+        "purpose": "Shows how the target-state architecture platforms map to and enable prioritized business capability domains to guide sequencing and scope."
+      },
+      {
+        "id": "chart_1",
+        "title": "Cloud Workload Adoption Trajectory Toward the 2027 Target",
+        "chart_type": "line",
+        "x_label": "Quarter (2025–2027)",
+        "y_label": "Workloads hosted in cloud (%)",
+        "purpose": "Visualizes progress toward the stated cloud adoption target and highlights the pace required to reach the 70% cloud workload goal by Q4 2027."
+      },
+      {
+        "id": "chart_2",
+        "title": "Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)",
+        "chart_type": "line",
+        "x_label": "Quarter (2025–2026)",
+        "y_label": "Number of approved integration patterns",
+        "purpose": "Tracks the simplification of integration approaches to reduce complexity, accelerate delivery, and support the target-state architecture."
+      },
+      {
+        "id": "chart_3",
+        "title": "Legacy Application Decommissioning Schedule Through 30 Jun 2028",
+        "chart_type": "bar",
+        "x_label": "Half-year period (2026 H1–2028 H1)",
+        "y_label": "Applications decommissioned (count)",
+        "purpose": "Shows the planned cadence of retiring legacy applications to reach the decommissioning target and to coordinate with replacement platform rollouts."
+      },
+      {
+        "id": "chart_4",
+        "title": "Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired",
+        "chart_type": "line",
+        "x_label": "Year (2025–2028)",
+        "y_label": "Annual run cost (USD, millions)",
+        "purpose": "Demonstrates the financial impact of the roadmap by linking decommissioning and modernization milestones to expected operating cost reductions."
+      },
+      {
+        "id": "chart_5",
+        "title": "Change Investment Allocation of $60M Across 2026–2028 by Workstream",
+        "chart_type": "pie",
+        "x_label": "Workstream",
+        "y_label": "Share of total change investment (%)",
+        "purpose": "Summarizes how the $60M modernization investment is prioritized across architecture, platform modernization, security, data, and decommissioning execution."
+      },
+      {
+        "id": "chart_6",
+        "title": "Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions",
+        "chart_type": "heatmap",
+        "x_label": "Target-state technology domains (Cloud, Data, Integration, Security, Apps)",
+        "y_label": "Business capability domains",
+        "purpose": "Highlights where technology investments most strongly enable business capabilities, supporting prioritization, sequencing, and architectural coherence."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s329988706.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0000_da5f1037.png",
+      "scan_llm_hand_1c67490a.png",
+      "cmp_0001_9f230ede.png",
+      "img_0006_418fd798.png",
+      "scan_llm_hand_8833a0f0.png",
+      "dash_0000_000bf271.png",
+      "img_0002_9e72bc1b.png",
+      "scan_llm_data_4aef26f4.png",
+      "tl_0001_064cc64a.png",
+      "img_0004_b71f692a.png",
+      "scan_llm_data_ca97cc3a.png",
+      "pict_0000_62047b42.png",
+      "img_0003_a831ad66.png",
+      "scan_llm_text_d8a1a245.png",
+      "fp_0001_80c2d7f9.png",
+      "img_0005_aacb8d4a.png",
+      "scan_llm_stam_600fc2ee.png",
+      "hub_0000_d06a3ff3.png",
+      "img_0001_ed9eead2.png",
+      "scan_llm_stam_e70663d8.png",
+      "cmp_0000_c99f621d.png",
+      "scan_llm_text_9cc44091.png",
+      "tl_0000_93bc90fc.png",
+      "fp_0000_de97f992.png",
+      "mag_0000_221153e4.png",
+      "proc_0000_1b019196.png",
+      "dash_0001_21aae37e.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 36,
+    "actual_page_count": 21
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "img_0000_da5f1037",
+      "figure_number": 1,
+      "image_path": "img_0000_da5f1037.png",
+      "caption": "Figure 1: Business Capability Coverage Achieved by Target-State Platforms (2026–2028)",
+      "chart_type": "grouped_bar",
+      "chart_title": "Business Capability Coverage Achieved by Target-State Platforms (2026–2028)",
+      "x_label": "Business capability domain",
+      "y_label": "Coverage delivered by target-state platforms (%)",
+      "categories": [
+        "Customer & Channel Management",
+        "Product & Service Management",
+        "Order-to-Cash",
+        "Supply Chain & Fulfillment",
+        "Finance & Corporate Services",
+        "Data & Analytics",
+        "Risk, Security & Compliance"
+      ],
+      "series_names": [
+        "Coverage %"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "Customer & Channel Management",
+          "Product & Service Management",
+          "Order-to-Cash",
+          "Supply Chain & Fulfillment",
+          "Finance & Corporate Services",
+          "Data & Analytics"
+        ],
+        "series": [
+          "Coverage %"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", what does the Y-axis represent?",
+          "answer": "Coverage delivered by target-state platforms (%)",
+          "assertions": [
+            {
+              "text": "The response must state Coverage delivered by target-state platforms (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", name one business capability domain shown on the X-axis.",
+          "answer": "Customer & Channel Management",
+          "assertions": [
+            {
+              "text": "The response must state Customer & Channel Management."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "scan_llm_0002_da21a8cf",
+      "figure_number": 2,
+      "image_path": "scan_llm_hand_1c67490a.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "2026",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "2026",
+        "lines": [
+          "Objective: transition from 14 siloed legacy apps to unified cloud-first target state (FY27–FY29)",
+          "yr infra run cost",
+          "Target architecture: Azure primary, multi-region, zero-trust security model",
+          "- Core: API gateway + event bus (Kafka) + microservices (containerized)",
+          "- Data: consolidated enterprise data platform (Snowflake) + governed data lake",
+          "- IAM: Azure AD + MFA enforced across workforce + partners",
+          "Business capability alignment:",
+          "  * Digital Sales Enablement (priority 1 – Q1 FY27)",
+          "  * Real-time Supply Visibility (priority 2 – Q3 FY27)",
+          "  * Predictive Service Analytics (FY28)",
+          "Decommission plan:",
+          "2027 (migrate to SaaS ERP – Workday Financials)",
+          "2027",
+          "2028 – parallel run 6 months",
+          "Investment profile: $12.6M over 3 yrs; savings target $3.1M annually by FY30",
+          "Reallocate 35% of run budget to innovation fund starting FY28",
+          "Risk: integration complexity + data quality remediation backlog (~18 TB to cleanse)",
+          "2026"
+        ],
+        "style": "neat",
+        "has_signature": true,
+        "signature_name": "Elena Marwick",
+        "date": "2026",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Objective: transition from 14 siloed legacy apps to unified cloud-first target state (FY27–FY29)"
+        ],
+        [
+          "yr infra run cost"
+        ],
+        [
+          "Target architecture: Azure primary, multi-region, zero-trust security model"
+        ],
+        [
+          "- Core: API gateway + event bus (Kafka) + microservices (containerized)"
+        ],
+        [
+          "- Data: consolidated enterprise data platform (Snowflake) + governed data lake"
+        ],
+        [
+          "- IAM: Azure AD + MFA enforced across workforce + partners"
+        ],
+        [
+          "Business capability alignment:"
+        ],
+        [
+          "  * Digital Sales Enablement (priority 1 – Q1 FY27)"
+        ],
+        [
+          "  * Real-time Supply Visibility (priority 2 – Q3 FY27)"
+        ],
+        [
+          "  * Predictive Service Analytics (FY28)"
+        ],
+        [
+          "Decommission plan:"
+        ],
+        [
+          "2027 (migrate to SaaS ERP – Workday Financials)"
+        ],
+        [
+          "2027"
+        ],
+        [
+          "2028 – parallel run 6 months"
+        ],
+        [
+          "Investment profile: $12.6M over 3 yrs; savings target $3.1M annually by FY30"
+        ],
+        [
+          "Reallocate 35% of run budget to innovation fund starting FY28"
+        ],
+        [
+          "Risk: integration complexity + data quality remediation backlog (~18 TB to cleanse)"
+        ],
+        [
+          "2026"
+        ]
+      ],
+      "line_count": 18,
+      "hw_style": "neat",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "2026\", what is the primary cloud platform specified in the target architecture?",
+          "answer": "Azure (primary, multi-region, zero-trust security model).",
+          "assertions": [
+            {
+              "text": "The response must state 'Azure (primary, multi-region, zero-trust security model).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", how many siloed legacy applications are planned to be transitioned to the unified cloud-first target state?",
+          "answer": "14 siloed legacy applications.",
+          "assertions": [
+            {
+              "text": "The response must state '14 siloed legacy applications.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", what is the reported annual infrastructure run cost?",
+          "answer": "$4.8M per year.",
+          "assertions": [
+            {
+              "text": "The response must state '$4.8M per year.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", by what date is the Oracle EBS instance scheduled to be retired?",
+          "answer": "2027.",
+          "assertions": [
+            {
+              "text": "2027.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", who signed the notes?",
+          "answer": "Elena Marwick.",
+          "assertions": [
+            {
+              "text": "The response must state 'Elena Marwick.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "cmp_0001_9f230ede",
+      "figure_number": 3,
+      "image_path": "cmp_0001_9f230ede.png",
+      "subtype": "comparison",
+      "caption": "Figure 3: Comparison: IT Strategy Roadmap Comparison",
+      "title": "IT Strategy Roadmap Comparison",
+      "theme": "midnight_dark",
+      "options": [
+        {
+          "name": "Consulting-Led Custom Strategy",
+          "recommended": false
+        },
+        {
+          "name": "Hybrid Advisory + Tooling",
+          "recommended": true
+        },
+        {
+          "name": "Tool-Driven Internal Approach",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "Which option is marked as recommended in the 'IT Strategy Roadmap Comparison'?",
+          "answer": "Hybrid Advisory + Tooling",
+          "assertions": [
+            {
+              "text": "The response must state 'Hybrid Advisory + Tooling'."
+            }
+          ]
+        },
+        {
+          "question": "How many options are compared in the 'IT Strategy Roadmap Comparison'?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "What is one option shown as not recommended on the 'IT Strategy Roadmap Comparison'?",
+          "answer": "Tool-Driven Internal Approach",
+          "assertions": [
+            {
+              "text": "The response must state 'Tool-Driven Internal Approach'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "image",
+      "variant_id": "img_0006_418fd798",
+      "figure_number": 4,
+      "image_path": "img_0006_418fd798.png",
+      "caption": "Figure 4: Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions",
+      "chart_type": "heatmap",
+      "chart_title": "Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions",
+      "x_label": "Target-state technology domains (Cloud, Data, Integration, Security, Apps)",
+      "y_label": "Business capability domains",
+      "categories": [
+        "Customer Engagement",
+        "Product & Service Innovation",
+        "Operations & Fulfillment",
+        "Risk & Compliance Management",
+        "Financial Management",
+        "Workforce & Collaboration"
+      ],
+      "series_names": [
+        "Cloud",
+        "Data",
+        "Integration",
+        "Security",
+        "Applications"
+      ],
+      "value_range": [
+        1,
+        5
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Customer Engagement",
+          "Product & Service Innovation",
+          "Operations & Fulfillment",
+          "Risk & Compliance Management",
+          "Financial Management",
+          "Workforce & Collaboration"
+        ],
+        "series": [
+          "Cloud",
+          "Data",
+          "Integration",
+          "Security",
+          "Applications"
+        ],
+        "value_range": [
+          1,
+          5
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions,\" what is the chart type?",
+          "answer": "heatmap",
+          "assertions": [
+            {
+              "text": "The response must state heatmap."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions,\" what does the X-axis represent?",
+          "answer": "Target-state technology domains (Cloud, Data, Integration, Security, Apps)",
+          "assertions": [
+            {
+              "text": "The response must state Target-state technology domains (Cloud, Data, Integration, Security, Apps)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions,\" what is the value range shown?",
+          "answer": "[1, 5]",
+          "assertions": [
+            {
+              "text": "The response must state [1, 5]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "scan_llm_0006_9afee956",
+      "figure_number": 5,
+      "image_path": "scan_llm_hand_8833a0f0.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "Figure 5: Architecture Roadmap — Target State Planning",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "Architecture Roadmap — Target State Planning",
+        "lines": [
+          "Objective: transition from fragmented on-prem stack to secure cloud-first model (FY2026–FY2029).",
+          "yr support each).",
+          "Target state: Azure primary cloud + secondary DR region (West Europe).",
+          "Adopt domain-aligned architecture (Customer, Supply, Finance, Workforce).",
+          "Decommission Wave 1 (Q1–Q2 2027): HRIS Classic, FinancePro 8, DataMart v3.",
+          "Expected OpEx reduction Wave 1 = ~$3.2M annually.",
+          "Wave 2 (2028): retire CRM-Lite + 12 Access-based tools (migrate to Dynamics 365).",
+          "Security uplift: zero-trust model, MFA enforced enterprise-wide by Dec 2026.",
+          "Consolidate 11 integration brokers → single API gateway (Apigee).",
+          "Investment priority #1: Data platform modernization (Snowflake + governed lake).",
+          "Investment priority #2: Identity & Access Mgmt (Okta rollout across 24k users).",
+          "yr).",
+          "Align roadmap to business capability heatmap — red zones: Order Fulfillment, Regulatory Reporting.",
+          "Legacy contract termination penalties modeled at $780K (included in FY27 budget).",
+          "KPIs: app rationalization ratio 147 → 92 apps; infra cost per user ↓ 28%.",
+          "Next step: architecture review board sign-off + funding gate approval (Aug 15, 2026)."
+        ],
+        "style": "neat",
+        "has_signature": true,
+        "signature_name": "Elena Marquez",
+        "date": "June 2, 2026",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Objective: transition from fragmented on-prem stack to secure cloud-first model (FY2026–FY2029)."
+        ],
+        [
+          "yr support each)."
+        ],
+        [
+          "Target state: Azure primary cloud + secondary DR region (West Europe)."
+        ],
+        [
+          "Adopt domain-aligned architecture (Customer, Supply, Finance, Workforce)."
+        ],
+        [
+          "Decommission Wave 1 (Q1–Q2 2027): HRIS Classic, FinancePro 8, DataMart v3."
+        ],
+        [
+          "Expected OpEx reduction Wave 1 = ~$3.2M annually."
+        ],
+        [
+          "Wave 2 (2028): retire CRM-Lite + 12 Access-based tools (migrate to Dynamics 365)."
+        ],
+        [
+          "Security uplift: zero-trust model, MFA enforced enterprise-wide by Dec 2026."
+        ],
+        [
+          "Consolidate 11 integration brokers → single API gateway (Apigee)."
+        ],
+        [
+          "Investment priority #1: Data platform modernization (Snowflake + governed lake)."
+        ],
+        [
+          "Investment priority #2: Identity & Access Mgmt (Okta rollout across 24k users)."
+        ],
+        [
+          "yr)."
+        ],
+        [
+          "Align roadmap to business capability heatmap — red zones: Order Fulfillment, Regulatory Reporting."
+        ],
+        [
+          "Legacy contract termination penalties modeled at $780K (included in FY27 budget)."
+        ],
+        [
+          "KPIs: app rationalization ratio 147 → 92 apps; infra cost per user ↓ 28%."
+        ],
+        [
+          "Next step: architecture review board sign-off + funding gate approval (Aug 15, 2026)."
+        ]
+      ],
+      "line_count": 16,
+      "hw_style": "neat",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Architecture Roadmap — Target State Planning\", what is the stated objective and timeframe for the transition?",
+          "answer": "Transition from a fragmented on-prem stack to a secure cloud-first model (FY2026–FY2029).",
+          "assertions": [
+            {
+              "text": "The response must state 'Transition from a fragmented on-prem stack to a secure cloud-first model (FY2026–FY2029).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Architecture Roadmap — Target State Planning\", how many applications make up the current estate?",
+          "answer": "147 applications.",
+          "assertions": [
+            {
+              "text": "The response must state '147 applications.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Architecture Roadmap — Target State Planning\", what is the expected annual OpEx reduction from Decommission Wave 1?",
+          "answer": "Approximately $3.2M annually.",
+          "assertions": [
+            {
+              "text": "The response must state 'Approximately $3.2M annually.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Architecture Roadmap — Target State Planning\", which applications are listed for decommission in Wave 1 (Q1–Q2 2027)?",
+          "answer": "HRIS Classic; FinancePro 8; DataMart v3.",
+          "assertions": [
+            {
+              "text": "The response must state 'HRIS Classic; FinancePro 8; DataMart v3.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Architecture Roadmap — Target State Planning\", will multi-factor authentication be enforced enterprise-wide by December 2026?",
+          "answer": "Yes — MFA enforced enterprise-wide by December 2026.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — MFA enforced enterprise-wide by December 2026.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "image",
+      "variant_id": "dash_0000_000bf271",
+      "figure_number": 6,
+      "image_path": "dash_0000_000bf271.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 6: Dashboard: IT Strategy & Architecture Roadmap",
+      "title": "IT Strategy & Architecture Roadmap",
+      "theme": "corporate_blue",
+      "subtitle": "Target State Progress & Investment Alignment",
+      "period_badge": "Q2 2026",
+      "kpis": [
+        {
+          "label": "Target Architecture Completion",
+          "value": "68%",
+          "delta": "+12%",
+          "trend": "up",
+          "sparkline": [
+            45,
+            52,
+            58,
+            63,
+            68
+          ]
+        },
+        {
+          "label": "Legacy Systems Decommissioned",
+          "value": "27 of 40",
+          "delta": "+8%",
+          "trend": "up",
+          "sparkline": [
+            15,
+            18,
+            22,
+            24,
+            27
+          ]
+        },
+        {
+          "label": "Strategic Investment Utilization",
+          "value": "82%",
+          "delta": "+5%",
+          "trend": "up",
+          "sparkline": [
+            70,
+            74,
+            77,
+            80,
+            82
+          ]
+        },
+        {
+          "label": "Business Capability Alignment Score",
+          "value": "10",
+          "delta": "-3%",
+          "trend": "down",
+          "sparkline": [
+            8.2,
+            8.1,
+            8.0,
+            7.9,
+            7.8
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Investment by Capability Domain",
+        "labels": [
+          "Customer Experience",
+          "Core Operations",
+          "Data & Analytics",
+          "Cybersecurity"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              24,
+              32,
+              18,
+              14
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              20,
+              29,
+              15,
+              12
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Legacy footprint reduced to 20% of total application portfolio",
+        "Data & Analytics investment up 20% supporting AI initiatives",
+        "Alignment score dipped due to delayed ERP capability rollout"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'IT Strategy & Architecture Roadmap' dashboard, what percentage is displayed for Target Architecture Completion?",
+          "answer": "68%",
+          "assertions": [
+            {
+              "text": "The response must state '68%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'IT Strategy & Architecture Roadmap', what is the subtitle shown beneath the title?",
+          "answer": "Target State Progress & Investment Alignment",
+          "assertions": [
+            {
+              "text": "The response must state 'Target State Progress & Investment Alignment'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'IT Strategy & Architecture Roadmap' dashboard, which callout explains why the alignment score dipped?",
+          "answer": "Alignment score dipped due to delayed ERP capability rollout",
+          "assertions": [
+            {
+              "text": "The response must state 'Alignment score dipped due to delayed ERP capability rollout'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "img_0002_9e72bc1b",
+      "figure_number": 7,
+      "image_path": "img_0002_9e72bc1b.png",
+      "caption": "Figure 7: Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)",
+      "chart_type": "heatmap",
+      "chart_title": "Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)",
+      "x_label": "Quarter (2025–2026)",
+      "y_label": "Number of approved integration patterns",
+      "categories": [
+        "Q1 2025",
+        "Q2 2025",
+        "Q3 2025",
+        "Q4 2025",
+        "Q1 2026",
+        "Q2 2026",
+        "Q3 2026",
+        "Q4 2026"
+      ],
+      "series_names": [
+        "Approved Integration Patterns"
+      ],
+      "value_range": [
+        0,
+        12
+      ],
+      "trend": "decreasing",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Q1 2025",
+          "Q2 2025",
+          "Q3 2025",
+          "Q4 2025",
+          "Q1 2026",
+          "Q2 2026"
+        ],
+        "series": [
+          "Approved Integration Patterns"
+        ],
+        "value_range": [
+          0,
+          12
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)\", what does the Y-axis represent?",
+          "answer": "Number of approved integration patterns",
+          "assertions": [
+            {
+              "text": "The response must state Number of approved integration patterns."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)\", what is the value range shown?",
+          "answer": "[0, 12]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 12]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)\", what is the overall trend?",
+          "answer": "decreasing",
+          "assertions": [
+            {
+              "text": "The response must state decreasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "scan_llm_0005_29cab36c",
+      "figure_number": 8,
+      "image_path": "scan_llm_data_4aef26f4.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 8: Legacy Decommissioning & Target State Investment Plan",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Legacy Decommissioning & Target State Investment Plan",
+        "caption": "Summary of legacy platforms scheduled for retirement and associated cloud investments aligned to priority business capabilities.",
+        "headers": [
+          "Program",
+          "Business Capability",
+          "FY26-27 Investment ($M)",
+          "Decom Date",
+          "Target Platform"
+        ],
+        "rows": [
+          [
+            "Orion ERP (v9)",
+            "Financial Management",
+            "6.8",
+            "Mar 2027",
+            "4HANA Cloud"
+          ],
+          [
+            "Atlas CRM",
+            "Customer Engagement",
+            "4.5",
+            "Dec 2026",
+            "Salesforce Enterprise"
+          ],
+          [
+            "Mercury Billing",
+            "Revenue Management",
+            "3.9",
+            "Sep 2026",
+            "Zuora SaaS"
+          ],
+          [
+            "Legacy Data Mart",
+            "Enterprise Analytics",
+            "5.2",
+            "Jun 2027",
+            "Azure Synapse + Power BI"
+          ],
+          [
+            "Nova HRIS",
+            "Workforce Management",
+            "2.7",
+            "Nov 2026",
+            "Workday HCM"
+          ],
+          [
+            "Centauri File Servers",
+            "Content Collaboration",
+            "1.6",
+            "Aug 2026",
+            "M365 SharePoint Online"
+          ],
+          [
+            "Titan IAM",
+            "Identity & Access Mgmt",
+            "3.1",
+            "Jan 2027",
+            "Okta Workforce Identity"
+          ],
+          [
+            "Helios ESB",
+            "Integration Services",
+            "4.0",
+            "Apr 2027",
+            "MuleSoft Anypoint"
+          ],
+          [
+            "Apollo DR Site",
+            "Business Continuity",
+            "2.3",
+            "Oct 2026",
+            "AWS Multi-Region DR"
+          ],
+          [
+            "Vega Procurement",
+            "Supplier Management",
+            "2.9",
+            "Feb 2027",
+            "Coupa Cloud"
+          ],
+          [
+            "Sigma Reporting",
+            "Regulatory Reporting",
+            "1.8",
+            "Jul 2026",
+            "Snowflake + Tableau"
+          ],
+          [
+            "Legacy PBX",
+            "Unified Communications",
+            "1.2",
+            "May 2026",
+            "Microsoft Teams Voice"
+          ]
+        ],
+        "summary_note": "The roadmap prioritizes retirement of high-maintenance on-premise platforms by mid-2027, with $40.0M allocated toward cloud-first replacements that directly strengthen finance, customer, and analytics capabilities.",
+        "date": "15 January 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Program",
+        "Business Capability",
+        "FY26-27 Investment ($M)",
+        "Decom Date",
+        "Target Platform"
+      ],
+      "cells": [
+        [
+          "Orion ERP (v9)",
+          "Financial Management",
+          "6.8",
+          "Mar 2027",
+          "4HANA Cloud"
+        ],
+        [
+          "Atlas CRM",
+          "Customer Engagement",
+          "4.5",
+          "Dec 2026",
+          "Salesforce Enterprise"
+        ],
+        [
+          "Mercury Billing",
+          "Revenue Management",
+          "3.9",
+          "Sep 2026",
+          "Zuora SaaS"
+        ],
+        [
+          "Legacy Data Mart",
+          "Enterprise Analytics",
+          "5.2",
+          "Jun 2027",
+          "Azure Synapse + Power BI"
+        ],
+        [
+          "Nova HRIS",
+          "Workforce Management",
+          "2.7",
+          "Nov 2026",
+          "Workday HCM"
+        ],
+        [
+          "Centauri File Servers",
+          "Content Collaboration",
+          "1.6",
+          "Aug 2026",
+          "M365 SharePoint Online"
+        ],
+        [
+          "Titan IAM",
+          "Identity & Access Mgmt",
+          "3.1",
+          "Jan 2027",
+          "Okta Workforce Identity"
+        ],
+        [
+          "Helios ESB",
+          "Integration Services",
+          "4.0",
+          "Apr 2027",
+          "MuleSoft Anypoint"
+        ],
+        [
+          "Apollo DR Site",
+          "Business Continuity",
+          "2.3",
+          "Oct 2026",
+          "AWS Multi-Region DR"
+        ],
+        [
+          "Vega Procurement",
+          "Supplier Management",
+          "2.9",
+          "Feb 2027",
+          "Coupa Cloud"
+        ],
+        [
+          "Sigma Reporting",
+          "Regulatory Reporting",
+          "1.8",
+          "Jul 2026",
+          "Snowflake + Tableau"
+        ],
+        [
+          "Legacy PBX",
+          "Unified Communications",
+          "1.2",
+          "May 2026",
+          "Microsoft Teams Voice"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "The roadmap prioritizes retirement of high-maintenance on-premise platforms by mid-2027, with $40.0M allocated toward cloud-first replacements that directly strengthen finance, customer, and analytics capabilities.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Legacy Decommissioning & Target State Investment Plan\", how many rows (systems) are listed in the table?",
+          "answer": "12",
+          "assertions": [
+            {
+              "text": "The response must state '12'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Legacy Decommissioning & Target State Investment Plan\", what is the FY26-27 investment ($M) listed for Orion ERP (v9)?",
+          "answer": "$6.8M",
+          "assertions": [
+            {
+              "text": "The response must state '$6.8M'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Legacy Decommissioning & Target State Investment Plan\", does the roadmap prioritize retirement of high-maintenance on-premise platforms by mid-2027?",
+          "answer": "Yes — it prioritizes retirement of high-maintenance on-premise platforms by mid-2027.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — it prioritizes retirement of high-maintenance on-premise platforms by mid-2027.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Legacy Decommissioning & Target State Investment Plan\", which system is mapped to the Customer Engagement business capability?",
+          "answer": "Atlas CRM",
+          "assertions": [
+            {
+              "text": "The response must state 'Atlas CRM'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Legacy Decommissioning & Target State Investment Plan\", how much funding is allocated toward cloud-first replacements?",
+          "answer": "$40.0M",
+          "assertions": [
+            {
+              "text": "The response must state '$40.0M'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "image",
+      "variant_id": "tl_0001_064cc64a",
+      "figure_number": 9,
+      "image_path": "tl_0001_064cc64a.png",
+      "subtype": "timeline",
+      "caption": "Figure 9: Timeline: Enterprise IT Strategy & Architecture Roadmap",
+      "title": "Enterprise IT Strategy & Architecture Roadmap",
+      "theme": "slate_tech",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Business Capability & Current State Assessment",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Target State Architecture Design",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "Legacy System Rationalization Plan",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Investment Portfolio Alignment",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "Execution & Decommissioning Wave 1",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many milestones are shown on the 'Enterprise IT Strategy & Architecture Roadmap' timeline?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Enterprise IT Strategy & Architecture Roadmap', which milestone is marked as current?",
+          "answer": "Legacy System Rationalization Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'Legacy System Rationalization Plan'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Enterprise IT Strategy & Architecture Roadmap', what date is assigned to the 'Execution & Decommissioning Wave 1' milestone?",
+          "answer": "Q1 2025",
+          "assertions": [
+            {
+              "text": "The response must state 'Q1 2025'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "img_0004_b71f692a",
+      "figure_number": 10,
+      "image_path": "img_0004_b71f692a.png",
+      "caption": "Figure 10: Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired",
+      "chart_type": "bubble_scatter",
+      "chart_title": "Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired",
+      "x_label": "Year (2025–2028)",
+      "y_label": "Annual run cost (USD, millions)",
+      "categories": [
+        "2025",
+        "2026",
+        "2027",
+        "2028"
+      ],
+      "series_names": [
+        "Total Run Cost"
+      ],
+      "value_range": [
+        33,
+        48
+      ],
+      "trend": "decreasing",
+      "chart_data": {
+        "chart_type": "bubble_scatter",
+        "series": [
+          "Total Run Cost"
+        ],
+        "value_range": [
+          33,
+          48
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired\", what does the Y-axis represent?",
+          "answer": "Annual run cost (USD, millions)",
+          "assertions": [
+            {
+              "text": "The response must state Annual run cost (USD, millions)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired\", what is the value range shown?",
+          "answer": "[33, 48]",
+          "assertions": [
+            {
+              "text": "The response must state [33, 48]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired\", what is the overall trend of the data?",
+          "answer": "decreasing",
+          "assertions": [
+            {
+              "text": "The response must state decreasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "scan_llm_0001_532ed624",
+      "figure_number": 11,
+      "image_path": "scan_llm_data_ca97cc3a.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 11: Target Architecture Transition & Decommission Plan",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Target Architecture Transition & Decommission Plan",
+        "caption": "Overview of legacy platforms, target-state replacements, investment levels, and planned retirement timelines aligned to business capabilities.",
+        "headers": [
+          "Business Domain",
+          "Legacy Platform",
+          "Target Architecture",
+          "FY26-27 Investment ($M)",
+          "Retirement Quarter"
+        ],
+        "rows": [
+          [
+            "Customer Engagement",
+            "OnPrem CRM v7.2",
+            "SaaS CRM (Salesforce Enterprise)",
+            "4.8",
+            "Q1 2027"
+          ],
+          [
+            "Finance & Accounting",
+            "FinMaster 2008",
+            "Cloud ERP (Oracle Fusion)",
+            "6.3",
+            "Q4 2027"
+          ],
+          [
+            "Supply Chain",
+            "LogiTrack Server",
+            "Azure-native SCM Suite",
+            "5.1",
+            "Q2 2027"
+          ],
+          [
+            "Human Resources",
+            "PeopleSys Legacy",
+            "Workday HCM",
+            "3.4",
+            "Q3 2026"
+          ],
+          [
+            "Data & Analytics",
+            "Warehouse DB2 Cluster",
+            "Snowflake Data Platform",
+            "7.2",
+            "Q1 2028"
+          ],
+          [
+            "IT Service Mgmt",
+            "HelpDesk Pro 5",
+            "ServiceNow ITSM",
+            "2.6",
+            "Q4 2026"
+          ],
+          [
+            "Identity & Access",
+            "Local AD Forests",
+            "Azure AD + Zero Trust",
+            "1.9",
+            "Q2 2026"
+          ],
+          [
+            "Marketing Operations",
+            "Campaigner 2012",
+            "HubSpot Enterprise",
+            "2.1",
+            "Q3 2027"
+          ],
+          [
+            "Manufacturing Ops",
+            "PlantControl v4",
+            "IoT Edge + AWS IoT Core",
+            "4.5",
+            "Q4 2028"
+          ],
+          [
+            "Procurement",
+            "BuyRight System",
+            "Coupa Cloud Platform",
+            "2.8",
+            "Q1 2027"
+          ],
+          [
+            "Document Management",
+            "FileShare NAS",
+            "SharePoint Online",
+            "1.7",
+            "Q2 2026"
+          ],
+          [
+            "Risk & Compliance",
+            "GRC Tracker 3.0",
+            "Integrated GRC SaaS",
+            "2.3",
+            "Q3 2027"
+          ]
+        ],
+        "summary_note": "The roadmap prioritizes high-cost, high-risk legacy platforms in Finance, Data, and Supply Chain for early modernization, while lower-complexity systems are retired by mid-2027 to fund subsequent cloud-native investments.",
+        "date": "30 Nov 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Business Domain",
+        "Legacy Platform",
+        "Target Architecture",
+        "FY26-27 Investment ($M)",
+        "Retirement Quarter"
+      ],
+      "cells": [
+        [
+          "Customer Engagement",
+          "OnPrem CRM v7.2",
+          "SaaS CRM (Salesforce Enterprise)",
+          "4.8",
+          "Q1 2027"
+        ],
+        [
+          "Finance & Accounting",
+          "FinMaster 2008",
+          "Cloud ERP (Oracle Fusion)",
+          "6.3",
+          "Q4 2027"
+        ],
+        [
+          "Supply Chain",
+          "LogiTrack Server",
+          "Azure-native SCM Suite",
+          "5.1",
+          "Q2 2027"
+        ],
+        [
+          "Human Resources",
+          "PeopleSys Legacy",
+          "Workday HCM",
+          "3.4",
+          "Q3 2026"
+        ],
+        [
+          "Data & Analytics",
+          "Warehouse DB2 Cluster",
+          "Snowflake Data Platform",
+          "7.2",
+          "Q1 2028"
+        ],
+        [
+          "IT Service Mgmt",
+          "HelpDesk Pro 5",
+          "ServiceNow ITSM",
+          "2.6",
+          "Q4 2026"
+        ],
+        [
+          "Identity & Access",
+          "Local AD Forests",
+          "Azure AD + Zero Trust",
+          "1.9",
+          "Q2 2026"
+        ],
+        [
+          "Marketing Operations",
+          "Campaigner 2012",
+          "HubSpot Enterprise",
+          "2.1",
+          "Q3 2027"
+        ],
+        [
+          "Manufacturing Ops",
+          "PlantControl v4",
+          "IoT Edge + AWS IoT Core",
+          "4.5",
+          "Q4 2028"
+        ],
+        [
+          "Procurement",
+          "BuyRight System",
+          "Coupa Cloud Platform",
+          "2.8",
+          "Q1 2027"
+        ],
+        [
+          "Document Management",
+          "FileShare NAS",
+          "SharePoint Online",
+          "1.7",
+          "Q2 2026"
+        ],
+        [
+          "Risk & Compliance",
+          "GRC Tracker 3.0",
+          "Integrated GRC SaaS",
+          "2.3",
+          "Q3 2027"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "The roadmap prioritizes high-cost, high-risk legacy platforms in Finance, Data, and Supply Chain for early modernization, while lower-complexity systems are retired by mid-2027 to fund subsequent cloud-native investments.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Target Architecture Transition & Decommission Plan\", what is the target architecture for the Customer Engagement business domain?",
+          "answer": "SaaS CRM (Salesforce Enterprise).",
+          "assertions": [
+            {
+              "text": "The response must state 'SaaS CRM (Salesforce Enterprise).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Target Architecture Transition & Decommission Plan\", how many rows are in the table?",
+          "answer": "12 rows total.",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows total.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Target Architecture Transition & Decommission Plan\", what is the FY26-27 investment ($M) listed for Finance & Accounting?",
+          "answer": "$6.3M.",
+          "assertions": [
+            {
+              "text": "The response must state '$6.3M.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Target Architecture Transition & Decommission Plan\", what retirement quarter is planned for the Human Resources legacy platform?",
+          "answer": "Q3 2026.",
+          "assertions": [
+            {
+              "text": "The response must state 'Q3 2026.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Target Architecture Transition & Decommission Plan\", which business domains does the summary say are prioritized as high-cost, high-risk legacy platforms for early modernization?",
+          "answer": "Finance, Data, and Supply Chain.",
+          "assertions": [
+            {
+              "text": "The response must state 'Finance, Data, and Supply Chain.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "image",
+      "variant_id": "pict_0000_62047b42",
+      "figure_number": 12,
+      "image_path": "pict_0000_62047b42.png",
+      "subtype": "pictograph",
+      "caption": "Figure 12: Pictograph: IT Strategy Roadmap Focus Areas",
+      "title": "IT Strategy Roadmap Focus Areas",
+      "theme": "healthcare_teal",
+      "unit_label": "Each icon = 5% of total",
+      "rows": [
+        {
+          "label": "Target State Architecture Design",
+          "value": 35
+        },
+        {
+          "label": "Legacy System Decommissioning",
+          "value": 20
+        },
+        {
+          "label": "Investment & Modernization Priorities",
+          "value": 25
+        },
+        {
+          "label": "Business Capability Alignment",
+          "value": 20
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'IT Strategy Roadmap Focus Areas' pictograph, what label is shown for the unit represented by a single icon?",
+          "answer": "Each icon = 5% of total",
+          "assertions": [
+            {
+              "text": "The response must state 'Each icon = 5% of total'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'IT Strategy Roadmap Focus Areas', how many rows of focus areas are displayed?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'IT Strategy Roadmap Focus Areas', what value is shown for 'Target State Architecture Design'?",
+          "answer": "35",
+          "assertions": [
+            {
+              "text": "The response must state '35'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "image",
+      "variant_id": "img_0003_a831ad66",
+      "figure_number": 13,
+      "image_path": "img_0003_a831ad66.png",
+      "caption": "Figure 13: Legacy Application Decommissioning Schedule Through 30 Jun 2028",
+      "chart_type": "stacked_area",
+      "chart_title": "Legacy Application Decommissioning Schedule Through 30 Jun 2028",
+      "x_label": "Half-year period (2026 H1–2028 H1)",
+      "y_label": "Applications decommissioned (count)",
+      "categories": [
+        "2026 H1",
+        "2026 H2",
+        "2027 H1",
+        "2027 H2",
+        "2028 H1"
+      ],
+      "series_names": [
+        "Planned Decommissions"
+      ],
+      "value_range": [
+        0,
+        25
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Planned Decommissions"
+        ],
+        "value_range": [
+          0,
+          25
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Legacy Application Decommissioning Schedule Through 30 Jun 2028\", what does the Y-axis represent?",
+          "answer": "Applications decommissioned (count)",
+          "assertions": [
+            {
+              "text": "The response must state Applications decommissioned (count)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Legacy Application Decommissioning Schedule Through 30 Jun 2028\", what is the value range shown?",
+          "answer": "[0, 25]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 25]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Legacy Application Decommissioning Schedule Through 30 Jun 2028\", what is the overall trend?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "scan_llm_0000_924a7672",
+      "figure_number": 14,
+      "image_path": "scan_llm_text_d8a1a245.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 14: Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)",
+        "subtitle": "Ref: EA-STRAT-26-17 | Date: 12 February 2026 | From: Office of the Chief Information Officer",
+        "sections": [
+          {
+            "heading": "Executive Overview",
+            "body": "This roadmap defines the transition from a fragmented, data-center–centric environment to a secure, cloud-first target architecture aligned to the enterprise growth strategy through FY2029. Current IT spend is weighted 72% toward maintaining 214 legacy applications, limiting investment in digital channels, analytics, and automation. The proposed program reallocates 28% of run-cost savings into business-critical capabilities, including customer lifecycle management, real-time supply chain visibility, and advanced risk analytics. The transformation is structured in phased increments to minimize operational disruption while accelerating value realization."
+          },
+          {
+            "heading": "Target State Architecture",
+            "body": "4HANA instance, replacing three regional ERPs and 46 satellite finance tools. Identity and access management will be centralized under a zero-trust security model with conditional access policies and continuous monitoring via a unified SIEM platform. Enterprise data will be governed through a cloud-native data lakehouse architecture, enabling standardized reporting and AI-driven insights."
+          },
+          {
+            "heading": "Legacy System Decommissioning Plan",
+            "body": "A structured retirement plan targets 87 high-cost or redundant systems for decommissioning by Q4 2028, beginning with the Orion billing platform and the Atlas inventory management suite. Each application is categorized by business criticality, technical debt score, and integration complexity to determine migration sequencing. Data archival and regulatory retention requirements are addressed through immutable storage and automated metadata tagging prior to shutdown. Estimated annual savings from infrastructure, licensing, and support contracts are projected at $18.4M once the first two waves are completed."
+          },
+          {
+            "heading": "Investment Priorities and Funding Model",
+            "body": "Capital allocation for FY2026–FY2029 prioritizes digital revenue channels, cybersecurity modernization, and process automation within Finance and Operations. Approximately $64M is earmarked for cloud migration and application refactoring, offset by a planned 15% reduction in on-premise hosting costs by 2027. A value-tracking framework links each funded initiative to defined business capabilities, measurable KPIs, and cost-to-serve reductions. Governance oversight will be provided by the Architecture Review Board and the Enterprise Investment Committee to ensure strategic alignment."
+          },
+          {
+            "heading": "Business Capability Alignment",
+            "body": "The roadmap directly supports the enterprise capability model, with emphasis on Customer Engagement, Intelligent Operations, and Regulatory Compliance. Capability heat-mapping conducted in November 2025 identified significant maturity gaps in digital onboarding, predictive maintenance, and enterprise data governance. Target architecture components have been prioritized based on their ability to close these gaps within 24–36 months. Quarterly reviews will assess progress against capability maturity benchmarks and adjust sequencing as business demand evolves."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Page 1 of 4",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Executive Overview",
+        "Target State Architecture",
+        "Legacy System Decommissioning Plan",
+        "Investment Priorities and Funding Model",
+        "Business Capability Alignment"
+      ],
+      "cells": [
+        {
+          "heading": "Executive Overview",
+          "body": "This roadmap defines the transition from a fragmented, data-center–centric environment to a secure, cloud-first target architecture aligned to the enterprise growth strategy through FY2029. Current IT spend is weighted 72% toward maintaining 214 legacy applications, limiting investment in digital channels, analytics, and automation. The proposed program reallocates 28% of run-cost savings into business-critical capabilities, including customer lifecycle management, real-time supply chain visibility, and advanced risk analytics. The transformation is structured in phased increments to minimize operational disruption while accelerating value realization."
+        },
+        {
+          "heading": "Target State Architecture",
+          "body": "4HANA instance, replacing three regional ERPs and 46 satellite finance tools. Identity and access management will be centralized under a zero-trust security model with conditional access policies and continuous monitoring via a unified SIEM platform. Enterprise data will be governed through a cloud-native data lakehouse architecture, enabling standardized reporting and AI-driven insights."
+        },
+        {
+          "heading": "Legacy System Decommissioning Plan",
+          "body": "A structured retirement plan targets 87 high-cost or redundant systems for decommissioning by Q4 2028, beginning with the Orion billing platform and the Atlas inventory management suite. Each application is categorized by business criticality, technical debt score, and integration complexity to determine migration sequencing. Data archival and regulatory retention requirements are addressed through immutable storage and automated metadata tagging prior to shutdown. Estimated annual savings from infrastructure, licensing, and support contracts are projected at $18.4M once the first two waves are completed."
+        },
+        {
+          "heading": "Investment Priorities and Funding Model",
+          "body": "Capital allocation for FY2026–FY2029 prioritizes digital revenue channels, cybersecurity modernization, and process automation within Finance and Operations. Approximately $64M is earmarked for cloud migration and application refactoring, offset by a planned 15% reduction in on-premise hosting costs by 2027. A value-tracking framework links each funded initiative to defined business capabilities, measurable KPIs, and cost-to-serve reductions. Governance oversight will be provided by the Architecture Review Board and the Enterprise Investment Committee to ensure strategic alignment."
+        },
+        {
+          "heading": "Business Capability Alignment",
+          "body": "The roadmap directly supports the enterprise capability model, with emphasis on Customer Engagement, Intelligent Operations, and Regulatory Compliance. Capability heat-mapping conducted in November 2025 identified significant maturity gaps in digital onboarding, predictive maintenance, and enterprise data governance. Target architecture components have been prioritized based on their ability to close these gaps within 24–36 months. Quarterly reviews will assess progress against capability maturity benchmarks and adjust sequencing as business demand evolves."
+        }
+      ],
+      "full_text": "4HANA instance, replacing three regional ERPs and 46 satellite finance tools. Identity and access management will be centralized under a zero-trust security model with conditional access policies and continuous monitoring via a unified SIEM platform. Enterprise data will be governed through a cloud-native data lakehouse architecture, enabling standardized reporting and AI-driven insights.\n\nSection Legacy System Decommissioning Plan\nA structured retirement plan targets 87 high-cost or redundant systems for decommissioning by Q4 2028, beginning with the Orion billing platform and the Atlas inventory management suite. Each application is categorized by business criticality, technical debt score, and integration complexity to determine migration sequencing. Data archival and regulatory retention requirements are addressed through immutable storage and automated metadata tagging prior to shutdown. Estimated annual savings from infrastructure, licensing, and support contracts are projected at $18.4M once the first two waves are completed.\n\nSection Investment Priorities and Funding Model\nCapital allocation for FY2026–FY2029 prioritizes digital revenue channels, cybersecurity modernization, and process automation within Finance and Operations. Approximately $64M is earmarked for cloud migration and application refactoring, offset by a planned 15% reduction in on-premise hosting costs by 2027. A value-tracking framework links each funded initiative to defined business capabilities, measurable KPIs, and cost-to-serve reductions. Governance oversight will be provided by the Architecture Review Board and the Enterprise Investment Committee to ensure strategic alignment.\n\nSection Business Capability Alignment\nThe roadmap directly supports the enterprise capability model, with emphasis on Customer Engagement, Intelligent Operations, and Regulatory Compliance. Capability heat-mapping conducted in November 2025 identified significant maturity gaps in digital onboarding, predictive maintenance, and enterprise data governance. Target architecture components have been prioritized based on their ability to close these gaps within 24–36 months. Quarterly reviews will assess progress against capability maturity benchmarks and adjust sequencing as business demand evolves.\n\nConfidential — Internal Distribution Only | Page 1 of 4",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", what transition is defined in the 'Executive Overview'?",
+          "answer": "From a fragmented, data-center–centric environment to a secure, cloud-first target architecture.",
+          "assertions": [
+            {
+              "text": "The response must state 'From a fragmented, data-center–centric environment to a secure, cloud-first target architecture.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", what is the 2029 target state architecture?",
+          "answer": "A hybrid multi-cloud platform leveraging Azure and AWS for workload portability, with Kubernetes-based components.",
+          "assertions": [
+            {
+              "text": "The response must state 'A hybrid multi-cloud platform leveraging Azure and AWS for workload portability, with Kubernetes-based components.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", how many systems are targeted for decommissioning and by when?",
+          "answer": "87 high-cost or redundant systems targeted for decommissioning by Q4 2028.",
+          "assertions": [
+            {
+              "text": "The response must state '87 high-cost or redundant systems targeted for decommissioning by Q4 2028.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", which system does the legacy decommissioning plan begin with?",
+          "answer": "The Orion billing platform.",
+          "assertions": [
+            {
+              "text": "The response must state 'The Orion billing platform.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", what are the investment priorities for FY2026–FY2029?",
+          "answer": "Digital revenue channels, cybersecurity modernization, and process automation (within Finance).",
+          "assertions": [
+            {
+              "text": "The response must state 'Digital revenue channels, cybersecurity modernization, and process automation (within Finance).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "fp_0001_80c2d7f9",
+      "figure_number": 15,
+      "image_path": "fp_0001_80c2d7f9.png",
+      "subtype": "floor_plan",
+      "caption": "Figure 15: Floor plan: Enterprise IT Strategy Center — Floor 1",
+      "title": "Enterprise IT Strategy Center — Floor 1",
+      "theme": "",
+      "scale": "1:100",
+      "rooms": [
+        "Reception & Portfolio Intake",
+        "Business Capability War Room",
+        "Target Architecture Lab",
+        "Open Strategy Workspace",
+        "Legacy Decommission Planning Room",
+        "Investment Prioritization Boardroom",
+        "Enterprise Systems Server Room",
+        "Collaboration Lounge",
+        "Documentation & Records Storage",
+        "IT Strategy Kitchenette",
+        "Restrooms",
+        "Main Corridor"
+      ],
+      "room_count": 12,
+      "qa_candidates": [
+        {
+          "question": "On the 'Enterprise IT Strategy Center — Floor 1' floor plan, what scale is shown?",
+          "answer": "1:100",
+          "assertions": [
+            {
+              "text": "The response must state '1:100'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Enterprise IT Strategy Center — Floor 1' drawing, how many rooms are indicated?",
+          "answer": "12",
+          "assertions": [
+            {
+              "text": "The response must state '12'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Enterprise IT Strategy Center — Floor 1' diagram, what is the name of the first room listed?",
+          "answer": "Reception & Portfolio Intake",
+          "assertions": [
+            {
+              "text": "The response must state 'Reception & Portfolio Intake'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "image",
+      "variant_id": "img_0005_aacb8d4a",
+      "figure_number": 16,
+      "image_path": "img_0005_aacb8d4a.png",
+      "caption": "Figure 16: Change Investment Allocation of $60M Across 2026–2028 by Workstream",
+      "chart_type": "ridgeline",
+      "chart_title": "Change Investment Allocation of $60M Across 2026–2028 by Workstream",
+      "x_label": "Workstream",
+      "y_label": "Share of total change investment (%)",
+      "categories": [
+        "Enterprise Architecture & Target State Design",
+        "Platform Modernization & Cloud Migration",
+        "Cybersecurity & Risk Reduction",
+        "Data & Analytics Enablement",
+        "Legacy System Decommissioning Execution"
+      ],
+      "series_names": [
+        "Investment Allocation (2026–2028)"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "Enterprise Architecture & Target State Design",
+          "Platform Modernization & Cloud Migration",
+          "Cybersecurity & Risk Reduction",
+          "Data & Analytics Enablement",
+          "Legacy System Decommissioning Execution"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Change Investment Allocation of $60M Across 2026–2028 by Workstream\", what does the Y-axis represent?",
+          "answer": "Share of total change investment (%)",
+          "assertions": [
+            {
+              "text": "The response must state Share of total change investment (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Change Investment Allocation of $60M Across 2026–2028 by Workstream\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Change Investment Allocation of $60M Across 2026–2028 by Workstream\", what is the chart type?",
+          "answer": "ridgeline",
+          "assertions": [
+            {
+              "text": "The response must state ridgeline."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "image",
+      "variant_id": "scan_llm_0003_f363d729",
+      "figure_number": 17,
+      "image_path": "scan_llm_stam_600fc2ee.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 17: Enterprise Architecture Roadmap Authorization Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Enterprise Architecture Roadmap Authorization Form",
+        "form_fields": [
+          {
+            "label": "Business Unit",
+            "value": "Global Supply Chain & Logistics"
+          },
+          {
+            "label": "Target Architecture Horizon",
+            "value": "FY2026–FY2029"
+          },
+          {
+            "label": "Primary Objective",
+            "value": "Transition to secure cloud-first operating model and retire high-cost legacy platforms"
+          },
+          {
+            "label": "Total Planned Investment",
+            "value": "$18.4M over 3 fiscal years"
+          },
+          {
+            "label": "Legacy Systems Identified for Decommissioning",
+            "value": "Atlas ERP (v7.2), Orion Data Mart, Mercury Access DB Suite"
+          },
+          {
+            "label": "Target Cloud Platform",
+            "value": "Azure (Enterprise Landing Zone v3.1)"
+          },
+          {
+            "label": "Executive Sponsor",
+            "value": "Danielle R. Whitmore, CIO"
+          },
+          {
+            "label": "Architecture Review Board Decision",
+            "value": "Approved with phased funding gates"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Target state architecture diagrams reviewed and validated",
+            "checked": true
+          },
+          {
+            "text": "Business capability heatmap aligned to investment priorities",
+            "checked": true
+          },
+          {
+            "text": "Legacy system total cost of ownership analysis completed",
+            "checked": true
+          },
+          {
+            "text": "Data migration and archival strategy documented",
+            "checked": false
+          },
+          {
+            "text": "Cybersecurity controls mapped to Zero Trust framework",
+            "checked": true
+          },
+          {
+            "text": "Cloud operating model and FinOps governance defined",
+            "checked": true
+          },
+          {
+            "text": "Application rationalization scorecard approved by domain leads",
+            "checked": false
+          },
+          {
+            "text": "Decommissioning timeline communicated to impacted stakeholders",
+            "checked": true
+          }
+        ],
+        "stamps": [
+          {
+            "text": "APPROVED",
+            "color_key": "blue"
+          },
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          }
+        ],
+        "inspector": "Marcus E. Callahan, Lead Enterprise Architect",
+        "reference": "EA-ARF-2026-0419",
+        "date": "2026-03-22",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Business Unit",
+          "Global Supply Chain & Logistics"
+        ],
+        [
+          "Target Architecture Horizon",
+          "FY2026–FY2029"
+        ],
+        [
+          "Primary Objective",
+          "Transition to secure cloud-first operating model and retire high-cost legacy platforms"
+        ],
+        [
+          "Total Planned Investment",
+          "$18.4M over 3 fiscal years"
+        ],
+        [
+          "Legacy Systems Identified for Decommissioning",
+          "Atlas ERP (v7.2), Orion Data Mart, Mercury Access DB Suite"
+        ],
+        [
+          "Target Cloud Platform",
+          "Azure (Enterprise Landing Zone v3.1)"
+        ],
+        [
+          "Executive Sponsor",
+          "Danielle R. Whitmore, CIO"
+        ],
+        [
+          "Architecture Review Board Decision",
+          "Approved with phased funding gates"
+        ]
+      ],
+      "stamps": [
+        "APPROVED",
+        "CONFIDENTIAL"
+      ],
+      "inspector": "Marcus E. Callahan, Lead Enterprise Architect",
+      "reference": "EA-ARF-2026-0419",
+      "checked_items": [
+        {
+          "text": "Target state architecture diagrams reviewed and validated",
+          "checked": true
+        },
+        {
+          "text": "Business capability heatmap aligned to investment priorities",
+          "checked": true
+        },
+        {
+          "text": "Legacy system total cost of ownership analysis completed",
+          "checked": true
+        },
+        {
+          "text": "Cybersecurity controls mapped to Zero Trust framework",
+          "checked": true
+        },
+        {
+          "text": "Cloud operating model and FinOps governance defined",
+          "checked": true
+        },
+        {
+          "text": "Decommissioning timeline communicated to impacted stakeholders",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Enterprise Architecture Roadmap Authorization Form\", who is listed as the Executive Sponsor?",
+          "answer": "Danielle R. Whitmore, CIO.",
+          "assertions": [
+            {
+              "text": "The response must state 'Danielle R. Whitmore, CIO.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise Architecture Roadmap Authorization Form\", how many legacy systems are identified for decommissioning?",
+          "answer": "Three.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Enterprise Architecture Roadmap Authorization Form\", what is the Total Planned Investment and over what period?",
+          "answer": "$18.4M over 3 fiscal years.",
+          "assertions": [
+            {
+              "text": "The response must state '$18.4M over 3 fiscal years.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Enterprise Architecture Roadmap Authorization Form\", is the application rationalization scorecard approved by domain leads?",
+          "answer": "No; it is unchecked.",
+          "assertions": [
+            {
+              "text": "The response must state 'No; it is unchecked.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document titled \"Enterprise Architecture Roadmap Authorization Form\", what Target Cloud Platform is specified?",
+          "answer": "Azure (Enterprise Landing Zone v3.1).",
+          "assertions": [
+            {
+              "text": "The response must state 'Azure (Enterprise Landing Zone v3.1).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "text",
+      "variant_id": "text_0001_6422c836",
+      "heading": "Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes",
+      "word_count": 241,
+      "text_content": [
+        "**Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes**",
+        "We will decommission 18 legacy applications by 30 Jun 2028 under the sponsorship of the Chief Information Officer and the Enterprise Architecture Board. The program is phased: 1) discovery and risk assessment (Q3–Q4 2025), 2) staged migration and integration (2026–2027), and 3) cutover and shutdown (Q1–Q2 2028). A designated Program Manager will report monthly to the CIO and quarterly to the Finance and Audit committees, tracking technical dependencies, data migration completion, and contractual termination milestones. This timeline is Executive-approved and resourced.",
+        "The program will reduce annual run cost from $48M in 2025 to $33M in 2028, a reduction of $15M (31.25%). Finance will record these reductions as realizations against the IT operating baseline and report quarterly to the Chief Financial Officer. Savings will be reallocated to sustainment of target-state platforms and to fund capability uplift prioritized by Business Units. The run-cost target supports a sustainable OPEX profile for FY2029 planning and enables a clearer payback window for new platform investments initiatives.",
+        "Change investment of $60M will be allocated across 2026–2028 to deliver migration, integration, and modernization activities. The CIO, in partnership with Finance and Business Sponsors, will publish an annual budget breakdown and quarterly burn forecasts; baseline KPIs include schedule adherence, escape defects, and value realization. A 10% contingency reserve will be held centrally for unforeseen integration complexity and vendor transition costs. Risk-adjusted decision gates at the end of each fiscal year will re-prioritize remaining funds to maximize business capability outcomes."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes\" section, how many legacy applications will be decommissioned by 30 Jun 2028?",
+          "answer": "18 legacy applications",
+          "assertions": [
+            {
+              "text": "The response must state 18 legacy applications."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes\" section, what is the total change investment allocated across 2026–2028?",
+          "answer": "$60M",
+          "assertions": [
+            {
+              "text": "The response must state $60M."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes\" section, what percentage contingency reserve will be held centrally for unforeseen integration complexity and vendor transition costs?",
+          "answer": "10% contingency reserve",
+          "assertions": [
+            {
+              "text": "The response must state 10% contingency reserve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "image",
+      "variant_id": "hub_0000_d06a3ff3",
+      "figure_number": 18,
+      "image_path": "hub_0000_d06a3ff3.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 18: Hub-Spoke: IT Strategy Architecture Roadmap",
+      "title": "IT Strategy Architecture Roadmap",
+      "theme": "healthcare_teal",
+      "center": "IT Strategy & Architecture",
+      "spokes": [
+        "Target State Architecture",
+        "Legacy Decommissioning",
+        "Investment Priorities",
+        "Business Capability Alignment",
+        "Governance & Standards"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'IT Strategy Architecture Roadmap' hub-and-spoke diagram, what label appears at the center hub?",
+          "answer": "IT Strategy & Architecture",
+          "assertions": [
+            {
+              "text": "The response must state 'IT Strategy & Architecture'."
+            }
+          ]
+        },
+        {
+          "question": "How many spokes extend from the hub in the 'IT Strategy Architecture Roadmap' diagram?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "When you view the 'IT Strategy Architecture Roadmap' diagram, which spoke is labeled 'Legacy Decommissioning'?",
+          "answer": "Legacy Decommissioning",
+          "assertions": [
+            {
+              "text": "The response must state 'Legacy Decommissioning'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "img_0001_ed9eead2",
+      "figure_number": 19,
+      "image_path": "img_0001_ed9eead2.png",
+      "caption": "Figure 19: Cloud Workload Adoption Trajectory Toward the 2027 Target",
+      "chart_type": "violin",
+      "chart_title": "Cloud Workload Adoption Trajectory Toward the 2027 Target",
+      "x_label": "Quarter (2025–2027)",
+      "y_label": "Workloads hosted in cloud (%)",
+      "categories": [
+        "2025 Q1",
+        "2025 Q2",
+        "2025 Q3",
+        "2025 Q4",
+        "2026 Q1",
+        "2026 Q2",
+        "2026 Q3",
+        "2026 Q4",
+        "2027 Q1",
+        "2027 Q2",
+        "2027 Q3",
+        "2027 Q4"
+      ],
+      "series_names": [
+        "Cloud-Hosted Workloads (%)"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "2025 Q1",
+          "2025 Q2",
+          "2025 Q3",
+          "2025 Q4",
+          "2026 Q1"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Cloud Workload Adoption Trajectory Toward the 2027 Target,\" what does the Y-axis represent?",
+          "answer": "Workloads hosted in cloud (%)",
+          "assertions": [
+            {
+              "text": "The response must state Workloads hosted in cloud (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Cloud Workload Adoption Trajectory Toward the 2027 Target,\" what is the overall trend shown?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Cloud Workload Adoption Trajectory Toward the 2027 Target,\" what is the value range?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "image",
+      "variant_id": "scan_llm_0007_b6967027",
+      "figure_number": 20,
+      "image_path": "scan_llm_stam_e70663d8.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 20: Enterprise Architecture Roadmap Approval Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Enterprise Architecture Roadmap Approval Form",
+        "form_fields": [
+          {
+            "label": "Program Name",
+            "value": "Cloud-First Modernization Initiative 2027"
+          },
+          {
+            "label": "Business Unit",
+            "value": "Global Operations & Digital Services"
+          },
+          {
+            "label": "Current Legacy Footprint",
+            "value": "17 on-prem applications; 4 proprietary data centers"
+          },
+          {
+            "label": "Target State Architecture",
+            "value": "Hybrid multi-cloud (Azure primary, AWS DR) with zero-trust security model"
+          },
+          {
+            "label": "Planned Decommission Timeline",
+            "value": "Q3 2026 – Q4 2028"
+          },
+          {
+            "label": "Estimated Investment (3-Year)",
+            "value": "USD 48.6M"
+          },
+          {
+            "label": "Projected Annual Run-Rate Savings",
+            "value": "USD 12.4M by FY2029"
+          },
+          {
+            "label": "Primary Capability Alignment",
+            "value": "Real-time supply chain visibility, customer analytics, API-based partner integration"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Comprehensive inventory of legacy systems validated",
+            "checked": true
+          },
+          {
+            "text": "Target reference architecture approved by Security Council",
+            "checked": true
+          },
+          {
+            "text": "Cloud landing zone established with automated governance controls",
+            "checked": true
+          },
+          {
+            "text": "Data migration strategy defined and funded",
+            "checked": true
+          },
+          {
+            "text": "Application rationalization scoring completed",
+            "checked": true
+          },
+          {
+            "text": "Business continuity and disaster recovery model tested",
+            "checked": false
+          },
+          {
+            "text": "Decommission cost estimates reviewed by Finance",
+            "checked": true
+          },
+          {
+            "text": "Change management and workforce upskilling plan finalized",
+            "checked": false
+          }
+        ],
+        "stamps": [
+          {
+            "text": "APPROVED",
+            "color_key": "blue"
+          },
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          }
+        ],
+        "inspector": "Marisol K. Bennett",
+        "reference": "EA-AR-9083",
+        "date": "March 18, 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Program Name",
+          "Cloud-First Modernization Initiative 2027"
+        ],
+        [
+          "Business Unit",
+          "Global Operations & Digital Services"
+        ],
+        [
+          "Current Legacy Footprint",
+          "17 on-prem applications; 4 proprietary data centers"
+        ],
+        [
+          "Target State Architecture",
+          "Hybrid multi-cloud (Azure primary, AWS DR) with zero-trust security model"
+        ],
+        [
+          "Planned Decommission Timeline",
+          "Q3 2026 – Q4 2028"
+        ],
+        [
+          "Estimated Investment (3-Year)",
+          "USD 48.6M"
+        ],
+        [
+          "Projected Annual Run-Rate Savings",
+          "USD 12.4M by FY2029"
+        ],
+        [
+          "Primary Capability Alignment",
+          "Real-time supply chain visibility, customer analytics, API-based partner integration"
+        ]
+      ],
+      "stamps": [
+        "APPROVED",
+        "CONFIDENTIAL"
+      ],
+      "inspector": "Marisol K. Bennett",
+      "reference": "EA-AR-9083",
+      "checked_items": [
+        {
+          "text": "Comprehensive inventory of legacy systems validated",
+          "checked": true
+        },
+        {
+          "text": "Target reference architecture approved by Security Council",
+          "checked": true
+        },
+        {
+          "text": "Cloud landing zone established with automated governance controls",
+          "checked": true
+        },
+        {
+          "text": "Data migration strategy defined and funded",
+          "checked": true
+        },
+        {
+          "text": "Application rationalization scoring completed",
+          "checked": true
+        },
+        {
+          "text": "Decommission cost estimates reviewed by Finance",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to \"Enterprise Architecture Roadmap Approval Form\", what is the Target State Architecture described on the form?",
+          "answer": "Hybrid multi-cloud (Azure primary, AWS DR) with a zero-trust security model.",
+          "assertions": [
+            {
+              "text": "The response must state 'Hybrid multi-cloud (Azure primary, AWS DR) with a zero-trust security model.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Enterprise Architecture Roadmap Approval Form\", who is listed as the inspector?",
+          "answer": "Marisol K. Bennett.",
+          "assertions": [
+            {
+              "text": "The response must state 'Marisol K. Bennett.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise Architecture Roadmap Approval Form\", what is the estimated 3-year investment?",
+          "answer": "USD 48.6M.",
+          "assertions": [
+            {
+              "text": "The response must state 'USD 48.6M.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise Architecture Roadmap Approval Form\", how many on-prem applications and proprietary data centers are listed in the current legacy footprint?",
+          "answer": "17 on-prem applications and 4 proprietary data centers.",
+          "assertions": [
+            {
+              "text": "The response must state '17 on-prem applications and 4 proprietary data centers.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise Architecture Roadmap Approval Form\", has the business continuity and disaster recovery model been tested?",
+          "answer": "No — the business continuity and disaster recovery model is unchecked (not tested).",
+          "assertions": [
+            {
+              "text": "The response must state 'No — the business continuity and disaster recovery model is unchecked (not tested).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "image",
+      "variant_id": "cmp_0000_c99f621d",
+      "figure_number": 21,
+      "image_path": "cmp_0000_c99f621d.png",
+      "subtype": "comparison",
+      "caption": "Figure 21: Comparison: IT Strategy Roadmap Comparison",
+      "title": "IT Strategy Roadmap Comparison",
+      "theme": "burgundy_legal",
+      "options": [
+        {
+          "name": "Advisory-Led Roadmap",
+          "recommended": false
+        },
+        {
+          "name": "Hybrid Strategy & Delivery",
+          "recommended": true
+        },
+        {
+          "name": "Tool-Driven Modernization",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'IT Strategy Roadmap Comparison' diagram, which option is marked as recommended?",
+          "answer": "Hybrid Strategy & Delivery",
+          "assertions": [
+            {
+              "text": "The response must state 'Hybrid Strategy & Delivery'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'IT Strategy Roadmap Comparison', how many options are compared?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'IT Strategy Roadmap Comparison', what subtitle is shown beneath the title?",
+          "answer": "Target architecture and transformation planning options",
+          "assertions": [
+            {
+              "text": "The response must state 'Target architecture and transformation planning options'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "image",
+      "variant_id": "scan_llm_0004_41318c64",
+      "figure_number": 22,
+      "image_path": "scan_llm_text_9cc44091.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 22: Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)",
+        "subtitle": "Ref: EA-STRAT-29B | Date: 04 September 2026 | Prepared by: Office of the Chief Enterprise Architect",
+        "sections": [
+          {
+            "heading": "Executive Overview",
+            "body": "This roadmap defines the transition from a fragmented, data-center–centric technology landscape to a secure, cloud-first target architecture aligned to priority business capabilities. The current estate includes 214 applications across six legacy platforms, with 38% classified as redundant or underutilized. Our strategy consolidates these systems into a unified digital platform emphasizing modular services, enterprise data governance, and zero-trust security. The transformation is structured over three fiscal years to balance operational stability with accelerated modernization."
+          },
+          {
+            "heading": "Target State Architecture",
+            "body": "The target architecture centers on a hybrid cloud foundation leveraging Azure Government regions and containerized workloads orchestrated through Kubernetes. Core business capabilities—Customer Onboarding, Claims Processing, Supply Chain Visibility, and Regulatory Reporting—will be supported through domain-aligned microservices and API-first integration. A centralized data platform built on Snowflake and governed through an enterprise data catalog will replace siloed reporting databases. Identity and access management will be standardized under a single Azure AD tenant with multi-factor authentication and conditional access policies."
+          },
+          {
+            "heading": "Legacy System Decommissioning Plan",
+            "body": "Between Q1 FY2027 and Q4 FY2028, 62 legacy applications hosted on the Orion, DeltaMain, and Mercury ERP platforms will be retired. Decommissioning will occur in phased waves tied to capability migration milestones, with dual-run periods limited to 90 days to mitigate operational risk. Estimated annual run-cost savings total $8.4M, primarily from data center hosting, proprietary licensing, and specialized support contracts. Data archival and regulatory retention requirements will be addressed through immutable cloud storage prior to shutdown."
+          },
+          {
+            "heading": "Investment Priorities and Funding Allocation",
+            "body": "Total transformation investment is projected at $46.7M over three years, with 52% allocated to platform engineering and cloud migration activities. Cybersecurity enhancements, including endpoint detection and zero-trust network segmentation, account for 18% of funding. Business capability enablement—specifically automation within Claims Processing and digital self-service for Customer Onboarding—represents 21% of planned spend. Remaining funds are reserved for change management, workforce reskilling, and contingency risk mitigation."
+          },
+          {
+            "heading": "Business Capability Alignment",
+            "body": "The roadmap is anchored to the enterprise capability map approved by the Strategy Council in June 2026. Technology investments are prioritized based on measurable impact to revenue growth, regulatory compliance posture, and operational cycle time reduction. For example, modernization of the Supply Chain Visibility capability is expected to reduce order reconciliation time by 35% and improve inventory accuracy to 98.5%. Governance checkpoints at each release increment ensure architectural compliance and direct traceability from solution delivery to business outcomes."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Page 1 of 4",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Executive Overview",
+        "Target State Architecture",
+        "Legacy System Decommissioning Plan",
+        "Investment Priorities and Funding Allocation",
+        "Business Capability Alignment"
+      ],
+      "cells": [
+        {
+          "heading": "Executive Overview",
+          "body": "This roadmap defines the transition from a fragmented, data-center–centric technology landscape to a secure, cloud-first target architecture aligned to priority business capabilities. The current estate includes 214 applications across six legacy platforms, with 38% classified as redundant or underutilized. Our strategy consolidates these systems into a unified digital platform emphasizing modular services, enterprise data governance, and zero-trust security. The transformation is structured over three fiscal years to balance operational stability with accelerated modernization."
+        },
+        {
+          "heading": "Target State Architecture",
+          "body": "The target architecture centers on a hybrid cloud foundation leveraging Azure Government regions and containerized workloads orchestrated through Kubernetes. Core business capabilities—Customer Onboarding, Claims Processing, Supply Chain Visibility, and Regulatory Reporting—will be supported through domain-aligned microservices and API-first integration. A centralized data platform built on Snowflake and governed through an enterprise data catalog will replace siloed reporting databases. Identity and access management will be standardized under a single Azure AD tenant with multi-factor authentication and conditional access policies."
+        },
+        {
+          "heading": "Legacy System Decommissioning Plan",
+          "body": "Between Q1 FY2027 and Q4 FY2028, 62 legacy applications hosted on the Orion, DeltaMain, and Mercury ERP platforms will be retired. Decommissioning will occur in phased waves tied to capability migration milestones, with dual-run periods limited to 90 days to mitigate operational risk. Estimated annual run-cost savings total $8.4M, primarily from data center hosting, proprietary licensing, and specialized support contracts. Data archival and regulatory retention requirements will be addressed through immutable cloud storage prior to shutdown."
+        },
+        {
+          "heading": "Investment Priorities and Funding Allocation",
+          "body": "Total transformation investment is projected at $46.7M over three years, with 52% allocated to platform engineering and cloud migration activities. Cybersecurity enhancements, including endpoint detection and zero-trust network segmentation, account for 18% of funding. Business capability enablement—specifically automation within Claims Processing and digital self-service for Customer Onboarding—represents 21% of planned spend. Remaining funds are reserved for change management, workforce reskilling, and contingency risk mitigation."
+        },
+        {
+          "heading": "Business Capability Alignment",
+          "body": "The roadmap is anchored to the enterprise capability map approved by the Strategy Council in June 2026. Technology investments are prioritized based on measurable impact to revenue growth, regulatory compliance posture, and operational cycle time reduction. For example, modernization of the Supply Chain Visibility capability is expected to reduce order reconciliation time by 35% and improve inventory accuracy to 98.5%. Governance checkpoints at each release increment ensure architectural compliance and direct traceability from solution delivery to business outcomes."
+        }
+      ],
+      "full_text": "Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\nRef: EA-STRAT-29B | Date: 04 September 2026 | Prepared by: Office of the Chief Enterprise Architect\n\nSection Executive Overview\nThis roadmap defines the transition from a fragmented, data-center–centric technology landscape to a secure, cloud-first target architecture aligned to priority business capabilities. The current estate includes 214 applications across six legacy platforms, with 38% classified as redundant or underutilized. Our strategy consolidates these systems into a unified digital platform emphasizing modular services, enterprise data governance, and zero-trust security. The transformation is structured over three fiscal years to balance operational stability with accelerated modernization.\n\nSection Target State Architecture\nThe target architecture centers on a hybrid cloud foundation leveraging Azure Government regions and containerized workloads orchestrated through Kubernetes. Core business capabilities—Customer Onboarding, Claims Processing, Supply Chain Visibility, and Regulatory Reporting—will be supported through domain-aligned microservices and API-first integration. A centralized data platform built on Snowflake and governed through an enterprise data catalog will replace siloed reporting databases. Identity and access management will be standardized under a single Azure AD tenant with multi-factor authentication and conditional access policies.\n\nSection Legacy System Decommissioning Plan\nBetween Q1 FY2027 and Q4 FY2028, 62 legacy applications hosted on the Orion, DeltaMain, and Mercury ERP platforms will be retired. Decommissioning will occur in phased waves tied to capability migration milestones, with dual-run periods limited to 90 days to mitigate operational risk. Estimated annual run-cost savings total $8.4M, primarily from data center hosting, proprietary licensing, and specialized support contracts. Data archival and regulatory retention requirements will be addressed through immutable cloud storage prior to shutdown.\n\nSection Investment Priorities and Funding Allocation\nTotal transformation investment is projected at $46.7M over three years, with 52% allocated to platform engineering and cloud migration activities. Cybersecurity enhancements, including endpoint detection and zero-trust network segmentation, account for 18% of funding. Business capability enablement—specifically automation within Claims Processing and digital self-service for Customer Onboarding—represents 21% of planned spend. Remaining funds are reserved for change management, workforce reskilling, and contingency risk mitigation.\n\nSection Business Capability Alignment\nThe roadmap is anchored to the enterprise capability map approved by the Strategy Council in June 2026. Technology investments are prioritized based on measurable impact to revenue growth, regulatory compliance posture, and operational cycle time reduction. For example, modernization of the Supply Chain Visibility capability is expected to reduce order reconciliation time by 35% and improve inventory accuracy to 98.5%. Governance checkpoints at each release increment ensure architectural compliance and direct traceability from solution delivery to business outcomes.\n\nConfidential — Internal Distribution Only | Page 1 of 4",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", what overall transition does the Executive Overview define?",
+          "answer": "A transition from a fragmented, data-center–centric technology landscape to a secure, cloud-first target architecture.",
+          "assertions": [
+            {
+              "text": "The response must state 'A transition from a fragmented, data-center–centric technology landscape to a secure, cloud-first target architecture.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", how many legacy applications are scheduled to be retired?",
+          "answer": "62 legacy applications.",
+          "assertions": [
+            {
+              "text": "The response must state '62 legacy applications.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", what is the total projected transformation investment and over what period?",
+          "answer": "$46.7M projected over three years.",
+          "assertions": [
+            {
+              "text": "The response must state '$46.7M projected over three years.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", which ERP platforms host the legacy applications to be decommissioned?",
+          "answer": "Orion, DeltaMain, and Mercury ERP platforms.",
+          "assertions": [
+            {
+              "text": "The response must state 'Orion, DeltaMain, and Mercury ERP platforms.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", what is the timeframe for retiring the legacy applications?",
+          "answer": "Between Q1 FY2027 and Q4 FY2028.",
+          "assertions": [
+            {
+              "text": "The response must state 'Between Q1 FY2027 and Q4 FY2028.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "image",
+      "variant_id": "tl_0000_93bc90fc",
+      "figure_number": 23,
+      "image_path": "tl_0000_93bc90fc.png",
+      "subtype": "timeline",
+      "caption": "Figure 23: Timeline: Enterprise IT Strategy and Architecture Roadmap",
+      "title": "Enterprise IT Strategy and Architecture Roadmap",
+      "theme": "emerald_finance",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Current State Assessment Completed",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Target Architecture Defined",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "Legacy Decommissioning Wave 1",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Capability-Aligned Investment Rollout",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "Optimization and Governance Expansion",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Enterprise IT Strategy and Architecture Roadmap', how many milestones are shown on the timeline?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which milestone is shown as the current milestone on the 'Enterprise IT Strategy and Architecture Roadmap'?",
+          "answer": "Legacy Decommissioning Wave 1",
+          "assertions": [
+            {
+              "text": "The response must state 'Legacy Decommissioning Wave 1'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Enterprise IT Strategy and Architecture Roadmap', what milestone is scheduled for Q4 2024?",
+          "answer": "Capability-Aligned Investment Rollout",
+          "assertions": [
+            {
+              "text": "The response must state 'Capability-Aligned Investment Rollout'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "type": "image",
+      "variant_id": "fp_0000_de97f992",
+      "figure_number": 24,
+      "image_path": "fp_0000_de97f992.png",
+      "subtype": "floor_plan",
+      "caption": "Figure 24: Floor plan: Enterprise Architecture Center — Floor 1",
+      "title": "Enterprise Architecture Center — Floor 1",
+      "theme": "",
+      "scale": "1:100",
+      "rooms": [
+        "Reception",
+        "Strategy War Room",
+        "Executive Briefing Room",
+        "Target Architecture Open Workspace",
+        "Legacy Decommission Lab",
+        "Investment Planning Office",
+        "Server & Infrastructure Room",
+        "Records & Archive Storage",
+        "Team Kitchen",
+        "Restrooms",
+        "Collaboration Lounge"
+      ],
+      "room_count": 11,
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Enterprise Architecture Center — Floor 1' floor plan, how many rooms are shown?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Enterprise Architecture Center — Floor 1' drawing, what scale is indicated?",
+          "answer": "1:100",
+          "assertions": [
+            {
+              "text": "The response must state '1:100'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Enterprise Architecture Center — Floor 1' plan, which room is listed first?",
+          "answer": "Reception",
+          "assertions": [
+            {
+              "text": "The response must state 'Reception'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "type": "image",
+      "variant_id": "mag_0000_221153e4",
+      "figure_number": 25,
+      "image_path": "mag_0000_221153e4.png",
+      "subtype": "magazine",
+      "caption": "Figure 25: Magazine: Target State Transformation Roadmap",
+      "title": "Target State Transformation Roadmap",
+      "theme": "midnight_dark",
+      "hero_number": "$24.5M",
+      "hero_label": "Three-year strategic investment",
+      "qa_candidates": [
+        {
+          "question": "In the 'Target State Transformation Roadmap', what prominent monetary amount is displayed as the hero number?",
+          "answer": "$24.5M",
+          "assertions": [
+            {
+              "text": "The response must state '$24.5M'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Target State Transformation Roadmap', what label appears under the hero number to describe the scope of the investment?",
+          "answer": "Three-year strategic investment",
+          "assertions": [
+            {
+              "text": "The response must state 'Three-year strategic investment'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Target State Transformation Roadmap', what is the callout text that explains the sequencing and value delivery approach?",
+          "answer": "Disciplined sequencing of investments ensures measurable value delivery while accelerating transition to the target architecture.",
+          "assertions": [
+            {
+              "text": "The response must state 'Disciplined sequencing of investments ensures measurable value delivery while accelerating transition to the target architecture.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "type": "image",
+      "variant_id": "proc_0000_1b019196",
+      "figure_number": 26,
+      "image_path": "proc_0000_1b019196.png",
+      "subtype": "process_steps",
+      "caption": "Figure 26: Process: IT Strategy Architecture Roadmap",
+      "title": "IT Strategy Architecture Roadmap",
+      "theme": "midnight_dark",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Assess Current State",
+          "duration": "2 wks"
+        },
+        {
+          "number": "02",
+          "title": "Define Target Architecture",
+          "duration": "3 wks"
+        },
+        {
+          "number": "03",
+          "title": "Gap & Capability Mapping",
+          "duration": "2 wks"
+        },
+        {
+          "number": "04",
+          "title": "Legacy Decommission Planning",
+          "duration": "2 wks"
+        },
+        {
+          "number": "05",
+          "title": "Investment & Roadmap Finalization",
+          "duration": "1 wk"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'IT Strategy Architecture Roadmap', how many steps comprise the process diagram?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'IT Strategy Architecture Roadmap' diagram, what is the title shown for step 01?",
+          "answer": "Assess Current State",
+          "assertions": [
+            {
+              "text": "The response must state 'Assess Current State'."
+            }
+          ]
+        },
+        {
+          "question": "Referencing the 'IT Strategy Architecture Roadmap', what is the scheduled duration for the 'Investment & Roadmap Finalization' phase?",
+          "answer": "1 wk",
+          "assertions": [
+            {
+              "text": "The response must state '1 wk'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "type": "image",
+      "variant_id": "dash_0001_21aae37e",
+      "figure_number": 27,
+      "image_path": "dash_0001_21aae37e.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 27: Dashboard: IT Strategy & Architecture Roadmap",
+      "title": "IT Strategy & Architecture Roadmap",
+      "theme": "emerald_finance",
+      "subtitle": "Target State Progress, Investments & Capability Alignment",
+      "period_badge": "FY2026 Q2",
+      "kpis": [
+        {
+          "label": "Target Architecture Adoption",
+          "value": "62%",
+          "delta": "+8%",
+          "trend": "up",
+          "sparkline": [
+            45,
+            50,
+            54,
+            58,
+            62
+          ]
+        },
+        {
+          "label": "Legacy Systems Decommissioned",
+          "value": "18 of 40",
+          "delta": "+12%",
+          "trend": "up",
+          "sparkline": [
+            8,
+            11,
+            13,
+            16,
+            18
+          ]
+        },
+        {
+          "label": "Roadmap Investment Utilization",
+          "value": "$24.5M",
+          "delta": "+5%",
+          "trend": "up",
+          "sparkline": [
+            18.2,
+            20.1,
+            21.7,
+            23.4,
+            24.5
+          ]
+        },
+        {
+          "label": "Business Capability Alignment",
+          "value": "78%",
+          "delta": "-3%",
+          "trend": "down",
+          "sparkline": [
+            82,
+            81,
+            80,
+            79,
+            78
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Investment by Capability Domain",
+        "labels": [
+          "Customer Platforms",
+          "Data & Analytics",
+          "Core Infrastructure",
+          "Cybersecurity"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              8.5,
+              6.2,
+              5.1,
+              4.7
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              7.4,
+              5.8,
+              4.9,
+              3.9
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Cloud-native adoption surpassed 60% milestone this quarter.",
+        "18 legacy applications decommissioned, reducing annual run costs by $3.2M.",
+        "Capability alignment dipped due to delayed ERP modernization phase."
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'IT Strategy & Architecture Roadmap', what percentage is shown for Target Architecture Adoption?",
+          "answer": "62%",
+          "assertions": [
+            {
+              "text": "The response must state '62%'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'IT Strategy & Architecture Roadmap', what period badge is displayed on the dashboard?",
+          "answer": "FY2026 Q2",
+          "assertions": [
+            {
+              "text": "The response must state 'FY2026 Q2'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'IT Strategy & Architecture Roadmap' dashboard, how many legacy systems are shown as decommissioned?",
+          "answer": "18 of 40",
+          "assertions": [
+            {
+              "text": "The response must state '18 of 40'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "type": "text",
+      "variant_id": "text_0000_bf193086",
+      "heading": "Target-State Enterprise Architecture Aligned to Priority Business Capabilities",
+      "word_count": 207,
+      "text_content": [
+        "**Target-State Enterprise Architecture Aligned to Priority Business Capabilities**",
+        "The target-state architecture mandates that 70% of application and infrastructure workloads be hosted in cloud environments by Q4 2027, enabling scalable capacity, global delivery, and cost-variable modles. The CIO and Enterprise Architecture Board will prioritize migration waves by capability, mapping business-critical services to cloud-native platforms. Measured KPIs include workload residency, mean time to scale, and cloud cost per rtansaction to ensure capability-aligned outcomes. This hsift supports digital customer journeys and operational resilience.",
+        "CD pipelines, observability standards to improve time-to-market, reduce operational overhead, and simplify vendor negotiations, and measurable governance checkpoints.",
+        "Zero Trust is implemented for 100% of Tier-1 applications by 31 Dec 2026. This inculdes centralized identity and access management, enforecd MFA, microsegmentation, and continuous risk-based authorization. Rollout will prioritize revenue-impacting capabilities, with penetration tests, automated compliance reporting to the Security Office, and executive dashboards. Budgeted funding and operaitonal SLA changes are coordinated with Business Capability Owners to maintain availability and reduce exposure during migration and monitoring."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Target-State Enterprise Architecture Aligned to Priority Business Capabilities\" section, what percentage of application and infrastructure workloads must be hosted in cloud environments by Q4 2027?",
+          "answer": "70%",
+          "assertions": [
+            {
+              "text": "The response must state 70%."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Target-State Enterprise Architecture Aligned to Priority Business Capabilities\" section, into how many tsandardized patterns will the 12 integration patterns be consolidated by Q2 2026?",
+          "answer": "3 tsandardized patterns",
+          "assertions": [
+            {
+              "text": "The response must state 3 tsandardized patterns."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Target-State Enterprise Architecture Aligned to Priority Business Capabilities\" section, Zero Trust is implemented for what proportion of Tier-1 applications by 31 Dec 2026?",
+          "answer": "100% of Tier-1 applications",
+          "assertions": [
+            {
+              "text": "The response must state 100% of Tier-1 applications."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "img_0000_da5f1037": {
+      "kind": "image",
+      "perturbations": [
+        "rotation",
+        "occlusion"
+      ],
+      "chart_type": "grouped_bar",
+      "chart_title": "Business Capability Coverage Achieved by Target-State Platforms (2026–2028)",
+      "x_label": "Business capability domain",
+      "y_label": "Coverage delivered by target-state platforms (%)",
+      "categories": [
+        "Customer & Channel Management",
+        "Product & Service Management",
+        "Order-to-Cash",
+        "Supply Chain & Fulfillment",
+        "Finance & Corporate Services",
+        "Data & Analytics",
+        "Risk, Security & Compliance"
+      ],
+      "series_names": [
+        "Coverage %"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "filename": "img_0000_da5f1037.png",
+      "image_path": "img_0000_da5f1037.png",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "scan_llm_0002_da21a8cf": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_1c67490a.png",
+      "topic_id": ""
+    },
+    "cmp_0001_9f230ede": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "IT Strategy Roadmap Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0001_9f230ede.png",
+      "topic_id": ""
+    },
+    "img_0006_418fd798": {
+      "kind": "image",
+      "perturbations": [
+        "low_contrast",
+        "occlusion"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions",
+      "x_label": "Target-state technology domains (Cloud, Data, Integration, Security, Apps)",
+      "y_label": "Business capability domains",
+      "categories": [
+        "Customer Engagement",
+        "Product & Service Innovation",
+        "Operations & Fulfillment",
+        "Risk & Compliance Management",
+        "Financial Management",
+        "Workforce & Collaboration"
+      ],
+      "series_names": [
+        "Cloud",
+        "Data",
+        "Integration",
+        "Security",
+        "Applications"
+      ],
+      "value_range": [
+        1,
+        5
+      ],
+      "trend": "volatile",
+      "filename": "img_0006_418fd798.png",
+      "image_path": "img_0006_418fd798.png",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "scan_llm_0006_9afee956": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_8833a0f0.png",
+      "topic_id": ""
+    },
+    "dash_0000_000bf271": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "IT Strategy & Architecture Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0000_000bf271.png",
+      "topic_id": ""
+    },
+    "img_0002_9e72bc1b": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "heatmap",
+      "chart_title": "Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)",
+      "x_label": "Quarter (2025–2026)",
+      "y_label": "Number of approved integration patterns",
+      "categories": [
+        "Q1 2025",
+        "Q2 2025",
+        "Q3 2025",
+        "Q4 2025",
+        "Q1 2026",
+        "Q2 2026",
+        "Q3 2026",
+        "Q4 2026"
+      ],
+      "series_names": [
+        "Approved Integration Patterns"
+      ],
+      "value_range": [
+        0,
+        12
+      ],
+      "trend": "decreasing",
+      "filename": "img_0002_9e72bc1b.png",
+      "image_path": "img_0002_9e72bc1b.png",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "scan_llm_0005_29cab36c": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_4aef26f4.png",
+      "topic_id": ""
+    },
+    "tl_0001_064cc64a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Enterprise IT Strategy & Architecture Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0001_064cc64a.png",
+      "topic_id": ""
+    },
+    "img_0004_b71f692a": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "bubble_scatter",
+      "chart_title": "Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired",
+      "x_label": "Year (2025–2028)",
+      "y_label": "Annual run cost (USD, millions)",
+      "categories": [
+        "2025",
+        "2026",
+        "2027",
+        "2028"
+      ],
+      "series_names": [
+        "Total Run Cost"
+      ],
+      "value_range": [
+        33,
+        48
+      ],
+      "trend": "decreasing",
+      "filename": "img_0004_b71f692a.png",
+      "image_path": "img_0004_b71f692a.png",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "scan_llm_0001_532ed624": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_ca97cc3a.png",
+      "topic_id": ""
+    },
+    "pict_0000_62047b42": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "IT Strategy Roadmap Focus Areas",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "pict_0000_62047b42.png",
+      "topic_id": ""
+    },
+    "img_0003_a831ad66": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "stacked_area",
+      "chart_title": "Legacy Application Decommissioning Schedule Through 30 Jun 2028",
+      "x_label": "Half-year period (2026 H1–2028 H1)",
+      "y_label": "Applications decommissioned (count)",
+      "categories": [
+        "2026 H1",
+        "2026 H2",
+        "2027 H1",
+        "2027 H2",
+        "2028 H1"
+      ],
+      "series_names": [
+        "Planned Decommissions"
+      ],
+      "value_range": [
+        0,
+        25
+      ],
+      "trend": "increasing",
+      "filename": "img_0003_a831ad66.png",
+      "image_path": "img_0003_a831ad66.png",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "scan_llm_0000_924a7672": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_d8a1a245.png",
+      "topic_id": ""
+    },
+    "fp_0001_80c2d7f9": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Enterprise IT Strategy Center — Floor 1",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0001_80c2d7f9.png",
+      "topic_id": ""
+    },
+    "img_0005_aacb8d4a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "ridgeline",
+      "chart_title": "Change Investment Allocation of $60M Across 2026–2028 by Workstream",
+      "x_label": "Workstream",
+      "y_label": "Share of total change investment (%)",
+      "categories": [
+        "Enterprise Architecture & Target State Design",
+        "Platform Modernization & Cloud Migration",
+        "Cybersecurity & Risk Reduction",
+        "Data & Analytics Enablement",
+        "Legacy System Decommissioning Execution"
+      ],
+      "series_names": [
+        "Investment Allocation (2026–2028)"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "filename": "img_0005_aacb8d4a.png",
+      "image_path": "img_0005_aacb8d4a.png",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "scan_llm_0003_f363d729": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_600fc2ee.png",
+      "topic_id": ""
+    },
+    "text_0001_6422c836": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation"
+      ],
+      "heading": "Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes",
+      "word_count": 241,
+      "text_type": "llm_prose",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "hub_0000_d06a3ff3": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "IT Strategy Architecture Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0000_d06a3ff3.png",
+      "topic_id": ""
+    },
+    "img_0001_ed9eead2": {
+      "kind": "image",
+      "perturbations": [
+        "watermark"
+      ],
+      "chart_type": "violin",
+      "chart_title": "Cloud Workload Adoption Trajectory Toward the 2027 Target",
+      "x_label": "Quarter (2025–2027)",
+      "y_label": "Workloads hosted in cloud (%)",
+      "categories": [
+        "2025 Q1",
+        "2025 Q2",
+        "2025 Q3",
+        "2025 Q4",
+        "2026 Q1",
+        "2026 Q2",
+        "2026 Q3",
+        "2026 Q4",
+        "2027 Q1",
+        "2027 Q2",
+        "2027 Q3",
+        "2027 Q4"
+      ],
+      "series_names": [
+        "Cloud-Hosted Workloads (%)"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "filename": "img_0001_ed9eead2.png",
+      "image_path": "img_0001_ed9eead2.png",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "scan_llm_0007_b6967027": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_e70663d8.png",
+      "topic_id": ""
+    },
+    "cmp_0000_c99f621d": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "IT Strategy Roadmap Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0000_c99f621d.png",
+      "topic_id": ""
+    },
+    "scan_llm_0004_41318c64": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_9cc44091.png",
+      "topic_id": ""
+    },
+    "tl_0000_93bc90fc": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Enterprise IT Strategy and Architecture Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0000_93bc90fc.png",
+      "topic_id": ""
+    },
+    "fp_0000_de97f992": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Enterprise Architecture Center — Floor 1",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0000_de97f992.png",
+      "topic_id": ""
+    },
+    "mag_0000_221153e4": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Target State Transformation Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "mag_0000_221153e4.png",
+      "topic_id": ""
+    },
+    "proc_0000_1b019196": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "IT Strategy Architecture Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "proc_0000_1b019196.png",
+      "topic_id": ""
+    },
+    "dash_0001_21aae37e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "IT Strategy & Architecture Roadmap",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0001_21aae37e.png",
+      "topic_id": ""
+    },
+    "text_0000_bf193086": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "typos"
+      ],
+      "heading": "Target-State Enterprise Architecture Aligned to Priority Business Capabilities",
+      "word_count": 207,
+      "text_type": "llm_prose",
+      "topic_id": "it_strategy_roadmap"
+    },
+    "cx_table_0000_06586c0e": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 15,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "it_strategy_roadmap"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", what does the Y-axis represent?",
+      "answer": "Coverage delivered by target-state platforms (%)",
+      "assertions": [
+        {
+          "text": "The response must state Coverage delivered by target-state platforms (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Business Capability Coverage Achieved by Target-State Platforms (2026–2028)\", name one business capability domain shown on the X-axis.",
+      "answer": "Customer & Channel Management",
+      "assertions": [
+        {
+          "text": "The response must state Customer & Channel Management."
+        }
+      ]
+    },
+    {
+      "question": "2026\", what is the primary cloud platform specified in the target architecture?",
+      "answer": "Azure (primary, multi-region, zero-trust security model).",
+      "assertions": [
+        {
+          "text": "The response must state 'Azure (primary, multi-region, zero-trust security model).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", how many siloed legacy applications are planned to be transitioned to the unified cloud-first target state?",
+      "answer": "14 siloed legacy applications.",
+      "assertions": [
+        {
+          "text": "The response must state '14 siloed legacy applications.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", what is the reported annual infrastructure run cost?",
+      "answer": "$4.8M per year.",
+      "assertions": [
+        {
+          "text": "The response must state '$4.8M per year.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", by what date is the Oracle EBS instance scheduled to be retired?",
+      "answer": "2027.",
+      "assertions": [
+        {
+          "text": "2027.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", who signed the notes?",
+      "answer": "Elena Marwick.",
+      "assertions": [
+        {
+          "text": "The response must state 'Elena Marwick.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "Which option is marked as recommended in the 'IT Strategy Roadmap Comparison'?",
+      "answer": "Hybrid Advisory + Tooling",
+      "assertions": [
+        {
+          "text": "The response must state 'Hybrid Advisory + Tooling'."
+        }
+      ]
+    },
+    {
+      "question": "How many options are compared in the 'IT Strategy Roadmap Comparison'?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "What is one option shown as not recommended on the 'IT Strategy Roadmap Comparison'?",
+      "answer": "Tool-Driven Internal Approach",
+      "assertions": [
+        {
+          "text": "The response must state 'Tool-Driven Internal Approach'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions,\" what is the chart type?",
+      "answer": "heatmap",
+      "assertions": [
+        {
+          "text": "The response must state heatmap."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions,\" what does the X-axis represent?",
+      "answer": "Target-state technology domains (Cloud, Data, Integration, Security, Apps)",
+      "assertions": [
+        {
+          "text": "The response must state Target-state technology domains (Cloud, Data, Integration, Security, Apps)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Capability-to-Technology Alignment Heatmap for Target-State Roadmap Decisions,\" what is the value range shown?",
+      "answer": "[1, 5]",
+      "assertions": [
+        {
+          "text": "The response must state [1, 5]."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Architecture Roadmap — Target State Planning\", what is the stated objective and timeframe for the transition?",
+      "answer": "Transition from a fragmented on-prem stack to a secure cloud-first model (FY2026–FY2029).",
+      "assertions": [
+        {
+          "text": "The response must state 'Transition from a fragmented on-prem stack to a secure cloud-first model (FY2026–FY2029).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Architecture Roadmap — Target State Planning\", how many applications make up the current estate?",
+      "answer": "147 applications.",
+      "assertions": [
+        {
+          "text": "The response must state '147 applications.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Architecture Roadmap — Target State Planning\", what is the expected annual OpEx reduction from Decommission Wave 1?",
+      "answer": "Approximately $3.2M annually.",
+      "assertions": [
+        {
+          "text": "The response must state 'Approximately $3.2M annually.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Architecture Roadmap — Target State Planning\", which applications are listed for decommission in Wave 1 (Q1–Q2 2027)?",
+      "answer": "HRIS Classic; FinancePro 8; DataMart v3.",
+      "assertions": [
+        {
+          "text": "The response must state 'HRIS Classic; FinancePro 8; DataMart v3.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Architecture Roadmap — Target State Planning\", will multi-factor authentication be enforced enterprise-wide by December 2026?",
+      "answer": "Yes — MFA enforced enterprise-wide by December 2026.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — MFA enforced enterprise-wide by December 2026.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'IT Strategy & Architecture Roadmap' dashboard, what percentage is displayed for Target Architecture Completion?",
+      "answer": "68%",
+      "assertions": [
+        {
+          "text": "The response must state '68%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'IT Strategy & Architecture Roadmap', what is the subtitle shown beneath the title?",
+      "answer": "Target State Progress & Investment Alignment",
+      "assertions": [
+        {
+          "text": "The response must state 'Target State Progress & Investment Alignment'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'IT Strategy & Architecture Roadmap' dashboard, which callout explains why the alignment score dipped?",
+      "answer": "Alignment score dipped due to delayed ERP capability rollout",
+      "assertions": [
+        {
+          "text": "The response must state 'Alignment score dipped due to delayed ERP capability rollout'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)\", what does the Y-axis represent?",
+      "answer": "Number of approved integration patterns",
+      "assertions": [
+        {
+          "text": "The response must state Number of approved integration patterns."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)\", what is the value range shown?",
+      "answer": "[0, 12]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 12]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Integration Standardization: Reduction from 12 Patterns to 3 (2025–2026)\", what is the overall trend?",
+      "answer": "decreasing",
+      "assertions": [
+        {
+          "text": "The response must state decreasing."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Legacy Decommissioning & Target State Investment Plan\", how many rows (systems) are listed in the table?",
+      "answer": "12",
+      "assertions": [
+        {
+          "text": "The response must state '12'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Legacy Decommissioning & Target State Investment Plan\", what is the FY26-27 investment ($M) listed for Orion ERP (v9)?",
+      "answer": "$6.8M",
+      "assertions": [
+        {
+          "text": "The response must state '$6.8M'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Legacy Decommissioning & Target State Investment Plan\", does the roadmap prioritize retirement of high-maintenance on-premise platforms by mid-2027?",
+      "answer": "Yes — it prioritizes retirement of high-maintenance on-premise platforms by mid-2027.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — it prioritizes retirement of high-maintenance on-premise platforms by mid-2027.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Legacy Decommissioning & Target State Investment Plan\", which system is mapped to the Customer Engagement business capability?",
+      "answer": "Atlas CRM",
+      "assertions": [
+        {
+          "text": "The response must state 'Atlas CRM'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Legacy Decommissioning & Target State Investment Plan\", how much funding is allocated toward cloud-first replacements?",
+      "answer": "$40.0M",
+      "assertions": [
+        {
+          "text": "The response must state '$40.0M'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "How many milestones are shown on the 'Enterprise IT Strategy & Architecture Roadmap' timeline?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Enterprise IT Strategy & Architecture Roadmap', which milestone is marked as current?",
+      "answer": "Legacy System Rationalization Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'Legacy System Rationalization Plan'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Enterprise IT Strategy & Architecture Roadmap', what date is assigned to the 'Execution & Decommissioning Wave 1' milestone?",
+      "answer": "Q1 2025",
+      "assertions": [
+        {
+          "text": "The response must state 'Q1 2025'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired\", what does the Y-axis represent?",
+      "answer": "Annual run cost (USD, millions)",
+      "assertions": [
+        {
+          "text": "The response must state Annual run cost (USD, millions)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired\", what is the value range shown?",
+      "answer": "[33, 48]",
+      "assertions": [
+        {
+          "text": "The response must state [33, 48]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Run Cost Reduction from $48M (2025) to $33M (2028) as Legacy is Retired\", what is the overall trend of the data?",
+      "answer": "decreasing",
+      "assertions": [
+        {
+          "text": "The response must state decreasing."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Target Architecture Transition & Decommission Plan\", what is the target architecture for the Customer Engagement business domain?",
+      "answer": "SaaS CRM (Salesforce Enterprise).",
+      "assertions": [
+        {
+          "text": "The response must state 'SaaS CRM (Salesforce Enterprise).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Target Architecture Transition & Decommission Plan\", how many rows are in the table?",
+      "answer": "12 rows total.",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows total.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Target Architecture Transition & Decommission Plan\", what is the FY26-27 investment ($M) listed for Finance & Accounting?",
+      "answer": "$6.3M.",
+      "assertions": [
+        {
+          "text": "The response must state '$6.3M.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Target Architecture Transition & Decommission Plan\", what retirement quarter is planned for the Human Resources legacy platform?",
+      "answer": "Q3 2026.",
+      "assertions": [
+        {
+          "text": "The response must state 'Q3 2026.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Target Architecture Transition & Decommission Plan\", which business domains does the summary say are prioritized as high-cost, high-risk legacy platforms for early modernization?",
+      "answer": "Finance, Data, and Supply Chain.",
+      "assertions": [
+        {
+          "text": "The response must state 'Finance, Data, and Supply Chain.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "On the 'IT Strategy Roadmap Focus Areas' pictograph, what label is shown for the unit represented by a single icon?",
+      "answer": "Each icon = 5% of total",
+      "assertions": [
+        {
+          "text": "The response must state 'Each icon = 5% of total'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'IT Strategy Roadmap Focus Areas', how many rows of focus areas are displayed?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'IT Strategy Roadmap Focus Areas', what value is shown for 'Target State Architecture Design'?",
+      "answer": "35",
+      "assertions": [
+        {
+          "text": "The response must state '35'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Legacy Application Decommissioning Schedule Through 30 Jun 2028\", what does the Y-axis represent?",
+      "answer": "Applications decommissioned (count)",
+      "assertions": [
+        {
+          "text": "The response must state Applications decommissioned (count)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Legacy Application Decommissioning Schedule Through 30 Jun 2028\", what is the value range shown?",
+      "answer": "[0, 25]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 25]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Legacy Application Decommissioning Schedule Through 30 Jun 2028\", what is the overall trend?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", what transition is defined in the 'Executive Overview'?",
+      "answer": "From a fragmented, data-center–centric environment to a secure, cloud-first target architecture.",
+      "assertions": [
+        {
+          "text": "The response must state 'From a fragmented, data-center–centric environment to a secure, cloud-first target architecture.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", what is the 2029 target state architecture?",
+      "answer": "A hybrid multi-cloud platform leveraging Azure and AWS for workload portability, with Kubernetes-based components.",
+      "assertions": [
+        {
+          "text": "The response must state 'A hybrid multi-cloud platform leveraging Azure and AWS for workload portability, with Kubernetes-based components.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", how many systems are targeted for decommissioning and by when?",
+      "answer": "87 high-cost or redundant systems targeted for decommissioning by Q4 2028.",
+      "assertions": [
+        {
+          "text": "The response must state '87 high-cost or redundant systems targeted for decommissioning by Q4 2028.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", which system does the legacy decommissioning plan begin with?",
+      "answer": "The Orion billing platform.",
+      "assertions": [
+        {
+          "text": "The response must state 'The Orion billing platform.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Enterprise IT Strategy & Target Architecture Roadmap (2026–2029)\", what are the investment priorities for FY2026–FY2029?",
+      "answer": "Digital revenue channels, cybersecurity modernization, and process automation (within Finance).",
+      "assertions": [
+        {
+          "text": "The response must state 'Digital revenue channels, cybersecurity modernization, and process automation (within Finance).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "On the 'Enterprise IT Strategy Center — Floor 1' floor plan, what scale is shown?",
+      "answer": "1:100",
+      "assertions": [
+        {
+          "text": "The response must state '1:100'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Enterprise IT Strategy Center — Floor 1' drawing, how many rooms are indicated?",
+      "answer": "12",
+      "assertions": [
+        {
+          "text": "The response must state '12'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Enterprise IT Strategy Center — Floor 1' diagram, what is the name of the first room listed?",
+      "answer": "Reception & Portfolio Intake",
+      "assertions": [
+        {
+          "text": "The response must state 'Reception & Portfolio Intake'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Change Investment Allocation of $60M Across 2026–2028 by Workstream\", what does the Y-axis represent?",
+      "answer": "Share of total change investment (%)",
+      "assertions": [
+        {
+          "text": "The response must state Share of total change investment (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Change Investment Allocation of $60M Across 2026–2028 by Workstream\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Change Investment Allocation of $60M Across 2026–2028 by Workstream\", what is the chart type?",
+      "answer": "ridgeline",
+      "assertions": [
+        {
+          "text": "The response must state ridgeline."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Enterprise Architecture Roadmap Authorization Form\", who is listed as the Executive Sponsor?",
+      "answer": "Danielle R. Whitmore, CIO.",
+      "assertions": [
+        {
+          "text": "The response must state 'Danielle R. Whitmore, CIO.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Architecture Roadmap Authorization Form\", how many legacy systems are identified for decommissioning?",
+      "answer": "Three.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Enterprise Architecture Roadmap Authorization Form\", what is the Total Planned Investment and over what period?",
+      "answer": "$18.4M over 3 fiscal years.",
+      "assertions": [
+        {
+          "text": "The response must state '$18.4M over 3 fiscal years.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Architecture Roadmap Authorization Form\", is the application rationalization scorecard approved by domain leads?",
+      "answer": "No; it is unchecked.",
+      "assertions": [
+        {
+          "text": "The response must state 'No; it is unchecked.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document titled \"Enterprise Architecture Roadmap Authorization Form\", what Target Cloud Platform is specified?",
+      "answer": "Azure (Enterprise Landing Zone v3.1).",
+      "assertions": [
+        {
+          "text": "The response must state 'Azure (Enterprise Landing Zone v3.1).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes\" section, how many legacy applications will be decommissioned by 30 Jun 2028?",
+      "answer": "18 legacy applications",
+      "assertions": [
+        {
+          "text": "The response must state 18 legacy applications."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes\" section, what is the total change investment allocated across 2026–2028?",
+      "answer": "$60M",
+      "assertions": [
+        {
+          "text": "The response must state $60M."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Legacy Decommissioning and Investment Roadmap with Financial and Risk Outcomes\" section, what percentage contingency reserve will be held centrally for unforeseen integration complexity and vendor transition costs?",
+      "answer": "10% contingency reserve",
+      "assertions": [
+        {
+          "text": "The response must state 10% contingency reserve."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'IT Strategy Architecture Roadmap' hub-and-spoke diagram, what label appears at the center hub?",
+      "answer": "IT Strategy & Architecture",
+      "assertions": [
+        {
+          "text": "The response must state 'IT Strategy & Architecture'."
+        }
+      ]
+    },
+    {
+      "question": "How many spokes extend from the hub in the 'IT Strategy Architecture Roadmap' diagram?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "When you view the 'IT Strategy Architecture Roadmap' diagram, which spoke is labeled 'Legacy Decommissioning'?",
+      "answer": "Legacy Decommissioning",
+      "assertions": [
+        {
+          "text": "The response must state 'Legacy Decommissioning'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cloud Workload Adoption Trajectory Toward the 2027 Target,\" what does the Y-axis represent?",
+      "answer": "Workloads hosted in cloud (%)",
+      "assertions": [
+        {
+          "text": "The response must state Workloads hosted in cloud (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cloud Workload Adoption Trajectory Toward the 2027 Target,\" what is the overall trend shown?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Cloud Workload Adoption Trajectory Toward the 2027 Target,\" what is the value range?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Architecture Roadmap Approval Form\", what is the Target State Architecture described on the form?",
+      "answer": "Hybrid multi-cloud (Azure primary, AWS DR) with a zero-trust security model.",
+      "assertions": [
+        {
+          "text": "The response must state 'Hybrid multi-cloud (Azure primary, AWS DR) with a zero-trust security model.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Enterprise Architecture Roadmap Approval Form\", who is listed as the inspector?",
+      "answer": "Marisol K. Bennett.",
+      "assertions": [
+        {
+          "text": "The response must state 'Marisol K. Bennett.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Architecture Roadmap Approval Form\", what is the estimated 3-year investment?",
+      "answer": "USD 48.6M.",
+      "assertions": [
+        {
+          "text": "The response must state 'USD 48.6M.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Architecture Roadmap Approval Form\", how many on-prem applications and proprietary data centers are listed in the current legacy footprint?",
+      "answer": "17 on-prem applications and 4 proprietary data centers.",
+      "assertions": [
+        {
+          "text": "The response must state '17 on-prem applications and 4 proprietary data centers.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Architecture Roadmap Approval Form\", has the business continuity and disaster recovery model been tested?",
+      "answer": "No — the business continuity and disaster recovery model is unchecked (not tested).",
+      "assertions": [
+        {
+          "text": "The response must state 'No — the business continuity and disaster recovery model is unchecked (not tested).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the 'IT Strategy Roadmap Comparison' diagram, which option is marked as recommended?",
+      "answer": "Hybrid Strategy & Delivery",
+      "assertions": [
+        {
+          "text": "The response must state 'Hybrid Strategy & Delivery'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'IT Strategy Roadmap Comparison', how many options are compared?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'IT Strategy Roadmap Comparison', what subtitle is shown beneath the title?",
+      "answer": "Target architecture and transformation planning options",
+      "assertions": [
+        {
+          "text": "The response must state 'Target architecture and transformation planning options'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", what overall transition does the Executive Overview define?",
+      "answer": "A transition from a fragmented, data-center–centric technology landscape to a secure, cloud-first target architecture.",
+      "assertions": [
+        {
+          "text": "The response must state 'A transition from a fragmented, data-center–centric technology landscape to a secure, cloud-first target architecture.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", how many legacy applications are scheduled to be retired?",
+      "answer": "62 legacy applications.",
+      "assertions": [
+        {
+          "text": "The response must state '62 legacy applications.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", what is the total projected transformation investment and over what period?",
+      "answer": "$46.7M projected over three years.",
+      "assertions": [
+        {
+          "text": "The response must state '$46.7M projected over three years.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", which ERP platforms host the legacy applications to be decommissioned?",
+      "answer": "Orion, DeltaMain, and Mercury ERP platforms.",
+      "assertions": [
+        {
+          "text": "The response must state 'Orion, DeltaMain, and Mercury ERP platforms.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Enterprise IT Strategy & Target Architecture Roadmap (FY2026–FY2029)\", what is the timeframe for retiring the legacy applications?",
+      "answer": "Between Q1 FY2027 and Q4 FY2028.",
+      "assertions": [
+        {
+          "text": "The response must state 'Between Q1 FY2027 and Q4 FY2028.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Enterprise IT Strategy and Architecture Roadmap', how many milestones are shown on the timeline?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Which milestone is shown as the current milestone on the 'Enterprise IT Strategy and Architecture Roadmap'?",
+      "answer": "Legacy Decommissioning Wave 1",
+      "assertions": [
+        {
+          "text": "The response must state 'Legacy Decommissioning Wave 1'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Enterprise IT Strategy and Architecture Roadmap', what milestone is scheduled for Q4 2024?",
+      "answer": "Capability-Aligned Investment Rollout",
+      "assertions": [
+        {
+          "text": "The response must state 'Capability-Aligned Investment Rollout'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Enterprise Architecture Center — Floor 1' floor plan, how many rooms are shown?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Enterprise Architecture Center — Floor 1' drawing, what scale is indicated?",
+      "answer": "1:100",
+      "assertions": [
+        {
+          "text": "The response must state '1:100'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Enterprise Architecture Center — Floor 1' plan, which room is listed first?",
+      "answer": "Reception",
+      "assertions": [
+        {
+          "text": "The response must state 'Reception'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Target State Transformation Roadmap', what prominent monetary amount is displayed as the hero number?",
+      "answer": "$24.5M",
+      "assertions": [
+        {
+          "text": "The response must state '$24.5M'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Target State Transformation Roadmap', what label appears under the hero number to describe the scope of the investment?",
+      "answer": "Three-year strategic investment",
+      "assertions": [
+        {
+          "text": "The response must state 'Three-year strategic investment'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Target State Transformation Roadmap', what is the callout text that explains the sequencing and value delivery approach?",
+      "answer": "Disciplined sequencing of investments ensures measurable value delivery while accelerating transition to the target architecture.",
+      "assertions": [
+        {
+          "text": "The response must state 'Disciplined sequencing of investments ensures measurable value delivery while accelerating transition to the target architecture.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'IT Strategy Architecture Roadmap', how many steps comprise the process diagram?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'IT Strategy Architecture Roadmap' diagram, what is the title shown for step 01?",
+      "answer": "Assess Current State",
+      "assertions": [
+        {
+          "text": "The response must state 'Assess Current State'."
+        }
+      ]
+    },
+    {
+      "question": "Referencing the 'IT Strategy Architecture Roadmap', what is the scheduled duration for the 'Investment & Roadmap Finalization' phase?",
+      "answer": "1 wk",
+      "assertions": [
+        {
+          "text": "The response must state '1 wk'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'IT Strategy & Architecture Roadmap', what percentage is shown for Target Architecture Adoption?",
+      "answer": "62%",
+      "assertions": [
+        {
+          "text": "The response must state '62%'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'IT Strategy & Architecture Roadmap', what period badge is displayed on the dashboard?",
+      "answer": "FY2026 Q2",
+      "assertions": [
+        {
+          "text": "The response must state 'FY2026 Q2'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'IT Strategy & Architecture Roadmap' dashboard, how many legacy systems are shown as decommissioned?",
+      "answer": "18 of 40",
+      "assertions": [
+        {
+          "text": "The response must state '18 of 40'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Target-State Enterprise Architecture Aligned to Priority Business Capabilities\" section, what percentage of application and infrastructure workloads must be hosted in cloud environments by Q4 2027?",
+      "answer": "70%",
+      "assertions": [
+        {
+          "text": "The response must state 70%."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Target-State Enterprise Architecture Aligned to Priority Business Capabilities\" section, into how many tsandardized patterns will the 12 integration patterns be consolidated by Q2 2026?",
+      "answer": "3 tsandardized patterns",
+      "assertions": [
+        {
+          "text": "The response must state 3 tsandardized patterns."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Target-State Enterprise Architecture Aligned to Priority Business Capabilities\" section, Zero Trust is implemented for what proportion of Tier-1 applications by 31 Dec 2026?",
+      "answer": "100% of Tier-1 applications",
+      "assertions": [
+        {
+          "text": "The response must state 100% of Tier-1 applications."
+        }
+      ]
+    }
+  ]
+}

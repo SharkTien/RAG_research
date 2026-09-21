@@ -1,0 +1,4053 @@
+{
+  "doc_id": "doc_0000_s308098343",
+  "title": "Compensation Benchmarking and Pay Equity Report: Market Comparison, Attrition Risk Analysis, and Salary Band Recommendations",
+  "subtitle": "Compensation Benchmarking — Market Comparison, Attrition Risk & Pay Band and Equity Recommendations",
+  "topic_id": "compensation_benchmarking_study",
+  "recipe_name": "field_ops",
+  "seed": 308098343,
+  "document_brief": {
+    "narrative_theme": "This benchmarking study uses consistent market survey data to quantify where current pay bands diverge from the market, pinpoint attrition-risk roles, and recommend targeted band and equity adjustments that restore competitiveness while controlling cost.",
+    "sections": [
+      {
+        "heading": "Benchmarking Methodology and Market Data Alignment for Pay Band Comparison",
+        "key_facts": [
+          "The study benchmarks 48 roles across 6 job families using Mercer TRS 2025 and Radford Global Compensation Database 2025.",
+          "All market comparisons are normalized to the 50th percentile (P50) and expressed as compa-ratio, with 1.00 defined as equal to market P50.",
+          "The analysis uses a snapshot date of 2026-03-31 for employee pay and headcount."
+        ],
+        "data_references": []
+      },
+      {
+        "heading": "Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections",
+        "key_facts": [
+          "Roles are flagged as attrition risk when compa-ratio is below 0.90 and trailing 12-month voluntary attrition is at least 15%.",
+          "The study identifies 9 roles meeting the attrition-risk threshold, including Software Engineer II and Senior Data Analyst.",
+          "Recommended band actions include increasing the midpoint by 6% for Software Engineer II and applying equity adjustments of $3,500 to impacted employees in the Customer Support Lead role."
+        ],
+        "data_references": []
+      }
+    ],
+    "tables": [],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s308098343.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_stam_deb8d808.png",
+      "scan_llm_text_6021d05b.png",
+      "scan_llm_hand_8772c078.png",
+      "scan_llm_stam_13b31bec.png",
+      "scan_llm_hand_907c6307.png",
+      "scan_llm_text_f0da59f2.png",
+      "scan_llm_text_588917d1.png",
+      "scan_llm_stam_296c1d88.png",
+      "scan_llm_text_4674027d.png",
+      "scan_llm_hand_3b02d616.png",
+      "scan_llm_hand_aee42053.png",
+      "scan_llm_hand_56d605b9.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 28,
+    "actual_page_count": 24
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "filled_form",
+      "variant_id": "filled_form_0004_38dd94a2",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Study Overview",
+        "Market Comparison & Risk Analysis",
+        "Recommendations & Adjustments"
+      ],
+      "required_fields": [
+        "Study Period Start Date",
+        "Study Period End Date",
+        "Geographic Market Scope",
+        "Primary Industry Benchmark",
+        "Total Roles Benchmarked",
+        "Percentage of Roles Below Market Median",
+        "Primary Drivers of Attrition Risk",
+        "Recommended Salary Band Adjustment (%)",
+        "Equity Adjustment Required"
+      ],
+      "description": "Complete this form to document market benchmarking data, identify attrition risks, and recommend salary band and equity adjustments.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "KalamRegular, cursive",
+        "ink_color": "#1c2db5",
+        "font_size_pt": 11.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Form', how many sections does the form include on the rendered page?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Form', what is the title of the third section displayed on the form?",
+          "answer": "Recommendations & Adjustments",
+          "assertions": [
+            {
+              "text": "The response must state 'Recommendations & Adjustments'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Form', how many dropdown fields are present in the filled form?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Form', what instruction or description is shown to users at the top of the form?",
+          "answer": "Complete this form to document market benchmarking data, identify attrition risks, and recommend salary band and equity adjustments.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document market benchmarking data, identify attrition risks, and recommend salary band and equity adjustments.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0001_d227caae",
+      "heading": "Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections",
+      "word_count": 227,
+      "text_content": [
+        "**Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections**",
+        "The attrition-risk identification criteria applied in this study designate roles as at risk when an incumbent compa-ratio is below 0.90 and the role’s trailing 12-month voluntary attrition equals or exceeds 15%. This threshold was applied to payroll and HRIS data as of March 31, 2026, across North America and EMEA populations. The approach aligns with Total Rewards practices at peer firms and informs which job families warrant urgent band and equity review to mitigate turnover and maintain operational continuity effectively.",
+        "The study identifies 9 roles that meet the attrition-risk threshold; notable examples include Software Engineer II and Senior Data Analyst. Other impacted titles span Customer Support Lead, Product Manager II, and two specialist roles within Marketing and Finance. Flags were concentrated in high-growth product lines and customer-facing operations during Q4 2025 through Q1 2026. Human Resources and Hiring Managers were notified on April 15, 2026, to prioritize retention strategies and targeted compensation interventions and reporting.",
+        "Recommended actions prioritize immediate band adjustments and equity corrections. For Software Engineer II we recommend increasing the salary band midpoint by 6% effective June 1, 2026; for Customer Support Lead the recommendation includes equity adjustments of $3,500 per impacted employee, to be processed in the June payroll cycle. Implementation governance should involve Compensation, Legal, and Finance with a program review on September 30, 2026, to measure attrition and internal equity outcomes regularly."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections\" section, what compa-ratio threshold designates a role as at risk?",
+          "answer": "below 0.90",
+          "assertions": [
+            {
+              "text": "The response must state below 0.90."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections\" section, how many roles meet the attrition-risk threshold?",
+          "answer": "9 roles",
+          "assertions": [
+            {
+              "text": "The response must state 9 roles."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections\" section, what is the recommended salary band midpoint increase for Software Engineer II?",
+          "answer": "6%",
+          "assertions": [
+            {
+              "text": "The response must state 6%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "scan_llm_0001_282c3dde",
+      "figure_number": 1,
+      "image_path": "scan_llm_stam_deb8d808.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 1: Compensation Benchmarking Review & Adjustment Authorization Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Compensation Benchmarking Review & Adjustment Authorization Form",
+        "form_fields": [
+          {
+            "label": "Organisation",
+            "value": "Northbridge Digital Solutions Ltd."
+          },
+          {
+            "label": "Market Survey Source",
+            "value": "Radford Global Technology Survey (FY2026 Mid-Year Cut)"
+          },
+          {
+            "label": "Roles Assessed",
+            "value": "47 benchmark roles across Engineering, Product, Sales, and G&A"
+          },
+          {
+            "label": "Primary Variance Identified",
+            "value": "Software Engineering Bands 2–4 lag market by 11.8% at median"
+          },
+          {
+            "label": "Attrition Risk Roles",
+            "value": "Senior Backend Engineer, Data Platform Lead, Enterprise Account Executive"
+          },
+          {
+            "label": "Estimated Cost of Adjustments",
+            "value": "£1,184,500 annualized impact (3.6% payroll increase)"
+          },
+          {
+            "label": "Recommended Effective Date",
+            "value": "01 September 2026"
+          },
+          {
+            "label": "Equity Correction Pool",
+            "value": "£420,000 targeted equity realignment fund"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Market data normalized to 50th percentile for primary geography (UK - London)",
+            "checked": true
+          },
+          {
+            "text": "Compression analysis completed for internal parity",
+            "checked": true
+          },
+          {
+            "text": "Attrition trend reviewed against 12-month exit data",
+            "checked": true
+          },
+          {
+            "text": "Finance impact model validated against FY2027 budget",
+            "checked": false
+          },
+          {
+            "text": "Executive Leadership Team approval obtained",
+            "checked": false
+          },
+          {
+            "text": "Equity refresh guidelines aligned with compensation philosophy",
+            "checked": true
+          },
+          {
+            "text": "Communication plan drafted for affected employees",
+            "checked": false
+          }
+        ],
+        "stamps": [
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          },
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          }
+        ],
+        "inspector": "Marianne Okafor, FCIPD – Director of Total Rewards",
+        "reference": "CBR-26-0519",
+        "date": "19 July 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Organisation",
+          "Northbridge Digital Solutions Ltd."
+        ],
+        [
+          "Market Survey Source",
+          "Radford Global Technology Survey (FY2026 Mid-Year Cut)"
+        ],
+        [
+          "Roles Assessed",
+          "47 benchmark roles across Engineering, Product, Sales, and G&A"
+        ],
+        [
+          "Primary Variance Identified",
+          "Software Engineering Bands 2–4 lag market by 11.8% at median"
+        ],
+        [
+          "Attrition Risk Roles",
+          "Senior Backend Engineer, Data Platform Lead, Enterprise Account Executive"
+        ],
+        [
+          "Estimated Cost of Adjustments",
+          "£1,184,500 annualized impact (3.6% payroll increase)"
+        ],
+        [
+          "Recommended Effective Date",
+          "01 September 2026"
+        ],
+        [
+          "Equity Correction Pool",
+          "£420,000 targeted equity realignment fund"
+        ]
+      ],
+      "stamps": [
+        "CONFIDENTIAL",
+        "REVIEWED"
+      ],
+      "inspector": "Marianne Okafor, FCIPD – Director of Total Rewards",
+      "reference": "CBR-26-0519",
+      "checked_items": [
+        {
+          "text": "Market data normalized to 50th percentile for primary geography (UK - London)",
+          "checked": true
+        },
+        {
+          "text": "Compression analysis completed for internal parity",
+          "checked": true
+        },
+        {
+          "text": "Attrition trend reviewed against 12-month exit data",
+          "checked": true
+        },
+        {
+          "text": "Equity refresh guidelines aligned with compensation philosophy",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", who is listed as the inspector?",
+          "answer": "Marianne Okafor, FCIPD – Director of Total Rewards.",
+          "assertions": [
+            {
+              "text": "The response must state 'Marianne Okafor, FCIPD – Director of Total Rewards.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", how many benchmark roles were assessed?",
+          "answer": "47 benchmark roles.",
+          "assertions": [
+            {
+              "text": "The response must state '47 benchmark roles.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", what is the estimated annualized cost of the recommended adjustments and the payroll impact?",
+          "answer": "£1,184,500 annualized impact (3.6% payroll increase).",
+          "assertions": [
+            {
+              "text": "The response must state '£1,184,500 annualized impact (3.6% payroll increase).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", was the Finance impact model validated against the FY2027 budget?",
+          "answer": "No — the Finance impact model validation is unchecked.",
+          "assertions": [
+            {
+              "text": "The response must state 'No — the Finance impact model validation is unchecked.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", which roles are identified as at risk of attrition?",
+          "answer": "Senior Backend Engineer; Data Platform Lead; Enterprise Account Executive.",
+          "assertions": [
+            {
+              "text": "The response must state 'Senior Backend Engineer; Data Platform Lead; Enterprise Account Executive.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0000_91f1e7fb",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 10,
+      "sections": [
+        "Organisation and Study Information",
+        "Benchmarking Data Sources and Methodology",
+        "Compensation Gap and Attrition Risk Analysis",
+        "Recommended Salary Band Adjustments and Equity Corrections"
+      ],
+      "required_fields": [
+        "Organisation Name",
+        " Division",
+        "Study Period (Start Date)",
+        "Primary Market Survey Provider",
+        "Industry Sector Benchmarked",
+        "Geographic Market Scope",
+        "Roles Identified Below Market Median",
+        "Average Percentage Gap to Market (%)",
+        "Proposed Salary Band Adjustment Strategy",
+        "Estimated Total Budget Impact"
+      ],
+      "description": "",
+      "form_number": "HR-COMP-2026-014",
+      "instructions": "Complete all required fields with current compensation and market benchmarking data. Submit the finalized form, along with supporting survey reports and analysis, to the HR Governance Committee for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Courier, monospace",
+        "ink_color": "#b51c1c",
+        "font_size_pt": 10.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections does the form contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what form number is shown on the document?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what is the title of the third section listed?",
+          "answer": "Compensation Gap and Attrition Risk Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Compensation Gap and Attrition Risk Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "Referencing the 'Compensation Benchmarking and Salary Band Adjustment Report Form', which required field requests the primary market survey provider?",
+          "answer": "Primary Market Survey Provider",
+          "assertions": [
+            {
+              "text": "The response must state 'Primary Market Survey Provider'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "scan_llm_0002_f3423d12",
+      "figure_number": 2,
+      "image_path": "scan_llm_text_6021d05b.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 2: Compensation Benchmarking Review — Market Alignment and Risk Assessment",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Compensation Benchmarking Review — Market Alignment and Risk Assessment",
+        "subtitle": "Ref: CBR-27-2026 | Date: 12 February 2026 | Prepared by: Total Rewards & Analytics",
+        "sections": [
+          {
+            "heading": "Study Scope and Data Sources",
+            "body": "This benchmarking review compares the organization’s FY2025 pay bands against aggregated market data from the Radford Technology Survey (Q4 2025 cut) and the National Industry Remuneration Index (NIRI 2025). The analysis covers 64 benchmarked roles across Engineering, Product, Commercial, Corporate Services, and Operations. Market positioning was assessed at the 25th, 50th, and 75th percentiles, with geographic differentials applied for London, Manchester, and Remote-UK profiles. All compensation figures reflect base salary only, excluding variable incentives and long-term equity."
+          },
+          {
+            "heading": "Overall Market Positioning",
+            "body": "Across the full population, the organization’s salary midpoints sit at approximately the 43rd percentile of the market, with notable dispersion by function. Engineering roles are most compressed, averaging 11% below market median at midpoint, while Corporate Services roles are broadly aligned at 98% of market median. Commercial leadership roles exceed market median by 6%, largely driven by historical retention adjustments. Band width variance is generally consistent (±15%), though several legacy bands exhibit structural midpoint drift relative to current market rates."
+          },
+          {
+            "heading": "Attrition Risk Roles",
+            "body": "Three role families demonstrate elevated attrition risk due to sustained sub-market positioning and external hiring pressure: Senior Backend Engineers (Band E4), Data Engineers (Band E5), and Product Designers (Band P3). For Senior Backend Engineers, current midpoint salary (£82,500) trails the market median (£92,000) by 10.3%, with voluntary attrition at 18% over the past 12 months compared to a company average of 11%. Data Engineers show the largest gap at 13.7% below median, compounded by aggressive counteroffers in the London market. Exit interviews consistently cite external base pay increases between 15–22% as primary drivers."
+          },
+          {
+            "heading": "Recommended Band Adjustments",
+            "body": "It is recommended that Band E4 and E5 midpoints be increased by 8% and 10% respectively, with corresponding range adjustments to preserve band integrity. Product Design Band P3 should receive a 6% midpoint uplift to restore alignment to at least the 50th percentile of the NIRI survey. These adjustments would impact 37 incumbents and are projected to increase annualized base payroll by £1.14 million, representing a 2.6% increase to total fixed compensation cost. Phasing adjustments over two quarters is advised to mitigate budget concentration in a single fiscal period."
+          },
+          {
+            "heading": "Equity and Compression Corrections",
+            "body": "Beyond structural band updates, individual equity corrections are required for 19 incumbents currently paid below 90% of revised band midpoint. Particular attention is required for high-tenure engineers whose pay progression has not kept pace with external market acceleration, resulting in internal compression versus new hires. Targeted adjustments averaging 7.5% are recommended to restore internal equity and reduce flight risk. Future governance should include semi-annual market reviews for critical technical roles to prevent recurrence of midpoint lag."
+          }
+        ],
+        "footer_note": "Confidential — Internal Compensation Analysis | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Study Scope and Data Sources",
+        "Overall Market Positioning",
+        "Attrition Risk Roles",
+        "Recommended Band Adjustments",
+        "Equity and Compression Corrections"
+      ],
+      "cells": [
+        {
+          "heading": "Study Scope and Data Sources",
+          "body": "This benchmarking review compares the organization’s FY2025 pay bands against aggregated market data from the Radford Technology Survey (Q4 2025 cut) and the National Industry Remuneration Index (NIRI 2025). The analysis covers 64 benchmarked roles across Engineering, Product, Commercial, Corporate Services, and Operations. Market positioning was assessed at the 25th, 50th, and 75th percentiles, with geographic differentials applied for London, Manchester, and Remote-UK profiles. All compensation figures reflect base salary only, excluding variable incentives and long-term equity."
+        },
+        {
+          "heading": "Overall Market Positioning",
+          "body": "Across the full population, the organization’s salary midpoints sit at approximately the 43rd percentile of the market, with notable dispersion by function. Engineering roles are most compressed, averaging 11% below market median at midpoint, while Corporate Services roles are broadly aligned at 98% of market median. Commercial leadership roles exceed market median by 6%, largely driven by historical retention adjustments. Band width variance is generally consistent (±15%), though several legacy bands exhibit structural midpoint drift relative to current market rates."
+        },
+        {
+          "heading": "Attrition Risk Roles",
+          "body": "Three role families demonstrate elevated attrition risk due to sustained sub-market positioning and external hiring pressure: Senior Backend Engineers (Band E4), Data Engineers (Band E5), and Product Designers (Band P3). For Senior Backend Engineers, current midpoint salary (£82,500) trails the market median (£92,000) by 10.3%, with voluntary attrition at 18% over the past 12 months compared to a company average of 11%. Data Engineers show the largest gap at 13.7% below median, compounded by aggressive counteroffers in the London market. Exit interviews consistently cite external base pay increases between 15–22% as primary drivers."
+        },
+        {
+          "heading": "Recommended Band Adjustments",
+          "body": "It is recommended that Band E4 and E5 midpoints be increased by 8% and 10% respectively, with corresponding range adjustments to preserve band integrity. Product Design Band P3 should receive a 6% midpoint uplift to restore alignment to at least the 50th percentile of the NIRI survey. These adjustments would impact 37 incumbents and are projected to increase annualized base payroll by £1.14 million, representing a 2.6% increase to total fixed compensation cost. Phasing adjustments over two quarters is advised to mitigate budget concentration in a single fiscal period."
+        },
+        {
+          "heading": "Equity and Compression Corrections",
+          "body": "Beyond structural band updates, individual equity corrections are required for 19 incumbents currently paid below 90% of revised band midpoint. Particular attention is required for high-tenure engineers whose pay progression has not kept pace with external market acceleration, resulting in internal compression versus new hires. Targeted adjustments averaging 7.5% are recommended to restore internal equity and reduce flight risk. Future governance should include semi-annual market reviews for critical technical roles to prevent recurrence of midpoint lag."
+        }
+      ],
+      "full_text": "Compensation Benchmarking Review — Market Alignment and Risk Assessment\nRef: CBR-27-2026 | Date: 12 February 2026 | Prepared by: Total Rewards & Analytics\n\nSection Study Scope and Data Sources\nThis benchmarking review compares the organization’s FY2025 pay bands against aggregated market data from the Radford Technology Survey (Q4 2025 cut) and the National Industry Remuneration Index (NIRI 2025). The analysis covers 64 benchmarked roles across Engineering, Product, Commercial, Corporate Services, and Operations. Market positioning was assessed at the 25th, 50th, and 75th percentiles, with geographic differentials applied for London, Manchester, and Remote-UK profiles. All compensation figures reflect base salary only, excluding variable incentives and long-term equity.\n\nSection Overall Market Positioning\nAcross the full population, the organization’s salary midpoints sit at approximately the 43rd percentile of the market, with notable dispersion by function. Engineering roles are most compressed, averaging 11% below market median at midpoint, while Corporate Services roles are broadly aligned at 98% of market median. Commercial leadership roles exceed market median by 6%, largely driven by historical retention adjustments. Band width variance is generally consistent (±15%), though several legacy bands exhibit structural midpoint drift relative to current market rates.\n\nSection Attrition Risk Roles\nThree role families demonstrate elevated attrition risk due to sustained sub-market positioning and external hiring pressure: Senior Backend Engineers (Band E4), Data Engineers (Band E5), and Product Designers (Band P3). For Senior Backend Engineers, current midpoint salary (£82,500) trails the market median (£92,000) by 10.3%, with voluntary attrition at 18% over the past 12 months compared to a company average of 11%. Data Engineers show the largest gap at 13.7% below median, compounded by aggressive counteroffers in the London market. Exit interviews consistently cite external base pay increases between 15–22% as primary drivers.\n\nSection Recommended Band Adjustments\nIt is recommended that Band E4 and E5 midpoints be increased by 8% and 10% respectively, with corresponding range adjustments to preserve band integrity. Product Design Band P3 should receive a 6% midpoint uplift to restore alignment to at least the 50th percentile of the NIRI survey. These adjustments would impact 37 incumbents and are projected to increase annualized base payroll by £1.14 million, representing a 2.6% increase to total fixed compensation cost. Phasing adjustments over two quarters is advised to mitigate budget concentration in a single fiscal period.\n\nSection Equity and Compression Corrections\nBeyond structural band updates, individual equity corrections are required for 19 incumbents currently paid below 90% of revised band midpoint. Particular attention is required for high-tenure engineers whose pay progression has not kept pace with external market acceleration, resulting in internal compression versus new hires. Targeted adjustments averaging 7.5% are recommended to restore internal equity and reduce flight risk. Future governance should include semi-annual market reviews for critical technical roles to prevent recurrence of midpoint lag.\n\nConfidential — Internal Compensation Analysis | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", which fiscal year's pay bands are compared against market data?",
+          "answer": "FY2025.",
+          "assertions": [
+            {
+              "text": "The response must state 'FY2025.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", how many role families demonstrate elevated attrition risk?",
+          "answer": "Three.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", what midpoint increases are recommended for Band E4 and Band E5?",
+          "answer": "Increase Band E4 midpoint by 8% and Band E5 midpoint by 10%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Increase Band E4 midpoint by 8% and Band E5 midpoint by 10%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", is the document labeled confidential?",
+          "answer": "Yes — labeled 'Confidential — Internal Compensation Analysis'.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — labeled 'Confidential — Internal Compensation Analysis'.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", name one role family identified as demonstrating elevated attrition risk.",
+          "answer": "Senior Backend.",
+          "assertions": [
+            {
+              "text": "The response must state 'Senior Backend.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "image",
+      "variant_id": "scan_llm_0009_c6c545b9",
+      "figure_number": 3,
+      "image_path": "scan_llm_hand_8772c078.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "2026",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "2026",
+        "lines": [
+          "Used Radford + Mercer 2026 Tech Survey (N=412 orgs, Midwest + Remote blend).",
+          "Overall finding: 58% of roles below P50, 22% below P25 (!!)",
+          "Engineering IC3 band ($92–108k) vs market P50 = $118k → ~9–22% gap.",
+          "Senior Data Engineer attrition risk high (3 exits in Q1; exit interviews cite comp).",
+          "Product Manager II band midpoint $104k vs market $121k (-14%).",
+          "Finance Analyst within ±3% of market — no immediate action.",
+          "Customer Success Mgrs at 0–2 yrs tenure clustered at band minimum → compression issue.",
+          "Equity refresh: current annual grant 0.08% vs market 0.12% for Sr Eng.",
+          "Estimated adjustment cost if move Eng IC3 midpoint to $120k = +$1.4M annualized.",
+          "Recommend phased approach: 60% correction in FY26, remainder FY27.",
+          "Target roles for immediate correction: Sr Data Eng, PM II, Cybersecurity Lead.",
+          "Cyber Lead paid $131k; market P75 = $152k → retention vulnerability.",
+          "Internal equity check: raising Eng IC3 requires bump to IC2 ceiling (avoid overlap).",
+          "Propose new bands effective 1 Sept 2026; off-cycle adjustments by July 15.",
+          "Comms plan: frame as market realignment + performance differentiation.",
+          "Monitor regrettable attrition quarterly; trigger review if >8% in critical roles."
+        ],
+        "style": "neat",
+        "has_signature": true,
+        "signature_name": "Marissa Cole",
+        "date": "2026",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Used Radford + Mercer 2026 Tech Survey (N=412 orgs, Midwest + Remote blend)."
+        ],
+        [
+          "Overall finding: 58% of roles below P50, 22% below P25 (!!)"
+        ],
+        [
+          "Engineering IC3 band ($92–108k) vs market P50 = $118k → ~9–22% gap."
+        ],
+        [
+          "Senior Data Engineer attrition risk high (3 exits in Q1; exit interviews cite comp)."
+        ],
+        [
+          "Product Manager II band midpoint $104k vs market $121k (-14%)."
+        ],
+        [
+          "Finance Analyst within ±3% of market — no immediate action."
+        ],
+        [
+          "Customer Success Mgrs at 0–2 yrs tenure clustered at band minimum → compression issue."
+        ],
+        [
+          "Equity refresh: current annual grant 0.08% vs market 0.12% for Sr Eng."
+        ],
+        [
+          "Estimated adjustment cost if move Eng IC3 midpoint to $120k = +$1.4M annualized."
+        ],
+        [
+          "Recommend phased approach: 60% correction in FY26, remainder FY27."
+        ],
+        [
+          "Target roles for immediate correction: Sr Data Eng, PM II, Cybersecurity Lead."
+        ],
+        [
+          "Cyber Lead paid $131k; market P75 = $152k → retention vulnerability."
+        ],
+        [
+          "Internal equity check: raising Eng IC3 requires bump to IC2 ceiling (avoid overlap)."
+        ],
+        [
+          "Propose new bands effective 1 Sept 2026; off-cycle adjustments by July 15."
+        ],
+        [
+          "Comms plan: frame as market realignment + performance differentiation."
+        ],
+        [
+          "Monitor regrettable attrition quarterly; trigger review if >8% in critical roles."
+        ]
+      ],
+      "line_count": 16,
+      "hw_style": "neat",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "2026\", which market surveys and sample size were used for the benchmarking?",
+          "answer": "Radford + Mercer 2026 Tech Survey (N=412 orgs, Midwest + Remote blend).",
+          "assertions": [
+            {
+              "text": "The response must state 'Radford + Mercer 2026 Tech Survey (N=412 orgs, Midwest + Remote blend).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", how many Senior Data Engineer exits occurred in Q1 and what reason is cited in exit interviews?",
+          "answer": "Three exits in Q1; exit interviews cite compensation.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three exits in Q1; exit interviews cite compensation.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", what is the estimated annualized cost to move the Engineering IC3 midpoint to $120k?",
+          "answer": "+$1.4M annualized.",
+          "assertions": [
+            {
+              "text": "The response must state '+$1.4M annualized.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", is the Finance Analyst position aligned with the market and is any immediate action recommended?",
+          "answer": "Within ±3% of market — no immediate action recommended.",
+          "assertions": [
+            {
+              "text": "The response must state 'Within ±3% of market — no immediate action recommended.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", which roles are listed as targets for immediate correction?",
+          "answer": "Senior Data Engineer; Product Manager II; Cybersecurity Lead.",
+          "assertions": [
+            {
+              "text": "The response must state 'Senior Data Engineer; Product Manager II; Cybersecurity Lead.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "scan_llm_0010_3ba3a574",
+      "figure_number": 4,
+      "image_path": "scan_llm_stam_13b31bec.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 4: Compensation Benchmarking Review & Adjustment Authorization Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Compensation Benchmarking Review & Adjustment Authorization Form",
+        "form_fields": [
+          {
+            "label": "Business Unit",
+            "value": "Enterprise Data & Platforms"
+          },
+          {
+            "label": "Market Survey Source",
+            "value": "Radford Global Tech Survey (Q4 2025 Release)"
+          },
+          {
+            "label": "Review Period",
+            "value": "January–March 2026"
+          },
+          {
+            "label": "Total Roles Assessed",
+            "value": "47 benchmarked positions"
+          },
+          {
+            "label": "Roles Below Market Median (>5%)",
+            "value": "18 roles (38%)"
+          },
+          {
+            "label": "Estimated Annual Adjustment Cost",
+            "value": "$2,845,000"
+          },
+          {
+            "label": "Projected Voluntary Attrition Risk (Next 12 Months)",
+            "value": "High for Senior Data Engineers and Cloud Security Architects"
+          },
+          {
+            "label": "Recommended Effective Date",
+            "value": "1 July 2026"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Validated job matching methodology against survey job descriptions",
+            "checked": true
+          },
+          {
+            "text": "Confirmed geographic differentials (US Tier 1 vs Tier 2 markets)",
+            "checked": true
+          },
+          {
+            "text": "Identified compression issues between Level 3 and Level 4 bands",
+            "checked": true
+          },
+          {
+            "text": "Reviewed gender and ethnicity pay equity gaps within impacted roles",
+            "checked": true
+          },
+          {
+            "text": "Modeled cost impact under 50th percentile market alignment scenario",
+            "checked": true
+          },
+          {
+            "text": "Modeled alternative 60th percentile alignment for critical roles",
+            "checked": false
+          },
+          {
+            "text": "Secured Finance approval for full funding allocation",
+            "checked": false
+          },
+          {
+            "text": "Prepared manager communication toolkit and FAQs",
+            "checked": true
+          }
+        ],
+        "stamps": [
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          },
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          }
+        ],
+        "inspector": "Marisol K. Bennett, CCP",
+        "reference": "CB-EDP-2026-0419",
+        "date": "19 April 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Business Unit",
+          "Enterprise Data & Platforms"
+        ],
+        [
+          "Market Survey Source",
+          "Radford Global Tech Survey (Q4 2025 Release)"
+        ],
+        [
+          "Review Period",
+          "January–March 2026"
+        ],
+        [
+          "Total Roles Assessed",
+          "47 benchmarked positions"
+        ],
+        [
+          "Roles Below Market Median (>5%)",
+          "18 roles (38%)"
+        ],
+        [
+          "Estimated Annual Adjustment Cost",
+          "$2,845,000"
+        ],
+        [
+          "Projected Voluntary Attrition Risk (Next 12 Months)",
+          "High for Senior Data Engineers and Cloud Security Architects"
+        ],
+        [
+          "Recommended Effective Date",
+          "1 July 2026"
+        ]
+      ],
+      "stamps": [
+        "CONFIDENTIAL",
+        "REVIEWED"
+      ],
+      "inspector": "Marisol K. Bennett, CCP",
+      "reference": "CB-EDP-2026-0419",
+      "checked_items": [
+        {
+          "text": "Validated job matching methodology against survey job descriptions",
+          "checked": true
+        },
+        {
+          "text": "Confirmed geographic differentials (US Tier 1 vs Tier 2 markets)",
+          "checked": true
+        },
+        {
+          "text": "Identified compression issues between Level 3 and Level 4 bands",
+          "checked": true
+        },
+        {
+          "text": "Reviewed gender and ethnicity pay equity gaps within impacted roles",
+          "checked": true
+        },
+        {
+          "text": "Modeled cost impact under 50th percentile market alignment scenario",
+          "checked": true
+        },
+        {
+          "text": "Prepared manager communication toolkit and FAQs",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", who is listed as the inspector?",
+          "answer": "Marisol K. Bennett, CCP.",
+          "assertions": [
+            {
+              "text": "The response must state 'Marisol K. Bennett, CCP.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Compensation Benchmarking Review & Adjustment Authorization Form\", how many benchmarked positions were assessed?",
+          "answer": "47 benchmarked positions.",
+          "assertions": [
+            {
+              "text": "The response must state '47 benchmarked positions.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Compensation Benchmarking Review & Adjustment Authorization Form\", what is the estimated annual adjustment cost?",
+          "answer": "$2,845,000.",
+          "assertions": [
+            {
+              "text": "The response must state '$2,845,000.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Compensation Benchmarking Review & Adjustment Authorization Form\", has Finance approval for the full funding allocation been secured?",
+          "answer": "No — the item is unchecked.",
+          "assertions": [
+            {
+              "text": "The response must state 'No — the item is unchecked.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", which roles are identified as having high projected voluntary attrition risk over the next 12 months?",
+          "answer": "Senior Data Engineers and Cloud Security Architects.",
+          "assertions": [
+            {
+              "text": "The response must state 'Senior Data Engineers and Cloud Security Architects.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "filled_form",
+      "variant_id": "filled_form_0000_d061a14c",
+      "title": "Compensation Benchmarking Study & Salary Band Adjustment Form",
+      "caption": "Compensation Benchmarking Study & Salary Band Adjustment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 8,
+      "sections": [
+        "Study Overview & Data Sources",
+        "Role Benchmarking & Attrition Risk Analysis",
+        "Salary Band Adjustments & Equity Recommendations"
+      ],
+      "required_fields": [
+        "Organisation Name",
+        "Business Unit(s) Included in Study",
+        "Primary Market Survey Provider",
+        "Total Number of Roles Benchmarked",
+        "Job Families Analysed",
+        "Percentage of Roles Below Market Median (%)",
+        "Number of Salary Bands Recommended for Adjustment",
+        "Proposed Average Salary Band Increase (%)"
+      ],
+      "description": "Complete this form to document market benchmarking results, identify attrition risks, and recommend salary band and equity adjustments based on the analysis.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Courier, monospace",
+        "ink_color": "#1c2db5",
+        "font_size_pt": 10.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking Study & Salary Band Adjustment Form', how many sections are listed on the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking Study & Salary Band Adjustment Form', what is the title of the third section shown on the form?",
+          "answer": "Salary Band Adjustments & Equity Recommendations",
+          "assertions": [
+            {
+              "text": "The response must state 'Salary Band Adjustments & Equity Recommendations'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking Study & Salary Band Adjustment Form', how many required fields does the form indicate?",
+          "answer": "8",
+          "assertions": [
+            {
+              "text": "The response must state '8'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking Study & Salary Band Adjustment Form', how many fields are of the 'number' type?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "image",
+      "variant_id": "scan_llm_0012_2573848c",
+      "figure_number": 5,
+      "image_path": "scan_llm_hand_907c6307.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "Figure 5: Comp Benchmark Review — 12 Feb 2026",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "Comp Benchmark Review — 12 Feb 2026",
+        "lines": [
+          "Used Radford + Mercer 2025 tech survey cuts (US national median, 50th & 75th pct).",
+          "Scope: Eng, Product, Data, Finance — 214 incumbents total.",
+          "Overall finding: 37% of roles below market 50th pct; 12% below 25th pct (!!).",
+          "",
+          "Software Eng II — current band midpoint $118k vs mkt 50th $129k (-8.5%).",
+          "Sr Software Eng — midpoint $142k vs mkt 50th $158k (-10.1%) → high attrition risk.",
+          "Product Manager — midpoint $135k vs mkt 50th $138k (near market, ok).",
+          "Data Scientist III — midpoint $151k vs mkt 75th $172k; several exits in last 9 mos.",
+          "",
+          "Attrition correlation: teams >8% below market had 1.6x voluntary turnover.",
+          "Critical gaps: Cybersecurity Eng, ML Eng, Revenue Ops Analyst.",
+          "",
+          "Equity review: 23 incumbents >15% below new proposed midpoints (compression issue).",
+          "Recommend targeted equity adj. pool = $1.84M (FY26 Q3 effective).",
+          "",
+          "Band adjustment proposal:",
+          "- Increase Eng bands by avg +7.2% (cost est. $3.6M annually).",
+          "- Data family +9% (smaller population, high scarcity premium).",
+          "- Finance +3% (largely aligned already).",
+          "",
+          "Model shows post-adjustment compa-ratio avg = 0.98 vs 0.91 current.",
+          "Budget impact = +4.4% payroll; offset by projected 5–7 fewer regrettable exits.",
+          "",
+          " Elena (FP&A) + confirm survey aging factors.",
+          "3 ELT meeting."
+        ],
+        "style": "neat",
+        "has_signature": true,
+        "signature_name": "Marissa K. Delaney",
+        "date": "2026",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Used Radford + Mercer 2025 tech survey cuts (US national median, 50th & 75th pct)."
+        ],
+        [
+          "Scope: Eng, Product, Data, Finance — 214 incumbents total."
+        ],
+        [
+          "Overall finding: 37% of roles below market 50th pct; 12% below 25th pct (!!)."
+        ],
+        [
+          ""
+        ],
+        [
+          "Software Eng II — current band midpoint $118k vs mkt 50th $129k (-8.5%)."
+        ],
+        [
+          "Sr Software Eng — midpoint $142k vs mkt 50th $158k (-10.1%) → high attrition risk."
+        ],
+        [
+          "Product Manager — midpoint $135k vs mkt 50th $138k (near market, ok)."
+        ],
+        [
+          "Data Scientist III — midpoint $151k vs mkt 75th $172k; several exits in last 9 mos."
+        ],
+        [
+          ""
+        ],
+        [
+          "Attrition correlation: teams >8% below market had 1.6x voluntary turnover."
+        ],
+        [
+          "Critical gaps: Cybersecurity Eng, ML Eng, Revenue Ops Analyst."
+        ],
+        [
+          ""
+        ],
+        [
+          "Equity review: 23 incumbents >15% below new proposed midpoints (compression issue)."
+        ],
+        [
+          "Recommend targeted equity adj. pool = $1.84M (FY26 Q3 effective)."
+        ],
+        [
+          ""
+        ],
+        [
+          "Band adjustment proposal:"
+        ],
+        [
+          "- Increase Eng bands by avg +7.2% (cost est. $3.6M annually)."
+        ],
+        [
+          "- Data family +9% (smaller population, high scarcity premium)."
+        ],
+        [
+          "- Finance +3% (largely aligned already)."
+        ],
+        [
+          ""
+        ],
+        [
+          "Model shows post-adjustment compa-ratio avg = 0.98 vs 0.91 current."
+        ],
+        [
+          "Budget impact = +4.4% payroll; offset by projected 5–7 fewer regrettable exits."
+        ],
+        [
+          ""
+        ],
+        [
+          " Elena (FP&A) + confirm survey aging factors."
+        ],
+        [
+          "3 ELT meeting."
+        ]
+      ],
+      "line_count": 25,
+      "hw_style": "neat",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "According to \"Comp Benchmark Review — 12 Feb 2026\", which market surveys were used for the benchmarking?",
+          "answer": "Radford + Mercer 2025 tech surveys (US national median, 50th & 75th percentiles).",
+          "assertions": [
+            {
+              "text": "The response must state 'Radford + Mercer 2025 tech surveys (US national median, 50th & 75th percentiles).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Comp Benchmark Review — 12 Feb 2026\", how many incumbents were included in the scope?",
+          "answer": "214 incumbents.",
+          "assertions": [
+            {
+              "text": "The response must state '214 incumbents.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Comp Benchmark Review — 12 Feb 2026\", what is the Software Eng II current band midpoint, the market 50th, and the percent gap?",
+          "answer": "Midpoint $118k vs market 50th $129k (−8.5%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Midpoint $118k vs market 50th $129k (−8.5%).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Comp Benchmark Review — 12 Feb 2026\", is the Product Manager role considered at market, and what are the midpoint and market figures?",
+          "answer": "Yes — near market; midpoint $135k vs market 50th $138k (ok).",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — near market; midpoint $135k vs market 50th $138k (ok).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Comp Benchmark Review — 12 Feb 2026\", which critical gaps were identified?",
+          "answer": "Cybersecurity Eng, ML Eng, and Revenue Ops Analyst.",
+          "assertions": [
+            {
+              "text": "The response must state 'Cybersecurity Eng, ML Eng, and Revenue Ops Analyst.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0001_c037a78f",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Study Overview",
+        "Compensation Benchmarking Analysis",
+        "Attrition Risk Assessment",
+        "Recommended Adjustments and Equity Corrections"
+      ],
+      "required_fields": [
+        "Prepared By",
+        "Department",
+        "Date of Submission",
+        "Market Survey Source(s) Used",
+        "Total Roles Benchmarked",
+        "Primary Market Positioning Strategy",
+        "Number of Roles Below Market Median",
+        "Summary of Key Findings",
+        "Roles Identified at High Risk of Attrition",
+        "Retention Risk Level",
+        "Proposed Salary Band Adjustments (%)",
+        "Estimated Budget Impact (Annual)",
+        "Number of Employees Requiring Equity Adjustments"
+      ],
+      "description": "",
+      "form_number": "HR-COMP-2026-014",
+      "instructions": "Complete all required fields with current compensation and market benchmarking data. Submit the finalized form to the HR Director and Finance Business Partner for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "GrandHotel, cursive",
+        "ink_color": "#1c2db5",
+        "font_size_pt": 12.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what value is shown for the form number?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections are included?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many fields are marked as required?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what is the form type listed?",
+          "answer": "filled_fillable",
+          "assertions": [
+            {
+              "text": "The response must state 'filled_fillable'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0004_c4346fc7",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Recommendation Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Recommendation Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 10,
+      "sections": [
+        "Study Overview",
+        "Market Benchmarking Data",
+        "Attrition Risk and Pay Gap Analysis",
+        "Recommended Salary Band Adjustments"
+      ],
+      "required_fields": [
+        "Organisation Name",
+        " Division",
+        "Study Period (Start Date)",
+        "Primary Market Survey Provider",
+        "Industry Sector Benchmarked",
+        "Geographic Market Scope",
+        "Roles Identified at High Risk of Attrition",
+        "Average Variance to Market Median (%)",
+        "Proposed Adjustment Type",
+        "Proposed Average Salary Band Increase (%)"
+      ],
+      "description": "",
+      "form_number": "HR-COMP-2026-014",
+      "instructions": "Complete all required fields with current benchmarking data and internal compensation analysis. Submit the finalized form to the HR Director and Finance Business Partner for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Times-Roman, serif",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Recommendation Form', how many sections are included in the document?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Recommendation Form', what is the form number displayed on the form?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Recommendation Form', how many fields are marked as required?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "Viewing the 'Compensation Benchmarking and Salary Band Adjustment Recommendation Form', what is the form type shown?",
+          "answer": "filled_fillable",
+          "assertions": [
+            {
+              "text": "The response must state 'filled_fillable'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "text",
+      "variant_id": "text_0000_8c47b862",
+      "heading": "Benchmarking Methodology and Market Data Alignment for Pay Band Comparison",
+      "word_count": 204,
+      "text_content": [
+        "**Benchmarking Methodology and Market Data Alignment for Pay Band Comparison**",
+        "The benchmarking scope covered 48 roles across 6 job families and relied on two primary market sources: Mercer Total Remuneration Survey (TRS) 2025 and Radford Global Compensation Database 2025. Role-to-band mapping was performed using job content and responsibility matrices to align incumbent job profiles to market benchmarks. Selection excluded temporary headcount; permanent FTEs only were mapped. Data lineage and source attribution were recorded for auditability.",
+        "2025.",
+        "31 were excluded. Data quality checks included duplicate detection, grade-consistency validation, and reconciliation to HRIS headcount reports."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Benchmarking Methodology and Market Data Alignment for Pay Band Comparison\" section, how many roles were covered in the benchmarking scope?",
+          "answer": "48 roles",
+          "assertions": [
+            {
+              "text": "The response must state 48 roles."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Benchmarking Methodology and Market Data Alignment for Pay Band Comparison\" section, to which percentile were all market comparisons normalized?",
+          "answer": "50th percentile (P50)",
+          "assertions": [
+            {
+              "text": "The response must state 50th percentile (P50)."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Benchmarking Methodology and Market Data Alignment for Pay Band Comparison\" section, what snapshot date was used for employee pay and headcount?",
+          "answer": "31-03-2026",
+          "assertions": [
+            {
+              "text": "The response must state 31-03-2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "filled_form",
+      "variant_id": "filled_form_0001_6d3c2ff7",
+      "title": "Compensation Benchmarking and Pay Equity Assessment Form",
+      "caption": "Compensation Benchmarking and Pay Equity Assessment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Organisation and Market Benchmarking Details",
+        "Role-Level Analysis and Attrition Risk",
+        "Salary Band and Equity Recommendations"
+      ],
+      "required_fields": [
+        "Organisation Name",
+        "Industry Sector",
+        "Primary Geographic Market",
+        "Market Survey Sources Utilised",
+        "Job Family or Department Reviewed",
+        "Number of Roles Benchmarked",
+        "Primary Market Positioning Strategy",
+        "Roles Identified at High Risk of Attrition",
+        "Recommended Salary Band Adjustment (%)",
+        "Estimated Budget Impact (Annual)"
+      ],
+      "description": "Complete this form to document market benchmarking inputs, identify attrition risks, and recommend salary band and equity adjustments based on survey data.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "PatrickHand, cursive",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 11.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Equity Assessment Form', how many sections are included in the form as displayed on the PDF?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', what short description is provided to instruct users on completing the form?",
+          "answer": "Complete this form to document market benchmarking inputs, identify attrition risks, and recommend salary band and equity adjustments based on survey data.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document market benchmarking inputs, identify attrition risks, and recommend salary band and equity adjustments based on survey data.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Equity Assessment Form', what is the title of the first visible section header?",
+          "answer": "Organisation and Market Benchmarking Details",
+          "assertions": [
+            {
+              "text": "The response must state 'Organisation and Market Benchmarking Details'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', how many fields are designated as required on the filled form?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "scan_llm_0005_4a58d879",
+      "figure_number": 6,
+      "image_path": "scan_llm_text_f0da59f2.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 6: Compensation Benchmarking Summary and Band Realignment Plan",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Compensation Benchmarking Summary and Band Realignment Plan",
+        "subtitle": "Ref: CB-27-13060 | Date: 18 February 2026 | From: Total Rewards & Analytics",
+        "sections": [
+          {
+            "heading": "Study Scope and Data Sources",
+            "body": "This benchmarking review evaluates the organisation’s FY2025 salary bands against Q4 2025 data from the Mercer General Industry Survey and the Radford Technology Survey. A total of 142 benchmark-matched roles across Corporate Services, Product Development, Sales, and Operations were analysed using 50th and 65th percentile market references. All figures were normalised for geographic differential across our three primary hubs (Manchester, Bristol, and Glasgow). The analysis focused on base salary alignment, with variable pay assessed separately for sales and leadership roles."
+          },
+          {
+            "heading": "Overall Market Positioning",
+            "body": "Across the full population, the company’s median base pay sits at 92% of the market median and 86% of the 65th percentile. Pay compression is most pronounced in mid-level technical roles (Career Levels P3–P4), where current band midpoints trail the market by an average of 11.4%. Senior management bands (M3 and above) are generally aligned within a 3% variance, indicating that competitive risk is concentrated below the executive tier. Geographic allowances have not been adjusted since 2022, contributing to under-positioning in higher-cost regions."
+          },
+          {
+            "heading": "Attrition Risk Assessment",
+            "body": "Voluntary attrition for Software Engineers II, Data Analysts, and Regional Sales Managers exceeded 18% in the last 12 months, compared to a company-wide average of 12.6%. Exit interviews cite compensation competitiveness in 41% of cases within these groups. Benchmark analysis shows these roles are paid between 84% and 89% of the relevant market median, placing them in the highest risk quartile for external poaching. Replacement cost modelling estimates an incremental £1.8M annually in recruitment and lost productivity if current gaps persist."
+          },
+          {
+            "heading": "Recommended Band and Equity Adjustments",
+            "body": "It is recommended that P3 and P4 technical band midpoints be increased by 8–12%, with immediate equity adjustments prioritised for incumbents compa-rated below 0.90. Sales Manager base bands should be lifted by 7%, accompanied by a review of variable pay mix to maintain target total cash positioning at the 60th percentile. A phased implementation over two compensation cycles is projected to cost £3.4M, partially offset by reduced attrition-related expenses. These adjustments will restore overall positioning to approximately 98% of the market median while preserving internal pay relationships."
+          },
+          {
+            "heading": "Governance and Implementation Timeline",
+            "body": "Subject to Executive Committee approval in March 2026, revised salary bands will be published effective 1 April 2026. Equity adjustments will be administered during the mid-year compensation review, with oversight from Finance to ensure budget adherence. HR Business Partners will conduct calibration sessions to prevent new compression issues and to safeguard pay equity compliance. A follow-up benchmarking pulse review is scheduled for Q1 2027 to assess market movement and retention impact."
+          }
+        ],
+        "footer_note": "Confidential — Internal Compensation Review | Page 1 of 4",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Study Scope and Data Sources",
+        "Overall Market Positioning",
+        "Attrition Risk Assessment",
+        "Recommended Band and Equity Adjustments",
+        "Governance and Implementation Timeline"
+      ],
+      "cells": [
+        {
+          "heading": "Study Scope and Data Sources",
+          "body": "This benchmarking review evaluates the organisation’s FY2025 salary bands against Q4 2025 data from the Mercer General Industry Survey and the Radford Technology Survey. A total of 142 benchmark-matched roles across Corporate Services, Product Development, Sales, and Operations were analysed using 50th and 65th percentile market references. All figures were normalised for geographic differential across our three primary hubs (Manchester, Bristol, and Glasgow). The analysis focused on base salary alignment, with variable pay assessed separately for sales and leadership roles."
+        },
+        {
+          "heading": "Overall Market Positioning",
+          "body": "Across the full population, the company’s median base pay sits at 92% of the market median and 86% of the 65th percentile. Pay compression is most pronounced in mid-level technical roles (Career Levels P3–P4), where current band midpoints trail the market by an average of 11.4%. Senior management bands (M3 and above) are generally aligned within a 3% variance, indicating that competitive risk is concentrated below the executive tier. Geographic allowances have not been adjusted since 2022, contributing to under-positioning in higher-cost regions."
+        },
+        {
+          "heading": "Attrition Risk Assessment",
+          "body": "Voluntary attrition for Software Engineers II, Data Analysts, and Regional Sales Managers exceeded 18% in the last 12 months, compared to a company-wide average of 12.6%. Exit interviews cite compensation competitiveness in 41% of cases within these groups. Benchmark analysis shows these roles are paid between 84% and 89% of the relevant market median, placing them in the highest risk quartile for external poaching. Replacement cost modelling estimates an incremental £1.8M annually in recruitment and lost productivity if current gaps persist."
+        },
+        {
+          "heading": "Recommended Band and Equity Adjustments",
+          "body": "It is recommended that P3 and P4 technical band midpoints be increased by 8–12%, with immediate equity adjustments prioritised for incumbents compa-rated below 0.90. Sales Manager base bands should be lifted by 7%, accompanied by a review of variable pay mix to maintain target total cash positioning at the 60th percentile. A phased implementation over two compensation cycles is projected to cost £3.4M, partially offset by reduced attrition-related expenses. These adjustments will restore overall positioning to approximately 98% of the market median while preserving internal pay relationships."
+        },
+        {
+          "heading": "Governance and Implementation Timeline",
+          "body": "Subject to Executive Committee approval in March 2026, revised salary bands will be published effective 1 April 2026. Equity adjustments will be administered during the mid-year compensation review, with oversight from Finance to ensure budget adherence. HR Business Partners will conduct calibration sessions to prevent new compression issues and to safeguard pay equity compliance. A follow-up benchmarking pulse review is scheduled for Q1 2027 to assess market movement and retention impact."
+        }
+      ],
+      "full_text": "Compensation Benchmarking Summary and Band Realignment Plan\nRef: CB-27-13060 | Date: 18 February 2026 | From: Total Rewards & Analytics\n\nSection Study Scope and Data Sources\nThis benchmarking review evaluates the organisation’s FY2025 salary bands against Q4 2025 data from the Mercer General Industry Survey and the Radford Technology Survey. A total of 142 benchmark-matched roles across Corporate Services, Product Development, Sales, and Operations were analysed using 50th and 65th percentile market references. All figures were normalised for geographic differential across our three primary hubs (Manchester, Bristol, and Glasgow). The analysis focused on base salary alignment, with variable pay assessed separately for sales and leadership roles.\n\nSection Overall Market Positioning\nAcross the full population, the company’s median base pay sits at 92% of the market median and 86% of the 65th percentile. Pay compression is most pronounced in mid-level technical roles (Career Levels P3–P4), where current band midpoints trail the market by an average of 11.4%. Senior management bands (M3 and above) are generally aligned within a 3% variance, indicating that competitive risk is concentrated below the executive tier. Geographic allowances have not been adjusted since 2022, contributing to under-positioning in higher-cost regions.\n\nSection Attrition Risk Assessment\nVoluntary attrition for Software Engineers II, Data Analysts, and Regional Sales Managers exceeded 18% in the last 12 months, compared to a company-wide average of 12.6%. Exit interviews cite compensation competitiveness in 41% of cases within these groups. Benchmark analysis shows these roles are paid between 84% and 89% of the relevant market median, placing them in the highest risk quartile for external poaching. Replacement cost modelling estimates an incremental £1.8M annually in recruitment and lost productivity if current gaps persist.\n\nSection Recommended Band and Equity Adjustments\nIt is recommended that P3 and P4 technical band midpoints be increased by 8–12%, with immediate equity adjustments prioritised for incumbents compa-rated below 0.90. Sales Manager base bands should be lifted by 7%, accompanied by a review of variable pay mix to maintain target total cash positioning at the 60th percentile. A phased implementation over two compensation cycles is projected to cost £3.4M, partially offset by reduced attrition-related expenses. These adjustments will restore overall positioning to approximately 98% of the market median while preserving internal pay relationships.\n\nSection Governance and Implementation Timeline\nSubject to Executive Committee approval in March 2026, revised salary bands will be published effective 1 April 2026. Equity adjustments will be administered during the mid-year compensation review, with oversight from Finance to ensure budget adherence. HR Business Partners will conduct calibration sessions to prevent new compression issues and to safeguard pay equity compliance. A follow-up benchmarking pulse review is scheduled for Q1 2027 to assess market movement and retention impact.\n\nConfidential — Internal Compensation Review | Page 1 of 4",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", which external survey and quarter were used as the market data source?",
+          "answer": "Q4 2025 data from the Mercer General Industry Survey.",
+          "assertions": [
+            {
+              "text": "The response must state 'Q4 2025 data from the Mercer General Industry Survey.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", at what percent of the market median and at what percent of the 65th percentile does the company's median base pay sit?",
+          "answer": "92% of the market median and 86% of the 65th percentile.",
+          "assertions": [
+            {
+              "text": "The response must state '92% of the market median and 86% of the 65th percentile.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", which roles had voluntary attrition exceeding 18% in the last 12 months?",
+          "answer": "Software Engineers II, Data Analysts, and Regional Sales Managers.",
+          "assertions": [
+            {
+              "text": "The response must state 'Software Engineers II, Data Analysts, and Regional Sales Managers.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", how many total pages does the footer indicate the document has?",
+          "answer": "4 pages.",
+          "assertions": [
+            {
+              "text": "The response must state '4 pages.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", is the document labeled confidential and what is the label?",
+          "answer": "Yes — Confidential — Internal Compensation Review.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — Confidential — Internal Compensation Review.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0003_3ddf9e5e",
+      "title": "Compensation Benchmarking and Pay Band Adjustment Report Form",
+      "caption": "Compensation Benchmarking and Pay Band Adjustment Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 10,
+      "sections": [
+        "Organisation and Study Details",
+        "Market Benchmarking Data",
+        "Attrition Risk and Pay Gap Analysis",
+        "Recommendations and Financial Impact"
+      ],
+      "required_fields": [
+        "Organisation Name",
+        " Division",
+        "Study Lead (Name and Title)",
+        "Primary Market Survey Provider",
+        "Industry Sector Benchmarked",
+        "Geographic Market Scope",
+        "Roles Identified at High Risk of Attrition",
+        "Average Pay Position vs Market (%)",
+        "Proposed Salary Band Adjustment (%)",
+        "Estimated Total Annual Cost Impact"
+      ],
+      "description": "",
+      "form_number": "HR-COMP-2026-014",
+      "instructions": "Complete all required fields with current and verified compensation data. Submit the finalized form with supporting market survey documentation to the HR and Finance review committee for approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Courier, monospace",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what form number is displayed on the document?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Band Adjustment Report Form', how many required fields must be completed?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Band Adjustment Report Form', which section title appears third in the list of sections?",
+          "answer": "Attrition Risk and Pay Gap Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Attrition Risk and Pay Gap Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what is the specified form type shown on the form?",
+          "answer": "filled_fillable",
+          "assertions": [
+            {
+              "text": "The response must state 'filled_fillable'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0005_ee9db8a0",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Study Overview",
+        "Benchmarking Methodology",
+        "Findings and Risk Analysis",
+        "Recommendations and Approvals"
+      ],
+      "required_fields": [
+        "Reporting Period",
+        "Prepared By",
+        " Business Unit",
+        "Date of Submission",
+        "Job Evaluation Framework Used",
+        "Number of Roles Benchmarked",
+        "Geographic Market Scope",
+        "Number of Roles Below Market Median",
+        "Roles Identified at High Risk of Attrition",
+        "Key Drivers of Attrition Risk",
+        "Proposed Salary Band Adjustment (%)",
+        "Estimated Total Cost Impact",
+        "Executive Approval Status"
+      ],
+      "description": "",
+      "form_number": "HR-COMP-2026-014",
+      "instructions": "Complete all applicable sections to document the compensation benchmarking analysis and proposed salary band adjustments. Submit the finalized form with supporting survey data and approval signatures to the HR Governance Committee.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "CaveatRegular, cursive",
+        "ink_color": "#222222",
+        "font_size_pt": 10.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what form number is shown on the form?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections are included?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many fields are indicated as required?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        },
+        {
+          "question": "Referencing the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what form type is listed on the document?",
+          "answer": "filled_fillable",
+          "assertions": [
+            {
+              "text": "The response must state 'filled_fillable'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0002_926b4677",
+      "title": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "caption": "Compensation Benchmarking and Salary Band Adjustment Report Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Study Overview",
+        "Benchmarking Data Summary",
+        "Attrition Risk Assessment",
+        "Recommended Salary Band Adjustments and Equity Corrections"
+      ],
+      "required_fields": [
+        "Reporting Period",
+        " Department",
+        "Prepared By (Name)",
+        "Preparation Date",
+        "Total Roles Benchmarked",
+        "Primary Market Reference (e.g., National, Regional, Global)",
+        "Average Internal vs Market Variance (%)",
+        "Number of Roles Below Market Median",
+        "Critical Roles Identified at Risk of Attrition",
+        "Summary of Retention Risk Factors",
+        "Proposed Salary Band Adjustment (%)",
+        "Estimated Total Budget Impact",
+        "Proposed Effective Date"
+      ],
+      "description": "",
+      "form_number": "HR-COMP-2026-014",
+      "instructions": "Complete all required sections with current compensation benchmarking data and supporting analysis. Submit the finalized form to the HR Director and Finance Business Partner for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "CaveatRegular, cursive",
+        "ink_color": "#b51c1c",
+        "font_size_pt": 10.5
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections are included in the document?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what form number appears on the report?",
+          "answer": "HR-COMP-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'HR-COMP-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', which section follows 'Benchmarking Data Summary'?",
+          "answer": "Attrition Risk Assessment",
+          "assertions": [
+            {
+              "text": "The response must state 'Attrition Risk Assessment'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many required fields are indicated on the form?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "filled_form",
+      "variant_id": "filled_form_0003_837e26be",
+      "title": "Compensation Benchmarking and Pay Band Adjustment Form",
+      "caption": "Compensation Benchmarking and Pay Band Adjustment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 11,
+      "sections": [
+        "Study Overview and Market Data",
+        "Pay Band Analysis and Attrition Risk",
+        "Recommendations and Equity Adjustments"
+      ],
+      "required_fields": [
+        "Study Period Start Date",
+        "Study Period End Date",
+        "Primary Market Survey Source",
+        "Geographic Market Scope",
+        "Total Number of Roles Benchmarked",
+        "Percentage of Roles Below Market Median",
+        "Overall Attrition Risk Level",
+        "Roles Identified at High Risk of Attrition",
+        "Recommended Salary Band Adjustment Strategy",
+        "Estimated Budget Impact (Annual)",
+        "Equity Correction Required"
+      ],
+      "description": "Complete this form to document the compensation benchmarking study, identify attrition risks, and recommend salary band and equity adjustments based on market data.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "IndieFlower, cursive",
+        "ink_color": "#222222",
+        "font_size_pt": 11.5
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Band Adjustment Form', how many sections are displayed on the form as you view the PDF?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Band Adjustment Form', how many total fields are included in the form?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Band Adjustment Form', how many fields are marked required on the PDF?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "Viewing the 'Compensation Benchmarking and Pay Band Adjustment Form' PDF, which section titles are listed on the form?",
+          "answer": "Study Overview and Market Data; Pay Band Analysis and Attrition Risk; Recommendations and Equity Adjustments",
+          "assertions": [
+            {
+              "text": "The response must state 'Study Overview and Market Data; Pay Band Analysis and Attrition Risk; Recommendations and Equity Adjustments'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "filled_form",
+      "variant_id": "filled_form_0005_6cecc270",
+      "title": "Compensation Benchmarking and Salary Band Review Form",
+      "caption": "Compensation Benchmarking and Salary Band Review Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Study Overview and Market Data",
+        "Compensation Analysis Findings",
+        "Recommendations and Approvals"
+      ],
+      "required_fields": [
+        "Benchmarking Study Lead",
+        "Department or Business Unit Reviewed",
+        "Market Survey Source",
+        "Survey Data Effective Date",
+        "Number of Roles Benchmarked",
+        "Percentage of Roles Below Market Median",
+        "Roles Identified at High Risk of Attrition",
+        "Proposed Salary Band Adjustment (%)",
+        "Recommended Implementation Timeline",
+        "Executive Approval Required"
+      ],
+      "description": "Complete this form to document the compensation benchmarking analysis, identify attrition risks, and recommend salary band and equity adjustments based on market data.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "PatrickHand, cursive",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 11.5
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Compensation Benchmarking and Salary Band Review Form', how many sections are there?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Salary Band Review Form', what description explains the purpose of the form?",
+          "answer": "Complete this form to document the compensation benchmarking analysis, identify attrition risks, and recommend salary band and equity adjustments based on market data.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document the compensation benchmarking analysis, identify attrition risks, and recommend salary band and equity adjustments based on market data.'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Compensation Benchmarking and Salary Band Review Form', how many fields are required to be completed?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Compensation Benchmarking and Salary Band Review Form', which section comes after 'Compensation Analysis Findings'?",
+          "answer": "Recommendations and Approvals",
+          "assertions": [
+            {
+              "text": "The response must state 'Recommendations and Approvals'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "filled_form",
+      "variant_id": "filled_form_0002_2ab8d0de",
+      "title": "Compensation Benchmarking and Pay Equity Assessment Form",
+      "caption": "Compensation Benchmarking and Pay Equity Assessment Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Study Overview and Scope",
+        "Market Comparison and Attrition Risk Analysis",
+        "Salary Band Adjustments and Equity Recommendations"
+      ],
+      "required_fields": [
+        "Organisation Name",
+        "Business Unit(s) Included in Study",
+        "Benchmarking Period (Fiscal Year)",
+        "Primary Market Survey Source",
+        "Number of Roles Benchmarked",
+        "Average Variance to Market Median (%)",
+        "Roles Identified as Below Market (List Key Positions)",
+        "Overall Attrition Risk Level",
+        "Proposed Adjustment to Salary Band Midpoints (%)",
+        "Estimated Budget Impact of Adjustments"
+      ],
+      "description": "Complete this form to document the compensation benchmarking study, identify attrition risks, and recommend salary band and equity adjustments.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "DancingScript, cursive",
+        "ink_color": "#6b1c9e",
+        "font_size_pt": 12.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Compensation Benchmarking and Pay Equity Assessment Form', how many sections are listed on the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Compensation Benchmarking and Pay Equity Assessment Form', what is the title of the third section shown on the form?",
+          "answer": "Salary Band Adjustments and Equity Recommendations",
+          "assertions": [
+            {
+              "text": "The response must state 'Salary Band Adjustments and Equity Recommendations'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', how many fields are marked as required?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "From the 'Compensation Benchmarking and Pay Equity Assessment Form', what descriptive instruction is provided for completing the form?",
+          "answer": "Complete this form to document the compensation benchmarking study, identify attrition risks, and recommend salary band and equity adjustments.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document the compensation benchmarking study, identify attrition risks, and recommend salary band and equity adjustments.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "image",
+      "variant_id": "scan_llm_0008_ddec758a",
+      "figure_number": 7,
+      "image_path": "scan_llm_text_588917d1.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 7: Compensation Benchmarking Analysis and Band Adjustment Recommendations",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Compensation Benchmarking Analysis and Band Adjustment Recommendations",
+        "subtitle": "Ref: CB-27-2026 | Date: 18 February 2026 | Prepared by: Total Rewards & Workforce Analytics",
+        "sections": [
+          {
+            "heading": "Study Scope and Data Sources",
+            "body": "This benchmarking review compares the organisation’s FY2026 salary bands against aggregated market data drawn from the 2025 Radcliffe Technology & Business Services Survey and the NorthWest Industry Pay Index. The analysis covers 142 benchmarked roles across Corporate Services, Product Engineering, Commercial, and Operations. Market positioning was evaluated at the 25th, 50th, and 75th percentiles, with a stated organisational target of maintaining pay at or near the 60th percentile for critical skill roles and the 50th percentile for support functions."
+          },
+          {
+            "heading": "Summary of Market Alignment",
+            "body": "Overall, 38% of evaluated roles fall more than 8% below the market median, with the largest gaps observed in Data Engineering (−14% median variance), Cybersecurity (−17%), and Enterprise Sales (−12%). Mid-level Software Engineers (Level P3) are currently positioned at the 46th percentile, materially below the intended 60th percentile target. In contrast, certain administrative and facilities roles are positioned above the 65th percentile, reflecting compression effects following prior equity adjustments."
+          },
+          {
+            "heading": "Attrition Risk Assessment",
+            "body": "Voluntary turnover over the past twelve months reached 21% in Cybersecurity and 18% in Data Engineering, compared with an enterprise average of 11%. Exit interviews cite compensation competitiveness as a primary or contributing factor in 62% of these departures. Replacement costs for these roles average 1.4x annual salary when factoring recruitment fees, onboarding time, and productivity lag, indicating a material financial impact if gaps persist."
+          },
+          {
+            "heading": "Recommended Band Adjustments",
+            "body": "It is recommended that salary bands for Cybersecurity Analysts (Levels T2–T4) and Data Engineers (Levels P2–P4) be increased by 10–15% to re-anchor midpoint positioning at approximately the 60th percentile of market. Enterprise Sales Manager bands should be adjusted upward by 8%, with increased variable pay leverage to maintain cost control. For over-market administrative roles, no downward band movement is advised; instead, natural attrition and moderated merit increases should gradually restore alignment."
+          },
+          {
+            "heading": "Equity Corrections and Budget Impact",
+            "body": "Targeted equity adjustments are required for 47 incumbents currently paid below 90% of revised band midpoints. The estimated annualised cost of recommended band and equity actions is $3.8 million, representing a 2.6% increase to the FY2026 base payroll. This investment is projected to reduce regretted attrition in critical roles by 6–8 percentage points, partially offsetting cost through lower turnover-related expenses within 12–18 months."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Page 2 of 4",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Study Scope and Data Sources",
+        "Summary of Market Alignment",
+        "Attrition Risk Assessment",
+        "Recommended Band Adjustments",
+        "Equity Corrections and Budget Impact"
+      ],
+      "cells": [
+        {
+          "heading": "Study Scope and Data Sources",
+          "body": "This benchmarking review compares the organisation’s FY2026 salary bands against aggregated market data drawn from the 2025 Radcliffe Technology & Business Services Survey and the NorthWest Industry Pay Index. The analysis covers 142 benchmarked roles across Corporate Services, Product Engineering, Commercial, and Operations. Market positioning was evaluated at the 25th, 50th, and 75th percentiles, with a stated organisational target of maintaining pay at or near the 60th percentile for critical skill roles and the 50th percentile for support functions."
+        },
+        {
+          "heading": "Summary of Market Alignment",
+          "body": "Overall, 38% of evaluated roles fall more than 8% below the market median, with the largest gaps observed in Data Engineering (−14% median variance), Cybersecurity (−17%), and Enterprise Sales (−12%). Mid-level Software Engineers (Level P3) are currently positioned at the 46th percentile, materially below the intended 60th percentile target. In contrast, certain administrative and facilities roles are positioned above the 65th percentile, reflecting compression effects following prior equity adjustments."
+        },
+        {
+          "heading": "Attrition Risk Assessment",
+          "body": "Voluntary turnover over the past twelve months reached 21% in Cybersecurity and 18% in Data Engineering, compared with an enterprise average of 11%. Exit interviews cite compensation competitiveness as a primary or contributing factor in 62% of these departures. Replacement costs for these roles average 1.4x annual salary when factoring recruitment fees, onboarding time, and productivity lag, indicating a material financial impact if gaps persist."
+        },
+        {
+          "heading": "Recommended Band Adjustments",
+          "body": "It is recommended that salary bands for Cybersecurity Analysts (Levels T2–T4) and Data Engineers (Levels P2–P4) be increased by 10–15% to re-anchor midpoint positioning at approximately the 60th percentile of market. Enterprise Sales Manager bands should be adjusted upward by 8%, with increased variable pay leverage to maintain cost control. For over-market administrative roles, no downward band movement is advised; instead, natural attrition and moderated merit increases should gradually restore alignment."
+        },
+        {
+          "heading": "Equity Corrections and Budget Impact",
+          "body": "Targeted equity adjustments are required for 47 incumbents currently paid below 90% of revised band midpoints. The estimated annualised cost of recommended band and equity actions is $3.8 million, representing a 2.6% increase to the FY2026 base payroll. This investment is projected to reduce regretted attrition in critical roles by 6–8 percentage points, partially offsetting cost through lower turnover-related expenses within 12–18 months."
+        }
+      ],
+      "full_text": "Compensation Benchmarking Analysis and Band Adjustment Recommendations\nRef: CB-27-2026 | Date: 18 February 2026 | Prepared by: Total Rewards & Workforce Analytics\n\nSection Study Scope and Data Sources\nThis benchmarking review compares the organisation’s FY2026 salary bands against aggregated market data drawn from the 2025 Radcliffe Technology & Business Services Survey and the NorthWest Industry Pay Index. The analysis covers 142 benchmarked roles across Corporate Services, Product Engineering, Commercial, and Operations. Market positioning was evaluated at the 25th, 50th, and 75th percentiles, with a stated organisational target of maintaining pay at or near the 60th percentile for critical skill roles and the 50th percentile for support functions.\n\nSection Summary of Market Alignment\nOverall, 38% of evaluated roles fall more than 8% below the market median, with the largest gaps observed in Data Engineering (−14% median variance), Cybersecurity (−17%), and Enterprise Sales (−12%). Mid-level Software Engineers (Level P3) are currently positioned at the 46th percentile, materially below the intended 60th percentile target. In contrast, certain administrative and facilities roles are positioned above the 65th percentile, reflecting compression effects following prior equity adjustments.\n\nSection Attrition Risk Assessment\nVoluntary turnover over the past twelve months reached 21% in Cybersecurity and 18% in Data Engineering, compared with an enterprise average of 11%. Exit interviews cite compensation competitiveness as a primary or contributing factor in 62% of these departures. Replacement costs for these roles average 1.4x annual salary when factoring recruitment fees, onboarding time, and productivity lag, indicating a material financial impact if gaps persist.\n\nSection Recommended Band Adjustments\nIt is recommended that salary bands for Cybersecurity Analysts (Levels T2–T4) and Data Engineers (Levels P2–P4) be increased by 10–15% to re-anchor midpoint positioning at approximately the 60th percentile of market. Enterprise Sales Manager bands should be adjusted upward by 8%, with increased variable pay leverage to maintain cost control. For over-market administrative roles, no downward band movement is advised; instead, natural attrition and moderated merit increases should gradually restore alignment.\n\nSection Equity Corrections and Budget Impact\nTargeted equity adjustments are required for 47 incumbents currently paid below 90% of revised band midpoints. The estimated annualised cost of recommended band and equity actions is $3.8 million, representing a 2.6% increase to the FY2026 base payroll. This investment is projected to reduce regretted attrition in critical roles by 6–8 percentage points, partially offsetting cost through lower turnover-related expenses within 12–18 months.\n\nConfidential — Internal Distribution Only | Page 2 of 4",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", which market data source is used to compare the organisation’s FY2026 salary bands?",
+          "answer": "Aggregated market data drawn from the 2025 Radcliffe Techno.",
+          "assertions": [
+            {
+              "text": "The response must state 'Aggregated market data drawn from the 2025 Radcliffe Techno.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", what percentage of evaluated roles fall more than 8% below the market median?",
+          "answer": "38%.",
+          "assertions": [
+            {
+              "text": "The response must state '38%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", what median gap is reported for Data Engineering?",
+          "answer": "−14%.",
+          "assertions": [
+            {
+              "text": "The response must state '−14%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", over what period was voluntary turnover measured in the attrition risk assessment?",
+          "answer": "Over the past twelve months.",
+          "assertions": [
+            {
+              "text": "The response must state 'Over the past twelve months.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", which roles and levels are recommended for salary band increases and by what percentage range?",
+          "answer": "Cybersecurity Analysts (Levels T2–T4) and Data Engineers (Levels P2–P4) recommended to be increased by 10–15%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Cybersecurity Analysts (Levels T2–T4) and Data Engineers (Levels P2–P4) recommended to be increased by 10–15%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "image",
+      "variant_id": "scan_llm_0007_d5803bb7",
+      "figure_number": 8,
+      "image_path": "scan_llm_stam_296c1d88.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 8: Compensation Benchmarking Review & Adjustment Authorization",
+      "scan_quality": "aged",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Compensation Benchmarking Review & Adjustment Authorization",
+        "form_fields": [
+          {
+            "label": "Organization",
+            "value": "Northbridge Digital Solutions Ltd."
+          },
+          {
+            "label": "Benchmark Survey Source",
+            "value": "Radford Technology Survey (Q4 2025 Cut)"
+          },
+          {
+            "label": "Review Scope Period",
+            "value": "FY2026 Planning Cycle"
+          },
+          {
+            "label": "Total Roles Assessed",
+            "value": "214 positions across 12 job families"
+          },
+          {
+            "label": "Roles Identified at Attrition Risk (>10% below P50)",
+            "value": "27 positions (Software Engineering II, Senior Data Analyst, Cloud Security Engineer)"
+          },
+          {
+            "label": "Average Market Gap (Weighted)",
+            "value": "-8.7% vs Market Median"
+          },
+          {
+            "label": "Proposed Base Pay Band Adjustment Budget",
+            "value": "$3.84M annualized"
+          },
+          {
+            "label": "Equity Refresh Pool Recommendation",
+            "value": "$1.15M targeted RSU grants for critical roles"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Market data normalized to 50th percentile (P50) for comparison",
+            "checked": true
+          },
+          {
+            "text": "Geographic differentials applied to all US regions",
+            "checked": true
+          },
+          {
+            "text": "Compression analysis completed for internal equity impacts",
+            "checked": true
+          },
+          {
+            "text": "Attrition trend analysis (12-month rolling) reviewed",
+            "checked": true
+          },
+          {
+            "text": "Finance sign-off on incremental budget impact obtained",
+            "checked": false
+          },
+          {
+            "text": "Executive Leadership Team approval secured",
+            "checked": false
+          },
+          {
+            "text": "Communication plan drafted for affected employees",
+            "checked": true
+          },
+          {
+            "text": "Implementation scheduled before Q3 merit cycle",
+            "checked": false
+          }
+        ],
+        "stamps": [
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          },
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          }
+        ],
+        "inspector": "Elena M. Kovarik, CCP",
+        "reference": "CBR-9760658-0426",
+        "date": "April 18, 2026",
+        "quality_tier": "aged"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Organization",
+          "Northbridge Digital Solutions Ltd."
+        ],
+        [
+          "Benchmark Survey Source",
+          "Radford Technology Survey (Q4 2025 Cut)"
+        ],
+        [
+          "Review Scope Period",
+          "FY2026 Planning Cycle"
+        ],
+        [
+          "Total Roles Assessed",
+          "214 positions across 12 job families"
+        ],
+        [
+          "Roles Identified at Attrition Risk (>10% below P50)",
+          "27 positions (Software Engineering II, Senior Data Analyst, Cloud Security Engineer)"
+        ],
+        [
+          "Average Market Gap (Weighted)",
+          "-8.7% vs Market Median"
+        ],
+        [
+          "Proposed Base Pay Band Adjustment Budget",
+          "$3.84M annualized"
+        ],
+        [
+          "Equity Refresh Pool Recommendation",
+          "$1.15M targeted RSU grants for critical roles"
+        ]
+      ],
+      "stamps": [
+        "CONFIDENTIAL",
+        "REVIEWED"
+      ],
+      "inspector": "Elena M. Kovarik, CCP",
+      "reference": "CBR-9760658-0426",
+      "checked_items": [
+        {
+          "text": "Market data normalized to 50th percentile (P50) for comparison",
+          "checked": true
+        },
+        {
+          "text": "Geographic differentials applied to all US regions",
+          "checked": true
+        },
+        {
+          "text": "Compression analysis completed for internal equity impacts",
+          "checked": true
+        },
+        {
+          "text": "Attrition trend analysis (12-month rolling) reviewed",
+          "checked": true
+        },
+        {
+          "text": "Communication plan drafted for affected employees",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", how many total roles were assessed?",
+          "answer": "214 positions",
+          "assertions": [
+            {
+              "text": "The response must state '214 positions'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", what is the proposed base pay band adjustment budget?",
+          "answer": "$3.84M annualized",
+          "assertions": [
+            {
+              "text": "The response must state '$3.84M annualized'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", was finance sign-off on incremental budget impact obtained?",
+          "answer": "No; finance sign-off was unchecked (not obtained).",
+          "assertions": [
+            {
+              "text": "The response must state 'No; finance sign-off was unchecked (not obtained).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", who is listed as the inspector?",
+          "answer": "Elena M. Kovarik, CCP",
+          "assertions": [
+            {
+              "text": "The response must state 'Elena M. Kovarik, CCP'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", which roles were identified at attrition risk?",
+          "answer": "Software Engineering II; Senior Data Analyst; Cloud Security Engineer (27 positions identified at risk)",
+          "assertions": [
+            {
+              "text": "The response must state 'Software Engineering II; Senior Data Analyst; Cloud Security Engineer (27 positions identified at risk)'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "image",
+      "variant_id": "scan_llm_0011_3584fbc8",
+      "figure_number": 9,
+      "image_path": "scan_llm_text_4674027d.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 9: FY2026 Compensation Benchmarking Review – Market Alignment Analysis",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "FY2026 Compensation Benchmarking Review – Market Alignment Analysis",
+        "subtitle": "Ref: CB-26-041 | Date: 18 February 2026 | Prepared by: Total Rewards & Workforce Analytics",
+        "sections": [
+          {
+            "heading": "Study Scope and Data Sources",
+            "body": "This benchmarking review evaluates current pay bands across 27 core roles against 2025–2026 market survey data sourced from Mercer TechComp, Radford Global Technology Survey, and the Midwest Manufacturing Consortium survey. Market medians were normalized to a 50th percentile national composite and adjusted for our primary operating geographies (Illinois, Texas, and North Carolina). Internal data reflects active employee base as of 31 December 2025. The objective is to quantify variance from market and identify roles where misalignment may elevate attrition exposure."
+          },
+          {
+            "heading": "Overall Market Positioning",
+            "body": "Across all benchmarked roles, base salary midpoint positioning averages 94.2% of market median, with wider dispersion in technical and revenue-generating functions. Administrative and finance roles are generally within ±3% of market, while engineering and cybersecurity positions trail by 8–14% at midpoint. Notably, the Senior Software Engineer band (P4) is positioned at 88% of market median, with compa-ratios clustering below 0.92. Variable pay opportunities remain competitive; however, base salary compression is evident in mid-career levels."
+          },
+          {
+            "heading": "Roles with Elevated Attrition Risk",
+            "body": "Voluntary turnover for 2025 reached 17.6% in Data Engineering and 19.3% in Cloud Infrastructure, compared to a company-wide average of 11.4%. Exit interview data indicates compensation as a primary or contributing factor in 61% of these cases. The Cybersecurity Analyst III role shows a 12% lag to market median and has experienced three regretted losses in Q4 alone. Sales Engineering positions, while only 5% below market at midpoint, face aggressive external recruiting pressure with sign-on premiums averaging $18,000 above our current offers."
+          },
+          {
+            "heading": "Recommended Band Adjustments and Equity Corrections",
+            "body": "We recommend increasing midpoint values for P3–P5 Engineering bands by 6% effective 1 July 2026, with a targeted equity adjustment pool of $1.8M to bring incumbents to at least 95% compa-ratio relative to revised midpoints. Cybersecurity and Cloud Infrastructure bands should receive a 9% midpoint adjustment to restore alignment to the 50th percentile market reference. For Sales Engineering, we advise maintaining current band structure but implementing a targeted retention allocation of $450,000 focused on high performers below 1.0 compa-ratio. Total estimated annualized cost impact is $3.2M, representing 1.7% of current payroll, which can be phased over two quarters to manage budget absorption."
+          },
+          {
+            "heading": "Cost Control and Governance Measures",
+            "body": "To balance competitiveness with fiscal discipline, adjustments will prioritize critical-skill roles and incumbents with strong performance ratings (Exceeds or Above Expectations). Future annual review cycles will adopt a formal market trigger threshold of ±5% from composite median before structural band changes are recommended. Quarterly market pulse checks will be conducted for high-volatility roles such as AI Engineering and Cybersecurity. These controls are intended to prevent future drift while sustaining a defensible pay-for-performance framework."
+          }
+        ],
+        "footer_note": "Confidential — Internal Compensation Analysis | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Study Scope and Data Sources",
+        "Overall Market Positioning",
+        "Roles with Elevated Attrition Risk",
+        "Recommended Band Adjustments and Equity Corrections",
+        "Cost Control and Governance Measures"
+      ],
+      "cells": [
+        {
+          "heading": "Study Scope and Data Sources",
+          "body": "This benchmarking review evaluates current pay bands across 27 core roles against 2025–2026 market survey data sourced from Mercer TechComp, Radford Global Technology Survey, and the Midwest Manufacturing Consortium survey. Market medians were normalized to a 50th percentile national composite and adjusted for our primary operating geographies (Illinois, Texas, and North Carolina). Internal data reflects active employee base as of 31 December 2025. The objective is to quantify variance from market and identify roles where misalignment may elevate attrition exposure."
+        },
+        {
+          "heading": "Overall Market Positioning",
+          "body": "Across all benchmarked roles, base salary midpoint positioning averages 94.2% of market median, with wider dispersion in technical and revenue-generating functions. Administrative and finance roles are generally within ±3% of market, while engineering and cybersecurity positions trail by 8–14% at midpoint. Notably, the Senior Software Engineer band (P4) is positioned at 88% of market median, with compa-ratios clustering below 0.92. Variable pay opportunities remain competitive; however, base salary compression is evident in mid-career levels."
+        },
+        {
+          "heading": "Roles with Elevated Attrition Risk",
+          "body": "Voluntary turnover for 2025 reached 17.6% in Data Engineering and 19.3% in Cloud Infrastructure, compared to a company-wide average of 11.4%. Exit interview data indicates compensation as a primary or contributing factor in 61% of these cases. The Cybersecurity Analyst III role shows a 12% lag to market median and has experienced three regretted losses in Q4 alone. Sales Engineering positions, while only 5% below market at midpoint, face aggressive external recruiting pressure with sign-on premiums averaging $18,000 above our current offers."
+        },
+        {
+          "heading": "Recommended Band Adjustments and Equity Corrections",
+          "body": "We recommend increasing midpoint values for P3–P5 Engineering bands by 6% effective 1 July 2026, with a targeted equity adjustment pool of $1.8M to bring incumbents to at least 95% compa-ratio relative to revised midpoints. Cybersecurity and Cloud Infrastructure bands should receive a 9% midpoint adjustment to restore alignment to the 50th percentile market reference. For Sales Engineering, we advise maintaining current band structure but implementing a targeted retention allocation of $450,000 focused on high performers below 1.0 compa-ratio. Total estimated annualized cost impact is $3.2M, representing 1.7% of current payroll, which can be phased over two quarters to manage budget absorption."
+        },
+        {
+          "heading": "Cost Control and Governance Measures",
+          "body": "To balance competitiveness with fiscal discipline, adjustments will prioritize critical-skill roles and incumbents with strong performance ratings (Exceeds or Above Expectations). Future annual review cycles will adopt a formal market trigger threshold of ±5% from composite median before structural band changes are recommended. Quarterly market pulse checks will be conducted for high-volatility roles such as AI Engineering and Cybersecurity. These controls are intended to prevent future drift while sustaining a defensible pay-for-performance framework."
+        }
+      ],
+      "full_text": "FY2026 Compensation Benchmarking Review – Market Alignment Analysis\nRef: CB-26-041 | Date: 18 February 2026 | Prepared by: Total Rewards & Workforce Analytics\n\nSection Study Scope and Data Sources\nThis benchmarking review evaluates current pay bands across 27 core roles against 2025–2026 market survey data sourced from Mercer TechComp, Radford Global Technology Survey, and the Midwest Manufacturing Consortium survey. Market medians were normalized to a 50th percentile national composite and adjusted for our primary operating geographies (Illinois, Texas, and North Carolina). Internal data reflects active employee base as of 31 December 2025. The objective is to quantify variance from market and identify roles where misalignment may elevate attrition exposure.\n\nSection Overall Market Positioning\nAcross all benchmarked roles, base salary midpoint positioning averages 94.2% of market median, with wider dispersion in technical and revenue-generating functions. Administrative and finance roles are generally within ±3% of market, while engineering and cybersecurity positions trail by 8–14% at midpoint. Notably, the Senior Software Engineer band (P4) is positioned at 88% of market median, with compa-ratios clustering below 0.92. Variable pay opportunities remain competitive; however, base salary compression is evident in mid-career levels.\n\nSection Roles with Elevated Attrition Risk\nVoluntary turnover for 2025 reached 17.6% in Data Engineering and 19.3% in Cloud Infrastructure, compared to a company-wide average of 11.4%. Exit interview data indicates compensation as a primary or contributing factor in 61% of these cases. The Cybersecurity Analyst III role shows a 12% lag to market median and has experienced three regretted losses in Q4 alone. Sales Engineering positions, while only 5% below market at midpoint, face aggressive external recruiting pressure with sign-on premiums averaging $18,000 above our current offers.\n\nSection Recommended Band Adjustments and Equity Corrections\nWe recommend increasing midpoint values for P3–P5 Engineering bands by 6% effective 1 July 2026, with a targeted equity adjustment pool of $1.8M to bring incumbents to at least 95% compa-ratio relative to revised midpoints. Cybersecurity and Cloud Infrastructure bands should receive a 9% midpoint adjustment to restore alignment to the 50th percentile market reference. For Sales Engineering, we advise maintaining current band structure but implementing a targeted retention allocation of $450,000 focused on high performers below 1.0 compa-ratio. Total estimated annualized cost impact is $3.2M, representing 1.7% of current payroll, which can be phased over two quarters to manage budget absorption.\n\nSection Cost Control and Governance Measures\nTo balance competitiveness with fiscal discipline, adjustments will prioritize critical-skill roles and incumbents with strong performance ratings (Exceeds or Above Expectations). Future annual review cycles will adopt a formal market trigger threshold of ±5% from composite median before structural band changes are recommended. Quarterly market pulse checks will be conducted for high-volatility roles such as AI Engineering and Cybersecurity. These controls are intended to prevent future drift while sustaining a defensible pay-for-performance framework.\n\nConfidential — Internal Compensation Analysis | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "According to \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", what market survey data source was used for the benchmarking?",
+          "answer": "Mercer TechComp (2025–2026 market survey data).",
+          "assertions": [
+            {
+              "text": "The response must state 'Mercer TechComp (2025–2026 market survey data).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", how many core roles were evaluated?",
+          "answer": "27 core roles.",
+          "assertions": [
+            {
+              "text": "The response must state '27 core roles.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", what is the average base salary midpoint positioning versus the market median?",
+          "answer": "94.2% of the market median.",
+          "assertions": [
+            {
+              "text": "The response must state '94.2% of the market median.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", what adjustment is recommended for P3–P5 Engineering band midpoints and when should it take effect?",
+          "answer": "Increase midpoints by 6% effective 1 July 2026.",
+          "assertions": [
+            {
+              "text": "The response must state 'Increase midpoints by 6% effective 1 July 2026.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", which roles were identified with elevated attrition risk and what were their 2025 voluntary turnover rates compared to the company average?",
+          "answer": "Data Engineering 17.6% and Cloud Infrastructure 19.3%, versus a company-wide average of 11.4%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Data Engineering 17.6% and Cloud Infrastructure 19.3%, versus a company-wide average of 11.4%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "image",
+      "variant_id": "scan_llm_0003_f6a36126",
+      "figure_number": 10,
+      "image_path": "scan_llm_hand_3b02d616.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "Figure 10: Comp Benchmark Review — Market Gap Findings",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "Comp Benchmark Review — Market Gap Findings",
+        "lines": [
+          "Reviewed Radford + Mercer Tech Survey (Q4 2025 cut) vs. FY26 bands",
+          "Scope = 214 benchmarked roles across Eng, Product, Sales, Ops",
+          "",
+          "Key gaps (median market vs. current midpoint):",
+          "- Sr. Software Eng (L4): -11.8%",
+          "- Principal Data Scientist: -14.6%",
+          "- Product Manager III: -9.9%",
+          "- Enterprise AE (OTE): -12.3% (base component most misaligned)",
+          "",
+          "Roles >10% below P50 = 38 positions → HIGH attrition risk",
+          "Voluntary attrition in these groups already 17% YTD (org avg = 11%)",
+          "",
+          "Equity misalignment also noted:",
+          "- Eng L4 equity grants 22% below market new-hire levels",
+          "- Refresh cycle lagging by 1 review period",
+          "",
+          "Cost modeling:",
+          "Adjusting 4 critical bands to P50 = +$3.4M annualized",
+          "Targeted equity correction (top 60 incumbents) ≈ $1.1M in incremental grants",
+          "",
+          "Recommendation:",
+          "1) Lift Eng + Data bands to P50 immediately (effective Sept 2026)",
+          "2) Phase Product + Sales to P45 this FY, re-evaluate Q1 2027",
+          "3) Implement attrition watchlist + quarterly market check-ins",
+          "",
+          "Risk if no action: replacement cost est. $145K per Sr Eng (search + ramp)",
+          "Break-even on band adjustment if we prevent 9 exits",
+          "",
+          "Need CFO alignment on budget reallocation from open headcount"
+        ],
+        "style": "messy",
+        "has_signature": true,
+        "signature_name": "Marisol Chen",
+        "date": "May 2, 2026",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Reviewed Radford + Mercer Tech Survey (Q4 2025 cut) vs. FY26 bands"
+        ],
+        [
+          "Scope = 214 benchmarked roles across Eng, Product, Sales, Ops"
+        ],
+        [
+          ""
+        ],
+        [
+          "Key gaps (median market vs. current midpoint):"
+        ],
+        [
+          "- Sr. Software Eng (L4): -11.8%"
+        ],
+        [
+          "- Principal Data Scientist: -14.6%"
+        ],
+        [
+          "- Product Manager III: -9.9%"
+        ],
+        [
+          "- Enterprise AE (OTE): -12.3% (base component most misaligned)"
+        ],
+        [
+          ""
+        ],
+        [
+          "Roles >10% below P50 = 38 positions → HIGH attrition risk"
+        ],
+        [
+          "Voluntary attrition in these groups already 17% YTD (org avg = 11%)"
+        ],
+        [
+          ""
+        ],
+        [
+          "Equity misalignment also noted:"
+        ],
+        [
+          "- Eng L4 equity grants 22% below market new-hire levels"
+        ],
+        [
+          "- Refresh cycle lagging by 1 review period"
+        ],
+        [
+          ""
+        ],
+        [
+          "Cost modeling:"
+        ],
+        [
+          "Adjusting 4 critical bands to P50 = +$3.4M annualized"
+        ],
+        [
+          "Targeted equity correction (top 60 incumbents) ≈ $1.1M in incremental grants"
+        ],
+        [
+          ""
+        ],
+        [
+          "Recommendation:"
+        ],
+        [
+          "1) Lift Eng + Data bands to P50 immediately (effective Sept 2026)"
+        ],
+        [
+          "2) Phase Product + Sales to P45 this FY, re-evaluate Q1 2027"
+        ],
+        [
+          "3) Implement attrition watchlist + quarterly market check-ins"
+        ],
+        [
+          ""
+        ],
+        [
+          "Risk if no action: replacement cost est. $145K per Sr Eng (search + ramp)"
+        ],
+        [
+          "Break-even on band adjustment if we prevent 9 exits"
+        ],
+        [
+          ""
+        ],
+        [
+          "Need CFO alignment on budget reallocation from open headcount"
+        ]
+      ],
+      "line_count": 29,
+      "hw_style": "messy",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Comp Benchmark Review — Market Gap Findings\", which market surveys were reviewed against FY26 bands?",
+          "answer": "Radford and Mercer Tech Survey (Q4 2025 cut).",
+          "assertions": [
+            {
+              "text": "The response must state 'Radford and Mercer Tech Survey (Q4 2025 cut).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Comp Benchmark Review — Market Gap Findings\", how many benchmarked roles were in scope?",
+          "answer": "214 benchmarked roles.",
+          "assertions": [
+            {
+              "text": "The response must state '214 benchmarked roles.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Comp Benchmark Review — Market Gap Findings\", what is the reported market gap for Principal Data Scientist (median market vs current midpoint)?",
+          "answer": "-14.6%.",
+          "assertions": [
+            {
+              "text": "The response must state '-14.6%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Comp Benchmark Review — Market Gap Findings\", what risk level is assigned to roles that are more than 10% below P50?",
+          "answer": "HIGH attrition risk.",
+          "assertions": [
+            {
+              "text": "The response must state 'HIGH attrition risk.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Comp Benchmark Review — Market Gap Findings\", who signed the note?",
+          "answer": "Marisol Chen.",
+          "assertions": [
+            {
+              "text": "The response must state 'Marisol Chen.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "filled_form_0004_38dd94a2": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0001_d227caae": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections",
+      "word_count": 227,
+      "text_type": "llm_prose",
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "scan_llm_0001_282c3dde": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_deb8d808.png",
+      "topic_id": ""
+    },
+    "filled_fillable_0000_91f1e7fb": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0002_f3423d12": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_6021d05b.png",
+      "topic_id": ""
+    },
+    "scan_llm_0009_c6c545b9": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_8772c078.png",
+      "topic_id": ""
+    },
+    "scan_llm_0010_3ba3a574": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_13b31bec.png",
+      "topic_id": ""
+    },
+    "filled_form_0000_d061a14c": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0012_2573848c": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_907c6307.png",
+      "topic_id": ""
+    },
+    "filled_fillable_0001_c037a78f": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0004_c4346fc7": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0000_8c47b862": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats",
+        "abbreviations"
+      ],
+      "heading": "Benchmarking Methodology and Market Data Alignment for Pay Band Comparison",
+      "word_count": 204,
+      "text_type": "llm_prose",
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "filled_form_0001_6d3c2ff7": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0005_4a58d879": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_f0da59f2.png",
+      "topic_id": ""
+    },
+    "filled_fillable_0003_3ddf9e5e": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0005_ee9db8a0": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0002_926b4677": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0003_837e26be": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0005_6cecc270": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0002_2ab8d0de": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0008_ddec758a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_588917d1.png",
+      "topic_id": ""
+    },
+    "scan_llm_0007_d5803bb7": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_296c1d88.png",
+      "topic_id": ""
+    },
+    "scan_llm_0011_3584fbc8": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_4674027d.png",
+      "topic_id": ""
+    },
+    "scan_llm_0003_f6a36126": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_3b02d616.png",
+      "topic_id": ""
+    },
+    "scan_llm_0006_f424e9c2": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_aee42053.png",
+      "topic_id": ""
+    },
+    "scan_llm_0000_7d3a3553": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_56d605b9.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Form', how many sections does the form include on the rendered page?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Form', what is the title of the third section displayed on the form?",
+      "answer": "Recommendations & Adjustments",
+      "assertions": [
+        {
+          "text": "The response must state 'Recommendations & Adjustments'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Form', how many dropdown fields are present in the filled form?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Form', what instruction or description is shown to users at the top of the form?",
+      "answer": "Complete this form to document market benchmarking data, identify attrition risks, and recommend salary band and equity adjustments.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document market benchmarking data, identify attrition risks, and recommend salary band and equity adjustments.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections\" section, what compa-ratio threshold designates a role as at risk?",
+      "answer": "below 0.90",
+      "assertions": [
+        {
+          "text": "The response must state below 0.90."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections\" section, how many roles meet the attrition-risk threshold?",
+      "answer": "9 roles",
+      "assertions": [
+        {
+          "text": "The response must state 9 roles."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Attrition-Risk Role Identification and Recommended Salary Band and Equity Corrections\" section, what is the recommended salary band midpoint increase for Software Engineer II?",
+      "answer": "6%",
+      "assertions": [
+        {
+          "text": "The response must state 6%."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", who is listed as the inspector?",
+      "answer": "Marianne Okafor, FCIPD – Director of Total Rewards.",
+      "assertions": [
+        {
+          "text": "The response must state 'Marianne Okafor, FCIPD – Director of Total Rewards.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", how many benchmark roles were assessed?",
+      "answer": "47 benchmark roles.",
+      "assertions": [
+        {
+          "text": "The response must state '47 benchmark roles.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", what is the estimated annualized cost of the recommended adjustments and the payroll impact?",
+      "answer": "£1,184,500 annualized impact (3.6% payroll increase).",
+      "assertions": [
+        {
+          "text": "The response must state '£1,184,500 annualized impact (3.6% payroll increase).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", was the Finance impact model validated against the FY2027 budget?",
+      "answer": "No — the Finance impact model validation is unchecked.",
+      "assertions": [
+        {
+          "text": "The response must state 'No — the Finance impact model validation is unchecked.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", which roles are identified as at risk of attrition?",
+      "answer": "Senior Backend Engineer; Data Platform Lead; Enterprise Account Executive.",
+      "assertions": [
+        {
+          "text": "The response must state 'Senior Backend Engineer; Data Platform Lead; Enterprise Account Executive.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections does the form contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what form number is shown on the document?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what is the title of the third section listed?",
+      "answer": "Compensation Gap and Attrition Risk Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Compensation Gap and Attrition Risk Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "Referencing the 'Compensation Benchmarking and Salary Band Adjustment Report Form', which required field requests the primary market survey provider?",
+      "answer": "Primary Market Survey Provider",
+      "assertions": [
+        {
+          "text": "The response must state 'Primary Market Survey Provider'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", which fiscal year's pay bands are compared against market data?",
+      "answer": "FY2025.",
+      "assertions": [
+        {
+          "text": "The response must state 'FY2025.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", how many role families demonstrate elevated attrition risk?",
+      "answer": "Three.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", what midpoint increases are recommended for Band E4 and Band E5?",
+      "answer": "Increase Band E4 midpoint by 8% and Band E5 midpoint by 10%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Increase Band E4 midpoint by 8% and Band E5 midpoint by 10%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", is the document labeled confidential?",
+      "answer": "Yes — labeled 'Confidential — Internal Compensation Analysis'.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — labeled 'Confidential — Internal Compensation Analysis'.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Compensation Benchmarking Review — Market Alignment and Risk Assessment\", name one role family identified as demonstrating elevated attrition risk.",
+      "answer": "Senior Backend.",
+      "assertions": [
+        {
+          "text": "The response must state 'Senior Backend.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", which market surveys and sample size were used for the benchmarking?",
+      "answer": "Radford + Mercer 2026 Tech Survey (N=412 orgs, Midwest + Remote blend).",
+      "assertions": [
+        {
+          "text": "The response must state 'Radford + Mercer 2026 Tech Survey (N=412 orgs, Midwest + Remote blend).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", how many Senior Data Engineer exits occurred in Q1 and what reason is cited in exit interviews?",
+      "answer": "Three exits in Q1; exit interviews cite compensation.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three exits in Q1; exit interviews cite compensation.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", what is the estimated annualized cost to move the Engineering IC3 midpoint to $120k?",
+      "answer": "+$1.4M annualized.",
+      "assertions": [
+        {
+          "text": "The response must state '+$1.4M annualized.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", is the Finance Analyst position aligned with the market and is any immediate action recommended?",
+      "answer": "Within ±3% of market — no immediate action recommended.",
+      "assertions": [
+        {
+          "text": "The response must state 'Within ±3% of market — no immediate action recommended.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", which roles are listed as targets for immediate correction?",
+      "answer": "Senior Data Engineer; Product Manager II; Cybersecurity Lead.",
+      "assertions": [
+        {
+          "text": "The response must state 'Senior Data Engineer; Product Manager II; Cybersecurity Lead.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Compensation Benchmarking Review & Adjustment Authorization Form\", how many benchmarked positions were assessed?",
+      "answer": "47 benchmarked positions.",
+      "assertions": [
+        {
+          "text": "The response must state '47 benchmarked positions.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Compensation Benchmarking Review & Adjustment Authorization Form\", what is the estimated annual adjustment cost?",
+      "answer": "$2,845,000.",
+      "assertions": [
+        {
+          "text": "The response must state '$2,845,000.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Compensation Benchmarking Review & Adjustment Authorization Form\", has Finance approval for the full funding allocation been secured?",
+      "answer": "No — the item is unchecked.",
+      "assertions": [
+        {
+          "text": "The response must state 'No — the item is unchecked.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization Form\", which roles are identified as having high projected voluntary attrition risk over the next 12 months?",
+      "answer": "Senior Data Engineers and Cloud Security Architects.",
+      "assertions": [
+        {
+          "text": "The response must state 'Senior Data Engineers and Cloud Security Architects.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking Study & Salary Band Adjustment Form', how many sections are listed on the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking Study & Salary Band Adjustment Form', what is the title of the third section shown on the form?",
+      "answer": "Salary Band Adjustments & Equity Recommendations",
+      "assertions": [
+        {
+          "text": "The response must state 'Salary Band Adjustments & Equity Recommendations'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking Study & Salary Band Adjustment Form', how many required fields does the form indicate?",
+      "answer": "8",
+      "assertions": [
+        {
+          "text": "The response must state '8'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking Study & Salary Band Adjustment Form', how many fields are of the 'number' type?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to \"Comp Benchmark Review — 12 Feb 2026\", which market surveys were used for the benchmarking?",
+      "answer": "Radford + Mercer 2025 tech surveys (US national median, 50th & 75th percentiles).",
+      "assertions": [
+        {
+          "text": "The response must state 'Radford + Mercer 2025 tech surveys (US national median, 50th & 75th percentiles).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Comp Benchmark Review — 12 Feb 2026\", how many incumbents were included in the scope?",
+      "answer": "214 incumbents.",
+      "assertions": [
+        {
+          "text": "The response must state '214 incumbents.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Comp Benchmark Review — 12 Feb 2026\", what is the Software Eng II current band midpoint, the market 50th, and the percent gap?",
+      "answer": "Midpoint $118k vs market 50th $129k (−8.5%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Midpoint $118k vs market 50th $129k (−8.5%).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Comp Benchmark Review — 12 Feb 2026\", is the Product Manager role considered at market, and what are the midpoint and market figures?",
+      "answer": "Yes — near market; midpoint $135k vs market 50th $138k (ok).",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — near market; midpoint $135k vs market 50th $138k (ok).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Comp Benchmark Review — 12 Feb 2026\", which critical gaps were identified?",
+      "answer": "Cybersecurity Eng, ML Eng, and Revenue Ops Analyst.",
+      "assertions": [
+        {
+          "text": "The response must state 'Cybersecurity Eng, ML Eng, and Revenue Ops Analyst.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what value is shown for the form number?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections are included?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many fields are marked as required?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what is the form type listed?",
+      "answer": "filled_fillable",
+      "assertions": [
+        {
+          "text": "The response must state 'filled_fillable'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Recommendation Form', how many sections are included in the document?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Recommendation Form', what is the form number displayed on the form?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Recommendation Form', how many fields are marked as required?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "Viewing the 'Compensation Benchmarking and Salary Band Adjustment Recommendation Form', what is the form type shown?",
+      "answer": "filled_fillable",
+      "assertions": [
+        {
+          "text": "The response must state 'filled_fillable'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Benchmarking Methodology and Market Data Alignment for Pay Band Comparison\" section, how many roles were covered in the benchmarking scope?",
+      "answer": "48 roles",
+      "assertions": [
+        {
+          "text": "The response must state 48 roles."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Benchmarking Methodology and Market Data Alignment for Pay Band Comparison\" section, to which percentile were all market comparisons normalized?",
+      "answer": "50th percentile (P50)",
+      "assertions": [
+        {
+          "text": "The response must state 50th percentile (P50)."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Benchmarking Methodology and Market Data Alignment for Pay Band Comparison\" section, what snapshot date was used for employee pay and headcount?",
+      "answer": "31-03-2026",
+      "assertions": [
+        {
+          "text": "The response must state 31-03-2026."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Equity Assessment Form', how many sections are included in the form as displayed on the PDF?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', what short description is provided to instruct users on completing the form?",
+      "answer": "Complete this form to document market benchmarking inputs, identify attrition risks, and recommend salary band and equity adjustments based on survey data.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document market benchmarking inputs, identify attrition risks, and recommend salary band and equity adjustments based on survey data.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Equity Assessment Form', what is the title of the first visible section header?",
+      "answer": "Organisation and Market Benchmarking Details",
+      "assertions": [
+        {
+          "text": "The response must state 'Organisation and Market Benchmarking Details'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', how many fields are designated as required on the filled form?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", which external survey and quarter were used as the market data source?",
+      "answer": "Q4 2025 data from the Mercer General Industry Survey.",
+      "assertions": [
+        {
+          "text": "The response must state 'Q4 2025 data from the Mercer General Industry Survey.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", at what percent of the market median and at what percent of the 65th percentile does the company's median base pay sit?",
+      "answer": "92% of the market median and 86% of the 65th percentile.",
+      "assertions": [
+        {
+          "text": "The response must state '92% of the market median and 86% of the 65th percentile.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", which roles had voluntary attrition exceeding 18% in the last 12 months?",
+      "answer": "Software Engineers II, Data Analysts, and Regional Sales Managers.",
+      "assertions": [
+        {
+          "text": "The response must state 'Software Engineers II, Data Analysts, and Regional Sales Managers.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", how many total pages does the footer indicate the document has?",
+      "answer": "4 pages.",
+      "assertions": [
+        {
+          "text": "The response must state '4 pages.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Summary and Band Realignment Plan\", is the document labeled confidential and what is the label?",
+      "answer": "Yes — Confidential — Internal Compensation Review.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — Confidential — Internal Compensation Review.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what form number is displayed on the document?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Band Adjustment Report Form', how many required fields must be completed?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Band Adjustment Report Form', which section title appears third in the list of sections?",
+      "answer": "Attrition Risk and Pay Gap Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Attrition Risk and Pay Gap Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Band Adjustment Report Form', what is the specified form type shown on the form?",
+      "answer": "filled_fillable",
+      "assertions": [
+        {
+          "text": "The response must state 'filled_fillable'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what form number is shown on the form?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many fields are indicated as required?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "Referencing the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what form type is listed on the document?",
+      "answer": "filled_fillable",
+      "assertions": [
+        {
+          "text": "The response must state 'filled_fillable'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many sections are included in the document?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Adjustment Report Form', what form number appears on the report?",
+      "answer": "HR-COMP-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'HR-COMP-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Adjustment Report Form', which section follows 'Benchmarking Data Summary'?",
+      "answer": "Attrition Risk Assessment",
+      "assertions": [
+        {
+          "text": "The response must state 'Attrition Risk Assessment'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking and Salary Band Adjustment Report Form', how many required fields are indicated on the form?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Band Adjustment Form', how many sections are displayed on the form as you view the PDF?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Band Adjustment Form', how many total fields are included in the form?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Band Adjustment Form', how many fields are marked required on the PDF?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "Viewing the 'Compensation Benchmarking and Pay Band Adjustment Form' PDF, which section titles are listed on the form?",
+      "answer": "Study Overview and Market Data; Pay Band Analysis and Attrition Risk; Recommendations and Equity Adjustments",
+      "assertions": [
+        {
+          "text": "The response must state 'Study Overview and Market Data; Pay Band Analysis and Attrition Risk; Recommendations and Equity Adjustments'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Salary Band Review Form', how many sections are there?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Salary Band Review Form', what description explains the purpose of the form?",
+      "answer": "Complete this form to document the compensation benchmarking analysis, identify attrition risks, and recommend salary band and equity adjustments based on market data.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document the compensation benchmarking analysis, identify attrition risks, and recommend salary band and equity adjustments based on market data.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Salary Band Review Form', how many fields are required to be completed?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Compensation Benchmarking and Salary Band Review Form', which section comes after 'Compensation Analysis Findings'?",
+      "answer": "Recommendations and Approvals",
+      "assertions": [
+        {
+          "text": "The response must state 'Recommendations and Approvals'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Compensation Benchmarking and Pay Equity Assessment Form', how many sections are listed on the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Compensation Benchmarking and Pay Equity Assessment Form', what is the title of the third section shown on the form?",
+      "answer": "Salary Band Adjustments and Equity Recommendations",
+      "assertions": [
+        {
+          "text": "The response must state 'Salary Band Adjustments and Equity Recommendations'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Compensation Benchmarking and Pay Equity Assessment Form', how many fields are marked as required?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "From the 'Compensation Benchmarking and Pay Equity Assessment Form', what descriptive instruction is provided for completing the form?",
+      "answer": "Complete this form to document the compensation benchmarking study, identify attrition risks, and recommend salary band and equity adjustments.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document the compensation benchmarking study, identify attrition risks, and recommend salary band and equity adjustments.'."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", which market data source is used to compare the organisation’s FY2026 salary bands?",
+      "answer": "Aggregated market data drawn from the 2025 Radcliffe Techno.",
+      "assertions": [
+        {
+          "text": "The response must state 'Aggregated market data drawn from the 2025 Radcliffe Techno.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", what percentage of evaluated roles fall more than 8% below the market median?",
+      "answer": "38%.",
+      "assertions": [
+        {
+          "text": "The response must state '38%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", what median gap is reported for Data Engineering?",
+      "answer": "−14%.",
+      "assertions": [
+        {
+          "text": "The response must state '−14%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", over what period was voluntary turnover measured in the attrition risk assessment?",
+      "answer": "Over the past twelve months.",
+      "assertions": [
+        {
+          "text": "The response must state 'Over the past twelve months.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Analysis and Band Adjustment Recommendations\", which roles and levels are recommended for salary band increases and by what percentage range?",
+      "answer": "Cybersecurity Analysts (Levels T2–T4) and Data Engineers (Levels P2–P4) recommended to be increased by 10–15%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Cybersecurity Analysts (Levels T2–T4) and Data Engineers (Levels P2–P4) recommended to be increased by 10–15%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", how many total roles were assessed?",
+      "answer": "214 positions",
+      "assertions": [
+        {
+          "text": "The response must state '214 positions'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", what is the proposed base pay band adjustment budget?",
+      "answer": "$3.84M annualized",
+      "assertions": [
+        {
+          "text": "The response must state '$3.84M annualized'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", was finance sign-off on incremental budget impact obtained?",
+      "answer": "No; finance sign-off was unchecked (not obtained).",
+      "assertions": [
+        {
+          "text": "The response must state 'No; finance sign-off was unchecked (not obtained).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", who is listed as the inspector?",
+      "answer": "Elena M. Kovarik, CCP",
+      "assertions": [
+        {
+          "text": "The response must state 'Elena M. Kovarik, CCP'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Compensation Benchmarking Review & Adjustment Authorization\", which roles were identified at attrition risk?",
+      "answer": "Software Engineering II; Senior Data Analyst; Cloud Security Engineer (27 positions identified at risk)",
+      "assertions": [
+        {
+          "text": "The response must state 'Software Engineering II; Senior Data Analyst; Cloud Security Engineer (27 positions identified at risk)'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", what market survey data source was used for the benchmarking?",
+      "answer": "Mercer TechComp (2025–2026 market survey data).",
+      "assertions": [
+        {
+          "text": "The response must state 'Mercer TechComp (2025–2026 market survey data).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", how many core roles were evaluated?",
+      "answer": "27 core roles.",
+      "assertions": [
+        {
+          "text": "The response must state '27 core roles.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", what is the average base salary midpoint positioning versus the market median?",
+      "answer": "94.2% of the market median.",
+      "assertions": [
+        {
+          "text": "The response must state '94.2% of the market median.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", what adjustment is recommended for P3–P5 Engineering band midpoints and when should it take effect?",
+      "answer": "Increase midpoints by 6% effective 1 July 2026.",
+      "assertions": [
+        {
+          "text": "The response must state 'Increase midpoints by 6% effective 1 July 2026.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"FY2026 Compensation Benchmarking Review – Market Alignment Analysis\", which roles were identified with elevated attrition risk and what were their 2025 voluntary turnover rates compared to the company average?",
+      "answer": "Data Engineering 17.6% and Cloud Infrastructure 19.3%, versus a company-wide average of 11.4%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Data Engineering 17.6% and Cloud Infrastructure 19.3%, versus a company-wide average of 11.4%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Comp Benchmark Review — Market Gap Findings\", which market surveys were reviewed against FY26 bands?",
+      "answer": "Radford and Mercer Tech Survey (Q4 2025 cut).",
+      "assertions": [
+        {
+          "text": "The response must state 'Radford and Mercer Tech Survey (Q4 2025 cut).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Comp Benchmark Review — Market Gap Findings\", how many benchmarked roles were in scope?",
+      "answer": "214 benchmarked roles.",
+      "assertions": [
+        {
+          "text": "The response must state '214 benchmarked roles.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Comp Benchmark Review — Market Gap Findings\", what is the reported market gap for Principal Data Scientist (median market vs current midpoint)?",
+      "answer": "-14.6%.",
+      "assertions": [
+        {
+          "text": "The response must state '-14.6%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Comp Benchmark Review — Market Gap Findings\", what risk level is assigned to roles that are more than 10% below P50?",
+      "answer": "HIGH attrition risk.",
+      "assertions": [
+        {
+          "text": "The response must state 'HIGH attrition risk.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Comp Benchmark Review — Market Gap Findings\", who signed the note?",
+      "answer": "Marisol Chen.",
+      "assertions": [
+        {
+          "text": "The response must state 'Marisol Chen.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    }
+  ]
+}

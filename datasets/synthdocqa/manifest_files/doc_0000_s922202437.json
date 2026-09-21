@@ -1,0 +1,5926 @@
+{
+  "doc_id": "doc_0000_s922202437",
+  "title": "Compliance Status Report: Mapping Regulatory Obligations to Internal Controls, Open Examination Findings, and Remediation Progress with Target Closure Dates",
+  "subtitle": "Compliance Status Report | Regulatory-to-Control Mapping, Open Findings & Remediation Timelines (Target Closure Dates)",
+  "topic_id": "regulatory_compliance_assessment",
+  "recipe_name": "annotation_heavy",
+  "seed": 922202437,
+  "document_brief": {
+    "narrative_theme": "This compliance status report links 2026 regulatory obligations to specific internal controls, summarizes open examination findings, and tracks remediation progress to target closure dates for executive oversight.",
+    "sections": [
+      {
+        "heading": "Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)",
+        "key_facts": [
+          "As of 2026-05-01, 42 of 48 regulatory obligations are mapped to internal controls (87.5% coverage).",
+          "There are 11 obligations rated High risk impact, including GLBA Safeguards Rule 16 CFR Part 314.",
+          "The next enterprise compliance attestation is scheduled for 2026-06-15."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Examination Findings and Remediation Plan Tracking with Target Closure Dates",
+        "key_facts": [
+          "There are 9 open examination findings across 3 examinations: OCC 2026-02, CFPB 2026-03, and State AG 2026-04.",
+          "4 of the 9 open findings are past due as of 2026-05-01.",
+          "The highest-severity open finding is OCC-2026-02-F-03 with a target closure date of 2026-05-31."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Regulatory obligation inventory and mapping status to internal controls (snapshot: 2026-05-01)",
+        "purpose": "Provides the authoritative list of in-scope obligations, their owners, and whether each obligation is mapped to a control to evidence compliance coverage.",
+        "key_data": {
+          "GLBA Safeguards Rule (16 CFR Part 314) | Owner: CISO | Mapped": "Yes",
+          "OCC Heightened Standards (12 CFR Part 30) | Owner: CRO | Mapped": "Yes",
+          "PCI DSS v4.0 Req. 8 | Owner: Head of IT | Mapped": "No",
+          "NYDFS 23 NYCRR 500.07 | Owner: CISO | Mapped": "Yes"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Obligation-to-control crosswalk with control IDs and testing cadence",
+        "purpose": "Shows exactly which internal controls evidence each obligation and the control testing cadence used to support ongoing compliance assertions.",
+        "key_data": {
+          "GLBA 16 CFR 314.4 | Control ID": "SEC-AC-03",
+          "SEC-AC-03 | Testing cadence": "Quarterly",
+          "PCI DSS v4.0 Req. 8 | Control ID": "IAM-01",
+          "IAM-01 | Testing cadence": "Monthly"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Coverage and risk summary by regulation (counts and high-risk obligations)",
+        "purpose": "Aggregates mapping coverage and risk impact by regulation to highlight gaps and prioritize remediation aligned to regulatory risk.",
+        "key_data": {
+          "Total obligations (enterprise)": "48",
+          "Mapped obligations (enterprise)": "42",
+          "High risk impact obligations (enterprise)": "11",
+          "Unmapped obligations (enterprise)": "6"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Open examination findings register across OCC, CFPB, and State AG exams (as of 2026-05-01)",
+        "purpose": "Centralizes all open findings with severity, status, and ownership to enable consistent reporting and accountability across examinations.",
+        "key_data": {
+          "Finding ID": "OCC-2026-02-F-03",
+          "Exam": "OCC 2026-02",
+          "Severity": "High",
+          "Status": "In Progress",
+          "Owner": "Jane Patel"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Remediation plan tracker with milestones, target closure dates, and past-due flags",
+        "purpose": "Tracks remediation progress for each open finding, including target closure dates and whether items are past due as of the reporting date.",
+        "key_data": {
+          "Finding ID | Target closure date": "CFPB-2026-03-F-02 | 2026-06-30",
+          "Finding ID | Past due as of 2026-05-01": "StateAG-2026-04-F-01 | Yes",
+          "Finding ID | % complete": "OCC-2026-02-F-03 | 65%"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "control linkage for root-cause and sustainable closure evidence",
+        "purpose": "Links each finding to the impacted regulatory obligation(s) and the specific control(s) to be enhanced, ensuring remediation closes the compliance gap and can be re-tested.",
+        "key_data": {
+          "OCC-2026-02-F-03 | Impacted obligation": "GLBA Safeguards Rule 16 CFR Part 314",
+          "OCC-2026-02-F-03 | Control to remediate": "SEC-AC-03",
+          "CFPB-2026-03-F-02 | Impacted obligation": "UDAAP (12 U.S.C. §§ 5531, 5536)",
+          "StateAG-2026-04-F-01 | Control to remediate": "PRIV-DS-02"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s922202437.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_stam_769d7ded.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 44,
+    "actual_page_count": 29
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "annotation",
+      "variant_id": "ann_sn_0001_97de8af1",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element' sticky-note in the meeting area, how many notes are attached?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element' meeting sticky-note, what phrase was annotated first?",
+          "answer": "2024-12-10",
+          "assertions": [
+            {
+              "text": "The response must state '2024-12-10'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0000_dd2a4063",
+      "heading": "Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)",
+      "word_count": 172,
+      "text_content": [
+        "**Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)**",
+        "As of 2026-05-01, 42 of 48 regulatory obligations are mapped to internal controls, representing 87.5% coverage. The control mapping inventory is maintained in the GRC platform and is updated weekly; unmapped obligations are prioritized for mapping during the May–June control identification sprint. Control owners and process leads receive monthly exceptions reports to validate mappings and governance documentation updates.",
+        "Eleven obligations are rated High risk impact; notable among these is the GLBA Safeguards Rule, 16 CFR Part 314, which is included in the high-risk inventory for enhanced monitoring. Remediation resources are allocated to these 11 items with weekly status reviews, risk owners assignde, and a targeted escalation path to the Chief Compliance Officer for any schedule slippage.",
+        "48, 87.5%), the 11 high-risk items, and remediation timelines with target closure dates."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)\" section, what percentage of regulatory obligations are mapped to internal controls?",
+          "answer": "87.5%",
+          "assertions": [
+            {
+              "text": "The response must state 87.5%."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)\" section, which specific regulation is noted among the eleven High risk impact obligations?",
+          "answer": "GLBA Safeguards Rule, 16 CFR Part 314",
+          "assertions": [
+            {
+              "text": "The response must state GLBA Safeguards Rule, 16 CFR Part 314."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)\" section, on what date is the next enterprise compliance attestation scheduled?",
+          "answer": "2026-06-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-15."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "annotation",
+      "variant_id": "ann_hl_0000_7783a87c",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many phrases are highlighted?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which highlighted phrase is marked orange?",
+          "answer": "three material control deficiencies",
+          "assertions": [
+            {
+              "text": "The response must state 'three material control deficiencies'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "annotation",
+      "variant_id": "ann_lb_0000_4cec4325",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element' visible in the PDF, what classification banner is displayed?",
+          "answer": "FOR INTERNAL USE ONLY",
+          "assertions": [
+            {
+              "text": "The response must state 'FOR INTERNAL USE ONLY'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'this element' as rendered on the page, what inline status label appears?",
+          "answer": "CRITICAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "annotation",
+      "variant_id": "ann_ar_0001_3da354d3",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what banner label appears at the top of the annotated report when viewed in the PDF?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what label is shown on the callout box readers see in the document?",
+          "answer": "Editorial Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Editorial Note'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element' in the PDF, how many phrases are highlighted in the annotated report section?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "annotation",
+      "variant_id": "ann_sn_0002_0aeece61",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many sticky-note comments are attached to the project?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what phrase is shown in the first sticky-note annotation?",
+          "answer": "$1.45M over 9 months",
+          "assertions": [
+            {
+              "text": "The response must state '$1.45M over 9 months'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "annotation",
+      "variant_id": "ann_rv_0000_3685343c",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many phrases are visually highlighted?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', are there PDF reviewer sticky-note comments present?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', what does the first reviewer comment say?",
+          "answer": "Hotfix ETA?",
+          "assertions": [
+            {
+              "text": "The response must state 'Hotfix ETA?'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "annotation",
+      "variant_id": "ann_hl_0003_74b2471a",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many highlighted phrases are shown?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which phrase is highlighted in green?",
+          "answer": "ISO 27001 certification",
+          "assertions": [
+            {
+              "text": "The response must state 'ISO 27001 certification'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "cx_table_0001_98e9298a",
+      "table_number": 1,
+      "caption": "Table 1: Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", which leaf metric columns fall under the super-group header \"Exam Findings & Risk Assessment\"?",
+          "answer": "Open Findings (#); Open Findings (Aging, days); Inherent Risk; Owner.",
+          "assertions": [
+            {
+              "text": "The response must state 'Open Findings (#); Open Findings (Aging, days); Inherent Risk; Owner.'."
+            }
+          ]
+        },
+        {
+          "question": " Sanctions\" span?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the value of \"Open Findings (#)\" for the sub-category \"Transaction Monitoring & SAR\" on the row mapped to controls \"AML-020, AML-021\"?",
+          "answer": "3.",
+          "assertions": [
+            {
+              "text": "The response must state '3.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the grand total for \"Open Findings (#)\"?",
+          "answer": "26.",
+          "assertions": [
+            {
+              "text": "The response must state '26.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the \"Access Control & Monitoring Sub-Total\" row show for \"% Complete\"?",
+          "answer": "33% (avg).",
+          "assertions": [
+            {
+              "text": "The response must state '33% (avg).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what columns fall under \"Exam Findings & Risk Assessment\"?",
+          "answer": "Open Findings (#); Open Findings (Aging, days); Inherent Risk; Owner.",
+          "assertions": [
+            {
+              "text": "The response must state 'Open Findings (#); Open Findings (Aging, days); Inherent Risk; Owner.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", how many header rows are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", which has the highest count: header rows or data rows?",
+          "answer": "Data rows (25)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (25)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the table caption explain?",
+          "answer": "Mapping obligations to controls, exam findings, and remediation tracking.",
+          "assertions": [
+            {
+              "text": "The response must state 'Mapping obligations to controls, exam findings, and remediation tracking.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the subtotal number of data rows shown?",
+          "answer": "25",
+          "assertions": [
+            {
+              "text": "The response must state '25'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "annotation",
+      "variant_id": "ann_lb_0001_cf2ae581",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element' visible in the PDF, what banner classification is displayed across it?",
+          "answer": "FOR INTERNAL USE ONLY",
+          "assertions": [
+            {
+              "text": "The response must state 'FOR INTERNAL USE ONLY'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element' on the page, what inline status label is shown?",
+          "answer": "CRITICAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "annotation",
+      "variant_id": "ann_ct_0003_7b0c7f9e",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns are in the 'this element' colored table?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "What is the total number of rows displayed on the 'this element'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'this element', how many rows show a positive trend (highlighted green)?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "table_0005_82cf734d",
+      "table_number": 2,
+      "caption": "control linkage for root-cause and sustainable closure evidence",
+      "columns": [
+        "Finding ID",
+        "Impacted Obligation(s)",
+        "Control(s) to Remediate",
+        "Severity",
+        "Target Closure Date",
+        "Remediation Status"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "OCC-2026-02-F-01",
+          "GLBA Safeguards Rule 16 CFR Part 314",
+          "INF-EN-01; SEC-MON-02",
+          "High",
+          "2026-09-30",
+          "In rPogress"
+        ],
+        [
+          "OCC-2026-02-F-03",
+          "GLBA Safeguards Rule 16 CFR Part 314",
+          "SEC-AC-03",
+          "High",
+          "2026-08-15",
+          "Open – Design Phase"
+        ],
+        [
+          "CFPB-2026-03-F-02",
+          "UDAAP (12 U.S.C. §§ 5531, 5536)",
+          "CMS-ADV-01; TRN-COM-04",
+          "Medium",
+          "2026-10-31",
+          "In Progress"
+        ],
+        [
+          "FDIC-2026-01-F-04",
+          "Bank Secrecy Act (31 U.S.C. § 5318)",
+          "AML-TXN-05",
+          "High",
+          "2026-07-31",
+          "Testing Validation"
+        ],
+        [
+          "StateAG-2026-04-F-01",
+          "CPRA (Cal. Civ. Code § 1798.100 et seq.)",
+          "PRIV-DS-02",
+          "Medium",
+          "2026-11-15",
+          "Open – Remediation Initiated"
+        ],
+        [
+          "FRB-2026-02-F-05",
+          "Regulation E (12 CFR Part 1005)",
+          "OPS-DISP-07",
+          "Low",
+          "2026-06-30",
+          "Closed – Pending Re-test"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "control linkage for root-cause and sustainable closure evidence\", what is the Remediation Status for Finding ID OCC-2026-02-F-01?",
+          "answer": "In rPogress",
+          "assertions": [
+            {
+              "text": "The response must state In rPogress."
+            }
+          ]
+        },
+        {
+          "question": "control linkage for root-cause and sustainable closure evidence\", what is the Target Closure Date for FRB-2026-02-F-05?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        },
+        {
+          "question": "control linkage for root-cause and sustainable closure evidence\", which Control(s) to Remediate are listed for CFPB-2026-03-F-02?",
+          "answer": "CMS-ADV-01; TRN-COM-04",
+          "assertions": [
+            {
+              "text": "The response must state CMS-ADV-01; TRN-COM-04."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "text",
+      "variant_id": "text_0001_a43c0d9c",
+      "heading": "Examination Findings and Remediation Plan Tracking with Target Closure Dates",
+      "word_count": 258,
+      "text_content": [
+        "**Examination Findings and Remediation Plan Tracking with Target Closure Dates**",
+        "There are currently nine open examination findings arising from three examinations: OCC 2026-02, CFPB 2026-03, and State AG 2026-04. As of 2026-05-01, four of these nine findings are past due, representing 44.4% (4 of 9) of the open population. The remaining five findings remain within their planned remediation windows. Each finding is logged with a unique identifier, assigned remediation owner, mapped internal control(s), and documented root-cause analysis. This baseline count establishes the scope for targeted remediation tracking and regulatory reporting through the remainder of 2026 period.",
+        "OCC-2026-02-F-03 is the highest-severity open finding and has a target closure date of 2026-05-31. This item is prioritized for immediate executive attention given its severity rating, impact to capital and consumer compliance controls, and the regulatory profile of the OCC. The remediation plan allocates dedicated remediation leads, vendor support where required, and a test-and-validate phase scheduled the week prior to the target date. With 30 days to target as of 2026-05-01, escalation protocols and contingency resources are prepositioned to mitigate the risk of regulatory enforcement actions.",
+        "vendor fixes - training and attestations Each open item is subject to weekly working‑group reviews and monthly executive scorecarding; the next executive remediation review is scheduled for 2026-05-15 to validate progress and update target dates and metrics."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Examination Findings and Remediation Plan Tracking with Target Closure Dates\" section, how many open examination findings are currently reported?",
+          "answer": "nine open examination findings",
+          "assertions": [
+            {
+              "text": "The response must state nine open examination findings."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Examination Findings and Remediation Plan Tracking with Target Closure Dates\" section, what percentage of the open findings are past due as of 2026-05-01?",
+          "answer": "44.4% (4 of 9)",
+          "assertions": [
+            {
+              "text": "The response must state 44.4% (4 of 9)."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Examination Findings and Remediation Plan Tracking with Target Closure Dates\" section, what is the target closure date for OCC-2026-02-F-03?",
+          "answer": "2026-05-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-05-31."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_8150f346",
+      "table_number": 3,
+      "caption": "Table 3: Time Series Performance Metrics",
+      "columns": [
+        "Reporting Period",
+        "Open Findings",
+        "Findings Closed (Period)",
+        "Controls Tested Effective (%)",
+        "Overdue Remediation Items"
+      ],
+      "row_count": 57,
+      "cells": [
+        [
+          "2025-01",
+          "42",
+          "5",
+          "88.4",
+          "14"
+        ],
+        [
+          "2025-02",
+          "45",
+          "6",
+          "87.9",
+          "16"
+        ],
+        [
+          "2025-03",
+          "43",
+          "8",
+          "89.2",
+          "15"
+        ],
+        [
+          "2025-04",
+          "40",
+          "10",
+          "90.1",
+          "13"
+        ],
+        [
+          "2025-05",
+          "38",
+          "9",
+          "91.3",
+          "12"
+        ],
+        [
+          "2025-06",
+          "35",
+          "11",
+          "92.0",
+          "10"
+        ],
+        [
+          "2025-07",
+          "33",
+          "7",
+          "92.5",
+          "9"
+        ],
+        [
+          "2025-08",
+          "31",
+          "6",
+          "93.1",
+          "8"
+        ],
+        [
+          "2025-09",
+          "29",
+          "8",
+          "93.8",
+          "7"
+        ],
+        [
+          "2025-10",
+          "27",
+          "7",
+          "94.2",
+          "6"
+        ],
+        [
+          "2025-11",
+          "25",
+          "6",
+          "94.9",
+          "5"
+        ],
+        [
+          "2025-12",
+          "23",
+          "5",
+          "95.4",
+          "4"
+        ],
+        [
+          "2026-01",
+          "22",
+          "4",
+          "95.8",
+          "4"
+        ],
+        [
+          "2026-02",
+          "20",
+          "6",
+          "96.2",
+          "3"
+        ],
+        [
+          "2026-03",
+          "18",
+          "5",
+          "96.7",
+          "2"
+        ],
+        [
+          "2025-Q4",
+          "42",
+          "18",
+          "91",
+          "7"
+        ],
+        [
+          "2026-Q1",
+          "38",
+          "22",
+          "93",
+          "5"
+        ],
+        [
+          "2026-Q2",
+          "35",
+          "19",
+          "94",
+          "6"
+        ],
+        [
+          "2026-Q3",
+          "31",
+          "24",
+          "95",
+          "4"
+        ],
+        [
+          "2026-Q4",
+          "29",
+          "17",
+          "96",
+          "3"
+        ],
+        [
+          "2027-Q1",
+          "33",
+          "12",
+          "92",
+          "8"
+        ],
+        [
+          "2027-Q2",
+          "30",
+          "21",
+          "94",
+          "5"
+        ],
+        [
+          "2027-Q3",
+          "27",
+          "20",
+          "95",
+          "4"
+        ],
+        [
+          "2027-Q4",
+          "25",
+          "18",
+          "96",
+          "3"
+        ],
+        [
+          "2028-Q1",
+          "28",
+          "14",
+          "93",
+          "6"
+        ],
+        [
+          "2028-Q2",
+          "24",
+          "23",
+          "97",
+          "2"
+        ],
+        [
+          "2028-Q3",
+          "22",
+          "16",
+          "98",
+          "2"
+        ],
+        [
+          "2028-Q4",
+          "20",
+          "15",
+          "98",
+          "1"
+        ],
+        [
+          "2029-Q1",
+          "23",
+          "11",
+          "95",
+          "4"
+        ],
+        [
+          "2029-Q2",
+          "19",
+          "21",
+          "99",
+          "1"
+        ],
+        [
+          "2025-Q3",
+          "42",
+          "18",
+          "91",
+          "7"
+        ],
+        [
+          "2025-Q4",
+          "38",
+          "16",
+          "93",
+          "6"
+        ],
+        [
+          "2026-Q1",
+          "45",
+          "12",
+          "88",
+          "9"
+        ],
+        [
+          "2026-Q2",
+          "40",
+          "20",
+          "94",
+          "5"
+        ],
+        [
+          "2026-Q3",
+          "36",
+          "22",
+          "96",
+          "4"
+        ],
+        [
+          "2026-Q4",
+          "39",
+          "15",
+          "90",
+          "6"
+        ],
+        [
+          "2027-Q1",
+          "34",
+          "19",
+          "95",
+          "3"
+        ],
+        [
+          "2027-Q2",
+          "31",
+          "17",
+          "97",
+          "2"
+        ],
+        [
+          "2027-Q3",
+          "37",
+          "14",
+          "92",
+          "5"
+        ],
+        [
+          "2027-Q4",
+          "29",
+          "21",
+          "98",
+          "2"
+        ],
+        [
+          "2028-Q1",
+          "33",
+          "13",
+          "89",
+          "6"
+        ],
+        [
+          "2028-Q2",
+          "27",
+          "18",
+          "96",
+          "3"
+        ],
+        [
+          "2028-Q3",
+          "30",
+          "16",
+          "94",
+          "4"
+        ],
+        [
+          "2028-Q4",
+          "24",
+          "22",
+          "97",
+          "1"
+        ],
+        [
+          "2029-Q1",
+          "28",
+          "11",
+          "93",
+          "3"
+        ],
+        [
+          "2025-W46",
+          "28",
+          "6",
+          "91%",
+          "5"
+        ],
+        [
+          "2025-W47",
+          "26",
+          "4",
+          "92%",
+          "4"
+        ],
+        [
+          "2025-W48",
+          "24",
+          "5",
+          "93%",
+          "4"
+        ],
+        [
+          "2025-W49",
+          "27",
+          "3",
+          "90%",
+          "6"
+        ],
+        [
+          "2025-W50",
+          "23",
+          "7",
+          "94%",
+          "3"
+        ],
+        [
+          "2025-W51",
+          "21",
+          "4",
+          "95%",
+          "2"
+        ],
+        [
+          "2025-W52",
+          "25",
+          "2",
+          "89%",
+          "5"
+        ],
+        [
+          "2026-W01",
+          "22",
+          "6",
+          "93%",
+          "3"
+        ],
+        [
+          "2026-W02",
+          "20",
+          "5",
+          "96%",
+          "2"
+        ],
+        [
+          "2026-W03",
+          "18",
+          "4",
+          "97%",
+          "1"
+        ],
+        [
+          "2026-W04",
+          "19",
+          "2",
+          "95%",
+          "2"
+        ],
+        [
+          "2026-W05",
+          "17",
+          "5",
+          "98%",
+          "1"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Open Findings": 1680.0,
+        "max_Open Findings": 45.0,
+        "min_Open Findings": 17.0,
+        "sum_Findings Closed (Period)": 681.0,
+        "max_Findings Closed (Period)": 24.0,
+        "min_Findings Closed (Period)": 2.0,
+        "sum_Controls Tested Effective (%)": 5343.5,
+        "max_Controls Tested Effective (%)": 99.0,
+        "min_Controls Tested Effective (%)": 87.9,
+        "sum_Overdue Remediation Items": 293.0,
+        "max_Overdue Remediation Items": 16.0,
+        "min_Overdue Remediation Items": 1.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Time Series Performance Metrics\", what is the value of Open Findings for the reporting period 2026-Q4?",
+          "answer": "29",
+          "assertions": [
+            {
+              "text": "The response must state 29."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Time Series Performance Metrics\", what percentage is listed under Controls Tested Effective (%) for 2025-W47?",
+          "answer": "92%",
+          "assertions": [
+            {
+              "text": "The response must state 92%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Time Series Performance Metrics\", how many Overdue Remediation Items are shown for 2025-02?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state 16."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_9405316f",
+      "table_number": 4,
+      "caption": "Table 4: Time Series Performance Metrics",
+      "columns": [
+        "Reporting Period",
+        "Total Regulatory Obligations",
+        "Open Findings",
+        "Findings Closed (YTD)",
+        "On-Time Remediation Rate (%)"
+      ],
+      "row_count": 66,
+      "cells": [
+        [
+          "2025-01",
+          "245",
+          "32",
+          "5",
+          "81.3"
+        ],
+        [
+          "2025-02",
+          "245",
+          "30",
+          "9",
+          "83.7"
+        ],
+        [
+          "2025-03",
+          "248",
+          "29",
+          "14",
+          "85.2"
+        ],
+        [
+          "2025-04",
+          "248",
+          "27",
+          "18",
+          "86.9"
+        ],
+        [
+          "2025-05",
+          "252",
+          "26",
+          "22",
+          "88.4"
+        ],
+        [
+          "2025-06",
+          "252",
+          "24",
+          "27",
+          "89.6"
+        ],
+        [
+          "2025-07",
+          "255",
+          "23",
+          "31",
+          "90.8"
+        ],
+        [
+          "2025-08",
+          "255",
+          "21",
+          "36",
+          "92.1"
+        ],
+        [
+          "2025-09",
+          "258",
+          "20",
+          "40",
+          "93.4"
+        ],
+        [
+          "2025-10",
+          "258",
+          "18",
+          "45",
+          "94.2"
+        ],
+        [
+          "2025-11",
+          "260",
+          "17",
+          "49",
+          "95.1"
+        ],
+        [
+          "2025-12",
+          "260",
+          "15",
+          "54",
+          "96.3"
+        ],
+        [
+          "2026-01",
+          "262",
+          "16",
+          "58",
+          "94.7"
+        ],
+        [
+          "2026-02",
+          "262",
+          "14",
+          "63",
+          "96.8"
+        ],
+        [
+          "2026-03",
+          "265",
+          "12",
+          "69",
+          "97.5"
+        ],
+        [
+          "2023 Q4",
+          "245",
+          "18",
+          "62",
+          "91.3"
+        ],
+        [
+          "2024 Q1",
+          "252",
+          "22",
+          "15",
+          "88.7"
+        ],
+        [
+          "2024 Q2",
+          "260",
+          "19",
+          "37",
+          "90.5"
+        ],
+        [
+          "2024 Q3",
+          "268",
+          "24",
+          "41",
+          "87.9"
+        ],
+        [
+          "2024 Q4",
+          "275",
+          "16",
+          "58",
+          "93.2"
+        ],
+        [
+          "2025 Q1",
+          "283",
+          "21",
+          "18",
+          "89.4"
+        ],
+        [
+          "2025 Q2",
+          "290",
+          "17",
+          "39",
+          "92.1"
+        ],
+        [
+          "2025 Q3",
+          "298",
+          "23",
+          "44",
+          "88.6"
+        ],
+        [
+          "2025 Q4",
+          "305",
+          "14",
+          "63",
+          "94.0"
+        ],
+        [
+          "2026 Q1",
+          "312",
+          "20",
+          "21",
+          "90.2"
+        ],
+        [
+          "2026 Q2",
+          "320",
+          "18",
+          "36",
+          "91.7"
+        ],
+        [
+          "2026 Q3",
+          "327",
+          "25",
+          "42",
+          "87.5"
+        ],
+        [
+          "2026 Q4",
+          "335",
+          "13",
+          "67",
+          "95.1"
+        ],
+        [
+          "2027 Q1",
+          "342",
+          "19",
+          "24",
+          "92.8"
+        ],
+        [
+          "2027 Q2",
+          "350",
+          "15",
+          "40",
+          "93.6"
+        ],
+        [
+          "2024-Q3",
+          "312",
+          "28",
+          "74",
+          "91.5"
+        ],
+        [
+          "2024-Q4",
+          "318",
+          "25",
+          "89",
+          "93.2"
+        ],
+        [
+          "2025-Q1",
+          "325",
+          "31",
+          "18",
+          "88.7"
+        ],
+        [
+          "2025-Q2",
+          "330",
+          "27",
+          "42",
+          "90.1"
+        ],
+        [
+          "2025-Q3",
+          "336",
+          "22",
+          "67",
+          "94.4"
+        ],
+        [
+          "2025-Q4",
+          "342",
+          "19",
+          "83",
+          "95.6"
+        ],
+        [
+          "2026-Q1",
+          "348",
+          "24",
+          "21",
+          "89.9"
+        ],
+        [
+          "2026-Q2",
+          "355",
+          "26",
+          "39",
+          "87.8"
+        ],
+        [
+          "2026-Q3",
+          "360",
+          "18",
+          "72",
+          "96.3"
+        ],
+        [
+          "2026-Q4",
+          "368",
+          "16",
+          "95",
+          "97.1"
+        ],
+        [
+          "2027-Q1",
+          "372",
+          "20",
+          "23",
+          "92.4"
+        ],
+        [
+          "2027-Q2",
+          "379",
+          "17",
+          "41",
+          "94.9"
+        ],
+        [
+          "2027-Q3",
+          "385",
+          "14",
+          "68",
+          "96.8"
+        ],
+        [
+          "2027-Q4",
+          "392",
+          "12",
+          "88",
+          "98.2"
+        ],
+        [
+          "2028-Q1",
+          "400",
+          "15",
+          "26",
+          "93.7"
+        ],
+        [
+          "2024-Q1",
+          "512",
+          "38",
+          "24",
+          "91.3"
+        ],
+        [
+          "2024-Q2",
+          "518",
+          "41",
+          "37",
+          "89.7"
+        ],
+        [
+          "2024-Q3",
+          "525",
+          "35",
+          "52",
+          "93.5"
+        ],
+        [
+          "2024-Q4",
+          "533",
+          "29",
+          "68",
+          "95.1"
+        ],
+        [
+          "2025-Q1",
+          "540",
+          "33",
+          "18",
+          "90.4"
+        ],
+        [
+          "2025-Q2",
+          "548",
+          "36",
+          "34",
+          "88.9"
+        ],
+        [
+          "2025-Q3",
+          "556",
+          "31",
+          "49",
+          "92.6"
+        ],
+        [
+          "2025-Q4",
+          "563",
+          "27",
+          "63",
+          "94.8"
+        ],
+        [
+          "2026-Q1",
+          "571",
+          "30",
+          "21",
+          "91.7"
+        ],
+        [
+          "2026-Q2",
+          "579",
+          "34",
+          "39",
+          "89.2"
+        ],
+        [
+          "2026-Q3",
+          "588",
+          "28",
+          "57",
+          "93.9"
+        ],
+        [
+          "2026-Q4",
+          "596",
+          "25",
+          "72",
+          "96.2"
+        ],
+        [
+          "2027-Q1",
+          "603",
+          "29",
+          "26",
+          "92.1"
+        ],
+        [
+          "2027-Q2",
+          "611",
+          "32",
+          "44",
+          "90.8"
+        ],
+        [
+          "2027-Q3",
+          "620",
+          "26",
+          "61",
+          "95.4"
+        ],
+        [
+          "Period 61",
+          "482",
+          "37",
+          "145",
+          "92.4%"
+        ],
+        [
+          "Period 62",
+          "489",
+          "41",
+          "152",
+          "90.8%"
+        ],
+        [
+          "Period 63",
+          "495",
+          "34",
+          "168",
+          "94.1%"
+        ],
+        [
+          "Period 64",
+          "503",
+          "39",
+          "174",
+          "91.6%"
+        ],
+        [
+          "Period 65",
+          "510",
+          "28",
+          "190",
+          "95.3%"
+        ],
+        [
+          "Period 66",
+          "518",
+          "31",
+          "205",
+          "93.7%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Total Regulatory Obligations": 25069.0,
+        "max_Total Regulatory Obligations": 620.0,
+        "min_Total Regulatory Obligations": 245.0,
+        "sum_Open Findings": 1606.0,
+        "max_Open Findings": 41.0,
+        "min_Open Findings": 12.0,
+        "sum_Findings Closed (YTD)": 3692.0,
+        "max_Findings Closed (YTD)": 205.0,
+        "min_Findings Closed (YTD)": 5.0,
+        "sum_On-Time Remediation Rate (%)": 6076.7,
+        "max_On-Time Remediation Rate (%)": 98.2,
+        "min_On-Time Remediation Rate (%)": 81.3
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the On-Time Remediation Rate (%) for 2025-01?",
+          "answer": "81.3",
+          "assertions": [
+            {
+              "text": "The response must state 81.3."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what value is shown for Total Regulatory Obligations in 2027-Q3?",
+          "answer": "620",
+          "assertions": [
+            {
+              "text": "The response must state 620."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Findings Closed (YTD) value for Period 66?",
+          "answer": "205",
+          "assertions": [
+            {
+              "text": "The response must state 205."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "annotation",
+      "variant_id": "ann_co_0004_a772df3b",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, what label appears in the callout box?",
+          "answer": "Tip",
+          "assertions": [
+            {
+              "text": "The response must state 'Tip'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what instruction is shown inside the callout box?",
+          "answer": "Tip: Save a draft version before submitting. Draft submissions can be edited up to 48 hours.",
+          "assertions": [
+            {
+              "text": "The response must state 'Tip: Save a draft version before submitting. Draft submissions can be edited up to 48 hours.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "annotation",
+      "variant_id": "ann_ar_0002_f855167f",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what category is assigned to the section?",
+          "answer": "financial",
+          "assertions": [
+            {
+              "text": "The response must state 'financial'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing 'this element' in the rendered PDF, which banner label appears on the section?",
+          "answer": "DRAFT",
+          "assertions": [
+            {
+              "text": "The response must state 'DRAFT'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what callout label is displayed alongside the content?",
+          "answer": "Editorial Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Editorial Note'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "annotation",
+      "variant_id": "ann_hl_0002_bea6dfa0",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many highlighted phrases appear?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which highlighted phrase is shown in purple?",
+          "answer": "Bad debt provisions",
+          "assertions": [
+            {
+              "text": "The response must state 'Bad debt provisions'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "annotation",
+      "variant_id": "ann_hl_0005_c2b381ba",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "According to 'this element', how many phrases are highlighted?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "In 'this element', which phrase is highlighted in green?",
+          "answer": "headcount plan for 2025",
+          "assertions": [
+            {
+              "text": "The response must state 'headcount plan for 2025'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "table",
+      "variant_id": "table_0003_38682ec6",
+      "table_number": 5,
+      "caption": "Table 5: Open examination findings register across OCC, CFPB, and State AG exams (as of 2026-05-01)",
+      "columns": [
+        "Finding ID",
+        "Exam",
+        "Severity",
+        "Days Open",
+        "Status",
+        "Regulatory Area",
+        "Target Closure Date",
+        "Owner"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "OCC-2026-01-F-01",
+          "OCC 2026-01",
+          "High",
+          "142",
+          "In Progress",
+          "AML Transaction Monitoring",
+          "2026-06-30",
+          "Michael Chen"
+        ],
+        [
+          "OCC-2026-01-F-02",
+          "OCC 2026-01",
+          "Medium",
+          "98",
+          "Open",
+          "Consumer Compliance - Reg Z",
+          "2026-07-15",
+          "Laura Simmons"
+        ],
+        [
+          "OCC-2026-02-F-01",
+          "OCC 2026-02",
+          "Low",
+          "64",
+          "In Progress",
+          "IT General Controls",
+          "2026-05-30",
+          "David Ramirez"
+        ],
+        [
+          "OCC-2026-02-F-02",
+          "OCC 2026-02",
+          "Medium",
+          "121",
+          "Remediation Validation",
+          "Vendor Management",
+          "2026-06-10",
+          "Angela Brooks"
+        ],
+        [
+          "OCC-2026-02-F-03",
+          "OCC 2026-02",
+          "High",
+          "87",
+          "In Progress",
+          "Credit Risk Governance",
+          "2026-08-01",
+          "Jane Patel"
+        ],
+        [
+          "FDIC-2025-04-F-01",
+          "FDIC 2025-04",
+          "Medium",
+          "210",
+          "Open",
+          "CRA Monitoring",
+          "2026-09-15",
+          "Thomas Greene"
+        ],
+        [
+          "FRB-2026-01-F-01",
+          "FRB 2026-01",
+          "High",
+          "75",
+          "In Progress",
+          "Liquidity Risk Reporting",
+          "2026-07-31",
+          "Sofia Martinez"
+        ],
+        [
+          "CFPB-2025-03-F-02",
+          "CFPB 2025-03",
+          "Low",
+          "156",
+          "Closed - Pending Validation",
+          "UDAAP Controls",
+          "2026-05-20",
+          "Brian O'Connor"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Days Open": 953.0,
+        "max_Days Open": 210.0,
+        "min_Days Open": 64.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Open examination findings register across OCC, CFPB, and State AG exams (as of 2026-05-01)\", what is the Target Closure Date for finding ID OCC-2026-01-F-01?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Open examination findings register across OCC, CFPB, and State AG exams (as of 2026-05-01)\", who is listed as the Owner for finding ID FRB-2026-01-F-01?",
+          "answer": "Sofia Martinez",
+          "assertions": [
+            {
+              "text": "The response must state Sofia Martinez."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Open examination findings register across OCC, CFPB, and State AG exams (as of 2026-05-01)\", what is the Status of finding CFPB-2025-03-F-02?",
+          "answer": "Closed - Pending Validation",
+          "assertions": [
+            {
+              "text": "The response must state Closed - Pending Validation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "annotation",
+      "variant_id": "ann_ar_0003_134d67db",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what banner label is displayed?",
+          "answer": "APPROVED",
+          "assertions": [
+            {
+              "text": "The response must state 'APPROVED'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element' shown in the PDF, how many phrases are highlighted?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element' in the rendered report, what is the callout label present?",
+          "answer": "Approved",
+          "assertions": [
+            {
+              "text": "The response must state 'Approved'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "annotation",
+      "variant_id": "ann_hl_0001_837e18bd",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many highlighted phrases appear?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which highlighted phrase is marked with the color blue?",
+          "answer": "headcount plan for 2025",
+          "assertions": [
+            {
+              "text": "The response must state 'headcount plan for 2025'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "annotation",
+      "variant_id": "ann_ft_0001_36094170",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many freetext annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what is the first annotated phrase visible on the document?",
+          "answer": "$3.1M",
+          "assertions": [
+            {
+              "text": "The response must state '$3.1M'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "table",
+      "variant_id": "cx_table_0002_bb913b94",
+      "table_number": 6,
+      "caption": "Table 6: Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", which objective categories are the column groups?",
+          "answer": "Governance & Oversight; Risk & Control Effectiveness; Regulatory Reporting & Exams.",
+          "assertions": [
+            {
+              "text": "The response must state 'Governance & Oversight; Risk & Control Effectiveness; Regulatory Reporting & Exams.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", how many initiatives fall under the \"Control Framework & Testing\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", what is the alignment rating of \"Continuous Control Monitoring for High-Risk Processes\" for the \"Issue Management\" objective?",
+          "answer": "H (High).",
+          "assertions": [
+            {
+              "text": "The response must state 'H (High).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", what is the total score for the \"Exam Response Playbook & RFI Tracker (Regulator Requests)\" initiative?",
+          "answer": "84.",
+          "assertions": [
+            {
+              "text": "The response must state '84.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", which objective has the highest weighted total score in the \"Objective Weighted Total\" row?",
+          "answer": "Remediation Timeliness (92).",
+          "assertions": [
+            {
+              "text": "The response must state 'Remediation Timeliness (92).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", what main control objective columns appear in the top header?",
+          "answer": "Governance & Oversight; Risk & Control Effectiveness; Regulatory Reporting & Exams",
+          "assertions": [
+            {
+              "text": "The response must state 'Governance & Oversight; Risk & Control Effectiveness; Regulatory Reporting & Exams'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", how many data rows does the grid contain?",
+          "answer": "14",
+          "assertions": [
+            {
+              "text": "The response must state '14'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", what does the 'H' annotation denote?",
+          "answer": "H (High)",
+          "assertions": [
+            {
+              "text": "The response must state 'H (High)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", how many initiatives are tracked in the grid?",
+          "answer": "4 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "type": "table",
+      "variant_id": "cx_table_0003_835b824f",
+      "table_number": 7,
+      "caption": "Table 7: Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", how many period columns does each version group span?",
+          "answer": "4 period columns (Q1–Q4).",
+          "assertions": [
+            {
+              "text": "The response must state '4 period columns (Q1–Q4).'."
+            }
+          ]
+        },
+        {
+          "question": "monitoring uplift (SIEM tuning; use-case coverage for exam items)\"?",
+          "answer": "151 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '151 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", what is the \"Remediation Delivery Subtotal\" for Baseline Q1?",
+          "answer": "435 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '435 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", which version shows the highest Q4 value for \"Identity & access remediation (MFA expansion; privileged access hardening)\"?",
+          "answer": "Actuals (195 vs Baseline 180, $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (195 vs Baseline 180, $000).'."
+            }
+          ]
+        },
+        {
+          "question": "operating effectiveness; sampling for key controls)\"?",
+          "answer": "14 ($K).",
+          "assertions": [
+            {
+              "text": "The response must state '14 ($K).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", what is the Baseline remediation spend amount?",
+          "answer": "151 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '151 ($000).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", how many header tiers does the table have?",
+          "answer": "3 header rows",
+          "assertions": [
+            {
+              "text": "The response must state '3 header rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", which column carries the highest remediation spend?",
+          "answer": "Actuals",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", what does the \"($000)\" annotation indicate?",
+          "answer": "Amounts in thousands of dollars",
+          "assertions": [
+            {
+              "text": "The response must state 'Amounts in thousands of dollars.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", what is the subtotal for the group in the Actuals column?",
+          "answer": "435 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '435 ($000).'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "type": "table",
+      "variant_id": "table_0002_b5222da9",
+      "table_number": 8,
+      "caption": "Table 8: Coverage and risk summary by regulation (counts and high-risk obligations)",
+      "columns": [
+        " Scope",
+        "Total Obligations",
+        "Mapped Obligations",
+        "Unmapped Obligations",
+        "High Risk Impact Obligations",
+        "Open Findings",
+        "Remediation Status",
+        "Target Closure Date",
+        "Overall Risk Rating"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Enterprise (Aggregate View)",
+          "Total obligations (enterprise): 48",
+          "Mapped obligations (enterprise): 42",
+          "Unmapped obligations (enterprise): 6",
+          "High risk impact obligations (enterprise): 11",
+          "7 open findings",
+          "In Progress (6), Not Started (1)",
+          "2026-09-30",
+          "High"
+        ],
+        [
+          "GDPR (EU Data Protection)",
+          "12",
+          "11",
+          "1",
+          "4",
+          "2 open findings",
+          "Control enhancement underway",
+          "2026-07-31",
+          "High"
+        ],
+        [
+          "SOX (Financial Reporting)",
+          "8",
+          "8",
+          "0",
+          "2",
+          "1 open finding",
+          "Remediation testing phase",
+          "2026-06-15",
+          "Moderate"
+        ],
+        [
+          "PCI DSS v4.0",
+          "6",
+          "5",
+          "1",
+          "2",
+          "1 open finding",
+          "Gap remediation in progress",
+          "2026-08-01",
+          "High"
+        ],
+        [
+          "GLBA (Financial Privacy)",
+          "5",
+          "4",
+          "1",
+          "1",
+          "1 open finding",
+          "Policy update pending approval",
+          "",
+          "Moderate"
+        ],
+        [
+          "HIPAA (Healthcare Data)",
+          "4",
+          "4",
+          "0",
+          "",
+          "0 open findings",
+          "Compliant",
+          "A",
+          "Low"
+        ],
+        [
+          "CPRA (California Privacy)",
+          "5",
+          "4",
+          "1",
+          "1",
+          "1 open finding",
+          "Data mapping update in progress",
+          "2026-08-30",
+          "Moderate"
+        ],
+        [
+          "NYDFS Cybersecurity Regulation",
+          "4",
+          "3",
+          "1",
+          "0",
+          "1 open finding",
+          "Control design remediation",
+          "2026-09-15",
+          "Moderate"
+        ],
+        [
+          "FISMA (Federal Information Security)",
+          "4",
+          "3",
+          "1",
+          "0",
+          "0 open findings",
+          "Control documentation update",
+          "2026-10-31",
+          "Low"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Total Obligations": 48.0,
+        "max_Total Obligations": 12.0,
+        "min_Total Obligations": 4.0,
+        "sum_Mapped Obligations": 42.0,
+        "max_Mapped Obligations": 11.0,
+        "min_Mapped Obligations": 3.0,
+        "sum_Unmapped Obligations": 6.0,
+        "max_Unmapped Obligations": 1.0,
+        "min_Unmapped Obligations": 0.0,
+        "sum_High Risk Impact Obligations": 10.0,
+        "max_High Risk Impact Obligations": 4.0,
+        "min_High Risk Impact Obligations": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Coverage and risk summary by regulation (counts and high-risk obligations)\", what is the Overall Risk Rating for SOX (Financial Reporting)?",
+          "answer": "Moderate",
+          "assertions": [
+            {
+              "text": "The response must state Moderate."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Coverage and risk summary by regulation (counts and high-risk obligations)\", what is the Target Closure Date for GDPR (EU Data Protection)?",
+          "answer": "2026-07-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-31."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Coverage and risk summary by regulation (counts and high-risk obligations)\", what is the Remediation Status for GLBA (Financial Privacy)?",
+          "answer": "Policy update pending approval",
+          "assertions": [
+            {
+              "text": "The response must state Policy update pending approval."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "type": "annotation",
+      "variant_id": "ann_ct_0000_daa827e5",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns are displayed in 'this element'?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', what is the total number of rows in the table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', how many rows are highlighted as negative?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "type": "table",
+      "variant_id": "table_0001_3f6c21ec",
+      "table_number": 9,
+      "caption": "Table 9: Obligation-to-control crosswalk with control IDs and testing cadence",
+      "columns": [
+        "Regulatory Obligation",
+        "Mapped Control",
+        "Control Description",
+        "Testing Cadence",
+        "Open Findings",
+        "Remediation Status",
+        "Target Closure Date"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "GLBA 16 CFR 314.4 | Control ID: SEC-AC-03",
+          "SEC-AC-03 | Testing cadence: Quarterly",
+          "User access reviews for financial systems and sensitive customer data",
+          "Quarterly",
+          "No open findings",
+          "Compliant",
+          "2026-12-31"
+        ],
+        [
+          "PCI DSS v4.0 Req. 8 | Control ID: IAM-01",
+          "IAM-01 | Testingc adence: Monthly",
+          "Multi-factor authentication and account lifecycle management",
+          "Monthly",
+          "1 finding: MFA not enforced for 3 legacy accounts",
+          "In Remediation",
+          "2026-07-15"
+        ],
+        [
+          "SOX 404 ITGC | Control ID: ITGC-02",
+          "ITGC-02 | Testing cadence: Quarterly",
+          "Change management approvals and segregation of duties",
+          "Quarterly",
+          "No open findings",
+          "Compliant",
+          "2026-12-31"
+        ],
+        [
+          "HIPAA 45 CFR 164.312(a)(1) | Control ID: SEC-AC-05",
+          "SEC-AC-05 | Testing cadence: Quarterly",
+          "Unique user identification and emergency access procedures",
+          "Quarterly",
+          "1 finding: Emergency access logs incomplete",
+          "In Remediation",
+          "2026-08-30"
+        ],
+        [
+          "NYDFS 23 NYCRR 500.07 | Control ID: NET-04",
+          "NET-04 | Testing cadence: Monthly",
+          "Vulnerability scanning and remediation tracking",
+          "Monthly",
+          "2 findings: Delayed patching for medium-risk vulnerabilities",
+          "In Remediation",
+          "2026-06-30"
+        ],
+        [
+          "ISO 27001 A.9.2 | Control ID: IAM-03",
+          "IAM-03 | Testing cadence: Semi-Annual",
+          "User provisioning and deprovisioning workflow validation",
+          "Semi-Annual",
+          "No open findings",
+          "Compliant",
+          "2026-12-31"
+        ],
+        [
+          "FFIEC CAT D3.PC | Control ID: IR-01",
+          "IR-01 | Testing cadence: Annual",
+          "Incident response plan testing and tabletop exercises",
+          "Annual",
+          "1 finding: Lessons learnedd ocumentation incomplete",
+          "Monitoring",
+          "2026-09-15"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Obligation-to-control crosswalk with control IDs and testing cadence\", what is the Remediation Status for PCI DSS v4.0 Req. 8?",
+          "answer": "In Remediation",
+          "assertions": [
+            {
+              "text": "The response must state In Remediation."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Obligation-to-control crosswalk with control IDs and testing cadence\", what is the Target Closure Date for NYDFS 23 NYCRR 500.07?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Obligation-to-control crosswalk with control IDs and testing cadence\", what is the Testing cadence for ISO 27001 A.9.2?",
+          "answer": "Semi-Annual",
+          "assertions": [
+            {
+              "text": "The response must state Semi-Annual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "type": "annotation",
+      "variant_id": "ann_co_0005_e3856033",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what label is shown on the callout box?",
+          "answer": "Critical",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what warning text is displayed inside the callout?",
+          "answer": "CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "type": "annotation",
+      "variant_id": "ann_ft_0000_97f9e5d1",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many freetext annotation boxes appear in the rendered document?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what phrase is annotated first in the freetext annotation?",
+          "answer": "ISO 27001 certification",
+          "assertions": [
+            {
+              "text": "The response must state 'ISO 27001 certification'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "type": "table",
+      "variant_id": "cx_table_0000_6936bf8d",
+      "table_number": 10,
+      "caption": "Table 10: Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", how many sub-columns does each period group span?",
+          "answer": "3 sub-columns (Actual, Target, Attain%).",
+          "assertions": [
+            {
+              "text": "The response must state '3 sub-columns (Actual, Target, Attain%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", what is the H1 Attainment% for \"Regulatory obligations mapped to internal controls (count)\"?",
+          "answer": "94%.",
+          "assertions": [
+            {
+              "text": "The response must state '94%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", how many metrics does the \"Exams & Findings\" category rowspan cover?",
+          "answer": "4 metrics.",
+          "assertions": [
+            {
+              "text": "The response must state '4 metrics.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", which metric has the lower H2 attainment in the \"Reporting & Exceptions\" category?",
+          "answer": "\"Reportable exceptions (count)\" with 50% (lower than 100% for on-time filings).",
+          "assertions": [
+            {
+              "text": "The response must state '\"Reportable exceptions (count)\" with 50% (lower than 100% for on-time filings).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", what is the H2 target for \"Past-due remediation items (count)\"?",
+          "answer": "$0.02M.",
+          "assertions": [
+            {
+              "text": "The response must state '$0.02M.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", how many metrics are reported?",
+          "answer": "4 metrics",
+          "assertions": [
+            {
+              "text": "The response must state '4 metrics'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", which columns fall under H1?",
+          "answer": "Actual, Target, Attain%",
+          "assertions": [
+            {
+              "text": "The response must state 'Actual, Target, Attain%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", which header, H1 or H2, contains three sub-columns?",
+          "answer": "H1",
+          "assertions": [
+            {
+              "text": "The response must state 'H1'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", what does footnote 1 explain?",
+          "answer": "No footnotes indicated",
+          "assertions": [
+            {
+              "text": "The response must state 'No footnotes indicated'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", what is the subtotal count of data rows for the table in column H1?",
+          "answer": "15 data rows",
+          "assertions": [
+            {
+              "text": "The response must state '15 data rows'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "type": "annotation",
+      "variant_id": "ann_rv_0001_effd6c18",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "Looking at 'this element', what category label appears for the review annotation on the rendered page?",
+          "answer": "project",
+          "assertions": [
+            {
+              "text": "The response must state 'project'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many highlights are visible in the review annotation?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what does the first reviewer note say when viewing the PDF?",
+          "answer": "Resource plan needed",
+          "assertions": [
+            {
+              "text": "The response must state 'Resource plan needed'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "type": "annotation",
+      "variant_id": "ann_sn_0000_70781324",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "Looking at 'this element' in the rendered PDF, what phrase was annotated first with a sticky note?",
+          "answer": "$25,000",
+          "assertions": [
+            {
+              "text": "The response must state '$25,000'."
+            }
+          ]
+        },
+        {
+          "question": "For 'this element' on the page, how many sticky-note annotations are attached?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "type": "table",
+      "variant_id": "table_0004_bd38dd2b",
+      "table_number": 11,
+      "caption": "Table 11: Remediation plan tracker with milestones, target closure dates, and past-due flags",
+      "columns": [
+        "Finding ID",
+        "Regulator",
+        "Issue summary",
+        "Target closure date",
+        "% complete",
+        "Past due as of 2026-05-01"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "CFPB-2026-03-F-02",
+          "CFPB",
+          "Inadequate adverse action notice disclosures in consumer lending portfolio",
+          "2026-06-30",
+          "40%",
+          "No"
+        ],
+        [
+          "StateAG-2026-04-F-01",
+          "State Attorney General",
+          "Deficiencies in debt collection call monitoring controls",
+          "2026-04-15",
+          "90%",
+          "Yes"
+        ],
+        [
+          "OCC-2026-02-F-03",
+          "OCC",
+          "Weaknesses in model risk management documentation and validation",
+          "2026-07-31",
+          "65%",
+          "No"
+        ],
+        [
+          "FDIC-2026-01-F-04",
+          "FDIC",
+          "AML suspicious activity monitoring procedures",
+          "2026-05-20",
+          "75%",
+          "No"
+        ],
+        [
+          "FRB-2026-03-F-05",
+          "Federal Reserve Board",
+          "Gaps in third-party vendor risk assessment documentation",
+          "2026-08-15",
+          "30%",
+          "No"
+        ]
+      ],
+      "derived_answers": {
+        "sum_% complete": 300.0,
+        "max_% complete": 90.0,
+        "min_% complete": 30.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Remediation plan tracker with milestones, target closure dates, and past-due flags\", what is the Target closure date for Finding ID CFPB-2026-03-F-02?",
+          "answer": "2026-06-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Remediation plan tracker with milestones, target closure dates, and past-due flags\", what is the % complete for the finding issued by the Federal Reserve Board?",
+          "answer": "30%",
+          "assertions": [
+            {
+              "text": "The response must state 30%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Remediation plan tracker with milestones, target closure dates, and past-due flags\", what is the Past due as of 2026-05-01 status for StateAG-2026-04-F-01?",
+          "answer": "Yes",
+          "assertions": [
+            {
+              "text": "The response must state Yes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "type": "annotation",
+      "variant_id": "ann_rv_0003_b26cd923",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In 'this element', how many phrases are visually highlighted?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', does the review include PDF reviewer sticky-note comments?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', what does the first reviewer sticky-note comment say?",
+          "answer": "HC plan approved by Board?",
+          "assertions": [
+            {
+              "text": "The response must state 'HC plan approved by Board?'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "type": "annotation",
+      "variant_id": "ann_ft_0005_043a4d8c",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many freetext annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at this element, what is the first annotated phrase displayed?",
+          "answer": "frozen after 2024-11-01",
+          "assertions": [
+            {
+              "text": "The response must state 'frozen after 2024-11-01'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "type": "annotation",
+      "variant_id": "ann_ft_0004_1f12ce59",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many freetext annotation boxes are attached to this element in the risk category?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "What phrase is shown by the first freetext annotation on this element?",
+          "answer": "Immediate patching",
+          "assertions": [
+            {
+              "text": "The response must state 'Immediate patching'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 38,
+      "type": "annotation",
+      "variant_id": "ann_lb_0003_e5d42e15",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element' in the document, what classification banner is displayed?",
+          "answer": "APPROVED",
+          "assertions": [
+            {
+              "text": "The response must state 'APPROVED'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element', what inline status label is shown?",
+          "answer": "HIGH RISK",
+          "assertions": [
+            {
+              "text": "The response must state 'HIGH RISK'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 39,
+      "type": "annotation",
+      "variant_id": "ann_ct_0001_e9b11fa3",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many columns does the Department Budget Allocation table display?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', how many total rows are shown in the Department Budget Allocation table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many rows are marked as positive (showing a positive trend)?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 40,
+      "type": "annotation",
+      "variant_id": "ann_sn_0005_05967d93",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "Looking at 'this element', how many sticky-note annotations are attached in the project section?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', what phrase was the first annotated phrase on the sticky note?",
+          "answer": "2025-01-06",
+          "assertions": [
+            {
+              "text": "The response must state '2025-01-06'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 41,
+      "type": "annotation",
+      "variant_id": "ann_ar_0000_3c67748e",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what label is used for the callout box?",
+          "answer": "Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Note'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'this element', how many phrases are highlighted in the rendered content?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', are PDF reviewer notes present?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 42,
+      "type": "table",
+      "variant_id": "table_0000_e2962f2e",
+      "table_number": 12,
+      "caption": "Table 12: Regulatory obligation inventory and mapping status to internal controls (snapshot: 2026-05-01)",
+      "columns": [
+        " Regulation",
+        "Primary Owner",
+        "Business Unit",
+        "Mapped to Control",
+        "Control Reference",
+        "Last Review Date",
+        "Open Findings",
+        "Target Closure Date"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "GLBA Safeguards Rule (16 CFR Part 314)",
+          "CISO",
+          "Information Security",
+          "Yes",
+          "CTRL-IS-014 Data Protection Program",
+          "2026-03-15",
+          "0",
+          "A"
+        ],
+        [
+          "OCC Heightened Standards (12 CFR Part 30)",
+          "CRO",
+          "Enterprise Risk Management",
+          "Yes",
+          "CTRL-RM-002 Risk Governance Framework",
+          "2026-02-28",
+          "1",
+          "2026-09-30"
+        ],
+        [
+          "PCI DSS v4.0 Req. 8",
+          "Head of IT",
+          "IT Infrastructure",
+          "No",
+          "Pending Control Design",
+          "2026-04-10",
+          "2",
+          "2026-08-31"
+        ],
+        [
+          "NYDFS 23 NYCRR 500.07",
+          "CISO",
+          "Cybersecurity",
+          "Yes",
+          "CTRL-IS-022 Access Privilege Management",
+          "2026-03-30",
+          "0",
+          "A"
+        ],
+        [
+          "SOX ITGC (IT General Controls)",
+          "VP Internal Audit",
+          "IT & Finance",
+          "Yes",
+          "CTRL-ITGC-001 Change Management",
+          "2026-01-20",
+          "1",
+          "2026-07-15"
+        ],
+        [
+          "FFIEC CAT Domain 4",
+          "CISO",
+          "Information Security",
+          "Yes",
+          "CTRL-IS-030 Incident Response Program",
+          "2026-02-18",
+          "0",
+          "A"
+        ],
+        [
+          "GDPR Article 32",
+          "Data Protection Officer",
+          "Privacy Office",
+          "Yes",
+          "CTRL-PR-005 Encryption & Data Security",
+          "2026-03-05",
+          "1",
+          "2026-10-31"
+        ],
+        [
+          "NIST SP 800-53 Rev. 5 AC-2",
+          "Head of IT",
+          "IT Operations",
+          "Yes",
+          "CTRL-IS-018 Account Management",
+          "2026-04-01",
+          "0",
+          "A"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Open Findings": 5.0,
+        "max_Open Findings": 2.0,
+        "min_Open Findings": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Regulatory obligation inventory and mapping status to internal controls (snapshot: 2026-05-01)\", what is the Control Reference for \"GDPR Article 32\"?",
+          "answer": "CTRL-PR-005 Encryption & Data Security",
+          "assertions": [
+            {
+              "text": "The response must state CTRL-PR-005 Encryption & Data Security."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Regulatory obligation inventory and mapping status to internal controls (snapshot: 2026-05-01)\", what is the Target Closure Date for \"OCC Heightened Standards (12 CFR Part 30)\"?",
+          "answer": "2026-09-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-09-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Regulatory obligation inventory and mapping status to internal controls (snapshot: 2026-05-01)\", who is the Primary Owner for \"SOX ITGC (IT General Controls)\"?",
+          "answer": "VP Internal Audit",
+          "assertions": [
+            {
+              "text": "The response must state VP Internal Audit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 43,
+      "type": "annotation",
+      "variant_id": "ann_lb_0005_6d437afb",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what classification banner is displayed?",
+          "answer": "DRAFT",
+          "assertions": [
+            {
+              "text": "The response must state 'DRAFT'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', what inline status label is visible?",
+          "answer": "CONFIDENTIAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CONFIDENTIAL'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 44,
+      "type": "annotation",
+      "variant_id": "ann_rv_0004_040183f7",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', how many highlights are visible in the rendered PDF?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Are PDF reviewer sticky-note comments present on 'this element' in the PDF view?",
+          "answer": "Yes",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element' as shown in the PDF, what does the first reviewer comment read?",
+          "answer": "Escalate to Audit Committee",
+          "assertions": [
+            {
+              "text": "The response must state 'Escalate to Audit Committee'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 45,
+      "type": "annotation",
+      "variant_id": "ann_co_0002_717ed616",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, what label appears on the callout box?",
+          "answer": "Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Note'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what text is displayed inside the callout box?",
+          "answer": "For full disclosure, refer to the Notes to Financial Statements in Appendix B.",
+          "assertions": [
+            {
+              "text": "The response must state 'For full disclosure, refer to the Notes to Financial Statements in Appendix B.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 46,
+      "type": "annotation",
+      "variant_id": "ann_lb_0004_6cae192e",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element' displayed in the document, which classification banner is shown?",
+          "answer": "CRITICAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element' in the PDF, what inline status label is visible?",
+          "answer": "ARCHIVED",
+          "assertions": [
+            {
+              "text": "The response must state 'ARCHIVED'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 47,
+      "type": "annotation",
+      "variant_id": "ann_sn_0004_9f7452c5",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many sticky-note annotations are attached in the risk area?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what phrase received the first sticky-note annotation in the risk section?",
+          "answer": "single vendor",
+          "assertions": [
+            {
+              "text": "The response must state 'single vendor'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 48,
+      "type": "annotation",
+      "variant_id": "ann_ct_0002_4bd9db84",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns does 'this element' have?",
+          "answer": "4 columns",
+          "assertions": [
+            {
+              "text": "The response must state '4 columns'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', how many rows does the table contain?",
+          "answer": "5 rows",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', how many rows show a positive trend (highlighted green)?",
+          "answer": "4 positive rows",
+          "assertions": [
+            {
+              "text": "The response must state '4 positive rows'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 49,
+      "type": "annotation",
+      "variant_id": "ann_rv_0005_ddfe2b1d",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, how many phrases are visually highlighted on the page?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "On this element, does the PDF display reviewer notes?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at this element, what is the text of the first reviewer comment?",
+          "answer": "ACV growth driver?",
+          "assertions": [
+            {
+              "text": "The response must state 'ACV growth driver?'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 50,
+      "type": "annotation",
+      "variant_id": "ann_rv_0002_33c356f8",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element' review annotation, how many phrases are visually highlighted in the PDF view?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element' review annotation, are PDF sticky-note reviewer comments present on the page?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element' review annotation, what does the first reviewer comment read when viewing the document?",
+          "answer": "ARB session scheduled?",
+          "assertions": [
+            {
+              "text": "The response must state 'ARB session scheduled?'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "type": "annotation",
+      "variant_id": "ann_lb_0002_afe9b531",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', what classification banner label is shown?",
+          "answer": "DRAFT",
+          "assertions": [
+            {
+              "text": "The response must state 'DRAFT'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', what inline label indicates the review status?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 52,
+      "type": "annotation",
+      "variant_id": "ann_ct_0005_983cc2c3",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many columns does the table have?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', how many rows are in the table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many rows show a negative trend?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 53,
+      "type": "annotation",
+      "variant_id": "ann_ar_0005_0cf8d439",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, what banner label is displayed on the annotated section?",
+          "answer": "CRITICAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, how many highlights are present in the annotated report section?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "Does this element have PDF reviewer comments attached when viewed in the rendered PDF?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 54,
+      "type": "annotation",
+      "variant_id": "ann_hl_0004_023b1d8a",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many phrases are highlighted?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which phrase is highlighted in yellow?",
+          "answer": "2.4-second load time",
+          "assertions": [
+            {
+              "text": "The response must state '2.4-second load time'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 55,
+      "type": "annotation",
+      "variant_id": "ann_co_0000_d49275b8",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "According to the 'this element', what label appears on the callout box?",
+          "answer": "Approved",
+          "assertions": [
+            {
+              "text": "The response must state 'Approved'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', what message is displayed inside the callout box?",
+          "answer": "Audit complete. No material misstatements identified. Report signed off by external auditors.",
+          "assertions": [
+            {
+              "text": "The response must state 'Audit complete. No material misstatements identified. Report signed off by external auditors.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 56,
+      "type": "annotation",
+      "variant_id": "ann_ar_0004_3ae169ad",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, which category label is displayed for the annotated report section?",
+          "answer": "meeting",
+          "assertions": [
+            {
+              "text": "The response must state 'meeting'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at this element, what callout label appears in the callout box?",
+          "answer": "Critical",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical'."
+            }
+          ]
+        },
+        {
+          "question": "On this element, are PDF reviewer notes attached to the rendered document?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 57,
+      "type": "annotation",
+      "variant_id": "ann_co_0001_0cf8d044",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, what label appears on the callout?",
+          "answer": "Critical",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what exact warning text is displayed in the callout?",
+          "answer": "CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 58,
+      "type": "annotation",
+      "variant_id": "ann_ft_0002_215877de",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many freetext annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what is the first annotated phrase shown in the freetext annotation?",
+          "answer": "$185K",
+          "assertions": [
+            {
+              "text": "The response must state '$185K'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 59,
+      "type": "annotation",
+      "variant_id": "ann_sn_0003_41b3199a",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many sticky notes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what phrase received the first annotation?",
+          "answer": "23% year-over-year increase",
+          "assertions": [
+            {
+              "text": "The response must state '23% year-over-year increase'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 60,
+      "type": "annotation",
+      "variant_id": "ann_co_0003_14b4945c",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what label is shown on the callout?",
+          "answer": "Tip",
+          "assertions": [
+            {
+              "text": "The response must state 'Tip'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what does the callout advise users to do to narrow results?",
+          "answer": "Use the filter panel on the right to narrow results by date range, department, or cost centre.",
+          "assertions": [
+            {
+              "text": "The response must state 'Use the filter panel on the right to narrow results by date range, department, or cost centre.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 61,
+      "type": "annotation",
+      "variant_id": "ann_ft_0003_4a017ae5",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many annotation boxes are shown?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what phrase is shown as the first annotated phrase?",
+          "answer": "$25,000",
+          "assertions": [
+            {
+              "text": "The response must state '$25,000'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 62,
+      "type": "annotation",
+      "variant_id": "ann_ct_0004_7ebabe37",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'Financial Performance Summary' ('this element'), how many columns are in the colored table?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Financial Performance Summary' ('this element'), how many rows show a positive trend (highlighted green)?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Financial Performance Summary' ('this element'), how many rows show a negative trend (highlighted red)?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "ann_sn_0001_97de8af1": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "text_0000_dd2a4063": {
+      "kind": "text",
+      "perturbations": [
+        "typos",
+        "unicode_punctuation"
+      ],
+      "heading": "Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)",
+      "word_count": 172,
+      "text_type": "llm_prose",
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "ann_hl_0000_7783a87c": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0000_4cec4325": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0001_3da354d3": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0002_0aeece61": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_rv_0000_3685343c": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0003_74b2471a": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "cx_table_0001_98e9298a": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "ann_lb_0001_cf2ae581": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0003_7b0c7f9e": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0005_82cf734d": {
+      "kind": "table",
+      "perturbations": [
+        "noise",
+        "formatting"
+      ],
+      "base_type": "Links_each_finding_to_the_impacted_regulatory_obligation(s)_",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Finding ID",
+        "Impacted Obligation(s)",
+        "Control(s) to Remediate",
+        "Severity",
+        "Target Closure Date",
+        "Remediation Status"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "text_0001_a43c0d9c": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Examination Findings and Remediation Plan Tracking with Target Closure Dates",
+      "word_count": 258,
+      "text_type": "llm_prose",
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "llm_mp_table_0001_8150f346": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "time_series_performance_metrics",
+      "row_count": 57,
+      "col_count": 5,
+      "columns": [
+        "Reporting Period",
+        "Open Findings",
+        "Findings Closed (Period)",
+        "Controls Tested Effective (%)",
+        "Overdue Remediation Items"
+      ],
+      "topic_id": ""
+    },
+    "llm_mp_table_0000_9405316f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "time_series_performance_metrics",
+      "row_count": 66,
+      "col_count": 5,
+      "columns": [
+        "Reporting Period",
+        "Total Regulatory Obligations",
+        "Open Findings",
+        "Findings Closed (YTD)",
+        "On-Time Remediation Rate (%)"
+      ],
+      "topic_id": ""
+    },
+    "ann_co_0004_a772df3b": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0002_f855167f": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0002_bea6dfa0": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0005_c2b381ba": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0003_38682ec6": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Centralizes_all_open_findings_with_severity,_status,_and_own",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Finding ID",
+        "Exam",
+        "Severity",
+        "Days Open",
+        "Status",
+        "Regulatory Area",
+        "Target Closure Date",
+        "Owner"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "ann_ar_0003_134d67db": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0001_837e18bd": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0001_36094170": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "cx_table_0002_bb913b94": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 14,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "cx_table_0003_835b824f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "table_0002_b5222da9": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "formatting"
+      ],
+      "base_type": "Aggregates_mapping_coverage_and_risk_impact_by_regulation_to",
+      "row_count": 9,
+      "col_count": 9,
+      "columns": [
+        " Scope",
+        "Total Obligations",
+        "Mapped Obligations",
+        "Unmapped Obligations",
+        "High Risk Impact Obligations",
+        "Open Findings",
+        "Remediation Status",
+        "Target Closure Date",
+        "Overall Risk Rating"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "ann_ct_0000_daa827e5": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0001_3f6c21ec": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Shows_exactly_which_internal_controls_evidence_each_obligati",
+      "row_count": 7,
+      "col_count": 7,
+      "columns": [
+        "Regulatory Obligation",
+        "Mapped Control",
+        "Control Description",
+        "Testing Cadence",
+        "Open Findings",
+        "Remediation Status",
+        "Target Closure Date"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "ann_co_0005_e3856033": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0000_97f9e5d1": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "cx_table_0000_6936bf8d": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 15,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "ann_rv_0001_effd6c18": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0000_70781324": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0004_bd38dd2b": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Tracks_remediation_progress_for_each_open_finding,_including",
+      "row_count": 5,
+      "col_count": 6,
+      "columns": [
+        "Finding ID",
+        "Regulator",
+        "Issue summary",
+        "Target closure date",
+        "% complete",
+        "Past due as of 2026-05-01"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "ann_rv_0003_b26cd923": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0005_043a4d8c": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0004_1f12ce59": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0003_e5d42e15": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0001_e9b11fa3": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0005_05967d93": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0000_3c67748e": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0000_e2962f2e": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Provides_the_authoritative_list_of_in-scope_obligations,_the",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        " Regulation",
+        "Primary Owner",
+        "Business Unit",
+        "Mapped to Control",
+        "Control Reference",
+        "Last Review Date",
+        "Open Findings",
+        "Target Closure Date"
+      ],
+      "topic_id": "regulatory_compliance_assessment"
+    },
+    "ann_lb_0005_6d437afb": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_rv_0004_040183f7": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0002_717ed616": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0004_6cae192e": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0004_9f7452c5": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0002_4bd9db84": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_rv_0005_ddfe2b1d": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_rv_0002_33c356f8": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0002_afe9b531": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0005_983cc2c3": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0005_0cf8d439": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0004_023b1d8a": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0000_d49275b8": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0004_3ae169ad": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0001_0cf8d044": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0002_215877de": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0003_41b3199a": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0003_14b4945c": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0003_4a017ae5": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0004_7ebabe37": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "scan_llm_0003_834797d0": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_769d7ded.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the 'this element' sticky-note in the meeting area, how many notes are attached?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element' meeting sticky-note, what phrase was annotated first?",
+      "answer": "2024-12-10",
+      "assertions": [
+        {
+          "text": "The response must state '2024-12-10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)\" section, what percentage of regulatory obligations are mapped to internal controls?",
+      "answer": "87.5%",
+      "assertions": [
+        {
+          "text": "The response must state 87.5%."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)\" section, which specific regulation is noted among the eleven High risk impact obligations?",
+      "answer": "GLBA Safeguards Rule, 16 CFR Part 314",
+      "assertions": [
+        {
+          "text": "The response must state GLBA Safeguards Rule, 16 CFR Part 314."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Regulatory Obligation-to-Control Coverage and Compliance Posture (as of 2026-05-01)\" section, on what date is the next enterprise compliance attestation scheduled?",
+      "answer": "2026-06-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-15."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many phrases are highlighted?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which highlighted phrase is marked orange?",
+      "answer": "three material control deficiencies",
+      "assertions": [
+        {
+          "text": "The response must state 'three material control deficiencies'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' visible in the PDF, what classification banner is displayed?",
+      "answer": "FOR INTERNAL USE ONLY",
+      "assertions": [
+        {
+          "text": "The response must state 'FOR INTERNAL USE ONLY'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'this element' as rendered on the page, what inline status label appears?",
+      "answer": "CRITICAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what banner label appears at the top of the annotated report when viewed in the PDF?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what label is shown on the callout box readers see in the document?",
+      "answer": "Editorial Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Editorial Note'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element' in the PDF, how many phrases are highlighted in the annotated report section?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many sticky-note comments are attached to the project?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what phrase is shown in the first sticky-note annotation?",
+      "answer": "$1.45M over 9 months",
+      "assertions": [
+        {
+          "text": "The response must state '$1.45M over 9 months'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many phrases are visually highlighted?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', are there PDF reviewer sticky-note comments present?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what does the first reviewer comment say?",
+      "answer": "Hotfix ETA?",
+      "assertions": [
+        {
+          "text": "The response must state 'Hotfix ETA?'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many highlighted phrases are shown?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which phrase is highlighted in green?",
+      "answer": "ISO 27001 certification",
+      "assertions": [
+        {
+          "text": "The response must state 'ISO 27001 certification'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", which leaf metric columns fall under the super-group header \"Exam Findings & Risk Assessment\"?",
+      "answer": "Open Findings (#); Open Findings (Aging, days); Inherent Risk; Owner.",
+      "assertions": [
+        {
+          "text": "The response must state 'Open Findings (#); Open Findings (Aging, days); Inherent Risk; Owner.'."
+        }
+      ]
+    },
+    {
+      "question": " Sanctions\" span?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the value of \"Open Findings (#)\" for the sub-category \"Transaction Monitoring & SAR\" on the row mapped to controls \"AML-020, AML-021\"?",
+      "answer": "3.",
+      "assertions": [
+        {
+          "text": "The response must state '3.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the grand total for \"Open Findings (#)\"?",
+      "answer": "26.",
+      "assertions": [
+        {
+          "text": "The response must state '26.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the \"Access Control & Monitoring Sub-Total\" row show for \"% Complete\"?",
+      "answer": "33% (avg).",
+      "assertions": [
+        {
+          "text": "The response must state '33% (avg).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what columns fall under \"Exam Findings & Risk Assessment\"?",
+      "answer": "Open Findings (#); Open Findings (Aging, days); Inherent Risk; Owner.",
+      "assertions": [
+        {
+          "text": "The response must state 'Open Findings (#); Open Findings (Aging, days); Inherent Risk; Owner.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", how many header rows are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", which has the highest count: header rows or data rows?",
+      "answer": "Data rows (25)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (25)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what does the table caption explain?",
+      "answer": "Mapping obligations to controls, exam findings, and remediation tracking.",
+      "assertions": [
+        {
+          "text": "The response must state 'Mapping obligations to controls, exam findings, and remediation tracking.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Internal Controls, Exam Findings, and Remediation Tracking (Q2 2026)\", what is the subtotal number of data rows shown?",
+      "answer": "25",
+      "assertions": [
+        {
+          "text": "The response must state '25'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' visible in the PDF, what banner classification is displayed across it?",
+      "answer": "FOR INTERNAL USE ONLY",
+      "assertions": [
+        {
+          "text": "The response must state 'FOR INTERNAL USE ONLY'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element' on the page, what inline status label is shown?",
+      "answer": "CRITICAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL'."
+        }
+      ]
+    },
+    {
+      "question": "How many columns are in the 'this element' colored table?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "What is the total number of rows displayed on the 'this element'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many rows show a positive trend (highlighted green)?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "control linkage for root-cause and sustainable closure evidence\", what is the Remediation Status for Finding ID OCC-2026-02-F-01?",
+      "answer": "In rPogress",
+      "assertions": [
+        {
+          "text": "The response must state In rPogress."
+        }
+      ]
+    },
+    {
+      "question": "control linkage for root-cause and sustainable closure evidence\", what is the Target Closure Date for FRB-2026-02-F-05?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "control linkage for root-cause and sustainable closure evidence\", which Control(s) to Remediate are listed for CFPB-2026-03-F-02?",
+      "answer": "CMS-ADV-01; TRN-COM-04",
+      "assertions": [
+        {
+          "text": "The response must state CMS-ADV-01; TRN-COM-04."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Examination Findings and Remediation Plan Tracking with Target Closure Dates\" section, how many open examination findings are currently reported?",
+      "answer": "nine open examination findings",
+      "assertions": [
+        {
+          "text": "The response must state nine open examination findings."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Examination Findings and Remediation Plan Tracking with Target Closure Dates\" section, what percentage of the open findings are past due as of 2026-05-01?",
+      "answer": "44.4% (4 of 9)",
+      "assertions": [
+        {
+          "text": "The response must state 44.4% (4 of 9)."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Examination Findings and Remediation Plan Tracking with Target Closure Dates\" section, what is the target closure date for OCC-2026-02-F-03?",
+      "answer": "2026-05-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-05-31."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Time Series Performance Metrics\", what is the value of Open Findings for the reporting period 2026-Q4?",
+      "answer": "29",
+      "assertions": [
+        {
+          "text": "The response must state 29."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Time Series Performance Metrics\", what percentage is listed under Controls Tested Effective (%) for 2025-W47?",
+      "answer": "92%",
+      "assertions": [
+        {
+          "text": "The response must state 92%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Time Series Performance Metrics\", how many Overdue Remediation Items are shown for 2025-02?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state 16."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the On-Time Remediation Rate (%) for 2025-01?",
+      "answer": "81.3",
+      "assertions": [
+        {
+          "text": "The response must state 81.3."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what value is shown for Total Regulatory Obligations in 2027-Q3?",
+      "answer": "620",
+      "assertions": [
+        {
+          "text": "The response must state 620."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Findings Closed (YTD) value for Period 66?",
+      "answer": "205",
+      "assertions": [
+        {
+          "text": "The response must state 205."
+        }
+      ]
+    },
+    {
+      "question": "On this element, what label appears in the callout box?",
+      "answer": "Tip",
+      "assertions": [
+        {
+          "text": "The response must state 'Tip'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what instruction is shown inside the callout box?",
+      "answer": "Tip: Save a draft version before submitting. Draft submissions can be edited up to 48 hours.",
+      "assertions": [
+        {
+          "text": "The response must state 'Tip: Save a draft version before submitting. Draft submissions can be edited up to 48 hours.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what category is assigned to the section?",
+      "answer": "financial",
+      "assertions": [
+        {
+          "text": "The response must state 'financial'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing 'this element' in the rendered PDF, which banner label appears on the section?",
+      "answer": "DRAFT",
+      "assertions": [
+        {
+          "text": "The response must state 'DRAFT'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what callout label is displayed alongside the content?",
+      "answer": "Editorial Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Editorial Note'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many highlighted phrases appear?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which highlighted phrase is shown in purple?",
+      "answer": "Bad debt provisions",
+      "assertions": [
+        {
+          "text": "The response must state 'Bad debt provisions'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', how many phrases are highlighted?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "In 'this element', which phrase is highlighted in green?",
+      "answer": "headcount plan for 2025",
+      "assertions": [
+        {
+          "text": "The response must state 'headcount plan for 2025'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open examination findings register across OCC, CFPB, and State AG exams (as of 2026-05-01)\", what is the Target Closure Date for finding ID OCC-2026-01-F-01?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open examination findings register across OCC, CFPB, and State AG exams (as of 2026-05-01)\", who is listed as the Owner for finding ID FRB-2026-01-F-01?",
+      "answer": "Sofia Martinez",
+      "assertions": [
+        {
+          "text": "The response must state Sofia Martinez."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Open examination findings register across OCC, CFPB, and State AG exams (as of 2026-05-01)\", what is the Status of finding CFPB-2025-03-F-02?",
+      "answer": "Closed - Pending Validation",
+      "assertions": [
+        {
+          "text": "The response must state Closed - Pending Validation."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what banner label is displayed?",
+      "answer": "APPROVED",
+      "assertions": [
+        {
+          "text": "The response must state 'APPROVED'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element' shown in the PDF, how many phrases are highlighted?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element' in the rendered report, what is the callout label present?",
+      "answer": "Approved",
+      "assertions": [
+        {
+          "text": "The response must state 'Approved'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many highlighted phrases appear?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which highlighted phrase is marked with the color blue?",
+      "answer": "headcount plan for 2025",
+      "assertions": [
+        {
+          "text": "The response must state 'headcount plan for 2025'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many freetext annotation boxes are attached?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what is the first annotated phrase visible on the document?",
+      "answer": "$3.1M",
+      "assertions": [
+        {
+          "text": "The response must state '$3.1M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", which objective categories are the column groups?",
+      "answer": "Governance & Oversight; Risk & Control Effectiveness; Regulatory Reporting & Exams.",
+      "assertions": [
+        {
+          "text": "The response must state 'Governance & Oversight; Risk & Control Effectiveness; Regulatory Reporting & Exams.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", how many initiatives fall under the \"Control Framework & Testing\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", what is the alignment rating of \"Continuous Control Monitoring for High-Risk Processes\" for the \"Issue Management\" objective?",
+      "answer": "H (High).",
+      "assertions": [
+        {
+          "text": "The response must state 'H (High).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", what is the total score for the \"Exam Response Playbook & RFI Tracker (Regulator Requests)\" initiative?",
+      "answer": "84.",
+      "assertions": [
+        {
+          "text": "The response must state '84.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", which objective has the highest weighted total score in the \"Objective Weighted Total\" row?",
+      "answer": "Remediation Timeliness (92).",
+      "assertions": [
+        {
+          "text": "The response must state 'Remediation Timeliness (92).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", what main control objective columns appear in the top header?",
+      "answer": "Governance & Oversight; Risk & Control Effectiveness; Regulatory Reporting & Exams",
+      "assertions": [
+        {
+          "text": "The response must state 'Governance & Oversight; Risk & Control Effectiveness; Regulatory Reporting & Exams'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", how many header tiers are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", how many data rows does the grid contain?",
+      "answer": "14",
+      "assertions": [
+        {
+          "text": "The response must state '14'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", what does the 'H' annotation denote?",
+      "answer": "H (High)",
+      "assertions": [
+        {
+          "text": "The response must state 'H (High)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Cross-Reference Grid — Regulatory Remediation Initiatives vs Control Objectives (Q2 2026)\", how many initiatives are tracked in the grid?",
+      "answer": "4 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", how many period columns does each version group span?",
+      "answer": "4 period columns (Q1–Q4).",
+      "assertions": [
+        {
+          "text": "The response must state '4 period columns (Q1–Q4).'."
+        }
+      ]
+    },
+    {
+      "question": "monitoring uplift (SIEM tuning; use-case coverage for exam items)\"?",
+      "answer": "151 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '151 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", what is the \"Remediation Delivery Subtotal\" for Baseline Q1?",
+      "answer": "435 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '435 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", which version shows the highest Q4 value for \"Identity & access remediation (MFA expansion; privileged access hardening)\"?",
+      "answer": "Actuals (195 vs Baseline 180, $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (195 vs Baseline 180, $000).'."
+        }
+      ]
+    },
+    {
+      "question": "operating effectiveness; sampling for key controls)\"?",
+      "answer": "14 ($K).",
+      "assertions": [
+        {
+          "text": "The response must state '14 ($K).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", what is the Baseline remediation spend amount?",
+      "answer": "151 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '151 ($000).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", how many header tiers does the table have?",
+      "answer": "3 header rows",
+      "assertions": [
+        {
+          "text": "The response must state '3 header rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", which column carries the highest remediation spend?",
+      "answer": "Actuals",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", what does the \"($000)\" annotation indicate?",
+      "answer": "Amounts in thousands of dollars",
+      "assertions": [
+        {
+          "text": "The response must state 'Amounts in thousands of dollars.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report — Regulatory Obligations, Control Coverage, Open Exam Findings, and Remediation Spend (Baseline vs Actuals)\", what is the subtotal for the group in the Actuals column?",
+      "answer": "435 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '435 ($000).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Coverage and risk summary by regulation (counts and high-risk obligations)\", what is the Overall Risk Rating for SOX (Financial Reporting)?",
+      "answer": "Moderate",
+      "assertions": [
+        {
+          "text": "The response must state Moderate."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Coverage and risk summary by regulation (counts and high-risk obligations)\", what is the Target Closure Date for GDPR (EU Data Protection)?",
+      "answer": "2026-07-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-31."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Coverage and risk summary by regulation (counts and high-risk obligations)\", what is the Remediation Status for GLBA (Financial Privacy)?",
+      "answer": "Policy update pending approval",
+      "assertions": [
+        {
+          "text": "The response must state Policy update pending approval."
+        }
+      ]
+    },
+    {
+      "question": "How many columns are displayed in 'this element'?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', what is the total number of rows in the table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', how many rows are highlighted as negative?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Obligation-to-control crosswalk with control IDs and testing cadence\", what is the Remediation Status for PCI DSS v4.0 Req. 8?",
+      "answer": "In Remediation",
+      "assertions": [
+        {
+          "text": "The response must state In Remediation."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Obligation-to-control crosswalk with control IDs and testing cadence\", what is the Target Closure Date for NYDFS 23 NYCRR 500.07?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Obligation-to-control crosswalk with control IDs and testing cadence\", what is the Testing cadence for ISO 27001 A.9.2?",
+      "answer": "Semi-Annual",
+      "assertions": [
+        {
+          "text": "The response must state Semi-Annual."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what label is shown on the callout box?",
+      "answer": "Critical",
+      "assertions": [
+        {
+          "text": "The response must state 'Critical'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what warning text is displayed inside the callout?",
+      "answer": "CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many freetext annotation boxes appear in the rendered document?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what phrase is annotated first in the freetext annotation?",
+      "answer": "ISO 27001 certification",
+      "assertions": [
+        {
+          "text": "The response must state 'ISO 27001 certification'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", how many sub-columns does each period group span?",
+      "answer": "3 sub-columns (Actual, Target, Attain%).",
+      "assertions": [
+        {
+          "text": "The response must state '3 sub-columns (Actual, Target, Attain%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", what is the H1 Attainment% for \"Regulatory obligations mapped to internal controls (count)\"?",
+      "answer": "94%.",
+      "assertions": [
+        {
+          "text": "The response must state '94%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", how many metrics does the \"Exams & Findings\" category rowspan cover?",
+      "answer": "4 metrics.",
+      "assertions": [
+        {
+          "text": "The response must state '4 metrics.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", which metric has the lower H2 attainment in the \"Reporting & Exceptions\" category?",
+      "answer": "\"Reportable exceptions (count)\" with 50% (lower than 100% for on-time filings).",
+      "assertions": [
+        {
+          "text": "The response must state '\"Reportable exceptions (count)\" with 50% (lower than 100% for on-time filings).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", what is the H2 target for \"Past-due remediation items (count)\"?",
+      "answer": "$0.02M.",
+      "assertions": [
+        {
+          "text": "The response must state '$0.02M.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", how many metrics are reported?",
+      "answer": "4 metrics",
+      "assertions": [
+        {
+          "text": "The response must state '4 metrics'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", which columns fall under H1?",
+      "answer": "Actual, Target, Attain%",
+      "assertions": [
+        {
+          "text": "The response must state 'Actual, Target, Attain%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", which header, H1 or H2, contains three sub-columns?",
+      "answer": "H1",
+      "assertions": [
+        {
+          "text": "The response must state 'H1'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", what does footnote 1 explain?",
+      "answer": "No footnotes indicated",
+      "assertions": [
+        {
+          "text": "The response must state 'No footnotes indicated'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compliance Status Report Heatmap Pivot — Regulatory Obligations, Control Coverage, Open Findings & Remediation Progress (H1 vs H2)\", what is the subtotal count of data rows for the table in column H1?",
+      "answer": "15 data rows",
+      "assertions": [
+        {
+          "text": "The response must state '15 data rows'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at 'this element', what category label appears for the review annotation on the rendered page?",
+      "answer": "project",
+      "assertions": [
+        {
+          "text": "The response must state 'project'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many highlights are visible in the review annotation?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what does the first reviewer note say when viewing the PDF?",
+      "answer": "Resource plan needed",
+      "assertions": [
+        {
+          "text": "The response must state 'Resource plan needed'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at 'this element' in the rendered PDF, what phrase was annotated first with a sticky note?",
+      "answer": "$25,000",
+      "assertions": [
+        {
+          "text": "The response must state '$25,000'."
+        }
+      ]
+    },
+    {
+      "question": "For 'this element' on the page, how many sticky-note annotations are attached?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation plan tracker with milestones, target closure dates, and past-due flags\", what is the Target closure date for Finding ID CFPB-2026-03-F-02?",
+      "answer": "2026-06-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation plan tracker with milestones, target closure dates, and past-due flags\", what is the % complete for the finding issued by the Federal Reserve Board?",
+      "answer": "30%",
+      "assertions": [
+        {
+          "text": "The response must state 30%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Remediation plan tracker with milestones, target closure dates, and past-due flags\", what is the Past due as of 2026-05-01 status for StateAG-2026-04-F-01?",
+      "answer": "Yes",
+      "assertions": [
+        {
+          "text": "The response must state Yes."
+        }
+      ]
+    },
+    {
+      "question": "In 'this element', how many phrases are visually highlighted?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', does the review include PDF reviewer sticky-note comments?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what does the first reviewer sticky-note comment say?",
+      "answer": "HC plan approved by Board?",
+      "assertions": [
+        {
+          "text": "The response must state 'HC plan approved by Board?'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at this element, what is the first annotated phrase displayed?",
+      "answer": "frozen after 2024-11-01",
+      "assertions": [
+        {
+          "text": "The response must state 'frozen after 2024-11-01'."
+        }
+      ]
+    },
+    {
+      "question": "How many freetext annotation boxes are attached to this element in the risk category?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "What phrase is shown by the first freetext annotation on this element?",
+      "answer": "Immediate patching",
+      "assertions": [
+        {
+          "text": "The response must state 'Immediate patching'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' in the document, what classification banner is displayed?",
+      "answer": "APPROVED",
+      "assertions": [
+        {
+          "text": "The response must state 'APPROVED'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element', what inline status label is shown?",
+      "answer": "HIGH RISK",
+      "assertions": [
+        {
+          "text": "The response must state 'HIGH RISK'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many columns does the Department Budget Allocation table display?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', how many total rows are shown in the Department Budget Allocation table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many rows are marked as positive (showing a positive trend)?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at 'this element', how many sticky-note annotations are attached in the project section?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', what phrase was the first annotated phrase on the sticky note?",
+      "answer": "2025-01-06",
+      "assertions": [
+        {
+          "text": "The response must state '2025-01-06'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what label is used for the callout box?",
+      "answer": "Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Note'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'this element', how many phrases are highlighted in the rendered content?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', are PDF reviewer notes present?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Regulatory obligation inventory and mapping status to internal controls (snapshot: 2026-05-01)\", what is the Control Reference for \"GDPR Article 32\"?",
+      "answer": "CTRL-PR-005 Encryption & Data Security",
+      "assertions": [
+        {
+          "text": "The response must state CTRL-PR-005 Encryption & Data Security."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Regulatory obligation inventory and mapping status to internal controls (snapshot: 2026-05-01)\", what is the Target Closure Date for \"OCC Heightened Standards (12 CFR Part 30)\"?",
+      "answer": "2026-09-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-09-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Regulatory obligation inventory and mapping status to internal controls (snapshot: 2026-05-01)\", who is the Primary Owner for \"SOX ITGC (IT General Controls)\"?",
+      "answer": "VP Internal Audit",
+      "assertions": [
+        {
+          "text": "The response must state VP Internal Audit."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what classification banner is displayed?",
+      "answer": "DRAFT",
+      "assertions": [
+        {
+          "text": "The response must state 'DRAFT'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what inline status label is visible?",
+      "answer": "CONFIDENTIAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CONFIDENTIAL'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', how many highlights are visible in the rendered PDF?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Are PDF reviewer sticky-note comments present on 'this element' in the PDF view?",
+      "answer": "Yes",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element' as shown in the PDF, what does the first reviewer comment read?",
+      "answer": "Escalate to Audit Committee",
+      "assertions": [
+        {
+          "text": "The response must state 'Escalate to Audit Committee'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, what label appears on the callout box?",
+      "answer": "Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Note'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what text is displayed inside the callout box?",
+      "answer": "For full disclosure, refer to the Notes to Financial Statements in Appendix B.",
+      "assertions": [
+        {
+          "text": "The response must state 'For full disclosure, refer to the Notes to Financial Statements in Appendix B.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' displayed in the document, which classification banner is shown?",
+      "answer": "CRITICAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element' in the PDF, what inline status label is visible?",
+      "answer": "ARCHIVED",
+      "assertions": [
+        {
+          "text": "The response must state 'ARCHIVED'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many sticky-note annotations are attached in the risk area?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what phrase received the first sticky-note annotation in the risk section?",
+      "answer": "single vendor",
+      "assertions": [
+        {
+          "text": "The response must state 'single vendor'."
+        }
+      ]
+    },
+    {
+      "question": "How many columns does 'this element' have?",
+      "answer": "4 columns",
+      "assertions": [
+        {
+          "text": "The response must state '4 columns'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', how many rows does the table contain?",
+      "answer": "5 rows",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', how many rows show a positive trend (highlighted green)?",
+      "answer": "4 positive rows",
+      "assertions": [
+        {
+          "text": "The response must state '4 positive rows'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, how many phrases are visually highlighted on the page?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, does the PDF display reviewer notes?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at this element, what is the text of the first reviewer comment?",
+      "answer": "ACV growth driver?",
+      "assertions": [
+        {
+          "text": "The response must state 'ACV growth driver?'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element' review annotation, how many phrases are visually highlighted in the PDF view?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element' review annotation, are PDF sticky-note reviewer comments present on the page?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' review annotation, what does the first reviewer comment read when viewing the document?",
+      "answer": "ARB session scheduled?",
+      "assertions": [
+        {
+          "text": "The response must state 'ARB session scheduled?'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what classification banner label is shown?",
+      "answer": "DRAFT",
+      "assertions": [
+        {
+          "text": "The response must state 'DRAFT'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', what inline label indicates the review status?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many columns does the table have?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', how many rows are in the table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many rows show a negative trend?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, what banner label is displayed on the annotated section?",
+      "answer": "CRITICAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, how many highlights are present in the annotated report section?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "Does this element have PDF reviewer comments attached when viewed in the rendered PDF?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which phrase is highlighted in yellow?",
+      "answer": "2.4-second load time",
+      "assertions": [
+        {
+          "text": "The response must state '2.4-second load time'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what label appears on the callout box?",
+      "answer": "Approved",
+      "assertions": [
+        {
+          "text": "The response must state 'Approved'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what message is displayed inside the callout box?",
+      "answer": "Audit complete. No material misstatements identified. Report signed off by external auditors.",
+      "assertions": [
+        {
+          "text": "The response must state 'Audit complete. No material misstatements identified. Report signed off by external auditors.'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, which category label is displayed for the annotated report section?",
+      "answer": "meeting",
+      "assertions": [
+        {
+          "text": "The response must state 'meeting'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at this element, what callout label appears in the callout box?",
+      "answer": "Critical",
+      "assertions": [
+        {
+          "text": "The response must state 'Critical'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, are PDF reviewer notes attached to the rendered document?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, what label appears on the callout?",
+      "answer": "Critical",
+      "assertions": [
+        {
+          "text": "The response must state 'Critical'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what exact warning text is displayed in the callout?",
+      "answer": "CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what is the first annotated phrase shown in the freetext annotation?",
+      "answer": "$185K",
+      "assertions": [
+        {
+          "text": "The response must state '$185K'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many sticky notes are attached?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what phrase received the first annotation?",
+      "answer": "23% year-over-year increase",
+      "assertions": [
+        {
+          "text": "The response must state '23% year-over-year increase'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what label is shown on the callout?",
+      "answer": "Tip",
+      "assertions": [
+        {
+          "text": "The response must state 'Tip'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what does the callout advise users to do to narrow results?",
+      "answer": "Use the filter panel on the right to narrow results by date range, department, or cost centre.",
+      "assertions": [
+        {
+          "text": "The response must state 'Use the filter panel on the right to narrow results by date range, department, or cost centre.'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many annotation boxes are shown?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what phrase is shown as the first annotated phrase?",
+      "answer": "$25,000",
+      "assertions": [
+        {
+          "text": "The response must state '$25,000'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Financial Performance Summary' ('this element'), how many columns are in the colored table?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Financial Performance Summary' ('this element'), how many rows show a positive trend (highlighted green)?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Financial Performance Summary' ('this element'), how many rows show a negative trend (highlighted red)?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    }
+  ]
+}

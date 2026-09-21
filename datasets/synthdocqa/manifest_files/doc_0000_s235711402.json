@@ -1,0 +1,2333 @@
+{
+  "doc_id": "doc_0000_s235711402",
+  "title": "Quarterly Treasury and Liquidity Report — Upcoming Quarter: Cash Position, Short‑Term Funding, Credit Facility Utilisation, FX Exposure and Stress Scenarios",
+  "subtitle": "Treasury — Cash Position, Short‑Term Funding, Credit Facility Use, FX Exposure & Next‑Quarter Liquidity Stress Scenarios",
+  "topic_id": "treasury_liquidity_report",
+  "recipe_name": "data_focused",
+  "seed": 235711402,
+  "document_brief": {
+    "narrative_theme": "The coming quarter’s treasury outlook shows sufficient liquidity under base conditions, but highlights specific funding, FX, and stress-scenario triggers that require disciplined credit-facility management and targeted hedging.",
+    "sections": [
+      {
+        "heading": "Quarterly Cash Position and Short‑Term Funding Plan (Q3 2026)",
+        "key_facts": [
+          "As of 2026-06-30, group cash and cash equivalents total USD 245.0m.",
+          "Projected minimum cash balance in Q3 2026 is USD 120.0m on 2026-08-15.",
+          "Planned commercial paper outstanding peaks at USD 90.0m on 2026-07-31."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Credit Facility Utilisation, FX Exposure, and Liquidity Stress Scenarios (Q3 2026)",
+        "key_facts": [
+          "Revolving Credit Facility (RCF) committed size is USD 500.0m; drawn amount as of 2026-06-30 is USD 150.0m (30% utilisation).",
+          "Net unhedged FX exposure for Q3 2026 is EUR 40.0m and GBP 25.0m.",
+          "In the 'Revenue -20%' stress scenario, minimum liquidity headroom falls to USD 35.0m on 2026-08-29."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Consolidated cash position by entity and currency as of 2026-06-30",
+        "purpose": "Quantifies starting liquidity for the quarter and identifies where cash is held (and in which currencies) to support the base-case liquidity narrative.",
+        "key_data": {
+          "Group total (USD equivalent)": "245.0m",
+          "US Operating Co (USD)": "110.0m",
+          "EU Sales Co (EUR)": "60.0m",
+          "UK Services Co (GBP)": "25.0m",
+          "APAC Trading Co (SGD)": "30.0m"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "13-week cash flow forecast summary for Q3 2026 (weekly net flows and ending cash)",
+        "purpose": "Shows expected weekly liquidity trajectory to pinpoint the forecast minimum cash date and quantify the cash buffer required through the quarter.",
+        "key_data": {
+          "Week ending 2026-07-05: Net cash flow": "-12.0m",
+          "Week ending 2026-07-05: Ending cash": "233.0m",
+          "Week ending 2026-08-15: Ending cash (minimum)": "120.0m",
+          "Week ending 2026-09-27: Ending cash": "165.0m"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Short-term funding sources and planned utilisation in Q3 2026 (CP, deposits, supplier finance)",
+        "purpose": "Details the mix, timing, and cost assumptions of short-term funding used to bridge forecast cash troughs while maintaining adequate liquidity.",
+        "key_data": {
+          "Commercial paper peak outstanding (2026-07-31)": "90.0m",
+          "Overnight deposits average balance": "40.0m",
+          "Supplier finance program limit": "75.0m",
+          "Supplier finance planned utilisation (2026-08-15)": "30.0m"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Credit facility utilisation and availability by instrument as of 2026-06-30",
+        "purpose": "Summarises committed lines, drawings, headroom, and key terms to support the narrative on disciplined facility management and liquidity resilience.",
+        "key_data": {
+          "RCF committed (USD)": "500.0m",
+          "RCF drawn (USD)": "150.0m",
+          "RCF utilisation": "30%",
+          "RCF undrawn headroom (USD)": "350.0m",
+          "Bilateral overdraft lines (aggregate) drawn": "10.0m"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Q3 2026 FX exposure by currency, maturity bucket, and hedge coverage",
+        "purpose": "Identifies the largest unhedged currency risks and hedge gaps to align hedging actions with forecast cash needs and stress sensitivities.",
+        "key_data": {
+          "EUR net exposure (unhedged)": "40.0m",
+          "GBP net exposure (unhedged)": "25.0m",
+          "JPY net exposure (unhedged)": "10.0m",
+          "EUR hedge coverage": "60%",
+          "GBP hedge coverage": "50%"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)",
+        "purpose": "Tests base liquidity against adverse but plausible shocks to highlight specific trigger points (dates and headroom levels) requiring pre-emptive funding or hedging actions.",
+        "key_data": {
+          "Base case: Minimum cash (date)": "120.0m (2026-08-15)",
+          "Base case: Minimum liquidity headroom": "190.0m",
+          "Revenue -20%: Minimum liquidity headroom (date)": "35.0m (2026-08-29)",
+          "AR delay +15 days: Minimum cash": "70.0m",
+          "FX shock (USD +10%): Incremental cash impact": "-18.0m"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s235711402.pdf",
+    "markdown": null,
+    "assets": []
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 24,
+    "actual_page_count": 16
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "table_0005_ea0058a6",
+      "table_number": 1,
+      "caption": "Table 1: Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)",
+      "columns": [
+        "Scenario",
+        " Action",
+        "Minimum Cash (Date)",
+        "Minimum Liquidity Headroom (Date)",
+        "Incremental Cash Impact"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Base case",
+          "No action required; maintain current funding plan",
+          "120.0m (2026-08-15)",
+          "190.0m",
+          "0.0m"
+        ],
+        [
+          "Revenue -10%",
+          "Defer discretionary capex if headroom <100.0m",
+          "95.0m (2026-08-22)",
+          "120.0m (2026-08-25)",
+          "-25.0m"
+        ],
+        [
+          "Revenue -20%",
+          "Pre-emptive RCF draw of 75.0m if headroom <50.0m",
+          "60.0m (2026-08-27)",
+          "35.0m (2026-08-29)",
+          "-70.0m"
+        ],
+        [
+          "AR delay +15 days",
+          "Accelerate collections; initiate 40.0m factoring line",
+          "70.0m",
+          "110.0m (2026-08-24)",
+          "-50.0m"
+        ],
+        [
+          "AR delay +30 days",
+          "Draw 100.0m from credit facility if cash <50.0m",
+          "45.0m (2026-08-28)",
+          "65.0m (2026-08-30)",
+          "-85.0m"
+        ],
+        [
+          "FX shock (USD +10%)",
+          "Layer additional USD hedges if impact exceeds -20.0m",
+          "102.0m (2026-08-18)",
+          "165.0m (2026-08-20)",
+          "-18.0m"
+        ],
+        [
+          "Combined downside (Revenue -20% + AR +15d)",
+          "Immediate 150.0m funding action; suspend share buybacks",
+          "25.0m (2026-08-30)",
+          "10.0m (2026-08-30)",
+          "-125.0m"
+        ],
+        [
+          "Liquidity backstop draw (200.0m RCF)",
+          "Maintain covenant compliance; repay within 60 days",
+          "210.0m (2026-08-16)",
+          "390.0m (2026-08-16)",
+          "+200.0m"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)\", what is the Minimum Cash (Date) for the \"Revenue -20%\" scenario?",
+          "answer": "60.0m (2026-08-27)",
+          "assertions": [
+            {
+              "text": "The response must state 60.0m (2026-08-27)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)\", what is the Incremental Cash Impact for \"AR delay +30 days\"?",
+          "answer": "-85.0m",
+          "assertions": [
+            {
+              "text": "The response must state -85.0m."
+            }
+          ]
+        },
+        {
+          "question": " Action for \"Combined downside (Revenue -20% + AR +15d)\"?",
+          "answer": "Immediate 150.0m funding action; suspend share buybacks",
+          "assertions": [
+            {
+              "text": "The response must state Immediate 150.0m funding action; suspend share buybacks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "cx_table_0001_05c16d49",
+      "table_number": 2,
+      "caption": "Table 2: Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which objective categories are the column groups?",
+          "answer": "Liquidity & Cash Position; Funding & Credit Facilities; FX & Market Risk; Stress & Governance.",
+          "assertions": [
+            {
+              "text": "The response must state 'Liquidity & Cash Position; Funding & Credit Facilities; FX & Market Risk; Stress & Governance.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", how many initiatives fall under the \"FX & Market Risk\" initiative category?",
+          "answer": "3 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '3 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the alignment rating of \"Implement Rolling FX Hedge Program (12-Week Layering)\" for the \"Hedge Effectiveness\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "Severe)\" initiative?",
+          "answer": "51.",
+          "assertions": [
+            {
+              "text": "The response must state '51.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which objective category has the highest weighted total score?",
+          "answer": "Stress & Governance (72 + 66 + 78 = 216).",
+          "assertions": [
+            {
+              "text": "The response must state 'Stress & Governance (72 + 66 + 78 = 216).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what are the main objective columns listed in the top header?",
+          "answer": "Liquidity & Cash Position; Funding & Credit Facilities; FX & Market Risk; Stress & Governance",
+          "assertions": [
+            {
+              "text": "The response must state 'Liquidity & Cash Position; Funding & Credit Facilities; FX & Market Risk; Stress & Governance'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", how many header tiers are present?",
+          "answer": "3 header rows",
+          "assertions": [
+            {
+              "text": "The response must state '3 header rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which column captures the overall aggregated alignment score?",
+          "answer": "Total Score",
+          "assertions": [
+            {
+              "text": "The response must state 'Total Score'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which single-letter annotation appears in the table notes?",
+          "answer": "H",
+          "assertions": [
+            {
+              "text": "The response must state 'H'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the subtotal reported for Strategic Initiatives in the grid?",
+          "answer": "3 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '3 initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_df2d934f",
+      "table_number": 3,
+      "caption": "Table 3: Budget Expenditure Ledger",
+      "columns": [
+        "Date",
+        "Expenditure Category",
+        "Cost Center",
+        "Amount (USD)",
+        "Funding Source"
+      ],
+      "row_count": 75,
+      "cells": [
+        [
+          "2026-07-01",
+          "Interest Payment - Revolver",
+          "Treasury Operations",
+          "125000",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-07-03",
+          "FX Hedge Premium",
+          "Risk Management",
+          "48250",
+          "Operating Cash"
+        ],
+        [
+          "2026-07-05",
+          "Commercial Paper Discount",
+          "Short-Term Funding Desk",
+          "31500",
+          "Commercial Paper Proceeds"
+        ],
+        [
+          "2026-07-08",
+          "Bank Facility Commitment Fee",
+          "Corporate Finance",
+          "22000",
+          "Operating Cash"
+        ],
+        [
+          "2026-07-10",
+          "Liquidity Buffer Investment",
+          "Treasury Investments",
+          "500000",
+          "Excess Cash Reserves"
+        ],
+        [
+          "2026-07-12",
+          "Debt Advisory Fees",
+          "Corporate Finance",
+          "18750",
+          "Operating Cash"
+        ],
+        [
+          "2026-07-15",
+          "Swap Interest Settlement",
+          "Risk Management",
+          "96400",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-07-18",
+          "Cash Management System Upgrade",
+          "Treasury Operations",
+          "74200",
+          "Operating Cash"
+        ],
+        [
+          "2026-07-20",
+          "FX Forward Contract Settlement",
+          "Risk Management",
+          "132600",
+          "Export Proceeds"
+        ],
+        [
+          "2026-07-22",
+          "Bridge Loan Interest",
+          "Short-Term Funding Desk",
+          "88500",
+          "Bridge Loan Facility"
+        ],
+        [
+          "2026-07-24",
+          "Stress Test Scenario Modeling",
+          "Financial Planning",
+          "15800",
+          "Operating Cash"
+        ],
+        [
+          "2026-07-26",
+          "Collateral Posting - Derivatives",
+          "Risk Management",
+          "210000",
+          "Cash Reserves"
+        ],
+        [
+          "2026-07-28",
+          "Credit Rating Review Fee",
+          "Corporate Finance",
+          "27500",
+          "Operating Cash"
+        ],
+        [
+          "2026-07-29",
+          "Treasury Consulting Services",
+          "Treasury Operations",
+          "36400",
+          "Operating Cash"
+        ],
+        [
+          "2026-07-31",
+          "Overdraft Interest Charge",
+          "Treasury Operations",
+          "12950",
+          "Bank Overdraft Facility"
+        ],
+        [
+          "2026-03-01",
+          "Short-Term Loan Interest Payment",
+          "Treasury Operations",
+          "18450.75",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-03-02",
+          "Commercial Paper Issuance Fees",
+          "Debt Management",
+          "9250.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-03",
+          "Bank Service Charges",
+          "Corporate Finance",
+          "3120.40",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-05",
+          "Liquidity Reserve Allocation",
+          "Cash Management",
+          "250000.00",
+          "Money Market Account"
+        ],
+        [
+          "2026-03-07",
+          "Credit Facility Commitment Fee",
+          "Treasury Operations",
+          "15780.00",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-03-09",
+          "Foreign Exchange Loss Settlement",
+          "Risk Management",
+          "28460.90",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-11",
+          "Short-Term Note Repayment",
+          "Debt Management",
+          "500000.00",
+          "Commercial Paper Program"
+        ],
+        [
+          "2026-03-14",
+          "Interest Rate Swap Payment",
+          "Risk Management",
+          "22135.60",
+          "Hedging Account"
+        ],
+        [
+          "2026-03-16",
+          "Custodial Account Fees",
+          "Corporate Finance",
+          "4895.25",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-18",
+          "Bridge Loan Arrangement Fee",
+          "Treasury Operations",
+          "36750.00",
+          "Bridge Financing Facility"
+        ],
+        [
+          "2026-03-20",
+          "Liquidity Stress Testing Services",
+          "Risk Management",
+          "12980.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-22",
+          "Credit Rating Agency Fee",
+          "Corporate Finance",
+          "18700.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-25",
+          "Intercompany Loan Settlement",
+          "Treasury Operations",
+          "145000.00",
+          "Internal Cash Pool"
+        ],
+        [
+          "2026-03-27",
+          "Cash Pooling Administration Fee",
+          "Cash Management",
+          "6420.80",
+          "Internal Cash Pool"
+        ],
+        [
+          "2026-03-30",
+          "Overdraft Interest Expense",
+          "Treasury Operations",
+          "9785.55",
+          "Primary Bank Credit Line"
+        ],
+        [
+          "2026-03-02",
+          "Short-Term Loan Interest Payment",
+          "Treasury Operations",
+          "18450.75",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-03-03",
+          "Commercial Paper Issuance Fees",
+          "Corporate Finance",
+          "9725.40",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-05",
+          "Liquidity Management Consulting",
+          "Finance Advisory",
+          "12860.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-06",
+          "Bank Service Charges",
+          "Cash Management",
+          "3420.18",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-08",
+          "Credit Facility Commitment Fee",
+          "Treasury Operations",
+          "21500.00",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-03-10",
+          "FX Hedging Premium",
+          "Risk Management",
+          "27680.55",
+          "Foreign Exchange Line"
+        ],
+        [
+          "2026-03-12",
+          "Debt Refinancing Legal Fees",
+          "Corporate Finance",
+          "19340.90",
+          "Term Loan B"
+        ],
+        [
+          "2026-03-14",
+          "Treasury Management System Upgrade",
+          "IT Finance Support",
+          "45875.00",
+          "Capital Expenditure Budget"
+        ],
+        [
+          "2026-03-16",
+          "Bridge Loan Interest",
+          "Treasury Operations",
+          "22410.33",
+          "Bridge Financing"
+        ],
+        [
+          "2026-03-18",
+          "Credit Rating Agency Fee",
+          "Corporate Finance",
+          "31500.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-20",
+          "Short-Term Investment Management Fee",
+          "Investment Desk",
+          "11875.60",
+          "Investment Income"
+        ],
+        [
+          "2026-03-22",
+          "Cash Forecasting Software Subscription",
+          "Financial Planning",
+          "6890.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-25",
+          "Syndicated Loan Arrangement Fee",
+          "Corporate Finance",
+          "52400.00",
+          "Syndicated Credit Facility"
+        ],
+        [
+          "2026-03-27",
+          "Collateral Management Expense",
+          "Risk Management",
+          "7425.80",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-30",
+          "Liquidity Buffer Reserve Allocation",
+          "Treasury Operations",
+          "60000.00",
+          "Internal Cash Reserves"
+        ],
+        [
+          "2026-03-18",
+          "Commercial Paper Interest Payment",
+          "Treasury Operations",
+          "84250.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-19",
+          "Revolving Credit Facility Commitment Fee",
+          "Corporate Finance",
+          "15780.50",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-03-20",
+          "Liquidity Management Consulting Fees",
+          "Finance Advisory",
+          "22340.75",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-21",
+          "Short-Term Loan Principal Repayment",
+          "Debt Management",
+          "250000.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-22",
+          "Bank Service Charges",
+          "Treasury Operations",
+          "4890.35",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-23",
+          "FX Hedging Contract Premium",
+          "Risk Management",
+          "36750.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-24",
+          "Bridge Loan Interest Expense",
+          "Debt Management",
+          "128640.20",
+          "Bridge Financing"
+        ],
+        [
+          "2026-03-25",
+          "Cash Management System Upgrade",
+          "IT Finance Systems",
+          "54210.00",
+          "Capital Expenditure Budget"
+        ],
+        [
+          "2026-03-26",
+          "Credit Rating Agency Fee",
+          "Corporate Finance",
+          "31875.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-27",
+          "Intercompany Loan Settlement",
+          "Intercompany Finance",
+          "175000.00",
+          "Internal Cash Pool"
+        ],
+        [
+          "2026-03-28",
+          "Treasury Staff Training",
+          "Human Resources - Finance",
+          "6240.80",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-29",
+          "Letter of Credit Issuance Fee",
+          "Trade Finance",
+          "9150.60",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-03-30",
+          "Overdraft Interest Charges",
+          "Treasury Operations",
+          "27340.45",
+          "Bank Overdraft"
+        ],
+        [
+          "2026-03-31",
+          "Short-Term Investment Management Fee",
+          "Investment Management",
+          "19870.25",
+          "Operating Cash"
+        ],
+        [
+          "2026-04-01",
+          "Liquidity Buffer Reserve Allocation",
+          "Corporate Treasury",
+          "300000.00",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-18",
+          "Short-Term Debt Interest Payment",
+          "Treasury Operations",
+          "125,450",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-03-19",
+          "Commercial Paper Issuance Fees",
+          "Corporate Finance",
+          "18,750",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-20",
+          "Liquidity Management Consulting",
+          "Finance Advisory",
+          "42,300",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-21",
+          "Bank Service Charges",
+          "Cash Management",
+          "9,640",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-22",
+          "Credit Facility Commitment Fee",
+          "Treasury Operations",
+          "76,125",
+          "Revolving Credit Facility"
+        ],
+        [
+          "2026-03-23",
+          "Foreign Exchange Hedge Settlement",
+          "Risk Management",
+          "214,890",
+          "Derivative Reserve Account"
+        ],
+        [
+          "2026-03-24",
+          "Short-Term Loan Principal Repayment",
+          "Debt Management",
+          "500,000",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-25",
+          "Cash Pooling Transfer Adjustment",
+          "Global Treasury",
+          "133,275",
+          "Internal Cash Pool"
+        ],
+        [
+          "2026-03-26",
+          "Bridge Financing Interest",
+          "Corporate Finance",
+          "58,920",
+          "Bridge Loan Facility"
+        ],
+        [
+          "2026-03-27",
+          "Treasury Management System Upgrade",
+          "IT Finance Systems",
+          "87,450",
+          "Capital Expenditure Budget"
+        ],
+        [
+          "2026-03-28",
+          "Letter of Credit Fee",
+          "Trade Finance",
+          "24,680",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-29",
+          "Investment Portfolio Management Fee",
+          "Investment Office",
+          "39,500",
+          "Investment Income Account"
+        ],
+        [
+          "2026-03-30",
+          "Credit Rating Agency Fee",
+          "Corporate Finance",
+          "110,000",
+          "Operating Cash"
+        ],
+        [
+          "2026-03-31",
+          "Overdraft Interest Expense",
+          "Cash Management",
+          "16,845",
+          "Bank Overdraft Facility"
+        ],
+        [
+          "2026-04-01",
+          "Liquidity Buffer Reserve Allocation",
+          "Treasury Operations",
+          "300,000",
+          "Operating Cash"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Amount (USD)": 5797097.66,
+        "max_Amount (USD)": 500000.0,
+        "min_Amount (USD)": 3120.4
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Amount (USD) for the entry dated 2026-07-01?",
+          "answer": "125000",
+          "assertions": [
+            {
+              "text": "The response must state 125000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what Funding Source is listed for the row with Expenditure Category \"Cash Management System Upgrade\"?",
+          "answer": "Capital Expenditure Budget",
+          "assertions": [
+            {
+              "text": "The response must state Capital Expenditure Budget."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Amount (USD) for \"Letter of Credit Fee\"?",
+          "answer": "24,680",
+          "assertions": [
+            {
+              "text": "The response must state 24,680."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "cx_table_0002_f08f3ba7",
+      "table_number": 4,
+      "caption": "Table 4: Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which objective categories are the column groups?",
+          "answer": "Cash Position & Forecasting; Funding & Credit Facilities; FX Exposure & Hedging; Liquidity Stress & Governance.",
+          "assertions": [
+            {
+              "text": "The response must state 'Cash Position & Forecasting; Funding & Credit Facilities; FX Exposure & Hedging; Liquidity Stress & Governance.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", how many initiatives fall under the \"Short-Term Funding & Facilities\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the alignment rating of \"Centralise FX dealing with limits, confirmations, and SOX controls\" for the \"FX Process Control\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the total score for the \"Formalise minimum liquidity buffer and investment policy limits\" initiative?",
+          "answer": "62.",
+          "assertions": [
+            {
+              "text": "The response must state '62.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which objective category has the highest weighted total score?",
+          "answer": "Liquidity Stress & Governance (84 + 78 + 82 = 244).",
+          "assertions": [
+            {
+              "text": "The response must state 'Liquidity Stress & Governance (84 + 78 + 82 = 244).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the label of the third column in the top header row?",
+          "answer": "Funding & Credit Facilities",
+          "assertions": [
+            {
+              "text": "The response must state 'Funding & Credit Facilities'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which top-level header occupies the far right column?",
+          "answer": "Total Score",
+          "assertions": [
+            {
+              "text": "The response must state 'Total Score'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what does footnote H explain?",
+          "answer": "H",
+          "assertions": [
+            {
+              "text": "The response must state 'H'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the subtotal count for the Strategic Initiatives group?",
+          "answer": "4 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "cx_table_0000_1a2a62bf",
+      "table_number": 5,
+      "caption": "Table 5: Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what sub-columns fall under \"Balances (USD m)\" in the inner breakdown table for the \"Cash position (bank & on-behalf-of)\" row?",
+          "answer": "Available; Restricted",
+          "assertions": [
+            {
+              "text": "The response must state 'Available; Restricted'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", how many rows does the \"Bank A\" label span in the bank concentration inner table within the \"Cash position (bank & on-behalf-of)\" row?",
+          "answer": "2 rows",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what does footnote 1 explain?",
+          "answer": "Cash at banks includes notional pooling offsets; available cash excludes escrow and legally restricted balances.",
+          "assertions": [
+            {
+              "text": "The response must state 'Cash at banks includes notional pooling offsets; available cash excludes escrow and legally restricted balances.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what is the projected cumulative cash flow in Month 3 in the inner projected cash flows table for the \"Short-term funding sources (next 90 days)\" row?",
+          "answer": "-390 (USD m)",
+          "assertions": [
+            {
+              "text": "The response must state '-390 (USD m)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what accounting designation is shown for the first (row-spanned) \"Forwards\" entry in the hedge instrument inner table within the \"FX exposure (rolling 3 months)\" row?",
+          "answer": "Cash flow hedge",
+          "assertions": [
+            {
+              "text": "The response must state 'Cash flow hedge'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what does Cash at banks include?",
+          "answer": "Notional pooling offsets",
+          "assertions": [
+            {
+              "text": "The response must state 'Notional pooling offsets'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", how many rows are in the table header tiers?",
+          "answer": "2 rows",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", which has more rows, the header tiers or the data rows?",
+          "answer": "Data rows",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what does the annotation 'A' explain?",
+          "answer": "Available; Restricted",
+          "assertions": [
+            {
+              "text": "The response must state 'Available; Restricted'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what is the subtotal for the data rows in the rows count?",
+          "answer": "5 rows",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "table_0004_0eeab70d",
+      "table_number": 6,
+      "caption": "Table 6: Q3 2026 FX exposure by currency, maturity bucket, and hedge coverage",
+      "columns": [
+        "Currency",
+        "Current Hedge Instruments",
+        "Primary Exposure Type",
+        "Liquidity Sensitivity Level",
+        "Net Exposure",
+        "Stress Scenario Rate Move",
+        "Hedge Coverage",
+        "30-Day Cash Flow Impact (USD)",
+        "Recommended Action",
+        "Hedge Gap vs Policy"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "EUR",
+          "Forward contracts (rolling 3-month)",
+          "Forecast receivables from EU sales",
+          "High",
+          "EUR net exposure (unhedged): 40.0m",
+          "+5% EUR appreciation",
+          "EUR hedge coverage: 60%",
+          "+2.1m inflow",
+          "Layer additional forwards to reach 70% coverage before month-end",
+          "10% below 70% policy target"
+        ],
+        [
+          "GBP",
+          "FX forwards and collars",
+          "UK operating expenses",
+          "High",
+          "GBP net exposure (unhedged): 25.0m",
+          "+5% GBP appreciation",
+          "GBP hedge coverage: 50%",
+          "-1.3m outflow",
+          "Execute incremental collars aligned to payroll cycle",
+          "20% below 70% policy target"
+        ],
+        [
+          "JPY",
+          "Spot purchases only",
+          "Inventory purchases from Japan",
+          "Medium",
+          "JPY net exposure (unhedged): 10.0m",
+          "+7% JPY appreciation",
+          "40%",
+          "-0.8m outflow",
+          "Initiate 3-month forwards to cover committed POs",
+          "30% below 70% policy target"
+        ],
+        [
+          "CAD",
+          "Forward contracts",
+          "Intercompany loan repayments",
+          "Medium",
+          "Net exposure (unhedged): 8.5m",
+          "+4% CAD appreciation",
+          "55%",
+          "-0.4m outflow",
+          "Increase hedge ratio ahead of Q3 debt service",
+          "15% below 70% policy target"
+        ],
+        [
+          "AUD",
+          "Participating forwards",
+          "Sales receipts",
+          "Low",
+          "Net exposure (unhedged): 6.0m",
+          "+6% AUD depreciation",
+          "65%",
+          "-0.2m inflow",
+          "Maintain coverage; monitor volatility triggers",
+          "5% below 70% policy target"
+        ],
+        [
+          "MXN",
+          "None",
+          "Local operating costs",
+          "High",
+          "Net exposure (unhedged): 5.5m",
+          "+8% MXN appreciation",
+          "30%",
+          "-0.6m outflow",
+          "Enter NDFs to mitigate near-term cash volatility",
+          "40% below 70% policy target"
+        ],
+        [
+          "CNY",
+          "Onshore forwards",
+          "Supplier payments",
+          "Medium",
+          "Net exposure (unhedged): 12.0m",
+          "+3% CNY appreciation",
+          "50%",
+          "-0.5m outflow",
+          "Gradually increase hedge to policy minimum",
+          "20% below 70% policy target"
+        ],
+        [
+          "CHF",
+          "Forward contracts",
+          "Royalty income",
+          "Low",
+          "Net exposure (unhedged): 4.0m",
+          "+5% CHF depreciation",
+          "75%",
+          "+0.1m inflow",
+          "No action required; maintain current structure",
+          "5% above 70% policy target"
+        ],
+        [
+          "SEK",
+          "FX swaps",
+          "Project milestone payments",
+          "Medium",
+          "Net exposure (unhedged): 3.5m",
+          "+6% SEK appreciation",
+          "45%",
+          "-0.2m outflow",
+          "Top up hedges in line with revised forecast",
+          "25% below 70% policy target"
+        ],
+        [
+          "BRL",
+          "None",
+          "Capex commitments",
+          "High",
+          "Net exposure (unhedged): 7.0m",
+          "+10% BRL appreciation",
+          "35%",
+          "-0.9m outflow",
+          "Implement layered NDF program tied to capex schedule",
+          "35% below 70% policy target"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Hedge Coverage": 395.0,
+        "max_Hedge Coverage": 75.0,
+        "min_Hedge Coverage": 30.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Q3 2026 FX exposure by currency, maturity bucket, and hedge coverage\", what is the 30-Day Cash Flow Impact (USD) for EUR?",
+          "answer": "+2.1m inflow",
+          "assertions": [
+            {
+              "text": "The response must state +2.1m inflow."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 2026 FX exposure by currency, maturity bucket, and hedge coverage\", what is the Recommended Action for MXN?",
+          "answer": "Enter NDFs to mitigate near-term cash volatility",
+          "assertions": [
+            {
+              "text": "The response must state Enter NDFs to mitigate near-term cash volatility."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Q3 2026 FX exposure by currency, maturity bucket, and hedge coverage\", what is the Hedge Coverage for CHF?",
+          "answer": "75%",
+          "assertions": [
+            {
+              "text": "The response must state 75%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0000_f1b78566",
+      "table_number": 7,
+      "caption": "Table 7: Consolidated cash position by entity and currency as of 2026-06-30",
+      "columns": [
+        " Location",
+        "Closing Cash Balance",
+        "Primary Banking Partner",
+        "Availability Status (Start of Quarter)"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Group Treasury Consolidated",
+          "Group total (USD equivalent): 245.0m",
+          "Global relationship banks (multi-currency)",
+          "Fully available; no material restrictions"
+        ],
+        [
+          "US Operating Co",
+          "US Operating Co (USD): 110.0m",
+          "JPMorgan Chase (New York)",
+          "Available for operations and revolver prepayment"
+        ],
+        [
+          "EU Sales Co",
+          "EU Sales Co (EUR): 60.0m",
+          "Deutsche Bank (Frankfurt)",
+          "Available; minor local statutory reserve requirement"
+        ],
+        [
+          "UK Services Co",
+          "UK Services Co (GBP): 25.0m",
+          "HSBC (London)",
+          "Fully available; subject to weekly cash sweep"
+        ],
+        [
+          "APAC Trading Co",
+          "APAC Trading Co (SGD): 30.0m",
+          "DBS Bank (Singapore)",
+          "Available; earmarked partially for working capital"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Consolidated cash position by entity and currency as of 2026-06-30\", what is the Closing Cash Balance listed for US Operating Co?",
+          "answer": "US Operating Co (USD): 110.0m",
+          "assertions": [
+            {
+              "text": "The response must state US Operating Co (USD): 110.0m."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Consolidated cash position by entity and currency as of 2026-06-30\", who is the Primary Banking Partner for EU Sales Co?",
+          "answer": "Deutsche Bank (Frankfurt)",
+          "assertions": [
+            {
+              "text": "The response must state Deutsche Bank (Frankfurt)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Consolidated cash position by entity and currency as of 2026-06-30\", what is the Availability Status (Start of Quarter) for APAC Trading Co?",
+          "answer": "Available; earmarked partially for working capital",
+          "assertions": [
+            {
+              "text": "The response must state Available; earmarked partially for working capital."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "table_0001_4b3083e2",
+      "table_number": 8,
+      "caption": "Table 8: 13-week cash flow forecast summary for Q3 2026 (weekly net flows and ending cash)",
+      "columns": [
+        "Week ending",
+        "Opening cash",
+        "Net cash flow",
+        "Ending cash",
+        "Key drivers"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "2026-07-05",
+          "245.0m",
+          "-12.0m",
+          "233.0m",
+          "Seasonal working capital build and bond coupon payment"
+        ],
+        [
+          "2026-07-12",
+          "233.0m",
+          "-15.0m",
+          "218.0m",
+          "Inventory build and payroll outflows"
+        ],
+        [
+          "2026-07-19",
+          "218.0m",
+          "-20.0m",
+          "198.0m",
+          "Quarterly tax instalment"
+        ],
+        [
+          "2026-07-26",
+          "198.0m",
+          "-18.0m",
+          "",
+          "Supplier payments peak"
+        ],
+        [
+          "2026-08-02",
+          "180.0m",
+          "-22.0m",
+          "158.0m",
+          "Capex milestone payment and interest expense"
+        ],
+        [
+          "2026-08-09",
+          "158.0m",
+          "-10.0m",
+          "148.0m",
+          "Partial receivables collection"
+        ],
+        [
+          "2026-08-15",
+          "148.0m",
+          "-28.0m",
+          "120.0m (minimum)",
+          "Low receipts week; revolver remains undrawn"
+        ],
+        [
+          "2026-08-23",
+          "120.0m",
+          "+15.0m",
+          "135.0m",
+          "Customer receipts rebound"
+        ],
+        [
+          "2026-08-30",
+          "135.0m",
+          "+5.0m",
+          "140.0m",
+          "Moderate operating inflow"
+        ],
+        [
+          "2026-09-13",
+          "140.0m",
+          "+10.0m",
+          "150.0m",
+          "Working capital normalisation"
+        ],
+        [
+          "2026-09-27",
+          "150.0m",
+          "+15.0m",
+          "165.0m",
+          "Strong collections and reduced capex outflow"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"13-week cash flow forecast summary for Q3 2026 (weekly net flows and ending cash)\", what is the Net cash flow for the week ending 2026-08-02?",
+          "answer": "-22.0m",
+          "assertions": [
+            {
+              "text": "The response must state -22.0m."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"13-week cash flow forecast summary for Q3 2026 (weekly net flows and ending cash)\", what is the Ending cash for the week ending 2026-08-15?",
+          "answer": "120.0m (minimum)",
+          "assertions": [
+            {
+              "text": "The response must state 120.0m (minimum)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"13-week cash flow forecast summary for Q3 2026 (weekly net flows and ending cash)\", what is the Key drivers entry for the week ending 2026-07-19?",
+          "answer": "Quarterly tax instalment",
+          "assertions": [
+            {
+              "text": "The response must state Quarterly tax instalment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "table_0003_05837d9e",
+      "table_number": 9,
+      "caption": "Table 9: Credit facility utilisation and availability by instrument as of 2026-06-30",
+      "columns": [
+        "Facility",
+        "Status",
+        "Utilisation",
+        "Drawn (USD)",
+        "Maturity",
+        "Committed (USD)",
+        " Key Terms",
+        "Undrawn Headroom (USD)"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Revolving Credit Facility (RCF)",
+          "Active – compliant",
+          "30%",
+          "150.0m",
+          "30-Jun-2028",
+          "500.0m",
+          "SOFR + 175bps; covenant-lite; 2x extension options",
+          "350.0m"
+        ],
+        [
+          "Bilateral Overdraft Lines (aggregate)",
+          "Active – within limits",
+          "40%",
+          "10.0m",
+          "Evergreen (annual review)",
+          "25.0m",
+          "Prime + 100bps; uncommitted",
+          "15.0m"
+        ],
+        [
+          "Commercial Paper Programme",
+          "Active – diversified investors",
+          "40%",
+          "80.0m",
+          "Various (30–90 days)",
+          "200.0m",
+          "Discount margin avg. 5.10%",
+          "120.0m"
+        ],
+        [
+          "Supply Chain Finance Facility",
+          "Active – scalable",
+          "38%",
+          "45.0m",
+          "31-Dec-2027",
+          "120.0m",
+          "SOFR + 150bps; linked to supplier invoices",
+          "75.0m"
+        ],
+        [
+          "Term Loan A",
+          "Active – amortising",
+          "100%",
+          "300.0m",
+          "15-Mar-2029",
+          "300.0m",
+          "SOFR + 200bps; amortising 5% p.a.",
+          "0.0m"
+        ],
+        [
+          "USD)",
+          "Active – hedging support",
+          "27%",
+          "20.0m",
+          "30-Sep-2027",
+          "75.0m",
+          "EURIBOR + 140bps; multi-currency draw option",
+          "55.0m"
+        ],
+        [
+          "Receivables Securitisation Facility",
+          "Active – performance triggers met",
+          "50%",
+          "125.0m",
+          "28-Feb-2028",
+          "250.0m",
+          "Floating rate; advance rate 85%",
+          "125.0m"
+        ],
+        [
+          "Liquidity Backstop Facility",
+          "Undrawn – available as contingency",
+          "0%",
+          "0.0m",
+          "30-Jun-2028 (co-terminus with RCF)",
+          "150.0m",
+          "Standby line; commitment fee 35bps",
+          "150.0m"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Utilisation": 325.0,
+        "max_Utilisation": 100.0,
+        "min_Utilisation": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Credit facility utilisation and availability by instrument as of 2026-06-30\", what is the Maturity for the Term Loan A facility?",
+          "answer": "15-Mar-2029",
+          "assertions": [
+            {
+              "text": "The response must state 15-Mar-2029."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Credit facility utilisation and availability by instrument as of 2026-06-30\", what is the Undrawn Headroom (USD) for the Revolving Credit Facility (RCF)?",
+          "answer": "350.0m",
+          "assertions": [
+            {
+              "text": "The response must state 350.0m."
+            }
+          ]
+        },
+        {
+          "question": " Key Terms entry for the Liquidity Backstop Facility?",
+          "answer": "Standby line; commitment fee 35bps",
+          "assertions": [
+            {
+              "text": "The response must state Standby line; commitment fee 35bps."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0002_9feaf922",
+      "table_number": 10,
+      "caption": "Table 10: Short-term funding sources and planned utilisation in Q3 2026 (CP, deposits, supplier finance)",
+      "columns": [
+        "Funding Source",
+        "Facility Limit (m)",
+        " Peak Utilisation",
+        "Key Date",
+        "Estimated Cost (%)",
+        " Notes"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Commercial Paper Program",
+          "150.0m",
+          "Commercial paper peak outstanding (2026-07-31): 90.0m",
+          "2026-07-31",
+          "5.25",
+          "Used to cover July cash trough driven by tax payments"
+        ],
+        [
+          "Overnight Deposits (Cash Buffer)",
+          "A",
+          "Overnight deposits average balance: 40.0m",
+          "Quarter average",
+          "3.10 (interest earned)",
+          "Maintained as operational liquidity buffer"
+        ],
+        [
+          "Supplier Finance Program",
+          "Supplier finance program limit: 75.0m",
+          "Supplier finance planned utilisation (2026-08-15): 30.0m",
+          "2026-08-15",
+          "4.80",
+          "Supports working capital during seasonal inventory build"
+        ],
+        [
+          "Revolving Credit Facility (RCF)",
+          "200.0m",
+          "45.0m projected draw",
+          "2026-09-10",
+          "4.65",
+          "Backstop liquidity; remains >75% undrawn throughout quarter"
+        ],
+        [
+          "Bank Overdraft Lines",
+          "25.0m",
+          "10.0m peak usage",
+          "2026-06-30",
+          "5.75",
+          "Intramonth flexibility for payroll timing differences"
+        ],
+        [
+          "Intercompany Short-Term Loan",
+          "60.0m",
+          "35.0m average utilisation",
+          "2026-08-01",
+          "4.20",
+          "From surplus EU entity to US treasury center"
+        ],
+        [
+          "Term Loan (Floating)",
+          "120.0m",
+          "120.0m outstanding (no change)",
+          "Ongoing",
+          "5.10",
+          "Not used for bridging; included for cost reference"
+        ],
+        [
+          "EUR)",
+          "50.0m equivalent",
+          "20.0m draw to hedge EUR receivables",
+          "2026-07-20",
+          "4.55 all-in",
+          "Provides short-term USD liquidity while hedging exposure"
+        ],
+        [
+          "Contingent Liquidity Buffer",
+          "100.0m (uncommitted)",
+          "0.0m planned usage",
+          "Available on demand",
+          "Indicative 6.00",
+          "Stress scenario backstop; not assumed in base forecast"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Estimated Cost (%)": 29.75,
+        "max_Estimated Cost (%)": 5.75,
+        "min_Estimated Cost (%)": 4.2
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Short-term funding sources and planned utilisation in Q3 2026 (CP, deposits, supplier finance)\", what is the Estimated Cost (%) for the Commercial Paper Program?",
+          "answer": "5.25",
+          "assertions": [
+            {
+              "text": "The response must state 5.25."
+            }
+          ]
+        },
+        {
+          "question": " Peak Utilisation for the Revolving Credit Facility (RCF)?",
+          "answer": "45.0m projected draw",
+          "assertions": [
+            {
+              "text": "The response must state 45.0m projected draw."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Short-term funding sources and planned utilisation in Q3 2026 (CP, deposits, supplier finance)\", what is the Facility Limit (m) for the Bank Overdraft Lines?",
+          "answer": "25.0m",
+          "assertions": [
+            {
+              "text": "The response must state 25.0m."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "table_0005_ea0058a6": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Tests_base_liquidity_against_adverse_but_plausible_shocks_to",
+      "row_count": 8,
+      "col_count": 5,
+      "columns": [
+        "Scenario",
+        " Action",
+        "Minimum Cash (Date)",
+        "Minimum Liquidity Headroom (Date)",
+        "Incremental Cash Impact"
+      ],
+      "topic_id": "treasury_liquidity_report"
+    },
+    "cx_table_0001_05c16d49": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 17,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "treasury_liquidity_report"
+    },
+    "llm_mp_table_0000_df2d934f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "budget_expenditure_ledger",
+      "row_count": 75,
+      "col_count": 5,
+      "columns": [
+        "Date",
+        "Expenditure Category",
+        "Cost Center",
+        "Amount (USD)",
+        "Funding Source"
+      ],
+      "topic_id": ""
+    },
+    "cx_table_0002_f08f3ba7": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 18,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "treasury_liquidity_report"
+    },
+    "cx_table_0000_1a2a62bf": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "treasury_liquidity_report"
+    },
+    "table_0004_0eeab70d": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Identifies_the_largest_unhedged_currency_risks_and_hedge_gap",
+      "row_count": 10,
+      "col_count": 10,
+      "columns": [
+        "Currency",
+        "Current Hedge Instruments",
+        "Primary Exposure Type",
+        "Liquidity Sensitivity Level",
+        "Net Exposure",
+        "Stress Scenario Rate Move",
+        "Hedge Coverage",
+        "30-Day Cash Flow Impact (USD)",
+        "Recommended Action",
+        "Hedge Gap vs Policy"
+      ],
+      "topic_id": "treasury_liquidity_report"
+    },
+    "table_0000_f1b78566": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Quantifies_starting_liquidity_for_the_quarter_and_identifies",
+      "row_count": 5,
+      "col_count": 4,
+      "columns": [
+        " Location",
+        "Closing Cash Balance",
+        "Primary Banking Partner",
+        "Availability Status (Start of Quarter)"
+      ],
+      "topic_id": "treasury_liquidity_report"
+    },
+    "table_0001_4b3083e2": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Shows_expected_weekly_liquidity_trajectory_to_pinpoint_the_f",
+      "row_count": 11,
+      "col_count": 5,
+      "columns": [
+        "Week ending",
+        "Opening cash",
+        "Net cash flow",
+        "Ending cash",
+        "Key drivers"
+      ],
+      "topic_id": "treasury_liquidity_report"
+    },
+    "table_0003_05837d9e": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Summarises_committed_lines,_drawings,_headroom,_and_key_term",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Facility",
+        "Status",
+        "Utilisation",
+        "Drawn (USD)",
+        "Maturity",
+        "Committed (USD)",
+        " Key Terms",
+        "Undrawn Headroom (USD)"
+      ],
+      "topic_id": "treasury_liquidity_report"
+    },
+    "table_0002_9feaf922": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Details_the_mix,_timing,_and_cost_assumptions_of_short-term_",
+      "row_count": 9,
+      "col_count": 6,
+      "columns": [
+        "Funding Source",
+        "Facility Limit (m)",
+        " Peak Utilisation",
+        "Key Date",
+        "Estimated Cost (%)",
+        " Notes"
+      ],
+      "topic_id": "treasury_liquidity_report"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)\", what is the Minimum Cash (Date) for the \"Revenue -20%\" scenario?",
+      "answer": "60.0m (2026-08-27)",
+      "assertions": [
+        {
+          "text": "The response must state 60.0m (2026-08-27)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Liquidity stress scenarios for Q3 2026 (minimum cash, headroom, and trigger dates)\", what is the Incremental Cash Impact for \"AR delay +30 days\"?",
+      "answer": "-85.0m",
+      "assertions": [
+        {
+          "text": "The response must state -85.0m."
+        }
+      ]
+    },
+    {
+      "question": " Action for \"Combined downside (Revenue -20% + AR +15d)\"?",
+      "answer": "Immediate 150.0m funding action; suspend share buybacks",
+      "assertions": [
+        {
+          "text": "The response must state Immediate 150.0m funding action; suspend share buybacks."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which objective categories are the column groups?",
+      "answer": "Liquidity & Cash Position; Funding & Credit Facilities; FX & Market Risk; Stress & Governance.",
+      "assertions": [
+        {
+          "text": "The response must state 'Liquidity & Cash Position; Funding & Credit Facilities; FX & Market Risk; Stress & Governance.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", how many initiatives fall under the \"FX & Market Risk\" initiative category?",
+      "answer": "3 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '3 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the alignment rating of \"Implement Rolling FX Hedge Program (12-Week Layering)\" for the \"Hedge Effectiveness\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "Severe)\" initiative?",
+      "answer": "51.",
+      "assertions": [
+        {
+          "text": "The response must state '51.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which objective category has the highest weighted total score?",
+      "answer": "Stress & Governance (72 + 66 + 78 = 216).",
+      "assertions": [
+        {
+          "text": "The response must state 'Stress & Governance (72 + 66 + 78 = 216).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what are the main objective columns listed in the top header?",
+      "answer": "Liquidity & Cash Position; Funding & Credit Facilities; FX & Market Risk; Stress & Governance",
+      "assertions": [
+        {
+          "text": "The response must state 'Liquidity & Cash Position; Funding & Credit Facilities; FX & Market Risk; Stress & Governance'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", how many header tiers are present?",
+      "answer": "3 header rows",
+      "assertions": [
+        {
+          "text": "The response must state '3 header rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which column captures the overall aggregated alignment score?",
+      "answer": "Total Score",
+      "assertions": [
+        {
+          "text": "The response must state 'Total Score'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which single-letter annotation appears in the table notes?",
+      "answer": "H",
+      "assertions": [
+        {
+          "text": "The response must state 'H'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the subtotal reported for Strategic Initiatives in the grid?",
+      "answer": "3 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '3 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Amount (USD) for the entry dated 2026-07-01?",
+      "answer": "125000",
+      "assertions": [
+        {
+          "text": "The response must state 125000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what Funding Source is listed for the row with Expenditure Category \"Cash Management System Upgrade\"?",
+      "answer": "Capital Expenditure Budget",
+      "assertions": [
+        {
+          "text": "The response must state Capital Expenditure Budget."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Amount (USD) for \"Letter of Credit Fee\"?",
+      "answer": "24,680",
+      "assertions": [
+        {
+          "text": "The response must state 24,680."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", how many initiatives fall under the \"Short-Term Funding & Facilities\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the alignment rating of \"Centralise FX dealing with limits, confirmations, and SOX controls\" for the \"FX Process Control\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the total score for the \"Formalise minimum liquidity buffer and investment policy limits\" initiative?",
+      "answer": "62.",
+      "assertions": [
+        {
+          "text": "The response must state '62.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the label of the third column in the top header row?",
+      "answer": "Funding & Credit Facilities",
+      "assertions": [
+        {
+          "text": "The response must state 'Funding & Credit Facilities'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", which top-level header occupies the far right column?",
+      "answer": "Total Score",
+      "assertions": [
+        {
+          "text": "The response must state 'Total Score'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what does footnote H explain?",
+      "answer": "H",
+      "assertions": [
+        {
+          "text": "The response must state 'H'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 Treasury Cross-Reference Alignment Grid — Strategic Initiatives vs. Liquidity & Risk Objectives\", what is the subtotal count for the Strategic Initiatives group?",
+      "answer": "4 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what sub-columns fall under \"Balances (USD m)\" in the inner breakdown table for the \"Cash position (bank & on-behalf-of)\" row?",
+      "answer": "Available; Restricted",
+      "assertions": [
+        {
+          "text": "The response must state 'Available; Restricted'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", how many rows does the \"Bank A\" label span in the bank concentration inner table within the \"Cash position (bank & on-behalf-of)\" row?",
+      "answer": "2 rows",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what does footnote 1 explain?",
+      "answer": "Cash at banks includes notional pooling offsets; available cash excludes escrow and legally restricted balances.",
+      "assertions": [
+        {
+          "text": "The response must state 'Cash at banks includes notional pooling offsets; available cash excludes escrow and legally restricted balances.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what is the projected cumulative cash flow in Month 3 in the inner projected cash flows table for the \"Short-term funding sources (next 90 days)\" row?",
+      "answer": "-390 (USD m)",
+      "assertions": [
+        {
+          "text": "The response must state '-390 (USD m)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what accounting designation is shown for the first (row-spanned) \"Forwards\" entry in the hedge instrument inner table within the \"FX exposure (rolling 3 months)\" row?",
+      "answer": "Cash flow hedge",
+      "assertions": [
+        {
+          "text": "The response must state 'Cash flow hedge'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what does Cash at banks include?",
+      "answer": "Notional pooling offsets",
+      "assertions": [
+        {
+          "text": "The response must state 'Notional pooling offsets'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", how many rows are in the table header tiers?",
+      "answer": "2 rows",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", which has more rows, the header tiers or the data rows?",
+      "answer": "Data rows",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what does the annotation 'A' explain?",
+      "answer": "Available; Restricted",
+      "assertions": [
+        {
+          "text": "The response must state 'Available; Restricted'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Treasury Report — Cash, Funding, Facilities, FX Exposure and Liquidity Stress (Coming Quarter)\", what is the subtotal for the data rows in the rows count?",
+      "answer": "5 rows",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 2026 FX exposure by currency, maturity bucket, and hedge coverage\", what is the 30-Day Cash Flow Impact (USD) for EUR?",
+      "answer": "+2.1m inflow",
+      "assertions": [
+        {
+          "text": "The response must state +2.1m inflow."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 2026 FX exposure by currency, maturity bucket, and hedge coverage\", what is the Recommended Action for MXN?",
+      "answer": "Enter NDFs to mitigate near-term cash volatility",
+      "assertions": [
+        {
+          "text": "The response must state Enter NDFs to mitigate near-term cash volatility."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Q3 2026 FX exposure by currency, maturity bucket, and hedge coverage\", what is the Hedge Coverage for CHF?",
+      "answer": "75%",
+      "assertions": [
+        {
+          "text": "The response must state 75%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Consolidated cash position by entity and currency as of 2026-06-30\", what is the Closing Cash Balance listed for US Operating Co?",
+      "answer": "US Operating Co (USD): 110.0m",
+      "assertions": [
+        {
+          "text": "The response must state US Operating Co (USD): 110.0m."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Consolidated cash position by entity and currency as of 2026-06-30\", who is the Primary Banking Partner for EU Sales Co?",
+      "answer": "Deutsche Bank (Frankfurt)",
+      "assertions": [
+        {
+          "text": "The response must state Deutsche Bank (Frankfurt)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Consolidated cash position by entity and currency as of 2026-06-30\", what is the Availability Status (Start of Quarter) for APAC Trading Co?",
+      "answer": "Available; earmarked partially for working capital",
+      "assertions": [
+        {
+          "text": "The response must state Available; earmarked partially for working capital."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"13-week cash flow forecast summary for Q3 2026 (weekly net flows and ending cash)\", what is the Net cash flow for the week ending 2026-08-02?",
+      "answer": "-22.0m",
+      "assertions": [
+        {
+          "text": "The response must state -22.0m."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"13-week cash flow forecast summary for Q3 2026 (weekly net flows and ending cash)\", what is the Ending cash for the week ending 2026-08-15?",
+      "answer": "120.0m (minimum)",
+      "assertions": [
+        {
+          "text": "The response must state 120.0m (minimum)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"13-week cash flow forecast summary for Q3 2026 (weekly net flows and ending cash)\", what is the Key drivers entry for the week ending 2026-07-19?",
+      "answer": "Quarterly tax instalment",
+      "assertions": [
+        {
+          "text": "The response must state Quarterly tax instalment."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Credit facility utilisation and availability by instrument as of 2026-06-30\", what is the Maturity for the Term Loan A facility?",
+      "answer": "15-Mar-2029",
+      "assertions": [
+        {
+          "text": "The response must state 15-Mar-2029."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Credit facility utilisation and availability by instrument as of 2026-06-30\", what is the Undrawn Headroom (USD) for the Revolving Credit Facility (RCF)?",
+      "answer": "350.0m",
+      "assertions": [
+        {
+          "text": "The response must state 350.0m."
+        }
+      ]
+    },
+    {
+      "question": " Key Terms entry for the Liquidity Backstop Facility?",
+      "answer": "Standby line; commitment fee 35bps",
+      "assertions": [
+        {
+          "text": "The response must state Standby line; commitment fee 35bps."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Short-term funding sources and planned utilisation in Q3 2026 (CP, deposits, supplier finance)\", what is the Estimated Cost (%) for the Commercial Paper Program?",
+      "answer": "5.25",
+      "assertions": [
+        {
+          "text": "The response must state 5.25."
+        }
+      ]
+    },
+    {
+      "question": " Peak Utilisation for the Revolving Credit Facility (RCF)?",
+      "answer": "45.0m projected draw",
+      "assertions": [
+        {
+          "text": "The response must state 45.0m projected draw."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Short-term funding sources and planned utilisation in Q3 2026 (CP, deposits, supplier finance)\", what is the Facility Limit (m) for the Bank Overdraft Lines?",
+      "answer": "25.0m",
+      "assertions": [
+        {
+          "text": "The response must state 25.0m."
+        }
+      ]
+    }
+  ]
+}

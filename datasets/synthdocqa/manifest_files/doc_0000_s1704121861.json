@@ -1,0 +1,4217 @@
+{
+  "doc_id": "doc_0000_s1704121861",
+  "title": "Market Entry Assessment for a New Geography or Product Category: Sizing the Total Addressable Market, Analyzing Competitive Intensity, Regulatory Requirements, and Go‑to‑Market Options",
+  "subtitle": "Market Entry Assessment: TAM, Competitive & Regulatory Analysis and GTM Options",
+  "topic_id": "market_entry_feasibility",
+  "recipe_name": "exec_data",
+  "seed": 1704121861,
+  "document_brief": {
+    "narrative_theme": "Assess whether launching a B2B electric-vehicle (EV) fleet charging management SaaS offering in Germany in 2027 is attractive by sizing the total addressable market, benchmarking competitive intensity, mapping regulatory requirements, and selecting the best go-to-market path.",
+    "sections": [
+      {
+        "heading": "SOM)",
+        "key_facts": [
+          "Germany’s TAM is €1.2B in 2027 for B2B EV fleet charging management software (subscription + platform fees).",
+          "The SAM is €420M in 2027, limited to fleets with 50+ vehicles and depot charging across 6 target sectors (logistics, field service, municipal, leasing, retail, utilities).",
+          "The base-case SOM is €32M ARR by 2030, assuming 2.5% share of SAM and €18 per managed charger per month."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Competitive Intensity, Regulatory Readiness, and Go-to-Market Options for Germany Entry",
+        "key_facts": [
+          "The top 5 competitors account for 68% of enterprise fleet deployments in Germany in 2026 (by number of managed charge points).",
+          "1804) applies from 13 April 2024 and drives interoperability expectations for roaming and payment experiences relevant to fleet operators.",
+          "The recommended go-to-market is a partner-led motion targeting 120 named accounts, with a 2027 budget of €4.8M and a 12-month payback target."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "SOM waterfall for B2B EV fleet charging management SaaS (2027 baseline, €)",
+        "purpose": "Quantifies the addressable revenue pool and the narrowing assumptions from TAM to SAM to SOM to anchor the market entry decision and investment level.",
+        "key_data": {
+          "TAM (all fleet + workplace charging software fees, 2027)": "€1.2B",
+          "SAM (50+ vehicle fleets with depot charging, 2027)": "€420M",
+          "SOM (base case ARR, 2030)": "€32M",
+          "Implied share of SAM (2030)": "2.5%"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Bottom-up demand drivers: target fleet counts, chargers, and software pricing assumptions (Germany, 2027)",
+        "purpose": "SAM math and sensitivity ranges.",
+        "key_data": {
+          "Target fleets (50+ vehicles, 6 sectors)": "18,500",
+          "Average depot chargers per target fleet": "14",
+          "Managed chargers in SAM scope (2027)": "259,000",
+          "Software price assumption": "€18 per charger per month"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Segment-level SAM build (Germany, 2027): sectors, adoption, and revenue contribution",
+        "purpose": "Allocates SAM across priority verticals to guide ICP selection, messaging, and initial account list construction for the go-to-market plan.",
+        "key_data": {
+          "Logistics & last-mile delivery SAM (2027)": "€120M",
+          "Municipal & public fleets SAM (2027)": "€55M",
+          "Utilities & energy services SAM (2027)": "€48M",
+          "Retail service fleets SAM (2027)": "€42M"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Competitive landscape and intensity metrics (Germany enterprise fleet charging software, 2026 snapshot)",
+        "purpose": "Benchmarks the competitive set by share, positioning, and differentiation to determine whether the market is winnable and where to compete (features, integrations, price).",
+        "key_data": {
+          "Top-5 share of managed charge points (2026)": "68%",
+          "Competitor A (enterprise CPO suite) share (2026)": "22%",
+          "Competitor B (telematics-led platform) share (2026)": "16%",
+          "Median enterprise contract length": "36 months"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Regulatory and compliance checklist for Germany entry (effective dates, obligations, and owner)",
+        "purpose": "Maps the must-have regulatory requirements (EU and Germany) into actionable workstreams that de-risk launch timing and product readiness.",
+        "key_data": {
+          "AFIR (EU 2023/1804) effective date": "13 April 2024",
+          "GDPR (Regulation (EU) 2016/679) enforcement start": "25 May 2018",
+          "German calibration law (MessEG/MessEV) relevance": "Billing-grade meter compliance for kWh invoicing",
+          "Security baseline target": "IEC 27001 certification by Q4 2027"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "telematics channel",
+        "purpose": "Compares go-to-market paths on cost, speed, control, and expected outcomes to select a primary launch motion and quantify the required investment.",
+        "key_data": {
+          "Recommended motion": "Partner-led",
+          "Named accounts targeted (2027)": "120",
+          "2027 GTM budget (recommended motion)": "€4.8M",
+          "Payback target": "12 months"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1704121861.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_text_699ac706.png",
+      "cmp_0002_c1be47d7.png",
+      "scan_llm_data_e5713f43.png",
+      "dash_0004_78b9a905.png",
+      "cmp_0006_673aae52.png",
+      "dash_0000_97f4fcff.png",
+      "cmp_0007_c6867b11.png",
+      "cmp_0005_f3f49d88.png",
+      "dash_0006_c2344d0f.png",
+      "dash_0005_fba71d0e.png",
+      "cmp_0004_a0c7b28b.png",
+      "dash_0007_92bbf229.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 24,
+    "actual_page_count": 24
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "scan_llm_0000_581f086b",
+      "figure_number": 1,
+      "image_path": "scan_llm_text_699ac706.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 1: Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS",
+        "subtitle": "Ref: GE-EV-27-11 | Date: 22 September 2026 | Prepared by: Strategy & Market Intelligence",
+        "sections": [
+          {
+            "heading": "Total Addressable Market (TAM) Estimate",
+            "body": "Germany is projected to exceed 2.3 million battery-electric vehicles (BEVs) by end-2027, of which approximately 28–32% are expected to be registered to commercial fleets, including logistics, utilities, municipal services, and corporate car pools. This equates to roughly 650,000–730,000 fleet EVs requiring coordinated charging. Assuming an average SaaS fee of €18–€25 per vehicle per month for advanced charging optimization, load management, and reporting, the annual TAM ranges from €140 million to €210 million. Additional revenue pools may arise from energy management add-ons and grid services participation, potentially adding 15–20% upside."
+          },
+          {
+            "heading": "Competitive Intensity and Positioning",
+            "body": "The competitive landscape includes established charge point operators (CPOs) such as EnBW and E.ON Drive offering bundled fleet solutions, as well as software specialists like The Mobility House and Driivz providing platform-based management tools. Market concentration remains moderate, with no single provider exceeding an estimated 20% share of dedicated fleet SaaS contracts. Differentiation increasingly centers on interoperability with mixed hardware estates, integration with SAP-based fleet systems, and dynamic tariff optimization under Germany’s time-of-use pricing. A new entrant must demonstrate superior analytics and open API architecture to avoid direct price competition."
+          },
+          {
+            "heading": "Regulatory and Compliance Considerations",
+            "body": "Deployment in Germany requires adherence to the Mess- und Eichrecht (calibration law) for metering accuracy and compliance with the Charging Station Ordinance (LSV), including ad-hoc payment capability and transparent pricing disclosure. From 2027 onward, reporting obligations under the revised Energy Industry Act (EnWG) and potential participation in flexibility markets will require secure data exchange with grid operators. Data hosting must align with GDPR standards, particularly regarding telematics and employee vehicle usage data. Subsidy programs such as KfW 441 may support customer acquisition but impose documentation and interoperability requirements."
+          },
+          {
+            "heading": "Go-to-Market Strategy Options",
+            "body": "Three primary routes are viable: (1) direct enterprise sales targeting fleets with over 250 vehicles, (2) channel partnerships with hardware installers and energy utilities, or (3) OEM integrations with commercial EV manufacturers. Direct sales offer higher margin control but require a local technical sales force and German-language support capabilities. Partnerships with regional Stadtwerke could accelerate trust and grid integration but reduce pricing leverage. A phased approach—initially partnering with two national installers while piloting anchor clients in logistics—balances speed, credibility, and margin retention."
+          }
+        ],
+        "footer_note": "Confidential – Internal Distribution Only | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Total Addressable Market (TAM) Estimate",
+        "Competitive Intensity and Positioning",
+        "Regulatory and Compliance Considerations",
+        "Go-to-Market Strategy Options"
+      ],
+      "cells": [
+        {
+          "heading": "Total Addressable Market (TAM) Estimate",
+          "body": "Germany is projected to exceed 2.3 million battery-electric vehicles (BEVs) by end-2027, of which approximately 28–32% are expected to be registered to commercial fleets, including logistics, utilities, municipal services, and corporate car pools. This equates to roughly 650,000–730,000 fleet EVs requiring coordinated charging. Assuming an average SaaS fee of €18–€25 per vehicle per month for advanced charging optimization, load management, and reporting, the annual TAM ranges from €140 million to €210 million. Additional revenue pools may arise from energy management add-ons and grid services participation, potentially adding 15–20% upside."
+        },
+        {
+          "heading": "Competitive Intensity and Positioning",
+          "body": "The competitive landscape includes established charge point operators (CPOs) such as EnBW and E.ON Drive offering bundled fleet solutions, as well as software specialists like The Mobility House and Driivz providing platform-based management tools. Market concentration remains moderate, with no single provider exceeding an estimated 20% share of dedicated fleet SaaS contracts. Differentiation increasingly centers on interoperability with mixed hardware estates, integration with SAP-based fleet systems, and dynamic tariff optimization under Germany’s time-of-use pricing. A new entrant must demonstrate superior analytics and open API architecture to avoid direct price competition."
+        },
+        {
+          "heading": "Regulatory and Compliance Considerations",
+          "body": "Deployment in Germany requires adherence to the Mess- und Eichrecht (calibration law) for metering accuracy and compliance with the Charging Station Ordinance (LSV), including ad-hoc payment capability and transparent pricing disclosure. From 2027 onward, reporting obligations under the revised Energy Industry Act (EnWG) and potential participation in flexibility markets will require secure data exchange with grid operators. Data hosting must align with GDPR standards, particularly regarding telematics and employee vehicle usage data. Subsidy programs such as KfW 441 may support customer acquisition but impose documentation and interoperability requirements."
+        },
+        {
+          "heading": "Go-to-Market Strategy Options",
+          "body": "Three primary routes are viable: (1) direct enterprise sales targeting fleets with over 250 vehicles, (2) channel partnerships with hardware installers and energy utilities, or (3) OEM integrations with commercial EV manufacturers. Direct sales offer higher margin control but require a local technical sales force and German-language support capabilities. Partnerships with regional Stadtwerke could accelerate trust and grid integration but reduce pricing leverage. A phased approach—initially partnering with two national installers while piloting anchor clients in logistics—balances speed, credibility, and margin retention."
+        }
+      ],
+      "full_text": "Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\nRef: GE-EV-27-11 | Date: 22 September 2026 | Prepared by: Strategy & Market Intelligence\n\nSection Total Addressable Market (TAM) Estimate\nGermany is projected to exceed 2.3 million battery-electric vehicles (BEVs) by end-2027, of which approximately 28–32% are expected to be registered to commercial fleets, including logistics, utilities, municipal services, and corporate car pools. This equates to roughly 650,000–730,000 fleet EVs requiring coordinated charging. Assuming an average SaaS fee of €18–€25 per vehicle per month for advanced charging optimization, load management, and reporting, the annual TAM ranges from €140 million to €210 million. Additional revenue pools may arise from energy management add-ons and grid services participation, potentially adding 15–20% upside.\n\nSection Competitive Intensity and Positioning\nThe competitive landscape includes established charge point operators (CPOs) such as EnBW and E.ON Drive offering bundled fleet solutions, as well as software specialists like The Mobility House and Driivz providing platform-based management tools. Market concentration remains moderate, with no single provider exceeding an estimated 20% share of dedicated fleet SaaS contracts. Differentiation increasingly centers on interoperability with mixed hardware estates, integration with SAP-based fleet systems, and dynamic tariff optimization under Germany’s time-of-use pricing. A new entrant must demonstrate superior analytics and open API architecture to avoid direct price competition.\n\nSection Regulatory and Compliance Considerations\nDeployment in Germany requires adherence to the Mess- und Eichrecht (calibration law) for metering accuracy and compliance with the Charging Station Ordinance (LSV), including ad-hoc payment capability and transparent pricing disclosure. From 2027 onward, reporting obligations under the revised Energy Industry Act (EnWG) and potential participation in flexibility markets will require secure data exchange with grid operators. Data hosting must align with GDPR standards, particularly regarding telematics and employee vehicle usage data. Subsidy programs such as KfW 441 may support customer acquisition but impose documentation and interoperability requirements.\n\nSection Go-to-Market Strategy Options\nThree primary routes are viable: (1) direct enterprise sales targeting fleets with over 250 vehicles, (2) channel partnerships with hardware installers and energy utilities, or (3) OEM integrations with commercial EV manufacturers. Direct sales offer higher margin control but require a local technical sales force and German-language support capabilities. Partnerships with regional Stadtwerke could accelerate trust and grid integration but reduce pricing leverage. A phased approach—initially partnering with two national installers while piloting anchor clients in logistics—balances speed, credibility, and margin retention.\n\nConfidential – Internal Distribution Only | Page 1 of 1",
+      "section_count": 4,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", what is the projected number of battery-electric vehicles (BEVs) in Germany by end-2027?",
+          "answer": "Germany is projected to exceed 2.3 million BEVs by end-2027.",
+          "assertions": [
+            {
+              "text": "The response must state 'Germany is projected to exceed 2.3 million BEVs by end-2027.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", which charge point operators are mentioned in the competitive landscape?",
+          "answer": "EnBW and E.ON Drive.",
+          "assertions": [
+            {
+              "text": "The response must state 'EnBW and E.ON Drive.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", which law must deployments adhere to for metering accuracy?",
+          "answer": "The Mess- und Eichrecht (calibration law).",
+          "assertions": [
+            {
+              "text": "The response must state 'The Mess- und Eichrecht (calibration law).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", how many primary go-to-market route options are identified?",
+          "answer": "Three primary routes.",
+          "assertions": [
+            {
+              "text": "The response must state 'Three primary routes.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", what fleet size does the direct enterprise sales route target?",
+          "answer": "Fleets with over 250 vehicles.",
+          "assertions": [
+            {
+              "text": "The response must state 'Fleets with over 250 vehicles.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "cx_table_0001_48457631",
+      "table_number": 1,
+      "caption": "Table 1: Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", how many period columns does each version group span?",
+          "answer": "4 (Q1–Q4).",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1–Q4).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what is the Actuals Q3 value for \"Marketing launch (PR, demand gen, events)\"?",
+          "answer": "182 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '182 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what is the \"Regulatory, Compliance & Localization Subtotal\" for Baseline Q1?",
+          "answer": "270 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '270 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", which version shows the highest Q4 value for \"Local sales hiring & onboarding (ramp costs)\"?",
+          "answer": "Actuals (175 vs Baseline 160, $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (175 vs Baseline 160, $000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what is the delta (Net $K) for \"GRAND TOTAL\"?",
+          "answer": "379 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '379 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", how many quarters are represented (Q1–Q4)?",
+          "answer": "4 (Q1–Q4)",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1–Q4).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", how many header tiers does the table use?",
+          "answer": "3 rows",
+          "assertions": [
+            {
+              "text": "The response must state '3 rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", which Actuals amount is larger, 182 or 270?",
+          "answer": "270 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '270 ($000).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what does the ($000) annotation indicate?",
+          "answer": "Values in thousands of dollars.",
+          "assertions": [
+            {
+              "text": "The response must state 'Values in thousands of dollars.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what is the Actuals subtotal for the Competitive Intensity group?",
+          "answer": "182 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '182 ($000).'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "cmp_0002_c1be47d7",
+      "figure_number": 2,
+      "image_path": "cmp_0002_c1be47d7.png",
+      "subtype": "comparison",
+      "caption": "Figure 2: Comparison: Market Entry Strategy Comparison",
+      "title": "Market Entry Strategy Comparison",
+      "theme": "healthcare_teal",
+      "options": [
+        {
+          "name": "Rapid Market Scan",
+          "recommended": false
+        },
+        {
+          "name": "Comprehensive Entry Strategy",
+          "recommended": true
+        },
+        {
+          "name": "Full-Scale Expansion Partnership",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Market Entry Strategy Comparison' diagram, which option is indicated as the recommended choice?",
+          "answer": "Comprehensive Entry Strategy",
+          "assertions": [
+            {
+              "text": "The response must state 'Comprehensive Entry Strategy'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Market Entry Strategy Comparison' diagram, how many options are being compared?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Market Entry Strategy Comparison' diagram, what is the name of the option listed first?",
+          "answer": "Rapid Market Scan",
+          "assertions": [
+            {
+              "text": "The response must state 'Rapid Market Scan'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "table_0002_545c2373",
+      "table_number": 2,
+      "caption": "Table 2: Segment-level SAM build (Germany, 2027): sectors, adoption, and revenue contribution",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "Logistics & last-mile delivery",
+          "Logistics & last-mile delivery SAM (2027): €120M",
+          "1,150 target accounts",
+          "€85,000",
+          "Tier 1 – Primary ICP"
+        ],
+        [
+          "Municipal & public fleets",
+          "Municipal & public fleets SAM (2027): €55M",
+          "420 target accounts",
+          "€95,000",
+          "Tier 1 – Primary ICP"
+        ],
+        [
+          "Utilities & energy services",
+          "Utilities & energy services SAM (2027): €48M",
+          "310 target accounts",
+          "€110,000",
+          "Tier 2 – Secondary ICP"
+        ],
+        [
+          "Retail service fleets",
+          "Retail service fleets SAM (2027): €42M",
+          "680 target accounts",
+          "€60,000",
+          "Tier 2 – Secondary ICP"
+        ],
+        [
+          "Healthcare home services",
+          "Healthcare home services SAM (2027): €30M",
+          "520 target accounts",
+          "€55,000",
+          "Tier 3 – Opportunistic"
+        ],
+        [
+          "Construction & field services",
+          "Construction & field services SAM (2027): €36M",
+          "",
+          "€70,000",
+          "Tier 2 – Expansion ICP"
+        ],
+        [
+          "Telecom field operations",
+          "Telecom field operations SAM (2027): €28M",
+          "260 target accounts",
+          "€105,000",
+          "Tier 3 – Strategic bids"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col4": 580000.0,
+        "max_Col4": 110000.0,
+        "min_Col4": 55000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Segment-level SAM build (Germany, 2027): sectors, adoption, and revenue contribution\", what is the SAM (2027) value listed for Municipal & public fleets?",
+          "answer": "€55M",
+          "assertions": [
+            {
+              "text": "The response must state €55M."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Segment-level SAM build (Germany, 2027): sectors, adoption, and revenue contribution\", how many target accounts are listed for Utilities & energy services?",
+          "answer": "310 target accounts",
+          "assertions": [
+            {
+              "text": "The response must state 310 target accounts."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Segment-level SAM build (Germany, 2027): sectors, adoption, and revenue contribution\", what ICP tier is assigned to Construction & field services?",
+          "answer": "Tier 2 – Expansion ICP",
+          "assertions": [
+            {
+              "text": "The response must state Tier 2 – Expansion ICP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "scan_llm_0001_64adf5d0",
+      "figure_number": 3,
+      "image_path": "scan_llm_data_e5713f43.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 3: Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)",
+        "caption": "Estimated addressable segments, competitive density, and regulatory considerations for a 2027 launch of a fleet charging management SaaS platform in Germany.",
+        "headers": [
+          "Segment",
+          "Est. Fleets",
+          "EV Share 2027",
+          "Top Competitors",
+          "Regulatory Impact"
+        ],
+        "rows": [
+          [
+            "Parcel & Courier",
+            "4,800",
+            "42%",
+            " 6 niche",
+            "High (AFIR + MessEG calibration)"
+          ],
+          [
+            "Food & Grocery Delivery",
+            "3,200",
+            "38%",
+            " 8 niche",
+            "Medium (local grid permits)"
+          ],
+          [
+            "Field Service (Utilities)",
+            "2,100",
+            "35%",
+            " 4 niche",
+            "High (EnWG + smart metering)"
+          ],
+          [
+            "Municipal Fleets",
+            "1,450",
+            "48%",
+            " 5 niche",
+            "High (public procurement law)"
+          ],
+          [
+            "Facility Management",
+            "2,750",
+            "33%",
+            " 7 niche",
+            "Medium (building code updates)"
+          ],
+          [
+            "Corporate Car Pools",
+            "6,900",
+            "29%",
+            " 10 niche",
+            "Low-Medium (workplace charging tax rules)"
+          ],
+          [
+            "Healthcare Transport",
+            "1,100",
+            "31%",
+            " 3 niche",
+            "Medium (regional subsidies)"
+          ],
+          [
+            "Airport Ground Ops",
+            "22 (major hubs)",
+            "54%",
+            " 2 niche",
+            "High (aviation authority approvals)"
+          ],
+          [
+            "Logistics (Long-Haul)",
+            "3,600",
+            "24%",
+            " 6 niche",
+            "High (HPC corridor compliance)"
+          ],
+          [
+            "Retail Service Fleets",
+            "5,300",
+            "27%",
+            " 9 niche",
+            "Low (standard commercial tariffs)"
+          ],
+          [
+            "Construction & Trades",
+            "4,200",
+            "19%",
+            " 5 niche",
+            "Medium (temporary site grid access)"
+          ]
+        ],
+        "summary_note": "Municipal, airport, and parcel segments show the highest EV penetration but also face heavier regulatory oversight. Competitive intensity is fragmented across most verticals, suggesting room for a differentiated SaaS entrant with compliance-focused features.",
+        "date": "January 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Segment",
+        "Est. Fleets",
+        "EV Share 2027",
+        "Top Competitors",
+        "Regulatory Impact"
+      ],
+      "cells": [
+        [
+          "Parcel & Courier",
+          "4,800",
+          "42%",
+          " 6 niche",
+          "High (AFIR + MessEG calibration)"
+        ],
+        [
+          "Food & Grocery Delivery",
+          "3,200",
+          "38%",
+          " 8 niche",
+          "Medium (local grid permits)"
+        ],
+        [
+          "Field Service (Utilities)",
+          "2,100",
+          "35%",
+          " 4 niche",
+          "High (EnWG + smart metering)"
+        ],
+        [
+          "Municipal Fleets",
+          "1,450",
+          "48%",
+          " 5 niche",
+          "High (public procurement law)"
+        ],
+        [
+          "Facility Management",
+          "2,750",
+          "33%",
+          " 7 niche",
+          "Medium (building code updates)"
+        ],
+        [
+          "Corporate Car Pools",
+          "6,900",
+          "29%",
+          " 10 niche",
+          "Low-Medium (workplace charging tax rules)"
+        ],
+        [
+          "Healthcare Transport",
+          "1,100",
+          "31%",
+          " 3 niche",
+          "Medium (regional subsidies)"
+        ],
+        [
+          "Airport Ground Ops",
+          "22 (major hubs)",
+          "54%",
+          " 2 niche",
+          "High (aviation authority approvals)"
+        ],
+        [
+          "Logistics (Long-Haul)",
+          "3,600",
+          "24%",
+          " 6 niche",
+          "High (HPC corridor compliance)"
+        ],
+        [
+          "Retail Service Fleets",
+          "5,300",
+          "27%",
+          " 9 niche",
+          "Low (standard commercial tariffs)"
+        ],
+        [
+          "Construction & Trades",
+          "4,200",
+          "19%",
+          " 5 niche",
+          "Medium (temporary site grid access)"
+        ]
+      ],
+      "row_count": 11,
+      "col_count": 5,
+      "summary": "Municipal, airport, and parcel segments show the highest EV penetration but also face heavier regulatory oversight. Competitive intensity is fragmented across most verticals, suggesting room for a differentiated SaaS entrant with compliance-focused features.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", what is the EV share projected for Parcel & Courier in 2027?",
+          "answer": "42%.",
+          "assertions": [
+            {
+              "text": "The response must state '42%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", how many total rows does the table contain?",
+          "answer": "11 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '11 rows.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", what is the estimated number of fleets for Corporate Car Pools?",
+          "answer": "6,900 fleets.",
+          "assertions": [
+            {
+              "text": "The response must state '6,900 fleets.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", which segments are noted as having the highest EV penetration?",
+          "answer": "Municipal, airport, and parcel segments.",
+          "assertions": [
+            {
+              "text": "The response must state 'Municipal, airport, and parcel segments.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", which segment lists 'High (public procurement law)' as the regulatory impact?",
+          "answer": "Municipal Fleets.",
+          "assertions": [
+            {
+              "text": "The response must state 'Municipal Fleets.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_bfd6d325",
+      "table_number": 3,
+      "caption": "Table 3: Employee Activity Report",
+      "columns": [
+        "Employee Name",
+        "Role",
+        "Workstream",
+        "Hours Logged",
+        "Key Output Metric"
+      ],
+      "row_count": 67,
+      "cells": [
+        [
+          "Aisha Khan",
+          "Market Analyst",
+          "TAM Sizing",
+          "42",
+          "Market size model covering 5 segments"
+        ],
+        [
+          "Daniel Ruiz",
+          "Research Associate",
+          "Competitive Analysis",
+          "38",
+          "Profiled 12 key competitors"
+        ],
+        [
+          "Mei Chen",
+          "Regulatory Specialist",
+          "Regulatory Review",
+          "35",
+          "Summarized 18 regulatory requirements"
+        ],
+        [
+          "Liam O'Connor",
+          "Strategy Consultant",
+          "Go-to-Market Strategy",
+          "44",
+          "Drafted 3 GTM scenarios"
+        ],
+        [
+          "Sofia Martinez",
+          "Data Analyst",
+          "Market Sizing Model",
+          "40",
+          "Validated dataset with 25,000 data points"
+        ],
+        [
+          "Noah Johnson",
+          "Industry Expert",
+          "Competitive Benchmarking",
+          "30",
+          "Benchmarked pricing across 8 markets"
+        ],
+        [
+          "Emma Schmidt",
+          "Policy Analyst",
+          "Compliance Assessment",
+          "33",
+          "Mapped 10 licensing processes"
+        ],
+        [
+          "Raj Patel",
+          "Financial Analyst",
+          "Revenue Forecasting",
+          "41",
+          "Built 5-year forecast model"
+        ],
+        [
+          "Olivia Brown",
+          "Research Associate",
+          "Customer Segmentation",
+          "37",
+          "Identified 6 priority customer segments"
+        ],
+        [
+          "Ethan Wilson",
+          "Strategy Consultant",
+          "Channel Strategy",
+          "39",
+          "Evaluated 7 distribution partners"
+        ],
+        [
+          "Isabella Rossi",
+          "Market Analyst",
+          "Demand Analysis",
+          "36",
+          "Analyzed demand trends over 10 years"
+        ],
+        [
+          "Lucas Dubois",
+          "Risk Analyst",
+          "Risk Assessment",
+          "34",
+          "Documented 14 key market risks"
+        ],
+        [
+          "Maya Singh",
+          "Project Manager",
+          "Project Coordination",
+          "45",
+          "Coordinated 9 cross-functional meetings"
+        ],
+        [
+          "Benjamin Lee",
+          "Data Scientist",
+          "Data Validation",
+          "43",
+          "Cleaned and processed 120,000 records"
+        ],
+        [
+          "Chloe Martin",
+          "Communications Lead",
+          "Stakeholder Reporting",
+          "32",
+          "Prepared 4 executive briefings"
+        ],
+        [
+          "Rowan Patel",
+          "Market Research Analyst",
+          "Total Addressable Market Sizing",
+          "7.5",
+          "Refined TAM model with updated industry revenue data"
+        ],
+        [
+          "Elena Fischer",
+          "Competitive Intelligence Lead",
+          "Competitive Landscape Analysis",
+          "8.0",
+          "Benchmarked 12 key competitors across pricing and positioning"
+        ],
+        [
+          "Marcus Liu",
+          "Financial Analyst",
+          "Revenue Forecasting",
+          "6.5",
+          "Built 5-year revenue projection model"
+        ],
+        [
+          "Sofia Alvarez",
+          "Regulatory Affairs Specialist",
+          "Regulatory Assessment",
+          "7.0",
+          "Summarized market entry compliance requirements for 3 regions"
+        ],
+        [
+          "Daniel Okoye",
+          "Strategy Consultant",
+          "Market Entry Strategy",
+          "8.5",
+          "Drafted go-to-market entry scenarios"
+        ],
+        [
+          "Chloe Martin",
+          "Data Analyst",
+          "Customer Segmentation",
+          "6.0",
+          "Clustered target customers into 4 priority segments"
+        ],
+        [
+          "Liam O'Connor",
+          "Industry Analyst",
+          "Industry Trend Analysis",
+          "7.5",
+          "Identified 6 macro trends impacting market growth"
+        ],
+        [
+          "Aisha Rahman",
+          "Risk Analyst",
+          "Risk Assessment",
+          "6.5",
+          "Developed risk matrix with mitigation recommendations"
+        ],
+        [
+          "Jonas Weber",
+          "Pricing Strategist",
+          "Pricing Analysis",
+          "7.0",
+          "Modeled optimal pricing strategy under 3 scenarios"
+        ],
+        [
+          "Maya Chen",
+          "Research Associate",
+          "Primary Research",
+          "8.0",
+          "Conducted 10 stakeholder interviews and summarized insights"
+        ],
+        [
+          "Ethan Brown",
+          "Operations Analyst",
+          "Operational Feasibility",
+          "6.0",
+          "Outlined supply chain entry requirements"
+        ],
+        [
+          "Isabella Rossi",
+          "Partnerships Manager",
+          "Channel Strategy",
+          "7.5",
+          "Mapped potential distribution partners in target market"
+        ],
+        [
+          "Noah Johnson",
+          "Business Analyst",
+          "Market Share Analysis",
+          "6.5",
+          "Estimated current competitor market shares"
+        ],
+        [
+          "Grace Kim",
+          "Consulting Associate",
+          "Synthesis & Reporting",
+          "8.0",
+          "Prepared executive-ready summary slides"
+        ],
+        [
+          "Victor Dubois",
+          "Project Manager",
+          "Project Coordination",
+          "7.0",
+          "Consolidated cross-workstream deliverables and timelines"
+        ],
+        [
+          "Rowan Patel",
+          "Market Research Analyst",
+          "Total Addressable Market Sizing",
+          "42",
+          "Built bottom-up TAM model covering 12 customer segments"
+        ],
+        [
+          "Elena Fischer",
+          "Strategy Consultant",
+          "Competitive Landscape Analysis",
+          "38",
+          "Profiled 18 key competitors with market share estimates"
+        ],
+        [
+          "Marcus Liu",
+          "Financial Analyst",
+          "Revenue Forecast Modeling",
+          "45",
+          "Developed 5-year revenue projection with 3 scenario cases"
+        ],
+        [
+          "Sofia Ramirez",
+          "Regulatory Specialist",
+          "Regulatory Environment Review",
+          "29",
+          "Summarized compliance requirements across 4 jurisdictions"
+        ],
+        [
+          "Daniel Okoye",
+          "Data Analyst",
+          "Customer Segmentation",
+          "41",
+          "Clustered 2,500 survey responses into 6 target personas"
+        ],
+        [
+          "Chloe Martin",
+          "Industry Expert",
+          "Market Trends Assessment",
+          "34",
+          "Identified 7 macro trends impacting market entry timing"
+        ],
+        [
+          "James O'Connor",
+          "Operations Consultant",
+          "Go-to-Market Strategy",
+          "37",
+          "Outlined phased rollout plan for 3 priority regions"
+        ],
+        [
+          "Aisha Khan",
+          "Risk Analyst",
+          "Risk Assessment",
+          "31",
+          "Created risk matrix with 15 quantified risk factors"
+        ],
+        [
+          "Lukas Weber",
+          "Pricing Strategist",
+          "Pricing Benchmarking",
+          "36",
+          "Benchmarked pricing across 22 competitor SKUs"
+        ],
+        [
+          "Mia Chen",
+          "Business Analyst",
+          "Demand Forecasting",
+          "40",
+          "Produced quarterly demand forecast with ±5% variance"
+        ],
+        [
+          "Noah Johnson",
+          "Research Associate",
+          "Secondary Research",
+          "28",
+          "Compiled 120-page evidence pack from 55 data sources"
+        ],
+        [
+          "Isabella Rossi",
+          "Partnerships Manager",
+          "Channel Strategy",
+          "33",
+          "Mapped 14 potential distribution partners"
+        ],
+        [
+          "Ethan Brown",
+          "Competitive Intelligence Analyst",
+          "Competitive Intensity Analysis",
+          "39",
+          "Delivered Porter’s Five Forces assessment with scoring model"
+        ],
+        [
+          "Grace Kim",
+          "Project Manager",
+          "Project Coordination",
+          "44",
+          "Maintained timeline adherence within 3% of planned schedule"
+        ],
+        [
+          "Victor Alvarez",
+          "Presentation Specialist",
+          "Executive Reporting",
+          "27",
+          "Designed 60-slide executive-ready market entry deck"
+        ],
+        [
+          "Row 46 - Priya Nair",
+          "Market Research Analyst",
+          "TAM Sizing",
+          "7.5",
+          "Refined bottom-up market model for 3 segments"
+        ],
+        [
+          "Row 47 - Daniel Wu",
+          "Strategy Consultant",
+          "Competitive Analysis",
+          "8",
+          "Delivered competitor benchmarking matrix (12 firms)"
+        ],
+        [
+          "Row 48 - Sofia Martinez",
+          "Financial Analyst",
+          "Revenue Forecasting",
+          "6.5",
+          "Updated 5-year revenue projection model"
+        ],
+        [
+          "Row 49 - Liam O'Connor",
+          "Regulatory Specialist",
+          "Regulatory Review",
+          "7",
+          "Summarized licensing requirements across 4 regions"
+        ],
+        [
+          "Row 50 - Aisha Khan",
+          "Data Analyst",
+          "Market Segmentation",
+          "8.5",
+          "Clustered customer base into 5 priority segments"
+        ],
+        [
+          "Row 51 - Marcus Johansson",
+          "Industry Expert",
+          "Expert Interviews",
+          "5",
+          "Conducted 3 stakeholder interviews"
+        ],
+        [
+          "Row 52 - Chloe Smith",
+          "Research Associate",
+          "Secondary Research",
+          "6",
+          "Compiled 25 industry data sources"
+        ],
+        [
+          "Row 53 - Ethan Brown",
+          "Business Analyst",
+          "Pricing Analysis",
+          "7.5",
+          "Benchmarked pricing across 10 competitors"
+        ],
+        [
+          "Row 54 - Isabella Rossi",
+          "Strategy Consultant",
+          "Go-to-Market Strategy",
+          "8",
+          "Drafted channel strategy recommendations"
+        ],
+        [
+          "Row 55 - Noah Kim",
+          "Data Scientist",
+          "Demand Modeling",
+          "9",
+          "Built demand sensitivity model with 4 scenarios"
+        ],
+        [
+          "Row 56 - Elena Petrova",
+          "Policy Analyst",
+          "Compliance Assessment",
+          "6",
+          "Outlined regulatory risk heatmap"
+        ],
+        [
+          "Row 57 - James Carter",
+          "Project Manager",
+          "Project Coordination",
+          "7",
+          "Updated project timeline and milestone tracker"
+        ],
+        [
+          "Row 58 - Fatima Al-Mansoori",
+          "Market Research Analyst",
+          "Customer Insights",
+          "8",
+          "Analyzed survey results (n=450)"
+        ],
+        [
+          "Row 59 - Lucas Meyer",
+          "Competitive Intelligence Analyst",
+          "Competitive Landscape",
+          "7.5",
+          "Mapped market share estimates for top 8 players"
+        ],
+        [
+          "Row 60 - Hannah Lee",
+          "Senior Consultant",
+          "Executive Synthesis",
+          "6.5",
+          "Prepared draft executive summary deck"
+        ],
+        [
+          "Row 61 - Maya Chen",
+          "Senior Market Analyst",
+          "TAM Sizing",
+          "42",
+          "Built bottom-up market model covering 12 segments"
+        ],
+        [
+          "Row 62 - Daniel Okafor",
+          "Competitive Intelligence Lead",
+          "Competitive Analysis",
+          "38",
+          "Delivered competitor benchmarking matrix (15 firms)"
+        ],
+        [
+          "Row 63 - Sofia Martinez",
+          "Regulatory Specialist",
+          "Regulatory Review",
+          "35",
+          "Summarized compliance requirements across 4 jurisdictions"
+        ],
+        [
+          "Row 64 - Liam O'Connor",
+          "Data Scientist",
+          "Demand Forecasting",
+          "40",
+          "Developed 5-year demand forecast with scenario analysis"
+        ],
+        [
+          "Row 65 - Aisha Rahman",
+          "Strategy Consultant",
+          "Market Entry Strategy",
+          "44",
+          "Drafted entry mode recommendations with risk assessment"
+        ],
+        [
+          "Row 66 - Benjamin Lee",
+          "Research Associate",
+          "Customer Segmentation",
+          "36",
+          "Identified 6 priority customer segments with sizing estimates"
+        ],
+        [
+          "Row 67 - Elena Petrova",
+          "Financial Analyst",
+          "Financial Modeling",
+          "41",
+          "Built investment case model with NPV and IRR outputs"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Hours Logged": 1604.5,
+        "max_Hours Logged": 45.0,
+        "min_Hours Logged": 5.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", how many hours did Maya Singh log?",
+          "answer": "45",
+          "assertions": [
+            {
+              "text": "The response must state 45."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Key Output Metric for Elena Petrova?",
+          "answer": "Built investment case model with NPV and IRR outputs",
+          "assertions": [
+            {
+              "text": "The response must state Built investment case model with NPV and IRR outputs."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Workstream listed for Liam O'Connor?",
+          "answer": "Regulatory Review",
+          "assertions": [
+            {
+              "text": "The response must state Regulatory Review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0004_ba8e083c",
+      "table_number": 4,
+      "caption": "Table 4: Regulatory and compliance checklist for Germany entry (effective dates, obligations, and owner)",
+      "columns": [
+        " Requirement",
+        "Jurisdiction",
+        "Core Obligation",
+        " Enforcement Date",
+        "Business Impact Area",
+        "Required Workstream",
+        "Owner",
+        "Target Completion",
+        "Status",
+        "Risk Level",
+        "Notes"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "1804)",
+          "European Union",
+          "Minimum technical and interoperability requirements for public EV charging infrastructure; pricing transparency; ad-hoc payment access",
+          "13 April 2024",
+          "Product hardware, pricing model, roaming integration",
+          "Hardware compliance gap assessment and retrofit roadmap",
+          "Head of Product & Engineering",
+          "Q1 2027",
+          "In progress",
+          "High",
+          "1804) effective date: 13 April 2024"
+        ],
+        [
+          "679)",
+          "European Union",
+          "Lawful processing of personal data; data subject rights; DPIA; breach notification within 72 hours",
+          "25 May 2018",
+          "Customer app, CRM, analytics, marketing",
+          "Data mapping, DPIA execution, consent management implementation",
+          "Chief Data Protection Officer",
+          "Q4 2026",
+          "In progress",
+          "High",
+          "679) enforcement start: 25 May 2018"
+        ],
+        [
+          "MessEV)",
+          "Germany",
+          "Calibration and transparency requirements for energy measurement devices used for billing",
+          "Ongoing (national law in force)",
+          "Revenue assurance, billing systems, charger metering hardware",
+          "Certification of meters and integration of Eichrecht-compliant transparency software",
+          "Head of Operations Germany",
+          "Q2 2027",
+          "Planned",
+          "High",
+          "MessEV) relevance: Billing-grade meter compliance for kWh invoicing"
+        ],
+        [
+          "EU)",
+          "European Union",
+          "Electrical safety compliance for equipment within voltage limits",
+          "20 April 2016",
+          "Charger hardware design and CE marking",
+          "Technical file preparation and CE conformity assessment",
+          "Engineering Compliance Lead",
+          "Q3 2026",
+          "In progress",
+          "Medium",
+          "Required for CE marking prior to commercialization"
+        ],
+        [
+          "EU)",
+          "European Union",
+          "Electromagnetic compatibility of electrical equipment",
+          "20 April 2016",
+          "Hardware testing and certification",
+          "EMC lab testing and documentation update",
+          "Engineering Compliance Lead",
+          "Q3 2026",
+          "In progress",
+          "Medium",
+          "Testing bundled with LVD assessment"
+        ],
+        [
+          "Alternative Fuels Infrastructure Reporting Obligations",
+          "Germany",
+          "Submission of infrastructure data to national authorities (e.g., Bundesnetzagentur)",
+          "Aligned with AFIR national transposition timelines (2024–2025)",
+          "Regulatory reporting, data systems",
+          "Automated regulatory reporting module development",
+          "Regulatory Affairs Manager",
+          "Q1 2027",
+          "Planned",
+          "Medium",
+          "Ensure compatibility with federal reporting portals"
+        ],
+        [
+          "Payment Services Directive 2 (PSD2)",
+          "European Union",
+          "Strong customer authentication (SCA) for electronic payments",
+          "14 September 2019",
+          "Payment terminals, mobile app payments",
+          "SCA integration and PCI-DSS alignment",
+          "Head of Payments",
+          "Q4 2026",
+          "In progress",
+          "Medium",
+          "Applies to contactless and remote payment flows"
+        ],
+        [
+          "IEC 27001 Information Security Management",
+          " EU best practice",
+          "Establish certified ISMS covering infrastructure, cloud, and operations",
+          "Target certification by Q4 2027",
+          "IT systems, cloud infrastructure, customer data",
+          "ISMS implementation, risk assessment, internal audits, certification audit",
+          "Chief Information Security Officer",
+          "Q4 2027",
+          "Planned",
+          "High",
+          "IEC 27001 certification by Q4 2027"
+        ],
+        [
+          "2555",
+          " Germany",
+          "important entities",
+          "Transposition deadline 17 October 2024",
+          "Network operations, backend systems",
+          "Cybersecurity maturity uplift and incident response playbooks",
+          "CISO",
+          "Q2 2027",
+          "In progress",
+          "High",
+          "Assess classification as important entity in Germany"
+        ],
+        [
+          "German Energy Industry Act (EnWG)",
+          "Germany",
+          "Grid connection rules and energy market participation compliance",
+          "Ongoing (as amended)",
+          "Grid interconnection, tariffs, energy resale",
+          "Legal review and grid contract standardization",
+          "Head of Energy Markets",
+          "Q1 2027",
+          "Planned",
+          "Medium",
+          "Required for operating public charging network"
+        ],
+        [
+          "Accessibility Strengthening Act (BFSG)",
+          "Germany",
+          "Accessibility requirements for certain digital services and terminals",
+          "28 June 2025 applicability",
+          "UX, payment terminals",
+          "Accessibility audit and UI redesign to WCAG 2.1 AA standard",
+          "Product Design Lead",
+          "Q2 2027",
+          "Not started",
+          "Medium",
+          "Applies to consumer-facing digital interfaces in Germany"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "1804)?",
+          "answer": "13 April 2024",
+          "assertions": [
+            {
+              "text": "The response must state 13 April 2024."
+            }
+          ]
+        },
+        {
+          "question": "679)?",
+          "answer": "Chief Data Protection Officer",
+          "assertions": [
+            {
+              "text": "The response must state Chief Data Protection Officer."
+            }
+          ]
+        },
+        {
+          "question": "IEC 27001 Information Security Management?",
+          "answer": "Q4 2027",
+          "assertions": [
+            {
+              "text": "The response must state Q4 2027."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "cx_table_0000_37b582f0",
+      "table_number": 5,
+      "caption": "Table 5: Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", how many period columns does each version group span?",
+          "answer": "4 period columns (Q1–Q4).",
+          "assertions": [
+            {
+              "text": "The response must state '4 period columns (Q1–Q4).'."
+            }
+          ]
+        },
+        {
+          "question": "SOC gap closure)\"?",
+          "answer": "92 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '92 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", what is the \"Regulatory & Compliance Readiness Subtotal\" for Baseline Q1?",
+          "answer": "225 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '225 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", which version shows the highest Q4 value for \"Serviceable Obtainable Market (SOM) — addressable in-year\"?",
+          "answer": "Actuals (430 vs Baseline 395, $000).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (430 vs Baseline 395, $000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", what is the delta (Net $K) for \"GRAND TOTAL\"?",
+          "answer": "417.",
+          "assertions": [
+            {
+              "text": "The response must state '417.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", how many period columns are shown?",
+          "answer": "4 (Q1–Q4)",
+          "assertions": [
+            {
+              "text": "The response must state '4 (Q1–Q4)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", how many data rows are listed?",
+          "answer": "25",
+          "assertions": [
+            {
+              "text": "The response must state '25'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", which dollar amount is larger, $92 or $225?",
+          "answer": "225 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '225 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", what does footnote 1 explain?",
+          "answer": "No footnotes specified",
+          "assertions": [
+            {
+              "text": "The response must state 'No footnotes specified'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", what is the subtotal for the group 'Year 1 TAM Build' in the Baseline column?",
+          "answer": "Not specified",
+          "assertions": [
+            {
+              "text": "The response must state 'Not specified'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "image",
+      "variant_id": "dash_0004_78b9a905",
+      "figure_number": 4,
+      "image_path": "dash_0004_78b9a905.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 4: Dashboard: Market Entry Feasibility Dashboard",
+      "title": "Market Entry Feasibility Dashboard",
+      "theme": "burgundy_legal",
+      "subtitle": "TAM, Competitive Intensity & Go-to-Market Metrics",
+      "period_badge": "FY 2026 Planning",
+      "kpis": [
+        {
+          "label": "Total Addressable Market (TAM)",
+          "value": "$2.4B",
+          "delta": "+8.5%",
+          "trend": "up",
+          "sparkline": [
+            1.9,
+            2.0,
+            2.1,
+            2.2,
+            2.4
+          ]
+        },
+        {
+          "label": "Serviceable Obtainable Market (SOM)",
+          "value": "$185M",
+          "delta": "+5.2%",
+          "trend": "up",
+          "sparkline": [
+            150,
+            160,
+            170,
+            178,
+            185
+          ]
+        },
+        {
+          "label": "Competitive Intensity Index",
+          "value": " 10",
+          "delta": "-3.1%",
+          "trend": "down",
+          "sparkline": [
+            7.8,
+            7.6,
+            7.5,
+            7.3,
+            7.2
+          ]
+        },
+        {
+          "label": "Regulatory Complexity Score",
+          "value": " 10",
+          "delta": "+4.0%",
+          "trend": "up",
+          "sparkline": [
+            5.8,
+            6.0,
+            6.2,
+            6.4,
+            6.5
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Market Size by Segment ($M)",
+        "labels": [
+          "Enterprise",
+          "Mid-Market",
+          "SMB",
+          "Public Sector"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              980,
+              620,
+              540,
+              260
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              910,
+              580,
+              500,
+              240
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise segment represents largest immediate revenue pool at $980M",
+        "Competitive intensity easing slightly as two smaller players exit market",
+        "Regulatory approval timelines average 6–9 months, impacting launch sequencing"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Market Entry Feasibility Dashboard', what subtitle appears beneath the title?",
+          "answer": "TAM, Competitive Intensity & Go-to-Market Metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'TAM, Competitive Intensity & Go-to-Market Metrics'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Market Entry Feasibility Dashboard', what is the value shown for the Total Addressable Market (TAM)?",
+          "answer": "$2.4B",
+          "assertions": [
+            {
+              "text": "The response must state '$2.4B'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Market Entry Feasibility Dashboard', what period badge is displayed?",
+          "answer": "FY 2026 Planning",
+          "assertions": [
+            {
+              "text": "The response must state 'FY 2026 Planning'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "cx_table_0002_5668e7ea",
+      "table_number": 6,
+      "caption": "Table 6: Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", how many sub-columns does each period group span?",
+          "answer": "3 sub-columns (Actual, Target, Attain%).",
+          "assertions": [
+            {
+              "text": "The response must state '3 sub-columns (Actual, Target, Attain%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what is the H1 Attainment% for \"Serviceable Obtainable Market (SOM) — 24-mo view\"?",
+          "answer": "93%.",
+          "assertions": [
+            {
+              "text": "The response must state '93%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", how many metrics does the \"Regulatory & Compliance\" category rowspan cover?",
+          "answer": "3 metrics.",
+          "assertions": [
+            {
+              "text": "The response must state '3 metrics.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", which metric has the lower H2 attainment in the \"Competitive Intensity\" category?",
+          "answer": "Average Discount vs List (weighted) at 88%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Average Discount vs List (weighted) at 88%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what is the H2 target for \"Qualified Pipeline Coverage (next-2Q)\"?",
+          "answer": "$12.5M.",
+          "assertions": [
+            {
+              "text": "The response must state '$12.5M.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what is the Attain% value shown?",
+          "answer": "93%",
+          "assertions": [
+            {
+              "text": "The response must state '93%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", how many sub-columns fall under the H1 header?",
+          "answer": "3 (Actual, Target, Attain%)",
+          "assertions": [
+            {
+              "text": "The response must state '3 (Actual, Target, Attain%)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", which is larger: the number of header tiers or the number of data rows?",
+          "answer": "Data rows (19)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (19)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what does footnote 1 explain?",
+          "answer": "No footnotes provided.",
+          "assertions": [
+            {
+              "text": "The response must state 'No footnotes provided.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what is the subtotal for the Category group in the data rows column?",
+          "answer": "19",
+          "assertions": [
+            {
+              "text": "The response must state '19'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "table_0005_083cb573",
+      "table_number": 7,
+      "caption": "telematics channel",
+      "columns": [
+        "Go-to-Market Path",
+        "Level of Control",
+        "2027 GTM Budget",
+        "Expected 3-Year Revenue",
+        "Time to Revenue",
+        "Strategic Notes",
+        "Key Risks"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "Direct Sales-Led Expansion",
+          "High",
+          "€65.M",
+          "€28M",
+          "9–12 months",
+          "Build local sales team; highest margin but capital intensive",
+          "High CAC, slower territory ramp"
+        ],
+        [
+          "Partner-led (Recommended motion: Partner-led)",
+          "Medium",
+          "€4.8M (2027 GTM budget (recommended motion): €4.8M)",
+          "€24M",
+          "6–9 months",
+          "Leverage regional integrators; faster scale with lower fixed cost; Payback target: 12 months",
+          "Channel conflict, partner dependency"
+        ],
+        [
+          "Distributor Model",
+          "Low",
+          "€3.2M",
+          "€18M",
+          "6 months",
+          "Best for rapid geographic coverage in fragmented markets",
+          "Limited brand control, lower margins"
+        ],
+        [
+          "Joint Venture",
+          "Shared",
+          "€7.8M",
+          "€30M",
+          "12–18 months",
+          "Suitable for highly regulated sectors requiring local ownership",
+          "Governance complexity, regulatory delays"
+        ],
+        [
+          "Acquisition of Local Player",
+          "High",
+          "€22M (incl. acquisition cost)",
+          "€35M",
+          "3–6 months",
+          "Immediate customer base and regulatory approvals",
+          "Integration irsk, upfront capital outlay"
+        ],
+        [
+          " Inside Sales",
+          "Medium",
+          "€2.9M",
+          "€15M",
+          "4–6 months",
+          "Focus on mid-market; scalable but limited for large named accounts",
+          "Lower enterprise penetration, brand visibility challenges"
+        ],
+        [
+          "Hybrid (Partner + Direct Overlay)",
+          "High",
+          "€5.6M",
+          "€32M",
+          "6–9 months",
+          "Named accounts targeted (2027): 120; combines strategic direct coverage with partner fulfillment",
+          "Higher coordination costs"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "telematics channel\", what is the 2027 GTM Budget for Direct Sales-Led Expansion?",
+          "answer": "€65.M",
+          "assertions": [
+            {
+              "text": "The response must state €65.M."
+            }
+          ]
+        },
+        {
+          "question": "telematics channel\", what is the Time to Revenue for Joint Venture?",
+          "answer": "12–18 months",
+          "assertions": [
+            {
+              "text": "The response must state 12–18 months."
+            }
+          ]
+        },
+        {
+          "question": "telematics channel\", what is the Strategic Notes entry for Hybrid (Partner + Direct Overlay)?",
+          "answer": "Named accounts targeted (2027): 120; combines strategic direct coverage with partner fulfillment",
+          "assertions": [
+            {
+              "text": "The response must state Named accounts targeted (2027): 120; combines strategic direct coverage with partner fulfillment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "table_0001_0ec54663",
+      "table_number": 8,
+      "caption": "Table 8: Bottom-up demand drivers: target fleet counts, chargers, and software pricing assumptions (Germany, 2027)",
+      "columns": [
+        "Col1",
+        "Col3",
+        "Col4",
+        "Col2"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Target fleets (50+ vehicles, 6 sectors): 18,500",
+          "Fleet size threshold: 50+ vehicles",
+          "Source: Industry registries & transport associations (2025)",
+          "Geographic scope: EU5 + Nordics"
+        ],
+        [
+          "Average depot chargers per target fleet: 14",
+          "Charger-to-vehicle ratio: 0.65",
+          "Assumes phased electrification (60% EV mix)",
+          "Derived from average electrified fleet size (22 vehicles)"
+        ],
+        [
+          "Managed chargers in SAM scope (2027): 259,000",
+          "Penetration into SAM: 100% of target fleets",
+          "Excludes public CPO-only sites",
+          "18,500 fleets × 14 chargers"
+        ],
+        [
+          "Software price assumption: €18 per charger per month",
+          "Includes monitoring, smart charging, reporting",
+          "Excludes hardware margin",
+          "SaaS platform fee"
+        ],
+        [
+          "Annual revenue per charger",
+          "€18 × 12 months",
+          "Recurring SaaS revenue only",
+          "€216 per year"
+        ],
+        [
+          "Estimated SAM revenue (2027)",
+          "259,000 chargers × €216",
+          "Sensitivity range: €48m–€63m",
+          "€55.9m annually"
+        ],
+        [
+          "Hardware attach rate",
+          "Optional energy management module",
+          "One-off €1,200 per charger (not in TAM SaaS)",
+          "70% of new depot installations"
+        ],
+        [
+          "Gross margin (software)",
+          "Cloud hosting & support costs included",
+          "Target EBITDA margin: 35% by 2028",
+          "78%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col2": 78.0,
+        "max_Col2": 78.0,
+        "min_Col2": 78.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Bottom-up demand drivers: target fleet counts, chargers, and software pricing assumptions (Germany, 2027)\", what is the value listed for Managed chargers in SAM scope (2027)?",
+          "answer": "259,000",
+          "assertions": [
+            {
+              "text": "The response must state 259,000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Bottom-up demand drivers: target fleet counts, chargers, and software pricing assumptions (Germany, 2027)\", what is the software price assumption per charger per month?",
+          "answer": "€18 per charger per month",
+          "assertions": [
+            {
+              "text": "The response must state €18 per charger per month."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Bottom-up demand drivers: target fleet counts, chargers, and software pricing assumptions (Germany, 2027)\", what is the gross margin (software)?",
+          "answer": "78%",
+          "assertions": [
+            {
+              "text": "The response must state 78%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "image",
+      "variant_id": "cmp_0006_673aae52",
+      "figure_number": 5,
+      "image_path": "cmp_0006_673aae52.png",
+      "subtype": "comparison",
+      "caption": "Figure 5: Comparison: Market Entry Strategy Comparison",
+      "title": "Market Entry Strategy Comparison",
+      "theme": "burgundy_legal",
+      "options": [
+        {
+          "name": "Internal Market Study",
+          "recommended": false
+        },
+        {
+          "name": "Specialist Consulting Firm",
+          "recommended": true
+        },
+        {
+          "name": "Hybrid Advisory Model",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "Viewing the 'Market Entry Strategy Comparison', which choice is shown as the recommended option?",
+          "answer": "Specialist Consulting Firm",
+          "assertions": [
+            {
+              "text": "The response must state 'Specialist Consulting Firm'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Market Entry Strategy Comparison', what is the subtitle displayed under the title?",
+          "answer": "Assessment approaches for new geography or category launch",
+          "assertions": [
+            {
+              "text": "The response must state 'Assessment approaches for new geography or category launch'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Market Entry Strategy Comparison', how many options are presented?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "dash_0000_97f4fcff",
+      "figure_number": 6,
+      "image_path": "dash_0000_97f4fcff.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 6: Dashboard: APAC Market Entry Assessment",
+      "title": "APAC Market Entry Assessment",
+      "theme": "emerald_finance",
+      "subtitle": "TAM, Competition & Go-To-Market Metrics",
+      "period_badge": "FY 2026 Planning",
+      "kpis": [
+        {
+          "label": "Total Addressable Market (TAM)",
+          "value": "$4.8B",
+          "delta": "+12%",
+          "trend": "up",
+          "sparkline": [
+            3.9,
+            4.1,
+            4.3,
+            4.5,
+            4.8
+          ]
+        },
+        {
+          "label": "Competitive Intensity Index",
+          "value": " 10",
+          "delta": "+8%",
+          "trend": "up",
+          "sparkline": [
+            6.2,
+            6.5,
+            6.9,
+            7.1,
+            7.4
+          ]
+        },
+        {
+          "label": "Regulatory Complexity Score",
+          "value": " 10",
+          "delta": "-5%",
+          "trend": "down",
+          "sparkline": [
+            6.8,
+            6.6,
+            6.4,
+            6.3,
+            6.1
+          ]
+        },
+        {
+          "label": "Projected 3-Year Revenue",
+          "value": "$185M",
+          "delta": "+18%",
+          "trend": "up",
+          "sparkline": [
+            120,
+            135,
+            150,
+            168,
+            185
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "TAM by Segment",
+        "labels": [
+          "Enterprise",
+          "Mid-Market",
+          "SMB",
+          "Public Sector"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              2200,
+              1400,
+              800,
+              400
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              2000,
+              1250,
+              720,
+              350
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise segment represents 46% of total TAM",
+        "Competitive intensity rising due to 3 new entrants",
+        "Regulatory burden easing following updated trade framework"
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'APAC Market Entry Assessment' dashboard, what value is displayed for the Total Addressable Market (TAM) KPI?",
+          "answer": "$4.8B",
+          "assertions": [
+            {
+              "text": "The response must state '$4.8B'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'APAC Market Entry Assessment', what subtitle appears beneath the title?",
+          "answer": "TAM, Competition & Go-To-Market Metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'TAM, Competition & Go-To-Market Metrics'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the callouts on the 'APAC Market Entry Assessment', which callout specifies the Enterprise segment's share of the TAM?",
+          "answer": "Enterprise segment represents 46% of total TAM",
+          "assertions": [
+            {
+              "text": "The response must state 'Enterprise segment represents 46% of total TAM'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "table",
+      "variant_id": "table_0000_f9b55a0c",
+      "table_number": 9,
+      "caption": "SOM waterfall for B2B EV fleet charging management SaaS (2027 baseline, €)",
+      "columns": [
+        " Metric",
+        "Definition & Scope",
+        "Geography",
+        "Time Horizon",
+        " Output",
+        "Key Assumptions",
+        "Strategic Implication"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "TAM (all fleet + workplace charging software fees, 2027): €1.2B",
+          "Total software fees from fleet telematics-integrated charging management and workplace charging SaaS across all fleet sizes",
+          "EU + UK",
+          "2027",
+          "€1.2B",
+          "month; 75% software attach rate",
+          "Large and growing revenue pool supports VC-scale entry"
+        ],
+        [
+          "SAM (50+ vehicle fleets with depot charging, 2027): €420M",
+          "Serviceable segment limited to fleets with 50+ vehicles operating depot-based charging requiring load management and reporting",
+          "EU + UK",
+          "2027",
+          "€420M",
+          "month due to advanced features",
+          "Focused ICP reduces complexity and improves win rates"
+        ],
+        [
+          "SOM (base case ARR, 2030): €32M",
+          "Projected achievable recurring revenue under base-case market penetration and sales ramp",
+          "Initial 5 priority EU markets",
+          "2030",
+          "€32M",
+          "month",
+          "Supports sustainable standalone business with expansion upside"
+        ],
+        [
+          "Implied share of SAM (2030): 2.5%",
+          "Projected market share based on SOM relative to forecast SAM growth to ~€1.3B by 2030",
+          "Initial 5 priority EU markets",
+          "2030",
+          "2.5%",
+          "Moderate competitive intensity; differentiated energy optimization and compliance features",
+          "Achievable penetration without aggressive price competition"
+        ],
+        [
+          "Target Fleet Count (Base Case)",
+          "Number of contracted 50+ vehicle fleets required to reach SOM",
+          "Initial 5 priority EU markets",
+          "2030",
+          "400 fleets",
+          "Average 20 new fleet wins per quarter from 2027–2030; 85% net revenue retention",
+          "Defines sales capacity and channel requirements"
+        ],
+        [
+          "Average Revenue per Vehicle (Blended)",
+          "Weighted average subscription fee including energy management, reporting, and API integrations",
+          "EU + UK",
+          "2027–2030",
+          "month",
+          "reporting €5",
+          "Pricing power critical to margin profile"
+        ],
+        [
+          "Gross Margin (SaaS Model)",
+          "Projected gross margin after hosting, support, and integration costs",
+          "EU + UK",
+          "Steady state (2030)",
+          "78%",
+          "Cloud hosting 6% of revenue; support & onboarding 16%",
+          "Enables reinvestment in sales expansion and product development"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Time Horizon": 10144.0,
+        "max_Time Horizon": 2030.0,
+        "min_Time Horizon": 2027.0,
+        "sum_Value / Output": 80.5,
+        "max_Value / Output": 78.0,
+        "min_Value / Output": 2.5
+      },
+      "qa_candidates": [
+        {
+          "question": " Output listed for \"SOM (base case ARR, 2030)\"?",
+          "answer": "€32M",
+          "assertions": [
+            {
+              "text": "The response must state €32M."
+            }
+          ]
+        },
+        {
+          "question": "SOM waterfall for B2B EV fleet charging management SaaS (2027 baseline, €)\", what is the Gross Margin (SaaS Model) at Steady state (2030)?",
+          "answer": "78%",
+          "assertions": [
+            {
+              "text": "The response must state 78%."
+            }
+          ]
+        },
+        {
+          "question": "SOM waterfall for B2B EV fleet charging management SaaS (2027 baseline, €)\", what is the Target Fleet Count (Base Case) value for 2030?",
+          "answer": "400 fleets",
+          "assertions": [
+            {
+              "text": "The response must state 400 fleets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "image",
+      "variant_id": "cmp_0007_c6867b11",
+      "figure_number": 7,
+      "image_path": "cmp_0007_c6867b11.png",
+      "subtype": "comparison",
+      "caption": "Figure 7: Comparison: Market Entry Assessment Options",
+      "title": "Market Entry Assessment Options",
+      "theme": "burgundy_legal",
+      "options": [
+        {
+          "name": "Rapid Market Scan",
+          "recommended": false
+        },
+        {
+          "name": "Comprehensive Market Study",
+          "recommended": true
+        },
+        {
+          "name": "Full Strategic Expansion Program",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Market Entry Assessment Options', which option is highlighted as the recommended choice?",
+          "answer": "Comprehensive Market Study",
+          "assertions": [
+            {
+              "text": "The response must state 'Comprehensive Market Study'."
+            }
+          ]
+        },
+        {
+          "question": "How many options are compared in the 'Market Entry Assessment Options' diagram?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Market Entry Assessment Options', what is the subtitle shown under the title?",
+          "answer": "Comparing scope, depth, and strategic support",
+          "assertions": [
+            {
+              "text": "The response must state 'Comparing scope, depth, and strategic support'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "text",
+      "variant_id": "text_0001_74ffb4f7",
+      "heading": "Competitive Intensity, Regulatory Readiness, and Go-to-Market Options for Germany Entry",
+      "word_count": 168,
+      "text_content": [
+        "**Competitive Intensity, Regulatory Readiness, and Go-to-Market Options for Germany Entry**",
+        "Competitive intensity in Germany is high and concentrated: the top 5 competitors account for 68% of enterprise fleet deployments in Germany in 2026 by number of managed charge points. This concentration elevates procurement bargaining power, lengthens sales cycles, and raises expectations for enterprise-grade SLAs, integrations, and local support. New entrants must demonstrate distinct technical interoperability, cost-to-serve advantages, or exclusive channel partnerships to displace incumbents.",
+        "1804) applies from 13 April 2024 and drives interoperability expectations for roaming and payment experiences relevant to fleet operators. Compliance necessitates support for open roaming protocols, payment roaming, clear billing reconciliation, and data access patterns requested by regulators. Early alignment with AFIR reduces integration risk and accelerates procurement approvals.",
+        "The recommended go-to-market is a partner-led motion targeting 120 named accounts, financed with a 2027 budget of €4.8M and a 12-month payback target. Priorities: 1. recruit national integrators and fleet management resellers; 2. co-sell pilots; 3. measure acquisition cost, time-to-first-revenue, and payback monthly and churn reduction targets."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Competitive Intensity, Regulatory Readiness, and Go-to-Market Options for Germany Entry\" section, what percentage of enterprise fleet deployments in Germany in 2026 is accounted for by the top 5 competitors?",
+          "answer": "68%",
+          "assertions": [
+            {
+              "text": "The response must state 68%."
+            }
+          ]
+        },
+        {
+          "question": "1804) apply?",
+          "answer": "13 April 2024",
+          "assertions": [
+            {
+              "text": "The response must state 13 April 2024."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Competitive Intensity, Regulatory Readiness, and Go-to-Market Options for Germany Entry\" section, what is the 2027 budget allocated for the recommended go-to-market plan?",
+          "answer": "€4.8M",
+          "assertions": [
+            {
+              "text": "The response must state €4.8M."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "table",
+      "variant_id": "table_0003_08ee6c3d",
+      "table_number": 10,
+      "caption": "Table 10: Competitive landscape and intensity metrics (Germany enterprise fleet charging software, 2026 snapshot)",
+      "columns": [
+        " Benchmark",
+        "2026 Market Share",
+        "Positioning",
+        "Core Differentiation",
+        "Primary Segment",
+        "Pricing Model",
+        "Key Integrations",
+        "Geographic Focus",
+        "Contract Length",
+        "Notes"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Competitor A (enterprise CPO suite)",
+          "22%",
+          "Full-stack enterprise CPO platform",
+          "Advanced fleet analytics, white-label mobile app, utility-grade SLAs",
+          "Enterprise fleets & utilities",
+          "month)",
+          "SAP, Salesforce, Siemens Grid",
+          "Western Europe",
+          "48 months",
+          "Strongest presence in public-private tenders; high switching costs"
+        ],
+        [
+          "Competitor B (telematics-led platform)",
+          "16%",
+          "Telematics-led EV management platform",
+          "Embedded vehicle data + route optimization",
+          "Logistics & last-mile fleets",
+          "month)",
+          "Geotab, Webfleet, AWS IoT",
+          "UK & Nordics",
+          "36 months",
+          "Cross-sell from ICE telematics base accelerates EV upsell"
+        ],
+        [
+          "Competitor C",
+          "11%",
+          "Hardware-integrated charging network",
+          "Bundled DC fast chargers + backend",
+          "Highway & retail sites",
+          "Hardware margin + rev-share (8%)",
+          "ABB, Stripe, Hubject",
+          "DACH region",
+          "60 months",
+          "Capital-intensive but defensible site leases"
+        ],
+        [
+          "Competitor D",
+          "9%",
+          "SMB-focused SaaS backend",
+          "Low-cost cloud-native CPMS",
+          "SMB property owners",
+          "",
+          "Zapier, QuickBooks",
+          "Southern Europe",
+          "24 months",
+          "Price leader; limited enterprise functionality"
+        ],
+        [
+          "Competitor E",
+          "10%",
+          "Energy retailer EV platform",
+          "Dynamic tariff optimization",
+          "Energy retailers & prosumers",
+          "Energy supply margin + SaaS",
+          "Oracle Utilities, Enel X",
+          "France & Iberia",
+          "36 months",
+          "Strong utility relationships"
+        ],
+        [
+          "Emerging Player F",
+          "4%",
+          "Roaming-first interoperability hub",
+          "Pan-EU roaming agreements",
+          "MSPs & roaming aggregators",
+          "Transaction fee (3% per session)",
+          "Hubject, Gireve",
+          "Pan-European",
+          "24 months",
+          ""
+        ],
+        [
+          "Emerging Player G",
+          "3%",
+          "Depot charging specialist",
+          "Smart load balancing for depots",
+          "Bus & municipal fleets",
+          "Project-based + support SLA",
+          "Schneider Electric, Azure",
+          "Benelux",
+          "48 months",
+          "Niche focus; strong engineering team"
+        ],
+        [
+          "Long-tail providers (combined)",
+          "25%",
+          "Fragmented regional backends",
+          "Local installer relationships",
+          "Local municipalities",
+          "Mixed SaaS + service fees",
+          "Varies by vendor",
+          "Local markets",
+          "18–36 months",
+          "Highly fragmented; consolidation expected"
+        ],
+        [
+          "Market concentration benchmark",
+          "Top-5 share of managed charge points (2026): 68%",
+          "Moderately concentrated market",
+          "Scale advantages in roaming & grid integration",
+          "Enterprise & public sector dominate",
+          "—",
+          "—",
+          "Europe overall",
+          "Median enterprise contract length: 36 months",
+          "Indicates winnable but scale-dependent dynamics"
+        ],
+        [
+          "New Entrant (Proposed)",
+          "0% (pre-entry)",
+          "API-first, integration-centric CPMS",
+          "Open architecture, usage-based pricing, rapid hardware certification",
+          "Mid-market fleets & energy retailers",
+          "month)",
+          "Native API, SAP, Hubject, Stripe",
+          "Initial focus: UK & Ireland",
+          "Target: 24–36 months",
+          ""
+        ]
+      ],
+      "derived_answers": {
+        "sum_2026 Market Share": 100.0,
+        "max_2026 Market Share": 25.0,
+        "min_2026 Market Share": 3.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Competitive landscape and intensity metrics (Germany enterprise fleet charging software, 2026 snapshot)\", what is the 2026 Market Share listed for Competitor A (enterprise CPO suite)?",
+          "answer": "22%",
+          "assertions": [
+            {
+              "text": "The response must state 22%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Competitive landscape and intensity metrics (Germany enterprise fleet charging software, 2026 snapshot)\", what is the Pricing Model for Emerging Player F?",
+          "answer": "Transaction fee (3% per session)",
+          "assertions": [
+            {
+              "text": "The response must state Transaction fee (3% per session)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Competitive landscape and intensity metrics (Germany enterprise fleet charging software, 2026 snapshot)\", what is the Geographic Focus for the New Entrant (Proposed)?",
+          "answer": "Initial focus: UK & Ireland",
+          "assertions": [
+            {
+              "text": "The response must state Initial focus: UK & Ireland."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "image",
+      "variant_id": "cmp_0005_f3f49d88",
+      "figure_number": 8,
+      "image_path": "cmp_0005_f3f49d88.png",
+      "subtype": "comparison",
+      "caption": "Figure 8: Comparison: Market Entry Assessment Options",
+      "title": "Market Entry Assessment Options",
+      "theme": "healthcare_teal",
+      "options": [
+        {
+          "name": "Rapid Market Scan",
+          "recommended": false
+        },
+        {
+          "name": "Comprehensive Entry Strategy",
+          "recommended": true
+        },
+        {
+          "name": "Enterprise Expansion Program",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Market Entry Assessment Options' comparison, which option is shown as the recommended choice?",
+          "answer": "Comprehensive Entry Strategy",
+          "assertions": [
+            {
+              "text": "The response must state '[Comprehensive Entry Strategy]'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Market Entry Assessment Options' diagram, how many options are compared?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '[3]'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Market Entry Assessment Options' diagram, name one option that is not marked as recommended.",
+          "answer": "Rapid Market Scan",
+          "assertions": [
+            {
+              "text": "The response must state '[Rapid Market Scan]'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "dash_0006_c2344d0f",
+      "figure_number": 9,
+      "image_path": "dash_0006_c2344d0f.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 9: Dashboard: Market Entry Assessment Dashboard",
+      "title": "Market Entry Assessment Dashboard",
+      "theme": "warm_amber",
+      "subtitle": "TAM, Competition, Regulation & GTM Metrics",
+      "period_badge": "FY 2026 Planning",
+      "kpis": [
+        {
+          "label": "Total Addressable Market (TAM)",
+          "value": "$4.8B",
+          "delta": "+12.5%",
+          "trend": "up",
+          "sparkline": [
+            3.9,
+            4.1,
+            4.3,
+            4.5,
+            4.8
+          ]
+        },
+        {
+          "label": "Competitive Intensity Index",
+          "value": " 10",
+          "delta": "+8.0%",
+          "trend": "up",
+          "sparkline": [
+            6.2,
+            6.5,
+            6.9,
+            7.1,
+            7.4
+          ]
+        },
+        {
+          "label": "Regulatory Complexity Score",
+          "value": " 10",
+          "delta": "-5.2%",
+          "trend": "down",
+          "sparkline": [
+            6.8,
+            6.6,
+            6.4,
+            6.3,
+            6.1
+          ]
+        },
+        {
+          "label": "Projected 3-Year ROI",
+          "value": "28%",
+          "delta": "+6.4%",
+          "trend": "up",
+          "sparkline": [
+            21,
+            23,
+            25,
+            27,
+            28
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "TAM by Customer Segment ($M)",
+        "labels": [
+          "Enterprise",
+          "Mid-Market",
+          "SMB",
+          "Public Sector"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              1850,
+              1320,
+              980,
+              650
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              1620,
+              1180,
+              910,
+              560
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise segment drives 39% of total TAM growth",
+        "Competitive intensity rising due to 3 new regional entrants",
+        "Regulatory burden easing following updated compliance framework"
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'Market Entry Assessment Dashboard', what value is shown for the Total Addressable Market (TAM) KPI?",
+          "answer": "$4.8B",
+          "assertions": [
+            {
+              "text": "The response must state '$4.8B'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Market Entry Assessment Dashboard', what subtitle appears beneath the title?",
+          "answer": "TAM, Competition, Regulation & GTM Metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'TAM, Competition, Regulation & GTM Metrics'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Market Entry Assessment Dashboard', which callout mentions the enterprise segment's contribution to TAM growth?",
+          "answer": "Enterprise segment drives 39% of total TAM growth",
+          "assertions": [
+            {
+              "text": "The response must state 'Enterprise segment drives 39% of total TAM growth'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "text",
+      "variant_id": "text_0000_bdf09762",
+      "heading": "SOM)",
+      "word_count": 247,
+      "text_content": [
+        "SOM)**",
+        "Germany’s TAM is €1.2B in 2027 for B2B EV fleet charging management software (subscription + platform fees). This top‑line estimate uses national fleet electrification forecasts from 2024–2027, average per‑vehicle charging demand, and vendor pricing benchmarks. The SAM is €420M in 2027, limited to fleets with 50+ vehicles and depot charging across 6 target sectors (logistics, field service, municipal, leasing, retail, utilities). SAM reflects addressable fleets capable of depot consolidation and excludes opportunistic on‑street or single‑vehicle solutions. Estimates include subscription and platform mixes, conservatively.",
+        "For SAM allocation we modelled six industry verticals with differentiated adoption rates based on operational intensity, charging predictability, and procurement cycles. Our baseline split allocates: logistics 35%, field service 20%, municipal 15%, leasing 10%, retail 10%, utilities 10%. Allocation drives a notional managed‑charger population derived from depot counts and average chargers per depot; we applied charger density of 12 chargers per depot for logistics and 6–8 for other sectors. Sensitivity testing varies penetration by ±5 percentage points to reflect 2028–2030 demand uncertainty.",
+        " (€18*12)). Achieving this scale requires focused entry in logistics and field service, direct sales to fleet operators, and partnerships with OEMs and charge‑point operators. Key milestones include 2027 pilot programs with three anchor customers, 2028–2029 regional scale-up to 10–15 large depots annually, and CAC break‑even by late 2029 under the base case."
+      ],
+      "qa_candidates": [
+        {
+          "question": "SOM)\" section, what is Germany’s TAM in 2027 for B2B EV fleet charging management software?",
+          "answer": "€1.2B in 2027",
+          "assertions": [
+            {
+              "text": "The response must state €1.2B in 2027."
+            }
+          ]
+        },
+        {
+          "question": "SOM)\" section, what percentage of the SAM allocation is assigned to logistics?",
+          "answer": "35%",
+          "assertions": [
+            {
+              "text": "The response must state 35%."
+            }
+          ]
+        },
+        {
+          "question": "SOM)\" section, what is the assumed price per managed charger per month used to calculate the base-case SOM?",
+          "answer": "€18 per managed charger per month",
+          "assertions": [
+            {
+              "text": "The response must state €18 per managed charger per month."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "image",
+      "variant_id": "dash_0005_fba71d0e",
+      "figure_number": 10,
+      "image_path": "dash_0005_fba71d0e.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 10: Dashboard: New Market Entry Assessment",
+      "title": "New Market Entry Assessment",
+      "theme": "sand_neutral",
+      "subtitle": "TAM, Competition & Go-To-Market Metrics",
+      "period_badge": "Q2 2026",
+      "kpis": [
+        {
+          "label": "Total Addressable Market (TAM)",
+          "value": "$4.8B",
+          "delta": "+6.5%",
+          "trend": "up",
+          "sparkline": [
+            4.1,
+            4.3,
+            4.4,
+            4.6,
+            4.8
+          ]
+        },
+        {
+          "label": "Serviceable Obtainable Market (SOM)",
+          "value": "$620M",
+          "delta": "+4.2%",
+          "trend": "up",
+          "sparkline": [
+            540,
+            560,
+            580,
+            600,
+            620
+          ]
+        },
+        {
+          "label": "Competitive Intensity Index",
+          "value": "10",
+          "delta": "+8.8%",
+          "trend": "up",
+          "sparkline": [
+            6.2,
+            6.5,
+            6.9,
+            7.1,
+            7.4
+          ]
+        },
+        {
+          "label": "Regulatory Complexity Score",
+          "value": "10",
+          "delta": "-3.2%",
+          "trend": "down",
+          "sparkline": [
+            6.8,
+            6.6,
+            6.4,
+            6.3,
+            6.1
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Market Size by Segment",
+        "labels": [
+          "Enterprise",
+          "SMB",
+          "Public Sector",
+          "Mid-Market"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              1800,
+              1200,
+              900,
+              900
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              1650,
+              1100,
+              850,
+              800
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Enterprise segment drives largest share of TAM growth",
+        "Competitive intensity rising with two new entrants",
+        "Regulatory burden easing slightly due to updated compliance framework"
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'New Market Entry Assessment' dashboard, what value is listed for the Total Addressable Market (TAM)?",
+          "answer": "$4.8B",
+          "assertions": [
+            {
+              "text": "The response must state '$4.8B'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'New Market Entry Assessment', what subtitle appears under the title?",
+          "answer": "TAM, Competition & Go-To-Market Metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'TAM, Competition & Go-To-Market Metrics'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'New Market Entry Assessment' dashboard, what value is shown for the Competitive Intensity Index?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "10'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "image",
+      "variant_id": "cmp_0004_a0c7b28b",
+      "figure_number": 11,
+      "image_path": "cmp_0004_a0c7b28b.png",
+      "subtype": "comparison",
+      "caption": "Figure 11: Comparison: Market Entry Assessment Options",
+      "title": "Market Entry Assessment Options",
+      "theme": "midnight_dark",
+      "options": [
+        {
+          "name": "Internal Strategy Team",
+          "recommended": false
+        },
+        {
+          "name": "Specialist Consulting Firm",
+          "recommended": true
+        },
+        {
+          "name": "Hybrid Advisory Model",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Market Entry Assessment Options' diagram, which of the listed options is shown as the recommended choice?",
+          "answer": "Specialist Consulting Firm",
+          "assertions": [
+            {
+              "text": "The response must state 'Specialist Consulting Firm'."
+            }
+          ]
+        },
+        {
+          "question": "How many options are compared in the 'Market Entry Assessment Options' diagram?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Market Entry Assessment Options', what is the subtitle shown under the title?",
+          "answer": "Comparing approaches for sizing and launching in a new market",
+          "assertions": [
+            {
+              "text": "The response must state 'Comparing approaches for sizing and launching in a new market'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "scan_llm_0000_581f086b": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_699ac706.png",
+      "topic_id": ""
+    },
+    "cx_table_0001_48457631": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 24,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "market_entry_feasibility"
+    },
+    "cmp_0002_c1be47d7": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Market Entry Strategy Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0002_c1be47d7.png",
+      "topic_id": ""
+    },
+    "table_0002_545c2373": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Allocates_SAM_across_priority_verticals_to_guide_ICP_selecti",
+      "row_count": 7,
+      "col_count": 5,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "topic_id": "market_entry_feasibility"
+    },
+    "scan_llm_0001_64adf5d0": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_e5713f43.png",
+      "topic_id": ""
+    },
+    "llm_mp_table_0000_bfd6d325": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "employee_activity_report",
+      "row_count": 67,
+      "col_count": 5,
+      "columns": [
+        "Employee Name",
+        "Role",
+        "Workstream",
+        "Hours Logged",
+        "Key Output Metric"
+      ],
+      "topic_id": ""
+    },
+    "table_0004_ba8e083c": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Maps_the_must-have_regulatory_requirements_(EU_and_Germany)_",
+      "row_count": 11,
+      "col_count": 11,
+      "columns": [
+        " Requirement",
+        "Jurisdiction",
+        "Core Obligation",
+        " Enforcement Date",
+        "Business Impact Area",
+        "Required Workstream",
+        "Owner",
+        "Target Completion",
+        "Status",
+        "Risk Level",
+        "Notes"
+      ],
+      "topic_id": "market_entry_feasibility"
+    },
+    "cx_table_0000_37b582f0": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "market_entry_feasibility"
+    },
+    "dash_0004_78b9a905": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Market Entry Feasibility Dashboard",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0004_78b9a905.png",
+      "topic_id": ""
+    },
+    "cx_table_0002_5668e7ea": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 19,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "market_entry_feasibility"
+    },
+    "table_0005_083cb573": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "noise"
+      ],
+      "base_type": "Compares_go-to-market_paths_on_cost,_speed,_control,_and_exp",
+      "row_count": 7,
+      "col_count": 7,
+      "columns": [
+        "Go-to-Market Path",
+        "Level of Control",
+        "2027 GTM Budget",
+        "Expected 3-Year Revenue",
+        "Time to Revenue",
+        "Strategic Notes",
+        "Key Risks"
+      ],
+      "topic_id": "market_entry_feasibility"
+    },
+    "table_0001_0ec54663": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Shows_the_operational_drivers_(fleets_and_managed_chargers)_",
+      "row_count": 8,
+      "col_count": 4,
+      "columns": [
+        "Col1",
+        "Col3",
+        "Col4",
+        "Col2"
+      ],
+      "topic_id": "market_entry_feasibility"
+    },
+    "cmp_0006_673aae52": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Market Entry Strategy Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0006_673aae52.png",
+      "topic_id": ""
+    },
+    "dash_0000_97f4fcff": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "APAC Market Entry Assessment",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0000_97f4fcff.png",
+      "topic_id": ""
+    },
+    "table_0000_f9b55a0c": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Quantifies_the_addressable_revenue_pool_and_the_narrowing_as",
+      "row_count": 7,
+      "col_count": 7,
+      "columns": [
+        " Metric",
+        "Definition & Scope",
+        "Geography",
+        "Time Horizon",
+        " Output",
+        "Key Assumptions",
+        "Strategic Implication"
+      ],
+      "topic_id": "market_entry_feasibility"
+    },
+    "cmp_0007_c6867b11": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Market Entry Assessment Options",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0007_c6867b11.png",
+      "topic_id": ""
+    },
+    "text_0001_74ffb4f7": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation"
+      ],
+      "heading": "Competitive Intensity, Regulatory Readiness, and Go-to-Market Options for Germany Entry",
+      "word_count": 168,
+      "text_type": "llm_prose",
+      "topic_id": "market_entry_feasibility"
+    },
+    "table_0003_08ee6c3d": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "formatting"
+      ],
+      "base_type": "Benchmarks_the_competitive_set_by_share,_positioning,_and_di",
+      "row_count": 10,
+      "col_count": 10,
+      "columns": [
+        " Benchmark",
+        "2026 Market Share",
+        "Positioning",
+        "Core Differentiation",
+        "Primary Segment",
+        "Pricing Model",
+        "Key Integrations",
+        "Geographic Focus",
+        "Contract Length",
+        "Notes"
+      ],
+      "topic_id": "market_entry_feasibility"
+    },
+    "cmp_0005_f3f49d88": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Market Entry Assessment Options",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0005_f3f49d88.png",
+      "topic_id": ""
+    },
+    "dash_0006_c2344d0f": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Market Entry Assessment Dashboard",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0006_c2344d0f.png",
+      "topic_id": ""
+    },
+    "text_0000_bdf09762": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "SOM)",
+      "word_count": 247,
+      "text_type": "llm_prose",
+      "topic_id": "market_entry_feasibility"
+    },
+    "dash_0005_fba71d0e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "New Market Entry Assessment",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0005_fba71d0e.png",
+      "topic_id": ""
+    },
+    "cmp_0004_a0c7b28b": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Market Entry Assessment Options",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0004_a0c7b28b.png",
+      "topic_id": ""
+    },
+    "dash_0007_92bbf229": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "APAC Market Entry Assessment",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0007_92bbf229.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the scanned document titled \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", what is the projected number of battery-electric vehicles (BEVs) in Germany by end-2027?",
+      "answer": "Germany is projected to exceed 2.3 million BEVs by end-2027.",
+      "assertions": [
+        {
+          "text": "The response must state 'Germany is projected to exceed 2.3 million BEVs by end-2027.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", which charge point operators are mentioned in the competitive landscape?",
+      "answer": "EnBW and E.ON Drive.",
+      "assertions": [
+        {
+          "text": "The response must state 'EnBW and E.ON Drive.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", which law must deployments adhere to for metering accuracy?",
+      "answer": "The Mess- und Eichrecht (calibration law).",
+      "assertions": [
+        {
+          "text": "The response must state 'The Mess- und Eichrecht (calibration law).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", how many primary go-to-market route options are identified?",
+      "answer": "Three primary routes.",
+      "assertions": [
+        {
+          "text": "The response must state 'Three primary routes.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Germany 2027 Market Entry Assessment – B2B EV Fleet Charging Management SaaS\", what fleet size does the direct enterprise sales route target?",
+      "answer": "Fleets with over 250 vehicles.",
+      "assertions": [
+        {
+          "text": "The response must state 'Fleets with over 250 vehicles.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", how many period columns does each version group span?",
+      "answer": "4 (Q1–Q4).",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1–Q4).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what is the Actuals Q3 value for \"Marketing launch (PR, demand gen, events)\"?",
+      "answer": "182 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '182 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what is the \"Regulatory, Compliance & Localization Subtotal\" for Baseline Q1?",
+      "answer": "270 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '270 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", which version shows the highest Q4 value for \"Local sales hiring & onboarding (ramp costs)\"?",
+      "answer": "Actuals (175 vs Baseline 160, $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (175 vs Baseline 160, $000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what is the delta (Net $K) for \"GRAND TOTAL\"?",
+      "answer": "379 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '379 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", how many quarters are represented (Q1–Q4)?",
+      "answer": "4 (Q1–Q4)",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1–Q4).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", how many header tiers does the table use?",
+      "answer": "3 rows",
+      "assertions": [
+        {
+          "text": "The response must state '3 rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", which Actuals amount is larger, 182 or 270?",
+      "answer": "270 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '270 ($000).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what does the ($000) annotation indicate?",
+      "answer": "Values in thousands of dollars.",
+      "assertions": [
+        {
+          "text": "The response must state 'Values in thousands of dollars.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — TAM Build, Competitive Intensity, Regulatory & Go-to-Market Cost Stack (Baseline vs Actuals, $000)\", what is the Actuals subtotal for the Competitive Intensity group?",
+      "answer": "182 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '182 ($000).'"
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Market Entry Strategy Comparison' diagram, which option is indicated as the recommended choice?",
+      "answer": "Comprehensive Entry Strategy",
+      "assertions": [
+        {
+          "text": "The response must state 'Comprehensive Entry Strategy'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Market Entry Strategy Comparison' diagram, how many options are being compared?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Market Entry Strategy Comparison' diagram, what is the name of the option listed first?",
+      "answer": "Rapid Market Scan",
+      "assertions": [
+        {
+          "text": "The response must state 'Rapid Market Scan'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Segment-level SAM build (Germany, 2027): sectors, adoption, and revenue contribution\", what is the SAM (2027) value listed for Municipal & public fleets?",
+      "answer": "€55M",
+      "assertions": [
+        {
+          "text": "The response must state €55M."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Segment-level SAM build (Germany, 2027): sectors, adoption, and revenue contribution\", how many target accounts are listed for Utilities & energy services?",
+      "answer": "310 target accounts",
+      "assertions": [
+        {
+          "text": "The response must state 310 target accounts."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Segment-level SAM build (Germany, 2027): sectors, adoption, and revenue contribution\", what ICP tier is assigned to Construction & field services?",
+      "answer": "Tier 2 – Expansion ICP",
+      "assertions": [
+        {
+          "text": "The response must state Tier 2 – Expansion ICP."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", what is the EV share projected for Parcel & Courier in 2027?",
+      "answer": "42%.",
+      "assertions": [
+        {
+          "text": "The response must state '42%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", how many total rows does the table contain?",
+      "answer": "11 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '11 rows.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", what is the estimated number of fleets for Corporate Car Pools?",
+      "answer": "6,900 fleets.",
+      "assertions": [
+        {
+          "text": "The response must state '6,900 fleets.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", which segments are noted as having the highest EV penetration?",
+      "answer": "Municipal, airport, and parcel segments.",
+      "assertions": [
+        {
+          "text": "The response must state 'Municipal, airport, and parcel segments.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Germany B2B EV Fleet Charging SaaS Market Snapshot (2027 Outlook)\", which segment lists 'High (public procurement law)' as the regulatory impact?",
+      "answer": "Municipal Fleets.",
+      "assertions": [
+        {
+          "text": "The response must state 'Municipal Fleets.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", how many hours did Maya Singh log?",
+      "answer": "45",
+      "assertions": [
+        {
+          "text": "The response must state 45."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Key Output Metric for Elena Petrova?",
+      "answer": "Built investment case model with NPV and IRR outputs",
+      "assertions": [
+        {
+          "text": "The response must state Built investment case model with NPV and IRR outputs."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Workstream listed for Liam O'Connor?",
+      "answer": "Regulatory Review",
+      "assertions": [
+        {
+          "text": "The response must state Regulatory Review."
+        }
+      ]
+    },
+    {
+      "question": "1804)?",
+      "answer": "13 April 2024",
+      "assertions": [
+        {
+          "text": "The response must state 13 April 2024."
+        }
+      ]
+    },
+    {
+      "question": "679)?",
+      "answer": "Chief Data Protection Officer",
+      "assertions": [
+        {
+          "text": "The response must state Chief Data Protection Officer."
+        }
+      ]
+    },
+    {
+      "question": "IEC 27001 Information Security Management?",
+      "answer": "Q4 2027",
+      "assertions": [
+        {
+          "text": "The response must state Q4 2027."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", how many period columns does each version group span?",
+      "answer": "4 period columns (Q1–Q4).",
+      "assertions": [
+        {
+          "text": "The response must state '4 period columns (Q1–Q4).'."
+        }
+      ]
+    },
+    {
+      "question": "SOC gap closure)\"?",
+      "answer": "92 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '92 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", what is the \"Regulatory & Compliance Readiness Subtotal\" for Baseline Q1?",
+      "answer": "225 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '225 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", which version shows the highest Q4 value for \"Serviceable Obtainable Market (SOM) — addressable in-year\"?",
+      "answer": "Actuals (430 vs Baseline 395, $000).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (430 vs Baseline 395, $000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", what is the delta (Net $K) for \"GRAND TOTAL\"?",
+      "answer": "417.",
+      "assertions": [
+        {
+          "text": "The response must state '417.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", how many period columns are shown?",
+      "answer": "4 (Q1–Q4)",
+      "assertions": [
+        {
+          "text": "The response must state '4 (Q1–Q4)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", how many data rows are listed?",
+      "answer": "25",
+      "assertions": [
+        {
+          "text": "The response must state '25'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", which dollar amount is larger, $92 or $225?",
+      "answer": "225 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '225 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", what does footnote 1 explain?",
+      "answer": "No footnotes specified",
+      "assertions": [
+        {
+          "text": "The response must state 'No footnotes specified'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — Year 1 TAM Build, Competitive Intensity & Regulatory Readiness (Baseline vs Actuals)\", what is the subtotal for the group 'Year 1 TAM Build' in the Baseline column?",
+      "answer": "Not specified",
+      "assertions": [
+        {
+          "text": "The response must state 'Not specified'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Market Entry Feasibility Dashboard', what subtitle appears beneath the title?",
+      "answer": "TAM, Competitive Intensity & Go-to-Market Metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'TAM, Competitive Intensity & Go-to-Market Metrics'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Market Entry Feasibility Dashboard', what is the value shown for the Total Addressable Market (TAM)?",
+      "answer": "$2.4B",
+      "assertions": [
+        {
+          "text": "The response must state '$2.4B'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Market Entry Feasibility Dashboard', what period badge is displayed?",
+      "answer": "FY 2026 Planning",
+      "assertions": [
+        {
+          "text": "The response must state 'FY 2026 Planning'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", how many sub-columns does each period group span?",
+      "answer": "3 sub-columns (Actual, Target, Attain%).",
+      "assertions": [
+        {
+          "text": "The response must state '3 sub-columns (Actual, Target, Attain%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what is the H1 Attainment% for \"Serviceable Obtainable Market (SOM) — 24-mo view\"?",
+      "answer": "93%.",
+      "assertions": [
+        {
+          "text": "The response must state '93%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", how many metrics does the \"Regulatory & Compliance\" category rowspan cover?",
+      "answer": "3 metrics.",
+      "assertions": [
+        {
+          "text": "The response must state '3 metrics.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", which metric has the lower H2 attainment in the \"Competitive Intensity\" category?",
+      "answer": "Average Discount vs List (weighted) at 88%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Average Discount vs List (weighted) at 88%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what is the H2 target for \"Qualified Pipeline Coverage (next-2Q)\"?",
+      "answer": "$12.5M.",
+      "assertions": [
+        {
+          "text": "The response must state '$12.5M.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what is the Attain% value shown?",
+      "answer": "93%",
+      "assertions": [
+        {
+          "text": "The response must state '93%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", how many sub-columns fall under the H1 header?",
+      "answer": "3 (Actual, Target, Attain%)",
+      "assertions": [
+        {
+          "text": "The response must state '3 (Actual, Target, Attain%)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", which is larger: the number of header tiers or the number of data rows?",
+      "answer": "Data rows (19)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (19)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what does footnote 1 explain?",
+      "answer": "No footnotes provided.",
+      "assertions": [
+        {
+          "text": "The response must state 'No footnotes provided.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Market Entry Assessment — New Geography Launch Scorecard (TAM, Competitive Intensity, Regulatory Readiness, and GTM Execution)\", what is the subtotal for the Category group in the data rows column?",
+      "answer": "19",
+      "assertions": [
+        {
+          "text": "The response must state '19'."
+        }
+      ]
+    },
+    {
+      "question": "telematics channel\", what is the 2027 GTM Budget for Direct Sales-Led Expansion?",
+      "answer": "€65.M",
+      "assertions": [
+        {
+          "text": "The response must state €65.M."
+        }
+      ]
+    },
+    {
+      "question": "telematics channel\", what is the Time to Revenue for Joint Venture?",
+      "answer": "12–18 months",
+      "assertions": [
+        {
+          "text": "The response must state 12–18 months."
+        }
+      ]
+    },
+    {
+      "question": "telematics channel\", what is the Strategic Notes entry for Hybrid (Partner + Direct Overlay)?",
+      "answer": "Named accounts targeted (2027): 120; combines strategic direct coverage with partner fulfillment",
+      "assertions": [
+        {
+          "text": "The response must state Named accounts targeted (2027): 120; combines strategic direct coverage with partner fulfillment."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Bottom-up demand drivers: target fleet counts, chargers, and software pricing assumptions (Germany, 2027)\", what is the value listed for Managed chargers in SAM scope (2027)?",
+      "answer": "259,000",
+      "assertions": [
+        {
+          "text": "The response must state 259,000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Bottom-up demand drivers: target fleet counts, chargers, and software pricing assumptions (Germany, 2027)\", what is the software price assumption per charger per month?",
+      "answer": "€18 per charger per month",
+      "assertions": [
+        {
+          "text": "The response must state €18 per charger per month."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Bottom-up demand drivers: target fleet counts, chargers, and software pricing assumptions (Germany, 2027)\", what is the gross margin (software)?",
+      "answer": "78%",
+      "assertions": [
+        {
+          "text": "The response must state 78%."
+        }
+      ]
+    },
+    {
+      "question": "Viewing the 'Market Entry Strategy Comparison', which choice is shown as the recommended option?",
+      "answer": "Specialist Consulting Firm",
+      "assertions": [
+        {
+          "text": "The response must state 'Specialist Consulting Firm'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Market Entry Strategy Comparison', what is the subtitle displayed under the title?",
+      "answer": "Assessment approaches for new geography or category launch",
+      "assertions": [
+        {
+          "text": "The response must state 'Assessment approaches for new geography or category launch'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Market Entry Strategy Comparison', how many options are presented?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'APAC Market Entry Assessment' dashboard, what value is displayed for the Total Addressable Market (TAM) KPI?",
+      "answer": "$4.8B",
+      "assertions": [
+        {
+          "text": "The response must state '$4.8B'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'APAC Market Entry Assessment', what subtitle appears beneath the title?",
+      "answer": "TAM, Competition & Go-To-Market Metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'TAM, Competition & Go-To-Market Metrics'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the callouts on the 'APAC Market Entry Assessment', which callout specifies the Enterprise segment's share of the TAM?",
+      "answer": "Enterprise segment represents 46% of total TAM",
+      "assertions": [
+        {
+          "text": "The response must state 'Enterprise segment represents 46% of total TAM'."
+        }
+      ]
+    },
+    {
+      "question": " Output listed for \"SOM (base case ARR, 2030)\"?",
+      "answer": "€32M",
+      "assertions": [
+        {
+          "text": "The response must state €32M."
+        }
+      ]
+    },
+    {
+      "question": "SOM waterfall for B2B EV fleet charging management SaaS (2027 baseline, €)\", what is the Gross Margin (SaaS Model) at Steady state (2030)?",
+      "answer": "78%",
+      "assertions": [
+        {
+          "text": "The response must state 78%."
+        }
+      ]
+    },
+    {
+      "question": "SOM waterfall for B2B EV fleet charging management SaaS (2027 baseline, €)\", what is the Target Fleet Count (Base Case) value for 2030?",
+      "answer": "400 fleets",
+      "assertions": [
+        {
+          "text": "The response must state 400 fleets."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Market Entry Assessment Options', which option is highlighted as the recommended choice?",
+      "answer": "Comprehensive Market Study",
+      "assertions": [
+        {
+          "text": "The response must state 'Comprehensive Market Study'."
+        }
+      ]
+    },
+    {
+      "question": "How many options are compared in the 'Market Entry Assessment Options' diagram?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Market Entry Assessment Options', what is the subtitle shown under the title?",
+      "answer": "Comparing scope, depth, and strategic support",
+      "assertions": [
+        {
+          "text": "The response must state 'Comparing scope, depth, and strategic support'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Competitive Intensity, Regulatory Readiness, and Go-to-Market Options for Germany Entry\" section, what percentage of enterprise fleet deployments in Germany in 2026 is accounted for by the top 5 competitors?",
+      "answer": "68%",
+      "assertions": [
+        {
+          "text": "The response must state 68%."
+        }
+      ]
+    },
+    {
+      "question": "1804) apply?",
+      "answer": "13 April 2024",
+      "assertions": [
+        {
+          "text": "The response must state 13 April 2024."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Competitive Intensity, Regulatory Readiness, and Go-to-Market Options for Germany Entry\" section, what is the 2027 budget allocated for the recommended go-to-market plan?",
+      "answer": "€4.8M",
+      "assertions": [
+        {
+          "text": "The response must state €4.8M."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Competitive landscape and intensity metrics (Germany enterprise fleet charging software, 2026 snapshot)\", what is the 2026 Market Share listed for Competitor A (enterprise CPO suite)?",
+      "answer": "22%",
+      "assertions": [
+        {
+          "text": "The response must state 22%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Competitive landscape and intensity metrics (Germany enterprise fleet charging software, 2026 snapshot)\", what is the Pricing Model for Emerging Player F?",
+      "answer": "Transaction fee (3% per session)",
+      "assertions": [
+        {
+          "text": "The response must state Transaction fee (3% per session)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Competitive landscape and intensity metrics (Germany enterprise fleet charging software, 2026 snapshot)\", what is the Geographic Focus for the New Entrant (Proposed)?",
+      "answer": "Initial focus: UK & Ireland",
+      "assertions": [
+        {
+          "text": "The response must state Initial focus: UK & Ireland."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Market Entry Assessment Options' comparison, which option is shown as the recommended choice?",
+      "answer": "Comprehensive Entry Strategy",
+      "assertions": [
+        {
+          "text": "The response must state '[Comprehensive Entry Strategy]'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Market Entry Assessment Options' diagram, how many options are compared?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '[3]'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Market Entry Assessment Options' diagram, name one option that is not marked as recommended.",
+      "answer": "Rapid Market Scan",
+      "assertions": [
+        {
+          "text": "The response must state '[Rapid Market Scan]'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Market Entry Assessment Dashboard', what value is shown for the Total Addressable Market (TAM) KPI?",
+      "answer": "$4.8B",
+      "assertions": [
+        {
+          "text": "The response must state '$4.8B'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Market Entry Assessment Dashboard', what subtitle appears beneath the title?",
+      "answer": "TAM, Competition, Regulation & GTM Metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'TAM, Competition, Regulation & GTM Metrics'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Market Entry Assessment Dashboard', which callout mentions the enterprise segment's contribution to TAM growth?",
+      "answer": "Enterprise segment drives 39% of total TAM growth",
+      "assertions": [
+        {
+          "text": "The response must state 'Enterprise segment drives 39% of total TAM growth'."
+        }
+      ]
+    },
+    {
+      "question": "SOM)\" section, what is Germany’s TAM in 2027 for B2B EV fleet charging management software?",
+      "answer": "€1.2B in 2027",
+      "assertions": [
+        {
+          "text": "The response must state €1.2B in 2027."
+        }
+      ]
+    },
+    {
+      "question": "SOM)\" section, what percentage of the SAM allocation is assigned to logistics?",
+      "answer": "35%",
+      "assertions": [
+        {
+          "text": "The response must state 35%."
+        }
+      ]
+    },
+    {
+      "question": "SOM)\" section, what is the assumed price per managed charger per month used to calculate the base-case SOM?",
+      "answer": "€18 per managed charger per month",
+      "assertions": [
+        {
+          "text": "The response must state €18 per managed charger per month."
+        }
+      ]
+    },
+    {
+      "question": "On the 'New Market Entry Assessment' dashboard, what value is listed for the Total Addressable Market (TAM)?",
+      "answer": "$4.8B",
+      "assertions": [
+        {
+          "text": "The response must state '$4.8B'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'New Market Entry Assessment', what subtitle appears under the title?",
+      "answer": "TAM, Competition & Go-To-Market Metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'TAM, Competition & Go-To-Market Metrics'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'New Market Entry Assessment' dashboard, what value is shown for the Competitive Intensity Index?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "10'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Market Entry Assessment Options' diagram, which of the listed options is shown as the recommended choice?",
+      "answer": "Specialist Consulting Firm",
+      "assertions": [
+        {
+          "text": "The response must state 'Specialist Consulting Firm'."
+        }
+      ]
+    }
+  ]
+}

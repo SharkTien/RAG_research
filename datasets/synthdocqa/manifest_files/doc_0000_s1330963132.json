@@ -1,0 +1,1113 @@
+{
+  "doc_id": "doc_0000_s1330963132",
+  "title": "Board Strategy Presentation: Macro Environment Analysis, Portfolio Performance, Strategic Options and Requested Decisions",
+  "subtitle": "Board Strategy Briefing | Macro Outlook, Portfolio Performance & Decision Requests",
+  "topic_id": "board_strategy_presentation",
+  "recipe_name": "text_heavy",
+  "seed": 1330963132,
+  "document_brief": {
+    "narrative_theme": "The presentation links macroeconomic and competitive shifts to portfolio performance to justify a focused set of strategic choices and secure board endorsement for decisive capital reallocation and execution governance in the next 12 months.",
+    "sections": [
+      {
+        "heading": "Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)",
+        "key_facts": [
+          "U.S. CPI inflation was 3.4% in April 2024.",
+          "The Federal Reserve target range for the federal funds rate was 5.25%–5.50% throughout 2024.",
+          "The EU Carbon Border Adjustment Mechanism (CBAM) transitional reporting phase began on 1 October 2023."
+        ],
+        "data_references": []
+      },
+      {
+        "heading": "Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)",
+        "key_facts": [
+          "FY2025 portfolio revenue was $12.4B, up 6% year-over-year.",
+          "Enterprise EBITDA margin was 18.2% in FY2025, versus 16.9% in FY2024.",
+          "Management requests board approval by 30 June 2026 for a $1.2B capital reallocation program from Legacy Products to Cloud & Data Platforms."
+        ],
+        "data_references": []
+      }
+    ],
+    "tables": [],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1330963132.pdf",
+    "markdown": null,
+    "assets": []
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 34,
+    "actual_page_count": 7
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "checklist",
+      "variant_id": "checklist_0002_ce4fad66",
+      "title": "Q2 2026 Board Strategy Presentation Checklist",
+      "caption": "Q2 2026 Board Strategy Presentation Checklist",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "pessimistic) with projected impacts on revenue, FX exposure, and margin assumptions",
+        "Validate portfolio performance metrics for the last 12 months: revenue, EBITDA by business unit, customer churn, and ROIC",
+        "asset base, strategic divestiture) with proposed timelines and governance owners",
+        "Prepare a concise recommendation slide with preferred option, executive rationale, and explicit board approvals requested",
+        "Circulate executive pre-read pack (15-page slide deck), supporting annexes and one-page decision memo to board members at least five business days before the meeting"
+      ],
+      "unchecked_items": [
+        "Assemble competitor and market-share benchmarking slides highlighting three closest peers, key disruptors, and relevant M&A activity",
+        "Model quantified financial outcomes for each strategic option including 5-year P&L, cash flow, NPV and sensitivity to revenue, margin and capex assumptions",
+        "Identify and document material risks and mitigation plans for the recommended strategy, covering regulatory, geopolitical and execution risks",
+        "Prepare decision request templates for the board (specific resolutions, delegated authorities, approval thresholds and required legal sign-offs)",
+        "Conduct a dry run with CEO, CFO and business unit heads to test Q&A, timing and to incorporate feedback into the final deck and appendices"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Q2 2026 Board Strategy Presentation Checklist' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Q2 2026 Board Strategy Presentation Checklist', what completion rate percentage is shown?",
+          "answer": "50.0%",
+          "assertions": [
+            {
+              "text": "The response must state '50.0%'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Q2 2026 Board Strategy Presentation Checklist', name one item listed as checked.",
+          "answer": "Prepare a concise recommendation slide with preferred option, executive rationale, and explicit board approvals requested",
+          "assertions": [
+            {
+              "text": "The response must state 'Prepare a concise recommendation slide with preferred option, executive rationale, and explicit board approvals requested'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Q2 2026 Board Strategy Presentation Checklist', name one item that is not yet checked.",
+          "answer": "Conduct a dry run with CEO, CFO and business unit heads to test Q&A, timing and to incorporate feedback into the final deck and appendices",
+          "assertions": [
+            {
+              "text": "The response must state 'Conduct a dry run with CEO, CFO and business unit heads to test Q&A, timing and to incorporate feedback into the final deck and appendices'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "button",
+      "variant_id": "button_0001_2217db48",
+      "title": "Strategy Decision Controls",
+      "caption": "Strategy Decision Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Endorse Strategic Direction & Request Implementation Plan",
+          "style": "primary"
+        },
+        {
+          "label": "Approve Targeted Portfolio Changes (Start Execution)",
+          "style": "success"
+        },
+        {
+          "label": "Request Additional Macro Environment Analysis",
+          "style": "warning"
+        },
+        {
+          "label": "Defer Decision — Commission External Advisory Review",
+          "style": "secondary"
+        },
+        {
+          "label": "Reject Proposal — Provide Required Board Feedback",
+          "style": "danger"
+        }
+      ],
+      "context": "Appears when the board is reviewing the strategy presentation and must record endorsements, approvals, deferrals, or requests for further analysis on macro environment, portfolio performance, and strategic choices.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are present in the 'Strategy Decision Controls' group on the page?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which text appears on the first button in the 'Strategy Decision Controls' group?",
+          "answer": "Endorse Strategic Direction & Request Implementation Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'Endorse Strategic Direction & Request Implementation Plan'."
+            }
+          ]
+        },
+        {
+          "question": "What is the label shown on the third button within the 'Strategy Decision Controls' group?",
+          "answer": "Request Additional Macro Environment Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Request Additional Macro Environment Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Strategy Decision Controls', what is the context or purpose shown for this control on the page?",
+          "answer": "Appears when the board is reviewing the strategy presentation and must record endorsements, approvals, deferrals, or requests for further analysis on macro environment, portfolio performance, and strategic choices.",
+          "assertions": [
+            {
+              "text": "The response must state 'Appears when the board is reviewing the strategy presentation and must record endorsements, approvals, deferrals, or requests for further analysis on macro environment, portfolio performance, and strategic choices.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "checklist",
+      "variant_id": "checklist_0000_d2ba7953",
+      "title": "Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review",
+      "caption": "Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Validate macroeconomic assumptions (GDP growth, CPI, interest rates, and FX) for FY27–FY29 with notes from external economist and append quantitative sources",
+        "Prepare three-scenario analysis (base, downside, upside) showing revenue, margin and cashflow projections and probability-weighted outcomes",
+        "Summarize portfolio performance by business unit and product line with trailing 12-month KPIs (revenue, EBIT, ROIC) and variance vs plan",
+        "Prepare financial impact and sensitivity tables for each strategic choice under consideration, including capex, opex, and NPV ranges",
+        "Draft recommended board decisions and endorsement language (preferred option, implementation milestones, and delegated authority thresholds)"
+      ],
+      "unchecked_items": [
+        "Verify data integrity across portfolio dashboards and source spreadsheets, resolving any material discrepancies and documenting sign-offs",
+        "Create executive slide visuals (macro heatmap, portfolio waterfall, decision matrix) with callouts for key assumptions and risks",
+        "Obtain legal and compliance sign-off on proposed strategic options, including regulatory impact assessment and required approvals",
+        "Coordinate pre-brief calls with CEO, CFO and lead independent director to align on presentation flow and anticipated board questions",
+        "Circulate final board packet (slides, one-page decision memo, supporting appendices) to directors and confirm receipt at least 72 hours before the meeting"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review', what is the checklist completion rate?",
+          "answer": "50.0",
+          "assertions": [
+            {
+              "text": "The response must state '50.0'."
+            }
+          ]
+        },
+        {
+          "question": "Name one item that is marked as checked on the 'Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review' checklist.",
+          "answer": "Validate macroeconomic assumptions (GDP growth, CPI, interest rates, and FX) for FY27–FY29 with notes from external economist and append quantitative sources",
+          "assertions": [
+            {
+              "text": "The response must state 'Validate macroeconomic assumptions (GDP growth, CPI, interest rates, and FX) for FY27–FY29 with notes from external economist and append quantitative sources'."
+            }
+          ]
+        },
+        {
+          "question": "Identify one item that is not yet checked on the 'Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review' checklist.",
+          "answer": "Verify data integrity across portfolio dashboards and source spreadsheets, resolving any material discrepancies and documenting sign-offs",
+          "assertions": [
+            {
+              "text": "The response must state 'Verify data integrity across portfolio dashboards and source spreadsheets, resolving any material discrepancies and documenting sign-offs'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "checklist",
+      "variant_id": "checklist_0001_5e86499f",
+      "title": "Board Strategy Presentation Readiness Checklist — May 2026",
+      "caption": "Board Strategy Presentation Readiness Checklist — May 2026",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Draft executive summary highlighting key implications of recent macroeconomic shifts (inflation, interest rates, geopolitical risks) for next 12–24 months",
+        "downside projections for macro environment and quantify effects on revenue, margins, and cash flow",
+        "Compile portfolio performance slides showing YoY revenue, EBITDA, and ROIC by business unit and identify top five contributors to variance",
+        "Analyze underperforming assets and propose explicit options (invest, divest, restructure) with estimated financial impact and timing",
+        "Develop three strategic choice options with implementation roadmaps, resource requirements, KPIs, and trigger points for board consideration"
+      ],
+      "unchecked_items": [
+        "Assess capital allocation trade-offs and present recommended funding levels for growth initiatives, buybacks, and prioritized M&A targets",
+        "Draft clear decision requests for the board, specifying approvals sought, required endorsements, delegated authorities, and recommended timelines",
+        "Prepare a risk register and mitigation plans for each strategic option, including regulatory, operational, and market risk sensitivities",
+        "Coordinate with finance to validate forecast assumptions, run sensitivity tests, and reconcile presentation numbers to audited financials",
+        "Finalize presentation deck and detailed speaker notes, circulate pre-reads to board members seven days before the meeting, and confirm attendee list and logistics"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Board Strategy Presentation Readiness Checklist — May 2026' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Board Strategy Presentation Readiness Checklist — May 2026', what is the completion rate value shown?",
+          "answer": "50.0",
+          "assertions": [
+            {
+              "text": "The response must state '50.0'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Board Strategy Presentation Readiness Checklist — May 2026', name one checked item that addresses scenario analysis and its financial effects.",
+          "answer": "downside projections for macro environment and quantify effects on revenue, margins, and cash flow",
+          "assertions": [
+            {
+              "text": "downside projections for macro environment and quantify effects on revenue, margins, and cash flow'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Board Strategy Presentation Readiness Checklist — May 2026', provide one unchecked item that includes finalizing the presentation deck and circulating pre-reads.",
+          "answer": "Finalize presentation deck and detailed speaker notes, circulate pre-reads to board members seven days before the meeting, and confirm attendee list and logistics",
+          "assertions": [
+            {
+              "text": "The response must state 'Finalize presentation deck and detailed speaker notes, circulate pre-reads to board members seven days before the meeting, and confirm attendee list and logistics'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "button",
+      "variant_id": "button_0002_fc94babb",
+      "title": "Board Strategy Controls",
+      "caption": "Board Strategy Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Submit Strategy for Board Endorsement",
+          "style": "primary"
+        },
+        {
+          "label": "Recommend Formal Approval at Next Board Meeting",
+          "style": "success"
+        },
+        {
+          "label": "Publish Presentation to Board Portal",
+          "style": "secondary"
+        },
+        {
+          "label": "Flag Macro Environment Risks for Immediate Attention",
+          "style": "warning"
+        },
+        {
+          "label": "Escalate Critical Decisions for Interim Board Vote",
+          "style": "danger"
+        }
+      ],
+      "context": "Appears when the presenter has finalized the board-level strategy deck and must choose next actions for board consideration and decisioning.",
+      "qa_candidates": [
+        {
+          "question": "What is the number of buttons displayed in the 'Board Strategy Controls'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Board Strategy Controls', what is the label of the first button?",
+          "answer": "Submit Strategy for Board Endorsement",
+          "assertions": [
+            {
+              "text": "The response must state 'Submit Strategy for Board Endorsement'."
+            }
+          ]
+        },
+        {
+          "question": "Which button label in the 'Board Strategy Controls' is meant to publish the presentation to the board portal?",
+          "answer": "Publish Presentation to Board Portal",
+          "assertions": [
+            {
+              "text": "The response must state 'Publish Presentation to Board Portal'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Board Strategy Controls', what context is provided for when this control appears?",
+          "answer": "Appears when the presenter has finalized the board-level strategy deck and must choose next actions for board consideration and decisioning.",
+          "assertions": [
+            {
+              "text": "The response must state 'Appears when the presenter has finalized the board-level strategy deck and must choose next actions for board consideration and decisioning.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "text",
+      "variant_id": "text_0000_16ddd736",
+      "heading": "Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)",
+      "word_count": 190,
+      "text_content": [
+        "**Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)**",
+        "U.S. headline inflation remains elevated: CPI inflation was 3.4% in April 2024, while the Federal Reserve target range for the federal funds rate was 5.25%–5.50% throughout 2024. For the FY2026 planning window this sustains a higher cost of capital, pressures discount rates and raises hurdle rates for new investments, increasing emphasis on shorter payback periods and staged capital deployment and tighter liquidity conditions persist.",
+        "Corporates should assume sustained elevated borrowing costs and tighter credit spreads when scheduling refinancings and covenant tests. The FY2026 planning window must prioritize liquidity buffers, proactive maturity ladders, and hedging of interest rate and FX exposures. Treasury will run scenario analyses that include base, upside, and stress cases to determine short-term draw capacity and thresholds for discretionary capex deferral and maintain strategic optionality.",
+        "The regulatory landscape also influences capital allocation: the EU Carbon Border Adjustment Mechanism transitional reporting phase began on 1 October 2023, requiring reported embedded emissions for imports into the EU. This compels targeted capital for supply-chain decarbonization, measurement systems, and potential reshoring or tariff mitigation strategies. Scenario-based carbon pricing and compliance costs must be included in FY2026 investment appraisals and M&A valuation adjustments."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)\" section, what was the CPI inflation rate in April 2024?",
+          "answer": "3.4%",
+          "assertions": [
+            {
+              "text": "The response must state 3.4%."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)\" section, what was the Federal Reserve target range for the federal funds rate throughout 2024?",
+          "answer": "5.25%–5.50%",
+          "assertions": [
+            {
+              "text": "The response must state 5.25%–5.50%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)\" section, on what date did the EU Carbon Border Adjustment Mechanism transitional reporting phase begin?",
+          "answer": "1 October 2023",
+          "assertions": [
+            {
+              "text": "The response must state 1 October 2023."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "button",
+      "variant_id": "button_0000_ce3fd799",
+      "title": "Board Strategy Decisions",
+      "caption": "Board Strategy Decisions",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Approve Action Plan & Resource Allocation",
+          "style": "primary"
+        },
+        {
+          "label": "Endorse Portfolio Rebalancing Recommendations",
+          "style": "success"
+        },
+        {
+          "label": "Request Additional Macro Scenario Analysis",
+          "style": "warning"
+        },
+        {
+          "label": "Refer Strategic Options to Executive for Implementation",
+          "style": "secondary"
+        },
+        {
+          "label": "Reject Proposed Changes — Maintain Current Strategy",
+          "style": "danger"
+        }
+      ],
+      "context": "Appears after the board-level strategy presentation when members must decide on recommended strategic direction, portfolio adjustments, and any required follow-up analysis or endorsements.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are displayed in the 'Board Strategy Decisions' button group?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which label appears on the primary-styled button in the 'Board Strategy Decisions' group?",
+          "answer": "Approve Action Plan & Resource Allocation",
+          "assertions": [
+            {
+              "text": "The response must state 'Approve Action Plan & Resource Allocation'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Board Strategy Decisions' group, what context is provided for when this button group appears?",
+          "answer": "Appears after the board-level strategy presentation when members must decide on recommended strategic direction, portfolio adjustments, and any required follow-up analysis or endorsements.",
+          "assertions": [
+            {
+              "text": "The response must state 'Appears after the board-level strategy presentation when members must decide on recommended strategic direction, portfolio adjustments, and any required follow-up analysis or endorsements.'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Board Strategy Decisions' control, what is the label of the button styled 'danger'?",
+          "answer": "Reject Proposed Changes — Maintain Current Strategy",
+          "assertions": [
+            {
+              "text": "The response must state 'Reject Proposed Changes — Maintain Current Strategy'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "filled_form",
+      "variant_id": "filled_form_0000_c9d335d7",
+      "title": "Board-Level Strategy Presentation Briefing Form",
+      "caption": "Board-Level Strategy Presentation Briefing Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 9,
+      "sections": [
+        "Macro Environment Analysis",
+        "Portfolio Performance Review",
+        "Strategic Choices & Board Decisions"
+      ],
+      "required_fields": [
+        "Reporting Period Covered",
+        "Primary Geographic Markets Reviewed",
+        "Key Macroeconomic Trends Impacting the Business",
+        "Total Portfolio Revenue (Reporting Period)",
+        "Overall Portfolio Margin (%)",
+        "Top 3 Performing Business Units",
+        "Primary Strategic Options Under Consideration",
+        "Recommended Strategic Direction",
+        "Type of Board Action Requested"
+      ],
+      "description": "Complete this form to prepare the board-level strategy presentation covering macro environment analysis, portfolio performance, strategic options, and required board decisions.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "GrandHotel, cursive",
+        "ink_color": "#1c2db5",
+        "font_size_pt": 12.5
+      },
+      "qa_candidates": [
+        {
+          "question": "On the 'Board-Level Strategy Presentation Briefing Form', how many sections are shown on the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Board-Level Strategy Presentation Briefing Form', how many total fields does the form include?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Board-Level Strategy Presentation Briefing Form', what is the title of the third section displayed on the form?",
+          "answer": "Strategic Choices & Board Decisions",
+          "assertions": [
+            {
+              "text": "The response must state 'Strategic Choices & Board Decisions'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Board-Level Strategy Presentation Briefing Form', what is the first required field listed on the form?",
+          "answer": "Reporting Period Covered",
+          "assertions": [
+            {
+              "text": "The response must state 'Reporting Period Covered'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "filled_form",
+      "variant_id": "filled_form_0001_76aa6b79",
+      "title": "Board-Level Strategy Presentation Form",
+      "caption": "Board-Level Strategy Presentation Form",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Macro Environment Analysis",
+        "Portfolio Performance Review",
+        "Strategic Choices & Board Decisions"
+      ],
+      "required_fields": [
+        "Presentation Date",
+        "Primary Geographic Markets Reviewed",
+        "Macroeconomic Outlook (12-24 Months)",
+        "Overall External Risk Level",
+        "Reporting Period End Date",
+        "Total Portfolio Revenue (YTD)",
+        "Underperforming Segments Identified",
+        "Primary Strategic Option Under Consideration",
+        "Strategic Rationale and Value Creation Thesis",
+        "Board Approval Requested"
+      ],
+      "description": "Complete this form to structure the board presentation covering macro environment analysis, portfolio performance, strategic options, and requested board decisions.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Courier, monospace",
+        "ink_color": "#0d4d0d",
+        "font_size_pt": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "How many sections are shown on the 'Board-Level Strategy Presentation Form'?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Board-Level Strategy Presentation Form', how many total fields does the form contain?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Board-Level Strategy Presentation Form', which section titles are listed?",
+          "answer": "Macro Environment Analysis, Portfolio Performance Review, Strategic Choices & Board Decisions",
+          "assertions": [
+            {
+              "text": "The response must state 'Macro Environment Analysis, Portfolio Performance Review, Strategic Choices & Board Decisions'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'Board-Level Strategy Presentation Form', is the form marked as filled?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "text",
+      "variant_id": "text_0001_d48c5b4a",
+      "heading": "Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)",
+      "word_count": 310,
+      "text_content": [
+        "**Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)**",
+        "FY2025 portfolio performance delivered resilient top-line growth and margin expansion. Revenue was $12.4B, up 6% year‑over‑year, driven primarily by strength in Cloud & Data Platforms and selective price realization in Services. Enterprise EBITDA margin improved to 18.2% in FY2025 from 16.9% in FY2024, reflecting productivity initiatives, fixed-cost leverage on higher volumes, and disciplined SG&A management. While macro volatility affected timing of some large deals, the portfolio composition shift toward recurring, higher‑margin offerings materially supported profitability. Management has tightened monthly performance reporting and reallocated working capital to sustain cash‑flow stability through the FY2026 planning window. The board can rely on management's disciplined execution through FY2026.",
+        "Segment-level results indicate a clear need to rebalance capital toward growth platforms. Cloud & Data Platforms exceeded internal targets in FY2025, while Legacy Products showed lower growth and rising maintenance cost profiles, constraining long-term margin expansion. To accelerate migration and capture TAM expansion, management requests board approval by 30 June 2026 for a $1.2B capital reallocation program from Legacy Products to Cloud & Data Platforms. The proposed program is phased over FY2026–FY2027 with predefined gates, risk limits, and contingency reserves. Expected outcomes include a higher recurring revenue mix, shorter payback on incremental investments, and incremental EBITDA contribution tracked in quarterly KPIs.",
+        "Management asks the board to take three specific actions to enable FY2025–FY2027 execution. 1) Approve the $1.2B capital reallocation program, authorizing phase‑gate deployment and reallocations from Legacy Products. 2) Endorse the preferred strategic option set—prioritized investment in Cloud & Data Platforms, selective bolt‑on M&A limited to board‑precleared thresholds, and continued cost optimization in Legacy Products. 3) Delegate authority to the CEO and CFO to implement transfers up to $300M per quarter within governance limits, subject to quarterly reporting on revenue impact, EBITDA progression, and cash‑flow variance to plan. Detailed implementation milestones are attached."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)\" section, what was the FY2025 revenue?",
+          "answer": "$12.4B",
+          "assertions": [
+            {
+              "text": "The response must state $12.4B."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)\" section, what Enterprise EBITDA margin was reported for FY2025?",
+          "answer": "18.2%",
+          "assertions": [
+            {
+              "text": "The response must state 18.2%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)\" section, by what date does management request board approval for the capital reallocation program?",
+          "answer": "30 June 2026",
+          "assertions": [
+            {
+              "text": "The response must state 30 June 2026."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "checklist_0002_ce4fad66": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "button_0001_2217db48": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0000_d2ba7953": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0001_5e86499f": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "button_0002_fc94babb": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0000_16ddd736": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)",
+      "word_count": 190,
+      "text_type": "llm_prose",
+      "topic_id": "board_strategy_presentation"
+    },
+    "button_0000_ce3fd799": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0000_c9d335d7": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_form_0001_76aa6b79": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0001_d48c5b4a": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)",
+      "word_count": 310,
+      "text_type": "llm_prose",
+      "topic_id": "board_strategy_presentation"
+    },
+    "cx_table_0001_16c7122c": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 24,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "board_strategy_presentation"
+    },
+    "cx_table_0003_cd136093": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "board_strategy_presentation"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "How many total items are on the 'Q2 2026 Board Strategy Presentation Checklist' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Q2 2026 Board Strategy Presentation Checklist', what completion rate percentage is shown?",
+      "answer": "50.0%",
+      "assertions": [
+        {
+          "text": "The response must state '50.0%'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Q2 2026 Board Strategy Presentation Checklist', name one item listed as checked.",
+      "answer": "Prepare a concise recommendation slide with preferred option, executive rationale, and explicit board approvals requested",
+      "assertions": [
+        {
+          "text": "The response must state 'Prepare a concise recommendation slide with preferred option, executive rationale, and explicit board approvals requested'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Q2 2026 Board Strategy Presentation Checklist', name one item that is not yet checked.",
+      "answer": "Conduct a dry run with CEO, CFO and business unit heads to test Q&A, timing and to incorporate feedback into the final deck and appendices",
+      "assertions": [
+        {
+          "text": "The response must state 'Conduct a dry run with CEO, CFO and business unit heads to test Q&A, timing and to incorporate feedback into the final deck and appendices'."
+        }
+      ]
+    },
+    {
+      "question": "How many buttons are present in the 'Strategy Decision Controls' group on the page?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Which text appears on the first button in the 'Strategy Decision Controls' group?",
+      "answer": "Endorse Strategic Direction & Request Implementation Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'Endorse Strategic Direction & Request Implementation Plan'."
+        }
+      ]
+    },
+    {
+      "question": "What is the label shown on the third button within the 'Strategy Decision Controls' group?",
+      "answer": "Request Additional Macro Environment Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Request Additional Macro Environment Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Strategy Decision Controls', what is the context or purpose shown for this control on the page?",
+      "answer": "Appears when the board is reviewing the strategy presentation and must record endorsements, approvals, deferrals, or requests for further analysis on macro environment, portfolio performance, and strategic choices.",
+      "assertions": [
+        {
+          "text": "The response must state 'Appears when the board is reviewing the strategy presentation and must record endorsements, approvals, deferrals, or requests for further analysis on macro environment, portfolio performance, and strategic choices.'."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review', what is the checklist completion rate?",
+      "answer": "50.0",
+      "assertions": [
+        {
+          "text": "The response must state '50.0'."
+        }
+      ]
+    },
+    {
+      "question": "Name one item that is marked as checked on the 'Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review' checklist.",
+      "answer": "Validate macroeconomic assumptions (GDP growth, CPI, interest rates, and FX) for FY27–FY29 with notes from external economist and append quantitative sources",
+      "assertions": [
+        {
+          "text": "The response must state 'Validate macroeconomic assumptions (GDP growth, CPI, interest rates, and FX) for FY27–FY29 with notes from external economist and append quantitative sources'."
+        }
+      ]
+    },
+    {
+      "question": "Identify one item that is not yet checked on the 'Board Strategy Presentation Checklist — Q2 2026 Macro & Portfolio Review' checklist.",
+      "answer": "Verify data integrity across portfolio dashboards and source spreadsheets, resolving any material discrepancies and documenting sign-offs",
+      "assertions": [
+        {
+          "text": "The response must state 'Verify data integrity across portfolio dashboards and source spreadsheets, resolving any material discrepancies and documenting sign-offs'."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Board Strategy Presentation Readiness Checklist — May 2026' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Board Strategy Presentation Readiness Checklist — May 2026', what is the completion rate value shown?",
+      "answer": "50.0",
+      "assertions": [
+        {
+          "text": "The response must state '50.0'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Board Strategy Presentation Readiness Checklist — May 2026', name one checked item that addresses scenario analysis and its financial effects.",
+      "answer": "downside projections for macro environment and quantify effects on revenue, margins, and cash flow",
+      "assertions": [
+        {
+          "text": "downside projections for macro environment and quantify effects on revenue, margins, and cash flow'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Board Strategy Presentation Readiness Checklist — May 2026', provide one unchecked item that includes finalizing the presentation deck and circulating pre-reads.",
+      "answer": "Finalize presentation deck and detailed speaker notes, circulate pre-reads to board members seven days before the meeting, and confirm attendee list and logistics",
+      "assertions": [
+        {
+          "text": "The response must state 'Finalize presentation deck and detailed speaker notes, circulate pre-reads to board members seven days before the meeting, and confirm attendee list and logistics'."
+        }
+      ]
+    },
+    {
+      "question": "What is the number of buttons displayed in the 'Board Strategy Controls'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Board Strategy Controls', what is the label of the first button?",
+      "answer": "Submit Strategy for Board Endorsement",
+      "assertions": [
+        {
+          "text": "The response must state 'Submit Strategy for Board Endorsement'."
+        }
+      ]
+    },
+    {
+      "question": "Which button label in the 'Board Strategy Controls' is meant to publish the presentation to the board portal?",
+      "answer": "Publish Presentation to Board Portal",
+      "assertions": [
+        {
+          "text": "The response must state 'Publish Presentation to Board Portal'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Board Strategy Controls', what context is provided for when this control appears?",
+      "answer": "Appears when the presenter has finalized the board-level strategy deck and must choose next actions for board consideration and decisioning.",
+      "assertions": [
+        {
+          "text": "The response must state 'Appears when the presenter has finalized the board-level strategy deck and must choose next actions for board consideration and decisioning.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)\" section, what was the CPI inflation rate in April 2024?",
+      "answer": "3.4%",
+      "assertions": [
+        {
+          "text": "The response must state 3.4%."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)\" section, what was the Federal Reserve target range for the federal funds rate throughout 2024?",
+      "answer": "5.25%–5.50%",
+      "assertions": [
+        {
+          "text": "The response must state 5.25%–5.50%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Macro Environment Outlook and Implications for Capital Allocation (FY2026 Planning Window)\" section, on what date did the EU Carbon Border Adjustment Mechanism transitional reporting phase begin?",
+      "answer": "1 October 2023",
+      "assertions": [
+        {
+          "text": "The response must state 1 October 2023."
+        }
+      ]
+    },
+    {
+      "question": "How many buttons are displayed in the 'Board Strategy Decisions' button group?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Which label appears on the primary-styled button in the 'Board Strategy Decisions' group?",
+      "answer": "Approve Action Plan & Resource Allocation",
+      "assertions": [
+        {
+          "text": "The response must state 'Approve Action Plan & Resource Allocation'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Board Strategy Decisions' group, what context is provided for when this button group appears?",
+      "answer": "Appears after the board-level strategy presentation when members must decide on recommended strategic direction, portfolio adjustments, and any required follow-up analysis or endorsements.",
+      "assertions": [
+        {
+          "text": "The response must state 'Appears after the board-level strategy presentation when members must decide on recommended strategic direction, portfolio adjustments, and any required follow-up analysis or endorsements.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Board Strategy Decisions' control, what is the label of the button styled 'danger'?",
+      "answer": "Reject Proposed Changes — Maintain Current Strategy",
+      "assertions": [
+        {
+          "text": "The response must state 'Reject Proposed Changes — Maintain Current Strategy'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Board-Level Strategy Presentation Briefing Form', how many sections are shown on the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Board-Level Strategy Presentation Briefing Form', how many total fields does the form include?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Board-Level Strategy Presentation Briefing Form', what is the title of the third section displayed on the form?",
+      "answer": "Strategic Choices & Board Decisions",
+      "assertions": [
+        {
+          "text": "The response must state 'Strategic Choices & Board Decisions'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Board-Level Strategy Presentation Briefing Form', what is the first required field listed on the form?",
+      "answer": "Reporting Period Covered",
+      "assertions": [
+        {
+          "text": "The response must state 'Reporting Period Covered'."
+        }
+      ]
+    },
+    {
+      "question": "How many sections are shown on the 'Board-Level Strategy Presentation Form'?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Board-Level Strategy Presentation Form', how many total fields does the form contain?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Board-Level Strategy Presentation Form', which section titles are listed?",
+      "answer": "Macro Environment Analysis, Portfolio Performance Review, Strategic Choices & Board Decisions",
+      "assertions": [
+        {
+          "text": "The response must state 'Macro Environment Analysis, Portfolio Performance Review, Strategic Choices & Board Decisions'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Board-Level Strategy Presentation Form', is the form marked as filled?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)\" section, what was the FY2025 revenue?",
+      "answer": "$12.4B",
+      "assertions": [
+        {
+          "text": "The response must state $12.4B."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)\" section, what Enterprise EBITDA margin was reported for FY2025?",
+      "answer": "18.2%",
+      "assertions": [
+        {
+          "text": "The response must state 18.2%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Portfolio Performance Review and Board Decisions Requested on Strategic Options (FY2025–FY2027)\" section, by what date does management request board approval for the capital reallocation program?",
+      "answer": "30 June 2026",
+      "assertions": [
+        {
+          "text": "The response must state 30 June 2026."
+        }
+      ]
+    }
+  ]
+}

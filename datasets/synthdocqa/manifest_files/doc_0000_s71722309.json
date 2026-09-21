@@ -1,0 +1,5080 @@
+{
+  "doc_id": "doc_0000_s71722309",
+  "title": "Business Continuity and Crisis Management Plan: Recovery Time Objectives, Critical Process Dependencies, Roles and Communication Protocols, and Tabletop Exercise Results",
+  "subtitle": "Business Continuity Plan — RTOs, Critical Dependencies, Crisis Management & Communications | Latest Tabletop Exercise Findings",
+  "topic_id": "business_continuity_plan",
+  "recipe_name": "annotation_dominant",
+  "seed": 71722309,
+  "document_brief": {
+    "narrative_theme": "This business continuity plan aligns quantified recovery objectives, mapped process dependencies, defined crisis roles, and tested communications to ensure Northbridge Payments can restore priority services after a disruptive incident.",
+    "sections": [
+      {
+        "heading": "Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments",
+        "key_facts": [
+          "The Payment Authorization API has an RTO of 2 hours and an RPO of 15 minutes.",
+          "The Customer Support Contact Center has an RTO of 8 hours and an RPO of 4 hours.",
+          "The Settlement Batch Processing has an RTO of 24 hours and an RPO of 12 hours."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes",
+        "key_facts": [
+          "The Incident Commander is Maya Chen and the Executive Sponsor is David Ruiz.",
+          "The first internal incident notification must be sent within 15 minutes of incident declaration.",
+          "The most recent tabletop exercise was conducted on 2026-03-14 and achieved a 92% objective completion rate."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "RPO) for Northbridge Payments",
+        "purpose": "RPO targets that drive recovery sequencing and resource prioritization across critical services.",
+        "key_data": {
+          "Payment Authorization API (Tier 1)": "RTO 2 hours; RPO 15 minutes",
+          "Customer Support Contact Center (Tier 2)": "RTO 8 hours; RPO 4 hours",
+          "Settlement Batch Processing (Tier 2)": "RTO 24 hours; RPO 12 hours",
+          "Merchant Reporting Portal (Tier 3)": "RTO 72 hours; RPO 24 hours"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "downstream impacts for priority services",
+        "purpose": "Maps the technical and vendor dependencies required to meet stated RTOs, highlighting single points of failure and recovery prerequisites.",
+        "key_data": {
+          "Payment Authorization API": "Depends on Core Database Cluster + HSM + ISP-A",
+          "Settlement Batch Processing": "Depends on Data Warehouse + SFTP Gateway + Bank File Transfer",
+          "Customer Support Contact Center": "Depends on CRM + Telephony Provider + Identity SSO",
+          "Fraud Monitoring": "Depends on Streaming Bus + Rules Engine + Threat Intel Feed"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Minimum recovery resources and restoration sequence to meet RTO targets",
+        "purpose": "Lists the minimum staffing, system prerequisites, and step order required to restore services within defined RTO windows.",
+        "key_data": {
+          "Step 1": "Restore Core Database Cluster (DBA on-call + Storage admin)",
+          "Step 2": "Validate HSM and key access for Payment Authorization API (Security engineer)",
+          "Step 3": "Bring up Payment Authorization API pods in DR (SRE lead + App owner)",
+          "Step 4": "Reconcile queued transactions before Settlement Batch Processing (Finance ops)"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Crisis management roles, named owners, and alternates for incident response",
+        "purpose": "Clarifies decision rights and accountability so the organization can execute recovery actions quickly and consistently.",
+        "key_data": {
+          "Incident Commander": "Maya Chen (Alternate: Omar Patel)",
+          "Executive Sponsor": "David Ruiz (Alternate: Elena Novak)",
+          "Communications Lead": "Priya Nair (Alternate: Jordan Lee)",
+          "IT Recovery Lead": "Samir Khan (Alternate: Bethany Price)"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Communication protocols, notification timelines, and channel standards during a disruption",
+        "purpose": "customer expectations.",
+        "key_data": {
+          "Internal incident notification": "Within 15 minutes via Slack #inc-major + PagerDuty",
+          "Executive update cadence": "Every 60 minutes via email + bridge call",
+          "Customer status page update": "Within 60 minutes at status.northbridgepay.com",
+          "Regulatory notification (if applicable)": "Within 24 hours via Compliance mailbox"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "2026-03-14 tabletop exercise results, gaps identified, and corrective action owners",
+        "purpose": "Summarizes the most recent exercise outcomes to demonstrate readiness and track remediation that improves future recovery performance.",
+        "key_data": {
+          "Exercise date": "2026-03-14",
+          "Objective completion rate": "92%",
+          "Gap": "DR DNS cutover runbook missing validation step (Owner: Samir Khan)"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s71722309.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_text_ee89cedd.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 30,
+    "actual_page_count": 30
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "annotation",
+      "variant_id": "ann_ar_0000_15e587b5",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what banner label is displayed?",
+          "answer": "SUBJECT TO CHANGE",
+          "assertions": [
+            {
+              "text": "The response must state 'SUBJECT TO CHANGE'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what callout label appears next to the content?",
+          "answer": "Approved",
+          "assertions": [
+            {
+              "text": "The response must state 'Approved'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'this element', how many phrases are highlighted?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "table_0003_f23334b9",
+      "table_number": 1,
+      "caption": "Table 1: Crisis management roles, named owners, and alternates for incident response",
+      "columns": [
+        "Role",
+        "Decision Authority",
+        "RTO Alignment",
+        "Last Exercise Date",
+        "Key Responsibilities",
+        "Current Status",
+        "Assigned Leadership",
+        "Primary Dependencies"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Incident Commander",
+          "",
+          "Enterprise RTO: 4 hours",
+          "2026-03-15",
+          "Overall crisis coordination; approves recovery sequencing; escalates to Executive Sponsor",
+          "Active",
+          "Incident Commander: Maya Chen (Alternate: Omar Patel)",
+          "All business units; IT; Facilities; Communications"
+        ],
+        [
+          "Executive Sponsor",
+          "Approves emergency spend above $250,000; authorizes public disclosures",
+          "Enterprise RTO: 4 hours",
+          "2026-03-15",
+          "Provides executive oversight; approves strategic trade-offs; communicates with Board",
+          "Active",
+          "Executive Sponsor: David Ruiz (Alternate: Elena Novak)",
+          "Incident Commander; Finance; Legal"
+        ],
+        [
+          "Communications Lead",
+          "Approves employee and customer communications within 60 minutes of incident declaration",
+          "Communication RTO: 1 hour",
+          "2026-03-15",
+          "external messaging; stakeholder updates; media statements",
+          "Active",
+          "Communications Lead: Priya Nair (Alternate: Jordan Lee)",
+          "HR; Legal; Executive Sponsor"
+        ],
+        [
+          "IT Recovery Lead",
+          "Initiates disaster recovery failover; prioritizes Tier 1 applications",
+          "Tier 1 Systems RTO: 2 hours; Tier 2: 8 hours",
+          "2026-03-15",
+          "Leads system restoration; validates data integrity; coordinates with vendors",
+          "Active",
+          "IT Recovery Lead: Samir Khan (Alternate: Bethany Price)",
+          "Cloud provider; Network team; Application owners"
+        ],
+        [
+          "Business Operations Lead",
+          "Reassigns staff and resources to meet process RTOs",
+          "Order Processing RTO: 6 hours",
+          "2026-03-15",
+          "Restores critical business processes; coordinates department recovery tasks",
+          "Active",
+          "Angela Morris (Alternate: Victor Huang)",
+          "IT systems; Supply Chain"
+        ],
+        [
+          "Facilities & Security Lead",
+          "Authorizes site evacuation and re-entry",
+          "Facility Access RTO: 12 hours",
+          "2026-03-15",
+          "Ensures physical site safety; manages access control; coordinates alternate workspace",
+          "Active",
+          "Carlos Mendes (Alternate: Lila Grant)",
+          "Local authorities; Property management"
+        ],
+        [
+          "Finance & Procurement Lead",
+          "Approves emergency vendor contracts under $100,000",
+          "Financial Reporting RTO: 24 hours",
+          "2026-03-15",
+          "Tracks incident costs; manages emergency procurement; insurance notification",
+          "Active",
+          "Rachel Stein (Alternate: Marcus Boyd)",
+          "Executive Sponsor; Vendors"
+        ],
+        [
+          "HR & Employee Support Lead",
+          "Activates employee assistance programs; approves temporary staffing",
+          "Payroll RTO: 24 hours",
+          "2026-03-15",
+          "Employee notifications; payroll continuity; wellbeing support",
+          "Active",
+          "Tanya Brooks (Alternate: Daniel Cho)",
+          "Communications; Finance"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Crisis management roles, named owners, and alternates for incident response\", what is the RTO Alignment for the IT Recovery Lead?",
+          "answer": "Tier 1 Systems RTO: 2 hours; Tier 2: 8 hours",
+          "assertions": [
+            {
+              "text": "The response must state Tier 1 Systems RTO: 2 hours; Tier 2: 8 hours."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Crisis management roles, named owners, and alternates for incident response\", who is listed as the Assigned Leadership for the Executive Sponsor?",
+          "answer": "Executive Sponsor: David Ruiz (Alternate: Elena Novak)",
+          "assertions": [
+            {
+              "text": "The response must state Executive Sponsor: David Ruiz (Alternate: Elena Novak)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Crisis management roles, named owners, and alternates for incident response\", what is the Primary Dependencies entry for the Facilities & Security Lead?",
+          "answer": "Local authorities; Property management",
+          "assertions": [
+            {
+              "text": "The response must state Local authorities; Property management."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "annotation",
+      "variant_id": "ann_rv_0003_e4cbcb87",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "Viewing this element in the PDF, how many phrases are visually highlighted?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On this element, are PDF reviewer sticky-note comments present?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element as shown on the page, what does the first reviewer comment read?",
+          "answer": "Treasurer to advise",
+          "assertions": [
+            {
+              "text": "The response must state 'Treasurer to advise'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "annotation",
+      "variant_id": "ann_ct_0004_c9c610fd",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns does 'this element' display?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', how many rows show a positive trend (highlighted green)?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', how many rows are indicated as negative (highlighted red)?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "text",
+      "variant_id": "text_0001_83e0612d",
+      "heading": "Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes",
+      "word_count": 323,
+      "text_content": [
+        "**Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes**",
+        "The crisis management organization is defined to ensure clear authority and rapid decision-making. The Incident Commander is Maya Chen and the Executive Sponsor is David Ruiz, with roles assinged to a Deputy Incident Commander, Legal Liaison, Operations Lead, Communications Lead. Responsibilities are delineated by role: the Incident Commander authorizes incidnet declarations, operational prioritization, and resource allocation; the Executive Sponsor provides executive escalations, stakeholder alignmetn, and board-level reporting. Role contact information and delegation matrices are maintained in the crisis playbook and reviewed quarterly.",
+        "Internal and external communication protocols prescribe timing and channels. The first internal incident notification must be sent within 15 minutes of incident declaration; subsequent updates ofllow a cadence aligned to severity levels. Primary channels include secure messaging, email, and the incident portal. Communication responsibilities:\n- Incident Commander: approve executive messages\n- Communications Lead: draft and disseminate\n- Legal Liaison: regulatory notifications and records\nTemplates, escalation criteria, and stakeholder contact lists are stored on the intranet and regularly validated during exercises.",
+        "The most recent tabletop exercise, conducted on 2026-03-14, achieved a 92% objective completion rate arcoss asesssed scenarios. Exercise objectives included incident declaration timing, cross-functional coordination, communication cadenec, technical failover, and regulatory notification. Strengths demonstrated: rapid decision auhtority, contact lists, and adherence to notification SLAs. Identified gaps focused on third-party supplier escalation procedures and automated failover verification. The after-action report documents evidence, timestamps, and remediation owners; all high-priority actions were assigned with target closure dates and tracked in the issue register.",
+        "Governance for remediation and preparedness assigns accountability for corrective actions. Incident Commander Maya Chen will lead operational drills and validation of notification SLAs; Executive Sponsor David Ruiz will oversee executive reporting and funding for remediation. Corrective items from the 2026-03-14 exercise have defnied owners, target completion windows, and quatrerly progress reporting to the risk committee. The program schedule includes a follow-up tabletop within six months and a tracked action register that reports closure rtaes, trneds, and SLA adherence to senior management."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes\" section, who is the Executive Sponsor?",
+          "answer": "David Ruiz",
+          "assertions": [
+            {
+              "text": "The response must state David Ruiz."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes\" section, within how many minutes must the first internal incident notification be sent?",
+          "answer": "within 15 minutes of incident declaration",
+          "assertions": [
+            {
+              "text": "The response must state within 15 minutes of incident declaration."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes\" section, what percentage objective completion rate was achieved in the 2026-03-14 tabletop exercise?",
+          "answer": "92% objective completion rate arcoss asesssed scenarios",
+          "assertions": [
+            {
+              "text": "The response must state 92% objective completion rate arcoss asesssed scenarios."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "annotation",
+      "variant_id": "ann_sn_0002_800a5f6a",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', what category label appears for the sticky note?",
+          "answer": "compliance",
+          "assertions": [
+            {
+              "text": "The response must state 'compliance'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', what phrase received the first annotation?",
+          "answer": "6 of 22 new suppliers",
+          "assertions": [
+            {
+              "text": "The response must state '6 of 22 new suppliers'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "annotation",
+      "variant_id": "ann_ar_0002_73cccd69",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, what label is shown in the banner at the top?",
+          "answer": "SUBJECT TO CHANGE",
+          "assertions": [
+            {
+              "text": "The response must state 'SUBJECT TO CHANGE'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at this element, which callout label appears in the callout box?",
+          "answer": "Tip",
+          "assertions": [
+            {
+              "text": "The response must state 'Tip'."
+            }
+          ]
+        },
+        {
+          "question": "For this element, how many highlighted phrases are visible in the rendered PDF?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "annotation",
+      "variant_id": "ann_lb_0002_ed3e6639",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what banner label is displayed on the classification banner?",
+          "answer": "CONFIDENTIAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CONFIDENTIAL'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element', what inline status label appears with the content?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "text",
+      "variant_id": "text_0000_65b6e69d",
+      "heading": "Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments",
+      "word_count": 199,
+      "text_content": [
+        "**Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments**",
+        "RPOs determine recovery priority.",
+        "The dependency map indicates upstream dependencies on the core ledger database, AWS AZs and third-party processors. Recovery sequencing prioritizes the Payment Authorization API and ledger replication to restore >95% transaction throughput, followed by real-time fraud service and notification channels. Customer Support dependencies include telephony SIP trunks and CRM read-replicas; restoration of SIP trunks targets reinstatement within SLA windows aligned to the 8-hour contact center objective immediately.",
+        "Monitoring and testing protocols require quarterly DR drills and monthly RPO compliance reports to IT Leadership. A recent validation on 2026-04-01 measured RPO adherence at 98% across critical services and RTO attainment at 93% for authorization flows. Scheduled reviews occur semi-annually; next formal review is 2026-09-30. Nonconformances escalate to the Chief Risk Officer with defined remediation timelines of 30 working days. Change approvals require 72 hours."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments\" section, what is the RTO for the Payment Authorization API?",
+          "answer": "2 hours",
+          "assertions": [
+            {
+              "text": "The response must state 2 hours."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments\" section, on what date is the next formal review scheduled?",
+          "answer": "2026-09-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-09-30."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments\" section, what percentage of RPO adherence was measured across critical services in the 2026-04-01 validation?",
+          "answer": "98%",
+          "assertions": [
+            {
+              "text": "The response must state 98%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "annotation",
+      "variant_id": "ann_co_0001_147d2606",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what label appears on the callout box?",
+          "answer": "Approved",
+          "assertions": [
+            {
+              "text": "The response must state 'Approved'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what date is shown in the approval text?",
+          "answer": "2024-10-15",
+          "assertions": [
+            {
+              "text": "The response must state '2024-10-15'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "table_0005_76e05cdd",
+      "table_number": 2,
+      "caption": "Table 2: 2026-03-14 tabletop exercise results, gaps identified, and corrective action owners",
+      "columns": [
+        "Exercise Date",
+        "Tested Area",
+        "Objective Completion Rate",
+        "Key Gap Identified",
+        "Remediation Status"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "2026-03-14",
+          "Enterprise-wide cyber incident with data center failover",
+          "92%",
+          "DR DNS cutover runbook missing validation step (Owner: Samir Khan)",
+          ""
+        ],
+        [
+          "2026-03-14",
+          "Customer support system failover to secondary region",
+          "95%",
+          "Contact center vendor escalation matrix outdated",
+          "Updated matrix approved; vendor confirmation pending"
+        ],
+        [
+          "2026-03-14",
+          "ERP recovery within defined RTO (4 hours)",
+          "90%",
+          "Incomplete application dependency mapping for finance module",
+          "Dependency map revision in progress; target completion 2026-05-20"
+        ],
+        [
+          "2026-03-14",
+          "Crisis management team activation and executive reporting",
+          "94%",
+          "Delay in executive notification (15 minutes beyond SLA)",
+          "Revised notification workflow implemented; retest planned next quarter"
+        ],
+        [
+          "2026-03-14",
+          "Internal and external communications during outage",
+          "89%",
+          "Public status page update required manual approval causing delay",
+          "Automation change request submitted; awaiting CAB approval"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Objective Completion Rate": 460.0,
+        "max_Objective Completion Rate": 95.0,
+        "min_Objective Completion Rate": 89.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"2026-03-14 tabletop exercise results, gaps identified, and corrective action owners\", what is the Objective Completion Rate for \"ERP recovery within defined RTO (4 hours)\"?",
+          "answer": "90%",
+          "assertions": [
+            {
+              "text": "The response must state 90%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"2026-03-14 tabletop exercise results, gaps identified, and corrective action owners\", what is the Key Gap Identified for \"Enterprise-wide cyber incident with data center failover\"?",
+          "answer": "DR DNS cutover runbook missing validation step (Owner: Samir Khan)",
+          "assertions": [
+            {
+              "text": "The response must state DR DNS cutover runbook missing validation step (Owner: Samir Khan)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"2026-03-14 tabletop exercise results, gaps identified, and corrective action owners\", what is the Remediation Status for \"Internal and external communications during outage\"?",
+          "answer": "Automation change request submitted; awaiting CAB approval",
+          "assertions": [
+            {
+              "text": "The response must state Automation change request submitted; awaiting CAB approval."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "annotation",
+      "variant_id": "ann_ft_0003_ceafa77c",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many freetext annotation boxes are present in the risk section?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element', which exact phrase is highlighted by the first freetext annotation?",
+          "answer": "100bp increase",
+          "assertions": [
+            {
+              "text": "The response must state '100bp increase'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "annotation",
+      "variant_id": "ann_hl_0002_2185b8a2",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, how many phrases are highlighted?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, which highlighted phrase appears in red?",
+          "answer": "38% of revenue",
+          "assertions": [
+            {
+              "text": "The response must state '38% of revenue'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "annotation",
+      "variant_id": "ann_ft_0000_b9ba3769",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many freetext annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at this element, what phrase appears as the first annotated freetext phrase?",
+          "answer": "three material control deficiencies",
+          "assertions": [
+            {
+              "text": "The response must state 'three material control deficiencies'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "annotation",
+      "variant_id": "ann_lb_0001_3f61839c",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element' in the rendered PDF, what banner label is displayed across the top?",
+          "answer": "FOR INTERNAL USE ONLY",
+          "assertions": [
+            {
+              "text": "The response must state 'FOR INTERNAL USE ONLY'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at 'this element', what inline status label appears indicating its review state?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "annotation",
+      "variant_id": "ann_rv_0000_381d1ba1",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what review category is shown?",
+          "answer": "financial",
+          "assertions": [
+            {
+              "text": "[financial]"
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', how many highlights are present?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "[2]"
+            }
+          ]
+        },
+        {
+          "question": "In the 'this element', what does the first reviewer comment say?",
+          "answer": "ACV growth driver?",
+          "assertions": [
+            {
+              "text": "[ACV growth driver?]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "table",
+      "variant_id": "table_0001_d4ada0b1",
+      "table_number": 3,
+      "caption": "downstream impacts for priority services",
+      "columns": [
+        "Critical Process",
+        "Single Point(s) of Failure",
+        " Status)",
+        "RTO (Hours)",
+        "Vendor SLA",
+        "Recovery Prerequisites",
+        "Technical & Vendor Dependencies"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "Payment Processing",
+          "HSM appliance in primary DC",
+          " Passed with minor latency issues",
+          "2",
+          "ISP-A: 99.9% uptime; HSM vendor: 4hr hardware replacement",
+          "Failover to DR database cluster; secondary ISP-B activation",
+          "Payment Authorization API: Depends on Core Database Cluster + HSM + ISP-A"
+        ],
+        [
+          "Settlement & Reconciliation",
+          "Bank File Transfer endpoint (single provider)",
+          " Passed with action items",
+          "8",
+          "Bank partner SLA: 99.5%; SFTP vendor: 99.9%",
+          "Data warehouse restore from nightly backup; SFTP key revalidation",
+          "Settlement Batch Processing: Depends on Data Warehouse + SFTP Gateway + Bank File Transfer"
+        ],
+        [
+          "Customer Operations",
+          "Telephony Provider SIP trunk",
+          " Passed",
+          "4",
+          "Telephony SLA: 99.95%; CRM SaaS: 99.9%",
+          "SSO federation re-establishment; CRM failover to secondary region",
+          "Customer Support Contact Center: Depends on CRM + Telephony Provider + Identity SSO"
+        ],
+        [
+          "Fraud & Risk",
+          "Streaming Bus primary cluster",
+          " Passed – escalation timing improved",
+          "1",
+          "Streaming vendor: 99.99%; Threat Intel: 99.5%",
+          "Activate standby cluster; reload latest ruleset; validate threat feed API keys",
+          "Fraud Monitoring: Depends on Streaming Bus + Rules Engine + Threat Intel Feed"
+        ],
+        [
+          "Online Banking Portal",
+          "DNS Provider (single registrar)",
+          " Passed with DNS failover delay noted",
+          "3",
+          "CDN: 99.9%; DNS: 99.95%",
+          "DNS failover to secondary provider; CDN cache warm-up",
+          "Web Frontend + Application Servers + CDN + DNS Provider"
+        ],
+        [
+          "Internal Finance Reporting",
+          "Backup Storage Array (no geo-redundancy)",
+          " Passed",
+          "24",
+          "ERP SaaS: 99.8%; Storage vendor: 4hr response",
+          "Restore ERP VM from offsite backup; validate report integrity",
+          "ERP System + Reporting Server + Backup Storage Array"
+        ],
+        [
+          "Identity & Access Management",
+          "MFA Provider cloud service",
+          " Passed with MFA failover test successful",
+          "2",
+          "MFA SLA: 99.9%; VPN vendor: 99.95%",
+          "Promote secondary AD node; switch MFA to backup tenant; reissue VPN certs",
+          "Active Directory Cluster + MFA Provider + VPN Gateway"
+        ]
+      ],
+      "derived_answers": {
+        "sum_RTO (Hours)": 44.0,
+        "max_RTO (Hours)": 24.0,
+        "min_RTO (Hours)": 1.0
+      },
+      "qa_candidates": [
+        {
+          "question": "downstream impacts for priority services\", what is the RTO (Hours) for Fraud & Risk?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state 1."
+            }
+          ]
+        },
+        {
+          "question": "downstream impacts for priority services\", what is the Single Point(s) of Failure for Online Banking Portal?",
+          "answer": "DNS Provider (single registrar)",
+          "assertions": [
+            {
+              "text": "The response must state DNS Provider (single registrar)."
+            }
+          ]
+        },
+        {
+          "question": "downstream impacts for priority services\", what is the Vendor SLA listed for Internal Finance Reporting?",
+          "answer": "ERP SaaS: 99.8%; Storage vendor: 4hr response",
+          "assertions": [
+            {
+              "text": "The response must state ERP SaaS: 99.8%; Storage vendor: 4hr response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "annotation",
+      "variant_id": "ann_hl_0000_f2c212c1",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many highlighted phrases are there?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which phrase is highlighted in cyan?",
+          "answer": "87% of planned story points",
+          "assertions": [
+            {
+              "text": "The response must state '87% of planned story points'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "annotation",
+      "variant_id": "ann_ct_0002_e80007b9",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns are shown in the 'this element' colored table?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what is the total number of rows in the table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many rows indicate a positive trend (highlighted green)?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "annotation",
+      "variant_id": "ann_hl_0003_2f523e37",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many phrases are marked as highlighted?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "4"
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which phrase is highlighted in pink?",
+          "answer": "62% of total receivables",
+          "assertions": [
+            {
+              "text": "62% of total receivables"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "table",
+      "variant_id": "cx_table_0001_c3208c10",
+      "table_number": 4,
+      "caption": "Table 4: Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", how many period columns does each version group span?",
+          "answer": "4 period columns (Q1–Q4) per version group.",
+          "assertions": [
+            {
+              "text": "The response must state '4 period columns (Q1–Q4) per version group.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what is the Actuals Q3 value for \"Data replication & backup validation (RPO testing)\"?",
+          "answer": "63 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '63 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what is the \"Communications Subtotal\" section total for Baseline Q1?",
+          "answer": "55 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '55 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", which version shows the highest Q4 value for \"Crisis Management Team on-call coverage & rotation\"?",
+          "answer": "Actuals (39 vs Baseline 35).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals (39 vs Baseline 35).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what is the delta (Net $K) for \"TTX & Remediation Subtotal\"?",
+          "answer": "13 ($K).",
+          "assertions": [
+            {
+              "text": "The response must state '13 ($K).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", which period columns fall under the 'Baseline' header?",
+          "answer": "Q1–Q4",
+          "assertions": [
+            {
+              "text": "The response must state 'Q1–Q4'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", how many header tiers (header rows) are present?",
+          "answer": "3 header tiers",
+          "assertions": [
+            {
+              "text": "The response must state '3 header tiers'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", which reported amount is higher: the Baseline 63 ($000) or the Actuals 55 ($000)?",
+          "answer": "Baseline 63 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state 'Baseline 63 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what does the parenthetical '($000)' indicate?",
+          "answer": "Amounts in thousands of dollars",
+          "assertions": [
+            {
+              "text": "The response must state 'Amounts in thousands of dollars'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what is the Baseline subtotal shown?",
+          "answer": "63 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '63 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "annotation",
+      "variant_id": "ann_co_0005_28a49d84",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, what label is shown on the callout box?",
+          "answer": "Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Note'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, which currency are monetary values expressed in?",
+          "answer": "USD",
+          "assertions": [
+            {
+              "text": "The response must state 'USD'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "annotation",
+      "variant_id": "ann_ft_0002_fac466f4",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "Viewing the 'this element' on the page, what phrase was annotated first?",
+          "answer": "$4.2M",
+          "assertions": [
+            {
+              "text": "The response must state '$4.2M'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "table",
+      "variant_id": "cx_table_0000_3bbc33ad",
+      "table_number": 5,
+      "caption": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": " Constraints\" in the \"Customer Order Processing (ERP + OMS)\" row’s inner table under \"Upstream Dependencies\"?",
+          "answer": "Availability; Max Data Lag.",
+          "assertions": [
+            {
+              "text": "The response must state 'Availability; Max Data Lag.'."
+            }
+          ]
+        },
+        {
+          "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", how many rows does the label \"Runbook validated\" span in the inner table under \"Status & Last Test\" for the \"Payroll & Timekeeping\" category?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what does footnote 2 explain?",
+          "answer": "It explains that communications lag is measured from incident declaration to first external status-page publication, and the delay was due to manual approval routing.",
+          "assertions": [
+            {
+              "text": "The response must state 'It explains that communications lag is measured from incident declaration to first external status-page publication, and the delay was due to manual approval routing.'."
+            }
+          ]
+        },
+        {
+          "question": "BI)\" category?",
+          "answer": "9h 40m.",
+          "assertions": [
+            {
+              "text": "The response must state '9h 40m.'."
+            }
+          ]
+        },
+        {
+          "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", who is listed as the backup for the \"Incident Commander\" role in the inner table under \"Status & Last Test\" for the \"Network & Identity Services (Core Infrastructure)\" category?",
+          "answer": "Head of Infrastructure.",
+          "assertions": [
+            {
+              "text": "The response must state 'Head of Infrastructure.'."
+            }
+          ]
+        },
+        {
+          "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what labels appear under the Recovery Objectives header?",
+          "answer": "Availability; Max Data Lag.",
+          "assertions": [
+            {
+              "text": "The response must state 'Availability; Max Data Lag.'."
+            }
+          ]
+        },
+        {
+          "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", how many header rows are present?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", which has the larger count, data rows or header rows?",
+          "answer": "Data rows (5).",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (5).'."
+            }
+          ]
+        },
+        {
+          "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what does the annotation about communications lag explain?",
+          "answer": "Lag measured from incident declaration to first external status-page; delay due to manual approval routing.",
+          "assertions": [
+            {
+              "text": "The response must state 'Lag measured from incident declaration to first external status-page; delay due to manual approval routing.'."
+            }
+          ]
+        },
+        {
+          "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what is the subtotal for the group 'Data rows' in the count column?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "type": "annotation",
+      "variant_id": "ann_rv_0004_698df373",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In 'this element', what category is assigned to the review annotation?",
+          "answer": "financial",
+          "assertions": [
+            {
+              "text": "The response must state 'financial'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at 'this element', how many highlights are present in the review?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', what does the first reviewer comment say?",
+          "answer": "Provision methodology?",
+          "assertions": [
+            {
+              "text": "The response must state 'Provision methodology?'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_dc89a975",
+      "table_number": 6,
+      "caption": "Table 6: Project Milestone Tracker",
+      "columns": [
+        "Milestone ID",
+        "Milestone Description",
+        "Owner",
+        "Target Date",
+        "Percent Complete"
+      ],
+      "row_count": 50,
+      "cells": [
+        [
+          "M-01",
+          "Define recovery time objectives (RTO) for critical systems",
+          "IT Operations Manager",
+          "2026-01-15",
+          "100"
+        ],
+        [
+          "M-02",
+          "Identify and document critical business processes",
+          "Business Continuity Lead",
+          "2026-01-22",
+          "100"
+        ],
+        [
+          "M-03",
+          "Map process dependencies across departments",
+          "Enterprise Architect",
+          "2026-02-05",
+          "90"
+        ],
+        [
+          "M-04",
+          "Conduct risk assessment and business impact analysis update",
+          "Risk Manager",
+          "2026-02-12",
+          "85"
+        ],
+        [
+          "M-05",
+          "Define recovery point objectives (RPO) for key applications",
+          "IT Infrastructure Lead",
+          "2026-02-20",
+          "80"
+        ],
+        [
+          "M-06",
+          "Assign crisis management team roles and responsibilities",
+          "HR Director",
+          "2026-02-28",
+          "100"
+        ],
+        [
+          "M-07",
+          "Develop internal communication protocols",
+          "Communications Manager",
+          "2026-03-05",
+          "95"
+        ],
+        [
+          "M-08",
+          "Develop external stakeholder communication plan",
+          "Public Relations Lead",
+          "2026-03-12",
+          "75"
+        ],
+        [
+          "M-09",
+          "Document alternate site and remote work procedures",
+          "Facilities Manager",
+          "2026-03-18",
+          "70"
+        ],
+        [
+          "M-10",
+          "Integrate vendor and third-party recovery requirements",
+          "Procurement Manager",
+          "2026-03-25",
+          "65"
+        ],
+        [
+          "M-11",
+          "Review cybersecurity incident response alignment",
+          "Chief Information Security Officer",
+          "2026-04-02",
+          "85"
+        ],
+        [
+          "M-12",
+          "Conduct tabletop exercise for executive team",
+          "Business Continuity Lead",
+          "2026-04-10",
+          "100"
+        ],
+        [
+          "M-13",
+          "Document findings and improvement actions from tabletop exercise",
+          "Risk Manager",
+          "2026-04-18",
+          "60"
+        ],
+        [
+          "M-14",
+          "Update business continuity plan based on exercise results",
+          "IT Operations Manager",
+          "2026-04-25",
+          "50"
+        ],
+        [
+          "M-15",
+          "Executive approval and formal plan adoption",
+          "Chief Operating Officer",
+          "2026-05-05",
+          "30"
+        ],
+        [
+          "16",
+          "Define recovery time objectives (RTO) for all Tier 1 applications",
+          "IT Disaster Recovery Lead",
+          "2026-06-15",
+          "85%"
+        ],
+        [
+          "17",
+          "Identify and document critical business process dependencies",
+          "Business Continuity Manager",
+          "2026-06-20",
+          "78%"
+        ],
+        [
+          "18",
+          "Conduct business impact analysis (BIA) workshops with department heads",
+          "Risk Management Lead",
+          "2026-06-25",
+          "92%"
+        ],
+        [
+          "19",
+          "Establish crisis communication team structure and roles",
+          "HR Director",
+          "2026-06-30",
+          "60%"
+        ],
+        [
+          "20",
+          "Draft crisis communication plan including internal and external protocols",
+          "Corporate Communications Manager",
+          "2026-07-05",
+          "55%"
+        ],
+        [
+          "21",
+          "Validate data backup and restoration procedures against RTO requirements",
+          "IT Infrastructure Manager",
+          "2026-07-10",
+          "70%"
+        ],
+        [
+          "22",
+          "Document third-party vendor recovery capabilities and SLAs",
+          "Procurement Manager",
+          "2026-07-12",
+          "48%"
+        ],
+        [
+          "23",
+          "Develop alternate site strategy for critical operations",
+          "Facilities Manager",
+          "2026-07-18",
+          "40%"
+        ],
+        [
+          "24",
+          "Create incident escalation matrix and approval workflows",
+          "Operations Director",
+          "2026-07-22",
+          "65%"
+        ],
+        [
+          "25",
+          "Implement risk mitigation actions for high-priority gaps",
+          "Enterprise Risk Officer",
+          "2026-07-30",
+          "33%"
+        ],
+        [
+          "26",
+          "Design and schedule business continuity training sessions",
+          "Learning & Development Lead",
+          "2026-08-05",
+          "25%"
+        ],
+        [
+          "27",
+          "Conduct tabletop exercise simulating major system outage",
+          "IT Security Manager",
+          "2026-08-12",
+          "15%"
+        ],
+        [
+          "28",
+          "Update plan documentation based on exercise findings",
+          "Business Continuity Manager",
+          "2026-08-20",
+          "10%"
+        ],
+        [
+          "29",
+          "Obtain executive review and approval of final BCP document",
+          "Chief Operating Officer",
+          "2026-08-28",
+          "5%"
+        ],
+        [
+          "30",
+          "Publish approved business continuity plan and distribute to stakeholders",
+          "Program Management Office",
+          "2026-09-01",
+          "0%"
+        ],
+        [
+          "31",
+          "Conduct crisis management simulation exercise",
+          "Business Continuity Manager",
+          "2026-06-15",
+          "45%"
+        ],
+        [
+          "32",
+          "Validate recovery time objectives (RTO) with IT and Operations",
+          "IT Director",
+          "2026-06-22",
+          "60%"
+        ],
+        [
+          "33",
+          "Document critical supplier dependencies and backup options",
+          "Procurement Lead",
+          "2026-06-30",
+          "35%"
+        ],
+        [
+          "34",
+          "Review data backup and restoration procedures",
+          "IT Infrastructure Manager",
+          "2026-07-05",
+          "50%"
+        ],
+        [
+          "35",
+          "Update communication plan for internal stakeholders",
+          "HR Manager",
+          "2026-07-10",
+          "40%"
+        ],
+        [
+          "36",
+          "Define alternate work location arrangements",
+          "Facilities Manager",
+          "2026-07-18",
+          "25%"
+        ],
+        [
+          "37",
+          "Perform risk assessment for key business processes",
+          "Risk Officer",
+          "2026-07-25",
+          "55%"
+        ],
+        [
+          "38",
+          "Align crisis response roles and responsibilities",
+          "Operations Director",
+          "2026-08-01",
+          "30%"
+        ],
+        [
+          "39",
+          "Establish incident escalation thresholds and triggers",
+          "Compliance Manager",
+          "2026-08-08",
+          "20%"
+        ],
+        [
+          "40",
+          "Integrate cybersecurity incident response plan",
+          "Chief Information Security Officer",
+          "2026-08-15",
+          "65%"
+        ],
+        [
+          "41",
+          "Develop customer communication templates for disruptions",
+          "Marketing Director",
+          "2026-08-22",
+          "15%"
+        ],
+        [
+          "42",
+          "Review insurance coverage for business interruption",
+          "Finance Director",
+          "2026-08-29",
+          "70%"
+        ],
+        [
+          "43",
+          "Conduct third-party vendor continuity assessments",
+          "Vendor Risk Manager",
+          "2026-09-05",
+          "33%"
+        ],
+        [
+          "44",
+          "Finalize business continuity plan documentation",
+          "Business Continuity Manager",
+          "2026-09-15",
+          "10%"
+        ],
+        [
+          "45",
+          "Obtain executive approval and sign-off",
+          "Chief Executive Officer",
+          "2026-09-30",
+          "0%"
+        ],
+        [
+          "46",
+          "Conduct crisis simulation exercise for IT infrastructure outage",
+          "IT Operations Manager",
+          "2026-06-15",
+          "40%"
+        ],
+        [
+          "47",
+          "Validate recovery time objectives (RTOs) with business unit leaders",
+          "Business Continuity Lead",
+          "2026-06-22",
+          "55%"
+        ],
+        [
+          "48",
+          "Update critical process dependency matrix with third-party vendor inputs",
+          "Vendor Risk Manager",
+          "2026-06-30",
+          "35%"
+        ],
+        [
+          "49",
+          "Review and approve crisis communication escalation procedures",
+          "Corporate Communications Director",
+          "2026-07-05",
+          "25%"
+        ],
+        [
+          "50",
+          "Obtain executive sign-off on finalized business continuity plan document",
+          "Chief Operating Officer",
+          "2026-07-12",
+          "10%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Milestone ID": 1155.0,
+        "max_Milestone ID": 50.0,
+        "min_Milestone ID": 16.0,
+        "sum_Percent Complete": 2584.0,
+        "max_Percent Complete": 100.0,
+        "min_Percent Complete": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Target Date for milestone M-03?",
+          "answer": "2026-02-05",
+          "assertions": [
+            {
+              "text": "The response must state 2026-02-05."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", who is the Owner for milestone 50?",
+          "answer": "Chief Operating Officer",
+          "assertions": [
+            {
+              "text": "The response must state Chief Operating Officer."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Percent Complete for milestone 17?",
+          "answer": "78%",
+          "assertions": [
+            {
+              "text": "The response must state 78%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "type": "annotation",
+      "variant_id": "ann_lb_0003_6d8dae74",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', which classification banner label is shown?",
+          "answer": "APPROVED",
+          "assertions": [
+            {
+              "text": "The response must state 'APPROVED'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element', what inline status label appears?",
+          "answer": "CONFIDENTIAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CONFIDENTIAL'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "type": "table",
+      "variant_id": "table_0000_9a98b219",
+      "table_number": 7,
+      "caption": "RPO) for Northbridge Payments",
+      "columns": [
+        "Critical Service",
+        "RTO Target",
+        "RPO Target",
+        "Key Dependencies",
+        "Recovery Owner",
+        "Last Reviewed (Tabletop Validation)"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Payment Authorization API (Tier 1)",
+          "2 hours",
+          "51 minutes",
+          "Primary data center, real-time transaction database cluster, network gateway provider",
+          "Head of Payments Engineering",
+          "2026-03-15"
+        ],
+        [
+          "Customer Support Contact Center (Tier 2)",
+          "8 hours",
+          "4 hours",
+          "Cloud telephony platform, CRM system, identity management service",
+          "Director of Customer Operations",
+          "2026-03-15"
+        ],
+        [
+          "Settlement Batch Processing (Tier 2)",
+          "24 hours",
+          "12 hours",
+          "Core banking interface, secure file transfer service, finance data warehouse",
+          "VP of Finance Systems",
+          "2026-03-15"
+        ],
+        [
+          "Merchant Reporting Portal (Tier 3)",
+          "72 hours",
+          "24 hours",
+          "Business intelligence platform, reporting database replica, authentication service",
+          "Director of Data Services",
+          "2026-03-15"
+        ],
+        [
+          "Fraud Detection Engine (Tier 1)",
+          "4 hours",
+          "30 minutes",
+          "Machine learning model servers, transaction event stream, analytics cluster",
+          "Chief Risk Officer",
+          "2026-03-15"
+        ],
+        [
+          "Internal HR & Payroll System (Tier 3)",
+          "5 business days",
+          "48 hours",
+          "HR SaaS provider, payroll processor API, corporate VPN access",
+          "Head of Human Resources",
+          "2026-03-15"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "RPO) for Northbridge Payments\", what is the RTO Target for Payment Authorization API (Tier 1)?",
+          "answer": "2 hours",
+          "assertions": [
+            {
+              "text": "The response must state 2 hours."
+            }
+          ]
+        },
+        {
+          "question": "RPO) for Northbridge Payments\", who is the Recovery Owner for Fraud Detection Engine (Tier 1)?",
+          "answer": "Chief Risk Officer",
+          "assertions": [
+            {
+              "text": "The response must state Chief Risk Officer."
+            }
+          ]
+        },
+        {
+          "question": "RPO) for Northbridge Payments\", what is the RPO Target for Internal HR & Payroll System (Tier 3)?",
+          "answer": "48 hours",
+          "assertions": [
+            {
+              "text": "The response must state 48 hours."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "type": "annotation",
+      "variant_id": "ann_hl_0004_f73a38cc",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many highlighted phrases are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which highlighted phrase mentions certification?",
+          "answer": "ISO 27001 certification",
+          "assertions": [
+            {
+              "text": "The response must state 'ISO 27001 certification'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "type": "table",
+      "variant_id": "table_0002_4c815ceb",
+      "table_number": 8,
+      "caption": "Table 8: Minimum recovery resources and restoration sequence to meet RTO targets",
+      "columns": [
+        "Step",
+        "RTO (Hours)",
+        "Minimum Staffing",
+        "System Prerequisites",
+        "Execution Order",
+        "Current Status"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Step 1: Restore Core Database Cluster (DBA on-call + Storage admin)",
+          "2",
+          "1 DBA, 1 Storage Administrator",
+          "DR storage array online; latest replicated snapshot (≤15 min RPO) available",
+          "1",
+          "Validated in 2026-03-15 tabletop exercise"
+        ],
+        [
+          "Step 2: Validate HSM and key access for Payment Authorization API (Security engineer)",
+          "2.5",
+          "1 Security Engineer",
+          "HSM cluster reachable in DR; key vault replication complete; network ACLs updated",
+          "2",
+          "Validated in 2026-03-15 tabletop exercise"
+        ],
+        [
+          "Step 3: Bring up Payment Authorization API pods in DR (SRE lead + App owner)",
+          "3",
+          "1 SRE Lead, 1 Application Owner",
+          "Kubernetes DR cluster operational; container registry accessible; secrets synchronized",
+          "3",
+          "Validated in 2026-03-15 tabletop exercise"
+        ],
+        [
+          "Step 4: Reconcile queued transactions before Settlement Batch Processing (Finance ops)",
+          "4",
+          "2 Finance Operations Analysts",
+          "Message queue restored; transaction logs intact; reconciliation scripts verified",
+          "4",
+          "Validated in 2026-03-15 tabletop exercise"
+        ],
+        [
+          "Restore Identity and Access Management (IAM) services",
+          "1.5",
+          "1 IAM Engineer",
+          "Active Directory replica healthy; MFA provider reachable",
+          "0 (Parallel prerequisite)",
+          "Validated in 2026-03-15 tabletop exercise"
+        ],
+        [
+          "Reconfigure DNS to point customer traffic to DR endpoints",
+          "3.5",
+          "1 Network Engineer",
+          "DR load balancers active; health checks passing",
+          "5",
+          "Pending quarterly test"
+        ],
+        [
+          "Validate external payment gateway connectivity",
+          "3.5",
+          "1 Integration Engineer",
+          "API credentials confirmed; outbound firewall rules enabled",
+          "6",
+          "Validated in 2026-03-15 tabletop exercise"
+        ],
+        [
+          "SMS)",
+          "5",
+          "1 DevOps Engineer",
+          "SMTP relay and SMS provider API keys verified",
+          "7",
+          "Pending quarterly test"
+        ],
+        [
+          "Resume Settlement Batch Processing in DR",
+          "6",
+          "1 Finance Ops Lead, 1 DBA",
+          "Reconciled transaction queue; batch scheduler restored",
+          "8",
+          "Pending quarterly test"
+        ],
+        [
+          "Conduct data integrity validation and audit log review",
+          "8",
+          "1 Internal Auditor, 1 DBA",
+          "Full database consistency check completed; logs centralized in SIEM",
+          "9",
+          "Scheduled for 2026-06-30 test"
+        ],
+        [
+          "Executive sign-off and customer communication issuance",
+          "10",
+          "1 Crisis Manager, 1 Communications Lead",
+          "Service KPIs within SLA thresholds for 60 minutes",
+          "10",
+          "Pending executive approval"
+        ]
+      ],
+      "derived_answers": {
+        "sum_RTO (Hours)": 49.0,
+        "max_RTO (Hours)": 10.0,
+        "min_RTO (Hours)": 1.5,
+        "sum_Execution Order": 55.0,
+        "max_Execution Order": 10.0,
+        "min_Execution Order": 1.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Minimum recovery resources and restoration sequence to meet RTO targets\", what is the RTO (Hours) for \"Restore Core Database Cluster (DBA on-call + Storage admin)\"?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state 2."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Minimum recovery resources and restoration sequence to meet RTO targets\", what is the Current Status for \"Reconfigure DNS to point customer traffic to DR endpoints\"?",
+          "answer": "Pending quarterly test",
+          "assertions": [
+            {
+              "text": "The response must state Pending quarterly test."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Minimum recovery resources and restoration sequence to meet RTO targets\", what is the Execution Order listed for \"Restore Identity and Access Management (IAM) services\"?",
+          "answer": "0 (Parallel prerequisite)",
+          "assertions": [
+            {
+              "text": "The response must state 0 (Parallel prerequisite)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "type": "annotation",
+      "variant_id": "ann_ar_0001_210f9454",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what label is shown in the banner?",
+          "answer": "DRAFT",
+          "assertions": [
+            {
+              "text": "The response must state 'DRAFT'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what label is used for the callout box?",
+          "answer": "Editorial Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Editorial Note'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many phrases are highlighted?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "type": "annotation",
+      "variant_id": "ann_co_0000_092fd2fe",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what label appears on the callout box?",
+          "answer": "Approved",
+          "assertions": [
+            {
+              "text": "The response must state 'Approved'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', what does the callout box state about the change request?",
+          "answer": "Change request CR-2024-112 has been approved and is scheduled for the next deployment window.",
+          "assertions": [
+            {
+              "text": "The response must state 'Change request CR-2024-112 has been approved and is scheduled for the next deployment window.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_9797a886",
+      "table_number": 9,
+      "caption": "Table 9: Purchase Order Register",
+      "columns": [
+        "PO_Number",
+        "Vendor_Name",
+        "Description",
+        "Order_Date",
+        "Amount_USD"
+      ],
+      "row_count": 53,
+      "cells": [
+        [
+          "PO-2026-001",
+          "SecureCom Solutions",
+          "Emergency Notification System Upgrade",
+          "2026-01-12",
+          "18500.0"
+        ],
+        [
+          "PO-2026-002",
+          "DataSafe Recovery Inc.",
+          "Offsite Backup Storage Services - Annual",
+          "2026-01-18",
+          "24200.0"
+        ],
+        [
+          "PO-2026-003",
+          "Continuity Planning Group",
+          "Business Impact Analysis Consulting",
+          "2026-01-25",
+          "31500.0"
+        ],
+        [
+          "PO-2026-004",
+          "CrisisLead Training Co.",
+          "Crisis Management Team Workshop",
+          "2026-02-03",
+          "8600.0"
+        ],
+        [
+          "PO-2026-005",
+          "CloudCore Systems",
+          "Disaster Recovery Cloud Environment Setup",
+          "2026-02-10",
+          "47250.0"
+        ],
+        [
+          "PO-2026-006",
+          "NetShield Technologies",
+          "Redundant Network Infrastructure Equipment",
+          "2026-02-14",
+          "38975.0"
+        ],
+        [
+          "PO-2026-007",
+          "SafeSite Facilities",
+          "Alternate Site Lease - Q1",
+          "2026-02-20",
+          "15000.0"
+        ],
+        [
+          "PO-2026-008",
+          "AlertBridge Communications",
+          "Mass Notification Platform License Renewal",
+          "2026-03-01",
+          "12999.0"
+        ],
+        [
+          "PO-2026-009",
+          "IT Resilience Partners",
+          "Tabletop Exercise Facilitation Services",
+          "2026-03-05",
+          "11250.0"
+        ],
+        [
+          "PO-2026-010",
+          "RapidResponse Supplies",
+          "Emergency Operations Center Equipment",
+          "2026-03-12",
+          "9675.0"
+        ],
+        [
+          "PO-2026-011",
+          "CyberGuard Analytics",
+          "Incident Response Retainer - Annual",
+          "2026-03-18",
+          "54000.0"
+        ],
+        [
+          "PO-2026-012",
+          "PowerSecure Energy",
+          "Backup Generator Maintenance Contract",
+          "2026-03-22",
+          "17840.0"
+        ],
+        [
+          "PO-2026-013",
+          "HR Continuity Advisors",
+          "Workforce Continuity Planning Services",
+          "2026-04-02",
+          "13450.0"
+        ],
+        [
+          "PO-2026-014",
+          "TeleLink Services",
+          "Redundant VoIP and Call Forwarding Setup",
+          "2026-04-10",
+          "22130.0"
+        ],
+        [
+          "PO-2026-015",
+          "AuditPro Compliance LLC",
+          "Business Continuity Plan Compliance Review",
+          "2026-04-18",
+          "15675.0"
+        ],
+        [
+          "PO-016",
+          "ResilienceTech Solutions",
+          "Business impact analysis workshop facilitation",
+          "2026-02-03",
+          "4850.0"
+        ],
+        [
+          "PO-017",
+          "SecureData Hosting Inc.",
+          "Offsite data backup services - annual subscription",
+          "2026-02-05",
+          "12999.99"
+        ],
+        [
+          "PO-018",
+          "CrisisComms Group",
+          "Emergency notification system license",
+          "2026-02-08",
+          "7420.5"
+        ],
+        [
+          "PO-019",
+          "IT Recovery Partners",
+          "Disaster recovery infrastructure setup",
+          "2026-02-12",
+          "18450.75"
+        ],
+        [
+          "PO-020",
+          "Continuity Training Co.",
+          "Staff crisis response training sessions",
+          "2026-02-15",
+          "3650.0"
+        ],
+        [
+          "PO-021",
+          "CloudRestore Services",
+          "Cloud failover environment configuration",
+          "2026-02-18",
+          "9580.4"
+        ],
+        [
+          "PO-022",
+          "RiskAudit Advisors",
+          "Third-party business continuity audit",
+          "2026-02-22",
+          "11200.0"
+        ],
+        [
+          "PO-023",
+          "DataVault Storage LLC",
+          "Secure document storage and retrieval",
+          "2026-02-25",
+          "2890.3"
+        ],
+        [
+          "PO-024",
+          "Emergency Supplies Depot",
+          "Crisis management office equipment kit",
+          "2026-03-01",
+          "1765.89"
+        ],
+        [
+          "PO-025",
+          "NetSecure Systems",
+          "Network redundancy hardware purchase",
+          "2026-03-04",
+          "22340.6"
+        ],
+        [
+          "PO-026",
+          "RapidResponse Consulting",
+          "Incident response plan development",
+          "2026-03-09",
+          "13475.0"
+        ],
+        [
+          "PO-027",
+          "SafeSite Facilities",
+          "Alternate site rental agreement - quarterly",
+          "2026-03-12",
+          "15890.0"
+        ],
+        [
+          "PO-028",
+          "AlertNow Technologies",
+          "Mass SMS alert integration services",
+          "2026-03-16",
+          "4125.75"
+        ],
+        [
+          "PO-029",
+          "PowerBackup Solutions",
+          "Uninterruptible power supply units",
+          "2026-03-20",
+          "9675.2"
+        ],
+        [
+          "PO-030",
+          "CompliancePro Services",
+          "Regulatory compliance review for BCP",
+          "2026-03-25",
+          "5380.0"
+        ],
+        [
+          "PO-031",
+          "ResilienceTech Solutions",
+          "Emergency notification system subscription (annual)",
+          "2026-01-12",
+          "4850.00"
+        ],
+        [
+          "PO-032",
+          "DataVault Backup Services",
+          "Offsite cloud backup expansion (5TB)",
+          "2026-01-18",
+          "3200.00"
+        ],
+        [
+          "PO-033",
+          "CrisisCom Consulting Group",
+          "Business impact analysis workshop facilitation",
+          "2026-01-22",
+          "7600.00"
+        ],
+        [
+          "PO-034",
+          "SecureNet Hardware Inc.",
+          "Redundant firewall appliances",
+          "2026-02-03",
+          "12950.00"
+        ],
+        [
+          "PO-035",
+          "ContinuityPrint Co.",
+          "Printed crisis management plan manuals (200 copies)",
+          "2026-02-07",
+          "1850.00"
+        ],
+        [
+          "PO-036",
+          "SafeSite Recovery Centers",
+          "Hot site reservation retainer (quarterly)",
+          "2026-02-15",
+          "15000.00"
+        ],
+        [
+          "PO-037",
+          "AlertBridge Communications",
+          "Mass SMS alert credits package",
+          "2026-02-18",
+          "2200.00"
+        ],
+        [
+          "PO-038",
+          "PowerGuard Systems",
+          "Uninterruptible Power Supply (UPS) units",
+          "2026-02-26",
+          "6840.00"
+        ],
+        [
+          "PO-039",
+          "RiskAware Training Ltd.",
+          "Incident response training session",
+          "2026-03-05",
+          "5400.00"
+        ],
+        [
+          "PO-040",
+          "CloudSync Technologies",
+          "Disaster recovery failover testing service",
+          "2026-03-11",
+          "9100.00"
+        ],
+        [
+          "PO-041",
+          "SecureDocs Storage",
+          "Offsite physical records storage (annual)",
+          "2026-03-19",
+          "2750.00"
+        ],
+        [
+          "PO-042",
+          "ITRestore Partners",
+          "Server restoration and recovery drill support",
+          "2026-03-25",
+          "8300.00"
+        ],
+        [
+          "PO-043",
+          "MetroData Cabling",
+          "Secondary data line installation",
+          "2026-04-02",
+          "4700.00"
+        ],
+        [
+          "PO-044",
+          "Continuum Risk Advisors",
+          "Crisis leadership tabletop exercise facilitation",
+          "2026-04-09",
+          "6200.00"
+        ],
+        [
+          "PO-045",
+          "BackupGen Energy Co.",
+          "Portable generator rental agreement",
+          "2026-04-15",
+          "3950.00"
+        ],
+        [
+          "PO-0046",
+          "ResilienceTech Solutions",
+          "Consulting services for defining recovery time objectives (RTO) and recovery point objectives (RPO)",
+          "2026-03-12",
+          "18450.00"
+        ],
+        [
+          "PO-0047",
+          "SecureData Hosting Inc.",
+          "Cloud backup infrastructure setup for critical systems",
+          "2026-03-15",
+          "9720.50"
+        ],
+        [
+          "PO-0048",
+          "Continuity Pro Services",
+          "Business impact analysis (BIA) workshop facilitation",
+          "2026-03-18",
+          "7560.00"
+        ],
+        [
+          "PO-0049",
+          "CrisisCom Networks",
+          "Emergency notification system annual subscription",
+          "2026-03-22",
+          "4285.75"
+        ],
+        [
+          "PO-0050",
+          "IT Recovery Hardware Co.",
+          "Procurement of backup servers for disaster recovery site",
+          "2026-03-25",
+          "26340.00"
+        ],
+        [
+          "PO-0051",
+          "SafeSite Facilities Ltd.",
+          "Alternate site workspace rental for continuity testing",
+          "2026-03-28",
+          "6150.00"
+        ],
+        [
+          "PO-0052",
+          "RiskShield Consulting Group",
+          "Critical process dependency mapping and documentation services",
+          "2026-04-02",
+          "11280.00"
+        ],
+        [
+          "PO-0053",
+          "TrainSmart Learning Systems",
+          "Crisis management and incident response staff training program",
+          "2026-04-05",
+          "5340.25"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Amount_USD": 668754.88,
+        "max_Amount_USD": 54000.0,
+        "min_Amount_USD": 1765.89
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Amount_USD for PO-2026-003?",
+          "answer": "31500.0",
+          "assertions": [
+            {
+              "text": "The response must state 31500.0."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Vendor_Name for PO-024?",
+          "answer": "Emergency Supplies Depot",
+          "assertions": [
+            {
+              "text": "The response must state Emergency Supplies Depot."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Order_Date for PO-0052?",
+          "answer": "2026-04-02",
+          "assertions": [
+            {
+              "text": "The response must state 2026-04-02."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "type": "annotation",
+      "variant_id": "ann_ct_0003_d25e5e8a",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns does the 'this element' (Financial Performance Summary) colored table have?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element' titled Financial Performance Summary, how many rows are in the table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element' Financial Performance Summary, how many rows show a positive trend (highlighted green)?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "type": "annotation",
+      "variant_id": "ann_co_0002_83187519",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', what callout label is shown?",
+          "answer": "Critical",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', what instruction is given about the document's handling?",
+          "answer": "Sensitive financial data is included. This document must not leave the secure document management system.",
+          "assertions": [
+            {
+              "text": "The response must state 'Sensitive financial data is included. This document must not leave the secure document management system.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "type": "table",
+      "variant_id": "cx_table_0002_512600a6",
+      "table_number": 10,
+      "caption": "Table 10: Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what sub-columns fall under the \"Outcome\" group header in the inner tabletop exercise results table for the \"Crisis Communications & Tabletop Exercise (Most Recent)\" row?",
+          "answer": "Score (0-5) and Finding Severity.",
+          "assertions": [
+            {
+              "text": "The response must state 'Score (0-5) and Finding Severity.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", how many rows does the \"Customer communications\" label span in the inner tabletop exercise results table for the \"Crisis Communications & Tabletop Exercise (Most Recent)\" row?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what does footnote 7 explain?",
+          "answer": "It states the tabletop exercise date (2026-03-14) and the participating functions (IT, Security, Finance, Customer Support, Legal, and Communications).",
+          "assertions": [
+            {
+              "text": "The response must state 'It states the tabletop exercise date (2026-03-14) and the participating functions (IT, Security, Finance, Customer Support, Legal, and Communications).'."
+            }
+          ]
+        },
+        {
+          "question": "RPO table for the \"IT Infrastructure & Identity Services\" row?",
+          "answer": "1 hour.",
+          "assertions": [
+            {
+              "text": "The response must state '1 hour.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what finding severity is recorded for \"Incident command & decision cadence\" in the inner tabletop exercise results table for the \"Crisis Communications & Tabletop Exercise (Most Recent)\" row?",
+          "answer": "Medium.",
+          "assertions": [
+            {
+              "text": "The response must state 'Medium.'."
+            }
+          ]
+        },
+        {
+          "question": " Status\" column show?",
+          "answer": "Score (0-5) and Finding Severity.",
+          "assertions": [
+            {
+              "text": "The response must state 'Score (0-5) and Finding Severity.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", how many header tiers are present?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", which is greater: the number of header tiers or the number of data rows?",
+          "answer": "Data rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what does the table note explain about scoring?",
+          "answer": "Score (0-5) and Finding Severity.",
+          "assertions": [
+            {
+              "text": "The response must state 'Score (0-5) and Finding Severity.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what is the subtotal number of data rows in the table?",
+          "answer": "5.",
+          "assertions": [
+            {
+              "text": "The response must state '5.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "type": "annotation",
+      "variant_id": "ann_rv_0002_c6d241ec",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many phrases are visually highlighted?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing this element, does it include PDF reviewer sticky-note comments?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what does the first reviewer comment say?",
+          "answer": "Budget allocated?",
+          "assertions": [
+            {
+              "text": "The response must state 'Budget allocated?'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 38,
+      "type": "annotation",
+      "variant_id": "ann_lb_0004_3891143d",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what classification banner label is displayed?",
+          "answer": "LOW RISK",
+          "assertions": [
+            {
+              "text": "The response must state 'LOW RISK'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element', what inline status label appears?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 39,
+      "type": "table",
+      "variant_id": "table_0004_0e18043d",
+      "table_number": 11,
+      "caption": "Table 11: Communication protocols, notification timelines, and channel standards during a disruption",
+      "columns": [
+        "Notification Type",
+        "Trigger",
+        "Timeline & Channel",
+        "Owner",
+        "Last Tested",
+        "Status"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Internal Incident",
+          "SEV-1 declared by Incident Commander",
+          "Internal incident notification: Within 15 minutes via Slack #inc-major + PagerDuty",
+          "Site Reliability Engineering (SRE) Lead",
+          "2026-04-15",
+          "Compliant"
+        ],
+        [
+          "Executive Briefing",
+          "SEV-1 or SEV-2 lasting >30 minutes",
+          "Executive update cadence: Every 60 minutes via email + bridge call",
+          "Chief Information Officer",
+          "2026-04-15",
+          "Compliant"
+        ],
+        [
+          "Customer Communication",
+          "Customer-facing service disruption >15 minutes",
+          "Customer status page update: Within 60 minutes at status.northbridgepay.com",
+          "Head of Customer Operations",
+          "2026-04-15",
+          "Compliant"
+        ],
+        [
+          "Regulatory Escalation",
+          "Confirmed breach of regulated data",
+          "Regulatory notification (if applicable): Within 24 hours via Compliance mailbox",
+          "Chief Compliance Officer",
+          "2026-04-15",
+          "Compliant"
+        ],
+        [
+          "Third-Party Vendor Alert",
+          "Critical dependency outage impacting payment processing",
+          "Notify vendor account manager within 30 minutes via phone + vendor portal",
+          "Vendor Management Office",
+          "2026-04-15",
+          "Compliant"
+        ],
+        [
+          "Board Notification",
+          "SEV-1 incident with financial impact >$250,000",
+          "Notify Board within 24 hours via secure board portal + email summary",
+          "Chief Executive Officer",
+          "2026-04-15",
+          "Compliant"
+        ],
+        [
+          "Law Enforcement Contact",
+          "Confirmed criminal activity (e.g., ransomware)",
+          "Engage federal law enforcement within 12 hours via designated liaison channel",
+          "Chief Information Security Officer",
+          "2026-04-15",
+          "Compliant"
+        ],
+        [
+          "Internal All-Hands Update",
+          "Major incident resolved with customer impact",
+          "Company-wide update within 48 hours via email + recorded town hall",
+          "Head of Corporate Communications",
+          "2026-04-15",
+          "Compliant"
+        ],
+        [
+          "Post-Incident Report Distribution",
+          "Completion of root cause analysis (RCA)",
+          "Distribute RCA within 5 business days via Confluence + email summary",
+          "Incident Manager",
+          "2026-04-15",
+          "Compliant"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Communication protocols, notification timelines, and channel standards during a disruption,\" who is the Owner for the Notification Type \"Board Notification\"?",
+          "answer": "Chief Executive Officer",
+          "assertions": [
+            {
+              "text": "The response must state Chief Executive Officer."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Communication protocols, notification timelines, and channel standards during a disruption,\" what is the Timeline & Channel for \"Regulatory Escalation\"?",
+          "answer": "Regulatory notification (if applicable): Within 24 hours via Compliance mailbox",
+          "assertions": [
+            {
+              "text": "The response must state Regulatory notification (if applicable): Within 24 hours via Compliance mailbox."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Communication protocols, notification timelines, and channel standards during a disruption,\" what is the Last Tested date for \"Internal Incident\"?",
+          "answer": "2026-04-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-04-15."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 40,
+      "type": "annotation",
+      "variant_id": "ann_rv_0001_198e998f",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what type of annotation is displayed?",
+          "answer": "review",
+          "assertions": [
+            {
+              "text": "The response must state 'review'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which category is assigned to the review?",
+          "answer": "financial",
+          "assertions": [
+            {
+              "text": "The response must state 'financial'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many highlights are visible?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 41,
+      "type": "annotation",
+      "variant_id": "ann_sn_0003_ea89d9e5",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', how many sticky-note annotations are attached?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', what phrase received the first annotation?",
+          "answer": "62% of total receivables",
+          "assertions": [
+            {
+              "text": "62% of total receivables"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 42,
+      "type": "annotation",
+      "variant_id": "ann_lb_0000_ad559434",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what banner classification is displayed?",
+          "answer": "CRITICAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'this element', what inline status label is shown?",
+          "answer": "APPROVED",
+          "assertions": [
+            {
+              "text": "The response must state 'APPROVED'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 43,
+      "type": "annotation",
+      "variant_id": "ann_co_0003_3fc45b99",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what label appears on the callout box?",
+          "answer": "Critical",
+          "assertions": [
+            {
+              "text": "The response must state 'Critical'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what exact message is displayed in the callout?",
+          "answer": "CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 44,
+      "type": "annotation",
+      "variant_id": "ann_ft_0001_8c777917",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element under the risk category, how many freetext annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what exact phrase is targeted by the first freetext annotation?",
+          "answer": "$340K",
+          "assertions": [
+            {
+              "text": "The response must state '$340K'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 45,
+      "type": "annotation",
+      "variant_id": "ann_hl_0001_2ba33cb3",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many highlighted phrases are present?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what color name is used for the $4.2M highlighted phrase?",
+          "answer": "cyan",
+          "assertions": [
+            {
+              "text": "The response must state 'cyan'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 46,
+      "type": "annotation",
+      "variant_id": "ann_ft_0004_9f5f2a23",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many freetext annotation boxes are attached in the project section?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what phrase appears as the first annotated text?",
+          "answer": "2025-01-06",
+          "assertions": [
+            {
+              "text": "The response must state '2025-01-06'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 47,
+      "type": "annotation",
+      "variant_id": "ann_lb_0005_ac8a0685",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what classification banner is displayed?",
+          "answer": "HIGH RISK",
+          "assertions": [
+            {
+              "text": "The response must state 'HIGH RISK'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'this element', what inline status label appears on the element?",
+          "answer": "CONFIDENTIAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CONFIDENTIAL'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 48,
+      "type": "annotation",
+      "variant_id": "ann_ct_0001_c8d601f3",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns are in the 'Financial Performance Summary' this element?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Financial Performance Summary' this element, what is the total number of rows presented in the colored table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Financial Performance Summary' this element, how many rows indicate a positive trend?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 49,
+      "type": "annotation",
+      "variant_id": "ann_sn_0004_9cfe2b75",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many sticky-note annotations are attached in the risk area?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at this element, what phrase was annotated first in the risk sticky note?",
+          "answer": "5 business days",
+          "assertions": [
+            {
+              "text": "The response must state '5 business days'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 50,
+      "type": "annotation",
+      "variant_id": "ann_sn_0000_c83dab0e",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many sticky-note annotations are listed?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', what is the first annotated phrase shown on the note?",
+          "answer": "2025-03-31",
+          "assertions": [
+            {
+              "text": "The response must state '2025-03-31'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "type": "annotation",
+      "variant_id": "ann_co_0004_f361121e",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what label appears on the callout box?",
+          "answer": "Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Note'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what does the callout box instruct the reader to refer to?",
+          "answer": "For full disclosure, refer to the Notes to Financial Statements in Appendix B.",
+          "assertions": [
+            {
+              "text": "The response must state 'For full disclosure, refer to the Notes to Financial Statements in Appendix B.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 52,
+      "type": "annotation",
+      "variant_id": "ann_sn_0001_0326e6dc",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In 'this element', how many sticky-note annotations are present in the project?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', what is the first annotated phrase shown in the project sticky note?",
+          "answer": "2025-02-14",
+          "assertions": [
+            {
+              "text": "The response must state '2025-02-14'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 53,
+      "type": "annotation",
+      "variant_id": "ann_ct_0000_bcfa72b1",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many columns are in the colored table?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', how many total rows are listed in the table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'this element', how many rows indicate a negative trend (highlighted red)?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 54,
+      "type": "annotation",
+      "variant_id": "ann_ar_0003_3b149257",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element' in the rendered PDF, what banner label appears at the top?",
+          "answer": "SUBJECT TO CHANGE",
+          "assertions": [
+            {
+              "text": "The response must state 'SUBJECT TO CHANGE'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what callout label is shown in the annotated report section?",
+          "answer": "Approved",
+          "assertions": [
+            {
+              "text": "The response must state 'Approved'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element' in the rendered PDF, are PDF notes present?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "ann_ar_0000_15e587b5": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0003_f23334b9": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "semantic"
+      ],
+      "base_type": "Clarifies_decision_rights_and_accountability_so_the_organiza",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Role",
+        "Decision Authority",
+        "RTO Alignment",
+        "Last Exercise Date",
+        "Key Responsibilities",
+        "Current Status",
+        "Assigned Leadership",
+        "Primary Dependencies"
+      ],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_rv_0003_e4cbcb87": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0004_c9c610fd": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "text_0001_83e0612d": {
+      "kind": "text",
+      "perturbations": [
+        "typos",
+        "unicode_punctuation"
+      ],
+      "heading": "Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes",
+      "word_count": 323,
+      "text_type": "llm_prose",
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_sn_0002_800a5f6a": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0002_73cccd69": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0002_ed3e6639": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "text_0000_65b6e69d": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments",
+      "word_count": 199,
+      "text_type": "llm_prose",
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_co_0001_147d2606": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0005_76e05cdd": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "formatting"
+      ],
+      "base_type": "Summarizes_the_most_recent_exercise_outcomes_to_demonstrate_",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Exercise Date",
+        "Tested Area",
+        "Objective Completion Rate",
+        "Key Gap Identified",
+        "Remediation Status"
+      ],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_ft_0003_ceafa77c": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0002_2185b8a2": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0000_b9ba3769": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0001_3f61839c": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_rv_0000_381d1ba1": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0001_d4ada0b1": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "formatting"
+      ],
+      "base_type": "Maps_the_technical_and_vendor_dependencies_required_to_meet_",
+      "row_count": 7,
+      "col_count": 7,
+      "columns": [
+        "Critical Process",
+        "Single Point(s) of Failure",
+        " Status)",
+        "RTO (Hours)",
+        "Vendor SLA",
+        "Recovery Prerequisites",
+        "Technical & Vendor Dependencies"
+      ],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_hl_0000_f2c212c1": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0002_e80007b9": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0003_2f523e37": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "cx_table_0001_c3208c10": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_co_0005_28a49d84": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0002_fac466f4": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "cx_table_0000_3bbc33ad": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_rv_0004_698df373": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "llm_mp_table_0001_dc89a975": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "project_milestone_tracker",
+      "row_count": 50,
+      "col_count": 5,
+      "columns": [
+        "Milestone ID",
+        "Milestone Description",
+        "Owner",
+        "Target Date",
+        "Percent Complete"
+      ],
+      "topic_id": ""
+    },
+    "ann_lb_0003_6d8dae74": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0000_9a98b219": {
+      "kind": "table",
+      "perturbations": [
+        "noise",
+        "formatting"
+      ],
+      "base_type": "RPO_targets_that_drive_recovery_seq",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Critical Service",
+        "RTO Target",
+        "RPO Target",
+        "Key Dependencies",
+        "Recovery Owner",
+        "Last Reviewed (Tabletop Validation)"
+      ],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_hl_0004_f73a38cc": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0002_4c815ceb": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Lists_the_minimum_staffing,_system_prerequisites,_and_step_o",
+      "row_count": 11,
+      "col_count": 6,
+      "columns": [
+        "Step",
+        "RTO (Hours)",
+        "Minimum Staffing",
+        "System Prerequisites",
+        "Execution Order",
+        "Current Status"
+      ],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_ar_0001_210f9454": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0000_092fd2fe": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "llm_mp_table_0000_9797a886": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "purchase_order_register",
+      "row_count": 53,
+      "col_count": 5,
+      "columns": [
+        "PO_Number",
+        "Vendor_Name",
+        "Description",
+        "Order_Date",
+        "Amount_USD"
+      ],
+      "topic_id": ""
+    },
+    "ann_ct_0003_d25e5e8a": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0002_83187519": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "cx_table_0002_512600a6": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_rv_0002_c6d241ec": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0004_3891143d": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0004_0e18043d": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Standardizes_who_is_notified,_by_when,_and_through_which_cha",
+      "row_count": 9,
+      "col_count": 6,
+      "columns": [
+        "Notification Type",
+        "Trigger",
+        "Timeline & Channel",
+        "Owner",
+        "Last Tested",
+        "Status"
+      ],
+      "topic_id": "business_continuity_plan"
+    },
+    "ann_rv_0001_198e998f": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0003_ea89d9e5": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0000_ad559434": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0003_3fc45b99": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0001_8c777917": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0001_2ba33cb3": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0004_9f5f2a23": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0005_ac8a0685": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0001_c8d601f3": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0004_9cfe2b75": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0000_c83dab0e": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0004_f361121e": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0001_0326e6dc": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0000_bcfa72b1": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0003_3b149257": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "scan_llm_0000_914bffbd": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_ee89cedd.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "On the 'this element', what banner label is displayed?",
+      "answer": "SUBJECT TO CHANGE",
+      "assertions": [
+        {
+          "text": "The response must state 'SUBJECT TO CHANGE'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what callout label appears next to the content?",
+      "answer": "Approved",
+      "assertions": [
+        {
+          "text": "The response must state 'Approved'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'this element', how many phrases are highlighted?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Crisis management roles, named owners, and alternates for incident response\", what is the RTO Alignment for the IT Recovery Lead?",
+      "answer": "Tier 1 Systems RTO: 2 hours; Tier 2: 8 hours",
+      "assertions": [
+        {
+          "text": "The response must state Tier 1 Systems RTO: 2 hours; Tier 2: 8 hours."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Crisis management roles, named owners, and alternates for incident response\", who is listed as the Assigned Leadership for the Executive Sponsor?",
+      "answer": "Executive Sponsor: David Ruiz (Alternate: Elena Novak)",
+      "assertions": [
+        {
+          "text": "The response must state Executive Sponsor: David Ruiz (Alternate: Elena Novak)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Crisis management roles, named owners, and alternates for incident response\", what is the Primary Dependencies entry for the Facilities & Security Lead?",
+      "answer": "Local authorities; Property management",
+      "assertions": [
+        {
+          "text": "The response must state Local authorities; Property management."
+        }
+      ]
+    },
+    {
+      "question": "Viewing this element in the PDF, how many phrases are visually highlighted?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, are PDF reviewer sticky-note comments present?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element as shown on the page, what does the first reviewer comment read?",
+      "answer": "Treasurer to advise",
+      "assertions": [
+        {
+          "text": "The response must state 'Treasurer to advise'."
+        }
+      ]
+    },
+    {
+      "question": "How many columns does 'this element' display?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', how many rows show a positive trend (highlighted green)?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', how many rows are indicated as negative (highlighted red)?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes\" section, who is the Executive Sponsor?",
+      "answer": "David Ruiz",
+      "assertions": [
+        {
+          "text": "The response must state David Ruiz."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes\" section, within how many minutes must the first internal incident notification be sent?",
+      "answer": "within 15 minutes of incident declaration",
+      "assertions": [
+        {
+          "text": "The response must state within 15 minutes of incident declaration."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Crisis Management Organization, Communication Protocols, and 2026-03-14 Tabletop Exercise Outcomes\" section, what percentage objective completion rate was achieved in the 2026-03-14 tabletop exercise?",
+      "answer": "92% objective completion rate arcoss asesssed scenarios",
+      "assertions": [
+        {
+          "text": "The response must state 92% objective completion rate arcoss asesssed scenarios."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what category label appears for the sticky note?",
+      "answer": "compliance",
+      "assertions": [
+        {
+          "text": "The response must state 'compliance'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', what phrase received the first annotation?",
+      "answer": "6 of 22 new suppliers",
+      "assertions": [
+        {
+          "text": "The response must state '6 of 22 new suppliers'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, what label is shown in the banner at the top?",
+      "answer": "SUBJECT TO CHANGE",
+      "assertions": [
+        {
+          "text": "The response must state 'SUBJECT TO CHANGE'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at this element, which callout label appears in the callout box?",
+      "answer": "Tip",
+      "assertions": [
+        {
+          "text": "The response must state 'Tip'."
+        }
+      ]
+    },
+    {
+      "question": "For this element, how many highlighted phrases are visible in the rendered PDF?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what banner label is displayed on the classification banner?",
+      "answer": "CONFIDENTIAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CONFIDENTIAL'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element', what inline status label appears with the content?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments\" section, what is the RTO for the Payment Authorization API?",
+      "answer": "2 hours",
+      "assertions": [
+        {
+          "text": "The response must state 2 hours."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments\" section, on what date is the next formal review scheduled?",
+      "answer": "2026-09-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-09-30."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Recovery Time Objectives and Critical Process Dependency Map for Northbridge Payments\" section, what percentage of RPO adherence was measured across critical services in the 2026-04-01 validation?",
+      "answer": "98%",
+      "assertions": [
+        {
+          "text": "The response must state 98%."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what label appears on the callout box?",
+      "answer": "Approved",
+      "assertions": [
+        {
+          "text": "The response must state 'Approved'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what date is shown in the approval text?",
+      "answer": "2024-10-15",
+      "assertions": [
+        {
+          "text": "The response must state '2024-10-15'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"2026-03-14 tabletop exercise results, gaps identified, and corrective action owners\", what is the Objective Completion Rate for \"ERP recovery within defined RTO (4 hours)\"?",
+      "answer": "90%",
+      "assertions": [
+        {
+          "text": "The response must state 90%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"2026-03-14 tabletop exercise results, gaps identified, and corrective action owners\", what is the Key Gap Identified for \"Enterprise-wide cyber incident with data center failover\"?",
+      "answer": "DR DNS cutover runbook missing validation step (Owner: Samir Khan)",
+      "assertions": [
+        {
+          "text": "The response must state DR DNS cutover runbook missing validation step (Owner: Samir Khan)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"2026-03-14 tabletop exercise results, gaps identified, and corrective action owners\", what is the Remediation Status for \"Internal and external communications during outage\"?",
+      "answer": "Automation change request submitted; awaiting CAB approval",
+      "assertions": [
+        {
+          "text": "The response must state Automation change request submitted; awaiting CAB approval."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many freetext annotation boxes are present in the risk section?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element', which exact phrase is highlighted by the first freetext annotation?",
+      "answer": "100bp increase",
+      "assertions": [
+        {
+          "text": "The response must state '100bp increase'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, how many phrases are highlighted?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, which highlighted phrase appears in red?",
+      "answer": "38% of revenue",
+      "assertions": [
+        {
+          "text": "The response must state '38% of revenue'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many freetext annotation boxes are attached?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at this element, what phrase appears as the first annotated freetext phrase?",
+      "answer": "three material control deficiencies",
+      "assertions": [
+        {
+          "text": "The response must state 'three material control deficiencies'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' in the rendered PDF, what banner label is displayed across the top?",
+      "answer": "FOR INTERNAL USE ONLY",
+      "assertions": [
+        {
+          "text": "The response must state 'FOR INTERNAL USE ONLY'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at 'this element', what inline status label appears indicating its review state?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what review category is shown?",
+      "answer": "financial",
+      "assertions": [
+        {
+          "text": "[financial]"
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', how many highlights are present?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "[2]"
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what does the first reviewer comment say?",
+      "answer": "ACV growth driver?",
+      "assertions": [
+        {
+          "text": "[ACV growth driver?]"
+        }
+      ]
+    },
+    {
+      "question": "downstream impacts for priority services\", what is the RTO (Hours) for Fraud & Risk?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state 1."
+        }
+      ]
+    },
+    {
+      "question": "downstream impacts for priority services\", what is the Single Point(s) of Failure for Online Banking Portal?",
+      "answer": "DNS Provider (single registrar)",
+      "assertions": [
+        {
+          "text": "The response must state DNS Provider (single registrar)."
+        }
+      ]
+    },
+    {
+      "question": "downstream impacts for priority services\", what is the Vendor SLA listed for Internal Finance Reporting?",
+      "answer": "ERP SaaS: 99.8%; Storage vendor: 4hr response",
+      "assertions": [
+        {
+          "text": "The response must state ERP SaaS: 99.8%; Storage vendor: 4hr response."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many highlighted phrases are there?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which phrase is highlighted in cyan?",
+      "answer": "87% of planned story points",
+      "assertions": [
+        {
+          "text": "The response must state '87% of planned story points'."
+        }
+      ]
+    },
+    {
+      "question": "How many columns are shown in the 'this element' colored table?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what is the total number of rows in the table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many rows indicate a positive trend (highlighted green)?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many phrases are marked as highlighted?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which phrase is highlighted in pink?",
+      "answer": "62% of total receivables",
+      "assertions": [
+        {
+          "text": "62% of total receivables"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", how many period columns does each version group span?",
+      "answer": "4 period columns (Q1–Q4) per version group.",
+      "assertions": [
+        {
+          "text": "The response must state '4 period columns (Q1–Q4) per version group.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what is the Actuals Q3 value for \"Data replication & backup validation (RPO testing)\"?",
+      "answer": "63 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '63 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what is the \"Communications Subtotal\" section total for Baseline Q1?",
+      "answer": "55 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '55 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", which version shows the highest Q4 value for \"Crisis Management Team on-call coverage & rotation\"?",
+      "answer": "Actuals (39 vs Baseline 35).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals (39 vs Baseline 35).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what is the delta (Net $K) for \"TTX & Remediation Subtotal\"?",
+      "answer": "13 ($K).",
+      "assertions": [
+        {
+          "text": "The response must state '13 ($K).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", which period columns fall under the 'Baseline' header?",
+      "answer": "Q1–Q4",
+      "assertions": [
+        {
+          "text": "The response must state 'Q1–Q4'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", how many header tiers (header rows) are present?",
+      "answer": "3 header tiers",
+      "assertions": [
+        {
+          "text": "The response must state '3 header tiers'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", which reported amount is higher: the Baseline 63 ($000) or the Actuals 55 ($000)?",
+      "answer": "Baseline 63 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state 'Baseline 63 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what does the parenthetical '($000)' indicate?",
+      "answer": "Amounts in thousands of dollars",
+      "assertions": [
+        {
+          "text": "The response must state 'Amounts in thousands of dollars'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Cost & Readiness Summary — Baseline vs Actuals by Quarter (Includes RTO Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Outcomes)\", what is the Baseline subtotal shown?",
+      "answer": "63 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '63 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, what label is shown on the callout box?",
+      "answer": "Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Note'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, which currency are monetary values expressed in?",
+      "answer": "USD",
+      "assertions": [
+        {
+          "text": "The response must state 'USD'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many annotation boxes are attached?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "Viewing the 'this element' on the page, what phrase was annotated first?",
+      "answer": "$4.2M",
+      "assertions": [
+        {
+          "text": "The response must state '$4.2M'."
+        }
+      ]
+    },
+    {
+      "question": " Constraints\" in the \"Customer Order Processing (ERP + OMS)\" row’s inner table under \"Upstream Dependencies\"?",
+      "answer": "Availability; Max Data Lag.",
+      "assertions": [
+        {
+          "text": "The response must state 'Availability; Max Data Lag.'."
+        }
+      ]
+    },
+    {
+      "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", how many rows does the label \"Runbook validated\" span in the inner table under \"Status & Last Test\" for the \"Payroll & Timekeeping\" category?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what does footnote 2 explain?",
+      "answer": "It explains that communications lag is measured from incident declaration to first external status-page publication, and the delay was due to manual approval routing.",
+      "assertions": [
+        {
+          "text": "The response must state 'It explains that communications lag is measured from incident declaration to first external status-page publication, and the delay was due to manual approval routing.'."
+        }
+      ]
+    },
+    {
+      "question": "BI)\" category?",
+      "answer": "9h 40m.",
+      "assertions": [
+        {
+          "text": "The response must state '9h 40m.'."
+        }
+      ]
+    },
+    {
+      "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", who is listed as the backup for the \"Incident Commander\" role in the inner table under \"Status & Last Test\" for the \"Network & Identity Services (Core Infrastructure)\" category?",
+      "answer": "Head of Infrastructure.",
+      "assertions": [
+        {
+          "text": "The response must state 'Head of Infrastructure.'."
+        }
+      ]
+    },
+    {
+      "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what labels appear under the Recovery Objectives header?",
+      "answer": "Availability; Max Data Lag.",
+      "assertions": [
+        {
+          "text": "The response must state 'Availability; Max Data Lag.'."
+        }
+      ]
+    },
+    {
+      "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", how many header rows are present?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", which has the larger count, data rows or header rows?",
+      "answer": "Data rows (5).",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (5).'."
+        }
+      ]
+    },
+    {
+      "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what does the annotation about communications lag explain?",
+      "answer": "Lag measured from incident declaration to first external status-page; delay due to manual approval routing.",
+      "assertions": [
+        {
+          "text": "The response must state 'Lag measured from incident declaration to first external status-page; delay due to manual approval routing.'."
+        }
+      ]
+    },
+    {
+      "question": "RPO, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what is the subtotal for the group 'Data rows' in the count column?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In 'this element', what category is assigned to the review annotation?",
+      "answer": "financial",
+      "assertions": [
+        {
+          "text": "The response must state 'financial'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at 'this element', how many highlights are present in the review?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what does the first reviewer comment say?",
+      "answer": "Provision methodology?",
+      "assertions": [
+        {
+          "text": "The response must state 'Provision methodology?'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Target Date for milestone M-03?",
+      "answer": "2026-02-05",
+      "assertions": [
+        {
+          "text": "The response must state 2026-02-05."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", who is the Owner for milestone 50?",
+      "answer": "Chief Operating Officer",
+      "assertions": [
+        {
+          "text": "The response must state Chief Operating Officer."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Percent Complete for milestone 17?",
+      "answer": "78%",
+      "assertions": [
+        {
+          "text": "The response must state 78%."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', which classification banner label is shown?",
+      "answer": "APPROVED",
+      "assertions": [
+        {
+          "text": "The response must state 'APPROVED'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element', what inline status label appears?",
+      "answer": "CONFIDENTIAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CONFIDENTIAL'."
+        }
+      ]
+    },
+    {
+      "question": "RPO) for Northbridge Payments\", what is the RTO Target for Payment Authorization API (Tier 1)?",
+      "answer": "2 hours",
+      "assertions": [
+        {
+          "text": "The response must state 2 hours."
+        }
+      ]
+    },
+    {
+      "question": "RPO) for Northbridge Payments\", who is the Recovery Owner for Fraud Detection Engine (Tier 1)?",
+      "answer": "Chief Risk Officer",
+      "assertions": [
+        {
+          "text": "The response must state Chief Risk Officer."
+        }
+      ]
+    },
+    {
+      "question": "RPO) for Northbridge Payments\", what is the RPO Target for Internal HR & Payroll System (Tier 3)?",
+      "answer": "48 hours",
+      "assertions": [
+        {
+          "text": "The response must state 48 hours."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many highlighted phrases are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which highlighted phrase mentions certification?",
+      "answer": "ISO 27001 certification",
+      "assertions": [
+        {
+          "text": "The response must state 'ISO 27001 certification'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Minimum recovery resources and restoration sequence to meet RTO targets\", what is the RTO (Hours) for \"Restore Core Database Cluster (DBA on-call + Storage admin)\"?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state 2."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Minimum recovery resources and restoration sequence to meet RTO targets\", what is the Current Status for \"Reconfigure DNS to point customer traffic to DR endpoints\"?",
+      "answer": "Pending quarterly test",
+      "assertions": [
+        {
+          "text": "The response must state Pending quarterly test."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Minimum recovery resources and restoration sequence to meet RTO targets\", what is the Execution Order listed for \"Restore Identity and Access Management (IAM) services\"?",
+      "answer": "0 (Parallel prerequisite)",
+      "assertions": [
+        {
+          "text": "The response must state 0 (Parallel prerequisite)."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what label is shown in the banner?",
+      "answer": "DRAFT",
+      "assertions": [
+        {
+          "text": "The response must state 'DRAFT'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what label is used for the callout box?",
+      "answer": "Editorial Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Editorial Note'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many phrases are highlighted?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what label appears on the callout box?",
+      "answer": "Approved",
+      "assertions": [
+        {
+          "text": "The response must state 'Approved'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what does the callout box state about the change request?",
+      "answer": "Change request CR-2024-112 has been approved and is scheduled for the next deployment window.",
+      "assertions": [
+        {
+          "text": "The response must state 'Change request CR-2024-112 has been approved and is scheduled for the next deployment window.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Amount_USD for PO-2026-003?",
+      "answer": "31500.0",
+      "assertions": [
+        {
+          "text": "The response must state 31500.0."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Vendor_Name for PO-024?",
+      "answer": "Emergency Supplies Depot",
+      "assertions": [
+        {
+          "text": "The response must state Emergency Supplies Depot."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the Order_Date for PO-0052?",
+      "answer": "2026-04-02",
+      "assertions": [
+        {
+          "text": "The response must state 2026-04-02."
+        }
+      ]
+    },
+    {
+      "question": "How many columns does the 'this element' (Financial Performance Summary) colored table have?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element' titled Financial Performance Summary, how many rows are in the table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' Financial Performance Summary, how many rows show a positive trend (highlighted green)?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what callout label is shown?",
+      "answer": "Critical",
+      "assertions": [
+        {
+          "text": "The response must state 'Critical'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', what instruction is given about the document's handling?",
+      "answer": "Sensitive financial data is included. This document must not leave the secure document management system.",
+      "assertions": [
+        {
+          "text": "The response must state 'Sensitive financial data is included. This document must not leave the secure document management system.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what sub-columns fall under the \"Outcome\" group header in the inner tabletop exercise results table for the \"Crisis Communications & Tabletop Exercise (Most Recent)\" row?",
+      "answer": "Score (0-5) and Finding Severity.",
+      "assertions": [
+        {
+          "text": "The response must state 'Score (0-5) and Finding Severity.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", how many rows does the \"Customer communications\" label span in the inner tabletop exercise results table for the \"Crisis Communications & Tabletop Exercise (Most Recent)\" row?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what does footnote 7 explain?",
+      "answer": "It states the tabletop exercise date (2026-03-14) and the participating functions (IT, Security, Finance, Customer Support, Legal, and Communications).",
+      "assertions": [
+        {
+          "text": "The response must state 'It states the tabletop exercise date (2026-03-14) and the participating functions (IT, Security, Finance, Customer Support, Legal, and Communications).'."
+        }
+      ]
+    },
+    {
+      "question": "RPO table for the \"IT Infrastructure & Identity Services\" row?",
+      "answer": "1 hour.",
+      "assertions": [
+        {
+          "text": "The response must state '1 hour.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what finding severity is recorded for \"Incident command & decision cadence\" in the inner tabletop exercise results table for the \"Crisis Communications & Tabletop Exercise (Most Recent)\" row?",
+      "answer": "Medium.",
+      "assertions": [
+        {
+          "text": "The response must state 'Medium.'."
+        }
+      ]
+    },
+    {
+      "question": " Status\" column show?",
+      "answer": "Score (0-5) and Finding Severity.",
+      "assertions": [
+        {
+          "text": "The response must state 'Score (0-5) and Finding Severity.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", how many header tiers are present?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", which is greater: the number of header tiers or the number of data rows?",
+      "answer": "Data rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what does the table note explain about scoring?",
+      "answer": "Score (0-5) and Finding Severity.",
+      "assertions": [
+        {
+          "text": "The response must state 'Score (0-5) and Finding Severity.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Business Continuity Plan (BCP) Summary — RTOs, Dependencies, Crisis Roles, Communications, and Latest Tabletop Exercise Results\", what is the subtotal number of data rows in the table?",
+      "answer": "5.",
+      "assertions": [
+        {
+          "text": "The response must state '5.'"
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many phrases are visually highlighted?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing this element, does it include PDF reviewer sticky-note comments?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what does the first reviewer comment say?",
+      "answer": "Budget allocated?",
+      "assertions": [
+        {
+          "text": "The response must state 'Budget allocated?'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what classification banner label is displayed?",
+      "answer": "LOW RISK",
+      "assertions": [
+        {
+          "text": "The response must state 'LOW RISK'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Communication protocols, notification timelines, and channel standards during a disruption,\" who is the Owner for the Notification Type \"Board Notification\"?",
+      "answer": "Chief Executive Officer",
+      "assertions": [
+        {
+          "text": "The response must state Chief Executive Officer."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Communication protocols, notification timelines, and channel standards during a disruption,\" what is the Timeline & Channel for \"Regulatory Escalation\"?",
+      "answer": "Regulatory notification (if applicable): Within 24 hours via Compliance mailbox",
+      "assertions": [
+        {
+          "text": "The response must state Regulatory notification (if applicable): Within 24 hours via Compliance mailbox."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Communication protocols, notification timelines, and channel standards during a disruption,\" what is the Last Tested date for \"Internal Incident\"?",
+      "answer": "2026-04-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-04-15."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what type of annotation is displayed?",
+      "answer": "review",
+      "assertions": [
+        {
+          "text": "The response must state 'review'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which category is assigned to the review?",
+      "answer": "financial",
+      "assertions": [
+        {
+          "text": "The response must state 'financial'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many highlights are visible?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', how many sticky-note annotations are attached?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what banner classification is displayed?",
+      "answer": "CRITICAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'this element', what inline status label is shown?",
+      "answer": "APPROVED",
+      "assertions": [
+        {
+          "text": "The response must state 'APPROVED'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what exact message is displayed in the callout?",
+      "answer": "CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL: This system contains personal data subject to GDPR. Unauthorised access is a criminal offence.'"
+        }
+      ]
+    },
+    {
+      "question": "On this element under the risk category, how many freetext annotation boxes are attached?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what exact phrase is targeted by the first freetext annotation?",
+      "answer": "$340K",
+      "assertions": [
+        {
+          "text": "The response must state '$340K'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what color name is used for the $4.2M highlighted phrase?",
+      "answer": "cyan",
+      "assertions": [
+        {
+          "text": "The response must state 'cyan'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many freetext annotation boxes are attached in the project section?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what phrase appears as the first annotated text?",
+      "answer": "2025-01-06",
+      "assertions": [
+        {
+          "text": "The response must state '2025-01-06'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what classification banner is displayed?",
+      "answer": "HIGH RISK",
+      "assertions": [
+        {
+          "text": "The response must state 'HIGH RISK'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'this element', what inline status label appears on the element?",
+      "answer": "CONFIDENTIAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CONFIDENTIAL'."
+        }
+      ]
+    },
+    {
+      "question": "How many columns are in the 'Financial Performance Summary' this element?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Financial Performance Summary' this element, what is the total number of rows presented in the colored table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Financial Performance Summary' this element, how many rows indicate a positive trend?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many sticky-note annotations are attached in the risk area?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at this element, what phrase was annotated first in the risk sticky note?",
+      "answer": "5 business days",
+      "assertions": [
+        {
+          "text": "The response must state '5 business days'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many sticky-note annotations are listed?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what is the first annotated phrase shown on the note?",
+      "answer": "2025-03-31",
+      "assertions": [
+        {
+          "text": "The response must state '2025-03-31'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what does the callout box instruct the reader to refer to?",
+      "answer": "For full disclosure, refer to the Notes to Financial Statements in Appendix B.",
+      "assertions": [
+        {
+          "text": "The response must state 'For full disclosure, refer to the Notes to Financial Statements in Appendix B.'."
+        }
+      ]
+    },
+    {
+      "question": "In 'this element', how many sticky-note annotations are present in the project?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what is the first annotated phrase shown in the project sticky note?",
+      "answer": "2025-02-14",
+      "assertions": [
+        {
+          "text": "The response must state '2025-02-14'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many columns are in the colored table?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', how many total rows are listed in the table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many rows indicate a negative trend (highlighted red)?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' in the rendered PDF, what banner label appears at the top?",
+      "answer": "SUBJECT TO CHANGE",
+      "assertions": [
+        {
+          "text": "The response must state 'SUBJECT TO CHANGE'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what callout label is shown in the annotated report section?",
+      "answer": "Approved",
+      "assertions": [
+        {
+          "text": "The response must state 'Approved'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element' in the rendered PDF, are PDF notes present?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    }
+  ]
+}

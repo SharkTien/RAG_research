@@ -1,0 +1,4597 @@
+{
+  "doc_id": "doc_0000_s1131058660",
+  "title": "Change Management Plan for Major Organizational and System Transformation: Stakeholder Impact Analysis, Readiness Assessment, Communication Strategy, Training Approach, and Adoption Measurement",
+  "subtitle": "Change Management Plan — Stakeholder Impact, Readiness, Communication, Training & Adoption Measurement",
+  "topic_id": "change_management_plan",
+  "recipe_name": "annotation_heavy",
+  "seed": 1131058660,
+  "document_brief": {
+    "narrative_theme": "This change management plan enables Orion Manufacturing to successfully adopt the NexusERP transformation by aligning stakeholders, building readiness, executing targeted communications and training, and measuring adoption from pilot to enterprise go-live.",
+    "sections": [
+      {
+        "heading": "Stakeholder Impact and Readiness Assessment for the NexusERP Transformation",
+        "key_facts": [
+          "Orion Manufacturing will go live on NexusERP on 2026-10-01.",
+          "The change impacts 1,250 users across 3 plants (Plant A, Plant B, Plant C).",
+          "Readiness survey baseline is 58% favorable as of 2026-06-15."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization",
+        "key_facts": [
+          "The pilot starts on 2026-08-01 with 150 users in Plant A.",
+          "Training completion target is 95% by 2026-09-15.",
+          "Hypercare runs for 6 weeks from 2026-10-01 to 2026-11-12."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Stakeholder impact analysis for NexusERP by role, process change intensity, and risk",
+        "purpose": "Identifies which stakeholder groups are most affected by NexusERP (process, tools, and responsibilities) to prioritize change effort and sponsorship actions.",
+        "key_data": {
+          "Production Supervisors | Plant B": "High impact | Shift handoff + work order execution changes",
+          "Procurement Analysts | HQ": "Medium impact | New approval workflow and vendor master governance",
+          "Warehouse Operators | Plant C": "High impact | RF scanning + inventory transaction redesign",
+          "Finance Controllers | HQ": "High impact | Month-end close in NexusERP replacing legacy GL"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Readiness assessment dimensions, baseline scores, and target thresholds before go-live",
+        "purpose": "Provides a quantified view of organizational readiness (people, process, technology, leadership) and the minimum thresholds required to proceed to go-live.",
+        "key_data": {
+          "Change understanding": "62% baseline | 80% target",
+          "Leadership alignment": "55% baseline | 75% target",
+          "Training preparedness": "49% baseline | 85% target",
+          "Local change champion coverage": "60% baseline | 90% target"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Readiness risks and mitigations tied to NexusERP milestones and accountable owners",
+        "purpose": "Links top readiness gaps to concrete mitigations, due dates, and accountable leaders to reduce go-live risk.",
+        "key_data": {
+          "Risk: Low supervisor buy-in | Owner: Plant B Manager": "Mitigation: weekly floor huddles | Due: 2026-07-15",
+          "Risk: Incomplete role mapping | Owner: HR Ops Lead": "Mitigation: finalize RACI workshops | Due: 2026-07-01",
+          "Risk: Data governance confusion | Owner: CIO": "Mitigation: publish master data policy v1 | Due: 2026-07-22",
+          "Risk: Training capacity constraints | Owner: L&D Manager": "Mitigation: add 6 super-user trainers | Due: 2026-08-05"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "NexusERP communication strategy by audience, channel, cadence, and message objective",
+        "purpose": "Ensures consistent, role-relevant messaging that builds awareness, reduces uncertainty, and drives action from pilot through hypercare.",
+        "key_data": {
+          "All employees": "Monthly town hall | Why change + timeline",
+          "Plant A pilot users": "Weekly Teams update | What changes next week + where to get help",
+          "People managers": "Biweekly manager toolkit | Talking points + escalation path",
+          "Executive sponsors": "Monthly steering brief | Readiness + risk decisions"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Training approach for NexusERP: curriculum, modality, duration, and completion targets by role",
+        "purpose": "Defines the role-based training curriculum and delivery approach required to reach the stated completion target ahead of go-live.",
+        "key_data": {
+          "Warehouse Operator": "Instructor-led + hands-on lab | 6 hours | 95% completion by 2026-09-15",
+          "Production Supervisor": "Blended (eLearning + lab) | 8 hours | 95% completion by 2026-09-15",
+          "Procurement Analyst": "Virtual instructor-led | 5 hours | 95% completion by 2026-09-15",
+          "Finance Controller": "Instructor-led | 10 hours | 95% completion by 2026-09-15"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Adoption measurement scorecard for NexusERP across usage, proficiency, and performance outcomes",
+        "purpose": "Specifies the KPIs, data sources, and thresholds used to measure adoption during pilot, go-live, and the 6-week hypercare period.",
+        "key_data": {
+          "Daily active usage rate (DAU/eligible)": "Target ≥ 85% by 2026-10-15 | Source: NexusERP logs",
+          "Critical transaction success rate": "Target ≥ 98% by 2026-10-15 | Source: process monitoring",
+          "Helpdesk tickets per 100 users": "Target ≤ 12 by 2026-11-12 | Source: ITSM",
+          "Time-to-proficiency (median days)": "Target ≤ 14 by 2026-11-12 | Source: supervisor validation"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1131058660.pdf",
+    "markdown": null,
+    "assets": []
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 32,
+    "actual_page_count": 24
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "annotation",
+      "variant_id": "ann_ft_0001_ef5270ab",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, how many freetext annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "On this element, what phrase is listed as the first annotated phrase?",
+          "answer": "2025-03-31",
+          "assertions": [
+            {
+              "text": "The response must state '2025-03-31'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "table_0000_5060e19e",
+      "table_number": 1,
+      "caption": "Table 1: Stakeholder impact analysis for NexusERP by role, process change intensity, and risk",
+      "columns": [
+        "Stakeholder Group",
+        "Primary Location",
+        "Impact Level",
+        "Tool Changes",
+        "Readiness Score (1-5)",
+        "Executive Sponsor",
+        "Change Priority"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Produtcion Supervisors",
+          "Plant B",
+          "High impact",
+          "Shift handoff + work order execution changes",
+          "2",
+          "VP Manufacturing",
+          "1 - Critical"
+        ],
+        [
+          "Procurement Analysts",
+          "HQ",
+          "Medium impact",
+          "New approval workflow and vendor master governance",
+          "3",
+          "Chief Procurement Officer",
+          "2 - High"
+        ],
+        [
+          "Warehouse Operators",
+          "Plant C",
+          "High impact",
+          "RF scanning + inventory transaction redesign",
+          "2",
+          "Director of Supply Chain",
+          "1 - Critical"
+        ],
+        [
+          "Finance Controllers",
+          "HQ",
+          "High impact",
+          "Month-end close in NexusERP replacing legacy GL",
+          "3",
+          "Chief Financial Officer",
+          "1 - Critical"
+        ],
+        [
+          "Sales Operations Analysts",
+          "RegionalO ffices",
+          "eMdium impact",
+          "Order entry validation and pricing configuration updates",
+          "3",
+          "Chief Revenue Officer",
+          "2 - High"
+        ],
+        [
+          "IT Application Support",
+          "HQ",
+          "High impact",
+          "System administration, role-based access, and integration monitoring",
+          "4",
+          "Chief Information Officer",
+          "1 - Cirtical"
+        ],
+        [
+          "HR Business Partners",
+          "HQ",
+          "Medium impact",
+          "Employee data synchronization and position management workflow",
+          "3",
+          "Chief Human Resources Officer",
+          "3 - oMderate"
+        ],
+        [
+          "Maintenance Technicians",
+          "Plant A",
+          "Medium impact",
+          "Digital maintenance requests and asset tracking module adoption",
+          "2",
+          "VP Manufacturing",
+          "2 - High"
+        ],
+        [
+          "Customer Service Representatives",
+          "Call Center",
+          "Meduim impact",
+          "Case management integration with order status visibility",
+          "3",
+          "VP Customer Experience",
+          "2 - High"
+        ],
+        [
+          "Executive Leadership Team",
+          "HQ",
+          "Low impact",
+          "Dashboard reporting and KPI standardization in NexusERP",
+          "4",
+          "CEO",
+          "3 - Modreate"
+        ],
+        [
+          "Quality Assurance Leads",
+          "Plant B",
+          "High impact",
+          "Non-conformance logging and corrective action workflow automation",
+          "2",
+          "VP Quality",
+          "1 - Critical"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Readiness Score (1-5)": 31.0,
+        "max_Readiness Score (1-5)": 4.0,
+        "min_Readiness Score (1-5)": 2.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Stakeholder impact analysis for NexusERP by role, process change intensity, and risk\", what is the Change Priority for IT Application Support?",
+          "answer": "1 - Cirtical",
+          "assertions": [
+            {
+              "text": "The response must state 1 - Cirtical."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Stakeholder impact analysis for NexusERP by role, process change intensity, and risk\", what is the Primary Location listed for Maintenance Technicians?",
+          "answer": "Plant A",
+          "assertions": [
+            {
+              "text": "The response must state Plant A."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Stakeholder impact analysis for NexusERP by role, process change intensity, and risk\", what is the Impact Level for Executive Leadership Team?",
+          "answer": "Low impact",
+          "assertions": [
+            {
+              "text": "The response must state Low impact."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "text",
+      "variant_id": "text_0001_51f87db3",
+      "heading": "Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization",
+      "word_count": 332,
+      "text_content": [
+        "**Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization**",
+        "Communications will follow a phased, role-based plan coordinated by the NexusERP Communications Office to ensure clarity from pilot through stabilization. Messaging cadence: weekly pilot updates starting 2026-07-15, daily status during go-live week, and twice-weekly summaries during Hypercare. Channels include email newsletters, targeted Teams channels, digital signage in Plant A, and manager briefing packs. Key audiences are the 150 pilot users in Plant A, executive sponsors, operations leads, and IT support. Governance requires approval of all messages by Program Communications and Legal stakeholder liaison.",
+        "The training approach uses blended delivery to meet the 95% completion target by 2026-09-15, with role-based e-learning, instructor-led sessions, and on-the-job coaching. Course schedule requires pre-course e-learning completed seven days before role activation, two half-day instructor-led workshops during week two of team onboarding, and follow-up knowledge checks at 30 and 60 days. Training records are tracked in the LMS; compliance triggers escalation to managers at 80% completion and to HR if below 70% after remediation. Super-user certification and simulation labs validate applied skills.",
+        "Adoption measurement combines quantitative and qualitative KPIs monitored on a centralized dashboard maintained by Program Analytics. Core metrics include active user rate, task completion accuracy, time-to-complete key processes, support ticket volume and resolution time, Net Promoter Score collected at 30, 90, and 180 days. Baseline thresholds will be established from initial deployment data. Success thresholds include 90% task completion accuracy and a 25% reduction in support tickets by end of Hypercare; escalation protocols define corrective action when metrics miss targets rapidly with remediation.",
+        "7 support rotations staffed by Program Support, IT Operations, and Business Process Owners will cover the six-week Hypercare period from 2026-10-01 to 2026-11-12, with defined SLAs: 1 hour for Critical incidents, 4 hours for High, and 24 hours for Medium. Daily triage meetings, a single source of truth incident log, and a cadence of executive metrics reviews will ensure rapid containment, prioritized fixes, and a transition plan back to business-as-usual."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization\" section, on what date do the weekly pilot updates start?",
+          "answer": "2026-07-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-15."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization\" section, what is the training completion target percentage to be met by 2026-09-15?",
+          "answer": "95%",
+          "assertions": [
+            {
+              "text": "The response must state 95%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization\" section, what is the SLA for Critical incidents during the Hypercare period?",
+          "answer": "1 hour",
+          "assertions": [
+            {
+              "text": "The response must state 1 hour."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "text",
+      "variant_id": "text_0000_0101019b",
+      "heading": "Stakeholder Impact and Readiness Assessment for the NexusERP Transformation",
+      "word_count": 169,
+      "text_content": [
+        "**Satkeholder Impact and Readiness Assessment for the NxeusERP Transformation**",
+        "Orion Manufacturing’s NexusERP transformation impacts 1,250 suers across three production sites: Plant A, Plant B, and Plant C. Stakeholder mapping identifies primary cohorts, including operations, inventory control, maintenance, finance, and plant leadership, each with distinct process dependencies. Role-based impact matrices will guide task reallocation, escalation paths, and system access changes to minimize disruption.",
+        "The readiness assessment establishes a baseline: readiness survey baseline is 58% favorable as of 2026-06-15. Analysis shows variation by function and plant, with operational users and frontline maintenance expressing the largest competency and confidence gaps. The assessment precsribes prioritized remediation steps, shorted timelines for hands-on practice, and governance checkpoints to raise favorable readiness ahead of cutover before go-live.",
+        "no-go decisions and ongoing monitoring with defined escalation, metrics reporting, and executive reviews."
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the \"Satkeholder Impact and Readiness Assessment for the NxeusERP Transformation\" section, how many suers are impacted across the three production sites?",
+          "answer": "1,250 suers",
+          "assertions": [
+            {
+              "text": "The response must state 1,250 suers."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Satkeholder Impact and Readiness Assessment for the NxeusERP Transformation\" section, what is the readiness survey baseline as of 2026-06-15?",
+          "answer": "58% favorable",
+          "assertions": [
+            {
+              "text": "The response must state 58% favorable."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Satkeholder Impact and Readiness Assessment for the NxeusERP Transformation\" section, what is the length of the stabilization period assumed in transition planning?",
+          "answer": "90-day stabilization peroid",
+          "assertions": [
+            {
+              "text": "The response must state 90-day stabilization peroid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "cx_table_0001_4b464aea",
+      "table_number": 2,
+      "caption": "Table 2: Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", which leaf metric columns fall under the \"Comms & Enablement Delivery\" super-group?",
+          "answer": "Training Effort (FTE-wk).",
+          "assertions": [
+            {
+              "text": "Training Effort (FTE-wk).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", how many rows does the \"Stakeholder Impact Analysis\" category label span?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what is the Readiness Score (0–100) for the \"Frontline Operations\" sub-category (first listed row under that sub-category) in the Stakeholder Impact & Readiness area?",
+          "answer": "44.",
+          "assertions": [
+            {
+              "text": "The response must state '44.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what is the grand total for \"Training Hours (Planned)\"?",
+          "answer": "1696.",
+          "assertions": [
+            {
+              "text": "The response must state '1696.'."
+            }
+          ]
+        },
+        {
+          "question": "Training Effort (FTE-wk)\"?",
+          "answer": "26.0.",
+          "assertions": [
+            {
+              "text": "The response must state '26.0.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what columns are listed under Comms & Enablement Delivery?",
+          "answer": "Training Effort (FTE-wk).",
+          "assertions": [
+            {
+              "text": "Training Effort (FTE-wk).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", how many total data rows are shown in the table?",
+          "answer": "26",
+          "assertions": [
+            {
+              "text": "The response must state '26'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what does footnote 1 explain?",
+          "answer": "Training Effort (FTE-wk).",
+          "assertions": [
+            {
+              "text": "Training Effort (FTE-wk).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what is the subtotal for the 'Adoption & Value Realisation' group?",
+          "answer": "44",
+          "assertions": [
+            {
+              "text": "The response must state '44'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "annotation",
+      "variant_id": "ann_ft_0002_77c5e93f",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many annotation boxes are attached?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what phrase is marked by the first freetext annotation?",
+          "answer": "38% of revenue",
+          "assertions": [
+            {
+              "text": "The response must state '38% of revenue'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "annotation",
+      "variant_id": "ann_sn_0003_9e0f3485",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In 'this element', how many sticky-note annotations are attached in the compliance note?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', what phrase appears in the first sticky-note annotation?",
+          "answer": "6 of 22 new suppliers",
+          "assertions": [
+            {
+              "text": "The response must state '6 of 22 new suppliers'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "annotation",
+      "variant_id": "ann_ct_0003_fedb608f",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns are shown in the 'Financial Performance Summary' (this element)?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Financial Performance Summary' (this element), how many rows show a positive trend (highlighted green)?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Financial Performance Summary' (this element), what is the total number of rows in the table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "annotation",
+      "variant_id": "ann_co_0000_7dc22841",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, what is the callout label?",
+          "answer": "Warning",
+          "assertions": [
+            {
+              "text": "The response must state 'Warning'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what buffer in business days should be allowed?",
+          "answer": "10–15 business days",
+          "assertions": [
+            {
+              "text": "The response must state '10–15 business days'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0003_1f68e98c",
+      "table_number": 3,
+      "caption": "Table 3: NexusERP communication strategy by audience, channel, cadence, and message objective",
+      "columns": [
+        "Audience",
+        "Channel & Cadence",
+        "Core Message Focus",
+        "Owner",
+        "Phase",
+        "Status"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "All employees",
+          "Monthly town hall | Why change + timeline",
+          "Vision for transformation, business case, key milestones through Q4 2026",
+          "Chief Transformation Officer",
+          "Organisation-wide rollout",
+          "On track"
+        ],
+        [
+          "Plant A pilot users",
+          "Weekly Teams update | What changes next week + where to get help",
+          "System feature changes, updated SOPs, support desk contacts, training reminders",
+          "Plant A Change Lead",
+          "Pilot (May–July 2026)",
+          "In prgoress"
+        ],
+        [
+          "People managers",
+          "Biweekly manager toolkit | Talking points + escalation path",
+          "Team-level impacts, FAQs, resistance handling tips, issue logging process",
+          "HR Change Partner",
+          "Pre-go-live + Pilot",
+          "On track"
+        ],
+        [
+          "Executive sponsors",
+          "Monthly steering brief | Readiness + risk decisions",
+          "Adoption metrics (target 85%), budget variance (±3%), top 5 risks requiring decisions",
+          "Program Director",
+          "All phases",
+          "Requires review"
+        ],
+        [
+          "IT support teams",
+          "Fortnightly operations sync | Incident trends + cutover readiness",
+          "Open tickets (current: 42), SLA adherence (96%), environment stability, release schedule",
+          "IT Service Manager",
+          "Pre-go-live + Hypercare",
+          "oMnitoring"
+        ],
+        [
+          "HR and Training leads",
+          "Monthly enablement workshop | Training completion + capability gaps",
+          "Completion rate (78% vs 90% target), skills assessment results, coaching plan",
+          "Learning & Development Manager",
+          "Pre-go-live",
+          "At risk"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"NexusERP communication strategy by audience, channel, cadence, and message objective\", what is the Status for Plant A pilot users?",
+          "answer": "In prgoress",
+          "assertions": [
+            {
+              "text": "The response must state In prgoress."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"NexusERP communication strategy by audience, channel, cadence, and message objective\", what is the Channel & Cadence listed for IT support teams?",
+          "answer": "Fortnightly operations sync",
+          "assertions": [
+            {
+              "text": "The response must state Fortnightly operations sync."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"NexusERP communication strategy by audience, channel, cadence, and message objective\", what is the Core Message Focus for Executive sponsors?",
+          "answer": "Readiness + risk decisions",
+          "assertions": [
+            {
+              "text": "The response must state Readiness + risk decisions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "table_0004_9c4f87be",
+      "table_number": 4,
+      "caption": "Table 4: Training approach for NexusERP: curriculum, modality, duration, and completion targets by role",
+      "columns": [
+        "Role & Curriculum",
+        "Audience Size",
+        "Delivery Window",
+        "Status",
+        "Training Owner"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Warehouse Operator: Instructor-led + hands-on lab | 6 hours | 95% completion by 2026-09-15",
+          "120",
+          "2026-08-01 to 2026-09-10",
+          "Scheduled",
+          "Operations Training Lead"
+        ],
+        [
+          "Production Supervisor: Blended (eLearning + lab) | 8 hours | 95% completion by 2026-09-15",
+          "45",
+          "2026-07-20 to 2026-09-05",
+          "Registration Open",
+          "Manufacturing Excellence Manager"
+        ],
+        [
+          "Procurement Analyst: Virtual instructor-led | 5 hours | 95% completion by 2026-09-15",
+          "25",
+          "2026-08-05 to 2026-09-08",
+          "Scheduled",
+          "Head of Procurement"
+        ],
+        [
+          "Finance Controller: Instructor-led | 10 hours | 95% completion by 2026-09-15",
+          "18",
+          "2026-07-25 to 2026-09-12",
+          "Confirmed",
+          "Finance Transformation Lead"
+        ],
+        [
+          "Supply Chain Planner: Blended (eLearning + workshop) | 7 hours | 95% completion by 2026-09-15",
+          "30",
+          "2026-08-01 to 2026-09-10",
+          "In Development",
+          "Supply Chain Program Manager"
+        ],
+        [
+          "HR Business Partner: Virtual instructor-led | 4 hours | 95% completion by 2026-09-15",
+          "22",
+          "2026-08-10 to 2026-09-12",
+          "Scheduled",
+          "HR Change Lead"
+        ],
+        [
+          "IT Support Analyst: Instructor-led + simulation lab | 12 hours | 95% completion by 2026-09-15",
+          "15",
+          "2026-07-15 to 2026-08-30",
+          "In Progress",
+          "IT Service Delivery Manager"
+        ],
+        [
+          "Quality Assurance Lead: Blended (eLearning + lab) | 6 hours | 95% completion by 2026-09-15",
+          "20",
+          "2026-08-03 to 2026-09-10",
+          "Scheduled",
+          "Quality Systems Manager"
+        ],
+        [
+          "Customer Service Manager: Virtual instructor-led | 5 hours | 95% completion by 2026-09-15",
+          "28",
+          "2026-08-12 to 2026-09-14",
+          "Registration Open",
+          "Customer Operations Director"
+        ],
+        [
+          "Executive Sponsor: Executive briefing (instructor-led) | 3 hours | 100% completion by 2026-08-31",
+          "8",
+          "2026-08-01 to 2026-08-31",
+          "Confirmed",
+          "Transformation Office Lead"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Audience Size": 331.0,
+        "max_Audience Size": 120.0,
+        "min_Audience Size": 8.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Training approach for NexusERP: curriculum, modality, duration, and completion targets by role\", what is the Status for IT Support Analyst?",
+          "answer": "In Progress",
+          "assertions": [
+            {
+              "text": "The response must state In Progress."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Training approach for NexusERP: curriculum, modality, duration, and completion targets by role\", what is the Delivery Window for Executive Sponsor?",
+          "answer": "2026-08-01 to 2026-08-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-08-01 to 2026-08-31."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Training approach for NexusERP: curriculum, modality, duration, and completion targets by role\", who is the Training Owner for Finance Controller?",
+          "answer": "Finance Transformation Lead",
+          "assertions": [
+            {
+              "text": "The response must state Finance Transformation Lead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "cx_table_0000_f5403034",
+      "table_number": 5,
+      "caption": "Table 5: Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what sub-columns fall under \"Impact profile\" in the Stakeholder Impact inner table within the \"Stakeholder impact analysis\" row?",
+          "answer": "Process change; System change; Risk level.",
+          "assertions": [
+            {
+              "text": "The response must state 'Process change; System change; Risk level.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", how many rows does the \"Training capacity\" label span in the mitigation inner table within the \"Readiness assessment & risk mitigation\" row?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what does footnote 1 explain?",
+          "answer": "It explains that impact ratings are based on change in critical tasks, compliance exposure (e.g., SoD), and expected transaction volume per role.",
+          "assertions": [
+            {
+              "text": "The response must state 'It explains that impact ratings are based on change in critical tasks, compliance exposure (e.g., SoD), and expected transaction volume per role.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what is the target readiness score for \"Data readiness\" in the Readiness Assessment inner table within the \"Stakeholder impact analysis\" row?",
+          "answer": "4.0.",
+          "assertions": [
+            {
+              "text": "The response must state '4.0.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what threshold is listed for \"Sev-1 incidents\" in the Hypercare Exit Criteria inner table within the \"Adoption measurement & sustainment\" row?",
+          "answer": "0 open for 10 business days.",
+          "assertions": [
+            {
+              "text": "The response must state '0 open for 10 business days.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what impact types are listed?",
+          "answer": "Process change; System change; Risk level.",
+          "assertions": [
+            {
+              "text": "The response must state 'Process change; System change; Risk level.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", how many header rows are there?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", which contains more rows, the headers or the data rows?",
+          "answer": "Data rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what does the impact ratings footnote explain?",
+          "answer": "Based on critical task change, compliance exposure (SoD), and expected transaction volume.",
+          "assertions": [
+            {
+              "text": "The response must state 'Based on critical task change, compliance exposure (SoD), and expected transaction volume.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what is the subtotal for group 'Data rows' in column 'Overview'?",
+          "answer": "5 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "annotation",
+      "variant_id": "ann_hl_0002_546b35ea",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many phrases are highlighted?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which phrase is highlighted in cyan?",
+          "answer": "$1.45M over 9 months",
+          "assertions": [
+            {
+              "text": "The response must state '$1.45M over 9 months'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "annotation",
+      "variant_id": "ann_ct_0000_c25e4d65",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element' colored table, how many columns are displayed?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what is the total number of rows in the table?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', how many rows indicate a positive trend (highlighted green)?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "annotation",
+      "variant_id": "ann_ar_0000_b37b7920",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "When viewing the rendered PDF of 'this element', what banner label is displayed?",
+          "answer": "FOR INTERNAL USE ONLY",
+          "assertions": [
+            {
+              "text": "The response must state 'FOR INTERNAL USE ONLY'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element' as seen in the PDF, how many phrases are highlighted?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element' in the PDF, are PDF reviewer notes attached?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "table",
+      "variant_id": "cx_table_0002_b580341c",
+      "table_number": 6,
+      "caption": "Table 6: Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", which sub-columns fall under the \"Enablement Delivery (Comms + Training)\" super-group?",
+          "answer": " Learner, Completion Target (%).",
+          "assertions": [
+            {
+              "text": " Learner, Completion Target (%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", how many rows does the \"Operations (Order-to-Cash)\" category label span?",
+          "answer": "5 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what is the Channel Mix Coverage (%) for the \"Customer Service\" sub-category (first row of that sub-category) under the \"Enablement Delivery (Comms + Training)\" super-group?",
+          "answer": "88%.",
+          "assertions": [
+            {
+              "text": "The response must state '88%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what is the grand total for the \"Readiness Score (0–100)\" metric?",
+          "answer": "63.",
+          "assertions": [
+            {
+              "text": "The response must state '63.'."
+            }
+          ]
+        },
+        {
+          "question": "AR Sub-Total\" row show for \"Users Impacted (#)\"?",
+          "answer": "165.",
+          "assertions": [
+            {
+              "text": "The response must state '165.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what metrics are listed under Enablement Delivery (Comms + Training)?",
+          "answer": " Learner; Completion Target (%)",
+          "assertions": [
+            {
+              "text": " Learner; Completion Target (%)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", how many rows does the Stakeholder I segment occupy?",
+          "answer": "5 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", which stakeholder segment has the highest Adoption Measurement value?",
+          "answer": "Stakeholder I — 88%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Stakeholder I — 88%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what annotation appears next to 'Key Messages' in the Communications column?",
+          "answer": "(count)",
+          "assertions": [
+            {
+              "text": "The response must state '(count)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what is the subtotal for Stakeholder I in the Adoption Measurement column?",
+          "answer": "88%.",
+          "assertions": [
+            {
+              "text": "The response must state '88%.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "annotation",
+      "variant_id": "ann_ar_0003_7779d00a",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, what banner label is shown at the top of the annotated report section?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, how many highlighted phrases are present in the rendered report?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing this element in the PDF, does it include PDF notes attached?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "annotation",
+      "variant_id": "ann_co_0002_5720d7aa",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what label appears on the callout box?",
+          "answer": "Warning",
+          "assertions": [
+            {
+              "text": "The response must state 'Warning'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what text is displayed inside the callout box?",
+          "answer": "This section contains forward-looking statements that involve material risks and uncertainties.",
+          "assertions": [
+            {
+              "text": "The response must state 'This section contains forward-looking statements that involve material risks and uncertainties.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "annotation",
+      "variant_id": "ann_co_0001_0752e59b",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, what is the callout label shown?",
+          "answer": "Tip",
+          "assertions": [
+            {
+              "text": "The response must state 'Tip'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what guidance does the callout provide?",
+          "answer": "You can bulk-upload supplier invoices using the CSV template in the Accounts Payable portal.",
+          "assertions": [
+            {
+              "text": "The response must state 'You can bulk-upload supplier invoices using the CSV template in the Accounts Payable portal.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_28577a92",
+      "table_number": 7,
+      "caption": "Table 7: Employee Activity Report",
+      "columns": [
+        "Employee ID",
+        "Department",
+        "Training Hours Completed",
+        "Readiness Score (%)",
+        "Engagement Activities Completed"
+      ],
+      "row_count": 62,
+      "cells": [
+        [
+          "EMP-001",
+          "Operations",
+          "18",
+          "82",
+          "5"
+        ],
+        [
+          "EMP-002",
+          "Finance",
+          "15",
+          "76",
+          "4"
+        ],
+        [
+          "EMP-003",
+          "Human Resources",
+          "20",
+          "88",
+          "6"
+        ],
+        [
+          "EMP-004",
+          "IT",
+          "24",
+          "91",
+          "7"
+        ],
+        [
+          "EMP-005",
+          "Marketing",
+          "16",
+          "79",
+          "4"
+        ],
+        [
+          "EMP-006",
+          "Sales",
+          "14",
+          "73",
+          "3"
+        ],
+        [
+          "EMP-007",
+          "Customer Service",
+          "19",
+          "85",
+          "5"
+        ],
+        [
+          "EMP-008",
+          "Procurement",
+          "17",
+          "80",
+          "4"
+        ],
+        [
+          "EMP-009",
+          "Logistics",
+          "21",
+          "89",
+          "6"
+        ],
+        [
+          "EMP-010",
+          "Compliance",
+          "22",
+          "90",
+          "6"
+        ],
+        [
+          "EMP-011",
+          "Engineering",
+          "23",
+          "92",
+          "7"
+        ],
+        [
+          "EMP-012",
+          "Administration",
+          "13",
+          "70",
+          "3"
+        ],
+        [
+          "EMP-013",
+          "Strategy",
+          "18",
+          "84",
+          "5"
+        ],
+        [
+          "EMP-014",
+          "Legal",
+          "16",
+          "78",
+          "4"
+        ],
+        [
+          "EMP-015",
+          "Research & Development",
+          "25",
+          "94",
+          "8"
+        ],
+        [
+          "16",
+          "Information Technology",
+          "12",
+          "78",
+          "4"
+        ],
+        [
+          "17",
+          "Human Resources",
+          "18",
+          "85",
+          "6"
+        ],
+        [
+          "18",
+          "Finance",
+          "9",
+          "72",
+          "3"
+        ],
+        [
+          "19",
+          "Operations",
+          "22",
+          "91",
+          "8"
+        ],
+        [
+          "20",
+          "Marketing",
+          "14",
+          "80",
+          "5"
+        ],
+        [
+          "21",
+          "Customer Support",
+          "11",
+          "76",
+          "4"
+        ],
+        [
+          "22",
+          "Legal",
+          "7",
+          "69",
+          "2"
+        ],
+        [
+          "23",
+          "Procurement",
+          "16",
+          "83",
+          "5"
+        ],
+        [
+          "24",
+          "Research & Development",
+          "20",
+          "88",
+          "7"
+        ],
+        [
+          "25",
+          "Sales",
+          "13",
+          "74",
+          "4"
+        ],
+        [
+          "26",
+          "Administration",
+          "10",
+          "71",
+          "3"
+        ],
+        [
+          "27",
+          "Quality Assurance",
+          "19",
+          "90",
+          "6"
+        ],
+        [
+          "28",
+          "Logistics",
+          "15",
+          "82",
+          "5"
+        ],
+        [
+          "29",
+          "Executive",
+          "8",
+          "87",
+          "3"
+        ],
+        [
+          "30",
+          "Corporate Communications",
+          "17",
+          "89",
+          "6"
+        ],
+        [
+          "31",
+          "Information Technology",
+          "18",
+          "82",
+          "4"
+        ],
+        [
+          "32",
+          "Human Resources",
+          "12",
+          "76",
+          "3"
+        ],
+        [
+          "33",
+          "Finance",
+          "20",
+          "88",
+          "5"
+        ],
+        [
+          "34",
+          "Operations",
+          "15",
+          "73",
+          "2"
+        ],
+        [
+          "35",
+          "Marketing",
+          "22",
+          "91",
+          "6"
+        ],
+        [
+          "36",
+          "Sales",
+          "17",
+          "79",
+          "4"
+        ],
+        [
+          "37",
+          "Customer Support",
+          "14",
+          "75",
+          "3"
+        ],
+        [
+          "38",
+          "Procurement",
+          "19",
+          "84",
+          "5"
+        ],
+        [
+          "39",
+          "Legal",
+          "11",
+          "70",
+          "2"
+        ],
+        [
+          "40",
+          "Research & Development",
+          "24",
+          "93",
+          "6"
+        ],
+        [
+          "41",
+          "Administration",
+          "13",
+          "77",
+          "3"
+        ],
+        [
+          "42",
+          "Logistics",
+          "16",
+          "81",
+          "4"
+        ],
+        [
+          "43",
+          "Compliance",
+          "21",
+          "89",
+          "5"
+        ],
+        [
+          "44",
+          "Corporate Strategy",
+          "23",
+          "92",
+          "6"
+        ],
+        [
+          "45",
+          "Quality Assurance",
+          "18",
+          "85",
+          "4"
+        ],
+        [
+          "46",
+          "Human Resources",
+          "18",
+          "82",
+          "5"
+        ],
+        [
+          "47",
+          "IT",
+          "32",
+          "91",
+          "8"
+        ],
+        [
+          "48",
+          "Finance",
+          "14",
+          "76",
+          "4"
+        ],
+        [
+          "49",
+          "Operations",
+          "27",
+          "88",
+          "7"
+        ],
+        [
+          "50",
+          "Marketing",
+          "21",
+          "85",
+          "6"
+        ],
+        [
+          "51",
+          "Sales",
+          "16",
+          "73",
+          "3"
+        ],
+        [
+          "52",
+          "Customer Support",
+          "24",
+          "89",
+          "6"
+        ],
+        [
+          "53",
+          "IT",
+          "35",
+          "94",
+          "9"
+        ],
+        [
+          "54",
+          "Legal",
+          "12",
+          "70",
+          "2"
+        ],
+        [
+          "55",
+          "Operations",
+          "29",
+          "90",
+          "8"
+        ],
+        [
+          "56",
+          "Human Resources",
+          "20",
+          "84",
+          "5"
+        ],
+        [
+          "57",
+          "Finance",
+          "17",
+          "78",
+          "4"
+        ],
+        [
+          "58",
+          "Marketing",
+          "23",
+          "87",
+          "6"
+        ],
+        [
+          "59",
+          "Sales",
+          "19",
+          "80",
+          "5"
+        ],
+        [
+          "60",
+          "Customer Support",
+          "26",
+          "92",
+          "7"
+        ],
+        [
+          "61",
+          "Operations",
+          "14",
+          "82",
+          "5"
+        ],
+        [
+          "62",
+          "Information Technology",
+          "22",
+          "91",
+          "8"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Employee ID": 1833.0,
+        "max_Employee ID": 62.0,
+        "min_Employee ID": 16.0,
+        "sum_Training Hours Completed": 1124.0,
+        "max_Training Hours Completed": 35.0,
+        "min_Training Hours Completed": 7.0,
+        "sum_Readiness Score (%)": 5133.0,
+        "max_Readiness Score (%)": 94.0,
+        "min_Readiness Score (%)": 69.0,
+        "sum_Engagement Activities Completed": 308.0,
+        "max_Engagement Activities Completed": 9.0,
+        "min_Engagement Activities Completed": 2.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Readiness Score (%) for employee EMP-010?",
+          "answer": "90",
+          "assertions": [
+            {
+              "text": "The response must state 90."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", which department is listed for employee 62?",
+          "answer": "Information Technology",
+          "assertions": [
+            {
+              "text": "The response must state Information Technology."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Engagement Activities Completed value for employee 54?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "annotation",
+      "variant_id": "ann_hl_0004_c799e773",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many phrases are highlighted?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, which phrase is highlighted in red?",
+          "answer": "$1.45M over 9 months",
+          "assertions": [
+            {
+              "text": "The response must state '$1.45M over 9 months'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "annotation",
+      "variant_id": "ann_lb_0000_c7efe17f",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', what classification banner is displayed?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'this element' in the PDF, which inline status label is shown?",
+          "answer": "CONFIDENTIAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CONFIDENTIAL'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "table",
+      "variant_id": "table_0005_55be08e8",
+      "table_number": 8,
+      "caption": "Table 8: Adoption measurement scorecard for NexusERP across usage, proficiency, and performance outcomes",
+      "columns": [
+        "KPI & Target",
+        "Phase",
+        "Baseline",
+        "Current (as of 2026-10-01)",
+        "Status"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "eligible): Target ≥ 85% by 2026-10-15 | Source: NexusERP logs",
+          "Pilot → Go-Live",
+          "62% during UAT",
+          "81%",
+          "At Risk – trending upward"
+        ],
+        [
+          "Critical transaction success rate: Target ≥ 98% by 2026-10-15 | Source: process monitoring",
+          "Pilot → Go-Live",
+          "94.5%",
+          "97.2%",
+          "Slightly Below Target"
+        ],
+        [
+          "Helpdesk tickets per 100 users: Target ≤ 12 by 2026-11-12 | Source: ITSM",
+          "Go-Live → Hypercare (6 weeks)",
+          "28 per 100 (Week 1 pilot)",
+          "16 per 100",
+          "Improving – Above Target"
+        ],
+        [
+          "Time-to-proficiency (median days): Target ≤ 14 by 2026-11-12 | Source: supervisor validation",
+          "Go-Live → Hypercare (6 weeks)",
+          "21 days (pilot cohort)",
+          "17 days",
+          "On Track"
+        ],
+        [
+          "Completion rate of mandatory training modules: Target ≥ 95% by 2026-09-30 | Source: LMS reports",
+          "Pre-Go-Live",
+          "78%",
+          "96%",
+          "Achieved"
+        ],
+        [
+          "5 by 2026-09-15 | Source: stakeholder survey",
+          "Pre-Go-Live",
+          "5",
+          "5",
+          "Achieved"
+        ],
+        [
+          "Data migration accuracy rate: Target ≥ 99.5% by 2026-09-20 | Source: data validation logs",
+          "Pilot",
+          "97.8%",
+          "99.6%",
+          "Achieved"
+        ],
+        [
+          "Process cycle time reduction (Order-to-Cash): Target ≥ 15% reduction by 2026-11-12 | Source: ERP analytics dashboard",
+          "Go-Live → Hypercare (6 weeks)",
+          "0% (legacy baseline 12.4 days)",
+          "13% reduction (10.8 days)",
+          "Near Target"
+        ],
+        [
+          "5 by 2026-11-12 | Source: pulse survey tool",
+          "Go-Live → Hypercare (6 weeks)",
+          "5 (pilot)",
+          "5",
+          "Improving – Slightly Below Target"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Baseline": 270.3,
+        "max_Baseline": 97.8,
+        "min_Baseline": 78.0,
+        "sum_Current (as of 2026-10-01)": 373.8,
+        "max_Current (as of 2026-10-01)": 99.6,
+        "min_Current (as of 2026-10-01)": 81.0
+      },
+      "qa_candidates": [
+        {
+          "question": "eligible)\"?",
+          "answer": "81%",
+          "assertions": [
+            {
+              "text": "The response must state 81%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Adoption measurement scorecard for NexusERP across usage, proficiency, and performance outcomes\", what is the Baseline value for \"Data migration accuracy rate\"?",
+          "answer": "97.8%",
+          "assertions": [
+            {
+              "text": "The response must state 97.8%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Adoption measurement scorecard for NexusERP across usage, proficiency, and performance outcomes\", what is the Status for \"User-reported satisfaction score (post-go-live pulse)\"?",
+          "answer": "Improving – Slightly Below Target",
+          "assertions": [
+            {
+              "text": "The response must state Improving – Slightly Below Target."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "annotation",
+      "variant_id": "ann_rv_0003_169b0977",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many highlights appear in the PDF?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, are PDF reviewer sticky-note comments present?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "In this element, what does the first reviewer comment read?",
+          "answer": "Contract clause reference",
+          "assertions": [
+            {
+              "text": "The response must state 'Contract clause reference'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "type": "table",
+      "variant_id": "table_0002_ab4df9a3",
+      "table_number": 9,
+      "caption": "Table 9: Readiness risks and mitigations tied to NexusERP milestones and accountable owners",
+      "columns": [
+        "Risk",
+        "Impact on Go-Live",
+        "Mitigation",
+        "Owner",
+        "Due",
+        "Status"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Low supervisor buy-in",
+          "Inconsistent frontline adoption and resistance to new workflows",
+          "weekly floor huddles",
+          "Plant B Manager",
+          "2026-07-15",
+          "At Risk"
+        ],
+        [
+          "Incomplete role mapping",
+          "Role confusion leading to duplicated or missed tasks during cutover",
+          "finalize RACI workshops",
+          "HR Ops Lead",
+          "2026-07-01",
+          "In Progress"
+        ],
+        [
+          "Data governance confusion",
+          "Incorrect or inconsistent master data affecting reporting and transactions",
+          "publish master data policy v1",
+          "CIO",
+          "2026-07-22",
+          "Not Started"
+        ],
+        [
+          "Training capacity constraints",
+          "Insufficient end-user readiness before system launch",
+          "add 6 super-user trainers",
+          "L&D Manager",
+          "2026-08-05",
+          "Planned"
+        ],
+        [
+          "Change fatigue across operations teams",
+          "Lower engagement and slower adoption rates",
+          "sequence communications and stagger deployments by site",
+          "Change Director",
+          "2026-07-18",
+          "In Progress"
+        ],
+        [
+          "Legacy system parallel usage",
+          "Shadow systems undermine data integrity and process standardization",
+          "decommission legacy access and enforce single-system policy",
+          "IT Operations Lead",
+          "2026-08-12",
+          "Planned"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Readiness risks and mitigations tied to NexusERP milestones and accountable owners\", what is the Owner for the risk \"Data governance confusion\"?",
+          "answer": "CIO",
+          "assertions": [
+            {
+              "text": "The response must state CIO."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Readiness risks and mitigations tied to NexusERP milestones and accountable owners\", what is the Due date for \"Low supervisor buy-in\"?",
+          "answer": "2026-07-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-15."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Readiness risks and mitigations tied to NexusERP milestones and accountable owners\", what is the Status of \"Training capacity constraints\"?",
+          "answer": "Planned",
+          "assertions": [
+            {
+              "text": "The response must state Planned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_9db23adb",
+      "table_number": 10,
+      "caption": "Table 10: Project Milestone Tracker",
+      "columns": [
+        "Milestone ID",
+        "Milestone Name",
+        "Planned Completion (%)",
+        "Actual Completion (%)",
+        "Status"
+      ],
+      "row_count": 52,
+      "cells": [
+        [
+          "M01",
+          "Project Charter Approval",
+          "100",
+          "100",
+          "Completed"
+        ],
+        [
+          "M02",
+          "Stakeholder Identification & Mapping",
+          "100",
+          "100",
+          "Completed"
+        ],
+        [
+          "M03",
+          "Stakeholder Impact Analysis",
+          "100",
+          "95",
+          "Completed with Minor Delays"
+        ],
+        [
+          "M04",
+          "Change Readiness Assessment Survey",
+          "100",
+          "90",
+          "Completed with Minor Delays"
+        ],
+        [
+          "M05",
+          "Communication Strategy Development",
+          "100",
+          "85",
+          "Completed with Minor Delays"
+        ],
+        [
+          "M06",
+          "Executive Sponsor Alignment Workshop",
+          "100",
+          "100",
+          "Completed"
+        ],
+        [
+          "M07",
+          "Training Needs Analysis",
+          "100",
+          "80",
+          "Completed with Minor Delays"
+        ],
+        [
+          "M08",
+          "Training Material Development",
+          "75",
+          "60",
+          "In Progress"
+        ],
+        [
+          "M09",
+          "Communication Campaign Launch",
+          "70",
+          "65",
+          "In Progress"
+        ],
+        [
+          "M10",
+          "Pilot Group Deployment",
+          "60",
+          "55",
+          "In Progress"
+        ],
+        [
+          "M11",
+          "Enterprise-Wide System Rollout",
+          "40",
+          "35",
+          "In Progress"
+        ],
+        [
+          "M12",
+          "Post-Implementation Support Setup",
+          "30",
+          "25",
+          "In Progress"
+        ],
+        [
+          "M13",
+          "Adoption Metrics Baseline Measurement",
+          "50",
+          "45",
+          "In Progress"
+        ],
+        [
+          "M14",
+          "Performance & Adoption Review",
+          "20",
+          "15",
+          "At Risk"
+        ],
+        [
+          "M15",
+          "Project Closure & Lessons Learned",
+          "10",
+          "5",
+          "Not Started"
+        ],
+        [
+          "16",
+          "Training Needs Analysis Completed",
+          "100%",
+          "100%",
+          "Completed"
+        ],
+        [
+          "17",
+          "Training Materials Developed",
+          "90%",
+          "85%",
+          "On Track"
+        ],
+        [
+          "18",
+          "Pilot Training Sessions Delivered",
+          "75%",
+          "70%",
+          "On Track"
+        ],
+        [
+          "19",
+          "Feedback from Pilot Collected",
+          "60%",
+          "55%",
+          "In Progress"
+        ],
+        [
+          "20",
+          "Change Impact Assessment Updated",
+          "85%",
+          "80%",
+          "On Track"
+        ],
+        [
+          "21",
+          "Risk Mitigation Plan Finalised",
+          "70%",
+          "65%",
+          "In Progress"
+        ],
+        [
+          "22",
+          "System Configuration Completed",
+          "95%",
+          "90%",
+          "On Track"
+        ],
+        [
+          "23",
+          "User Acceptance Testing (UAT) Started",
+          "50%",
+          "45%",
+          "In Progress"
+        ],
+        [
+          "24",
+          "UAT Issues Resolved",
+          "40%",
+          "30%",
+          "At Risk"
+        ],
+        [
+          "25",
+          "Final Stakeholder Approval Secured",
+          "30%",
+          "25%",
+          "Pending"
+        ],
+        [
+          "26",
+          "Organisation-wide Communication Issued",
+          "60%",
+          "60%",
+          "Completed"
+        ],
+        [
+          "27",
+          "Go-Live Readiness Assessment",
+          "35%",
+          "20%",
+          "At Risk"
+        ],
+        [
+          "28",
+          "Go-Live Executed",
+          "10%",
+          "0%",
+          "Not Started"
+        ],
+        [
+          "29",
+          "Post-Implementation Review Conducted",
+          "0%",
+          "0%",
+          "Not Started"
+        ],
+        [
+          "30",
+          "Benefits Realisation Report Published",
+          "0%",
+          "0%",
+          "Not Started"
+        ],
+        [
+          "31",
+          "Change Impact Assessment Finalized",
+          "100%",
+          "100%",
+          "Completed"
+        ],
+        [
+          "32",
+          "Stakeholder Engagement Workshops Phase 1",
+          "90%",
+          "85%",
+          "In Progress"
+        ],
+        [
+          "33",
+          "Communication Plan Approval",
+          "100%",
+          "100%",
+          "Completed"
+        ],
+        [
+          "34",
+          "Leadership Alignment Meeting",
+          "95%",
+          "90%",
+          "On Track"
+        ],
+        [
+          "35",
+          "Training Needs Analysis",
+          "100%",
+          "92%",
+          "On Track"
+        ],
+        [
+          "36",
+          "Development of Training Materials",
+          "80%",
+          "70%",
+          "In Progress"
+        ],
+        [
+          "37",
+          "Pilot Training Session Delivery",
+          "60%",
+          "55%",
+          "On Track"
+        ],
+        [
+          "38",
+          "Feedback Collection from Pilot Group",
+          "50%",
+          "45%",
+          "In Progress"
+        ],
+        [
+          "39",
+          "System Configuration Updates",
+          "75%",
+          "60%",
+          "At Risk"
+        ],
+        [
+          "40",
+          "Data Migration Planning",
+          "85%",
+          "80%",
+          "On Track"
+        ],
+        [
+          "41",
+          "Risk Mitigation Strategy Review",
+          "70%",
+          "65%",
+          "In Progress"
+        ],
+        [
+          "42",
+          "Policy and Procedure Documentation Update",
+          "65%",
+          "50%",
+          "Delayed"
+        ],
+        [
+          "43",
+          "Change Champion Network Deployment",
+          "90%",
+          "88%",
+          "On Track"
+        ],
+        [
+          "44",
+          "Organization-wide Communication Rollout",
+          "60%",
+          "40%",
+          "Delayed"
+        ],
+        [
+          "45",
+          "Post-Implementation Support Framework Setup",
+          "50%",
+          "35%",
+          "At Risk"
+        ],
+        [
+          "46",
+          "Executive Sponsor Alignment Workshop",
+          "100%",
+          "100%",
+          "Completed"
+        ],
+        [
+          "47",
+          "Stakeholder Impact Assessment Update",
+          "95%",
+          "90%",
+          "In Progress"
+        ],
+        [
+          "48",
+          "Change Readiness Survey Deployment",
+          "90%",
+          "85%",
+          "On Track"
+        ],
+        [
+          "49",
+          "Communication Plan Phase 2 Rollout",
+          "85%",
+          "70%",
+          "At Risk"
+        ],
+        [
+          "50",
+          "Training Materials Development",
+          "80%",
+          "60%",
+          "Delayed"
+        ],
+        [
+          "51",
+          "Pilot Implementation Review",
+          "75%",
+          "75%",
+          "Completed"
+        ],
+        [
+          "52",
+          "Post-Implementation Support Framework",
+          "70%",
+          "50%",
+          "In Progress"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Milestone ID": 1258.0,
+        "max_Milestone ID": 52.0,
+        "min_Milestone ID": 16.0,
+        "sum_Planned Completion (%)": 3620.0,
+        "max_Planned Completion (%)": 100.0,
+        "min_Planned Completion (%)": 0.0,
+        "sum_Actual Completion (%)": 3265.0,
+        "max_Actual Completion (%)": 100.0,
+        "min_Actual Completion (%)": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Status for Milestone ID M03?",
+          "answer": "Completed with Minor Delays",
+          "assertions": [
+            {
+              "text": "The response must state Completed with Minor Delays."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Actual Completion (%) for Milestone ID 42?",
+          "answer": "50%",
+          "assertions": [
+            {
+              "text": "The response must state 50%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Milestone Name for Milestone ID 46?",
+          "answer": "Executive Sponsor Alignment Workshop",
+          "assertions": [
+            {
+              "text": "The response must state Executive Sponsor Alignment Workshop."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "type": "table",
+      "variant_id": "table_0001_36fb00ef",
+      "table_number": 11,
+      "caption": "Table 11: Readiness assessment dimensions, baseline scores, and target thresholds before go-live",
+      "columns": [
+        "Readiness Area",
+        "Indicator (Baseline | Target)",
+        "Current Status",
+        "Go-Live Threshold",
+        "Owner",
+        "Review Date"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "People",
+          "Change understanding: 62% baseline | 80% target",
+          "At Risk",
+          "Minimum 75% organization-wide understanding before go-live",
+          "Change Manager",
+          "2026-06-15"
+        ],
+        [
+          "Leadership",
+          "Leadership alignment: 55% baseline | 75% target",
+          "At Risk",
+          "Executive alignment ≥ 75% and documented sponsorship plan",
+          "Program Sponsor",
+          "2026-06-10"
+        ],
+        [
+          "Capability",
+          "Training preparedness: 49% baseline | 85% target",
+          "Critical",
+          "85% completion of role-based training before go-live",
+          "L&D Lead",
+          "2026-07-01"
+        ],
+        [
+          "Engagement",
+          "Local change champion coverage: 60% baseline | 90% target",
+          "At Risk",
+          "90% business unit coverage with active champions",
+          "Regional Change Leads",
+          "2026-06-20"
+        ],
+        [
+          "Process",
+          "Documented SOP completion: 70% baseline | 95% target",
+          "On Track",
+          "All critical processes signed off by process owners",
+          "Process Owner",
+          "2026-06-25"
+        ],
+        [
+          "Technology",
+          "System integration testing pass rate: 78% baseline | 95% target",
+          "On Track",
+          "≥ 95% test case pass rate and no Sev1 defects",
+          "IT Test Manager",
+          "2026-06-30"
+        ],
+        [
+          "Adoption",
+          "User login activation rate: 0% baseline | 85% target",
+          "Pending",
+          "85% of active users logged in within first 2 weeks",
+          "Product Owner",
+          "2026-07-15"
+        ],
+        [
+          "Support",
+          "Service desk readiness score: 65% baseline | 90% target",
+          "At Risk",
+          "Tier 1 and Tier 2 support fully staffed and trained",
+          "IT Support Lead",
+          "2026-06-28"
+        ],
+        [
+          "Data",
+          "Data migration accuracy: 82% baseline | 98% target",
+          "On Track",
+          "≥ 98% data validation accuracy",
+          "Data Migration Lead",
+          "2026-06-18"
+        ],
+        [
+          "Communication",
+          "Message reach and recall: 58% baseline | 85% target",
+          "At Risk",
+          "85% staff recall key change messages in survey",
+          "Communications Lead",
+          "2026-06-12"
+        ],
+        [
+          "Culture",
+          "Change confidence index: 60% baseline | 80% target",
+          "Monitor",
+          "≥ 75% positive sentiment prior to go-live",
+          "HR Business Partner",
+          "2026-06-22"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Readiness assessment dimensions, baseline scores, and target thresholds before go-live\", what is the Go-Live Threshold for the Capability readiness area?",
+          "answer": "85% completion of role-based training before go-live",
+          "assertions": [
+            {
+              "text": "The response must state 85% completion of role-based training before go-live."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Readiness assessment dimensions, baseline scores, and target thresholds before go-live\", who is the Owner for the Technology readiness area?",
+          "answer": "IT Test Manager",
+          "assertions": [
+            {
+              "text": "The response must state IT Test Manager."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Readiness assessment dimensions, baseline scores, and target thresholds before go-live\", what is the Current Status for Adoption?",
+          "answer": "Pending",
+          "assertions": [
+            {
+              "text": "The response must state Pending."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "type": "annotation",
+      "variant_id": "ann_ft_0003_1679b3dd",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many freetext annotation boxes are attached?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'this element' in the financial freetext, what is the first annotated phrase shown?",
+          "answer": "74% of total revenue",
+          "assertions": [
+            {
+              "text": "The response must state '74% of total revenue'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "type": "annotation",
+      "variant_id": "ann_ft_0000_2d5dee86",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, how many annotation boxes are attached?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at this element, what phrase is shown by the first freetext annotation?",
+          "answer": "47 days",
+          "assertions": [
+            {
+              "text": "The response must state '47 days'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "type": "annotation",
+      "variant_id": "ann_co_0003_1e24a937",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On this element, what label appears in the callout box?",
+          "answer": "Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Note'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what is the callout text displayed?",
+          "answer": "Figures shown are unaudited management accounts and subject to revision.",
+          "assertions": [
+            {
+              "text": "The response must state 'Figures shown are unaudited management accounts and subject to revision.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "type": "annotation",
+      "variant_id": "ann_sn_0001_a9f6a9bb",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what category is assigned to the sticky note?",
+          "answer": "financial",
+          "assertions": [
+            {
+              "text": "The response must state 'financial'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element', what phrase was annotated first with a sticky note?",
+          "answer": "Net income after tax",
+          "assertions": [
+            {
+              "text": "The response must state 'Net income after tax'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "type": "annotation",
+      "variant_id": "ann_hl_0003_21845592",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', how many phrases are highlighted?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', which highlighted phrase is marked with the color name cyan?",
+          "answer": "headcount plan for 2025",
+          "assertions": [
+            {
+              "text": "The response must state 'headcount plan for 2025'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "type": "annotation",
+      "variant_id": "ann_rv_0002_c1022fa0",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "Looking at 'this element' in the PDF, what review category label is shown?",
+          "answer": "financial",
+          "assertions": [
+            {
+              "text": "The response must state 'financial'."
+            }
+          ]
+        },
+        {
+          "question": "On 'this element', are PDF reviewer sticky-note comments present?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element' on the rendered page, what does the first reviewer note read?",
+          "answer": "Align with board resolution",
+          "assertions": [
+            {
+              "text": "The response must state 'Align with board resolution'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "type": "annotation",
+      "variant_id": "ann_hl_0000_da4193a3",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "Within the 'this element', how many highlighted phrases are present?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what is the second highlighted phrase?",
+          "answer": "advanced reporting, multi-tenant SSO",
+          "assertions": [
+            {
+              "text": "The response must state 'advanced reporting, multi-tenant SSO'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "type": "annotation",
+      "variant_id": "ann_sn_0000_bcff8882",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', how many notes are attached?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element', what phrase is the first annotated text?",
+          "answer": "HIGH likelihood of schedule overrun",
+          "assertions": [
+            {
+              "text": "The response must state 'HIGH likelihood of schedule overrun'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "type": "annotation",
+      "variant_id": "ann_ct_0001_633f7bcb",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "How many columns does this element, 'Financial Performance Summary', display?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element 'Financial Performance Summary', how many rows are highlighted to show a positive trend?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On this element titled 'Financial Performance Summary', how many rows show a negative trend?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "type": "annotation",
+      "variant_id": "ann_lb_0003_38be0f0a",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', what classification banner text is shown?",
+          "answer": "APPROVED",
+          "assertions": [
+            {
+              "text": "The response must state 'APPROVED'."
+            }
+          ]
+        },
+        {
+          "question": "According to 'this element', what inline status label appears?",
+          "answer": "HIGH RISK",
+          "assertions": [
+            {
+              "text": "The response must state 'HIGH RISK'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 38,
+      "type": "annotation",
+      "variant_id": "ann_lb_0001_11f2cf4d",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On 'this element', what banner label is displayed?",
+          "answer": "PENDING REVIEW",
+          "assertions": [
+            {
+              "text": "The response must state 'PENDING REVIEW'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at 'this element', which inline status label appears?",
+          "answer": "CRITICAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 39,
+      "type": "annotation",
+      "variant_id": "ann_rv_0000_9f74be27",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, what annotation type is visible to a reader?",
+          "answer": "review",
+          "assertions": [
+            {
+              "text": "The response must state 'review'."
+            }
+          ]
+        },
+        {
+          "question": "On this element, how many visual highlights are present in the rendered PDF?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, what does the first PDF reviewer note say?",
+          "answer": "Contract clause reference",
+          "assertions": [
+            {
+              "text": "The response must state 'Contract clause reference'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 40,
+      "type": "annotation",
+      "variant_id": "ann_ar_0001_1e0e5bde",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element', what banner label is shown on the compliance annotated report section in the PDF?",
+          "answer": "CRITICAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CRITICAL'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'this element' when viewing the PDF, how many highlights are present?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element' as rendered in the PDF, are PDF reviewer notes attached?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 41,
+      "type": "annotation",
+      "variant_id": "ann_ar_0002_4560b101",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In this element, what label is shown in the callout box?",
+          "answer": "Editorial Note",
+          "assertions": [
+            {
+              "text": "The response must state 'Editorial Note'."
+            }
+          ]
+        },
+        {
+          "question": "According to this element, how many highlights are present?",
+          "answer": "2",
+          "assertions": [
+            {
+              "text": "The response must state '2'."
+            }
+          ]
+        },
+        {
+          "question": "On this element, are PDF reviewer comments attached?",
+          "answer": "true",
+          "assertions": [
+            {
+              "text": "The response must state 'true'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 42,
+      "type": "annotation",
+      "variant_id": "ann_ct_0002_c0fc3c73",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "In the 'this element' (Department Budget Allocation), how many columns does the table contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'this element' for Department Budget Allocation, how many rows are marked positive (highlighted green)?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'this element' titled Department Budget Allocation, how many rows indicate a negative trend (highlighted red)?",
+          "answer": "1",
+          "assertions": [
+            {
+              "text": "The response must state '1'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 43,
+      "type": "annotation",
+      "variant_id": "ann_lb_0002_b8647f74",
+      "heading": "",
+      "word_count": 0,
+      "text_content": [],
+      "qa_candidates": [
+        {
+          "question": "On the 'this element', which banner label is displayed?",
+          "answer": "SUBJECT TO CHANGE",
+          "assertions": [
+            {
+              "text": "The response must state 'SUBJECT TO CHANGE'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing 'this element' in the PDF, what inline status label appears?",
+          "answer": "CONFIDENTIAL",
+          "assertions": [
+            {
+              "text": "The response must state 'CONFIDENTIAL'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "ann_ft_0001_ef5270ab": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0000_5060e19e": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Identifies_which_stakeholder_groups_are_most_affected_by_Nex",
+      "row_count": 11,
+      "col_count": 7,
+      "columns": [
+        "Stakeholder Group",
+        "Primary Location",
+        "Impact Level",
+        "Tool Changes",
+        "Readiness Score (1-5)",
+        "Executive Sponsor",
+        "Change Priority"
+      ],
+      "topic_id": "change_management_plan"
+    },
+    "text_0001_51f87db3": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization",
+      "word_count": 332,
+      "text_type": "llm_prose",
+      "topic_id": "change_management_plan"
+    },
+    "text_0000_0101019b": {
+      "kind": "text",
+      "perturbations": [
+        "typos",
+        "abbreviations"
+      ],
+      "heading": "Stakeholder Impact and Readiness Assessment for the NexusERP Transformation",
+      "word_count": 169,
+      "text_type": "llm_prose",
+      "topic_id": "change_management_plan"
+    },
+    "cx_table_0001_4b464aea": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 26,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "change_management_plan"
+    },
+    "ann_ft_0002_77c5e93f": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0003_9e0f3485": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0003_fedb608f": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0000_7dc22841": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0003_1f68e98c": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Ensures_consistent,_role-relevant_messaging_that_builds_awar",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Audience",
+        "Channel & Cadence",
+        "Core Message Focus",
+        "Owner",
+        "Phase",
+        "Status"
+      ],
+      "topic_id": "change_management_plan"
+    },
+    "table_0004_9c4f87be": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Defines_the_role-based_training_curriculum_and_delivery_appr",
+      "row_count": 10,
+      "col_count": 5,
+      "columns": [
+        "Role & Curriculum",
+        "Audience Size",
+        "Delivery Window",
+        "Status",
+        "Training Owner"
+      ],
+      "topic_id": "change_management_plan"
+    },
+    "cx_table_0000_f5403034": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "change_management_plan"
+    },
+    "ann_hl_0002_546b35ea": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0000_c25e4d65": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0000_b37b7920": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "cx_table_0002_b580341c": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 24,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "change_management_plan"
+    },
+    "ann_ar_0003_7779d00a": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0002_5720d7aa": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0001_0752e59b": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "llm_mp_table_0001_28577a92": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "employee_activity_report",
+      "row_count": 62,
+      "col_count": 5,
+      "columns": [
+        "Employee ID",
+        "Department",
+        "Training Hours Completed",
+        "Readiness Score (%)",
+        "Engagement Activities Completed"
+      ],
+      "topic_id": ""
+    },
+    "ann_hl_0004_c799e773": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0000_c7efe17f": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0005_55be08e8": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Specifies_the_KPIs,_data_sources,_and_thresholds_used_to_mea",
+      "row_count": 9,
+      "col_count": 5,
+      "columns": [
+        "KPI & Target",
+        "Phase",
+        "Baseline",
+        "Current (as of 2026-10-01)",
+        "Status"
+      ],
+      "topic_id": "change_management_plan"
+    },
+    "ann_rv_0003_169b0977": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "table_0002_ab4df9a3": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Links_top_readiness_gaps_to_concrete_mitigations,_due_dates,",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Risk",
+        "Impact on Go-Live",
+        "Mitigation",
+        "Owner",
+        "Due",
+        "Status"
+      ],
+      "topic_id": "change_management_plan"
+    },
+    "llm_mp_table_0000_9db23adb": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "project_milestone_tracker",
+      "row_count": 52,
+      "col_count": 5,
+      "columns": [
+        "Milestone ID",
+        "Milestone Name",
+        "Planned Completion (%)",
+        "Actual Completion (%)",
+        "Status"
+      ],
+      "topic_id": ""
+    },
+    "table_0001_36fb00ef": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Provides_a_quantified_view_of_organizational_readiness_(peop",
+      "row_count": 11,
+      "col_count": 6,
+      "columns": [
+        "Readiness Area",
+        "Indicator (Baseline | Target)",
+        "Current Status",
+        "Go-Live Threshold",
+        "Owner",
+        "Review Date"
+      ],
+      "topic_id": "change_management_plan"
+    },
+    "ann_ft_0003_1679b3dd": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ft_0000_2d5dee86": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_co_0003_1e24a937": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0001_a9f6a9bb": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0003_21845592": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_rv_0002_c1022fa0": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_hl_0000_da4193a3": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_sn_0000_bcff8882": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0001_633f7bcb": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0003_38be0f0a": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0001_11f2cf4d": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_rv_0000_9f74be27": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0001_1e0e5bde": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ar_0002_4560b101": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_ct_0002_c0fc3c73": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    },
+    "ann_lb_0002_b8647f74": {
+      "kind": "annotation",
+      "perturbations": [],
+      "text_type": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In this element, how many freetext annotation boxes are attached?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, what phrase is listed as the first annotated phrase?",
+      "answer": "2025-03-31",
+      "assertions": [
+        {
+          "text": "The response must state '2025-03-31'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Stakeholder impact analysis for NexusERP by role, process change intensity, and risk\", what is the Change Priority for IT Application Support?",
+      "answer": "1 - Cirtical",
+      "assertions": [
+        {
+          "text": "The response must state 1 - Cirtical."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Stakeholder impact analysis for NexusERP by role, process change intensity, and risk\", what is the Primary Location listed for Maintenance Technicians?",
+      "answer": "Plant A",
+      "assertions": [
+        {
+          "text": "The response must state Plant A."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Stakeholder impact analysis for NexusERP by role, process change intensity, and risk\", what is the Impact Level for Executive Leadership Team?",
+      "answer": "Low impact",
+      "assertions": [
+        {
+          "text": "The response must state Low impact."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization\" section, on what date do the weekly pilot updates start?",
+      "answer": "2026-07-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-15."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization\" section, what is the training completion target percentage to be met by 2026-09-15?",
+      "answer": "95%",
+      "assertions": [
+        {
+          "text": "The response must state 95%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Communications, Training, and Adoption Measurement Plan Through Go-Live and Stabilization\" section, what is the SLA for Critical incidents during the Hypercare period?",
+      "answer": "1 hour",
+      "assertions": [
+        {
+          "text": "The response must state 1 hour."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Satkeholder Impact and Readiness Assessment for the NxeusERP Transformation\" section, how many suers are impacted across the three production sites?",
+      "answer": "1,250 suers",
+      "assertions": [
+        {
+          "text": "The response must state 1,250 suers."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Satkeholder Impact and Readiness Assessment for the NxeusERP Transformation\" section, what is the readiness survey baseline as of 2026-06-15?",
+      "answer": "58% favorable",
+      "assertions": [
+        {
+          "text": "The response must state 58% favorable."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Satkeholder Impact and Readiness Assessment for the NxeusERP Transformation\" section, what is the length of the stabilization period assumed in transition planning?",
+      "answer": "90-day stabilization peroid",
+      "assertions": [
+        {
+          "text": "The response must state 90-day stabilization peroid."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", which leaf metric columns fall under the \"Comms & Enablement Delivery\" super-group?",
+      "answer": "Training Effort (FTE-wk).",
+      "assertions": [
+        {
+          "text": "Training Effort (FTE-wk).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", how many rows does the \"Stakeholder Impact Analysis\" category label span?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what is the Readiness Score (0–100) for the \"Frontline Operations\" sub-category (first listed row under that sub-category) in the Stakeholder Impact & Readiness area?",
+      "answer": "44.",
+      "assertions": [
+        {
+          "text": "The response must state '44.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what is the grand total for \"Training Hours (Planned)\"?",
+      "answer": "1696.",
+      "assertions": [
+        {
+          "text": "The response must state '1696.'."
+        }
+      ]
+    },
+    {
+      "question": "Training Effort (FTE-wk)\"?",
+      "answer": "26.0.",
+      "assertions": [
+        {
+          "text": "The response must state '26.0.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what columns are listed under Comms & Enablement Delivery?",
+      "answer": "Training Effort (FTE-wk).",
+      "assertions": [
+        {
+          "text": "Training Effort (FTE-wk).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", how many header tiers are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", how many total data rows are shown in the table?",
+      "answer": "26",
+      "assertions": [
+        {
+          "text": "The response must state '26'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what does footnote 1 explain?",
+      "answer": "Training Effort (FTE-wk).",
+      "assertions": [
+        {
+          "text": "Training Effort (FTE-wk).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan — Stakeholder Impact, Readiness, Communications, Training & Adoption Metrics\", what is the subtotal for the 'Adoption & Value Realisation' group?",
+      "answer": "44",
+      "assertions": [
+        {
+          "text": "The response must state '44'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many annotation boxes are attached?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what phrase is marked by the first freetext annotation?",
+      "answer": "38% of revenue",
+      "assertions": [
+        {
+          "text": "The response must state '38% of revenue'."
+        }
+      ]
+    },
+    {
+      "question": "In 'this element', how many sticky-note annotations are attached in the compliance note?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what phrase appears in the first sticky-note annotation?",
+      "answer": "6 of 22 new suppliers",
+      "assertions": [
+        {
+          "text": "The response must state '6 of 22 new suppliers'."
+        }
+      ]
+    },
+    {
+      "question": "How many columns are shown in the 'Financial Performance Summary' (this element)?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Financial Performance Summary' (this element), how many rows show a positive trend (highlighted green)?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Financial Performance Summary' (this element), what is the total number of rows in the table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, what is the callout label?",
+      "answer": "Warning",
+      "assertions": [
+        {
+          "text": "The response must state 'Warning'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what buffer in business days should be allowed?",
+      "answer": "10–15 business days",
+      "assertions": [
+        {
+          "text": "The response must state '10–15 business days'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"NexusERP communication strategy by audience, channel, cadence, and message objective\", what is the Status for Plant A pilot users?",
+      "answer": "In prgoress",
+      "assertions": [
+        {
+          "text": "The response must state In prgoress."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"NexusERP communication strategy by audience, channel, cadence, and message objective\", what is the Channel & Cadence listed for IT support teams?",
+      "answer": "Fortnightly operations sync",
+      "assertions": [
+        {
+          "text": "The response must state Fortnightly operations sync."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"NexusERP communication strategy by audience, channel, cadence, and message objective\", what is the Core Message Focus for Executive sponsors?",
+      "answer": "Readiness + risk decisions",
+      "assertions": [
+        {
+          "text": "The response must state Readiness + risk decisions."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Training approach for NexusERP: curriculum, modality, duration, and completion targets by role\", what is the Status for IT Support Analyst?",
+      "answer": "In Progress",
+      "assertions": [
+        {
+          "text": "The response must state In Progress."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Training approach for NexusERP: curriculum, modality, duration, and completion targets by role\", what is the Delivery Window for Executive Sponsor?",
+      "answer": "2026-08-01 to 2026-08-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-08-01 to 2026-08-31."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Training approach for NexusERP: curriculum, modality, duration, and completion targets by role\", who is the Training Owner for Finance Controller?",
+      "answer": "Finance Transformation Lead",
+      "assertions": [
+        {
+          "text": "The response must state Finance Transformation Lead."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what sub-columns fall under \"Impact profile\" in the Stakeholder Impact inner table within the \"Stakeholder impact analysis\" row?",
+      "answer": "Process change; System change; Risk level.",
+      "assertions": [
+        {
+          "text": "The response must state 'Process change; System change; Risk level.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", how many rows does the \"Training capacity\" label span in the mitigation inner table within the \"Readiness assessment & risk mitigation\" row?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what does footnote 1 explain?",
+      "answer": "It explains that impact ratings are based on change in critical tasks, compliance exposure (e.g., SoD), and expected transaction volume per role.",
+      "assertions": [
+        {
+          "text": "The response must state 'It explains that impact ratings are based on change in critical tasks, compliance exposure (e.g., SoD), and expected transaction volume per role.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what is the target readiness score for \"Data readiness\" in the Readiness Assessment inner table within the \"Stakeholder impact analysis\" row?",
+      "answer": "4.0.",
+      "assertions": [
+        {
+          "text": "The response must state '4.0.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what threshold is listed for \"Sev-1 incidents\" in the Hypercare Exit Criteria inner table within the \"Adoption measurement & sustainment\" row?",
+      "answer": "0 open for 10 business days.",
+      "assertions": [
+        {
+          "text": "The response must state '0 open for 10 business days.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what impact types are listed?",
+      "answer": "Process change; System change; Risk level.",
+      "assertions": [
+        {
+          "text": "The response must state 'Process change; System change; Risk level.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", how many header rows are there?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", which contains more rows, the headers or the data rows?",
+      "answer": "Data rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what does the impact ratings footnote explain?",
+      "answer": "Based on critical task change, compliance exposure (SoD), and expected transaction volume.",
+      "assertions": [
+        {
+          "text": "The response must state 'Based on critical task change, compliance exposure (SoD), and expected transaction volume.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Change Management Plan — Stakeholder Impact, Readiness, Communications, Training, and Adoption Measurement (Enterprise Transformation)\", what is the subtotal for group 'Data rows' in column 'Overview'?",
+      "answer": "5 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many phrases are highlighted?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which phrase is highlighted in cyan?",
+      "answer": "$1.45M over 9 months",
+      "assertions": [
+        {
+          "text": "The response must state '$1.45M over 9 months'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element' colored table, how many columns are displayed?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what is the total number of rows in the table?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many rows indicate a positive trend (highlighted green)?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the rendered PDF of 'this element', what banner label is displayed?",
+      "answer": "FOR INTERNAL USE ONLY",
+      "assertions": [
+        {
+          "text": "The response must state 'FOR INTERNAL USE ONLY'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element' as seen in the PDF, how many phrases are highlighted?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element' in the PDF, are PDF reviewer notes attached?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", which sub-columns fall under the \"Enablement Delivery (Comms + Training)\" super-group?",
+      "answer": " Learner, Completion Target (%).",
+      "assertions": [
+        {
+          "text": " Learner, Completion Target (%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", how many rows does the \"Operations (Order-to-Cash)\" category label span?",
+      "answer": "5 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what is the Channel Mix Coverage (%) for the \"Customer Service\" sub-category (first row of that sub-category) under the \"Enablement Delivery (Comms + Training)\" super-group?",
+      "answer": "88%.",
+      "assertions": [
+        {
+          "text": "The response must state '88%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what is the grand total for the \"Readiness Score (0–100)\" metric?",
+      "answer": "63.",
+      "assertions": [
+        {
+          "text": "The response must state '63.'."
+        }
+      ]
+    },
+    {
+      "question": "AR Sub-Total\" row show for \"Users Impacted (#)\"?",
+      "answer": "165.",
+      "assertions": [
+        {
+          "text": "The response must state '165.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what metrics are listed under Enablement Delivery (Comms + Training)?",
+      "answer": " Learner; Completion Target (%)",
+      "assertions": [
+        {
+          "text": " Learner; Completion Target (%)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", how many rows does the Stakeholder I segment occupy?",
+      "answer": "5 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", which stakeholder segment has the highest Adoption Measurement value?",
+      "answer": "Stakeholder I — 88%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Stakeholder I — 88%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what annotation appears next to 'Key Messages' in the Communications column?",
+      "answer": "(count)",
+      "assertions": [
+        {
+          "text": "The response must state '(count)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Change Management Plan Scorecard — Stakeholder Impact, Readiness, Communications, Training & Adoption\", what is the subtotal for Stakeholder I in the Adoption Measurement column?",
+      "answer": "88%.",
+      "assertions": [
+        {
+          "text": "The response must state '88%.'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, what banner label is shown at the top of the annotated report section?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, how many highlighted phrases are present in the rendered report?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing this element in the PDF, does it include PDF notes attached?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what label appears on the callout box?",
+      "answer": "Warning",
+      "assertions": [
+        {
+          "text": "The response must state 'Warning'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what text is displayed inside the callout box?",
+      "answer": "This section contains forward-looking statements that involve material risks and uncertainties.",
+      "assertions": [
+        {
+          "text": "The response must state 'This section contains forward-looking statements that involve material risks and uncertainties.'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, what is the callout label shown?",
+      "answer": "Tip",
+      "assertions": [
+        {
+          "text": "The response must state 'Tip'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what guidance does the callout provide?",
+      "answer": "You can bulk-upload supplier invoices using the CSV template in the Accounts Payable portal.",
+      "assertions": [
+        {
+          "text": "The response must state 'You can bulk-upload supplier invoices using the CSV template in the Accounts Payable portal.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Readiness Score (%) for employee EMP-010?",
+      "answer": "90",
+      "assertions": [
+        {
+          "text": "The response must state 90."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", which department is listed for employee 62?",
+      "answer": "Information Technology",
+      "assertions": [
+        {
+          "text": "The response must state Information Technology."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Employee Activity Report\", what is the Engagement Activities Completed value for employee 54?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state 2."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many phrases are highlighted?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, which phrase is highlighted in red?",
+      "answer": "$1.45M over 9 months",
+      "assertions": [
+        {
+          "text": "The response must state '$1.45M over 9 months'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what classification banner is displayed?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'this element' in the PDF, which inline status label is shown?",
+      "answer": "CONFIDENTIAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CONFIDENTIAL'."
+        }
+      ]
+    },
+    {
+      "question": "eligible)\"?",
+      "answer": "81%",
+      "assertions": [
+        {
+          "text": "The response must state 81%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Adoption measurement scorecard for NexusERP across usage, proficiency, and performance outcomes\", what is the Baseline value for \"Data migration accuracy rate\"?",
+      "answer": "97.8%",
+      "assertions": [
+        {
+          "text": "The response must state 97.8%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Adoption measurement scorecard for NexusERP across usage, proficiency, and performance outcomes\", what is the Status for \"User-reported satisfaction score (post-go-live pulse)\"?",
+      "answer": "Improving – Slightly Below Target",
+      "assertions": [
+        {
+          "text": "The response must state Improving – Slightly Below Target."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many highlights appear in the PDF?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, are PDF reviewer sticky-note comments present?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, what does the first reviewer comment read?",
+      "answer": "Contract clause reference",
+      "assertions": [
+        {
+          "text": "The response must state 'Contract clause reference'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Readiness risks and mitigations tied to NexusERP milestones and accountable owners\", what is the Owner for the risk \"Data governance confusion\"?",
+      "answer": "CIO",
+      "assertions": [
+        {
+          "text": "The response must state CIO."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Readiness risks and mitigations tied to NexusERP milestones and accountable owners\", what is the Due date for \"Low supervisor buy-in\"?",
+      "answer": "2026-07-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-15."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Readiness risks and mitigations tied to NexusERP milestones and accountable owners\", what is the Status of \"Training capacity constraints\"?",
+      "answer": "Planned",
+      "assertions": [
+        {
+          "text": "The response must state Planned."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Status for Milestone ID M03?",
+      "answer": "Completed with Minor Delays",
+      "assertions": [
+        {
+          "text": "The response must state Completed with Minor Delays."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Actual Completion (%) for Milestone ID 42?",
+      "answer": "50%",
+      "assertions": [
+        {
+          "text": "The response must state 50%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Project Milestone Tracker\", what is the Milestone Name for Milestone ID 46?",
+      "answer": "Executive Sponsor Alignment Workshop",
+      "assertions": [
+        {
+          "text": "The response must state Executive Sponsor Alignment Workshop."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Readiness assessment dimensions, baseline scores, and target thresholds before go-live\", what is the Go-Live Threshold for the Capability readiness area?",
+      "answer": "85% completion of role-based training before go-live",
+      "assertions": [
+        {
+          "text": "The response must state 85% completion of role-based training before go-live."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Readiness assessment dimensions, baseline scores, and target thresholds before go-live\", who is the Owner for the Technology readiness area?",
+      "answer": "IT Test Manager",
+      "assertions": [
+        {
+          "text": "The response must state IT Test Manager."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Readiness assessment dimensions, baseline scores, and target thresholds before go-live\", what is the Current Status for Adoption?",
+      "answer": "Pending",
+      "assertions": [
+        {
+          "text": "The response must state Pending."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many freetext annotation boxes are attached?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'this element' in the financial freetext, what is the first annotated phrase shown?",
+      "answer": "74% of total revenue",
+      "assertions": [
+        {
+          "text": "The response must state '74% of total revenue'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many annotation boxes are attached?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at this element, what phrase is shown by the first freetext annotation?",
+      "answer": "47 days",
+      "assertions": [
+        {
+          "text": "The response must state '47 days'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, what label appears in the callout box?",
+      "answer": "Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Note'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what is the callout text displayed?",
+      "answer": "Figures shown are unaudited management accounts and subject to revision.",
+      "assertions": [
+        {
+          "text": "The response must state 'Figures shown are unaudited management accounts and subject to revision.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what category is assigned to the sticky note?",
+      "answer": "financial",
+      "assertions": [
+        {
+          "text": "The response must state 'financial'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', what phrase was annotated first with a sticky note?",
+      "answer": "Net income after tax",
+      "assertions": [
+        {
+          "text": "The response must state 'Net income after tax'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', how many phrases are highlighted?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', which highlighted phrase is marked with the color name cyan?",
+      "answer": "headcount plan for 2025",
+      "assertions": [
+        {
+          "text": "The response must state 'headcount plan for 2025'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at 'this element' in the PDF, what review category label is shown?",
+      "answer": "financial",
+      "assertions": [
+        {
+          "text": "The response must state 'financial'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', are PDF reviewer sticky-note comments present?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element' on the rendered page, what does the first reviewer note read?",
+      "answer": "Align with board resolution",
+      "assertions": [
+        {
+          "text": "The response must state 'Align with board resolution'."
+        }
+      ]
+    },
+    {
+      "question": "Within the 'this element', how many highlighted phrases are present?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what is the second highlighted phrase?",
+      "answer": "advanced reporting, multi-tenant SSO",
+      "assertions": [
+        {
+          "text": "The response must state 'advanced reporting, multi-tenant SSO'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', how many notes are attached?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element', what phrase is the first annotated text?",
+      "answer": "HIGH likelihood of schedule overrun",
+      "assertions": [
+        {
+          "text": "The response must state 'HIGH likelihood of schedule overrun'."
+        }
+      ]
+    },
+    {
+      "question": "How many columns does this element, 'Financial Performance Summary', display?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element 'Financial Performance Summary', how many rows are highlighted to show a positive trend?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On this element titled 'Financial Performance Summary', how many rows show a negative trend?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what classification banner text is shown?",
+      "answer": "APPROVED",
+      "assertions": [
+        {
+          "text": "The response must state 'APPROVED'."
+        }
+      ]
+    },
+    {
+      "question": "According to 'this element', what inline status label appears?",
+      "answer": "HIGH RISK",
+      "assertions": [
+        {
+          "text": "The response must state 'HIGH RISK'."
+        }
+      ]
+    },
+    {
+      "question": "On 'this element', what banner label is displayed?",
+      "answer": "PENDING REVIEW",
+      "assertions": [
+        {
+          "text": "The response must state 'PENDING REVIEW'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at 'this element', which inline status label appears?",
+      "answer": "CRITICAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, what annotation type is visible to a reader?",
+      "answer": "review",
+      "assertions": [
+        {
+          "text": "The response must state 'review'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, how many visual highlights are present in the rendered PDF?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, what does the first PDF reviewer note say?",
+      "answer": "Contract clause reference",
+      "assertions": [
+        {
+          "text": "The response must state 'Contract clause reference'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element', what banner label is shown on the compliance annotated report section in the PDF?",
+      "answer": "CRITICAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CRITICAL'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'this element' when viewing the PDF, how many highlights are present?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' as rendered in the PDF, are PDF reviewer notes attached?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In this element, what label is shown in the callout box?",
+      "answer": "Editorial Note",
+      "assertions": [
+        {
+          "text": "The response must state 'Editorial Note'."
+        }
+      ]
+    },
+    {
+      "question": "According to this element, how many highlights are present?",
+      "answer": "2",
+      "assertions": [
+        {
+          "text": "The response must state '2'."
+        }
+      ]
+    },
+    {
+      "question": "On this element, are PDF reviewer comments attached?",
+      "answer": "true",
+      "assertions": [
+        {
+          "text": "The response must state 'true'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'this element' (Department Budget Allocation), how many columns does the table contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'this element' for Department Budget Allocation, how many rows are marked positive (highlighted green)?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element' titled Department Budget Allocation, how many rows indicate a negative trend (highlighted red)?",
+      "answer": "1",
+      "assertions": [
+        {
+          "text": "The response must state '1'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'this element', which banner label is displayed?",
+      "answer": "SUBJECT TO CHANGE",
+      "assertions": [
+        {
+          "text": "The response must state 'SUBJECT TO CHANGE'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing 'this element' in the PDF, what inline status label appears?",
+      "answer": "CONFIDENTIAL",
+      "assertions": [
+        {
+          "text": "The response must state 'CONFIDENTIAL'."
+        }
+      ]
+    }
+  ]
+}

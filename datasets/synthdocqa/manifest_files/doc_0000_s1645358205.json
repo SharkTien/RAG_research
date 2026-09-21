@@ -1,0 +1,2515 @@
+{
+  "doc_id": "doc_0000_s1645358205",
+  "title": "Enterprise Risk Register: Top Risks by Likelihood & Impact, Control Effectiveness, Residual Risk Levels and Risk Owner Accountabilities",
+  "subtitle": "Enterprise Risk Register — Top Risks by Likelihood & Impact, Control Effectiveness, Residual Risk Levels and Risk Owners",
+  "topic_id": "enterprise_risk_register",
+  "recipe_name": "data_focused",
+  "seed": 1645358205,
+  "document_brief": {
+    "narrative_theme": "This enterprise risk register aligns the organisation’s top risks to likelihood and impact, quantifies control effectiveness, and assigns clear risk owner accountability to drive down residual risk in FY2026.",
+    "sections": [
+      {
+        "heading": "Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)",
+        "key_facts": [
+          "The register covers 12 enterprise risks assessed as of 2026-04-30.",
+          "Likelihood and Impact are scored on a 1–5 scale, and Residual Risk is calculated as Likelihood × Impact (range 1–25).",
+          "Control effectiveness is rated on a 0–100% scale, and any risk with Residual Risk ≥ 15 is classified as High."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Top Residual Risks and Risk Owner Accountabilities (Q2 FY2026)",
+        "key_facts": [
+          "The top residual risk is R-03 Ransomware & destructive malware with Residual Risk 20 and owner CISO (Aisha Khan).",
+          "There are 4 High residual risks (Residual Risk ≥ 15) in the FY2026 register as of 2026-04-30.",
+          "The Enterprise Risk Committee review cadence is monthly, with the next review date set to 2026-05-31."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "FY2026 Enterprise Risk Register — master list with inherent, control, and residual ratings (as of 2026-04-30)",
+        "purpose": "impact, control effectiveness ratings, and computed residual risk to support prioritisation across the organisation.",
+        "key_data": {
+          "R-03 | Ransomware & destructive malware | Inherent L/I": "5",
+          "R-03 | Control effectiveness": "60%",
+          "R-03 | Residual Risk (L×I)": "20",
+          "R-07 | Third-party outage impacting customer SLAs | Residual Risk (L×I)": "16",
+          "R-11 | Regulatory non-compliance (privacy) | Control effectiveness": "70%"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Risk scoring rubric and residual risk classification thresholds used in FY2026",
+        "purpose": "High) so that all risk owners apply the same scoring method and escalation triggers.",
+        "key_data": {
+          "Likelihood 5 definition": "Expected at least once per year",
+          "Impact 5 definition": "Severe: >$5m loss or material regulatory action",
+          "Residual Risk formula": "Likelihood × Impact (1–25)",
+          "High threshold": "Residual Risk ≥ 15",
+          "Control effectiveness scale": "0–100%"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Control effectiveness ratings by risk — key controls, test dates, and effectiveness percentage (FY2026 baseline)",
+        "purpose": "Shows how each top risk is mitigated by named controls, when controls were last tested, and the resulting effectiveness percentage used to determine residual risk and prioritise remediation.",
+        "key_data": {
+          "R-03 | Key control": "EDR + immutable backups",
+          "R-03 | Last tested": "2026-03-15",
+          "R-03 | Effectiveness": "60%",
+          "R-11 | Key control": "Privacy impact assessments (PIA) workflow",
+          "R-07 | Effectiveness": "55%"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Top risks ranked by residual risk (highest to lowest) for Q2 FY2026",
+        "purpose": "Ranks risks by residual risk score to focus executive attention on the most significant exposures and to track movement in priority over time.",
+        "key_data": {
+          "Rank 1": "R-03 | Residual Risk 20",
+          "Rank 2": "R-07 | Residual Risk 16",
+          "Rank 3": "R-11 | Residual Risk 15",
+          "Rank 4": "R-02 | Residual Risk 15",
+          "Rank 5": "R-09 | Residual Risk 12"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)",
+        "purpose": "Clarifies who owns each risk, who is accountable at executive level, and the governance cadence to ensure timely decisions and remediation delivery across the organisation.",
+        "key_data": {
+          "R-03 | Risk owner": "CISO (Aisha Khan)",
+          "R-07 | Risk owner": "VP Infrastructure (Diego Martinez)",
+          "R-11 | Risk owner": "DPO (Priya Nair)",
+          "Enterprise Risk Committee cadence": "Monthly",
+          "Next review date": "2026-05-31"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Residual risk treatment plan for High risks — actions, due dates, and target residual risk (Q2–Q3 FY2026)",
+        "purpose": "Lists agreed mitigation actions for each High residual risk, with accountable owners, delivery due dates, and the target residual risk score to measure risk reduction outcomes.",
+        "key_data": {
+          "R-03 | Action": "Implement privileged access management (PAM) for Tier-0 systems",
+          "R-03 | Due date": "2026-08-31",
+          "R-03 | Target residual risk": "12",
+          "R-07 | Action": "Add secondary DNS and multi-region failover runbooks",
+          "R-11 | Due date": "2026-07-15"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1645358205.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_text_569f0b33.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 26,
+    "actual_page_count": 17
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "table_0004_ce46876e",
+      "table_number": 1,
+      "caption": "Table 1: Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)",
+      "columns": [
+        "Risk ID",
+        "Risk Description",
+        "Inherent Likelihood",
+        "Inherent Impact",
+        "Control Effectiveness",
+        "Residual Risk Level",
+        "Risk Owner",
+        "Executive Accountable",
+        "Enterprise Risk Committee Cadence",
+        "Next Review Date"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "R-01",
+          "Prolonged cloud service outage impacting customer platforms",
+          "High",
+          "Critical",
+          "Moderate",
+          "High",
+          "Head of Cloud Operations (Lena Hoffmann)",
+          "CTO",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-02",
+          "Phishing and social engineering attacks leading to credential compromise",
+          "High",
+          "High",
+          "Moderate",
+          "Medium",
+          "Head of IT Security (Marcus Lee)",
+          "CIO",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-03",
+          "Enterprise-wide ransomware attack disrupting core systems",
+          "High",
+          "Critical",
+          "Moderate",
+          "High",
+          "CISO (Aisha Khan)",
+          "CIO",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-04",
+          "Regulatory non-compliance in key operating markets",
+          "Medium",
+          "High",
+          "Strong",
+          "Medium",
+          "Chief Compliance Officer (Elena Petrova)",
+          "General Counsel",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-05",
+          "Critical third-party vendor failure",
+          "Medium",
+          "High",
+          "Moderate",
+          "Medium",
+          "Head of Vendor Management (Thomas Weber)",
+          "COO",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-06",
+          "Data center power and cooling failure",
+          "Medium",
+          "High",
+          "Strong",
+          "Low",
+          "Director of Facilities (James O'Connor)",
+          "COO",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-07",
+          "Network capacity constraints affecting service performance",
+          "Medium",
+          "High",
+          "Moderate",
+          "Medium",
+          "VP Infrastructure (Diego Martinez)",
+          "CTO",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-08",
+          "Insider threat resulting in unauthorized data access",
+          "Low",
+          "High",
+          "Moderate",
+          "Medium",
+          "Head of Internal Audit (Sofia Rossi)",
+          "CFO",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-09",
+          "Strategic project delivery delays impacting transformation goals",
+          "Medium",
+          "Medium",
+          "Moderate",
+          "Medium",
+          "PMO Director (Rachel Kim)",
+          "CEO",
+          "Monthly",
+          "2026-05-31"
+        ],
+        [
+          "R-11",
+          "Personal data breach violating privacy regulations",
+          "Medium",
+          "Critical",
+          "Moderate",
+          "High",
+          "DPO (Priya Nair)",
+          "General Counsel",
+          "Monthly",
+          "2026-05-31"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", who is the Risk Owner for R-03?",
+          "answer": "CISO (Aisha Khan)",
+          "assertions": [
+            {
+              "text": "The response must state CISO (Aisha Khan)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", what is the Residual Risk Level for R-06?",
+          "answer": "Low",
+          "assertions": [
+            {
+              "text": "The response must state Low."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", what is the Executive Accountable for R-08?",
+          "answer": "CFO",
+          "assertions": [
+            {
+              "text": "The response must state CFO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "table_0002_7214b9a1",
+      "table_number": 2,
+      "caption": "Table 2: Control effectiveness ratings by risk — key controls, test dates, and effectiveness percentage (FY2026 baseline)",
+      "columns": [
+        "Risk ID",
+        "Control Effectiveness",
+        "Inherent Impact",
+        "Residual Risk Level",
+        "Last Tested",
+        "Inherent Likelihood",
+        "Key Control",
+        "Risk Description",
+        "Risk Owner"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "R-01",
+          "85%",
+          "High",
+          "Medium",
+          "2026-02-10",
+          "High",
+          "Multi-region failover and active-active architecture",
+          "Cloud service outage impacting customer platform",
+          "CTO"
+        ],
+        [
+          "R-02",
+          "75%",
+          "Medium",
+          "Medium",
+          "2026-01-22",
+          "High",
+          "Email filtering + mandatory MFA",
+          "Phishing attacks leading to credential compromise",
+          "CISO"
+        ],
+        [
+          "R-03",
+          "60%",
+          "High",
+          "High",
+          "20260-3-15",
+          "High",
+          "EDR + immutable backups",
+          "Ransomware attack on corporate network",
+          "Head of IT Operations"
+        ],
+        [
+          "R-04",
+          "80%",
+          "High",
+          "Medium",
+          "2026-02-28",
+          "Medium",
+          "Quarterly internal audit and automated reconciliation controls",
+          "Regulatory non-compliance with financial reporting standards",
+          "CFO"
+        ],
+        [
+          "R-05",
+          "70%",
+          "High",
+          "Medium",
+          "2026-01-30",
+          "Medium",
+          "Vendor risk assessments and contractual security lcauses",
+          "Third-party vendor data breach",
+          "Head of Procurement"
+        ],
+        [
+          "R-06",
+          "65%",
+          "Medium",
+          "Medium",
+          "2026-03-05",
+          "Medium",
+          "Succession planning and retention incentives",
+          "Loss of criticalt alent in engineering team",
+          "Chief People Officer"
+        ],
+        [
+          "R-07",
+          "55%",
+          "High",
+          "High",
+          "2026-02-18",
+          "High",
+          "Phased application modernisation programme",
+          "Legacy system failure due to technical debt",
+          "Head of Enterprise Architecture"
+        ],
+        [
+          "R-11",
+          "78%",
+          "High",
+          "Medium",
+          "2026-03-12",
+          "Medium",
+          "Privacy impact assessments (PIA) workflow",
+          "Improper handling of personal data under privacy regulations",
+          "Data Protection Officer"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Control Effectiveness": 568.0,
+        "max_Control Effectiveness": 85.0,
+        "min_Control Effectiveness": 55.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Control effectiveness ratings by risk — key controls, test dates, and effectiveness percentage (FY2026 baseline)\", what is the Risk Owner for R-04?",
+          "answer": "CFO",
+          "assertions": [
+            {
+              "text": "The response must state CFO."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Control effectiveness ratings by risk — key controls, test dates, and effectiveness percentage (FY2026 baseline)\", what is the Control Effectiveness percentage for R-07?",
+          "answer": "55%",
+          "assertions": [
+            {
+              "text": "The response must state 55%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Control effectiveness ratings by risk — key controls, test dates, and effectiveness percentage (FY2026 baseline)\", what is the Last Tested date for R-02?",
+          "answer": "2026-01-22",
+          "assertions": [
+            {
+              "text": "The response must state 2026-01-22."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "table_0001_9bcd2d47",
+      "table_number": 3,
+      "caption": "Table 3: Risk scoring rubric and residual risk classification thresholds used in FY2026",
+      "columns": [
+        "Item",
+        "Description",
+        "Value",
+        "Definition",
+        "Notes"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Likelihood 5",
+          "Event frequency definition",
+          "5",
+          "Expected at least once per year",
+          "Applies to risks with recurring or highly probable occurrence within a 12-month period"
+        ],
+        [
+          "Impact 5",
+          "Regulatory severity definition",
+          "5",
+          "Severe: >$5m loss or material regulatory action",
+          "Includes major enforcement action, license impact, or significant reputational damage"
+        ],
+        [
+          "Residual Risk Calculation",
+          "Standard scoring formula",
+          "1–25",
+          "Likelihood × Impact (1–25)",
+          "Calculated after considering control effectiveness score"
+        ],
+        [
+          "Residual Risk Band – High",
+          "Escalation trigger level",
+          "High",
+          "Residual Risk ≥ 15",
+          "Requires executive review and quarterly Board reporting"
+        ],
+        [
+          "Control Effectiveness Rating",
+          "Assessment scale for existing controls",
+          "0–100%",
+          "",
+          "Used to adjust inherent risk to determine residual risk score"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Scale/Value": 10.0,
+        "max_Scale/Value": 5.0,
+        "min_Scale/Value": 5.0
+      },
+      "qa_candidates": [
+        {
+          "question": "Definition listed for \"Residual Risk Band – High\"?",
+          "answer": "Residual Risk ≥ 15",
+          "assertions": [
+            {
+              "text": "The response must state Residual Risk ≥ 15."
+            }
+          ]
+        },
+        {
+          "question": "Value shown for \"Residual Risk Calculation\"?",
+          "answer": "1–25",
+          "assertions": [
+            {
+              "text": "The response must state 1–25."
+            }
+          ]
+        },
+        {
+          "question": "Value for \"Control Effectiveness Rating\"?",
+          "answer": "0–100%",
+          "assertions": [
+            {
+              "text": "The response must state 0–100%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "table_0005_23efb1b8",
+      "table_number": 4,
+      "caption": "Table 4: Residual risk treatment plan for High risks — actions, due dates, and target residual risk (Q2–Q3 FY2026)",
+      "columns": [
+        "Risk ID",
+        "Mitigation Action",
+        "Accountable Owner",
+        "Due Date",
+        "Target Residual Risk Score",
+        "Status"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "R-03",
+          "Implement privileged access management (PAM) for Tier-0 systems",
+          "Head of Cybersecurity",
+          "2026-08-31",
+          "12",
+          "In Progress"
+        ],
+        [
+          "R-07",
+          "Add secondary DNS and multi-region failover runbooks",
+          "Infrastructure Operations Manager",
+          "2026-09-30",
+          "10",
+          "Not Started"
+        ],
+        [
+          "R-11",
+          "Formalise third-party risk monitoring with quarterly assurance reviews",
+          "Vendor Risk Manager",
+          "2026-07-15",
+          "14",
+          "In Progress"
+        ],
+        [
+          "R-14",
+          "Deploy enterprise-wide data loss prevention (DLP) controls",
+          "Chief Information Security Officer",
+          "2026-10-31",
+          "11",
+          "Planned"
+        ],
+        [
+          "R-18",
+          "Implement automated patch compliance reporting for critical assets",
+          "IT Service Delivery Manager",
+          "2026-06-30",
+          "9",
+          "In Progress"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Target Residual Risk Score": 56.0,
+        "max_Target Residual Risk Score": 14.0,
+        "min_Target Residual Risk Score": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Residual risk treatment plan for High risks — actions, due dates, and target residual risk (Q2–Q3 FY2026)\", what is the Due Date for Risk ID R-11?",
+          "answer": "2026-07-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-15."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Residual risk treatment plan for High risks — actions, due dates, and target residual risk (Q2–Q3 FY2026)\", who is the Accountable Owner for R-14?",
+          "answer": "Chief Information Security Officer",
+          "assertions": [
+            {
+              "text": "The response must state Chief Information Security Officer."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Residual risk treatment plan for High risks — actions, due dates, and target residual risk (Q2–Q3 FY2026)\", what is the Target Residual Risk Score for R-18?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state 9."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "table_0003_76e24e8b",
+      "table_number": 5,
+      "caption": "Table 5: Top risks ranked by residual risk (highest to lowest) for Q2 FY2026",
+      "columns": [
+        "Rank",
+        "Risk Description",
+        "Inherent Impact (1-5)",
+        "Weak)",
+        "Risk Owner",
+        "Residual Risk",
+        "Status",
+        "Inherent Likelihood (1-5)",
+        "Risk ID"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "1",
+          "Cybersecurity breach impacting customer data",
+          "5",
+          "Moderate",
+          "Chief Information Security Officer",
+          "20",
+          "Open - High Priority",
+          "5",
+          "R-03"
+        ],
+        [
+          "2",
+          "Regulatory non-compliance with data protection laws",
+          "4",
+          "Moderate",
+          "Chief Compliance Officer",
+          "16",
+          "Mitigation in Progress",
+          "4",
+          "R-07"
+        ],
+        [
+          "3",
+          "Critical supplier failure disrupting operations",
+          "5",
+          "Moderate",
+          "Chief Operating Officer",
+          "15",
+          "Monitoring Closely",
+          "3",
+          "R-11"
+        ],
+        [
+          "4",
+          "Major system outage affecting service delivery",
+          "5",
+          "Moderate",
+          "Chief Technology Officer",
+          "15",
+          "Mitigation in Progress",
+          "3",
+          "R-02"
+        ],
+        [
+          "5",
+          "Loss of key executive leadership",
+          "4",
+          "Moderate",
+          "Chief Human Resources Officer",
+          "12",
+          "Open",
+          "3",
+          "R-09"
+        ],
+        [
+          "6",
+          "Liquidity constraints due to market volatility",
+          "4",
+          "Strong",
+          "Chief Financial Officer",
+          "10",
+          "Under Review",
+          "3",
+          "R-05"
+        ],
+        [
+          "7",
+          "Reputational damage from adverse media coverage",
+          "4",
+          "Moderate",
+          "Chief Marketing Officer",
+          "8",
+          "Monitoring",
+          "2",
+          "R-14"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Rank": 28.0,
+        "max_Rank": 7.0,
+        "min_Rank": 1.0,
+        "sum_Inherent Impact (1-5)": 31.0,
+        "max_Inherent Impact (1-5)": 5.0,
+        "min_Inherent Impact (1-5)": 4.0,
+        "sum_Residual Risk": 96.0,
+        "max_Residual Risk": 20.0,
+        "min_Residual Risk": 8.0,
+        "sum_Inherent Likelihood (1-5)": 23.0,
+        "max_Inherent Likelihood (1-5)": 5.0,
+        "min_Inherent Likelihood (1-5)": 2.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Top risks ranked by residual risk (highest to lowest) for Q2 FY2026)\", what is the Risk ID for \"Cybersecurity breach impacting customer data\"?",
+          "answer": "R-03",
+          "assertions": [
+            {
+              "text": "The response must state R-03."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top risks ranked by residual risk (highest to lowest) for Q2 FY2026)\", who is the Risk Owner for \"Liquidity constraints due to market volatility\"?",
+          "answer": "Chief Financial Officer",
+          "assertions": [
+            {
+              "text": "The response must state Chief Financial Officer."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top risks ranked by residual risk (highest to lowest) for Q2 FY2026)\", what is the Status of \"Major system outage affecting service delivery\"?",
+          "answer": "Mitigation in Progress",
+          "assertions": [
+            {
+              "text": "The response must state Mitigation in Progress."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_ca8eaafb",
+      "table_number": 6,
+      "caption": "Table 6: Time Series Performance Metrics",
+      "columns": [
+        "Period",
+        "Avg Likelihood (1-5)",
+        "Avg Impact (1-5)",
+        "Control Effectiveness (%)",
+        "Residual Risk Score"
+      ],
+      "row_count": 62,
+      "cells": [
+        [
+          "2025-Q1",
+          "4.2",
+          "4.5",
+          "62",
+          "7.98"
+        ],
+        [
+          "2025-Q2",
+          "4.1",
+          "4.4",
+          "65",
+          "7.63"
+        ],
+        [
+          "2025-Q3",
+          "4.0",
+          "4.3",
+          "67",
+          "7.35"
+        ],
+        [
+          "2025-Q4",
+          "3.9",
+          "4.2",
+          "69",
+          "7.02"
+        ],
+        [
+          "2026-Q1",
+          "3.8",
+          "4.1",
+          "71",
+          "6.7"
+        ],
+        [
+          "2026-Q2",
+          "3.7",
+          "4.0",
+          "73",
+          "6.39"
+        ],
+        [
+          "2026-Q3",
+          "3.6",
+          "3.9",
+          "75",
+          "6.03"
+        ],
+        [
+          "2026-Q4",
+          "3.5",
+          "3.8",
+          "77",
+          "5.71"
+        ],
+        [
+          "2027-Q1",
+          "3.4",
+          "3.7",
+          "79",
+          "5.41"
+        ],
+        [
+          "2027-Q2",
+          "3.3",
+          "3.6",
+          "81",
+          "5.13"
+        ],
+        [
+          "2027-Q3",
+          "3.2",
+          "3.5",
+          "83",
+          "4.86"
+        ],
+        [
+          "2027-Q4",
+          "3.1",
+          "3.4",
+          "85",
+          "4.61"
+        ],
+        [
+          "2028-Q1",
+          "3.0",
+          "3.3",
+          "87",
+          "4.36"
+        ],
+        [
+          "2028-Q2",
+          "2.9",
+          "3.2",
+          "89",
+          "4.14"
+        ],
+        [
+          "2028-Q3",
+          "2.8",
+          "3.1",
+          "91",
+          "3.93"
+        ],
+        [
+          "16",
+          "3.8",
+          "4.1",
+          "68",
+          "4.98"
+        ],
+        [
+          "17",
+          "3.6",
+          "4.0",
+          "70",
+          "4.32"
+        ],
+        [
+          "18",
+          "3.9",
+          "4.3",
+          "66",
+          "5.70"
+        ],
+        [
+          "19",
+          "3.5",
+          "3.8",
+          "72",
+          "3.72"
+        ],
+        [
+          "20",
+          "3.7",
+          "4.2",
+          "69",
+          "4.81"
+        ],
+        [
+          "21",
+          "3.4",
+          "3.9",
+          "74",
+          "3.45"
+        ],
+        [
+          "22",
+          "3.8",
+          "4.4",
+          "65",
+          "5.85"
+        ],
+        [
+          "23",
+          "3.6",
+          "4.1",
+          "71",
+          "4.28"
+        ],
+        [
+          "24",
+          "3.9",
+          "4.5",
+          "67",
+          "5.80"
+        ],
+        [
+          "25",
+          "3.3",
+          "3.7",
+          "76",
+          "2.93"
+        ],
+        [
+          "26",
+          "3.5",
+          "4.0",
+          "73",
+          "3.78"
+        ],
+        [
+          "27",
+          "3.7",
+          "4.3",
+          "68",
+          "5.10"
+        ],
+        [
+          "28",
+          "3.4",
+          "3.8",
+          "75",
+          "3.23"
+        ],
+        [
+          "29",
+          "3.6",
+          "4.2",
+          "70",
+          "4.54"
+        ],
+        [
+          "30",
+          "3.2",
+          "3.6",
+          "78",
+          "2.53"
+        ],
+        [
+          "Period 31",
+          "3.4",
+          "3.8",
+          "72",
+          "4.42"
+        ],
+        [
+          "Period 32",
+          "3.6",
+          "3.9",
+          "70",
+          "4.81"
+        ],
+        [
+          "Period 33",
+          "3.2",
+          "3.5",
+          "75",
+          "4.00"
+        ],
+        [
+          "Period 34",
+          "3.8",
+          "4.1",
+          "68",
+          "5.00"
+        ],
+        [
+          "Period 35",
+          "3.5",
+          "3.7",
+          "73",
+          "4.29"
+        ],
+        [
+          "Period 36",
+          "3.1",
+          "3.6",
+          "78",
+          "3.73"
+        ],
+        [
+          "Period 37",
+          "3.9",
+          "4.2",
+          "65",
+          "5.73"
+        ],
+        [
+          "Period 38",
+          "3.3",
+          "3.4",
+          "80",
+          "3.37"
+        ],
+        [
+          "Period 39",
+          "3.7",
+          "4.0",
+          "69",
+          "4.59"
+        ],
+        [
+          "Period 40",
+          "3.0",
+          "3.3",
+          "82",
+          "3.27"
+        ],
+        [
+          "Period 41",
+          "3.6",
+          "3.8",
+          "71",
+          "4.69"
+        ],
+        [
+          "Period 42",
+          "3.4",
+          "3.9",
+          "74",
+          "4.25"
+        ],
+        [
+          "Period 43",
+          "3.8",
+          "4.3",
+          "67",
+          "5.41"
+        ],
+        [
+          "Period 44",
+          "3.2",
+          "3.6",
+          "77",
+          "3.87"
+        ],
+        [
+          "Period 45",
+          "3.5",
+          "4.0",
+          "72",
+          "4.48"
+        ],
+        [
+          "46",
+          "3.8",
+          "4.1",
+          "72",
+          "4.36"
+        ],
+        [
+          "47",
+          "3.6",
+          "4.0",
+          "74",
+          "3.74"
+        ],
+        [
+          "48",
+          "3.9",
+          "4.2",
+          "70",
+          "4.91"
+        ],
+        [
+          "49",
+          "3.5",
+          "3.8",
+          "76",
+          "3.19"
+        ],
+        [
+          "50",
+          "3.7",
+          "4.3",
+          "69",
+          "4.98"
+        ],
+        [
+          "51",
+          "3.4",
+          "3.9",
+          "78",
+          "2.92"
+        ],
+        [
+          "52",
+          "3.8",
+          "4.4",
+          "68",
+          "5.35"
+        ],
+        [
+          "53",
+          "3.6",
+          "4.1",
+          "73",
+          "3.99"
+        ],
+        [
+          "54",
+          "3.9",
+          "4.5",
+          "67",
+          "5.80"
+        ],
+        [
+          "55",
+          "3.7",
+          "4.0",
+          "75",
+          "3.70"
+        ],
+        [
+          "56",
+          "3.5",
+          "3.7",
+          "79",
+          "2.72"
+        ],
+        [
+          "57",
+          "3.8",
+          "4.2",
+          "71",
+          "4.63"
+        ],
+        [
+          "58",
+          "3.6",
+          "4.3",
+          "72",
+          "4.34"
+        ],
+        [
+          "59",
+          "3.9",
+          "4.6",
+          "66",
+          "6.09"
+        ],
+        [
+          "60",
+          "3.7",
+          "4.1",
+          "74",
+          "3.95"
+        ],
+        [
+          "61",
+          "3.4",
+          "3.9",
+          "76",
+          "3.18"
+        ],
+        [
+          "62",
+          "3.1",
+          "3.6",
+          "81",
+          "2.12"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Period": 1263.0,
+        "max_Period": 62.0,
+        "min_Period": 16.0,
+        "sum_Avg Likelihood (1-5)": 220.3,
+        "max_Avg Likelihood (1-5)": 4.2,
+        "min_Avg Likelihood (1-5)": 2.8,
+        "sum_Avg Impact (1-5)": 244.7,
+        "max_Avg Impact (1-5)": 4.6,
+        "min_Avg Impact (1-5)": 3.1,
+        "sum_Control Effectiveness (%)": 4550.0,
+        "max_Control Effectiveness (%)": 91.0,
+        "min_Control Effectiveness (%)": 62.0,
+        "sum_Residual Risk Score": 288.15,
+        "max_Residual Risk Score": 7.98,
+        "min_Residual Risk Score": 2.12
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Residual Risk Score for 2025-Q1?",
+          "answer": "7.98",
+          "assertions": [
+            {
+              "text": "The response must state 7.98."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Control Effectiveness (%) for Period 31?",
+          "answer": "72",
+          "assertions": [
+            {
+              "text": "The response must state 72."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the minimum Residual Risk Score shown in the Aggregates?",
+          "answer": "2.12",
+          "assertions": [
+            {
+              "text": "The response must state 2.12."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "cx_table_0002_8e04d182",
+      "table_number": 7,
+      "caption": "Table 7: Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", which objective categories are the column groups?",
+          "answer": "Risk & Compliance Objectives; Operational Resilience Objectives; Financial & Value Objectives.",
+          "assertions": [
+            {
+              "text": "The response must state 'Risk & Compliance Objectives; Operational Resilience Objectives; Financial & Value Objectives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", how many initiatives fall under the \"Technology & Cyber\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", what is the alignment rating of \"Cloud Landing Zone & Guardrails (policy-as-code, logging, encryption)\" for the \"Capital Efficiency\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", what is the total score for the \"Security Operations Centre (SOC) Modernisation (SOAR, use-case tuning)\" initiative?",
+          "answer": "58.",
+          "assertions": [
+            {
+              "text": "The response must state '58.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", which objective category has the highest weighted total score?",
+          "answer": "Financial & Value Objectives (total 420).",
+          "assertions": [
+            {
+              "text": "The response must state 'Financial & Value Objectives (total 420).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", what label appears in the second cell of the first header row?",
+          "answer": "Risk & Compliance Objectives",
+          "assertions": [
+            {
+              "text": "The response must state 'Risk & Compliance Objectives'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", which objective header appears last among the objective columns?",
+          "answer": "Financial & Value Objectives",
+          "assertions": [
+            {
+              "text": "The response must state 'Financial & Value Objectives'."
+            }
+          ]
+        },
+        {
+          "question": "annotation?",
+          "answer": "Risk & Compliance Objectives; Operational Resilience Objectives; Financial & Value Objectives",
+          "assertions": [
+            {
+              "text": "The response must state 'Risk & Compliance Objectives; Operational Resilience Objectives; Financial & Value Objectives'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", what subtotal is given for the initiatives group?",
+          "answer": "4 initiatives",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "cx_table_0001_5cf99437",
+      "table_number": 8,
+      "caption": "Table 8: Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", which groups fall under the \"Inherent Risk Profile\" super-group?",
+          "answer": "Likelihood (1–5) and Impact (1–5).",
+          "assertions": [
+            {
+              "text": "The response must state 'Likelihood (1–5) and Impact (1–5).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", how many leaf metric columns does the \"Risk Response & Ownership\" super-group contain?",
+          "answer": "4 leaf metric columns (Value and Chg % for Control Effectiveness (%), and Value and Chg % for Residual Risk (Score)).",
+          "assertions": [
+            {
+              "text": "The response must state '4 leaf metric columns (Value and Chg % for Control Effectiveness (%), and Value and Chg % for Residual Risk (Score)).'."
+            }
+          ]
+        },
+        {
+          "question": "Control Effectiveness (%)?",
+          "answer": "72%.",
+          "assertions": [
+            {
+              "text": "The response must state '72%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", what is the grand total \"Value\" for \"Residual Risk (Score)\" for the \"Risk Response & Ownership\" super-group?",
+          "answer": "39.2.",
+          "assertions": [
+            {
+              "text": "The response must state '39.2.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", which group shows the highest \"Chg %\" change for \"Technology Change & Delivery\"?",
+          "answer": "Likelihood (1–5) with +2.6%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Likelihood (1–5) with +2.6%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", what is the Control Effectiveness (%) value shown?",
+          "answer": "72%",
+          "assertions": [
+            {
+              "text": "The response must state '72%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", which metric is expressed as a percentage, Control Effectiveness or Residual Risk?",
+          "answer": "Control Effectiveness",
+          "assertions": [
+            {
+              "text": "The response must state 'Control Effectiveness'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", what scale is used for Likelihood and Impact?",
+          "answer": "Likelihood and Impact are on a 1–5 scale",
+          "assertions": [
+            {
+              "text": "The response must state 'Likelihood and Impact are on a 1–5 scale'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", what is the subtotal number of data rows (risks) listed across all entities?",
+          "answer": "9",
+          "assertions": [
+            {
+              "text": "The response must state '9'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "cx_table_0000_d42f9600",
+      "table_number": 9,
+      "caption": "Table 9: Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", how many sub-columns does each period group span?",
+          "answer": "3 sub-columns (Actual, Target, Attain%).",
+          "assertions": [
+            {
+              "text": "The response must state '3 sub-columns (Actual, Target, Attain%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what is the H1 Attainment% for \"Residual risk exposure (quantified loss expectancy)\"?",
+          "answer": "88%.",
+          "assertions": [
+            {
+              "text": "The response must state '88%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", how many metrics does the \"Operational & Cyber\" category rowspan cover?",
+          "answer": "4 metrics.",
+          "assertions": [
+            {
+              "text": "The response must state '4 metrics.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", which metric has the lower H2 attainment in the \"Financial & Fraud\" category?",
+          "answer": "Fraud losses (net of recoveries) at 95% (lower than 100% and 110%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Fraud losses (net of recoveries) at 95% (lower than 100% and 110%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what is the H2 target for \"Third-party critical vendor coverage (assessed & monitored)\"?",
+          "answer": "$82.0M.",
+          "assertions": [
+            {
+              "text": "The response must state '$82.0M.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what are the H1 sub-columns?",
+          "answer": "3 sub-columns (Actual, Target, Attain%)",
+          "assertions": [
+            {
+              "text": "The response must state '3 sub-columns (Actual, Target, Attain%)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", how many data rows are present?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state '16'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", which attainment percentage is recorded as the highest?",
+          "answer": "88%",
+          "assertions": [
+            {
+              "text": "The response must state '88%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what does footnote 1 explain?",
+          "answer": "3 sub-columns (Actual, Target, Attain%)",
+          "assertions": [
+            {
+              "text": "The response must state '3 sub-columns (Actual, Target, Attain%)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what is the subtotal for the Metric group?",
+          "answer": "4 metrics",
+          "assertions": [
+            {
+              "text": "The response must state '4 metrics'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0000_ed665ddf",
+      "table_number": 10,
+      "caption": "Table 10: FY2026 Enterprise Risk Register — master list with inherent, control, and residual ratings (as of 2026-04-30)",
+      "columns": [
+        "Risk ID",
+        "Risk Description",
+        "Category",
+        "I",
+        "Control Effectiveness",
+        "Residual Risk (L×I)",
+        "Risk Owner",
+        "Risk Status",
+        "Last Reviewed"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "R-01",
+          "Cloud infrastructure misconfiguration",
+          "Technology",
+          "4",
+          "Control effectiveness: 65%",
+          "Residual Risk (L×I): 10",
+          "CIO",
+          "Open",
+          "2026-03-15"
+        ],
+        [
+          "R-02",
+          "Loss of critical talent in key fnuctions",
+          "People",
+          "4",
+          "Control effectiveness: 55%",
+          "Residual Risk (L×I): 8",
+          "Chief People Officer",
+          "Monitoring",
+          "2026-02-28"
+        ],
+        [
+          "R-03",
+          "Ransomware & destructive malware",
+          "Cybersecurity",
+          "5",
+          "Control effectiveness: 60%",
+          "Residual Risk (L×I): 20",
+          "CISO",
+          "Open",
+          "2026-04-10"
+        ],
+        [
+          "R-04",
+          "Major project delivery failure",
+          "Strategic",
+          "5",
+          "Control effectiveness: 50%",
+          "Residual Risk (L×I): 12",
+          "PMO Director",
+          "Open",
+          "2026-03-30"
+        ],
+        [
+          "R-05",
+          "Data centre power disruption",
+          "Operations",
+          "5",
+          "Control effectiveness: 70%",
+          "Residual Risk (L×I): 7",
+          "Head of Infrastructure",
+          "Monitoring",
+          "2026-01-22"
+        ],
+        [
+          "R-06",
+          "Liquidity constraint due to market volatility",
+          "Financial",
+          "5",
+          "Control effectiveness: 60%",
+          "Residual Risk (L×I): 9",
+          "CFO",
+          "Open",
+          "2026-03-05"
+        ],
+        [
+          "R-07",
+          "Third-party outage impacting customer SLAs",
+          "Third-Party",
+          "4",
+          "Control effectiveness: 50%",
+          "Residual Risk (L×I): 16",
+          "Head of Vendor Management",
+          "Open",
+          "2026-04-02"
+        ],
+        [
+          "R-08",
+          "Reputational damage from social media incident",
+          "Reputational",
+          "4",
+          "Control effectiveness: 65%",
+          "Residual Risk (L×I): 8",
+          "Chief Marketing Officer",
+          "Monitoring",
+          "2026-02-18"
+        ],
+        [
+          "R-11",
+          "Regulatory non-compliance (privacy)",
+          "Compliance",
+          "5",
+          "Control effectiveness: 70%",
+          "Residual Risk (L×I): 12",
+          "Data Protection Officer",
+          "Open",
+          "2026-04-21"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2026 Enterprise Risk Register — master list with inherent, control, and residual ratings (as of 2026-04-30)\", what is the Risk Owner listed for R-03?",
+          "answer": "CISO",
+          "assertions": [
+            {
+              "text": "The response must state CISO."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2026 Enterprise Risk Register — master list with inherent, control, and residual ratings (as of 2026-04-30)\", what is the Residual Risk (L×I) value for R-07?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state 16."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2026 Enterprise Risk Register — master list with inherent, control, and residual ratings (as of 2026-04-30)\", what is the Last Reviewed date for R-11?",
+          "answer": "2026-04-21",
+          "assertions": [
+            {
+              "text": "The response must state 2026-04-21."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "text",
+      "variant_id": "text_0000_ecf9b8ee",
+      "heading": "Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)",
+      "word_count": 336,
+      "text_content": [
+        "**Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)**",
+        "The register documents the enterprise-level exposure for 12 enterprise risks assessed as of 2026-04-30 and applies across all principal corporate functions, including Finance, Technology, Operations, Compliance, Human Resources, and Sales. Inclusion criteria focus on materiality to strategic objectives and enterprise continuity; project- and activity-level issues are assessed in subordinate registers. The scope encompasses strategic, operational, financial, compliance, reputational, and cyber domains, and is maintained by the Enterprise Risk Management (ERM) Office to support Board- and executive-level decision-making and resource prioritization and third party risks.",
+        "Methodology for assessment applies standardized scoring: Likelihood and Impact are each scored on a 1–5 scale to produce consistent inputs, and Residual Risk is calculated as Likelihood × Impact, yielding a numeric range of 1–25. For example, a probability score of 4 and impact score of 4 produces a Residual Risk of 16. The register records the assessed values and supports categorization; any Residual Risk ≥ 15 is classified as High. Calibration workshops with business-unit leads align scoring and document inter-rater adjustments per protocol.",
+        "Control effectiveness is rated on a 0–100% scale and is assessed through a combination of control testing, key risk indicators (KRIs), and evidence reviews conducted by Internal Audit and the ERM Office. For governance clarity the register uses tiered interpretation bands: controls rated below 50% are considered ineffective, 50–80% indicate partially effective controls requiring remediation, and above 80% are considered effective. Control test cycles run quarterly with exception reporting; corrective actions must include target remediation dates and owners to close gaps within 90 days.",
+        "Governance of the register is managed by the ERM Office and Chief Risk Officer, with reporting to the CEO, Executive Committee, and Audit Committee. Risk owners retain accountability for maintenance of risk entries, evidence, and remediation timelines; the ERM Office publishes a quarterly summary for executive review. Escalation protocols require the CRO to receive exception reports within 10 business days when control performance materially deteriorates or when risk exposure increases beyond agreed tolerances. The register and supporting documentation are retained five years and archived."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)\" section, what numeric range does the Residual Risk calculation yield?",
+          "answer": "1–25",
+          "assertions": [
+            {
+              "text": "The response must state 1–25."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)\" section, what threshold classifies a Residual Risk as High?",
+          "answer": "≥ 15",
+          "assertions": [
+            {
+              "text": "The response must state ≥ 15."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)\" section, within how many business days must the CRO receive exception reports when control performance materially deteriorates?",
+          "answer": "10 business days",
+          "assertions": [
+            {
+              "text": "The response must state 10 business days."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "text",
+      "variant_id": "text_0001_231d21c5",
+      "heading": "Top Residual Risks and Risk Owner Accountabilities (Q2 FY2026)",
+      "word_count": 191,
+      "text_content": [
+        "**Top Residual Risks and Risk Owner Accountabilities (Q2 FY2026)**",
+        "The register identifies R-03 Ransomware & destructive malware with Residual Risk 20 as the top residual risk; ownership is assigned to the CISO (Aisha Khan). This risk drives prioritized investment in endpoint protection, incident response, and backup integrity testing. Quarterly tabletop exercises and a 95% patch compliance target are mandated to reduce exploit windows and support measurable residual risk reduction. Status reporting occurs monthly.",
+        "30. High-risk items concentrate in cyber, supply chain, third-party concentration, and strategic execution; each has an assigned owner and documented treatment plan. Risk owners report monthly status, percentage mitigation achieved, and upcoming milestones. Controls with ’partially effective’ ratings are prioritized for remediation and funding reviews in Q3 2026.",
+        "31. Committee oversight enforces owner accountabilities, escalation thresholds, and consolidated executive reporting. Owners must submit mitigation plans, KPI progress, and a residual risk forecast seven days before each meeting. Noncompliant items escalate to the CRO for remediation timelines and funding decisions. Status updates are published internally weekly."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Top Residual Risks and Risk Owner Accountabilities (Q2 FY2026)\" section, who is assigned ownership of R-03 Ransomware & destructive malware?",
+          "answer": "the CISO (Aisha Khan)",
+          "assertions": [
+            {
+              "text": "The response must state the CISO (Aisha Khan)."
+            }
+          ]
+        },
+        {
+          "question": "30?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state 4."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Top Residual Risks and Risk Owner Accountabilities (Q2 FY2026)\" section, what is the next Enterprise Risk Committee review date?",
+          "answer": "31",
+          "assertions": [
+            {
+              "text": "31."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "table_0004_ce46876e": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Clarifies_who_owns_each_risk,_who_is_accountable_at_executiv",
+      "row_count": 10,
+      "col_count": 10,
+      "columns": [
+        "Risk ID",
+        "Risk Description",
+        "Inherent Likelihood",
+        "Inherent Impact",
+        "Control Effectiveness",
+        "Residual Risk Level",
+        "Risk Owner",
+        "Executive Accountable",
+        "Enterprise Risk Committee Cadence",
+        "Next Review Date"
+      ],
+      "topic_id": "enterprise_risk_register"
+    },
+    "table_0002_7214b9a1": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "noise"
+      ],
+      "base_type": "Shows_how_each_top_risk_is_mitigated_by_named_controls,_when",
+      "row_count": 8,
+      "col_count": 9,
+      "columns": [
+        "Risk ID",
+        "Control Effectiveness",
+        "Inherent Impact",
+        "Residual Risk Level",
+        "Last Tested",
+        "Inherent Likelihood",
+        "Key Control",
+        "Risk Description",
+        "Risk Owner"
+      ],
+      "topic_id": "enterprise_risk_register"
+    },
+    "table_0001_9bcd2d47": {
+      "kind": "table",
+      "perturbations": [
+        "formatting",
+        "structural"
+      ],
+      "base_type": "Documents_the_1–5_likelihood_and_impact_definitions_and_the_",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Item",
+        "Description",
+        "Value",
+        "Definition",
+        "Notes"
+      ],
+      "topic_id": "enterprise_risk_register"
+    },
+    "table_0005_23efb1b8": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Lists_agreed_mitigation_actions_for_each_High_residual_risk,",
+      "row_count": 5,
+      "col_count": 6,
+      "columns": [
+        "Risk ID",
+        "Mitigation Action",
+        "Accountable Owner",
+        "Due Date",
+        "Target Residual Risk Score",
+        "Status"
+      ],
+      "topic_id": "enterprise_risk_register"
+    },
+    "table_0003_76e24e8b": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Ranks_risks_by_residual_risk_score_to_focus_executive_attent",
+      "row_count": 7,
+      "col_count": 9,
+      "columns": [
+        "Rank",
+        "Risk Description",
+        "Inherent Impact (1-5)",
+        "Weak)",
+        "Risk Owner",
+        "Residual Risk",
+        "Status",
+        "Inherent Likelihood (1-5)",
+        "Risk ID"
+      ],
+      "topic_id": "enterprise_risk_register"
+    },
+    "llm_mp_table_0000_ca8eaafb": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "time_series_performance_metrics",
+      "row_count": 62,
+      "col_count": 5,
+      "columns": [
+        "Period",
+        "Avg Likelihood (1-5)",
+        "Avg Impact (1-5)",
+        "Control Effectiveness (%)",
+        "Residual Risk Score"
+      ],
+      "topic_id": ""
+    },
+    "cx_table_0002_8e04d182": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 18,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "enterprise_risk_register"
+    },
+    "cx_table_0001_5cf99437": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 9,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "enterprise_risk_register"
+    },
+    "cx_table_0000_d42f9600": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "enterprise_risk_register"
+    },
+    "table_0000_ed665ddf": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Provides_the_authoritative_list_of_12_enterprise_risks_with_",
+      "row_count": 9,
+      "col_count": 9,
+      "columns": [
+        "Risk ID",
+        "Risk Description",
+        "Category",
+        "I",
+        "Control Effectiveness",
+        "Residual Risk (L×I)",
+        "Risk Owner",
+        "Risk Status",
+        "Last Reviewed"
+      ],
+      "topic_id": "enterprise_risk_register"
+    },
+    "text_0000_ecf9b8ee": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)",
+      "word_count": 336,
+      "text_type": "llm_prose",
+      "topic_id": "enterprise_risk_register"
+    },
+    "text_0001_231d21c5": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "date_formats"
+      ],
+      "heading": "Top Residual Risks and Risk Owner Accountabilities (Q2 FY2026)",
+      "word_count": 191,
+      "text_type": "llm_prose",
+      "topic_id": "enterprise_risk_register"
+    },
+    "scan_llm_0000_a8d15e78": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_569f0b33.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", who is the Risk Owner for R-03?",
+      "answer": "CISO (Aisha Khan)",
+      "assertions": [
+        {
+          "text": "The response must state CISO (Aisha Khan)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", what is the Residual Risk Level for R-06?",
+      "answer": "Low",
+      "assertions": [
+        {
+          "text": "The response must state Low."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Risk owner accountability matrix — named owners, accountable executives, and review cadence (FY2026)\", what is the Executive Accountable for R-08?",
+      "answer": "CFO",
+      "assertions": [
+        {
+          "text": "The response must state CFO."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Control effectiveness ratings by risk — key controls, test dates, and effectiveness percentage (FY2026 baseline)\", what is the Risk Owner for R-04?",
+      "answer": "CFO",
+      "assertions": [
+        {
+          "text": "The response must state CFO."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Control effectiveness ratings by risk — key controls, test dates, and effectiveness percentage (FY2026 baseline)\", what is the Control Effectiveness percentage for R-07?",
+      "answer": "55%",
+      "assertions": [
+        {
+          "text": "The response must state 55%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Control effectiveness ratings by risk — key controls, test dates, and effectiveness percentage (FY2026 baseline)\", what is the Last Tested date for R-02?",
+      "answer": "2026-01-22",
+      "assertions": [
+        {
+          "text": "The response must state 2026-01-22."
+        }
+      ]
+    },
+    {
+      "question": "Definition listed for \"Residual Risk Band – High\"?",
+      "answer": "Residual Risk ≥ 15",
+      "assertions": [
+        {
+          "text": "The response must state Residual Risk ≥ 15."
+        }
+      ]
+    },
+    {
+      "question": "Value shown for \"Residual Risk Calculation\"?",
+      "answer": "1–25",
+      "assertions": [
+        {
+          "text": "The response must state 1–25."
+        }
+      ]
+    },
+    {
+      "question": "Value for \"Control Effectiveness Rating\"?",
+      "answer": "0–100%",
+      "assertions": [
+        {
+          "text": "The response must state 0–100%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Residual risk treatment plan for High risks — actions, due dates, and target residual risk (Q2–Q3 FY2026)\", what is the Due Date for Risk ID R-11?",
+      "answer": "2026-07-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-15."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Residual risk treatment plan for High risks — actions, due dates, and target residual risk (Q2–Q3 FY2026)\", who is the Accountable Owner for R-14?",
+      "answer": "Chief Information Security Officer",
+      "assertions": [
+        {
+          "text": "The response must state Chief Information Security Officer."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Residual risk treatment plan for High risks — actions, due dates, and target residual risk (Q2–Q3 FY2026)\", what is the Target Residual Risk Score for R-18?",
+      "answer": "9",
+      "assertions": [
+        {
+          "text": "The response must state 9."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top risks ranked by residual risk (highest to lowest) for Q2 FY2026)\", what is the Risk ID for \"Cybersecurity breach impacting customer data\"?",
+      "answer": "R-03",
+      "assertions": [
+        {
+          "text": "The response must state R-03."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top risks ranked by residual risk (highest to lowest) for Q2 FY2026)\", who is the Risk Owner for \"Liquidity constraints due to market volatility\"?",
+      "answer": "Chief Financial Officer",
+      "assertions": [
+        {
+          "text": "The response must state Chief Financial Officer."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top risks ranked by residual risk (highest to lowest) for Q2 FY2026)\", what is the Status of \"Major system outage affecting service delivery\"?",
+      "answer": "Mitigation in Progress",
+      "assertions": [
+        {
+          "text": "The response must state Mitigation in Progress."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Residual Risk Score for 2025-Q1?",
+      "answer": "7.98",
+      "assertions": [
+        {
+          "text": "The response must state 7.98."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Control Effectiveness (%) for Period 31?",
+      "answer": "72",
+      "assertions": [
+        {
+          "text": "The response must state 72."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the minimum Residual Risk Score shown in the Aggregates?",
+      "answer": "2.12",
+      "assertions": [
+        {
+          "text": "The response must state 2.12."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", which objective categories are the column groups?",
+      "answer": "Risk & Compliance Objectives; Operational Resilience Objectives; Financial & Value Objectives.",
+      "assertions": [
+        {
+          "text": "The response must state 'Risk & Compliance Objectives; Operational Resilience Objectives; Financial & Value Objectives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", how many initiatives fall under the \"Technology & Cyber\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", what is the alignment rating of \"Cloud Landing Zone & Guardrails (policy-as-code, logging, encryption)\" for the \"Capital Efficiency\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", what is the total score for the \"Security Operations Centre (SOC) Modernisation (SOAR, use-case tuning)\" initiative?",
+      "answer": "58.",
+      "assertions": [
+        {
+          "text": "The response must state '58.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", which objective category has the highest weighted total score?",
+      "answer": "Financial & Value Objectives (total 420).",
+      "assertions": [
+        {
+          "text": "The response must state 'Financial & Value Objectives (total 420).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", what label appears in the second cell of the first header row?",
+      "answer": "Risk & Compliance Objectives",
+      "assertions": [
+        {
+          "text": "The response must state 'Risk & Compliance Objectives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", how many header tiers are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", which objective header appears last among the objective columns?",
+      "answer": "Financial & Value Objectives",
+      "assertions": [
+        {
+          "text": "The response must state 'Financial & Value Objectives'."
+        }
+      ]
+    },
+    {
+      "question": "annotation?",
+      "answer": "Risk & Compliance Objectives; Operational Resilience Objectives; Financial & Value Objectives",
+      "assertions": [
+        {
+          "text": "The response must state 'Risk & Compliance Objectives; Operational Resilience Objectives; Financial & Value Objectives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative Alignment Grid (Risk Register Context): FY2026 Enterprise Objectives vs. Strategic Initiatives\", what subtotal is given for the initiatives group?",
+      "answer": "4 initiatives",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", which groups fall under the \"Inherent Risk Profile\" super-group?",
+      "answer": "Likelihood (1–5) and Impact (1–5).",
+      "assertions": [
+        {
+          "text": "The response must state 'Likelihood (1–5) and Impact (1–5).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", how many leaf metric columns does the \"Risk Response & Ownership\" super-group contain?",
+      "answer": "4 leaf metric columns (Value and Chg % for Control Effectiveness (%), and Value and Chg % for Residual Risk (Score)).",
+      "assertions": [
+        {
+          "text": "The response must state '4 leaf metric columns (Value and Chg % for Control Effectiveness (%), and Value and Chg % for Residual Risk (Score)).'."
+        }
+      ]
+    },
+    {
+      "question": "Control Effectiveness (%)?",
+      "answer": "72%.",
+      "assertions": [
+        {
+          "text": "The response must state '72%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", what is the grand total \"Value\" for \"Residual Risk (Score)\" for the \"Risk Response & Ownership\" super-group?",
+      "answer": "39.2.",
+      "assertions": [
+        {
+          "text": "The response must state '39.2.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", which group shows the highest \"Chg %\" change for \"Technology Change & Delivery\"?",
+      "answer": "Likelihood (1–5) with +2.6%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Likelihood (1–5) with +2.6%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", what is the Control Effectiveness (%) value shown?",
+      "answer": "72%",
+      "assertions": [
+        {
+          "text": "The response must state '72%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", how many header tiers are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", which metric is expressed as a percentage, Control Effectiveness or Residual Risk?",
+      "answer": "Control Effectiveness",
+      "assertions": [
+        {
+          "text": "The response must state 'Control Effectiveness'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", what scale is used for Likelihood and Impact?",
+      "answer": "Likelihood and Impact are on a 1–5 scale",
+      "assertions": [
+        {
+          "text": "The response must state 'Likelihood and Impact are on a 1–5 scale'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register Summary — Top Risks by Likelihood, Impact, Control Effectiveness and Residual Exposure (Quarterly)\", what is the subtotal number of data rows (risks) listed across all entities?",
+      "answer": "9",
+      "assertions": [
+        {
+          "text": "The response must state '9'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", how many sub-columns does each period group span?",
+      "answer": "3 sub-columns (Actual, Target, Attain%).",
+      "assertions": [
+        {
+          "text": "The response must state '3 sub-columns (Actual, Target, Attain%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what is the H1 Attainment% for \"Residual risk exposure (quantified loss expectancy)\"?",
+      "answer": "88%.",
+      "assertions": [
+        {
+          "text": "The response must state '88%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", how many metrics does the \"Operational & Cyber\" category rowspan cover?",
+      "answer": "4 metrics.",
+      "assertions": [
+        {
+          "text": "The response must state '4 metrics.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", which metric has the lower H2 attainment in the \"Financial & Fraud\" category?",
+      "answer": "Fraud losses (net of recoveries) at 95% (lower than 100% and 110%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Fraud losses (net of recoveries) at 95% (lower than 100% and 110%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what is the H2 target for \"Third-party critical vendor coverage (assessed & monitored)\"?",
+      "answer": "$82.0M.",
+      "assertions": [
+        {
+          "text": "The response must state '$82.0M.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what are the H1 sub-columns?",
+      "answer": "3 sub-columns (Actual, Target, Attain%)",
+      "assertions": [
+        {
+          "text": "The response must state '3 sub-columns (Actual, Target, Attain%)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", how many data rows are present?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state '16'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", which attainment percentage is recorded as the highest?",
+      "answer": "88%",
+      "assertions": [
+        {
+          "text": "The response must state '88%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what does footnote 1 explain?",
+      "answer": "3 sub-columns (Actual, Target, Attain%)",
+      "assertions": [
+        {
+          "text": "The response must state '3 sub-columns (Actual, Target, Attain%)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Risk Register — Control Effectiveness & Residual Risk Metrics (Heatmap Pivot, H1 vs H2)\", what is the subtotal for the Metric group?",
+      "answer": "4 metrics",
+      "assertions": [
+        {
+          "text": "The response must state '4 metrics'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 Enterprise Risk Register — master list with inherent, control, and residual ratings (as of 2026-04-30)\", what is the Risk Owner listed for R-03?",
+      "answer": "CISO",
+      "assertions": [
+        {
+          "text": "The response must state CISO."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 Enterprise Risk Register — master list with inherent, control, and residual ratings (as of 2026-04-30)\", what is the Residual Risk (L×I) value for R-07?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state 16."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 Enterprise Risk Register — master list with inherent, control, and residual ratings (as of 2026-04-30)\", what is the Last Reviewed date for R-11?",
+      "answer": "2026-04-21",
+      "assertions": [
+        {
+          "text": "The response must state 2026-04-21."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)\" section, what numeric range does the Residual Risk calculation yield?",
+      "answer": "1–25",
+      "assertions": [
+        {
+          "text": "The response must state 1–25."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)\" section, what threshold classifies a Residual Risk as High?",
+      "answer": "≥ 15",
+      "assertions": [
+        {
+          "text": "The response must state ≥ 15."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Risk Register Scope, Method, and Rating Scale (FY2026)\" section, within how many business days must the CRO receive exception reports when control performance materially deteriorates?",
+      "answer": "10 business days",
+      "assertions": [
+        {
+          "text": "The response must state 10 business days."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Top Residual Risks and Risk Owner Accountabilities (Q2 FY2026)\" section, who is assigned ownership of R-03 Ransomware & destructive malware?",
+      "answer": "the CISO (Aisha Khan)",
+      "assertions": [
+        {
+          "text": "The response must state the CISO (Aisha Khan)."
+        }
+      ]
+    },
+    {
+      "question": "30?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state 4."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Top Residual Risks and Risk Owner Accountabilities (Q2 FY2026)\" section, what is the next Enterprise Risk Committee review date?",
+      "answer": "31",
+      "assertions": [
+        {
+          "text": "31."
+        }
+      ]
+    }
+  ]
+}

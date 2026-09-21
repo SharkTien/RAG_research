@@ -1,0 +1,3087 @@
+{
+  "doc_id": "doc_0000_s1529144208",
+  "title": "Sourcing Strategy and Contracting Framework for Major Spend Category: Category Spend Analysis, Make‑vs‑Buy Decisions, Supplier Selection Criteria and Contracting Approach",
+  "subtitle": "Strategic Sourcing Plan — Category Spend Analysis · Make‑vs‑Buy Decisions · Preferred Supplier Criteria · Contracting Approach",
+  "topic_id": "procurement_sourcing_strategy",
+  "recipe_name": "data_focused",
+  "seed": 1529144208,
+  "document_brief": {
+    "narrative_theme": "Aligning Acme Manufacturing’s FY2026 IT infrastructure spend to a resilient, cost-optimized sourcing model by using spend analytics, make-versus-buy decisions, supplier selection, and a disciplined contracting approach for the Data Center & Cloud Infrastructure category.",
+    "sections": [
+      {
+        "heading": "FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure",
+        "key_facts": [
+          "FY2025 total category spend was $48.6M.",
+          "Top three subcategories in FY2025 were Public Cloud ($18.2M), Data Center Colocation ($12.4M), and Network Connectivity ($7.9M).",
+          "FY2026 forecast category spend is $52.0M, driven by a planned 15% compute growth."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach",
+        "key_facts": [
+          "Decision date for the make-versus-buy recommendation is 2026-02-15.",
+          "Preferred suppliers selected for award are AWS, Equinix, and Lumen.",
+          "Target contracted savings is 8.5% ($4.4M) by 2026-12-31."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "FY2025 spend by subcategory for Data Center & Cloud Infrastructure (Acme Manufacturing)",
+        "purpose": "Establishes the baseline spend concentration to prioritize sourcing levers and identify the biggest value pools within the category.",
+        "key_data": {
+          "Public Cloud": "$18.2M",
+          "Data Center Colocation": "$12.4M",
+          "Network Connectivity": "$7.9M",
+          "Hardware Maintenance": "$5.6M"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Top suppliers and FY2025 spend concentration (Top 10) for the category",
+        "purpose": "Shows supplier dependency and negotiation leverage by quantifying spend concentration among key vendors.",
+        "key_data": {
+          "AWS": "$14.9M",
+          "Equinix": "$9.1M",
+          "Lumen": "$4.3M",
+          "Dell Technologies": "$3.2M"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "FY2026 demand forecast drivers and spend bridge from FY2025 to FY2026",
+        "purpose": "Connects demand drivers (e.g., compute growth) to the FY2026 spend forecast to validate sourcing scope and timing.",
+        "key_data": {
+          "FY2025 actual spend": "$48.6M",
+          "Compute growth assumption": "15%",
+          "Net inflation/price change": "3%",
+          "FY2026 forecast spend": "$52.0M"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Make-versus-buy decision matrix for core infrastructure services (decision date: 2026-02-15)",
+        "purpose": "Documents the rationale for which capabilities to retain in-house versus outsource to suppliers, aligned to risk, cost, and agility outcomes.",
+        "key_data": {
+          "Public cloud operations": "Buy",
+          "Colocation facility management": "Buy",
+          "Network monitoring (NOC L1)": "Buy",
+          "Cloud governance & FinOps": "Make"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Preferred supplier selection criteria and weighted scoring results",
+        "purpose": "Provides a transparent, auditable basis for selecting preferred suppliers using weighted criteria tied to the category’s resilience and cost objectives.",
+        "key_data": {
+          "Total cost of ownership (35%)": "5",
+          "Security & compliance (25%)": "5",
+          "Service reliability (20%)": "5",
+          "Commercial flexibility (20%)": "5"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Contracting approach and savings plan to achieve 8.5% ($4.4M) by 2026-12-31",
+        "purpose": "Defines contract structure, key commercial terms, and a time-bound savings plan that ties negotiated outcomes to the FY2026 forecast spend.",
+        "key_data": {
+          "Target contracted savings": "8.5% ($4.4M)",
+          "Commitment model": "Tiered volume commitments with ramp clauses",
+          "SLA credits": "Up to 10% monthly fee at risk",
+          "Effective date": "2026-04-01"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1529144208.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_data_93f2a478.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 32,
+    "actual_page_count": 26
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "cx_table_0002_0c8ddf38",
+      "table_number": 1,
+      "caption": "Table 1: Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": " Cost Drivers table?",
+          "answer": "Cost and Demand.",
+          "assertions": [
+            {
+              "text": "The response must state 'Cost and Demand.'."
+            }
+          ]
+        },
+        {
+          "question": "L3 support)\" label span in the AMS row’s inner Make-vs-Buy & Preferred Suppliers table?",
+          "answer": "It spans 2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'It spans 2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what does footnote 1 explain?",
+          "answer": "service credits and performance triggers require Legal review to align remedies with enterprise liability caps and insurance provisions.",
+          "assertions": [
+            {
+              "text": "service credits and performance triggers require Legal review to align remedies with enterprise liability caps and insurance provisions.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the FY2025 Forecast spend for Paid Social in the Performance Media Buying inner channel table?",
+          "answer": "$3.0M.",
+          "assertions": [
+            {
+              "text": "The response must state '$3.0M.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the listed commercial model for \"Freight audit & pay\" in the Domestic Transportation inner strategy table?",
+          "answer": "Transaction-based fee with recovery sharing.",
+          "assertions": [
+            {
+              "text": "The response must state 'Transaction-based fee with recovery sharing.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is listed under the \"Spend & Demand Overview\" column?",
+          "answer": "Cost and Demand",
+          "assertions": [
+            {
+              "text": "The response must state 'Cost and Demand'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", how many rows does the \"Category\" label span?",
+          "answer": "2 rows",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows'."
+            }
+          ]
+        },
+        {
+          "question": "service credits and performance triggers?",
+          "answer": "They require Legal review to align remedies with liability caps and insurance",
+          "assertions": [
+            {
+              "text": "The response must state 'They require Legal review to align remedies with liability caps and insurance'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", which header spans more rows: \"Category\" or \"Spend & Demand Overview\"?",
+          "answer": "Category",
+          "assertions": [
+            {
+              "text": "The response must state 'Category'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the subtotal for the major category group in the \"Spend & Demand Overview\" column?",
+          "answer": "Cost and Demand",
+          "assertions": [
+            {
+              "text": "The response must state 'Cost and Demand'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "table_0002_bb0988d9",
+      "table_number": 2,
+      "caption": "Table 2: FY2026 demand forecast drivers and spend bridge from FY2025 to FY2026",
+      "columns": [
+        " Metric",
+        "Value",
+        " Timing",
+        "Impact on FY2026 Forecast ($M)"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Baseline Spend",
+          "FY2025 actual spend: $48.6M",
+          "Represents consolidated global spend across infrastructure and platform services",
+          "48.6"
+        ],
+        [
+          "Demand Growth",
+          "Compute growth assumption: 15%",
+          "ML workloads and customer volume expansion beginning Q1 FY2026",
+          "+7.3"
+        ],
+        [
+          "Price Changes",
+          "price change: 3%",
+          "Supplier rate cards adjusted effective Jan 2026 renewal cycle",
+          "+1.5"
+        ],
+        [
+          "Productivity & Optimization",
+          "Efficiency savings: -8%",
+          "Workload rightsizing and reserved capacity strategy implemented Q2 FY2026",
+          "-3.9"
+        ],
+        [
+          "Scope Expansion",
+          "New analytics platform onboarding",
+          "Incremental licenses and storage beginning Q3 FY2026",
+          "+2.1"
+        ],
+        [
+          "Contracting Levers",
+          "Multi-year commitment discounts",
+          "Negotiated enterprise agreement executed Q4 FY2025",
+          "-2.6"
+        ],
+        [
+          "Risk Contingency",
+          "Usage volatility buffer (2%)",
+          "Included to cover peak seasonal demand",
+          "+1.0"
+        ],
+        [
+          "Total Forecast",
+          "FY2026 forecast spend: $52.0M",
+          "Net result after growth, inflation, savings, and scope adjustments",
+          "52.0"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Impact on FY2026 Forecast ($M)": 106.0,
+        "max_Impact on FY2026 Forecast ($M)": 52.0,
+        "min_Impact on FY2026 Forecast ($M)": -3.9
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2026 demand forecast drivers and spend bridge from FY2025 to FY2026\", what is the Impact on FY2026 Forecast ($M) for Demand Growth?",
+          "answer": "+7.3",
+          "assertions": [
+            {
+              "text": "The response must state +7.3."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2026 demand forecast drivers and spend bridge from FY2025 to FY2026\", what is the Value listed for Contracting Levers?",
+          "answer": "Multi-year commitment discounts",
+          "assertions": [
+            {
+              "text": "The response must state Multi-year commitment discounts."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2026 demand forecast drivers and spend bridge from FY2025 to FY2026\", what is the Value for Total Forecast?",
+          "answer": "FY2026 forecast spend: $52.0M",
+          "assertions": [
+            {
+              "text": "The response must state FY2026 forecast spend: $52.0M."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "table_0001_cf1cbaf1",
+      "table_number": 3,
+      "caption": "Table 3: Top suppliers and FY2025 spend concentration (Top 10) for the category",
+      "columns": [
+        "Supplier",
+        "Contract Term End",
+        "Primary Service Provided",
+        "Annual Spend (USD)",
+        "% of Category Spend",
+        "Dependency Level",
+        "Negotiation Leverage"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "AWS",
+          "2027-12-31",
+          "PaaS)",
+          "$14.9M",
+          "33.1%",
+          "High",
+          "Low – High switching cost"
+        ],
+        [
+          "Equinix",
+          "2026-06-30",
+          "Colocation & Data Center Services",
+          "$9.1M",
+          "20.2%",
+          "High",
+          "Low – Limited regional alternatives"
+        ],
+        [
+          "Lumen",
+          "2026-03-31",
+          "Network & WAN Services",
+          "$4.3M",
+          "9.6%",
+          "Medium",
+          "Moderate – Competitive carrier market"
+        ],
+        [
+          "Dell Technologies",
+          "2025-11-30",
+          "Servers & Storage Hardware",
+          "$3.2M",
+          "7.1%",
+          "Medium",
+          "Moderate – Multiple OEM options"
+        ],
+        [
+          "Microsoft Azure",
+          "2027-08-31",
+          "Cloud Infrastructure (Secondary)",
+          "$3.0M",
+          "6.7%",
+          "Medium",
+          "Moderate – Multi-cloud strategy"
+        ],
+        [
+          "Cisco",
+          "2026-09-30",
+          "Network Hardware & Support",
+          "$2.5M",
+          "5.6%",
+          "Medium",
+          "Moderate – Strong brand but alternatives exist"
+        ],
+        [
+          "HPE",
+          "2025-12-31",
+          "On-Prem Compute & Storage",
+          "$2.0M",
+          "4.4%",
+          "Low",
+          "High – Competitive OEM landscape"
+        ],
+        [
+          "AT&T",
+          "2026-05-31",
+          "Telecom & Connectivity",
+          "$1.8M",
+          "4.0%",
+          "Low",
+          "High – Multiple carrier bids feasible"
+        ],
+        [
+          "VMware",
+          "2027-04-30",
+          "Virtualization Software",
+          "$1.6M",
+          "3.6%",
+          "Medium",
+          "Moderate – Migration feasible mid-term"
+        ],
+        [
+          "ServiceNow",
+          "2026-10-31",
+          "IT Service Management SaaS",
+          "$1.4M",
+          "3.1%",
+          "Low",
+          "High – Expanding SaaS competition"
+        ],
+        [
+          "Palo Alto Networks",
+          "2026-07-31",
+          "Cybersecurity Solutions",
+          "$1.2M",
+          "2.7%",
+          "Low",
+          "High – Competitive security market"
+        ]
+      ],
+      "derived_answers": {
+        "sum_% of Category Spend": 100.1,
+        "max_% of Category Spend": 33.1,
+        "min_% of Category Spend": 2.7
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Top suppliers and FY2025 spend concentration (Top 10) for the category\", what is the Annual Spend (USD) for AWS?",
+          "answer": "$14.9M",
+          "assertions": [
+            {
+              "text": "The response must state $14.9M."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top suppliers and FY2025 spend concentration (Top 10) for the category\", what is the Contract Term End for Dell Technologies?",
+          "answer": "2025-11-30",
+          "assertions": [
+            {
+              "text": "The response must state 2025-11-30."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top suppliers and FY2025 spend concentration (Top 10) for the category\", what is the Primary Service Provided by ServiceNow?",
+          "answer": "IT Service Management SaaS",
+          "assertions": [
+            {
+              "text": "The response must state IT Service Management SaaS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_f298a79a",
+      "table_number": 4,
+      "caption": "Table 4: Purchase Order Register",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "row_count": 65,
+      "cells": [
+        [
+          "PO-2026-001",
+          "Alpha Manufacturing Ltd.",
+          "Component Manufacturing",
+          "125000",
+          "Approved"
+        ],
+        [
+          "PO-2026-002",
+          "Global Tech Services",
+          "IT Managed Services",
+          "84250",
+          "Approved"
+        ],
+        [
+          "PO-2026-003",
+          "Prime Industrial Co.",
+          "Raw Materials",
+          "215400",
+          "Issued"
+        ],
+        [
+          "PO-2026-004",
+          "Vertex Logistics",
+          "Transportation Services",
+          "38900",
+          "Closed"
+        ],
+        [
+          "PO-2026-005",
+          "Omega Fabricators",
+          "Custom Fabrication",
+          "167750",
+          "Approved"
+        ],
+        [
+          "PO-2026-006",
+          "Summit Packaging Inc.",
+          "Packaging Supplies",
+          "45230",
+          "Closed"
+        ],
+        [
+          "PO-2026-007",
+          "Nexus Components",
+          "Electronic Parts",
+          "97300",
+          "Issued"
+        ],
+        [
+          "PO-2026-008",
+          "Apex Consulting Group",
+          "Engineering Services",
+          "132600",
+          "Approved"
+        ],
+        [
+          "PO-2026-009",
+          "Titan Steel Corp.",
+          "Structural Steel",
+          "284900",
+          "Issued"
+        ],
+        [
+          "PO-2026-010",
+          "EcoSource Materials",
+          "Sustainable Materials",
+          "76840",
+          "Approved"
+        ],
+        [
+          "PO-2026-011",
+          "Delta Maintenance Services",
+          "Equipment Maintenance",
+          "59320",
+          "Closed"
+        ],
+        [
+          "PO-2026-012",
+          "Orion Plastics",
+          "Injection Molding",
+          "143500",
+          "Approved"
+        ],
+        [
+          "PO-2026-013",
+          "Quantum Circuits Ltd.",
+          "PCB Assembly",
+          "118760",
+          "Issued"
+        ],
+        [
+          "PO-2026-014",
+          "Pioneer Safety Supplies",
+          "MRO Supplies",
+          "26780",
+          "Closed"
+        ],
+        [
+          "PO-2026-015",
+          "Evergreen Energy Solutions",
+          "Energy Procurement",
+          "198450",
+          "Approved"
+        ],
+        [
+          "PO-016",
+          "Alpha Components Ltd.",
+          "Electronic Subassemblies",
+          "$48,750",
+          "Approved"
+        ],
+        [
+          "PO-017",
+          "Global Machining Services",
+          "Precision Machined Parts",
+          "$72,340",
+          "Issued"
+        ],
+        [
+          "PO-018",
+          "Vertex Plastics Inc.",
+          "Injection Molded Housings",
+          "$33,120",
+          "Delivered"
+        ],
+        [
+          "PO-019",
+          "Orion Logistics Co.",
+          "Inbound Freight Services",
+          "$12,860",
+          "Closed"
+        ],
+        [
+          "PO-020",
+          "Summit Steel Suppliers",
+          "Raw Steel Sheets",
+          "$95,410",
+          "Approved"
+        ],
+        [
+          "PO-021",
+          "NovaTech Systems",
+          "Embedded Control Units",
+          "$58,275",
+          "Issued"
+        ],
+        [
+          "PO-022",
+          "Prime Packaging Solutions",
+          "Retail Packaging Materials",
+          "$14,690",
+          "Delivered"
+        ],
+        [
+          "PO-023",
+          "EcoSource Materials",
+          "Recycled Polymer Resin",
+          "$41,530",
+          "Approved"
+        ],
+        [
+          "PO-024",
+          "Titan Industrial Tools",
+          "CNC Tooling Equipment",
+          "$67,980",
+          "Issued"
+        ],
+        [
+          "PO-025",
+          "BlueWave Consulting",
+          "Procurement Advisory Services",
+          "$22,500",
+          "Closed"
+        ],
+        [
+          "PO-026",
+          "Apex Fasteners Co.",
+          "Industrial Fasteners",
+          "$18,745",
+          "Delivered"
+        ],
+        [
+          "PO-027",
+          "Helix Electronics",
+          "Sensor Modules",
+          "$39,860",
+          "Approved"
+        ],
+        [
+          "PO-028",
+          "Pioneer Fabrication",
+          "Custom Metal Frames",
+          "$54,230",
+          "Issued"
+        ],
+        [
+          "PO-029",
+          "GreenLine Energy",
+          "Facility Utilities Contract",
+          "$76,900",
+          "Approved"
+        ],
+        [
+          "PO-030",
+          "Delta Office Supplies",
+          "Operational Consumables",
+          "$9,875",
+          "Closed"
+        ],
+        [
+          "31",
+          "PO-2026-031",
+          "Spend Analytics Software License",
+          "$48,500",
+          "Approved"
+        ],
+        [
+          "32",
+          "PO-2026-032",
+          "External Benchmarking Study - Packaging Category",
+          "$22,750",
+          "Completed"
+        ],
+        [
+          "33",
+          "PO-2026-033",
+          "Consulting Services - Make vs Buy Assessment (IT Support)",
+          "$64,200",
+          "In Progress"
+        ],
+        [
+          "34",
+          "PO-2026-034",
+          "Raw Material Supply Contract - Aluminum Sheets",
+          "$185,900",
+          "Approved"
+        ],
+        [
+          "35",
+          "PO-2026-035",
+          "Contract Manufacturing - Component Assembly",
+          "$312,450",
+          "Pending Review"
+        ],
+        [
+          "36",
+          "PO-2026-036",
+          "Supplier Risk Assessment Platform Subscription",
+          "$18,600",
+          "Approved"
+        ],
+        [
+          "37",
+          "PO-2026-037",
+          "Market Intelligence Report - APAC Region",
+          "$9,850",
+          "Completed"
+        ],
+        [
+          "38",
+          "PO-2026-038",
+          "Logistics Outsourcing Feasibility Study",
+          "$27,300",
+          "In Progress"
+        ],
+        [
+          "39",
+          "PO-2026-039",
+          "Temporary Labor Outsourcing Agreement",
+          "$74,120",
+          "Approved"
+        ],
+        [
+          "40",
+          "PO-2026-040",
+          "IT Infrastructure In-house Cost Analysis",
+          "$15,400",
+          "Completed"
+        ],
+        [
+          "41",
+          "PO-2026-041",
+          "Packaging Material Framework Agreement",
+          "$129,775",
+          "Approved"
+        ],
+        [
+          "42",
+          "PO-2026-042",
+          "Supplier Consolidation Workshop Facilitation",
+          "$11,250",
+          "Completed"
+        ],
+        [
+          "43",
+          "PO-2026-043",
+          "Tooling Equipment Purchase - In-house Production",
+          "$256,890",
+          "Pending Review"
+        ],
+        [
+          "44",
+          "PO-2026-044",
+          "Cloud Hosting Services Annual Contract",
+          "$92,300",
+          "Approved"
+        ],
+        [
+          "45",
+          "PO-2026-045",
+          "Quality Audit Services - Strategic Suppliers",
+          "$38,640",
+          "In Progress"
+        ],
+        [
+          "46",
+          "IT Hardware",
+          "Apex Systems Ltd.",
+          "$48,750",
+          "Approved"
+        ],
+        [
+          "47",
+          "Temporary Staffing",
+          "BrightHire Solutions",
+          "$22,400",
+          "Pending Review"
+        ],
+        [
+          "48",
+          "Packaging Materials",
+          "EcoWrap Industries",
+          "$15,980",
+          "Approved"
+        ],
+        [
+          "49",
+          "Cloud Services Subscription",
+          "Nimbus Cloud Co.",
+          "$64,200",
+          "Contracted"
+        ],
+        [
+          "50",
+          "Office Supplies",
+          "StapleSource Inc.",
+          "$3,450",
+          "Completed"
+        ],
+        [
+          "51",
+          "Logistics & Freight",
+          "TransGlobal Logistics",
+          "$27,890",
+          "Approved"
+        ],
+        [
+          "52",
+          "Manufacturing Components",
+          "Precision Parts GmbH",
+          "$89,300",
+          "Under Evaluation"
+        ],
+        [
+          "53",
+          "Marketing Services",
+          "BlueWave Creative",
+          "$18,600",
+          "Approved"
+        ],
+        [
+          "54",
+          "Facility Maintenance",
+          "PrimeBuild Services",
+          "$12,750",
+          "Completed"
+        ],
+        [
+          "55",
+          "Consulting - Process Optimization",
+          "StratEdge Consulting",
+          "$54,000",
+          "Contracted"
+        ],
+        [
+          "56",
+          "Raw Materials - Aluminum",
+          "MetalCore Suppliers",
+          "$73,120",
+          "Pending Approval"
+        ],
+        [
+          "57",
+          "Cybersecurity Software",
+          "SecureNet Technologies",
+          "$39,950",
+          "Approved"
+        ],
+        [
+          "58",
+          "Training & Development",
+          "SkillBridge Academy",
+          "$9,875",
+          "Completed"
+        ],
+        [
+          "59",
+          "Fleet Leasing",
+          "DriveLine Leasing Co.",
+          "$120,400",
+          "Under Evaluation"
+        ],
+        [
+          "60",
+          "Energy Supply Contract",
+          "GreenGrid Energy",
+          "$210,600",
+          "Contracted"
+        ],
+        [
+          "61",
+          "PO-2026-061",
+          "Strategic Sourcing Consulting Services",
+          "$42,500",
+          "Approved"
+        ],
+        [
+          "62",
+          "PO-2026-062",
+          "Market Intelligence Subscription Renewal",
+          "$18,750",
+          "Processed"
+        ],
+        [
+          "63",
+          "PO-2026-063",
+          "Supplier Cost Breakdown Analysis Toolkit",
+          "$9,980",
+          "Pending"
+        ],
+        [
+          "64",
+          "PO-2026-064",
+          "Contract Manufacturing Feasibility Study",
+          "$27,300",
+          "Approved"
+        ],
+        [
+          "65",
+          "PO-2026-065",
+          "Category Spend Data Cleansing Services",
+          "$15,640",
+          "In Review"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col1": 1680.0,
+        "max_Col1": 65.0,
+        "min_Col1": 31.0,
+        "sum_Col4": 4715405.0,
+        "max_Col4": 312450.0,
+        "min_Col4": 3450.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the status shown for PO-2026-003?",
+          "answer": "Issued",
+          "assertions": [
+            {
+              "text": "The response must state Issued."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what amount is listed for PO-024?",
+          "answer": "$67,980",
+          "assertions": [
+            {
+              "text": "The response must state $67,980."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Purchase Order Register\", what is the vendor name associated with PO-2026-002?",
+          "answer": "Global Tech Services",
+          "assertions": [
+            {
+              "text": "The response must state Global Tech Services."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "table_0004_6ad32179",
+      "table_number": 5,
+      "caption": "Table 5: Preferred supplier selection criteria and weighted scoring results",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5",
+        "Col6"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "Total cost of ownership (35%)",
+          "5",
+          "5",
+          "5",
+          "1.75",
+          "AWS"
+        ],
+        [
+          "Security & compliance (25%)",
+          "5",
+          "5",
+          "5",
+          "1.25",
+          "Equinix"
+        ],
+        [
+          "Service reliability (20%)",
+          "5",
+          "5",
+          "5",
+          "1.00",
+          "Equinix"
+        ],
+        [
+          "Commercial flexibility (20%)",
+          "5",
+          "5",
+          "5",
+          "1.00",
+          "AWS"
+        ],
+        [
+          "Innovation capability (10%)",
+          "5",
+          "5",
+          "5",
+          "0.50",
+          "AWS"
+        ],
+        [
+          "Geographic coverage (5%)",
+          "5",
+          "5",
+          "5",
+          "0.25",
+          "Equinix"
+        ],
+        [
+          "ESG alignment (5%)",
+          "5",
+          "5",
+          "5",
+          "0.25",
+          "Equinix"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Preferred supplier selection criteria and weighted scoring results\", what value is shown in Col4 for the row \"Service reliability (20%)\"?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "5."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Preferred supplier selection criteria and weighted scoring results\", what is the value in Col5 for \"Innovation capability (10%)\"?",
+          "answer": "0.50",
+          "assertions": [
+            {
+              "text": "0.50."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Preferred supplier selection criteria and weighted scoring results\", which supplier is listed in Col6 for \"Geographic coverage (5%)\"?",
+          "answer": "Equinix",
+          "assertions": [
+            {
+              "text": "The response must state Equinix."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "cx_table_0001_0e3583fb",
+      "table_number": 6,
+      "caption": "Table 6: Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what sub-columns fall under \"FY2025 (USD m)\" in the nested spend table for the \"IT Infrastructure — Public Cloud Services\" row?",
+          "answer": "Actual and Forecast.",
+          "assertions": [
+            {
+              "text": "The response must state 'Actual and Forecast.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", how many rows does the \"Tier 1\" label span in the nested rate card controls table for the \"Professional Services — Contingent Labor (IT & Business Analysts)\" row?",
+          "answer": "Two rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'Two rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what does footnote 2 explain?",
+          "answer": "It states that the MRO strategy assumes CMMS-driven catalog compliance and a standardized critical spares list, with exceptions requiring facilities director approval.",
+          "assertions": [
+            {
+              "text": "The response must state 'It states that the MRO strategy assumes CMMS-driven catalog compliance and a standardized critical spares list, with exceptions requiring facilities director approval.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the FY2025 forecast spend for \"Compute\" in the nested spend table for the \"IT Infrastructure — Public Cloud Services\" row?",
+          "answer": "USD 20.1 million.",
+          "assertions": [
+            {
+              "text": "The response must state 'USD 20.1 million.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the markup cap shown for \"Tier 1\" in the nested rate card controls table for the \"Professional Services — Contingent Labor (IT & Business Analysts)\" row?",
+          "answer": "18%.",
+          "assertions": [
+            {
+              "text": "The response must state '18%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what label is used for the Category Spend & Drivers timeframe?",
+          "answer": "Actual and Forecast.",
+          "assertions": [
+            {
+              "text": "The response must state 'Actual and Forecast.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", how many header tiers (rows) are present?",
+          "answer": "Two rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'Two rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", which count is larger: header tiers or data rows?",
+          "answer": "Data rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what does the MRO strategy note explain?",
+          "answer": "CMMS-driven catalog compliance and standardized critical spares, exceptions need facilities director approval.",
+          "assertions": [
+            {
+              "text": "The response must state 'CMMS-driven catalog compliance and standardized critical spares, exceptions need facilities director approval.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the subtotal for the group 'Data rows' in the table?",
+          "answer": "5.",
+          "assertions": [
+            {
+              "text": "The response must state '5.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0000_17b13b38",
+      "table_number": 7,
+      "caption": "Table 7: FY2025 spend by subcategory for Data Center & Cloud Infrastructure (Acme Manufacturing)",
+      "columns": [
+        "Spend Category",
+        "Annual Spend (USD)",
+        "% of Total Category Spend",
+        "Top Supplier Share (%)",
+        "Spend Concentration Level"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Public Cloud",
+          "$18.2M",
+          "38.6%",
+          "72%",
+          "High"
+        ],
+        [
+          "Data Center Colocation",
+          "$12.4M",
+          "26.3%",
+          "65%",
+          "High"
+        ],
+        [
+          "Network Connectivity",
+          "$7.9M",
+          "16.7%",
+          "54%",
+          "Medium"
+        ],
+        [
+          "Hardware Maintenance",
+          "$5.6M",
+          "11.9%",
+          "48%",
+          "Medium"
+        ],
+        [
+          "Security Services",
+          "$3.1M",
+          "6.5%",
+          "33%",
+          "Low"
+        ]
+      ],
+      "derived_answers": {
+        "sum_% of Total Category Spend": 100.0,
+        "max_% of Total Category Spend": 38.6,
+        "min_% of Total Category Spend": 6.5,
+        "sum_Top Supplier Share (%)": 272.0,
+        "max_Top Supplier Share (%)": 72.0,
+        "min_Top Supplier Share (%)": 33.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2025 spend by subcategory for Data Center & Cloud Infrastructure (Acme Manufacturing)\", what is the Annual Spend (USD) for Public Cloud?",
+          "answer": "$18.2M",
+          "assertions": [
+            {
+              "text": "The response must state $18.2M."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 spend by subcategory for Data Center & Cloud Infrastructure (Acme Manufacturing)\", what is the Spend Concentration Level for Security Services?",
+          "answer": "Low",
+          "assertions": [
+            {
+              "text": "The response must state Low."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 spend by subcategory for Data Center & Cloud Infrastructure (Acme Manufacturing)\", what is the Top Supplier Share (%) for Data Center Colocation?",
+          "answer": "65%",
+          "assertions": [
+            {
+              "text": "The response must state 65%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "cx_table_0000_5bcf137a",
+      "table_number": 8,
+      "caption": "Table 8: Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", which objective categories are the column groups?",
+          "answer": "Supply Assurance & Risk; Service & Performance; Commercial & Value.",
+          "assertions": [
+            {
+              "text": "The response must state 'Supply Assurance & Risk; Service & Performance; Commercial & Value.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", how many initiatives fall under the \"Contracting & Governance\" initiative category?",
+          "answer": "4 initiatives.",
+          "assertions": [
+            {
+              "text": "The response must state '4 initiatives.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", what is the alignment rating of \"Run competitive RFP and down-select to 2 strategic MSPs plus 1 specialist niche provider\" for the \"Supplier Concentration\" objective?",
+          "answer": "H.",
+          "assertions": [
+            {
+              "text": "The response must state 'H.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", what is the total score for the \"Move to outcome-based SLAs with service credits and earn-back incentives\" initiative?",
+          "answer": "44.",
+          "assertions": [
+            {
+              "text": "The response must state '44.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", which objective category has the highest weighted total score?",
+          "answer": "Service & Performance (total 141 across its three objectives).",
+          "assertions": [
+            {
+              "text": "The response must state 'Service & Performance (total 141 across its three objectives).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", which objective columns are shown in the header?",
+          "answer": "Supply Assurance & Risk; Service & Performance; Commercial & Value.",
+          "assertions": [
+            {
+              "text": "The response must state 'Supply Assurance & Risk; Service & Performance; Commercial & Value.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", how many header-tier rows are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", which is greater: the number of data rows or the number of initiatives?",
+          "answer": "Data rows (19)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (19)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", what footnote or annotation label is used in the table?",
+          "answer": "H",
+          "assertions": [
+            {
+              "text": "The response must state 'H'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", what is the subtotal count for the group of data rows?",
+          "answer": "19",
+          "assertions": [
+            {
+              "text": "The response must state '19'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_16575e64",
+      "table_number": 9,
+      "caption": "Table 9: Project Milestone Tracker",
+      "columns": [
+        "Milestone ID",
+        "Milestone Description",
+        "Owner",
+        "Planned Completion Date",
+        "Percent Complete"
+      ],
+      "row_count": 79,
+      "cells": [
+        [
+          "MS-01",
+          "Project kickoff and stakeholder alignment",
+          "Head of Procurement",
+          "2026-01-10",
+          "100"
+        ],
+        [
+          "MS-02",
+          "Define category scope and data requirements",
+          "Category Manager",
+          "2026-01-20",
+          "100"
+        ],
+        [
+          "MS-03",
+          "Collect historical spend data (24 months)",
+          "Procurement Analyst",
+          "2026-02-05",
+          "100"
+        ],
+        [
+          "MS-04",
+          "Cleanse and classify spend data",
+          "Data Analyst",
+          "2026-02-18",
+          "95"
+        ],
+        [
+          "MS-05",
+          "Conduct spend analysis and identify cost drivers",
+          "Category Manager",
+          "2026-03-01",
+          "90"
+        ],
+        [
+          "MS-06",
+          "Benchmark market pricing and supplier landscape",
+          "Strategic Sourcing Lead",
+          "2026-03-12",
+          "85"
+        ],
+        [
+          "MS-07",
+          "Perform make-versus-buy assessment",
+          "Operations Manager",
+          "2026-03-22",
+          "75"
+        ],
+        [
+          "MS-08",
+          "Develop total cost of ownership (TCO) model",
+          "Finance Business Partner",
+          "2026-04-02",
+          "70"
+        ],
+        [
+          "MS-09",
+          "Risk assessment and mitigation planning",
+          "Risk Manager",
+          "2026-04-10",
+          "65"
+        ],
+        [
+          "MS-10",
+          "Define preferred supplier selection criteria",
+          "Strategic Sourcing Lead",
+          "2026-04-18",
+          "60"
+        ],
+        [
+          "MS-11",
+          "RFP to shortlisted suppliers",
+          "Procurement Manager",
+          "2026-04-28",
+          "50"
+        ],
+        [
+          "MS-12",
+          "Evaluate supplier proposals and scoring",
+          "Cross-Functional Committee",
+          "2026-05-10",
+          "40"
+        ],
+        [
+          "MS-13",
+          "Conduct supplier negotiations",
+          "Head of Procurement",
+          "2026-05-22",
+          "30"
+        ],
+        [
+          "MS-14",
+          "Finalize contracting approach and draft agreements",
+          "Legal Counsel",
+          "2026-06-05",
+          "20"
+        ],
+        [
+          "MS-15",
+          "Executive review and strategy sign-off",
+          "Chief Procurement Officer",
+          "2026-06-15",
+          "10"
+        ],
+        [
+          "16",
+          "Validate spend data accuracy with Finance and Accounts Payable",
+          "Finance Manager",
+          "2026-05-20",
+          "100%"
+        ],
+        [
+          "17",
+          "Segment suppliers by strategic importance and risk profile",
+          "Strategic Sourcing Lead",
+          "2026-05-27",
+          "90%"
+        ],
+        [
+          "18",
+          "Identify cost reduction opportunities across top 10 spend categories",
+          "Category Manager – Direct Materials",
+          "2026-06-05",
+          "75%"
+        ],
+        [
+          "19",
+          "Conduct make-versus-buy feasibility assessment for in-scope categories",
+          "Operations Strategy Lead",
+          "2026-06-18",
+          "60%"
+        ],
+        [
+          "20",
+          "Develop total cost of ownership (TCO) models for shortlisted categories",
+          "Procurement Analyst",
+          "2026-06-25",
+          "55%"
+        ],
+        [
+          "21",
+          "Facilitate stakeholder workshop to validate sourcing assumptions",
+          "Procurement Director",
+          "2026-07-02",
+          "40%"
+        ],
+        [
+          "22",
+          "Assess supplier market competitiveness and capacity constraints",
+          "Market Intelligence Analyst",
+          "2026-07-09",
+          "35%"
+        ],
+        [
+          "23",
+          "Draft risk mitigation strategies for high-dependency suppliers",
+          "Supply Chain Risk Manager",
+          "2026-07-15",
+          "30%"
+        ],
+        [
+          "24",
+          "Prepare should-cost models for priority categories",
+          "Cost Engineering Lead",
+          "2026-07-22",
+          "25%"
+        ],
+        [
+          "25",
+          "Align make-versus-buy recommendations with Operations leadership",
+          "VP Operations",
+          "2026-07-30",
+          "20%"
+        ],
+        [
+          "26",
+          "Develop implementation roadmap for approved sourcing strategies",
+          "Strategic Sourcing Lead",
+          "2026-08-08",
+          "15%"
+        ],
+        [
+          "27",
+          "Quantify projected savings and ROI from sourcing initiatives",
+          "Finance Business Partner",
+          "2026-08-15",
+          "10%"
+        ],
+        [
+          "28",
+          "Review legal and compliance implications of supplier transitions",
+          "Legal Counsel",
+          "2026-08-22",
+          "5%"
+        ],
+        [
+          "29",
+          "Finalize executive summary and strategic recommendations",
+          "Procurement Director",
+          "2026-08-29",
+          "0%"
+        ],
+        [
+          "30",
+          "Present sourcing strategy document to Executive Steering Committee",
+          "Chief Procurement Officer",
+          "2026-09-05",
+          "0%"
+        ],
+        [
+          "31",
+          "Complete supplier risk assessment framework",
+          "Risk Management Lead",
+          "2026-06-10",
+          "82%"
+        ],
+        [
+          "32",
+          "Validate category demand forecasts with business units",
+          "Category Manager - IT",
+          "2026-06-14",
+          "76%"
+        ],
+        [
+          "33",
+          "Develop total cost of ownership (TCO) model",
+          "Procurement Analyst",
+          "2026-06-18",
+          "69%"
+        ],
+        [
+          "34",
+          "Conduct make-versus-buy workshop with engineering",
+          "Sourcing Director",
+          "2026-06-22",
+          "58%"
+        ],
+        [
+          "35",
+          "Finalize supplier market intelligence report",
+          "Market Intelligence Lead",
+          "2026-06-25",
+          "74%"
+        ],
+        [
+          "36",
+          "Benchmark pricing against industry standards",
+          "Cost Analyst",
+          "2026-06-28",
+          "63%"
+        ],
+        [
+          "37",
+          "Draft supplier segmentation strategy",
+          "Strategic Sourcing Manager",
+          "2026-07-02",
+          "55%"
+        ],
+        [
+          "38",
+          "Identify strategic partnership opportunities",
+          "Head of Procurement",
+          "2026-07-06",
+          "47%"
+        ],
+        [
+          "39",
+          "Assess internal production capacity constraints",
+          "Operations Manager",
+          "2026-07-09",
+          "61%"
+        ],
+        [
+          "40",
+          "Prepare stakeholder alignment presentation",
+          "Procurement PMO Lead",
+          "2026-07-12",
+          "44%"
+        ],
+        [
+          "41",
+          "Incorporate ESG criteria into sourcing model",
+          "Sustainability Officer",
+          "2026-07-16",
+          "52%"
+        ],
+        [
+          "42",
+          "Complete financial impact analysis of sourcing options",
+          "Finance Business Partner",
+          "2026-07-20",
+          "38%"
+        ],
+        [
+          "43",
+          "Review legal and compliance requirements",
+          "Legal Counsel",
+          "2026-07-23",
+          "49%"
+        ],
+        [
+          "44",
+          "Obtain executive approval for preferred sourcing strategy",
+          "Chief Procurement Officer",
+          "2026-07-28",
+          "33%"
+        ],
+        [
+          "45",
+          "Publish final procurement sourcing strategy document",
+          "Procurement PMO Lead",
+          "2026-08-01",
+          "21%"
+        ],
+        [
+          "46",
+          "Consolidate supplier performance scorecards across key categories",
+          "Supplier Relationship Manager",
+          "2026-06-10",
+          "65%"
+        ],
+        [
+          "47",
+          "Complete total cost of ownership (TCO) models for top 5 spend categories",
+          "Category Analyst",
+          "2026-06-18",
+          "50%"
+        ],
+        [
+          "48",
+          "Facilitate make-versus-buy workshop with operations leadership",
+          "Strategic Sourcing Lead",
+          "2026-06-22",
+          "40%"
+        ],
+        [
+          "49",
+          "Document risk assessment for outsourcing scenarios",
+          "Procurement Risk Manager",
+          "2026-06-25",
+          "35%"
+        ],
+        [
+          "50",
+          "Validate demand forecasts with finance and operations",
+          "FP&A Manager",
+          "2026-06-12",
+          "70%"
+        ],
+        [
+          "51",
+          "Benchmark pricing against industry indices and peer data",
+          "Market Intelligence Analyst",
+          "2026-06-20",
+          "55%"
+        ],
+        [
+          "52",
+          "Develop supplier segmentation framework",
+          "Head of Procurement",
+          "2026-06-28",
+          "30%"
+        ],
+        [
+          "53",
+          "Draft negotiation strategy for high-spend suppliers",
+          "Category Manager – Direct Materials",
+          "2026-07-05",
+          "25%"
+        ],
+        [
+          "54",
+          "Identify consolidation opportunities across business units",
+          "Strategic Sourcing Analyst",
+          "2026-06-30",
+          "45%"
+        ],
+        [
+          "55",
+          "Quantify potential savings from contract renegotiations",
+          "Cost Optimization Lead",
+          "2026-07-08",
+          "20%"
+        ],
+        [
+          "56",
+          "Review legal and compliance considerations for outsourcing",
+          "Legal Counsel",
+          "2026-07-02",
+          "60%"
+        ],
+        [
+          "57",
+          "Prepare executive summary of spend analysis findings",
+          "Procurement Director",
+          "2026-07-10",
+          "15%"
+        ],
+        [
+          "58",
+          "Align make-versus-buy recommendations with corporate strategy",
+          "Chief Procurement Officer",
+          "2026-07-15",
+          "10%"
+        ],
+        [
+          "59",
+          "Finalize supplier transition plan for approved outsourcing decisions",
+          "Transition Manager",
+          "2026-07-22",
+          "5%"
+        ],
+        [
+          "60",
+          "Obtain executive steering committee approval for sourcing strategy document",
+          "Chief Financial Officer",
+          "2026-07-30",
+          "0%"
+        ],
+        [
+          "61",
+          "Validate supplier spend cube accuracy and reconcile discrepancies",
+          "Procurement Analyst",
+          "2026-05-12",
+          "85%"
+        ],
+        [
+          "62",
+          "Conduct stakeholder workshops for make-versus-buy criteria alignment",
+          "Strategic Sourcing Lead",
+          "2026-05-15",
+          "70%"
+        ],
+        [
+          "63",
+          "Develop total cost of ownership (TCO) model templates",
+          "Cost Engineering Manager",
+          "2026-05-18",
+          "60%"
+        ],
+        [
+          "64",
+          "Benchmark internal capabilities against external suppliers",
+          "Operations Excellence Manager",
+          "2026-05-22",
+          "55%"
+        ],
+        [
+          "65",
+          "Identify risk factors for outsourcing critical components",
+          "Risk Manager",
+          "2026-05-25",
+          "50%"
+        ],
+        [
+          "66",
+          "Perform sensitivity analysis on demand forecasts",
+          "Financial Planning Analyst",
+          "2026-05-28",
+          "40%"
+        ],
+        [
+          "67",
+          "Draft supplier segmentation framework",
+          "Category Manager",
+          "2026-06-01",
+          "65%"
+        ],
+        [
+          "68",
+          "Review regulatory and compliance implications of sourcing options",
+          "Compliance Officer",
+          "2026-06-04",
+          "45%"
+        ],
+        [
+          "69",
+          "Assess capacity constraints for in-house production",
+          "Manufacturing Director",
+          "2026-06-08",
+          "35%"
+        ],
+        [
+          "70",
+          "Prepare executive summary of spend analysis findings",
+          "Procurement Director",
+          "2026-06-10",
+          "30%"
+        ],
+        [
+          "71",
+          "Develop transition plan for approved outsourcing initiatives",
+          "Program Manager",
+          "2026-06-15",
+          "20%"
+        ],
+        [
+          "72",
+          "Quantify projected cost savings and ROI scenarios",
+          "Finance Business Partner",
+          "2026-06-18",
+          "25%"
+        ],
+        [
+          "73",
+          "Obtain cross-functional approval on make-versus-buy recommendations",
+          "Chief Operations Officer",
+          "2026-06-22",
+          "10%"
+        ],
+        [
+          "74",
+          "Finalize sourcing strategy documentation for executive review",
+          "Strategic Sourcing Lead",
+          "2026-06-25",
+          "5%"
+        ],
+        [
+          "75",
+          "Prepare presentation deck for board-level review",
+          "Procurement Director",
+          "2026-06-30",
+          "0%"
+        ],
+        [
+          "76",
+          "Validate make-versus-buy financial models with Finance team",
+          "Finance Business Partner",
+          "2026-06-15",
+          "85%"
+        ],
+        [
+          "77",
+          "Consolidate stakeholder feedback on draft sourcing strategy",
+          "Strategic Sourcing Lead",
+          "2026-06-22",
+          "70%"
+        ],
+        [
+          "78",
+          "Finalize category spend baseline and forecasting assumptions",
+          "Procurement Analyst",
+          "2026-06-30",
+          "90%"
+        ],
+        [
+          "79",
+          "Executive review and approval of sourcing strategy document",
+          "Chief Procurement Officer",
+          "2026-07-08",
+          "40%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Milestone ID": 3040.0,
+        "max_Milestone ID": 79.0,
+        "min_Milestone ID": 16.0,
+        "sum_Percent Complete": 3777.0,
+        "max_Percent Complete": 100.0,
+        "min_Percent Complete": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Planned Completion Date for milestone MS-03?",
+          "answer": "2026-02-05",
+          "assertions": [
+            {
+              "text": "The response must state 2026-02-05."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", who is the Owner for milestone 30?",
+          "answer": "Chief Procurement Officer",
+          "assertions": [
+            {
+              "text": "The response must state Chief Procurement Officer."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Percent Complete for milestone 17?",
+          "answer": "90%",
+          "assertions": [
+            {
+              "text": "The response must state 90%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0005_335e76f1",
+      "table_number": 10,
+      "caption": "Table 10: Contracting approach and savings plan to achieve 8.5% ($4.4M) by 2026-12-31",
+      "columns": [
+        "Col1",
+        "Col3",
+        "Col5",
+        "Col6",
+        "Col4",
+        "Col2"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Category",
+          "Contract Term",
+          "Savings & Commitments",
+          "Status",
+          "Pricing Model",
+          "FY2026 Forecast Spend"
+        ],
+        [
+          "IT Infrastructure Managed Services",
+          "3 years (2026-04-01 to 2029-03-31)",
+          "Target contracted savings: 8.5% ($4.4M)",
+          "Final Negotiation",
+          "Blended rate card with indexed adjustments",
+          "$51,800,000"
+        ],
+        [
+          "Commercial Structure",
+          "Evergreen with 12-month notice",
+          "Commitment model: Tiered volume commitments with ramp clauses",
+          "Approved by Steering Committee",
+          "Fixed + variable consumption-based",
+          "$17,300,000 annually"
+        ],
+        [
+          "Performance & SLAs",
+          "Aligned to MSA term",
+          "SLA credits: Up to 10% monthly fee at risk",
+          "Embedded in MSA",
+          "Service credit regime",
+          "A"
+        ],
+        [
+          "Effective Date & Transition",
+          "Effective date: 2026-04-01",
+          "90-day transition with dual-run",
+          "Planned",
+          "Milestone-based payments",
+          "$2,100,000 transition budget"
+        ],
+        [
+          "Volume Baseline",
+          "Reviewed semi-annually",
+          "Minimum 80% baseline commitment",
+          "Locked",
+          "Volume tier discounts at 5% increments",
+          "1,250 FTE equivalents"
+        ],
+        [
+          "Benchmarking Clause",
+          "Term-aligned",
+          "Right to reprice if variance >7%",
+          "Included",
+          "Third-party benchmark option",
+          "Every 18 months"
+        ],
+        [
+          "Innovation Fund",
+          "Annual true-up",
+          "Joint governance board approval",
+          "Agreed",
+          "Co-investment model",
+          "1% of annual spend"
+        ],
+        [
+          "Exit & Termination",
+          "Post year 2",
+          "Knowledge transfer included",
+          "Drafted",
+          "Step-down fees",
+          "180-day termination for convenience"
+        ],
+        [
+          "Savings Realization Plan",
+          "Quarterly tracking",
+          "Savings tied to FY2026 forecast spend baseline",
+          "PMO Tracking",
+          "Cost take-out + demand management",
+          "$4,400,000 cumulative by FY2026 end"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col2": 51800000.0,
+        "max_Col2": 51800000.0,
+        "min_Col2": 51800000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Contracting approach and savings plan to achieve 8.5% ($4.4M) by 2026-12-31\", what is the FY2026 Forecast Spend for IT Infrastructure Managed Services?",
+          "answer": "$51,800,000",
+          "assertions": [
+            {
+              "text": "The response must state $51,800,000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Contracting approach and savings plan to achieve 8.5% ($4.4M) by 2026-12-31\", what is the Pricing Model listed for Commercial Structure?",
+          "answer": "Fixed + variable consumption-based",
+          "assertions": [
+            {
+              "text": "The response must state Fixed + variable consumption-based."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Contracting approach and savings plan to achieve 8.5% ($4.4M) by 2026-12-31\", what is the Contract Term for IT Infrastructure Managed Services?",
+          "answer": "3 years (2026-04-01 to 2029-03-31)",
+          "assertions": [
+            {
+              "text": "The response must state 3 years (2026-04-01 to 2029-03-31)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "text",
+      "variant_id": "text_0001_1f9aa84b",
+      "heading": "Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach",
+      "word_count": 170,
+      "text_content": [
+        "**Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach**",
+        "The make‑versus‑buy recommendation will be finalized on 2026-02-15 following a TCO, risk, and capability assessment across on‑premise and cloud alternatives. The analysis prioritizes scalability, operational maturity, and compliance posture; vendor-managed cloud services are recommended for core compute and networking where unit economics and time-to-market improvements exceed in-house investment thresholds. Governance includes CFO and CIO sign-off and a transition plan with 90-day implementation sprints.",
+        "service levels (15%). Evaluation included reference checks, financial stability reviews, and proof-of-concept outcomes to validate integration and performance expectations. Contract awards will be staged by region and workload.",
+        "Contracts will emphasize measurable SLAs, commercial incentives, service credits, and exit rights, with quarterly KPIs and a central vendor governance board. Target contracted savings is 8.5% ($4.4M) by 2026-12-31. Payment terms, audit rights, and renewal options will be standardized to mitigate risk and enable reporting against savings milestones effectively periodically."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach\" section, on what date will the make‑versus‑buy recommendation be finalized?",
+          "answer": "2026-02-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-02-15."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach\" section, what percentage weight is assigned to cost in the RFP evaluation criteria?",
+          "answer": "35%",
+          "assertions": [
+            {
+              "text": "The response must state 35%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach\" section, what is the target contracted savings by 2026-12-31?",
+          "answer": "8.5% ($4.4M)",
+          "assertions": [
+            {
+              "text": "The response must state 8.5% ($4.4M)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "table_0003_6d8b6126",
+      "table_number": 11,
+      "caption": "Table 11: Make-versus-buy decision matrix for core infrastructure services (decision date: 2026-02-15)",
+      "columns": [
+        "Capability",
+        "Annual Spend (USD M)",
+        "Strategic Criticality",
+        "Risk Level",
+        "Cost Efficiency Potential (%)",
+        "Buy)",
+        "Primary Rationale",
+        "Review Date"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Public cloud operations",
+          "18.5",
+          "High",
+          "Medium",
+          "22",
+          "Buy",
+          "7 global support, avoid internal FTE expansion",
+          "2026-12-31"
+        ],
+        [
+          "Colocation facility management",
+          "6.2",
+          "Medium",
+          "Low",
+          "18",
+          "Buy",
+          "Specialized facility expertise and SLA-backed uptime more cost-effective than internal build",
+          "2026-09-30"
+        ],
+        [
+          "Network monitoring (NOC L1)",
+          "4.8",
+          "Medium",
+          "Low",
+          "25",
+          "Buy",
+          "7 coverage",
+          "2026-10-31"
+        ],
+        [
+          "Cloud governance & FinOps",
+          "3.1",
+          "High",
+          "High",
+          "15",
+          "Make",
+          "Retain financial control, policy enforcement, and optimization strategy as core capability",
+          "2026-11-30"
+        ],
+        [
+          "Application platform engineering",
+          "9.7",
+          "High",
+          "Medium",
+          "12",
+          "Make",
+          "Differentiated IP and direct impact on product delivery velocity",
+          "2027-03-31"
+        ],
+        [
+          "Disaster recovery orchestration",
+          "2.9",
+          "High",
+          "Medium",
+          "20",
+          "Buy",
+          "Third-party DR specialists provide tested playbooks and certified recovery SLAs",
+          "2026-08-31"
+        ],
+        [
+          "Cybersecurity threat intelligence",
+          "5.4",
+          "High",
+          "High",
+          "17",
+          "Buy",
+          "7 SOC capabilities reduces residual risk",
+          "2026-12-15"
+        ],
+        [
+          "L2)",
+          "7.3",
+          "Medium",
+          "Low",
+          "28",
+          "Buy",
+          "Commodity process with strong vendor benchmarks and multilingual coverage",
+          "2026-07-31"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Annual Spend (USD M)": 57.9,
+        "max_Annual Spend (USD M)": 18.5,
+        "min_Annual Spend (USD M)": 2.9,
+        "sum_Cost Efficiency Potential (%)": 157.0,
+        "max_Cost Efficiency Potential (%)": 28.0,
+        "min_Cost Efficiency Potential (%)": 12.0
+      },
+      "qa_candidates": [
+        {
+          "question": "Buy) for Cloud governance & FinOps?",
+          "answer": "Make",
+          "assertions": [
+            {
+              "text": "The response must state Make."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Make-versus-buy decision matrix for core infrastructure services (decision date: 2026-02-15)\", what is the Annual Spend (USD M) for Public cloud operations?",
+          "answer": "18.5",
+          "assertions": [
+            {
+              "text": "The response must state 18.5."
+            }
+          ]
+        },
+        {
+          "question": "L2)?",
+          "answer": "2026-07-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-31."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "text",
+      "variant_id": "text_0000_44f6de76",
+      "heading": "FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure",
+      "word_count": 317,
+      "text_content": [
+        "**FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure**",
+        "FY2025 established the baseline for Data Center & Cloud Infrastructure spend at $48.6M, reflecting contract cycles and migration activities completed during the 2024–2025 fiscal period. The top three subcategories in FY2025 were Public Cloud ($18.2M), Data Center Colocation ($12.4M), and Network Connectivity ($7.9M), together accounting for 78% of total category spend. Other material line items included hardware refresh, managed services, and professional services. Monthly and quarterly invoicing patterns show peak consumption in Q3 and Q4 driven by year-end project acceleration. This baseline underpins the FY2026 planning process and provides a factual foundation for capacity, budget cadence, and supplier engagement timelines. It will inform prioritization and contingency.",
+        "The FY2026 forecasted category spend is $52.0M, representing a 7.0% increase versus FY2025 and reflecting a planned 15% compute growth predominantly executed within public cloud environments (AWS, Azure, and Google Cloud Platform). Forecast drivers include higher on‑demand and reserved-instance consumption, increased egress and data transfer charges, and additional colocation rack space to support hybrid architectures. Modeling assumptions for the FY2026 plan include: 1. Compute growth realized as a mix of 70% public cloud and 30% colocation; 2. a 6% average pricing inflation across network services; and 3. a 12‑month contract renewal cycle for major suppliers. These assumptions are subject to quarterly review and reforecasting and governance.",
+        "Operationalizing the FY2026 forecast requires subcategory phasing, KPIs, and contingency triggers to translate the planned 15% compute growth into capacity and budget actions. Recommended phasing is weighted to project timelines: Q1 20%, Q2 25%, Q3 30%, and Q4 25% of incremental spend, aligning with procurement and implementation milestones. Key metrics to track monthly include: - cost per vCPU-hour or equivalent; - network egress ($ per TB); - colocation rack utilization (%). Set control thresholds with automatic review when monthly variance exceeds 5% or when cumulative spend versus forecast deviates by $0.5M. Maintain a 3% contingency reserve and quarterly reforecast cadence. Monthly reports delivered to finance, IT, procurement."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure\" section, what was the FY2025 baseline spend for Data Center & Cloud Infrastructure?",
+          "answer": "$48.6M",
+          "assertions": [
+            {
+              "text": "The response must state $48.6M."
+            }
+          ]
+        },
+        {
+          "question": "In the \"FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure\" section, what percentage of compute growth is planned to be realized in public cloud environments under the FY2026 modeling assumptions?",
+          "answer": "70%",
+          "assertions": [
+            {
+              "text": "The response must state 70%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure\" section, what control threshold triggers an automatic review based on cumulative spend versus forecast deviation?",
+          "answer": "$0.5M",
+          "assertions": [
+            {
+              "text": "The response must state $0.5M."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "cx_table_0002_0c8ddf38": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "table_0002_bb0988d9": {
+      "kind": "table",
+      "perturbations": [
+        "formatting",
+        "semantic"
+      ],
+      "base_type": "Connects_demand_drivers_(e.g.,_compute_growth)_to_the_FY2026",
+      "row_count": 8,
+      "col_count": 4,
+      "columns": [
+        " Metric",
+        "Value",
+        " Timing",
+        "Impact on FY2026 Forecast ($M)"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "table_0001_cf1cbaf1": {
+      "kind": "table",
+      "perturbations": [
+        "formatting",
+        "semantic"
+      ],
+      "base_type": "Shows_supplier_dependency_and_negotiation_leverage_by_quanti",
+      "row_count": 11,
+      "col_count": 7,
+      "columns": [
+        "Supplier",
+        "Contract Term End",
+        "Primary Service Provided",
+        "Annual Spend (USD)",
+        "% of Category Spend",
+        "Dependency Level",
+        "Negotiation Leverage"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "llm_mp_table_0000_f298a79a": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "purchase_order_register",
+      "row_count": 65,
+      "col_count": 5,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "topic_id": ""
+    },
+    "table_0004_6ad32179": {
+      "kind": "table",
+      "perturbations": [
+        "formatting",
+        "structural"
+      ],
+      "base_type": "Provides_a_transparent,_auditable_basis_for_selecting_prefer",
+      "row_count": 7,
+      "col_count": 6,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5",
+        "Col6"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "cx_table_0001_0e3583fb": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "table_0000_17b13b38": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Establishes_the_baseline_spend_concentration_to_prioritize_s",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Spend Category",
+        "Annual Spend (USD)",
+        "% of Total Category Spend",
+        "Top Supplier Share (%)",
+        "Spend Concentration Level"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "cx_table_0000_5bcf137a": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 19,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "llm_mp_table_0001_16575e64": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "project_milestone_tracker",
+      "row_count": 79,
+      "col_count": 5,
+      "columns": [
+        "Milestone ID",
+        "Milestone Description",
+        "Owner",
+        "Planned Completion Date",
+        "Percent Complete"
+      ],
+      "topic_id": ""
+    },
+    "table_0005_335e76f1": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Defines_contract_structure,_key_commercial_terms,_and_a_time",
+      "row_count": 10,
+      "col_count": 6,
+      "columns": [
+        "Col1",
+        "Col3",
+        "Col5",
+        "Col6",
+        "Col4",
+        "Col2"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "text_0001_1f9aa84b": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach",
+      "word_count": 170,
+      "text_type": "llm_prose",
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "table_0003_6d8b6126": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Documents_the_rationale_for_which_capabilities_to_retain_in-",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Capability",
+        "Annual Spend (USD M)",
+        "Strategic Criticality",
+        "Risk Level",
+        "Cost Efficiency Potential (%)",
+        "Buy)",
+        "Primary Rationale",
+        "Review Date"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "text_0000_44f6de76": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations"
+      ],
+      "heading": "FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure",
+      "word_count": 317,
+      "text_type": "llm_prose",
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "scan_llm_0001_37064558": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_93f2a478.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": " Cost Drivers table?",
+      "answer": "Cost and Demand.",
+      "assertions": [
+        {
+          "text": "The response must state 'Cost and Demand.'."
+        }
+      ]
+    },
+    {
+      "question": "L3 support)\" label span in the AMS row’s inner Make-vs-Buy & Preferred Suppliers table?",
+      "answer": "It spans 2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'It spans 2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what does footnote 1 explain?",
+      "answer": "service credits and performance triggers require Legal review to align remedies with enterprise liability caps and insurance provisions.",
+      "assertions": [
+        {
+          "text": "service credits and performance triggers require Legal review to align remedies with enterprise liability caps and insurance provisions.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the FY2025 Forecast spend for Paid Social in the Performance Media Buying inner channel table?",
+      "answer": "$3.0M.",
+      "assertions": [
+        {
+          "text": "The response must state '$3.0M.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the listed commercial model for \"Freight audit & pay\" in the Domestic Transportation inner strategy table?",
+      "answer": "Transaction-based fee with recovery sharing.",
+      "assertions": [
+        {
+          "text": "The response must state 'Transaction-based fee with recovery sharing.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is listed under the \"Spend & Demand Overview\" column?",
+      "answer": "Cost and Demand",
+      "assertions": [
+        {
+          "text": "The response must state 'Cost and Demand'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", how many rows does the \"Category\" label span?",
+      "answer": "2 rows",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows'."
+        }
+      ]
+    },
+    {
+      "question": "service credits and performance triggers?",
+      "answer": "They require Legal review to align remedies with liability caps and insurance",
+      "assertions": [
+        {
+          "text": "The response must state 'They require Legal review to align remedies with liability caps and insurance'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", which header spans more rows: \"Category\" or \"Spend & Demand Overview\"?",
+      "answer": "Category",
+      "assertions": [
+        {
+          "text": "The response must state 'Category'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the subtotal for the major category group in the \"Spend & Demand Overview\" column?",
+      "answer": "Cost and Demand",
+      "assertions": [
+        {
+          "text": "The response must state 'Cost and Demand'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 demand forecast drivers and spend bridge from FY2025 to FY2026\", what is the Impact on FY2026 Forecast ($M) for Demand Growth?",
+      "answer": "+7.3",
+      "assertions": [
+        {
+          "text": "The response must state +7.3."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 demand forecast drivers and spend bridge from FY2025 to FY2026\", what is the Value listed for Contracting Levers?",
+      "answer": "Multi-year commitment discounts",
+      "assertions": [
+        {
+          "text": "The response must state Multi-year commitment discounts."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 demand forecast drivers and spend bridge from FY2025 to FY2026\", what is the Value for Total Forecast?",
+      "answer": "FY2026 forecast spend: $52.0M",
+      "assertions": [
+        {
+          "text": "The response must state FY2026 forecast spend: $52.0M."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top suppliers and FY2025 spend concentration (Top 10) for the category\", what is the Annual Spend (USD) for AWS?",
+      "answer": "$14.9M",
+      "assertions": [
+        {
+          "text": "The response must state $14.9M."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top suppliers and FY2025 spend concentration (Top 10) for the category\", what is the Contract Term End for Dell Technologies?",
+      "answer": "2025-11-30",
+      "assertions": [
+        {
+          "text": "The response must state 2025-11-30."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top suppliers and FY2025 spend concentration (Top 10) for the category\", what is the Primary Service Provided by ServiceNow?",
+      "answer": "IT Service Management SaaS",
+      "assertions": [
+        {
+          "text": "The response must state IT Service Management SaaS."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the status shown for PO-2026-003?",
+      "answer": "Issued",
+      "assertions": [
+        {
+          "text": "The response must state Issued."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what amount is listed for PO-024?",
+      "answer": "$67,980",
+      "assertions": [
+        {
+          "text": "The response must state $67,980."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Purchase Order Register\", what is the vendor name associated with PO-2026-002?",
+      "answer": "Global Tech Services",
+      "assertions": [
+        {
+          "text": "The response must state Global Tech Services."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Preferred supplier selection criteria and weighted scoring results\", what value is shown in Col4 for the row \"Service reliability (20%)\"?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "5."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Preferred supplier selection criteria and weighted scoring results\", what is the value in Col5 for \"Innovation capability (10%)\"?",
+      "answer": "0.50",
+      "assertions": [
+        {
+          "text": "0.50."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Preferred supplier selection criteria and weighted scoring results\", which supplier is listed in Col6 for \"Geographic coverage (5%)\"?",
+      "answer": "Equinix",
+      "assertions": [
+        {
+          "text": "The response must state Equinix."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what sub-columns fall under \"FY2025 (USD m)\" in the nested spend table for the \"IT Infrastructure — Public Cloud Services\" row?",
+      "answer": "Actual and Forecast.",
+      "assertions": [
+        {
+          "text": "The response must state 'Actual and Forecast.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", how many rows does the \"Tier 1\" label span in the nested rate card controls table for the \"Professional Services — Contingent Labor (IT & Business Analysts)\" row?",
+      "answer": "Two rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'Two rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what does footnote 2 explain?",
+      "answer": "It states that the MRO strategy assumes CMMS-driven catalog compliance and a standardized critical spares list, with exceptions requiring facilities director approval.",
+      "assertions": [
+        {
+          "text": "The response must state 'It states that the MRO strategy assumes CMMS-driven catalog compliance and a standardized critical spares list, with exceptions requiring facilities director approval.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the FY2025 forecast spend for \"Compute\" in the nested spend table for the \"IT Infrastructure — Public Cloud Services\" row?",
+      "answer": "USD 20.1 million.",
+      "assertions": [
+        {
+          "text": "The response must state 'USD 20.1 million.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the markup cap shown for \"Tier 1\" in the nested rate card controls table for the \"Professional Services — Contingent Labor (IT & Business Analysts)\" row?",
+      "answer": "18%.",
+      "assertions": [
+        {
+          "text": "The response must state '18%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what label is used for the Category Spend & Drivers timeframe?",
+      "answer": "Actual and Forecast.",
+      "assertions": [
+        {
+          "text": "The response must state 'Actual and Forecast.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", how many header tiers (rows) are present?",
+      "answer": "Two rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'Two rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", which count is larger: header tiers or data rows?",
+      "answer": "Data rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what does the MRO strategy note explain?",
+      "answer": "CMMS-driven catalog compliance and standardized critical spares, exceptions need facilities director approval.",
+      "assertions": [
+        {
+          "text": "The response must state 'CMMS-driven catalog compliance and standardized critical spares, exceptions need facilities director approval.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Procurement Sourcing Strategy — Major Category Spend Analysis, Make-vs-Buy, Supplier Selection, and Contracting Approach\", what is the subtotal for the group 'Data rows' in the table?",
+      "answer": "5.",
+      "assertions": [
+        {
+          "text": "The response must state '5.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 spend by subcategory for Data Center & Cloud Infrastructure (Acme Manufacturing)\", what is the Annual Spend (USD) for Public Cloud?",
+      "answer": "$18.2M",
+      "assertions": [
+        {
+          "text": "The response must state $18.2M."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 spend by subcategory for Data Center & Cloud Infrastructure (Acme Manufacturing)\", what is the Spend Concentration Level for Security Services?",
+      "answer": "Low",
+      "assertions": [
+        {
+          "text": "The response must state Low."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 spend by subcategory for Data Center & Cloud Infrastructure (Acme Manufacturing)\", what is the Top Supplier Share (%) for Data Center Colocation?",
+      "answer": "65%",
+      "assertions": [
+        {
+          "text": "The response must state 65%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", which objective categories are the column groups?",
+      "answer": "Supply Assurance & Risk; Service & Performance; Commercial & Value.",
+      "assertions": [
+        {
+          "text": "The response must state 'Supply Assurance & Risk; Service & Performance; Commercial & Value.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", how many initiatives fall under the \"Contracting & Governance\" initiative category?",
+      "answer": "4 initiatives.",
+      "assertions": [
+        {
+          "text": "The response must state '4 initiatives.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", what is the alignment rating of \"Run competitive RFP and down-select to 2 strategic MSPs plus 1 specialist niche provider\" for the \"Supplier Concentration\" objective?",
+      "answer": "H.",
+      "assertions": [
+        {
+          "text": "The response must state 'H.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", what is the total score for the \"Move to outcome-based SLAs with service credits and earn-back incentives\" initiative?",
+      "answer": "44.",
+      "assertions": [
+        {
+          "text": "The response must state '44.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", which objective category has the highest weighted total score?",
+      "answer": "Service & Performance (total 141 across its three objectives).",
+      "assertions": [
+        {
+          "text": "The response must state 'Service & Performance (total 141 across its three objectives).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", which objective columns are shown in the header?",
+      "answer": "Supply Assurance & Risk; Service & Performance; Commercial & Value.",
+      "assertions": [
+        {
+          "text": "The response must state 'Supply Assurance & Risk; Service & Performance; Commercial & Value.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", how many header-tier rows are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", which is greater: the number of data rows or the number of initiatives?",
+      "answer": "Data rows (19)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (19)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", what footnote or annotation label is used in the table?",
+      "answer": "H",
+      "assertions": [
+        {
+          "text": "The response must state 'H'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Strategic Initiative-to-Objective Alignment Grid — Procurement Sourcing Strategy (IT Managed Services)\", what is the subtotal count for the group of data rows?",
+      "answer": "19",
+      "assertions": [
+        {
+          "text": "The response must state '19'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Planned Completion Date for milestone MS-03?",
+      "answer": "2026-02-05",
+      "assertions": [
+        {
+          "text": "The response must state 2026-02-05."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", who is the Owner for milestone 30?",
+      "answer": "Chief Procurement Officer",
+      "assertions": [
+        {
+          "text": "The response must state Chief Procurement Officer."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Percent Complete for milestone 17?",
+      "answer": "90%",
+      "assertions": [
+        {
+          "text": "The response must state 90%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Contracting approach and savings plan to achieve 8.5% ($4.4M) by 2026-12-31\", what is the FY2026 Forecast Spend for IT Infrastructure Managed Services?",
+      "answer": "$51,800,000",
+      "assertions": [
+        {
+          "text": "The response must state $51,800,000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Contracting approach and savings plan to achieve 8.5% ($4.4M) by 2026-12-31\", what is the Pricing Model listed for Commercial Structure?",
+      "answer": "Fixed + variable consumption-based",
+      "assertions": [
+        {
+          "text": "The response must state Fixed + variable consumption-based."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Contracting approach and savings plan to achieve 8.5% ($4.4M) by 2026-12-31\", what is the Contract Term for IT Infrastructure Managed Services?",
+      "answer": "3 years (2026-04-01 to 2029-03-31)",
+      "assertions": [
+        {
+          "text": "The response must state 3 years (2026-04-01 to 2029-03-31)."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach\" section, on what date will the make‑versus‑buy recommendation be finalized?",
+      "answer": "2026-02-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-02-15."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach\" section, what percentage weight is assigned to cost in the RFP evaluation criteria?",
+      "answer": "35%",
+      "assertions": [
+        {
+          "text": "The response must state 35%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Sourcing Strategy: Make-versus-Buy, Preferred Supplier Selection, and Contracting Approach\" section, what is the target contracted savings by 2026-12-31?",
+      "answer": "8.5% ($4.4M)",
+      "assertions": [
+        {
+          "text": "The response must state 8.5% ($4.4M)."
+        }
+      ]
+    },
+    {
+      "question": "Buy) for Cloud governance & FinOps?",
+      "answer": "Make",
+      "assertions": [
+        {
+          "text": "The response must state Make."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Make-versus-buy decision matrix for core infrastructure services (decision date: 2026-02-15)\", what is the Annual Spend (USD M) for Public cloud operations?",
+      "answer": "18.5",
+      "assertions": [
+        {
+          "text": "The response must state 18.5."
+        }
+      ]
+    },
+    {
+      "question": "L2)?",
+      "answer": "2026-07-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-31."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure\" section, what was the FY2025 baseline spend for Data Center & Cloud Infrastructure?",
+      "answer": "$48.6M",
+      "assertions": [
+        {
+          "text": "The response must state $48.6M."
+        }
+      ]
+    },
+    {
+      "question": "In the \"FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure\" section, what percentage of compute growth is planned to be realized in public cloud environments under the FY2026 modeling assumptions?",
+      "answer": "70%",
+      "assertions": [
+        {
+          "text": "The response must state 70%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"FY2026 Category Spend Baseline and Demand Forecast for Data Center & Cloud Infrastructure\" section, what control threshold triggers an automatic review based on cumulative spend versus forecast deviation?",
+      "answer": "$0.5M",
+      "assertions": [
+        {
+          "text": "The response must state $0.5M."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4400 @@
+{
+  "doc_id": "doc_0000_s1187868978",
+  "title": "Strategic Sourcing and Contracting Framework for Major Spend Category: Category Spend Analysis, Make‑vs‑Buy Decisions, Supplier Selection Criteria and Contracting Approach",
+  "subtitle": "Strategic Sourcing — Category Spend Analysis, Make‑vs‑Buy, Supplier Selection & Contracting | Procurement Strategy Office",
+  "topic_id": "procurement_sourcing_strategy",
+  "recipe_name": "compliance_report",
+  "seed": 1187868978,
+  "document_brief": {
+    "narrative_theme": "This sourcing strategy aligns the enterprise’s IT managed services spend to a consolidated supplier model, balancing make-versus-buy tradeoffs, objective supplier selection, and a contracting approach that delivers measurable cost and SLA improvements by 2026.",
+    "sections": [
+      {
+        "heading": "Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)",
+        "key_facts": [
+          "Total IT managed services spend was USD 48.6M in FY2024.",
+          "Top three subcategories in FY2024 were Service Desk (USD 14.2M), Network Operations Center (USD 11.8M), and Endpoint Management (USD 9.6M).",
+          "Supplier fragmentation in FY2024 included 17 active suppliers and 112 separate Statements of Work (SOWs)."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)",
+        "key_facts": [
+          "The recommended operating model targets a USD 6.3M annual run-rate savings by Q4 2026.",
+          "The preferred supplier panel will be reduced to 3 suppliers by 30-Sep-2025.",
+          "The contracting approach will implement a 36-month Master Services Agreement (MSA) with two 12-month renewal options."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "FY2024 IT managed services spend by subcategory (USD, millions)",
+        "purpose": "Quantifies the spend baseline and highlights the highest-impact subcategories to prioritize in sourcing and demand management.",
+        "key_data": {
+          "Service Desk": "USD 14.2M",
+          "Network Operations Center (NOC)": "USD 11.8M",
+          "Endpoint Management": "USD 9.6M",
+          "Cloud Operations": "USD 6.4M",
+          "Security Operations (SOC)": "USD 4.1M"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "FY2024 supplier concentration and fragmentation metrics for IT managed services",
+        "purpose": "SOWs, supporting the consolidation narrative.",
+        "key_data": {
+          "Active suppliers (count)": "17",
+          "Separate SOWs (count)": "112",
+          "Top supplier share of spend": "18%",
+          "Top 5 suppliers share of spend": "62%",
+          "Tail suppliers (<USD 0.5M each) count": "9"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Demand and performance baseline KPIs (FY2024 actuals) for IT managed services",
+        "purpose": "Establishes measurable service and demand drivers that will be used to set SLA targets and evaluate supplier performance improvements.",
+        "key_data": {
+          "Monthly tickets (Service Desk)": "120,000",
+          "First Contact Resolution (FCR)": "68%",
+          "Average Speed to Answer (ASA)": "75 seconds",
+          "P1 incident MTTR": "4.6 hours",
+          "Endpoint patch compliance (30-day)": "84%"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Make-versus-buy decision matrix for core IT managed services towers (2025 recommendation)",
+        "purpose": "Documents which capabilities should be retained in-house versus sourced, with quantified drivers tied to cost, risk, and service outcomes.",
+        "key_data": {
+          "Service Desk": "Buy (outsourced)",
+          "NOC": "L2)",
+          "Endpoint Management": "Buy (outsourced)",
+          "Cloud Operations": "Hybrid (retain FinOps & architecture; outsource run)",
+          "SOC": "Make (retain) with selective co-managed tooling"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Preferred supplier selection scorecard criteria and weights for IT managed services RFP",
+        "purpose": "Defines objective, weighted criteria to select a 3-supplier panel aligned to cost, SLA outcomes, security, and transition readiness.",
+        "key_data": {
+          "Commercial competitiveness (weight)": "30%",
+          "Service delivery & SLA track record (weight)": "25%",
+          "Security & compliance (ISO 27001, SOC 2) (weight)": "20%",
+          "Transition capability (90-day mobilization) (weight)": "15%",
+          "Innovation & automation roadmap (weight)": "10%"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Contracting approach summary for consolidated IT managed services (MSA + tower SOWs)",
+        "purpose": "Specifies the contracting structure, term, pricing model, and governance mechanisms that enable consolidation and deliver the targeted savings by 2026.",
+        "key_data": {
+          "MSA term": "36 months",
+          "Renewal options": "2 x 12 months",
+          "Pricing model": "Unit-rate with volume bands; outcome-based credits",
+          "SLA regime": "Monthly scorecard with service credits up to 8% of fees",
+          "Target run-rate savings timing": "USD 6.3M by Q4 2026"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1187868978.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_text_ba19a20f.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 36,
+    "actual_page_count": 36
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "table_0001_93ddbfff",
+      "table_number": 1,
+      "caption": "Table 1: FY2024 supplier concentration and fragmentation metrics for IT managed services",
+      "columns": [
+        "Metric",
+        "Value",
+        "Insight"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Total annual category spend (FY2025)",
+          "USD 48.6M",
+          "Aggregated across all business units and ergions"
+        ],
+        [
+          "Active suppliers (count)",
+          "17",
+          "High supplier fragmentation relative to spend size"
+        ],
+        [
+          "Separate SOWs (count)",
+          "112",
+          "Significant administrative and contract management burden"
+        ],
+        [
+          "Top supplier share of spend",
+          "18%",
+          "No snigle strategic partner; limited leverage concentration"
+        ],
+        [
+          "Top 5 suppliers share of spend",
+          "62%",
+          "Spend moderately concentrated but still distributed across multiple vendors"
+        ],
+        [
+          "Tail suppliers (<USD 0.5M each) count",
+          "9",
+          "Long tail driving disproportionate sourcing and governance effort"
+        ],
+        [
+          "Average spend per supplier",
+          "USD 2.86M",
+          "Skewed distribution; median significantly lower due to tail"
+        ],
+        [
+          "Contracts expiring within 12 months",
+          "7 (41%)",
+          "Opportunity window for consolidation and renegotiation"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Value": 218.0,
+        "max_Value": 112.0,
+        "min_Value": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Value for \"Total annual category spend (FY2025)\"?",
+          "answer": "USD 48.6M",
+          "assertions": [
+            {
+              "text": "The response must state USD 48.6M."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Insight for \"Top supplier share of spend\"?",
+          "answer": "No snigle strategic partner; limited leverage concentration",
+          "assertions": [
+            {
+              "text": "The response must state No snigle strategic partner; limited leverage concentration."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Value for \"Contracts expiring within 12 months\"?",
+          "answer": "7 (41%)",
+          "assertions": [
+            {
+              "text": "The response must state 7 (41%)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "cx_table_0003_ca954eaa",
+      "table_number": 2,
+      "caption": "Table 2: Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", which groups fall under the \"Spend & Demand Baseline\" super-group?",
+          "answer": "Category Spend; Make vs Buy.",
+          "assertions": [
+            {
+              "text": "The response must state 'Category Spend; Make vs Buy.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", how many leaf metric columns does the \"Sourcing & Contracting Outcomes\" super-group contain?",
+          "answer": "4 leaf metric columns.",
+          "assertions": [
+            {
+              "text": "The response must state '4 leaf metric columns.'."
+            }
+          ]
+        },
+        {
+          "question": " Preferred Supplier Fit?",
+          "answer": "100.",
+          "assertions": [
+            {
+              "text": "100.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", what is the grand total \"Value\" for the \"Spend & Demand Baseline\" super-group (Category Spend)?",
+          "answer": "$105.4M.",
+          "assertions": [
+            {
+              "text": "The response must state '$105.4M.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", which group shows the highest \"Chg %\" change for \"TOTAL\"?",
+          "answer": "Contracting Approach (+6.7%).",
+          "assertions": [
+            {
+              "text": "The response must state 'Contracting Approach (+6.7%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", how many data rows are in the table?",
+          "answer": "11",
+          "assertions": [
+            {
+              "text": "The response must state '11'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", which columns fall under the 'Spend & Demand Baseline' header?",
+          "answer": "Category Spend; Make vs Buy",
+          "assertions": [
+            {
+              "text": "The response must state 'Category Spend; Make vs Buy'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", which is larger: the number of data rows or the number of header tiers?",
+          "answer": "Data rows: 11; header tiers: 3",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows: 11; header tiers: 3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", what does the table's annotation explain?",
+          "answer": "Extraction of merged cell values",
+          "assertions": [
+            {
+              "text": "The response must state 'Extraction of merged cell values'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", what is the subtotal for the leaf metric columns?",
+          "answer": "4 leaf metric columns",
+          "assertions": [
+            {
+              "text": "The response must state '4 leaf metric columns'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "form",
+      "variant_id": "form_0000_c2f6e3b6",
+      "title": "Procurement Sourcing Strategy Document – Major Spend Category",
+      "caption": "Procurement Sourcing Strategy Document – Major Spend Category",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 8,
+      "sections": [
+        "Category Spend Analysis",
+        "Make-versus-Buy Assessment",
+        "Supplier Selection & Contracting Strategy"
+      ],
+      "required_fields": [
+        "Spend Category Name",
+        "Annual Spend (Current Fiscal Year)",
+        "Primary Business Units Impacted",
+        "Core Capability Alignment",
+        "Internal Production Cost Estimate (Annual)",
+        "External Supplier Cost Estimate (Annual)",
+        "Preferred Supplier Selection Criteria",
+        "Supplier Market Competitiveness"
+      ],
+      "description": "Complete all relevant fields to document the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.",
+      "qa_candidates": [
+        {
+          "question": "When viewing the 'Procurement Sourcing Strategy Document – Major Spend Category' as a PDF, what descriptive instructions are provided to guide completion of the form?",
+          "answer": "Complete all relevant fields to document the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete all relevant fields to document the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Procurement Sourcing Strategy Document – Major Spend Category', how many sections does the document contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Procurement Sourcing Strategy Document – Major Spend Category' PDF, what is the name of the first section listed?",
+          "answer": "Category Spend Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Category Spend Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Procurement Sourcing Strategy Document – Major Spend Category', how many fields are marked as required?",
+          "answer": "8",
+          "assertions": [
+            {
+              "text": "The response must state '8'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "fillable_form",
+      "variant_id": "fillable_0000_739bf5dd",
+      "title": "Strategic Sourcing & Procurement Strategy Form",
+      "caption": "Strategic Sourcing & Procurement Strategy Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Category Overview & Spend Analysis",
+        "Make-versus-Buy Assessment",
+        "Preferred Supplier Selection Criteria",
+        "Contracting & Governance Approach"
+      ],
+      "required_fields": [
+        "Spend Category Name",
+        "Business Unit",
+        "Total Annual Spend (USD)",
+        "Spend Analysis Period",
+        "Current Sourcing Model",
+        "Internal Capability Assessment Summary",
+        "Recommended Approach",
+        "Supplier Evaluation Methodology",
+        "Technical Capability Weighting (%)",
+        "Commercial Competitiveness Weighting (%)",
+        "Proposed Contract Type",
+        "Contract Term (Years)",
+        "Risk Allocation Summary"
+      ],
+      "description": "",
+      "form_number": "PROC-SS-2026-01",
+      "instructions": "Complete all required fields with detailed and accurate information. Submit the finalized form with supporting analysis documents to the Procurement Governance Committee for review and approval.",
+      "qa_candidates": [
+        {
+          "question": "On the 'Strategic Sourcing & Procurement Strategy Form', what form number is shown?",
+          "answer": "PROC-SS-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'PROC-SS-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Strategic Sourcing & Procurement Strategy Form', how many sections are included?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Strategic Sourcing & Procurement Strategy Form', what is the title of the first section?",
+          "answer": "Category Overview & Spend Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Category Overview & Spend Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "When filling out the 'Strategic Sourcing & Procurement Strategy Form', how many fields are marked required?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        },
+        {
+          "question": "How many dropdown fields does the 'Strategic Sourcing & Procurement Strategy Form' include?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "cx_table_0002_2408d357",
+      "table_number": 3,
+      "caption": "Buy, Supplier Selection, and Contracting Approach",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", what sub-columns fall under the grouped header \"FY2026 Plan\" in the inner spend breakdown table for the \"WAN & Internet Connectivity\" row?",
+          "answer": "Spend (USD M) and % of Category.",
+          "assertions": [
+            {
+              "text": "The response must state 'Spend (USD M) and % of Category.'."
+            }
+          ]
+        },
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", how many rows does the \"Carrier sourcing & contracting\" label span in the inner make-vs-buy & preferred suppliers table for the \"WAN & Internet Connectivity\" row?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", what does footnote 1 explain?",
+          "answer": "It explains that connectivity spend excludes one-time construction charges (NRCs) for new building turn-ups, which are budgeted in CapEx under Facilities.",
+          "assertions": [
+            {
+              "text": "The response must state 'It explains that connectivity spend excludes one-time construction charges (NRCs) for new building turn-ups, which are budgeted in CapEx under Facilities.'."
+            }
+          ]
+        },
+        {
+          "question": " Broadband\" in the inner subcategory mix table for the \"WAN & Internet Connectivity\" row?",
+          "answer": "21.7.",
+          "assertions": [
+            {
+              "text": "The response must state '21.7.'."
+            }
+          ]
+        },
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", what decision is shown on the first line where \"Carrier sourcing & contracting\" appears in the inner make-vs-buy & preferred suppliers table for the \"WAN & Internet Connectivity\" row?",
+          "answer": "Make.",
+          "assertions": [
+            {
+              "text": "The response must state 'Make.'."
+            }
+          ]
+        },
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", what does the 'Category Spend & Drivers' column display?",
+          "answer": "Spend (USD M) and % of Category.",
+          "assertions": [
+            {
+              "text": "The response must state 'Spend (USD M) and % of Category.'."
+            }
+          ]
+        },
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", how many header rows are present?",
+          "answer": "2 rows",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows'."
+            }
+          ]
+        },
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", which has the highest count: header rows or data rows?",
+          "answer": "Data rows (5)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (5)'."
+            }
+          ]
+        },
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", what does the footnote explain about connectivity spend?",
+          "answer": "Connectivity spend excludes one-time construction charges (NRCs); budgeted in CapEx.",
+          "assertions": [
+            {
+              "text": "The response must state 'Connectivity spend excludes one-time construction charges (NRCs); budgeted in CapEx.'."
+            }
+          ]
+        },
+        {
+          "question": "Buy, Supplier Selection, and Contracting Approach\", what is the subtotal count for the 'Header row 1 cells' group?",
+          "answer": "4 header cells",
+          "assertions": [
+            {
+              "text": "The response must state '4 header cells'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "checklist",
+      "variant_id": "checklist_0002_9539d924",
+      "title": "Enterprise Cloud Services Sourcing Strategy Checklist",
+      "caption": "Enterprise Cloud Services Sourcing Strategy Checklist",
+      "total_items": 10,
+      "checked_count": 6,
+      "unchecked_count": 4,
+      "completion_rate_pct": 60.0,
+      "checked_items": [
+        "SaaS), and contract to identify top 80% spend drivers",
+        "Quantify total cost of ownership (TCO) for cloud options including committed discounts, usage variability, data egress, support, and migration costs across make versus buy scenarios",
+        "Define preferred supplier selection criteria with weighted scoring for financial stability, technical fit (APIs and integrations), compliance certifications, SLAs, and roadmap alignment",
+        "breach clauses",
+        "Establish supplier performance scorecards and a quarterly governance cadence with KPIs on cost optimization, uptime, security incidents, and innovation delivery",
+        "Finalize preferred supplier shortlist, recommend award strategy (single vs multi-vendor), and obtain executive approval for contracting strategy and delegated authorities"
+      ],
+      "unchecked_items": [
+        "Map internal cloud consumption patterns and run a make-versus-buy workshop with IT, security, and finance to identify services to retain, migrate, or outsource",
+        "Segment cloud suppliers into strategic, preferred, and transactional tiers based on capability, concentration risk, multi-cloud compatibility, and exit risk",
+        "RFP plan targeting hyperscalers and specialized providers with timeline, evaluation templates, and supplier engagement rules",
+        "Create a negotiation and migration transition plan addressing volume commitments, migration windows, rollback capabilities, temporary hybrid arrangements, and TSAs"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Enterprise Cloud Services Sourcing Strategy Checklist' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "What completion rate is displayed on the 'Enterprise Cloud Services Sourcing Strategy Checklist'?",
+          "answer": "60.0%",
+          "assertions": [
+            {
+              "text": "The response must state '60.0%'."
+            }
+          ]
+        },
+        {
+          "question": "Name one item that is marked as checked on the 'Enterprise Cloud Services Sourcing Strategy Checklist'.",
+          "answer": "SaaS), and contract to identify top 80% spend drivers",
+          "assertions": [
+            {
+              "text": "SaaS), and contract to identify top 80% spend drivers'."
+            }
+          ]
+        },
+        {
+          "question": "Provide one item that remains unchecked on the 'Enterprise Cloud Services Sourcing Strategy Checklist'.",
+          "answer": "RFP plan targeting hyperscalers and specialized providers with timeline, evaluation templates, and supplier engagement rules",
+          "assertions": [
+            {
+              "text": "RFP plan targeting hyperscalers and specialized providers with timeline, evaluation templates, and supplier engagement rules'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0005_b84e02af",
+      "table_number": 4,
+      "caption": "Table 4: Contracting approach summary for consolidated IT managed services (MSA + tower SOWs)",
+      "columns": [
+        "Element",
+        "Description",
+        "Key Terms",
+        "Owner",
+        "Effective Date",
+        "Status"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Contracting Structure",
+          "Master Services Agreement (MSA) with category-specific Statements of Work (SOWs)",
+          "Single global MSA covering all regions; modular SOWs by sub-category",
+          "Chief Procurement Officer",
+          "01-Jan-2024",
+          "Approved"
+        ],
+        [
+          "MSA Term",
+          "Base agreement duration",
+          "MSA term: 36 months",
+          "Legal",
+          "01-Jan-2024",
+          "Executed"
+        ],
+        [
+          "Renewal Options",
+          "Extension provisions to maintain leverage and continuity",
+          "Renewal options: 2 x 12 months",
+          "Procurement",
+          "01-Jan-2027",
+          "Contracted"
+        ],
+        [
+          "Pricing Model",
+          "Commercial construct to drive scale efficiencies",
+          "Pricing model: Unit-rate with volume bands; outcome-based credits",
+          "Finance",
+          "01-Jan-2024",
+          "Active"
+        ],
+        [
+          "Volume Commitments",
+          "Aggregated demand commitment to secure discounts",
+          "Minimum annual volume commitment: 85% of forecasted demand",
+          "Category Director",
+          "01-Jan-2024",
+          "On Track"
+        ],
+        [
+          "Service Level Agreement (SLA) Regime",
+          "Performance management and penalty framework",
+          "SLA regime: Monthly scorecard with service credits up to 8% of fees",
+          "Supplier Relationship Manager",
+          "01-Jan-2024",
+          "Active"
+        ],
+        [
+          "Governance Structure",
+          "Joint governance and oversight cadence",
+          "Quarterly executive steering committee; monthly operational reviews",
+          "COO",
+          "01-Feb-2024",
+          "Operational"
+        ],
+        [
+          "Savings Targets",
+          "Financial impact and realization schedule",
+          "Target run-rate savings timing: USD 6.3M by Q4 2026",
+          "FP&A Lead",
+          "31-Dec-2026",
+          "On Track"
+        ],
+        [
+          "Benchmarking Clause",
+          "Market competitiveness safeguard",
+          "Biennial third-party rate benchmarking with right-to-adjust",
+          "Legal",
+          "01-Jan-2025",
+          "Planned"
+        ],
+        [
+          "Change Management",
+          "Scope and demand control mechanism",
+          "Formal change request process with pre-agreed rate card",
+          "PMO Lead",
+          "01-Jan-2024",
+          "Active"
+        ],
+        [
+          "Termination & Exit",
+          "Risk mitigation and transition provisions",
+          "Termination for convenience with 90-day notice; 6-month exit assistance at capped rates",
+          "Legal",
+          "01-Jan-2024",
+          "Approved"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Contracting approach summary for consolidated IT managed services (MSA + tower SOWs)\", what is the Effective Date for the Governance Structure element?",
+          "answer": "01-Feb-2024",
+          "assertions": [
+            {
+              "text": "The response must state 01-Feb-2024."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Contracting approach summary for consolidated IT managed services (MSA + tower SOWs)\", what is the Key Terms entry for Renewal Options?",
+          "answer": "Renewal options: 2 x 12 months",
+          "assertions": [
+            {
+              "text": "The response must state Renewal options: 2 x 12 months."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Contracting approach summary for consolidated IT managed services (MSA + tower SOWs)\", who is listed as the Owner for Benchmarking Clause?",
+          "answer": "Legal",
+          "assertions": [
+            {
+              "text": "The response must state Legal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "table_0004_f03ab6bd",
+      "table_number": 5,
+      "caption": "Table 5: Preferred supplier selection scorecard criteria and weights for IT managed services RFP",
+      "columns": [
+        "Evaluation area",
+        "Weight",
+        "5)",
+        "5)",
+        "5)",
+        "Weighted impact on panel selection"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Commercial competitiveness (weight): 30%",
+          "30%",
+          "4.5",
+          "4.2",
+          "3.8",
+          "Drives total cost of ownership, benchmarking vs market median, target 8–12% savings over baseline"
+        ],
+        [
+          "Service delivery & SLA track record (weight): 25%",
+          "25%",
+          "4.7",
+          "4.0",
+          "4.3",
+          "Measured against 3-year SLA history; minimum 98.5% SLA attainment required"
+        ],
+        [
+          "Security & compliance (ISO 27001, SOC 2) (weight): 20%",
+          "20%",
+          "5.0",
+          "4.5",
+          "4.2",
+          "Mandatory ISO 27001 certification; SOC 2 Type II within last 12 months"
+        ],
+        [
+          "Transition capability (90-day mobilization) (weight): 15%",
+          "15%",
+          "4.2",
+          "3.8",
+          "4.6",
+          "Documented 90-day transition plan with named transition director and risk log"
+        ],
+        [
+          "Innovation & automation roadmap (weight): 10%",
+          "10%",
+          "4.0",
+          "3.5",
+          "4.8",
+          "Roadmap includes RPA deployment within 6 months and AI-enabled reporting by Q4 2026"
+        ],
+        [
+          "Financial stability & risk profile",
+          "Fail)",
+          "Pass (A- S&P)",
+          "Pass (BBB+)",
+          "Pass (A)",
+          "Minimum annual revenue $250M; positive cash flow last 3 fiscal years"
+        ],
+        [
+          "Geographic coverage & capacity",
+          "Informational",
+          "EMEA, NA, APAC (8 hubs)",
+          "EMEA, NA (5 hubs)",
+          "Global (12 hubs)",
+          "7 follow-the-sun model; minimum 300 FTE scalable capacity"
+        ],
+        [
+          "ESG alignment",
+          "5% qualitative (non-weighted)",
+          "Net-zero 2040 target",
+          "Net-zero 2050 target",
+          "Net-zero 2035 target",
+          "Science Based Targets initiative (SBTi) validation preferred"
+        ],
+        [
+          "Total weighted score (out of 5.0)",
+          "100%",
+          "4.55",
+          "4.18",
+          "4.32",
+          "Top 3 suppliers shortlisted for 3-year framework agreement (2026–2029)"
+        ],
+        [
+          "Panel award decision & contracting approach",
+          "A",
+          "Primary supplier (40% allocation)",
+          "Secondary supplier (30%)",
+          "Secondary supplier (30%)",
+          "Dual-source with quarterly performance reviews; break clauses at 12 and 24 months"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Weight": 200.0,
+        "max_Weight": 100.0,
+        "min_Weight": 10.0,
+        "sum_Supplier A (Score /5)": 26.95,
+        "max_Supplier A (Score /5)": 5.0,
+        "min_Supplier A (Score /5)": 4.0,
+        "sum_Supplier B (Score /5)": 24.18,
+        "max_Supplier B (Score /5)": 4.5,
+        "min_Supplier B (Score /5)": 3.5,
+        "sum_Supplier C (Score /5)": 26.02,
+        "max_Supplier C (Score /5)": 4.8,
+        "min_Supplier C (Score /5)": 3.8
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Preferred supplier selection scorecard criteria and weights for IT managed services RFP\", what is the weight assigned to \"Service delivery & SLA track record (weight)\"?",
+          "answer": "25%",
+          "assertions": [
+            {
+              "text": "The response must state 25%."
+            }
+          ]
+        },
+        {
+          "question": "5) for \"Innovation & automation roadmap (weight)\"?",
+          "answer": "4.8",
+          "assertions": [
+            {
+              "text": "The response must state 4.8."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Preferred supplier selection scorecard criteria and weights for IT managed services RFP\", what is the panel award decision for Supplier A under \"Panel award decision & contracting approach\"?",
+          "answer": "Primary supplier (40% allocation)",
+          "assertions": [
+            {
+              "text": "The response must state Primary supplier (40% allocation)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_38de400b",
+      "table_number": 6,
+      "caption": "Table 6: Project Milestone Tracker",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "row_count": 66,
+      "cells": [
+        [
+          "Project Charter Approval",
+          "2026-01-05",
+          "2026-01-12",
+          "100",
+          "15000"
+        ],
+        [
+          "Category Spend Data Collection",
+          "2026-01-13",
+          "2026-02-02",
+          "100",
+          "45000"
+        ],
+        [
+          "Spend Analysis & Baseline Report",
+          "2026-02-03",
+          "2026-02-20",
+          "100",
+          "30000"
+        ],
+        [
+          "Stakeholder Requirements Workshops",
+          "2026-02-10",
+          "2026-02-28",
+          "95",
+          "20000"
+        ],
+        [
+          "Market Research & Supplier Longlist",
+          "2026-02-15",
+          "2026-03-05",
+          "90",
+          "25000"
+        ],
+        [
+          "Make-vs-Buy Cost Modeling",
+          "2026-02-25",
+          "2026-03-15",
+          "85",
+          "40000"
+        ],
+        [
+          "Risk Assessment & Scenario Analysis",
+          "2026-03-01",
+          "2026-03-18",
+          "80",
+          "18000"
+        ],
+        [
+          "Supplier Prequalification",
+          "2026-03-10",
+          "2026-03-25",
+          "75",
+          "22000"
+        ],
+        [
+          "RFP Development & Issue",
+          "2026-03-20",
+          "2026-04-05",
+          "70",
+          "27000"
+        ],
+        [
+          "Supplier Evaluation & Scoring",
+          "2026-04-06",
+          "2026-04-20",
+          "60",
+          "35000"
+        ],
+        [
+          "Preferred Supplier Selection",
+          "2026-04-21",
+          "2026-04-30",
+          "50",
+          "15000"
+        ],
+        [
+          "Negotiation Strategy Development",
+          "2026-05-01",
+          "2026-05-10",
+          "40",
+          "20000"
+        ],
+        [
+          "Contract Drafting & Review",
+          "2026-05-11",
+          "2026-05-25",
+          "25",
+          "30000"
+        ],
+        [
+          "Executive Approval of Sourcing Strategy",
+          "2026-05-26",
+          "2026-06-02",
+          "10",
+          "10000"
+        ],
+        [
+          "Final Strategy Document Publication",
+          "2026-06-03",
+          "2026-06-10",
+          "0",
+          "8000"
+        ],
+        [
+          "16",
+          "Conduct stakeholder interviews across business units",
+          "Category Managers",
+          "2026-06-10",
+          "Completed"
+        ],
+        [
+          "17",
+          "Consolidate historical spend data (24 months)",
+          "Procurement Analyst",
+          "2026-06-15",
+          "Completed"
+        ],
+        [
+          "18",
+          "Validate supplier master data accuracy",
+          "Data Governance Lead",
+          "2026-06-18",
+          "In Progress"
+        ],
+        [
+          "19",
+          "Segment spend by category and subcategory",
+          "Strategic Sourcing Team",
+          "2026-06-22",
+          "Completed"
+        ],
+        [
+          "20",
+          "Identify high-value and high-risk categories",
+          "Head of Procurement",
+          "2026-06-25",
+          "Completed"
+        ],
+        [
+          "21",
+          "Perform market analysis for top 5 categories",
+          "Category Strategy Lead",
+          "2026-07-02",
+          "In Progress"
+        ],
+        [
+          "22",
+          "Benchmark pricing against industry standards",
+          "Cost Analyst",
+          "2026-07-08",
+          "Not Started"
+        ],
+        [
+          "23",
+          "Assess make-versus-buy feasibility for IT services",
+          "IT Procurement Manager",
+          "2026-07-12",
+          "In Progress"
+        ],
+        [
+          "24",
+          "Develop total cost of ownership (TCO) models",
+          "Financial Planning Team",
+          "2026-07-18",
+          "Not Started"
+        ],
+        [
+          "25",
+          "Evaluate supplier performance scorecards",
+          "Supplier Relationship Manager",
+          "2026-07-22",
+          "In Progress"
+        ],
+        [
+          "26",
+          "Draft preliminary sourcing strategy recommendations",
+          "Strategic Sourcing Lead",
+          "2026-07-28",
+          "Not Started"
+        ],
+        [
+          "27",
+          "Review risk mitigation strategies with Legal",
+          "Procurement Legal Advisor",
+          "2026-08-02",
+          "Not Started"
+        ],
+        [
+          "28",
+          "Align sourcing strategy with corporate ESG goals",
+          "Sustainability Officer",
+          "2026-08-06",
+          "Not Started"
+        ],
+        [
+          "29",
+          "Obtain executive steering committee feedback",
+          "Chief Procurement Officer",
+          "2026-08-12",
+          "Not Started"
+        ],
+        [
+          "30",
+          "Finalize and publish sourcing strategy document",
+          "Procurement PMO",
+          "2026-08-20",
+          "Not Started"
+        ],
+        [
+          "31",
+          "Finalize supplier longlist for priority categories",
+          "Sourcing Team",
+          "2026-06-12",
+          "Completed"
+        ],
+        [
+          "32",
+          "Conduct RFI for shortlisted suppliers",
+          "Strategic Procurement",
+          "2026-06-18",
+          "In Progress"
+        ],
+        [
+          "33",
+          "Evaluate make-versus-buy financial models",
+          "Finance & Operations",
+          "2026-06-22",
+          "In Review"
+        ],
+        [
+          "34",
+          "Perform risk assessment on outsourcing options",
+          "Risk Management",
+          "2026-06-25",
+          "Planned"
+        ],
+        [
+          "35",
+          "Benchmark category pricing against market indices",
+          "Category Manager",
+          "2026-06-28",
+          "Completed"
+        ],
+        [
+          "36",
+          "Facilitate stakeholder workshop on sourcing strategy",
+          "Procurement Lead",
+          "2026-07-02",
+          "Scheduled"
+        ],
+        [
+          "37",
+          "Develop total cost of ownership (TCO) models",
+          "Cost Analytics Team",
+          "2026-07-06",
+          "In Progress"
+        ],
+        [
+          "38",
+          "Align sourcing wave plan with business units",
+          "PMO",
+          "2026-07-10",
+          "Planned"
+        ],
+        [
+          "39",
+          "Negotiate preliminary terms with preferred suppliers",
+          "Strategic Sourcing",
+          "2026-07-15",
+          "Pending"
+        ],
+        [
+          "40",
+          "Document governance framework for supplier management",
+          "Procurement Operations",
+          "2026-07-18",
+          "In Draft"
+        ],
+        [
+          "41",
+          "Obtain executive approval for make-versus-buy decisions",
+          "CFO Office",
+          "2026-07-22",
+          "Pending Approval"
+        ],
+        [
+          "42",
+          "Finalize category savings targets",
+          "Category Strategy Lead",
+          "2026-07-25",
+          "In Review"
+        ],
+        [
+          "43",
+          "Prepare implementation roadmap for transition",
+          "Transformation Office",
+          "2026-07-30",
+          "Planned"
+        ],
+        [
+          "44",
+          "Develop supplier performance scorecard metrics",
+          "SRM Team",
+          "2026-08-03",
+          "In Progress"
+        ],
+        [
+          "45",
+          "Publish final procurement sourcing strategy document",
+          "Chief Procurement Officer",
+          "2026-08-08",
+          "Not Started"
+        ],
+        [
+          "46",
+          "Conduct stakeholder interviews for indirect spend categories",
+          "Category Managers",
+          "2026-06-10",
+          "In Progress"
+        ],
+        [
+          "47",
+          "Benchmark supplier pricing against industry indices",
+          "Strategic Sourcing Team",
+          "2026-06-15",
+          "Not Started"
+        ],
+        [
+          "48",
+          "Analyze total cost of ownership for key materials",
+          "Cost Analysis Lead",
+          "2026-06-18",
+          "In Progress"
+        ],
+        [
+          "49",
+          "Evaluate make-versus-buy scenarios for component A",
+          "Operations & Finance",
+          "2026-06-22",
+          "Planned"
+        ],
+        [
+          "50",
+          "Risk assessment for single-source suppliers",
+          "Supplier Risk Manager",
+          "2026-06-25",
+          "Not Started"
+        ],
+        [
+          "51",
+          "Develop supplier segmentation framework",
+          "Procurement Excellence Team",
+          "2026-06-28",
+          "In Progress"
+        ],
+        [
+          "52",
+          "Validate demand forecasts with business units",
+          "Demand Planning",
+          "2026-07-02",
+          "Planned"
+        ],
+        [
+          "53",
+          "Assess contract renewal timelines and options",
+          "Contract Management Office",
+          "2026-07-05",
+          "Not Started"
+        ],
+        [
+          "54",
+          "Identify cost reduction levers by category",
+          "Category Strategy Lead",
+          "2026-07-09",
+          "In Progress"
+        ],
+        [
+          "55",
+          "Prepare should-cost models for top 5 suppliers",
+          "Cost Engineering",
+          "2026-07-12",
+          "Planned"
+        ],
+        [
+          "56",
+          "Facilitate cross-functional review workshop",
+          "Project Sponsor",
+          "2026-07-15",
+          "Not Started"
+        ],
+        [
+          "57",
+          "Document make-versus-buy decision criteria",
+          "Strategy Analyst",
+          "2026-07-18",
+          "In Progress"
+        ],
+        [
+          "58",
+          "Quantify potential savings from supplier consolidation",
+          "Sourcing Analyst",
+          "2026-07-21",
+          "Planned"
+        ],
+        [
+          "59",
+          "Draft executive summary of sourcing recommendations",
+          "Procurement Director",
+          "2026-07-25",
+          "Not Started"
+        ],
+        [
+          "60",
+          "Finalize milestone review and approval",
+          "Steering Committee",
+          "2026-07-30",
+          "Planned"
+        ],
+        [
+          "61",
+          "Consolidate global category spend cube (3-year history)",
+          "Data & Analytics Lead",
+          "In Progress",
+          "Data gaps identified for APAC entities; remediation plan underway"
+        ],
+        [
+          "62",
+          "Conduct make-versus-buy cost modeling workshops",
+          "Strategic Sourcing Manager",
+          "Planned",
+          "Workshops scheduled with IT and Facilities categories"
+        ],
+        [
+          "63",
+          "Validate supplier market share estimates with external benchmarks",
+          "Category Analyst",
+          "Completed",
+          "Benchmarks sourced from Gartner and industry reports"
+        ],
+        [
+          "64",
+          "Develop total cost of ownership (TCO) model template",
+          "Procurement Excellence Lead",
+          "In Progress",
+          "Template includes logistics, inventory carrying, and transition costs"
+        ],
+        [
+          "65",
+          "Executive review of preliminary sourcing strategy scenarios",
+          "CPO",
+          "Planned",
+          "Decision gate to narrow to 2 preferred scenarios"
+        ],
+        [
+          "66",
+          "Finalize risk assessment for outsourced vs in-house options",
+          "Risk & Compliance Manager",
+          "Not Started",
+          "To include geopolitical, supply continuity, and IP considerations"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col1": 2091.0,
+        "max_Col1": 66.0,
+        "min_Col1": 16.0,
+        "sum_Col4": 980.0,
+        "max_Col4": 100.0,
+        "min_Col4": 0.0,
+        "sum_Col5": 360000.0,
+        "max_Col5": 45000.0,
+        "min_Col5": 8000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the status listed for the milestone \"Validate supplier master data accuracy\"?",
+          "answer": "In Progress",
+          "assertions": [
+            {
+              "text": "The response must state In Progress."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the end date shown for \"Category Spend Data Collection\"?",
+          "answer": "2026-02-02",
+          "assertions": [
+            {
+              "text": "The response must state 2026-02-02."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", who is responsible for \"Review risk mitigation strategies with Legal\"?",
+          "answer": "Procurement Legal Advisor",
+          "assertions": [
+            {
+              "text": "The response must state Procurement Legal Advisor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "text",
+      "variant_id": "text_0001_6b911008",
+      "heading": "Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)",
+      "word_count": 213,
+      "text_content": [
+        "**Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)**",
+        "The recommended operating model adopts a hybrid make‑versus‑buy posture: outsource standardized Tier‑1 and Tier‑2 IT managed services while retaining strategic application development and architecture capabilities in‑house. This approach is projected to deliver the target USD 6.3M annual run‑rate savings by Q4 2026 and an estimated 18% reduction in recurring service costs versus FY2024 baseline. Decision factors included risk, IP protection, speed to market, and internal capability uplift and supplier performance expectations.",
+        "Supplier selection will be governed by Procurement in conjunction with the Vendor Management Office (VMO) and Legal. The preferred supplier panel will be reduced to 3 suppliers by 30‑Sep‑2025 through a phased consolidation and competitive re‑bid. Criteria emphasize: 1. proven SLA attainment and 99.9% availability history; 2. certified security posture (ISO 27001, SOC 2 Type II); 3. competitive total cost of ownership; and 4. demonstrated innovation in automation and tooling capability.",
+        "Contracting will implement a 36‑month Master Services Agreement (MSA) with two 12‑month renewal options, executed under centralized procurement and reviewed by Legal and Finance. Key contract terms include explicit SLAs, quarterly KPI scorecards, service credits for non‑performance, and a pricing mix of 80% fixed retainer and 20% variable, KPI‑linked incentives. The MSA will mandate a 90‑day transition plan, defined exit rights, IP assignments, and business reviews through the Vendor Management Office."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)\" section, what annual run-rate savings target is projected by Q4 2026?",
+          "answer": "USD 6.3M annual run‑rate savings",
+          "assertions": [
+            {
+              "text": "The response must state USD 6.3M annual run‑rate savings."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)\" section, by what date will the preferred supplier panel be reduced to 3 suppliers?",
+          "answer": "30‑Sep‑2025",
+          "assertions": [
+            {
+              "text": "The response must state 30‑Sep‑2025."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)\" section, what percentage of the pricing mix is allocated to the fixed retainer?",
+          "answer": "80% fixed retainer",
+          "assertions": [
+            {
+              "text": "The response must state 80% fixed retainer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "form",
+      "variant_id": "form_0002_ecbc0dc6",
+      "title": "Procurement Sourcing Strategy Document – Major Spend Category",
+      "caption": "Procurement Sourcing Strategy Document – Major Spend Category",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Category Spend Analysis",
+        "Make-versus-Buy Assessment",
+        "Supplier Selection and Contracting Approach"
+      ],
+      "required_fields": [
+        "Spend Category Name",
+        "Annual Spend (USD)",
+        "Primary Business Units Impacted",
+        "Spend Trend Over Last 3 Years",
+        "Current Sourcing Model",
+        "Strategic Importance to Core Business",
+        "Key Risks Identified in Make-vs-Buy Analysis",
+        "Preferred Supplier Selection Criteria",
+        "Contract Type",
+        "Key Contractual Terms and KPIs"
+      ],
+      "description": "Complete this form to document the sourcing strategy, financial analysis, and supplier selection approach for the identified major spend category.",
+      "qa_candidates": [
+        {
+          "question": "What does the description text on the 'Procurement Sourcing Strategy Document – Major Spend Category' form say?",
+          "answer": "Complete this form to document the sourcing strategy, financial analysis, and supplier selection approach for the identified major spend category.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to document the sourcing strategy, financial analysis, and supplier selection approach for the identified major spend category.'"
+            }
+          ]
+        },
+        {
+          "question": "How many sections does the 'Procurement Sourcing Strategy Document – Major Spend Category' form contain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Procurement Sourcing Strategy Document – Major Spend Category' form, what is the name of the second section as shown on the rendered form?",
+          "answer": "Make-versus-Buy Assessment",
+          "assertions": [
+            {
+              "text": "The response must state 'Make-versus-Buy Assessment'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Procurement Sourcing Strategy Document – Major Spend Category', how many fields are required on the form?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "text",
+      "variant_id": "text_0000_41f57148",
+      "heading": "Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)",
+      "word_count": 224,
+      "text_content": [
+        "**Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)**",
+        "FY2024 baseline expenditure for IT managed services totaled USD 48.6M. The top three subcategories were Service Desk (USD 14.2M, 29.2%), Network Operations Center (USD 11.8M, 24.3%), and Endpoint Management (USD 9.6M, 19.8%). Supplier fragmentation is notable: 17 active suppliers supporting 112 separate Statements of Work (SOWs) across the estate. This dispersed footprint drives inconsistent SLAs, duplicated tooling, and variable cost-per-incident metrics; baseline metrics will be used to measure FY2025 changes and to benchmark sourcing outcomes.",
+        "Primary demand drivers for FY2025 include continued hybrid workplace support, accelerated cloud and SaaS adoption (Microsoft 365, Azure, AWS), and elevated cybersecurity and compliance requirements tied to Zero Trust initiatives. Cost containment pressures from corporate finance target a 5–8% efficiency improvement in run-costs, while transformation programs add incremental demand estimated at 6–9% in service-hours. These dynamics imply simultaneous need for scalable provider capacity, tighter performance metrics, and expandable scope options in future supplier arrangements.",
+        "Supply-side considerations for FY2024–FY2025 encompass governance, risk, and commercial simplification. The 17 suppliers and 112 SOWs create administrative overhead, inconsistent risk controls, and impede economies of scale in tooling and training. Consolidation and standardization should be prioritized to deliver savings, tighter control, and vendor rationalization. Proposed actions include: (1) reduce the supplier base to a strategic panel, (2) harmonize SLAs and pricing bands, and (3) centralize contract and SOW templates under joint Procurement–IT governance now."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)\" section, what was the FY2024 baseline expenditure for IT managed services?",
+          "answer": "USD 48.6M",
+          "assertions": [
+            {
+              "text": "The response must state USD 48.6M."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)\" section, how many active suppliers are supporting the estate?",
+          "answer": "17 active suppliers",
+          "assertions": [
+            {
+              "text": "The response must state 17 active suppliers."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)\" section, what efficiency improvement in run-costs is targeted by corporate finance?",
+          "answer": "5–8% efficiency improvement in run-costs",
+          "assertions": [
+            {
+              "text": "The response must state 5–8% efficiency improvement in run-costs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "table",
+      "variant_id": "table_0000_c91133af",
+      "table_number": 7,
+      "caption": "Table 7: FY2024 IT managed services spend by subcategory (USD, millions)",
+      "columns": [
+        "Subcategory",
+        "Annual Spend (USD)",
+        "% of Total Category Spend",
+        "Active Suppliers",
+        "Sourcing Priority"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Service Desk",
+          "USD 14.2M",
+          "30.8%",
+          "4",
+          "High"
+        ],
+        [
+          "Network Operations Center (NOC)",
+          "USD 11.8M",
+          "25.6%",
+          "3",
+          "High"
+        ],
+        [
+          "Endpoint Management",
+          "USD 9.6M",
+          "20.8%",
+          "5",
+          "Medium-High"
+        ],
+        [
+          "Cloud Operations",
+          "USD 6.4M",
+          "13.9%",
+          "3",
+          "Medium"
+        ],
+        [
+          "Security Operations (SOC)",
+          "USD 4.1M",
+          "8.9%",
+          "2",
+          "Medium"
+        ]
+      ],
+      "derived_answers": {
+        "sum_% of Total Category Spend": 100.0,
+        "max_% of Total Category Spend": 30.8,
+        "min_% of Total Category Spend": 8.9,
+        "sum_Active Suppliers": 17.0,
+        "max_Active Suppliers": 5.0,
+        "min_Active Suppliers": 2.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2024 IT managed services spend by subcategory (USD, millions)\", what is the Annual Spend (USD) for Service Desk?",
+          "answer": "USD 14.2M",
+          "assertions": [
+            {
+              "text": "The response must state USD 14.2M."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 IT managed services spend by subcategory (USD, millions)\", how many Active Suppliers are listed for Cloud Operations?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state 3."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024 IT managed services spend by subcategory (USD, millions)\", what is the Sourcing Priority for Security Operations (SOC)?",
+          "answer": "Medium",
+          "assertions": [
+            {
+              "text": "The response must state Medium."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "table",
+      "variant_id": "cx_table_0000_089c0672",
+      "table_number": 8,
+      "caption": "Table 8: Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what is the H1 Attainment% for \"Sourced savings realized (contracted + demand)\"?",
+          "answer": "91%",
+          "assertions": [
+            {
+              "text": "The response must state '91%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", how many metrics does the \"Spend & Savings\" category rowspan cover?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", which metric has the lower H2 attainment in the \"Supplier Performance\" category?",
+          "answer": "Ticket backlog aging (>%7 days)",
+          "assertions": [
+            {
+              "text": "The response must state 'Ticket backlog aging (>%7 days)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what is the H2 target for \"Preferred supplier utilization (top-2 share of outsourced spend)\"?",
+          "answer": "$41.0M",
+          "assertions": [
+            {
+              "text": "The response must state '$41.0M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what value is shown for the first listed QA candidate?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", how many header tiers are present in the table?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", which listed candidate value is the highest among the shown QA answers?",
+          "answer": "91%",
+          "assertions": [
+            {
+              "text": "The response must state '91%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what does footnote 1 explain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what is the total number of data rows for the spend category?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state '16'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0000_6ebc53d3",
+      "title": "Strategic Sourcing and Procurement Strategy Form",
+      "caption": "Strategic Sourcing and Procurement Strategy Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 10,
+      "sections": [
+        "Category Overview and Spend Analysis",
+        "Make-versus-Buy Assessment",
+        "Preferred Supplier Selection Criteria",
+        "Contracting and Governance Approach"
+      ],
+      "required_fields": [
+        "Major Spend Category Name",
+        "Business Unit",
+        "Annual Spend (USD)",
+        "Current Sourcing Model",
+        "Internal Capability Assessment Summary",
+        "Supplier Selection Method",
+        "Key Evaluation Criteria (Cost, Quality, ESG, Risk, etc.)",
+        "Preferred Supplier(s) Identified",
+        "Proposed Contract Type",
+        "Proposed Contract Term (Years)"
+      ],
+      "description": "",
+      "form_number": "PROC-SS-2026-01",
+      "instructions": "Complete all required sections with detailed and accurate information to support sourcing decisions. Submit the finalized form with supporting analysis to the Procurement Governance Committee for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "IndieFlower, cursive",
+        "ink_color": "#6b1c9e",
+        "font_size_pt": 12.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Strategic Sourcing and Procurement Strategy Form', what is the form number printed on the form?",
+          "answer": "PROC-SS-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'PROC-SS-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Strategic Sourcing and Procurement Strategy Form', which heading appears as the second section?",
+          "answer": "Make-versus-Buy Assessment",
+          "assertions": [
+            {
+              "text": "The response must state 'Make-versus-Buy Assessment'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Strategic Sourcing and Procurement Strategy Form', how many fields are marked required?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Strategic Sourcing and Procurement Strategy Form', how is the form type labeled?",
+          "answer": "filled_fillable",
+          "assertions": [
+            {
+              "text": "The response must state 'filled_fillable'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "table",
+      "variant_id": "cx_table_0001_cec758e1",
+      "table_number": 9,
+      "caption": "Table 9: Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", how many period columns does each version group span?",
+          "answer": "Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).",
+          "assertions": [
+            {
+              "text": "The response must state 'Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).'."
+            }
+          ]
+        },
+        {
+          "question": "Storage)\"?",
+          "answer": "2,240 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '2,240 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what is the \"Software & Cloud Subscriptions Subtotal\" for Baseline Q1?",
+          "answer": "5,500 ($000).",
+          "assertions": [
+            {
+              "text": "The response must state '5,500 ($000).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", which version shows the highest Q4 value for \"Application Development (Agile squads)\"?",
+          "answer": "Actuals has the higher Q4 value (2,780 vs 2,550 in Baseline).",
+          "assertions": [
+            {
+              "text": "The response must state 'Actuals has the higher Q4 value (2,780 vs 2,550 in Baseline).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what is the delta (Net $K) for \"Managed Services Subtotal\"?",
+          "answer": "390.",
+          "assertions": [
+            {
+              "text": "The response must state '390.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what is one of the numeric totals listed in the table?",
+          "answer": "2,240 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '2,240 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", how many header tiers are present?",
+          "answer": "3 rows",
+          "assertions": [
+            {
+              "text": "The response must state '3 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", which of the two listed totals is larger, 2,240 or 5,500?",
+          "answer": "5,500 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '5,500 ($000)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what does footnote 1 explain?",
+          "answer": "Each version group spans Q1–Q4",
+          "assertions": [
+            {
+              "text": "The response must state 'Each version group spans Q1–Q4'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what is the subtotal shown for the Actuals group?",
+          "answer": "5,500 ($000)",
+          "assertions": [
+            {
+              "text": "The response must state '5,500 ($000)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_23b44fc5",
+      "table_number": 10,
+      "caption": "Table 10: Employee Activity Report",
+      "columns": [
+        "Employee Name",
+        "Role",
+        "Activity Description",
+        "Hours Spent",
+        "Cost Impact (USD)"
+      ],
+      "row_count": 67,
+      "cells": [
+        [
+          "Maria Chen",
+          "Category Manager",
+          "Conducted category spend analysis and supplier segmentation",
+          "18",
+          "0"
+        ],
+        [
+          "David Kumar",
+          "Procurement Analyst",
+          "Compiled historical spend data and validated cost baselines",
+          "22",
+          "0"
+        ],
+        [
+          "Elena Rodriguez",
+          "Strategic Sourcing Lead",
+          "Led make-versus-buy financial modeling workshop",
+          "16",
+          "150000"
+        ],
+        [
+          "James O'Connor",
+          "Financial Analyst",
+          "Developed total cost of ownership (TCO) models",
+          "20",
+          "0"
+        ],
+        [
+          "Sophie Martin",
+          "Supplier Relationship Manager",
+          "Evaluated preferred supplier performance metrics",
+          "14",
+          "0"
+        ],
+        [
+          "Liam Patel",
+          "Procurement Analyst",
+          "Benchmarked external supplier pricing against market indices",
+          "19",
+          "85000"
+        ],
+        [
+          "Olivia Brown",
+          "Contract Manager",
+          "Drafted contracting approach and risk allocation framework",
+          "17",
+          "0"
+        ],
+        [
+          "Noah Johnson",
+          "Data Analyst",
+          "Automated spend cube reporting dashboard",
+          "21",
+          "0"
+        ],
+        [
+          "Ava Thompson",
+          "Sourcing Specialist",
+          "Conducted RFx process for shortlisted suppliers",
+          "24",
+          "230000"
+        ],
+        [
+          "William Garcia",
+          "Risk Manager",
+          "Performed supplier risk and compliance assessment",
+          "13",
+          "0"
+        ],
+        [
+          "Emma Wilson",
+          "Procurement Manager",
+          "Reviewed make-versus-buy recommendations with stakeholders",
+          "15",
+          "0"
+        ],
+        [
+          "Benjamin Lee",
+          "Cost Engineer",
+          "Validated cost breakdown structures from suppliers",
+          "18",
+          "120000"
+        ],
+        [
+          "Isabella Nguyen",
+          "Legal Counsel",
+          "Reviewed contract terms and negotiation clauses",
+          "12",
+          "0"
+        ],
+        [
+          "Lucas Anderson",
+          "Operations Manager",
+          "Provided internal capability assessment for make analysis",
+          "11",
+          "0"
+        ],
+        [
+          "Mia Clark",
+          "Sourcing Director",
+          "Approved preferred supplier selection and savings targets",
+          "10",
+          "300000"
+        ],
+        [
+          "Olivia Chen",
+          "Strategic Sourcing Manager",
+          "Led cross-functional workshop to review category spend analysis findings and identify consolidation opportunities",
+          "6",
+          "12500"
+        ],
+        [
+          "Marcus Reed",
+          "Procurement Analyst",
+          "Conducted deep-dive analysis on supplier cost structures to support make-versus-buy evaluation",
+          "8",
+          "9800"
+        ],
+        [
+          "Anita Patel",
+          "Finance Business Partner",
+          "Validated total cost of ownership models and reviewed cost assumptions",
+          "5",
+          "15000"
+        ],
+        [
+          "Daniel Brooks",
+          "Supply Chain Manager",
+          "Assessed supplier capacity and risk factors for outsourced components",
+          "7",
+          "8700"
+        ],
+        [
+          "Sofia Martinez",
+          "Category Manager",
+          "Developed sourcing strategy recommendations for high-spend indirect categories",
+          "9",
+          "18200"
+        ],
+        [
+          "Liam O'Connor",
+          "Cost Engineer",
+          "Performed should-cost modeling for internally manufactured components",
+          "6",
+          "11200"
+        ],
+        [
+          "Grace Kim",
+          "Data Analyst",
+          "Consolidated historical spend data and created visualization dashboards",
+          "4",
+          "6400"
+        ],
+        [
+          "Ethan Wright",
+          "Operations Manager",
+          "Evaluated operational impact of shifting from in-house production to external suppliers",
+          "7",
+          "13400"
+        ],
+        [
+          "Priya Nair",
+          "Risk Analyst",
+          "Conducted supplier risk assessment including geopolitical and financial risk review",
+          "5",
+          "9100"
+        ],
+        [
+          "James Holloway",
+          "Procurement Director",
+          "Reviewed and approved strategic sourcing roadmap and projected savings targets",
+          "3",
+          "25000"
+        ],
+        [
+          "Ava Thompson",
+          "Contract Manager",
+          "Drafted contract framework for shortlisted strategic suppliers",
+          "6",
+          "7800"
+        ],
+        [
+          "Noah Williams",
+          "Supplier Relationship Manager",
+          "Engaged incumbent suppliers to benchmark pricing and renegotiate terms",
+          "8",
+          "16400"
+        ],
+        [
+          "Isabella Rossi",
+          "Business Analyst",
+          "Documented make-versus-buy decision criteria and governance framework",
+          "4",
+          "7200"
+        ],
+        [
+          "Benjamin Lee",
+          "Logistics Coordinator",
+          "Analyzed transportation and warehousing cost implications of outsourcing",
+          "5",
+          "6800"
+        ],
+        [
+          "Mia Johnson",
+          "Quality Assurance Manager",
+          "Evaluated quality control requirements and compliance costs for external manufacturing",
+          "6",
+          "9900"
+        ],
+        [
+          "Row 31 - Daniel Kim",
+          "Procurement Analyst",
+          "Conducted category spend variance analysis across indirect materials to identify consolidation opportunities",
+          "6",
+          "12500"
+        ],
+        [
+          "Row 32 - Aisha Rahman",
+          "Strategic Sourcing Manager",
+          "Led supplier negotiations for IT hardware category under make-versus-buy evaluation",
+          "8",
+          "54000"
+        ],
+        [
+          "Row 33 - Carlos Mendes",
+          "Financial Analyst",
+          "Modeled total cost of ownership (TCO) scenarios for outsourced logistics services",
+          "5",
+          "21000"
+        ],
+        [
+          "Row 34 - Priya Nair",
+          "Category Manager",
+          "Reviewed historical spend data and benchmarked against market indices",
+          "7",
+          "18000"
+        ],
+        [
+          "Row 35 - Michael Thompson",
+          "Operations Manager",
+          "Assessed internal production capacity for make-versus-buy comparison",
+          "6",
+          "32000"
+        ],
+        [
+          "Row 36 - Elena Petrova",
+          "Supplier Relationship Manager",
+          "Evaluated supplier performance metrics to support sourcing strategy recommendations",
+          "4",
+          "9500"
+        ],
+        [
+          "Row 37 - James O'Connor",
+          "Procurement Consultant",
+          "Developed sourcing wave plan based on prioritized spend categories",
+          "9",
+          "67000"
+        ],
+        [
+          "Row 38 - Li Wei",
+          "Data Analyst",
+          "Cleaned and normalized procurement spend data across ERP systems",
+          "5",
+          "14000"
+        ],
+        [
+          "Row 39 - Sofia Martinez",
+          "Risk Manager",
+          "Performed supply risk assessment for single-source components",
+          "6",
+          "23000"
+        ],
+        [
+          "Row 40 - Robert Jenkins",
+          "Cost Engineer",
+          "Conducted should-cost analysis for key manufactured components",
+          "8",
+          "72000"
+        ],
+        [
+          "Row 41 - Fatima Al-Sayed",
+          "Compliance Officer",
+          "Reviewed supplier contracts for regulatory and policy compliance gaps",
+          "4",
+          "8000"
+        ],
+        [
+          "Row 42 - Thomas Berg",
+          "Supply Chain Director",
+          "Validated strategic sourcing roadmap and executive recommendations",
+          "3",
+          "150000"
+        ],
+        [
+          "Row 43 - Grace Liu",
+          "Business Analyst",
+          "Prepared visualization dashboards for category spend insights",
+          "5",
+          "12000"
+        ],
+        [
+          "Row 44 - Ahmed Khan",
+          "Procurement Specialist",
+          "Compared internal manufacturing costs against third-party supplier quotations",
+          "7",
+          "41000"
+        ],
+        [
+          "Row 45 - Isabella Rossi",
+          "Project Manager",
+          "Coordinated cross-functional workshops on make-versus-buy decision framework",
+          "6",
+          "26000"
+        ],
+        [
+          "Alicia Gomez",
+          "Senior Procurement Analyst",
+          "Consolidated category spend data across IT and Marketing vendors for trend analysis",
+          "7.5",
+          "18500"
+        ],
+        [
+          "Marcus Lee",
+          "Strategic Sourcing Manager",
+          "Facilitated make-versus-buy workshop with operations leadership",
+          "6",
+          "25000"
+        ],
+        [
+          "Priya Natarajan",
+          "Financial Analyst",
+          "Validated cost models comparing in-house production versus outsourced suppliers",
+          "8",
+          "32000"
+        ],
+        [
+          "Daniel Brooks",
+          "Supply Chain Consultant",
+          "Conducted supplier capability assessment for potential outsourcing partners",
+          "5.5",
+          "14000"
+        ],
+        [
+          "Sophie Martin",
+          "Data Analyst",
+          "Cleaned and standardized spend datasets from ERP systems",
+          "6.5",
+          "9000"
+        ],
+        [
+          "James O'Connor",
+          "Procurement Manager",
+          "Developed negotiation strategy for high-spend raw material category",
+          "7",
+          "41000"
+        ],
+        [
+          "Lina Chen",
+          "Cost Engineer",
+          "Built total cost of ownership (TCO) model for make-versus-buy scenarios",
+          "8",
+          "28500"
+        ],
+        [
+          "Robert Silva",
+          "Category Manager",
+          "Reviewed historical supplier performance and contract compliance metrics",
+          "5",
+          "12000"
+        ],
+        [
+          "Emily Rogers",
+          "Business Analyst",
+          "Documented sourcing strategy recommendations for executive review",
+          "6",
+          "15000"
+        ],
+        [
+          "Ahmed Khan",
+          "Operations Manager",
+          "Provided internal production cost benchmarks for comparison analysis",
+          "4.5",
+          "17500"
+        ],
+        [
+          "Isabella Rossi",
+          "Strategic Sourcing Analyst",
+          "Performed market analysis on alternative global suppliers",
+          "7.5",
+          "22000"
+        ],
+        [
+          "Thomas Nguyen",
+          "Risk Analyst",
+          "Assessed supply risk exposure for outsourced manufacturing options",
+          "5.5",
+          "16000"
+        ],
+        [
+          "Grace Kim",
+          "Procurement Specialist",
+          "Compiled stakeholder requirements for category consolidation initiative",
+          "6",
+          "11000"
+        ],
+        [
+          "Victor Alvarez",
+          "Finance Manager",
+          "Reviewed projected savings and validated ROI assumptions",
+          "4",
+          "30000"
+        ],
+        [
+          "Natalie Schmidt",
+          "Head of Procurement",
+          "Led final strategy alignment meeting and approved sourcing roadmap",
+          "3.5",
+          "50000"
+        ],
+        [
+          "Alicia Gomez",
+          "Strategic Sourcing Manager",
+          "Reviewed category spend baselines and validated data assumptions for IT hardware segment",
+          "6.5",
+          "12500"
+        ],
+        [
+          "Marcus Lee",
+          "Procurement Analyst",
+          "Consolidated supplier pricing data to support make-versus-buy cost comparison models",
+          "7",
+          "9800"
+        ],
+        [
+          "Priya Nair",
+          "Financial Analyst",
+          "Performed total cost of ownership analysis for outsourced manufacturing option",
+          "5.5",
+          "15400"
+        ],
+        [
+          "Daniel Brooks",
+          "Operations Manager",
+          "Assessed internal production capacity constraints for make-versus-buy evaluation",
+          "4",
+          "7200"
+        ],
+        [
+          "Sofia Martinez",
+          "Category Manager",
+          "Developed supplier market intelligence summary for logistics services category",
+          "6",
+          "11000"
+        ],
+        [
+          "Ethan Wright",
+          "Data Analyst",
+          "Cleaned and normalized spend data across five fiscal quarters for accuracy",
+          "5",
+          "6400"
+        ],
+        [
+          "Linh Tran",
+          "Procurement Consultant",
+          "Facilitated cross-functional workshop to align on sourcing strategy recommendations",
+          "8",
+          "18750"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Hours Spent": 560.5,
+        "max_Hours Spent": 24.0,
+        "min_Hours Spent": 3.0,
+        "sum_Cost Impact (USD)": 2044950.0,
+        "max_Cost Impact (USD)": 300000.0,
+        "min_Cost Impact (USD)": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Cost Impact (USD) for Elena Rodriguez?",
+          "answer": "150000",
+          "assertions": [
+            {
+              "text": "The response must state 150000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", how many Hours Spent are recorded for Sophie Martin?",
+          "answer": "6.5",
+          "assertions": [
+            {
+              "text": "The response must state 6.5."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Role listed for Isabella Rossi in Row 45?",
+          "answer": "Project Manager",
+          "assertions": [
+            {
+              "text": "The response must state Project Manager."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "table",
+      "variant_id": "table_0002_3196a4b0",
+      "table_number": 11,
+      "caption": "Table 11: Demand and performance baseline KPIs (FY2024 actuals) for IT managed services",
+      "columns": [
+        " Demand Driver",
+        "Current Baseline",
+        "Target SLA",
+        "Measurement Method",
+        "Review Cadence",
+        "Business Owner"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Monthly tickets (Service Desk)",
+          "",
+          "≤115,000 through demand reduction initiatives",
+          "ITSM tool ticket volume report",
+          "Monthly",
+          "Head of End User Services"
+        ],
+        [
+          "First Contact Resolution (FCR)",
+          "68%",
+          "≥75%",
+          "ITSM system FCR tracking dashboard",
+          "Monthly",
+          "Service Desk Manager"
+        ],
+        [
+          "Average Speed to Answer (ASA)",
+          "75 seconds",
+          "≤60 seconds",
+          "ACD telephony system reporting",
+          "Weekly",
+          "Service Desk Manager"
+        ],
+        [
+          "P1 incident MTTR",
+          "4.6 hours",
+          "≤3.5 hours",
+          "Incident management system MTTR report",
+          "Per incident & Monthly summary",
+          "Head of Infrastructure Operations"
+        ],
+        [
+          "Endpoint patch compliance (30-day)",
+          "84%",
+          "≥95%",
+          "Endpoint management compliance dashboard",
+          "Monthly",
+          "Endpoint Engineering Lead"
+        ],
+        [
+          "Change success rate",
+          "91%",
+          "≥97%",
+          "Change management system reporting",
+          "Monthly",
+          "IT Operations Director"
+        ],
+        [
+          "P2 per month)",
+          "14",
+          "≤10",
+          "Incident trend analysis report",
+          "Monthly",
+          "Head of Infrastructure Operations"
+        ],
+        [
+          "User satisfaction (CSAT)",
+          "5",
+          "5",
+          "Post-ticket user satisfaction survey",
+          "Monthly",
+          "Customer Experience Lead"
+        ],
+        [
+          "Backlog over 30 days",
+          "2,800 tickets",
+          "≤1,000 tickets",
+          "ITSM backlog aging report",
+          "Bi-weekly",
+          "Service Desk Manager"
+        ],
+        [
+          "Desktop refresh cycle adherence",
+          "78% within 4-year lifecycle",
+          "≥95% adherence",
+          "",
+          "Quarterly",
+          "IT Asset Manager"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Current Baseline": 257.0,
+        "max_Current Baseline": 91.0,
+        "min_Current Baseline": 14.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Demand and performance baseline KPIs (FY2024 actuals) for IT managed services\", what is the Target SLA for First Contact Resolution (FCR)?",
+          "answer": "≥75%",
+          "assertions": [
+            {
+              "text": "The response must state ≥75%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Demand and performance baseline KPIs (FY2024 actuals) for IT managed services\", what is the Review Cadence for P1 incident MTTR?",
+          "answer": "Per incident & Monthly summary",
+          "assertions": [
+            {
+              "text": "The response must state Per incident & Monthly summary."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Demand and performance baseline KPIs (FY2024 actuals) for IT managed services\", who is the Business Owner for User satisfaction (CSAT)?",
+          "answer": "Customer Experience Lead",
+          "assertions": [
+            {
+              "text": "The response must state Customer Experience Lead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "table",
+      "variant_id": "table_0003_8773bb4f",
+      "table_number": 12,
+      "caption": "Table 12: Make-versus-buy decision matrix for core IT managed services towers (2025 recommendation)",
+      "columns": [
+        "Capability",
+        "Key Cost Drivers",
+        "Risk & Service Impact",
+        "Annual Spend (USD)",
+        " KPI",
+        "Current State",
+        "Decision Rationale Summary",
+        "Sourcing Decision"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Service Desk: Buy (outsourced)",
+          "year; 70% L1 resolvable",
+          "Moderate operational risk; improved 24x7 coverage; standardized ITIL processes",
+          "$4,200,000",
+          "5; MTTR <8 hrs",
+          "Fragmented regional teams; high labor cost",
+          "External provider offers scale and multilingual coverage at 22% lower TCO over 3 years.",
+          "Buy (outsourced)"
+        ],
+        [
+          "L2)",
+          "month; automation opportunity 30%",
+          "L2 reduces alert fatigue",
+          "$6,800,000",
+          "P1 response <15 min; availability ≥99.95%",
+          "Internal 24x7 monitoring with skill gaps",
+          "Hybrid model reduces run cost by 18% while safeguarding critical escalation expertise.",
+          "Hybrid"
+        ],
+        [
+          "Endpoint Management: Buy (outsourced)",
+          "45,000 devices; patch cycles quarterly; tool consolidation",
+          "Lower security risk via standardized patch SLA; faster device provisioning",
+          "$3,100,000",
+          "Patch compliance ≥98% within 14 days; build time <2 days",
+          "Decentralized desktop teams; inconsistent aptching",
+          "Managed service reduces per-device cost from $92 to $70 annually and improves compliance.",
+          "Buy (outsourced)"
+        ],
+        [
+          "Cloud Operations: Hybrid (retain FinOps & architecture; outsource run)",
+          "year; 12% waste identified; need 24x7 ops",
+          "Retaining architecture ensures design authority; outsourced run improves elasticity",
+          "$9,500,000",
+          "Cloud cost variance <3%; incident MTTR <1 hr",
+          "Rapid cloud growth; limited cost governance",
+          "Hybrid model targets 15% cloud cost optimization while maintaiinng architectural control.",
+          "Hybrid"
+        ],
+        [
+          "SOC: Make (retain) with selective co-managed tooling",
+          "month; regulatory exposure high",
+          "High data sensitivity; faster incident containment; lower breach risk",
+          "$7,400,000",
+          "Incident containment <30 min; false positive rtae <10%",
+          "Mature internal SOC with Tier 1-3 analysts",
+          "Core security capability retained to mitigate regulatory and IP risk; tooling co-managed for scalability.",
+          "Make (retain)"
+        ],
+        [
+          "Application Development",
+          "Project-based demand; 40% variable workload",
+          "Retain product ownership; outsource commodity builds",
+          "$12,300,000",
+          "On-time delivery ≥90%; defect leakage <3%",
+          "Mixed legacya nd agile teams",
+          "Strategic IP retained internally; partners provide surge capacity reducing backlog by 35%.",
+          "Hybrid"
+        ],
+        [
+          "Data & Analytics Engineering",
+          "aDta volume growth 25% YoY; 60 FTEs",
+          "Sensitive data retained; niche AI skills sourced externally",
+          "$5,600,000",
+          "Dashboard uptime ≥99.9%; model accuracy ≥92%",
+          "Central BI team; skills shortage in AI",
+          "Hybrid model balances data governance risk with innovation speed.",
+          "Hybrid"
+        ],
+        [
+          "Infrastructure Hosting (On-Prem)",
+          "CapEx refresh $20M due 2027; utilization 55%",
+          "Reduced asset risk; improved resiliency Tier III",
+          "$14,800,000",
+          "Power uptime ≥99.98%; cost per VM -20%",
+          "3 data centers; aging hardware",
+          "Outsourcing avoids major CapEx and lowers 5-year TCO by 28%.",
+          "Buy (colocation managed service)"
+        ],
+        [
+          "Network Engineering",
+          "Global MPLS + SDW-AN; 120 sites",
+          "Retain design authority; outsource field maintenance",
+          "$4,900,000",
+          "Network availability ≥99.95%; change succses ≥98%",
+          "Core design internal; WAN managed externally",
+          "Cost neutrality with improved SLA credits and reduced outage minutes by 30%.",
+          "Hybrid"
+        ],
+        [
+          "IT Asset Management",
+          "License true-up risk $3M; 15% unused software",
+          "Reduced compliance risk; automated discovery",
+          "$1,900,000",
+          "License compliance ≥99%; audit findings zero",
+          "Manual tracking; audit findings in 2025",
+          "Specialist provider reduces audit exposure and recovers $1.2M in unused licenses annually.",
+          "Buy (outsourced managed service)"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Annual Spend (USD)": 70500000.0,
+        "max_Annual Spend (USD)": 14800000.0,
+        "min_Annual Spend (USD)": 1900000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Make-versus-buy decision matrix for core IT managed services towers (2025 recommendation)\", what is the Annual Spend (USD) for Cloud Operations?",
+          "answer": "$9,500,000",
+          "assertions": [
+            {
+              "text": "The response must state $9,500,000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Make-versus-buy decision matrix for core IT managed services towers (2025 recommendation)\", what is the Sourcing Decision for Infrastructure Hosting (On-Prem)?",
+          "answer": "Buy (colocation managed service)",
+          "assertions": [
+            {
+              "text": "The response must state Buy (colocation managed service)."
+            }
+          ]
+        },
+        {
+          "question": " KPI listed for SOC regarding false positive rate?",
+          "answer": "false positive rtae <10%",
+          "assertions": [
+            {
+              "text": "The response must state false positive rtae <10%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "checklist",
+      "variant_id": "checklist_0000_0d5a48c7",
+      "title": "Raw Steel Category Sourcing Strategy Checklist",
+      "caption": "Raw Steel Category Sourcing Strategy Checklist",
+      "total_items": 10,
+      "checked_count": 6,
+      "unchecked_count": 4,
+      "completion_rate_pct": 60.0,
+      "checked_items": [
+        "Collect and reconcile 24 months of transactional spend data broken down by SKU, plant, and supplier for the raw steel category",
+        "Segment spend into subcategories (hot‑rolled, cold‑rolled, specialty alloys) and quantify annualized spend per segment",
+        "Perform supplier concentration analysis to identify top 10 suppliers by spend and assess single‑source and country‑of‑origin exposures",
+        "Engage cross‑functional stakeholders (operations, QA, engineering, finance) to validate tolerances, quality specs, and internal capacity inputs for make‑vs‑buy analysis",
+        "Define preferred supplier selection criteria covering quality score thresholds, on‑time delivery targets, financial stability metrics, sustainability certifications, and corrective action responsiveness",
+        "penalty language"
+      ],
+      "unchecked_items": [
+        "Develop cost build‑up and price trend model to estimate landed cost, duty impacts, and identify cyclical pricing risks",
+        "milling capacity versus purchasing finished coils, including TCO and lead‑time scenarios",
+        "Run supplier commercial evaluation and scorecard workshop with procurement, operations, and legal to shortlist suppliers for negotiation and pilot orders",
+        "Prepare implementation plan with pilot order schedule, transition timelines, KPI monitoring (OTD, quality PPM, cost savings), and contract signature milestones"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Raw Steel Category Sourcing Strategy Checklist' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Raw Steel Category Sourcing Strategy Checklist', how many items are marked as completed?",
+          "answer": "6",
+          "assertions": [
+            {
+              "text": "The response must state '6'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Raw Steel Category Sourcing Strategy Checklist', provide one task that remains unchecked.",
+          "answer": "Prepare implementation plan with pilot order schedule, transition timelines, KPI monitoring (OTD, quality PPM, cost savings), and contract signature milestones",
+          "assertions": [
+            {
+              "text": "The response must state 'Prepare implementation plan with pilot order schedule, transition timelines, KPI monitoring (OTD, quality PPM, cost savings), and contract signature milestones'."
+            }
+          ]
+        },
+        {
+          "question": "What completion rate percentage is shown on the 'Raw Steel Category Sourcing Strategy Checklist'?",
+          "answer": "60.0",
+          "assertions": [
+            {
+              "text": "The response must state '60.0'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "filled_fillable",
+      "variant_id": "filled_fillable_0001_e9f67b69",
+      "title": "Procurement Sourcing Strategy Approval Form",
+      "caption": "Procurement Sourcing Strategy Approval Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 12,
+      "sections": [
+        "Category Overview & Spend Analysis",
+        "Make-or-Buy Assessment",
+        "Preferred Supplier Selection Criteria",
+        "Contracting & Governance Approach"
+      ],
+      "required_fields": [
+        "Spend Category Name",
+        "Business Unit",
+        "Annual Spend (USD)",
+        "Current Sourcing Model",
+        "Strategic Recommendation",
+        "Total Cost of Ownership Analysis Summary",
+        "Sourcing Method",
+        "Number of Suppliers Evaluated",
+        "Preferred Supplier Name",
+        "Proposed Contract Type",
+        "Initial Contract Term (Years)",
+        "Key Performance Indicators (KPIs) Summary"
+      ],
+      "description": "",
+      "form_number": "PROC-STRAT-2026-014",
+      "instructions": "Complete all required fields with detailed and accurate information regarding the sourcing strategy for the specified spend category. Submit the finalized form with supporting analysis to the Procurement Governance Committee for review and approval.",
+      "filled": true,
+      "fill_style": {
+        "font_family": "Courier, monospace",
+        "ink_color": "#004d66",
+        "font_size_pt": 9.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the 'Procurement Sourcing Strategy Approval Form', what is the form number shown on the document?",
+          "answer": "PROC-STRAT-2026-014",
+          "assertions": [
+            {
+              "text": "The response must state 'PROC-STRAT-2026-014'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Procurement Sourcing Strategy Approval Form', how many sections does the form contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Procurement Sourcing Strategy Approval Form', which heading appears as the third section?",
+          "answer": "Preferred Supplier Selection Criteria",
+          "assertions": [
+            {
+              "text": "The response must state 'Preferred Supplier Selection Criteria'."
+            }
+          ]
+        },
+        {
+          "question": "When viewing the 'Procurement Sourcing Strategy Approval Form', how many required fields are indicated as needing completion?",
+          "answer": "12",
+          "assertions": [
+            {
+              "text": "The response must state '12'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "fillable_form",
+      "variant_id": "fillable_0001_aadba698",
+      "title": "Strategic Procurement Sourcing Strategy Form",
+      "caption": "Strategic Procurement Sourcing Strategy Form",
+      "section_count": 4,
+      "field_count": 20,
+      "required_field_count": 13,
+      "sections": [
+        "Category Overview & Spend Analysis",
+        "Make-versus-Buy Assessment",
+        "Preferred Supplier Selection Criteria",
+        "Contracting & Risk Management Approach"
+      ],
+      "required_fields": [
+        "Spend Category Name",
+        "Business Unit",
+        "Total Annual Spend (USD)",
+        "Spend Analysis Period (Start Date)",
+        "Current Sourcing Model",
+        "Internal Capability Assessment Summary",
+        "Recommended Sourcing Approach (Make or Buy)",
+        "Supplier Evaluation Methodology",
+        "Technical Capability Requirements",
+        "Weighting of Commercial Criteria (%)",
+        "Proposed Contract Type",
+        "Contract Term (Years)",
+        "Key Performance Indicators (KPIs) Defined"
+      ],
+      "description": "",
+      "form_number": "PROC-SS-2026-01",
+      "instructions": "Complete all applicable sections to document the sourcing strategy for the specified spend category. Submit the finalized form with supporting analysis to the Procurement Governance Committee for review and approval.",
+      "qa_candidates": [
+        {
+          "question": "What form number is shown on the 'Strategic Procurement Sourcing Strategy Form'?",
+          "answer": "PROC-SS-2026-01",
+          "assertions": [
+            {
+              "text": "The response must state 'PROC-SS-2026-01'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Strategic Procurement Sourcing Strategy Form', how many sections does the form contain?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Strategic Procurement Sourcing Strategy Form', what is the title of the first section listed?",
+          "answer": "Category Overview & Spend Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Category Overview & Spend Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Strategic Procurement Sourcing Strategy Form', how many required fields are specified?",
+          "answer": "13",
+          "assertions": [
+            {
+              "text": "The response must state '13'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Strategic Procurement Sourcing Strategy Form', which required field asks for the total annual expenditure in US dollars?",
+          "answer": "Total Annual Spend (USD)",
+          "assertions": [
+            {
+              "text": "The response must state 'Total Annual Spend (USD)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "checklist",
+      "variant_id": "checklist_0001_d3280a50",
+      "title": "Enterprise Networking Hardware & Services Sourcing Strategy Checklist",
+      "caption": "Enterprise Networking Hardware & Services Sourcing Strategy Checklist",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Conduct detailed category spend analysis for the past 36 months, segmented by business unit, supplier, commodity, and primary cost drivers",
+        "Validate and reconcile spend data sources by matching procurement system transactions to AP records and vendor invoices",
+        "Perform a make-versus-buy assessment by building a total-cost-of-ownership (TCO) model comparing in-house delivery, third-party managed services, and hybrid options",
+        "Define preferred supplier selection criteria that combine technical capability, financial stability, delivery lead times, sustainability metrics, and commercial competitiveness",
+        "transition clauses"
+      ],
+      "unchecked_items": [
+        "Model demand scenarios and forecast expected category spend for the next 24 months, including planned projects and refresh cycles",
+        "Assess operational and strategic risks for each sourcing option, including service continuity, vendor concentration, and regulatory compliance impacts",
+        "Prepare a supplier evaluation matrix and shortlist vendors using weighted scoring aligned to the defined selection criteria",
+        "Develop a negotiation playbook outlining target savings, allowable concessions, pricing guardrails, and clauses to protect intellectual property and data security",
+        "Establish an implementation and transition roadmap with milestones, resource assignments, KPI targets for the first 12 months, and contract compliance check cadence"
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'Enterprise Networking Hardware & Services Sourcing Strategy Checklist', how many items are listed in total?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Enterprise Networking Hardware & Services Sourcing Strategy Checklist', how many items are marked as completed?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Enterprise Networking Hardware & Services Sourcing Strategy Checklist', name one item that is not yet checked.",
+          "answer": "Assess operational and strategic risks for each sourcing option, including service continuity, vendor concentration, and regulatory compliance impacts",
+          "assertions": [
+            {
+              "text": "The response must state 'Assess operational and strategic risks for each sourcing option, including service continuity, vendor concentration, and regulatory compliance impacts'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Enterprise Networking Hardware & Services Sourcing Strategy Checklist', what is the completion rate percentage shown?",
+          "answer": "50.0%",
+          "assertions": [
+            {
+              "text": "The response must state '50.0%'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "form",
+      "variant_id": "form_0001_e60eb631",
+      "title": "Procurement Sourcing Strategy Document – Major Spend Category",
+      "caption": "Procurement Sourcing Strategy Document – Major Spend Category",
+      "section_count": 3,
+      "field_count": 15,
+      "required_field_count": 10,
+      "sections": [
+        "Category Overview & Spend Analysis",
+        "Make-versus-Buy Assessment",
+        "Supplier Selection & Contracting Strategy"
+      ],
+      "required_fields": [
+        "Spend Category Name",
+        "Business Unit(s) Impacted",
+        "Total Annual Spend (USD)",
+        "Spend Trend Over Last 3 Years",
+        "Current Sourcing Model",
+        "Strategic Importance to Core Business",
+        "Recommended Sourcing Approach",
+        "Preferred Supplier Selection Criteria",
+        "Contract Duration",
+        "Key Contractual Risks and Mitigation Measures"
+      ],
+      "description": "Complete this form to define the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.",
+      "qa_candidates": [
+        {
+          "question": "When viewing the 'Procurement Sourcing Strategy Document – Major Spend Category' form as a PDF, what is the instruction or description text shown to users?",
+          "answer": "Complete this form to define the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.",
+          "assertions": [
+            {
+              "text": "The response must state 'Complete this form to define the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Procurement Sourcing Strategy Document – Major Spend Category', how many sections are displayed on the form?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Procurement Sourcing Strategy Document – Major Spend Category' form, what is the name of the first visible section?",
+          "answer": "Category Overview & Spend Analysis",
+          "assertions": [
+            {
+              "text": "The response must state 'Category Overview & Spend Analysis'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Procurement Sourcing Strategy Document – Major Spend Category' form as shown in the PDF, how many fields are required to be completed?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "table_0001_93ddbfff": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Shows_how_spend_is_distributed_across_suppliers_and_the_oper",
+      "row_count": 8,
+      "col_count": 3,
+      "columns": [
+        "Metric",
+        "Value",
+        "Insight"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "cx_table_0003_ca954eaa": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 11,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "form_0000_c2f6e3b6": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "fillable_0000_739bf5dd": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "cx_table_0002_2408d357": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "checklist_0002_9539d924": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "table_0005_b84e02af": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Specifies_the_contracting_structure,_term,_pricing_model,_an",
+      "row_count": 11,
+      "col_count": 6,
+      "columns": [
+        "Element",
+        "Description",
+        "Key Terms",
+        "Owner",
+        "Effective Date",
+        "Status"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "table_0004_f03ab6bd": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Defines_objective,_weighted_criteria_to_select_a_3-supplier_",
+      "row_count": 10,
+      "col_count": 6,
+      "columns": [
+        "Evaluation area",
+        "Weight",
+        "5)",
+        "5)",
+        "5)",
+        "Weighted impact on panel selection"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "llm_mp_table_0001_38de400b": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "project_milestone_tracker",
+      "row_count": 66,
+      "col_count": 5,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "topic_id": ""
+    },
+    "text_0001_6b911008": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats"
+      ],
+      "heading": "Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)",
+      "word_count": 213,
+      "text_type": "llm_prose",
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "form_0002_ecbc0dc6": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0000_41f57148": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)",
+      "word_count": 224,
+      "text_type": "llm_prose",
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "table_0000_c91133af": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Quantifies_the_spend_baseline_and_highlights_the_highest-imp",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Subcategory",
+        "Annual Spend (USD)",
+        "% of Total Category Spend",
+        "Active Suppliers",
+        "Sourcing Priority"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "cx_table_0000_089c0672": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "filled_fillable_0000_6ebc53d3": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "cx_table_0001_cec758e1": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 24,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "llm_mp_table_0000_23b44fc5": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "employee_activity_report",
+      "row_count": 67,
+      "col_count": 5,
+      "columns": [
+        "Employee Name",
+        "Role",
+        "Activity Description",
+        "Hours Spent",
+        "Cost Impact (USD)"
+      ],
+      "topic_id": ""
+    },
+    "table_0002_3196a4b0": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "formatting"
+      ],
+      "base_type": "Establishes_measurable_service_and_demand_drivers_that_will_",
+      "row_count": 10,
+      "col_count": 6,
+      "columns": [
+        " Demand Driver",
+        "Current Baseline",
+        "Target SLA",
+        "Measurement Method",
+        "Review Cadence",
+        "Business Owner"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "table_0003_8773bb4f": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "noise"
+      ],
+      "base_type": "Documents_which_capabilities_should_be_retained_in-house_ver",
+      "row_count": 10,
+      "col_count": 8,
+      "columns": [
+        "Capability",
+        "Key Cost Drivers",
+        "Risk & Service Impact",
+        "Annual Spend (USD)",
+        " KPI",
+        "Current State",
+        "Decision Rationale Summary",
+        "Sourcing Decision"
+      ],
+      "topic_id": "procurement_sourcing_strategy"
+    },
+    "checklist_0000_0d5a48c7": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "filled_fillable_0001_e9f67b69": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "fillable_0001_aadba698": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0001_d3280a50": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "form_0001_e60eb631": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "scan_llm_0000_973963f9": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_ba19a20f.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Value for \"Total annual category spend (FY2025)\"?",
+      "answer": "USD 48.6M",
+      "assertions": [
+        {
+          "text": "The response must state USD 48.6M."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Insight for \"Top supplier share of spend\"?",
+      "answer": "No snigle strategic partner; limited leverage concentration",
+      "assertions": [
+        {
+          "text": "The response must state No snigle strategic partner; limited leverage concentration."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 supplier concentration and fragmentation metrics for IT managed services\", what is the Value for \"Contracts expiring within 12 months\"?",
+      "answer": "7 (41%)",
+      "assertions": [
+        {
+          "text": "The response must state 7 (41%)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", which groups fall under the \"Spend & Demand Baseline\" super-group?",
+      "answer": "Category Spend; Make vs Buy.",
+      "assertions": [
+        {
+          "text": "The response must state 'Category Spend; Make vs Buy.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", how many leaf metric columns does the \"Sourcing & Contracting Outcomes\" super-group contain?",
+      "answer": "4 leaf metric columns.",
+      "assertions": [
+        {
+          "text": "The response must state '4 leaf metric columns.'."
+        }
+      ]
+    },
+    {
+      "question": " Preferred Supplier Fit?",
+      "answer": "100.",
+      "assertions": [
+        {
+          "text": "100.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", what is the grand total \"Value\" for the \"Spend & Demand Baseline\" super-group (Category Spend)?",
+      "answer": "$105.4M.",
+      "assertions": [
+        {
+          "text": "The response must state '$105.4M.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", which group shows the highest \"Chg %\" change for \"TOTAL\"?",
+      "answer": "Contracting Approach (+6.7%).",
+      "assertions": [
+        {
+          "text": "The response must state 'Contracting Approach (+6.7%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", how many data rows are in the table?",
+      "answer": "11",
+      "assertions": [
+        {
+          "text": "The response must state '11'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", which columns fall under the 'Spend & Demand Baseline' header?",
+      "answer": "Category Spend; Make vs Buy",
+      "assertions": [
+        {
+          "text": "The response must state 'Category Spend; Make vs Buy'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", which is larger: the number of data rows or the number of header tiers?",
+      "answer": "Data rows: 11; header tiers: 3",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows: 11; header tiers: 3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", what does the table's annotation explain?",
+      "answer": "Extraction of merged cell values",
+      "assertions": [
+        {
+          "text": "The response must state 'Extraction of merged cell values'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Metrics — IT Managed Services Category (Spend, Make-vs-Buy, Supplier Selection, Contracting)\", what is the subtotal for the leaf metric columns?",
+      "answer": "4 leaf metric columns",
+      "assertions": [
+        {
+          "text": "The response must state '4 leaf metric columns'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Procurement Sourcing Strategy Document – Major Spend Category' as a PDF, what descriptive instructions are provided to guide completion of the form?",
+      "answer": "Complete all relevant fields to document the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete all relevant fields to document the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Procurement Sourcing Strategy Document – Major Spend Category', how many sections does the document contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Procurement Sourcing Strategy Document – Major Spend Category' PDF, what is the name of the first section listed?",
+      "answer": "Category Spend Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Category Spend Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Procurement Sourcing Strategy Document – Major Spend Category', how many fields are marked as required?",
+      "answer": "8",
+      "assertions": [
+        {
+          "text": "The response must state '8'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Strategic Sourcing & Procurement Strategy Form', what form number is shown?",
+      "answer": "PROC-SS-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'PROC-SS-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Strategic Sourcing & Procurement Strategy Form', how many sections are included?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Strategic Sourcing & Procurement Strategy Form', what is the title of the first section?",
+      "answer": "Category Overview & Spend Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Category Overview & Spend Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "When filling out the 'Strategic Sourcing & Procurement Strategy Form', how many fields are marked required?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "How many dropdown fields does the 'Strategic Sourcing & Procurement Strategy Form' include?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", what sub-columns fall under the grouped header \"FY2026 Plan\" in the inner spend breakdown table for the \"WAN & Internet Connectivity\" row?",
+      "answer": "Spend (USD M) and % of Category.",
+      "assertions": [
+        {
+          "text": "The response must state 'Spend (USD M) and % of Category.'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", how many rows does the \"Carrier sourcing & contracting\" label span in the inner make-vs-buy & preferred suppliers table for the \"WAN & Internet Connectivity\" row?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", what does footnote 1 explain?",
+      "answer": "It explains that connectivity spend excludes one-time construction charges (NRCs) for new building turn-ups, which are budgeted in CapEx under Facilities.",
+      "assertions": [
+        {
+          "text": "The response must state 'It explains that connectivity spend excludes one-time construction charges (NRCs) for new building turn-ups, which are budgeted in CapEx under Facilities.'."
+        }
+      ]
+    },
+    {
+      "question": " Broadband\" in the inner subcategory mix table for the \"WAN & Internet Connectivity\" row?",
+      "answer": "21.7.",
+      "assertions": [
+        {
+          "text": "The response must state '21.7.'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", what decision is shown on the first line where \"Carrier sourcing & contracting\" appears in the inner make-vs-buy & preferred suppliers table for the \"WAN & Internet Connectivity\" row?",
+      "answer": "Make.",
+      "assertions": [
+        {
+          "text": "The response must state 'Make.'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", what does the 'Category Spend & Drivers' column display?",
+      "answer": "Spend (USD M) and % of Category.",
+      "assertions": [
+        {
+          "text": "The response must state 'Spend (USD M) and % of Category.'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", how many header rows are present?",
+      "answer": "2 rows",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", which has the highest count: header rows or data rows?",
+      "answer": "Data rows (5)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (5)'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", what does the footnote explain about connectivity spend?",
+      "answer": "Connectivity spend excludes one-time construction charges (NRCs); budgeted in CapEx.",
+      "assertions": [
+        {
+          "text": "The response must state 'Connectivity spend excludes one-time construction charges (NRCs); budgeted in CapEx.'."
+        }
+      ]
+    },
+    {
+      "question": "Buy, Supplier Selection, and Contracting Approach\", what is the subtotal count for the 'Header row 1 cells' group?",
+      "answer": "4 header cells",
+      "assertions": [
+        {
+          "text": "The response must state '4 header cells'."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Enterprise Cloud Services Sourcing Strategy Checklist' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "What completion rate is displayed on the 'Enterprise Cloud Services Sourcing Strategy Checklist'?",
+      "answer": "60.0%",
+      "assertions": [
+        {
+          "text": "The response must state '60.0%'."
+        }
+      ]
+    },
+    {
+      "question": "Name one item that is marked as checked on the 'Enterprise Cloud Services Sourcing Strategy Checklist'.",
+      "answer": "SaaS), and contract to identify top 80% spend drivers",
+      "assertions": [
+        {
+          "text": "SaaS), and contract to identify top 80% spend drivers'."
+        }
+      ]
+    },
+    {
+      "question": "Provide one item that remains unchecked on the 'Enterprise Cloud Services Sourcing Strategy Checklist'.",
+      "answer": "RFP plan targeting hyperscalers and specialized providers with timeline, evaluation templates, and supplier engagement rules",
+      "assertions": [
+        {
+          "text": "RFP plan targeting hyperscalers and specialized providers with timeline, evaluation templates, and supplier engagement rules'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Contracting approach summary for consolidated IT managed services (MSA + tower SOWs)\", what is the Effective Date for the Governance Structure element?",
+      "answer": "01-Feb-2024",
+      "assertions": [
+        {
+          "text": "The response must state 01-Feb-2024."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Contracting approach summary for consolidated IT managed services (MSA + tower SOWs)\", what is the Key Terms entry for Renewal Options?",
+      "answer": "Renewal options: 2 x 12 months",
+      "assertions": [
+        {
+          "text": "The response must state Renewal options: 2 x 12 months."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Contracting approach summary for consolidated IT managed services (MSA + tower SOWs)\", who is listed as the Owner for Benchmarking Clause?",
+      "answer": "Legal",
+      "assertions": [
+        {
+          "text": "The response must state Legal."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Preferred supplier selection scorecard criteria and weights for IT managed services RFP\", what is the weight assigned to \"Service delivery & SLA track record (weight)\"?",
+      "answer": "25%",
+      "assertions": [
+        {
+          "text": "The response must state 25%."
+        }
+      ]
+    },
+    {
+      "question": "5) for \"Innovation & automation roadmap (weight)\"?",
+      "answer": "4.8",
+      "assertions": [
+        {
+          "text": "The response must state 4.8."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Preferred supplier selection scorecard criteria and weights for IT managed services RFP\", what is the panel award decision for Supplier A under \"Panel award decision & contracting approach\"?",
+      "answer": "Primary supplier (40% allocation)",
+      "assertions": [
+        {
+          "text": "The response must state Primary supplier (40% allocation)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the status listed for the milestone \"Validate supplier master data accuracy\"?",
+      "answer": "In Progress",
+      "assertions": [
+        {
+          "text": "The response must state In Progress."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the end date shown for \"Category Spend Data Collection\"?",
+      "answer": "2026-02-02",
+      "assertions": [
+        {
+          "text": "The response must state 2026-02-02."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", who is responsible for \"Review risk mitigation strategies with Legal\"?",
+      "answer": "Procurement Legal Advisor",
+      "assertions": [
+        {
+          "text": "The response must state Procurement Legal Advisor."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)\" section, what annual run-rate savings target is projected by Q4 2026?",
+      "answer": "USD 6.3M annual run‑rate savings",
+      "assertions": [
+        {
+          "text": "The response must state USD 6.3M annual run‑rate savings."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)\" section, by what date will the preferred supplier panel be reduced to 3 suppliers?",
+      "answer": "30‑Sep‑2025",
+      "assertions": [
+        {
+          "text": "The response must state 30‑Sep‑2025."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Make-versus-Buy Recommendation, Preferred Supplier Criteria, and Contracting Approach (2025–2026)\" section, what percentage of the pricing mix is allocated to the fixed retainer?",
+      "answer": "80% fixed retainer",
+      "assertions": [
+        {
+          "text": "The response must state 80% fixed retainer."
+        }
+      ]
+    },
+    {
+      "question": "What does the description text on the 'Procurement Sourcing Strategy Document – Major Spend Category' form say?",
+      "answer": "Complete this form to document the sourcing strategy, financial analysis, and supplier selection approach for the identified major spend category.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to document the sourcing strategy, financial analysis, and supplier selection approach for the identified major spend category.'"
+        }
+      ]
+    },
+    {
+      "question": "How many sections does the 'Procurement Sourcing Strategy Document – Major Spend Category' form contain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Procurement Sourcing Strategy Document – Major Spend Category' form, what is the name of the second section as shown on the rendered form?",
+      "answer": "Make-versus-Buy Assessment",
+      "assertions": [
+        {
+          "text": "The response must state 'Make-versus-Buy Assessment'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Procurement Sourcing Strategy Document – Major Spend Category', how many fields are required on the form?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)\" section, what was the FY2024 baseline expenditure for IT managed services?",
+      "answer": "USD 48.6M",
+      "assertions": [
+        {
+          "text": "The response must state USD 48.6M."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)\" section, how many active suppliers are supporting the estate?",
+      "answer": "17 active suppliers",
+      "assertions": [
+        {
+          "text": "The response must state 17 active suppliers."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Category Spend Baseline and Demand Drivers for IT Managed Services (FY2024–FY2025)\" section, what efficiency improvement in run-costs is targeted by corporate finance?",
+      "answer": "5–8% efficiency improvement in run-costs",
+      "assertions": [
+        {
+          "text": "The response must state 5–8% efficiency improvement in run-costs."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 IT managed services spend by subcategory (USD, millions)\", what is the Annual Spend (USD) for Service Desk?",
+      "answer": "USD 14.2M",
+      "assertions": [
+        {
+          "text": "The response must state USD 14.2M."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 IT managed services spend by subcategory (USD, millions)\", how many Active Suppliers are listed for Cloud Operations?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state 3."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024 IT managed services spend by subcategory (USD, millions)\", what is the Sourcing Priority for Security Operations (SOC)?",
+      "answer": "Medium",
+      "assertions": [
+        {
+          "text": "The response must state Medium."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", how many sub-columns does each period group span?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what is the H1 Attainment% for \"Sourced savings realized (contracted + demand)\"?",
+      "answer": "91%",
+      "assertions": [
+        {
+          "text": "The response must state '91%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", how many metrics does the \"Spend & Savings\" category rowspan cover?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", which metric has the lower H2 attainment in the \"Supplier Performance\" category?",
+      "answer": "Ticket backlog aging (>%7 days)",
+      "assertions": [
+        {
+          "text": "The response must state 'Ticket backlog aging (>%7 days)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what is the H2 target for \"Preferred supplier utilization (top-2 share of outsourced spend)\"?",
+      "answer": "$41.0M",
+      "assertions": [
+        {
+          "text": "The response must state '$41.0M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what value is shown for the first listed QA candidate?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", how many header tiers are present in the table?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", which listed candidate value is the highest among the shown QA answers?",
+      "answer": "91%",
+      "assertions": [
+        {
+          "text": "The response must state '91%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what does footnote 1 explain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Sourcing Strategy Heatmap Pivot — IT Managed Services (Run, Service Desk & End-User Support) Spend Category\", what is the total number of data rows for the spend category?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state '16'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Strategic Sourcing and Procurement Strategy Form', what is the form number printed on the form?",
+      "answer": "PROC-SS-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'PROC-SS-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Strategic Sourcing and Procurement Strategy Form', which heading appears as the second section?",
+      "answer": "Make-versus-Buy Assessment",
+      "assertions": [
+        {
+          "text": "The response must state 'Make-versus-Buy Assessment'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Strategic Sourcing and Procurement Strategy Form', how many fields are marked required?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Strategic Sourcing and Procurement Strategy Form', how is the form type labeled?",
+      "answer": "filled_fillable",
+      "assertions": [
+        {
+          "text": "The response must state 'filled_fillable'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", how many period columns does each version group span?",
+      "answer": "Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).",
+      "assertions": [
+        {
+          "text": "The response must state 'Each version group (Baseline and Actuals) spans 4 period columns (Q1–Q4).'."
+        }
+      ]
+    },
+    {
+      "question": "Storage)\"?",
+      "answer": "2,240 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '2,240 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what is the \"Software & Cloud Subscriptions Subtotal\" for Baseline Q1?",
+      "answer": "5,500 ($000).",
+      "assertions": [
+        {
+          "text": "The response must state '5,500 ($000).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", which version shows the highest Q4 value for \"Application Development (Agile squads)\"?",
+      "answer": "Actuals has the higher Q4 value (2,780 vs 2,550 in Baseline).",
+      "assertions": [
+        {
+          "text": "The response must state 'Actuals has the higher Q4 value (2,780 vs 2,550 in Baseline).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what is the delta (Net $K) for \"Managed Services Subtotal\"?",
+      "answer": "390.",
+      "assertions": [
+        {
+          "text": "The response must state '390.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what is one of the numeric totals listed in the table?",
+      "answer": "2,240 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '2,240 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", how many header tiers are present?",
+      "answer": "3 rows",
+      "assertions": [
+        {
+          "text": "The response must state '3 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", which of the two listed totals is larger, 2,240 or 5,500?",
+      "answer": "5,500 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '5,500 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what does footnote 1 explain?",
+      "answer": "Each version group spans Q1–Q4",
+      "assertions": [
+        {
+          "text": "The response must state 'Each version group spans Q1–Q4'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Major Spend Category Sourcing Strategy — IT Services Spend (Baseline vs Actuals, Quarterly, $000)\", what is the subtotal shown for the Actuals group?",
+      "answer": "5,500 ($000)",
+      "assertions": [
+        {
+          "text": "The response must state '5,500 ($000)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Cost Impact (USD) for Elena Rodriguez?",
+      "answer": "150000",
+      "assertions": [
+        {
+          "text": "The response must state 150000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", how many Hours Spent are recorded for Sophie Martin?",
+      "answer": "6.5",
+      "assertions": [
+        {
+          "text": "The response must state 6.5."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the Role listed for Isabella Rossi in Row 45?",
+      "answer": "Project Manager",
+      "assertions": [
+        {
+          "text": "The response must state Project Manager."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Demand and performance baseline KPIs (FY2024 actuals) for IT managed services\", what is the Target SLA for First Contact Resolution (FCR)?",
+      "answer": "≥75%",
+      "assertions": [
+        {
+          "text": "The response must state ≥75%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Demand and performance baseline KPIs (FY2024 actuals) for IT managed services\", what is the Review Cadence for P1 incident MTTR?",
+      "answer": "Per incident & Monthly summary",
+      "assertions": [
+        {
+          "text": "The response must state Per incident & Monthly summary."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Demand and performance baseline KPIs (FY2024 actuals) for IT managed services\", who is the Business Owner for User satisfaction (CSAT)?",
+      "answer": "Customer Experience Lead",
+      "assertions": [
+        {
+          "text": "The response must state Customer Experience Lead."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Make-versus-buy decision matrix for core IT managed services towers (2025 recommendation)\", what is the Annual Spend (USD) for Cloud Operations?",
+      "answer": "$9,500,000",
+      "assertions": [
+        {
+          "text": "The response must state $9,500,000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Make-versus-buy decision matrix for core IT managed services towers (2025 recommendation)\", what is the Sourcing Decision for Infrastructure Hosting (On-Prem)?",
+      "answer": "Buy (colocation managed service)",
+      "assertions": [
+        {
+          "text": "The response must state Buy (colocation managed service)."
+        }
+      ]
+    },
+    {
+      "question": " KPI listed for SOC regarding false positive rate?",
+      "answer": "false positive rtae <10%",
+      "assertions": [
+        {
+          "text": "The response must state false positive rtae <10%."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Raw Steel Category Sourcing Strategy Checklist' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Raw Steel Category Sourcing Strategy Checklist', how many items are marked as completed?",
+      "answer": "6",
+      "assertions": [
+        {
+          "text": "The response must state '6'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Raw Steel Category Sourcing Strategy Checklist', provide one task that remains unchecked.",
+      "answer": "Prepare implementation plan with pilot order schedule, transition timelines, KPI monitoring (OTD, quality PPM, cost savings), and contract signature milestones",
+      "assertions": [
+        {
+          "text": "The response must state 'Prepare implementation plan with pilot order schedule, transition timelines, KPI monitoring (OTD, quality PPM, cost savings), and contract signature milestones'."
+        }
+      ]
+    },
+    {
+      "question": "What completion rate percentage is shown on the 'Raw Steel Category Sourcing Strategy Checklist'?",
+      "answer": "60.0",
+      "assertions": [
+        {
+          "text": "The response must state '60.0'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Procurement Sourcing Strategy Approval Form', what is the form number shown on the document?",
+      "answer": "PROC-STRAT-2026-014",
+      "assertions": [
+        {
+          "text": "The response must state 'PROC-STRAT-2026-014'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Procurement Sourcing Strategy Approval Form', how many sections does the form contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Procurement Sourcing Strategy Approval Form', which heading appears as the third section?",
+      "answer": "Preferred Supplier Selection Criteria",
+      "assertions": [
+        {
+          "text": "The response must state 'Preferred Supplier Selection Criteria'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Procurement Sourcing Strategy Approval Form', how many required fields are indicated as needing completion?",
+      "answer": "12",
+      "assertions": [
+        {
+          "text": "The response must state '12'."
+        }
+      ]
+    },
+    {
+      "question": "What form number is shown on the 'Strategic Procurement Sourcing Strategy Form'?",
+      "answer": "PROC-SS-2026-01",
+      "assertions": [
+        {
+          "text": "The response must state 'PROC-SS-2026-01'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Strategic Procurement Sourcing Strategy Form', how many sections does the form contain?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Strategic Procurement Sourcing Strategy Form', what is the title of the first section listed?",
+      "answer": "Category Overview & Spend Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Category Overview & Spend Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Strategic Procurement Sourcing Strategy Form', how many required fields are specified?",
+      "answer": "13",
+      "assertions": [
+        {
+          "text": "The response must state '13'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Strategic Procurement Sourcing Strategy Form', which required field asks for the total annual expenditure in US dollars?",
+      "answer": "Total Annual Spend (USD)",
+      "assertions": [
+        {
+          "text": "The response must state 'Total Annual Spend (USD)'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Enterprise Networking Hardware & Services Sourcing Strategy Checklist', how many items are listed in total?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Enterprise Networking Hardware & Services Sourcing Strategy Checklist', how many items are marked as completed?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Enterprise Networking Hardware & Services Sourcing Strategy Checklist', name one item that is not yet checked.",
+      "answer": "Assess operational and strategic risks for each sourcing option, including service continuity, vendor concentration, and regulatory compliance impacts",
+      "assertions": [
+        {
+          "text": "The response must state 'Assess operational and strategic risks for each sourcing option, including service continuity, vendor concentration, and regulatory compliance impacts'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Enterprise Networking Hardware & Services Sourcing Strategy Checklist', what is the completion rate percentage shown?",
+      "answer": "50.0%",
+      "assertions": [
+        {
+          "text": "The response must state '50.0%'."
+        }
+      ]
+    },
+    {
+      "question": "When viewing the 'Procurement Sourcing Strategy Document – Major Spend Category' form as a PDF, what is the instruction or description text shown to users?",
+      "answer": "Complete this form to define the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.",
+      "assertions": [
+        {
+          "text": "The response must state 'Complete this form to define the sourcing strategy, financial analysis, supplier selection criteria, and contracting approach for the specified major spend category.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Procurement Sourcing Strategy Document – Major Spend Category', how many sections are displayed on the form?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Procurement Sourcing Strategy Document – Major Spend Category' form, what is the name of the first visible section?",
+      "answer": "Category Overview & Spend Analysis",
+      "assertions": [
+        {
+          "text": "The response must state 'Category Overview & Spend Analysis'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Procurement Sourcing Strategy Document – Major Spend Category' form as shown in the PDF, how many fields are required to be completed?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    }
+  ]
+}

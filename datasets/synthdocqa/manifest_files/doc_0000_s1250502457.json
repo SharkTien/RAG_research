@@ -1,0 +1,2656 @@
+{
+  "doc_id": "doc_0000_s1250502457",
+  "title": "Cloud Migration Programme Status Report: Workload Migration Progress, Cost Optimisation vs On‑Premises Baseline, Operational Readiness and Next‑Phase Planning",
+  "subtitle": "Cloud Migration Programme Status — Workload Progress | Cost Optimisation vs On‑Prem | Operational Readiness & Next Steps",
+  "topic_id": "cloud_migration_programme",
+  "recipe_name": "ui_forms",
+  "seed": 1250502457,
+  "document_brief": {
+    "narrative_theme": "This status report shows how the Horizon Cloud Migration Programme is progressing against workload migration milestones while improving unit cost versus the on‑prem baseline, validating operational readiness, and locking the next phase plan.",
+    "sections": [
+      {
+        "heading": "Migration Delivery Status and Workload Cutover Progress (Wave 1–2)",
+        "key_facts": [
+          "As of 2026-04-30, 38 of 60 workloads (63%) have been migrated to AWS.",
+          "Wave 2 cutovers ran from 2026-03-04 to 2026-04-18 with 14 successful production cutovers.",
+          "There are 3 blocked workloads: CRM-Reporting, SAP-PI, and DataLake-ETL."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1"
+        ]
+      },
+      {
+        "heading": "Cost Optimisation vs On‑Prem Baseline, Operational Readiness, and Phase 3 Plan",
+        "key_facts": [
+          "month (17%) as of 2026-04-30.",
+          "month in savings, including 22% coverage via Reserved Instances and 68% coverage via Savings Plans as of 2026-04-30.",
+          "No-Go review scheduled for 2026-05-15."
+        ],
+        "data_references": [
+          "table_2",
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Workload migration tracker by wave and current status (Horizon Programme, as of 2026-04-30)",
+        "purpose": "Tracks each workload’s wave assignment, migration stage, and blockers to substantiate overall progress and identify impediments requiring escalation.",
+        "key_data": {
+          "CRM-Reporting": "Blocked",
+          "SAP-PI": "Blocked",
+          "DataLake-ETL": "Blocked",
+          "Payments-API": "Cutover complete",
+          "HR-Portal": "In testing"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Wave 2 cutover outcomes and stability checkpoints (2026-03-04 to 2026-04-18)",
+        "purpose": "Summarises Wave 2 cutover execution, success rate, and post-cutover stability to confirm delivery performance and readiness for the next wave.",
+        "key_data": {
+          "Wave 2 cutovers executed": "14",
+          "Successful production cutovers": "14",
+          "Wave 2 window start": "2026-03-04",
+          "Wave 2 window end": "2026-04-18",
+          "Sev-1 incidents in first 72 hours": "0"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Cloud run-rate vs on‑prem baseline for migrated workloads (as of 2026-04-30)",
+        "purpose": "Quantifies cost optimisation by comparing monthly cloud run-rate against the agreed on‑prem baseline for the migrated scope, highlighting realised savings.",
+        "key_data": {
+          "Cloud run-rate (migrated scope)": "month",
+          "On‑prem baseline (same scope)": "month",
+          "Savings": "month",
+          "Savings percent": "17%",
+          "Measurement date": "2026-04-30"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "FinOps optimisation actions and savings attribution (as of 2026-04-30)",
+        "purpose": "Shows which FinOps levers are driving savings and the coverage levels achieved, supporting governance decisions for scaling optimisation in Phase 3.",
+        "key_data": {
+          "Total FinOps savings delivered": "month",
+          "Reserved Instances coverage": "22%",
+          "Savings Plans coverage": "68%",
+          "Idle resource cleanup savings": "month",
+          "Rightsizing savings": "month"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "No-Go preparation, as of 2026-04-30)",
+        "purpose": "Provides a control-by-control view of operational readiness to ensure production support, security, and resilience meet agreed standards before the next cutover cycle.",
+        "key_data": {
+          "Controls passed": "49",
+          "Total controls": "60",
+          "Readiness complete": "82%",
+          "Open gaps": "11",
+          "Go/No-Go review date": "2026-05-15"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Phase 3 migration plan: scope, dates, and capacity assumptions (draft for approval)",
+        "purpose": "Defines the next-phase plan (scope, timeline, and resourcing) so stakeholders can approve a coherent path that sustains migration velocity while maintaining cost and readiness targets.",
+        "key_data": {
+          "Phase 3 start": "2026-05-20",
+          "Phase 3 end": "2026-07-31",
+          "Planned workloads in Phase 3": "22",
+          "Target migration velocity": "week",
+          "Required platform engineers": "8"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1250502457.pdf",
+    "markdown": null,
+    "assets": []
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 20,
+    "actual_page_count": 11
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "button",
+      "variant_id": "button_0001_4a7bbbd2",
+      "title": "Migration Status Controls",
+      "caption": "Migration Status Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Approve Phase Transition",
+          "style": "primary"
+        },
+        {
+          "label": "Confirm Operational Readiness",
+          "style": "success"
+        },
+        {
+          "label": "Request Cost Optimization Plan",
+          "style": "warning"
+        },
+        {
+          "label": "Flag Cost Deviation vs On-Prem Baseline",
+          "style": "danger"
+        },
+        {
+          "label": "Schedule Next-Phase Planning Workshop",
+          "style": "secondary"
+        }
+      ],
+      "context": "Displayed on the programme status report when leads are reviewing workload migration progress, cost versus the on-premises baseline, operational readiness, and planning the next phase.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are shown in the 'Migration Status Controls' button group?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Migration Status Controls', what is the label of the first button?",
+          "answer": "Approve Phase Transition",
+          "assertions": [
+            {
+              "text": "The response must state 'Approve Phase Transition'."
+            }
+          ]
+        },
+        {
+          "question": "Which button in the 'Migration Status Controls' is styled 'danger'?",
+          "answer": "Flag Cost Deviation vs On-Prem Baseline",
+          "assertions": [
+            {
+              "text": "The response must state 'Flag Cost Deviation vs On-Prem Baseline'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Migration Status Controls', what is the label of the button styled 'warning'?",
+          "answer": "Request Cost Optimization Plan",
+          "assertions": [
+            {
+              "text": "The response must state 'Request Cost Optimization Plan'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "button",
+      "variant_id": "button_0002_1fcd6057",
+      "title": "Cloud Migration Status Actions",
+      "caption": "Cloud Migration Status Actions",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Approve Migration Status Report",
+          "style": "primary"
+        },
+        {
+          "label": "Confirm Operational Readiness (Sign-off)",
+          "style": "success"
+        },
+        {
+          "label": "Request Cost Reconciliation vs On‑Prem Baseline",
+          "style": "secondary"
+        },
+        {
+          "label": "Schedule Next-Phase Migration Waves",
+          "style": "secondary"
+        },
+        {
+          "label": "Escalate Critical Risks to Steering Committee",
+          "style": "warning"
+        }
+      ],
+      "context": "Displayed when the programme lead reviews the migration status report to decide on acceptance, cost follow-up versus the on‑prem baseline, operational sign‑off, and next‑phase planning.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are shown in the 'Cloud Migration Status Actions' button group?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which action appears first in the 'Cloud Migration Status Actions' group?",
+          "answer": "Approve Migration Status Report",
+          "assertions": [
+            {
+              "text": "The response must state 'Approve Migration Status Report'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Cloud Migration Status Actions' group, which button is presented with a success emphasis?",
+          "answer": "Confirm Operational Readiness (Sign-off)",
+          "assertions": [
+            {
+              "text": "The response must state 'Confirm Operational Readiness (Sign-off)'."
+            }
+          ]
+        },
+        {
+          "question": "What is the label of the last button in the 'Cloud Migration Status Actions' group?",
+          "answer": "Escalate Critical Risks to Steering Committee",
+          "assertions": [
+            {
+              "text": "The response must state 'Escalate Critical Risks to Steering Committee'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "button",
+      "variant_id": "button_0004_1721919a",
+      "title": "Migration Status Controls",
+      "caption": "Migration Status Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Record Workload Migration Progress",
+          "style": "primary"
+        },
+        {
+          "label": "Update Cost Optimisation vs On‑Prem Baseline",
+          "style": "secondary"
+        },
+        {
+          "label": "Approve Operational Readiness Checklist",
+          "style": "success"
+        },
+        {
+          "label": " Escalate Risks",
+          "style": "danger"
+        },
+        {
+          "label": "Schedule Next-Phase Migration Planning",
+          "style": "warning"
+        }
+      ],
+      "context": "Appears on the programme status report after a migration wave review to record workload progress, reconcile costs versus the on‑prem baseline, confirm operational readiness, and plan the next phase.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are shown in the 'Migration Status Controls' button group?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Migration Status Controls', what is the label of the first button displayed?",
+          "answer": "Record Workload Migration Progress",
+          "assertions": [
+            {
+              "text": "The response must state 'Record Workload Migration Progress'."
+            }
+          ]
+        },
+        {
+          "question": "Which visual style is applied to the 'Approve Operational Readiness Checklist' button on the 'Migration Status Controls'?",
+          "answer": "success",
+          "assertions": [
+            {
+              "text": "The response must state 'success'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Migration Status Controls', which button label is presented with a warning style?",
+          "answer": "Schedule Next-Phase Migration Planning",
+          "assertions": [
+            {
+              "text": "The response must state 'Schedule Next-Phase Migration Planning'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "checklist",
+      "variant_id": "checklist_0001_dd652970",
+      "title": "Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness",
+      "caption": "Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        " in‑progress)",
+        "container counts, network mappings and storage allocations to the on‑premises baseline report",
+        "Compare current monthly cloud spend to the defined on‑premises baseline and document primary variance drivers",
+        "Confirm enforcement of resource tagging, billing tags and cost allocation mapping across migrated workloads and update tag compliance score",
+        "Test runbooks, incident response and cloud failover playbooks for at least two representative migrated applications and log outcomes"
+      ],
+      "unchecked_items": [
+        "Verify cutover completion and perform post‑cutover functional validation for each migrated application",
+        "Identify and prioritise cost optimisation actions (rightsizing, instance reservations, storage tiering) and assign owners",
+        "Schedule next‑phase workload batch migration with exact cutover windows, resource owners, and rollback criteria",
+        "Confirm operational readiness of backups, snapshots and DR by executing SLA recovery tests against the cloud DR runbook",
+        "Update the programme risk register with migration issues, cost variance risks and mitigation actions and obtain stakeholder sign‑off for the next phase"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness', how many total items are on the checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness', how many items are marked as checked?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness', what completion rate percentage is shown?",
+          "answer": "50.0",
+          "assertions": [
+            {
+              "text": "The response must state '50.0'."
+            }
+          ]
+        },
+        {
+          "question": "Name one item that is not yet checked on the 'Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness'.",
+          "answer": "Identify and prioritise cost optimisation actions (rightsizing, instance reservations, storage tiering) and assign owners",
+          "assertions": [
+            {
+              "text": "The response must state 'Identify and prioritise cost optimisation actions (rightsizing, instance reservations, storage tiering) and assign owners'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "checklist",
+      "variant_id": "checklist_0003_10f5ab0f",
+      "title": "Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)",
+      "caption": "Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Verify inventory reconciliation: confirm all workloads assigned to Waves 1–3 match the migration tracking sheet, CMDB entries, and identify any mismatches",
+        "Validate migration progress: update progress percentage, migration cutover dates, and blockers for each production workload in the status report",
+        "Compare costs to on‑premises baseline: calculate month‑to‑date cloud spend versus the approved on‑prem run‑rate including licensing, network, and facilities overheads",
+        "Validate operational readiness: confirm monitoring, alerting, backups, IAM policies, and runbooks are in place and staffed for all migrated services",
+        "Update risk and issue register: document current migration blockers, cost overrun risks, and assigned mitigation owners for inclusion in the report"
+      ],
+      "unchecked_items": [
+        "Reconcile cloud resource consumption: aggregate actual vCPU, memory, storage, and network usage for migrated workloads to support cost allocation",
+        "Savings Plans where justified, and record projected savings",
+        "RPO outcomes, and log remediation items",
+        "Plan next migration phase: finalize Wave 4 schedule, resource allocations, maintenance windows, and application owner commitments for the next quarter",
+        "Obtain stakeholder sign‑off: circulate the status report to sponsors and application owners and capture approvals for the next‑phase budget and timeline"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are listed on the 'Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)', what is the completion rate percentage shown?",
+          "answer": "50.0%",
+          "assertions": [
+            {
+              "text": "The response must state '50.0%'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)', provide one example of an item that is marked as checked.",
+          "answer": "Validate operational readiness: confirm monitoring, alerting, backups, IAM policies, and runbooks are in place and staffed for all migrated services",
+          "assertions": [
+            {
+              "text": "The response must state 'Validate operational readiness: confirm monitoring, alerting, backups, IAM policies, and runbooks are in place and staffed for all migrated services'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)', name one task that remains unchecked.",
+          "answer": "RPO outcomes, and log remediation items",
+          "assertions": [
+            {
+              "text": "RPO outcomes, and log remediation items'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "table_0000_0dc66562",
+      "table_number": 1,
+      "caption": "Table 1: Workload migration tracker by wave and current status (Horizon Programme, as of 2026-04-30)",
+      "columns": [
+        "Workload",
+        "Status",
+        "Owner",
+        "Blocker",
+        "Wave",
+        "Planned Cutover",
+        "Migration Stage"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "CRM-Reporting",
+          "Blocked",
+          "Data & Analytics Lead",
+          "Upstream data quality issues from legacy warehouse",
+          "Wave 2",
+          "2026-06-15",
+          "Data validation"
+        ],
+        [
+          "SAP-PI",
+          "Blocked",
+          "Enterprise Applications Manager",
+          "Firewall rule approval pending from network team",
+          "Wave 3",
+          "2026-07-10",
+          "Connectivity setup"
+        ],
+        [
+          "DataLake-ETL",
+          "Blocked",
+          "Cloud Platform Lead",
+          "IAM role misconfiguration delaying production access",
+          "Wave 2",
+          "2026-06-30",
+          "Pipeline deployment"
+        ],
+        [
+          "Payments-API",
+          "Cutover complete",
+          "Digital Channels Director",
+          "None",
+          "Wave 1",
+          "2026-04-20",
+          "Production migration"
+        ],
+        [
+          "HR-Portal",
+          "In testing",
+          "HR Systems Owner",
+          "Minor SSO integration defects under review",
+          "Wave 2",
+          "2026-05-18",
+          "User acceptance testing"
+        ],
+        [
+          "Inventory-Service",
+          "In progress",
+          "Supply Chain IT Lead",
+          "None",
+          "Wave 3",
+          "2026-08-05",
+          "Build"
+        ],
+        [
+          "Marketing-Website",
+          "Stabilised",
+          "Web平台主管",
+          "None",
+          "Wave 1",
+          "2026-04-05",
+          "Hypercare"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Workload migration tracker by wave and current status (Horizon Programme, as of 2026-04-30)\", what is the Planned Cutover date for CRM-Reporting?",
+          "answer": "2026-06-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-15."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Workload migration tracker by wave and current status (Horizon Programme, as of 2026-04-30)\", who is the Owner of SAP-PI?",
+          "answer": "Enterprise Applications Manager",
+          "assertions": [
+            {
+              "text": "The response must state Enterprise Applications Manager."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Workload migration tracker by wave and current status (Horizon Programme, as of 2026-04-30)\", what is the Migration Stage for Marketing-Website?",
+          "answer": "Hypercare",
+          "assertions": [
+            {
+              "text": "The response must state Hypercare."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "checklist",
+      "variant_id": "checklist_0005_3eadfd4b",
+      "title": "Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review",
+      "caption": "Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review",
+      "total_items": 10,
+      "checked_count": 6,
+      "unchecked_count": 4,
+      "completion_rate_pct": 60.0,
+      "checked_items": [
+        "Verify percentage of production workloads migrated against the Phase 2 target (65%) and annotate discrepancies by application",
+        "Reconcile current monthly cloud cost versus the established on‑premises baseline and explain deltas by compute, storage, and network categories",
+        "Complete operational runbooks, incident playbooks, and escalation matrices for all migrated services",
+        "savings plans, storage tiering) with estimated monthly savings and owners",
+        "Schedule stakeholder review workshop to approve next-phase migration wave, resource allocation, and timeline adjustments",
+        "no‑go criteria for Phase 3 including migration pacing, rollback procedures, and budget trigger thresholds"
+      ],
+      "unchecked_items": [
+        "Validate performance and availability of migrated workloads against agreed SLAs and record any deviations with remediation owners",
+        "Conduct security post-migration audit for IAM, network segmentation, and centralized logging and remediate any critical findings",
+        "Update the total cost-of-ownership model to reflect migration uplift, ongoing cloud ops, and decommissioned on‑prem assets",
+        "Prepare training schedule and runbook handover for operations and SRE teams prior to cutover of the next workload wave"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review', how many items are marked as completed?",
+          "answer": "6",
+          "assertions": [
+            {
+              "text": "The response must state '6'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review', what completion rate percentage is shown?",
+          "answer": "60.0%",
+          "assertions": [
+            {
+              "text": "The response must state '60.0%'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review', name one item that is not yet checked.",
+          "answer": "Validate performance and availability of migrated workloads against agreed SLAs and record any deviations with remediation owners",
+          "assertions": [
+            {
+              "text": "The response must state 'Validate performance and availability of migrated workloads against agreed SLAs and record any deviations with remediation owners'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "checklist",
+      "variant_id": "checklist_0006_24000e6a",
+      "title": "Cloud Migration Programme Status Report Checklist",
+      "caption": "Cloud Migration Programme Status Report Checklist",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Confirm migrated workload inventory and update migration status percentages per application group (dev, test, prod)",
+        "Validate migration success criteria and capture post-migration functional and performance test results for critical production workloads",
+        "Compare actual cloud monthly run-rate to the on-premises baseline cost model and flag variances greater than 10% by service category",
+        "Perform tagging and cost-allocation reconciliation for migrated workloads to match finance chargeback and reporting codes",
+        "Assess operational readiness by confirming runbooks, monitoring alerts, SRE on-call rotations, and completion of incident playbook drills"
+      ],
+      "unchecked_items": [
+        " spot) and document recommended purchase timelines and expected savings",
+        "in transit, logging ingestion, CSPM results) and list remediation items",
+        "Draft next-phase migration plan with lift-and-shift vs refactor priorities, resource estimates, sequencing, and target dates for remaining waves",
+        "RPO targets, rollback runbooks, and named owners",
+        "Schedule executive summary and stakeholder sign-off meeting including migration KPIs, cost-optimisation forecast versus on-prem baseline, and recommended milestones for the next phase"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Cloud Migration Programme Status Report Checklist'?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Cloud Migration Programme Status Report Checklist', what percentage completion is reported?",
+          "answer": "50.0%",
+          "assertions": [
+            {
+              "text": "The response must state '50.0%'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Cloud Migration Programme Status Report Checklist', name one item that is marked as checked.",
+          "answer": "Confirm migrated workload inventory and update migration status percentages per application group (dev, test, prod)",
+          "assertions": [
+            {
+              "text": "The response must state 'Confirm migrated workload inventory and update migration status percentages per application group (dev, test, prod)'."
+            }
+          ]
+        },
+        {
+          "question": "Which unchecked item on the 'Cloud Migration Programme Status Report Checklist' calls for validating security and compliance controls after migration?",
+          "answer": "in transit, logging ingestion, CSPM results) and list remediation items",
+          "assertions": [
+            {
+              "text": "in transit, logging ingestion, CSPM results) and list remediation items'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "text",
+      "variant_id": "text_0000_8ca7fa82",
+      "heading": "Migration Delivery Status and Workload Cutover Progress (Wave 1–2)",
+      "word_count": 297,
+      "text_content": [
+        "**Migration Delivery Status and Workload Cutover Progress (Wave 1–2)**",
+        "As of 2026-04-30, 38 of 60 workloads (63%) have been migrated to AWS. Waves 1–2 accounted for this cumulative delivery, with the programme completing assessment, build and migration activities for these workloads across application, data and infrastructure layers. Twenty-two workloads remain to be migrated; these are being sequenced into forthcoming cutover windows based on dependency mapping and business priority. Migration throughput has accelerated following standardisation of templates and automated deployment pipelines, reducing average environment build time and enabling parallel workstreams across the platform engineering, network, and security teams.",
+        "Wave 2 cutovers ran from 2026-03-04 to 2026-04-18 with 14 successful production cutovers completed during that period. Execution followed the programme cutover playbook, including pre-cutover validation, controlled DNS switchover, data consistency checks and a post-cutover stabilization period monitored by the cloud operations centre. Handover artefacts—updated runbooks, monitoring thresholds, and incident escalation paths—were accepted by the operations team for all 14 workloads. Key operational learnings from Wave 2 have been documented and will inform the scheduling and risk controls for subsequent waves, including tighter change windows and additional pre-cutover smoke testing where appropriate. Stakeholder communications were issued after each cutover, with business owners confirming functional acceptance.",
+        "There are 3 blocked workloads: CRM-Reporting, SAP-PI, and DataLake-ETL. These blockages are currently preventing migration of those items and require targeted remediation before they can be scheduled for cutover. Primary actions in-flight include dependency resolution with upstream application teams, targeted data reconciliation, and the provisioning of dedicated test slices for validation. Ownership has been assigned to named product and infrastructure leads with weekly blocker review meetings and executive escalation as needed. Contingency planning has identified temporary coexistence architectures and a revised sequencing plan to minimise impact on the overall programme timeline while remediation progresses. Teams aim to resolve blockers within two sprint cycles maximum."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Migration Delivery Status and Workload Cutover Progress (Wave 1–2)\" section, how many of the 60 workloads have been migrated to AWS as of 2026-04-30?",
+          "answer": "38 of 60 workloads (63%)",
+          "assertions": [
+            {
+              "text": "The response must state 38 of 60 workloads (63%)."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Migration Delivery Status and Workload Cutover Progress (Wave 1–2)\" section, during what dates did Wave 2 cutovers run?",
+          "answer": "2026-03-04 to 2026-04-18",
+          "assertions": [
+            {
+              "text": "The response must state 2026-03-04 to 2026-04-18."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Migration Delivery Status and Workload Cutover Progress (Wave 1–2)\" section, which three workloads are identified as blocked?",
+          "answer": "CRM-Reporting, SAP-PI, and DataLake-ETL",
+          "assertions": [
+            {
+              "text": "The response must state CRM-Reporting, SAP-PI, and DataLake-ETL."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "text",
+      "variant_id": "text_0001_10f20ceb",
+      "heading": "Cost Optimisation vs On‑Prem Baseline, Operational Readiness, and Phase 3 Plan",
+      "word_count": 314,
+      "text_content": [
+        "**Cost Optimisation vs On‑Prem Baseline, Operational Readiness, and Phase 3 Plan**",
+        "As of 2026-04-30, the colud run-rate for migrated workloads is $1.12M per month versus an on‑rpemises baseline of $1.35M per month, yielding a confirmed savings of $0.23M per month (17%). iFnOps interventions have realised $96,000 per month of that improvement through disciplined capacity management and uprchasing strategies. Coverage as of 2026-04-30 is 22% via **Reserved Instances** and 68% via **Savings Plans**, with tagging and chargeback updates improving alloctaion accuracy. Specific measures completed include rightsizing compute, capping idle storage, and applying committed-use discounts; these were validated in the month-end cost reconciliation. Finance and Cloud Architecture will continue weekly reporting and a monthly reconciliation cycle to ensure the savings trajectory remians sustainable.",
+        "No-Go include a synthetic transaction test, a full failover drill, and a security scanning sweep. Acceptance of the phase will be contingent on all ihgh-priority controls passing independent validation by Operations and Security.",
+        "No-Go review and will prioritise three application groups to minimise cutover risk and optimise topology. Planned deliverables include strengthened runbooks, automated remediation playbooks, additional Savings Plan commitments aligned to projected usage, and a targeted cost-reduction goal to improve the run-rate margin by a further 4–6% over the following three months. Phase gating requires all operational controls for affected workloads to be certified and finance sign-off on projected returns. Governance will publish a schedule and resourcing plan within five days of the review."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Cost Optimisation vs On‑Prem Baseline, Operational Readiness, and Phase 3 Plan\" section, what is the colud run-rate for migrated workloads as of 2026-04-30?",
+          "answer": "$1.12M per month",
+          "assertions": [
+            {
+              "text": "The response must state $1.12M per month."
+            }
+          ]
+        },
+        {
+          "question": "No-Go review scheduled?",
+          "answer": "2026-05-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-05-15."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Cost Optimisation vs On‑Prem Baseline, Operational Readiness, and Phase 3 Plan\" section, what targeted cost-reduction goal is set to improve the run-rate margin over the following three months?",
+          "answer": "4–6%",
+          "assertions": [
+            {
+              "text": "The response must state 4–6%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "checklist",
+      "variant_id": "checklist_0002_8a6ec82a",
+      "title": "Q2 2026 Cloud Migration Programme Status Report Checklist",
+      "caption": "Q2 2026 Cloud Migration Programme Status Report Checklist",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Reconcile migrated workloads against approved migration target list and update percentage complete by application",
+        "Compare current cloud monthly spend to on‑premises TCO baseline and document top 10 variances by cost center",
+        "Savings Plan, and storage tiering actions projected to reduce cost versus baseline",
+        "Confirm monitoring, alerting thresholds, and incident routing are configured and validated in the central observability platform",
+        "Update executive summary and stakeholder communication pack with current progress, cost optimisation results, operational readiness status, and next steps"
+      ],
+      "unchecked_items": [
+        "Ensure runbooks and SOPs are updated for each migrated service, including escalation paths and change procedures",
+        "Test disaster recovery and backup restore procedures for a representative set of migrated production workloads and log outcomes",
+        "Review security controls and compliance evidence for migrated workloads (IAM policies, encryption, audit trails) and flag gaps",
+        "Plan next-phase migration waves with target dates, resource assignments, and contingency plans for high-risk applications",
+        "Verify decommissioning schedule for corresponding on-premises systems and update asset disposal status"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Q2 2026 Cloud Migration Programme Status Report Checklist' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Q2 2026 Cloud Migration Programme Status Report Checklist', what is the completion rate percentage?",
+          "answer": "50.0%",
+          "assertions": [
+            {
+              "text": "The response must state '50.0%'."
+            }
+          ]
+        },
+        {
+          "question": "Name one item that is marked as checked on the 'Q2 2026 Cloud Migration Programme Status Report Checklist'.",
+          "answer": "Reconcile migrated workloads against approved migration target list and update percentage complete by application",
+          "assertions": [
+            {
+              "text": "The response must state 'Reconcile migrated workloads against approved migration target list and update percentage complete by application'."
+            }
+          ]
+        },
+        {
+          "question": "Identify one task listed as not yet checked on the 'Q2 2026 Cloud Migration Programme Status Report Checklist'.",
+          "answer": "Test disaster recovery and backup restore procedures for a representative set of migrated production workloads and log outcomes",
+          "assertions": [
+            {
+              "text": "The response must state 'Test disaster recovery and backup restore procedures for a representative set of migrated production workloads and log outcomes'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "button",
+      "variant_id": "button_0005_33a6e6c5",
+      "title": "Migration Phase Controls",
+      "caption": "Migration Phase Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Capture Migration Progress Snapshot",
+          "style": "secondary"
+        },
+        {
+          "label": "Approve Operational Readiness",
+          "style": "success"
+        },
+        {
+          "label": "Authorize Next-Phase Migration Schedule",
+          "style": "primary"
+        },
+        {
+          "label": "Initiate Cost Optimization Review vs On-Premises Baseline",
+          "style": "warning"
+        },
+        {
+          "label": "Escalate Cost Overrun to Steering Committee",
+          "style": "danger"
+        }
+      ],
+      "context": "Displayed on the programme status report after a migration phase update is published, to record progress, validate costs vs the on-premises baseline, confirm operational readiness, and plan the next phase.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are shown in the 'Migration Phase Controls' button group?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which label appears as the first button in the 'Migration Phase Controls'?",
+          "answer": "Capture Migration Progress Snapshot",
+          "assertions": [
+            {
+              "text": "The response must state 'Capture Migration Progress Snapshot'."
+            }
+          ]
+        },
+        {
+          "question": "What style is assigned to the third button in the 'Migration Phase Controls' group?",
+          "answer": "primary",
+          "assertions": [
+            {
+              "text": "The response must state 'primary'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Migration Phase Controls', what is the displayed context or purpose?",
+          "answer": "Displayed on the programme status report after a migration phase update is published, to record progress, validate costs vs the on-premises baseline, confirm operational readiness, and plan the next phase.",
+          "assertions": [
+            {
+              "text": "The response must state 'Displayed on the programme status report after a migration phase update is published, to record progress, validate costs vs the on-premises baseline, confirm operational readiness, and plan the next phase.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "button",
+      "variant_id": "button_0000_2053625d",
+      "title": "Migration Status Controls",
+      "caption": "Migration Status Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Approve Migration Phase Transition",
+          "style": "primary"
+        },
+        {
+          "label": "Commission Cost Reconciliation",
+          "style": "secondary"
+        },
+        {
+          "label": "Confirm Operational Readiness",
+          "style": "success"
+        },
+        {
+          "label": "Escalate Risk to Programme Board",
+          "style": "danger"
+        },
+        {
+          "label": "Plan Next-Phase Milestones",
+          "style": "warning"
+        }
+      ],
+      "context": "Displayed on the programme status report after workload progress, cost comparisons to the on‑premises baseline, and readiness checks have been updated for review.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are shown in the 'Migration Status Controls' button group?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which button in the 'Migration Status Controls' appears as the primary action?",
+          "answer": "Approve Migration Phase Transition",
+          "assertions": [
+            {
+              "text": "The response must state 'Approve Migration Phase Transition'."
+            }
+          ]
+        },
+        {
+          "question": "Which action is labeled on the danger button in the 'Migration Status Controls'?",
+          "answer": "Escalate Risk to Programme Board",
+          "assertions": [
+            {
+              "text": "The response must state 'Escalate Risk to Programme Board'."
+            }
+          ]
+        },
+        {
+          "question": "On what report are the 'Migration Status Controls' displayed?",
+          "answer": "programme status report",
+          "assertions": [
+            {
+              "text": "The response must state 'programme status report'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "button",
+      "variant_id": "button_0006_beb69625",
+      "title": "Migration Status Controls",
+      "caption": "Migration Status Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Approve Phase Progress",
+          "style": "primary"
+        },
+        {
+          "label": "Request Cost Reassessment vs On‑Prem",
+          "style": "warning"
+        },
+        {
+          "label": "Confirm Operational Readiness",
+          "style": "success"
+        },
+        {
+          "label": "Schedule Next-Phase Planning Workshop",
+          "style": "secondary"
+        },
+        {
+          "label": "Escalate Risk and Halt Migration",
+          "style": "danger"
+        }
+      ],
+      "context": "Appears on the programme status report when reviewers evaluate workload migration progress, cost optimisation versus the on‑premises baseline, operational readiness, and decide next-phase actions.",
+      "qa_candidates": [
+        {
+          "question": "How many buttons are shown in the 'Migration Status Controls' button group?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Migration Status Controls', which button is styled 'danger'?",
+          "answer": "Escalate Risk and Halt Migration",
+          "assertions": [
+            {
+              "text": "The response must state 'Escalate Risk and Halt Migration'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Migration Status Controls', what is the label of the third button?",
+          "answer": "Confirm Operational Readiness",
+          "assertions": [
+            {
+              "text": "The response must state 'Confirm Operational Readiness'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Migration Status Controls', what context explains when this control appears?",
+          "answer": "Appears on the programme status report when reviewers evaluate workload migration progress, cost optimisation versus the on-premises baseline, operational readiness, and decide next-phase actions.",
+          "assertions": [
+            {
+              "text": "The response must state 'Appears on the programme status report when reviewers evaluate workload migration progress, cost optimisation versus the on-premises baseline, operational readiness, and decide next-phase actions.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "checklist",
+      "variant_id": "checklist_0004_3bcff19d",
+      "title": "Cloud Migration Programme Status Report Checklist - Wave 3",
+      "caption": "Cloud Migration Programme Status Report Checklist - Wave 3",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Update per-workload migration status in the report dashboard, including percent-complete, current phase, and nominated owner",
+        "Verify migration percentage for business-critical workloads against planned milestones and annotate schedule variances with root causes",
+        "Compare current cloud spend to the validated on‑premises baseline, showing delta by workload and cost category (compute, storage, network, licensing)",
+        "savings plans, storage tiering) and estimate monthly savings per workload",
+        "ops handover acceptance"
+      ],
+      "unchecked_items": [
+        "RPO outcomes for the status report",
+        "Identify and log remaining technical dependencies and blockers for the next migration phase, assigning owners, target resolution dates, and mitigation plans",
+        "likely cost scenarios and approval thresholds",
+        "Reconcile application owner sign-offs for completed migrations and list any outstanding post-migration action items and SLA impacts",
+        "Approve cutover and maintenance windows for remaining workloads in coordination with change management, business stakeholders, and downstream teams"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Cloud Migration Programme Status Report Checklist - Wave 3' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "What completion percentage is shown on the 'Cloud Migration Programme Status Report Checklist - Wave 3'?",
+          "answer": "50.0",
+          "assertions": [
+            {
+              "text": "The response must state '50.0'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Cloud Migration Programme Status Report Checklist - Wave 3', name one item that is marked as checked.",
+          "answer": "ops handover acceptance",
+          "assertions": [
+            {
+              "text": "ops handover acceptance'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Cloud Migration Programme Status Report Checklist - Wave 3', provide one item that remains unchecked.",
+          "answer": "RPO outcomes for the status report",
+          "assertions": [
+            {
+              "text": "RPO outcomes for the status report'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "table",
+      "variant_id": "table_0004_c844acf9",
+      "table_number": 2,
+      "caption": "No-Go preparation, as of 2026-04-30)",
+      "columns": [
+        "Control Area",
+        "Controls Passed",
+        "Total Controls",
+        "Readiness Complete",
+        "Open Gaps",
+        "Current Status",
+        "No-Go Review Date"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Overall Production Readiness",
+          "49",
+          "60",
+          "82%",
+          "11",
+          "At Risk - Remediation in Progress",
+          "2026-05-15"
+        ],
+        [
+          "Service Operations & Monitoring",
+          "12",
+          "15",
+          "80%",
+          "3",
+          "Amber - Tooling Integration Pending",
+          "2026-05-15"
+        ],
+        [
+          "Security & Compliance",
+          "10",
+          "12",
+          "83%",
+          "2",
+          "Amber - Policy Exceptions Under Review",
+          "2026-05-15"
+        ],
+        [
+          "Backup & Disaster Recovery",
+          "8",
+          "10",
+          "08%",
+          "2",
+          "Amber - DR Failover Test Scheduled",
+          "2026-05-15"
+        ],
+        [
+          "Identity & Access Management",
+          "9",
+          "11",
+          "28%",
+          "2",
+          "Green - Minor Documentation Gaps",
+          "2026-05-15"
+        ],
+        [
+          "Cost Management & FinOps Controls",
+          "10",
+          "12",
+          "83%",
+          "2",
+          "Green - Optimization Actions Tracked",
+          "2026-05-15"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Controls Passed": 98.0,
+        "max_Controls Passed": 49.0,
+        "min_Controls Passed": 8.0,
+        "sum_Total Controls": 120.0,
+        "max_Total Controls": 60.0,
+        "min_Total Controls": 10.0,
+        "sum_Readiness Complete": 364.0,
+        "max_Readiness Complete": 83.0,
+        "min_Readiness Complete": 8.0,
+        "sum_Open Gaps": 22.0,
+        "max_Open Gaps": 11.0,
+        "min_Open Gaps": 2.0
+      },
+      "qa_candidates": [
+        {
+          "question": "No-Go preparation, as of 2026-04-30)\", what is the Current Status for Overall Production Readiness?",
+          "answer": "At Risk - Remediation in Progress",
+          "assertions": [
+            {
+              "text": "The response must state At Risk - Remediation in Progress."
+            }
+          ]
+        },
+        {
+          "question": "No-Go preparation, as of 2026-04-30)\", what is the Readiness Complete value for Backup & Disaster Recovery?",
+          "answer": "08%",
+          "assertions": [
+            {
+              "text": "The response must state 08%."
+            }
+          ]
+        },
+        {
+          "question": "No-Go Review Date for Security & Compliance?",
+          "answer": "2026-05-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-05-15."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "table",
+      "variant_id": "table_0002_92763cca",
+      "table_number": 3,
+      "caption": "Table 3: Cloud run-rate vs on‑prem baseline for migrated workloads (as of 2026-04-30)",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5",
+        "Col6",
+        "Col7",
+        "Col8"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "2025-09-30",
+          "42% migrated",
+          "month",
+          "month",
+          "month",
+          "3%",
+          "On track",
+          "Initial wave; limited optimisation realised"
+        ],
+        [
+          "2025-10-31",
+          "55% migrated",
+          "month",
+          "month",
+          "month",
+          "6%",
+          "On track",
+          "Rightsizing actions started"
+        ],
+        [
+          "2025-11-30",
+          "63% migrated",
+          "month",
+          "month",
+          "month",
+          "10%",
+          "On track",
+          "Reserved instances purchased"
+        ],
+        [
+          "2025-12-31",
+          "70% migrated",
+          "month",
+          "month",
+          "month",
+          "12%",
+          "On track",
+          "Storage tiering implemented"
+        ],
+        [
+          "2026-01-31",
+          "78% migrated",
+          "month",
+          "month",
+          "month",
+          "13%",
+          "On track",
+          "Non-production shutdown scheduling enabled"
+        ],
+        [
+          "2026-02-28",
+          "85% migrated",
+          "month",
+          "month",
+          "month",
+          "14%",
+          "On track",
+          "Network egress optimisation applied"
+        ],
+        [
+          "2026-03-31",
+          "92% migrated",
+          "month",
+          "month",
+          "month",
+          "15%",
+          "On track",
+          "Legacy licences retired"
+        ],
+        [
+          "2026-04-30",
+          "100% migrated",
+          "month",
+          "month",
+          "month",
+          "17%",
+          "Target achieved",
+          "Full migrated scope baseline comparison completed"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col6": 90.0,
+        "max_Col6": 17.0,
+        "min_Col6": 3.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Cloud run-rate vs on‑prem baseline for migrated workloads (as of 2026-04-30)\", what is the migration percentage listed for 2026-03-31?",
+          "answer": "92% migrated",
+          "assertions": [
+            {
+              "text": "The response must state 92% migrated."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud run-rate vs on‑prem baseline for migrated workloads (as of 2026-04-30)\", what is the cloud run-rate value for 2025-12-31?",
+          "answer": "month",
+          "assertions": [
+            {
+              "text": "month."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud run-rate vs on‑prem baseline for migrated workloads (as of 2026-04-30)\", what is the status shown for 2026-04-30?",
+          "answer": "Target achieved",
+          "assertions": [
+            {
+              "text": "The response must state Target achieved."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "checklist",
+      "variant_id": "checklist_0000_f73a3e62",
+      "title": "Cloud Migration Programme Status Report Checklist",
+      "caption": "Cloud Migration Programme Status Report Checklist",
+      "total_items": 10,
+      "checked_count": 5,
+      "unchecked_count": 5,
+      "completion_rate_pct": 50.0,
+      "checked_items": [
+        "Validate inventory of workloads, interdependencies, and migration runbooks against the authoritative CMDB (target: 95% mapped)",
+        "failure counts, and cumulative percentage migrated",
+        "Reconcile migrated workload counts and provisioned resource types against the phase baseline and escalate discrepancies greater than 5%",
+        "Run cost comparison analysis for migrated workloads versus on-premises baseline including compute, storage, and network deltas and capture monthly run-rate variance",
+        "SIEM integration) and document any exceptions"
+      ],
+      "unchecked_items": [
+        "savings plans, storage tiering) for the FinOps review",
+        "Verify operational readiness by validating runbooks, monitoring alert thresholds, incident response owners, and on-call rosters for migrated services",
+        "RPO compliance",
+        "Schedule stakeholder review and sign-off for the current migration phase, circulate the status report, risks, and decision points one week prior",
+        "no-go criteria"
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many total items are on the 'Cloud Migration Programme Status Report Checklist' checklist?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Cloud Migration Programme Status Report Checklist', what completion rate percentage is shown?",
+          "answer": "50.0",
+          "assertions": [
+            {
+              "text": "The response must state '50.0'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Cloud Migration Programme Status Report Checklist', name one item that is marked as checked.",
+          "answer": "Validate inventory of workloads, interdependencies, and migration runbooks against the authoritative CMDB (target: 95% mapped)",
+          "assertions": [
+            {
+              "text": "The response must state 'Validate inventory of workloads, interdependencies, and migration runbooks against the authoritative CMDB (target: 95% mapped)'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Cloud Migration Programme Status Report Checklist', provide one item that is not yet checked.",
+          "answer": "RPO compliance",
+          "assertions": [
+            {
+              "text": "RPO compliance'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "button",
+      "variant_id": "button_0003_280734d0",
+      "title": "Migration Status Controls",
+      "caption": "Migration Status Controls",
+      "button_count": 5,
+      "buttons": [
+        {
+          "label": "Publish Programme Status Snapshot",
+          "style": "primary"
+        },
+        {
+          "label": "Record Workload Migration Progress",
+          "style": "secondary"
+        },
+        {
+          "label": "Approve Cost-Optimisation Recommendations vs On-Prem",
+          "style": "success"
+        },
+        {
+          "label": "Flag Operational Readiness Blockers",
+          "style": "danger"
+        },
+        {
+          "label": "Schedule Next-Phase Migration Wave",
+          "style": "warning"
+        }
+      ],
+      "context": "Appears when the programme status report is ready for stakeholder review to record workload migration progress, compare costs to the on-premises baseline, verify operational readiness, and plan the next migration phase.",
+      "qa_candidates": [
+        {
+          "question": "In the 'Migration Status Controls' button group, how many buttons are shown?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Migration Status Controls', what is the label of the first button?",
+          "answer": "Publish Programme Status Snapshot",
+          "assertions": [
+            {
+              "text": "The response must state 'Publish Programme Status Snapshot'."
+            }
+          ]
+        },
+        {
+          "question": "Which label appears on the third button in the 'Migration Status Controls' group?",
+          "answer": "Approve Cost-Optimisation Recommendations vs On-Prem",
+          "assertions": [
+            {
+              "text": "The response must state 'Approve Cost-Optimisation Recommendations vs On-Prem'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Migration Status Controls', in what context does this control appear?",
+          "answer": "Appears when the programme status report is ready for stakeholder review to record workload migration progress, compare costs to the on-premises baseline, verify operational readiness, and plan the next migration phase.",
+          "assertions": [
+            {
+              "text": "The response must state 'Appears when the programme status report is ready for stakeholder review to record workload migration progress, compare costs to the on-premises baseline, verify operational readiness, and plan the next migration phase.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "table",
+      "variant_id": "table_0001_eb18e568",
+      "table_number": 4,
+      "caption": "Table 4: Wave 2 cutover outcomes and stability checkpoints (2026-03-04 to 2026-04-18)",
+      "columns": [
+        "Metric",
+        "Notes",
+        "Value",
+        "Status"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Wave 2 window start: 2026-03-04",
+          "Change freeze initiated and migration bridge opened",
+          "Confirmed",
+          "Completed"
+        ],
+        [
+          "Wave 2 window end: 2026-04-18",
+          "All planned workloads cut over within approved window",
+          "Confirmed",
+          "Completed"
+        ],
+        [
+          "Wave 2 cutovers executed: 14",
+          "All in-scope applications transitioned to cloud landing zone",
+          "On target",
+          "Completed"
+        ],
+        [
+          "Successful production cutovers: 14",
+          "No rollbacks required during Wave 2",
+          "100% success rate",
+          "Completed"
+        ],
+        [
+          "Sev-1 incidents in first 72 hours: 0",
+          "No critical business disruption post-migration",
+          "Threshold met",
+          "Stable"
+        ],
+        [
+          "Sev-2 incidents in first 72 hours",
+          "Both related to monitoring alert tuning",
+          "2",
+          "Resolved"
+        ],
+        [
+          "Average cutover duration (per workload)",
+          "Below 4-hour migration playbook estimate",
+          "3.5 hours",
+          "Within SLA"
+        ],
+        [
+          "Post-cutover stability period",
+          "No regression or performance degradation observed",
+          "14 days",
+          "Completed"
+        ],
+        [
+          "Cost variance vs on-prem baseline (Wave 2 workloads)",
+          "Savings driven by rightsizing and reserved capacity",
+          "-18%",
+          "Optimised"
+        ],
+        [
+          "Operational readiness for Wave 3",
+          "Runbooks validated and support handover completed",
+          "Go decision approved",
+          "Ready"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Value": -16.0,
+        "max_Value": 2.0,
+        "min_Value": -18.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Wave 2 cutover outcomes and stability checkpoints (2026-03-04 to 2026-04-18)\", what is the Value listed for \"Sev-1 incidents in first 72 hours\"?",
+          "answer": "0",
+          "assertions": [
+            {
+              "text": "The response must state 0."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Wave 2 cutover outcomes and stability checkpoints (2026-03-04 to 2026-04-18)\", what is the Value for \"Average cutover duration (per workload)\"?",
+          "answer": "3.5 hours",
+          "assertions": [
+            {
+              "text": "The response must state 3.5 hours."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Wave 2 cutover outcomes and stability checkpoints (2026-03-04 to 2026-04-18)\", what is the Value for \"Cost variance vs on-prem baseline (Wave 2 workloads)\"?",
+          "answer": "-18%",
+          "assertions": [
+            {
+              "text": "The response must state -18%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "table",
+      "variant_id": "cx_table_0000_b2281055",
+      "table_number": 5,
+      "caption": "Table 5: Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", which leaf metric columns fall under the super-group header \"Cost Optimisation vs On‑Prem Baseline (FinOps)\"?",
+          "answer": "On‑prem baseline (monthly, $k); Current cloud run‑rate (monthly, $k); Optimisation savings realised (monthly, $k); Forecast savings @ steady state (monthly, $k).",
+          "assertions": [
+            {
+              "text": "The response must state 'On‑prem baseline (monthly, $k); Current cloud run‑rate (monthly, $k); Optimisation savings realised (monthly, $k); Forecast savings @ steady state (monthly, $k).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", how many rows does the category label \"Shared Platform Services\" span?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what is the value of \"Current cloud run‑rate (monthly, $k)\" for the sub-category \"CRM & Contact Centre\" (first row of that sub-category group)?",
+          "answer": "245 ($k per month).",
+          "assertions": [
+            {
+              "text": "The response must state '245 ($k per month).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what is the grand total for \"Forecast savings @ steady state (monthly, $k)\"?",
+          "answer": "370 ($k per month).",
+          "assertions": [
+            {
+              "text": "The response must state '370 ($k per month).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what does the \"Digital Channels Sub‑Total\" row show for \"Optimisation savings realised (monthly, $k)\"?",
+          "answer": "67 ($k per month).",
+          "assertions": [
+            {
+              "text": "The response must state '67 ($k per month).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what four metrics are listed under Cost Optimisation vs On‑Prem Baseline (FinOps)?",
+          "answer": "On‑prem baseline; Current cloud run‑rate; Optimisation savings realised; Forecast savings @ steady state",
+          "assertions": [
+            {
+              "text": "The response must state 'On‑prem baseline; Current cloud run‑rate; Optimisation savings realised; Forecast savings @ steady state.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", how many data rows are present?",
+          "answer": "25",
+          "assertions": [
+            {
+              "text": "The response must state '25.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", which is greater: the number of data rows or the number of header tiers?",
+          "answer": "Data rows (25)",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (25).'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", in what units are the FinOps figures reported?",
+          "answer": "Monthly, $k",
+          "assertions": [
+            {
+              "text": "The response must state 'Monthly, $k.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what is the subtotal for group G in the FinOps column?",
+          "answer": "245 ($k per month)",
+          "assertions": [
+            {
+              "text": "The response must state '245 ($k per month).'"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "button_0001_4a7bbbd2": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "button_0002_1fcd6057": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "button_0004_1721919a": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0001_dd652970": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0003_10f5ab0f": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "table_0000_0dc66562": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Tracks_each_workload’s_wave_assignment,_migration_stage,_and",
+      "row_count": 7,
+      "col_count": 7,
+      "columns": [
+        "Workload",
+        "Status",
+        "Owner",
+        "Blocker",
+        "Wave",
+        "Planned Cutover",
+        "Migration Stage"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "checklist_0005_3eadfd4b": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0006_24000e6a": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "text_0000_8ca7fa82": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Migration Delivery Status and Workload Cutover Progress (Wave 1–2)",
+      "word_count": 297,
+      "text_type": "llm_prose",
+      "topic_id": "cloud_migration_programme"
+    },
+    "text_0001_10f20ceb": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations",
+        "typos"
+      ],
+      "heading": "Cost Optimisation vs On‑Prem Baseline, Operational Readiness, and Phase 3 Plan",
+      "word_count": 314,
+      "text_type": "llm_prose",
+      "topic_id": "cloud_migration_programme"
+    },
+    "checklist_0002_8a6ec82a": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "button_0005_33a6e6c5": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "button_0000_2053625d": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "button_0006_beb69625": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "checklist_0004_3bcff19d": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "table_0004_c844acf9": {
+      "kind": "table",
+      "perturbations": [
+        "noise"
+      ],
+      "base_type": "Provides_a_control-by-control_view_of_operational_readiness_",
+      "row_count": 6,
+      "col_count": 7,
+      "columns": [
+        "Control Area",
+        "Controls Passed",
+        "Total Controls",
+        "Readiness Complete",
+        "Open Gaps",
+        "Current Status",
+        "No-Go Review Date"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "table_0002_92763cca": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Quantifies_cost_optimisation_by_comparing_monthly_cloud_run-",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5",
+        "Col6",
+        "Col7",
+        "Col8"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "checklist_0000_f73a3e62": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "button_0003_280734d0": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "",
+      "word_count": 0,
+      "text_type": "",
+      "topic_id": ""
+    },
+    "table_0001_eb18e568": {
+      "kind": "table",
+      "perturbations": [
+        "formatting",
+        "semantic"
+      ],
+      "base_type": "Summarises_Wave_2_cutover_execution,_success_rate,_and_post-",
+      "row_count": 10,
+      "col_count": 4,
+      "columns": [
+        "Metric",
+        "Notes",
+        "Value",
+        "Status"
+      ],
+      "topic_id": "cloud_migration_programme"
+    },
+    "cx_table_0000_b2281055": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "cloud_migration_programme"
+    },
+    "cx_table_0001_5b7a4877": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 20,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "cloud_migration_programme"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "How many buttons are shown in the 'Migration Status Controls' button group?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Migration Status Controls', what is the label of the first button?",
+      "answer": "Approve Phase Transition",
+      "assertions": [
+        {
+          "text": "The response must state 'Approve Phase Transition'."
+        }
+      ]
+    },
+    {
+      "question": "Which button in the 'Migration Status Controls' is styled 'danger'?",
+      "answer": "Flag Cost Deviation vs On-Prem Baseline",
+      "assertions": [
+        {
+          "text": "The response must state 'Flag Cost Deviation vs On-Prem Baseline'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Migration Status Controls', what is the label of the button styled 'warning'?",
+      "answer": "Request Cost Optimization Plan",
+      "assertions": [
+        {
+          "text": "The response must state 'Request Cost Optimization Plan'."
+        }
+      ]
+    },
+    {
+      "question": "How many buttons are shown in the 'Cloud Migration Status Actions' button group?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Which action appears first in the 'Cloud Migration Status Actions' group?",
+      "answer": "Approve Migration Status Report",
+      "assertions": [
+        {
+          "text": "The response must state 'Approve Migration Status Report'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Cloud Migration Status Actions' group, which button is presented with a success emphasis?",
+      "answer": "Confirm Operational Readiness (Sign-off)",
+      "assertions": [
+        {
+          "text": "The response must state 'Confirm Operational Readiness (Sign-off)'."
+        }
+      ]
+    },
+    {
+      "question": "What is the label of the last button in the 'Cloud Migration Status Actions' group?",
+      "answer": "Escalate Critical Risks to Steering Committee",
+      "assertions": [
+        {
+          "text": "The response must state 'Escalate Critical Risks to Steering Committee'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Migration Status Controls', what is the label of the first button displayed?",
+      "answer": "Record Workload Migration Progress",
+      "assertions": [
+        {
+          "text": "The response must state 'Record Workload Migration Progress'."
+        }
+      ]
+    },
+    {
+      "question": "Which visual style is applied to the 'Approve Operational Readiness Checklist' button on the 'Migration Status Controls'?",
+      "answer": "success",
+      "assertions": [
+        {
+          "text": "The response must state 'success'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Migration Status Controls', which button label is presented with a warning style?",
+      "answer": "Schedule Next-Phase Migration Planning",
+      "assertions": [
+        {
+          "text": "The response must state 'Schedule Next-Phase Migration Planning'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness', how many total items are on the checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness', how many items are marked as checked?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness', what completion rate percentage is shown?",
+      "answer": "50.0",
+      "assertions": [
+        {
+          "text": "The response must state '50.0'."
+        }
+      ]
+    },
+    {
+      "question": "Name one item that is not yet checked on the 'Cloud Migration Programme Status Report Checklist — Workload Progress, Cost Optimisation & Operational Readiness'.",
+      "answer": "Identify and prioritise cost optimisation actions (rightsizing, instance reservations, storage tiering) and assign owners",
+      "assertions": [
+        {
+          "text": "The response must state 'Identify and prioritise cost optimisation actions (rightsizing, instance reservations, storage tiering) and assign owners'."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are listed on the 'Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)', what is the completion rate percentage shown?",
+      "answer": "50.0%",
+      "assertions": [
+        {
+          "text": "The response must state '50.0%'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)', provide one example of an item that is marked as checked.",
+      "answer": "Validate operational readiness: confirm monitoring, alerting, backups, IAM policies, and runbooks are in place and staffed for all migrated services",
+      "assertions": [
+        {
+          "text": "The response must state 'Validate operational readiness: confirm monitoring, alerting, backups, IAM policies, and runbooks are in place and staffed for all migrated services'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Cloud Migration Programme Status Report Checklist - Wave 3 Planning (May 2026)', name one task that remains unchecked.",
+      "answer": "RPO outcomes, and log remediation items",
+      "assertions": [
+        {
+          "text": "RPO outcomes, and log remediation items'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Workload migration tracker by wave and current status (Horizon Programme, as of 2026-04-30)\", what is the Planned Cutover date for CRM-Reporting?",
+      "answer": "2026-06-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-15."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Workload migration tracker by wave and current status (Horizon Programme, as of 2026-04-30)\", who is the Owner of SAP-PI?",
+      "answer": "Enterprise Applications Manager",
+      "assertions": [
+        {
+          "text": "The response must state Enterprise Applications Manager."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Workload migration tracker by wave and current status (Horizon Programme, as of 2026-04-30)\", what is the Migration Stage for Marketing-Website?",
+      "answer": "Hypercare",
+      "assertions": [
+        {
+          "text": "The response must state Hypercare."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review', how many items are marked as completed?",
+      "answer": "6",
+      "assertions": [
+        {
+          "text": "The response must state '6'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review', what completion rate percentage is shown?",
+      "answer": "60.0%",
+      "assertions": [
+        {
+          "text": "The response must state '60.0%'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Cloud Migration Programme Status Report Checklist - Phase 2 Gate Review', name one item that is not yet checked.",
+      "answer": "Validate performance and availability of migrated workloads against agreed SLAs and record any deviations with remediation owners",
+      "assertions": [
+        {
+          "text": "The response must state 'Validate performance and availability of migrated workloads against agreed SLAs and record any deviations with remediation owners'."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Cloud Migration Programme Status Report Checklist'?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Cloud Migration Programme Status Report Checklist', what percentage completion is reported?",
+      "answer": "50.0%",
+      "assertions": [
+        {
+          "text": "The response must state '50.0%'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Cloud Migration Programme Status Report Checklist', name one item that is marked as checked.",
+      "answer": "Confirm migrated workload inventory and update migration status percentages per application group (dev, test, prod)",
+      "assertions": [
+        {
+          "text": "The response must state 'Confirm migrated workload inventory and update migration status percentages per application group (dev, test, prod)'."
+        }
+      ]
+    },
+    {
+      "question": "Which unchecked item on the 'Cloud Migration Programme Status Report Checklist' calls for validating security and compliance controls after migration?",
+      "answer": "in transit, logging ingestion, CSPM results) and list remediation items",
+      "assertions": [
+        {
+          "text": "in transit, logging ingestion, CSPM results) and list remediation items'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Migration Delivery Status and Workload Cutover Progress (Wave 1–2)\" section, how many of the 60 workloads have been migrated to AWS as of 2026-04-30?",
+      "answer": "38 of 60 workloads (63%)",
+      "assertions": [
+        {
+          "text": "The response must state 38 of 60 workloads (63%)."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Migration Delivery Status and Workload Cutover Progress (Wave 1–2)\" section, during what dates did Wave 2 cutovers run?",
+      "answer": "2026-03-04 to 2026-04-18",
+      "assertions": [
+        {
+          "text": "The response must state 2026-03-04 to 2026-04-18."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Migration Delivery Status and Workload Cutover Progress (Wave 1–2)\" section, which three workloads are identified as blocked?",
+      "answer": "CRM-Reporting, SAP-PI, and DataLake-ETL",
+      "assertions": [
+        {
+          "text": "The response must state CRM-Reporting, SAP-PI, and DataLake-ETL."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Cost Optimisation vs On‑Prem Baseline, Operational Readiness, and Phase 3 Plan\" section, what is the colud run-rate for migrated workloads as of 2026-04-30?",
+      "answer": "$1.12M per month",
+      "assertions": [
+        {
+          "text": "The response must state $1.12M per month."
+        }
+      ]
+    },
+    {
+      "question": "No-Go review scheduled?",
+      "answer": "2026-05-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-05-15."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Cost Optimisation vs On‑Prem Baseline, Operational Readiness, and Phase 3 Plan\" section, what targeted cost-reduction goal is set to improve the run-rate margin over the following three months?",
+      "answer": "4–6%",
+      "assertions": [
+        {
+          "text": "The response must state 4–6%."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Q2 2026 Cloud Migration Programme Status Report Checklist' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Q2 2026 Cloud Migration Programme Status Report Checklist', what is the completion rate percentage?",
+      "answer": "50.0%",
+      "assertions": [
+        {
+          "text": "The response must state '50.0%'."
+        }
+      ]
+    },
+    {
+      "question": "Name one item that is marked as checked on the 'Q2 2026 Cloud Migration Programme Status Report Checklist'.",
+      "answer": "Reconcile migrated workloads against approved migration target list and update percentage complete by application",
+      "assertions": [
+        {
+          "text": "The response must state 'Reconcile migrated workloads against approved migration target list and update percentage complete by application'."
+        }
+      ]
+    },
+    {
+      "question": "Identify one task listed as not yet checked on the 'Q2 2026 Cloud Migration Programme Status Report Checklist'.",
+      "answer": "Test disaster recovery and backup restore procedures for a representative set of migrated production workloads and log outcomes",
+      "assertions": [
+        {
+          "text": "The response must state 'Test disaster recovery and backup restore procedures for a representative set of migrated production workloads and log outcomes'."
+        }
+      ]
+    },
+    {
+      "question": "How many buttons are shown in the 'Migration Phase Controls' button group?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Which label appears as the first button in the 'Migration Phase Controls'?",
+      "answer": "Capture Migration Progress Snapshot",
+      "assertions": [
+        {
+          "text": "The response must state 'Capture Migration Progress Snapshot'."
+        }
+      ]
+    },
+    {
+      "question": "What style is assigned to the third button in the 'Migration Phase Controls' group?",
+      "answer": "primary",
+      "assertions": [
+        {
+          "text": "The response must state 'primary'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Migration Phase Controls', what is the displayed context or purpose?",
+      "answer": "Displayed on the programme status report after a migration phase update is published, to record progress, validate costs vs the on-premises baseline, confirm operational readiness, and plan the next phase.",
+      "assertions": [
+        {
+          "text": "The response must state 'Displayed on the programme status report after a migration phase update is published, to record progress, validate costs vs the on-premises baseline, confirm operational readiness, and plan the next phase.'."
+        }
+      ]
+    },
+    {
+      "question": "Which button in the 'Migration Status Controls' appears as the primary action?",
+      "answer": "Approve Migration Phase Transition",
+      "assertions": [
+        {
+          "text": "The response must state 'Approve Migration Phase Transition'."
+        }
+      ]
+    },
+    {
+      "question": "Which action is labeled on the danger button in the 'Migration Status Controls'?",
+      "answer": "Escalate Risk to Programme Board",
+      "assertions": [
+        {
+          "text": "The response must state 'Escalate Risk to Programme Board'."
+        }
+      ]
+    },
+    {
+      "question": "On what report are the 'Migration Status Controls' displayed?",
+      "answer": "programme status report",
+      "assertions": [
+        {
+          "text": "The response must state 'programme status report'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Migration Status Controls', which button is styled 'danger'?",
+      "answer": "Escalate Risk and Halt Migration",
+      "assertions": [
+        {
+          "text": "The response must state 'Escalate Risk and Halt Migration'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Migration Status Controls', what is the label of the third button?",
+      "answer": "Confirm Operational Readiness",
+      "assertions": [
+        {
+          "text": "The response must state 'Confirm Operational Readiness'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Migration Status Controls', what context explains when this control appears?",
+      "answer": "Appears on the programme status report when reviewers evaluate workload migration progress, cost optimisation versus the on-premises baseline, operational readiness, and decide next-phase actions.",
+      "assertions": [
+        {
+          "text": "The response must state 'Appears on the programme status report when reviewers evaluate workload migration progress, cost optimisation versus the on-premises baseline, operational readiness, and decide next-phase actions.'."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Cloud Migration Programme Status Report Checklist - Wave 3' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "What completion percentage is shown on the 'Cloud Migration Programme Status Report Checklist - Wave 3'?",
+      "answer": "50.0",
+      "assertions": [
+        {
+          "text": "The response must state '50.0'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Cloud Migration Programme Status Report Checklist - Wave 3', name one item that is marked as checked.",
+      "answer": "ops handover acceptance",
+      "assertions": [
+        {
+          "text": "ops handover acceptance'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Cloud Migration Programme Status Report Checklist - Wave 3', provide one item that remains unchecked.",
+      "answer": "RPO outcomes for the status report",
+      "assertions": [
+        {
+          "text": "RPO outcomes for the status report'."
+        }
+      ]
+    },
+    {
+      "question": "No-Go preparation, as of 2026-04-30)\", what is the Current Status for Overall Production Readiness?",
+      "answer": "At Risk - Remediation in Progress",
+      "assertions": [
+        {
+          "text": "The response must state At Risk - Remediation in Progress."
+        }
+      ]
+    },
+    {
+      "question": "No-Go preparation, as of 2026-04-30)\", what is the Readiness Complete value for Backup & Disaster Recovery?",
+      "answer": "08%",
+      "assertions": [
+        {
+          "text": "The response must state 08%."
+        }
+      ]
+    },
+    {
+      "question": "No-Go Review Date for Security & Compliance?",
+      "answer": "2026-05-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-05-15."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud run-rate vs on‑prem baseline for migrated workloads (as of 2026-04-30)\", what is the migration percentage listed for 2026-03-31?",
+      "answer": "92% migrated",
+      "assertions": [
+        {
+          "text": "The response must state 92% migrated."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud run-rate vs on‑prem baseline for migrated workloads (as of 2026-04-30)\", what is the cloud run-rate value for 2025-12-31?",
+      "answer": "month",
+      "assertions": [
+        {
+          "text": "month."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud run-rate vs on‑prem baseline for migrated workloads (as of 2026-04-30)\", what is the status shown for 2026-04-30?",
+      "answer": "Target achieved",
+      "assertions": [
+        {
+          "text": "The response must state Target achieved."
+        }
+      ]
+    },
+    {
+      "question": "How many total items are on the 'Cloud Migration Programme Status Report Checklist' checklist?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Cloud Migration Programme Status Report Checklist', what completion rate percentage is shown?",
+      "answer": "50.0",
+      "assertions": [
+        {
+          "text": "The response must state '50.0'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Cloud Migration Programme Status Report Checklist', provide one item that is not yet checked.",
+      "answer": "RPO compliance",
+      "assertions": [
+        {
+          "text": "RPO compliance'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Migration Status Controls' button group, how many buttons are shown?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Migration Status Controls', what is the label of the first button?",
+      "answer": "Publish Programme Status Snapshot",
+      "assertions": [
+        {
+          "text": "The response must state 'Publish Programme Status Snapshot'."
+        }
+      ]
+    },
+    {
+      "question": "Which label appears on the third button in the 'Migration Status Controls' group?",
+      "answer": "Approve Cost-Optimisation Recommendations vs On-Prem",
+      "assertions": [
+        {
+          "text": "The response must state 'Approve Cost-Optimisation Recommendations vs On-Prem'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Migration Status Controls', in what context does this control appear?",
+      "answer": "Appears when the programme status report is ready for stakeholder review to record workload migration progress, compare costs to the on-premises baseline, verify operational readiness, and plan the next migration phase.",
+      "assertions": [
+        {
+          "text": "The response must state 'Appears when the programme status report is ready for stakeholder review to record workload migration progress, compare costs to the on-premises baseline, verify operational readiness, and plan the next migration phase.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 2 cutover outcomes and stability checkpoints (2026-03-04 to 2026-04-18)\", what is the Value listed for \"Sev-1 incidents in first 72 hours\"?",
+      "answer": "0",
+      "assertions": [
+        {
+          "text": "The response must state 0."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 2 cutover outcomes and stability checkpoints (2026-03-04 to 2026-04-18)\", what is the Value for \"Average cutover duration (per workload)\"?",
+      "answer": "3.5 hours",
+      "assertions": [
+        {
+          "text": "The response must state 3.5 hours."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Wave 2 cutover outcomes and stability checkpoints (2026-03-04 to 2026-04-18)\", what is the Value for \"Cost variance vs on-prem baseline (Wave 2 workloads)\"?",
+      "answer": "-18%",
+      "assertions": [
+        {
+          "text": "The response must state -18%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", which leaf metric columns fall under the super-group header \"Cost Optimisation vs On‑Prem Baseline (FinOps)\"?",
+      "answer": "On‑prem baseline (monthly, $k); Current cloud run‑rate (monthly, $k); Optimisation savings realised (monthly, $k); Forecast savings @ steady state (monthly, $k).",
+      "assertions": [
+        {
+          "text": "The response must state 'On‑prem baseline (monthly, $k); Current cloud run‑rate (monthly, $k); Optimisation savings realised (monthly, $k); Forecast savings @ steady state (monthly, $k).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", how many rows does the category label \"Shared Platform Services\" span?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what is the value of \"Current cloud run‑rate (monthly, $k)\" for the sub-category \"CRM & Contact Centre\" (first row of that sub-category group)?",
+      "answer": "245 ($k per month).",
+      "assertions": [
+        {
+          "text": "The response must state '245 ($k per month).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what is the grand total for \"Forecast savings @ steady state (monthly, $k)\"?",
+      "answer": "370 ($k per month).",
+      "assertions": [
+        {
+          "text": "The response must state '370 ($k per month).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what does the \"Digital Channels Sub‑Total\" row show for \"Optimisation savings realised (monthly, $k)\"?",
+      "answer": "67 ($k per month).",
+      "assertions": [
+        {
+          "text": "The response must state '67 ($k per month).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what four metrics are listed under Cost Optimisation vs On‑Prem Baseline (FinOps)?",
+      "answer": "On‑prem baseline; Current cloud run‑rate; Optimisation savings realised; Forecast savings @ steady state",
+      "assertions": [
+        {
+          "text": "The response must state 'On‑prem baseline; Current cloud run‑rate; Optimisation savings realised; Forecast savings @ steady state.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", how many data rows are present?",
+      "answer": "25",
+      "assertions": [
+        {
+          "text": "The response must state '25.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", which is greater: the number of data rows or the number of header tiers?",
+      "answer": "Data rows (25)",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (25).'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", in what units are the FinOps figures reported?",
+      "answer": "Monthly, $k",
+      "assertions": [
+        {
+          "text": "The response must state 'Monthly, $k.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Cloud Migration Programme Status Report — Workload Progress, FinOps Savings vs On‑Prem Baseline, Operational Readiness, and Next‑Phase Plan (Month End: 2026‑04)\", what is the subtotal for group G in the FinOps column?",
+      "answer": "245 ($k per month)",
+      "assertions": [
+        {
+          "text": "The response must state '245 ($k per month).'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+from psycopg.types.json import Jsonb
+from app.core.database import DatabaseManager
+
+class DocumentRepository:
+    def __init__(self, db: DatabaseManager):
+        self.db = db
+
+    def get_documents_by_filter(self, filter_type: str, user: str, limit: int, offset: int):
+        with self.db.connect() as conn:
+            if filter_type in ('mine', 'all'):
+                where_clause = "WHERE uploaded_by = %s"
+                params = (user, limit, offset)
+            elif filter_type == 'shared':
+                # There is no document-sharing ACL yet; never expose other users' metadata.
+                where_clause = "WHERE 1 = 0"
+                params = (limit, offset)
+            else: # all
+                where_clause = ""
+                params = (limit, offset)
+
+            docs = conn.execute(
+                f"SELECT id, original_filename, content_type, size_bytes, uploaded_by, status, created_at, error_message, (extracted_data->'metadata') as meta FROM documents {where_clause} ORDER BY created_at DESC LIMIT %s OFFSET %s",
+                params
+            ).fetchall()
+            
+            count = conn.execute(
+                f"SELECT COUNT(*) FROM documents {where_clause}", 
+                params[:-2]
+            ).fetchone()[0]
+            
+        return docs, count
+
+    def create_document(self, doc_id, filename, object_key, content_type, size, user, sha256):
+        with self.db.connect() as conn:
+            conn.execute(
+                "INSERT INTO documents (id, original_filename, object_key, content_type, size_bytes, uploaded_by, sha256) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+                (doc_id, filename, object_key, content_type, size, user, sha256)
+            )
+
+    def get_next_queued_document(self):
+        with self.db.connect() as conn:
+            row = conn.execute(
+                "SELECT id FROM documents WHERE status = 'queued' ORDER BY created_at LIMIT 1"
+            ).fetchone()
+            if not row:
+                return None
+            conn.execute("UPDATE documents SET status = 'processing' WHERE id = %s", (row[0],))
+            return row[0]
+
+    def get_document(self, doc_id, user=None):
+        with self.db.connect() as conn:
+            if user:
+                return conn.execute("SELECT * FROM documents WHERE id = %s AND uploaded_by = %s", (doc_id, user)).fetchone()
+            return conn.execute("SELECT * FROM documents WHERE id = %s", (doc_id,)).fetchone()
+
+    def is_document_active(self, doc_id):
+        with self.db.connect() as conn:
+            row = conn.execute("SELECT status FROM documents WHERE id = %s", (doc_id,)).fetchone()
+            return bool(row and row[0] in ("queued", "processing"))
+
+    def get_document_status_and_data(self, doc_id, user=None):
+        with self.db.connect() as conn:
+            if user:
+                return conn.execute("SELECT status, original_filename, extracted_data FROM documents WHERE id = %s AND uploaded_by = %s", (doc_id, user)).fetchone()
+            return conn.execute("SELECT status, original_filename, extracted_data FROM documents WHERE id = %s", (doc_id,)).fetchone()
+
+    def delete_document(self, doc_id, user):
+        with self.db.connect() as conn:
+            result = conn.execute(
+                "DELETE FROM documents WHERE id = %s AND uploaded_by = %s",
+                (doc_id, user),
+            )
+            return result.rowcount > 0
+
+    def delete_all_documents(self, filter_type: str, user: str):
+        with self.db.connect() as conn:
+            if filter_type in ('mine', 'all'):
+                where_clause = "WHERE uploaded_by = %s"
+                params = (user,)
+            elif filter_type == 'shared':
+                where_clause = "WHERE 1 = 0"
+                params = ()
+            else:
+                where_clause = ""
+                params = ()
+                
+            docs = conn.execute(f"SELECT id, object_key FROM documents {where_clause}", params).fetchall()
+            if docs:
+                conn.execute(f"DELETE FROM documents {where_clause}", params)
+            return docs
+
+    def update_document_status(self, doc_id, status, error_message=None, extracted_data=None):
+        with self.db.connect() as conn:
+            if extracted_data is not None:
+                conn.execute("UPDATE documents SET status = %s, extracted_data = %s WHERE id = %s", (status, Jsonb(extracted_data), doc_id))
+            elif error_message is not None:
+                conn.execute("UPDATE documents SET status = %s, error_message = %s WHERE id = %s", (status, error_message, doc_id))
+            else:
+                conn.execute("UPDATE documents SET status = %s WHERE id = %s", (status, doc_id))

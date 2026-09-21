@@ -1,0 +1,4097 @@
+{
+  "doc_id": "doc_0000_s2017617731",
+  "title": "Enterprise Data Governance Framework: Data Ownership, Classification Policies, Quality Standards, Lineage Requirements, and Stewardship Operating Model",
+  "subtitle": "Data Governance Framework — Ownership, Classification, Data Quality, Lineage & Stewardship Operating Model",
+  "topic_id": "data_governance_framework",
+  "recipe_name": "mixed_document",
+  "seed": 2017617731,
+  "document_brief": {
+    "narrative_theme": "By establishing clear ownership, consistent classification, measurable data quality, end-to-end lineage, and an operating model with named stewardship roles, the enterprise will achieve audit-ready governance for all Tier-1 data products by Q4 2026.",
+    "sections": [
+      {
+        "heading": "Enterprise Data Ownership & Classification Policy for Tier-1 Data Products",
+        "key_facts": [
+          "As of 2026-05-01, the enterprise designates 12 Data Owners and 24 Data Stewards across 6 business domains.",
+          "All Tier-1 datasets must be classified using exactly 4 levels: Public, Internal, Confidential, Restricted.",
+          "By 2026-09-30, 100% of Tier-1 datasets must have an assigned Data Owner and a named Business Steward recorded in the data catalog."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "chart_0",
+          "chart_1",
+          "chart_2"
+        ]
+      },
+      {
+        "heading": "Data Quality, Lineage Requirements & Governance Operating Model Implementation",
+        "key_facts": [
+          "Effective 2026-07-01, Tier-1 critical data elements must meet three minimum thresholds: Completeness ≥ 99.0%, Accuracy ≥ 98.5%, Timeliness ≤ 24 hours.",
+          "Reporting.",
+          "The governance operating model establishes a Data Governance Council that meets monthly and a Data Stewardship Working Group that meets weekly starting 2026-06-15."
+        ],
+        "data_references": [
+          "table_2",
+          "table_3",
+          "table_4",
+          "table_5",
+          "chart_3",
+          "chart_4",
+          "chart_5",
+          "chart_6",
+          "chart_7",
+          "chart_8"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "RACI matrix for Tier-1 data product ownership and stewardship decisions",
+        "purpose": "Defines who is Responsible, Accountable, Consulted, and Informed for core governance decisions to ensure every Tier-1 dataset has explicit ownership and stewardship coverage.",
+        "key_data": {
+          "Decision: Approve Tier-1 dataset onboarding": "Accountable: Data Owner",
+          "Decision: Define business glossary terms": "Responsible: Business Steward",
+          "Decision: Approve access to Restricted data": "Accountable: Data Owner; Consulted: Security",
+          "Decision: Remediate data quality breach": "Responsible: Technical Steward"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Data classification policy levels with required controls for Tier-1 datasets",
+        "purpose": "Standardizes the four classification levels and the minimum handling controls so classification is consistent and enforceable across domains.",
+        "key_data": {
+          "Public": "No authentication required",
+          "Internal": "SSO required; no external sharing",
+          "Confidential": "Encryption at rest; access by role",
+          "Restricted": "MFA; quarterly access recertification"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Tier-1 data quality standards and acceptance thresholds (effective 2026-07-01)",
+        "purpose": "Provides measurable quality rules and thresholds that must be met for Tier-1 critical data elements, enabling consistent monitoring and enforcement.",
+        "key_data": {
+          "Completeness": "≥ 99.0%",
+          "Accuracy": "≥ 98.5%",
+          "Timeliness": "≤ 24 hours",
+          "Uniqueness": "≥ 99.5%"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Lineage documentation requirements for Tier-1 datasets and critical data elements",
+        "purpose": "Specifies the minimum lineage scope and metadata fields required to achieve audit-ready traceability from source to consumption.",
+        "key_data": {
+          "Minimum hops": "3 (Source → Integration → Analytics)",
+          "Required metadata: Transformation logic": " mapping reference",
+          "Required metadata: Data owner approval": "Recorded in catalog",
+          "Required metadata: Last validated date": "YYYY-MM-DD"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Governance operating model: forums, cadence, and decision rights starting 2026-06-15",
+        "purpose": "Defines how governance runs day-to-day (who meets, how often, and what decisions are made) to operationalize ownership, classification, quality, and lineage.",
+        "key_data": {
+          "Data Governance Council": "Monthly; approves policy exceptions",
+          "Data Stewardship Working Group": "Weekly; resolves data issues",
+          "Architecture Review Board": "Biweekly; approves lineage tooling changes",
+          "Security & Privacy Committee": "Monthly; approves Restricted controls"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Stewardship roles, responsibilities, and required time allocation for Tier-1 coverage",
+        "purpose": "Clarifies stewardship role expectations and capacity planning so each Tier-1 dataset has adequate operational support.",
+        "key_data": {
+          "Business Steward": "Owns definitions; 0.2 FTE",
+          "Technical Steward": "Owns pipelines; 0.3 FTE",
+          "Data Custodian": "Owns platform operations; 0.1 FTE",
+          "Data Owner": "Accountable for risk; 0.1 FTE"
+        }
+      }
+    ],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30",
+        "chart_type": "line",
+        "x_label": "Month (2026)",
+        "y_label": "Percent of Tier-1 datasets with Data Owner assigned",
+        "purpose": "Tracks monthly progress to ensure every Tier-1 dataset has an accountable Data Owner recorded in the catalog by the target date."
+      },
+      {
+        "id": "chart_1",
+        "title": "Restricted)",
+        "chart_type": "pie",
+        "x_label": "Classification level",
+        "y_label": "Share of Tier-1 datasets (%)",
+        "purpose": "Shows how Tier-1 datasets are classified across the four mandated levels to validate consistent policy application."
+      },
+      {
+        "id": "chart_2",
+        "title": "Ownership and stewardship coverage by business domain (as of 2026-05-01)",
+        "chart_type": "bar",
+        "x_label": "Business domain",
+        "y_label": "Count of assigned roles (Owners + Stewards)",
+        "purpose": "Compares domain coverage against the stated footprint of 12 Data Owners and 24 Data Stewards to identify gaps."
+      },
+      {
+        "id": "chart_3",
+        "title": "Data quality compliance rate vs thresholds (effective 2026-07-01)",
+        "chart_type": "bar",
+        "x_label": "Quality dimension (Completeness, Accuracy, Timeliness, Uniqueness)",
+        "y_label": "Percent of Tier-1 critical data elements meeting threshold",
+        "purpose": "Visualizes whether Tier-1 critical data elements meet the minimum acceptance thresholds required by the standard."
+      },
+      {
+        "id": "chart_4",
+        "title": "Monthly trend of Tier-1 data quality incidents after standards go-live",
+        "chart_type": "line",
+        "x_label": "Month (2026)",
+        "y_label": "Number of Tier-1 data quality incidents",
+        "purpose": "Shows whether governance controls and stewardship operating rhythms reduce quality incidents over time."
+      },
+      {
+        "id": "chart_5",
+        "title": "Lineage coverage progress toward 95% by 2026-12-31",
+        "chart_type": "line",
+        "x_label": "Month (2026)",
+        "y_label": "Percent of Tier-1 datasets with end-to-end lineage documented",
+        "purpose": "Tracks progress toward documenting at least 3-hop end-to-end lineage for Tier-1 datasets by the year-end target."
+      },
+      {
+        "id": "chart_6",
+        "title": "Lineage completeness heatmap by pipeline stage and metadata field",
+        "chart_type": "heatmap",
+        "x_label": "Lineage metadata field (Source, Transform, Target, Owner Approval, Last Validated Date)",
+        "y_label": "Reporting)",
+        "purpose": "Highlights which lineage metadata fields are missing by stage to prioritize remediation for audit-ready traceability."
+      },
+      {
+        "id": "chart_7",
+        "title": "Access risk concentration by classification level and user population",
+        "chart_type": "scatter",
+        "x_label": "Number of users with access",
+        "y_label": "Average access risk score (0-100)",
+        "purpose": "Relates user access breadth to risk by classification to support governance decisions on Restricted and Confidential datasets."
+      },
+      {
+        "id": "chart_8",
+        "title": "Stewardship workload distribution by role (FTE allocation)",
+        "chart_type": "box",
+        "x_label": "Stewardship role",
+        "y_label": "Allocated FTE per Tier-1 dataset",
+        "purpose": "Validates whether role-based time allocations (e.g., 0.2–0.3 FTE) are realistic and consistently applied across Tier-1 coverage."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s2017617731.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0002_2b6c6e08.png",
+      "scan_llm_data_3c7fbd17.png",
+      "img_0007_36247afe.png",
+      "scan_llm_hand_77a0e4c9.png",
+      "img_0003_f0325ff6.png",
+      "scan_llm_text_216fc33b.png",
+      "img_0004_fe976bf8.png",
+      "scan_llm_stam_92010307.png",
+      "img_0000_3ced5c9f.png",
+      "img_0001_66b20fda.png",
+      "img_0006_0346b3ce.png",
+      "img_0005_393320d6.png",
+      "img_0008_3df1e09b.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 42,
+    "actual_page_count": 22
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "text",
+      "variant_id": "text_0001_c69460af",
+      "heading": "Data Quality, Lineage Requirements & Governance Operating Model Implementation",
+      "word_count": 305,
+      "text_content": [
+        "**Data Quality, Lineage Requirements & Governance Operating Model Implementation**",
+        "Effective 2026-07-01, all Tier-1 critical data elements must meet minimum data quality thresholds established by the governance framework: Completeness ≥ 99.0%, Accuracy ≥ 98.5%, and Timeliness ≤ 24 hours. These thresholds are enforced through automated measurements, SLA reporting, and quarterly executive reviews led by the Chief Data Officer (CDO). Operational teams must implement validation checks at ingestion, reconciliation routines in the integration layer, and exception workflows with measurable remediation SLAs. Nonconformances trigger a formal remediation plan within five business days and escalations to the Data Stewardship Working Group for priority resolution. Quality metrics will be published in the Enterprise Data Quality Dashboard.",
+        "Reporting. Documentation must be stored in the Enterprise Metadata Repository and include data element mappings, transformation logic, timestamps, and responsible stewards. Implementation approaches include automated lineage extraction, manual augmentation where automated discovery is incomplete, and regular reconciliation between pipeline metadata and deployed artifacts. Lineage artifacts will be versioned, quality-checked during change windows, and subjected to automated alerts for broken links or unaccounted hops to ensure reliable auditability and impact analysis.",
+        "The governance operating model defines formal forums, roles, and execution timelines: the Data Governance Council will convene monthly to set policy, approve exceptions, and review Tier-1 data quality and lineage posture; the Data Stewardship Working Group will meet weekly starting 2026-06-15 to coordinate remediation, steward onboarding, and tactical stewardship activities. The CDO sponsors the Council; Business Data Owners, Data Engineers, and Compliance Officers hold voting roles defined in the charter. A RACI matrix will govern decision rights, while a published meeting schedule, standing agendas, and action-tracking register ensure accountability. Performance against SLAs and lineage targets will be reported monthly to senior executive leadership."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, what is the minimum Completeness threshold required for Tier-1 critical data elements effective 2026-07-01?",
+          "answer": "Completeness ≥ 99.0%",
+          "assertions": [
+            {
+              "text": "The response must state Completeness ≥ 99.0%."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, by what date must 95% of Tier-1 datasets have documented end-to-end lineage?",
+          "answer": "2026-12-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-12-31."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, on what date will the Data Stewardship Working Group begin meeting weekly?",
+          "answer": "2026-06-15",
+          "assertions": [
+            {
+              "text": "The response must state 2026-06-15."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0000_4ff3b447",
+      "heading": "Enterprise Data Ownership & Classification Policy for Tier-1 Data Products",
+      "word_count": 189,
+      "text_content": [
+        "**Enterprise Data Ownership & Classification Policy for Tier-1 Data Products**",
+        "As of 2026-05-01, the enterprise designates 12 Data Owners and 24 Data Stewards across 6 business domains. The governance office records each assignment in the central data catalog and maintains contact, escalation, and authority matrices. Data Owners hold accountability for Tier-1 data products’ lifecycle decisions; Data Stewards execute operational controls. This distribution supports domain-aligned stewardship and cross-domain coordination. Metrics and reporting are established.",
+        "All Tier-1 datasets must be classified using exactly 4 levels: Public, Internal, Confidential, Restricted, and labels applied at dataset and field level. Classification drives handling requirements, access authorization, encryption, and retention policies. The security and privacy teams operationalize controls and approve baseline protection for each classification. Catalog metadata fields will include the classification value, classification date, and rationale for auditability for compliance purposes.",
+        "By 2026-09-30, 100% of Tier-1 datasets must have an assigned Data Owner and a named Business Steward recorded in the data catalog; exceptions require executive approval. Compliance will be measured monthly with automated catalog reports and quarterly stewardship attestations. Noncompliant domains will receive remediation plans, and the Chief Data Officer will report status to the Enterprise Risk Committee until full compliance is achieved."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Enterprise Data Ownership & Classification Policy for Tier-1 Data Products\" section, as of 2026-05-01 how many Data Owners are designated?",
+          "answer": "12 Data Owners",
+          "assertions": [
+            {
+              "text": "The response must state 12 Data Owners."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Enterprise Data Ownership & Classification Policy for Tier-1 Data Products\" section, what are the exactly 4 classification levels required for Tier-1 datasets?",
+          "answer": "Public, Internal, Confidential, Restricted",
+          "assertions": [
+            {
+              "text": "The response must state Public, Internal, Confidential, Restricted."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Enterprise Data Ownership & Classification Policy for Tier-1 Data Products\" section, by what date must 100% of Tier-1 datasets have an assigned Data Owner and a named Business Steward recorded in the data catalog?",
+          "answer": "2026-09-30",
+          "assertions": [
+            {
+              "text": "The response must state 2026-09-30."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "img_0002_2b6c6e08",
+      "figure_number": 1,
+      "image_path": "img_0002_2b6c6e08.png",
+      "caption": "Figure 1: Ownership and stewardship coverage by business domain (as of 2026-05-01)",
+      "chart_type": "heatmap",
+      "chart_title": "Ownership and stewardship coverage by business domain (as of 2026-05-01)",
+      "x_label": "Business domain",
+      "y_label": "Count of assigned roles (Owners + Stewards)",
+      "categories": [
+        "Finance",
+        "Sales",
+        "Marketing",
+        "Operations",
+        "Human Resources",
+        "Supply Chain",
+        "IT & Security",
+        "Customer Support"
+      ],
+      "series_names": [
+        "Assigned Data Owners + Stewards"
+      ],
+      "value_range": [
+        1,
+        7
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Finance",
+          "Sales",
+          "Marketing",
+          "Operations",
+          "Human Resources",
+          "Supply Chain"
+        ],
+        "series": [
+          "Assigned Data Owners + Stewards"
+        ],
+        "value_range": [
+          1,
+          7
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Ownership and stewardship coverage by business domain (as of 2026-05-01)\", what does the Y-axis represent?",
+          "answer": "Count of assigned roles (Owners + Stewards)",
+          "assertions": [
+            {
+              "text": "The response must state Count of assigned roles (Owners + Stewards)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Ownership and stewardship coverage by business domain (as of 2026-05-01)\", what is the value range shown?",
+          "answer": "[1, 7]",
+          "assertions": [
+            {
+              "text": "The response must state [1, 7]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Ownership and stewardship coverage by business domain (as of 2026-05-01)\", what is the stated trend?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "image",
+      "variant_id": "scan_llm_0001_34b4606c",
+      "figure_number": 2,
+      "image_path": "scan_llm_data_3c7fbd17.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 2: Tier-1 Data Product Governance Status",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Tier-1 Data Product Governance Status",
+        "caption": "Overview of ownership, classification level, data quality performance, and lineage completeness for designated Tier-1 data products.",
+        "headers": [
+          "Data Product",
+          "Domain Owner",
+          "Class Level",
+          "DQ Score (%)",
+          "Lineage Coverage (%)"
+        ],
+        "rows": [
+          [
+            "Customer Master",
+            "A. R. Delgado",
+            "Restricted",
+            "96.4",
+            "100"
+          ],
+          [
+            "Policy Transactions",
+            "N. Bhattacharya",
+            "Confidential",
+            "94.1",
+            "98"
+          ],
+          [
+            "Claims Ledger",
+            "S. O’Connell",
+            "Restricted",
+            "92.7",
+            "95"
+          ],
+          [
+            "Provider Directory",
+            "M. K. Jensen",
+            "Internal",
+            "97.8",
+            "100"
+          ],
+          [
+            "Billing Accounts",
+            "L. F. Romero",
+            "Confidential",
+            "91.3",
+            "93"
+          ],
+          [
+            "Product Catalog",
+            "D. H. Stein",
+            "Internal",
+            "98.6",
+            "100"
+          ],
+          [
+            "Risk Scoring",
+            "T. A. Mensah",
+            "Restricted",
+            "89.9",
+            "90"
+          ],
+          [
+            "Regulatory Reporting",
+            "E. V. Petrova",
+            "Restricted",
+            "95.5",
+            "100"
+          ],
+          [
+            "HR Workforce",
+            "C. Y. Tan",
+            "Confidential",
+            "93.2",
+            "97"
+          ],
+          [
+            "Vendor Master",
+            "P. J. Kowalski",
+            "Internal",
+            "96.9",
+            "99"
+          ],
+          [
+            "Digital Interaction Logs",
+            "R. Singh",
+            "Confidential",
+            "90.4",
+            "92"
+          ],
+          [
+            "Financial GL",
+            "B. Al-Masri",
+            "Restricted",
+            "97.1",
+            "100"
+          ]
+        ],
+        "summary_note": "Most Tier-1 data products exceed the 92% data quality benchmark, with lineage coverage nearing full traceability. Risk Scoring and Digital Interaction Logs require targeted remediation to meet Q4 2026 audit-readiness thresholds.",
+        "date": "31 Mar 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Data Product",
+        "Domain Owner",
+        "Class Level",
+        "DQ Score (%)",
+        "Lineage Coverage (%)"
+      ],
+      "cells": [
+        [
+          "Customer Master",
+          "A. R. Delgado",
+          "Restricted",
+          "96.4",
+          "100"
+        ],
+        [
+          "Policy Transactions",
+          "N. Bhattacharya",
+          "Confidential",
+          "94.1",
+          "98"
+        ],
+        [
+          "Claims Ledger",
+          "S. O’Connell",
+          "Restricted",
+          "92.7",
+          "95"
+        ],
+        [
+          "Provider Directory",
+          "M. K. Jensen",
+          "Internal",
+          "97.8",
+          "100"
+        ],
+        [
+          "Billing Accounts",
+          "L. F. Romero",
+          "Confidential",
+          "91.3",
+          "93"
+        ],
+        [
+          "Product Catalog",
+          "D. H. Stein",
+          "Internal",
+          "98.6",
+          "100"
+        ],
+        [
+          "Risk Scoring",
+          "T. A. Mensah",
+          "Restricted",
+          "89.9",
+          "90"
+        ],
+        [
+          "Regulatory Reporting",
+          "E. V. Petrova",
+          "Restricted",
+          "95.5",
+          "100"
+        ],
+        [
+          "HR Workforce",
+          "C. Y. Tan",
+          "Confidential",
+          "93.2",
+          "97"
+        ],
+        [
+          "Vendor Master",
+          "P. J. Kowalski",
+          "Internal",
+          "96.9",
+          "99"
+        ],
+        [
+          "Digital Interaction Logs",
+          "R. Singh",
+          "Confidential",
+          "90.4",
+          "92"
+        ],
+        [
+          "Financial GL",
+          "B. Al-Masri",
+          "Restricted",
+          "97.1",
+          "100"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Most Tier-1 data products exceed the 92% data quality benchmark, with lineage coverage nearing full traceability. Risk Scoring and Digital Interaction Logs require targeted remediation to meet Q4 2026 audit-readiness thresholds.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Tier-1 Data Product Governance Status\", who is listed as the Domain Owner for Policy Transactions?",
+          "answer": "N. Bhattacharya.",
+          "assertions": [
+            {
+              "text": "The response must state 'N. Bhattacharya.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Tier-1 Data Product Governance Status\", what is the DQ Score (%) for Provider Directory?",
+          "answer": "97.8%",
+          "assertions": [
+            {
+              "text": "The response must state '97.8%'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Tier-1 Data Product Governance Status\", how many total rows are indicated in the table?",
+          "answer": "12 rows total.",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows total.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Tier-1 Data Product Governance Status\", do most Tier-1 data products exceed the 92% data quality benchmark?",
+          "answer": "Yes; most Tier-1 data products exceed the 92% benchmark.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes; most Tier-1 data products exceed the 92% benchmark.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Tier-1 Data Product Governance Status\", which data products are identified as requiring targeted remediation?",
+          "answer": "Risk Scoring and Digital Interaction Logs.",
+          "assertions": [
+            {
+              "text": "The response must state 'Risk Scoring and Digital Interaction Logs.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "llm_mp_table_0001_e6e693ac",
+      "table_number": 1,
+      "caption": "Table 1: Project Milestone Tracker",
+      "columns": [
+        "Milestone ID",
+        "Milestone Name",
+        "Owner",
+        "Target Date",
+        "% Complete"
+      ],
+      "row_count": 56,
+      "cells": [
+        [
+          "DG-01",
+          "Project Charter Approval",
+          "Chief Data Officer",
+          "2026-01-15",
+          "100"
+        ],
+        [
+          "DG-02",
+          "Stakeholder Identification & RACI Definition",
+          "Data Governance Lead",
+          "2026-01-30",
+          "100"
+        ],
+        [
+          "DG-03",
+          "Current State Data Ownership Assessment",
+          "Data Architecture Manager",
+          "2026-02-20",
+          "90"
+        ],
+        [
+          "DG-04",
+          "Define Data Ownership Model",
+          "Enterprise Data Architect",
+          "2026-03-05",
+          "85"
+        ],
+        [
+          "DG-05",
+          "Develop Data Classification Policy",
+          "Information Security Lead",
+          "2026-03-20",
+          "80"
+        ],
+        [
+          "DG-06",
+          "Approve Data Classification Standards",
+          "Risk & Compliance Officer",
+          "2026-04-01",
+          "70"
+        ],
+        [
+          "DG-07",
+          "Define Data Quality Dimensions & Metrics",
+          "Data Quality Manager",
+          "2026-04-15",
+          "65"
+        ],
+        [
+          "DG-08",
+          "Establish Data Quality Monitoring Framework",
+          "Data Engineering Lead",
+          "2026-04-30",
+          "55"
+        ],
+        [
+          "DG-09",
+          "Define Data Lineage Requirements",
+          "Enterprise Data Architect",
+          "2026-05-10",
+          "50"
+        ],
+        [
+          "DG-10",
+          "Select Data Governance Tooling",
+          "IT Program Manager",
+          "2026-05-25",
+          "40"
+        ],
+        [
+          "DG-11",
+          "Develop Stewardship Role Descriptions",
+          "HR Business Partner",
+          "2026-06-05",
+          "35"
+        ],
+        [
+          "DG-12",
+          "Design Governance Operating Model",
+          "Data Governance Council",
+          "2026-06-20",
+          "30"
+        ],
+        [
+          "DG-13",
+          "Draft Data Governance Framework Document",
+          "Data Governance Lead",
+          "2026-07-10",
+          "25"
+        ],
+        [
+          "DG-14",
+          "Executive Review & Approval",
+          "Chief Data Officer",
+          "2026-07-25",
+          "10"
+        ],
+        [
+          "DG-15",
+          "Framework Publication & Communication Plan",
+          "Corporate Communications Lead",
+          "2026-08-05",
+          "0"
+        ],
+        [
+          "16",
+          "Define Data Ownership Matrix",
+          "Chief Data Officer",
+          "2026-06-15",
+          "100%"
+        ],
+        [
+          "17",
+          "Validate Domain Data Owners",
+          "Data Governance Lead",
+          "2026-06-22",
+          "95%"
+        ],
+        [
+          "18",
+          "Develop Data Classification Policy Draft",
+          "Information Security Manager",
+          "2026-07-01",
+          "100%"
+        ],
+        [
+          "19",
+          "Review Regulatory Compliance Requirements",
+          "Compliance Officer",
+          "2026-07-08",
+          "90%"
+        ],
+        [
+          "20",
+          "Establish Data Quality Standards",
+          "Data Quality Manager",
+          "2026-07-15",
+          "85%"
+        ],
+        [
+          "21",
+          "Create Data Quality Metrics Catalog",
+          "Data Analyst Lead",
+          "2026-07-22",
+          "75%"
+        ],
+        [
+          "22",
+          "Define Data Stewardship Roles",
+          "HR Business Partner",
+          "2026-07-29",
+          "80%"
+        ],
+        [
+          "23",
+          "Design Data Governance Operating Model",
+          "Enterprise Architect",
+          "2026-08-05",
+          "70%"
+        ],
+        [
+          "24",
+          "Develop Data Issue Escalation Process",
+          "Risk Manager",
+          "2026-08-12",
+          "60%"
+        ],
+        [
+          "25",
+          "Implement Metadata Management Guidelines",
+          "Metadata Specialist",
+          "2026-08-19",
+          "55%"
+        ],
+        [
+          "26",
+          "Draft Data Retention and Archiving Policy",
+          "Records Manager",
+          "2026-08-26",
+          "65%"
+        ],
+        [
+          "27",
+          "Conduct Stakeholder Review Workshop",
+          "Program Manager",
+          "2026-09-02",
+          "50%"
+        ],
+        [
+          "28",
+          "Incorporate Feedback into Final Framework",
+          "Data Governance Lead",
+          "2026-09-09",
+          "40%"
+        ],
+        [
+          "29",
+          "Obtain Executive Approval",
+          "Chief Risk Officer",
+          "2026-09-16",
+          "25%"
+        ],
+        [
+          "30",
+          "Publish and Communicate Framework",
+          "Corporate Communications Manager",
+          "2026-09-23",
+          "10%"
+        ],
+        [
+          "31",
+          "Metadata Standards Finalization",
+          "Data Architecture Lead",
+          "2026-06-15",
+          "92%"
+        ],
+        [
+          "32",
+          "Data Stewardship Role Assignment",
+          "HR Business Partner",
+          "2026-06-20",
+          "88%"
+        ],
+        [
+          "33",
+          "Data Classification Policy Approval",
+          "Chief Information Security Officer",
+          "2026-06-25",
+          "95%"
+        ],
+        [
+          "34",
+          "Data Quality Metrics Definition",
+          "Head of Data Quality",
+          "2026-07-01",
+          "90%"
+        ],
+        [
+          "35",
+          "Data Ownership RACI Matrix Sign-off",
+          "Enterprise Data Governance Council",
+          "2026-07-05",
+          "85%"
+        ],
+        [
+          "36",
+          "Data Lifecycle Management Guidelines",
+          "Records Management Lead",
+          "2026-07-10",
+          "78%"
+        ],
+        [
+          "37",
+          "Master Data Management Alignment",
+          "MDM Program Manager",
+          "2026-07-15",
+          "72%"
+        ],
+        [
+          "38",
+          "Sensitive Data Handling Procedures",
+          "Information Security Manager",
+          "2026-07-18",
+          "80%"
+        ],
+        [
+          "39",
+          "Data Access Control Framework Update",
+          "IAM Lead",
+          "2026-07-22",
+          "76%"
+        ],
+        [
+          "40",
+          "Data Quality Issue Escalation Process",
+          "Data Governance Manager",
+          "2026-07-25",
+          "70%"
+        ],
+        [
+          "41",
+          "Data Governance Training Materials Development",
+          "Learning & Development Lead",
+          "2026-07-30",
+          "68%"
+        ],
+        [
+          "42",
+          "Business Glossary Publication",
+          "Metadata Manager",
+          "2026-08-05",
+          "83%"
+        ],
+        [
+          "43",
+          "CCPA)",
+          "Compliance Officer",
+          "2026-08-10",
+          "74%"
+        ],
+        [
+          "44",
+          "Data Governance KPI Dashboard Design",
+          "BI Lead",
+          "2026-08-15",
+          "66%"
+        ],
+        [
+          "45",
+          "Executive Review and Framework Sign-off",
+          "Chief Data Officer",
+          "2026-08-20",
+          "60%"
+        ],
+        [
+          "46",
+          "Finalize Data Ownership RACI Matrix",
+          "Data Governance Lead",
+          "2026-06-15",
+          "92%"
+        ],
+        [
+          "47",
+          "Executive Review of Classification Policy",
+          "Chief Data Officer",
+          "2026-06-20",
+          "85%"
+        ],
+        [
+          "48",
+          "Approve Data Retention Standards",
+          "Compliance Manager",
+          "2026-06-25",
+          "78%"
+        ],
+        [
+          "49",
+          "Data Quality Metrics Definition",
+          "Data Quality Lead",
+          "2026-07-02",
+          "88%"
+        ],
+        [
+          "50",
+          "Pilot Data Stewardship Model",
+          "Head of Data Operations",
+          "2026-07-10",
+          "64%"
+        ],
+        [
+          "51",
+          "Integrate Governance Controls with BI Platform",
+          "Analytics Engineering Manager",
+          "2026-07-18",
+          "55%"
+        ],
+        [
+          "52",
+          "Conduct Data Risk Assessment Workshop",
+          "Information Security Officer",
+          "2026-07-22",
+          "47%"
+        ],
+        [
+          "53",
+          "Finalize Metadata Management Guidelines",
+          "Enterprise Architect",
+          "2026-07-30",
+          "60%"
+        ],
+        [
+          "54",
+          "Stakeholder Sign-off on Governance Framework",
+          "Chief Risk Officer",
+          "2026-08-05",
+          "40%"
+        ],
+        [
+          "55",
+          "Develop Data Quality Monitoring Dashboard",
+          "Business Intelligence Lead",
+          "2026-08-12",
+          "33%"
+        ],
+        [
+          "56",
+          "Prepare Governance Framework for Board Presentation",
+          "Chief Data Officer",
+          "2026-08-20",
+          "25%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Milestone ID": 1476.0,
+        "max_Milestone ID": 56.0,
+        "min_Milestone ID": 16.0,
+        "sum_% Complete": 3679.0,
+        "max_% Complete": 100.0,
+        "min_% Complete": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Target Date for the milestone \"Define Data Lineage Requirements\"?",
+          "answer": "2026-05-10",
+          "assertions": [
+            {
+              "text": "The response must state 2026-05-10."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", who is the Owner of milestone DG-03?",
+          "answer": "Data Architecture Manager",
+          "assertions": [
+            {
+              "text": "The response must state Data Architecture Manager."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the % Complete for milestone 16 \"Define Data Ownership Matrix\"?",
+          "answer": "100%",
+          "assertions": [
+            {
+              "text": "The response must state 100%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "image",
+      "variant_id": "img_0007_36247afe",
+      "figure_number": 3,
+      "image_path": "img_0007_36247afe.png",
+      "caption": "Figure 3: Access risk concentration by classification level and user population",
+      "chart_type": "violin",
+      "chart_title": "Access risk concentration by classification level and user population",
+      "x_label": "Number of users with access",
+      "y_label": "Average access risk score (0-100)",
+      "categories": [
+        "Public",
+        "Internal",
+        "Confidential",
+        "Restricted"
+      ],
+      "series_names": [
+        "Customer Data",
+        "Financial Data",
+        "Operational Data",
+        "HR Data"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "Public",
+          "Internal",
+          "Confidential",
+          "Restricted"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Access risk concentration by classification level and user population\", what does the Y-axis represent?",
+          "answer": "Average access risk score (0-100)",
+          "assertions": [
+            {
+              "text": "The response must state Average access risk score (0-100)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Access risk concentration by classification level and user population\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Access risk concentration by classification level and user population\", what is the overall trend?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "cx_table_0000_0de7886c",
+      "table_number": 2,
+      "caption": "Table 2: Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what is the H1 Attainment% for \"Critical data elements (CDEs) with named Data Owner\"?",
+          "answer": "94%",
+          "assertions": [
+            {
+              "text": "The response must state '94%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", how many metrics does the \"Classification & Access\" category rowspan cover?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", which metric has the lower H2 attainment in the \"Quality & Lineage\" category?",
+          "answer": "P2) impacting reporting",
+          "assertions": [
+            {
+              "text": "P2) impacting reporting'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what is the H2 target for \"Lineage documented end-to-end for Tier-1 pipelines\"?",
+          "answer": "$1.40M",
+          "assertions": [
+            {
+              "text": "The response must state '$1.40M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what metric value is shown for H2?",
+          "answer": "94%",
+          "assertions": [
+            {
+              "text": "The response must state '94%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", how many header rows are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", which side has the higher score, H1 or H2?",
+          "answer": "H2 with 94%",
+          "assertions": [
+            {
+              "text": "The response must state 'H2 with 94%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what does footnote 3 indicate?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what is the subtotal for Ownership in the H1 column?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "scan_llm_0002_ef0fbffe",
+      "figure_number": 4,
+      "image_path": "scan_llm_hand_77a0e4c9.png",
+      "subtype": "scanned_handwritten_note",
+      "caption": "2026",
+      "scan_quality": "high",
+      "spec": {
+        "variant_type": "handwritten_note",
+        "title": "2026",
+        "lines": [
+          "Objective: Audit-ready governance for all Tier-1 data products by Q4 2026.",
+          "- Confirmed Tier-1 list (14 products): Client360, TradeCapture, RiskCalc, GL_Finance, etc.",
+          "- Ownership: Each product must have 1 Exec Data Owner (EDO) + 1 Operational Data Steward (ODS).",
+          "  • EDO accountable for policy adherence + funding.",
+          "  • ODS responsible for metadata, DQ rules, issue mgmt.",
+          " Restricted.",
+          "  • Restricted = PII, payment data, regulatory capital figures.",
+          "- Action: reclassify legacy tables in RiskCalc before 31 Mar 2026.",
+          "- Data Quality standards: completeness ≥ 98.5%, accuracy ≥ 99.2%, timeliness < T+1.",
+          "  • DQ scorecards to be published monthly in Collibra.",
+          "- Lineage requirement: end-to-end (source → transformation → report).",
+          "  • Must capture SQL logic + batch job IDs in metadata store.",
+          "14 Tier-1 products missing upstream vendor lineage.",
+          "- Governance Operating Model:",
+          "  • Data Governance Council (monthly, chaired by CDO).",
+          "  • Domain Stewards forum (bi-weekly).",
+          "  • Issue escalation SLA = 10 business days.",
+          "- Metrics for audit readiness: 100% ownership assigned, 95% lineage documented, 0 open Sev-1 DQ issues.",
+          "- Next checkpoint: 15 June 2026 — internal audit dry run."
+        ],
+        "style": "fast",
+        "has_signature": true,
+        "signature_name": "Elena Marquez",
+        "date": "2026",
+        "paper_type": "ruled",
+        "quality_tier": "high"
+      },
+      "columns": [
+        "line"
+      ],
+      "cells": [
+        [
+          "Objective: Audit-ready governance for all Tier-1 data products by Q4 2026."
+        ],
+        [
+          "- Confirmed Tier-1 list (14 products): Client360, TradeCapture, RiskCalc, GL_Finance, etc."
+        ],
+        [
+          "- Ownership: Each product must have 1 Exec Data Owner (EDO) + 1 Operational Data Steward (ODS)."
+        ],
+        [
+          "  • EDO accountable for policy adherence + funding."
+        ],
+        [
+          "  • ODS responsible for metadata, DQ rules, issue mgmt."
+        ],
+        [
+          " Restricted."
+        ],
+        [
+          "  • Restricted = PII, payment data, regulatory capital figures."
+        ],
+        [
+          "- Action: reclassify legacy tables in RiskCalc before 31 Mar 2026."
+        ],
+        [
+          "- Data Quality standards: completeness ≥ 98.5%, accuracy ≥ 99.2%, timeliness < T+1."
+        ],
+        [
+          "  • DQ scorecards to be published monthly in Collibra."
+        ],
+        [
+          "- Lineage requirement: end-to-end (source → transformation → report)."
+        ],
+        [
+          "  • Must capture SQL logic + batch job IDs in metadata store."
+        ],
+        [
+          "14 Tier-1 products missing upstream vendor lineage."
+        ],
+        [
+          "- Governance Operating Model:"
+        ],
+        [
+          "  • Data Governance Council (monthly, chaired by CDO)."
+        ],
+        [
+          "  • Domain Stewards forum (bi-weekly)."
+        ],
+        [
+          "  • Issue escalation SLA = 10 business days."
+        ],
+        [
+          "- Metrics for audit readiness: 100% ownership assigned, 95% lineage documented, 0 open Sev-1 DQ issues."
+        ],
+        [
+          "- Next checkpoint: 15 June 2026 — internal audit dry run."
+        ]
+      ],
+      "line_count": 19,
+      "hw_style": "fast",
+      "has_signature": true,
+      "qa_candidates": [
+        {
+          "question": "2026\", who signed the page?",
+          "answer": "Elena Marquez",
+          "assertions": [
+            {
+              "text": "The response must state 'Elena Marquez'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", how many Tier-1 data products were confirmed?",
+          "answer": "14",
+          "assertions": [
+            {
+              "text": "The response must state '14'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", what data quality standards are specified for completeness, accuracy, and timeliness?",
+          "answer": "Completeness ≥ 98.5%; accuracy ≥ 99.2%; timeliness < T+1",
+          "assertions": [
+            {
+              "text": "The response must state 'Completeness ≥ 98.5%; accuracy ≥ 99.2%; timeliness < T+1'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", by what date must legacy tables in RiskCalc be reclassified?",
+          "answer": "Before 31 Mar 2026",
+          "assertions": [
+            {
+              "text": "The response must state 'Before 31 Mar 2026'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "2026\", which responsibilities are assigned to the Operational Data Steward (ODS)?",
+          "answer": "Metadata management, data quality (DQ) rules, and issue management",
+          "assertions": [
+            {
+              "text": "The response must state 'Metadata management, data quality (DQ) rules, and issue management'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "image",
+      "variant_id": "img_0003_f0325ff6",
+      "figure_number": 5,
+      "image_path": "img_0003_f0325ff6.png",
+      "caption": "Figure 5: Data quality compliance rate vs thresholds (effective 2026-07-01)",
+      "chart_type": "stacked_area",
+      "chart_title": "Data quality compliance rate vs thresholds (effective 2026-07-01)",
+      "x_label": "Quality dimension (Completeness, Accuracy, Timeliness, Uniqueness)",
+      "y_label": "Percent of Tier-1 critical data elements meeting threshold",
+      "categories": [
+        "Completeness",
+        "Accuracy",
+        "Timeliness",
+        "Uniqueness"
+      ],
+      "series_names": [
+        "Minimum Threshold",
+        "Actual Compliance Rate"
+      ],
+      "value_range": [
+        70,
+        100
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Minimum Threshold",
+          "Actual Compliance Rate"
+        ],
+        "value_range": [
+          70,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Data quality compliance rate vs thresholds (effective 2026-07-01)\", what does the Y-axis represent?",
+          "answer": "Percent of Tier-1 critical data elements meeting threshold",
+          "assertions": [
+            {
+              "text": "The response must state Percent of Tier-1 critical data elements meeting threshold."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Data quality compliance rate vs thresholds (effective 2026-07-01)\", what is the value range shown?",
+          "answer": "[70, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [70, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Data quality compliance rate vs thresholds (effective 2026-07-01)\", what is the trend described?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "scan_llm_0000_b64e6046",
+      "figure_number": 6,
+      "image_path": "scan_llm_text_216fc33b.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 6: Enterprise Data Governance Framework – Tier-1 Data Products",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "policy_excerpt",
+        "title": "Enterprise Data Governance Framework – Tier-1 Data Products",
+        "subtitle": "Ref: DGF-22-5870518 | Date: 09 September 2025 | From: Office of the Chief Data Officer",
+        "sections": [
+          {
+            "heading": "1. Purpose and Scope",
+            "body": "This excerpt defines the governance controls required to achieve audit-ready status for all Tier-1 data products by Q4 2026. Tier-1 data products are those designated as mission-critical to financial reporting, regulatory submissions, customer servicing, and executive decision-making. The framework applies across all business units, including Retail Banking, Corporate Services, Risk Analytics, and Digital Platforms. Each Tier-1 data product must be registered in the Enterprise Data Catalog and aligned to the standards described herein."
+          },
+          {
+            "heading": "2. Data Ownership and Accountability",
+            "body": "Every Tier-1 data product shall have a named Business Data Owner (BDO) at Director level or above, accountable for data fitness-for-purpose and risk acceptance. A Technical Data Custodian, typically from Enterprise Technology, is responsible for platform integrity, access controls, and backup procedures. Domain Data Stewards are assigned to manage metadata completeness, issue remediation, and adherence to quality thresholds. Ownership assignments must be documented in the Governance Registry and reviewed semi-annually."
+          },
+          {
+            "heading": "3. Data Classification and Protection Policy",
+            "body": "All governed data assets must be classified using the four-level schema: Public, Internal, Confidential, and Restricted. Tier-1 data products default to Confidential or Restricted unless formally downgraded following risk assessment. Classification determines encryption standards, retention schedules, and access approval workflows, including mandatory multi-factor authentication for Restricted datasets. The Information Security Office conducts quarterly sampling to validate compliance with labeling and handling requirements."
+          },
+          {
+            "heading": "4. Data Quality Standards and Monitoring",
+            "body": "Tier-1 data products must meet defined quality dimensions covering accuracy, completeness, timeliness, consistency, and uniqueness. Each product shall maintain at least five measurable quality rules with documented thresholds, such as ≥99.2% accuracy for customer identifiers and <0.5% duplicate records. Quality metrics are monitored through the Data Quality Dashboard, with exceptions tracked via the Enterprise Issue Management System. Persistent breaches exceeding 30 days require escalation to the Data Governance Council."
+          },
+          {
+            "heading": "5. Lineage, Metadata, and Operating Model",
+            "body": "End-to-end lineage documentation is mandatory from system of record through transformation layers to consuming reports and APIs. Lineage artifacts must identify source tables, transformation logic, data movement schedules, and downstream dependencies. The Data Governance Operating Model comprises the Chief Data Officer, the Data Governance Council, Domain Stewards, and Technology Custodians, meeting monthly to review metrics and remediation plans. Achievement of complete lineage and stewardship sign-off for all Tier-1 data products by December 2026 will constitute audit-ready governance status."
+          }
+        ],
+        "footer_note": "Confidential — Enterprise Internal Distribution | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "1. Purpose and Scope",
+        "2. Data Ownership and Accountability",
+        "3. Data Classification and Protection Policy",
+        "4. Data Quality Standards and Monitoring",
+        "5. Lineage, Metadata, and Operating Model"
+      ],
+      "cells": [
+        {
+          "heading": "1. Purpose and Scope",
+          "body": "This excerpt defines the governance controls required to achieve audit-ready status for all Tier-1 data products by Q4 2026. Tier-1 data products are those designated as mission-critical to financial reporting, regulatory submissions, customer servicing, and executive decision-making. The framework applies across all business units, including Retail Banking, Corporate Services, Risk Analytics, and Digital Platforms. Each Tier-1 data product must be registered in the Enterprise Data Catalog and aligned to the standards described herein."
+        },
+        {
+          "heading": "2. Data Ownership and Accountability",
+          "body": "Every Tier-1 data product shall have a named Business Data Owner (BDO) at Director level or above, accountable for data fitness-for-purpose and risk acceptance. A Technical Data Custodian, typically from Enterprise Technology, is responsible for platform integrity, access controls, and backup procedures. Domain Data Stewards are assigned to manage metadata completeness, issue remediation, and adherence to quality thresholds. Ownership assignments must be documented in the Governance Registry and reviewed semi-annually."
+        },
+        {
+          "heading": "3. Data Classification and Protection Policy",
+          "body": "All governed data assets must be classified using the four-level schema: Public, Internal, Confidential, and Restricted. Tier-1 data products default to Confidential or Restricted unless formally downgraded following risk assessment. Classification determines encryption standards, retention schedules, and access approval workflows, including mandatory multi-factor authentication for Restricted datasets. The Information Security Office conducts quarterly sampling to validate compliance with labeling and handling requirements."
+        },
+        {
+          "heading": "4. Data Quality Standards and Monitoring",
+          "body": "Tier-1 data products must meet defined quality dimensions covering accuracy, completeness, timeliness, consistency, and uniqueness. Each product shall maintain at least five measurable quality rules with documented thresholds, such as ≥99.2% accuracy for customer identifiers and <0.5% duplicate records. Quality metrics are monitored through the Data Quality Dashboard, with exceptions tracked via the Enterprise Issue Management System. Persistent breaches exceeding 30 days require escalation to the Data Governance Council."
+        },
+        {
+          "heading": "5. Lineage, Metadata, and Operating Model",
+          "body": "End-to-end lineage documentation is mandatory from system of record through transformation layers to consuming reports and APIs. Lineage artifacts must identify source tables, transformation logic, data movement schedules, and downstream dependencies. The Data Governance Operating Model comprises the Chief Data Officer, the Data Governance Council, Domain Stewards, and Technology Custodians, meeting monthly to review metrics and remediation plans. Achievement of complete lineage and stewardship sign-off for all Tier-1 data products by December 2026 will constitute audit-ready governance status."
+        }
+      ],
+      "full_text": "Enterprise Data Governance Framework – Tier-1 Data Products\nRef: DGF-22-5870518 | Date: 09 September 2025 | From: Office of the Chief Data Officer\n\nSection 1. Purpose and Scope\nThis excerpt defines the governance controls required to achieve audit-ready status for all Tier-1 data products by Q4 2026. Tier-1 data products are those designated as mission-critical to financial reporting, regulatory submissions, customer servicing, and executive decision-making. The framework applies across all business units, including Retail Banking, Corporate Services, Risk Analytics, and Digital Platforms. Each Tier-1 data product must be registered in the Enterprise Data Catalog and aligned to the standards described herein.\n\nSection 2. Data Ownership and Accountability\nEvery Tier-1 data product shall have a named Business Data Owner (BDO) at Director level or above, accountable for data fitness-for-purpose and risk acceptance. A Technical Data Custodian, typically from Enterprise Technology, is responsible for platform integrity, access controls, and backup procedures. Domain Data Stewards are assigned to manage metadata completeness, issue remediation, and adherence to quality thresholds. Ownership assignments must be documented in the Governance Registry and reviewed semi-annually.\n\nSection 3. Data Classification and Protection Policy\nAll governed data assets must be classified using the four-level schema: Public, Internal, Confidential, and Restricted. Tier-1 data products default to Confidential or Restricted unless formally downgraded following risk assessment. Classification determines encryption standards, retention schedules, and access approval workflows, including mandatory multi-factor authentication for Restricted datasets. The Information Security Office conducts quarterly sampling to validate compliance with labeling and handling requirements.\n\nSection 4. Data Quality Standards and Monitoring\nTier-1 data products must meet defined quality dimensions covering accuracy, completeness, timeliness, consistency, and uniqueness. Each product shall maintain at least five measurable quality rules with documented thresholds, such as ≥99.2% accuracy for customer identifiers and <0.5% duplicate records. Quality metrics are monitored through the Data Quality Dashboard, with exceptions tracked via the Enterprise Issue Management System. Persistent breaches exceeding 30 days require escalation to the Data Governance Council.\n\nSection 5. Lineage, Metadata, and Operating Model\nEnd-to-end lineage documentation is mandatory from system of record through transformation layers to consuming reports and APIs. Lineage artifacts must identify source tables, transformation logic, data movement schedules, and downstream dependencies. The Data Governance Operating Model comprises the Chief Data Officer, the Data Governance Council, Domain Stewards, and Technology Custodians, meeting monthly to review metrics and remediation plans. Achievement of complete lineage and stewardship sign-off for all Tier-1 data products by December 2026 will constitute audit-ready governance status.\n\nConfidential — Enterprise Internal Distribution | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Enterprise Data Governance Framework – Tier-1 Data Products\", by when are all Tier-1 data products required to be audit-ready?",
+          "answer": "By Q4 2026.",
+          "assertions": [
+            {
+              "text": "The response must state 'By Q4 2026.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise Data Governance Framework – Tier-1 Data Products\", how many classification levels are in the data classification schema?",
+          "answer": "Four.",
+          "assertions": [
+            {
+              "text": "The response must state 'Four.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Enterprise Data Governance Framework – Tier-1 Data Products\", what are the four data classification levels specified?",
+          "answer": "Public, Internal, Confidential, and Restricted.",
+          "assertions": [
+            {
+              "text": "The response must state 'Public, Internal, Confidential, and Restricted.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise Data Governance Framework – Tier-1 Data Products\", is a named Business Data Owner required for every Tier-1 data product and at what organizational level?",
+          "answer": "Yes — a named Business Data Owner is required at Director level or above.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — a named Business Data Owner is required at Director level or above.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Enterprise Data Governance Framework – Tier-1 Data Products\", which data quality dimensions must Tier-1 data products meet?",
+          "answer": "Accuracy, completeness, timeliness, consistency, and uniqueness.",
+          "assertions": [
+            {
+              "text": "The response must state 'Accuracy, completeness, timeliness, consistency, and uniqueness.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "cx_table_0001_86bf2d91",
+      "table_number": 3,
+      "caption": "Table 3: Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", which leaf metric columns fall under the \"Policy & Control Compliance\" super-group?",
+          "answer": "Confidential) (#); Controls Tested (QTD) (#); Control Pass Rate (%).",
+          "assertions": [
+            {
+              "text": "Confidential) (#); Controls Tested (QTD) (#); Control Pass Rate (%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", how many rows does the \"Data Ownership & Accountability\" category label span?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", what is the \"Lineage Coverage (% of Tier-1 datasets)\" for the sub-category \"Lineage Capture & Certification\"?",
+          "answer": "84%.",
+          "assertions": [
+            {
+              "text": "The response must state '84%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", what is the grand total for \"DQ Rules Implemented (#)\"?",
+          "answer": "3,595.",
+          "assertions": [
+            {
+              "text": "The response must state '3,595.'."
+            }
+          ]
+        },
+        {
+          "question": "Confidential) (#)\"?",
+          "answer": "967.",
+          "assertions": [
+            {
+              "text": "The response must state '967.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", which columns fall under the 'Quality, Lineage & Stewardship Operations' header?",
+          "answer": "Confidential) (#); Controls Tested (QTD) (#); Control Pass Rate (%).",
+          "assertions": [
+            {
+              "text": "Confidential) (#); Controls Tested (QTD) (#); Control Pass Rate (%).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", how many data rows are shown?",
+          "answer": "25",
+          "assertions": [
+            {
+              "text": "The response must state '25'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", which metric corresponds to the 84% value and what is that value?",
+          "answer": "Control Pass Rate (%) — 84%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Control Pass Rate (%) — 84%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", what is the subtotal row count for the 'Ownership & Accountability' group?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "image",
+      "variant_id": "img_0004_fe976bf8",
+      "figure_number": 7,
+      "image_path": "img_0004_fe976bf8.png",
+      "caption": "Figure 7: Monthly trend of Tier-1 data quality incidents after standards go-live",
+      "chart_type": "bubble_scatter",
+      "chart_title": "Monthly trend of Tier-1 data quality incidents after standards go-live",
+      "x_label": "Month (2026)",
+      "y_label": "Number of Tier-1 data quality incidents",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series_names": [
+        "Tier-1 Data Quality Incidents"
+      ],
+      "value_range": [
+        0,
+        25
+      ],
+      "trend": "decreasing",
+      "chart_data": {
+        "chart_type": "bubble_scatter",
+        "series": [
+          "Tier-1 Data Quality Incidents"
+        ],
+        "value_range": [
+          0,
+          25
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Monthly trend of Tier-1 data quality incidents after standards go-live\", what does the Y-axis represent?",
+          "answer": "Number of Tier-1 data quality incidents",
+          "assertions": [
+            {
+              "text": "The response must state Number of Tier-1 data quality incidents."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Monthly trend of Tier-1 data quality incidents after standards go-live\", what is the value range shown?",
+          "answer": "[0, 25]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 25]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Monthly trend of Tier-1 data quality incidents after standards go-live\", what is the overall trend?",
+          "answer": "decreasing",
+          "assertions": [
+            {
+              "text": "The response must state decreasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "image",
+      "variant_id": "scan_llm_0003_9bb7b415",
+      "figure_number": 8,
+      "image_path": "scan_llm_stam_92010307.png",
+      "subtype": "scanned_stamped_form",
+      "caption": "Figure 8: Enterprise Data Governance Certification Form",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "stamped_form",
+        "title": "Enterprise Data Governance Certification Form",
+        "form_fields": [
+          {
+            "label": "Business Domain",
+            "value": "Global Supply Chain & Logistics"
+          },
+          {
+            "label": "Tier-1 Data Product Name",
+            "value": "Supplier Master & Contract Repository"
+          },
+          {
+            "label": "Designated Data Owner",
+            "value": "Helena M. Duarte, VP Procurement Operations"
+          },
+          {
+            "label": "Assigned Data Steward",
+            "value": "Ravi K. Bhattacharya, Lead Data Steward"
+          },
+          {
+            "label": "Primary Classification Level",
+            "value": "Confidential – Commercially Sensitive"
+          },
+          {
+            "label": "Data Quality SLA Target",
+            "value": "98.5% completeness; <1.5% duplicate rate"
+          },
+          {
+            "label": "Lineage Documentation Tool",
+            "value": "ArcMap Lineage Suite v4.2"
+          },
+          {
+            "label": "Governance Operating Model Version",
+            "value": "DGF-3.1 (Ratified Jan 2026)"
+          }
+        ],
+        "checklist_items": [
+          {
+            "text": "Formal data ownership documented and approved by domain executive",
+            "checked": true
+          },
+          {
+            "text": "Classification policy aligned with Enterprise Information Security Standard (EISS-12)",
+            "checked": true
+          },
+          {
+            "text": "Data quality metrics defined, measured monthly, and reported to Governance Council",
+            "checked": true
+          },
+          {
+            "text": "End-to-end lineage captured from source ERP to analytics dashboards",
+            "checked": false
+          },
+          {
+            "text": "Critical data elements (CDEs) cataloged in enterprise metadata repository",
+            "checked": true
+          },
+          {
+            "text": "Issue management workflow established for data quality defects",
+            "checked": true
+          },
+          {
+            "text": "Quarterly stewardship review cadence formally scheduled",
+            "checked": false
+          },
+          {
+            "text": "Audit evidence repository prepared for FY2026 external review",
+            "checked": true
+          }
+        ],
+        "stamps": [
+          {
+            "text": "REVIEWED",
+            "color_key": "blue"
+          },
+          {
+            "text": "CONFIDENTIAL",
+            "color_key": "red"
+          }
+        ],
+        "inspector": "Monique A. Feldman, Director of Data Governance Assurance",
+        "reference": "DGF-CERT-2933702-GLSC",
+        "date": "2026-03-18",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "label",
+        "value"
+      ],
+      "cells": [
+        [
+          "Business Domain",
+          "Global Supply Chain & Logistics"
+        ],
+        [
+          "Tier-1 Data Product Name",
+          "Supplier Master & Contract Repository"
+        ],
+        [
+          "Designated Data Owner",
+          "Helena M. Duarte, VP Procurement Operations"
+        ],
+        [
+          "Assigned Data Steward",
+          "Ravi K. Bhattacharya, Lead Data Steward"
+        ],
+        [
+          "Primary Classification Level",
+          "Confidential – Commercially Sensitive"
+        ],
+        [
+          "Data Quality SLA Target",
+          "98.5% completeness; <1.5% duplicate rate"
+        ],
+        [
+          "Lineage Documentation Tool",
+          "ArcMap Lineage Suite v4.2"
+        ],
+        [
+          "Governance Operating Model Version",
+          "DGF-3.1 (Ratified Jan 2026)"
+        ]
+      ],
+      "stamps": [
+        "REVIEWED",
+        "CONFIDENTIAL"
+      ],
+      "inspector": "Monique A. Feldman, Director of Data Governance Assurance",
+      "reference": "DGF-CERT-2933702-GLSC",
+      "checked_items": [
+        {
+          "text": "Formal data ownership documented and approved by domain executive",
+          "checked": true
+        },
+        {
+          "text": "Classification policy aligned with Enterprise Information Security Standard (EISS-12)",
+          "checked": true
+        },
+        {
+          "text": "Data quality metrics defined, measured monthly, and reported to Governance Council",
+          "checked": true
+        },
+        {
+          "text": "Critical data elements (CDEs) cataloged in enterprise metadata repository",
+          "checked": true
+        },
+        {
+          "text": "Issue management workflow established for data quality defects",
+          "checked": true
+        },
+        {
+          "text": "Audit evidence repository prepared for FY2026 external review",
+          "checked": true
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to \"Enterprise Data Governance Certification Form\", who is listed as the Designated Data Owner?",
+          "answer": "Helena M. Duarte, VP Procurement Operations.",
+          "assertions": [
+            {
+              "text": "The response must state 'Helena M. Duarte, VP Procurement Operations.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Enterprise Data Governance Certification Form\", how many stamps appear on the page?",
+          "answer": "2 (REVIEWED and CONFIDENTIAL).",
+          "assertions": [
+            {
+              "text": "The response must state '2 (REVIEWED and CONFIDENTIAL).'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise Data Governance Certification Form\", what is the Data Quality SLA Target?",
+          "answer": "98.5% completeness; <1.5% duplicate rate.",
+          "assertions": [
+            {
+              "text": "The response must state '98.5% completeness; <1.5% duplicate rate.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Enterprise Data Governance Certification Form\", is end-to-end lineage from source ERP to analytics dashboards captured?",
+          "answer": "No; the end-to-end lineage checkbox is unchecked.",
+          "assertions": [
+            {
+              "text": "The response must state 'No; the end-to-end lineage checkbox is unchecked.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Enterprise Data Governance Certification Form\", which tool is listed for lineage documentation?",
+          "answer": "ArcMap Lineage Suite v4.2.",
+          "assertions": [
+            {
+              "text": "The response must state 'ArcMap Lineage Suite v4.2.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "img_0000_3ced5c9f",
+      "figure_number": 9,
+      "image_path": "img_0000_3ced5c9f.png",
+      "caption": "Figure 9: Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30",
+      "chart_type": "grouped_bar",
+      "chart_title": "Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30",
+      "x_label": "Month (2026)",
+      "y_label": "Percent of Tier-1 datasets with Data Owner assigned",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep"
+      ],
+      "series_names": [
+        "Tier-1 Datasets with Assigned Data Owner"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun"
+        ],
+        "series": [
+          "Tier-1 Datasets with Assigned Data Owner"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30\", what does the Y-axis represent?",
+          "answer": "Percent of Tier-1 datasets with Data Owner assigned",
+          "assertions": [
+            {
+              "text": "The response must state Percent of Tier-1 datasets with Data Owner assigned."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30\", what is the overall trend?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "img_0001_66b20fda",
+      "figure_number": 10,
+      "image_path": "img_0001_66b20fda.png",
+      "caption": "Restricted)",
+      "chart_type": "violin",
+      "chart_title": "Restricted)",
+      "x_label": "Classification level",
+      "y_label": "Share of Tier-1 datasets (%)",
+      "categories": [
+        "Public",
+        "Internal",
+        "Confidential",
+        "Restricted"
+      ],
+      "series_names": [
+        "Tier-1 datasets"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "Public",
+          "Internal",
+          "Confidential",
+          "Restricted"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "Restricted)\", what does the Y-axis represent?",
+          "answer": "Share of Tier-1 datasets (%)",
+          "assertions": [
+            {
+              "text": "The response must state Share of Tier-1 datasets (%)."
+            }
+          ]
+        },
+        {
+          "question": "Restricted)\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "Restricted)\", what is the trend described?",
+          "answer": "uniform",
+          "assertions": [
+            {
+              "text": "The response must state uniform."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "table",
+      "variant_id": "table_0004_d39c9791",
+      "table_number": 4,
+      "caption": "Table 4: Governance operating model: forums, cadence, and decision rights starting 2026-06-15",
+      "columns": [
+        "Governance Body",
+        "Primary Focus",
+        "Decision Rights",
+        "Participants",
+        "Key Outputs & SLAs"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Data Governance Council",
+          "Enterprise data policy oversight",
+          "Data Governance Council: Monthly; approves policy exceptions",
+          "CDO (Chair), Domain Data Owners, CIO, Risk Lead",
+          "Approved policies within 30 days; exception log updated monthly"
+        ],
+        [
+          "Data Stewardship Working Group",
+          "Operational data quality & issue management",
+          "Data Stewardship Working Group: Weekly; resolves data issues",
+          "Domain Data Stewards, Data Quality Lead, Business Analysts",
+          "Issue backlog reviewed weekly; critical issues resolved within 10 business days"
+        ],
+        [
+          "Architecture Review Board",
+          "Data platform & integration standards",
+          "Architecture Review Board: Biweekly; approves lineage tooling changes",
+          "Chief Architect, Data Engineers, Integration Lead, Security Architect",
+          "Architecture decision records (ADRs); tooling roadmap updates quarterly"
+        ],
+        [
+          "Security & Privacy Committee",
+          "Data classification & regulatory compliance",
+          "Security & Privacy Committee: Monthly; approves Restricted controls",
+          "CISO, Privacy Officer, Legal Counsel, Data Owners",
+          "Control approvals documented; Restricted data reviews completed within 15 days"
+        ],
+        [
+          "Master Data Council",
+          "Master and reference data governance",
+          "Approves new master data domains and golden record rules",
+          "MDM Lead, Domain Owners, ERP Lead",
+          "Golden record definitions; quarterly MDM quality scorecards (>98% accuracy target)"
+        ],
+        [
+          "Data Quality Review Board",
+          "Enterprise data quality standards",
+          "Sets data quality thresholds and KPI targets",
+          "Data Quality Manager, Stewards, BI Lead",
+          "Approved DQ rules; monthly DQ scorecard (completeness ≥97%)"
+        ],
+        [
+          "Metadata & Lineage Forum",
+          "Metadata standards & lineage completeness",
+          "Mandates critical data element (CDE) lineage coverage",
+          "Metadata Lead, Data Architects, Governance Analyst",
+          "Lineage coverage reports (target 100% for Tier 1 CDEs by Q4 2026)"
+        ],
+        [
+          "Regulatory Reporting Committee",
+          "Compliance data readiness",
+          "Certifies regulatory data submissions",
+          "Compliance Officer, Finance Data Owner, Risk Analyst",
+          "Quarterly certification sign-off; zero material findings target"
+        ],
+        [
+          "Data Access Review Panel",
+          "Role-based access governance",
+          "Approves high-risk access requests within SLA",
+          "IAM Lead, Security Officer, Data Owner",
+          "Access decisions logged; 5-day SLA for Restricted data requests"
+        ],
+        [
+          "Analytics Prioritization Board",
+          "Data & analytics initiative intake",
+          "Prioritizes funded data initiatives over $250K",
+          "CDO, CFO Delegate, Business Unit Heads",
+          "Quarterly investment roadmap; ROI tracking (>15% target return)"
+        ],
+        [
+          "Data Incident Response Team",
+          "Data breach & quality incident escalation",
+          "Declares severity levels and remediation plans",
+          "CISO, Data Quality Lead, Legal, Communications",
+          "Incident report within 48 hours; post-mortem within 10 business days"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Governance operating model: forums, cadence, and decision rights starting 2026-06-15\", who are the participants listed for the Architecture Review Board?",
+          "answer": "Chief Architect, Data Engineers, Integration Lead, Security Architect",
+          "assertions": [
+            {
+              "text": "The response must state Chief Architect, Data Engineers, Integration Lead, Security Architect."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Governance operating model: forums, cadence, and decision rights starting 2026-06-15\", what is the Key Outputs & SLAs entry for the Data Access Review Panel?",
+          "answer": "Access decisions logged; 5-day SLA for Restricted data requests",
+          "assertions": [
+            {
+              "text": "The response must state Access decisions logged; 5-day SLA for Restricted data requests."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Governance operating model: forums, cadence, and decision rights starting 2026-06-15\", what is the Primary Focus of the Regulatory Reporting Committee?",
+          "answer": "Compliance data readiness",
+          "assertions": [
+            {
+              "text": "The response must state Compliance data readiness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "image",
+      "variant_id": "img_0006_0346b3ce",
+      "figure_number": 11,
+      "image_path": "img_0006_0346b3ce.png",
+      "caption": "Figure 11: Lineage completeness heatmap by pipeline stage and metadata field",
+      "chart_type": "heatmap",
+      "chart_title": "Lineage completeness heatmap by pipeline stage and metadata field",
+      "x_label": "Lineage metadata field (Source, Transform, Target, Owner Approval, Last Validated Date)",
+      "y_label": "Reporting)",
+      "categories": [
+        "Source",
+        "Transform",
+        "Target",
+        "Owner Approval",
+        "Last Validated Date"
+      ],
+      "series_names": [
+        "Source",
+        "Integration",
+        "Reporting"
+      ],
+      "value_range": [
+        45,
+        100
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Source",
+          "Transform",
+          "Target",
+          "Owner Approval",
+          "Last Validated Date"
+        ],
+        "series": [
+          "Source",
+          "Integration",
+          "Reporting"
+        ],
+        "value_range": [
+          45,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Lineage completeness heatmap by pipeline stage and metadata field,\" what does the Y-axis represent?",
+          "answer": "Reporting)",
+          "assertions": [
+            {
+              "text": "Reporting)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Lineage completeness heatmap by pipeline stage and metadata field,\" what is the value range shown?",
+          "answer": "[45, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [45, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Lineage completeness heatmap by pipeline stage and metadata field,\" what trend is described?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "table",
+      "variant_id": "cx_table_0003_06a3e6fe",
+      "table_number": 5,
+      "caption": "Table 5: Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", which sub-columns fall under the \"Policy & Standards Compliance\" super-group?",
+          "answer": "Classification & Retention (Classified Assets (#), Retention Exceptions (#)) and Data Quality Standards (DQ Rules Implemented (#), DQ Pass Rate (%)).",
+          "assertions": [
+            {
+              "text": "The response must state 'Classification & Retention (Classified Assets (#), Retention Exceptions (#)) and Data Quality Standards (DQ Rules Implemented (#), DQ Pass Rate (%)).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", how many rows does the \"Operating Model Setup\" category label span?",
+          "answer": "6 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what is the DQ Pass Rate (%) for the \"Data Quality Controls\" sub-category (second detail row) under the \"Policy & Standards Compliance\" super-group?",
+          "answer": "96.2%.",
+          "assertions": [
+            {
+              "text": "The response must state '96.2%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what is the grand total for \"Classified Assets (#)\"?",
+          "answer": "7,030.",
+          "assertions": [
+            {
+              "text": "The response must state '7,030.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what does the \"Classification Policy Adoption Sub-Total\" row show for \"Retention Exceptions (#)\"?",
+          "answer": "25.",
+          "assertions": [
+            {
+              "text": "The response must state '25.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what is the overall DQ Pass Rate (%)?",
+          "answer": "96.2%",
+          "assertions": [
+            {
+              "text": "The response must state '96.2%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", which columns fall under 'Policy & Standards Compliance'?",
+          "answer": "Classification & Retention; Data Quality Standards",
+          "assertions": [
+            {
+              "text": "The response must state 'Classification & Retention; Data Quality Standards'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", which metric has the highest percentage value?",
+          "answer": "DQ Pass Rate (96.2%)",
+          "assertions": [
+            {
+              "text": "The response must state 'DQ Pass Rate (96.2%)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what does footnote 1 explain?",
+          "answer": "Classification & Retention and Data Quality Standards metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'Classification & Retention and Data Quality Standards metrics'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what is the subtotal for the 'Classification & Retention' group in rows?",
+          "answer": "6 rows",
+          "assertions": [
+            {
+              "text": "The response must state '6 rows'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "image",
+      "variant_id": "img_0005_393320d6",
+      "figure_number": 12,
+      "image_path": "img_0005_393320d6.png",
+      "caption": "Figure 12: Lineage coverage progress toward 95% by 2026-12-31",
+      "chart_type": "ridgeline",
+      "chart_title": "Lineage coverage progress toward 95% by 2026-12-31",
+      "x_label": "Month (2026)",
+      "y_label": "Percent of Tier-1 datasets with end-to-end lineage documented",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series_names": [
+        "Tier-1 Lineage Coverage"
+      ],
+      "value_range": [
+        40,
+        100
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May"
+        ],
+        "value_range": [
+          40,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Lineage coverage progress toward 95% by 2026-12-31\", what does the Y-axis represent?",
+          "answer": "Percent of Tier-1 datasets with end-to-end lineage documented",
+          "assertions": [
+            {
+              "text": "The response must state Percent of Tier-1 datasets with end-to-end lineage documented."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Lineage coverage progress toward 95% by 2026-12-31\", what is the value range shown?",
+          "answer": "[40, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [40, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Lineage coverage progress toward 95% by 2026-12-31\", what is the overall trend?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "img_0008_3df1e09b",
+      "figure_number": 13,
+      "image_path": "img_0008_3df1e09b.png",
+      "caption": "Figure 13: Stewardship workload distribution by role (FTE allocation)",
+      "chart_type": "heatmap",
+      "chart_title": "Stewardship workload distribution by role (FTE allocation)",
+      "x_label": "Stewardship role",
+      "y_label": "Allocated FTE per Tier-1 dataset",
+      "categories": [
+        "Data Owner",
+        "Business Data Steward",
+        "Technical Data Steward",
+        "Data Custodian",
+        "Data Quality Lead"
+      ],
+      "series_names": [
+        "Minimum Allocation",
+        "Median Allocation",
+        "Maximum Allocation"
+      ],
+      "value_range": [
+        0.0,
+        0.5
+      ],
+      "trend": "uniform",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Data Owner",
+          "Business Data Steward",
+          "Technical Data Steward",
+          "Data Custodian",
+          "Data Quality Lead"
+        ],
+        "series": [
+          "Minimum Allocation",
+          "Median Allocation",
+          "Maximum Allocation"
+        ],
+        "value_range": [
+          0.0,
+          0.5
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Stewardship workload distribution by role (FTE allocation)\", what does the Y-axis represent?",
+          "answer": "Allocated FTE per Tier-1 dataset",
+          "assertions": [
+            {
+              "text": "The response must state Allocated FTE per Tier-1 dataset."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Stewardship workload distribution by role (FTE allocation)\", what is the value range shown?",
+          "answer": "[0.0, 0.5]",
+          "assertions": [
+            {
+              "text": "The response must state [0.0, 0.5]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Stewardship workload distribution by role (FTE allocation)\", which category is listed on the X-axis?",
+          "answer": "Data Owner",
+          "assertions": [
+            {
+              "text": "The response must state Data Owner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "table",
+      "variant_id": "table_0003_ce330919",
+      "table_number": 6,
+      "caption": "Table 6: Lineage documentation requirements for Tier-1 datasets and critical data elements",
+      "columns": [
+        "Lineage Component",
+        "Scope Level",
+        "Requirement Detail",
+        "N)",
+        "Validation Status"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "End-to-end data flow",
+          "Enterprise",
+          "Minimum hops: 3 (Source → Integration → Analytics)",
+          "Y",
+          "Approved"
+        ],
+        [
+          "Source system capture",
+          "System",
+          "Physical database name, schema, and table",
+          "Y",
+          "Validated 2026-01-15"
+        ],
+        [
+          "Integration layer mapping",
+          "Process",
+          " mapping reference",
+          "Y",
+          "Validated 2026-02-10"
+        ],
+        [
+          "Data ownership verification",
+          "Governance",
+          "Data owner approval: Recorded in catalog",
+          "Y",
+          "Approved 2026-02-18"
+        ],
+        [
+          "Lineage validation control",
+          "Governance",
+          "Last validated date: YYYY-MM-DD",
+          "Y",
+          "Template Enforced"
+        ],
+        [
+          "Analytics model traceability",
+          "Application",
+          "Upstream dataset and semantic model reference",
+          "Y",
+          "Validated 2026-03-05"
+        ],
+        [
+          "Metadata repository entry",
+          "Catalog",
+          "Business definition and technical metadata linked",
+          "Y",
+          "Complete"
+        ],
+        [
+          "Data quality checkpoint linkage",
+          "Control",
+          "Associated DQ rules and threshold IDs",
+          "Y",
+          "Validated 2026-03-12"
+        ],
+        [
+          "Change management linkage",
+          "Process",
+          "Change ticket ID and deployment reference",
+          "Y",
+          "Complete"
+        ],
+        [
+          "Security classification mapping",
+          "Compliance",
+          "Restricted)",
+          "Y",
+          "Validated 2026-01-30"
+        ],
+        [
+          "Retention and archival trace",
+          "Compliance",
+          "Retention policy ID and archival location reference",
+          "Y",
+          "Approved 2026-04-01"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Lineage documentation requirements for Tier-1 datasets and critical data elements\", what is the Validation Status for \"Integration layer mapping\"?",
+          "answer": "Validated 2026-02-10",
+          "assertions": [
+            {
+              "text": "The response must state Validated 2026-02-10."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Lineage documentation requirements for Tier-1 datasets and critical data elements\", what is the Requirement Detail for \"Security classification mapping\"?",
+          "answer": "Restricted)",
+          "assertions": [
+            {
+              "text": "Restricted)."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Lineage documentation requirements for Tier-1 datasets and critical data elements\", what is the Scope Level for \"Analytics model traceability\"?",
+          "answer": "Application",
+          "assertions": [
+            {
+              "text": "The response must state Application."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "text_0001_c69460af": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations"
+      ],
+      "heading": "Data Quality, Lineage Requirements & Governance Operating Model Implementation",
+      "word_count": 305,
+      "text_type": "llm_prose",
+      "topic_id": "data_governance_framework"
+    },
+    "text_0000_4ff3b447": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Enterprise Data Ownership & Classification Policy for Tier-1 Data Products",
+      "word_count": 189,
+      "text_type": "llm_prose",
+      "topic_id": "data_governance_framework"
+    },
+    "img_0002_2b6c6e08": {
+      "kind": "image",
+      "perturbations": [
+        "rotation",
+        "occlusion"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Ownership and stewardship coverage by business domain (as of 2026-05-01)",
+      "x_label": "Business domain",
+      "y_label": "Count of assigned roles (Owners + Stewards)",
+      "categories": [
+        "Finance",
+        "Sales",
+        "Marketing",
+        "Operations",
+        "Human Resources",
+        "Supply Chain",
+        "IT & Security",
+        "Customer Support"
+      ],
+      "series_names": [
+        "Assigned Data Owners + Stewards"
+      ],
+      "value_range": [
+        1,
+        7
+      ],
+      "trend": "volatile",
+      "filename": "img_0002_2b6c6e08.png",
+      "image_path": "img_0002_2b6c6e08.png",
+      "topic_id": "data_governance_framework"
+    },
+    "scan_llm_0001_34b4606c": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_3c7fbd17.png",
+      "topic_id": ""
+    },
+    "llm_mp_table_0001_e6e693ac": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "project_milestone_tracker",
+      "row_count": 56,
+      "col_count": 5,
+      "columns": [
+        "Milestone ID",
+        "Milestone Name",
+        "Owner",
+        "Target Date",
+        "% Complete"
+      ],
+      "topic_id": ""
+    },
+    "img_0007_36247afe": {
+      "kind": "image",
+      "perturbations": [
+        "rotation"
+      ],
+      "chart_type": "violin",
+      "chart_title": "Access risk concentration by classification level and user population",
+      "x_label": "Number of users with access",
+      "y_label": "Average access risk score (0-100)",
+      "categories": [
+        "Public",
+        "Internal",
+        "Confidential",
+        "Restricted"
+      ],
+      "series_names": [
+        "Customer Data",
+        "Financial Data",
+        "Operational Data",
+        "HR Data"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "filename": "img_0007_36247afe.png",
+      "image_path": "img_0007_36247afe.png",
+      "topic_id": "data_governance_framework"
+    },
+    "cx_table_0000_0de7886c": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "data_governance_framework"
+    },
+    "scan_llm_0002_ef0fbffe": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_hand_77a0e4c9.png",
+      "topic_id": ""
+    },
+    "img_0003_f0325ff6": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "stacked_area",
+      "chart_title": "Data quality compliance rate vs thresholds (effective 2026-07-01)",
+      "x_label": "Quality dimension (Completeness, Accuracy, Timeliness, Uniqueness)",
+      "y_label": "Percent of Tier-1 critical data elements meeting threshold",
+      "categories": [
+        "Completeness",
+        "Accuracy",
+        "Timeliness",
+        "Uniqueness"
+      ],
+      "series_names": [
+        "Minimum Threshold",
+        "Actual Compliance Rate"
+      ],
+      "value_range": [
+        70,
+        100
+      ],
+      "trend": "volatile",
+      "filename": "img_0003_f0325ff6.png",
+      "image_path": "img_0003_f0325ff6.png",
+      "topic_id": "data_governance_framework"
+    },
+    "scan_llm_0000_b64e6046": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_216fc33b.png",
+      "topic_id": ""
+    },
+    "cx_table_0001_86bf2d91": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "data_governance_framework"
+    },
+    "img_0004_fe976bf8": {
+      "kind": "image",
+      "perturbations": [
+        "blur",
+        "occlusion"
+      ],
+      "chart_type": "bubble_scatter",
+      "chart_title": "Monthly trend of Tier-1 data quality incidents after standards go-live",
+      "x_label": "Month (2026)",
+      "y_label": "Number of Tier-1 data quality incidents",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series_names": [
+        "Tier-1 Data Quality Incidents"
+      ],
+      "value_range": [
+        0,
+        25
+      ],
+      "trend": "decreasing",
+      "filename": "img_0004_fe976bf8.png",
+      "image_path": "img_0004_fe976bf8.png",
+      "topic_id": "data_governance_framework"
+    },
+    "scan_llm_0003_9bb7b415": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_stam_92010307.png",
+      "topic_id": ""
+    },
+    "img_0000_3ced5c9f": {
+      "kind": "image",
+      "perturbations": [
+        "rotation"
+      ],
+      "chart_type": "grouped_bar",
+      "chart_title": "Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30",
+      "x_label": "Month (2026)",
+      "y_label": "Percent of Tier-1 datasets with Data Owner assigned",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep"
+      ],
+      "series_names": [
+        "Tier-1 Datasets with Assigned Data Owner"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "increasing",
+      "filename": "img_0000_3ced5c9f.png",
+      "image_path": "img_0000_3ced5c9f.png",
+      "topic_id": "data_governance_framework"
+    },
+    "img_0001_66b20fda": {
+      "kind": "image",
+      "perturbations": [
+        "watermark"
+      ],
+      "chart_type": "violin",
+      "chart_title": "Restricted)",
+      "x_label": "Classification level",
+      "y_label": "Share of Tier-1 datasets (%)",
+      "categories": [
+        "Public",
+        "Internal",
+        "Confidential",
+        "Restricted"
+      ],
+      "series_names": [
+        "Tier-1 datasets"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "uniform",
+      "filename": "img_0001_66b20fda.png",
+      "image_path": "img_0001_66b20fda.png",
+      "topic_id": "data_governance_framework"
+    },
+    "table_0004_d39c9791": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Defines_how_governance_runs_day-to-day_(who_meets,_how_often",
+      "row_count": 11,
+      "col_count": 5,
+      "columns": [
+        "Governance Body",
+        "Primary Focus",
+        "Decision Rights",
+        "Participants",
+        "Key Outputs & SLAs"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "img_0006_0346b3ce": {
+      "kind": "image",
+      "perturbations": [
+        "rotation"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Lineage completeness heatmap by pipeline stage and metadata field",
+      "x_label": "Lineage metadata field (Source, Transform, Target, Owner Approval, Last Validated Date)",
+      "y_label": "Reporting)",
+      "categories": [
+        "Source",
+        "Transform",
+        "Target",
+        "Owner Approval",
+        "Last Validated Date"
+      ],
+      "series_names": [
+        "Source",
+        "Integration",
+        "Reporting"
+      ],
+      "value_range": [
+        45,
+        100
+      ],
+      "trend": "volatile",
+      "filename": "img_0006_0346b3ce.png",
+      "image_path": "img_0006_0346b3ce.png",
+      "topic_id": "data_governance_framework"
+    },
+    "cx_table_0003_06a3e6fe": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "data_governance_framework"
+    },
+    "img_0005_393320d6": {
+      "kind": "image",
+      "perturbations": [
+        "rotation"
+      ],
+      "chart_type": "ridgeline",
+      "chart_title": "Lineage coverage progress toward 95% by 2026-12-31",
+      "x_label": "Month (2026)",
+      "y_label": "Percent of Tier-1 datasets with end-to-end lineage documented",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series_names": [
+        "Tier-1 Lineage Coverage"
+      ],
+      "value_range": [
+        40,
+        100
+      ],
+      "trend": "increasing",
+      "filename": "img_0005_393320d6.png",
+      "image_path": "img_0005_393320d6.png",
+      "topic_id": "data_governance_framework"
+    },
+    "img_0008_3df1e09b": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Stewardship workload distribution by role (FTE allocation)",
+      "x_label": "Stewardship role",
+      "y_label": "Allocated FTE per Tier-1 dataset",
+      "categories": [
+        "Data Owner",
+        "Business Data Steward",
+        "Technical Data Steward",
+        "Data Custodian",
+        "Data Quality Lead"
+      ],
+      "series_names": [
+        "Minimum Allocation",
+        "Median Allocation",
+        "Maximum Allocation"
+      ],
+      "value_range": [
+        0.0,
+        0.5
+      ],
+      "trend": "uniform",
+      "filename": "img_0008_3df1e09b.png",
+      "image_path": "img_0008_3df1e09b.png",
+      "topic_id": "data_governance_framework"
+    },
+    "table_0003_ce330919": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Specifies_the_minimum_lineage_scope_and_metadata_fields_requ",
+      "row_count": 11,
+      "col_count": 5,
+      "columns": [
+        "Lineage Component",
+        "Scope Level",
+        "Requirement Detail",
+        "N)",
+        "Validation Status"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "llm_mp_table_0000_c78d6a52": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "budget_expenditure_ledger",
+      "row_count": 56,
+      "col_count": 5,
+      "columns": [
+        "Date",
+        "Cost Center",
+        "Expense Description",
+        "Amount (USD)",
+        "Approved By"
+      ],
+      "topic_id": ""
+    },
+    "table_0005_24f9cab7": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Clarifies_stewardship_role_expectations_and_capacity_plannin",
+      "row_count": 9,
+      "col_count": 5,
+      "columns": [
+        "Role",
+        "Primary Responsibility",
+        "Allocated Capacity",
+        "Tier-1 Dataset Coverage",
+        "Reporting Line"
+      ],
+      "topic_id": "data_governance_framework"
+    },
+    "table_0001_f6d69898": {
+      "kind": "table",
+      "perturbations": [
+        "formatting",
+        "structural"
+      ],
+      "base_type": "Standardizes_the_four_classification_levels_and_the_minimum_",
+      "row_count": 5,
+      "col_count": 5,
+      "columns": [
+        "Classification Level",
+        "Description",
+        "Minimum Access Requirements",
+        "Handling Controls",
+        "Review & Monitoring"
+      ],
+      "topic_id": "data_governance_framework"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "According to the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, what is the minimum Completeness threshold required for Tier-1 critical data elements effective 2026-07-01?",
+      "answer": "Completeness ≥ 99.0%",
+      "assertions": [
+        {
+          "text": "The response must state Completeness ≥ 99.0%."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, by what date must 95% of Tier-1 datasets have documented end-to-end lineage?",
+      "answer": "2026-12-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-12-31."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Data Quality, Lineage Requirements & Governance Operating Model Implementation\" section, on what date will the Data Stewardship Working Group begin meeting weekly?",
+      "answer": "2026-06-15",
+      "assertions": [
+        {
+          "text": "The response must state 2026-06-15."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Data Ownership & Classification Policy for Tier-1 Data Products\" section, as of 2026-05-01 how many Data Owners are designated?",
+      "answer": "12 Data Owners",
+      "assertions": [
+        {
+          "text": "The response must state 12 Data Owners."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Enterprise Data Ownership & Classification Policy for Tier-1 Data Products\" section, what are the exactly 4 classification levels required for Tier-1 datasets?",
+      "answer": "Public, Internal, Confidential, Restricted",
+      "assertions": [
+        {
+          "text": "The response must state Public, Internal, Confidential, Restricted."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Enterprise Data Ownership & Classification Policy for Tier-1 Data Products\" section, by what date must 100% of Tier-1 datasets have an assigned Data Owner and a named Business Steward recorded in the data catalog?",
+      "answer": "2026-09-30",
+      "assertions": [
+        {
+          "text": "The response must state 2026-09-30."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Ownership and stewardship coverage by business domain (as of 2026-05-01)\", what does the Y-axis represent?",
+      "answer": "Count of assigned roles (Owners + Stewards)",
+      "assertions": [
+        {
+          "text": "The response must state Count of assigned roles (Owners + Stewards)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Ownership and stewardship coverage by business domain (as of 2026-05-01)\", what is the value range shown?",
+      "answer": "[1, 7]",
+      "assertions": [
+        {
+          "text": "The response must state [1, 7]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Ownership and stewardship coverage by business domain (as of 2026-05-01)\", what is the stated trend?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Tier-1 Data Product Governance Status\", who is listed as the Domain Owner for Policy Transactions?",
+      "answer": "N. Bhattacharya.",
+      "assertions": [
+        {
+          "text": "The response must state 'N. Bhattacharya.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Tier-1 Data Product Governance Status\", what is the DQ Score (%) for Provider Directory?",
+      "answer": "97.8%",
+      "assertions": [
+        {
+          "text": "The response must state '97.8%'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Tier-1 Data Product Governance Status\", how many total rows are indicated in the table?",
+      "answer": "12 rows total.",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows total.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Tier-1 Data Product Governance Status\", do most Tier-1 data products exceed the 92% data quality benchmark?",
+      "answer": "Yes; most Tier-1 data products exceed the 92% benchmark.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes; most Tier-1 data products exceed the 92% benchmark.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Tier-1 Data Product Governance Status\", which data products are identified as requiring targeted remediation?",
+      "answer": "Risk Scoring and Digital Interaction Logs.",
+      "assertions": [
+        {
+          "text": "The response must state 'Risk Scoring and Digital Interaction Logs.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the Target Date for the milestone \"Define Data Lineage Requirements\"?",
+      "answer": "2026-05-10",
+      "assertions": [
+        {
+          "text": "The response must state 2026-05-10."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", who is the Owner of milestone DG-03?",
+      "answer": "Data Architecture Manager",
+      "assertions": [
+        {
+          "text": "The response must state Data Architecture Manager."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 2: Project Milestone Tracker\", what is the % Complete for milestone 16 \"Define Data Ownership Matrix\"?",
+      "answer": "100%",
+      "assertions": [
+        {
+          "text": "The response must state 100%."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Access risk concentration by classification level and user population\", what does the Y-axis represent?",
+      "answer": "Average access risk score (0-100)",
+      "assertions": [
+        {
+          "text": "The response must state Average access risk score (0-100)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Access risk concentration by classification level and user population\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Access risk concentration by classification level and user population\", what is the overall trend?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", how many sub-columns does each period group span?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what is the H1 Attainment% for \"Critical data elements (CDEs) with named Data Owner\"?",
+      "answer": "94%",
+      "assertions": [
+        {
+          "text": "The response must state '94%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", how many metrics does the \"Classification & Access\" category rowspan cover?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", which metric has the lower H2 attainment in the \"Quality & Lineage\" category?",
+      "answer": "P2) impacting reporting",
+      "assertions": [
+        {
+          "text": "P2) impacting reporting'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what is the H2 target for \"Lineage documented end-to-end for Tier-1 pipelines\"?",
+      "answer": "$1.40M",
+      "assertions": [
+        {
+          "text": "The response must state '$1.40M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what metric value is shown for H2?",
+      "answer": "94%",
+      "assertions": [
+        {
+          "text": "The response must state '94%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", how many header rows are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", which side has the higher score, H1 or H2?",
+      "answer": "H2 with 94%",
+      "assertions": [
+        {
+          "text": "The response must state 'H2 with 94%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what does footnote 3 indicate?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Data Governance Operating Model Scorecard — Ownership, Classification, Quality, Lineage (H1 vs H2)\", what is the subtotal for Ownership in the H1 column?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "2026\", who signed the page?",
+      "answer": "Elena Marquez",
+      "assertions": [
+        {
+          "text": "The response must state 'Elena Marquez'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", how many Tier-1 data products were confirmed?",
+      "answer": "14",
+      "assertions": [
+        {
+          "text": "The response must state '14'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", what data quality standards are specified for completeness, accuracy, and timeliness?",
+      "answer": "Completeness ≥ 98.5%; accuracy ≥ 99.2%; timeliness < T+1",
+      "assertions": [
+        {
+          "text": "The response must state 'Completeness ≥ 98.5%; accuracy ≥ 99.2%; timeliness < T+1'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", by what date must legacy tables in RiskCalc be reclassified?",
+      "answer": "Before 31 Mar 2026",
+      "assertions": [
+        {
+          "text": "The response must state 'Before 31 Mar 2026'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "2026\", which responsibilities are assigned to the Operational Data Steward (ODS)?",
+      "answer": "Metadata management, data quality (DQ) rules, and issue management",
+      "assertions": [
+        {
+          "text": "The response must state 'Metadata management, data quality (DQ) rules, and issue management'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Data quality compliance rate vs thresholds (effective 2026-07-01)\", what does the Y-axis represent?",
+      "answer": "Percent of Tier-1 critical data elements meeting threshold",
+      "assertions": [
+        {
+          "text": "The response must state Percent of Tier-1 critical data elements meeting threshold."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Data quality compliance rate vs thresholds (effective 2026-07-01)\", what is the value range shown?",
+      "answer": "[70, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [70, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Data quality compliance rate vs thresholds (effective 2026-07-01)\", what is the trend described?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Enterprise Data Governance Framework – Tier-1 Data Products\", by when are all Tier-1 data products required to be audit-ready?",
+      "answer": "By Q4 2026.",
+      "assertions": [
+        {
+          "text": "The response must state 'By Q4 2026.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Data Governance Framework – Tier-1 Data Products\", how many classification levels are in the data classification schema?",
+      "answer": "Four.",
+      "assertions": [
+        {
+          "text": "The response must state 'Four.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Enterprise Data Governance Framework – Tier-1 Data Products\", what are the four data classification levels specified?",
+      "answer": "Public, Internal, Confidential, and Restricted.",
+      "assertions": [
+        {
+          "text": "The response must state 'Public, Internal, Confidential, and Restricted.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Data Governance Framework – Tier-1 Data Products\", is a named Business Data Owner required for every Tier-1 data product and at what organizational level?",
+      "answer": "Yes — a named Business Data Owner is required at Director level or above.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — a named Business Data Owner is required at Director level or above.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Enterprise Data Governance Framework – Tier-1 Data Products\", which data quality dimensions must Tier-1 data products meet?",
+      "answer": "Accuracy, completeness, timeliness, consistency, and uniqueness.",
+      "assertions": [
+        {
+          "text": "The response must state 'Accuracy, completeness, timeliness, consistency, and uniqueness.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", which leaf metric columns fall under the \"Policy & Control Compliance\" super-group?",
+      "answer": "Confidential) (#); Controls Tested (QTD) (#); Control Pass Rate (%).",
+      "assertions": [
+        {
+          "text": "Confidential) (#); Controls Tested (QTD) (#); Control Pass Rate (%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", how many rows does the \"Data Ownership & Accountability\" category label span?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", what is the \"Lineage Coverage (% of Tier-1 datasets)\" for the sub-category \"Lineage Capture & Certification\"?",
+      "answer": "84%.",
+      "assertions": [
+        {
+          "text": "The response must state '84%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", what is the grand total for \"DQ Rules Implemented (#)\"?",
+      "answer": "3,595.",
+      "assertions": [
+        {
+          "text": "The response must state '3,595.'."
+        }
+      ]
+    },
+    {
+      "question": "Confidential) (#)\"?",
+      "answer": "967.",
+      "assertions": [
+        {
+          "text": "The response must state '967.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", which columns fall under the 'Quality, Lineage & Stewardship Operations' header?",
+      "answer": "Confidential) (#); Controls Tested (QTD) (#); Control Pass Rate (%).",
+      "assertions": [
+        {
+          "text": "Confidential) (#); Controls Tested (QTD) (#); Control Pass Rate (%).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", how many header tiers are present?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", how many data rows are shown?",
+      "answer": "25",
+      "assertions": [
+        {
+          "text": "The response must state '25'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", which metric corresponds to the 84% value and what is that value?",
+      "answer": "Control Pass Rate (%) — 84%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Control Pass Rate (%) — 84%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 YTD)\", what is the subtotal row count for the 'Ownership & Accountability' group?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Monthly trend of Tier-1 data quality incidents after standards go-live\", what does the Y-axis represent?",
+      "answer": "Number of Tier-1 data quality incidents",
+      "assertions": [
+        {
+          "text": "The response must state Number of Tier-1 data quality incidents."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Monthly trend of Tier-1 data quality incidents after standards go-live\", what is the value range shown?",
+      "answer": "[0, 25]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 25]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Monthly trend of Tier-1 data quality incidents after standards go-live\", what is the overall trend?",
+      "answer": "decreasing",
+      "assertions": [
+        {
+          "text": "The response must state decreasing."
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Data Governance Certification Form\", who is listed as the Designated Data Owner?",
+      "answer": "Helena M. Duarte, VP Procurement Operations.",
+      "assertions": [
+        {
+          "text": "The response must state 'Helena M. Duarte, VP Procurement Operations.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Enterprise Data Governance Certification Form\", how many stamps appear on the page?",
+      "answer": "2 (REVIEWED and CONFIDENTIAL).",
+      "assertions": [
+        {
+          "text": "The response must state '2 (REVIEWED and CONFIDENTIAL).'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Data Governance Certification Form\", what is the Data Quality SLA Target?",
+      "answer": "98.5% completeness; <1.5% duplicate rate.",
+      "assertions": [
+        {
+          "text": "The response must state '98.5% completeness; <1.5% duplicate rate.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Enterprise Data Governance Certification Form\", is end-to-end lineage from source ERP to analytics dashboards captured?",
+      "answer": "No; the end-to-end lineage checkbox is unchecked.",
+      "assertions": [
+        {
+          "text": "The response must state 'No; the end-to-end lineage checkbox is unchecked.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Enterprise Data Governance Certification Form\", which tool is listed for lineage documentation?",
+      "answer": "ArcMap Lineage Suite v4.2.",
+      "assertions": [
+        {
+          "text": "The response must state 'ArcMap Lineage Suite v4.2.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30\", what does the Y-axis represent?",
+      "answer": "Percent of Tier-1 datasets with Data Owner assigned",
+      "assertions": [
+        {
+          "text": "The response must state Percent of Tier-1 datasets with Data Owner assigned."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Tier-1 dataset ownership assignment progress toward 100% by 2026-09-30\", what is the overall trend?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "Restricted)\", what does the Y-axis represent?",
+      "answer": "Share of Tier-1 datasets (%)",
+      "assertions": [
+        {
+          "text": "The response must state Share of Tier-1 datasets (%)."
+        }
+      ]
+    },
+    {
+      "question": "Restricted)\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "Restricted)\", what is the trend described?",
+      "answer": "uniform",
+      "assertions": [
+        {
+          "text": "The response must state uniform."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Governance operating model: forums, cadence, and decision rights starting 2026-06-15\", who are the participants listed for the Architecture Review Board?",
+      "answer": "Chief Architect, Data Engineers, Integration Lead, Security Architect",
+      "assertions": [
+        {
+          "text": "The response must state Chief Architect, Data Engineers, Integration Lead, Security Architect."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Governance operating model: forums, cadence, and decision rights starting 2026-06-15\", what is the Key Outputs & SLAs entry for the Data Access Review Panel?",
+      "answer": "Access decisions logged; 5-day SLA for Restricted data requests",
+      "assertions": [
+        {
+          "text": "The response must state Access decisions logged; 5-day SLA for Restricted data requests."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Governance operating model: forums, cadence, and decision rights starting 2026-06-15\", what is the Primary Focus of the Regulatory Reporting Committee?",
+      "answer": "Compliance data readiness",
+      "assertions": [
+        {
+          "text": "The response must state Compliance data readiness."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Lineage completeness heatmap by pipeline stage and metadata field,\" what does the Y-axis represent?",
+      "answer": "Reporting)",
+      "assertions": [
+        {
+          "text": "Reporting)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Lineage completeness heatmap by pipeline stage and metadata field,\" what is the value range shown?",
+      "answer": "[45, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [45, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Lineage completeness heatmap by pipeline stage and metadata field,\" what trend is described?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", which sub-columns fall under the \"Policy & Standards Compliance\" super-group?",
+      "answer": "Classification & Retention (Classified Assets (#), Retention Exceptions (#)) and Data Quality Standards (DQ Rules Implemented (#), DQ Pass Rate (%)).",
+      "assertions": [
+        {
+          "text": "The response must state 'Classification & Retention (Classified Assets (#), Retention Exceptions (#)) and Data Quality Standards (DQ Rules Implemented (#), DQ Pass Rate (%)).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", how many rows does the \"Operating Model Setup\" category label span?",
+      "answer": "6 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what is the DQ Pass Rate (%) for the \"Data Quality Controls\" sub-category (second detail row) under the \"Policy & Standards Compliance\" super-group?",
+      "answer": "96.2%.",
+      "assertions": [
+        {
+          "text": "The response must state '96.2%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what is the grand total for \"Classified Assets (#)\"?",
+      "answer": "7,030.",
+      "assertions": [
+        {
+          "text": "The response must state '7,030.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what does the \"Classification Policy Adoption Sub-Total\" row show for \"Retention Exceptions (#)\"?",
+      "answer": "25.",
+      "assertions": [
+        {
+          "text": "The response must state '25.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what is the overall DQ Pass Rate (%)?",
+      "answer": "96.2%",
+      "assertions": [
+        {
+          "text": "The response must state '96.2%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", which columns fall under 'Policy & Standards Compliance'?",
+      "answer": "Classification & Retention; Data Quality Standards",
+      "assertions": [
+        {
+          "text": "The response must state 'Classification & Retention; Data Quality Standards'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", which metric has the highest percentage value?",
+      "answer": "DQ Pass Rate (96.2%)",
+      "assertions": [
+        {
+          "text": "The response must state 'DQ Pass Rate (96.2%)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what does footnote 1 explain?",
+      "answer": "Classification & Retention and Data Quality Standards metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'Classification & Retention and Data Quality Standards metrics'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Enterprise Data Governance Framework — Ownership, Classification, Quality, Lineage & Operating Model Metrics (FY2026 Q2)\", what is the subtotal for the 'Classification & Retention' group in rows?",
+      "answer": "6 rows",
+      "assertions": [
+        {
+          "text": "The response must state '6 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Lineage coverage progress toward 95% by 2026-12-31\", what does the Y-axis represent?",
+      "answer": "Percent of Tier-1 datasets with end-to-end lineage documented",
+      "assertions": [
+        {
+          "text": "The response must state Percent of Tier-1 datasets with end-to-end lineage documented."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Lineage coverage progress toward 95% by 2026-12-31\", what is the value range shown?",
+      "answer": "[40, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [40, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Lineage coverage progress toward 95% by 2026-12-31\", what is the overall trend?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Stewardship workload distribution by role (FTE allocation)\", what does the Y-axis represent?",
+      "answer": "Allocated FTE per Tier-1 dataset",
+      "assertions": [
+        {
+          "text": "The response must state Allocated FTE per Tier-1 dataset."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Stewardship workload distribution by role (FTE allocation)\", what is the value range shown?",
+      "answer": "[0.0, 0.5]",
+      "assertions": [
+        {
+          "text": "The response must state [0.0, 0.5]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Stewardship workload distribution by role (FTE allocation)\", which category is listed on the X-axis?",
+      "answer": "Data Owner",
+      "assertions": [
+        {
+          "text": "The response must state Data Owner."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Lineage documentation requirements for Tier-1 datasets and critical data elements\", what is the Validation Status for \"Integration layer mapping\"?",
+      "answer": "Validated 2026-02-10",
+      "assertions": [
+        {
+          "text": "The response must state Validated 2026-02-10."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Lineage documentation requirements for Tier-1 datasets and critical data elements\", what is the Requirement Detail for \"Security classification mapping\"?",
+      "answer": "Restricted)",
+      "assertions": [
+        {
+          "text": "Restricted)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Lineage documentation requirements for Tier-1 datasets and critical data elements\", what is the Scope Level for \"Analytics model traceability\"?",
+      "answer": "Application",
+      "assertions": [
+        {
+          "text": "The response must state Application."
+        }
+      ]
+    }
+  ]
+}

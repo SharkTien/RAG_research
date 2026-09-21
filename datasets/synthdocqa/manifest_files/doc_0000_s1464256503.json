@@ -1,0 +1,2395 @@
+{
+  "doc_id": "doc_0000_s1464256503",
+  "title": "Programme Status Report and Steering Committee Briefing — Milestone Health, Budget‑at‑Completion Forecast, Dependency Risks, Escalations & Next‑Period Commitments",
+  "subtitle": "Transformation Programme Status — Milestone Health · BAC Forecast · Dependency Risks & Steering Escalations",
+  "topic_id": "programme_status_report",
+  "recipe_name": "data_focused",
+  "seed": 1464256503,
+  "document_brief": {
+    "narrative_theme": "The transformation programme remains on-track for the 30 Sep 2026 target provided two cross-portfolio dependencies are resolved in May and the steering committee approves targeted scope and funding actions to protect the forecast BAC.",
+    "sections": [
+      {
+        "heading": "Milestone Health, Critical Path, and Next-Period Delivery Commitments",
+        "key_facts": [
+          "Milestone M4 (Data Platform MVP) is forecast for 14 Jun 2026 and is 10 days late versus the 04 Jun 2026 baseline.",
+          "Milestone M5 (Finance ERP Cutover) remains on track for 30 Sep 2026 with 0 days variance.",
+          "Next-period commitment: complete SIT Cycle 2 by 24 May 2026."
+        ],
+        "data_references": [
+          "table_0",
+          "table_5"
+        ]
+      },
+      {
+        "heading": "Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations",
+        "key_facts": [
+          "Budget-at-Completion (BAC) forecast is $128.4m versus an approved budget of $125.0m, a variance of +$3.4m (+2.7%).",
+          "Forecast EAC for Systems Integrator is $46.2m versus a budget of $44.0m, a variance of +$2.2m.",
+          "Steering Committee decision required by 20 May 2026 to approve a $1.8m change request (CR-017) for regulatory reporting scope."
+        ],
+        "data_references": [
+          "table_1",
+          "table_2",
+          "table_3",
+          "table_4"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Milestone health and variance to baseline for the transformation critical path (May–Sep 2026)",
+        "purpose": "Summarises milestone status, baseline vs forecast dates, and schedule variance to support the programme narrative that delivery remains viable if May dependencies are cleared.",
+        "key_data": {
+          "M4 – Data Platform MVP | Baseline 04 Jun 2026 | Forecast 14 Jun 2026": "Variance +10 days (Amber)",
+          "M5 – Finance ERP Cutover | Baseline 30 Sep 2026 | Forecast 30 Sep 2026": "Variance 0 days (Green)",
+          "M3 – Integration Layer Complete | Baseline 10 May 2026 | Forecast 17 May 2026": "Variance +7 days (Amber)",
+          "M6 – HR Workday Decommission | Baseline 15 Aug 2026 | Forecast 22 Aug 2026": "Variance +7 days (Amber)"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Budget-at-Completion (BAC) forecast vs approved budget by cost category (FY26)",
+        "purpose": "Provides the BAC view needed to explain the +$3.4m variance and where corrective actions are targeted to protect the 30 Sep 2026 outcome.",
+        "key_data": {
+          "Systems Integrator": "Budget $44.0m | Forecast $46.2m | Var +$2.2m",
+          "Internal Delivery": "Budget $38.0m | Forecast $37.6m | Var -$0.4m",
+          "Software & Licenses": "Budget $22.0m | Forecast $22.8m | Var +$0.8m",
+          "Change & Training": "Budget $11.0m | Forecast $10.9m | Var -$0.1m"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Top dependency risks impacting May–Jun 2026 milestones, with owners and required actions",
+        "purpose": "Highlights the two cross-portfolio dependencies that must be resolved in May to prevent further slippage to M4 and protect the Sep cutover date.",
+        "key_data": {
+          "R-12 | Identity & Access (IAM) integration sign-off | Owner: Alex Chen | Due: 18 May 2026": "M4 slip | Mitigation: expedite security review",
+          "R-18 | Network segmentation change window approval | Owner: Priya Nair | Due: 22 May 2026": "Risk: Medium | Impact: SIT Cycle 2 | Mitigation: reserve CAB slot",
+          "R-07 | Data retention policy confirmation | Owner: Marta Silva | Due: 27 May 2026": "Risk: Medium | Impact: regulatory reporting | Mitigation: legal workshop"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Escalations requiring steering committee decisions (May 2026) and decision deadlines",
+        "purpose": "Lists decision items that unblock delivery and control BAC, aligning governance actions to the programme narrative.",
+        "key_data": {
+          "ESC-01 | Approve CR-017 regulatory reporting scope": "Decision deadline 20 May 2026 | Cost +$1.8m | Schedule impact +0–2 weeks",
+          "ESC-02 | Confirm cutover weekend resource backfill": "Decision deadline 27 May 2026 | Cost +$0.6m | Risk reduction: High",
+          "ESC-03 | Approve vendor renewal for test automation": "Decision deadline 24 May 2026 | Cost +$0.4m | Benefit: SIT throughput +15%"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Corrective actions to recover schedule and contain BAC variance (+$3.4m) through June 2026",
+        "purpose": "Connects specific actions, owners, dates, and expected effects to the plan to remain on-track for 30 Sep 2026 despite current variances.",
+        "key_data": {
+          "Action A1 | Add 2 integration engineers (4 weeks) | Owner: Alex Chen | Start 13 May 2026": "Expected effect: recover 5 days on M4 | Cost +$0.5m",
+          "Action A2 | Reduce non-critical reports (defer 6) | Owner: Marta Silva | Decision 20 May 2026": "Expected effect: avoid +2 weeks | Cost -$0.9m",
+          "Action A3 | Freeze environment changes during SIT Cycle 2 | Owner: Priya Nair | From 15 May 2026": "Expected effect: defect leakage -10% | Cost $0.0m"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Next-period (May 2026) commitments with measurable acceptance criteria",
+        "purpose": "Defines the delivery commitments for the next reporting period, ensuring the programme’s narrative is anchored in near-term execution outcomes.",
+        "key_data": {
+          "Commitment C1 | Complete SIT Cycle 2": "Due 24 May 2026 | Acceptance: 85% test cases executed; Sev1=0 open",
+          "Commitment C2 | IAM integration sign-off": "Due 18 May 2026 | Acceptance: security approval recorded; SSO working in UAT",
+          "Commitment C3 | Finalise cutover runbook v0.9": "Due 31 May 2026 | Acceptance: 100% steps peer-reviewed; rollback validated",
+          "Commitment C4 | Update BAC forecast after vendor true-up": "Due 28 May 2026 | Acceptance: variance explained; actions mapped to owners"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1464256503.pdf",
+    "markdown": null,
+    "assets": []
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 26,
+    "actual_page_count": 20
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "cx_table_0000_cf84e2e5",
+      "table_number": 1,
+      "caption": "Table 1: Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what is the H1 Attainment% for \"Release Readiness (gated approvals, %)\"?",
+          "answer": "96%",
+          "assertions": [
+            {
+              "text": "The response must state '96%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", how many metrics does the \"Financials\" category rowspan cover?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", which metric has the lower H2 attainment in the \"Risks, Dependencies & Escalations\" category?",
+          "answer": "SteerCo Decisions Required (open items)",
+          "assertions": [
+            {
+              "text": "The response must state 'SteerCo Decisions Required (open items)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what is the H2 target for \"Budget-at-Completion (BAC) Forecast\"?",
+          "answer": "$118.0M",
+          "assertions": [
+            {
+              "text": "The response must state '$118.0M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what percentage is shown in the table?",
+          "answer": "96%",
+          "assertions": [
+            {
+              "text": "The response must state '96%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", how many header rows are there?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", which value is highest among the listed fact values?",
+          "answer": "96%",
+          "assertions": [
+            {
+              "text": "The response must state '96%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what does footnote 1 explain?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what is the subtotal for group H1 in column H2?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_06d85148",
+      "table_number": 2,
+      "caption": "Table 2: Budget Expenditure Ledger",
+      "columns": [
+        "Cost Center",
+        "Workstream",
+        "Approved Budget (USD)",
+        "Actuals to Date (USD)",
+        "Variance (USD)"
+      ],
+      "row_count": 53,
+      "cells": [
+        [
+          "CC-101",
+          "Enterprise Architecture",
+          "1250000",
+          "1184500",
+          "65500"
+        ],
+        [
+          "CC-102",
+          "Cloud Migration",
+          "3400000",
+          "3567800",
+          "-167800"
+        ],
+        [
+          "CC-103",
+          "Data Platform Modernisation",
+          "2750000",
+          "2493200",
+          "256800"
+        ],
+        [
+          "CC-104",
+          "Cybersecurity Enhancement",
+          "1850000",
+          "1799500",
+          "50500"
+        ],
+        [
+          "CC-105",
+          "ERP Implementation",
+          "4200000",
+          "3986400",
+          "213600"
+        ],
+        [
+          "CC-106",
+          "Change Management",
+          "950000",
+          "1023400",
+          "-73400"
+        ],
+        [
+          "CC-107",
+          "Business Process Reengineering",
+          "1600000",
+          "1482500",
+          "117500"
+        ],
+        [
+          "CC-108",
+          "Integration Services",
+          "2100000",
+          "2246700",
+          "-146700"
+        ],
+        [
+          "CC-109",
+          "Testing & QA",
+          "1300000",
+          "1198700",
+          "101300"
+        ],
+        [
+          "CC-110",
+          "Training & Enablement",
+          "875000",
+          "802300",
+          "72700"
+        ],
+        [
+          "CC-111",
+          "Infrastructure Upgrades",
+          "2400000",
+          "2335400",
+          "64600"
+        ],
+        [
+          "CC-112",
+          "Vendor Advisory Services",
+          "1500000",
+          "1589200",
+          "-89200"
+        ],
+        [
+          "CC-113",
+          "Regulatory & Compliance",
+          "980000",
+          "910450",
+          "69550"
+        ],
+        [
+          "CC-114",
+          "PMO & Governance",
+          "1125000",
+          "1093600",
+          "31400"
+        ],
+        [
+          "CC-115",
+          "Contingency Reserve",
+          "2000000",
+          "1250000",
+          "750000"
+        ],
+        [
+          "CC-016",
+          "Enterprise Architecture",
+          "450000",
+          "420000",
+          "30000"
+        ],
+        [
+          "CC-017",
+          "Data Migration",
+          "1200000",
+          "1250000",
+          "-50000"
+        ],
+        [
+          "CC-018",
+          "Change Management",
+          "780000",
+          "640000",
+          "140000"
+        ],
+        [
+          "CC-019",
+          "Training & Enablement",
+          "250000",
+          "275000",
+          "-25000"
+        ],
+        [
+          "CC-020",
+          "Cybersecurity Enhancements",
+          "960000",
+          "800000",
+          "160000"
+        ],
+        [
+          "CC-021",
+          "Vendor Management",
+          "150000",
+          "90000",
+          "60000"
+        ],
+        [
+          "CC-022",
+          "Cloud Infrastructure",
+          "2000000",
+          "1500000",
+          "500000"
+        ],
+        [
+          "CC-023",
+          "Application Modernization",
+          "670000",
+          "710000",
+          "-40000"
+        ],
+        [
+          "CC-024",
+          "Business Process Redesign",
+          "330000",
+          "200000",
+          "130000"
+        ],
+        [
+          "CC-025",
+          "Quality Assurance",
+          "890000",
+          "920000",
+          "-30000"
+        ],
+        [
+          "CC-026",
+          "PMO Operations",
+          "410000",
+          "380000",
+          "30000"
+        ],
+        [
+          "CC-027",
+          "Integration Services",
+          "1230000",
+          "1000000",
+          "230000"
+        ],
+        [
+          "CC-028",
+          "Regulatory Compliance",
+          "540000",
+          "600000",
+          "-60000"
+        ],
+        [
+          "CC-029",
+          "Reporting & Analytics",
+          "760000",
+          "500000",
+          "260000"
+        ],
+        [
+          "CC-030",
+          "Contingency Reserve",
+          "305000",
+          "305000",
+          "0"
+        ],
+        [
+          "CC-031",
+          "Data Migration",
+          "1250000",
+          "1184500",
+          "65500"
+        ],
+        [
+          "CC-032",
+          "Cybersecurity Enhancements",
+          "980000",
+          "1023500",
+          "-43500"
+        ],
+        [
+          "CC-033",
+          "Cloud Infrastructure",
+          "2100000",
+          "1987600",
+          "112400"
+        ],
+        [
+          "CC-034",
+          "Business Process Reengineering",
+          "760000",
+          "745300",
+          "14700"
+        ],
+        [
+          "CC-035",
+          "Change Management",
+          "540000",
+          "589200",
+          "-49200"
+        ],
+        [
+          "CC-036",
+          "Training & Enablement",
+          "430000",
+          "401850",
+          "28150"
+        ],
+        [
+          "CC-037",
+          "Enterprise Architecture",
+          "890000",
+          "872400",
+          "17600"
+        ],
+        [
+          "CC-038",
+          "Quality Assurance",
+          "670000",
+          "693500",
+          "-23500"
+        ],
+        [
+          "CC-039",
+          "Vendor Management",
+          "350000",
+          "312750",
+          "37250"
+        ],
+        [
+          "CC-040",
+          "Integration Services",
+          "1450000",
+          "1512300",
+          "-62300"
+        ],
+        [
+          "CC-041",
+          "Reporting & Analytics",
+          "820000",
+          "799900",
+          "20100"
+        ],
+        [
+          "CC-042",
+          "Regulatory Compliance",
+          "610000",
+          "648450",
+          "-38450"
+        ],
+        [
+          "CC-043",
+          "Infrastructure Upgrades",
+          "1340000",
+          "1298750",
+          "41250"
+        ],
+        [
+          "CC-044",
+          "Customer Experience Improvements",
+          "920000",
+          "887600",
+          "32400"
+        ],
+        [
+          "CC-045",
+          "Program Management Office",
+          "1580000",
+          "1543200",
+          "36800"
+        ],
+        [
+          "CC-046",
+          "Data Migration",
+          "1250000",
+          "1184500",
+          "65500"
+        ],
+        [
+          "CC-047",
+          "Cybersecurity Enhancement",
+          "980000",
+          "1023400",
+          "-43400"
+        ],
+        [
+          "CC-048",
+          "Cloud Infrastructure",
+          "2100000",
+          "1987600",
+          "112400"
+        ],
+        [
+          "CC-049",
+          "Change Management",
+          "650000",
+          "702300",
+          "-52300"
+        ],
+        [
+          "CC-050",
+          "Enterprise Architecture",
+          "875000",
+          "821450",
+          "53550"
+        ],
+        [
+          "CC-051",
+          "Business Process Reengineering",
+          "1430000",
+          "1398200",
+          "31800"
+        ],
+        [
+          "CC-052",
+          "Testing & QA",
+          "760000",
+          "689900",
+          "70100"
+        ],
+        [
+          "CC-053",
+          "Program Management Office",
+          "1590000",
+          "1627500",
+          "-37500"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Approved Budget (USD)": 63530000.0,
+        "max_Approved Budget (USD)": 4200000.0,
+        "min_Approved Budget (USD)": 150000.0,
+        "sum_Actuals to Date (USD)": 60489300.0,
+        "max_Actuals to Date (USD)": 3986400.0,
+        "min_Actuals to Date (USD)": 90000.0,
+        "sum_Variance (USD)": 3040700.0,
+        "max_Variance (USD)": 750000.0,
+        "min_Variance (USD)": -167800.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Approved Budget (USD) for CC-101 Enterprise Architecture?",
+          "answer": "1250000",
+          "assertions": [
+            {
+              "text": "The response must state 1250000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Variance (USD) listed for CC-102 Cloud Migration?",
+          "answer": "-167800",
+          "assertions": [
+            {
+              "text": "The response must state -167800."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Actuals to Date (USD) for CC-030 Contingency Reserve?",
+          "answer": "305000",
+          "assertions": [
+            {
+              "text": "The response must state 305000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "table_0005_ef6e6c67",
+      "table_number": 3,
+      "caption": "Table 3: Next-period (May 2026) commitments with measurable acceptance criteria",
+      "columns": [
+        "Commitment Summary",
+        "Owner",
+        "RAG Status",
+        " Notes"
+      ],
+      "row_count": 5,
+      "cells": [
+        [
+          "Commitment C1 | Complete SIT Cycle 2: Due 24 May 2026 | Acceptance: 85% test cases executed; Sev1=0 open;",
+          "Test Manager",
+          "Amber",
+          "Dependent on stable build v3.2 and defect triage capacity"
+        ],
+        [
+          "Commitment C2 | IAM integration sign-off: Due 18 May 2026 | Acceptance: security approval recorded; SSO working in UAT;",
+          "Security Lead",
+          "Green",
+          "Requires completion of penetration test remediation actions"
+        ],
+        [
+          "Commitment C3 | Finalise cutover runbook v0.9: Due 31 May 2026 | Acceptance: 100% steps peer-reviewed; rollback validated;",
+          "Release Manager",
+          "Amber",
+          "Input from infrastructure and data migration workstreams pending"
+        ],
+        [
+          "Commitment C4 | Update BAC forecast after vendor true-up: Due 28 May 2026 | Acceptance: variance explained; actions mapped to owners",
+          "Programme Finance Manager",
+          "Green",
+          "Awaiting final vendor invoices and approved change requests"
+        ],
+        [
+          "Commitment C5 | Complete business readiness workshops (Wave 1): Due 30 May 2026 | Acceptance: 3 workshops delivered; attendance >90%; actions logged in RAID",
+          "Business Change Lead",
+          "Green",
+          "Relies on confirmed stakeholder availability and finalised training materials"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Next-period (May 2026) commitments with measurable acceptance criteria\", what is the RAG Status for Commitment C1?",
+          "answer": "Amber",
+          "assertions": [
+            {
+              "text": "The response must state Amber."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Next-period (May 2026) commitments with measurable acceptance criteria\", who is the Owner for Commitment C3?",
+          "answer": "Release Manager",
+          "assertions": [
+            {
+              "text": "The response must state Release Manager."
+            }
+          ]
+        },
+        {
+          "question": " Notes entry for Commitment C2?",
+          "answer": "Requires completion of penetration test remediation actions",
+          "assertions": [
+            {
+              "text": "The response must state Requires completion of penetration test remediation actions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "table_0001_35f7b46a",
+      "table_number": 4,
+      "caption": "Table 4: Budget-at-Completion (BAC) forecast vs approved budget by cost category (FY26)",
+      "columns": [
+        "Workstream",
+        "Budget (BAC)",
+        "Forecast (EAC)",
+        "Variance",
+        "Milestone Health (RAG)",
+        "Corrective Actions Targeted to Protect 30 Sep 2026"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "Systems Integrator",
+          "$44.0m",
+          "$46.2m",
+          "+$2.2m",
+          "Amber",
+          "Commercial renegotiation in progress; scope prioritisation and tighter change control to cap further design churn by 30 Jun 2026."
+        ],
+        [
+          "Internal Delivery",
+          "$38.0m",
+          "$37.6m",
+          "-$0.4m",
+          "Green",
+          ""
+        ],
+        [
+          "Software & Liceness",
+          "$22.0m",
+          "$22.8m",
+          "+$0.8m",
+          "Amber",
+          "Vendor negotiation on enterprise discount; defer non-critical module activation to post go-live phase."
+        ],
+        [
+          "Change & Training",
+          "",
+          "$10.9m",
+          "-$0.1m",
+          "Geren",
+          "Shift to blended digital learning to avoid additional facilitator costs; confirm wave 2 schedule by 15 Jul 2026."
+        ],
+        [
+          "Data Migration",
+          "$95.m",
+          "$10.0m",
+          "+$0.5m",
+          "Amber",
+          "Introduce automated reconciliation tools; add short-term data cleansing squad through Aug 2026."
+        ],
+        [
+          "Testing & nEvironments",
+          "$7.8m",
+          "$8.1m",
+          "+$0.3m",
+          "Amber",
+          "Consolidate lower environments and optimise test cycles; defect triage war-room to reduce retest effort."
+        ],
+        [
+          "Architecture & Security",
+          "$6.2m",
+          "$6.0m",
+          "-$0.2m",
+          "Green",
+          "Leverage existing security tooling; freeze non-essential enhancements until after 30 Sep 2026."
+        ],
+        [
+          "Business Readiness",
+          "$5.4m",
+          "$5.8m",
+          "+$0.4m",
+          "Amber",
+          "Refocus readiness activitieso n critical markets only; steering decision on phased rollout by 28 May 2026."
+        ],
+        [
+          "PMO & Governance",
+          "$4.6m",
+          "$45.m",
+          "-$0.1m",
+          "Green",
+          "Reduce external reporting support; transition to automated dashboarding from June 2026."
+        ],
+        [
+          "Contingency & Risk Reserve",
+          "$3.5m",
+          "$.35m",
+          "$0.0m",
+          "Green",
+          "Hold remaining reserve for integration and cutover risks; release subject to Steering Committee approval in Aug 2026."
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Budget-at-Completion (BAC) forecast vs approved budget by cost category (FY26)\", what is the Forecast (EAC) value for Systems Integrator?",
+          "answer": "$46.2m",
+          "assertions": [
+            {
+              "text": "The response must state $46.2m."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Budget-at-Completion (BAC) forecast vs approved budget by cost category (FY26)\", what Milestone Health (RAG) status is shown for Change & Training?",
+          "answer": "Geren",
+          "assertions": [
+            {
+              "text": "The response must state Geren."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Budget-at-Completion (BAC) forecast vs approved budget by cost category (FY26)\", what is the Forecast (EAC) value for Contingency & Risk Reserve?",
+          "answer": "$.35m",
+          "assertions": [
+            {
+              "text": "The response must state $.35m."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "table_0004_8865b3d0",
+      "table_number": 5,
+      "caption": "Table 5: Corrective actions to recover schedule and contain BAC variance (+$3.4m) through June 2026",
+      "columns": [
+        "Action",
+        "Owner",
+        "Timing",
+        "Expected Effect",
+        "Cost Impact",
+        "Linked Milestone",
+        "Variance Addressed",
+        "Status",
+        "Forecast Impact on 30 Sep 2026"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Action A1 | Add 2 integration engineers (4 weeks)",
+          "Owner: Alex Chen",
+          "Start 13 May 2026",
+          "Expected effect: recover 5 days on M4",
+          "Cost +$0.5m",
+          "M4 System Integration Complete (30 Jun 2026)",
+          "Integration backlog causing 8-day slippage",
+          "Approved – onboarding in progress",
+          "Improves milestone confidence from Amber to Green if delivered by 10 Jun 2026"
+        ],
+        [
+          "Action A2 | Reduce non-critical reports (defer 6)",
+          "Owner: Marta Silva",
+          "Decision 20 May 2026",
+          "Expected effect: avoid +2 weeks",
+          "Cost -$0.9m",
+          "M5 UAT Exit (31 Jul 2026)",
+          "Scope growth increasing UAT duration",
+          "Pending Steering Committee decision",
+          "Maintains overall go-live date of 30 Sep 2026"
+        ],
+        [
+          "Action A3 | Freeze environment changes during SIT Cycle 2",
+          "Owner: Priya Nair",
+          "From 15 May 2026",
+          "Expected effect: defect leakage -10%",
+          "Cost $0.0m",
+          "M4 System Integration Complete (30 Jun 2026)",
+          "High defect re-open rate (18%)",
+          "Approved and communicated to all vendors",
+          "Stabilises quality trajectory to protect 30 Sep 2026 go-live"
+        ],
+        [
+          "Action A4 | Re-baseline data migration rehearsal plan",
+          "Owner: Daniel Okoye",
+          "Start 18 May 2026",
+          "Expected effect: reduce cutover risk by 15%",
+          "Cost +$0.2m",
+          "M6 Dress Rehearsal (15 Aug 2026)",
+          "Incomplete mock loads and reconciliation gaps",
+          "In progress",
+          "Reduces probability of cutover delay beyond 30 Sep 2026"
+        ],
+        [
+          "Action A5 | Escalate vendor SLA breaches to executive level",
+          "Owner: Helen Park",
+          "Escalation 12 May 2026",
+          "Expected effect: improve turnaround time by 20%",
+          "Cost $0.0m",
+          "M4 & M5",
+          "Repeated late defect fixes from Vendor B",
+          "Escalated – awaiting formal response",
+          "Prevents compounding delay into Q4 2026"
+        ],
+        [
+          "Action A6 | Reallocate 3 business SMEs to UAT full-time",
+          "Owner: Liam O'Connor",
+          "Start 1 Jun 2026",
+          "Expected effect: accelerate test case execution by 25%",
+          "Cost +$0.3m",
+          "M5 UAT Exit (31 Jul 2026)",
+          "Low daily test execution rate (65% of plan)",
+          "Confirmed by business unit",
+          "Increases confidence in meeting 31 Jul 2026 UAT exit"
+        ],
+        [
+          "Action A7 | Implement weekly dependency risk review forum",
+          "Owner: Sophie Laurent",
+          "Start 14 May 2026",
+          "Expected effect: early identification of cross-workstream impacts",
+          "Cost $0.0m",
+          "All milestones M4–M7",
+          "Unmanaged inter-programme dependencies",
+          "Active",
+          "Reduces likelihood of surprise delays before 30 Sep 2026"
+        ],
+        [
+          "Action A8 | Secure contingency budget drawdown approval",
+          "Owner: Michael Tan",
+          "Decision 22 May 2026",
+          "Expected effect: protect BAC forecast at $48.7m",
+          "Cost +$1.2m contingency",
+          "Programme-wide",
+          "Forecast overrun of +$0.8m vs original BAC",
+          "Submitted for Steering Committee approval",
+          "Ensures financial headroom without shifting 30 Sep 2026 date"
+        ],
+        [
+          "Action A9 | Advance performance testing by 2 weeks",
+          "Owner: Rachel Kim",
+          "Start 25 May 2026",
+          "Expected effect: identify capacity defects before UAT peak",
+          "Cost +$0.4m",
+          "M5 transition",
+          "Environment instability under load",
+          "Planned",
+          "Protects production readiness for 30 Sep 2026 go-live"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Corrective actions to recover schedule and contain BAC variance (+$3.4m) through June 2026\", what is the Cost Impact for Action A2 | Reduce non-critical reports (defer 6)?",
+          "answer": "Cost -$0.9m",
+          "assertions": [
+            {
+              "text": "The response must state Cost -$0.9m."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Corrective actions to recover schedule and contain BAC variance (+$3.4m) through June 2026\", who is the Owner for Action A6 | Reallocate 3 business SMEs to UAT full-time?",
+          "answer": "Liam O'Connor",
+          "assertions": [
+            {
+              "text": "The response must state Liam O'Connor."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Corrective actions to recover schedule and contain BAC variance (+$3.4m) through June 2026\", what is the Linked Milestone for Action A4 | Re-baseline data migration rehearsal plan?",
+          "answer": "M6 Dress Rehearsal (15 Aug 2026)",
+          "assertions": [
+            {
+              "text": "The response must state M6 Dress Rehearsal (15 Aug 2026)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "cx_table_0002_1e24ebc8",
+      "table_number": 6,
+      "caption": "Table 6: Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", which sub-columns fall under the \"Milestone Health (Current Period)\" super-group?",
+          "answer": "Sub-Category; RAG; Key Milestone; Plan Date; Forecast Date.",
+          "assertions": [
+            {
+              "text": "The response must state 'Sub-Category; RAG; Key Milestone; Plan Date; Forecast Date.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", how many rows does the \"Technology Enablement\" category label span?",
+          "answer": "8 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '8 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what is the EAC (Forecast) $M for the \"Integration test cycle 1 exit\" milestone?",
+          "answer": "5.40.",
+          "assertions": [
+            {
+              "text": "The response must state '5.40.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what is the grand total for \"Variance $M\"?",
+          "answer": "+2.90.",
+          "assertions": [
+            {
+              "text": "The response must state '+2.90.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what does the \"ERP Build & Integrations Sub-Total\" row show for \"ETC $M\"?",
+          "answer": "11.70.",
+          "assertions": [
+            {
+              "text": "The response must state '11.70.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what sub-columns are listed under Milestone Health (Current Period)?",
+          "answer": "Sub-Category; RAG; Key Milestone; Plan Date; Forecast Date.",
+          "assertions": [
+            {
+              "text": "The response must state 'Sub-Category; RAG; Key Milestone; Plan Date; Forecast Date.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", how many header tiers are present?",
+          "answer": "3 header rows.",
+          "assertions": [
+            {
+              "text": "The response must state '3 header rows.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what is the highest BAC Forecast value shown?",
+          "answer": "5.40",
+          "assertions": [
+            {
+              "text": "The response must state '5.40'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what does footnote 1 explain?",
+          "answer": "No footnotes present.",
+          "assertions": [
+            {
+              "text": "The response must state 'No footnotes present.'"
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what is the subtotal for the Financials (BAC Forecast) group in the BAC Forecast column?",
+          "answer": "5.40",
+          "assertions": [
+            {
+              "text": "The response must state '5.40'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0003_692e285b",
+      "table_number": 7,
+      "caption": "Table 7: Escalations requiring steering committee decisions (May 2026) and decision deadlines",
+      "columns": [
+        "Escalation ID",
+        "Decision Details",
+        "Owner",
+        "SteerCo Date",
+        "Current Status",
+        "BAC Impact ($m)",
+        "Schedule Impact",
+        "Benefit Impact"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "ESC-01",
+          "ESC-01 | Approve CR-017 regulatory reporting scope: Decision deadline 20 May 2026 | Cost +$1.8m | Schedule impact +0–2 weeks;",
+          "CFO",
+          "18 May 2026",
+          "Pending",
+          "1.8",
+          "+0–2 weeks",
+          "Regulatory compliance risk mitigated"
+        ],
+        [
+          "ESC-02",
+          "ESC-02 | Confirm cutover weekend resource backfill: Decision deadline 27 May 2026 | Cost +$0.6m | Risk reduction: High;",
+          "COO",
+          "25 May 2026",
+          "Pending",
+          "0.6",
+          "No change",
+          "Risk reduction: High"
+        ],
+        [
+          "ESC-03",
+          "ESC-03 | Approve vendor renewal for test automation: Decision deadline 24 May 2026 | Cost +$0.4m | Benefit: SIT throughput +15%",
+          "CIO",
+          "22 May 2026",
+          "Pending",
+          "0.4",
+          "No change",
+          "Benefit: SIT throughput +15%"
+        ],
+        [
+          "ESC-04",
+          "Approve data migration tooling uplift: Decision deadline 30 May 2026 | Cost +$0.9m | Schedule impact +1 week",
+          "CTO",
+          "29 May 2026",
+          "In review",
+          "0.9",
+          "+1 week",
+          "Improves data quality controls"
+        ],
+        [
+          "ESC-05",
+          "Endorse Phase 2 scope reprioritisation: Decision deadline 28 May 2026 | Cost neutral | Schedule impact -2 weeks",
+          "Programme Director",
+          "25 May 2026",
+          "Pending",
+          "0.0",
+          "-2 weeks",
+          "Aligns to critical path"
+        ],
+        [
+          "ESC-06",
+          "Approve additional cybersecurity controls: Decision deadline 31 May 2026 | Cost +$0.7m | Risk reduction: Medium",
+          "CISO",
+          "29 May 2026",
+          "In review",
+          "0.7",
+          "No change",
+          "Reduces residual risk exposure by 18%"
+        ],
+        [
+          "ESC-07",
+          "Confirm business SME secondment extension: Decision deadline 21 May 2026 | Cost +$0.3m | Schedule impact +0–1 week",
+          "HR Director",
+          "18 May 2026",
+          "Pending",
+          "0.3",
+          "+0–1 week",
+          "Maintains design quality"
+        ],
+        [
+          "ESC-08",
+          "Approve infrastructure capacity scaling: Decision deadline 26 May 2026 | Cost +$1.1m | Benefit: Performance +20%",
+          "CTO",
+          "24 May 2026",
+          "Pending",
+          "1.1",
+          "No change",
+          "Prevents performance bottlenecks"
+        ],
+        [
+          "ESC-09",
+          "Ratify third-party data licensing agreement: Decision deadline 23 May 2026 | Cost +$0.5m | Risk reduction: Medium",
+          "Legal Counsel",
+          "20 May 2026",
+          "Pending",
+          "0.5",
+          "No change",
+          "Avoids contractual penalties"
+        ],
+        [
+          "ESC-10",
+          "Approve change freeze waiver for integration sprint: Decision deadline 19 May 2026 | Cost +$0.2m | Schedule impact -1 week",
+          "CIO",
+          "16 May 2026",
+          "Approved",
+          "0.2",
+          "-1 week",
+          "Accelerates SIT entry"
+        ],
+        [
+          "ESC-11",
+          "Endorse benefits realisation baseline reset: Decision deadline 2 June 2026 | Cost neutral | Schedule impact none",
+          "CFO",
+          "1 June 2026",
+          "Draft",
+          "0.0",
+          "None",
+          "Improves forecast accuracy"
+        ]
+      ],
+      "derived_answers": {
+        "sum_BAC Impact ($m)": 6.5,
+        "max_BAC Impact ($m)": 1.8,
+        "min_BAC Impact ($m)": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Escalations requiring steering committee decisions (May 2026) and decision deadlines\", what is the Current Status for ESC-04?",
+          "answer": "In review",
+          "assertions": [
+            {
+              "text": "The response must state In review."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Escalations requiring steering committee decisions (May 2026) and decision deadlines\", what is the BAC Impact ($m) for ESC-08?",
+          "answer": "1.1",
+          "assertions": [
+            {
+              "text": "The response must state 1.1."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Escalations requiring steering committee decisions (May 2026) and decision deadlines\", who is the Owner for ESC-09?",
+          "answer": "Legal Counsel",
+          "assertions": [
+            {
+              "text": "The response must state Legal Counsel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "table_0000_f30ee0fd",
+      "table_number": 8,
+      "caption": "Table 8: Milestone health and variance to baseline for the transformation critical path (May–Sep 2026)",
+      "columns": [
+        "Milestone",
+        "Baseline Date",
+        "Forecast Date",
+        "Schedule Variance",
+        "RAG Status"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "M1 – Programme Mobilisation Complete",
+          "15 Jan 2026",
+          "15 Jan 2026",
+          "0 days",
+          "Green"
+        ],
+        [
+          "M2 – Target Operating Model Sign-off",
+          "28 Feb 2026",
+          "05 Mar 2026",
+          "+5 days",
+          "Amber"
+        ],
+        [
+          "M3 – Integration Layer Complete",
+          "10 May 2026",
+          "17 May 2026",
+          "+7 days",
+          "Amber"
+        ],
+        [
+          "M4 – Data Platform MVP",
+          "04 Jun 2026",
+          "14 Jun 2026",
+          "+10 days",
+          "Amber"
+        ],
+        [
+          "M5 – Finance ERP Cutover",
+          "30 Sep 2026",
+          "30 Sep 2026",
+          "0 days",
+          "Green"
+        ],
+        [
+          "M6 – HR Workday Decommission",
+          "15 Aug 2026",
+          "22 Aug 2026",
+          "+7 days",
+          "Amber"
+        ],
+        [
+          "M7 – CRM Migration Wave 1",
+          "20 Jul 2026",
+          "25 Jul 2026",
+          "+5 days",
+          "Amber"
+        ],
+        [
+          "M8 – Cybersecurity Controls Uplift",
+          "30 Apr 2026",
+          "30 Apr 2026",
+          "0 days",
+          "Green"
+        ],
+        [
+          "M9 – Data Governance Framework Live",
+          "18 Jun 2026",
+          "21 Jun 2026",
+          "+3 days",
+          "Amber"
+        ],
+        [
+          "M10 – User Acceptance Testing Complete",
+          "31 Jul 2026",
+          "04 Aug 2026",
+          "+4 days",
+          "Amber"
+        ],
+        [
+          "M11 – Go-Live & Hypercare Exit",
+          "31 Oct 2026",
+          "31 Oct 2026",
+          "0 days",
+          "Green"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Milestone health and variance to baseline for the transformation critical path (May–Sep 2026)\", what is the Schedule Variance for M4 – Data Platform MVP?",
+          "answer": "+10 days",
+          "assertions": [
+            {
+              "text": "The response must state +10 days."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Milestone health and variance to baseline for the transformation critical path (May–Sep 2026)\", what is the Forecast Date for M10 – User Acceptance Testing Complete?",
+          "answer": "04 Aug 2026",
+          "assertions": [
+            {
+              "text": "The response must state 04 Aug 2026."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Milestone health and variance to baseline for the transformation critical path (May–Sep 2026)\", what is the RAG Status for M8 – Cybersecurity Controls Uplift?",
+          "answer": "Green",
+          "assertions": [
+            {
+              "text": "The response must state Green."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "table_0002_ed45775c",
+      "table_number": 9,
+      "caption": "Table 9: Top dependency risks impacting May–Jun 2026 milestones, with owners and required actions",
+      "columns": [
+        "Ref",
+        "Dependency Summary",
+        "Portfolio",
+        "Status",
+        "SteerCo Required",
+        "Last Updated"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "R-12",
+          "M4 slip | Mitigation: expedite security review;",
+          "Security & Architecture",
+          "At Risk",
+          "Yes",
+          "04 May 2026"
+        ],
+        [
+          "R-18",
+          "R-18 | Network segmentation change window approval | Owner: Priya Nair | Due: 22 May 2026: Risk: Medium | Impact: SIT Cycle 2 | Mitigation: reserve CAB slot;",
+          "Infrastructure",
+          "Amber",
+          "Yes",
+          "03 May 2026"
+        ],
+        [
+          "R-07",
+          "R-07 | Data retention policy confirmation | Owner: Marta Silva | Due: 27 May 2026: Risk: Medium | Impact: regulatory reporting | Mitigation: legal workshop",
+          "Data & Compliance",
+          "Amber",
+          "No",
+          "02 May 2026"
+        ],
+        [
+          "R-21",
+          "CRM to Billing API performance certification | Owner: Daniel Brooks | Due: 16 May 2026 | Risk: Medium | Impact: UAT entry criteria | Mitigation: extended load testing window",
+          "Applications",
+          "Amber",
+          "No",
+          "04 May 2026"
+        ],
+        [
+          "R-25",
+          "Cloud landing zone cost model approval | Owner: Sophie Laurent | Due: 20 May 2026 | Risk: Low | Impact: FY26 forecast baseline | Mitigation: finance review session",
+          "Cloud & Platform",
+          "Green",
+          "No",
+          "01 May 2026"
+        ],
+        [
+          "R-30",
+          "Enterprise reporting data model freeze | Owner: Liam O’Connor | Due: 24 May 2026 | Risk: Medium | Impact: BI sprint backlog | Mitigation: design authority checkpoint",
+          "Data & Analytics",
+          "Amber",
+          "No",
+          "03 May 2026"
+        ],
+        [
+          "R-33",
+          "Third-party payroll interface schema confirmation | Owner: Nina Patel | Due: 19 May 2026 | Risk: High | Impact: SIT Cycle 2 | Mitigation: vendor escalation",
+          "HR Systems",
+          "At Risk",
+          "Yes",
+          "04 May 2026"
+        ],
+        [
+          "R-37",
+          "Change impact assessment sign-off | Owner: Robert King | Due: 21 May 2026 | Risk: Low | Impact: training wave 1 | Mitigation: additional SME review",
+          "Change & Comms",
+          "Green",
+          "No",
+          "02 May 2026"
+        ],
+        [
+          "R-41",
+          "Disaster recovery environment readiness validation | Owner: Elena Petrova | Due: 28 May 2026 | Risk: Medium | Impact: go-live readiness | Mitigation: parallel DR rehearsal",
+          "Infrastructure",
+          "Amber",
+          "No",
+          "03 May 2026"
+        ],
+        [
+          "R-45",
+          "Customer data migration rehearsal #2 completion | Owner: Marco Rossi | Due: 30 May 2026 | Risk: High | Impact: Sep cutover date | Mitigation: dedicated data cleanse squad",
+          "Data Migration",
+          "At Risk",
+          "Yes",
+          "04 May 2026"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Top dependency risks impacting May–Jun 2026 milestones, with owners and required actions\", what is the Status for Ref R-33?",
+          "answer": "At Risk",
+          "assertions": [
+            {
+              "text": "The response must state At Risk."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top dependency risks impacting May–Jun 2026 milestones, with owners and required actions\", who is the owner of \"Cloud landing zone cost model approval\"?",
+          "answer": "Sophie Laurent",
+          "assertions": [
+            {
+              "text": "The response must state Sophie Laurent."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top dependency risks impacting May–Jun 2026 milestones, with owners and required actions\", what is the Last Updated date for Ref R-25?",
+          "answer": "01 May 2026",
+          "assertions": [
+            {
+              "text": "The response must state 01 May 2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "text",
+      "variant_id": "text_0001_fbe35e6e",
+      "heading": "Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations",
+      "word_count": 333,
+      "text_content": [
+        "**Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations**",
+        "The programme Budget‑at‑Completion (BAC) forecast is $128.4m versus an approved budget of $125.0m, representing a variance of +$3.4m (+2.7%). This forecasted overrun is concentrated in recently validated vendor estimates and higher-than-expected licensing and compliance costs for the current phase. The finance team has applied earned value analysis and reforecasted contingencies to produce the $128.4m figure; contingency burn to date is 62% of plan. Management will continue to monitor spend profiles monthly and will seek cost offsets where feasible, but at present the BAC impact requires recognition in the programme portfolio and tracking against corporate risk appetite. Senior stakeholders have been briefed and monthly forecast revisions will be reported to the Steering Committee.",
+        "The Systems Integrator forecasted Estimate at Completion (EAC) is $46.2m against a budget of $44.0m, producing a variance of +$2.2m attributable to schedule acceleration premiums and additional integration testing scope. The Systems Integrator contract (SI) is under review with procurement and legal to determine entitlement for change orders and to identify immediate opportunities to reduce the gap through scope prioritisation, phasing, and supplier rate moderation. Actions in flight include revised delivery milestones, a targeted value‑engineering workshop week commencing 11 May 2026, and a requirement for the SI to submit a corrective cost plan within ten business days. Executive oversight engaged.",
+        "A material dependency and escalation requires immediate Steering Committee attention: a decision is required by 20 May 2026 to approve a $1.8m change request (CR-017) to deliver expanded regulatory reporting scope. CR-017 is critical to meet external reporting deadlines and is linked to upstream data-delivery dependencies from Data Platform and downstream audit sign-off milestones; failure to decide by 20 May 2026 will introduce schedule slippage of up to six weeks and increase programme risk exposure. Recommended options for the Steering Committee are: 1) approve CR-017 for $1.8m and accelerate vendor onboarding; or 2) defer approval and accept the consequent schedule and compliance risk. A decision and recorded action are required."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations\" section, what is the programme Budget-at-Completion (BAC) forecast?",
+          "answer": "$128.4m",
+          "assertions": [
+            {
+              "text": "The response must state $128.4m."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations\" section, what percentage of contingency burn to date is reported?",
+          "answer": "62% of plan",
+          "assertions": [
+            {
+              "text": "The response must state 62% of plan."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations\" section, by what date is a decision required to approve the $1.8m change request (CR-017)?",
+          "answer": "20 May 2026",
+          "assertions": [
+            {
+              "text": "The response must state 20 May 2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "text",
+      "variant_id": "text_0000_601f7c12",
+      "heading": "Milestone Health, Critical Path, and Next-Period Delivery Commitments",
+      "word_count": 267,
+      "text_content": [
+        "**Milestone Health, Critical Path, and Next-Period Delivery Commitments**",
+        "Milestone health review identifies Milestone M4 (Data Platform MVP) as forecast for 14 Jun 2026, representing a 10‑day delay against the baseline date of 04 Jun 2026. This variance places M4 on the programme critical path, increasing scrutiny from the Integration Office and Data Platform team. Milestone M5 (Finance ERP Cutover) remains on track for 30 Sep 2026 with 0 days variance, and therefore does not currently contribute to critical‑path slippage. Updated Gantt and critical‑path diagrams will be published to stakeholders within two working days for executive review promptly.",
+        "The programme will prioritise recovery actions to mitigate the M4 slip and preserve the overall delivery timeline. Key next-period commitment: complete SIT Cycle 2 by 24 May 2026, owned by the Testing Directorate and Data Platform team. Recovery measures include: 1. Re-sequencing non‑critical integration tasks to free a two‑week window for platform stabilisation; 2. Short‑term augmentation of two senior engineers and one test lead; 3. Weekend regression runs and daily status gating. Progress against the SIT Cycle 2 completion date will be reported in the weekly Integrated Programme report.",
+        "To support delivery in the next reporting period, the Release Management Office will enforce entry and exit criteria for each phase. For M4, exit criteria require successful completion of SIT Cycle 2, resolution of priority‑1 defects, and sign‑off from Data Platform QA and Architecture by the handover date. M5 readiness will continue to be validated against cutover runbooks and reconciliation tests; it remains on track for 30 Sep 2026 with 0 days variance. The PMO will publish a daily RAG dashboard; Change Control Board will review scope adjustments weekly."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Milestone Health, Critical Path, and Next-Period Delivery Commitments\" section, what is the forecast date for Milestone M4 (Data Platform MVP)?",
+          "answer": "14 Jun 2026",
+          "assertions": [
+            {
+              "text": "The response must state 14 Jun 2026."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Milestone Health, Critical Path, and Next-Period Delivery Commitments\" section, what is the key next-period commitment completion date for SIT Cycle 2?",
+          "answer": "24 May 2026",
+          "assertions": [
+            {
+              "text": "The response must state 24 May 2026."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Milestone Health, Critical Path, and Next-Period Delivery Commitments\" section, how many senior engineers will be added as part of the short-term augmentation recovery measure?",
+          "answer": "two senior engineers",
+          "assertions": [
+            {
+              "text": "The response must state two senior engineers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "cx_table_0001_4b8e614c",
+      "table_number": 10,
+      "caption": "Table 10: Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", which groups fall under the \"Delivery Performance\" super-group?",
+          "answer": "Milestone Health (current period) and Next-Period Commitments.",
+          "assertions": [
+            {
+              "text": "The response must state 'Milestone Health (current period) and Next-Period Commitments.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", how many leaf metric columns does the \"Financials & Risk\" super-group contain?",
+          "answer": "4 leaf columns (Value and Chg % for each of its two groups).",
+          "assertions": [
+            {
+              "text": "The response must state '4 leaf columns (Value and Chg % for each of its two groups).'."
+            }
+          ]
+        },
+        {
+          "question": " Budget-at-Completion (BAC) Forecast?",
+          "answer": "$18.7M.",
+          "assertions": [
+            {
+              "text": "The response must state '$18.7M.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", what is the grand total Value for the \"Budget-at-Completion (BAC) Forecast\" group under the \"Financials & Risk\" super-group?",
+          "answer": "$184.6M.",
+          "assertions": [
+            {
+              "text": "The response must state '$184.6M.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", which entity shows the highest Chg % for \"Dependency & Escalation Risk\"?",
+          "answer": "Workstream D — Operations & Process, at +50.0%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Workstream D — Operations & Process, at +50.0%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", what is the Budget-at-Completion (BAC) forecast amount?",
+          "answer": "$18.7M",
+          "assertions": [
+            {
+              "text": "The response must state '$18.7M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", how many leaf columns are under Delivery Performance?",
+          "answer": "4 leaf columns (Value and Chg % for each of its two groups)",
+          "assertions": [
+            {
+              "text": "The response must state '4 leaf columns (Value and Chg % for each of its two groups)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", how many data rows are included in the table?",
+          "answer": "10 data rows",
+          "assertions": [
+            {
+              "text": "The response must state '10 data rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", what does the 'Milestone Health' label represent?",
+          "answer": "Milestone Health (current period) and Next-Period Commitments",
+          "assertions": [
+            {
+              "text": "The response must state 'Milestone Health (current period) and Next-Period Commitments'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", what is the BAC Forecast subtotal for the Financials & Risk group?",
+          "answer": "$18.7M",
+          "assertions": [
+            {
+              "text": "The response must state '$18.7M'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "cx_table_0000_cf84e2e5": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "programme_status_report"
+    },
+    "llm_mp_table_0000_06d85148": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "budget_expenditure_ledger",
+      "row_count": 53,
+      "col_count": 5,
+      "columns": [
+        "Cost Center",
+        "Workstream",
+        "Approved Budget (USD)",
+        "Actuals to Date (USD)",
+        "Variance (USD)"
+      ],
+      "topic_id": ""
+    },
+    "table_0005_ef6e6c67": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Defines_the_delivery_commitments_for_the_next_reporting_peri",
+      "row_count": 5,
+      "col_count": 4,
+      "columns": [
+        "Commitment Summary",
+        "Owner",
+        "RAG Status",
+        " Notes"
+      ],
+      "topic_id": "programme_status_report"
+    },
+    "table_0001_35f7b46a": {
+      "kind": "table",
+      "perturbations": [
+        "structural",
+        "noise"
+      ],
+      "base_type": "Provides_the_BAC_view_needed_to_explain_the_+$3.4m_variance_",
+      "row_count": 10,
+      "col_count": 6,
+      "columns": [
+        "Workstream",
+        "Budget (BAC)",
+        "Forecast (EAC)",
+        "Variance",
+        "Milestone Health (RAG)",
+        "Corrective Actions Targeted to Protect 30 Sep 2026"
+      ],
+      "topic_id": "programme_status_report"
+    },
+    "table_0004_8865b3d0": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Connects_specific_actions,_owners,_dates,_and_expected_effec",
+      "row_count": 9,
+      "col_count": 9,
+      "columns": [
+        "Action",
+        "Owner",
+        "Timing",
+        "Expected Effect",
+        "Cost Impact",
+        "Linked Milestone",
+        "Variance Addressed",
+        "Status",
+        "Forecast Impact on 30 Sep 2026"
+      ],
+      "topic_id": "programme_status_report"
+    },
+    "cx_table_0002_1e24ebc8": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 23,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "programme_status_report"
+    },
+    "table_0003_692e285b": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Lists_decision_items_that_unblock_delivery_and_control_BAC,_",
+      "row_count": 11,
+      "col_count": 8,
+      "columns": [
+        "Escalation ID",
+        "Decision Details",
+        "Owner",
+        "SteerCo Date",
+        "Current Status",
+        "BAC Impact ($m)",
+        "Schedule Impact",
+        "Benefit Impact"
+      ],
+      "topic_id": "programme_status_report"
+    },
+    "table_0000_f30ee0fd": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Summarises_milestone_status,_baseline_vs_forecast_dates,_and",
+      "row_count": 11,
+      "col_count": 5,
+      "columns": [
+        "Milestone",
+        "Baseline Date",
+        "Forecast Date",
+        "Schedule Variance",
+        "RAG Status"
+      ],
+      "topic_id": "programme_status_report"
+    },
+    "table_0002_ed45775c": {
+      "kind": "table",
+      "perturbations": [
+        "formatting",
+        "structural"
+      ],
+      "base_type": "Highlights_the_two_cross-portfolio_dependencies_that_must_be",
+      "row_count": 10,
+      "col_count": 6,
+      "columns": [
+        "Ref",
+        "Dependency Summary",
+        "Portfolio",
+        "Status",
+        "SteerCo Required",
+        "Last Updated"
+      ],
+      "topic_id": "programme_status_report"
+    },
+    "text_0001_fbe35e6e": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation"
+      ],
+      "heading": "Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations",
+      "word_count": 333,
+      "text_type": "llm_prose",
+      "topic_id": "programme_status_report"
+    },
+    "text_0000_601f7c12": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation",
+        "abbreviations"
+      ],
+      "heading": "Milestone Health, Critical Path, and Next-Period Delivery Commitments",
+      "word_count": 267,
+      "text_type": "llm_prose",
+      "topic_id": "programme_status_report"
+    },
+    "cx_table_0001_4b8e614c": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 10,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "programme_status_report"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", how many sub-columns does each period group span?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what is the H1 Attainment% for \"Release Readiness (gated approvals, %)\"?",
+      "answer": "96%",
+      "assertions": [
+        {
+          "text": "The response must state '96%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", how many metrics does the \"Financials\" category rowspan cover?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", which metric has the lower H2 attainment in the \"Risks, Dependencies & Escalations\" category?",
+      "answer": "SteerCo Decisions Required (open items)",
+      "assertions": [
+        {
+          "text": "The response must state 'SteerCo Decisions Required (open items)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what is the H2 target for \"Budget-at-Completion (BAC) Forecast\"?",
+      "answer": "$118.0M",
+      "assertions": [
+        {
+          "text": "The response must state '$118.0M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what percentage is shown in the table?",
+      "answer": "96%",
+      "assertions": [
+        {
+          "text": "The response must state '96%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", how many header rows are there?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", which value is highest among the listed fact values?",
+      "answer": "96%",
+      "assertions": [
+        {
+          "text": "The response must state '96%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what does footnote 1 explain?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk & Escalations (Heatmap Pivot)\", what is the subtotal for group H1 in column H2?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Approved Budget (USD) for CC-101 Enterprise Architecture?",
+      "answer": "1250000",
+      "assertions": [
+        {
+          "text": "The response must state 1250000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Variance (USD) listed for CC-102 Cloud Migration?",
+      "answer": "-167800",
+      "assertions": [
+        {
+          "text": "The response must state -167800."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Budget Expenditure Ledger\", what is the Actuals to Date (USD) for CC-030 Contingency Reserve?",
+      "answer": "305000",
+      "assertions": [
+        {
+          "text": "The response must state 305000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Next-period (May 2026) commitments with measurable acceptance criteria\", what is the RAG Status for Commitment C1?",
+      "answer": "Amber",
+      "assertions": [
+        {
+          "text": "The response must state Amber."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Next-period (May 2026) commitments with measurable acceptance criteria\", who is the Owner for Commitment C3?",
+      "answer": "Release Manager",
+      "assertions": [
+        {
+          "text": "The response must state Release Manager."
+        }
+      ]
+    },
+    {
+      "question": " Notes entry for Commitment C2?",
+      "answer": "Requires completion of penetration test remediation actions",
+      "assertions": [
+        {
+          "text": "The response must state Requires completion of penetration test remediation actions."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Budget-at-Completion (BAC) forecast vs approved budget by cost category (FY26)\", what is the Forecast (EAC) value for Systems Integrator?",
+      "answer": "$46.2m",
+      "assertions": [
+        {
+          "text": "The response must state $46.2m."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Budget-at-Completion (BAC) forecast vs approved budget by cost category (FY26)\", what Milestone Health (RAG) status is shown for Change & Training?",
+      "answer": "Geren",
+      "assertions": [
+        {
+          "text": "The response must state Geren."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Budget-at-Completion (BAC) forecast vs approved budget by cost category (FY26)\", what is the Forecast (EAC) value for Contingency & Risk Reserve?",
+      "answer": "$.35m",
+      "assertions": [
+        {
+          "text": "The response must state $.35m."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Corrective actions to recover schedule and contain BAC variance (+$3.4m) through June 2026\", what is the Cost Impact for Action A2 | Reduce non-critical reports (defer 6)?",
+      "answer": "Cost -$0.9m",
+      "assertions": [
+        {
+          "text": "The response must state Cost -$0.9m."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Corrective actions to recover schedule and contain BAC variance (+$3.4m) through June 2026\", who is the Owner for Action A6 | Reallocate 3 business SMEs to UAT full-time?",
+      "answer": "Liam O'Connor",
+      "assertions": [
+        {
+          "text": "The response must state Liam O'Connor."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Corrective actions to recover schedule and contain BAC variance (+$3.4m) through June 2026\", what is the Linked Milestone for Action A4 | Re-baseline data migration rehearsal plan?",
+      "answer": "M6 Dress Rehearsal (15 Aug 2026)",
+      "assertions": [
+        {
+          "text": "The response must state M6 Dress Rehearsal (15 Aug 2026)."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", which sub-columns fall under the \"Milestone Health (Current Period)\" super-group?",
+      "answer": "Sub-Category; RAG; Key Milestone; Plan Date; Forecast Date.",
+      "assertions": [
+        {
+          "text": "The response must state 'Sub-Category; RAG; Key Milestone; Plan Date; Forecast Date.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", how many rows does the \"Technology Enablement\" category label span?",
+      "answer": "8 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '8 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what is the EAC (Forecast) $M for the \"Integration test cycle 1 exit\" milestone?",
+      "answer": "5.40.",
+      "assertions": [
+        {
+          "text": "The response must state '5.40.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what is the grand total for \"Variance $M\"?",
+      "answer": "+2.90.",
+      "assertions": [
+        {
+          "text": "The response must state '+2.90.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what does the \"ERP Build & Integrations Sub-Total\" row show for \"ETC $M\"?",
+      "answer": "11.70.",
+      "assertions": [
+        {
+          "text": "The response must state '11.70.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what sub-columns are listed under Milestone Health (Current Period)?",
+      "answer": "Sub-Category; RAG; Key Milestone; Plan Date; Forecast Date.",
+      "assertions": [
+        {
+          "text": "The response must state 'Sub-Category; RAG; Key Milestone; Plan Date; Forecast Date.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", how many header tiers are present?",
+      "answer": "3 header rows.",
+      "assertions": [
+        {
+          "text": "The response must state '3 header rows.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what is the highest BAC Forecast value shown?",
+      "answer": "5.40",
+      "assertions": [
+        {
+          "text": "The response must state '5.40'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what does footnote 1 explain?",
+      "answer": "No footnotes present.",
+      "assertions": [
+        {
+          "text": "The response must state 'No footnotes present.'"
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk, Escalations & Next-Period Commitments (FY26 Q2 Close)\", what is the subtotal for the Financials (BAC Forecast) group in the BAC Forecast column?",
+      "answer": "5.40",
+      "assertions": [
+        {
+          "text": "The response must state '5.40'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Escalations requiring steering committee decisions (May 2026) and decision deadlines\", what is the Current Status for ESC-04?",
+      "answer": "In review",
+      "assertions": [
+        {
+          "text": "The response must state In review."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Escalations requiring steering committee decisions (May 2026) and decision deadlines\", what is the BAC Impact ($m) for ESC-08?",
+      "answer": "1.1",
+      "assertions": [
+        {
+          "text": "The response must state 1.1."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Escalations requiring steering committee decisions (May 2026) and decision deadlines\", who is the Owner for ESC-09?",
+      "answer": "Legal Counsel",
+      "assertions": [
+        {
+          "text": "The response must state Legal Counsel."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Milestone health and variance to baseline for the transformation critical path (May–Sep 2026)\", what is the Schedule Variance for M4 – Data Platform MVP?",
+      "answer": "+10 days",
+      "assertions": [
+        {
+          "text": "The response must state +10 days."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Milestone health and variance to baseline for the transformation critical path (May–Sep 2026)\", what is the Forecast Date for M10 – User Acceptance Testing Complete?",
+      "answer": "04 Aug 2026",
+      "assertions": [
+        {
+          "text": "The response must state 04 Aug 2026."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Milestone health and variance to baseline for the transformation critical path (May–Sep 2026)\", what is the RAG Status for M8 – Cybersecurity Controls Uplift?",
+      "answer": "Green",
+      "assertions": [
+        {
+          "text": "The response must state Green."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top dependency risks impacting May–Jun 2026 milestones, with owners and required actions\", what is the Status for Ref R-33?",
+      "answer": "At Risk",
+      "assertions": [
+        {
+          "text": "The response must state At Risk."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top dependency risks impacting May–Jun 2026 milestones, with owners and required actions\", who is the owner of \"Cloud landing zone cost model approval\"?",
+      "answer": "Sophie Laurent",
+      "assertions": [
+        {
+          "text": "The response must state Sophie Laurent."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top dependency risks impacting May–Jun 2026 milestones, with owners and required actions\", what is the Last Updated date for Ref R-25?",
+      "answer": "01 May 2026",
+      "assertions": [
+        {
+          "text": "The response must state 01 May 2026."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations\" section, what is the programme Budget-at-Completion (BAC) forecast?",
+      "answer": "$128.4m",
+      "assertions": [
+        {
+          "text": "The response must state $128.4m."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations\" section, what percentage of contingency burn to date is reported?",
+      "answer": "62% of plan",
+      "assertions": [
+        {
+          "text": "The response must state 62% of plan."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Budget-at-Completion Forecast, Dependency Risks, and Steering Committee Escalations\" section, by what date is a decision required to approve the $1.8m change request (CR-017)?",
+      "answer": "20 May 2026",
+      "assertions": [
+        {
+          "text": "The response must state 20 May 2026."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Milestone Health, Critical Path, and Next-Period Delivery Commitments\" section, what is the forecast date for Milestone M4 (Data Platform MVP)?",
+      "answer": "14 Jun 2026",
+      "assertions": [
+        {
+          "text": "The response must state 14 Jun 2026."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Milestone Health, Critical Path, and Next-Period Delivery Commitments\" section, what is the key next-period commitment completion date for SIT Cycle 2?",
+      "answer": "24 May 2026",
+      "assertions": [
+        {
+          "text": "The response must state 24 May 2026."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Milestone Health, Critical Path, and Next-Period Delivery Commitments\" section, how many senior engineers will be added as part of the short-term augmentation recovery measure?",
+      "answer": "two senior engineers",
+      "assertions": [
+        {
+          "text": "The response must state two senior engineers."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", which groups fall under the \"Delivery Performance\" super-group?",
+      "answer": "Milestone Health (current period) and Next-Period Commitments.",
+      "assertions": [
+        {
+          "text": "The response must state 'Milestone Health (current period) and Next-Period Commitments.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", how many leaf metric columns does the \"Financials & Risk\" super-group contain?",
+      "answer": "4 leaf columns (Value and Chg % for each of its two groups).",
+      "assertions": [
+        {
+          "text": "The response must state '4 leaf columns (Value and Chg % for each of its two groups).'."
+        }
+      ]
+    },
+    {
+      "question": " Budget-at-Completion (BAC) Forecast?",
+      "answer": "$18.7M.",
+      "assertions": [
+        {
+          "text": "The response must state '$18.7M.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", what is the grand total Value for the \"Budget-at-Completion (BAC) Forecast\" group under the \"Financials & Risk\" super-group?",
+      "answer": "$184.6M.",
+      "assertions": [
+        {
+          "text": "The response must state '$184.6M.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", which entity shows the highest Chg % for \"Dependency & Escalation Risk\"?",
+      "answer": "Workstream D — Operations & Process, at +50.0%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Workstream D — Operations & Process, at +50.0%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", what is the Budget-at-Completion (BAC) forecast amount?",
+      "answer": "$18.7M",
+      "assertions": [
+        {
+          "text": "The response must state '$18.7M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", how many leaf columns are under Delivery Performance?",
+      "answer": "4 leaf columns (Value and Chg % for each of its two groups)",
+      "assertions": [
+        {
+          "text": "The response must state '4 leaf columns (Value and Chg % for each of its two groups)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", how many data rows are included in the table?",
+      "answer": "10 data rows",
+      "assertions": [
+        {
+          "text": "The response must state '10 data rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", what does the 'Milestone Health' label represent?",
+      "answer": "Milestone Health (current period) and Next-Period Commitments",
+      "assertions": [
+        {
+          "text": "The response must state 'Milestone Health (current period) and Next-Period Commitments'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Transformation Programme Status Report — Milestone Health, BAC Forecast, Dependency Risk and Steering Committee Actions\", what is the BAC Forecast subtotal for the Financials & Risk group?",
+      "answer": "$18.7M",
+      "assertions": [
+        {
+          "text": "The response must state '$18.7M'."
+        }
+      ]
+    }
+  ]
+}

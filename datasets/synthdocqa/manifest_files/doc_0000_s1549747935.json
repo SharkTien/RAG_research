@@ -1,0 +1,3151 @@
+{
+  "doc_id": "doc_0000_s1549747935",
+  "title": "Executive Competitive Landscape Briefing: Market Share Movements, Competitor Product Launches, Pricing Actions, and Strategic Recommendations",
+  "subtitle": "Competitive Landscape Briefing — Market share shifts, competitor launches, pricing moves, and recommended executive actions",
+  "topic_id": "competitive_intelligence_briefing",
+  "recipe_name": "executive_visual",
+  "seed": 1549747935,
+  "document_brief": {
+    "narrative_theme": "Q1 2026 competitive dynamics show share shifting toward aggressive low-price launches, requiring targeted pricing defenses and accelerated roadmap responses to protect enterprise renewals and win back mid-market growth.",
+    "sections": [
+      {
+        "heading": "Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)",
+        "key_facts": [
+          "In Q1 2026, ApexSoft increased market share from 22.1% to 24.8% while NimbusWare declined from 27.4% to 25.6%.",
+          "NovaSuite grew from 11.8% to 14.2% in Q1 2026 following its 2026-02-12 launch of NovaSuite AI Assist.",
+          "In Q1 2026, the top 3 vendors accounted for 66.1% of market share, down from 68.9% in Q4 2025."
+        ],
+        "data_references": [
+          "chart_0",
+          "chart_1",
+          "chart_2"
+        ]
+      },
+      {
+        "heading": "Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)",
+        "key_facts": [
+          "On 2026-03-05, ApexSoft reduced list price for its Enterprise tier by 12% and introduced a 24-month price lock for new contracts.",
+          "On 2026-01-20, NimbusWare launched NimbusWare Edge 4.0 with bundled security analytics at no additional cost for Enterprise customers.",
+          "On 2026-04-10, NovaSuite announced a 15% promotional discount for mid-market customers valid through 2026-06-30."
+        ],
+        "data_references": [
+          "chart_3",
+          "chart_4",
+          "chart_5"
+        ]
+      }
+    ],
+    "tables": [],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Market Share by Vendor: Q4 2025 vs Q1 2026",
+        "chart_type": "bar",
+        "x_label": "Vendor",
+        "y_label": "Market share (%)",
+        "purpose": "Compare vendor market share levels and highlight quarter-over-quarter shifts driving the competitive narrative."
+      },
+      {
+        "id": "chart_1",
+        "title": "Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026",
+        "chart_type": "bar",
+        "x_label": "Vendor",
+        "y_label": "Market share change (percentage points)",
+        "purpose": "losses to identify which competitors are winning momentum and where defensive actions are required."
+      },
+      {
+        "id": "chart_2",
+        "title": "Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)",
+        "chart_type": "line",
+        "x_label": "Quarter",
+        "y_label": "Combined market share of top 3 vendors (%)",
+        "purpose": "Show whether the market is fragmenting or consolidating to inform strategic posture and investment priorities."
+      },
+      {
+        "id": "chart_3",
+        "title": "Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)",
+        "chart_type": "scatter",
+        "x_label": "Launch date",
+        "y_label": "Estimated competitive impact score (1–10)",
+        "purpose": "Visualize timing and relative impact of key launches (e.g., NimbusWare Edge 4.0, NovaSuite AI Assist) to align roadmap and messaging responses."
+      },
+      {
+        "id": "chart_4",
+        "title": "List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)",
+        "chart_type": "heatmap",
+        "x_label": "Tier (SMB, Mid-market, Enterprise)",
+        "y_label": "Vendor",
+        "purpose": "Highlight where pricing moved (including ApexSoft’s Enterprise cut and NovaSuite promotions) to guide targeted counter-pricing and packaging."
+      },
+      {
+        "id": "chart_5",
+        "title": "Win Rate vs Discount Depth in Competitive Deals (Q1 2026)",
+        "chart_type": "scatter",
+        "x_label": "Discount depth (%)",
+        "y_label": "Deal win rate (%)",
+        "purpose": "Quantify the relationship between discounting and outcomes to recommend guardrails that protect margin while improving win rates against aggressive competitors."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s1549747935.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0003_5510a414.png",
+      "scan_llm_text_b6eb9c8a.png",
+      "hub_0002_06ca2718.png",
+      "img_0004_c3612dc9.png",
+      "scan_llm_data_2793a624.png",
+      "fp_0002_a129d99a.png",
+      "img_0001_66543465.png",
+      "tl_0001_098372fb.png",
+      "img_0005_36f70d1d.png",
+      "cmp_0000_d25ab49e.png",
+      "img_0000_6cb63b81.png",
+      "pict_0000_61c91b3a.png",
+      "img_0002_7dcf5d5c.png",
+      "cmp_0001_2a6b479d.png",
+      "cmp_0002_03e66d64.png",
+      "fp_0000_f585f3d4.png",
+      "fp_0001_759b9595.png",
+      "proc_0000_4750f5f3.png",
+      "proc_0001_8ec026fa.png",
+      "mag_0000_9c315b68.png",
+      "dash_0000_c138733d.png",
+      "hub_0001_33d10c3a.png",
+      "pict_0002_ebb7300e.png",
+      "fp_0003_18c1eff6.png",
+      "dash_0002_bb9d05d9.png",
+      "proc_0002_00fc14ce.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 30,
+    "actual_page_count": 16
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "text",
+      "variant_id": "text_0000_5f3c3b05",
+      "heading": "Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)",
+      "word_count": 325,
+      "text_content": [
+        "**Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)**",
+        "In Q1 2026 the market exhibited measurable redistribution among leading vendors: ApexSoft increased market share from 22.1% to 24.8% while NimbusWare declined from 27.4% to 25.6%, and the combined top three share fell to 66.1% from 68.9% in Q4 2025. This shift indicates a modest erosion of concentration at the top of the market and a rebalancing within the incumbent tier. The movement was concentrated in enterprise and upper mid‑market accounts where ApexSoft secured several multi‑year renewals and expanded seat licenses, offsetting NimbusWare attrition concentrated in legacy on‑premise accounts transitioning to cloud models. Regional gains for ApexSoft were strongest in EMEA and APAC, driven by partner-led implementations and targeted vertical playbooks.",
+        "NovaSuite's share expanded materially in Q1 2026, rising from 11.8% to 14.2% after the 2026-02-12 launch of NovaSuite AI Assist. The timing of the feature release coincided with an accelerated sales cycle among mid‑market customers evaluating AI capabilities, with early adopters citing natural‑language automation and reduced time‑to‑value. Channel partners reported a spike in proof‑of‑concept requests in late February and March, translating into a higher conversion rate versus previous quarters. While NovaSuite's base remains smaller than the incumbents, its growth trajectory in Q1 demonstrates product‑led momentum that could sustain further share gains if enterprise benchmarking continues favorably. Sales feedback also highlighted competitive displacement among specialist point solutions rapidly.",
+        "Underlying these shifts are several competitive drivers that executives should monitor: differential product innovation cadence, channel activation effectiveness, and customer lifecycle retention patterns. ApexSoft's net share gain and NimbusWare's decline suggest incumbency resilience where execution aligns with cloud migration demand; NovaSuite's rise points to feature‑led disruption. The reduction of the top‑three concentration from 68.9% to 66.1% indicates incremental fragmentation and opportunity for mid‑tier vendors to scale. For leadership this translates into prioritizing customer success metrics, accelerating feature proof points, and refining channel segmentation to defend core accounts and capture pockets of dislocation—without presupposing specific tactical pricing or launch actions reserved for the executive response section. Immediate attention."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, what market share did ApexSoft reach in Q1 2026?",
+          "answer": "24.8%",
+          "assertions": [
+            {
+              "text": "The response must state 24.8%."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, on what date was NovaSuite AI Assist launched?",
+          "answer": "2026-02-12",
+          "assertions": [
+            {
+              "text": "The response must state 2026-02-12."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, what was the combined top three market share in Q1 2026?",
+          "answer": "66.1%",
+          "assertions": [
+            {
+              "text": "The response must state 66.1%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "img_0003_5510a414",
+      "figure_number": 1,
+      "image_path": "img_0003_5510a414.png",
+      "caption": "Figure 1: Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)",
+      "chart_type": "stacked_area",
+      "chart_title": "Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)",
+      "x_label": "Launch date",
+      "y_label": "Estimated competitive impact score (1–10)",
+      "categories": [
+        "Jan 2026",
+        "Feb 2026",
+        "Mar 2026",
+        "Apr 2026"
+      ],
+      "series_names": [
+        "NimbusWare Edge 4.0",
+        "NovaSuite AI Assist",
+        "OrionCloud CX Pro",
+        "VertexOne Analytics 3.2"
+      ],
+      "value_range": [
+        1,
+        10
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "NimbusWare Edge 4.0",
+          "NovaSuite AI Assist",
+          "OrionCloud CX Pro",
+          "VertexOne Analytics 3.2"
+        ],
+        "value_range": [
+          1,
+          10
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)\", what does the Y-axis represent?",
+          "answer": "Estimated competitive impact score (1–10)",
+          "assertions": [
+            {
+              "text": "The response must state Estimated competitive impact score (1–10)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)\", what is the value range shown?",
+          "answer": "[1, 10]",
+          "assertions": [
+            {
+              "text": "The response must state [1, 10]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)\", what is the overall trend described?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "scan_llm_0000_9a7708a7",
+      "figure_number": 2,
+      "image_path": "scan_llm_text_b6eb9c8a.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 2: Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics",
+        "subtitle": "Ref: CLB-26-031 | Date: 6 April 2026 | From: Strategy & Market Intelligence",
+        "sections": [
+          {
+            "heading": "Executive Summary",
+            "body": "During Q1 2026, the Infrastructure Analytics segment experienced a 2.8 percentage point share shift toward lower-priced challengers, primarily driven by aggressive entry-tier launches. Our overall share declined from 34.2% to 31.9%, with the steepest erosion in the 200–1,000 seat mid-market band. Enterprise retention remained stable at 92%, but renewal negotiations increasingly referenced competitor discount benchmarks. Immediate pricing defenses and accelerated feature bundling are required to prevent further mid-year slippage."
+          },
+          {
+            "heading": "Competitive Movements",
+            "body": "NovaMetric introduced its \"CoreSight Lite\" package in January at a 28% discount to its prior entry SKU, including API access previously reserved for premium tiers. VectorLoop followed in February with a limited-time 40% first-year discount targeting displacements of incumbent vendors, including us. Early channel checks indicate NovaMetric captured approximately $18.6M in new ARR this quarter, largely from price-sensitive mid-market accounts. Both competitors are positioning their offers as simplified, deployment-ready alternatives with faster onboarding timelines."
+          },
+          {
+            "heading": "Pricing and Packaging Impacts",
+            "body": "Our Standard Edition list price remains 18–22% above the new NovaMetric entry bundle when normalized for comparable modules. Sales teams report increased requests for custom discounting beyond the existing 15% approval threshold, particularly in financial services and regional healthcare systems. Without structured guardrails, ad hoc discounting risks margin compression below the 71% gross target for the segment. A targeted, segment-specific promotional SKU is recommended to counter low-end displacement without resetting enterprise price anchors."
+          },
+          {
+            "heading": "Enterprise Renewal Risk Assessment",
+            "body": "Although enterprise churn held at 8% annualized, 37% of upcoming Q2 renewals have requested competitive price reviews. VectorLoop’s reference accounts are being cited in at least six Fortune 1000 negotiations as justification for broader concessions. Feature parity is not the primary concern; instead, procurement teams are leveraging market price compression to demand multi-year discounts. Proactive value justification and bundled roadmap commitments will be essential to preserve ACV levels."
+          },
+          {
+            "heading": "Recommended Strategic Responses",
+            "body": "We recommend launching a time-bound \"MidMarket Growth Bundle\" by June 2026, priced 15% below Standard Edition but with usage caps to protect enterprise positioning. Concurrently, accelerate delivery of automated compliance reporting—currently scheduled for Q4—to Q3 to reinforce differentiation in regulated sectors. Marketing should initiate a win-back campaign targeting 2024–2025 churned accounts with migration incentives capped at 10% incremental discount. Weekly monitoring of share movement by employee band and vertical is advised through the end of Q2."
+          }
+        ],
+        "footer_note": "Confidential — Executive Distribution Only | Page 1 of 2",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Executive Summary",
+        "Competitive Movements",
+        "Pricing and Packaging Impacts",
+        "Enterprise Renewal Risk Assessment",
+        "Recommended Strategic Responses"
+      ],
+      "cells": [
+        {
+          "heading": "Executive Summary",
+          "body": "During Q1 2026, the Infrastructure Analytics segment experienced a 2.8 percentage point share shift toward lower-priced challengers, primarily driven by aggressive entry-tier launches. Our overall share declined from 34.2% to 31.9%, with the steepest erosion in the 200–1,000 seat mid-market band. Enterprise retention remained stable at 92%, but renewal negotiations increasingly referenced competitor discount benchmarks. Immediate pricing defenses and accelerated feature bundling are required to prevent further mid-year slippage."
+        },
+        {
+          "heading": "Competitive Movements",
+          "body": "NovaMetric introduced its \"CoreSight Lite\" package in January at a 28% discount to its prior entry SKU, including API access previously reserved for premium tiers. VectorLoop followed in February with a limited-time 40% first-year discount targeting displacements of incumbent vendors, including us. Early channel checks indicate NovaMetric captured approximately $18.6M in new ARR this quarter, largely from price-sensitive mid-market accounts. Both competitors are positioning their offers as simplified, deployment-ready alternatives with faster onboarding timelines."
+        },
+        {
+          "heading": "Pricing and Packaging Impacts",
+          "body": "Our Standard Edition list price remains 18–22% above the new NovaMetric entry bundle when normalized for comparable modules. Sales teams report increased requests for custom discounting beyond the existing 15% approval threshold, particularly in financial services and regional healthcare systems. Without structured guardrails, ad hoc discounting risks margin compression below the 71% gross target for the segment. A targeted, segment-specific promotional SKU is recommended to counter low-end displacement without resetting enterprise price anchors."
+        },
+        {
+          "heading": "Enterprise Renewal Risk Assessment",
+          "body": "Although enterprise churn held at 8% annualized, 37% of upcoming Q2 renewals have requested competitive price reviews. VectorLoop’s reference accounts are being cited in at least six Fortune 1000 negotiations as justification for broader concessions. Feature parity is not the primary concern; instead, procurement teams are leveraging market price compression to demand multi-year discounts. Proactive value justification and bundled roadmap commitments will be essential to preserve ACV levels."
+        },
+        {
+          "heading": "Recommended Strategic Responses",
+          "body": "We recommend launching a time-bound \"MidMarket Growth Bundle\" by June 2026, priced 15% below Standard Edition but with usage caps to protect enterprise positioning. Concurrently, accelerate delivery of automated compliance reporting—currently scheduled for Q4—to Q3 to reinforce differentiation in regulated sectors. Marketing should initiate a win-back campaign targeting 2024–2025 churned accounts with migration incentives capped at 10% incremental discount. Weekly monitoring of share movement by employee band and vertical is advised through the end of Q2."
+        }
+      ],
+      "full_text": "Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\nRef: CLB-26-031 | Date: 6 April 2026 | From: Strategy & Market Intelligence\n\nSection Executive Summary\nDuring Q1 2026, the Infrastructure Analytics segment experienced a 2.8 percentage point share shift toward lower-priced challengers, primarily driven by aggressive entry-tier launches. Our overall share declined from 34.2% to 31.9%, with the steepest erosion in the 200–1,000 seat mid-market band. Enterprise retention remained stable at 92%, but renewal negotiations increasingly referenced competitor discount benchmarks. Immediate pricing defenses and accelerated feature bundling are required to prevent further mid-year slippage.\n\nSection Competitive Movements\nNovaMetric introduced its \"CoreSight Lite\" package in January at a 28% discount to its prior entry SKU, including API access previously reserved for premium tiers. VectorLoop followed in February with a limited-time 40% first-year discount targeting displacements of incumbent vendors, including us. Early channel checks indicate NovaMetric captured approximately $18.6M in new ARR this quarter, largely from price-sensitive mid-market accounts. Both competitors are positioning their offers as simplified, deployment-ready alternatives with faster onboarding timelines.\n\nSection Pricing and Packaging Impacts\nOur Standard Edition list price remains 18–22% above the new NovaMetric entry bundle when normalized for comparable modules. Sales teams report increased requests for custom discounting beyond the existing 15% approval threshold, particularly in financial services and regional healthcare systems. Without structured guardrails, ad hoc discounting risks margin compression below the 71% gross target for the segment. A targeted, segment-specific promotional SKU is recommended to counter low-end displacement without resetting enterprise price anchors.\n\nSection Enterprise Renewal Risk Assessment\nAlthough enterprise churn held at 8% annualized, 37% of upcoming Q2 renewals have requested competitive price reviews. VectorLoop’s reference accounts are being cited in at least six Fortune 1000 negotiations as justification for broader concessions. Feature parity is not the primary concern; instead, procurement teams are leveraging market price compression to demand multi-year discounts. Proactive value justification and bundled roadmap commitments will be essential to preserve ACV levels.\n\nSection Recommended Strategic Responses\nWe recommend launching a time-bound \"MidMarket Growth Bundle\" by June 2026, priced 15% below Standard Edition but with usage caps to protect enterprise positioning. Concurrently, accelerate delivery of automated compliance reporting—currently scheduled for Q4—to Q3 to reinforce differentiation in regulated sectors. Marketing should initiate a win-back campaign targeting 2024–2025 churned accounts with migration incentives capped at 10% incremental discount. Weekly monitoring of share movement by employee band and vertical is advised through the end of Q2.\n\nConfidential — Executive Distribution Only | Page 1 of 2",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", what market share movement did the Infrastructure Analytics segment experience during Q1 2026?",
+          "answer": "A 2.8 percentage point shift toward lower-priced challengers.",
+          "assertions": [
+            {
+              "text": "The response must state 'A 2.8 percentage point shift toward lower-priced challengers.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", which company introduced the \"CoreSight Lite\" package and in which month?",
+          "answer": "NovaMetric introduced CoreSight Lite in January.",
+          "assertions": [
+            {
+              "text": "The response must state 'NovaMetric introduced CoreSight Lite in January.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", at what discount was NovaMetric's CoreSight Lite launched relative to its prior entry SKU?",
+          "answer": "A 28% discount.",
+          "assertions": [
+            {
+              "text": "The response must state 'A 28% discount.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", what was the status of enterprise churn and what was the annualized rate?",
+          "answer": "Enterprise churn held steady at 8% annualized.",
+          "assertions": [
+            {
+              "text": "The response must state 'Enterprise churn held steady at 8% annualized.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document titled \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", what percentage of upcoming Q2 renewals have requested competitive price reviews?",
+          "answer": "37% of upcoming Q2 renewals.",
+          "assertions": [
+            {
+              "text": "The response must state '37% of upcoming Q2 renewals.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "image",
+      "variant_id": "hub_0002_06ca2718",
+      "figure_number": 3,
+      "image_path": "hub_0002_06ca2718.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 3: Hub-Spoke: Competitive Landscape Executive Brief",
+      "title": "Competitive Landscape Executive Brief",
+      "theme": "warm_amber",
+      "center": "Competitive Landscape Overview",
+      "spokes": [
+        "Market Share Movements",
+        "Product Launch Activity",
+        "Pricing Actions",
+        "Strategic Responses"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Competitive Landscape Executive Brief' hub-and-spoke diagram, what label appears in the central hub?",
+          "answer": "Competitive Landscape Overview",
+          "assertions": [
+            {
+              "text": "The response must state 'Competitive Landscape Overview'."
+            }
+          ]
+        },
+        {
+          "question": "How many legs extend from the center in the 'Competitive Landscape Executive Brief' hub-and-spoke diagram?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Competitive Landscape Executive Brief' hub-and-spoke diagram, which spoke label addresses pricing?",
+          "answer": "Pricing Actions",
+          "assertions": [
+            {
+              "text": "The response must state 'Pricing Actions'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "img_0004_c3612dc9",
+      "figure_number": 4,
+      "image_path": "img_0004_c3612dc9.png",
+      "caption": "Figure 4: List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)",
+      "chart_type": "heatmap",
+      "chart_title": "List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)",
+      "x_label": "Tier (SMB, Mid-market, Enterprise)",
+      "y_label": "Vendor",
+      "categories": [
+        "SMB",
+        "Mid-market",
+        "Enterprise"
+      ],
+      "series_names": [
+        "ApexSoft",
+        "NovaSuite",
+        "CoreWare",
+        "ZenithApps"
+      ],
+      "value_range": [
+        85,
+        120
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "SMB",
+          "Mid-market",
+          "Enterprise"
+        ],
+        "series": [
+          "ApexSoft",
+          "NovaSuite",
+          "CoreWare",
+          "ZenithApps"
+        ],
+        "value_range": [
+          85,
+          120
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)\", what does the Y-axis represent?",
+          "answer": "Vendor",
+          "assertions": [
+            {
+              "text": "The response must state Vendor."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)\", what is the value range shown?",
+          "answer": "[85, 120]",
+          "assertions": [
+            {
+              "text": "The response must state [85, 120]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)\", what is the overall trend described?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "image",
+      "variant_id": "scan_llm_0001_b5f1e142",
+      "figure_number": 5,
+      "image_path": "scan_llm_data_2793a624.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 5: Q1 2026 Competitive Share and Pricing Actions",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Q1 2026 Competitive Share and Pricing Actions",
+        "caption": "Market share shifts and pricing moves among primary competitors during Q1 2026, highlighting low-price launch activity.",
+        "headers": [
+          "Vendor",
+          "Q1 Share %",
+          "Q4 Share %",
+          "mo)",
+          "Key Move"
+        ],
+        "rows": [
+          [
+            "ApexGrid",
+            "22.8",
+            "24.1",
+            "89",
+            "Defensive bundle discounts for enterprise renewals"
+          ],
+          [
+            "Northbeam Systems",
+            "18.3",
+            "16.9",
+            "59",
+            "Launched entry-tier at 30% below category median"
+          ],
+          [
+            "Virelli Tech",
+            "14.6",
+            "15.2",
+            "102",
+            "Premium AI module release"
+          ],
+          [
+            "CloudHarbor",
+            "12.1",
+            "10.4",
+            "49",
+            "Aggressive mid-market promotional pricing"
+          ],
+          [
+            "Stratosware",
+            "9.7",
+            "11.3",
+            "95",
+            "Delayed roadmap update; limited price response"
+          ],
+          [
+            "BluePeak Software",
+            "7.9",
+            "6.8",
+            "54",
+            "Channel rebates expanded in EMEA"
+          ],
+          [
+            "Quantixa",
+            "5.4",
+            "4.2",
+            "61",
+            "Freemium conversion campaign"
+          ],
+          [
+            "IronLoop",
+            "3.8",
+            "4.9",
+            "110",
+            "Security-focused enterprise upsell"
+          ],
+          [
+            "DeltaForge",
+            "3.1",
+            "2.0",
+            "45",
+            "Low-cost SMB launch in January"
+          ],
+          [
+            "Other Vendors (combined)",
+            "2.3",
+            "4.2",
+            "52",
+            "Fragmented discounting activity"
+          ]
+        ],
+        "summary_note": "Share gains in Q1 2026 concentrated among vendors launching sub-$60 offers, particularly Northbeam and CloudHarbor. Premium-priced providers experienced modest erosion, signaling need for targeted pricing defenses and accelerated mid-market packaging updates.",
+        "date": "Q1 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Vendor",
+        "Q1 Share %",
+        "Q4 Share %",
+        "mo)",
+        "Key Move"
+      ],
+      "cells": [
+        [
+          "ApexGrid",
+          "22.8",
+          "24.1",
+          "89",
+          "Defensive bundle discounts for enterprise renewals"
+        ],
+        [
+          "Northbeam Systems",
+          "18.3",
+          "16.9",
+          "59",
+          "Launched entry-tier at 30% below category median"
+        ],
+        [
+          "Virelli Tech",
+          "14.6",
+          "15.2",
+          "102",
+          "Premium AI module release"
+        ],
+        [
+          "CloudHarbor",
+          "12.1",
+          "10.4",
+          "49",
+          "Aggressive mid-market promotional pricing"
+        ],
+        [
+          "Stratosware",
+          "9.7",
+          "11.3",
+          "95",
+          "Delayed roadmap update; limited price response"
+        ],
+        [
+          "BluePeak Software",
+          "7.9",
+          "6.8",
+          "54",
+          "Channel rebates expanded in EMEA"
+        ],
+        [
+          "Quantixa",
+          "5.4",
+          "4.2",
+          "61",
+          "Freemium conversion campaign"
+        ],
+        [
+          "IronLoop",
+          "3.8",
+          "4.9",
+          "110",
+          "Security-focused enterprise upsell"
+        ],
+        [
+          "DeltaForge",
+          "3.1",
+          "2.0",
+          "45",
+          "Low-cost SMB launch in January"
+        ],
+        [
+          "Other Vendors (combined)",
+          "2.3",
+          "4.2",
+          "52",
+          "Fragmented discounting activity"
+        ]
+      ],
+      "row_count": 10,
+      "col_count": 5,
+      "summary": "Share gains in Q1 2026 concentrated among vendors launching sub-$60 offers, particularly Northbeam and CloudHarbor. Premium-priced providers experienced modest erosion, signaling need for targeted pricing defenses and accelerated mid-market packaging updates.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Q1 2026 Competitive Share and Pricing Actions\", what is ApexGrid's Q1 Share %?",
+          "answer": "22.8%",
+          "assertions": [
+            {
+              "text": "The response must state '22.8%'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q1 2026 Competitive Share and Pricing Actions\", how many total rows (vendors) are listed in the table?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "mo)?",
+          "answer": "mo",
+          "assertions": [
+            {
+              "text": "mo'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Q1 2026 Competitive Share and Pricing Actions\", which vendor is noted as having a delayed roadmap update and limited price response?",
+          "answer": "Stratosware",
+          "assertions": [
+            {
+              "text": "The response must state 'Stratosware'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to the summary in \"Q1 2026 Competitive Share and Pricing Actions\", which vendors concentrated share gains by launching sub-$60 offers?",
+          "answer": "Northbeam Systems and CloudHarbor",
+          "assertions": [
+            {
+              "text": "The response must state 'Northbeam Systems and CloudHarbor'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "fp_0002_a129d99a",
+      "figure_number": 6,
+      "image_path": "fp_0002_a129d99a.png",
+      "subtype": "floor_plan",
+      "caption": "Figure 6: Floor plan: Strategic Intelligence Center — Executive Briefing Floor",
+      "title": "Strategic Intelligence Center — Executive Briefing Floor",
+      "theme": "",
+      "scale": "1:100",
+      "rooms": [
+        "Reception",
+        "Kitchen & Refreshments",
+        "Restrooms",
+        "Executive Lounge",
+        "Main Corridor",
+        "Market Analysis Open Office",
+        "Competitor War Room",
+        "Executive Strategy Briefing Room",
+        "Data Server Room",
+        "Research Archive Storage"
+      ],
+      "room_count": 10,
+      "qa_candidates": [
+        {
+          "question": "According to the 'Strategic Intelligence Center — Executive Briefing Floor' floor plan, what is the total number of rooms labeled?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Strategic Intelligence Center — Executive Briefing Floor' floor plan, what scale is shown?",
+          "answer": "1:100",
+          "assertions": [
+            {
+              "text": "The response must state '1:100'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Strategic Intelligence Center — Executive Briefing Floor' floor plan, which room is listed first?",
+          "answer": "Reception",
+          "assertions": [
+            {
+              "text": "The response must state 'Reception'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "img_0001_66543465",
+      "figure_number": 7,
+      "image_path": "img_0001_66543465.png",
+      "caption": "Figure 7: Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026",
+      "chart_type": "violin",
+      "chart_title": "Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026",
+      "x_label": "Vendor",
+      "y_label": "Market share change (percentage points)",
+      "categories": [
+        "Our Company",
+        "Competitor A",
+        "Competitor B",
+        "Competitor C",
+        "Competitor D"
+      ],
+      "series_names": [
+        "Q4 2025 to Q1 2026 Change (pp)"
+      ],
+      "value_range": [
+        -3,
+        3
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "Our Company",
+          "Competitor A",
+          "Competitor B",
+          "Competitor C",
+          "Competitor D"
+        ],
+        "value_range": [
+          -3,
+          3
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026)\", what does the Y-axis represent?",
+          "answer": "Market share change (percentage points)",
+          "assertions": [
+            {
+              "text": "The response must state Market share change (percentage points)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026)\", what is the value range shown?",
+          "answer": "[-3, 3]",
+          "assertions": [
+            {
+              "text": "The response must state [-3, 3]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026)\", name one of the vendor categories shown on the X-axis.",
+          "answer": "Competitor C",
+          "assertions": [
+            {
+              "text": "The response must state Competitor C."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "text",
+      "variant_id": "text_0001_dcfa3570",
+      "heading": "Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)",
+      "word_count": 197,
+      "text_content": [
+        "**Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)**",
+        "On 2026-03-05 ApexSoft reduced its list price for the Enterprise tier by 12% and introduced a 24-month price lock for new contracts. This aggressive pricing and contract certainty are designed to accelerate new deal signings and pressure renewal pricing across accounts evaluating multi-year commitments. Sales teams should expect shortened procurement cycles, elevated discount conversations, and immediate compaction of mid-cycle competitive bids. Monitor quote activity closely now.",
+        "On 2026-01-20 NimbusWare launched NimbusWare Edge 4.0, bundling security analytics at no additional cost for Enterprise customers. The move increases value-per-seat and raises switching costs for existing clients while creating feature parity pressure for competitors. Product and engineering must map feature overlap within 10 business days; marketing should update battlecards with exact feature lists and operational benefits to avoid misalignment in field messaging immediately thereafter.",
+        "On 2026-04-10 NovaSuite announced a 15% promotional discount for mid-market customers valid through 2026-06-30. This timed promotion targets new deals and likely increases mid-market pipeline velocity. Recommended executive responses include: 1) time-limited counter-offers for strategic accounts; 2) targeted channel incentive adjustments; 3) expedited pilot-to-production offers; and 4) daily monitoring of conversion rates, average deal size, and margin impact to inform a calibrated pricing response and playbook updates."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)\" section, by what percentage did ApexSoft reduce its list price for the Enterprise tier on 2026-03-05?",
+          "answer": "12%",
+          "assertions": [
+            {
+              "text": "The response must state 12%."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)\" section, on what date did NimbusWare launch NimbusWare Edge 4.0?",
+          "answer": "2026-01-20",
+          "assertions": [
+            {
+              "text": "The response must state 2026-01-20."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)\" section, what was the percentage of NovaSuite’s promotional discount for mid-market customers?",
+          "answer": "15%",
+          "assertions": [
+            {
+              "text": "The response must state 15%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "tl_0001_098372fb",
+      "figure_number": 8,
+      "image_path": "tl_0001_098372fb.png",
+      "subtype": "timeline",
+      "caption": "Figure 8: Timeline: Competitive Landscape Monitoring Timeline",
+      "title": "Competitive Landscape Monitoring Timeline",
+      "theme": "corporate_blue",
+      "milestones": [
+        {
+          "date": "Q1 2024",
+          "title": "Baseline Market Share Assessment",
+          "status": "done"
+        },
+        {
+          "date": "Q2 2024",
+          "title": "Competitor Launch & Pricing Tracker",
+          "status": "done"
+        },
+        {
+          "date": "Q3 2024",
+          "title": "Executive Briefing & Strategic Scenarios",
+          "status": "current"
+        },
+        {
+          "date": "Q4 2024",
+          "title": "Loss & Response Effectiveness Review",
+          "status": "future"
+        },
+        {
+          "date": "Q1 2025",
+          "title": "Forward-Looking Competitive Outlook",
+          "status": "future"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "How many milestones are listed on the 'Competitive Landscape Monitoring Timeline'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Which milestone is shown as the current milestone on the 'Competitive Landscape Monitoring Timeline'?",
+          "answer": "Executive Briefing & Strategic Scenarios",
+          "assertions": [
+            {
+              "text": "The response must state 'Executive Briefing & Strategic Scenarios'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Competitive Landscape Monitoring Timeline', what is the title of the last scheduled milestone (Q1 2025)?",
+          "answer": "Forward-Looking Competitive Outlook",
+          "assertions": [
+            {
+              "text": "The response must state 'Forward-Looking Competitive Outlook'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "img_0005_36f70d1d",
+      "figure_number": 9,
+      "image_path": "img_0005_36f70d1d.png",
+      "caption": "Figure 9: Win Rate vs Discount Depth in Competitive Deals (Q1 2026)",
+      "chart_type": "ridgeline",
+      "chart_title": "Win Rate vs Discount Depth in Competitive Deals (Q1 2026)",
+      "x_label": "Discount depth (%)",
+      "y_label": "Deal win rate (%)",
+      "categories": [
+        "0-5%",
+        "6-10%",
+        "11-15%",
+        "16-20%",
+        "21-25%",
+        "26%+"
+      ],
+      "series_names": [
+        "Enterprise Segment",
+        "Mid-Market Segment",
+        "SMB Segment"
+      ],
+      "value_range": [
+        0,
+        70
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "0-5%",
+          "6-10%",
+          "11-15%",
+          "16-20%",
+          "21-25%"
+        ],
+        "value_range": [
+          0,
+          70
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Win Rate vs Discount Depth in Competitive Deals (Q1 2026)\", what does the Y-axis represent?",
+          "answer": "Deal win rate (%)",
+          "assertions": [
+            {
+              "text": "The response must state Deal win rate (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Win Rate vs Discount Depth in Competitive Deals (Q1 2026)\", what is the overall trend shown?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Win Rate vs Discount Depth in Competitive Deals (Q1 2026)\", what is the value range?",
+          "answer": "[0, 70]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 70]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "image",
+      "variant_id": "cmp_0000_d25ab49e",
+      "figure_number": 10,
+      "image_path": "cmp_0000_d25ab49e.png",
+      "subtype": "comparison",
+      "caption": "Figure 10: Comparison: Competitive Landscape Briefing Options",
+      "title": "Competitive Landscape Briefing Options",
+      "theme": "midnight_dark",
+      "options": [
+        {
+          "name": "In-House Strategy Team",
+          "recommended": false
+        },
+        {
+          "name": "Market Intelligence Platform",
+          "recommended": true
+        },
+        {
+          "name": "Consulting Advisory Firm",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Competitive Landscape Briefing Options', which option is identified as the recommended choice?",
+          "answer": "Market Intelligence Platform",
+          "assertions": [
+            {
+              "text": "The response must state 'Market Intelligence Platform'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Competitive Landscape Briefing Options' diagram, how many options are presented?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Competitive Landscape Briefing Options' diagram, name one option that is not marked as recommended.",
+          "answer": "Consulting Advisory Firm",
+          "assertions": [
+            {
+              "text": "The response must state 'Consulting Advisory Firm'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "image",
+      "variant_id": "img_0000_6cb63b81",
+      "figure_number": 11,
+      "image_path": "img_0000_6cb63b81.png",
+      "caption": "Figure 11: Market Share by Vendor: Q4 2025 vs Q1 2026",
+      "chart_type": "grouped_bar",
+      "chart_title": "Market Share by Vendor: Q4 2025 vs Q1 2026",
+      "x_label": "Vendor",
+      "y_label": "Market share (%)",
+      "categories": [
+        "Vendor A",
+        "Vendor B",
+        "Vendor C",
+        "Vendor D",
+        "Vendor E"
+      ],
+      "series_names": [
+        "Q4 2025",
+        "Q1 2026"
+      ],
+      "value_range": [
+        0,
+        40
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "Vendor A",
+          "Vendor B",
+          "Vendor C",
+          "Vendor D",
+          "Vendor E"
+        ],
+        "series": [
+          "Q4 2025",
+          "Q1 2026"
+        ],
+        "value_range": [
+          0,
+          40
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Market Share by Vendor: Q4 2025 vs Q1 2026\", what does the Y-axis represent?",
+          "answer": "Market share (%)",
+          "assertions": [
+            {
+              "text": "The response must state Market share (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Market Share by Vendor: Q4 2025 vs Q1 2026\", what are the two series shown in the legend?",
+          "answer": "Q4 2025, Q1 2026",
+          "assertions": [
+            {
+              "text": "The response must state Q4 2025, Q1 2026."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Market Share by Vendor: Q4 2025 vs Q1 2026\", what is the value range displayed on the chart?",
+          "answer": "[0, 40]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 40]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "pict_0000_61c91b3a",
+      "figure_number": 12,
+      "image_path": "pict_0000_61c91b3a.png",
+      "subtype": "pictograph",
+      "caption": "Figure 12: Pictograph: Competitive Landscape Movement Snapshot",
+      "title": "Competitive Landscape Movement Snapshot",
+      "theme": "healthcare_teal",
+      "unit_label": "Each icon = 5% of total competitive activity",
+      "rows": [
+        {
+          "label": "Market Share Movements",
+          "value": 35
+        },
+        {
+          "label": "Competitor Product Launches",
+          "value": 25
+        },
+        {
+          "label": "Pricing Actions",
+          "value": 20
+        },
+        {
+          "label": "Recommended Strategic Responses",
+          "value": 20
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Competitive Landscape Movement Snapshot', what does each icon represent?",
+          "answer": "Each icon = 5% of total competitive activity",
+          "assertions": [
+            {
+              "text": "The response must state 'Each icon = 5% of total competitive activity'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Competitive Landscape Movement Snapshot', how many data rows are shown?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Competitive Landscape Movement Snapshot', what value is listed for the 'Pricing Actions' row?",
+          "answer": "20",
+          "assertions": [
+            {
+              "text": "The response must state '20'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "img_0002_7dcf5d5c",
+      "figure_number": 13,
+      "image_path": "img_0002_7dcf5d5c.png",
+      "caption": "Figure 13: Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)",
+      "chart_type": "heatmap",
+      "chart_title": "Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)",
+      "x_label": "Quarter",
+      "y_label": "Combined market share of top 3 vendors (%)",
+      "categories": [
+        "Q2 2025",
+        "Q3 2025",
+        "Q4 2025",
+        "Q1 2026"
+      ],
+      "series_names": [
+        "Top 3 Vendors - Combined Share"
+      ],
+      "value_range": [
+        54,
+        63
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Q2 2025",
+          "Q3 2025",
+          "Q4 2025",
+          "Q1 2026"
+        ],
+        "series": [
+          "Top 3 Vendors - Combined Share"
+        ],
+        "value_range": [
+          54,
+          63
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)\", what does the Y-axis represent?",
+          "answer": "Combined market share of top 3 vendors (%)",
+          "assertions": [
+            {
+              "text": "The response must state Combined market share of top 3 vendors (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)\", what is the overall trend shown?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)\", what is the value range displayed?",
+          "answer": "[54, 63]",
+          "assertions": [
+            {
+              "text": "The response must state [54, 63]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "image",
+      "variant_id": "cmp_0001_2a6b479d",
+      "figure_number": 14,
+      "image_path": "cmp_0001_2a6b479d.png",
+      "subtype": "comparison",
+      "caption": "Figure 14: Comparison: Competitive Intelligence Platform Comparison",
+      "title": "Competitive Intelligence Platform Comparison",
+      "theme": "healthcare_teal",
+      "options": [
+        {
+          "name": "Manual Analyst Tracking",
+          "recommended": false
+        },
+        {
+          "name": "Integrated CI SaaS Platform",
+          "recommended": true
+        },
+        {
+          "name": "Basic Market Monitoring Tool",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "Which option does the 'Competitive Intelligence Platform Comparison' indicate as recommended?",
+          "answer": "Integrated CI SaaS Platform",
+          "assertions": [
+            {
+              "text": "The response must state 'Integrated CI SaaS Platform'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Competitive Intelligence Platform Comparison', how many options are shown?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "What subtitle appears on the 'Competitive Intelligence Platform Comparison' diagram?",
+          "answer": "Market tracking and executive response capabilities",
+          "assertions": [
+            {
+              "text": "The response must state 'Market tracking and executive response capabilities'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "image",
+      "variant_id": "cmp_0002_03e66d64",
+      "figure_number": 15,
+      "image_path": "cmp_0002_03e66d64.png",
+      "subtype": "comparison",
+      "caption": "Figure 15: Comparison: Competitive Intelligence Platform Comparison",
+      "title": "Competitive Intelligence Platform Comparison",
+      "theme": "slate_tech",
+      "options": [
+        {
+          "name": "Basic Market Monitor",
+          "recommended": false
+        },
+        {
+          "name": "Strategic Insights Suite",
+          "recommended": true
+        },
+        {
+          "name": "Enterprise War-Room Platform",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Competitive Intelligence Platform Comparison', which option is designated as the recommended selection?",
+          "answer": "Strategic Insights Suite",
+          "assertions": [
+            {
+              "text": "The response must state 'Strategic Insights Suite'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Competitive Intelligence Platform Comparison', how many options are compared?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Competitive Intelligence Platform Comparison', what subtitle appears beneath the title?",
+          "answer": "Market tracking and strategic response solutions",
+          "assertions": [
+            {
+              "text": "The response must state 'Market tracking and strategic response solutions'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "image",
+      "variant_id": "fp_0000_f585f3d4",
+      "figure_number": 16,
+      "image_path": "fp_0000_f585f3d4.png",
+      "subtype": "floor_plan",
+      "caption": "Figure 16: Floor plan: Market Intelligence Center — Executive Briefing Floor",
+      "title": "Market Intelligence Center — Executive Briefing Floor",
+      "theme": "",
+      "scale": "1:100",
+      "rooms": [
+        "Reception",
+        "Executive Briefing Room",
+        "Competitive War Room",
+        "Open Analysis Office",
+        "Data & Insights Lab",
+        "Strategy Meeting Room",
+        "Kitchen",
+        "Lounge",
+        "Main Corridor",
+        "Bathrooms",
+        "Server Room",
+        "Storage"
+      ],
+      "room_count": 12,
+      "qa_candidates": [
+        {
+          "question": "According to the 'Market Intelligence Center — Executive Briefing Floor' floor plan, how many rooms are shown?",
+          "answer": "12",
+          "assertions": [
+            {
+              "text": "The response must state '12'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Market Intelligence Center — Executive Briefing Floor' plan, what scale is indicated?",
+          "answer": "1:100",
+          "assertions": [
+            {
+              "text": "The response must state '1:100'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Market Intelligence Center — Executive Briefing Floor' layout, which room is listed first?",
+          "answer": "Reception",
+          "assertions": [
+            {
+              "text": "The response must state 'Reception'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "image",
+      "variant_id": "fp_0001_759b9595",
+      "figure_number": 17,
+      "image_path": "fp_0001_759b9595.png",
+      "subtype": "floor_plan",
+      "caption": "Figure 17: Floor plan: Strategic Intelligence Center — Executive Briefing Floor",
+      "title": "Strategic Intelligence Center — Executive Briefing Floor",
+      "theme": "",
+      "scale": "1:100",
+      "rooms": [
+        "Reception",
+        "Strategy Meeting Room",
+        "Executive Lounge",
+        "Competitive Analysis Open Office",
+        "Research Kitchen",
+        "Data Server Room",
+        "Document & Archive Storage",
+        "Executive Briefing Room",
+        "War Room",
+        "Restroom"
+      ],
+      "room_count": 10,
+      "qa_candidates": [
+        {
+          "question": "On the 'Strategic Intelligence Center — Executive Briefing Floor' floor plan, what scale is indicated?",
+          "answer": "1:100",
+          "assertions": [
+            {
+              "text": "The response must state '1:100'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Strategic Intelligence Center — Executive Briefing Floor', how many rooms are shown on the plan?",
+          "answer": "10",
+          "assertions": [
+            {
+              "text": "The response must state '10'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Strategic Intelligence Center — Executive Briefing Floor' layout, what is the name of the first room depicted?",
+          "answer": "Reception",
+          "assertions": [
+            {
+              "text": "The response must state 'Reception'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "proc_0000_4750f5f3",
+      "figure_number": 18,
+      "image_path": "proc_0000_4750f5f3.png",
+      "subtype": "process_steps",
+      "caption": "Figure 18: Process: Competitive Landscape Briefing Workflow",
+      "title": "Competitive Landscape Briefing Workflow",
+      "theme": "corporate_blue",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Data Collection & Monitoring",
+          "duration": "2 days"
+        },
+        {
+          "number": "02",
+          "title": "Market Share Analysis",
+          "duration": "1 day"
+        },
+        {
+          "number": "03",
+          "title": "Competitive Action Mapping",
+          "duration": "2 days"
+        },
+        {
+          "number": "04",
+          "title": "Strategic Impact Assessment",
+          "duration": "2 days"
+        },
+        {
+          "number": "05",
+          "title": "Executive Recommendations",
+          "duration": "1 day"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Competitive Landscape Briefing Workflow', how many sequential steps make up the process?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Competitive Landscape Briefing Workflow', which step title appears first in the sequence?",
+          "answer": "Data Collection & Monitoring",
+          "assertions": [
+            {
+              "text": "The response must state 'Data Collection & Monitoring'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Competitive Landscape Briefing Workflow', what duration is listed for step 03 (Competitive Action Mapping)?",
+          "answer": "2 days",
+          "assertions": [
+            {
+              "text": "The response must state '2 days'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "image",
+      "variant_id": "proc_0001_8ec026fa",
+      "figure_number": 19,
+      "image_path": "proc_0001_8ec026fa.png",
+      "subtype": "process_steps",
+      "caption": "Figure 19: Process: Competitive Landscape Briefing Workflow",
+      "title": "Competitive Landscape Briefing Workflow",
+      "theme": "slate_tech",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Data Collection",
+          "duration": "2 days"
+        },
+        {
+          "number": "02",
+          "title": "Market Movement Analysis",
+          "duration": "2 days"
+        },
+        {
+          "number": "03",
+          "title": "Competitor Activity Mapping",
+          "duration": "3 days"
+        },
+        {
+          "number": "04",
+          "title": "Strategic Impact Assessment",
+          "duration": "2 days"
+        },
+        {
+          "number": "05",
+          "title": "Executive Recommendations",
+          "duration": "1 day"
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "What is the total number of steps in the 'Competitive Landscape Briefing Workflow'?",
+          "answer": "5",
+          "assertions": [
+            {
+              "text": "The response must state '5'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Competitive Landscape Briefing Workflow', what is the title listed for step 03?",
+          "answer": "Competitor Activity Mapping",
+          "assertions": [
+            {
+              "text": "The response must state 'Competitor Activity Mapping'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Competitive Landscape Briefing Workflow', how long is the 'Executive Recommendations' step scheduled to take?",
+          "answer": "1 day",
+          "assertions": [
+            {
+              "text": "The response must state '1 day'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "image",
+      "variant_id": "mag_0000_9c315b68",
+      "figure_number": 20,
+      "image_path": "mag_0000_9c315b68.png",
+      "subtype": "magazine",
+      "caption": "Figure 20: Magazine: Competitive Landscape Snapshot",
+      "title": "Competitive Landscape Snapshot",
+      "theme": "sand_neutral",
+      "hero_number": "18%",
+      "hero_label": "Market share shifted this quarter",
+      "qa_candidates": [
+        {
+          "question": "On the 'Competitive Landscape Snapshot', what prominent percentage figure is displayed as the hero number?",
+          "answer": "18%",
+          "assertions": [
+            {
+              "text": "The response must state '18%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Competitive Landscape Snapshot', what does that large headline number represent?",
+          "answer": "Market share shifted this quarter",
+          "assertions": [
+            {
+              "text": "The response must state 'Market share shifted this quarter'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Competitive Landscape Snapshot' magazine-style infographic, what is the callout message about competitive intensity?",
+          "answer": "Competitive intensity is accelerating—decisive pricing, differentiated launches, and targeted retention moves are critical this quarter.",
+          "assertions": [
+            {
+              "text": "The response must state 'Competitive intensity is accelerating—decisive pricing, differentiated launches, and targeted retention moves are critical this quarter.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "image",
+      "variant_id": "dash_0000_c138733d",
+      "figure_number": 21,
+      "image_path": "dash_0000_c138733d.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 21: Dashboard: Q2 2026 Competitive Landscape Overview",
+      "title": "Q2 2026 Competitive Landscape Overview",
+      "theme": "midnight_dark",
+      "subtitle": "Market Share, Pricing & Strategic Activity",
+      "period_badge": "Q2 2026",
+      "kpis": [
+        {
+          "label": "Our Market Share",
+          "value": "28.4%",
+          "delta": "+1.2%",
+          "trend": "up",
+          "sparkline": [
+            26.8,
+            27.1,
+            27.5,
+            28.0,
+            28.4
+          ]
+        },
+        {
+          "label": "New Competitor Launches",
+          "value": "7",
+          "delta": "+40%",
+          "trend": "up",
+          "sparkline": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Avg. Price Change (Market)",
+          "value": "-2.3%",
+          "delta": "-1.1%",
+          "trend": "down",
+          "sparkline": [
+            -0.5,
+            -0.8,
+            -1.4,
+            -1.9,
+            -2.3
+          ]
+        },
+        {
+          "label": "Win Rate vs Top 3",
+          "value": "54.6%",
+          "delta": "-2.4%",
+          "trend": "down",
+          "sparkline": [
+            58.2,
+            57.5,
+            56.1,
+            55.3,
+            54.6
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Market Share by Key Competitor",
+        "labels": [
+          "Our Company",
+          "Competitor A",
+          "Competitor B",
+          "Competitor C"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              28.4,
+              24.7,
+              18.9,
+              14.3
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              27.2,
+              25.9,
+              19.4,
+              13.8
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "Competitor A lost 1.2 pts share following delayed flagship launch.",
+        "Increased promotional discounting driving 2.3% average market price decline.",
+        "Recommend accelerating mid-tier product refresh to counter Competitor B launches."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Q2 2026 Competitive Landscape Overview', what percentage is listed for the Our Market Share KPI?",
+          "answer": "28.4%",
+          "assertions": [
+            {
+              "text": "The response must state '28.4%'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Q2 2026 Competitive Landscape Overview', how many New Competitor Launches does the dashboard report?",
+          "answer": "7",
+          "assertions": [
+            {
+              "text": "The response must state '7'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Q2 2026 Competitive Landscape Overview', what value is displayed for Avg. Price Change (Market)?",
+          "answer": "-2.3%",
+          "assertions": [
+            {
+              "text": "The response must state '-2.3%'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "type": "image",
+      "variant_id": "hub_0001_33d10c3a",
+      "figure_number": 22,
+      "image_path": "hub_0001_33d10c3a.png",
+      "subtype": "hub_spoke",
+      "caption": "Figure 22: Hub-Spoke: Competitive Landscape Executive Brief",
+      "title": "Competitive Landscape Executive Brief",
+      "theme": "burgundy_legal",
+      "center": "Competitive Landscape",
+      "spokes": [
+        "Market Share Movements",
+        "Product Launch Activity",
+        "Pricing Actions",
+        "Strategic Responses"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Competitive Landscape Executive Brief' diagram in the PDF, what label appears at the central hub?",
+          "answer": "Competitive Landscape",
+          "assertions": [
+            {
+              "text": "The response must state 'Competitive Landscape'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Competitive Landscape Executive Brief', how many spokes radiate from the central hub?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Competitive Landscape Executive Brief' page, what subtitle is shown beneath the main title?",
+          "answer": "Tracking share shifts, launches, pricing, and strategic actions",
+          "assertions": [
+            {
+              "text": "The response must state 'Tracking share shifts, launches, pricing, and strategic actions'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "type": "image",
+      "variant_id": "pict_0002_ebb7300e",
+      "figure_number": 23,
+      "image_path": "pict_0002_ebb7300e.png",
+      "subtype": "pictograph",
+      "caption": "Figure 23: Pictograph: Competitive Landscape Executive Briefing",
+      "title": "Competitive Landscape Executive Briefing",
+      "theme": "emerald_finance",
+      "unit_label": "Each icon = 5% of total actions tracked",
+      "rows": [
+        {
+          "label": "Market Share Movements",
+          "value": 40
+        },
+        {
+          "label": "Competitor Product Launches",
+          "value": 25
+        },
+        {
+          "label": "Pricing Actions",
+          "value": 20
+        },
+        {
+          "label": "Recommended Strategic Responses",
+          "value": 15
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the 'Competitive Landscape Executive Briefing', what does each icon represent?",
+          "answer": "Each icon = 5% of total actions tracked",
+          "assertions": [
+            {
+              "text": "The response must state 'Each icon = 5% of total actions tracked'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Competitive Landscape Executive Briefing', how many data rows are shown?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Competitive Landscape Executive Briefing', what value is listed for 'Pricing Actions'?",
+          "answer": "20",
+          "assertions": [
+            {
+              "text": "The response must state '20'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "text_0000_5f3c3b05": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)",
+      "word_count": 325,
+      "text_type": "llm_prose",
+      "topic_id": "competitive_intelligence_briefing"
+    },
+    "img_0003_5510a414": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion",
+        "low_contrast"
+      ],
+      "chart_type": "stacked_area",
+      "chart_title": "Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)",
+      "x_label": "Launch date",
+      "y_label": "Estimated competitive impact score (1–10)",
+      "categories": [
+        "Jan 2026",
+        "Feb 2026",
+        "Mar 2026",
+        "Apr 2026"
+      ],
+      "series_names": [
+        "NimbusWare Edge 4.0",
+        "NovaSuite AI Assist",
+        "OrionCloud CX Pro",
+        "VertexOne Analytics 3.2"
+      ],
+      "value_range": [
+        1,
+        10
+      ],
+      "trend": "volatile",
+      "filename": "img_0003_5510a414.png",
+      "image_path": "img_0003_5510a414.png",
+      "topic_id": "competitive_intelligence_briefing"
+    },
+    "scan_llm_0000_9a7708a7": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_b6eb9c8a.png",
+      "topic_id": ""
+    },
+    "hub_0002_06ca2718": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Executive Brief",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0002_06ca2718.png",
+      "topic_id": ""
+    },
+    "img_0004_c3612dc9": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "heatmap",
+      "chart_title": "List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)",
+      "x_label": "Tier (SMB, Mid-market, Enterprise)",
+      "y_label": "Vendor",
+      "categories": [
+        "SMB",
+        "Mid-market",
+        "Enterprise"
+      ],
+      "series_names": [
+        "ApexSoft",
+        "NovaSuite",
+        "CoreWare",
+        "ZenithApps"
+      ],
+      "value_range": [
+        85,
+        120
+      ],
+      "trend": "volatile",
+      "filename": "img_0004_c3612dc9.png",
+      "image_path": "img_0004_c3612dc9.png",
+      "topic_id": "competitive_intelligence_briefing"
+    },
+    "scan_llm_0001_b5f1e142": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_2793a624.png",
+      "topic_id": ""
+    },
+    "fp_0002_a129d99a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Strategic Intelligence Center — Executive Briefing Floor",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0002_a129d99a.png",
+      "topic_id": ""
+    },
+    "img_0001_66543465": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "violin",
+      "chart_title": "Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026",
+      "x_label": "Vendor",
+      "y_label": "Market share change (percentage points)",
+      "categories": [
+        "Our Company",
+        "Competitor A",
+        "Competitor B",
+        "Competitor C",
+        "Competitor D"
+      ],
+      "series_names": [
+        "Q4 2025 to Q1 2026 Change (pp)"
+      ],
+      "value_range": [
+        -3,
+        3
+      ],
+      "trend": "volatile",
+      "filename": "img_0001_66543465.png",
+      "image_path": "img_0001_66543465.png",
+      "topic_id": "competitive_intelligence_briefing"
+    },
+    "text_0001_dcfa3570": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)",
+      "word_count": 197,
+      "text_type": "llm_prose",
+      "topic_id": "competitive_intelligence_briefing"
+    },
+    "tl_0001_098372fb": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Monitoring Timeline",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "tl_0001_098372fb.png",
+      "topic_id": ""
+    },
+    "img_0005_36f70d1d": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion",
+        "blur"
+      ],
+      "chart_type": "ridgeline",
+      "chart_title": "Win Rate vs Discount Depth in Competitive Deals (Q1 2026)",
+      "x_label": "Discount depth (%)",
+      "y_label": "Deal win rate (%)",
+      "categories": [
+        "0-5%",
+        "6-10%",
+        "11-15%",
+        "16-20%",
+        "21-25%",
+        "26%+"
+      ],
+      "series_names": [
+        "Enterprise Segment",
+        "Mid-Market Segment",
+        "SMB Segment"
+      ],
+      "value_range": [
+        0,
+        70
+      ],
+      "trend": "increasing",
+      "filename": "img_0005_36f70d1d.png",
+      "image_path": "img_0005_36f70d1d.png",
+      "topic_id": "competitive_intelligence_briefing"
+    },
+    "cmp_0000_d25ab49e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Briefing Options",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0000_d25ab49e.png",
+      "topic_id": ""
+    },
+    "img_0000_6cb63b81": {
+      "kind": "image",
+      "perturbations": [
+        "low_contrast"
+      ],
+      "chart_type": "grouped_bar",
+      "chart_title": "Market Share by Vendor: Q4 2025 vs Q1 2026",
+      "x_label": "Vendor",
+      "y_label": "Market share (%)",
+      "categories": [
+        "Vendor A",
+        "Vendor B",
+        "Vendor C",
+        "Vendor D",
+        "Vendor E"
+      ],
+      "series_names": [
+        "Q4 2025",
+        "Q1 2026"
+      ],
+      "value_range": [
+        0,
+        40
+      ],
+      "trend": "volatile",
+      "filename": "img_0000_6cb63b81.png",
+      "image_path": "img_0000_6cb63b81.png",
+      "topic_id": "competitive_intelligence_briefing"
+    },
+    "pict_0000_61c91b3a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Movement Snapshot",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "pict_0000_61c91b3a.png",
+      "topic_id": ""
+    },
+    "img_0002_7dcf5d5c": {
+      "kind": "image",
+      "perturbations": [
+        "blur",
+        "low_contrast"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)",
+      "x_label": "Quarter",
+      "y_label": "Combined market share of top 3 vendors (%)",
+      "categories": [
+        "Q2 2025",
+        "Q3 2025",
+        "Q4 2025",
+        "Q1 2026"
+      ],
+      "series_names": [
+        "Top 3 Vendors - Combined Share"
+      ],
+      "value_range": [
+        54,
+        63
+      ],
+      "trend": "increasing",
+      "filename": "img_0002_7dcf5d5c.png",
+      "image_path": "img_0002_7dcf5d5c.png",
+      "topic_id": "competitive_intelligence_briefing"
+    },
+    "cmp_0001_2a6b479d": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Intelligence Platform Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0001_2a6b479d.png",
+      "topic_id": ""
+    },
+    "cmp_0002_03e66d64": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Intelligence Platform Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0002_03e66d64.png",
+      "topic_id": ""
+    },
+    "fp_0000_f585f3d4": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Market Intelligence Center — Executive Briefing Floor",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0000_f585f3d4.png",
+      "topic_id": ""
+    },
+    "fp_0001_759b9595": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Strategic Intelligence Center — Executive Briefing Floor",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0001_759b9595.png",
+      "topic_id": ""
+    },
+    "proc_0000_4750f5f3": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Briefing Workflow",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "proc_0000_4750f5f3.png",
+      "topic_id": ""
+    },
+    "proc_0001_8ec026fa": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Briefing Workflow",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "proc_0001_8ec026fa.png",
+      "topic_id": ""
+    },
+    "mag_0000_9c315b68": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Snapshot",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "mag_0000_9c315b68.png",
+      "topic_id": ""
+    },
+    "dash_0000_c138733d": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Q2 2026 Competitive Landscape Overview",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0000_c138733d.png",
+      "topic_id": ""
+    },
+    "hub_0001_33d10c3a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Executive Brief",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "hub_0001_33d10c3a.png",
+      "topic_id": ""
+    },
+    "pict_0002_ebb7300e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Executive Briefing",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "pict_0002_ebb7300e.png",
+      "topic_id": ""
+    },
+    "fp_0003_18c1eff6": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Strategic Intelligence Center — Executive Floor",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "fp_0003_18c1eff6.png",
+      "topic_id": ""
+    },
+    "dash_0002_bb9d05d9": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Q2 2026 Competitive Landscape Brief",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0002_bb9d05d9.png",
+      "topic_id": ""
+    },
+    "proc_0002_00fc14ce": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Competitive Landscape Briefing Workflow",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "proc_0002_00fc14ce.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "According to the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, what market share did ApexSoft reach in Q1 2026?",
+      "answer": "24.8%",
+      "assertions": [
+        {
+          "text": "The response must state 24.8%."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, on what date was NovaSuite AI Assist launched?",
+      "answer": "2026-02-12",
+      "assertions": [
+        {
+          "text": "The response must state 2026-02-12."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Market Share Movements and Competitive Drivers (Q4 2025–Q1 2026)\" section, what was the combined top three market share in Q1 2026?",
+      "answer": "66.1%",
+      "assertions": [
+        {
+          "text": "The response must state 66.1%."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)\", what does the Y-axis represent?",
+      "answer": "Estimated competitive impact score (1–10)",
+      "assertions": [
+        {
+          "text": "The response must state Estimated competitive impact score (1–10)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)\", what is the value range shown?",
+      "answer": "[1, 10]",
+      "assertions": [
+        {
+          "text": "The response must state [1, 10]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Competitor Product Launch Timeline and Impact Window (Jan–Apr 2026)\", what is the overall trend described?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", what market share movement did the Infrastructure Analytics segment experience during Q1 2026?",
+      "answer": "A 2.8 percentage point shift toward lower-priced challengers.",
+      "assertions": [
+        {
+          "text": "The response must state 'A 2.8 percentage point shift toward lower-priced challengers.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", which company introduced the \"CoreSight Lite\" package and in which month?",
+      "answer": "NovaMetric introduced CoreSight Lite in January.",
+      "assertions": [
+        {
+          "text": "The response must state 'NovaMetric introduced CoreSight Lite in January.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", at what discount was NovaMetric's CoreSight Lite launched relative to its prior entry SKU?",
+      "answer": "A 28% discount.",
+      "assertions": [
+        {
+          "text": "The response must state 'A 28% discount.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", what was the status of enterprise churn and what was the annualized rate?",
+      "answer": "Enterprise churn held steady at 8% annualized.",
+      "assertions": [
+        {
+          "text": "The response must state 'Enterprise churn held steady at 8% annualized.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document titled \"Q1 2026 Competitive Landscape Briefing – Market Share and Pricing Dynamics\", what percentage of upcoming Q2 renewals have requested competitive price reviews?",
+      "answer": "37% of upcoming Q2 renewals.",
+      "assertions": [
+        {
+          "text": "The response must state '37% of upcoming Q2 renewals.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Competitive Landscape Executive Brief' hub-and-spoke diagram, what label appears in the central hub?",
+      "answer": "Competitive Landscape Overview",
+      "assertions": [
+        {
+          "text": "The response must state 'Competitive Landscape Overview'."
+        }
+      ]
+    },
+    {
+      "question": "How many legs extend from the center in the 'Competitive Landscape Executive Brief' hub-and-spoke diagram?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Competitive Landscape Executive Brief' hub-and-spoke diagram, which spoke label addresses pricing?",
+      "answer": "Pricing Actions",
+      "assertions": [
+        {
+          "text": "The response must state 'Pricing Actions'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)\", what does the Y-axis represent?",
+      "answer": "Vendor",
+      "assertions": [
+        {
+          "text": "The response must state Vendor."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)\", what is the value range shown?",
+      "answer": "[85, 120]",
+      "assertions": [
+        {
+          "text": "The response must state [85, 120]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"List Price Index by Vendor and Tier (Jan 2026 vs Apr 2026)\", what is the overall trend described?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q1 2026 Competitive Share and Pricing Actions\", what is ApexGrid's Q1 Share %?",
+      "answer": "22.8%",
+      "assertions": [
+        {
+          "text": "The response must state '22.8%'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q1 2026 Competitive Share and Pricing Actions\", how many total rows (vendors) are listed in the table?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "mo)?",
+      "answer": "mo",
+      "assertions": [
+        {
+          "text": "mo'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Q1 2026 Competitive Share and Pricing Actions\", which vendor is noted as having a delayed roadmap update and limited price response?",
+      "answer": "Stratosware",
+      "assertions": [
+        {
+          "text": "The response must state 'Stratosware'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the summary in \"Q1 2026 Competitive Share and Pricing Actions\", which vendors concentrated share gains by launching sub-$60 offers?",
+      "answer": "Northbeam Systems and CloudHarbor",
+      "assertions": [
+        {
+          "text": "The response must state 'Northbeam Systems and CloudHarbor'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Strategic Intelligence Center — Executive Briefing Floor' floor plan, what is the total number of rooms labeled?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Strategic Intelligence Center — Executive Briefing Floor' floor plan, what scale is shown?",
+      "answer": "1:100",
+      "assertions": [
+        {
+          "text": "The response must state '1:100'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Strategic Intelligence Center — Executive Briefing Floor' floor plan, which room is listed first?",
+      "answer": "Reception",
+      "assertions": [
+        {
+          "text": "The response must state 'Reception'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026)\", what does the Y-axis represent?",
+      "answer": "Market share change (percentage points)",
+      "assertions": [
+        {
+          "text": "The response must state Market share change (percentage points)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026)\", what is the value range shown?",
+      "answer": "[-3, 3]",
+      "assertions": [
+        {
+          "text": "The response must state [-3, 3]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Quarter-over-Quarter Market Share Change (pp): Q4 2025 to Q1 2026)\", name one of the vendor categories shown on the X-axis.",
+      "answer": "Competitor C",
+      "assertions": [
+        {
+          "text": "The response must state Competitor C."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)\" section, by what percentage did ApexSoft reduce its list price for the Enterprise tier on 2026-03-05?",
+      "answer": "12%",
+      "assertions": [
+        {
+          "text": "The response must state 12%."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)\" section, on what date did NimbusWare launch NimbusWare Edge 4.0?",
+      "answer": "2026-01-20",
+      "assertions": [
+        {
+          "text": "The response must state 2026-01-20."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Competitor Launches, Pricing Actions, and Executive Response Plan (Jan–Apr 2026)\" section, what was the percentage of NovaSuite’s promotional discount for mid-market customers?",
+      "answer": "15%",
+      "assertions": [
+        {
+          "text": "The response must state 15%."
+        }
+      ]
+    },
+    {
+      "question": "How many milestones are listed on the 'Competitive Landscape Monitoring Timeline'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Which milestone is shown as the current milestone on the 'Competitive Landscape Monitoring Timeline'?",
+      "answer": "Executive Briefing & Strategic Scenarios",
+      "assertions": [
+        {
+          "text": "The response must state 'Executive Briefing & Strategic Scenarios'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Landscape Monitoring Timeline', what is the title of the last scheduled milestone (Q1 2025)?",
+      "answer": "Forward-Looking Competitive Outlook",
+      "assertions": [
+        {
+          "text": "The response must state 'Forward-Looking Competitive Outlook'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Win Rate vs Discount Depth in Competitive Deals (Q1 2026)\", what does the Y-axis represent?",
+      "answer": "Deal win rate (%)",
+      "assertions": [
+        {
+          "text": "The response must state Deal win rate (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Win Rate vs Discount Depth in Competitive Deals (Q1 2026)\", what is the overall trend shown?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Win Rate vs Discount Depth in Competitive Deals (Q1 2026)\", what is the value range?",
+      "answer": "[0, 70]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 70]."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Competitive Landscape Briefing Options', which option is identified as the recommended choice?",
+      "answer": "Market Intelligence Platform",
+      "assertions": [
+        {
+          "text": "The response must state 'Market Intelligence Platform'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Landscape Briefing Options' diagram, how many options are presented?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Competitive Landscape Briefing Options' diagram, name one option that is not marked as recommended.",
+      "answer": "Consulting Advisory Firm",
+      "assertions": [
+        {
+          "text": "The response must state 'Consulting Advisory Firm'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Share by Vendor: Q4 2025 vs Q1 2026\", what does the Y-axis represent?",
+      "answer": "Market share (%)",
+      "assertions": [
+        {
+          "text": "The response must state Market share (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Share by Vendor: Q4 2025 vs Q1 2026\", what are the two series shown in the legend?",
+      "answer": "Q4 2025, Q1 2026",
+      "assertions": [
+        {
+          "text": "The response must state Q4 2025, Q1 2026."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Share by Vendor: Q4 2025 vs Q1 2026\", what is the value range displayed on the chart?",
+      "answer": "[0, 40]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 40]."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Competitive Landscape Movement Snapshot', what does each icon represent?",
+      "answer": "Each icon = 5% of total competitive activity",
+      "assertions": [
+        {
+          "text": "The response must state 'Each icon = 5% of total competitive activity'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Landscape Movement Snapshot', how many data rows are shown?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Competitive Landscape Movement Snapshot', what value is listed for the 'Pricing Actions' row?",
+      "answer": "20",
+      "assertions": [
+        {
+          "text": "The response must state '20'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)\", what does the Y-axis represent?",
+      "answer": "Combined market share of top 3 vendors (%)",
+      "assertions": [
+        {
+          "text": "The response must state Combined market share of top 3 vendors (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)\", what is the overall trend shown?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Market Concentration Trend: Top 3 Share (Q2 2025–Q1 2026)\", what is the value range displayed?",
+      "answer": "[54, 63]",
+      "assertions": [
+        {
+          "text": "The response must state [54, 63]."
+        }
+      ]
+    },
+    {
+      "question": "Which option does the 'Competitive Intelligence Platform Comparison' indicate as recommended?",
+      "answer": "Integrated CI SaaS Platform",
+      "assertions": [
+        {
+          "text": "The response must state 'Integrated CI SaaS Platform'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Intelligence Platform Comparison', how many options are shown?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "What subtitle appears on the 'Competitive Intelligence Platform Comparison' diagram?",
+      "answer": "Market tracking and executive response capabilities",
+      "assertions": [
+        {
+          "text": "The response must state 'Market tracking and executive response capabilities'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Intelligence Platform Comparison', which option is designated as the recommended selection?",
+      "answer": "Strategic Insights Suite",
+      "assertions": [
+        {
+          "text": "The response must state 'Strategic Insights Suite'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Competitive Intelligence Platform Comparison', how many options are compared?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Competitive Intelligence Platform Comparison', what subtitle appears beneath the title?",
+      "answer": "Market tracking and strategic response solutions",
+      "assertions": [
+        {
+          "text": "The response must state 'Market tracking and strategic response solutions'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Market Intelligence Center — Executive Briefing Floor' floor plan, how many rooms are shown?",
+      "answer": "12",
+      "assertions": [
+        {
+          "text": "The response must state '12'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Market Intelligence Center — Executive Briefing Floor' plan, what scale is indicated?",
+      "answer": "1:100",
+      "assertions": [
+        {
+          "text": "The response must state '1:100'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Market Intelligence Center — Executive Briefing Floor' layout, which room is listed first?",
+      "answer": "Reception",
+      "assertions": [
+        {
+          "text": "The response must state 'Reception'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Strategic Intelligence Center — Executive Briefing Floor' floor plan, what scale is indicated?",
+      "answer": "1:100",
+      "assertions": [
+        {
+          "text": "The response must state '1:100'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Strategic Intelligence Center — Executive Briefing Floor', how many rooms are shown on the plan?",
+      "answer": "10",
+      "assertions": [
+        {
+          "text": "The response must state '10'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Strategic Intelligence Center — Executive Briefing Floor' layout, what is the name of the first room depicted?",
+      "answer": "Reception",
+      "assertions": [
+        {
+          "text": "The response must state 'Reception'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Landscape Briefing Workflow', how many sequential steps make up the process?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Competitive Landscape Briefing Workflow', which step title appears first in the sequence?",
+      "answer": "Data Collection & Monitoring",
+      "assertions": [
+        {
+          "text": "The response must state 'Data Collection & Monitoring'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Competitive Landscape Briefing Workflow', what duration is listed for step 03 (Competitive Action Mapping)?",
+      "answer": "2 days",
+      "assertions": [
+        {
+          "text": "The response must state '2 days'."
+        }
+      ]
+    },
+    {
+      "question": "What is the total number of steps in the 'Competitive Landscape Briefing Workflow'?",
+      "answer": "5",
+      "assertions": [
+        {
+          "text": "The response must state '5'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Competitive Landscape Briefing Workflow', what is the title listed for step 03?",
+      "answer": "Competitor Activity Mapping",
+      "assertions": [
+        {
+          "text": "The response must state 'Competitor Activity Mapping'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Competitive Landscape Briefing Workflow', how long is the 'Executive Recommendations' step scheduled to take?",
+      "answer": "1 day",
+      "assertions": [
+        {
+          "text": "The response must state '1 day'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Competitive Landscape Snapshot', what prominent percentage figure is displayed as the hero number?",
+      "answer": "18%",
+      "assertions": [
+        {
+          "text": "The response must state '18%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Landscape Snapshot', what does that large headline number represent?",
+      "answer": "Market share shifted this quarter",
+      "assertions": [
+        {
+          "text": "The response must state 'Market share shifted this quarter'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Competitive Landscape Snapshot' magazine-style infographic, what is the callout message about competitive intensity?",
+      "answer": "Competitive intensity is accelerating—decisive pricing, differentiated launches, and targeted retention moves are critical this quarter.",
+      "assertions": [
+        {
+          "text": "The response must state 'Competitive intensity is accelerating—decisive pricing, differentiated launches, and targeted retention moves are critical this quarter.'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Q2 2026 Competitive Landscape Overview', what percentage is listed for the Our Market Share KPI?",
+      "answer": "28.4%",
+      "assertions": [
+        {
+          "text": "The response must state '28.4%'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Q2 2026 Competitive Landscape Overview', how many New Competitor Launches does the dashboard report?",
+      "answer": "7",
+      "assertions": [
+        {
+          "text": "The response must state '7'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Q2 2026 Competitive Landscape Overview', what value is displayed for Avg. Price Change (Market)?",
+      "answer": "-2.3%",
+      "assertions": [
+        {
+          "text": "The response must state '-2.3%'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Competitive Landscape Executive Brief' diagram in the PDF, what label appears at the central hub?",
+      "answer": "Competitive Landscape",
+      "assertions": [
+        {
+          "text": "The response must state 'Competitive Landscape'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Landscape Executive Brief', how many spokes radiate from the central hub?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Competitive Landscape Executive Brief' page, what subtitle is shown beneath the main title?",
+      "answer": "Tracking share shifts, launches, pricing, and strategic actions",
+      "assertions": [
+        {
+          "text": "The response must state 'Tracking share shifts, launches, pricing, and strategic actions'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Competitive Landscape Executive Briefing', what does each icon represent?",
+      "answer": "Each icon = 5% of total actions tracked",
+      "assertions": [
+        {
+          "text": "The response must state 'Each icon = 5% of total actions tracked'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Competitive Landscape Executive Briefing', how many data rows are shown?",
+      "answer": "4",
+      "assertions": [
+        {
+          "text": "The response must state '4'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Competitive Landscape Executive Briefing', what value is listed for 'Pricing Actions'?",
+      "answer": "20",
+      "assertions": [
+        {
+          "text": "The response must state '20'."
+        }
+      ]
+    }
+  ]
+}

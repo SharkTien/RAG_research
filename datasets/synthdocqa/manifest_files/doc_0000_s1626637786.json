@@ -1,0 +1,2481 @@
+{
+  "doc_id": "doc_0000_s1626637786",
+  "title": "Compensation Benchmarking Report: Market Alignment, Attrition Risk Analysis, and Recommended Salary Band and Equity Adjustments",
+  "subtitle": "Compensation Benchmarking Study | Market Alignment, Attrition Risk Identification, and Salary Band & Equity Recommendations",
+  "topic_id": "compensation_benchmarking_study",
+  "recipe_name": "data_focused",
+  "seed": 1626637786,
+  "document_brief": {
+    "narrative_theme": "This benchmarking study compares the organisation’s current pay bands to 2025 market survey percentiles to pinpoint attrition-risk roles and recommend targeted band adjustments and equity corrections that improve competitiveness while controlling cost.",
+    "sections": [
+      {
+        "heading": "Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)",
+        "key_facts": [
+          "Market pricing uses the Radford Global Technology Survey 2025 H1 cut with effective date 2025-03-01.",
+          "Across 112 benchmarked roles, 38 roles (33.9%) have current midpoint-to-market P50 below 0.95.",
+          "Overall weighted midpoint-to-market P50 is 0.97 as of 2025-04-15."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)",
+        "key_facts": [
+          "The top 10 attrition-risk roles account for 27 regretted exits in the last 12 months ending 2025-04-30.",
+          "Recommended adjustments increase 6 pay band midpoints by +6.0% to +12.0% effective 2025-07-01.",
+          "Equity corrections cover 41 employees with an estimated annualised cost of $620,000."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "Benchmark role coverage and survey mapping summary (Radford 2025 H1; effective 2025-03-01)",
+        "purpose": "Documents which internal roles were benchmarked, how they map to survey jobs, and the scope of data used so pay positioning conclusions are traceable and auditable.",
+        "key_data": {
+          "Benchmarked roles (count)": "112",
+          "Employees in benchmarked roles": "1,486",
+          "Survey source": "Radford Global Technology Survey 2025 H1",
+          "Survey effective date": "2025-03-01"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)",
+        "purpose": "level before role-level actions are proposed.",
+        "key_data": {
+          "Software Engineering L4 midpoint-to-P50": "0.92",
+          "Product Management L5 midpoint-to-P50": "0.95",
+          "Data Science L4 midpoint-to-P50": "0.90",
+          "IT Infrastructure L3 midpoint-to-P50": "1.01"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "Distribution of roles by compa-ratio to market P50 (midpoint-to-P50 buckets)",
+        "purpose": "Quantifies how many roles fall below, at, or above market to support prioritisation thresholds (e.g., <0.95) used later for attrition-risk identification.",
+        "key_data": {
+          "<0.90 (roles)": "14",
+          "0.90–0.94 (roles)": "24",
+          "0.95–1.05 (roles)": "62",
+          ">1.05 (roles)": "12"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "Top attrition-risk roles combining pay gap and regretted attrition (12 months ending 2025-04-30)",
+        "purpose": "Ranks roles most likely to lose talent by pairing market under-positioning with observed regretted exits, creating a focused action list for band and equity interventions.",
+        "key_data": {
+          "Senior Software Engineer (L5) midpoint-to-P50": "0.91",
+          "Senior Software Engineer (L5) regretted exits": "6",
+          "Data Scientist (L4) midpoint-to-P50": "0.89",
+          "Data Scientist (L4) regretted exits": "4"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "Recommended salary band midpoint adjustments for priority bands (effective 2025-07-01)",
+        "purpose": "after midpoint-to-P50 impact.",
+        "key_data": {
+          "Band SE-L5 midpoint change": "+10.0%",
+          "Band DS-L4 midpoint change": "+12.0%",
+          "Band PM-L5 midpoint change": "+6.0%",
+          "Effective date": "2025-07-01"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "Equity correction plan for in-band employees below internal targets (FY2025)",
+        "purpose": "Details the number of employees needing equity corrections, the adjustment approach, and the annualised cost impact to ensure fairness while aligning with the new band structure.",
+        "key_data": {
+          "Employees in equity scope": "41",
+          "Annualised cost estimate": "$620,000",
+          "Median proposed increase": "5.5%",
+          "Largest individual increase (cap applied)": "12.0%"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1626637786.pdf",
+    "markdown": null,
+    "assets": []
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 26,
+    "actual_page_count": 18
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "table_0001_95a07f61",
+      "table_number": 1,
+      "caption": "Table 1: Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)",
+      "columns": [
+        "Job Family",
+        "Positioning Status",
+        "Level",
+        "Band Midpoint ($)",
+        "Market P50 ($)",
+        "Midpoint-to-P50 Ratio"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Software Engineering",
+          "Below Market - Moderate Gap",
+          "L4",
+          "138000",
+          "150000",
+          "0.92"
+        ],
+        [
+          "Product Management",
+          "Below Market - Slight Gap",
+          "L5",
+          "161500",
+          "170000",
+          "0.95"
+        ],
+        [
+          "Data Science",
+          "Below Market - Significant Gap",
+          "L4",
+          "126000",
+          "140000",
+          "0.9"
+        ],
+        [
+          "IT Infrastructure",
+          "At Market - Slightly Above",
+          "L3",
+          "101000",
+          "100000",
+          "1.01"
+        ],
+        [
+          "UX Design",
+          "Below Market - Slight Gap",
+          "L4",
+          "112000",
+          "118000",
+          "0.95"
+        ],
+        [
+          "Finance",
+          "Near Market - Minor Gap",
+          "L3",
+          "95000",
+          "98000",
+          "0.97"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Band Midpoint ($)": 733500.0,
+        "max_Band Midpoint ($)": 161500.0,
+        "min_Band Midpoint ($)": 95000.0,
+        "sum_Market P50 ($)": 776000.0,
+        "max_Market P50 ($)": 170000.0,
+        "min_Market P50 ($)": 98000.0,
+        "sum_Midpoint-to-P50 Ratio": 5.7,
+        "max_Midpoint-to-P50 Ratio": 1.01,
+        "min_Midpoint-to-P50 Ratio": 0.9
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Midpoint-to-P50 Ratio for Software Engineering at level L4?",
+          "answer": "0.92",
+          "assertions": [
+            {
+              "text": "The response must state 0.92."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Band Midpoint ($) for Product Management at level L5?",
+          "answer": "161500",
+          "assertions": [
+            {
+              "text": "The response must state 161500."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Positioning Status for IT Infrastructure at level L3?",
+          "answer": "At Market - Slightly Above",
+          "assertions": [
+            {
+              "text": "The response must state At Market - Slightly Above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0000_aed4e85a",
+      "heading": "Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)",
+      "word_count": 344,
+      "text_content": [
+        "**Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)**",
+        "The market benchmark for this analysis is the Radford Global Technology Survey 2025 H1 cut, applied with an effective date of 2025-03-01. Job-to-benchmark mapping used Radford job families and skill clusters; incumbents were aligned to the closest Radford benchmark using title, responsibilities, and location adjustments. Base salary market percentiles (P50, P25, P75) were retrieved from the cut and utilized without inflation adjustments. All comparisons reference midpoint-to-market calculations so that band midpoints are directly compared to Radford P50 values for consistent positioning. This approach preserves market consistency.",
+        "Across the 112 benchmarked roles included in the study, 38 roles (33.9%) have current midpoint-to-market P50 ratios below 0.95, indicating material underpositioning against market median. The shortfall is concentrated in technical individual contributor and mid-career engineering tracks, while senior leadership and specialized research grades show closer alignment. Role-level variances were quantified so compensation owners can prioritize where to investigate retention impact. The data snapshot date for these role-level findings aligns with the overall analysis timeline and supports targeted corrections referenced elsewhere. Findings are dated 2025-04-15 inclusive.",
+        "The aggregated measurement uses a weighted midpoint-to-market P50 metric, calculated by applying incumbent counts and band midpoints to Radford P50 benchmarks, yielding an overall weighted ratio of 0.97 as of 2025-04-15. Weighting privileges headcount exposure so large-population bands drive the consolidated view, which therefore reflects enterprise-level positioning rather than isolated role anomalies. A 0.97 overall ratio signals a modest market lag relative to the median; it informs budget prioritization and indicates that while systemic underpositioning exists, concentrated interventions can align at-risk cohorts more efficiently at scale.",
+        "Limitations and governance considerations are important when interpreting the 2025 H1 cut results and the 2025-03-01 effective date. The Radford dataset reflects base salary market positioning; total cash, equity, and benefits require supplemental market inputs and localized cost-of-living adjustments. Currency exchange conventions and geography-specific pay differentials were normalized but remain sensitivity points. Recommended next steps include formalizing a quarterly refresh cadence, documenting job-to-benchmark mapping rules, and establishing an approval workflow for any FY2025 implementation actions to ensure transparent, auditable adjustments aligned with enterprise compensation policy reqs.."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)\" section, what is the effective date applied to the Radford Global Technology Survey 2025 H1 cut?",
+          "answer": "2025-03-01",
+          "assertions": [
+            {
+              "text": "The response must state 2025-03-01."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)\" section, how many benchmarked roles are included in the study?",
+          "answer": "112 benchmarked roles",
+          "assertions": [
+            {
+              "text": "The response must state 112 benchmarked roles."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)\" section, what overall weighted midpoint-to-market P50 ratio was yielded as of 2025-04-15?",
+          "answer": "0.97",
+          "assertions": [
+            {
+              "text": "The response must state 0.97."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "text",
+      "variant_id": "text_0001_e1dca7e5",
+      "heading": "Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)",
+      "word_count": 336,
+      "text_content": [
+        "**Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)**",
+        "Analysis identified concentrated attrition-risk hotspots within critical disciplines: engineering, product, sales operations and customer success. The top 10 attrition-risk roles account for 27 regretted exits in the last 12 months ending 2025-04-30, with these departures concentrated in mid- to senior-level individual contributors. Regretted exits are defined as voluntary departures of incumbents with high performance or critical knowledge. These data were triangulated with exit interviews and manager feedback to confirm that loss severity and frequency in these roles materially exceeds organizational averages and strategic continuity.",
+        "Market positioning analysis shows that pay band placement and midpoints for several of the hotspot roles lag external benchmarks, correlating with elevated turnover. Internal compa-ratios and external percentile gaps indicate under-market positioning between the 25th and 50th percentiles for affected roles, amplified by competitive demand for specialized skills. Non-compensation factors (career path clarity, manager effectiveness) were considered, but quantitative alignmnet with survey pricing explains the largest share of attrition variance in the impacted cohorts during the assessment period. This insight guided targeted actions immediately.",
+        "To address compensation-driven risk, recommended adjustments increase 6 pay band midpoints by +6.0% to +12.0% effective 2025-07-01. The six targeted bands span mid-career technical ICs, senior product specialists, and selected sales and customer success levels. Implementation will proceed via a single-cycle payroll adjustment on the July 2025 compensation run, with calibrations validated by Total Rewards and Finance. Impact modelling projects a reduction in salary-related attrition probability among affected incumbents within six months, and the adjustments are subject to post-implementation review with governance oversight assigned.",
+        "Equity correction actions target pay inequities identified in the affected populations and cover 41 employees with an estimated annualiesd cost of $620,000. Corrections are prioritized by severity, performance status, and time-in-role, with highest priority cases processed in the July 2025 adjustment cycle and remaining cases completed by Q3 FY2025. Funding will be coordinated between People & Culture and Finance, with a dedicated ledger to ensure transparency. Success metrics include a measurable decerase in regretted exits among corrected incumbents and quarterly monitoring through 2025-12-31 reporting."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)\" section, how many regretted exits are attributed to the top 10 attrition-risk roles in the last 12 months ending 2025-04-30?",
+          "answer": "27 regretted exits",
+          "assertions": [
+            {
+              "text": "The response must state 27 regretted exits."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)\" section, by what percentage range will the 6 pay band midpoints be increased effective 2025-07-01?",
+          "answer": "+6.0% to +12.0%",
+          "assertions": [
+            {
+              "text": "The response must state +6.0% to +12.0%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)\" section, how many employees are covered by the equity correction actions?",
+          "answer": "41 employees",
+          "assertions": [
+            {
+              "text": "The response must state 41 employees."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "table_0002_8f9b7c7e",
+      "table_number": 2,
+      "caption": "Table 2: Distribution of roles by compa-ratio to market P50 (midpoint-to-P50 buckets)",
+      "columns": [
+        "Compa-Ratio Band",
+        "Roles (Count)",
+        "% of Total Roles (n=112)",
+        "Attrition Risk Level",
+        "Below 0.95 Threshold",
+        "Recommended Action",
+        "Primary Market Survey Source",
+        "Data As Of"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "<0.85",
+          "5",
+          "4.5%",
+          "Critical",
+          "Yes",
+          "Immediate salary correction to minimum of 0.95 compa-ratio",
+          "Radford Technology Survey",
+          "2026-03-31"
+        ],
+        [
+          "0.85–0.89",
+          "9",
+          "8.0%",
+          "",
+          "Yes",
+          "Off-cycle market adjustment review",
+          "Radford Technology Survey",
+          "2026-03-31"
+        ],
+        [
+          "<0.90",
+          "",
+          "12.5%",
+          "High",
+          "Yes",
+          "Prioritise for equity correction pool",
+          "Radford Technology Survey",
+          "2026-03-31"
+        ],
+        [
+          "0.90–0.94",
+          "24",
+          "21.4%",
+          "Moderate",
+          "Yes",
+          "Adjust during annual merit cycle to ≥0.95",
+          "Mercer Total Remuneration Survey",
+          "2026-03-31"
+        ],
+        [
+          "0.95–1.05",
+          "62",
+          "55.4%",
+          "Low",
+          "No",
+          "Maintain within current band; standard merit increases",
+          "Mercer Total Remuneration Survey",
+          "2026-03-31"
+        ],
+        [
+          ">1.05",
+          "12",
+          "10.7%",
+          "Monitor",
+          "No",
+          "Review for compression risk; limit future increases",
+          "Willis Towers Watson Compensation Survey",
+          "2026-03-31"
+        ],
+        [
+          "1.06–1.15",
+          "8",
+          "7.1%",
+          "Monitor",
+          "No",
+          "Assess internal equity alignment",
+          "Willis Towers Watson Compensation Survey",
+          "2026-03-31"
+        ],
+        [
+          ">1.15",
+          "4",
+          "3.6%",
+          "Low",
+          "No",
+          "Freeze base pay; consider bonus rebalancing",
+          "Willis Towers Watson Compensation Survey",
+          "2026-03-31"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Roles (Count)": 124.0,
+        "max_Roles (Count)": 62.0,
+        "min_Roles (Count)": 4.0,
+        "sum_% of Total Roles (n=112)": 123.2,
+        "max_% of Total Roles (n=112)": 55.4,
+        "min_% of Total Roles (n=112)": 3.6
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Distribution of roles by compa-ratio to market P50 (midpoint-to-P50 buckets)\", what is the Recommended Action for the Compa-Ratio Band \"<0.85\"?",
+          "answer": "Immediate salary correction to minimum of 0.95 compa-ratio",
+          "assertions": [
+            {
+              "text": "The response must state Immediate salary correction to minimum of 0.95 compa-ratio."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Distribution of roles by compa-ratio to market P50 (midpoint-to-P50 buckets)\", what is the Primary Market Survey Source for the 0.90–0.94 band?",
+          "answer": "Mercer Total Remuneration Survey",
+          "assertions": [
+            {
+              "text": "The response must state Mercer Total Remuneration Survey."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Distribution of roles by compa-ratio to market P50 (midpoint-to-P50 buckets)\", what is the Data As Of date listed for the >1.15 band?",
+          "answer": "2026-03-31",
+          "assertions": [
+            {
+              "text": "The response must state 2026-03-31."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "table",
+      "variant_id": "table_0004_3da6b45d",
+      "table_number": 3,
+      "caption": "Table 3: Recommended salary band midpoint adjustments for priority bands (effective 2025-07-01)",
+      "columns": [
+        "Band",
+        "Current Midpoint (USD)",
+        "Market P50 (USD)",
+        "Proposed Midpoint Change",
+        "Midpoint-to-P50 Before",
+        "Midpoint-to-P50 After",
+        "Attrition Risk Level",
+        "Effective Date"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "SE-L4",
+          "105000",
+          "112000",
+          "+5.5%",
+          "-6.3%",
+          "-1.2%",
+          "Medium",
+          "2025-07-01"
+        ],
+        [
+          "SE-L5",
+          "130000",
+          "145000",
+          "+10.0%",
+          "-10.3%",
+          "-1.3%",
+          "High",
+          "2025-07-01"
+        ],
+        [
+          "DS-L4",
+          "120000",
+          "138000",
+          "+12.0%",
+          "-13.0%",
+          "-2.5%",
+          "High",
+          "2025-07-01"
+        ],
+        [
+          "DS-L5",
+          "150000",
+          "162000",
+          "+7.0%",
+          "-7.4%",
+          "-0.9%",
+          "Medium",
+          "2025-07-01"
+        ],
+        [
+          "PM-L4",
+          "110000",
+          "118000",
+          "+4.0%",
+          "-6.8%",
+          "-2.9%",
+          "Medium",
+          "2025-07-01"
+        ],
+        [
+          "PM-L5",
+          "135000",
+          "144000",
+          "+6.0%",
+          "-6.3%",
+          "-0.4%",
+          "High",
+          "2025-07-01"
+        ],
+        [
+          "UX-L4",
+          "98000",
+          "102000",
+          "+3.5%",
+          "-3.9%",
+          "-0.5%",
+          "Low",
+          "2025-07-01"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Current Midpoint (USD)": 848000.0,
+        "max_Current Midpoint (USD)": 150000.0,
+        "min_Current Midpoint (USD)": 98000.0,
+        "sum_Market P50 (USD)": 921000.0,
+        "max_Market P50 (USD)": 162000.0,
+        "min_Market P50 (USD)": 102000.0,
+        "sum_Proposed Midpoint Change": 48.0,
+        "max_Proposed Midpoint Change": 12.0,
+        "min_Proposed Midpoint Change": 3.5,
+        "sum_Midpoint-to-P50 Before": -54.0,
+        "max_Midpoint-to-P50 Before": -3.9,
+        "min_Midpoint-to-P50 Before": -13.0,
+        "sum_Midpoint-to-P50 After": -9.7,
+        "max_Midpoint-to-P50 After": -0.4,
+        "min_Midpoint-to-P50 After": -2.9
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Recommended salary band midpoint adjustments for priority bands (effective 2025-07-01)\", what is the Proposed Midpoint Change for SE-L5?",
+          "answer": "+10.0%",
+          "assertions": [
+            {
+              "text": "The response must state +10.0%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Recommended salary band midpoint adjustments for priority bands (effective 2025-07-01)\", what is the Attrition Risk Level for DS-L4?",
+          "answer": "High",
+          "assertions": [
+            {
+              "text": "The response must state High."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Recommended salary band midpoint adjustments for priority bands (effective 2025-07-01)\", what is the Current Midpoint (USD) for UX-L4?",
+          "answer": "98000",
+          "assertions": [
+            {
+              "text": "The response must state 98000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "table",
+      "variant_id": "cx_table_0002_1b8169c5",
+      "table_number": 4,
+      "caption": "Table 4: Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the H1 Attainment% for \"Roles within ±5% of market median\"?",
+          "answer": "89%",
+          "assertions": [
+            {
+              "text": "The response must state '89%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many metrics does the \"Attrition Risk & Retention Pressure\" category rowspan cover?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", which metric has the lower H2 attainment in the \"Equity Corrections & Budget Impact\" category?",
+          "answer": "ethnicity) at 93%",
+          "assertions": [
+            {
+              "text": "ethnicity) at 93%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the H2 target for \"Band midpoint adjustments funded\"?",
+          "answer": "$0.95M",
+          "assertions": [
+            {
+              "text": "The response must state '$0.95M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what explicit percentage is shown among the table facts?",
+          "answer": "89%",
+          "assertions": [
+            {
+              "text": "The response must state '89%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many header tiers are present?",
+          "answer": "3 rows",
+          "assertions": [
+            {
+              "text": "The response must state '3 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", which value is highest among the explicit numeric answers listed in the facts?",
+          "answer": "89%",
+          "assertions": [
+            {
+              "text": "The response must state '89%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what annotation in the title indicates the compared periods?",
+          "answer": "(H1 vs H2)",
+          "assertions": [
+            {
+              "text": "The response must state '(H1 vs H2)'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the subtotal count for the Data rows group?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state '16'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "cx_table_0001_f4915a2e",
+      "table_number": 5,
+      "caption": "Table 5: Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what sub-columns fall under \"Market (Tech Survey)\" in the \"Software Engineering (IC3–IC5)\" row's inner pay-band table?",
+          "answer": "P50 and P75.",
+          "assertions": [
+            {
+              "text": "The response must state 'P50 and P75.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", how many rows does the \"Voluntary attrition (IC4)\" label span in the inner \"Attrition Risk Signals\" table for \"Software Engineering (IC3–IC5)\"?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what does footnote 3 explain?",
+          "answer": "50 pay mix assumption and excludes one-time sign-on guarantees, and that internal OTE reflects the FY2026 plan year effective 2026-01-01.",
+          "assertions": [
+            {
+              "text": "50 pay mix assumption and excludes one-time sign-on guarantees, and that internal OTE reflects the FY2026 plan year effective 2026-01-01.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what is the Market OTE P75 for \"Enterprise AE\" in the Sales row's inner OTE table?",
+          "answer": "$380k.",
+          "assertions": [
+            {
+              "text": "The response must state '$380k.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what is the quota attainment (median) result shown under the \"Enterprise AE churn\" merged label in the Sales row's inner risk-driver table?",
+          "answer": "72%.",
+          "assertions": [
+            {
+              "text": "The response must state '72%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what market percentiles are shown under Market Positioning?",
+          "answer": "P50 and P75",
+          "assertions": [
+            {
+              "text": "The response must state 'P50 and P75'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", how many header rows does the table have?",
+          "answer": "2 rows",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", which percentile is higher, P50 or P75?",
+          "answer": "P75",
+          "assertions": [
+            {
+              "text": "The response must state 'P75'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what does the footnote say about Sales market OTE and internal OTE?",
+          "answer": "50 mix; excludes sign-on guarantees; internal OTE effective 2026-01-01",
+          "assertions": [
+            {
+              "text": "50 mix; excludes sign-on guarantees; internal OTE effective 2026-01-01'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what is the subtotal number of data rows reported?",
+          "answer": "5 rows",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "table_0003_0e4a8f5a",
+      "table_number": 6,
+      "caption": "Table 6: Top attrition-risk roles combining pay gap and regretted attrition (12 months ending 2025-04-30)",
+      "columns": [
+        "Risk Rank",
+        "Role",
+        "Midpoint-to-P50",
+        "Regretted Exits (12m)",
+        "Market Gap (%)",
+        "Estimated Equity Gap per Incumbent (USD)",
+        "Primary Attrition Driver",
+        "Recommended Action",
+        "Target Band Adjustment (%)"
+      ],
+      "row_count": 10,
+      "cells": [
+        [
+          "1",
+          "Senior Software Engineer (L5)",
+          "0.91",
+          "6",
+          "-9%",
+          "18500",
+          "Below-market base pay vs competitors",
+          "Increase midpoint and issue targeted equity refresh",
+          "8%"
+        ],
+        [
+          "2",
+          "Data Scientist (L4)",
+          "0.89",
+          "4",
+          "-11%",
+          "16200",
+          "ML market",
+          "Adjust band and implement retention grants",
+          "10%"
+        ],
+        [
+          "3",
+          "Product Manager (L5)",
+          "0.93",
+          "3",
+          "-7%",
+          "14000",
+          "High demand in growth-stage startups",
+          "Raise midpoint and review sign-on strategy",
+          "6%"
+        ],
+        [
+          "4",
+          "DevOps Engineer (L4)",
+          "0.92",
+          "3",
+          "-8%",
+          "12500",
+          "Cloud certification premium in market",
+          "Mid-year market adjustment and spot bonuses",
+          "7%"
+        ],
+        [
+          "5",
+          "UX Designer (L3)",
+          "0.95",
+          "2",
+          "-5%",
+          "9000",
+          "Competitive agency offers",
+          "Equity top-up for critical talent",
+          "4%"
+        ],
+        [
+          "6",
+          "Engineering Manager (L6)",
+          "0.97",
+          "2",
+          "-3%",
+          "15000",
+          "Leadership poaching by competitors",
+          "Selective equity refresh grants",
+          "3%"
+        ],
+        [
+          "7",
+          "Cybersecurity Analyst (L4)",
+          "0.94",
+          "2",
+          "-6%",
+          "11000",
+          "Hot cybersecurity labor market",
+          "Increase midpoint and certification bonus",
+          "5%"
+        ],
+        [
+          "8",
+          "Sales Engineer (L4)",
+          "0.96",
+          "1",
+          "-4%",
+          "8000",
+          "Commission upside elsewhere",
+          "Adjust variable pay mix",
+          "3%"
+        ],
+        [
+          "9",
+          "QA Automation Engineer (L3)",
+          "0.98",
+          "1",
+          "-2%",
+          "6000",
+          "Remote-first competitors",
+          "Minor midpoint correction",
+          "2%"
+        ],
+        [
+          "10",
+          "HR Business Partner (L4)",
+          "1.01",
+          "0",
+          "+1%",
+          "0",
+          "Market-aligned pay",
+          "No immediate action; monitor market",
+          "0%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Risk Rank": 55.0,
+        "max_Risk Rank": 10.0,
+        "min_Risk Rank": 1.0,
+        "sum_Midpoint-to-P50": 9.46,
+        "max_Midpoint-to-P50": 1.01,
+        "min_Midpoint-to-P50": 0.89,
+        "sum_Regretted Exits (12m)": 24.0,
+        "max_Regretted Exits (12m)": 6.0,
+        "min_Regretted Exits (12m)": 0.0,
+        "sum_Market Gap (%)": -54.0,
+        "max_Market Gap (%)": 1.0,
+        "min_Market Gap (%)": -11.0,
+        "sum_Estimated Equity Gap per Incumbent (USD)": 110200.0,
+        "max_Estimated Equity Gap per Incumbent (USD)": 18500.0,
+        "min_Estimated Equity Gap per Incumbent (USD)": 0.0,
+        "sum_Target Band Adjustment (%)": 48.0,
+        "max_Target Band Adjustment (%)": 10.0,
+        "min_Target Band Adjustment (%)": 0.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Top attrition-risk roles combining pay gap and regretted attrition (12 months ending 2025-04-30)\", what is the Estimated Equity Gap per Incumbent (USD) for Senior Software Engineer (L5)?",
+          "answer": "18500",
+          "assertions": [
+            {
+              "text": "The response must state 18500."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top attrition-risk roles combining pay gap and regretted attrition (12 months ending 2025-04-30)\", what is the Primary Attrition Driver listed for Data Scientist (L4)?",
+          "answer": "ML market",
+          "assertions": [
+            {
+              "text": "ML market."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Top attrition-risk roles combining pay gap and regretted attrition (12 months ending 2025-04-30)\", what is the Target Band Adjustment (%) for HR Business Partner (L4)?",
+          "answer": "0%",
+          "assertions": [
+            {
+              "text": "The response must state 0%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "cx_table_0000_afa54679",
+      "table_number": 7,
+      "caption": "Table 7: Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many sub-columns does each period group span?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the H1 Attainment% for \"Retention bonus spend (critical roles)\"?",
+          "answer": "94%",
+          "assertions": [
+            {
+              "text": "The response must state '94%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many metrics does the \"Attrition Risk & Retention Levers\" category rowspan cover?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", which metric has the lower H2 attainment in the \"Pay Equity & Compression Corrections\" category?",
+          "answer": "Equity adjustments required (budget) at 103%",
+          "assertions": [
+            {
+              "text": "The response must state 'Equity adjustments required (budget) at 103%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the H2 target for \"Estimated salary band uplift to reach market (budget)\"?",
+          "answer": "$1.40M",
+          "assertions": [
+            {
+              "text": "The response must state '$1.40M'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many header tiers are present?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many data rows are in the table?",
+          "answer": "16",
+          "assertions": [
+            {
+              "text": "The response must state '16'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", which value among the listed facts is the largest?",
+          "answer": "94%",
+          "assertions": [
+            {
+              "text": "The response must state '94%'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what does footnote 1 explain?",
+          "answer": "No footnotes provided.",
+          "assertions": [
+            {
+              "text": "The response must state 'No footnotes provided.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the subtotal for the 'Attrition Risk' group in H1?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0005_934a99d1",
+      "table_number": 8,
+      "caption": "Table 8: Equity correction plan for in-band employees below internal targets (FY2025)",
+      "columns": [
+        "Role Group",
+        "Employees in Equity Scope",
+        "Median Proposed Increase (%)",
+        "Largest Individual Increase (Cap Applied) (%)",
+        "Adjustment Approach",
+        "Annualised Cost Estimate (USD)",
+        "Implementation Phase",
+        "Effective Date",
+        "Funding Source",
+        "Attrition Risk Level",
+        "Status"
+      ],
+      "row_count": 11,
+      "cells": [
+        [
+          "Corporate Services",
+          "6",
+          "4.8%",
+          "9.5%",
+          "Base salary uplift to new band minimum",
+          "$82,000",
+          "Phase 1",
+          "2026-07-01",
+          "Operating Budget Reallocation",
+          "Moderate",
+          "Approved"
+        ],
+        [
+          "Finance",
+          "5",
+          "5.2%",
+          "10.0%",
+          "Targeted equity adjustment to midpoint",
+          "$74,000",
+          "Phase 1",
+          "2026-07-01",
+          "Operating Budget Reallocation",
+          "High",
+          "Approved"
+        ],
+        [
+          "Human Resources",
+          "4",
+          "5.0%",
+          "8.5%",
+          "Alignment to revised band structure",
+          "$48,000",
+          "Phase 1",
+          "2026-07-01",
+          "Operating Budget Reallocation",
+          "Moderate",
+          "Approved"
+        ],
+        [
+          "Information Technology",
+          "8",
+          "6.5%",
+          "12.0%",
+          "Market catch-up plus compression correction",
+          "$168,000",
+          "Phase 2",
+          "2026-09-01",
+          "Strategic Workforce Fund",
+          "High",
+          "Pending Final Sign-off"
+        ],
+        [
+          "Operations",
+          "7",
+          "5.7%",
+          "11.0%",
+          "Adjustment to new band midpoint",
+          "$112,000",
+          "Phase 2",
+          "2026-09-01",
+          "Operating Budget Reallocation",
+          "High",
+          "Approved"
+        ],
+        [
+          "Sales",
+          "3",
+          "4.5%",
+          "7.5%",
+          "Base uplift to maintain internal equity",
+          "$39,000",
+          "Phase 2",
+          "2026-09-01",
+          "Revenue Growth Allocation",
+          "Moderate",
+          "Approved"
+        ],
+        [
+          "Marketing",
+          "2",
+          "4.0%",
+          "6.0%",
+          "Compression correction only",
+          "$21,000",
+          "Phase 3",
+          "2026-11-01",
+          "Department Savings",
+          "Low",
+          "Approved"
+        ],
+        [
+          "Product Management",
+          "3",
+          "6.0%",
+          "10.5%",
+          "Market realignment to 50th percentile",
+          "$46,000",
+          "Phase 3",
+          "2026-11-01",
+          "Strategic Workforce Fund",
+          "High",
+          "Pending Final Sign-off"
+        ],
+        [
+          "Customer Support",
+          "2",
+          "3.8%",
+          "5.5%",
+          "Adjustment to new band minimum",
+          "$18,000",
+          "Phase 3",
+          "2026-11-01",
+          "Operating Budget Reallocation",
+          "Moderate",
+          "Approved"
+        ],
+        [
+          "Legal & Compliance",
+          "1",
+          "4.2%",
+          "4.2%",
+          "Band minimum alignment",
+          "$12,000",
+          "Phase 3",
+          "2026-11-01",
+          "Operating Budget Reallocation",
+          "Low",
+          "Approved"
+        ],
+        [
+          " Study Summary",
+          "41",
+          "5.5%",
+          "12.0%",
+          "Equity corrections aligned to new band structure with capped increases",
+          "$620,000",
+          "Phased Implementation",
+          "2026-07-01 to 2026-11-01",
+          "Mixed Funding Sources",
+          "Elevated in IT & Operations",
+          "Board Approved"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Employees in Equity Scope": 82.0,
+        "max_Employees in Equity Scope": 41.0,
+        "min_Employees in Equity Scope": 1.0,
+        "sum_Median Proposed Increase (%)": 55.2,
+        "max_Median Proposed Increase (%)": 6.5,
+        "min_Median Proposed Increase (%)": 3.8,
+        "sum_Largest Individual Increase (Cap Applied) (%)": 96.7,
+        "max_Largest Individual Increase (Cap Applied) (%)": 12.0,
+        "min_Largest Individual Increase (Cap Applied) (%)": 4.2,
+        "sum_Annualised Cost Estimate (USD)": 1240000.0,
+        "max_Annualised Cost Estimate (USD)": 620000.0,
+        "min_Annualised Cost Estimate (USD)": 12000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Equity correction plan for in-band employees below internal targets (FY2025)\", what is the Annualised Cost Estimate (USD) for Information Technology?",
+          "answer": "$168,000",
+          "assertions": [
+            {
+              "text": "The response must state $168,000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Equity correction plan for in-band employees below internal targets (FY2025)\", what is the Effective Date listed for Phase 1 entries?",
+          "answer": "2026-07-01",
+          "assertions": [
+            {
+              "text": "The response must state 2026-07-01."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Equity correction plan for in-band employees below internal targets (FY2025)\", what is the Attrition Risk Level for Product Management?",
+          "answer": "High",
+          "assertions": [
+            {
+              "text": "The response must state High."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_4ecb3097",
+      "table_number": 9,
+      "caption": "Table 9: Employee Activity Report",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "row_count": 51,
+      "cells": [
+        [
+          "E001",
+          "Software Engineer II",
+          "85000",
+          "92000",
+          "High"
+        ],
+        [
+          "E002",
+          "Senior Software Engineer",
+          "112000",
+          "118500",
+          "Medium"
+        ],
+        [
+          "E003",
+          "HR Business Partner",
+          "78000",
+          "76000",
+          "Low"
+        ],
+        [
+          "E004",
+          "Finance Analyst",
+          "69000",
+          "73000",
+          "Medium"
+        ],
+        [
+          "E005",
+          "Data Scientist",
+          "98000",
+          "105000",
+          "High"
+        ],
+        [
+          "E006",
+          "IT Support Specialist",
+          "54000",
+          "56000",
+          "Low"
+        ],
+        [
+          "E007",
+          "Marketing Manager",
+          "91000",
+          "95000",
+          "Medium"
+        ],
+        [
+          "E008",
+          "Sales Executive",
+          "72000",
+          "88000",
+          "High"
+        ],
+        [
+          "E009",
+          "Operations Manager",
+          "103000",
+          "101000",
+          "Low"
+        ],
+        [
+          "E010",
+          "Product Manager",
+          "115000",
+          "123000",
+          "Medium"
+        ],
+        [
+          "E011",
+          "UX Designer",
+          "87000",
+          "93000",
+          "High"
+        ],
+        [
+          "E012",
+          "Compliance Officer",
+          "82000",
+          "80000",
+          "Low"
+        ],
+        [
+          "E013",
+          "DevOps Engineer",
+          "99000",
+          "110000",
+          "High"
+        ],
+        [
+          "E014",
+          "Customer Success Manager",
+          "76000",
+          "79000",
+          "Medium"
+        ],
+        [
+          "E015",
+          "Business Analyst",
+          "83000",
+          "87000",
+          "Medium"
+        ],
+        [
+          "16",
+          "Compiled base salary data from 2025 market survey",
+          "HR Analyst",
+          "Benchmarking Phase",
+          "3.5 hrs"
+        ],
+        [
+          "17",
+          "Validated job family mappings against survey roles",
+          "Compensation Manager",
+          "Data Validation",
+          "2 hrs"
+        ],
+        [
+          "18",
+          "Reviewed pay band midpoints versus industry median",
+          "HR Director",
+          "Analysis",
+          "1.5 hrs"
+        ],
+        [
+          "19",
+          "Updated spreadsheet with revised geographic differentials",
+          "Compensation Analyst",
+          "Data Update",
+          "2.5 hrs"
+        ],
+        [
+          "20",
+          "Conducted regression analysis on pay vs. tenure",
+          "People Analytics Lead",
+          "Statistical Review",
+          "4 hrs"
+        ],
+        [
+          "21",
+          "Prepared charts comparing 25th, 50th, 75th percentiles",
+          "HR Analyst",
+          "Reporting",
+          "3 hrs"
+        ],
+        [
+          "22",
+          "Met with Finance to review budget impact scenarios",
+          "HR Director",
+          "Stakeholder Meeting",
+          "1 hr"
+        ],
+        [
+          "23",
+          "Audited bonus target data for executive roles",
+          "Compensation Manager",
+          "Quality Assurance",
+          "2 hrs"
+        ],
+        [
+          "24",
+          "Documented methodology for market pricing approach",
+          "Compensation Analyst",
+          "Documentation",
+          "1.5 hrs"
+        ],
+        [
+          "25",
+          "Cross-checked internal job grades with survey levels",
+          "HR Analyst",
+          "Data Reconciliation",
+          "2 hrs"
+        ],
+        [
+          "26",
+          "Analyzed compression risks in technical pay bands",
+          "People Analytics Lead",
+          "Risk Assessment",
+          "2.5 hrs"
+        ],
+        [
+          "27",
+          "Drafted summary of findings for leadership review",
+          "HR Director",
+          "Executive Summary",
+          "2 hrs"
+        ],
+        [
+          "28",
+          "Incorporated feedback from department heads",
+          "Compensation Manager",
+          "Revision",
+          "1.5 hrs"
+        ],
+        [
+          "29",
+          "Finalized recommendations for pay band adjustments",
+          "Compensation Analyst",
+          "Recommendation Development",
+          "3 hrs"
+        ],
+        [
+          "30",
+          "Prepared appendix with raw benchmark data tables",
+          "HR Analyst",
+          "Appendix Preparation",
+          "2 hrs"
+        ],
+        [
+          "31",
+          "Conducted regression analysis on pay vs. tenure",
+          "Compensation Analyst",
+          "6 hrs",
+          "Completed"
+        ],
+        [
+          "32",
+          "Validated market survey data against internal job codes",
+          "HR Data Specialist",
+          "5 hrs",
+          "Completed"
+        ],
+        [
+          "33",
+          "Reviewed outlier salary cases with HR Business Partners",
+          "Total Rewards Manager",
+          "4 hrs",
+          "In Progress"
+        ],
+        [
+          "34",
+          "Updated pay band comparison charts for executive review",
+          "Compensation Analyst",
+          "3 hrs",
+          "Completed"
+        ],
+        [
+          "35",
+          "Benchmarked technology roles against 2026 survey dataset",
+          "Market Pricing Lead",
+          "7 hrs",
+          "Completed"
+        ],
+        [
+          "36",
+          "Prepared summary of geographic pay differentials",
+          "HR Analyst",
+          "4 hrs",
+          "Completed"
+        ],
+        [
+          "37",
+          "Met with Finance to align on budget impact scenarios",
+          "Total Rewards Director",
+          "2 hrs",
+          "Completed"
+        ],
+        [
+          "38",
+          "Audited job leveling framework for consistency",
+          "Compensation Consultant",
+          "5 hrs",
+          "In Progress"
+        ],
+        [
+          "39",
+          "Consolidated survey vendor reports into master workbook",
+          "HR Coordinator",
+          "6 hrs",
+          "Completed"
+        ],
+        [
+          "40",
+          "Modeled merit increase scenarios based on market gaps",
+          "Compensation Analyst",
+          "8 hrs",
+          "Completed"
+        ],
+        [
+          "41",
+          "Reviewed benefits load assumptions in total cash comparison",
+          "Finance Analyst",
+          "3 hrs",
+          "Completed"
+        ],
+        [
+          "42",
+          "Drafted narrative for methodology section of report",
+          "Total Rewards Manager",
+          "4 hrs",
+          "Completed"
+        ],
+        [
+          "43",
+          "Validated exchange rates for international salary data",
+          "Global Mobility Specialist",
+          "2 hrs",
+          "Completed"
+        ],
+        [
+          "44",
+          "Analyzed compression risks across pay bands",
+          "Compensation Analyst",
+          "5 hrs",
+          "In Progress"
+        ],
+        [
+          "45",
+          "Finalized executive dashboard for compensation benchmarking findings",
+          "HR Reporting Lead",
+          "6 hrs",
+          "Completed"
+        ],
+        [
+          "46",
+          "Validated matched job families against latest market survey cuts",
+          "Compensation Analyst",
+          "Completed validation log and discrepancy notes",
+          "3.5 hrs"
+        ],
+        [
+          "47",
+          "Adjusted pay band midpoints based on regression outputs",
+          "Total Rewards Manager",
+          "Updated pay band modeling worksheet v2.1",
+          "4 hrs"
+        ],
+        [
+          "48",
+          "Reviewed geographic differentials for tier-2 locations",
+          "HR Business Partner",
+          "Summary of geo-differential impact analysis",
+          "2.5 hrs"
+        ],
+        [
+          "49",
+          "Benchmarked executive roles against premium survey dataset",
+          "Senior Compensation Consultant",
+          "Executive comparison slide deck (draft)",
+          "5 hrs"
+        ],
+        [
+          "50",
+          "Reconciled internal job codes with survey job mappings",
+          "HRIS Analyst",
+          "Revised job mapping reference file",
+          "3 hrs"
+        ],
+        [
+          "51",
+          "Prepared narrative insights on market positioning gaps",
+          "Compensation Analyst",
+          "Draft report section: Market Gap Analysis",
+          "4.5 hrs"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Col1": 1206.0,
+        "max_Col1": 51.0,
+        "min_Col1": 16.0,
+        "sum_Col3": 1304000.0,
+        "max_Col3": 115000.0,
+        "min_Col3": 54000.0,
+        "sum_Col4": 1376500.0,
+        "max_Col4": 123000.0,
+        "min_Col4": 56000.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what value appears in Col4 for employee E005?",
+          "answer": "105000",
+          "assertions": [
+            {
+              "text": "The response must state 105000."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the status listed in Col5 for row 44?",
+          "answer": "In Progress",
+          "assertions": [
+            {
+              "text": "The response must state In Progress."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Employee Activity Report\", what is the value of max_Col4 in the Aggregates section?",
+          "answer": "123000.0",
+          "assertions": [
+            {
+              "text": "The response must state 123000.0."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "table_0000_da3d7cfe",
+      "table_number": 10,
+      "caption": "Table 10: Benchmark role coverage and survey mapping summary (Radford 2025 H1; effective 2025-03-01)",
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col6",
+        "Col5"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "Engineering – Software Development (IC Levels 1–6)",
+          "Mapped to: Software Engineer I–VI (Global Tech)",
+          "North America, EMEA, APAC",
+          "Full-time regular employees",
+          "Survey source: Radford Global Technology Survey 2025 H1",
+          "Primary Survey Source"
+        ],
+        [
+          "Engineering – DevOps & Site Reliability",
+          " SRE",
+          "North America, EMEA",
+          "Full-time regular employees",
+          "Survey effective date: 2025-03-01",
+          "Survey Effective Date"
+        ],
+        [
+          "Product Management",
+          "Mapped to: Product Manager I–V",
+          "Global",
+          "Full-time regular employees",
+          "Benchmarked roles (count): 112",
+          "Benchmark Coverage"
+        ],
+        [
+          "Data Science & Analytics",
+          " Analytics Manager",
+          "North America, EMEA",
+          "Full-time regular employees",
+          "Employees in benchmarked roles: 1,486",
+          "Population Size"
+        ],
+        [
+          "Sales – Account Executives & Sales Engineers",
+          " Sales Engineer II–V",
+          "North America, LATAM, EMEA",
+          "Base + Variable Pay analyzed",
+          "Direct job code match (75%); hybrid composite match (25%)",
+          "Matching Methodology"
+        ],
+        [
+          "Customer Success & Support",
+          " Technical Support Engineer",
+          "Global",
+          "Full-time regular employees",
+          "Base salary, target bonus, total cash compensation (50th & 75th percentiles)",
+          "Data Scope"
+        ],
+        [
+          "Corporate Functions – HR, Finance, IT",
+          " IT Systems Engineer",
+          "North America, EMEA, APAC",
+          "Full-time regular employees",
+          "Reviewed by Compensation Committee – April 2025",
+          "Audit Status"
+        ]
+      ],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Benchmark role coverage and survey mapping summary (Radford 2025 H1; effective 2025-03-01)\", what is the survey source listed for Engineering – Software Development (IC Levels 1–6)?",
+          "answer": "Survey source: Radford Global Technology Survey 2025 H1",
+          "assertions": [
+            {
+              "text": "The response must state Survey source: Radford Global Technology Survey 2025 H1."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Benchmark role coverage and survey mapping summary (Radford 2025 H1; effective 2025-03-01)\", what is the population size for Data Science & Analytics?",
+          "answer": "Employees in benchmarked roles: 1,486",
+          "assertions": [
+            {
+              "text": "The response must state Employees in benchmarked roles: 1,486."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Benchmark role coverage and survey mapping summary (Radford 2025 H1; effective 2025-03-01)\", what is the audit status for Corporate Functions – HR, Finance, IT?",
+          "answer": "Reviewed by Compensation Committee – April 2025",
+          "assertions": [
+            {
+              "text": "The response must state Reviewed by Compensation Committee – April 2025."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "table_0001_95a07f61": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "formatting"
+      ],
+      "base_type": "Shows_where_current_band_midpoints_sit_relative_to_market_me",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Job Family",
+        "Positioning Status",
+        "Level",
+        "Band Midpoint ($)",
+        "Market P50 ($)",
+        "Midpoint-to-P50 Ratio"
+      ],
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "text_0000_aed4e85a": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations",
+        "unicode_punctuation"
+      ],
+      "heading": "Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)",
+      "word_count": 344,
+      "text_type": "llm_prose",
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "text_0001_e1dca7e5": {
+      "kind": "text",
+      "perturbations": [
+        "typos"
+      ],
+      "heading": "Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)",
+      "word_count": 336,
+      "text_type": "llm_prose",
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "table_0002_8f9b7c7e": {
+      "kind": "table",
+      "perturbations": [
+        "structural"
+      ],
+      "base_type": "Quantifies_how_many_roles_fall_below,_at,_or_above_market_to",
+      "row_count": 8,
+      "col_count": 8,
+      "columns": [
+        "Compa-Ratio Band",
+        "Roles (Count)",
+        "% of Total Roles (n=112)",
+        "Attrition Risk Level",
+        "Below 0.95 Threshold",
+        "Recommended Action",
+        "Primary Market Survey Source",
+        "Data As Of"
+      ],
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "table_0004_3da6b45d": {
+      "kind": "table",
+      "perturbations": [
+        "formatting"
+      ],
+      "base_type": "Provides_the_proposed_band_midpoint_changes_needed_to_move_t",
+      "row_count": 7,
+      "col_count": 8,
+      "columns": [
+        "Band",
+        "Current Midpoint (USD)",
+        "Market P50 (USD)",
+        "Proposed Midpoint Change",
+        "Midpoint-to-P50 Before",
+        "Midpoint-to-P50 After",
+        "Attrition Risk Level",
+        "Effective Date"
+      ],
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "cx_table_0002_1b8169c5": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "cx_table_0001_f4915a2e": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "table_0003_0e4a8f5a": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Ranks_roles_most_likely_to_lose_talent_by_pairing_market_und",
+      "row_count": 10,
+      "col_count": 9,
+      "columns": [
+        "Risk Rank",
+        "Role",
+        "Midpoint-to-P50",
+        "Regretted Exits (12m)",
+        "Market Gap (%)",
+        "Estimated Equity Gap per Incumbent (USD)",
+        "Primary Attrition Driver",
+        "Recommended Action",
+        "Target Band Adjustment (%)"
+      ],
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "cx_table_0000_afa54679": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "table_0005_934a99d1": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Details_the_number_of_employees_needing_equity_corrections,_",
+      "row_count": 11,
+      "col_count": 11,
+      "columns": [
+        "Role Group",
+        "Employees in Equity Scope",
+        "Median Proposed Increase (%)",
+        "Largest Individual Increase (Cap Applied) (%)",
+        "Adjustment Approach",
+        "Annualised Cost Estimate (USD)",
+        "Implementation Phase",
+        "Effective Date",
+        "Funding Source",
+        "Attrition Risk Level",
+        "Status"
+      ],
+      "topic_id": "compensation_benchmarking_study"
+    },
+    "llm_mp_table_0000_4ecb3097": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "employee_activity_report",
+      "row_count": 51,
+      "col_count": 5,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col5"
+      ],
+      "topic_id": ""
+    },
+    "table_0000_da3d7cfe": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Documents_which_internal_roles_were_benchmarked,_how_they_ma",
+      "row_count": 7,
+      "col_count": 6,
+      "columns": [
+        "Col1",
+        "Col2",
+        "Col3",
+        "Col4",
+        "Col6",
+        "Col5"
+      ],
+      "topic_id": "compensation_benchmarking_study"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Midpoint-to-P50 Ratio for Software Engineering at level L4?",
+      "answer": "0.92",
+      "assertions": [
+        {
+          "text": "The response must state 0.92."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Band Midpoint ($) for Product Management at level L5?",
+      "answer": "161500",
+      "assertions": [
+        {
+          "text": "The response must state 161500."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Pay band midpoint vs market P50 by job family and level (as of 2025-04-15)\", what is the Positioning Status for IT Infrastructure at level L3?",
+      "answer": "At Market - Slightly Above",
+      "assertions": [
+        {
+          "text": "The response must state At Market - Slightly Above."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)\" section, what is the effective date applied to the Radford Global Technology Survey 2025 H1 cut?",
+      "answer": "2025-03-01",
+      "assertions": [
+        {
+          "text": "The response must state 2025-03-01."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)\" section, how many benchmarked roles are included in the study?",
+      "answer": "112 benchmarked roles",
+      "assertions": [
+        {
+          "text": "The response must state 112 benchmarked roles."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Market Benchmarking Methodology and Pay Band Positioning (2025 Survey Cut)\" section, what overall weighted midpoint-to-market P50 ratio was yielded as of 2025-04-15?",
+      "answer": "0.97",
+      "assertions": [
+        {
+          "text": "The response must state 0.97."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)\" section, how many regretted exits are attributed to the top 10 attrition-risk roles in the last 12 months ending 2025-04-30?",
+      "answer": "27 regretted exits",
+      "assertions": [
+        {
+          "text": "The response must state 27 regretted exits."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)\" section, by what percentage range will the 6 pay band midpoints be increased effective 2025-07-01?",
+      "answer": "+6.0% to +12.0%",
+      "assertions": [
+        {
+          "text": "The response must state +6.0% to +12.0%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Attrition Risk Hotspots and Recommended Salary Band and Equity Corrections (FY2025 Implementation)\" section, how many employees are covered by the equity correction actions?",
+      "answer": "41 employees",
+      "assertions": [
+        {
+          "text": "The response must state 41 employees."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Distribution of roles by compa-ratio to market P50 (midpoint-to-P50 buckets)\", what is the Recommended Action for the Compa-Ratio Band \"<0.85\"?",
+      "answer": "Immediate salary correction to minimum of 0.95 compa-ratio",
+      "assertions": [
+        {
+          "text": "The response must state Immediate salary correction to minimum of 0.95 compa-ratio."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Distribution of roles by compa-ratio to market P50 (midpoint-to-P50 buckets)\", what is the Primary Market Survey Source for the 0.90–0.94 band?",
+      "answer": "Mercer Total Remuneration Survey",
+      "assertions": [
+        {
+          "text": "The response must state Mercer Total Remuneration Survey."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Distribution of roles by compa-ratio to market P50 (midpoint-to-P50 buckets)\", what is the Data As Of date listed for the >1.15 band?",
+      "answer": "2026-03-31",
+      "assertions": [
+        {
+          "text": "The response must state 2026-03-31."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Recommended salary band midpoint adjustments for priority bands (effective 2025-07-01)\", what is the Proposed Midpoint Change for SE-L5?",
+      "answer": "+10.0%",
+      "assertions": [
+        {
+          "text": "The response must state +10.0%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Recommended salary band midpoint adjustments for priority bands (effective 2025-07-01)\", what is the Attrition Risk Level for DS-L4?",
+      "answer": "High",
+      "assertions": [
+        {
+          "text": "The response must state High."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Recommended salary band midpoint adjustments for priority bands (effective 2025-07-01)\", what is the Current Midpoint (USD) for UX-L4?",
+      "answer": "98000",
+      "assertions": [
+        {
+          "text": "The response must state 98000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many sub-columns does each period group span?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the H1 Attainment% for \"Roles within ±5% of market median\"?",
+      "answer": "89%",
+      "assertions": [
+        {
+          "text": "The response must state '89%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many metrics does the \"Attrition Risk & Retention Pressure\" category rowspan cover?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", which metric has the lower H2 attainment in the \"Equity Corrections & Budget Impact\" category?",
+      "answer": "ethnicity) at 93%",
+      "assertions": [
+        {
+          "text": "ethnicity) at 93%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the H2 target for \"Band midpoint adjustments funded\"?",
+      "answer": "$0.95M",
+      "assertions": [
+        {
+          "text": "The response must state '$0.95M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what explicit percentage is shown among the table facts?",
+      "answer": "89%",
+      "assertions": [
+        {
+          "text": "The response must state '89%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many header tiers are present?",
+      "answer": "3 rows",
+      "assertions": [
+        {
+          "text": "The response must state '3 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", which value is highest among the explicit numeric answers listed in the facts?",
+      "answer": "89%",
+      "assertions": [
+        {
+          "text": "The response must state '89%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what annotation in the title indicates the compared periods?",
+      "answer": "(H1 vs H2)",
+      "assertions": [
+        {
+          "text": "The response must state '(H1 vs H2)'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the subtotal count for the Data rows group?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state '16'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what sub-columns fall under \"Market (Tech Survey)\" in the \"Software Engineering (IC3–IC5)\" row's inner pay-band table?",
+      "answer": "P50 and P75.",
+      "assertions": [
+        {
+          "text": "The response must state 'P50 and P75.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", how many rows does the \"Voluntary attrition (IC4)\" label span in the inner \"Attrition Risk Signals\" table for \"Software Engineering (IC3–IC5)\"?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what does footnote 3 explain?",
+      "answer": "50 pay mix assumption and excludes one-time sign-on guarantees, and that internal OTE reflects the FY2026 plan year effective 2026-01-01.",
+      "assertions": [
+        {
+          "text": "50 pay mix assumption and excludes one-time sign-on guarantees, and that internal OTE reflects the FY2026 plan year effective 2026-01-01.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what is the Market OTE P75 for \"Enterprise AE\" in the Sales row's inner OTE table?",
+      "answer": "$380k.",
+      "assertions": [
+        {
+          "text": "The response must state '$380k.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what is the quota attainment (median) result shown under the \"Enterprise AE churn\" merged label in the Sales row's inner risk-driver table?",
+      "answer": "72%.",
+      "assertions": [
+        {
+          "text": "The response must state '72%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what market percentiles are shown under Market Positioning?",
+      "answer": "P50 and P75",
+      "assertions": [
+        {
+          "text": "The response must state 'P50 and P75'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", how many header rows does the table have?",
+      "answer": "2 rows",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", which percentile is higher, P50 or P75?",
+      "answer": "P75",
+      "assertions": [
+        {
+          "text": "The response must state 'P75'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what does the footnote say about Sales market OTE and internal OTE?",
+      "answer": "50 mix; excludes sign-on guarantees; internal OTE effective 2026-01-01",
+      "assertions": [
+        {
+          "text": "50 mix; excludes sign-on guarantees; internal OTE effective 2026-01-01'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Summary — Market Alignment, Attrition Risk, and Recommended Band Actions (FY2026)\", what is the subtotal number of data rows reported?",
+      "answer": "5 rows",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top attrition-risk roles combining pay gap and regretted attrition (12 months ending 2025-04-30)\", what is the Estimated Equity Gap per Incumbent (USD) for Senior Software Engineer (L5)?",
+      "answer": "18500",
+      "assertions": [
+        {
+          "text": "The response must state 18500."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top attrition-risk roles combining pay gap and regretted attrition (12 months ending 2025-04-30)\", what is the Primary Attrition Driver listed for Data Scientist (L4)?",
+      "answer": "ML market",
+      "assertions": [
+        {
+          "text": "ML market."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Top attrition-risk roles combining pay gap and regretted attrition (12 months ending 2025-04-30)\", what is the Target Band Adjustment (%) for HR Business Partner (L4)?",
+      "answer": "0%",
+      "assertions": [
+        {
+          "text": "The response must state 0%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the H1 Attainment% for \"Retention bonus spend (critical roles)\"?",
+      "answer": "94%",
+      "assertions": [
+        {
+          "text": "The response must state '94%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many metrics does the \"Attrition Risk & Retention Levers\" category rowspan cover?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", which metric has the lower H2 attainment in the \"Pay Equity & Compression Corrections\" category?",
+      "answer": "Equity adjustments required (budget) at 103%",
+      "assertions": [
+        {
+          "text": "The response must state 'Equity adjustments required (budget) at 103%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the H2 target for \"Estimated salary band uplift to reach market (budget)\"?",
+      "answer": "$1.40M",
+      "assertions": [
+        {
+          "text": "The response must state '$1.40M'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", how many data rows are in the table?",
+      "answer": "16",
+      "assertions": [
+        {
+          "text": "The response must state '16'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", which value among the listed facts is the largest?",
+      "answer": "94%",
+      "assertions": [
+        {
+          "text": "The response must state '94%'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what does footnote 1 explain?",
+      "answer": "No footnotes provided.",
+      "assertions": [
+        {
+          "text": "The response must state 'No footnotes provided.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Compensation Benchmarking Heatmap Pivot — Market Alignment, Attrition Risk, and Equity Corrections (H1 vs H2)\", what is the subtotal for the 'Attrition Risk' group in H1?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Equity correction plan for in-band employees below internal targets (FY2025)\", what is the Annualised Cost Estimate (USD) for Information Technology?",
+      "answer": "$168,000",
+      "assertions": [
+        {
+          "text": "The response must state $168,000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Equity correction plan for in-band employees below internal targets (FY2025)\", what is the Effective Date listed for Phase 1 entries?",
+      "answer": "2026-07-01",
+      "assertions": [
+        {
+          "text": "The response must state 2026-07-01."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Equity correction plan for in-band employees below internal targets (FY2025)\", what is the Attrition Risk Level for Product Management?",
+      "answer": "High",
+      "assertions": [
+        {
+          "text": "The response must state High."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what value appears in Col4 for employee E005?",
+      "answer": "105000",
+      "assertions": [
+        {
+          "text": "The response must state 105000."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the status listed in Col5 for row 44?",
+      "answer": "In Progress",
+      "assertions": [
+        {
+          "text": "The response must state In Progress."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Employee Activity Report\", what is the value of max_Col4 in the Aggregates section?",
+      "answer": "123000.0",
+      "assertions": [
+        {
+          "text": "The response must state 123000.0."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Benchmark role coverage and survey mapping summary (Radford 2025 H1; effective 2025-03-01)\", what is the survey source listed for Engineering – Software Development (IC Levels 1–6)?",
+      "answer": "Survey source: Radford Global Technology Survey 2025 H1",
+      "assertions": [
+        {
+          "text": "The response must state Survey source: Radford Global Technology Survey 2025 H1."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Benchmark role coverage and survey mapping summary (Radford 2025 H1; effective 2025-03-01)\", what is the population size for Data Science & Analytics?",
+      "answer": "Employees in benchmarked roles: 1,486",
+      "assertions": [
+        {
+          "text": "The response must state Employees in benchmarked roles: 1,486."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Benchmark role coverage and survey mapping summary (Radford 2025 H1; effective 2025-03-01)\", what is the audit status for Corporate Functions – HR, Finance, IT?",
+      "answer": "Reviewed by Compensation Committee – April 2025",
+      "assertions": [
+        {
+          "text": "The response must state Reviewed by Compensation Committee – April 2025."
+        }
+      ]
+    }
+  ]
+}

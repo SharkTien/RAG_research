@@ -1,0 +1,2486 @@
+{
+  "doc_id": "doc_0000_s2027986639",
+  "title": "Annual Financial Report and Investor Outlook: Full-Year Revenue, Operating Margins, EPS, Segment Performance and Forward Guidance",
+  "subtitle": "Annual Report | Full-Year Revenue, Operating Margins, EPS, Segment Performance & Forward Guidance for Investors and Analysts",
+  "topic_id": "annual_report_financial_performance",
+  "recipe_name": "data_focused",
+  "seed": 2027986639,
+  "document_brief": {
+    "narrative_theme": "FY2025 delivered resilient, margin-led earnings growth while the company rebalanced segment mix and provided disciplined FY2026 guidance focused on profitable expansion and cash generation.",
+    "sections": [
+      {
+        "heading": "FY2025 Consolidated Financial Performance and Earnings Drivers",
+        "key_facts": [
+          "Full-year revenue was $18.6 billion for FY2025 ended December 31, 2025.",
+          "Operating margin was 16.2% in FY2025.",
+          "Diluted earnings per share (EPS) was $3.48 in FY2025."
+        ],
+        "data_references": [
+          "table_0",
+          "table_1",
+          "table_2"
+        ]
+      },
+      {
+        "heading": "Segment Results and FY2026 Investor Guidance with Key Assumptions",
+        "key_facts": [
+          "Cloud & Subscriptions revenue was $7.9 billion in FY2025.",
+          "Industrial Solutions operating margin was 18.4% in FY2025.",
+          "FY2026 revenue guidance is $19.4–$20.2 billion."
+        ],
+        "data_references": [
+          "table_3",
+          "table_4",
+          "table_5"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_0",
+        "caption": "FY2025 Consolidated Results Summary (Revenue, Operating Income, Operating Margin, EPS)",
+        "purpose": "Provides the headline FY2025 financial outcomes that anchor the margin-led earnings growth narrative for investors and analysts.",
+        "key_data": {
+          "Revenue (FY2025)": "$18.6B",
+          "Operating margin (FY2025)": "16.2%",
+          "Diluted EPS (FY2025)": "$3.48",
+          "Operating income (FY2025)": "$3.0B"
+        }
+      },
+      {
+        "id": "table_1",
+        "caption": "FY2024–FY2025 Year-over-Year Change Bridge for Revenue and Operating Margin",
+        "purpose": "Shows how revenue growth and margin expansion progressed year over year to support the story of resilient performance and improved profitability.",
+        "key_data": {
+          "Revenue (FY2024)": "$17.4B",
+          "Revenue (FY2025)": "$18.6B",
+          "Operating margin (FY2024)": "15.1%",
+          "Operating margin (FY2025)": "16.2%"
+        }
+      },
+      {
+        "id": "table_2",
+        "caption": "EPS Walk: Key Drivers from Operating Income to Diluted EPS in FY2025",
+        "purpose": "Connects operating performance to per-share outcomes by listing the major line items and assumptions that translate margin gains into EPS.",
+        "key_data": {
+          "Operating income": "$3.0B",
+          "Net interest expense": "($0.2B)",
+          "Effective tax rate": "21.0%",
+          "Diluted EPS": "$3.48"
+        }
+      },
+      {
+        "id": "table_3",
+        "caption": "FY2025 Segment Revenue and Year-over-Year Growth by Operating Segment",
+        "purpose": "Quantifies segment mix and growth contributions to explain how rebalancing toward higher-quality revenue supports the overarching theme.",
+        "key_data": {
+          "Cloud & Subscriptions revenue (FY2025)": "$7.9B",
+          "Industrial Solutions revenue (FY2025)": "$6.1B",
+          "Consumer Devices revenue (FY2025)": "$4.6B",
+          "Cloud & Subscriptions YoY growth": "12%"
+        }
+      },
+      {
+        "id": "table_4",
+        "caption": "FY2025 Segment Profitability: Operating Income and Operating Margin by Segment",
+        "purpose": "Highlights which segments drove margin-led earnings growth and where profitability improved or lagged, supporting analyst discussion of quality of earnings.",
+        "key_data": {
+          "Industrial Solutions operating margin (FY2025)": "18.4%",
+          "Cloud & Subscriptions operating margin (FY2025)": "22.1%",
+          "Consumer Devices operating margin (FY2025)": "6.8%",
+          "Total company operating margin (FY2025)": "16.2%"
+        }
+      },
+      {
+        "id": "table_5",
+        "caption": "FY2026 Outlook: Revenue, Operating Margin, and EPS Guidance Ranges with Midpoints",
+        "purpose": "Presents forward guidance ranges and midpoints to frame expectations for profitable expansion and cash generation in FY2026.",
+        "key_data": {
+          "FY2026 revenue guidance": "$19.4–$20.2B",
+          "FY2026 operating margin guidance": "16.5%–17.3%",
+          "FY2026 diluted EPS guidance": "$3.62–$3.90",
+          "Revenue guidance midpoint": "$19.8B"
+        }
+      }
+    ],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s2027986639.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_data_390c9954.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 26,
+    "actual_page_count": 17
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "table",
+      "variant_id": "table_0004_57491ef3",
+      "table_number": 1,
+      "caption": "Table 1: FY2025 Segment Profitability: Operating Income and Operating Margin by Segment",
+      "columns": [
+        "Segment",
+        "FY2024 Revenue (USD bn)",
+        "FY2025 Revenue (USD bn)",
+        "FY2024 Operating Margin",
+        "FY2025 Operating Margin",
+        "Margin Change (bps)",
+        "Earnings Growth Driver",
+        "Analyst Commentary"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Industrial Solutions",
+          "18.6",
+          "20.9",
+          "16.9%",
+          "18.4%",
+          "+150",
+          "Volume leverage and pricing discipline",
+          "Strong margin expansion from automation and energy infrastructure projects drove quality earnings growth."
+        ],
+        [
+          "Cloud & Subscriptions",
+          "12.4",
+          "15.8",
+          "19.7%",
+          "22.1%",
+          "+240",
+          "High-margin recurring revenue mix",
+          "Operating leverage from scale and improved customer retention significantly lifted profitability."
+        ],
+        [
+          "Consumer Devices",
+          "9.8",
+          "10.2",
+          "7.5%",
+          "6.8%",
+          "-70",
+          "Input cost pressure",
+          "Margin compression due to promotional activity and higher component costs despite modest revenue growth."
+        ],
+        [
+          "Corporate & Other",
+          "1.2",
+          "1.1",
+          "-12.0%",
+          "-10.5%",
+          "+150",
+          "Cost rationalization",
+          "Reduced overhead and restructuring savings narrowed losses year over year."
+        ],
+        [
+          "Total Company",
+          "42.0",
+          "48.0",
+          "14.8%",
+          "16.2%",
+          "+140",
+          "Favorable segment mix shift",
+          "Overall margin expansion supported by higher contribution from Cloud & Industrial segments."
+        ],
+        [
+          "North America",
+          "22.5",
+          "25.4",
+          "17.2%",
+          "18.6%",
+          "+140",
+          "Enterprise demand strength",
+          "Regional profitability benefited from large-scale digital transformation contracts."
+        ],
+        [
+          "EMEA",
+          "11.0",
+          "12.3",
+          "13.5%",
+          "14.2%",
+          "+70",
+          "Operational efficiencies",
+          "Steady improvement with better cost controls and stable pricing environment."
+        ],
+        [
+          "APAC",
+          "6.1",
+          "7.4",
+          "12.8%",
+          "14.9%",
+          "+210",
+          "Manufacturing scale benefits",
+          "Margin uplift driven by production localization and supply chain optimization."
+        ],
+        [
+          "Emerging Ventures",
+          "0.8",
+          "0.9",
+          "-5.5%",
+          "-2.0%",
+          "+350",
+          "Investment moderation",
+          "Losses narrowed as early-stage investments matured and expense growth slowed."
+        ]
+      ],
+      "derived_answers": {
+        "sum_FY2024 Revenue (USD bn)": 124.4,
+        "max_FY2024 Revenue (USD bn)": 42.0,
+        "min_FY2024 Revenue (USD bn)": 0.8,
+        "sum_FY2025 Revenue (USD bn)": 142.0,
+        "max_FY2025 Revenue (USD bn)": 48.0,
+        "min_FY2025 Revenue (USD bn)": 0.9,
+        "sum_FY2024 Operating Margin": 84.9,
+        "max_FY2024 Operating Margin": 19.7,
+        "min_FY2024 Operating Margin": -12.0,
+        "sum_FY2025 Operating Margin": 98.7,
+        "max_FY2025 Operating Margin": 22.1,
+        "min_FY2025 Operating Margin": -10.5,
+        "sum_Margin Change (bps)": 1380.0,
+        "max_Margin Change (bps)": 350.0,
+        "min_Margin Change (bps)": -70.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the FY2025 Operating Margin for Cloud & Subscriptions?",
+          "answer": "22.1%",
+          "assertions": [
+            {
+              "text": "The response must state 22.1%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the Margin Change (bps) for Consumer Devices?",
+          "answer": "-70",
+          "assertions": [
+            {
+              "text": "The response must state -70."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the Earnings Growth Driver listed for Emerging Ventures?",
+          "answer": "Investment moderation",
+          "assertions": [
+            {
+              "text": "The response must state Investment moderation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "table",
+      "variant_id": "table_0000_2953927f",
+      "table_number": 2,
+      "caption": "Table 2: FY2025 Consolidated Results Summary (Revenue, Operating Income, Operating Margin, EPS)",
+      "columns": [
+        "Metric",
+        "FY2025 Result",
+        "FY2024 Result",
+        "YoY Change"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Revenue",
+          "$18.6B",
+          "$17.2B",
+          "+8.1%"
+        ],
+        [
+          "Operating income",
+          "$3.0B",
+          "$2.6B",
+          "+15.4%"
+        ],
+        [
+          "Operating margin",
+          "16.2%",
+          "15.1%",
+          "+110 bps"
+        ],
+        [
+          "Diluted EPS",
+          "$3.48",
+          "$2.95",
+          "+18.0%"
+        ],
+        [
+          "Gross margin",
+          "38.5%",
+          "37.2%",
+          "+130 bps"
+        ],
+        [
+          "Free cash flow",
+          "$2.4B",
+          "$2.1B",
+          "+14.3%"
+        ],
+        [
+          "North America segment revenue",
+          "$9.7B",
+          "$9.1B",
+          "+6.6%"
+        ],
+        [
+          "International segment revenue",
+          "$6.2B",
+          "$5.5B",
+          "+12.7%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_FY2025 Result": 58.18,
+        "max_FY2025 Result": 38.5,
+        "min_FY2025 Result": 3.48,
+        "sum_FY2024 Result": 55.25,
+        "max_FY2024 Result": 37.2,
+        "min_FY2024 Result": 2.95,
+        "sum_YoY Change": 75.1,
+        "max_YoY Change": 18.0,
+        "min_YoY Change": 6.6
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2025 Consolidated Results Summary (Revenue, Operating Income, Operating Margin, EPS)\", what is the FY2025 Result for Revenue?",
+          "answer": "$18.6B",
+          "assertions": [
+            {
+              "text": "The response must state $18.6B."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Results Summary (Revenue, Operating Income, Operating Margin, EPS)\", what is the YoY Change for Operating margin?",
+          "answer": "+110 bps",
+          "assertions": [
+            {
+              "text": "The response must state +110 bps."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Results Summary (Revenue, Operating Income, Operating Margin, EPS)\", what is the FY2024 Result for Diluted EPS?",
+          "answer": "$2.95",
+          "assertions": [
+            {
+              "text": "The response must state $2.95."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "table",
+      "variant_id": "cx_table_0002_825037c7",
+      "table_number": 3,
+      "caption": "Table 3: FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what sub-columns fall under the \"FY2025\" group header in the inner \"Segment Performance\" table for the \"Consolidated (Group)\" row?",
+          "answer": "Revenue ($B) and Op Margin.",
+          "assertions": [
+            {
+              "text": "The response must state 'Revenue ($B) and Op Margin.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", how many rows does the \"Supply Optimization\" label span in the inner \"Program\" table within the \"Devices & Edge\" row?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what does footnote 1 explain?",
+          "answer": "It states that FY2026 guidance assumes no material change in FX rates versus the FY2025 average and excludes potential impacts from unannounced acquisitions or divestitures.",
+          "assertions": [
+            {
+              "text": "The response must state 'It states that FY2026 guidance assumes no material change in FX rates versus the FY2025 average and excludes potential impacts from unannounced acquisitions or divestitures.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what is the FY2024 operating margin for \"Cloud & Subscriptions\" in the inner segment table under the \"Consolidated (Group)\" row?",
+          "answer": "29.1%.",
+          "assertions": [
+            {
+              "text": "The response must state '29.1%.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what is the FY2025 value for \"Interest Coverage\" in the inner \"Debt & Liquidity\" table for the \"Capital Allocation & Shareholder Returns\" row?",
+          "answer": "11.8x.",
+          "assertions": [
+            {
+              "text": "The response must state '11.8x.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", which metrics are listed under Full-Year Snapshot?",
+          "answer": "Revenue ($B) and Op Margin.",
+          "assertions": [
+            {
+              "text": "The response must state 'Revenue ($B) and Op Margin.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", how many header tiers does the table have?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", which section has more rows: header tiers or data rows?",
+          "answer": "Data rows (5).",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows (5).'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what does the FY2026 guidance footnote explain?",
+          "answer": "No material FX change vs FY2025 average; excludes unannounced M&A.",
+          "assertions": [
+            {
+              "text": "The response must state 'No material FX change vs FY2025 average; excludes unannounced M&A.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what is the subtotal count of data rows in the table?",
+          "answer": "5.",
+          "assertions": [
+            {
+              "text": "The response must state '5.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "table",
+      "variant_id": "cx_table_0001_7cf05eb9",
+      "table_number": 4,
+      "caption": "Table 4: FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what sub-columns fall under the grouped header \"FY2025\" in the inner table within the \"Consolidated Results\" row under \"FY2025 Actuals\"?",
+          "answer": "The sub-columns are \"Result\" and \"Δ vs FY2024\".",
+          "assertions": [
+            {
+              "text": "The response must state 'The sub-columns are \"Result\" and \"Δ vs FY2024\".'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", how many rows does the \"Macro demand\" label span in the inner table within the \"Forward Guidance & Key Assumptions\" row under \"Operating Margin by Segment\"?",
+          "answer": "It spans 2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'It spans 2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what does footnote 1 explain?",
+          "answer": "It explains that revenue is presented on a continuing-operations basis and includes deferred revenue recognized from prior-year multi-year subscription contracts.",
+          "assertions": [
+            {
+              "text": "The response must state 'It explains that revenue is presented on a continuing-operations basis and includes deferred revenue recognized from prior-year multi-year subscription contracts.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what is the FY2025 revenue (USD bn) for \"Cloud Services\" in the inner table under \"Revenue by Segment\" within the \"Consolidated Results\" row?",
+          "answer": "USD 8.2 bn.",
+          "assertions": [
+            {
+              "text": "The response must state 'USD 8.2 bn.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what likelihood is shown for \"Macro demand\" in the inner risk table within the \"Forward Guidance & Key Assumptions\" row under \"Operating Margin by Segment\"?",
+          "answer": "Medium.",
+          "assertions": [
+            {
+              "text": "The response must state 'Medium.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what are the sub-columns under \"FY2025 Actuals\"?",
+          "answer": "Result and Δ vs FY2024",
+          "assertions": [
+            {
+              "text": "The response must state 'Result and Δ vs FY2024'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", how many rows does the table header span?",
+          "answer": "2 rows",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", which sub-column indicates the year-over-year change?",
+          "answer": "Δ vs FY2024",
+          "assertions": [
+            {
+              "text": "The response must state 'Δ vs FY2024'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what does the footnote explain about revenue?",
+          "answer": "Revenue is on continuing-operations basis, including deferred revenue from prior-year contracts",
+          "assertions": [
+            {
+              "text": "The response must state 'Revenue is on continuing-operations basis, including deferred revenue from prior-year contracts'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what is the subtotal number of data rows in the table?",
+          "answer": "5 data rows",
+          "assertions": [
+            {
+              "text": "The response must state '5 data rows'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "text",
+      "variant_id": "text_0000_685504e9",
+      "heading": "FY2025 Consolidated Financial Performance and Earnings Drivers",
+      "word_count": 222,
+      "text_content": [
+        "**FY2025 Consolidated Financial Performance and Earnings Drivers**",
+        "The company reported consolidated full-year revenue of $18.6 billion for FY2025 ended December 31, 2025, delivering a year characterized by solid top-line growth and disciplined cost management. Operating margin was 16.2% in FY2025, reflecting margin expansion driven by product mix improvement and manufacturing efficiencies across the portfolio. Diluted earnings per share for the year were $3.48, underscoring strong net income conversion and stable capital structure. These outcomes support a resilient financial profile amid macro volatility in 2025.",
+        "Revenue and margin performance were driven by three primary factors: (1) sustained demand for higher-margin software and services offerings, (2) ongoing productivity initiatives in manufacturing and logistics, and (3) disciplined go-to-market execution in North America and Europe. Cost discipline reduced variable and fixed overhead, contributing to the 16.2% operating margin. The company’s capital structure and share count dynamics supported diluted EPS of $3.48, with the Board maintaining focus on shareholder value creation.",
+        "Strong cash generation in FY2025 enabled continued investment in R&D and selective capital expenditures while preserving balance sheet flexibility as of December 31, 2025. Management prioritized a balanced capital allocation framework that includes dividends, opportunistic share repurchases, and strategic M&A to enhance long-term EPS accretion. Investors should note that forward-looking targets and detailed FY2026 assumptions are presented in the 'Segment Results and FY2026 Investor Guidance with Key Assumptions' section for a comprehensive outlook."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"FY2025 Consolidated Financial Performance and Earnings Drivers\" section, what was the consolidated full-year revenue for FY2025 ended December 31, 2025?",
+          "answer": "$18.6 billion",
+          "assertions": [
+            {
+              "text": "The response must state $18.6 billion."
+            }
+          ]
+        },
+        {
+          "question": "In the \"FY2025 Consolidated Financial Performance and Earnings Drivers\" section, what operating margin percentage was reported for FY2025?",
+          "answer": "16.2%",
+          "assertions": [
+            {
+              "text": "The response must state 16.2%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"FY2025 Consolidated Financial Performance and Earnings Drivers\" section, what was the diluted earnings per share for FY2025?",
+          "answer": "$3.48",
+          "assertions": [
+            {
+              "text": "The response must state $3.48."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "text",
+      "variant_id": "text_0001_6d2bbc41",
+      "heading": "Segment Results and FY2026 Investor Guidance with Key Assumptions",
+      "word_count": 206,
+      "text_content": [
+        "**Segment Results and FY2026 Investor Guidance with Key Assumptions**",
+        "In FY2025, the Cloud & Subscriptions business delivered revenue of $7.9 billion, reflecting continued customer migration to subscription models and increased enterprise adoption of our platform services. Year-over-year expansion was driven by higher recurring-license uptake, professional services attachment, and stronger retention in the second half of the fiscal year. Management attributes resilience to expanded data-center footprint, multi-region availability announced in Q3 FY2025, and strategic partnerships, notably with leading systems integrators.",
+        "Industrial Solutions achieved an operating margin of 18.4% in FY2025, supported by product mix optimization and disciplined supply-chain execution. Cost-management initiatives introduced in Q1 FY2025 reduced variable manufacturing expenses and improved gross margin contribution despite component shortages in H1. Segment backlog strengthened across energy and automation portfolios, with targeted pricing actions offsetting commodity inflation; capital allocation prioritized tooling and service expansion to sustain margin profile into FY2026.",
+        "Our FY2026 guidance for consolidated revenue is $19.4–$20.2 billion, reflecting anticipated growth across Cloud, Subscriptions, and Industrial Solutions. Guidance assumptions include continued subscription renewals, mid-single-digit organic growth in Industrial Solutions, stable foreign-exchange rates versus Q4 FY2025, and gross-to-operating leverage from cost programs. Key assumptions for investors and analysts are summarized below:\n- subscription retention above 90%;\n- Industrial Solutions organic growth ~4–6%;\n- capital expenditures of approx. $650 million."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Segment Results and FY2026 Investor Guidance with Key Assumptions\" section, what revenue did the Cloud & Subscriptions business deliver in FY2025?",
+          "answer": "$7.9 billion",
+          "assertions": [
+            {
+              "text": "The response must state $7.9 billion."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Segment Results and FY2026 Investor Guidance with Key Assumptions\" section, what operating margin did Industrial Solutions achieve in FY2025?",
+          "answer": "18.4%",
+          "assertions": [
+            {
+              "text": "The response must state 18.4%."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Segment Results and FY2026 Investor Guidance with Key Assumptions\" section, what are the projected capital expenditures for FY2026?",
+          "answer": "approximately $650 million",
+          "assertions": [
+            {
+              "text": "The response must state approximately $650 million."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "table",
+      "variant_id": "table_0003_5e8534b3",
+      "table_number": 5,
+      "caption": "Table 5: FY2025 Segment Revenue and Year-over-Year Growth by Operating Segment",
+      "columns": [
+        "Segment",
+        "FY2025 Revenue",
+        "YoY Growth",
+        "Revenue Mix (FY2025)",
+        "Growth Contribution",
+        "Strategic Commentary"
+      ],
+      "row_count": 6,
+      "cells": [
+        [
+          "Cloud & Subscriptions",
+          "$7.9B",
+          "12%",
+          "42%",
+          "60% of total growth",
+          "High-margin recurring revenue expanding share of portfolio"
+        ],
+        [
+          "Industrial Solutions",
+          "$6.1B",
+          "5%",
+          "33%",
+          "30% of total growth",
+          "Stable demand with incremental margin expansion"
+        ],
+        [
+          "Consumer Devices",
+          "$4.6B",
+          "-3%",
+          "25%",
+          "-10% of total growth",
+          "Decline reflects planned exit from low-margin SKUs"
+        ],
+        [
+          "Total Company",
+          "$18.6B",
+          "6%",
+          "100%",
+          "100%",
+          "Revenue mix shifting toward recurring and higher-quality streams"
+        ],
+        [
+          "Prior Year (FY2024) Mix",
+          "$17.5B",
+          "—",
+          "Cloud: 39% | Industrial: 34% | Consumer: 27%",
+          "—",
+          "Demonstrates 3-pt mix shift toward Cloud & Subscriptions"
+        ],
+        [
+          "Operating Margin Impact",
+          "—",
+          "—",
+          "FY2025: 18.4% (+120 bps YoY)",
+          "Margin uplift driven 70% by Cloud mix",
+          "Rebalancing toward subscription revenue supports structural margin expansion"
+        ]
+      ],
+      "derived_answers": {
+        "sum_YoY Growth": 20.0,
+        "max_YoY Growth": 12.0,
+        "min_YoY Growth": -3.0,
+        "sum_Revenue Mix (FY2025)": 200.0,
+        "max_Revenue Mix (FY2025)": 100.0,
+        "min_Revenue Mix (FY2025)": 25.0,
+        "sum_Growth Contribution": 100.0,
+        "max_Growth Contribution": 100.0,
+        "min_Growth Contribution": 100.0
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2025 Segment Revenue and Year-over-Year Growth by Operating Segment,\" what is the FY2025 Revenue for Cloud & Subscriptions?",
+          "answer": "$7.9B",
+          "assertions": [
+            {
+              "text": "The response must state $7.9B."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Segment Revenue and Year-over-Year Growth by Operating Segment,\" what is the Revenue Mix (FY2025) for Consumer Devices?",
+          "answer": "25%",
+          "assertions": [
+            {
+              "text": "The response must state 25%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Segment Revenue and Year-over-Year Growth by Operating Segment,\" what is the YoY Growth listed for Industrial Solutions?",
+          "answer": "5%",
+          "assertions": [
+            {
+              "text": "The response must state 5%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "table",
+      "variant_id": "table_0001_eeb0766e",
+      "table_number": 6,
+      "caption": "Table 6: FY2024–FY2025 Year-over-Year Change Bridge for Revenue and Operating Margin",
+      "columns": [
+        "Metric",
+        "FY2024",
+        "FY2025",
+        "FY2023",
+        "YoY Change (FY25 vs FY24)"
+      ],
+      "row_count": 7,
+      "cells": [
+        [
+          "Revenue",
+          "$17.4B",
+          "$18.6B",
+          "$16.2B",
+          "+6.9%"
+        ],
+        [
+          "Operating Margin",
+          "15.1%",
+          "16.2%",
+          "14.3%",
+          "+110 bps"
+        ],
+        [
+          "Earnings Per Share (Diluted)",
+          "$4.20",
+          "$4.78",
+          "$3.85",
+          "+13.8%"
+        ],
+        [
+          "North America Revenue",
+          "$10.1B",
+          "$10.8B",
+          "$9.4B",
+          "+6.9%"
+        ],
+        [
+          "International Revenue",
+          "$5.6B",
+          "$6.2B",
+          "$5.1B",
+          "+10.7%"
+        ],
+        [
+          "Operating Income",
+          "$2.6B",
+          "$3.0B",
+          "$2.3B",
+          "+15.4%"
+        ],
+        [
+          "Free Cash Flow",
+          "$2.1B",
+          "$2.4B",
+          "$1.9B",
+          "+14.3%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_FY2024": 19.3,
+        "max_FY2024": 15.1,
+        "min_FY2024": 4.2,
+        "sum_FY2025": 20.98,
+        "max_FY2025": 16.2,
+        "min_FY2025": 4.78,
+        "sum_FY2023": 18.150000000000002,
+        "max_FY2023": 14.3,
+        "min_FY2023": 3.85,
+        "sum_YoY Change (FY25 vs FY24)": 68.0,
+        "max_YoY Change (FY25 vs FY24)": 15.4,
+        "min_YoY Change (FY25 vs FY24)": 6.9
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2024–FY2025 Year-over-Year Change Bridge for Revenue and Operating Margin,\" what is the FY2025 value for Revenue?",
+          "answer": "$18.6B",
+          "assertions": [
+            {
+              "text": "The response must state $18.6B."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024–FY2025 Year-over-Year Change Bridge for Revenue and Operating Margin,\" what is the YoY Change (FY25 vs FY24) for Operating Margin?",
+          "answer": "+110 bps",
+          "assertions": [
+            {
+              "text": "The response must state +110 bps."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2024–FY2025 Year-over-Year Change Bridge for Revenue and Operating Margin,\" what is the FY2023 value for Earnings Per Share (Diluted)?",
+          "answer": "$3.85",
+          "assertions": [
+            {
+              "text": "The response must state $3.85."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "table",
+      "variant_id": "cx_table_0000_9b4c4976",
+      "table_number": 7,
+      "caption": "Table 7: FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)",
+      "columns": [],
+      "row_count": 0,
+      "cells": [],
+      "derived_answers": {},
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what sub-columns fall under the \"FY2025\" grouped header in the inner operating drivers table for the \"Consolidated (Total Company)\" row?",
+          "answer": "Value and YoY.",
+          "assertions": [
+            {
+              "text": "The response must state 'Value and YoY.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", how many rows does the \"New model launch\" label span in the inner program table for the \"Devices\" row?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what does footnote 1 explain?",
+          "answer": "It explains that FY2025 consolidated revenue includes $0.18B from a mid-year acquired SaaS business and that purchase accounting revenue deferrals partially offset reported growth.",
+          "assertions": [
+            {
+              "text": "The response must state 'It explains that FY2025 consolidated revenue includes $0.18B from a mid-year acquired SaaS business and that purchase accounting revenue deferrals partially offset reported growth.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what is the FY2025 consolidated revenue shown in the inner key metrics table for the \"Consolidated (Total Company)\" row?",
+          "answer": "$13.62B.",
+          "assertions": [
+            {
+              "text": "The response must state '$13.62B.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what is the timing listed for the second row under the \"New model launch\" entry in the inner program table for the \"Devices\" row?",
+          "answer": "Q3–Q4 FY2026.",
+          "assertions": [
+            {
+              "text": "The response must state 'Q3–Q4 FY2026.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what does the merged cell under 'Full-Year Results' display?",
+          "answer": "Value and YoY.",
+          "assertions": [
+            {
+              "text": "The response must state 'Value and YoY.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", how many header rows are present?",
+          "answer": "2 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '2 rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", which is larger, the number of data rows or the number of header rows?",
+          "answer": "Data rows.",
+          "assertions": [
+            {
+              "text": "The response must state 'Data rows.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what does the table footnote explain about FY2025 consolidated revenue?",
+          "answer": "It notes $0.18B from a mid-year SaaS acquisition and deferrals partially offset growth.",
+          "assertions": [
+            {
+              "text": "The response must state 'It notes $0.18B from a mid-year SaaS acquisition and deferrals partially offset growth.'."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what is the subtotal shown for 'Segment Performance' in the 'Forward Guidance' column?",
+          "answer": "Value and YoY.",
+          "assertions": [
+            {
+              "text": "The response must state 'Value and YoY.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "table",
+      "variant_id": "table_0002_0f0fba49",
+      "table_number": 8,
+      "caption": "Table 8: EPS Walk: Key Drivers from Operating Income to Diluted EPS in FY2025",
+      "columns": [
+        "Line Item",
+        "Amount",
+        "Assumptions"
+      ],
+      "row_count": 9,
+      "cells": [
+        [
+          "Revenue",
+          "$15.0B",
+          "Full-year consolidated revenue across all segments"
+        ],
+        [
+          "Operating expenses",
+          "$12.0B",
+          "Cost of goods sold, SG&A, and R&D expenses"
+        ],
+        [
+          "Operating income",
+          "$3.0B",
+          "Margin expansion driven by 150 bps improvement in operating margin"
+        ],
+        [
+          "Net interest expense",
+          "($0.2B)",
+          "Reflects lower average borrowing rates and reduced debt balance"
+        ],
+        [
+          "Pre-tax income",
+          "$2.8B",
+          "Operating income less net interest expense"
+        ],
+        [
+          "Effective tax rate",
+          "21.0%",
+          "Blended statutory and international tax mix"
+        ],
+        [
+          "Income tax expense",
+          "$0.6B",
+          "Calculated using effective tax rate applied to pre-tax income"
+        ],
+        [
+          "Net income",
+          "$2.2B",
+          "Earnings available to common shareholders"
+        ],
+        [
+          "Diluted EPS",
+          "$3.48",
+          "Based on 632M diluted shares outstanding"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Amount": 24.48,
+        "max_Amount": 21.0,
+        "min_Amount": 3.48
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"EPS Walk: Key Drivers from Operating Income to Diluted EPS in FY2025\", what is the Amount listed for Revenue?",
+          "answer": "$15.0B",
+          "assertions": [
+            {
+              "text": "The response must state $15.0B."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"EPS Walk: Key Drivers from Operating Income to Diluted EPS in FY2025\", what is the Effective tax rate shown in the Amount column?",
+          "answer": "21.0%",
+          "assertions": [
+            {
+              "text": "The response must state 21.0%."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"EPS Walk: Key Drivers from Operating Income to Diluted EPS in FY2025\", what is the Diluted EPS value?",
+          "answer": "$3.48",
+          "assertions": [
+            {
+              "text": "The response must state $3.48."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "table",
+      "variant_id": "table_0005_3a873359",
+      "table_number": 9,
+      "caption": "Table 9: FY2026 Outlook: Revenue, Operating Margin, and EPS Guidance Ranges with Midpoints",
+      "columns": [
+        "Metric",
+        "FY2025 Actual",
+        "FY2026 Guidance Range",
+        "Commentary",
+        "Midpoint"
+      ],
+      "row_count": 8,
+      "cells": [
+        [
+          "Total Revenue",
+          "$18.6B",
+          "$19.4–$20.2B",
+          "Acceleration driven by volume growth and pricing actions across core segments.",
+          "$19.8B"
+        ],
+        [
+          "Operating Margin",
+          "15.8%",
+          "16.5%–17.3%",
+          "Margin expansion supported by productivity initiatives and mix improvement.",
+          "16.9%"
+        ],
+        [
+          "Diluted EPS",
+          "$3.28",
+          "$3.62–$3.90",
+          "Earnings growth reflects operating leverage and disciplined capital allocation.",
+          "$3.76"
+        ],
+        [
+          "Free Cash Flow",
+          "$2.4B",
+          "$2.6–$2.9B",
+          "Strong cash conversion expected from higher profitability and working capital efficiency.",
+          "$2.75B"
+        ],
+        [
+          "Capital Expenditures",
+          "$1.1B",
+          "$1.2–$1.3B",
+          "Incremental investments in automation and digital infrastructure.",
+          "$1.25B"
+        ],
+        [
+          "Effective Tax Rate",
+          "22.5%",
+          "22.0%–23.0%",
+          "Stable tax profile with minor jurisdictional mix impacts.",
+          "22.5%"
+        ],
+        [
+          "Weighted Avg. Diluted Shares",
+          "1.02B",
+          "0.99–1.01B",
+          "Share count reduction reflects ongoing repurchase program.",
+          "1.00B"
+        ],
+        [
+          "Organic Revenue Growth",
+          "6.2%",
+          "5.5%–7.5%",
+          "Growth balanced across Americas, EMEA, and APAC segments.",
+          "6.5%"
+        ]
+      ],
+      "derived_answers": {
+        "sum_FY2025 Actual": 47.78,
+        "max_FY2025 Actual": 22.5,
+        "min_FY2025 Actual": 3.28,
+        "sum_Midpoint": 49.66,
+        "max_Midpoint": 22.5,
+        "min_Midpoint": 3.76
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"FY2026 Outlook: Revenue, Operating Margin, and EPS Guidance Ranges with Midpoints\", what is the FY2026 Guidance Range for Total Revenue?",
+          "answer": "$19.4–$20.2B",
+          "assertions": [
+            {
+              "text": "The response must state $19.4–$20.2B."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2026 Outlook: Revenue, Operating Margin, and EPS Guidance Ranges with Midpoints\", what is the Midpoint value for Diluted EPS?",
+          "answer": "$3.76",
+          "assertions": [
+            {
+              "text": "The response must state $3.76."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"FY2026 Outlook: Revenue, Operating Margin, and EPS Guidance Ranges with Midpoints\", what is the FY2025 Actual value for Effective Tax Rate?",
+          "answer": "22.5%",
+          "assertions": [
+            {
+              "text": "The response must state 22.5%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "table",
+      "variant_id": "llm_mp_table_0000_648161c6",
+      "table_number": 10,
+      "caption": "Table 10: Time Series Performance Metrics",
+      "columns": [
+        "Fiscal Year",
+        "Revenue ($M)",
+        "Operating Margin (%)",
+        "Earnings Per Share ($)",
+        "Segment Revenue Growth (%)"
+      ],
+      "row_count": 77,
+      "cells": [
+        [
+          "2011",
+          "18250",
+          "14.2",
+          "2.35",
+          "3.8"
+        ],
+        [
+          "2012",
+          "19540",
+          "15.1",
+          "2.62",
+          "4.5"
+        ],
+        [
+          "2013",
+          "20780",
+          "15.8",
+          "2.94",
+          "5.2"
+        ],
+        [
+          "2014",
+          "22110",
+          "16.4",
+          "3.18",
+          "6.1"
+        ],
+        [
+          "2015",
+          "23890",
+          "17.0",
+          "3.55",
+          "6.8"
+        ],
+        [
+          "2016",
+          "25240",
+          "16.7",
+          "3.48",
+          "4.2"
+        ],
+        [
+          "2017",
+          "26875",
+          "17.5",
+          "3.96",
+          "7.4"
+        ],
+        [
+          "2018",
+          "28960",
+          "18.2",
+          "4.35",
+          "8.1"
+        ],
+        [
+          "2019",
+          "30120",
+          "17.9",
+          "4.22",
+          "3.9"
+        ],
+        [
+          "2020",
+          "28750",
+          "15.6",
+          "3.67",
+          "-4.5"
+        ],
+        [
+          "2021",
+          "31540",
+          "18.8",
+          "4.85",
+          "9.7"
+        ],
+        [
+          "2022",
+          "33890",
+          "19.3",
+          "5.26",
+          "8.4"
+        ],
+        [
+          "2023",
+          "35210",
+          "19.0",
+          "5.41",
+          "4.9"
+        ],
+        [
+          "2024",
+          "37480",
+          "20.1",
+          "6.02",
+          "7.2"
+        ],
+        [
+          "2025",
+          "39860",
+          "21.0",
+          "6.58",
+          "8.0"
+        ],
+        [
+          "2016",
+          "8420",
+          "18.5",
+          "3.42",
+          "6.8"
+        ],
+        [
+          "2017",
+          "8795",
+          "19.1",
+          "3.68",
+          "7.4"
+        ],
+        [
+          "2018",
+          "9150",
+          "20.3",
+          "4.05",
+          "8.9"
+        ],
+        [
+          "2019",
+          "9488",
+          "21.0",
+          "4.32",
+          "6.1"
+        ],
+        [
+          "2020",
+          "9025",
+          "17.4",
+          "3.15",
+          "-4.7"
+        ],
+        [
+          "2021",
+          "9760",
+          "19.8",
+          "4.56",
+          "9.3"
+        ],
+        [
+          "2022",
+          "10420",
+          "22.1",
+          "5.12",
+          "11.7"
+        ],
+        [
+          "2023",
+          "11035",
+          "23.4",
+          "5.88",
+          "10.2"
+        ],
+        [
+          "2024",
+          "11680",
+          "24.0",
+          "6.25",
+          "8.5"
+        ],
+        [
+          "2025",
+          "12150",
+          "23.6",
+          "6.48",
+          "5.9"
+        ],
+        [
+          "2026",
+          "12790",
+          "24.8",
+          "7.02",
+          "9.8"
+        ],
+        [
+          "2027",
+          "13425",
+          "25.3",
+          "7.45",
+          "10.6"
+        ],
+        [
+          "2028",
+          "13980",
+          "24.7",
+          "7.1",
+          "6.4"
+        ],
+        [
+          "2029",
+          "14560",
+          "25.9",
+          "7.88",
+          "9.1"
+        ],
+        [
+          "2030",
+          "15230",
+          "26.4",
+          "8.35",
+          "12.3"
+        ],
+        [
+          "31",
+          "8420",
+          "18.7",
+          "3.45",
+          "6.2"
+        ],
+        [
+          "32",
+          "8795",
+          "19.1",
+          "3.68",
+          "7.4"
+        ],
+        [
+          "33",
+          "9150",
+          "19.8",
+          "3.92",
+          "8.1"
+        ],
+        [
+          "34",
+          "9488",
+          "20.2",
+          "4.10",
+          "6.9"
+        ],
+        [
+          "35",
+          "9825",
+          "20.5",
+          "4.28",
+          "7.6"
+        ],
+        [
+          "36",
+          "10140",
+          "21.0",
+          "4.55",
+          "8.4"
+        ],
+        [
+          "37",
+          "10475",
+          "21.3",
+          "4.73",
+          "6.8"
+        ],
+        [
+          "38",
+          "10890",
+          "21.7",
+          "4.95",
+          "9.2"
+        ],
+        [
+          "39",
+          "11230",
+          "22.1",
+          "5.18",
+          "7.9"
+        ],
+        [
+          "40",
+          "11675",
+          "22.4",
+          "5.42",
+          "8.7"
+        ],
+        [
+          "41",
+          "12010",
+          "22.8",
+          "5.63",
+          "6.5"
+        ],
+        [
+          "42",
+          "12450",
+          "23.2",
+          "5.88",
+          "9.5"
+        ],
+        [
+          "43",
+          "12980",
+          "23.6",
+          "6.15",
+          "10.2"
+        ],
+        [
+          "44",
+          "13425",
+          "24.0",
+          "6.38",
+          "8.9"
+        ],
+        [
+          "45",
+          "13970",
+          "24.5",
+          "6.72",
+          "11.4"
+        ],
+        [
+          "2046",
+          "12850",
+          "18.4",
+          "5.62",
+          "6.8"
+        ],
+        [
+          "2047",
+          "13420",
+          "19.1",
+          "5.98",
+          "7.3"
+        ],
+        [
+          "2048",
+          "13975",
+          "18.7",
+          "6.15",
+          "5.9"
+        ],
+        [
+          "2049",
+          "14560",
+          "20.2",
+          "6.88",
+          "8.4"
+        ],
+        [
+          "2050",
+          "15110",
+          "21.0",
+          "7.24",
+          "9.1"
+        ],
+        [
+          "2051",
+          "14780",
+          "17.9",
+          "5.95",
+          "-2.2"
+        ],
+        [
+          "2052",
+          "15340",
+          "18.6",
+          "6.30",
+          "4.5"
+        ],
+        [
+          "2053",
+          "16025",
+          "19.8",
+          "6.92",
+          "7.7"
+        ],
+        [
+          "2054",
+          "16680",
+          "20.5",
+          "7.48",
+          "8.2"
+        ],
+        [
+          "2055",
+          "17240",
+          "21.3",
+          "8.05",
+          "6.9"
+        ],
+        [
+          "2056",
+          "16890",
+          "18.1",
+          "6.40",
+          "-1.8"
+        ],
+        [
+          "2057",
+          "17560",
+          "19.4",
+          "7.02",
+          "5.6"
+        ],
+        [
+          "2058",
+          "18230",
+          "20.7",
+          "7.85",
+          "7.4"
+        ],
+        [
+          "2059",
+          "18975",
+          "21.5",
+          "8.44",
+          "8.9"
+        ],
+        [
+          "2060",
+          "19540",
+          "22.1",
+          "9.02",
+          "6.1"
+        ],
+        [
+          "FY61",
+          "4825",
+          "18.4",
+          "3.92",
+          "6.1"
+        ],
+        [
+          "FY62",
+          "4970",
+          "19.1",
+          "4.05",
+          "5.4"
+        ],
+        [
+          "FY63",
+          "5128",
+          "18.7",
+          "4.18",
+          "6.8"
+        ],
+        [
+          "FY64",
+          "5302",
+          "19.5",
+          "4.36",
+          "7.2"
+        ],
+        [
+          "FY65",
+          "5489",
+          "20.2",
+          "4.58",
+          "8.0"
+        ],
+        [
+          "FY66",
+          "5634",
+          "19.8",
+          "4.44",
+          "4.9"
+        ],
+        [
+          "FY67",
+          "5796",
+          "20.5",
+          "4.73",
+          "6.3"
+        ],
+        [
+          "FY68",
+          "6015",
+          "21.1",
+          "5.02",
+          "7.5"
+        ],
+        [
+          "FY69",
+          "6238",
+          "21.6",
+          "5.27",
+          "8.4"
+        ],
+        [
+          "FY70",
+          "6475",
+          "22.0",
+          "5.61",
+          "9.1"
+        ],
+        [
+          "FY71",
+          "6652",
+          "21.4",
+          "5.48",
+          "5.7"
+        ],
+        [
+          "FY72",
+          "6890",
+          "22.3",
+          "5.96",
+          "7.9"
+        ],
+        [
+          "FY73",
+          "7124",
+          "23.0",
+          "6.22",
+          "8.6"
+        ],
+        [
+          "FY74",
+          "7348",
+          "22.7",
+          "6.10",
+          "6.4"
+        ],
+        [
+          "FY75",
+          "7595",
+          "23.5",
+          "6.58",
+          "9.3"
+        ],
+        [
+          "76",
+          "8425",
+          "18.7",
+          "5.42",
+          "6.3"
+        ],
+        [
+          "77",
+          "8790",
+          "19.4",
+          "5.88",
+          "7.1"
+        ]
+      ],
+      "derived_answers": {
+        "sum_Fiscal Year": 92133.0,
+        "max_Fiscal Year": 2060.0,
+        "min_Fiscal Year": 31.0,
+        "sum_Revenue ($M)": 1107197.0,
+        "max_Revenue ($M)": 39860.0,
+        "min_Revenue ($M)": 4825.0,
+        "sum_Operating Margin (%)": 1573.0,
+        "max_Operating Margin (%)": 26.4,
+        "min_Operating Margin (%)": 14.2,
+        "sum_Earnings Per Share ($)": 415.27,
+        "max_Earnings Per Share ($)": 9.02,
+        "min_Earnings Per Share ($)": 2.35,
+        "sum_Segment Revenue Growth (%)": 535.5,
+        "max_Segment Revenue Growth (%)": 12.3,
+        "min_Segment Revenue Growth (%)": -4.7
+      },
+      "qa_candidates": [
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Revenue ($M) for fiscal year 2012?",
+          "answer": "19540",
+          "assertions": [
+            {
+              "text": "The response must state 19540."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Operating Margin (%) for FY75?",
+          "answer": "23.5",
+          "assertions": [
+            {
+              "text": "The response must state 23.5."
+            }
+          ]
+        },
+        {
+          "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Earnings Per Share ($) for fiscal year 2059?",
+          "answer": "8.44",
+          "assertions": [
+            {
+              "text": "The response must state 8.44."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "table_0004_57491ef3": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Highlights_which_segments_drove_margin-led_earnings_growth_a",
+      "row_count": 9,
+      "col_count": 8,
+      "columns": [
+        "Segment",
+        "FY2024 Revenue (USD bn)",
+        "FY2025 Revenue (USD bn)",
+        "FY2024 Operating Margin",
+        "FY2025 Operating Margin",
+        "Margin Change (bps)",
+        "Earnings Growth Driver",
+        "Analyst Commentary"
+      ],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "table_0000_2953927f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Provides_the_headline_FY2025_financial_outcomes_that_anchor_",
+      "row_count": 8,
+      "col_count": 4,
+      "columns": [
+        "Metric",
+        "FY2025 Result",
+        "FY2024 Result",
+        "YoY Change"
+      ],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "cx_table_0002_825037c7": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "cx_table_0001_7cf05eb9": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "text_0000_685504e9": {
+      "kind": "text",
+      "perturbations": [],
+      "heading": "FY2025 Consolidated Financial Performance and Earnings Drivers",
+      "word_count": 222,
+      "text_type": "llm_prose",
+      "topic_id": "annual_report_financial_performance"
+    },
+    "text_0001_6d2bbc41": {
+      "kind": "text",
+      "perturbations": [
+        "abbreviations",
+        "unicode_punctuation"
+      ],
+      "heading": "Segment Results and FY2026 Investor Guidance with Key Assumptions",
+      "word_count": 206,
+      "text_type": "llm_prose",
+      "topic_id": "annual_report_financial_performance"
+    },
+    "table_0003_5e8534b3": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Quantifies_segment_mix_and_growth_contributions_to_explain_h",
+      "row_count": 6,
+      "col_count": 6,
+      "columns": [
+        "Segment",
+        "FY2025 Revenue",
+        "YoY Growth",
+        "Revenue Mix (FY2025)",
+        "Growth Contribution",
+        "Strategic Commentary"
+      ],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "table_0001_eeb0766e": {
+      "kind": "table",
+      "perturbations": [
+        "semantic",
+        "structural"
+      ],
+      "base_type": "Shows_how_revenue_growth_and_margin_expansion_progressed_yea",
+      "row_count": 7,
+      "col_count": 5,
+      "columns": [
+        "Metric",
+        "FY2024",
+        "FY2025",
+        "FY2023",
+        "YoY Change (FY25 vs FY24)"
+      ],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "cx_table_0000_9b4c4976": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "table_0002_0f0fba49": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "Connects_operating_performance_to_per-share_outcomes_by_list",
+      "row_count": 9,
+      "col_count": 3,
+      "columns": [
+        "Line Item",
+        "Amount",
+        "Assumptions"
+      ],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "table_0005_3a873359": {
+      "kind": "table",
+      "perturbations": [
+        "semantic"
+      ],
+      "base_type": "Presents_forward_guidance_ranges_and_midpoints_to_frame_expe",
+      "row_count": 8,
+      "col_count": 5,
+      "columns": [
+        "Metric",
+        "FY2025 Actual",
+        "FY2026 Guidance Range",
+        "Commentary",
+        "Midpoint"
+      ],
+      "topic_id": "annual_report_financial_performance"
+    },
+    "llm_mp_table_0000_648161c6": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "time_series_performance_metrics",
+      "row_count": 77,
+      "col_count": 5,
+      "columns": [
+        "Fiscal Year",
+        "Revenue ($M)",
+        "Operating Margin (%)",
+        "Earnings Per Share ($)",
+        "Segment Revenue Growth (%)"
+      ],
+      "topic_id": ""
+    },
+    "scan_llm_0001_f9c3e1b8": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_390c9954.png",
+      "topic_id": ""
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the FY2025 Operating Margin for Cloud & Subscriptions?",
+      "answer": "22.1%",
+      "assertions": [
+        {
+          "text": "The response must state 22.1%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the Margin Change (bps) for Consumer Devices?",
+      "answer": "-70",
+      "assertions": [
+        {
+          "text": "The response must state -70."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Segment Profitability: Operating Income and Operating Margin by Segment,\" what is the Earnings Growth Driver listed for Emerging Ventures?",
+      "answer": "Investment moderation",
+      "assertions": [
+        {
+          "text": "The response must state Investment moderation."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Results Summary (Revenue, Operating Income, Operating Margin, EPS)\", what is the FY2025 Result for Revenue?",
+      "answer": "$18.6B",
+      "assertions": [
+        {
+          "text": "The response must state $18.6B."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Results Summary (Revenue, Operating Income, Operating Margin, EPS)\", what is the YoY Change for Operating margin?",
+      "answer": "+110 bps",
+      "assertions": [
+        {
+          "text": "The response must state +110 bps."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Results Summary (Revenue, Operating Income, Operating Margin, EPS)\", what is the FY2024 Result for Diluted EPS?",
+      "answer": "$2.95",
+      "assertions": [
+        {
+          "text": "The response must state $2.95."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what sub-columns fall under the \"FY2025\" group header in the inner \"Segment Performance\" table for the \"Consolidated (Group)\" row?",
+      "answer": "Revenue ($B) and Op Margin.",
+      "assertions": [
+        {
+          "text": "The response must state 'Revenue ($B) and Op Margin.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", how many rows does the \"Supply Optimization\" label span in the inner \"Program\" table within the \"Devices & Edge\" row?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what does footnote 1 explain?",
+      "answer": "It states that FY2026 guidance assumes no material change in FX rates versus the FY2025 average and excludes potential impacts from unannounced acquisitions or divestitures.",
+      "assertions": [
+        {
+          "text": "The response must state 'It states that FY2026 guidance assumes no material change in FX rates versus the FY2025 average and excludes potential impacts from unannounced acquisitions or divestitures.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what is the FY2024 operating margin for \"Cloud & Subscriptions\" in the inner segment table under the \"Consolidated (Group)\" row?",
+      "answer": "29.1%.",
+      "assertions": [
+        {
+          "text": "The response must state '29.1%.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what is the FY2025 value for \"Interest Coverage\" in the inner \"Debt & Liquidity\" table for the \"Capital Allocation & Shareholder Returns\" row?",
+      "answer": "11.8x.",
+      "assertions": [
+        {
+          "text": "The response must state '11.8x.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", which metrics are listed under Full-Year Snapshot?",
+      "answer": "Revenue ($B) and Op Margin.",
+      "assertions": [
+        {
+          "text": "The response must state 'Revenue ($B) and Op Margin.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", how many header tiers does the table have?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", which section has more rows: header tiers or data rows?",
+      "answer": "Data rows (5).",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows (5).'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what does the FY2026 guidance footnote explain?",
+      "answer": "No material FX change vs FY2025 average; excludes unannounced M&A.",
+      "assertions": [
+        {
+          "text": "The response must state 'No material FX change vs FY2025 average; excludes unannounced M&A.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Performance Summary and Investor Guidance (USD unless noted)\", what is the subtotal count of data rows in the table?",
+      "answer": "5.",
+      "assertions": [
+        {
+          "text": "The response must state '5.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what sub-columns fall under the grouped header \"FY2025\" in the inner table within the \"Consolidated Results\" row under \"FY2025 Actuals\"?",
+      "answer": "The sub-columns are \"Result\" and \"Δ vs FY2024\".",
+      "assertions": [
+        {
+          "text": "The response must state 'The sub-columns are \"Result\" and \"Δ vs FY2024\".'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", how many rows does the \"Macro demand\" label span in the inner table within the \"Forward Guidance & Key Assumptions\" row under \"Operating Margin by Segment\"?",
+      "answer": "It spans 2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'It spans 2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what does footnote 1 explain?",
+      "answer": "It explains that revenue is presented on a continuing-operations basis and includes deferred revenue recognized from prior-year multi-year subscription contracts.",
+      "assertions": [
+        {
+          "text": "The response must state 'It explains that revenue is presented on a continuing-operations basis and includes deferred revenue recognized from prior-year multi-year subscription contracts.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what is the FY2025 revenue (USD bn) for \"Cloud Services\" in the inner table under \"Revenue by Segment\" within the \"Consolidated Results\" row?",
+      "answer": "USD 8.2 bn.",
+      "assertions": [
+        {
+          "text": "The response must state 'USD 8.2 bn.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what likelihood is shown for \"Macro demand\" in the inner risk table within the \"Forward Guidance & Key Assumptions\" row under \"Operating Margin by Segment\"?",
+      "answer": "Medium.",
+      "assertions": [
+        {
+          "text": "The response must state 'Medium.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what are the sub-columns under \"FY2025 Actuals\"?",
+      "answer": "Result and Δ vs FY2024",
+      "assertions": [
+        {
+          "text": "The response must state 'Result and Δ vs FY2024'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", how many rows does the table header span?",
+      "answer": "2 rows",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", which sub-column indicates the year-over-year change?",
+      "answer": "Δ vs FY2024",
+      "assertions": [
+        {
+          "text": "The response must state 'Δ vs FY2024'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what does the footnote explain about revenue?",
+      "answer": "Revenue is on continuing-operations basis, including deferred revenue from prior-year contracts",
+      "assertions": [
+        {
+          "text": "The response must state 'Revenue is on continuing-operations basis, including deferred revenue from prior-year contracts'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Annual Report — Revenue, Margin, EPS, Segment Performance, and Forward Guidance\", what is the subtotal number of data rows in the table?",
+      "answer": "5 data rows",
+      "assertions": [
+        {
+          "text": "The response must state '5 data rows'."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"FY2025 Consolidated Financial Performance and Earnings Drivers\" section, what was the consolidated full-year revenue for FY2025 ended December 31, 2025?",
+      "answer": "$18.6 billion",
+      "assertions": [
+        {
+          "text": "The response must state $18.6 billion."
+        }
+      ]
+    },
+    {
+      "question": "In the \"FY2025 Consolidated Financial Performance and Earnings Drivers\" section, what operating margin percentage was reported for FY2025?",
+      "answer": "16.2%",
+      "assertions": [
+        {
+          "text": "The response must state 16.2%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"FY2025 Consolidated Financial Performance and Earnings Drivers\" section, what was the diluted earnings per share for FY2025?",
+      "answer": "$3.48",
+      "assertions": [
+        {
+          "text": "The response must state $3.48."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Segment Results and FY2026 Investor Guidance with Key Assumptions\" section, what revenue did the Cloud & Subscriptions business deliver in FY2025?",
+      "answer": "$7.9 billion",
+      "assertions": [
+        {
+          "text": "The response must state $7.9 billion."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Segment Results and FY2026 Investor Guidance with Key Assumptions\" section, what operating margin did Industrial Solutions achieve in FY2025?",
+      "answer": "18.4%",
+      "assertions": [
+        {
+          "text": "The response must state 18.4%."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Segment Results and FY2026 Investor Guidance with Key Assumptions\" section, what are the projected capital expenditures for FY2026?",
+      "answer": "approximately $650 million",
+      "assertions": [
+        {
+          "text": "The response must state approximately $650 million."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Segment Revenue and Year-over-Year Growth by Operating Segment,\" what is the FY2025 Revenue for Cloud & Subscriptions?",
+      "answer": "$7.9B",
+      "assertions": [
+        {
+          "text": "The response must state $7.9B."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Segment Revenue and Year-over-Year Growth by Operating Segment,\" what is the Revenue Mix (FY2025) for Consumer Devices?",
+      "answer": "25%",
+      "assertions": [
+        {
+          "text": "The response must state 25%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Segment Revenue and Year-over-Year Growth by Operating Segment,\" what is the YoY Growth listed for Industrial Solutions?",
+      "answer": "5%",
+      "assertions": [
+        {
+          "text": "The response must state 5%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024–FY2025 Year-over-Year Change Bridge for Revenue and Operating Margin,\" what is the FY2025 value for Revenue?",
+      "answer": "$18.6B",
+      "assertions": [
+        {
+          "text": "The response must state $18.6B."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024–FY2025 Year-over-Year Change Bridge for Revenue and Operating Margin,\" what is the YoY Change (FY25 vs FY24) for Operating Margin?",
+      "answer": "+110 bps",
+      "assertions": [
+        {
+          "text": "The response must state +110 bps."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2024–FY2025 Year-over-Year Change Bridge for Revenue and Operating Margin,\" what is the FY2023 value for Earnings Per Share (Diluted)?",
+      "answer": "$3.85",
+      "assertions": [
+        {
+          "text": "The response must state $3.85."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what sub-columns fall under the \"FY2025\" grouped header in the inner operating drivers table for the \"Consolidated (Total Company)\" row?",
+      "answer": "Value and YoY.",
+      "assertions": [
+        {
+          "text": "The response must state 'Value and YoY.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", how many rows does the \"New model launch\" label span in the inner program table for the \"Devices\" row?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what does footnote 1 explain?",
+      "answer": "It explains that FY2025 consolidated revenue includes $0.18B from a mid-year acquired SaaS business and that purchase accounting revenue deferrals partially offset reported growth.",
+      "assertions": [
+        {
+          "text": "The response must state 'It explains that FY2025 consolidated revenue includes $0.18B from a mid-year acquired SaaS business and that purchase accounting revenue deferrals partially offset reported growth.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what is the FY2025 consolidated revenue shown in the inner key metrics table for the \"Consolidated (Total Company)\" row?",
+      "answer": "$13.62B.",
+      "assertions": [
+        {
+          "text": "The response must state '$13.62B.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what is the timing listed for the second row under the \"New model launch\" entry in the inner program table for the \"Devices\" row?",
+      "answer": "Q3–Q4 FY2026.",
+      "assertions": [
+        {
+          "text": "The response must state 'Q3–Q4 FY2026.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what does the merged cell under 'Full-Year Results' display?",
+      "answer": "Value and YoY.",
+      "assertions": [
+        {
+          "text": "The response must state 'Value and YoY.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", how many header rows are present?",
+      "answer": "2 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '2 rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", which is larger, the number of data rows or the number of header rows?",
+      "answer": "Data rows.",
+      "assertions": [
+        {
+          "text": "The response must state 'Data rows.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what does the table footnote explain about FY2025 consolidated revenue?",
+      "answer": "It notes $0.18B from a mid-year SaaS acquisition and deferrals partially offset growth.",
+      "assertions": [
+        {
+          "text": "The response must state 'It notes $0.18B from a mid-year SaaS acquisition and deferrals partially offset growth.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2025 Consolidated Performance, Segment Results, and FY2026 Guidance (USD unless noted)\", what is the subtotal shown for 'Segment Performance' in the 'Forward Guidance' column?",
+      "answer": "Value and YoY.",
+      "assertions": [
+        {
+          "text": "The response must state 'Value and YoY.'."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"EPS Walk: Key Drivers from Operating Income to Diluted EPS in FY2025\", what is the Amount listed for Revenue?",
+      "answer": "$15.0B",
+      "assertions": [
+        {
+          "text": "The response must state $15.0B."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"EPS Walk: Key Drivers from Operating Income to Diluted EPS in FY2025\", what is the Effective tax rate shown in the Amount column?",
+      "answer": "21.0%",
+      "assertions": [
+        {
+          "text": "The response must state 21.0%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"EPS Walk: Key Drivers from Operating Income to Diluted EPS in FY2025\", what is the Diluted EPS value?",
+      "answer": "$3.48",
+      "assertions": [
+        {
+          "text": "The response must state $3.48."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 Outlook: Revenue, Operating Margin, and EPS Guidance Ranges with Midpoints\", what is the FY2026 Guidance Range for Total Revenue?",
+      "answer": "$19.4–$20.2B",
+      "assertions": [
+        {
+          "text": "The response must state $19.4–$20.2B."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 Outlook: Revenue, Operating Margin, and EPS Guidance Ranges with Midpoints\", what is the Midpoint value for Diluted EPS?",
+      "answer": "$3.76",
+      "assertions": [
+        {
+          "text": "The response must state $3.76."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"FY2026 Outlook: Revenue, Operating Margin, and EPS Guidance Ranges with Midpoints\", what is the FY2025 Actual value for Effective Tax Rate?",
+      "answer": "22.5%",
+      "assertions": [
+        {
+          "text": "The response must state 22.5%."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Revenue ($M) for fiscal year 2012?",
+      "answer": "19540",
+      "assertions": [
+        {
+          "text": "The response must state 19540."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Operating Margin (%) for FY75?",
+      "answer": "23.5",
+      "assertions": [
+        {
+          "text": "The response must state 23.5."
+        }
+      ]
+    },
+    {
+      "question": "In the table titled \"Table 1: Time Series Performance Metrics\", what is the Earnings Per Share ($) for fiscal year 2059?",
+      "answer": "8.44",
+      "assertions": [
+        {
+          "text": "The response must state 8.44."
+        }
+      ]
+    }
+  ]
+}

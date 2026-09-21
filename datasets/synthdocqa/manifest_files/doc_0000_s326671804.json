@@ -1,0 +1,1444 @@
+{
+  "doc_id": "doc_0000_s326671804",
+  "title": "Customer Experience Report: NPS, CSAT and Effort Scores by Channel, Verbatim Sentiment Themes, Journey Pain Points, and Improvement Action Plan",
+  "subtitle": "Customer Experience Report — Channel NPS, CSAT & Effort; Sentiment Themes, Journey Pain Points & Improvement Plan",
+  "topic_id": "customer_experience_report",
+  "recipe_name": "visual_heavy",
+  "seed": 326671804,
+  "document_brief": {
+    "narrative_theme": "Q1 2026 customer experience performance shows digital self-service lifting NPS while contact-center effort and specific journey pain points are driving detractors, guiding a focused 90-day improvement plan by channel and journey stage.",
+    "sections": [
+      {
+        "heading": "Q1 2026 CX Scorecard by Channel (NPS, CSAT, and Customer Effort)",
+        "key_facts": [
+          "In Q1 2026, overall NPS was +18, with Mobile App at +42 and Phone Support at -6.",
+          "In Q1 2026, CSAT was 84% overall, with Live Chat at 90% and Email Support at 78%.",
+          "In Q1 2026, Customer Effort Score (1=low effort, 7=high effort) was 3.2 overall, with Phone Support at 4.6 and Mobile App at 2.1."
+        ],
+        "data_references": [
+          "chart_0",
+          "chart_1",
+          "chart_2"
+        ]
+      },
+      {
+        "heading": "Verbatim Sentiment Themes, Journey Pain Points, and 90-Day Customer Improvement Action Plan",
+        "key_facts": [
+          "From 12,480 verbatims collected between 2026-01-01 and 2026-03-31, the top negative theme was 'Wait time & transfers' at 31% of detractor comments.",
+          "The highest-friction journey stage in Q1 2026 was 'Billing & Payments' with an average Effort Score of 4.4, versus 2.5 for 'Onboarding'.",
+          "The 90-day action plan targets a +10 point increase in Phone Support NPS (from -6 to +4) by 2026-06-30."
+        ],
+        "data_references": [
+          "chart_3",
+          "chart_4",
+          "chart_5"
+        ]
+      }
+    ],
+    "tables": [],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Net Promoter Score (NPS) by Channel — Q1 2026",
+        "chart_type": "bar",
+        "x_label": "Customer service channel",
+        "y_label": "NPS (−100 to +100)",
+        "purpose": "Compare Q1 2026 NPS across Mobile App, Web, Live Chat, Phone Support, and Email Support to show where advocacy is strongest and weakest."
+      },
+      {
+        "id": "chart_1",
+        "title": "CSAT by Channel — Q1 2026",
+        "chart_type": "bar",
+        "x_label": "Customer service channel",
+        "y_label": "CSAT (% satisfied)",
+        "purpose": "Show Q1 2026 satisfaction rates by channel to identify which channels deliver the best perceived outcomes."
+      },
+      {
+        "id": "chart_2",
+        "title": "Customer Effort Score by Channel — Q1 2026",
+        "chart_type": "bar",
+        "x_label": "Customer service channel",
+        "y_label": "Customer Effort Score (1=low effort, 7=high effort)",
+        "purpose": "CSAT performance."
+      },
+      {
+        "id": "chart_3",
+        "title": "Verbatim Sentiment Themes for Detractors — Q1 2026",
+        "chart_type": "pie",
+        "x_label": "Theme category",
+        "y_label": "Share of detractor verbatims (%)",
+        "purpose": "Quantify the distribution of top detractor themes (e.g., wait time & transfers, unresolved issue, confusing billing) to prioritize fixes aligned to NPS recovery."
+      },
+      {
+        "id": "chart_4",
+        "title": "Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)",
+        "chart_type": "heatmap",
+        "x_label": "Journey stage (Onboarding, Billing & Payments, Issue Resolution, Account Changes, Cancellation)",
+        "y_label": "Channel (Mobile App, Web, Live Chat, Phone Support, Email Support)",
+        "purpose": "Identify where customers experience the highest effort by mapping average effort scores across journey stages and channels, spotlighting Billing & Payments as the primary friction area."
+      },
+      {
+        "id": "chart_5",
+        "title": "90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)",
+        "chart_type": "line",
+        "x_label": "Month (2026-04, 2026-05, 2026-06)",
+        "y_label": "Phone Support NPS (−100 to +100)",
+        "purpose": "Track the targeted month-by-month NPS lift for Phone Support to reach +4 by 2026-06-30, tying planned actions to measurable CX outcomes."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s326671804.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0003_0563a0ef.png",
+      "scan_llm_text_405bdec2.png",
+      "img_0000_b255c939.png",
+      "scan_llm_data_98a604f4.png",
+      "img_0004_1cb3b099.png",
+      "img_0002_001cd5a7.png",
+      "img_0001_72acb0e9.png",
+      "img_0005_b3fb762e.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 18,
+    "actual_page_count": 7
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "img_0003_0563a0ef",
+      "figure_number": 1,
+      "image_path": "img_0003_0563a0ef.png",
+      "caption": "Figure 1: Verbatim Sentiment Themes for Detractors — Q1 2026",
+      "chart_type": "stacked_area",
+      "chart_title": "Verbatim Sentiment Themes for Detractors — Q1 2026",
+      "x_label": "Theme category",
+      "y_label": "Share of detractor verbatims (%)",
+      "categories": [
+        "Wait Time & Transfers",
+        "Unresolved Issue",
+        "Confusing Billing",
+        "Poor Communication",
+        "Service Reliability",
+        "Policy Friction"
+      ],
+      "series_names": [
+        "Q1 2026"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "decreasing",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Q1 2026"
+        ],
+        "value_range": [
+          0,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what does the Y-axis represent?",
+          "answer": "Share of detractor verbatims (%)",
+          "assertions": [
+            {
+              "text": "The response must state Share of detractor verbatims (%)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what is the value range shown?",
+          "answer": "[0, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what is the overall trend?",
+          "answer": "decreasing",
+          "assertions": [
+            {
+              "text": "The response must state decreasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "scan_llm_0000_5b295250",
+      "figure_number": 2,
+      "image_path": "scan_llm_text_405bdec2.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 2: Q1 2026 Customer Experience Performance Summary",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Q1 2026 Customer Experience Performance Summary",
+        "subtitle": "Ref: CX-1401925-Q1 | Date: 07 April 2026 | From: Customer Insights & Journey Analytics",
+        "sections": [
+          {
+            "heading": "Executive Overview",
+            "body": "For Q1 2026, overall Net Promoter Score (NPS) improved to +34, up 6 points quarter-over-quarter, primarily driven by higher satisfaction with digital self-service channels. Customer Satisfaction (CSAT) averaged 86%, while Customer Effort Score (CES, 1–5 scale) rose slightly to 3.4, indicating increased friction in assisted channels. Detractors are concentrated in contact-center interactions and late-stage service journeys. The results indicate strong digital momentum but persistent friction in human-assisted touchpoints."
+          },
+          {
+            "heading": "Channel Performance Breakdown",
+            "body": "Digital self-service (web and mobile app) achieved an NPS of +48 and CSAT of 91%, supported by faster login authentication and simplified account dashboards. In contrast, voice support NPS declined to +12, with CSAT at 78% and CES at 3.9, reflecting long hold times and repeat transfers. Live chat stabilized at +29 NPS with 84% CSAT, though sentiment flagged inconsistency in agent knowledge. Email support remained flat at +18 NPS with extended response times averaging 42 hours."
+          },
+          {
+            "heading": "Verbatim Sentiment Themes",
+            "body": "Promoters frequently cited ease of bill payment, intuitive navigation, and proactive outage notifications within the mobile app. Passives mentioned satisfactory issue resolution but inconsistent response speed when escalations were required. Detractors highlighted repeated authentication steps during phone calls, difficulty reaching a live agent, and confusion around service upgrade eligibility. Sentiment tagging shows a 22% increase in mentions of \"long wait\" and a 17% rise in comments referencing \"being transferred multiple times.\""
+          },
+          {
+            "heading": "Journey Pain Points",
+            "body": "The onboarding journey shows friction during identity verification, where 14% of applicants abandon after document upload errors. In the billing dispute journey, 28% of customers contact support after failing to locate clarification in FAQs, signaling a content gap. Service outage resolution remains a key pain point, with customers reporting limited status transparency during restoration windows. These journey-stage breakdowns correlate strongly with detractor segments in post-interaction surveys."
+          },
+          {
+            "heading": "90-Day Improvement Action Plan",
+            "body": "The CX team will pilot callback technology in two contact centers to reduce perceived wait time by at least 20%. A cross-functional task force will streamline phone authentication to a single-step verification process by June 2026. Digital content owners will revise top 25 billing FAQs and introduce contextual help within dispute workflows. Progress will be tracked bi-weekly, with target outcomes of raising voice NPS to +20 and reducing assisted-channel CES to 3.2 or lower by end of Q2."
+          }
+        ],
+        "footer_note": "Confidential — Internal Use Only | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Executive Overview",
+        "Channel Performance Breakdown",
+        "Verbatim Sentiment Themes",
+        "Journey Pain Points",
+        "90-Day Improvement Action Plan"
+      ],
+      "cells": [
+        {
+          "heading": "Executive Overview",
+          "body": "For Q1 2026, overall Net Promoter Score (NPS) improved to +34, up 6 points quarter-over-quarter, primarily driven by higher satisfaction with digital self-service channels. Customer Satisfaction (CSAT) averaged 86%, while Customer Effort Score (CES, 1–5 scale) rose slightly to 3.4, indicating increased friction in assisted channels. Detractors are concentrated in contact-center interactions and late-stage service journeys. The results indicate strong digital momentum but persistent friction in human-assisted touchpoints."
+        },
+        {
+          "heading": "Channel Performance Breakdown",
+          "body": "Digital self-service (web and mobile app) achieved an NPS of +48 and CSAT of 91%, supported by faster login authentication and simplified account dashboards. In contrast, voice support NPS declined to +12, with CSAT at 78% and CES at 3.9, reflecting long hold times and repeat transfers. Live chat stabilized at +29 NPS with 84% CSAT, though sentiment flagged inconsistency in agent knowledge. Email support remained flat at +18 NPS with extended response times averaging 42 hours."
+        },
+        {
+          "heading": "Verbatim Sentiment Themes",
+          "body": "Promoters frequently cited ease of bill payment, intuitive navigation, and proactive outage notifications within the mobile app. Passives mentioned satisfactory issue resolution but inconsistent response speed when escalations were required. Detractors highlighted repeated authentication steps during phone calls, difficulty reaching a live agent, and confusion around service upgrade eligibility. Sentiment tagging shows a 22% increase in mentions of \"long wait\" and a 17% rise in comments referencing \"being transferred multiple times.\""
+        },
+        {
+          "heading": "Journey Pain Points",
+          "body": "The onboarding journey shows friction during identity verification, where 14% of applicants abandon after document upload errors. In the billing dispute journey, 28% of customers contact support after failing to locate clarification in FAQs, signaling a content gap. Service outage resolution remains a key pain point, with customers reporting limited status transparency during restoration windows. These journey-stage breakdowns correlate strongly with detractor segments in post-interaction surveys."
+        },
+        {
+          "heading": "90-Day Improvement Action Plan",
+          "body": "The CX team will pilot callback technology in two contact centers to reduce perceived wait time by at least 20%. A cross-functional task force will streamline phone authentication to a single-step verification process by June 2026. Digital content owners will revise top 25 billing FAQs and introduce contextual help within dispute workflows. Progress will be tracked bi-weekly, with target outcomes of raising voice NPS to +20 and reducing assisted-channel CES to 3.2 or lower by end of Q2."
+        }
+      ],
+      "full_text": "Q1 2026 Customer Experience Performance Summary\nRef: CX-1401925-Q1 | Date: 07 April 2026 | From: Customer Insights & Journey Analytics\n\nSection Executive Overview\nFor Q1 2026, overall Net Promoter Score (NPS) improved to +34, up 6 points quarter-over-quarter, primarily driven by higher satisfaction with digital self-service channels. Customer Satisfaction (CSAT) averaged 86%, while Customer Effort Score (CES, 1–5 scale) rose slightly to 3.4, indicating increased friction in assisted channels. Detractors are concentrated in contact-center interactions and late-stage service journeys. The results indicate strong digital momentum but persistent friction in human-assisted touchpoints.\n\nSection Channel Performance Breakdown\nDigital self-service (web and mobile app) achieved an NPS of +48 and CSAT of 91%, supported by faster login authentication and simplified account dashboards. In contrast, voice support NPS declined to +12, with CSAT at 78% and CES at 3.9, reflecting long hold times and repeat transfers. Live chat stabilized at +29 NPS with 84% CSAT, though sentiment flagged inconsistency in agent knowledge. Email support remained flat at +18 NPS with extended response times averaging 42 hours.\n\nSection Verbatim Sentiment Themes\nPromoters frequently cited ease of bill payment, intuitive navigation, and proactive outage notifications within the mobile app. Passives mentioned satisfactory issue resolution but inconsistent response speed when escalations were required. Detractors highlighted repeated authentication steps during phone calls, difficulty reaching a live agent, and confusion around service upgrade eligibility. Sentiment tagging shows a 22% increase in mentions of \"long wait\" and a 17% rise in comments referencing \"being transferred multiple times.\"\n\nSection Journey Pain Points\nThe onboarding journey shows friction during identity verification, where 14% of applicants abandon after document upload errors. In the billing dispute journey, 28% of customers contact support after failing to locate clarification in FAQs, signaling a content gap. Service outage resolution remains a key pain point, with customers reporting limited status transparency during restoration windows. These journey-stage breakdowns correlate strongly with detractor segments in post-interaction surveys.\n\nSection 90-Day Improvement Action Plan\nThe CX team will pilot callback technology in two contact centers to reduce perceived wait time by at least 20%. A cross-functional task force will streamline phone authentication to a single-step verification process by June 2026. Digital content owners will revise top 25 billing FAQs and introduce contextual help within dispute workflows. Progress will be tracked bi-weekly, with target outcomes of raising voice NPS to +20 and reducing assisted-channel CES to 3.2 or lower by end of Q2.\n\nConfidential — Internal Use Only | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Q1 2026 Customer Experience Performance Summary\", what was the overall Net Promoter Score (NPS) for Q1 2026 and how did it change quarter-over-quarter?",
+          "answer": "Overall NPS was +34, up 6 points quarter-over-quarter.",
+          "assertions": [
+            {
+              "text": "The response must state 'Overall NPS was +34, up 6 points quarter-over-quarter.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q1 2026 Customer Experience Performance Summary\", what NPS and CSAT did digital self-service (web and mobile app) achieve?",
+          "answer": "Digital self-service achieved an NPS of +48 and CSAT of 91%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Digital self-service achieved an NPS of +48 and CSAT of 91%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Q1 2026 Customer Experience Performance Summary\", what percentage of applicants abandon the onboarding journey after document upload errors?",
+          "answer": "14% of applicants abandon after document upload errors.",
+          "assertions": [
+            {
+              "text": "The response must state '14% of applicants abandon after document upload errors.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q1 2026 Customer Experience Performance Summary\", what promoter verbatim sentiment themes are frequently cited?",
+          "answer": "Promoters cited ease of bill payment, intuitive navigation, and proactive outage notifications in the mobile app.",
+          "assertions": [
+            {
+              "text": "The response must state 'Promoters cited ease of bill payment, intuitive navigation, and proactive outage notifications in the mobile app.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the document \"Q1 2026 Customer Experience Performance Summary\", is the page labeled as confidential and what is the footer classification?",
+          "answer": "Yes; the footer is labeled \"Confidential — Internal Use Only\".",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes; the footer is labeled \"Confidential — Internal Use Only\".'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "img_0000_b255c939",
+      "figure_number": 3,
+      "image_path": "img_0000_b255c939.png",
+      "caption": "Figure 3: Net Promoter Score (NPS) by Channel — Q1 2026",
+      "chart_type": "grouped_bar",
+      "chart_title": "Net Promoter Score (NPS) by Channel — Q1 2026",
+      "x_label": "Customer service channel",
+      "y_label": "NPS (−100 to +100)",
+      "categories": [
+        "Mobile App",
+        "Web",
+        "Live Chat",
+        "Phone Support",
+        "Email Support"
+      ],
+      "series_names": [
+        "Q1 2026 NPS"
+      ],
+      "value_range": [
+        -100,
+        100
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "Mobile App",
+          "Web",
+          "Live Chat",
+          "Phone Support",
+          "Email Support"
+        ],
+        "series": [
+          "Q1 2026 NPS"
+        ],
+        "value_range": [
+          -100,
+          100
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Net Promoter Score (NPS) by Channel — Q1 2026\", what does the Y-axis represent?",
+          "answer": "NPS (−100 to +100)",
+          "assertions": [
+            {
+              "text": "The response must state NPS (−100 to +100)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Net Promoter Score (NPS) by Channel — Q1 2026\", what is the value range shown?",
+          "answer": "[-100, 100]",
+          "assertions": [
+            {
+              "text": "The response must state [-100, 100]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Net Promoter Score (NPS) by Channel — Q1 2026\", what trend is described?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "image",
+      "variant_id": "scan_llm_0001_7f71fcbe",
+      "figure_number": 4,
+      "image_path": "scan_llm_data_98a604f4.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 4: Q1 2026 CX Metrics by Channel & Journey Stage",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Q1 2026 CX Metrics by Channel & Journey Stage",
+        "caption": "Net Promoter Score (NPS), CSAT, and Effort ratings across key channels and journey stages with primary detractor drivers.",
+        "headers": [
+          "Stage",
+          "NPS",
+          "CSAT %",
+          "Effort (1-5)",
+          "Top Detractor Driver"
+        ],
+        "rows": [
+          [
+            "Mobile App – Account Mgmt",
+            "52",
+            "89",
+            "1.8",
+            "Password reset confusion"
+          ],
+          [
+            "Web Portal – Billing",
+            "46",
+            "85",
+            "2.1",
+            "Invoice detail unclear"
+          ],
+          [
+            "Chatbot – General Inquiries",
+            "38",
+            "81",
+            "2.4",
+            "Limited issue resolution"
+          ],
+          [
+            "Contact Center – Billing",
+            "-12",
+            "68",
+            "3.9",
+            "Long hold times"
+          ],
+          [
+            "Contact Center – Technical Support",
+            "-18",
+            "64",
+            "4.2",
+            "Multiple transfers"
+          ],
+          [
+            "Email Support – Claims",
+            "5",
+            "74",
+            "3.1",
+            "Slow response (48+ hrs)"
+          ],
+          [
+            "In-Store – Device Setup",
+            "34",
+            "88",
+            "2.0",
+            "Appointment wait time"
+          ],
+          [
+            "IVR – Payment Processing",
+            "9",
+            "77",
+            "3.3",
+            "Complex menu options"
+          ],
+          [
+            "Mobile App – Service Upgrade",
+            "49",
+            "91",
+            "1.7",
+            "Plan comparison unclear"
+          ],
+          [
+            "Web Portal – Cancellation",
+            "-25",
+            "59",
+            "4.4",
+            "Retention script frustration"
+          ],
+          [
+            "Chatbot – Order Tracking",
+            "41",
+            "84",
+            "2.2",
+            "Tracking status lag"
+          ],
+          [
+            "Contact Center – New Sales",
+            "22",
+            "82",
+            "2.9",
+            "Repetition of information"
+          ]
+        ],
+        "summary_note": "Digital self-service channels continue to outperform assisted channels on NPS and effort. Contact center billing and technical support remain primary detractor sources, driven by high effort and transfer rates.",
+        "date": "Q1 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Stage",
+        "NPS",
+        "CSAT %",
+        "Effort (1-5)",
+        "Top Detractor Driver"
+      ],
+      "cells": [
+        [
+          "Mobile App – Account Mgmt",
+          "52",
+          "89",
+          "1.8",
+          "Password reset confusion"
+        ],
+        [
+          "Web Portal – Billing",
+          "46",
+          "85",
+          "2.1",
+          "Invoice detail unclear"
+        ],
+        [
+          "Chatbot – General Inquiries",
+          "38",
+          "81",
+          "2.4",
+          "Limited issue resolution"
+        ],
+        [
+          "Contact Center – Billing",
+          "-12",
+          "68",
+          "3.9",
+          "Long hold times"
+        ],
+        [
+          "Contact Center – Technical Support",
+          "-18",
+          "64",
+          "4.2",
+          "Multiple transfers"
+        ],
+        [
+          "Email Support – Claims",
+          "5",
+          "74",
+          "3.1",
+          "Slow response (48+ hrs)"
+        ],
+        [
+          "In-Store – Device Setup",
+          "34",
+          "88",
+          "2.0",
+          "Appointment wait time"
+        ],
+        [
+          "IVR – Payment Processing",
+          "9",
+          "77",
+          "3.3",
+          "Complex menu options"
+        ],
+        [
+          "Mobile App – Service Upgrade",
+          "49",
+          "91",
+          "1.7",
+          "Plan comparison unclear"
+        ],
+        [
+          "Web Portal – Cancellation",
+          "-25",
+          "59",
+          "4.4",
+          "Retention script frustration"
+        ],
+        [
+          "Chatbot – Order Tracking",
+          "41",
+          "84",
+          "2.2",
+          "Tracking status lag"
+        ],
+        [
+          "Contact Center – New Sales",
+          "22",
+          "82",
+          "2.9",
+          "Repetition of information"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "summary": "Digital self-service channels continue to outperform assisted channels on NPS and effort. Contact center billing and technical support remain primary detractor sources, driven by high effort and transfer rates.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Q1 2026 CX Metrics by Channel & Journey Stage\", how many rows are reported in the table?",
+          "answer": "12 rows total.",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows total.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q1 2026 CX Metrics by Channel & Journey Stage\", which channels are identified as the primary detractor sources in the summary?",
+          "answer": "Contact Center – Billing and Contact Center – Technical Support.",
+          "assertions": [
+            {
+              "text": "The response must state 'Contact Center – Billing and Contact Center – Technical Support.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In \"Q1 2026 CX Metrics by Channel & Journey Stage\", what is the NPS value listed for Contact Center – Technical Support?",
+          "answer": "-18.",
+          "assertions": [
+            {
+              "text": "The response must state '-18.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q1 2026 CX Metrics by Channel & Journey Stage\", what is the top detractor driver for Web Portal – Billing?",
+          "answer": "Invoice detail unclear.",
+          "assertions": [
+            {
+              "text": "The response must state 'Invoice detail unclear.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Q1 2026 CX Metrics by Channel & Journey Stage\", do digital self-service channels outperform assisted channels on NPS and effort?",
+          "answer": "Yes; digital self-service channels continue to outperform assisted channels on NPS and effort.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes; digital self-service channels continue to outperform assisted channels on NPS and effort.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "img_0004_1cb3b099",
+      "figure_number": 5,
+      "image_path": "img_0004_1cb3b099.png",
+      "caption": "Figure 5: Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)",
+      "chart_type": "heatmap",
+      "chart_title": "Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)",
+      "x_label": "Journey stage (Onboarding, Billing & Payments, Issue Resolution, Account Changes, Cancellation)",
+      "y_label": "Channel (Mobile App, Web, Live Chat, Phone Support, Email Support)",
+      "categories": [
+        "Onboarding",
+        "Billing & Payments",
+        "Issue Resolution",
+        "Account Changes",
+        "Cancellation"
+      ],
+      "series_names": [
+        "Mobile App",
+        "Web",
+        "Live Chat",
+        "Phone Support",
+        "Email Support"
+      ],
+      "value_range": [
+        2.1,
+        4.6
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Onboarding",
+          "Billing & Payments",
+          "Issue Resolution",
+          "Account Changes",
+          "Cancellation"
+        ],
+        "series": [
+          "Mobile App",
+          "Web",
+          "Live Chat",
+          "Phone Support",
+          "Email Support"
+        ],
+        "value_range": [
+          2.1,
+          4.6
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)\", what does the Y-axis represent?",
+          "answer": "Channel (Mobile App, Web, Live Chat, Phone Support, Email Support)",
+          "assertions": [
+            {
+              "text": "The response must state Channel (Mobile App, Web, Live Chat, Phone Support, Email Support)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)\", what is the value range shown?",
+          "answer": "[2.1, 4.6]",
+          "assertions": [
+            {
+              "text": "The response must state [2.1, 4.6]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)\", what trend is indicated?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "image",
+      "variant_id": "img_0002_001cd5a7",
+      "figure_number": 6,
+      "image_path": "img_0002_001cd5a7.png",
+      "caption": "Figure 6: Customer Effort Score by Channel — Q1 2026",
+      "chart_type": "heatmap",
+      "chart_title": "Customer Effort Score by Channel — Q1 2026",
+      "x_label": "Customer service channel",
+      "y_label": "Customer Effort Score (1=low effort, 7=high effort)",
+      "categories": [
+        "Phone Support",
+        "Email Support",
+        "Live Chat",
+        "Mobile App",
+        "Website Self-Service",
+        "In-Store"
+      ],
+      "series_names": [
+        "Q1 2026 CES"
+      ],
+      "value_range": [
+        2,
+        6
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Phone Support",
+          "Email Support",
+          "Live Chat",
+          "Mobile App",
+          "Website Self-Service",
+          "In-Store"
+        ],
+        "series": [
+          "Q1 2026 CES"
+        ],
+        "value_range": [
+          2,
+          6
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Customer Effort Score by Channel — Q1 2026\", what does the Y-axis represent?",
+          "answer": "Customer Effort Score (1=low effort, 7=high effort)",
+          "assertions": [
+            {
+              "text": "The response must state Customer Effort Score (1=low effort, 7=high effort)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Customer Effort Score by Channel — Q1 2026\", what is the value range shown?",
+          "answer": "[2, 6]",
+          "assertions": [
+            {
+              "text": "The response must state [2, 6]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Customer Effort Score by Channel — Q1 2026\", name one customer service channel category.",
+          "answer": "Phone Support",
+          "assertions": [
+            {
+              "text": "The response must state Phone Support."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "img_0001_72acb0e9",
+      "figure_number": 7,
+      "image_path": "img_0001_72acb0e9.png",
+      "caption": "Figure 7: CSAT by Channel — Q1 2026",
+      "chart_type": "violin",
+      "chart_title": "CSAT by Channel — Q1 2026",
+      "x_label": "Customer service channel",
+      "y_label": "CSAT (% satisfied)",
+      "categories": [
+        "Phone Support",
+        "Email Support",
+        "Live Chat",
+        "In-App Messaging",
+        "Self-Service Portal"
+      ],
+      "series_names": [
+        "CSAT Q1 2026"
+      ],
+      "value_range": [
+        68,
+        89
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "Phone Support",
+          "Email Support",
+          "Live Chat",
+          "In-App Messaging",
+          "Self-Service Portal"
+        ],
+        "value_range": [
+          68,
+          89
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"CSAT by Channel — Q1 2026\", what does the Y-axis represent?",
+          "answer": "CSAT (% satisfied)",
+          "assertions": [
+            {
+              "text": "The response must state CSAT (% satisfied)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"CSAT by Channel — Q1 2026\", what is the value range shown?",
+          "answer": "[68, 89]",
+          "assertions": [
+            {
+              "text": "The response must state [68, 89]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"CSAT by Channel — Q1 2026\", name one of the customer service channel categories shown on the X-axis.",
+          "answer": "Live Chat",
+          "assertions": [
+            {
+              "text": "The response must state Live Chat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "img_0005_b3fb762e",
+      "figure_number": 8,
+      "image_path": "img_0005_b3fb762e.png",
+      "caption": "Figure 8: 90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)",
+      "chart_type": "ridgeline",
+      "chart_title": "90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)",
+      "x_label": "Month (2026-04, 2026-05, 2026-06)",
+      "y_label": "Phone Support NPS (−100 to +100)",
+      "categories": [
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ],
+      "series_names": [
+        "Projected Phone Support NPS"
+      ],
+      "value_range": [
+        -5,
+        5
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "2026-04",
+          "2026-05",
+          "2026-06"
+        ],
+        "value_range": [
+          -5,
+          5
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)\", what does the Y-axis represent?",
+          "answer": "Phone Support NPS (−100 to +100)",
+          "assertions": [
+            {
+              "text": "The response must state Phone Support NPS (−100 to +100)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)\", what is the trend direction?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)\", what is the value range?",
+          "answer": "[-5, 5]",
+          "assertions": [
+            {
+              "text": "The response must state [-5, 5]."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "img_0003_0563a0ef": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "stacked_area",
+      "chart_title": "Verbatim Sentiment Themes for Detractors — Q1 2026",
+      "x_label": "Theme category",
+      "y_label": "Share of detractor verbatims (%)",
+      "categories": [
+        "Wait Time & Transfers",
+        "Unresolved Issue",
+        "Confusing Billing",
+        "Poor Communication",
+        "Service Reliability",
+        "Policy Friction"
+      ],
+      "series_names": [
+        "Q1 2026"
+      ],
+      "value_range": [
+        0,
+        100
+      ],
+      "trend": "decreasing",
+      "filename": "img_0003_0563a0ef.png",
+      "image_path": "img_0003_0563a0ef.png",
+      "topic_id": "customer_experience_report"
+    },
+    "scan_llm_0000_5b295250": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_405bdec2.png",
+      "topic_id": ""
+    },
+    "img_0000_b255c939": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "grouped_bar",
+      "chart_title": "Net Promoter Score (NPS) by Channel — Q1 2026",
+      "x_label": "Customer service channel",
+      "y_label": "NPS (−100 to +100)",
+      "categories": [
+        "Mobile App",
+        "Web",
+        "Live Chat",
+        "Phone Support",
+        "Email Support"
+      ],
+      "series_names": [
+        "Q1 2026 NPS"
+      ],
+      "value_range": [
+        -100,
+        100
+      ],
+      "trend": "volatile",
+      "filename": "img_0000_b255c939.png",
+      "image_path": "img_0000_b255c939.png",
+      "topic_id": "customer_experience_report"
+    },
+    "scan_llm_0001_7f71fcbe": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_98a604f4.png",
+      "topic_id": ""
+    },
+    "img_0004_1cb3b099": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion",
+        "blur"
+      ],
+      "chart_type": "heatmap",
+      "chart_title": "Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)",
+      "x_label": "Journey stage (Onboarding, Billing & Payments, Issue Resolution, Account Changes, Cancellation)",
+      "y_label": "Channel (Mobile App, Web, Live Chat, Phone Support, Email Support)",
+      "categories": [
+        "Onboarding",
+        "Billing & Payments",
+        "Issue Resolution",
+        "Account Changes",
+        "Cancellation"
+      ],
+      "series_names": [
+        "Mobile App",
+        "Web",
+        "Live Chat",
+        "Phone Support",
+        "Email Support"
+      ],
+      "value_range": [
+        2.1,
+        4.6
+      ],
+      "trend": "volatile",
+      "filename": "img_0004_1cb3b099.png",
+      "image_path": "img_0004_1cb3b099.png",
+      "topic_id": "customer_experience_report"
+    },
+    "img_0002_001cd5a7": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "heatmap",
+      "chart_title": "Customer Effort Score by Channel — Q1 2026",
+      "x_label": "Customer service channel",
+      "y_label": "Customer Effort Score (1=low effort, 7=high effort)",
+      "categories": [
+        "Phone Support",
+        "Email Support",
+        "Live Chat",
+        "Mobile App",
+        "Website Self-Service",
+        "In-Store"
+      ],
+      "series_names": [
+        "Q1 2026 CES"
+      ],
+      "value_range": [
+        2,
+        6
+      ],
+      "trend": "volatile",
+      "filename": "img_0002_001cd5a7.png",
+      "image_path": "img_0002_001cd5a7.png",
+      "topic_id": "customer_experience_report"
+    },
+    "img_0001_72acb0e9": {
+      "kind": "image",
+      "perturbations": [
+        "occlusion"
+      ],
+      "chart_type": "violin",
+      "chart_title": "CSAT by Channel — Q1 2026",
+      "x_label": "Customer service channel",
+      "y_label": "CSAT (% satisfied)",
+      "categories": [
+        "Phone Support",
+        "Email Support",
+        "Live Chat",
+        "In-App Messaging",
+        "Self-Service Portal"
+      ],
+      "series_names": [
+        "CSAT Q1 2026"
+      ],
+      "value_range": [
+        68,
+        89
+      ],
+      "trend": "volatile",
+      "filename": "img_0001_72acb0e9.png",
+      "image_path": "img_0001_72acb0e9.png",
+      "topic_id": "customer_experience_report"
+    },
+    "img_0005_b3fb762e": {
+      "kind": "image",
+      "perturbations": [
+        "low_contrast"
+      ],
+      "chart_type": "ridgeline",
+      "chart_title": "90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)",
+      "x_label": "Month (2026-04, 2026-05, 2026-06)",
+      "y_label": "Phone Support NPS (−100 to +100)",
+      "categories": [
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ],
+      "series_names": [
+        "Projected Phone Support NPS"
+      ],
+      "value_range": [
+        -5,
+        5
+      ],
+      "trend": "increasing",
+      "filename": "img_0005_b3fb762e.png",
+      "image_path": "img_0005_b3fb762e.png",
+      "topic_id": "customer_experience_report"
+    },
+    "llm_mp_table_0000_fedf268f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "time_series_performance_metrics",
+      "row_count": 74,
+      "col_count": 5,
+      "columns": [
+        "Month",
+        "Channel",
+        "NPS",
+        "CSAT (%)",
+        "Customer Effort Score (1-5)"
+      ],
+      "topic_id": ""
+    },
+    "text_0001_fe726d78": {
+      "kind": "text",
+      "perturbations": [
+        "typos",
+        "unicode_punctuation"
+      ],
+      "heading": "Verbatim Sentiment Themes, Journey Pain Points, and 90-Day Customer Improvement Action Plan",
+      "word_count": 156,
+      "text_type": "llm_prose",
+      "topic_id": "customer_experience_report"
+    },
+    "cx_table_0001_ee33804f": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 16,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "customer_experience_report"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what does the Y-axis represent?",
+      "answer": "Share of detractor verbatims (%)",
+      "assertions": [
+        {
+          "text": "The response must state Share of detractor verbatims (%)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what is the value range shown?",
+      "answer": "[0, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Verbatim Sentiment Themes for Detractors — Q1 2026\", what is the overall trend?",
+      "answer": "decreasing",
+      "assertions": [
+        {
+          "text": "The response must state decreasing."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q1 2026 Customer Experience Performance Summary\", what was the overall Net Promoter Score (NPS) for Q1 2026 and how did it change quarter-over-quarter?",
+      "answer": "Overall NPS was +34, up 6 points quarter-over-quarter.",
+      "assertions": [
+        {
+          "text": "The response must state 'Overall NPS was +34, up 6 points quarter-over-quarter.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q1 2026 Customer Experience Performance Summary\", what NPS and CSAT did digital self-service (web and mobile app) achieve?",
+      "answer": "Digital self-service achieved an NPS of +48 and CSAT of 91%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Digital self-service achieved an NPS of +48 and CSAT of 91%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Q1 2026 Customer Experience Performance Summary\", what percentage of applicants abandon the onboarding journey after document upload errors?",
+      "answer": "14% of applicants abandon after document upload errors.",
+      "assertions": [
+        {
+          "text": "The response must state '14% of applicants abandon after document upload errors.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q1 2026 Customer Experience Performance Summary\", what promoter verbatim sentiment themes are frequently cited?",
+      "answer": "Promoters cited ease of bill payment, intuitive navigation, and proactive outage notifications in the mobile app.",
+      "assertions": [
+        {
+          "text": "The response must state 'Promoters cited ease of bill payment, intuitive navigation, and proactive outage notifications in the mobile app.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the document \"Q1 2026 Customer Experience Performance Summary\", is the page labeled as confidential and what is the footer classification?",
+      "answer": "Yes; the footer is labeled \"Confidential — Internal Use Only\".",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes; the footer is labeled \"Confidential — Internal Use Only\".'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Net Promoter Score (NPS) by Channel — Q1 2026\", what does the Y-axis represent?",
+      "answer": "NPS (−100 to +100)",
+      "assertions": [
+        {
+          "text": "The response must state NPS (−100 to +100)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Net Promoter Score (NPS) by Channel — Q1 2026\", what is the value range shown?",
+      "answer": "[-100, 100]",
+      "assertions": [
+        {
+          "text": "The response must state [-100, 100]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Net Promoter Score (NPS) by Channel — Q1 2026\", what trend is described?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q1 2026 CX Metrics by Channel & Journey Stage\", how many rows are reported in the table?",
+      "answer": "12 rows total.",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows total.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q1 2026 CX Metrics by Channel & Journey Stage\", which channels are identified as the primary detractor sources in the summary?",
+      "answer": "Contact Center – Billing and Contact Center – Technical Support.",
+      "assertions": [
+        {
+          "text": "The response must state 'Contact Center – Billing and Contact Center – Technical Support.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In \"Q1 2026 CX Metrics by Channel & Journey Stage\", what is the NPS value listed for Contact Center – Technical Support?",
+      "answer": "-18.",
+      "assertions": [
+        {
+          "text": "The response must state '-18.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q1 2026 CX Metrics by Channel & Journey Stage\", what is the top detractor driver for Web Portal – Billing?",
+      "answer": "Invoice detail unclear.",
+      "assertions": [
+        {
+          "text": "The response must state 'Invoice detail unclear.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q1 2026 CX Metrics by Channel & Journey Stage\", do digital self-service channels outperform assisted channels on NPS and effort?",
+      "answer": "Yes; digital self-service channels continue to outperform assisted channels on NPS and effort.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes; digital self-service channels continue to outperform assisted channels on NPS and effort.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)\", what does the Y-axis represent?",
+      "answer": "Channel (Mobile App, Web, Live Chat, Phone Support, Email Support)",
+      "assertions": [
+        {
+          "text": "The response must state Channel (Mobile App, Web, Live Chat, Phone Support, Email Support)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)\", what is the value range shown?",
+      "answer": "[2.1, 4.6]",
+      "assertions": [
+        {
+          "text": "The response must state [2.1, 4.6]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Journey Pain Point Heatmap — Effort Score by Journey Stage and Channel (Q1 2026)\", what trend is indicated?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Customer Effort Score by Channel — Q1 2026\", what does the Y-axis represent?",
+      "answer": "Customer Effort Score (1=low effort, 7=high effort)",
+      "assertions": [
+        {
+          "text": "The response must state Customer Effort Score (1=low effort, 7=high effort)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Customer Effort Score by Channel — Q1 2026\", what is the value range shown?",
+      "answer": "[2, 6]",
+      "assertions": [
+        {
+          "text": "The response must state [2, 6]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Customer Effort Score by Channel — Q1 2026\", name one customer service channel category.",
+      "answer": "Phone Support",
+      "assertions": [
+        {
+          "text": "The response must state Phone Support."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"CSAT by Channel — Q1 2026\", what does the Y-axis represent?",
+      "answer": "CSAT (% satisfied)",
+      "assertions": [
+        {
+          "text": "The response must state CSAT (% satisfied)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"CSAT by Channel — Q1 2026\", what is the value range shown?",
+      "answer": "[68, 89]",
+      "assertions": [
+        {
+          "text": "The response must state [68, 89]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"CSAT by Channel — Q1 2026\", name one of the customer service channel categories shown on the X-axis.",
+      "answer": "Live Chat",
+      "assertions": [
+        {
+          "text": "The response must state Live Chat."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)\", what does the Y-axis represent?",
+      "answer": "Phone Support NPS (−100 to +100)",
+      "assertions": [
+        {
+          "text": "The response must state Phone Support NPS (−100 to +100)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)\", what is the trend direction?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"90-Day Improvement Plan Impact Forecast — Phone Support NPS (Apr–Jun 2026)\", what is the value range?",
+      "answer": "[-5, 5]",
+      "assertions": [
+        {
+          "text": "The response must state [-5, 5]."
+        }
+      ]
+    }
+  ]
+}

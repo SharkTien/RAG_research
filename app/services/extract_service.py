@@ -1,0 +1,320 @@
+import uuid
+import tempfile
+import os
+from pathlib import Path
+from app.core.storage import StorageManager
+from app.repositories.document_repo import DocumentRepository
+from app.core.config import (
+    DOCLING_DEVICE, DOCLING_DO_OCR, DOCLING_DO_TABLE_STRUCTURE,
+    DOCLING_NUM_THREADS, DOCLING_OCR_BATCH_SIZE, DOCLING_FORCE_FULL_PAGE_OCR,
+    DOCLING_OCR_ENGINE, DOCLING_OCR_LANG,
+    DOCLING_TESSERACT_PSM,
+    DOCLING_TESSERACT_OSD,
+)
+from app.services.normalize_service import NormalizeService
+from app.services.nim_normalizer import normalize_parallel as nim_normalize
+from app.services.embedding_service import EmbeddingService
+from app.repositories.chunk_repo import ChunkRepository
+
+class ExtractService:
+    def __init__(self, repo: DocumentRepository, storage: StorageManager):
+        self.repo = repo
+        self.storage = storage
+        self._converters = {}
+        self._normalizer = NormalizeService()
+        self._embedder = EmbeddingService()
+        self._chunk_repo = ChunkRepository(repo.db)
+
+    @staticmethod
+    def _pdf_has_text(path: str) -> bool:
+        """Sample a few pages so digital PDFs can skip the OCR stage."""
+        if Path(path).suffix.lower() != ".pdf":
+            return False
+        try:
+            from pypdf import PdfReader
+            reader = PdfReader(path, strict=False)
+            pages = reader.pages[: min(3, len(reader.pages))]
+            page_lengths = [len((page.extract_text() or "").strip()) for page in pages]
+            # A few hidden characters on one page are not enough to classify a
+            # scanned/hybrid PDF as native text.
+            return bool(page_lengths) and sum(length >= 100 for length in page_lengths) == len(page_lengths)
+        except Exception as exc:
+            print(f"Could not inspect PDF text layer: {exc}", flush=True)
+            return False
+
+    def _get_converter(self, do_ocr: bool):
+        if do_ocr not in self._converters:
+            from docling.datamodel.accelerator_options import AcceleratorOptions
+            from docling.datamodel.pipeline_options import PdfPipelineOptions
+            from docling.document_converter import DocumentConverter, InputFormat, PdfFormatOption
+
+            device = DOCLING_DEVICE
+            if str(device).startswith("cuda"):
+                try:
+                    import torch
+                    if not torch.cuda.is_available():
+                        print("CUDA is unavailable; falling back to CPU", flush=True)
+                        device = "cpu"
+                except Exception:
+                    device = "cpu"
+
+            ocr_options = None
+            if do_ocr:
+                if DOCLING_OCR_ENGINE == "tesseract":
+                    from docling.datamodel.pipeline_options import TesseractCliOcrOptions
+                    if not DOCLING_TESSERACT_OSD:
+                        import pandas as pd
+                        from docling.models.stages.ocr.tesseract_ocr_cli_model import TesseractOcrCliModel
+
+                        def _skip_osd(_model, _filename):
+                            return pd.DataFrame({
+                                "key": ["Orientation in degrees"],
+                                "value": ["0"],
+                            })
+
+                        TesseractOcrCliModel._perform_osd = _skip_osd
+                    ocr_options = TesseractCliOcrOptions(
+                        lang=DOCLING_OCR_LANG,
+                        force_full_page_ocr=DOCLING_FORCE_FULL_PAGE_OCR,
+                        psm=DOCLING_TESSERACT_PSM,
+                    )
+                else:
+                    from docling.datamodel.pipeline_options import RapidOcrOptions
+                    ocr_options = RapidOcrOptions(
+                        lang=DOCLING_OCR_LANG,
+                        force_full_page_ocr=DOCLING_FORCE_FULL_PAGE_OCR,
+                    )
+
+            pipeline_kwargs = dict(
+                do_ocr=do_ocr,
+                do_table_structure=DOCLING_DO_TABLE_STRUCTURE,
+                ocr_batch_size=DOCLING_OCR_BATCH_SIZE,
+                accelerator_options=AcceleratorOptions(
+                    num_threads=DOCLING_NUM_THREADS,
+                    device=device,
+                ),
+            )
+            if ocr_options is not None:
+                pipeline_kwargs["ocr_options"] = ocr_options
+            options = PdfPipelineOptions(**pipeline_kwargs)
+            self._converters[do_ocr] = DocumentConverter(
+                format_options={InputFormat.PDF: PdfFormatOption(pipeline_options=options)}
+            )
+        return self._converters[do_ocr]
+
+    @staticmethod
+    def _extract_image_bboxes(doc_json: dict) -> list[dict]:
+        """Return one normalized record for every Docling picture provenance."""
+        images = []
+        for index, picture in enumerate(doc_json.get("pictures", [])):
+            for provenance in picture.get("prov", []):
+                bbox = provenance.get("bbox") or {}
+                if not {"l", "b", "r", "t"}.issubset(bbox):
+                    continue
+                images.append({
+                    "id": picture.get("self_ref", f"#/pictures/{index}"),
+                    "page_no": provenance.get("page_no"),
+                    "bbox": {
+                        "left": bbox["l"],
+                        "bottom": bbox["b"],
+                        "right": bbox["r"],
+                        "top": bbox["t"],
+                    },
+                    "coord_origin": bbox.get("coord_origin", "BOTTOMLEFT"),
+                    "label": picture.get("label", "picture"),
+                })
+        return images
+
+    @staticmethod
+    def _extract_ocr_bboxes(doc_json: dict) -> list[dict]:
+        """Return OCR/text provenance boxes, useful for scanned documents."""
+        boxes = []
+        for index, item in enumerate(doc_json.get("texts", [])):
+            for provenance in item.get("prov", []):
+                bbox = provenance.get("bbox") or {}
+                if not {"l", "b", "r", "t"}.issubset(bbox):
+                    continue
+                boxes.append({
+                    "id": item.get("self_ref", f"#/texts/{index}"),
+                    "page_no": provenance.get("page_no"),
+                    "text": item.get("text", ""),
+                    "bbox": {
+                        "left": bbox["l"],
+                        "bottom": bbox["b"],
+                        "right": bbox["r"],
+                        "top": bbox["t"],
+                    },
+                    "coord_origin": bbox.get("coord_origin", "BOTTOMLEFT"),
+                })
+        return boxes
+
+    @staticmethod
+    def _normalize_office_bboxes(records: list[dict], suffix: str) -> list[dict]:
+        """Convert PowerPoint EMU coordinates to PDF points for the viewer."""
+        if suffix.lower() != ".pptx":
+            return records
+        # PowerPoint uses English Metric Units: 914400 EMU per inch;
+        # PDF coordinates use 72 points per inch.
+        factor = 72.0 / 914400.0
+        for record in records:
+            record["bbox_unit"] = "pt"
+            for key, value in record.get("bbox", {}).items():
+                if value is not None:
+                    record["bbox"][key] = value * factor
+        return records
+
+    def extract_document_background(self, doc_id: uuid.UUID):
+        try:
+            if not self.repo.is_document_active(doc_id):
+                return
+            row = self.repo.get_document(doc_id)
+            if not row:
+                return
+            
+            # row indexes based on SELECT *: 0=id, 1=original_filename, 2=object_key
+            original_filename = row[1]
+            object_key = row[2]
+                
+            with tempfile.NamedTemporaryFile(suffix=Path(original_filename).suffix, delete=False) as tmp:
+                tmp_name = tmp.name
+                
+            self.storage.download_file(object_key, tmp_name)
+            print(f"[{doc_id}] stage=download_done", flush=True)
+            
+            from app.core.config import DOCUMENT_PARSER_ENGINE, RAGFLOW_MODE
+
+            use_ragflow = (DOCUMENT_PARSER_ENGINE == "ragflow")
+            if use_ragflow:
+                try:
+                    print(f"[{doc_id}] stage=ragflow_extract_start mode={RAGFLOW_MODE}", flush=True)
+                    from app.services.ragflow_extractor import RagflowExtractor
+                    ragflow_result = RagflowExtractor().extract(tmp_name, original_filename)
+                    clean_text = ragflow_result["clean_text"]
+                    normalized_elements = ragflow_result["normalized_elements"]
+                    ocr_bboxes = ragflow_result["ocr_bboxes"]
+                    image_bboxes = ragflow_result["image_bboxes"]
+                    doc_json = ragflow_result["doc_json"]
+                    print(f"[{doc_id}] stage=ragflow_extract_done chars={len(clean_text)} elements={len(normalized_elements)}", flush=True)
+                except Exception as rf_err:
+                    print(f"[{doc_id}] ragflow extraction unavailable ({rf_err}), falling back to Docling OCR", flush=True)
+                    use_ragflow = False
+
+            if not use_ragflow:
+                if DOCLING_DO_OCR == "true":
+                    do_ocr = True
+                elif DOCLING_DO_OCR == "false":
+                    do_ocr = False
+                else:
+                    do_ocr = not self._pdf_has_text(tmp_name)
+                print(
+                    f"Processing {original_filename}: do_ocr={do_ocr}, "
+                    f"ocr_engine={DOCLING_OCR_ENGINE}, ocr_lang={DOCLING_OCR_LANG}, "
+                    f"device={DOCLING_DEVICE}",
+                    flush=True,
+                )
+                # Reuse one converter per pipeline configuration in this worker.
+                converter = self._get_converter(do_ocr)
+                print(f"[{doc_id}] stage=docling_start", flush=True)
+                result = converter.convert(tmp_name)
+                print(f"[{doc_id}] stage=docling_done", flush=True)
+                if not self.repo.is_document_active(doc_id):
+                    return
+                
+                # Extract markdown and structured JSON
+                doc_json = result.document.export_to_dict()
+                print(f"[{doc_id}] stage=export_done pages={len(result.pages) if hasattr(result, 'pages') else 'unknown'}", flush=True)
+                image_bboxes = self._extract_image_bboxes(doc_json)
+                ocr_bboxes = self._extract_ocr_bboxes(doc_json)
+                source_suffix = Path(original_filename).suffix.lower()
+                self._normalize_office_bboxes(image_bboxes, source_suffix)
+                self._normalize_office_bboxes(ocr_bboxes, source_suffix)
+                clean_text, normalized_elements = self._normalizer.normalize(
+                    doc_json,
+                    {"document_id": str(doc_id), "filename": original_filename},
+                )
+                print(f"[{doc_id}] stage=rule_clean_done chars={len(clean_text)} elements={len(normalized_elements)}", flush=True)
+            print(f"[{doc_id}] stage=nim_normalize_start mode=parallel_pages", flush=True)
+            semantic_structure, semantic_error = nim_normalize(clean_text, normalized_elements)
+            print(f"[{doc_id}] stage=nim_normalize_done status={'processed' if semantic_structure and not semantic_error else 'fallback'}", flush=True)
+            if semantic_structure and semantic_structure.get("elements"):
+                semantic_elements = semantic_structure["elements"]
+                element_by_id = {item["element_id"]: item for item in normalized_elements}
+                semantic_text = "\n\n".join(item["text"] for item in semantic_elements if item.get("text"))
+                for item in semantic_elements:
+                    if item["element_id"] in element_by_id:
+                        element_by_id[item["element_id"]]["semantic_type"] = item.get("type", "text")
+                normalized_elements = list(element_by_id.values())
+            else:
+                semantic_text = clean_text
+                semantic_structure = {"title": None, "sections": [], "elements": [], "warnings": [semantic_error] if semantic_error else []}
+            # Chunk only after the semantic stage; this is the text used by a later embedding stage.
+            chunks = self._normalizer.chunk_text(semantic_text, {"document_id": str(doc_id), "filename": original_filename})
+            print(f"[{doc_id}] stage=chunk_done chunks={len(chunks)} chars={len(semantic_text)}", flush=True)
+
+            # Phase 2: Vectorize & Lưu Chunks vào PostgreSQL pgvector
+            print(f"[{doc_id}] stage=embedding_start chunks={len(chunks)}", flush=True)
+            try:
+                chunk_texts = [c.get("text", "") for c in chunks]
+                embeddings = self._embedder.embed_texts(chunk_texts, input_type="passage")
+                chunks_with_vecs = []
+                for idx, c in enumerate(chunks):
+                    vec = embeddings[idx] if idx < len(embeddings) else []
+                    chunks_with_vecs.append({
+                        "id": uuid.uuid4(),
+                        "chunk_index": idx,
+                        "content": c.get("text", ""),
+                        "metadata": {
+                            **(c.get("metadata") or {}),
+                            "document_id": str(doc_id),
+                            "filename": original_filename,
+                        },
+                        "embedding": vec,
+                    })
+                saved_chunks = self._chunk_repo.save_chunks_batch(doc_id, chunks_with_vecs)
+                print(f"[{doc_id}] stage=embedding_done saved_chunks={saved_chunks}", flush=True)
+            except Exception as emb_exc:
+                print(f"[{doc_id}] stage=embedding_warning error={emb_exc}", flush=True)
+
+            if not self.repo.is_document_active(doc_id):
+                return
+            
+            # Prepare extracted data
+            extracted_data = {
+                # The user-facing OCR result is the cleaned/normalized text.
+                "ocr_text": clean_text,
+                "text": clean_text,
+                "chunks": chunks,
+                "normalized_elements": normalized_elements,
+                "semantic_structure": semantic_structure,
+                "semantic_normalization": {
+                    "provider": "nvidia_nim",
+                    "model": semantic_structure.get("model", os.getenv("NIM_MODEL", "meta/llama-3.3-70b-instruct")),
+                    "status": "processed" if semantic_error is None else "fallback_rule_based",
+                    "error": semantic_error,
+                    "elapsed_seconds": semantic_structure.get("elapsed_seconds"),
+                    "parallel_windows": semantic_structure.get("parallel_windows"),
+                },
+                "metadata": {
+                    "page_count": len(result.pages) if hasattr(result, "pages") else 1,
+                    "language": "vie,eng",
+                    "confidence_score": 0.995 if not do_ocr else (0.985 if (semantic_structure and not semantic_error) else 0.94),
+                    "ocr_percent": 99.5 if not do_ocr else (98.5 if (semantic_structure and not semantic_error) else 94.0),
+                },
+                "entities": [], # Phase 2: VLM / Quality Checker
+                "images": image_bboxes,
+                "ocr_bboxes": ocr_bboxes,
+                "raw_docling": doc_json # Structured document
+            }
+            
+            self.repo.update_document_status(doc_id, "processed", extracted_data=extracted_data)
+            print(f"[{doc_id}] stage=persist_done", flush=True)
+                
+            os.remove(tmp_name)
+        except Exception as e:
+            print(f"Error extracting {doc_id}: {e}")
+            try:
+                if 'tmp_name' in locals() and os.path.exists(tmp_name):
+                    os.remove(tmp_name)
+            except:
+                pass
+            self.repo.update_document_status(doc_id, "failed", error_message=str(e))

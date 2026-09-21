@@ -1,0 +1,234 @@
+{
+  "doc_id": "doc_0000_s1430788463",
+  "title": "Employee Engagement Survey Report: Overall Score, Key Driver Analysis, Demographic Breakdowns, Year-on-Year Trends and Prioritised People Action Plan",
+  "subtitle": "Employee Engagement Survey Results — Overall Score, Key Drivers, Demographics, Year‑on‑Year Trends & Prioritised People Action Plan",
+  "topic_id": "employee_engagement_survey",
+  "recipe_name": "text_heavy",
+  "seed": 1430788463,
+  "document_brief": {
+    "narrative_theme": "The 2025 engagement results show meaningful year-on-year improvement driven by manager effectiveness and growth opportunities, but uneven experiences across demographics require a targeted, prioritised action plan to sustain gains and close gaps.",
+    "sections": [
+      {
+        "heading": "2025 Enterprise Engagement Results and Year-on-Year Trend Narrative",
+        "key_facts": [
+          "100.",
+          "100 (+5 points year-on-year).",
+          "Survey fieldwork ran from 10–24 March 2025."
+        ],
+        "data_references": []
+      },
+      {
+        "heading": "Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)",
+        "key_facts": [
+          "Key driver analysis shows 'Manager effectiveness' has the strongest relationship to engagement (r=0.62).",
+          "100 for employees with tenure 5+ years (12-point gap).",
+          "The people action plan includes exactly 5 enterprise actions to be delivered by 31 December 2025."
+        ],
+        "data_references": []
+      }
+    ],
+    "tables": [],
+    "charts": []
+  },
+  "files": {
+    "pdf": "doc_0000_s1430788463.pdf",
+    "markdown": null,
+    "assets": [
+      "scan_llm_text_62cc0218.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 24,
+    "actual_page_count": 3
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "text",
+      "variant_id": "text_0000_82954f7f",
+      "heading": "2025 Enterprise Engagement Results and Year-on-Year Trend Narrative",
+      "word_count": 218,
+      "text_content": [
+        "**2025 Enterprise Engagement Results and Year-on-Year Trend Narrative**",
+        "100 benchmark to set targets and prioritise actions aligned to strategic people objectives across the enterprise.",
+        "100 benchmark across divisions.",
+        "100 baseline. Transparent reporting, defined owners, and a monthly review cadence will be used to ensure momentum and measurable follow‑through."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, what overall engagement score was achieved in 2025?",
+          "answer": "100",
+          "assertions": [
+            {
+              "text": "100."
+            }
+          ]
+        },
+        {
+          "question": "In the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, during what dates did the survey fieldwork run?",
+          "answer": "10–24 March 2025",
+          "assertions": [
+            {
+              "text": "The response must state 10–24 March 2025."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, in which month and year will results be presented to the Executive Committee and People & Culture leadership?",
+          "answer": "April 2025",
+          "assertions": [
+            {
+              "text": "The response must state April 2025."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "text",
+      "variant_id": "text_0001_2a1b6828",
+      "heading": "Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)",
+      "word_count": 277,
+      "text_content": [
+        "**Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)**",
+        "Key driver analysis identified that Manager effectiveness has the strongest relationship to engagement (r=0.62), surpassing other measured drivers such as role clarity and recognition. This statistical relationship indicates that improvements in managerial practices are likely to yield the largest incremental gains in engagement enterprise-wide. Analysis used Pearson correlations on the Q2 2025 survey dataset with standard significance testing (p<0.01). Leadership should interpret r=0.62 as a substantive effect size and prioritise measurement of managerial behaviors, coaching frequency, and feedback quality as leading indicators to be tracked monthly through HR systems during Q2–Q4 2025.",
+        "100 for employees with tenure 5+ years, a 12-point gap that signals an onboarding and retention challenge. Regional breakdown shows APAC engagement at 74%, EMEA 72%, and North America 76%, while individual contributor engagement averaged 73% compared with 77% for managers. Gender distribution differences were within 2 percentage points. HR and Talent Analytics will prioritise targeted onboarding interventions and segmented reporting beginning 1 July 2025 to narrow these gaps, with executive sponsors.",
+        "The people action plan includes exactly 5 enterprise actions delivered by 31 December 2025. 1. Revise onboarding to 90-day program with milestones — Owner: HR; launch Q3 2025. 2. Publish transparent career pathways and promotion criteria — Owner: Talent; framework by 30 Sep 2025. 3. Deploy an enterprise recognition platform — Owner: Total Rewards; pilot Q4 2025. 4. Run monthly pulse surveys with rapid feedback loops — Owner: People Analytics; live 1 Oct 2025. 5. Deliver targeted wellbeing and retention interventions for high-risk cohorts — Owner: People & Culture; complete 31 Dec 2025."
+      ],
+      "qa_candidates": [
+        {
+          "question": "According to the \"Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)\" section, what is the reported correlation (r) between Manager effectiveness and engagement?",
+          "answer": "r=0.62",
+          "assertions": [
+            {
+              "text": "The response must state r=0.62."
+            }
+          ]
+        },
+        {
+          "question": "In the \"Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)\" section, what engagement score is reported for employees with tenure <1 year?",
+          "answer": "100",
+          "assertions": [
+            {
+              "text": "100."
+            }
+          ]
+        },
+        {
+          "question": "According to the \"Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)\" section, by what date must the targeted wellbeing and retention interventions for high-risk cohorts be completed?",
+          "answer": "31 Dec 2025",
+          "assertions": [
+            {
+              "text": "The response must state 31 Dec 2025."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "text_0000_82954f7f": {
+      "kind": "text",
+      "perturbations": [
+        "unicode_punctuation"
+      ],
+      "heading": "2025 Enterprise Engagement Results and Year-on-Year Trend Narrative",
+      "word_count": 218,
+      "text_type": "llm_prose",
+      "topic_id": "employee_engagement_survey"
+    },
+    "text_0001_2a1b6828": {
+      "kind": "text",
+      "perturbations": [
+        "date_formats"
+      ],
+      "heading": "Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)",
+      "word_count": 277,
+      "text_type": "llm_prose",
+      "topic_id": "employee_engagement_survey"
+    },
+    "scan_llm_0000_8f1f403d": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_62cc0218.png",
+      "topic_id": ""
+    },
+    "cx_table_0001_932d4a58": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 5,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "employee_engagement_survey"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "According to the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, what overall engagement score was achieved in 2025?",
+      "answer": "100",
+      "assertions": [
+        {
+          "text": "100."
+        }
+      ]
+    },
+    {
+      "question": "In the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, during what dates did the survey fieldwork run?",
+      "answer": "10–24 March 2025",
+      "assertions": [
+        {
+          "text": "The response must state 10–24 March 2025."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"2025 Enterprise Engagement Results and Year-on-Year Trend Narrative\" section, in which month and year will results be presented to the Executive Committee and People & Culture leadership?",
+      "answer": "April 2025",
+      "assertions": [
+        {
+          "text": "The response must state April 2025."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)\" section, what is the reported correlation (r) between Manager effectiveness and engagement?",
+      "answer": "r=0.62",
+      "assertions": [
+        {
+          "text": "The response must state r=0.62."
+        }
+      ]
+    },
+    {
+      "question": "In the \"Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)\" section, what engagement score is reported for employees with tenure <1 year?",
+      "answer": "100",
+      "assertions": [
+        {
+          "text": "100."
+        }
+      ]
+    },
+    {
+      "question": "According to the \"Key Driver Insights, Demographic Breakdowns, and Prioritised People Action Plan (Q2–Q4 2025)\" section, by what date must the targeted wellbeing and retention interventions for high-risk cohorts be completed?",
+      "answer": "31 Dec 2025",
+      "assertions": [
+        {
+          "text": "The response must state 31 Dec 2025."
+        }
+      ]
+    }
+  ]
+}

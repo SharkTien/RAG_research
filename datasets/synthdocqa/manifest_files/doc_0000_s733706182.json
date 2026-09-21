@@ -1,0 +1,3149 @@
+{
+  "doc_id": "doc_0000_s733706182",
+  "title": "Loss Analysis, Sales Cycle Metrics, and Account Manager Productivity Benchmarks",
+  "subtitle": "Loss, Sales Cycle & AM Productivity Benchmarks",
+  "topic_id": "sales_performance_review",
+  "recipe_name": "executive_visual",
+  "seed": 733706182,
+  "document_brief": {
+    "narrative_theme": "Q2 2026 results show that revenue outperformance in North America and Core subscriptions was driven by strong mid-funnel conversion, while EMEA expansion lagged due to late-stage slippage and longer cycles—guiding targeted actions to improve pipeline health, win rates, and account manager productivity in Q3.",
+    "sections": [],
+    "tables": [],
+    "charts": [
+      {
+        "id": "chart_0",
+        "title": "Q2 2026 Revenue Attainment vs Target by Region",
+        "chart_type": "bar",
+        "x_label": "Sales Region",
+        "y_label": "Revenue Attainment (% of Q2 2026 Target)",
+        "purpose": "Compares Q2 2026 revenue attainment against plan across regions to highlight where outperformance and shortfalls drove overall results."
+      },
+      {
+        "id": "chart_1",
+        "title": "Q2 2026 Revenue Attainment vs Target by Product Line",
+        "chart_type": "bar",
+        "x_label": "Product Line",
+        "y_label": "Revenue Attainment (% of Q2 2026 Target)",
+        "purpose": "Shows which product lines exceeded or missed Q2 2026 targets to connect product mix to regional performance and overall attainment."
+      },
+      {
+        "id": "chart_2",
+        "title": "Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)",
+        "chart_type": "heatmap",
+        "x_label": "Lost)",
+        "y_label": "Sales Region",
+        "purpose": "Visualizes Q3 2026 opening pipeline distribution by stage and region to identify thin late-stage coverage and funnel imbalance impacting forecast confidence."
+      },
+      {
+        "id": "chart_3",
+        "title": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)",
+        "chart_type": "bar",
+        "x_label": "Primary Loss Reason",
+        "y_label": "Rate (% of Decisions)",
+        "purpose": "Quantifies win rate and loss concentration by reason over the 90 days ending 2026-06-30 to pinpoint the biggest controllable drivers of missed revenue."
+      },
+      {
+        "id": "chart_4",
+        "title": "Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)",
+        "chart_type": "box",
+        "x_label": "Region × Deal Size Band",
+        "y_label": "Sales Cycle Length (Days)",
+        "purpose": "Compares distribution of sales cycle duration for Q2 2026 closed deals across regions and deal sizes to explain slippage and inform stage-exit and enablement actions."
+      },
+      {
+        "id": "chart_5",
+        "title": "Account Manager Productivity vs Quota Attainment (Q2 2026)",
+        "chart_type": "scatter",
+        "x_label": "Quota Attainment (% of Q2 2026 Quota)",
+        "y_label": "Weekly Customer-Facing Activities (Meetings + Calls)",
+        "purpose": "Relates account manager activity levels to quota attainment in Q2 2026 to benchmark productivity and identify coaching opportunities for underperforming segments."
+      }
+    ]
+  },
+  "files": {
+    "pdf": "doc_0000_s733706182.pdf",
+    "markdown": null,
+    "assets": [
+      "img_0000_399cf8ec.png",
+      "scan_llm_data_1c332b02.png",
+      "cmp_0004_1739a23b.png",
+      "img_0005_8e3b7200.png",
+      "scan_llm_text_97f43f81.png",
+      "cmp_0002_539bd320.png",
+      "img_0001_79dbe3b4.png",
+      "dash_0002_1f7f7d4d.png",
+      "img_0002_39e254ae.png",
+      "dash_0003_61dd85a1.png",
+      "img_0003_3155a2c8.png",
+      "mag_0001_001388a2.png",
+      "img_0004_da115cd9.png",
+      "mag_0000_b1ad5d67.png",
+      "cmp_0000_3a00008e.png",
+      "cmp_0003_07438c45.png",
+      "dash_0001_e2c0c40f.png",
+      "pict_0004_3906c16a.png",
+      "dash_0000_de47a2e4.png",
+      "pict_0003_2f62b02e.png",
+      "mag_0003_188869e7.png",
+      "mag_0004_75db7679.png",
+      "pict_0001_40dc27fd.png"
+    ]
+  },
+  "render": {
+    "backend": "reportlab",
+    "target_pages": 26,
+    "actual_page_count": 14
+  },
+  "structure": [
+    {
+      "position": 1,
+      "type": "image",
+      "variant_id": "img_0000_399cf8ec",
+      "figure_number": 1,
+      "image_path": "img_0000_399cf8ec.png",
+      "caption": "Figure 1: Q2 2026 Revenue Attainment vs Target by Region",
+      "chart_type": "grouped_bar",
+      "chart_title": "Q2 2026 Revenue Attainment vs Target by Region",
+      "x_label": "Sales Region",
+      "y_label": "Revenue Attainment (% of Q2 2026 Target)",
+      "categories": [
+        "North America",
+        "EMEA",
+        "APAC",
+        "Latin America"
+      ],
+      "series_names": [
+        "Revenue Attainment (%)"
+      ],
+      "value_range": [
+        70,
+        120
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "grouped_bar",
+        "categories": [
+          "North America",
+          "EMEA",
+          "APAC",
+          "Latin America"
+        ],
+        "series": [
+          "Revenue Attainment (%)"
+        ],
+        "value_range": [
+          70,
+          120
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", what does the Y-axis represent?",
+          "answer": "Revenue Attainment (% of Q2 2026 Target)",
+          "assertions": [
+            {
+              "text": "The response must state Revenue Attainment (% of Q2 2026 Target)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", what is the value range shown?",
+          "answer": "[70, 120]",
+          "assertions": [
+            {
+              "text": "The response must state [70, 120]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", name one of the Sales Region categories.",
+          "answer": "APAC",
+          "assertions": [
+            {
+              "text": "The response must state APAC."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type": "image",
+      "variant_id": "scan_llm_0001_d730f390",
+      "figure_number": 2,
+      "image_path": "scan_llm_data_1c332b02.png",
+      "subtype": "scanned_data_table",
+      "caption": "Figure 2: Q2 2026 Revenue & Pipeline Performance by Region and Product",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "data_table",
+        "title": "Q2 2026 Revenue & Pipeline Performance by Region and Product",
+        "caption": "Performance metrics for Q2 2026 detailing revenue attainment, pipeline coverage, win rates, and average sales cycle by region and product line.",
+        "headers": [
+          "Region",
+          "Product",
+          "Revenue Attainment %",
+          "Pipeline Coverage (x)",
+          "Win Rate %",
+          "Avg Cycle (Days)"
+        ],
+        "rows": [
+          [
+            "North America",
+            "Core Subscription",
+            "112%",
+            "3.4x",
+            "31%",
+            "54"
+          ],
+          [
+            "North America",
+            "Enterprise Add-On",
+            "98%",
+            "2.8x",
+            "24%",
+            "67"
+          ],
+          [
+            "North America",
+            "Professional Services",
+            "105%",
+            "2.2x",
+            "36%",
+            "41"
+          ],
+          [
+            "EMEA",
+            "Core Subscription",
+            "89%",
+            "2.5x",
+            "22%",
+            "78"
+          ],
+          [
+            "EMEA",
+            "Enterprise Add-On",
+            "83%",
+            "2.1x",
+            "19%",
+            "91"
+          ],
+          [
+            "EMEA",
+            "Professional Services",
+            "94%",
+            "1.9x",
+            "28%",
+            "63"
+          ],
+          [
+            "APAC",
+            "Core Subscription",
+            "101%",
+            "3.0x",
+            "27%",
+            "59"
+          ],
+          [
+            "APAC",
+            "Enterprise Add-On",
+            "96%",
+            "2.6x",
+            "23%",
+            "72"
+          ],
+          [
+            "APAC",
+            "Professional Services",
+            "103%",
+            "2.4x",
+            "33%",
+            "48"
+          ],
+          [
+            "Latin America",
+            "Core Subscription",
+            "95%",
+            "2.7x",
+            "25%",
+            "66"
+          ],
+          [
+            "Latin America",
+            "Enterprise Add-On",
+            "88%",
+            "2.3x",
+            "21%",
+            "74"
+          ],
+          [
+            "Latin America",
+            "Professional Services",
+            "97%",
+            "2.0x",
+            "30%",
+            "52"
+          ]
+        ],
+        "summary_note": "North America exceeded plan primarily due to strong Core Subscription conversion and shorter cycle times, while EMEA underperformed as lower win rates and extended late-stage cycles reduced revenue realization. Targeted Q3 actions will focus on improving late-stage qualification and increasing pipeline coverage in EMEA.",
+        "date": "Q2 2026",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Region",
+        "Product",
+        "Revenue Attainment %",
+        "Pipeline Coverage (x)",
+        "Win Rate %",
+        "Avg Cycle (Days)"
+      ],
+      "cells": [
+        [
+          "North America",
+          "Core Subscription",
+          "112%",
+          "3.4x",
+          "31%",
+          "54"
+        ],
+        [
+          "North America",
+          "Enterprise Add-On",
+          "98%",
+          "2.8x",
+          "24%",
+          "67"
+        ],
+        [
+          "North America",
+          "Professional Services",
+          "105%",
+          "2.2x",
+          "36%",
+          "41"
+        ],
+        [
+          "EMEA",
+          "Core Subscription",
+          "89%",
+          "2.5x",
+          "22%",
+          "78"
+        ],
+        [
+          "EMEA",
+          "Enterprise Add-On",
+          "83%",
+          "2.1x",
+          "19%",
+          "91"
+        ],
+        [
+          "EMEA",
+          "Professional Services",
+          "94%",
+          "1.9x",
+          "28%",
+          "63"
+        ],
+        [
+          "APAC",
+          "Core Subscription",
+          "101%",
+          "3.0x",
+          "27%",
+          "59"
+        ],
+        [
+          "APAC",
+          "Enterprise Add-On",
+          "96%",
+          "2.6x",
+          "23%",
+          "72"
+        ],
+        [
+          "APAC",
+          "Professional Services",
+          "103%",
+          "2.4x",
+          "33%",
+          "48"
+        ],
+        [
+          "Latin America",
+          "Core Subscription",
+          "95%",
+          "2.7x",
+          "25%",
+          "66"
+        ],
+        [
+          "Latin America",
+          "Enterprise Add-On",
+          "88%",
+          "2.3x",
+          "21%",
+          "74"
+        ],
+        [
+          "Latin America",
+          "Professional Services",
+          "97%",
+          "2.0x",
+          "30%",
+          "52"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 6,
+      "summary": "North America exceeded plan primarily due to strong Core Subscription conversion and shorter cycle times, while EMEA underperformed as lower win rates and extended late-stage cycles reduced revenue realization. Targeted Q3 actions will focus on improving late-stage qualification and increasing pipeline coverage in EMEA.",
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", what was the Revenue Attainment % for North America Core Subscription?",
+          "answer": "112%.",
+          "assertions": [
+            {
+              "text": "The response must state '112%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", how many rows are reported in the table?",
+          "answer": "12 rows.",
+          "assertions": [
+            {
+              "text": "The response must state '12 rows.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", what is the Avg Cycle (Days) for EMEA Enterprise Add-On?",
+          "answer": "91 days.",
+          "assertions": [
+            {
+              "text": "The response must state '91 days.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", did North America exceed plan according to the summary?",
+          "answer": "Yes — North America exceeded plan.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — North America exceeded plan.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", which North America product had the highest Win Rate and what was it?",
+          "answer": "Professional Services — 36%.",
+          "assertions": [
+            {
+              "text": "The response must state 'Professional Services — 36%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type": "image",
+      "variant_id": "cmp_0004_1739a23b",
+      "figure_number": 3,
+      "image_path": "cmp_0004_1739a23b.png",
+      "subtype": "comparison",
+      "caption": "Figure 3: Comparison: Sales Performance Review Packages",
+      "title": "Sales Performance Review Packages",
+      "theme": "midnight_dark",
+      "options": [
+        {
+          "name": "Standard Review",
+          "recommended": false
+        },
+        {
+          "name": "Advanced Analytics Review",
+          "recommended": true
+        },
+        {
+          "name": "Enterprise Strategic Review",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "On the 'Sales Performance Review Packages' diagram, which package is labeled as the recommended option?",
+          "answer": "Advanced Analytics Review",
+          "assertions": [
+            {
+              "text": "The response must state 'Advanced Analytics Review'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Review Packages', how many options are being compared?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "Looking at the 'Sales Performance Review Packages', which option appears second in the list of packages?",
+          "answer": "Advanced Analytics Review",
+          "assertions": [
+            {
+              "text": "The response must state 'Advanced Analytics Review'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type": "image",
+      "variant_id": "img_0005_8e3b7200",
+      "figure_number": 4,
+      "image_path": "img_0005_8e3b7200.png",
+      "caption": "Figure 4: Account Manager Productivity vs Quota Attainment (Q2 2026)",
+      "chart_type": "ridgeline",
+      "chart_title": "Account Manager Productivity vs Quota Attainment (Q2 2026)",
+      "x_label": "Quota Attainment (% of Q2 2026 Quota)",
+      "y_label": "Weekly Customer-Facing Activities (Meetings + Calls)",
+      "categories": [
+        "SMB Account Managers",
+        "Mid-Market Account Managers",
+        "Enterprise Account Managers",
+        "Strategic Account Managers"
+      ],
+      "series_names": [
+        "Q2 2026 Account Managers"
+      ],
+      "value_range": [
+        40,
+        130
+      ],
+      "trend": "increasing",
+      "chart_data": {
+        "chart_type": "ridgeline",
+        "categories": [
+          "SMB Account Managers",
+          "Mid-Market Account Managers",
+          "Enterprise Account Managers",
+          "Strategic Account Managers"
+        ],
+        "value_range": [
+          40,
+          130
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Account Manager Productivity vs Quota Attainment (Q2 2026)\", what does the Y-axis represent?",
+          "answer": "Weekly Customer-Facing Activities (Meetings + Calls)",
+          "assertions": [
+            {
+              "text": "The response must state Weekly Customer-Facing Activities (Meetings + Calls)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Account Manager Productivity vs Quota Attainment (Q2 2026)\", what is the value range shown?",
+          "answer": "[40, 130]",
+          "assertions": [
+            {
+              "text": "The response must state [40, 130]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Account Manager Productivity vs Quota Attainment (Q2 2026)\", what is the overall trend indicated?",
+          "answer": "increasing",
+          "assertions": [
+            {
+              "text": "The response must state increasing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type": "image",
+      "variant_id": "scan_llm_0000_b4610059",
+      "figure_number": 5,
+      "image_path": "scan_llm_text_97f43f81.png",
+      "subtype": "scanned_text_document",
+      "caption": "Figure 5: Q2 FY2026 Sales Performance Review",
+      "scan_quality": "medium",
+      "spec": {
+        "variant_type": "text_document",
+        "document_type": "report_page",
+        "title": "Q2 FY2026 Sales Performance Review",
+        "subtitle": "Ref: SPR-26Q2-NAEMEA | Date: 18 July 2026 | From: VP Global Revenue Operations",
+        "sections": [
+          {
+            "heading": "Executive Overview",
+            "body": "Q2 FY2026 closed at $84.7M in total revenue, representing 107% of quarterly target and 14% year-over-year growth. Outperformance was primarily driven by North America, which achieved 112% of plan, and by continued momentum in Core subscription products. In contrast, EMEA finished at 93% of target due to late-stage opportunity slippage and extended deal cycles in enterprise accounts. The overall pipeline coverage entering Q3 stands at 3.1x quota, though distribution and stage balance require corrective action."
+          },
+          {
+            "heading": "Regional Performance Summary",
+            "body": "North America delivered $51.3M against a $45.8M target, fueled by strong conversion rates in the mid-funnel (Stage 2 to Stage 3 improved from 46% in Q1 to 58% in Q2). The Central and West territories led performance, particularly in healthcare and fintech verticals. EMEA closed $21.4M versus a $23.0M plan, with the UKI region experiencing an average 18-day cycle extension compared to Q1. APAC remained steady at 101% attainment, though deal sizes were smaller than forecast."
+          },
+          {
+            "heading": "Product Line Analysis",
+            "body": "Core subscriptions generated $62.5M in bookings, exceeding plan by 11%, supported by bundled pricing incentives and improved cross-sell motions within existing accounts. Advanced Analytics add-ons underperformed at 88% of target due to delayed procurement approvals in two strategic EMEA accounts. Renewal rates for Core remained strong at 94.2%, while expansion ARR grew 9% quarter-over-quarter. Product attach rates improved in North America but declined slightly in DACH markets."
+          },
+          {
+            "heading": "Loss Trends",
+            "body": "Mid-funnel velocity improved globally, with average time in Stage 2 decreasing from 21 days to 16 days, contributing to higher conversion into proposal stages. However, late-stage slippage increased in EMEA, where 27% of Stage 4 opportunities were pushed to Q3 compared to 14% in Q1. Overall win rate rose to 31% (up from 28%), largely attributable to disciplined qualification in North America. Loss analysis indicates pricing sensitivity and delayed security reviews as the primary drivers of competitive losses in EMEA."
+          },
+          {
+            "heading": "Sales Cycle Metrics and Account Manager Productivity",
+            "body": "The global average sales cycle measured 74 days, down from 81 days in Q1, though EMEA enterprise cycles extended to 96 days on average. Account managers in North America achieved $1.42M in quarterly bookings per head, compared to $1.08M in EMEA. Top-quartile performers maintained pipeline coverage above 3.5x and conducted 22% more executive-level meetings than the regional average. For Q3, targeted enablement will focus on late-stage deal management, executive alignment in EMEA accounts, and structured opportunity reviews to reduce slippage."
+          }
+        ],
+        "footer_note": "Confidential — Internal Distribution Only | Page 1 of 1",
+        "quality_tier": "medium"
+      },
+      "columns": [
+        "Executive Overview",
+        "Regional Performance Summary",
+        "Product Line Analysis",
+        "Loss Trends",
+        "Sales Cycle Metrics and Account Manager Productivity"
+      ],
+      "cells": [
+        {
+          "heading": "Executive Overview",
+          "body": "Q2 FY2026 closed at $84.7M in total revenue, representing 107% of quarterly target and 14% year-over-year growth. Outperformance was primarily driven by North America, which achieved 112% of plan, and by continued momentum in Core subscription products. In contrast, EMEA finished at 93% of target due to late-stage opportunity slippage and extended deal cycles in enterprise accounts. The overall pipeline coverage entering Q3 stands at 3.1x quota, though distribution and stage balance require corrective action."
+        },
+        {
+          "heading": "Regional Performance Summary",
+          "body": "North America delivered $51.3M against a $45.8M target, fueled by strong conversion rates in the mid-funnel (Stage 2 to Stage 3 improved from 46% in Q1 to 58% in Q2). The Central and West territories led performance, particularly in healthcare and fintech verticals. EMEA closed $21.4M versus a $23.0M plan, with the UKI region experiencing an average 18-day cycle extension compared to Q1. APAC remained steady at 101% attainment, though deal sizes were smaller than forecast."
+        },
+        {
+          "heading": "Product Line Analysis",
+          "body": "Core subscriptions generated $62.5M in bookings, exceeding plan by 11%, supported by bundled pricing incentives and improved cross-sell motions within existing accounts. Advanced Analytics add-ons underperformed at 88% of target due to delayed procurement approvals in two strategic EMEA accounts. Renewal rates for Core remained strong at 94.2%, while expansion ARR grew 9% quarter-over-quarter. Product attach rates improved in North America but declined slightly in DACH markets."
+        },
+        {
+          "heading": "Loss Trends",
+          "body": "Mid-funnel velocity improved globally, with average time in Stage 2 decreasing from 21 days to 16 days, contributing to higher conversion into proposal stages. However, late-stage slippage increased in EMEA, where 27% of Stage 4 opportunities were pushed to Q3 compared to 14% in Q1. Overall win rate rose to 31% (up from 28%), largely attributable to disciplined qualification in North America. Loss analysis indicates pricing sensitivity and delayed security reviews as the primary drivers of competitive losses in EMEA."
+        },
+        {
+          "heading": "Sales Cycle Metrics and Account Manager Productivity",
+          "body": "The global average sales cycle measured 74 days, down from 81 days in Q1, though EMEA enterprise cycles extended to 96 days on average. Account managers in North America achieved $1.42M in quarterly bookings per head, compared to $1.08M in EMEA. Top-quartile performers maintained pipeline coverage above 3.5x and conducted 22% more executive-level meetings than the regional average. For Q3, targeted enablement will focus on late-stage deal management, executive alignment in EMEA accounts, and structured opportunity reviews to reduce slippage."
+        }
+      ],
+      "full_text": "Loss Trends\nMid-funnel velocity improved globally, with average time in Stage 2 decreasing from 21 days to 16 days, contributing to higher conversion into proposal stages. However, late-stage slippage increased in EMEA, where 27% of Stage 4 opportunities were pushed to Q3 compared to 14% in Q1. Overall win rate rose to 31% (up from 28%), largely attributable to disciplined qualification in North America. Loss analysis indicates pricing sensitivity and delayed security reviews as the primary drivers of competitive losses in EMEA.\n\nSection Sales Cycle Metrics and Account Manager Productivity\nThe global average sales cycle measured 74 days, down from 81 days in Q1, though EMEA enterprise cycles extended to 96 days on average. Account managers in North America achieved $1.42M in quarterly bookings per head, compared to $1.08M in EMEA. Top-quartile performers maintained pipeline coverage above 3.5x and conducted 22% more executive-level meetings than the regional average. For Q3, targeted enablement will focus on late-stage deal management, executive alignment in EMEA accounts, and structured opportunity reviews to reduce slippage.\n\nConfidential — Internal Distribution Only | Page 1 of 1",
+      "section_count": 5,
+      "qa_candidates": [
+        {
+          "question": "In the scanned document titled \"Q2 FY2026 Sales Performance Review\", what was the total revenue closed in Q2 FY2026?",
+          "answer": "$84.7M.",
+          "assertions": [
+            {
+              "text": "The response must state '$84.7M.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q2 FY2026 Sales Performance Review\", what percentage of the quarterly target did Q2 revenue represent?",
+          "answer": "107%.",
+          "assertions": [
+            {
+              "text": "The response must state '107%.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Q2 FY2026 Sales Performance Review\", how much revenue did North America deliver in Q2?",
+          "answer": "$51.3M.",
+          "assertions": [
+            {
+              "text": "The response must state '$51.3M.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "According to \"Q2 FY2026 Sales Performance Review\", which product line generated $62.5M in bookings?",
+          "answer": "Core subscriptions.",
+          "assertions": [
+            {
+              "text": "The response must state 'Core subscriptions.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        },
+        {
+          "question": "In the scanned document titled \"Q2 FY2026 Sales Performance Review\", did mid-funnel velocity improve and how did the average time in Stage 2 change?",
+          "answer": "Yes — average time in Stage 2 decreased from 21 days to 16 days.",
+          "assertions": [
+            {
+              "text": "The response must state 'Yes — average time in Stage 2 decreased from 21 days to 16 days.'.",
+              "level": "expected",
+              "metric": "Accuracy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type": "image",
+      "variant_id": "cmp_0002_539bd320",
+      "figure_number": 6,
+      "image_path": "cmp_0002_539bd320.png",
+      "subtype": "comparison",
+      "caption": "Figure 6: Comparison: Sales Performance Review Solutions",
+      "title": "Sales Performance Review Solutions",
+      "theme": "emerald_finance",
+      "options": [
+        {
+          "name": "Basic Review Package",
+          "recommended": false
+        },
+        {
+          "name": "Professional Analytics Suite",
+          "recommended": true
+        },
+        {
+          "name": "Enterprise Performance Intelligence",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "Which option is shown as recommended in the 'Sales Performance Review Solutions' comparison diagram?",
+          "answer": "Professional Analytics Suite",
+          "assertions": [
+            {
+              "text": "The response must state 'Professional Analytics Suite'."
+            }
+          ]
+        },
+        {
+          "question": "How many options are compared on the 'Sales Performance Review Solutions' diagram?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "What is the subtitle displayed on the 'Sales Performance Review Solutions' element?",
+          "answer": "Comparison of reporting depth and analytics capabilities",
+          "assertions": [
+            {
+              "text": "The response must state 'Comparison of reporting depth and analytics capabilities'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type": "image",
+      "variant_id": "img_0001_79dbe3b4",
+      "figure_number": 7,
+      "image_path": "img_0001_79dbe3b4.png",
+      "caption": "Figure 7: Q2 2026 Revenue Attainment vs Target by Product Line",
+      "chart_type": "violin",
+      "chart_title": "Q2 2026 Revenue Attainment vs Target by Product Line",
+      "x_label": "Product Line",
+      "y_label": "Revenue Attainment (% of Q2 2026 Target)",
+      "categories": [
+        "Enterprise Software",
+        "Mid-Market Software",
+        "SMB Software",
+        "Professional Services",
+        "Support & Maintenance",
+        "Add-On Modules"
+      ],
+      "series_names": [
+        "Q2 2026 Attainment (%)"
+      ],
+      "value_range": [
+        85,
+        115
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "violin",
+        "categories": [
+          "Enterprise Software",
+          "Mid-Market Software",
+          "SMB Software",
+          "Professional Services",
+          "Support & Maintenance"
+        ],
+        "value_range": [
+          85,
+          115
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Product Line\", what does the Y-axis represent?",
+          "answer": "Revenue Attainment (% of Q2 2026 Target)",
+          "assertions": [
+            {
+              "text": "The response must state Revenue Attainment (% of Q2 2026 Target)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Product Line\", what is the value range shown?",
+          "answer": "[85, 115]",
+          "assertions": [
+            {
+              "text": "The response must state [85, 115]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Product Line\", name one of the categories on the X-axis.",
+          "answer": "Enterprise Software",
+          "assertions": [
+            {
+              "text": "The response must state Enterprise Software."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "type": "image",
+      "variant_id": "dash_0002_1f7f7d4d",
+      "figure_number": 8,
+      "image_path": "dash_0002_1f7f7d4d.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 8: Dashboard: Q2 2026 Sales Performance",
+      "title": "Q2 2026 Sales Performance",
+      "theme": "slate_tech",
+      "subtitle": "Revenue, Pipeline & Productivity Metrics",
+      "period_badge": "Q2 2026",
+      "kpis": [
+        {
+          "label": "Revenue Attainment",
+          "value": "$18.4M (102% of target)",
+          "delta": "+6.5%",
+          "trend": "up",
+          "sparkline": [
+            15.2,
+            16.8,
+            17.5,
+            18.1,
+            18.4
+          ]
+        },
+        {
+          "label": "Pipeline Coverage Ratio",
+          "value": "3.4x",
+          "delta": "+0.3x",
+          "trend": "up",
+          "sparkline": [
+            2.6,
+            2.9,
+            3.1,
+            3.3,
+            3.4
+          ]
+        },
+        {
+          "label": "Win Rate",
+          "value": "27%",
+          "delta": "-2.0%",
+          "trend": "down",
+          "sparkline": [
+            30,
+            29,
+            28,
+            27.5,
+            27
+          ]
+        },
+        {
+          "label": "Avg Sales Cycle",
+          "value": "54 days",
+          "delta": "-8.0%",
+          "trend": "up",
+          "sparkline": [
+            62,
+            60,
+            58,
+            56,
+            54
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Region",
+        "labels": [
+          "North America",
+          "EMEA",
+          "APAC",
+          "LATAM"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              8.2,
+              4.6,
+              3.1,
+              2.5
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              7.5,
+              4.1,
+              2.8,
+              2.2
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "North America exceeded quota at 108% with strongest YoY growth.",
+        "Pipeline expansion in EMEA improved coverage to 3.7x entering Q3.",
+        "Top quartile account managers closed 35% more deals with 12-day shorter sales cycles."
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Q2 2026 Sales Performance' dashboard, what is the value shown for the Revenue Attainment KPI?",
+          "answer": "$18.4M (102% of target)",
+          "assertions": [
+            {
+              "text": "The response must state '$18.4M (102% of target)'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Q2 2026 Sales Performance' dashboard, what is the Pipeline Coverage Ratio?",
+          "answer": "3.4x",
+          "assertions": [
+            {
+              "text": "The response must state '3.4x'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Q2 2026 Sales Performance' dashboard, what period badge is displayed?",
+          "answer": "Q2 2026",
+          "assertions": [
+            {
+              "text": "The response must state 'Q2 2026'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "type": "image",
+      "variant_id": "img_0002_39e254ae",
+      "figure_number": 9,
+      "image_path": "img_0002_39e254ae.png",
+      "caption": "Figure 9: Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)",
+      "chart_type": "heatmap",
+      "chart_title": "Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)",
+      "x_label": "Lost)",
+      "y_label": "Sales Region",
+      "categories": [
+        "Qualified",
+        "Discovery",
+        "Solution Presented",
+        "Proposal Submitted",
+        "Negotiation",
+        "Closed Won",
+        "Closed Lost"
+      ],
+      "series_names": [
+        "North America",
+        "EMEA",
+        "APAC",
+        "LATAM"
+      ],
+      "value_range": [
+        5,
+        120
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "heatmap",
+        "categories": [
+          "Qualified",
+          "Discovery",
+          "Solution Presented",
+          "Proposal Submitted",
+          "Negotiation",
+          "Closed Won"
+        ],
+        "series": [
+          "North America",
+          "EMEA",
+          "APAC",
+          "LATAM"
+        ],
+        "value_range": [
+          5,
+          120
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)\", what does the Y-axis represent?",
+          "answer": "Sales Region",
+          "assertions": [
+            {
+              "text": "The response must state Sales Region."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)\", what is the value range shown?",
+          "answer": "[5, 120]",
+          "assertions": [
+            {
+              "text": "The response must state [5, 120]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)\", what is the chart type?",
+          "answer": "heatmap",
+          "assertions": [
+            {
+              "text": "The response must state heatmap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type": "image",
+      "variant_id": "dash_0003_61dd85a1",
+      "figure_number": 10,
+      "image_path": "dash_0003_61dd85a1.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 10: Dashboard: Q2 2026 Sales Performance",
+      "title": "Q2 2026 Sales Performance",
+      "theme": "slate_tech",
+      "subtitle": "Revenue, Pipeline & Productivity Metrics",
+      "period_badge": "Q2 2026",
+      "kpis": [
+        {
+          "label": "Total Revenue",
+          "value": "$24.8M",
+          "delta": "+8.4%",
+          "trend": "up",
+          "sparkline": [
+            21.3,
+            22.7,
+            23.5,
+            24.1,
+            24.8
+          ]
+        },
+        {
+          "label": "Pipeline Coverage",
+          "value": "3.4x",
+          "delta": "+0.6x",
+          "trend": "up",
+          "sparkline": [
+            2.6,
+            2.8,
+            3.0,
+            3.2,
+            3.4
+          ]
+        },
+        {
+          "label": "Win Rate",
+          "value": "29%",
+          "delta": "-2.1%",
+          "trend": "down",
+          "sparkline": [
+            32,
+            31,
+            30,
+            29.5,
+            29
+          ]
+        },
+        {
+          "label": "Avg Sales Cycle",
+          "value": "54 days",
+          "delta": "-6.9%",
+          "trend": "up",
+          "sparkline": [
+            62,
+            60,
+            58,
+            56,
+            54
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Region",
+        "labels": [
+          "North America",
+          "EMEA",
+          "APAC",
+          "LATAM"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              10.6,
+              7.2,
+              4.8,
+              2.2
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              9.8,
+              6.5,
+              4.1,
+              2.0
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "North America exceeded quota at 112% attainment",
+        "Pipeline growth strongest in EMEA (+18% QoQ)",
+        "Top quartile account managers average 134% of quota"
+      ],
+      "qa_candidates": [
+        {
+          "question": "Viewing the 'Q2 2026 Sales Performance' dashboard as a reader, what amount is reported for Total Revenue?",
+          "answer": "$24.8M",
+          "assertions": [
+            {
+              "text": "The response must state '$24.8M'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Q2 2026 Sales Performance' dashboard, what subtitle appears under the title?",
+          "answer": "Revenue, Pipeline & Productivity Metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'Revenue, Pipeline & Productivity Metrics'."
+            }
+          ]
+        },
+        {
+          "question": "In the 'Q2 2026 Sales Performance' dashboard, which callout notes the region with the strongest pipeline growth?",
+          "answer": "Pipeline growth strongest in EMEA (+18% QoQ)",
+          "assertions": [
+            {
+              "text": "The response must state 'Pipeline growth strongest in EMEA (+18% QoQ)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type": "image",
+      "variant_id": "img_0003_3155a2c8",
+      "figure_number": 11,
+      "image_path": "img_0003_3155a2c8.png",
+      "caption": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)",
+      "chart_type": "stacked_area",
+      "chart_title": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)",
+      "x_label": "Primary Loss Reason",
+      "y_label": "Rate (% of Decisions)",
+      "categories": [
+        "Pricing Too High",
+        "Lost to Competitor",
+        "Missing Features",
+        " Status Quo",
+        "Implementation Concerns",
+        "Budget Constraints"
+      ],
+      "series_names": [
+        "Rate (% of Decisions)"
+      ],
+      "value_range": [
+        0,
+        45
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "stacked_area",
+        "series": [
+          "Rate (% of Decisions)"
+        ],
+        "value_range": [
+          0,
+          45
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)\", what does the Y-axis represent?",
+          "answer": "Rate (% of Decisions)",
+          "assertions": [
+            {
+              "text": "The response must state Rate (% of Decisions)."
+            }
+          ]
+        },
+        {
+          "question": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)\", what is the value range shown?",
+          "answer": "[0, 45]",
+          "assertions": [
+            {
+              "text": "The response must state [0, 45]."
+            }
+          ]
+        },
+        {
+          "question": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)\", which category is listed on the X-axis?",
+          "answer": "Pricing Too High",
+          "assertions": [
+            {
+              "text": "The response must state Pricing Too High."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type": "image",
+      "variant_id": "mag_0001_001388a2",
+      "figure_number": 12,
+      "image_path": "mag_0001_001388a2.png",
+      "subtype": "magazine",
+      "caption": "Figure 12: Magazine: Sales Performance Snapshot",
+      "title": "Sales Performance Snapshot",
+      "theme": "slate_tech",
+      "hero_number": "92.4%",
+      "hero_label": "Overall Revenue Attainment",
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Snapshot' magazine-style infographic, what large headline number is shown?",
+          "answer": "92.4%",
+          "assertions": [
+            {
+              "text": "The response must state '92.4%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Snapshot', what does the hero number represent (the hero label)?",
+          "answer": "Overall Revenue Attainment",
+          "assertions": [
+            {
+              "text": "The response must state 'Overall Revenue Attainment'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Sales Performance Snapshot', what callout text explains what will be critical to surpass next quarter’s revenue target?",
+          "answer": "Improving win rates in underperforming regions and shortening late-stage cycle times will be critical to surpass next quarter’s revenue target.",
+          "assertions": [
+            {
+              "text": "The response must state 'Improving win rates in underperforming regions and shortening late-stage cycle times will be critical to surpass next quarter’s revenue target.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type": "image",
+      "variant_id": "img_0004_da115cd9",
+      "figure_number": 13,
+      "image_path": "img_0004_da115cd9.png",
+      "caption": "Figure 13: Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)",
+      "chart_type": "bubble_scatter",
+      "chart_title": "Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)",
+      "x_label": "Region × Deal Size Band",
+      "y_label": "Sales Cycle Length (Days)",
+      "categories": [
+        "North America – SMB",
+        "North America – Mid-Market",
+        "North America – Enterprise",
+        "EMEA – SMB",
+        "EMEA – Mid-Market",
+        "EMEA – Enterprise",
+        "APAC – SMB",
+        "APAC – Mid-Market",
+        "APAC – Enterprise"
+      ],
+      "series_names": [
+        "Sales Cycle Distribution (Q2 2026 Closed Deals)"
+      ],
+      "value_range": [
+        30,
+        210
+      ],
+      "trend": "volatile",
+      "chart_data": {
+        "chart_type": "bubble_scatter",
+        "series": [
+          "Sales Cycle Distribution (Q2 2026 Closed Deals)"
+        ],
+        "value_range": [
+          30,
+          210
+        ]
+      },
+      "qa_candidates": [
+        {
+          "question": "In the chart titled \"Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)\", what does the Y-axis represent?",
+          "answer": "Sales Cycle Length (Days)",
+          "assertions": [
+            {
+              "text": "The response must state Sales Cycle Length (Days)."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)\", what is the value range shown?",
+          "answer": "[30, 210]",
+          "assertions": [
+            {
+              "text": "The response must state [30, 210]."
+            }
+          ]
+        },
+        {
+          "question": "In the chart titled \"Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)\", what is the trend described?",
+          "answer": "volatile",
+          "assertions": [
+            {
+              "text": "The response must state volatile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type": "image",
+      "variant_id": "mag_0000_b1ad5d67",
+      "figure_number": 14,
+      "image_path": "mag_0000_b1ad5d67.png",
+      "subtype": "magazine",
+      "caption": "Figure 14: Magazine: Sales Performance Snapshot",
+      "title": "Sales Performance Snapshot",
+      "theme": "warm_amber",
+      "hero_number": "94.2%",
+      "hero_label": "Total Revenue Target Attainment",
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Snapshot' infographic, what percentage is shown as the hero number?",
+          "answer": "94.2%",
+          "assertions": [
+            {
+              "text": "The response must state '94.2%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Snapshot', what label describes the hero number?",
+          "answer": "Total Revenue Target Attainment",
+          "assertions": [
+            {
+              "text": "The response must state 'Total Revenue Target Attainment'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Sales Performance Snapshot' magazine-style infographic, what is the callout text shown?",
+          "answer": "Improving win rates in underperforming regions presents the fastest path to exceeding next quarter’s revenue target.",
+          "assertions": [
+            {
+              "text": "The response must state 'Improving win rates in underperforming regions presents the fastest path to exceeding next quarter’s revenue target.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type": "image",
+      "variant_id": "cmp_0000_3a00008e",
+      "figure_number": 15,
+      "image_path": "cmp_0000_3a00008e.png",
+      "subtype": "comparison",
+      "caption": "Figure 15: Comparison: Sales Performance Review Comparison",
+      "title": "Sales Performance Review Comparison",
+      "theme": "warm_amber",
+      "options": [
+        {
+          "name": "Essentials Report",
+          "recommended": false
+        },
+        {
+          "name": "Professional Analytics",
+          "recommended": true
+        },
+        {
+          "name": "Enterprise Intelligence",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Review Comparison', which option is shown as the recommended choice?",
+          "answer": "Professional Analytics",
+          "assertions": [
+            {
+              "text": "The response must state 'Professional Analytics'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Review Comparison', how many options are compared?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Sales Performance Review Comparison', what is the subtitle displayed under the title?",
+          "answer": "Regional, product, and productivity analytics tiers",
+          "assertions": [
+            {
+              "text": "The response must state 'Regional, product, and productivity analytics tiers'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type": "image",
+      "variant_id": "cmp_0003_07438c45",
+      "figure_number": 16,
+      "image_path": "cmp_0003_07438c45.png",
+      "subtype": "comparison",
+      "caption": "Figure 16: Comparison: Sales Performance Review Solutions",
+      "title": "Sales Performance Review Solutions",
+      "theme": "midnight_dark",
+      "options": [
+        {
+          "name": "Standard Reporting Suite",
+          "recommended": false
+        },
+        {
+          "name": "Advanced Sales Analytics",
+          "recommended": true
+        },
+        {
+          "name": "Enterprise Revenue Intelligence",
+          "recommended": false
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Review Solutions' comparison, which option is marked as recommended?",
+          "answer": "Advanced Sales Analytics",
+          "assertions": [
+            {
+              "text": "The response must state 'Advanced Sales Analytics'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Review Solutions', how many options are compared?",
+          "answer": "3",
+          "assertions": [
+            {
+              "text": "The response must state '3'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Sales Performance Review Solutions' diagram, what subtitle is shown?",
+          "answer": "Comparison of reporting depth, analytics, and productivity insights",
+          "assertions": [
+            {
+              "text": "The response must state 'Comparison of reporting depth, analytics, and productivity insights'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "type": "image",
+      "variant_id": "dash_0001_e2c0c40f",
+      "figure_number": 17,
+      "image_path": "dash_0001_e2c0c40f.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 17: Dashboard: Q2 2026 Sales Performance",
+      "title": "Q2 2026 Sales Performance",
+      "theme": "healthcare_teal",
+      "subtitle": "Revenue, Pipeline & Productivity Metrics",
+      "period_badge": "Q2 2026",
+      "kpis": [
+        {
+          "label": "Revenue Attainment",
+          "value": "$24.8M (103% of target)",
+          "delta": "+6.5%",
+          "trend": "up",
+          "sparkline": [
+            21.3,
+            22.7,
+            23.5,
+            24.1,
+            24.8
+          ]
+        },
+        {
+          "label": "Pipeline Coverage",
+          "value": "3.4x",
+          "delta": "+0.4x",
+          "trend": "up",
+          "sparkline": [
+            2.6,
+            2.9,
+            3.1,
+            3.2,
+            3.4
+          ]
+        },
+        {
+          "label": "Win Rate",
+          "value": "29%",
+          "delta": "-2.0%",
+          "trend": "down",
+          "sparkline": [
+            32,
+            31,
+            30,
+            29,
+            29
+          ]
+        },
+        {
+          "label": "Avg Sales Cycle",
+          "value": "47 days",
+          "delta": "-8.5%",
+          "trend": "up",
+          "sparkline": [
+            56,
+            53,
+            51,
+            49,
+            47
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Region",
+        "labels": [
+          "North America",
+          "EMEA",
+          "APAC",
+          "LATAM"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              11.2,
+              6.4,
+              4.9,
+              2.3
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              10.5,
+              6.1,
+              4.2,
+              2.5
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "North America exceeded target at 108% attainment",
+        "Enterprise Suite drives over half of total revenue",
+        "Sales cycle reduced by 9% improving deal velocity"
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Q2 2026 Sales Performance' dashboard, what value is shown for Pipeline Coverage?",
+          "answer": "3.4x",
+          "assertions": [
+            {
+              "text": "The response must state '3.4x'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Q2 2026 Sales Performance' dashboard, what is the subtitle displayed under the title?",
+          "answer": "Revenue, Pipeline & Productivity Metrics",
+          "assertions": [
+            {
+              "text": "The response must state 'Revenue, Pipeline & Productivity Metrics'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Q2 2026 Sales Performance' dashboard, what is the value listed for Revenue Attainment?",
+          "answer": "$24.8M (103% of target)",
+          "assertions": [
+            {
+              "text": "The response must state '$24.8M (103% of target)'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type": "image",
+      "variant_id": "pict_0004_3906c16a",
+      "figure_number": 18,
+      "image_path": "pict_0004_3906c16a.png",
+      "subtype": "pictograph",
+      "caption": "Figure 18: Pictograph: Sales Performance Review Snapshot",
+      "title": "Sales Performance Review Snapshot",
+      "theme": "emerald_finance",
+      "unit_label": "Each icon = 5% of total performance weight",
+      "rows": [
+        {
+          "label": "Revenue Attainment (Region & Product)",
+          "value": 25
+        },
+        {
+          "label": "Pipeline Health",
+          "value": 20
+        },
+        {
+          "label": "Loss Analysis",
+          "value": 20
+        },
+        {
+          "label": "Sales Cycle Metrics",
+          "value": 15
+        },
+        {
+          "label": "Account Manager Productivity",
+          "value": 20
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Review Snapshot', what does a single icon denote?",
+          "answer": "Each icon = 5% of total performance weight",
+          "assertions": [
+            {
+              "text": "The response must state 'Each icon = 5% of total performance weight'."
+            }
+          ]
+        },
+        {
+          "question": "How many data rows are shown in the 'Sales Performance Review Snapshot'?",
+          "answer": "5 rows",
+          "assertions": [
+            {
+              "text": "The response must state '5 rows'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Review Snapshot', what value is listed for Sales Cycle Metrics?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "type": "image",
+      "variant_id": "dash_0000_de47a2e4",
+      "figure_number": 19,
+      "image_path": "dash_0000_de47a2e4.png",
+      "subtype": "stat_dashboard",
+      "caption": "Figure 19: Dashboard: Q2 2026 Sales Performance",
+      "title": "Q2 2026 Sales Performance",
+      "theme": "sand_neutral",
+      "subtitle": "Revenue, Pipeline & Productivity Metrics",
+      "period_badge": "Q2 2026",
+      "kpis": [
+        {
+          "label": "Revenue Attainment",
+          "value": "94% of $12.5M",
+          "delta": "+6.2%",
+          "trend": "up",
+          "sparkline": [
+            10.8,
+            11.2,
+            11.9,
+            12.1,
+            12.5
+          ]
+        },
+        {
+          "label": "Pipeline Coverage",
+          "value": "3.4x Quota",
+          "delta": "+0.3x",
+          "trend": "up",
+          "sparkline": [
+            2.8,
+            3.0,
+            3.1,
+            3.3,
+            3.4
+          ]
+        },
+        {
+          "label": "Win Rate",
+          "value": "27%",
+          "delta": "-2.1%",
+          "trend": "down",
+          "sparkline": [
+            30,
+            29,
+            28,
+            27,
+            27
+          ]
+        },
+        {
+          "label": "Avg Sales Cycle",
+          "value": "46 Days",
+          "delta": "-8%",
+          "trend": "up",
+          "sparkline": [
+            52,
+            50,
+            48,
+            47,
+            46
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Revenue by Region",
+        "labels": [
+          "North America",
+          "EMEA",
+          "APAC",
+          "LATAM"
+        ],
+        "series": [
+          {
+            "name": "Current Period",
+            "values": [
+              5200000,
+              3400000,
+              2500000,
+              1400000
+            ]
+          },
+          {
+            "name": "Prior Period",
+            "values": [
+              4800000,
+              3100000,
+              2200000,
+              1200000
+            ]
+          }
+        ]
+      },
+      "callouts": [
+        "North America exceeded quota at 102% while APAC showed fastest YoY growth (14%).",
+        "Enterprise Suite drives majority revenue but win rate declined in competitive deals.",
+        "Top quartile account managers close deals 18% faster and generate 1.6x pipeline coverage."
+      ],
+      "qa_candidates": [
+        {
+          "question": "Looking at the 'Q2 2026 Sales Performance' dashboard, what figure is shown for Revenue Attainment?",
+          "answer": "94% of $12.5M",
+          "assertions": [
+            {
+              "text": "The response must state '94% of $12.5M'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Q2 2026 Sales Performance' dashboard, which period badge is displayed?",
+          "answer": "Q2 2026",
+          "assertions": [
+            {
+              "text": "The response must state 'Q2 2026'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Q2 2026 Sales Performance' dashboard, what value is listed for Pipeline Coverage?",
+          "answer": "3.4x Quota",
+          "assertions": [
+            {
+              "text": "The response must state '3.4x Quota'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "type": "image",
+      "variant_id": "pict_0003_2f62b02e",
+      "figure_number": 20,
+      "image_path": "pict_0003_2f62b02e.png",
+      "subtype": "pictograph",
+      "caption": "Figure 20: Pictograph: Sales Performance Review Snapshot",
+      "title": "Sales Performance Review Snapshot",
+      "theme": "warm_amber",
+      "unit_label": "Each icon = 5% of total review focus",
+      "rows": [
+        {
+          "label": "Revenue Attainment (Region & Product)",
+          "value": 35
+        },
+        {
+          "label": "Pipeline Health",
+          "value": 25
+        },
+        {
+          "label": "Loss Analysis",
+          "value": 20
+        },
+        {
+          "label": "Sales Cycle & Productivity Metrics",
+          "value": 20
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Review Snapshot' pictograph, what does each icon represent?",
+          "answer": "Each icon = 5% of total review focus",
+          "assertions": [
+            {
+              "text": "The response must state 'Each icon = 5% of total review focus'."
+            }
+          ]
+        },
+        {
+          "question": "How many data rows are shown in the 'Sales Performance Review Snapshot'?",
+          "answer": "4",
+          "assertions": [
+            {
+              "text": "The response must state '4'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Review Snapshot', what value is shown for Pipeline Health?",
+          "answer": "25",
+          "assertions": [
+            {
+              "text": "The response must state '25'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "type": "image",
+      "variant_id": "mag_0003_188869e7",
+      "figure_number": 21,
+      "image_path": "mag_0003_188869e7.png",
+      "subtype": "magazine",
+      "caption": "Figure 21: Magazine: Sales Performance Snapshot",
+      "title": "Sales Performance Snapshot",
+      "theme": "burgundy_legal",
+      "hero_number": "112%",
+      "hero_label": "Overall Revenue Quota Attainment",
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Snapshot', what large percentage figure is shown as the hero number?",
+          "answer": "112%",
+          "assertions": [
+            {
+              "text": "The response must state '112%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Snapshot', what label describes what the headline 112% represents?",
+          "answer": "Overall Revenue Quota Attainment",
+          "assertions": [
+            {
+              "text": "The response must state 'Overall Revenue Quota Attainment'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Sales Performance Snapshot', what callout text appears about sustaining above-target growth?",
+          "answer": "Sustaining above-target growth will require improving win rates in mid-market segments while shortening late-stage sales cycles.",
+          "assertions": [
+            {
+              "text": "The response must state 'Sustaining above-target growth will require improving win rates in mid-market segments while shortening late-stage sales cycles.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "type": "image",
+      "variant_id": "mag_0004_75db7679",
+      "figure_number": 22,
+      "image_path": "mag_0004_75db7679.png",
+      "subtype": "magazine",
+      "caption": "Figure 22: Magazine: Sales Performance Snapshot",
+      "title": "Sales Performance Snapshot",
+      "theme": "healthcare_teal",
+      "hero_number": "92%",
+      "hero_label": "Overall revenue quota attainment",
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Snapshot', what percentage is shown as the prominent hero number?",
+          "answer": "92%",
+          "assertions": [
+            {
+              "text": "The response must state '92%'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Snapshot', what phrase labels the 92% figure?",
+          "answer": "Overall revenue quota attainment",
+          "assertions": [
+            {
+              "text": "The response must state 'Overall revenue quota attainment'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Sales Performance Snapshot', what callout text appears about actions critical to closing the remaining revenue gap next quarter?",
+          "answer": "Improving mid-market win rates and shortening late-stage cycles will be critical to closing the remaining revenue gap next quarter.",
+          "assertions": [
+            {
+              "text": "The response must state 'Improving mid-market win rates and shortening late-stage cycles will be critical to closing the remaining revenue gap next quarter.'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "type": "image",
+      "variant_id": "pict_0001_40dc27fd",
+      "figure_number": 23,
+      "image_path": "pict_0001_40dc27fd.png",
+      "subtype": "pictograph",
+      "caption": "Figure 23: Pictograph: Sales Performance Review Breakdown",
+      "title": "Sales Performance Review Breakdown",
+      "theme": "midnight_dark",
+      "unit_label": "Each icon = 5% of total review focus",
+      "rows": [
+        {
+          "label": "Revenue Attainment (Region & Product)",
+          "value": 25
+        },
+        {
+          "label": "Pipeline Health",
+          "value": 20
+        },
+        {
+          "label": "Loss Analysis",
+          "value": 20
+        },
+        {
+          "label": "Sales Cycle Metrics",
+          "value": 20
+        },
+        {
+          "label": "Account Manager Productivity",
+          "value": 15
+        }
+      ],
+      "qa_candidates": [
+        {
+          "question": "In the 'Sales Performance Review Breakdown', what does each icon represent?",
+          "answer": "Each icon = 5% of total review focus",
+          "assertions": [
+            {
+              "text": "The response must state 'Each icon = 5% of total review focus'."
+            }
+          ]
+        },
+        {
+          "question": "According to the 'Sales Performance Review Breakdown', what numerical value is listed for Revenue Attainment (Region & Product)?",
+          "answer": "25",
+          "assertions": [
+            {
+              "text": "The response must state '25'."
+            }
+          ]
+        },
+        {
+          "question": "On the 'Sales Performance Review Breakdown', what value is shown for Account Manager Productivity?",
+          "answer": "15",
+          "assertions": [
+            {
+              "text": "The response must state '15'."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "img_0000_399cf8ec": {
+      "kind": "image",
+      "perturbations": [
+        "watermark"
+      ],
+      "chart_type": "grouped_bar",
+      "chart_title": "Q2 2026 Revenue Attainment vs Target by Region",
+      "x_label": "Sales Region",
+      "y_label": "Revenue Attainment (% of Q2 2026 Target)",
+      "categories": [
+        "North America",
+        "EMEA",
+        "APAC",
+        "Latin America"
+      ],
+      "series_names": [
+        "Revenue Attainment (%)"
+      ],
+      "value_range": [
+        70,
+        120
+      ],
+      "trend": "volatile",
+      "filename": "img_0000_399cf8ec.png",
+      "image_path": "img_0000_399cf8ec.png",
+      "topic_id": "sales_performance_review"
+    },
+    "scan_llm_0001_d730f390": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_data_1c332b02.png",
+      "topic_id": ""
+    },
+    "cmp_0004_1739a23b": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Review Packages",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0004_1739a23b.png",
+      "topic_id": ""
+    },
+    "img_0005_8e3b7200": {
+      "kind": "image",
+      "perturbations": [
+        "rotation",
+        "blur"
+      ],
+      "chart_type": "ridgeline",
+      "chart_title": "Account Manager Productivity vs Quota Attainment (Q2 2026)",
+      "x_label": "Quota Attainment (% of Q2 2026 Quota)",
+      "y_label": "Weekly Customer-Facing Activities (Meetings + Calls)",
+      "categories": [
+        "SMB Account Managers",
+        "Mid-Market Account Managers",
+        "Enterprise Account Managers",
+        "Strategic Account Managers"
+      ],
+      "series_names": [
+        "Q2 2026 Account Managers"
+      ],
+      "value_range": [
+        40,
+        130
+      ],
+      "trend": "increasing",
+      "filename": "img_0005_8e3b7200.png",
+      "image_path": "img_0005_8e3b7200.png",
+      "topic_id": "sales_performance_review"
+    },
+    "scan_llm_0000_b4610059": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "scan_llm_text_97f43f81.png",
+      "topic_id": ""
+    },
+    "cmp_0002_539bd320": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Review Solutions",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0002_539bd320.png",
+      "topic_id": ""
+    },
+    "img_0001_79dbe3b4": {
+      "kind": "image",
+      "perturbations": [
+        "rotation",
+        "occlusion"
+      ],
+      "chart_type": "violin",
+      "chart_title": "Q2 2026 Revenue Attainment vs Target by Product Line",
+      "x_label": "Product Line",
+      "y_label": "Revenue Attainment (% of Q2 2026 Target)",
+      "categories": [
+        "Enterprise Software",
+        "Mid-Market Software",
+        "SMB Software",
+        "Professional Services",
+        "Support & Maintenance",
+        "Add-On Modules"
+      ],
+      "series_names": [
+        "Q2 2026 Attainment (%)"
+      ],
+      "value_range": [
+        85,
+        115
+      ],
+      "trend": "volatile",
+      "filename": "img_0001_79dbe3b4.png",
+      "image_path": "img_0001_79dbe3b4.png",
+      "topic_id": "sales_performance_review"
+    },
+    "dash_0002_1f7f7d4d": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Q2 2026 Sales Performance",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0002_1f7f7d4d.png",
+      "topic_id": ""
+    },
+    "img_0002_39e254ae": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "heatmap",
+      "chart_title": "Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)",
+      "x_label": "Lost)",
+      "y_label": "Sales Region",
+      "categories": [
+        "Qualified",
+        "Discovery",
+        "Solution Presented",
+        "Proposal Submitted",
+        "Negotiation",
+        "Closed Won",
+        "Closed Lost"
+      ],
+      "series_names": [
+        "North America",
+        "EMEA",
+        "APAC",
+        "LATAM"
+      ],
+      "value_range": [
+        5,
+        120
+      ],
+      "trend": "volatile",
+      "filename": "img_0002_39e254ae.png",
+      "image_path": "img_0002_39e254ae.png",
+      "topic_id": "sales_performance_review"
+    },
+    "dash_0003_61dd85a1": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Q2 2026 Sales Performance",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0003_61dd85a1.png",
+      "topic_id": ""
+    },
+    "img_0003_3155a2c8": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "stacked_area",
+      "chart_title": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)",
+      "x_label": "Primary Loss Reason",
+      "y_label": "Rate (% of Decisions)",
+      "categories": [
+        "Pricing Too High",
+        "Lost to Competitor",
+        "Missing Features",
+        " Status Quo",
+        "Implementation Concerns",
+        "Budget Constraints"
+      ],
+      "series_names": [
+        "Rate (% of Decisions)"
+      ],
+      "value_range": [
+        0,
+        45
+      ],
+      "trend": "volatile",
+      "filename": "img_0003_3155a2c8.png",
+      "image_path": "img_0003_3155a2c8.png",
+      "topic_id": "sales_performance_review"
+    },
+    "mag_0001_001388a2": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Snapshot",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "mag_0001_001388a2.png",
+      "topic_id": ""
+    },
+    "img_0004_da115cd9": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "bubble_scatter",
+      "chart_title": "Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)",
+      "x_label": "Region × Deal Size Band",
+      "y_label": "Sales Cycle Length (Days)",
+      "categories": [
+        "North America – SMB",
+        "North America – Mid-Market",
+        "North America – Enterprise",
+        "EMEA – SMB",
+        "EMEA – Mid-Market",
+        "EMEA – Enterprise",
+        "APAC – SMB",
+        "APAC – Mid-Market",
+        "APAC – Enterprise"
+      ],
+      "series_names": [
+        "Sales Cycle Distribution (Q2 2026 Closed Deals)"
+      ],
+      "value_range": [
+        30,
+        210
+      ],
+      "trend": "volatile",
+      "filename": "img_0004_da115cd9.png",
+      "image_path": "img_0004_da115cd9.png",
+      "topic_id": "sales_performance_review"
+    },
+    "mag_0000_b1ad5d67": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Snapshot",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "mag_0000_b1ad5d67.png",
+      "topic_id": ""
+    },
+    "cmp_0000_3a00008e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Review Comparison",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0000_3a00008e.png",
+      "topic_id": ""
+    },
+    "cmp_0003_07438c45": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Review Solutions",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "cmp_0003_07438c45.png",
+      "topic_id": ""
+    },
+    "dash_0001_e2c0c40f": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Q2 2026 Sales Performance",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0001_e2c0c40f.png",
+      "topic_id": ""
+    },
+    "pict_0004_3906c16a": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Review Snapshot",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "pict_0004_3906c16a.png",
+      "topic_id": ""
+    },
+    "dash_0000_de47a2e4": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Q2 2026 Sales Performance",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "dash_0000_de47a2e4.png",
+      "topic_id": ""
+    },
+    "pict_0003_2f62b02e": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Review Snapshot",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "pict_0003_2f62b02e.png",
+      "topic_id": ""
+    },
+    "mag_0003_188869e7": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Snapshot",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "mag_0003_188869e7.png",
+      "topic_id": ""
+    },
+    "mag_0004_75db7679": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Snapshot",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "mag_0004_75db7679.png",
+      "topic_id": ""
+    },
+    "pict_0001_40dc27fd": {
+      "kind": "image",
+      "perturbations": [],
+      "chart_type": "",
+      "chart_title": "Sales Performance Review Breakdown",
+      "x_label": "",
+      "y_label": "",
+      "categories": [],
+      "series_names": [],
+      "value_range": [],
+      "trend": "",
+      "filename": "",
+      "image_path": "pict_0001_40dc27fd.png",
+      "topic_id": ""
+    },
+    "cx_table_0002_c85aeff5": {
+      "kind": "table",
+      "perturbations": [],
+      "base_type": "",
+      "row_count": 25,
+      "col_count": 0,
+      "columns": [],
+      "topic_id": "sales_performance_review"
+    }
+  },
+  "inline_annotations": [],
+  "qa_candidates": [
+    {
+      "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", what does the Y-axis represent?",
+      "answer": "Revenue Attainment (% of Q2 2026 Target)",
+      "assertions": [
+        {
+          "text": "The response must state Revenue Attainment (% of Q2 2026 Target)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", what is the value range shown?",
+      "answer": "[70, 120]",
+      "assertions": [
+        {
+          "text": "The response must state [70, 120]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Region\", name one of the Sales Region categories.",
+      "answer": "APAC",
+      "assertions": [
+        {
+          "text": "The response must state APAC."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", what was the Revenue Attainment % for North America Core Subscription?",
+      "answer": "112%.",
+      "assertions": [
+        {
+          "text": "The response must state '112%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", how many rows are reported in the table?",
+      "answer": "12 rows.",
+      "assertions": [
+        {
+          "text": "The response must state '12 rows.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", what is the Avg Cycle (Days) for EMEA Enterprise Add-On?",
+      "answer": "91 days.",
+      "assertions": [
+        {
+          "text": "The response must state '91 days.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", did North America exceed plan according to the summary?",
+      "answer": "Yes — North America exceeded plan.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — North America exceeded plan.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q2 2026 Revenue & Pipeline Performance by Region and Product\", which North America product had the highest Win Rate and what was it?",
+      "answer": "Professional Services — 36%.",
+      "assertions": [
+        {
+          "text": "The response must state 'Professional Services — 36%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "On the 'Sales Performance Review Packages' diagram, which package is labeled as the recommended option?",
+      "answer": "Advanced Analytics Review",
+      "assertions": [
+        {
+          "text": "The response must state 'Advanced Analytics Review'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Review Packages', how many options are being compared?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Sales Performance Review Packages', which option appears second in the list of packages?",
+      "answer": "Advanced Analytics Review",
+      "assertions": [
+        {
+          "text": "The response must state 'Advanced Analytics Review'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Account Manager Productivity vs Quota Attainment (Q2 2026)\", what does the Y-axis represent?",
+      "answer": "Weekly Customer-Facing Activities (Meetings + Calls)",
+      "assertions": [
+        {
+          "text": "The response must state Weekly Customer-Facing Activities (Meetings + Calls)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Account Manager Productivity vs Quota Attainment (Q2 2026)\", what is the value range shown?",
+      "answer": "[40, 130]",
+      "assertions": [
+        {
+          "text": "The response must state [40, 130]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Account Manager Productivity vs Quota Attainment (Q2 2026)\", what is the overall trend indicated?",
+      "answer": "increasing",
+      "assertions": [
+        {
+          "text": "The response must state increasing."
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q2 FY2026 Sales Performance Review\", what was the total revenue closed in Q2 FY2026?",
+      "answer": "$84.7M.",
+      "assertions": [
+        {
+          "text": "The response must state '$84.7M.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q2 FY2026 Sales Performance Review\", what percentage of the quarterly target did Q2 revenue represent?",
+      "answer": "107%.",
+      "assertions": [
+        {
+          "text": "The response must state '107%.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q2 FY2026 Sales Performance Review\", how much revenue did North America deliver in Q2?",
+      "answer": "$51.3M.",
+      "assertions": [
+        {
+          "text": "The response must state '$51.3M.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "According to \"Q2 FY2026 Sales Performance Review\", which product line generated $62.5M in bookings?",
+      "answer": "Core subscriptions.",
+      "assertions": [
+        {
+          "text": "The response must state 'Core subscriptions.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "In the scanned document titled \"Q2 FY2026 Sales Performance Review\", did mid-funnel velocity improve and how did the average time in Stage 2 change?",
+      "answer": "Yes — average time in Stage 2 decreased from 21 days to 16 days.",
+      "assertions": [
+        {
+          "text": "The response must state 'Yes — average time in Stage 2 decreased from 21 days to 16 days.'.",
+          "level": "expected",
+          "metric": "Accuracy"
+        }
+      ]
+    },
+    {
+      "question": "Which option is shown as recommended in the 'Sales Performance Review Solutions' comparison diagram?",
+      "answer": "Professional Analytics Suite",
+      "assertions": [
+        {
+          "text": "The response must state 'Professional Analytics Suite'."
+        }
+      ]
+    },
+    {
+      "question": "How many options are compared on the 'Sales Performance Review Solutions' diagram?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "What is the subtitle displayed on the 'Sales Performance Review Solutions' element?",
+      "answer": "Comparison of reporting depth and analytics capabilities",
+      "assertions": [
+        {
+          "text": "The response must state 'Comparison of reporting depth and analytics capabilities'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Product Line\", what does the Y-axis represent?",
+      "answer": "Revenue Attainment (% of Q2 2026 Target)",
+      "assertions": [
+        {
+          "text": "The response must state Revenue Attainment (% of Q2 2026 Target)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Product Line\", what is the value range shown?",
+      "answer": "[85, 115]",
+      "assertions": [
+        {
+          "text": "The response must state [85, 115]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Q2 2026 Revenue Attainment vs Target by Product Line\", name one of the categories on the X-axis.",
+      "answer": "Enterprise Software",
+      "assertions": [
+        {
+          "text": "The response must state Enterprise Software."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Q2 2026 Sales Performance' dashboard, what is the value shown for the Revenue Attainment KPI?",
+      "answer": "$18.4M (102% of target)",
+      "assertions": [
+        {
+          "text": "The response must state '$18.4M (102% of target)'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Q2 2026 Sales Performance' dashboard, what is the Pipeline Coverage Ratio?",
+      "answer": "3.4x",
+      "assertions": [
+        {
+          "text": "The response must state '3.4x'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Q2 2026 Sales Performance' dashboard, what period badge is displayed?",
+      "answer": "Q2 2026",
+      "assertions": [
+        {
+          "text": "The response must state 'Q2 2026'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)\", what does the Y-axis represent?",
+      "answer": "Sales Region",
+      "assertions": [
+        {
+          "text": "The response must state Sales Region."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)\", what is the value range shown?",
+      "answer": "[5, 120]",
+      "assertions": [
+        {
+          "text": "The response must state [5, 120]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Pipeline Coverage and Stage Mix by Region (Q3 2026 Opening Pipeline)\", what is the chart type?",
+      "answer": "heatmap",
+      "assertions": [
+        {
+          "text": "The response must state heatmap."
+        }
+      ]
+    },
+    {
+      "question": "Viewing the 'Q2 2026 Sales Performance' dashboard as a reader, what amount is reported for Total Revenue?",
+      "answer": "$24.8M",
+      "assertions": [
+        {
+          "text": "The response must state '$24.8M'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Q2 2026 Sales Performance' dashboard, what subtitle appears under the title?",
+      "answer": "Revenue, Pipeline & Productivity Metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'Revenue, Pipeline & Productivity Metrics'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Q2 2026 Sales Performance' dashboard, which callout notes the region with the strongest pipeline growth?",
+      "answer": "Pipeline growth strongest in EMEA (+18% QoQ)",
+      "assertions": [
+        {
+          "text": "The response must state 'Pipeline growth strongest in EMEA (+18% QoQ)'."
+        }
+      ]
+    },
+    {
+      "question": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)\", what does the Y-axis represent?",
+      "answer": "Rate (% of Decisions)",
+      "assertions": [
+        {
+          "text": "The response must state Rate (% of Decisions)."
+        }
+      ]
+    },
+    {
+      "question": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)\", what is the value range shown?",
+      "answer": "[0, 45]",
+      "assertions": [
+        {
+          "text": "The response must state [0, 45]."
+        }
+      ]
+    },
+    {
+      "question": "Loss Rate by Primary Loss Reason (Last 90 Days Ending 2026-06-30)\", which category is listed on the X-axis?",
+      "answer": "Pricing Too High",
+      "assertions": [
+        {
+          "text": "The response must state Pricing Too High."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Snapshot' magazine-style infographic, what large headline number is shown?",
+      "answer": "92.4%",
+      "assertions": [
+        {
+          "text": "The response must state '92.4%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Snapshot', what does the hero number represent (the hero label)?",
+      "answer": "Overall Revenue Attainment",
+      "assertions": [
+        {
+          "text": "The response must state 'Overall Revenue Attainment'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Sales Performance Snapshot', what callout text explains what will be critical to surpass next quarter’s revenue target?",
+      "answer": "Improving win rates in underperforming regions and shortening late-stage cycle times will be critical to surpass next quarter’s revenue target.",
+      "assertions": [
+        {
+          "text": "The response must state 'Improving win rates in underperforming regions and shortening late-stage cycle times will be critical to surpass next quarter’s revenue target.'."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)\", what does the Y-axis represent?",
+      "answer": "Sales Cycle Length (Days)",
+      "assertions": [
+        {
+          "text": "The response must state Sales Cycle Length (Days)."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)\", what is the value range shown?",
+      "answer": "[30, 210]",
+      "assertions": [
+        {
+          "text": "The response must state [30, 210]."
+        }
+      ]
+    },
+    {
+      "question": "In the chart titled \"Median Sales Cycle Length by Region and Deal Size Band (Q2 2026 Closed Deals)\", what is the trend described?",
+      "answer": "volatile",
+      "assertions": [
+        {
+          "text": "The response must state volatile."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Snapshot' infographic, what percentage is shown as the hero number?",
+      "answer": "94.2%",
+      "assertions": [
+        {
+          "text": "The response must state '94.2%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Snapshot', what label describes the hero number?",
+      "answer": "Total Revenue Target Attainment",
+      "assertions": [
+        {
+          "text": "The response must state 'Total Revenue Target Attainment'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Sales Performance Snapshot' magazine-style infographic, what is the callout text shown?",
+      "answer": "Improving win rates in underperforming regions presents the fastest path to exceeding next quarter’s revenue target.",
+      "assertions": [
+        {
+          "text": "The response must state 'Improving win rates in underperforming regions presents the fastest path to exceeding next quarter’s revenue target.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Review Comparison', which option is shown as the recommended choice?",
+      "answer": "Professional Analytics",
+      "assertions": [
+        {
+          "text": "The response must state 'Professional Analytics'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Review Comparison', how many options are compared?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Sales Performance Review Comparison', what is the subtitle displayed under the title?",
+      "answer": "Regional, product, and productivity analytics tiers",
+      "assertions": [
+        {
+          "text": "The response must state 'Regional, product, and productivity analytics tiers'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Review Solutions' comparison, which option is marked as recommended?",
+      "answer": "Advanced Sales Analytics",
+      "assertions": [
+        {
+          "text": "The response must state 'Advanced Sales Analytics'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Review Solutions', how many options are compared?",
+      "answer": "3",
+      "assertions": [
+        {
+          "text": "The response must state '3'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Sales Performance Review Solutions' diagram, what subtitle is shown?",
+      "answer": "Comparison of reporting depth, analytics, and productivity insights",
+      "assertions": [
+        {
+          "text": "The response must state 'Comparison of reporting depth, analytics, and productivity insights'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Q2 2026 Sales Performance' dashboard, what value is shown for Pipeline Coverage?",
+      "answer": "3.4x",
+      "assertions": [
+        {
+          "text": "The response must state '3.4x'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Q2 2026 Sales Performance' dashboard, what is the subtitle displayed under the title?",
+      "answer": "Revenue, Pipeline & Productivity Metrics",
+      "assertions": [
+        {
+          "text": "The response must state 'Revenue, Pipeline & Productivity Metrics'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Q2 2026 Sales Performance' dashboard, what is the value listed for Revenue Attainment?",
+      "answer": "$24.8M (103% of target)",
+      "assertions": [
+        {
+          "text": "The response must state '$24.8M (103% of target)'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Review Snapshot', what does a single icon denote?",
+      "answer": "Each icon = 5% of total performance weight",
+      "assertions": [
+        {
+          "text": "The response must state 'Each icon = 5% of total performance weight'."
+        }
+      ]
+    },
+    {
+      "question": "How many data rows are shown in the 'Sales Performance Review Snapshot'?",
+      "answer": "5 rows",
+      "assertions": [
+        {
+          "text": "The response must state '5 rows'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Review Snapshot', what value is listed for Sales Cycle Metrics?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    },
+    {
+      "question": "Looking at the 'Q2 2026 Sales Performance' dashboard, what figure is shown for Revenue Attainment?",
+      "answer": "94% of $12.5M",
+      "assertions": [
+        {
+          "text": "The response must state '94% of $12.5M'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Q2 2026 Sales Performance' dashboard, which period badge is displayed?",
+      "answer": "Q2 2026",
+      "assertions": [
+        {
+          "text": "The response must state 'Q2 2026'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Q2 2026 Sales Performance' dashboard, what value is listed for Pipeline Coverage?",
+      "answer": "3.4x Quota",
+      "assertions": [
+        {
+          "text": "The response must state '3.4x Quota'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Review Snapshot' pictograph, what does each icon represent?",
+      "answer": "Each icon = 5% of total review focus",
+      "assertions": [
+        {
+          "text": "The response must state 'Each icon = 5% of total review focus'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Review Snapshot', what value is shown for Pipeline Health?",
+      "answer": "25",
+      "assertions": [
+        {
+          "text": "The response must state '25'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Snapshot', what large percentage figure is shown as the hero number?",
+      "answer": "112%",
+      "assertions": [
+        {
+          "text": "The response must state '112%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Snapshot', what label describes what the headline 112% represents?",
+      "answer": "Overall Revenue Quota Attainment",
+      "assertions": [
+        {
+          "text": "The response must state 'Overall Revenue Quota Attainment'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Sales Performance Snapshot', what callout text appears about sustaining above-target growth?",
+      "answer": "Sustaining above-target growth will require improving win rates in mid-market segments while shortening late-stage sales cycles.",
+      "assertions": [
+        {
+          "text": "The response must state 'Sustaining above-target growth will require improving win rates in mid-market segments while shortening late-stage sales cycles.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Snapshot', what percentage is shown as the prominent hero number?",
+      "answer": "92%",
+      "assertions": [
+        {
+          "text": "The response must state '92%'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Snapshot', what phrase labels the 92% figure?",
+      "answer": "Overall revenue quota attainment",
+      "assertions": [
+        {
+          "text": "The response must state 'Overall revenue quota attainment'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Sales Performance Snapshot', what callout text appears about actions critical to closing the remaining revenue gap next quarter?",
+      "answer": "Improving mid-market win rates and shortening late-stage cycles will be critical to closing the remaining revenue gap next quarter.",
+      "assertions": [
+        {
+          "text": "The response must state 'Improving mid-market win rates and shortening late-stage cycles will be critical to closing the remaining revenue gap next quarter.'."
+        }
+      ]
+    },
+    {
+      "question": "In the 'Sales Performance Review Breakdown', what does each icon represent?",
+      "answer": "Each icon = 5% of total review focus",
+      "assertions": [
+        {
+          "text": "The response must state 'Each icon = 5% of total review focus'."
+        }
+      ]
+    },
+    {
+      "question": "According to the 'Sales Performance Review Breakdown', what numerical value is listed for Revenue Attainment (Region & Product)?",
+      "answer": "25",
+      "assertions": [
+        {
+          "text": "The response must state '25'."
+        }
+      ]
+    },
+    {
+      "question": "On the 'Sales Performance Review Breakdown', what value is shown for Account Manager Productivity?",
+      "answer": "15",
+      "assertions": [
+        {
+          "text": "The response must state '15'."
+        }
+      ]
+    }
+  ]
+}
