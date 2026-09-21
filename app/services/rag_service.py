@@ -12,7 +12,6 @@ import re
 import time
 import json
 import logging
-from pathlib import Path
 import urllib.request
 import urllib.error
 from typing import List, Dict, Any, Optional
@@ -24,6 +23,7 @@ from app.core.config import (
     TOP_K,
 )
 from app.services.retrieval_service import RetrievalService
+from app.services.evidence_service import EvidenceService
 
 logger = logging.getLogger("rag_service")
 
@@ -70,6 +70,7 @@ class RagService:
         self.api_key = (api_key or NGC_API_KEY or "").strip()
         self.base_url = (base_url or NIM_BASE_URL or "https://integrate.api.nvidia.com/v1").rstrip("/")
         self.model = model or LLM_RAG_MODEL or "meta/llama-3.3-70b-instruct"
+        self.evidence = EvidenceService()
 
     # ── Guardrail helper ───────────────────────────────────────────────────────
     def _is_chitchat(self, question: str) -> bool:
@@ -94,8 +95,10 @@ class RagService:
         Tính điểm trùng khớp ý định (Intent Overlap Score) giữa câu hỏi và chunk tài liệu.
         Ngăn chặn bẫy từ khóa phụ (Lexical Overlap Trap) kéo theo các chunk sai intent.
         """
+        # Kept for backwards compatibility with callers/tests.  The filename
+        # argument is intentionally ignored: relevance must be content-only.
         q_lower = query.lower()
-        full_text = (doc_name + " " + content).lower()
+        full_text = content.lower()
         stop_words = {
             "và", "hoặc", "thì", "có", "được", "không", "k", "ko", "về", "việc", 
             "sau", "khi", "nhận", "cho", "của", "tại", "ở", "các", "những", 
@@ -159,6 +162,35 @@ class RagService:
             document_id=document_id,
         )
 
+        # Content-only evidence gate.  Retrieval may return related-looking
+        # chunks, but generation is allowed only when the content itself is
+        # relevant, sufficiently covering the question, and consistent.
+        reranked_chunks = self.evidence.rerank(q, raw_chunks)
+        matched_chunks = [
+            chunk for chunk in reranked_chunks
+            if chunk.get("content_relevance_score", 0.0) >= 0.12
+        ][:max(1, min(top_k, 8))]
+        evidence_state = self.evidence.assess(q, matched_chunks)
+
+        if matched_chunks and evidence_state.relevance != "IRRELEVANT" and not evidence_state.answerability:
+            missing = ", ".join(evidence_state.missing_requirements[:3])
+            if evidence_state.consistency == "CONFLICTING":
+                message = "Các tài liệu liên quan đang có nội dung mâu thuẫn; chưa thể trả lời chắc chắn nếu chưa xác định phiên bản hoặc ngày hiệu lực."
+                decision = "RESOLVE_CONFLICT"
+            else:
+                message = "Tài liệu liên quan hiện chưa có đủ nội dung để trả lời câu hỏi."
+                decision = "RETRIEVE_MORE" if evidence_state.coverage == "PARTIAL" else "ABSTAIN"
+            if missing:
+                message += f" Nội dung còn thiếu: {missing}."
+            return {
+                "answer": message,
+                "sources": [],
+                "retrieved_chunks": matched_chunks,
+                "evidence": evidence_state.to_dict(),
+                "decision": decision,
+                "execution_time_seconds": round(time.time() - t0, 2),
+            }
+
         if not raw_chunks:
             return {
                 "answer": "Không tìm thấy thông tin hoặc tài liệu nào liên quan trong cơ sở dữ liệu để trả lời câu hỏi của bạn.",
@@ -166,27 +198,8 @@ class RagService:
                 "execution_time_seconds": round(time.time() - t0, 2),
             }
 
-        # ── RELEVANCE GATING & INTENT OVERLAP ──────────────────────────────────
-        # Tính điểm trùng khớp ý định để khắc phục Lexical Overlap Trap (bẫy từ khóa rác)
-        scored_chunks = []
-        max_intent = 0.0
-        for c in raw_chunks:
-            fname = c.get("original_filename") or c.get("file_name") or ""
-            content = c.get("content") or ""
-            intent_s = self._compute_intent_overlap(q, fname, content)
-            if intent_s > max_intent:
-                max_intent = intent_s
-            scored_chunks.append((c, intent_s))
-
-        matched_chunks = []
-        for c, intent_s in scored_chunks:
-            sim = c.get("similarity_score", 0.0)
-            if sim < 0.50:
-                continue
-            # Nếu có chunk đạt intent cao, loại bỏ các chunk bị bẫy từ khóa rác kéo vào
-            if max_intent >= 5.0 and intent_s < (max_intent * 0.35):
-                continue
-            matched_chunks.append(c)
+        # The content-only evidence gate above is the single relevance gate.
+        # Do not re-filter by a filename-aware or similarity-only heuristic.
 
         if not matched_chunks:
             return {
@@ -211,9 +224,8 @@ class RagService:
             content = re.sub(r'lao động yết\b', 'lao động và niêm yết', content)
             content = re.sub(r'xác nhận và niêm\s*$', 'xác nhận: ', content)
 
-            clean_doc_name = Path(file_name).stem.replace("_", " ")
             context_blocks.append(
-                f"[ĐOẠN TRÍCH #{idx+1} - Văn bản: {clean_doc_name} | Trang: {page}]\n{content}"
+                f"[EVIDENCE #{idx+1} | Trang: {page}]\n{content}"
             )
             sources.append({
                 "document_id": doc_id,
@@ -276,6 +288,9 @@ class RagService:
             "answer": answer,
             "sources": sources,
             "total_chunks_retrieved": len(matched_chunks),
+            "retrieved_chunks": matched_chunks,
+            "evidence": evidence_state.to_dict(),
+            "decision": "ANSWER",
             "execution_time_seconds": elapsed,
         }
 
