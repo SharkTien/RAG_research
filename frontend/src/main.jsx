@@ -6,7 +6,7 @@ import { Document, Page, pdfjs } from 'react-pdf'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 import 'react-pdf/dist/esm/Page/TextLayer.css'
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`
+pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs'
 
 // ─── UTILITIES & HELPERS ────────────────────────────────────────────────────────
 
@@ -297,6 +297,50 @@ export default function App() {
       .catch(() => setLoadingExtraction(false))
   }, [selectedDocId])
 
+  // PDF Blob URL state
+  const [pdfBlobUrl, setPdfBlobUrl] = useState(null)
+  const [pdfLoading, setPdfLoading] = useState(false)
+  const [pdfError, setPdfError] = useState(null)
+
+  useEffect(() => {
+    if (!currentDoc?.id) {
+      setPdfBlobUrl(null)
+      return
+    }
+    let isSubscribed = true
+    setPdfLoading(true)
+    setPdfError(null)
+
+    // Fetch PDF file with credentials
+    fetch(`/api/documents/${currentDoc.id}/preview`, { credentials: 'include' })
+      .then(res => {
+        if (!res.ok) {
+          return fetch(`/api/documents/${currentDoc.id}/content`, { credentials: 'include' })
+        }
+        return res
+      })
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        return res.blob()
+      })
+      .then(blob => {
+        if (!isSubscribed) return
+        const url = URL.createObjectURL(blob)
+        setPdfBlobUrl(url)
+        setPdfLoading(false)
+      })
+      .catch(err => {
+        if (!isSubscribed) return
+        console.error('Lỗi khi tải PDF:', err)
+        setPdfError(err.message)
+        setPdfLoading(false)
+      })
+
+    return () => {
+      isSubscribed = false
+    }
+  }, [currentDoc?.id])
+
   // Real Upload Handler
   const handleFileUpload = async (files) => {
     if (!files || files.length === 0) return
@@ -561,28 +605,40 @@ export default function App() {
                   <div className="hero-preview-box p-3 min-h-[175px] relative overflow-hidden flex items-center justify-between">
                     {/* Left: Real Page 1 Rendered Thumbnail */}
                     <div className="w-44 h-36 rounded-2xl overflow-hidden shadow-xs flex items-center justify-center relative bg-white dark:bg-zinc-900 border border-black/5 dark:border-white/10">
-                      <Document
-                        file={`/api/documents/${currentDoc.id}/file`}
-                        loading={
-                          <div className="text-[10px] text-[var(--text-muted)] flex flex-col items-center gap-1">
-                            <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
-                            Đang nạp trang 1...
-                          </div>
-                        }
-                        error={
-                          <div className="text-[10px] text-[var(--text-muted)] p-2 text-center">
-                            <Icon name="fileText" className="w-8 h-8 text-blue-500 mx-auto mb-1" />
-                            <span>{getDocName(currentDoc).slice(0, 20)}</span>
-                          </div>
-                        }
-                      >
-                        <Page
-                          pageNumber={1}
-                          width={170}
-                          renderTextLayer={false}
-                          renderAnnotationLayer={false}
-                        />
-                      </Document>
+                      {pdfBlobUrl ? (
+                        <Document
+                          file={pdfBlobUrl}
+                          loading={
+                            <div className="text-[10px] text-[var(--text-muted)] flex flex-col items-center gap-1">
+                              <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                              Đang nạp trang 1...
+                            </div>
+                          }
+                          error={
+                            <div className="text-[10px] text-[var(--text-muted)] p-2 text-center">
+                              <Icon name="fileText" className="w-8 h-8 text-blue-500 mx-auto mb-1" />
+                              <span className="block truncate max-w-[120px]">{getDocName(currentDoc)}</span>
+                            </div>
+                          }
+                        >
+                          <Page
+                            pageNumber={1}
+                            width={170}
+                            renderTextLayer={false}
+                            renderAnnotationLayer={false}
+                          />
+                        </Document>
+                      ) : pdfLoading ? (
+                        <div className="text-[10px] text-[var(--text-muted)] flex flex-col items-center gap-1">
+                          <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                          Đang kết xuất PDF...
+                        </div>
+                      ) : (
+                        <div className="text-[10px] text-[var(--text-muted)] p-2 text-center">
+                          <Icon name="fileText" className="w-8 h-8 text-blue-500 mx-auto mb-1" />
+                          <span className="block truncate max-w-[120px]">{getDocName(currentDoc)}</span>
+                        </div>
+                      )}
                     </div>
 
                     {/* Right Stacked Page Indicators */}
@@ -1025,11 +1081,22 @@ export default function App() {
                 </div>
 
                 <div className="flex-1 overflow-auto flex items-center justify-center bg-zinc-100 dark:bg-zinc-900 rounded-2xl p-4">
-                  {currentDoc ? (
+                  {pdfBlobUrl ? (
                     <Document
-                      file={`/api/documents/${currentDoc.id}/file`}
+                      file={pdfBlobUrl}
                       onLoadSuccess={({ numPages: n }) => setNumPages(n)}
                       className="shadow-md rounded-lg overflow-hidden"
+                      loading={
+                        <div className="text-xs text-[var(--text-muted)] flex items-center gap-2">
+                          <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                          Đang tải trang PDF...
+                        </div>
+                      }
+                      error={
+                        <div className="text-xs text-rose-500 p-4 text-center">
+                          Không thể hiển thị PDF trực tiếp trong trình duyệt.
+                        </div>
+                      }
                     >
                       <Page
                         pageNumber={currentPage}
@@ -1042,6 +1109,11 @@ export default function App() {
                         }}
                       />
                     </Document>
+                  ) : pdfLoading ? (
+                    <div className="text-xs text-[var(--text-muted)] flex items-center gap-2">
+                      <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                      Đang chuẩn bị tệp PDF...
+                    </div>
                   ) : (
                     <p className="text-xs text-[var(--text-muted)]">Chưa chọn tệp PDF</p>
                   )}

@@ -185,6 +185,16 @@ def preview_document(
         shutil.rmtree(workdir, ignore_errors=True)
         raise HTTPException(500, f"Không thể tạo bản xem trước: {exc}")
 
+@router.get("/{document_id}/file")
+def get_document_file_alias(
+    document_id: uuid.UUID,
+    user: str = Depends(get_current_user),
+    repo: DocumentRepository = Depends(get_document_repo),
+    storage: StorageManager = Depends(get_storage),
+):
+    """Alias for previewing/downloading document file."""
+    return preview_document(document_id, user, repo, storage)
+
 @router.post("/{document_id}/extract")
 def manual_extract_document(
     document_id: uuid.UUID, 

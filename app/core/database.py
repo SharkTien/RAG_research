@@ -86,6 +86,28 @@ class DatabaseManager:
                         CREATE INDEX IF NOT EXISTS idx_chunks_doc_id ON document_chunks(document_id);
                     ''')
 
+                # Create conversations and messages tables
+                conn.execute('''
+                    CREATE TABLE IF NOT EXISTS conversations (
+                        id UUID PRIMARY KEY,
+                        title TEXT NOT NULL,
+                        username TEXT DEFAULT 'admin',
+                        created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+                        updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+                    );
+                    CREATE TABLE IF NOT EXISTS messages (
+                        id UUID PRIMARY KEY,
+                        conversation_id UUID REFERENCES conversations(id) ON DELETE CASCADE,
+                        role TEXT NOT NULL CHECK (role IN ('user', 'assistant', 'system')),
+                        content TEXT NOT NULL,
+                        sources JSONB,
+                        retrieved_chunks JSONB,
+                        created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+                    );
+                    CREATE INDEX IF NOT EXISTS idx_messages_conversation_id ON messages(conversation_id);
+                    CREATE INDEX IF NOT EXISTS idx_conversations_updated_at ON conversations(updated_at DESC);
+                ''')
+
                 # Create users table
                 conn.execute('''
                     CREATE TABLE IF NOT EXISTS users (

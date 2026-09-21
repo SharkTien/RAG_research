@@ -7,7 +7,7 @@ from starlette.middleware.base import BaseHTTPMiddleware
 
 from app.core.database import DatabaseManager
 from app.core.storage import StorageManager
-from app.api.routers import auth, documents, query
+from app.api.routers import auth, documents, query, conversations
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -38,11 +38,21 @@ os.makedirs("frontend/dist/assets", exist_ok=True)
 templates = Jinja2Templates(directory="frontend/dist")
 app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
 
+@app.get("/pdf.worker.min.mjs")
+def get_pdf_worker():
+    for p in ["frontend/dist/pdf.worker.min.mjs", "frontend/public/pdf.worker.min.mjs"]:
+        if os.path.exists(p):
+            from fastapi.responses import FileResponse
+            return FileResponse(p, media_type="application/javascript")
+    from fastapi import HTTPException
+    raise HTTPException(404, "Worker not found")
+
 # Include Routers
 app.include_router(auth.router)
 app.include_router(documents.router)
 app.include_router(query.router)
 app.include_router(query.router, prefix="/api")
+app.include_router(conversations.router)
 
 @app.get("/health")
 def health():

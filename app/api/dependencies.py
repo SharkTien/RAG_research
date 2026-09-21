@@ -8,8 +8,15 @@ from app.services.document_service import DocumentService
 from app.services.extract_service import ExtractService
 
 def get_current_user(request: Request) -> str:
-    # 1. Get JWT from cookie
+    # 1. Get JWT from cookie, Authorization header, or query param
     token = request.cookies.get("access_token")
+    if not token:
+        auth_header = request.headers.get("authorization", "")
+        if auth_header.startswith("Bearer "):
+            token = auth_header[7:].strip()
+    if not token:
+        token = request.query_params.get("token")
+        
     if not token:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Không tìm thấy phiên đăng nhập")
         
@@ -76,4 +83,9 @@ def get_rag_service(
     retriever: RetrievalService = Depends(get_retrieval_service)
 ) -> RagService:
     return RagService(retriever)
+
+from app.repositories.conversation_repo import ConversationRepository
+
+def get_conversation_repo(db: DatabaseManager = Depends(get_database)) -> ConversationRepository:
+    return ConversationRepository(db)
 
